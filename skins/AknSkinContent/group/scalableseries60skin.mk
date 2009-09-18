@@ -95,7 +95,7 @@ CLEANLIB : do_nothing
 
 RESOURCE :
 	cd $(AKNSSRCDIR) && \
-	mifconv $(AKNSSKINREALNAME).mif /F$(AKNSDATAGENDIR)\$(AKNSSKINREALNAME)_MIFList.txt && \
+	mifconv $(AKNSSKINREALNAME).mif -v3 /F$(AKNSDATAGENDIR)\$(AKNSSKINREALNAME)_MIFList.txt && \
 	MifToCdlIndex -p..\..\srcdata\scalableseries60skin\MifIndexDll -s $(AKNSSKINREALNAME).mif $(AKNSSKINREALNAME)IndexDll 0x$(AKNSSKINUID) && \
 	perl -S ecopyfile.pl $(AKNSSKINREALNAME).mbm $(AKNSDATAGENDIR)\$(AKNSSKINREALNAME).mbm && \
 	perl -S ecopyfile.pl $(AKNSSKINREALNAME).mif $(AKNSDATAGENDIR)\$(AKNSSKINREALNAME).mif && \
