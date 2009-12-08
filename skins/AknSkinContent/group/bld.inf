@@ -55,8 +55,8 @@ PRJ_EXPORTS
   ./skingenerator.meta                      /epoc32/tools/makefile_templates/skins/skingenerator.meta
   ./skingenerator.xml                       /epoc32/tools/makefile_templates/skins/skingenerator.xml
 
-  :zip ../srcdata/haze/haze.zip             |../srcdata/haze
-  :zip ../srcdata/jing/jing.zip             |../srcdata/jing
+  :zip ../srcdata/haze/haze.zip             /epoc32/s60/skins/haze
+  :zip ../srcdata/jing/jing.zip             /epoc32/s60/skins/jing
 #endif
 
 PRJ_EXTENSIONS
@@ -66,19 +66,19 @@ START EXTENSION skins/skingenerator
   OPTION AKNSSKINNAME scalableseries60skin
   OPTION AKNSSKINREALNAME series60skin
   OPTION AKNSSKINUID 101f84b9
-  OPTION AKNSSRCDIR ../srcdata/scalableseries60skin
+  OPTION AKNSSRCDIR $(EXTENSION_ROOT)/../srcdata/scalableseries60skin
 END
 START EXTENSION skins/skingenerator
   OPTION AKNSSKINNAME jing
   OPTION AKNSSKINREALNAME jing
   OPTION AKNSSKINUID 2000B12E
-  OPTION AKNSSRCDIR ../srcdata/jing
+  OPTION AKNSSRCDIR $(EPOCROOT)/epoc32/s60/skins/jing
 END
 START EXTENSION skins/skingenerator
   OPTION AKNSSKINNAME haze
   OPTION AKNSSKINREALNAME haze
   OPTION AKNSSKINUID 2000B12D
-  OPTION AKNSSRCDIR ../srcdata/haze
+  OPTION AKNSSRCDIR $(EPOCROOT)/epoc32/s60/skins/haze
 END
 START EXTENSION s60/mif2cdlindex
   OPTION TARGETFILE series60skinindexdll_inst.cpp
