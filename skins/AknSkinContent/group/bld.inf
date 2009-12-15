@@ -57,6 +57,24 @@ PRJ_EXPORTS
 
   :zip ../srcdata/haze/haze.zip             /epoc32/s60/skins/haze
   :zip ../srcdata/jing/jing.zip             /epoc32/s60/skins/jing
+
+//MattD 200912015 - Really nasty workaround for ${EXTENSION_ROOT} having a getting the wrong value during a platform build.
+//Exporting the default skin and running it from the epoc32/s60/skins location like the other ones... 
+  
+../srcdata/scalableseries60skin/scalableseries60skin.txt                      /epoc32/s60/skins/scalableseries60skin/
+../srcdata/scalableseries60skin/gfx/qgn_graf_bg_gene.svg                      /epoc32/s60/skins/scalableseries60skin/gfx/
+../srcdata/scalableseries60skin/gfx/qgn_graf_dim_wipe_lsc_left.bmp            /epoc32/s60/skins/scalableseries60skin/gfx/
+../srcdata/scalableseries60skin/gfx/qgn_graf_dim_wipe_lsc_left_mask_soft.bmp  /epoc32/s60/skins/scalableseries60skin/gfx/
+../srcdata/scalableseries60skin/gfx/qgn_graf_idle_fade.bmp                    /epoc32/s60/skins/scalableseries60skin/gfx/
+../srcdata/scalableseries60skin/gfx/qgn_graf_idle_fade_lsc.bmp                /epoc32/s60/skins/scalableseries60skin/gfx/
+../srcdata/scalableseries60skin/gfx/qgn_graf_idle_fade_lsc_mask_soft.bmp      /epoc32/s60/skins/scalableseries60skin/gfx/
+../srcdata/scalableseries60skin/gfx/qgn_graf_idle_fade_mask_soft.bmp          /epoc32/s60/skins/scalableseries60skin/gfx/
+../srcdata/scalableseries60skin/gfx-ah/qgn_graf_idle_fade.bmp                 /epoc32/s60/skins/scalableseries60skin/gfx-ah/
+../srcdata/scalableseries60skin/gfx-ah/qgn_graf_idle_fade_mask_soft.bmp       /epoc32/s60/skins/scalableseries60skin/gfx-ah/
+../srcdata/scalableseries60skin/gfx-ah/qgn_graf_pb_status_backg.bmp           /epoc32/s60/skins/scalableseries60skin/gfx-ah/
+../srcdata/scalableseries60skin/gfx-ah/qgn_graf_pb_status_backg_mask.bmp      /epoc32/s60/skins/scalableseries60skin/gfx-ah/
+../srcdata/scalableseries60skin/gfx-ah/qgn_graf_simpd_status_backg.bmp        /epoc32/s60/skins/scalableseries60skin/gfx-ah/
+../srcdata/scalableseries60skin/gfx-ah/qgn_graf_simpd_status_backg_mask.bmp   /epoc32/s60/skins/scalableseries60skin/gfx-ah/
 #endif
 
 PRJ_EXTENSIONS
@@ -66,7 +84,8 @@ START EXTENSION skins/skingenerator
   OPTION AKNSSKINNAME scalableseries60skin
   OPTION AKNSSKINREALNAME series60skin
   OPTION AKNSSKINUID 101f84b9
-  OPTION AKNSSRCDIR $(EXTENSION_ROOT)/../srcdata/scalableseries60skin
+//OPTION AKNSSRCDIR $(EXTENSION_ROOT)/../srcdata/scalableseries60skin  
+  OPTION AKNSSRCDIR $(EPOCROOT)/epoc32/s60/skins/scalableseries60skin
 END
 START EXTENSION skins/skingenerator
   OPTION AKNSSKINNAME jing
