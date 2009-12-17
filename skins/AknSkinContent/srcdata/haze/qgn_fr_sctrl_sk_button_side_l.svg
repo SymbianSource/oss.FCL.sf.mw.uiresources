@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="20" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 20 32" height="32" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <polygon fill="#5f9ea0" points="20,32 20,0 0,0 0,32 20,32  "/>
+        <rect width="1" fill="#006400" height="32" fill-opacity="0.7" stroke-opacity="0.7"/>
+    </g>
+</svg>

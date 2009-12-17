@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="54" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 54 54" height="54" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <rect width="54" fill="none" height="54"/>
+        </g>
+        <g>
+            <polygon fill="#ffffff" points="49.46,32.592 40.2,26.412 40.2,9.17 4.54,9.17 4.54,44.832 34.902,44.832 34.902,42.49     40.2,38.773   "/>
+            <polygon fill="#840000" points="45.79,32.592 35.105,39.725 35.105,25.461   "/>
+            <polygon fill="#840000" points="9.634,39.738 9.634,14.266 35.105,14.266 35.105,21.785 38.163,23.822 38.163,11.209     6.578,11.209 6.578,42.795 32.05,42.795 32.05,39.738   "/>
+            <rect x="12.69" width="8.151" fill="#840000" y="17.322" height="8.152"/>
+            <rect x="23.898" width="8.151" fill="#840000" y="17.322" height="8.152"/>
+            <rect x="12.69" width="8.151" fill="#840000" y="28.531" height="8.15"/>
+            <rect x="23.898" width="8.151" fill="#840000" y="28.531" height="8.15"/>
+        </g>
+    </g>
+</svg>

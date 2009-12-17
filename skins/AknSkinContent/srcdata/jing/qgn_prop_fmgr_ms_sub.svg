@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="84" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 84 58" height="58" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect width="84" fill="none" height="58"/>
+        <g>
+            <path fill="#ffffff" d="M 22.871 12.231 C 22.871 12.231 22.95 15.818 22.968 16.645 C 22.472 16.938 21.238 17.669 21.238 17.669 L 21.587002 29.422 L 23.146002 29.965 C 23.146002 29.965 23.212002 29.917 23.259005 29.884 C 23.304005 31.923 23.382002 35.462 23.397003 36.158 C 22.958004 36.455 21.886003 37.181 21.886003 37.181 L 21.917004 44.706 L 22.416004 44.919003 C 22.416004 45.642 22.543003 46.362003 22.794004 47.064003 C 23.843004 49.995003 26.681004 51.859 31.000004 53.041004 C 34.958004 54.124004 39.875004 53.916004 43.167004 52.666004 C 43.626003 52.805004 51.078003 55.053005 51.078003 55.053005 L 67.823006 36.71201 L 68.0 28.507 C 68.0 28.507 52.77 25.208 51.441 24.921 C 51.441 23.541 51.441 4.5219994 51.441 4.5219994 L 42.316 3.3489995 L 22.871 12.231 z "/>
+            <g>
+                <polygon fill="#ad832f" points="33.248,41.337 33.248,15.121 23.805,12.817 24.381,39.034    "/>
+                <polygon fill="#3e2a08" points="27.029,27.647 26.799,15.733 24.727,15.26 25.162,27.174    "/>
+                <polygon fill="#3e2a08" points="30.638,24.731 30.522,16.617 28.45,16.143 28.77,24.258    "/>
+                <polygon fill="#3e2a08" points="27.26,37.205 27.145,29.09 25.072,28.617 25.392,36.73    "/>
+                <linearGradient x1="61.8516" gradientTransform="matrix(1 0 0 -1 0.1377 56.834)" y1="33.5" x2="21.7869" gradientUnits="userSpaceOnUse" y2="33.5" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_8_" xlink:show="other">
+                    <stop stop-color="#ad832f" offset="0"/>
+                    <stop stop-color="#704d18" offset="1"/>
+                </linearGradient>
+                <polygon fill="url(#XMLID_8_)" points="50.521,5.333 33.248,15.121 33.248,41.337 50.521,26.137    "/>
+                <linearGradient x1="31.272" gradientTransform="matrix(1 0 0 -1 0.1377 56.834)" y1="29.019" x2="18.948" gradientUnits="userSpaceOnUse" y2="38.283" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_9_" xlink:show="other">
+                    <stop stop-color="#b0381e" offset="0"/>
+                    <stop stop-color="#5c1001" offset="1"/>
+                </linearGradient>
+                <polygon fill="url(#XMLID_9_)" points="26.179,16.436 22.737,18.508 22.999,28.939 26.454,26.482    "/>
+                <linearGradient x1="22.1738" y1="22.5835" x2="26.1792" gradientUnits="userSpaceOnUse" y2="22.5835" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_10_" xlink:show="other">
+                    <stop stop-color="#f1de84" offset="0"/>
+                    <stop stop-color="#cd9f3d" offset="1"/>
+                </linearGradient>
+                <polygon fill="url(#XMLID_10_)" points="26.179,16.436 25.482,16.228 22.174,18.186 22.488,28.761 22.999,28.939 22.737,18.508         "/>
+                <polygon fill="#f1de84" points="23.805,12.817 42.46,4.296 50.521,5.333 33.248,15.121    "/>
+            </g>
+            <g>
+                <polygon fill="#f1de84" points="22.808,37.671 42.958,24.026 67.063,29.246 50.789,44.6    "/>
+                <linearGradient x1="77.7275" gradientTransform="matrix(1 0 0 -1 0.1377 56.834)" y1="15.21" x2="39.9846" gradientUnits="userSpaceOnUse" y2="15.21" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_11_" xlink:show="other">
+                    <stop stop-color="#ad832f" offset="0"/>
+                    <stop stop-color="#704d18" offset="1"/>
+                </linearGradient>
+                <polygon fill="url(#XMLID_11_)" points="67.063,29.246 50.789,44.6 50.789,54.003 66.91,36.348    "/>
+                <linearGradient x1="56.5674" gradientTransform="matrix(1 0 0 -1 0.1377 56.834)" y1="10.9976" x2="-23.2816" gradientUnits="userSpaceOnUse" y2="10.9976" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_12_" xlink:show="other">
+                    <stop stop-color="#e0bc6c" offset="0"/>
+                    <stop stop-color="#c1a15b" offset="1"/>
+                </linearGradient>
+                <polygon fill="url(#XMLID_12_)" points="50.789,54.003 50.789,44.6 22.808,37.671 22.808,45.559    "/>
+                <path fill="#3e2a08" d="M 23.881 41.384 C 23.078 42.488 22.666 43.688 22.666 44.891 C 22.666 45.504997 22.774 46.12 22.99 46.725 C 23.938 49.371 26.788 51.537 30.807 52.663 C 37.756 54.608997 46.083 52.773 49.365997 48.567997 C 49.514996 48.378 49.395996 47.08 49.523 46.880997 L 23.96 40.376 C 23.913 40.438 23.925 41.322 23.881 41.384 z "/>
+                <path fill="#f1de84" d="M 41.535 45.816 C 40.025 47.547 36.653 48.252003 33.79 47.45 C 31.008 46.67 29.725 44.758 30.77 42.98 L 24.182 41.247 C 21.134 45.3 24.058 50.075996 30.785002 51.961 C 37.574 53.865 45.654003 52.104 48.840004 48.025 C 48.903004 47.944996 48.94801 47.863 49.006004 47.782997 L 41.535 45.816 z "/>
+                <linearGradient x1="30.4067" y1="45.3652" x2="41.5669" gradientUnits="userSpaceOnUse" y2="45.3652" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_13_" xlink:show="other">
+                    <stop stop-color="#f1de84" offset="0"/>
+                    <stop stop-color="#cd9f3d" offset="0.5056"/>
+                    <stop stop-color="#704d18" offset="1"/>
+                </linearGradient>
+                <path fill="url(#XMLID_13_)" d="M 39.23 45.171 C 38.32 46.141003 36.459 46.512 34.871 46.067 C 33.329998 45.635 32.606 44.592003 33.135998 43.569 L 30.787998 42.95 C 29.707 44.735 30.992 46.667 33.790997 47.452 C 36.671 48.259 40.072 47.544 41.567 45.788 L 39.23 45.171 z "/>
+                <linearGradient x1="11.978" gradientTransform="matrix(1 0 0 -1 0.1377 56.834)" y1="22.8154" x2="72.0392" gradientUnits="userSpaceOnUse" y2="22.8154" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_14_" xlink:show="other">
+                    <stop stop-color="#e0bc6c" offset="0"/>
+                    <stop stop-color="#c1a15b" offset="1"/>
+                </linearGradient>
+                <path fill="url(#XMLID_14_)" d="M 46.715 24.772 L 27.746 38.795 L 30.036 39.361 L 48.588997 25.178 L 46.715 24.772 z M 60.855 27.952 L 43.331 42.711 L 45.566 43.266 L 62.581 28.326 L 60.855 27.952 z "/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="360px" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 360 288" height="288px" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <rect x="0" width="360" fill="url(#SVGID_1)" height="288"/>
+    <defs>
+        <linearGradient x1="40.4" y1="144" x2="0.28" gradientUnits="userSpaceOnUse" y2="144" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#fdfdfd" offset="0.25"/>
+            <stop stop-color="#f5f5f5" offset="0.39"/>
+            <stop stop-color="#e7e7e7" offset="0.5"/>
+            <stop stop-color="#d3d3d3" offset="0.59"/>
+            <stop stop-color="#bababa" offset="0.68"/>
+            <stop stop-color="#9b9b9b" offset="0.76"/>
+            <stop stop-color="#767676" offset="0.83"/>
+            <stop stop-color="#4b4b4b" offset="0.9"/>
+            <stop stop-color="#1c1c1c" offset="0.97"/>
+            <stop stop-color="#000000" offset="1"/>
+        </linearGradient>
+    </defs>
+</svg>

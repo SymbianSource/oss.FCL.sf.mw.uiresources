@@ -1,0 +1,53 @@
+;
+; Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+; All rights reserved.
+; This component and the accompanying materials are made available
+; under the terms of "Eclipse Public License v1.0"
+; which accompanies this distribution, and is available
+; at the URL "http://www.eclipse.org/legal/epl-v10.html".
+;
+; Initial Contributors:
+; Nokia Corporation - initial contribution.
+;
+; Contributors:
+;
+; Description:
+;
+; Languages
+&EN
+
+; Header
+#{"testdomcdl"}, (0x2001CB80), 1, 0, 0, TYPE=SA
+
+; Localised Vendor name
+%{"Nokia"}
+
+; Unique Vendor name
+:"Nokia"
+
+
+;Copying ordinary file (not language dependent) to fixed drive drive.
+
+"..\init\testdomcdl.ini"-"c:\Testframework\testdomcdl.ini", FF   ; FF stands for Normal file
+
+"..\conf\tctestdomcdlcdlengine.cfg"-"c:\Testframework\tctestdomcdlcdlengine.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testdomcdlcdlengine.cfg"-"c:\Testframework\ui_testdomcdlcdlengine.cfg", FF   ; FF stands for Normal file
+
+"..\conf\tctestdomcdlcdlexplorer.cfg"-"c:\Testframework\tctestdomcdlcdlexplorer.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testdomcdlcdlexplorer.cfg"-"c:\Testframework\ui_testdomcdlcdlexplorer.cfg", FF   ; FF stands for Normal file
+
+"..\conf\tctestdomcdlcdlrefs.cfg"-"c:\Testframework\tctestdomcdlcdlrefs.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testdomcdlcdlrefs.cfg"-"c:\Testframework\ui_testdomcdlcdlrefs.cfg", FF   ; FF stands for Normal file
+
+"..\conf\tctestdomcdlcdluserpackageexplorer.cfg"-"c:\Testframework\tctestdomcdlcdluserpackageexplorer.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testdomcdlcdluserpackageexplorer.cfg"-"c:\Testframework\ui_testdomcdlcdluserpackageexplorer.cfg", FF   ; FF stands for Normal file
+
+
+"\epoc32\RELEASE\ARMV5\urel\testdomcdl.dll"-"c:\sys\bin\testdomcdl.dll", FF
+
+"\epoc32\data\Z\resource\testdomcdl.rsc"-"c:\resource\testdomcdl.rsc", FF
+
+
+; Trim For Mms
+; ------------
+; to be added later

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="25.999px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 25.999 26" height="26px" x="0px" y="0px">
+    <g>
+        <rect width="25.999" fill="none" height="26"/>
+        <path fill="#ffffff" d="M 15.643 7.256 L 15.643 5.362 L 10.025999 5.362 L 10.025999 7.256 L 5.723 7.256 L 5.723 9.190001 L 6.77 9.190001 L 7.71 20.64 L 17.878 20.64 L 18.921 9.19 L 19.945 9.188999 L 19.945 7.256 L 15.643 7.256 z M 16.143 18.739 L 9.46 18.739 L 8.618 9.19 L 17.076 9.19 L 16.143 18.739 z " fill-opacity="0.3" stroke-opacity="0.3"/>
+        <path d="M 9.46 18.739 L 16.143 18.739 L 17.077 9.190001 L 8.618 9.190001 L 9.46 18.739 z M 16.172 10.008 L 15.399001 17.922 L 10.212002 17.922 C 10.023002 15.699001 9.511002 10.008001 9.511002 10.008001 L 16.172 10.008001 z M 16.46 6.439 L 16.46 4.546 L 9.208 4.546 L 9.208 6.44 L 4.906 6.44 L 4.906 10.007 L 6.017 10.007 L 6.958 21.457 L 18.625 21.457 L 19.667 10.007001 L 20.762 10.0060005 L 20.762 6.439 L 16.46 6.439 z M 19.945 9.189 L 18.921 9.19 L 17.879 20.64 L 7.71 20.64 L 6.77 9.189 L 5.723 9.189 L 5.723 7.256 L 10.026 7.256 L 10.026 5.362 L 15.643 5.362 L 15.643 7.256 L 19.946 7.256 L 19.946 9.189 z " fill-opacity="0.3" stroke-opacity="0.3"/>
+    </g>
+</svg>

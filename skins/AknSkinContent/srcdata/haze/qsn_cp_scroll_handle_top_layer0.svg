@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="100%" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="31.973 -43.914 99.86 100.011" height="100%" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g transform="scale(1,1.0015)">
+        <linearGradient x1="-571.6111" gradientTransform="matrix(8.3224 0 0 8.3468 4806.0073 -15617.54)" y1="1872.8002" x2="-563.6102" gradientUnits="userSpaceOnUse" y2="1872.8002" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+            <stop stop-color="#52a2a5" offset="0"/>
+            <stop stop-color="#4e9da0" offset="0.1574"/>
+            <stop stop-color="#448d93" offset="0.3534"/>
+            <stop stop-color="#32747d" offset="0.5698"/>
+            <stop stop-color="#1a515f" offset="0.7992"/>
+            <stop stop-color="#002c3f" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_2_)" d="M 107.88 -19.894 C 103.159996 -24.593998 96.894 -27.210999 90.212 -27.210999 L 73.575 -27.210999 C 66.911995 -27.210999 60.625996 -24.593998 55.906998 -19.894 C 51.206997 -15.193999 48.608997 -8.908999 48.608997 -2.2459984 L 48.608997 55.994003 L 115.196 55.994003 L 115.196 -2.2459984 C 115.196 -8.909 112.599 -15.194 107.88 -19.894 z "/>
+        <rect x="31.973" width="99.86" fill="none" y="-43.848" height="99.861"/>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="16" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-374.142 -26.246 16 21" height="21" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <linearGradient x1="-374.1436" y1="-29.1904" x2="-306.7315" gradientUnits="userSpaceOnUse" y2="38.2216" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_3_" xlink:show="other">
+        <stop stop-color="#ffbebe" offset="0"/>
+        <stop stop-color="#ff4747" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_3_)" d="M -374.142 -26.239 L -374.142 -24.187 L -363.878 -24.187 C -362.979 -24.187 -362.155 -23.908 -361.565 -23.395 C -360.986 -22.901 -360.681 -22.263 -360.681 -21.552 L -360.681 -5.2460003 L -358.142 -5.2460003 L -358.142 -21.845 C -358.415 -25.95 -361.937 -26.245 -362.949 -26.246002 L -363.047 -26.246002 C -363.158 -26.244 -363.228 -26.239002 -363.228 -26.239002 L -374.142 -26.239002 z "/>
+    <linearGradient x1="-367.4121" y1="-25.0879" x2="-367.4121" gradientUnits="userSpaceOnUse" y2="93.9668" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ff4747" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_4_)" d="M -360.682 -5.246 L -360.682 -21.553 C -360.682 -22.264 -360.988 -22.902 -361.566 -23.396 C -362.158 -23.909 -362.98 -24.188 -363.88 -24.188 L -374.142 -24.188 L -374.142 -5.2460003 L -360.682 -5.2460003 z "/>
+</svg>

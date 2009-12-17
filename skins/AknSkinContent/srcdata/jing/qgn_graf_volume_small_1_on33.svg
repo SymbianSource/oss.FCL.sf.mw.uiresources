@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="100%" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0 0 12 32" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<g>
+<linearGradient gradientTransform="matrix(1 0 0 -1 292.5 436.3906)" gradientUnits="userSpaceOnUse" id="XMLID_3_" x1="-286" x2="-286" y1="409.3418" y2="413.3906">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#EACF5A"/>
+</linearGradient>
+<path d="M6.5,27.049c-2.484,0-4.5-0.727-4.5-1.576V24.8C2,23.426,4.016,23,6.5,23l0,0        c2.486,0,4.5,0.426,4.5,1.8v0.673C11,26.322,8.986,27.049,6.5,27.049L6.5,27.049z" fill="url(#XMLID_3_)"/>
+<linearGradient gradientTransform="matrix(1 0 0 -1 292.5 436.3906)" gradientUnits="userSpaceOnUse" id="XMLID_4_" x1="-286" x2="-286" y1="413.3906" y2="411.3906">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#EACF5A"/>
+</linearGradient>
+<path d="M10.99,24.75C10.938,23.42,8.953,23,6.5,23c-2.452,0-4.438,0.42-4.49,1.75H2V25h1        c0-0.607,1.568-0.875,3.5-0.875c1.936,0,3.5,0.25,3.5,0.875h1v-0.25H10.99z" fill="url(#XMLID_4_)"/>
+<g>
+<g fill-opacity="0.7" stroke-opacity="0.7">
+<path d="M1,24.8v0.673C1,26.867,3.467,28,6.5,28c3.031,0,5.5-1.133,5.5-2.527V24.8          c0-1.921-2.469-2.8-5.5-2.8C3.467,22,1,22.879,1,24.8z M2,25.473V24.8C2,23.434,4.017,23,6.5,23c2.482,0,4.5,0.434,4.5,1.8          v0.673c0,0.846-2.018,1.576-4.5,1.576C4.018,27.049,2,26.316,2,25.473z" fill="#704D18"/>
+</g>
+</g>
+<g>
+<path d="M10,25.299c0,0.299-1.564,0.75-3.5,0.75c-1.932,0-3.5-0.451-3.5-0.75         V25H2v0.473c0,0.85,2.016,1.576,4.5,1.576c2.486,0,4.5-0.727,4.5-1.576V25h-1V25.299z" fill="#E0BC6C" fill-opacity="0.8" stroke-opacity="0.8"/>
+</g>
+</g>
+<rect fill="none" height="32" width="12"/>
+</g>
+</g>
+</switch>
+</svg>

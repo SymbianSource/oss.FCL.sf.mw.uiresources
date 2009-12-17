@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="12" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 12 12" height="12" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g transform="scale(1,1.0015)">
+        <linearGradient x1="0.0537" gradientTransform="matrix(0 0.9985 -1.0045 0 849.6299 2.1433)" y1="840.6599" x2="3.116" gradientUnits="userSpaceOnUse" y2="843.7222" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+            <stop stop-color="#820000" offset="0"/>
+            <stop stop-color="#ff8282" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_4_)" d="M 5.999 2.006 L 4.998 2.006 C 4.1930003 2.006 3.4370005 2.319 2.8720002 2.885 C 2.3050003 3.447 1.9920002 4.199 1.9920002 5.002 L 1.9920002 6.0 L 2.9940002 6.0 L 2.9940002 5.001 C 2.9940002 4.467 3.2010002 3.965 3.5810003 3.589 C 3.9590003 3.212 4.4610004 3.004 4.998 3.004 L 5.999 3.004 L 5.999 2.006 z " fill-opacity="0.4"/>
+        <line y2="3.004" fill="#8cc2ea" x1="12.008" x2="12.008" y1="2.006"/>
+        <rect x="5.999" y="2.006" fill-opacity="0.4" fill="#840000" width="6.009" height="0.999"/>
+        <line y2="9.994" fill="#cfecff" x1="12.008" x2="12.008" y1="8.995"/>
+        <path fill="#f6c8c7" d="M 4.998 8.995 C 4.461 8.995 3.959 8.788 3.581 8.41 C 3.203 8.034 2.994 7.533 2.994 6.998 L 2.994 6.0 L 1.992 6.0 L 1.992 6.999 C 1.992 7.801 2.306 8.553 2.875 9.118 C 3.438 9.683 4.191 9.995 4.998 9.995 L 12.008 9.995 L 12.008 8.995 L 4.998 8.995 z "/>
+        <line fill-opacity="0.5" fill="#ebf7ff" x1="12.008" x2="12.008" y1="3.004" y2="8.995"/>
+        <path fill="#fff0f0" d="M 4.998 3.004 C 4.461 3.004 3.959 3.212 3.581 3.589 C 3.2010002 3.965 2.994 4.467 2.994 5.001 L 2.994 6.998 C 2.994 7.532 3.203 8.034 3.581 8.41 C 3.959 8.788 4.461 8.995 4.998 8.995 L 12.008 8.995 L 12.008 3.004 L 4.998 3.004 z "/>
+        <rect x="-0.01" width="12.018" fill="none" y="0.009" height="11.982"/>
+    </g>
+</svg>

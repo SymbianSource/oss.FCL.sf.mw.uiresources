@@ -1,0 +1,4 @@
+EXPORTS
+	_ZN18AknsWallpaperUtils16SetIdleWallpaperERK7TDesC16P7CCoeEnvii @ 1 NONAME
+	_ZN18AknsWallpaperUtils20SetSlidesetWallpaperER12CDesC16ArrayP7CCoeEnvii @ 2 NONAME
+

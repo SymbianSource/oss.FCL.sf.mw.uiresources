@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="304" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-0.5 -0.5 304 24" height="24" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <rect x="-0.5" y="9.5" fill-opacity="0.01" fill="#656b6b" width="304" height="14"/>
+    <rect x="-0.5" y="10.5" fill-opacity="0.03" fill="#656b6b" width="304" height="13"/>
+    <rect x="-0.5" y="11.5" fill-opacity="0.04" fill="#656b6b" width="304" height="12"/>
+    <rect x="-0.5" y="12.5" fill-opacity="0.09" fill="#656b6b" width="304" height="11"/>
+    <rect x="-0.5" y="13.5" fill-opacity="0.08" fill="#656b6b" width="304" height="10"/>
+    <rect x="-0.5" y="14.5" fill-opacity="0.1" fill="#656b6b" width="304" height="9"/>
+    <rect x="-0.5" y="15.5" fill-opacity="0.11" fill="#656b6b" width="304" height="8"/>
+    <rect x="-0.5" y="16.5" fill-opacity="0.1" fill="#656b6b" width="304" height="7"/>
+    <rect x="-0.5" y="12.5" fill-opacity="0.03" fill="#656b6b" width="304" height="11"/>
+    <linearGradient x1="151.5" y1="107" x2="151.5" gradientUnits="userSpaceOnUse" y2="18.5" xlink:type="simple" xlink:actuate="onLoad" id="_2" xlink:show="other">
+        <stop stop-color="#ffbebe" offset="0"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <rect x="-0.5" width="304" fill="url(#_2)" y="13.5" height="10"/>
+</svg>

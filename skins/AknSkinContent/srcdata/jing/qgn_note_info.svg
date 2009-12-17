@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="60" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 60 80" height="80" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <switch>
+        <foreignObject x="0" y="0" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" content="structured text" height="1"/>
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <path fill="#ffffff" d="M 30.088 13.241 C 19.089 12.917 13.9089985 26.294 22.083 34.054 L 17.839 36.827 L 18.505001 44.324 L 20.915 45.189003 L 21.446001 51.658005 L 18.208 53.777004 L 18.854 62.437004 L 35.753998 68.656006 L 43.295 61.365005 L 43.503 52.969006 L 40.565 52.094006 L 40.919 34.815006 L 37.420998 33.991005 C 46.346 26.372 39.991 13.241 30.088 13.241 z "/>
+                        <g>
+                            <g>
+                                <polygon fill="#704d18" points="32.387,58.553 38.963,53.24 39.121,35.969 32.063,40.842 "/>
+                                <polygon fill="#cd9f3d" points="19.502,37.12 32.152,40.842 39.177,35.969 26.091,33.12 "/>
+                                <polygon fill="#cd9f3d" points="32.371,58.318 35.477,59.254 41.754,53.99 38.963,53.24 "/>
+                                <polygon fill="#cd9f3d" points="19.983,54.395 23.091,55.332 29.151,51.002 26.462,50.273 "/>
+                                <polygon fill="#704d18" points="35.303,66.119 41.68,60.082 41.754,53.99 35.346,59.299 "/>
+                                <polygon fill="#eacf5a" points="19.502,37.12 32.063,40.842 32.371,58.363 35.367,59.246 35.277,66.121 20.546,61.115            20.029,54.352 23.114,55.365 22.388,44.229 19.923,43.082 "/>
+                            </g>
+                            <g>
+                                <radialGradient gradientTransform="matrix(1 0 0 -1 268.5 460.3906)" id="XMLID_52_" gradientUnits="userSpaceOnUse" xlink:show="other" xlink:type="simple" r="12.412" cx="-241.1621" fx="-241.1621" cy="440.6484" fy="440.6484" xlink:actuate="onLoad">
+                                    <stop stop-color="#eacf5a" offset="0"/>
+                                    <stop stop-color="#cd9f3d" offset="0.9101"/>
+                                    <stop stop-color="#8e6f3a" offset="1"/>
+                                </radialGradient>
+                                <circle fill="url(#XMLID_52_)" r="10.029" cx="29.837" cy="25.266"/>
+                            </g>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <rect width="60" fill="none" height="80"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </switch>
+</svg>

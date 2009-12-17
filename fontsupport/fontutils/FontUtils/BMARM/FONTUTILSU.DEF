@@ -1,0 +1,15 @@
+EXPORTS
+	Posture__C21TAknFontSpecification @ 1 NONAME R3UNUSED ; TAknFontSpecification::Posture(void) const
+	FontCategory__C21TAknFontSpecification @ 2 NONAME R3UNUSED ; TAknFontSpecification::FontCategory(void) const
+	IsEncodedFont__10TAknFontIdi @ 3 NONAME R3UNUSED ; TAknFontId::IsEncodedFont(int)
+	TextPaneHeight__C21TAknFontSpecification @ 4 NONAME R3UNUSED ; TAknFontSpecification::TextPaneHeight(void) const
+	Weight__C21TAknFontSpecification @ 5 NONAME R3UNUSED ; TAknFontSpecification::Weight(void) const
+	__21TAknFontSpecification16TAknFontCategoryRC9TFontSpecPC18MGraphicsDeviceMap @ 6 NONAME ; TAknFontSpecification::TAknFontSpecification(TAknFontCategory, TFontSpec const &, MGraphicsDeviceMap const *)
+	__21TAknFontSpecificationi @ 7 NONAME R3UNUSED ; TAknFontSpecification::TAknFontSpecification(int)
+	ExcessDescent__C31TAknFontProviderSuppliedMetrics @ 8 NONAME R3UNUSED ; TAknFontProviderSuppliedMetrics::ExcessDescent(void) const
+	MaxDescentToTextPaneBottom__C31TAknFontProviderSuppliedMetrics @ 9 NONAME R3UNUSED ; TAknFontProviderSuppliedMetrics::MaxDescentToTextPaneBottom(void) const
+	SetExcessAscent__31TAknFontProviderSuppliedMetricsi @ 10 NONAME R3UNUSED ; TAknFontProviderSuppliedMetrics::SetExcessAscent(int)
+	SetExcessDescent__31TAknFontProviderSuppliedMetricsi @ 11 NONAME R3UNUSED ; TAknFontProviderSuppliedMetrics::SetExcessDescent(int)
+	SetMaxDescentToTextPaneBottom__31TAknFontProviderSuppliedMetricsi @ 12 NONAME R3UNUSED ; TAknFontProviderSuppliedMetrics::SetMaxDescentToTextPaneBottom(int)
+	ExcessAscent__C31TAknFontProviderSuppliedMetrics @ 13 NONAME R3UNUSED ; TAknFontProviderSuppliedMetrics::ExcessAscent(void) const
+

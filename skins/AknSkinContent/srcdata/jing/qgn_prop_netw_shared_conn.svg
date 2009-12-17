@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="84" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 84 72" height="72" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <rect width="84" fill="none" height="72"/>
+        </g>
+        <g>
+            <g>
+                <polygon fill="#ffffff" points="26.604,4.569 3.948,17.279 7.816,53.75 37.775,64.912 41.802,62.182 41.552,67.432      80.052,44.682 60.146,43.605 62.079,11.495    "/>
+                <polygon fill="#eacf5a" points="36.922,61.551 9.188,52.047 5.956,18.492 37.919,26.632    "/>
+                <polygon fill="#b0381e" points="36.922,61.551 56.788,47.826 58.859,13.193 36.922,26.632    "/>
+                <polygon fill="#ad832f" points="5.761,18.492 36.922,26.632 58.764,13.193 27.068,6.593    "/>
+            </g>
+            <g>
+                <path fill="#f1de84" d="M 74.718 45.889 C 74.718 45.889 59.567 45.856 57.184002 45.856 C 57.184002 43.756 57.177002 35.765 57.177002 35.765 L 23.822 53.482 C 23.822 53.482 41.149002 53.48 43.6 53.48 C 43.6 55.579 43.572998 63.763 43.572998 63.763 L 74.718 45.889 z M 29.501 51.98 L 55.684 38.183 L 55.684 47.352997 L 69.48 47.352997 L 45.102 61.152 L 45.102 51.98 L 29.501 51.98 z "/>
+                <linearGradient x1="29.501" y1="49.668" x2="69.4785" gradientUnits="userSpaceOnUse" y2="49.668" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+                    <stop stop-color="#b0381e" offset="0"/>
+                    <stop stop-color="#5c1001" offset="1"/>
+                </linearGradient>
+                <polygon fill="url(#XMLID_2_)" points="45.102,61.152 69.479,47.354 55.684,47.354 55.684,38.184 29.501,51.98 45.102,51.98         "/>
+            </g>
+        </g>
+    </g>
+</svg>

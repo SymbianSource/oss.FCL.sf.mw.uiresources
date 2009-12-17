@@ -1,0 +1,44 @@
+20/10/2003 MurrayR
+This text file describes unusual features of the AknLayout2 build system.
+
+AknLayout2 builds the layout components for the CDL based layout system.
+There is a feature flag, __CDL_LAYOUT, which affects whether the Series 60 build uses
+this flag or not. It is intended that Series 60 will use CDL based layout permanently
+in the future. Until then, CDL based layout will only be used in Series 60 if the
+__CDL_LAYOUT feature flag is enabled.
+
+Without __CDL_LAYOUT:
+If AknLayout2 is build without the __CDL_LAYOUT feature flag, it will create the CDL
+interfaces and instances for the Avkon Layout System. The CDL interfaces will be
+available for layout clients to use.
+
+With __CDL_LAYOUT:
+When the __CDL_LAYOUT feature flag is enabled, AknLayout2 attempts to replace AknLayout
+in a source compatibvle way, so that transition to the new layout system is as smooth as
+possible. The AknLayout2 build system does the following things to replace AknLayout.
+1) AknLayout.lag is replaced with a version that uses the CDL interface.
+2) AknLayoutData.h and AknLayoutDataDef.h are replaced with the equivalent AknLayout2 
+   headers.
+3) AknLayout.lib is replaced with CdlEngine.lib.
+These build tricks all require that AknLayout2 is built after AknLayout.
+
+When __CDL_LAYOUT is no longer required:
+Eventually, Series 60 will be entirely ported across to the CDL based layout system.
+This will be complete when the following things happen:
+1) AknLayout is no longer in the build.
+2) No clients link to AknLayout.lib.
+3) No clients use AknLayout.lag, and those that did now use the CDL interface.
+At this point, none of the build tricks described above will be required.
+
+05/11/2003 MurrayR
+Building the layout instance DLL.
+Avkon will assume that there is a CDL layout instance DLL called LayoutInst.DLL available.
+The build files and all contents of this DLL are generated according to the device
+requirements. For S60 builds, all possible layouts are in this DLL.
+Since the MMP file does not exist at the "bldmake bldfiles" stage, a "redirection" MMP
+file called LayoutInstRedir.mmp is used. This #includes the generated MMP file.
+Bld.inf only requires that the LayoutInstRedir.mmp file is present at "bldmake bldfiles".
+To make the build work, an extension makefile is used. This appears before
+LayoutInstRedir.mmp in bld.inf, so it is actioned first.
+The extension makefile, in it's MAKMAKE target, builds all the build files and source
+for LayoutInst.dll.

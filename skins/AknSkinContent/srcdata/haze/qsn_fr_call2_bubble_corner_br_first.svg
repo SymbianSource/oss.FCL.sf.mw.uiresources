@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-0.5 -0.5 44 32" height="32" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <path fill="#656b6b" d="M -0.5 25.5 C 10.161 25.5 16.395 25.5 16.395 25.5 C 30.238 25.5 41.5 14.233 41.5 0.385 L 41.5 -0.5 L -0.5 -0.5 L -0.5 25.5 z " fill-opacity="0.01"/>
+    <path fill="#656b6b" d="M -0.5 24.5 C 10.161 24.5 16.395 24.5 16.395 24.5 C 29.688 24.5 40.5 13.683 40.5 0.385 L 40.5 -0.5 L -0.5 -0.5 L -0.5 24.5 z " fill-opacity="0.02"/>
+    <path fill="#656b6b" d="M -0.5 23.5 C 10.161 23.5 16.395 23.5 16.395 23.5 C 29.135 23.5 39.5 13.131 39.5 0.385 L 39.5 -0.5 L -0.5 -0.5 L -0.5 23.5 z " fill-opacity="0.03"/>
+    <path fill="#656b6b" d="M -0.5 22.5 C 10.16 22.5 16.395 22.5 16.395 22.5 C 28.584 22.5 38.5 12.58 38.5 0.385 L 38.5 -0.5 L -0.5 -0.5 L -0.5 22.5 z " fill-opacity="0.06"/>
+    <path fill="#656b6b" d="M -0.5 21.5 L 15.4 21.5 L 16.394 21.5 C 28.032 21.5 37.5 12.026 37.5 0.385 L 37.5 -0.5 L -0.5 -0.5 L -0.5 21.5 z " fill-opacity="0.05"/>
+    <path fill="#656b6b" d="M -0.5 20.5 L 16.395 20.5 C 27.48 20.5 36.5 11.478 36.5 0.385 L 36.5 -0.5 L -0.5 -0.5 L -0.5 20.5 z " fill-opacity="0.1"/>
+    <path fill="#656b6b" d="M -0.5 19.5 C 10.158 19.5 16.395 19.5 16.395 19.5 C 26.93 19.5 35.5 10.926 35.5 0.385 L 35.5 -0.5 L -0.5 -0.5 L -0.5 19.5 z " fill-opacity="0.1"/>
+    <path fill="#656b6b" d="M -0.5 18.5 L 16.395 18.5 C 26.378 18.5 34.5 10.373 34.5 0.38500023 L 34.5 -0.5 L -0.5 -0.5 L -0.5 18.5 z " fill-opacity="0.1"/>
+    <path fill="#52a1a4" d="M -0.5 17.5 L 16.395 17.5 C 25.842 17.5 33.5 9.836 33.5 0.385 L 33.5 -0.5 L -0.5 -0.5 L -0.5 17.5 z "/>
+</svg>

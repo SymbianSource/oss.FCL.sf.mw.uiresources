@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="tiny" height="112" preserveAspectRatio="xMidYMid meet" version="1.1" viewBox="0 0 100 112" width="100" zoomAndPan="magnify">
+<g>
+<g>
+<ellipse cx="48.5" cy="32.548" fill="url(#XMLID_2_)" fill-opacity="0.4" rx="34.844" ry="25.88"/>
+<rect fill="none" height="112" width="100"/>
+<defs>
+<linearGradient gradientTransform="matrix(1 0 0 -1 0 111)" gradientUnits="userSpaceOnUse" id="XMLID_2_" x1="48.5" x2="48.5" y1="83.0742" y2="53.5712">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#FFE97D"/>
+</linearGradient>
+</defs>
+</g>
+</g>
+</svg>

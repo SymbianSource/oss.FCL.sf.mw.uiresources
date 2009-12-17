@@ -1,0 +1,1944 @@
+// AppLayout.cdl
+
+Name: AppLayout
+Version: 1.0
+UID: 0x101ff6c7
+Flag: KCdlFlagRomOnly
+
+%% C++
+
+#include <aknlayout2def.h>
+
+%% Translation
+
+
+%% API
+
+TAknWindowLineLayout Browser_image_highlight_Line_1();
+TAknWindowLineLayout Browser_image_highlight_Line_2();
+TAknWindowLineLayout Browser_image_highlight_Line_3();
+TAknWindowLineLayout Browser_image_highlight_Line_4();
+TAknWindowLineLayout Browser_image_highlight_Line_5();
+TAknWindowLineLayout Browser_image_highlight_Line_6();
+TAknWindowLineLayout Browser_image_highlight_Line_7();
+TAknWindowLineLayout Browser_image_highlight_Line_8();
+TAknWindowLineLayout Browser_image_highlight_Line_9();
+TAknLayoutTableLimits Browser_image_highlight_Limits();
+TAknWindowLineLayout Browser_image_highlight(TInt aLineIndex);
+
+// LAF Table : Navi pane elements
+TAknWindowLineLayout Navi_pane_elements_Line_1();
+
+// LAF Table : Application specific list panes
+TAknWindowLineLayout list_cale_time_pane(TInt aIndex_t, TInt aIndex_H);
+
+TAknWindowLineLayout list_pinb_item_pane(TInt aIndex_t);
+
+// LAF Table : List pane elements (cale time)
+TAknWindowLineLayout List_pane_elements__cale_time__Line_1(TInt aIndex_t);
+
+TAknWindowLineLayout List_pane_elements__cale_time__Line_2();
+
+TAknWindowLineLayout List_pane_elements__cale_time__Line_3(TInt aIndex_l, TInt aIndex_t);
+
+// LAF Table : List pane texts (cale time)
+TAknTextLineLayout List_pane_texts__cale_time__Line_1(TInt aCommon1, TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_List_pane_texts__cale_time__Line_1(TInt aCommon1, TInt aNumberOfLinesShown);
+
+TAknTextLineLayout List_pane_texts__cale_time__Line_2(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__cale_time__Line_3(TInt aIndex_l, TInt aIndex_r, TInt aIndex_B, TInt aIndex_W);
+
+TAknMultiLineTextLayout Multiline_List_pane_texts__cale_time__Line_3(TInt aIndex_l, TInt aIndex_r, TInt aIndex_W, TInt aNumberOfLinesShown);
+
+// LAF Table : List pane elements (pinb item)
+TAknWindowLineLayout List_pane_elements__pinb_item__Line_1();
+
+TAknWindowLineLayout List_pane_elements__pinb_item__Line_2();
+
+TAknWindowLineLayout List_pane_elements__pinb_item__Line_3();
+
+TAknWindowLineLayout List_pane_elements__pinb_item__Line_4(TInt aIndex_l);
+
+TAknLayoutTableLimits List_pane_elements__pinb_item__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_pane_elements__pinb_item__SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : List pane texts (pinb item)
+TAknTextLineLayout List_pane_texts__pinb_item__Line_1(TInt aCommon1);
+
+// LAF Table : List pane highlight (several)
+TAknWindowLineLayout List_pane_highlight__several__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout List_pane_highlight__several__Line_2(const TRect& aParentRect);
+
+TAknLayoutTableLimits List_pane_highlight__several__Limits();
+
+TAknWindowLineLayout List_pane_highlight__several_(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Grid pane descendants
+TAknWindowLineLayout cell_pinb_pane(TInt aIndex_l, TInt aIndex_t);
+
+TAknWindowLineLayout cell_qdial_pane(TInt aIndex_l, TInt aIndex_t);
+
+TAknWindowLineLayout cell_cale_month_pane(TInt aIndex_l, TInt aIndex_t, TInt aIndex_W);
+
+TAknWindowLineLayout cell_calc_pane(TInt aIndex_l, TInt aIndex_t);
+
+TAknWindowLineLayout cell_cale_week_pane(TInt aIndex_l, TInt aIndex_t);
+
+TAknWindowLineLayout cell_vorec_pane(TInt aIndex_t);
+
+TAknWindowLineLayout cell_gms_pane(TInt aIndex_l, TInt aIndex_t);
+
+TAknWindowLineLayout cell_mp_pane(TInt aIndex_t);
+
+TAknLayoutTableLimits Grid_pane_descendants_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Grid_pane_descendants_SUB_TABLE_0(TInt aLineIndex, TInt aIndex_l, TInt aIndex_t);
+
+// LAF Table : Cell pane elements (pinb)
+TAknWindowLineLayout Cell_pane_elements__pinb__Line_1();
+
+TAknWindowLineLayout Cell_pane_elements__pinb__Line_2();
+
+TAknWindowLineLayout Cell_pane_elements__pinb__Line_3();
+
+TAknLayoutTableLimits Cell_pane_elements__pinb__Limits();
+
+TAknWindowLineLayout Cell_pane_elements__pinb_(TInt aLineIndex);
+
+// LAF Table : Cell pane elements (qdial)
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_1();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_2();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_3();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_4();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_5();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_6();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_7();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_8();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_9();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_10();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_11();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_12();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_13();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_14();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_15();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_16();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_17();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_18();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_19();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_20();
+
+TAknWindowLineLayout Cell_pane_elements__qdial__Line_21();
+
+TAknLayoutTableLimits Cell_pane_elements__qdial__Limits();
+
+TAknWindowLineLayout Cell_pane_elements__qdial_(TInt aLineIndex);
+
+// LAF Table : Cell pane texts (qdial)
+TAknTextLineLayout Cell_pane_texts__qdial__Line_1(TInt aIndex_l, TInt aCommon1, TInt aIndex_W);
+
+TAknMultiLineTextLayout Multiline_Cell_pane_texts__qdial__Line_1(TInt aIndex_l, TInt aCommon1, TInt aIndex_W, TInt aNumberOfLinesShown);
+
+// LAF Table : Cell pane elements (cale month)
+TAknWindowLineLayout Cell_pane_elements__cale_month__Line_1(TInt aIndex_C, TInt aIndex_W);
+
+TAknWindowLineLayout Cell_pane_elements__cale_month__Line_2(TInt aIndex_l);
+
+// LAF Table : Cell pane texts (cale month)
+TAknTextLineLayout Cell_pane_texts__cale_month__Line_1(TInt aIndex_C, TInt aCommon1);
+
+// LAF Table : Cell pane elements (calc)
+TAknWindowLineLayout Cell_pane_elements__calc__Line_1();
+
+// LAF Table : Cell pane elements (cale week)
+TAknWindowLineLayout Cell_pane_elements__cale_week__Line_1(const TRect& aParentRect, TInt aIndex_C);
+
+TAknWindowLineLayout Cell_pane_elements__cale_week__Line_2(TInt aIndex_t);
+
+TAknWindowLineLayout Cell_pane_elements__cale_week__Line_3(TInt aIndex_t);
+
+TAknWindowLineLayout Cell_pane_elements__cale_week__Line_4();
+
+TAknLayoutTableLimits Cell_pane_elements__cale_week__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Cell_pane_elements__cale_week__SUB_TABLE_0(TInt aLineIndex, TInt aIndex_t);
+
+// LAF Table : Voice Recorder cell elements
+TAknWindowLineLayout Voice_Recorder_cell_elements_Line_1();
+
+// LAF Table : Graphical message cell elements
+TAknWindowLineLayout Graphical_message_cell_elements_Line_1();
+
+TAknWindowLineLayout Graphical_message_cell_elements_Line_2();
+
+TAknLayoutTableLimits Graphical_message_cell_elements_Limits();
+
+TAknWindowLineLayout Graphical_message_cell_elements(TInt aLineIndex);
+
+// LAF Table : MediaPlayer cell elements
+TAknWindowLineLayout MediaPlayer_cell_elements_Line_1();
+
+// LAF Table : Cell pane highlight elements (various)
+TAknWindowLineLayout Cell_pane_highlight_elements__various__Line_1(const TRect& aParentRect);
+
+// LAF Table : Cell pane highlight elements (qdial)
+TAknWindowLineLayout Cell_pane_highlight_elements__qdial__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Cell_pane_highlight_elements__qdial__Line_2();
+
+// LAF Table : Browser texts
+TAknTextLineLayout Browser_texts_Line_1(TInt aIndex_C, TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Browser_texts_Line_1(TInt aIndex_C, TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Browser_texts_Line_2(TInt aIndex_C, TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Browser_texts_Line_2(TInt aIndex_C, TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Browser_texts_Line_3(TInt aIndex_C, TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Browser_texts_Line_3(TInt aIndex_C, TInt aNumberOfLinesShown);
+
+TAknLayoutTableLimits Browser_texts_Limits();
+
+TAknTextLineLayout Browser_texts(TInt aLineIndex, TInt aIndex_C, TInt aIndex_B);
+
+// LAF Table : Browser selection box elements
+TAknWindowLineLayout Browser_selection_box_elements_Line_1();
+
+TAknWindowLineLayout Browser_selection_box_elements_Line_2();
+
+TAknWindowLineLayout Browser_selection_box_elements_Line_3();
+
+TAknWindowLineLayout Browser_selection_box_elements_Line_4();
+
+TAknLayoutTableLimits Browser_selection_box_elements_Limits();
+
+TAknWindowLineLayout Browser_selection_box_elements(TInt aLineIndex);
+
+// LAF Table : Browser highlights
+TAknWindowLineLayout Browser_highlights_Line_1(const TRect& aParentRect, TInt aCommon1);
+
+TAknWindowLineLayout Browser_highlights_Line_2(const TRect& aParentRect, TInt aCommon1);
+
+TAknLayoutTableLimits Browser_highlights_Limits();
+
+TAknWindowLineLayout Browser_highlights(TInt aLineIndex, const TRect& aParentRect, TInt aCommon1);
+
+// LAF Table : Browser text link underlining
+TAknWindowLineLayout Browser_text_link_underlining_Line_1(const TRect& aParentRect, TInt aIndex_W);
+
+// LAF Table : Browser table frame graphics and highlight
+TAknWindowLineLayout Browser_table_frame_graphics_and_highlight_Line_1();
+
+TAknWindowLineLayout Browser_table_frame_graphics_and_highlight_Line_2();
+
+TAknLayoutTableLimits Browser_table_frame_graphics_and_highlight_Limits();
+
+TAknWindowLineLayout Browser_table_frame_graphics_and_highlight(TInt aLineIndex);
+
+// LAF Table : Browser image frame and highlight
+TAknWindowLineLayout Browser_image_frame_and_highlight_Line_1(TInt aIndex_C);
+
+TAknWindowLineLayout Browser_image_frame_and_highlight_Line_2();
+
+TAknWindowLineLayout Browser_image_frame_and_highlight_Line_3();
+
+TAknLayoutTableLimits Browser_image_frame_and_highlight_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Browser_image_frame_and_highlight_SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : Browser broken image
+TAknWindowLineLayout Browser_broken_image_Line_1();
+
+TAknWindowLineLayout Browser_broken_image_Line_2();
+
+TAknWindowLineLayout Browser_broken_image_Line_3();
+
+TAknLayoutTableLimits Browser_broken_image_Limits();
+
+TAknWindowLineLayout Browser_broken_image(TInt aLineIndex);
+
+// LAF Table : Browser broken image text
+TAknTextLineLayout Browser_broken_image_text_Line_1();
+
+// LAF Table : Calendar Day view elements and descendants
+TAknWindowLineLayout Calendar_Day_view_elements_and_descendants_Line_1();
+
+TAknWindowLineLayout Calendar_Day_view_elements_and_descendants_Line_2();
+
+TAknWindowLineLayout Calendar_Day_view_elements_and_descendants_Line_3();
+
+TAknWindowLineLayout list_cale_pane();
+
+TAknLayoutTableLimits Calendar_Day_view_elements_and_descendants_Limits();
+
+TAknWindowLineLayout Calendar_Day_view_elements_and_descendants(TInt aLineIndex);
+
+// LAF Table : List pane texts (cale time empty)
+TAknTextLineLayout List_pane_texts__cale_time_empty__Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_List_pane_texts__cale_time_empty__Line_1(TInt aNumberOfLinesShown);
+
+// LAF Table : Calendar Week view elements
+TAknWindowLineLayout Calendar_Week_view_elements_Line_1();
+
+TAknWindowLineLayout Calendar_Week_view_elements_Line_2();
+
+TAknWindowLineLayout Calendar_Week_view_elements_Line_3();
+
+TAknWindowLineLayout Calendar_Week_view_elements_Line_4();
+
+TAknWindowLineLayout Calendar_Week_view_elements_Line_5();
+
+TAknWindowLineLayout Calendar_Week_view_elements_Line_6(TInt aIndex_l);
+
+TAknWindowLineLayout Calendar_Week_view_elements_Line_7(TInt aIndex_t);
+
+TAknWindowLineLayout Calendar_Week_view_elements_Line_8(TInt aIndex_t);
+
+TAknWindowLineLayout grid_cale_week_pane();
+
+TAknLayoutTableLimits Calendar_Week_view_elements_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Calendar_Week_view_elements_SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : Calendar Week view texts
+TAknTextLineLayout Calendar_Week_view_texts_Line_1(TInt aCommon1);
+
+TAknTextLineLayout Calendar_Week_view_texts_Line_2(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Calendar_Week_view_texts_Line_2(TInt aNumberOfLinesShown);
+
+// LAF Table : Calendar Month view elements
+TAknWindowLineLayout Calendar_Month_view_elements_Line_1();
+
+TAknWindowLineLayout Calendar_Month_view_elements_Line_2();
+
+TAknWindowLineLayout Calendar_Month_view_elements_Line_3();
+
+TAknWindowLineLayout Calendar_Month_view_elements_Line_4();
+
+TAknWindowLineLayout Calendar_Month_view_elements_Line_5();
+
+TAknWindowLineLayout Calendar_Month_view_elements_Line_6(TInt aIndex_l);
+
+TAknWindowLineLayout Calendar_Month_view_elements_Line_7(TInt aCommon1, TInt aIndex_t);
+
+TAknWindowLineLayout grid_cale_month_pane(TInt aCommon1);
+
+TAknLayoutTableLimits Calendar_Month_view_elements_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Calendar_Month_view_elements_SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : Calendar Month view texts
+TAknTextLineLayout Calendar_Month_view_texts_Line_1(TInt aCommon1);
+
+TAknTextLineLayout Calendar_Month_view_texts_Line_2(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Calendar_Month_view_texts_Line_2(TInt aNumberOfLinesShown);
+
+// LAF Table : Calculator elements
+TAknWindowLineLayout Calculator_elements_Line_1();
+
+TAknWindowLineLayout gqn_graf_calc_paper();
+
+TAknWindowLineLayout Calculator_elements_Line_3(TInt aIndex_t);
+
+TAknWindowLineLayout grid_calc_pane();
+
+TAknLayoutTableLimits Calculator_elements_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Calculator_elements_SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : Calculator texts
+TAknTextLineLayout Calculator_texts_Line_1();
+
+TAknTextLineLayout Calculator_texts_Line_2();
+
+TAknTextLineLayout Calculator_texts_Line_3();
+
+TAknTextLineLayout Calculator_texts_Line_4();
+
+TAknTextLineLayout Calculator_texts_Line_5();
+
+TAknTextLineLayout Calculator_texts_Line_6();
+
+TAknTextLineLayout Calculator_texts_Line_7(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Calculator_texts_Line_7(TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Calculator_texts_Line_8(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Calculator_texts_Line_8(TInt aNumberOfLinesShown);
+
+TAknLayoutTableLimits Calculator_texts_SUB_TABLE_0_Limits();
+
+TAknTextLineLayout Calculator_texts_SUB_TABLE_0(TInt aLineIndex);
+
+TAknLayoutTableLimits Calculator_texts_SUB_TABLE_1_Limits();
+
+TAknTextLineLayout Calculator_texts_SUB_TABLE_1(TInt aLineIndex, TInt aIndex_B);
+
+// LAF Table : Real Time Alarm Clock view descendants panes and elements
+TAknWindowLineLayout popup_clock__ref__window();
+
+TAknWindowLineLayout Real_Time_Alarm_Clock_view_descendants_panes_and_elements_Line_2();
+
+TAknWindowLineLayout Real_Time_Alarm_Clock_view_descendants_panes_and_elements_Line_3();
+
+TAknWindowLineLayout Real_Time_Alarm_Clock_view_descendants_panes_and_elements_Line_4();
+
+TAknWindowLineLayout Real_Time_Alarm_Clock_view_descendants_panes_and_elements_Line_5();
+
+TAknLayoutTableLimits Real_Time_Alarm_Clock_view_descendants_panes_and_elements_Limits();
+
+TAknWindowLineLayout Real_Time_Alarm_Clock_view_descendants_panes_and_elements(TInt aLineIndex);
+
+// LAF Table : Real Time Alarm Clock view texts (skins)
+TAknTextLineLayout Real_Time_Alarm_Clock_view_texts__skins__Line_1(TInt aCommon1);
+
+TAknTextLineLayout Real_Time_Alarm_Clock_view_texts__skins__Line_2(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Real_Time_Alarm_Clock_view_texts__skins__Line_2(TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Real_Time_Alarm_Clock_view_texts__skins__Line_3();
+
+TAknTextLineLayout Real_Time_Alarm_Clock_view_texts__skins__Line_4(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Real_Time_Alarm_Clock_view_texts__skins__Line_4(TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Real_Time_Alarm_Clock_view_texts__skins__Line_5();
+
+TAknTextLineLayout Real_Time_Alarm_Clock_view_texts__skins__Line_6();
+
+TAknLayoutTableLimits Real_Time_Alarm_Clock_view_texts__skins__SUB_TABLE_0_Limits();
+
+TAknTextLineLayout Real_Time_Alarm_Clock_view_texts__skins__SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : Clock find pane elements
+TAknWindowLineLayout Clock_find_pane_elements_Line_1();
+
+TAknWindowLineLayout Clock_find_pane_elements_Line_2();
+
+TAknWindowLineLayout Clock_find_pane_elements_Line_3();
+
+TAknWindowLineLayout Clock_find_pane_elements_Line_4();
+
+TAknWindowLineLayout Clock_find_pane_elements_Line_5();
+
+TAknLayoutTableLimits Clock_find_pane_elements_Limits();
+
+TAknWindowLineLayout Clock_find_pane_elements(TInt aLineIndex);
+
+// LAF Table : Find pane texts
+TAknTextLineLayout Find_pane_texts_Line_1();
+
+// LAF Table : Camcorder Still Image Viewfinder descendants and elements
+TAknWindowLineLayout Near_QCIF();
+
+TAknWindowLineLayout Camcorder_Still_Image_Viewfinder_descendants_and_elements_Line_2();
+
+TAknWindowLineLayout Camcorder_Still_Image_Viewfinder_descendants_and_elements_Line_3();
+
+TAknWindowLineLayout Camcorder_Still_Image_Viewfinder_descendants_and_elements_Line_4();
+
+TAknWindowLineLayout Camcorder_Still_Image_Viewfinder_descendants_and_elements_Line_5();
+
+TAknLayoutTableLimits Camcorder_Still_Image_Viewfinder_descendants_and_elements_Limits();
+
+TAknWindowLineLayout Camcorder_Still_Image_Viewfinder_descendants_and_elements(TInt aLineIndex);
+
+// LAF Table : Camcorder Zooming factor pane elements
+TAknWindowLineLayout Camcorder_Zooming_factor_pane_elements_Line_1();
+
+TAknWindowLineLayout Camcorder_Zooming_factor_pane_elements_Line_2();
+
+TAknLayoutTableLimits Camcorder_Zooming_factor_pane_elements_Limits();
+
+TAknWindowLineLayout Camcorder_Zooming_factor_pane_elements(TInt aLineIndex);
+
+// LAF Table : Camcorder Still Image Viewfinder texts
+TAknTextLineLayout Camcorder_Still_Image_Viewfinder_texts_Line_1();
+
+TAknTextLineLayout Camcorder_Still_Image_Viewfinder_texts_Line_2();
+
+TAknLayoutTableLimits Camcorder_Still_Image_Viewfinder_texts_Limits();
+
+TAknTextLineLayout Camcorder_Still_Image_Viewfinder_texts(TInt aLineIndex);
+
+// LAF Table : Camcorder Video Viewfinder descendants and elements
+TAknWindowLineLayout Camcorder_Video_Viewfinder_descendants_and_elements_Line_1();
+
+TAknWindowLineLayout Camcorder_Video_Viewfinder_descendants_and_elements_Line_2();
+
+TAknWindowLineLayout Camcorder_Video_Viewfinder_descendants_and_elements_Line_3(TInt aIndex_C);
+
+TAknWindowLineLayout Camcorder_Video_Viewfinder_descendants_and_elements_Line_4(TInt aIndex_C);
+
+TAknWindowLineLayout Camcorder_Video_Viewfinder_descendants_and_elements_Line_5(TInt aIndex_C);
+
+TAknWindowLineLayout Camcorder_Video_Viewfinder_descendants_and_elements_Line_6(TInt aIndex_C);
+
+TAknLayoutTableLimits Camcorder_Video_Viewfinder_descendants_and_elements_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Camcorder_Video_Viewfinder_descendants_and_elements_SUB_TABLE_0(TInt aLineIndex);
+
+TAknLayoutTableLimits Camcorder_Video_Viewfinder_descendants_and_elements_SUB_TABLE_1_Limits();
+
+TAknWindowLineLayout Camcorder_Video_Viewfinder_descendants_and_elements_SUB_TABLE_1(TInt aLineIndex, TInt aIndex_C);
+
+// LAF Table : Camcorder Video Recording descendants and elements
+TAknWindowLineLayout Camcorder_Video_Recording_descendants_and_elements_Line_1();
+
+TAknWindowLineLayout Camcorder_Video_Recording_descendants_and_elements_Line_2();
+
+TAknWindowLineLayout Camcorder_Video_Recording_descendants_and_elements_Line_3(TInt aIndex_C);
+
+TAknWindowLineLayout Camcorder_Video_Recording_descendants_and_elements_Line_4(TInt aIndex_C);
+
+TAknWindowLineLayout Camcorder_Video_Recording_descendants_and_elements_Line_5(TInt aIndex_C);
+
+TAknWindowLineLayout Camcorder_Video_Recording_descendants_and_elements_Line_6(TInt aIndex_C);
+
+TAknLayoutTableLimits Camcorder_Video_Recording_descendants_and_elements_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Camcorder_Video_Recording_descendants_and_elements_SUB_TABLE_0(TInt aLineIndex);
+
+TAknLayoutTableLimits Camcorder_Video_Recording_descendants_and_elements_SUB_TABLE_1_Limits();
+
+TAknWindowLineLayout Camcorder_Video_Recording_descendants_and_elements_SUB_TABLE_1(TInt aLineIndex, TInt aIndex_C);
+
+// LAF Table : Camcorder Duration texts
+TAknTextLineLayout Camcorder_Duration_texts_Line_1();
+
+// LAF Table : Camcorder Post Recording elements
+TAknWindowLineLayout QVGA();
+
+TAknWindowLineLayout Camcorder_Video_Post_recording_elements_Line_2();
+
+TAknWindowLineLayout Camcorder_Video_Post_recording_elements_Line_3();
+
+TAknLayoutTableLimits Camcorder_Video_Post_recording_elements_Limits();
+
+TAknWindowLineLayout Camcorder_Video_Post_recording_elements(TInt aLineIndex);
+
+// LAF Table : Graphical message selection layout elements
+TAknWindowLineLayout Graphical_message_selection_layout_elements_Line_1(TInt aIndex_t);
+
+TAknWindowLineLayout Graphical_message_selection_layout_elements_Line_2(TInt aIndex_l);
+
+TAknWindowLineLayout grid_gms_pane();
+
+// LAF Table : Help texts
+TAknTextLineLayout Help_texts_Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Help_texts_Line_1(TInt aNumberOfLinesShown);
+
+// LAF Table : Phonebook Photo view elements
+TAknWindowLineLayout Phonebook_Photo_view_elements_Line_1();
+
+TAknWindowLineLayout Phonebook_Photo_view_elements_Line_2();
+
+TAknWindowLineLayout Phonebook_Photo_view_elements_Line_3();
+
+TAknWindowLineLayout Phonebook_Photo_view_elements_Line_4();
+
+TAknWindowLineLayout Phonebook_Photo_view_elements_Line_5();
+
+TAknWindowLineLayout Phonebook_Photo_view_elements_Line_6();
+
+TAknWindowLineLayout Phonebook_Photo_view_elements_Line_7();
+
+TAknWindowLineLayout Phonebook_Photo_view_elements_Line_8();
+
+TAknLayoutTableLimits Phonebook_Photo_view_elements_Limits();
+
+TAknWindowLineLayout Phonebook_Photo_view_elements(TInt aLineIndex);
+
+// LAF Table : Presence status list components
+TAknWindowLineLayout Presence_status_list_components_Line_1();
+
+TAknWindowLineLayout Presence_status_list_components_Line_2();
+
+TAknWindowLineLayout Presence_status_list_components_Line_3();
+
+TAknWindowLineLayout image_or_qgn_prop_dyc_big__ref_();
+
+// LAF Table : Presence status list texts
+TAknTextLineLayout Presence_status_list_texts_Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Presence_status_list_texts_Line_1(TInt aNumberOfLinesShown);
+
+// LAF Table : Pinboard elements (grid)
+TAknWindowLineLayout Pinboard_elements__grid__Line_1();
+
+TAknWindowLineLayout Pinboard_elements__grid__Line_2();
+
+TAknWindowLineLayout Pinboard_elements__grid__Line_3();
+
+TAknWindowLineLayout Pinboard_elements__grid__Line_4(TInt aCommon1);
+
+TAknWindowLineLayout Pinboard_elements__grid__Line_5();
+
+TAknWindowLineLayout Pinboard_elements__grid__Line_6(TInt aCommon1);
+
+TAknWindowLineLayout Pinboard_elements__grid__Line_7();
+
+TAknWindowLineLayout find_pinb_pane();
+
+TAknLayoutTableLimits Pinboard_elements__grid__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Pinboard_elements__grid__SUB_TABLE_0(TInt aLineIndex);
+
+TAknLayoutTableLimits Pinboard_elements__grid__SUB_TABLE_1_Limits();
+
+TAknWindowLineLayout Pinboard_elements__grid__SUB_TABLE_1(TInt aLineIndex);
+
+// LAF Table : Find pane elements (pinb)
+TAknWindowLineLayout Find_pane_elements__pinb__Line_1();
+
+TAknWindowLineLayout Find_pane_elements__pinb__Line_2();
+
+TAknWindowLineLayout Find_pane_elements__pinb__Line_3();
+
+TAknWindowLineLayout Find_pane_elements__pinb__Line_4();
+
+TAknLayoutTableLimits Find_pane_elements__pinb__Limits();
+
+TAknWindowLineLayout Find_pane_elements__pinb_(TInt aLineIndex);
+
+// LAF Table : Find pane texts (pinb)
+TAknTextLineLayout Find_pane_texts__pinb__Line_1();
+
+TAknTextLineLayout Find_pane_texts__pinb__Line_2();
+
+TAknLayoutTableLimits Find_pane_texts__pinb__Limits();
+
+TAknTextLineLayout Find_pane_texts__pinb_(TInt aLineIndex);
+
+// LAF Table : Pinboard elements (list)
+TAknWindowLineLayout Pinboard_elements__list__Line_1();
+
+TAknWindowLineLayout Pinboard_elements__list__Line_2();
+
+TAknWindowLineLayout Pinboard_elements__list__Line_3();
+
+TAknWindowLineLayout Pinboard_elements__list__Line_4(TInt aCommon1);
+
+TAknWindowLineLayout Pinboard_elements__list__Line_5();
+
+TAknWindowLineLayout Pinboard_elements__list__Line_6(TInt aCommon1);
+
+TAknWindowLineLayout list_pinb_pane();
+
+TAknLayoutTableLimits Pinboard_elements__list__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Pinboard_elements__list__SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : Speed Dial descendants
+TAknWindowLineLayout Speed_Dial_descendants_Line_1();
+
+// LAF Table : Voice Recorder elements
+TAknWindowLineLayout grid_vorec_pane();
+
+TAknWindowLineLayout Voice_Recorder_elements_Line_2();
+
+TAknWindowLineLayout Voice_Recorder_elements_Line_3();
+
+TAknWindowLineLayout Voice_Recorder_elements_Line_4();
+
+TAknWindowLineLayout Voice_Recorder_elements_Line_5();
+
+TAknLayoutTableLimits Voice_Recorder_elements_Limits();
+
+TAknWindowLineLayout Voice_Recorder_elements(TInt aLineIndex);
+
+// LAF Table : Voice Recorder texts
+TAknTextLineLayout Voice_Recorder_texts_Line_1();
+
+TAknTextLineLayout Voice_Recorder_texts_Line_2();
+
+TAknTextLineLayout Voice_Recorder_texts_Line_3();
+
+TAknTextLineLayout Voice_Recorder_texts_Line_4();
+
+TAknTextLineLayout Voice_Recorder_texts_Line_5();
+
+TAknTextLineLayout Voice_Recorder_texts_Line_6();
+
+TAknLayoutTableLimits Voice_Recorder_texts_Limits();
+
+TAknTextLineLayout Voice_Recorder_texts(TInt aLineIndex);
+
+// LAF Table : Message writing texts
+TAknTextLineLayout Message_writing_texts_Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Message_writing_texts_Line_1(TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Message_writing_texts_Line_2(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Message_writing_texts_Line_2(TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Message_writing_texts_Line_3(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Message_writing_texts_Line_3(TInt aNumberOfLinesShown);
+
+TAknLayoutTableLimits Message_writing_texts_Limits();
+
+TAknTextLineLayout Message_writing_texts(TInt aLineIndex, TInt aIndex_B);
+
+// LAF Table : Smart Messages
+TAknTextLineLayout Smart_Messages_Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Smart_Messages_Line_1(TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Smart_Messages_Line_2(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Smart_Messages_Line_2(TInt aNumberOfLinesShown);
+
+TAknLayoutTableLimits Smart_Messages_Limits();
+
+TAknTextLineLayout Smart_Messages(TInt aLineIndex, TInt aIndex_B);
+
+// LAF Table : Note writing layout elements
+TAknWindowLineLayout Note_writing_layout_elements_Line_1();
+
+TAknWindowLineLayout Note_writing_layout_elements_Line_2();
+
+TAknWindowLineLayout Note_writing_layout_elements_Line_3();
+
+TAknWindowLineLayout Note_writing_layout_elements_Line_4();
+
+TAknWindowLineLayout Note_writing_layout_elements_Line_5(TInt aIndex_t);
+
+TAknLayoutTableLimits Note_writing_layout_elements_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Note_writing_layout_elements_SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : Note writing texts
+TAknTextLineLayout Note_writing_texts_Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Note_writing_texts_Line_1(TInt aNumberOfLinesShown);
+
+// LAF Table : IM chat view descendant panes
+TAknWindowLineLayout im_reading_pane(TInt aIndex_H);
+
+TAknWindowLineLayout im_writing_pane(TInt aCommon1);
+
+// LAF Table : IM navi pane texts
+TAknTextLineLayout IM_navi_pane_texts_Line_1(TInt aIndex_C, TInt aIndex_W);
+
+// LAF Table : IM reading pane texts
+TAknTextLineLayout IM_reading_pane_texts_Line_1(TInt aCommon1);
+
+TAknTextLineLayout IM_reading_pane_texts_Line_2();
+
+TAknWindowLineLayout im_reading_field(TInt aIndex_t);
+
+// LAF Table : IM text elements
+TAknWindowLineLayout IM_text_elements_Line_1();
+
+TAknWindowLineLayout IM_text_elements_Line_2();
+
+TAknWindowLineLayout smiley__qgn_prop_im_smileys__ref__();
+
+TAknLayoutTableLimits IM_text_elements_Limits();
+
+TAknWindowLineLayout IM_text_elements(TInt aLineIndex);
+
+// LAF Table : IM reading field highlight graphics
+TAknWindowLineLayout IM_reading_field_highlight_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout IM_reading_field_highlight_graphics_Line_2(const TRect& aParentRect);
+
+TAknLayoutTableLimits IM_reading_field_highlight_graphics_Limits();
+
+TAknWindowLineLayout IM_reading_field_highlight_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : IM writing field elements
+TAknWindowLineLayout IM_writing_field_elements_Line_1(TInt aIndex_H);
+
+TAknWindowLineLayout IM_writing_field_elements_Line_2();
+
+TAknWindowLineLayout IM_writing_field_elements_Line_3(TInt aIndex_H);
+
+// LAF Table : IM writing pane texts
+TAknTextLineLayout IM_writing_pane_texts_Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_IM_writing_pane_texts_Line_1(TInt aNumberOfLinesShown);
+
+// LAF Table : Media Player layout descendant pane
+TAknWindowLineLayout mp_bg_pane();
+
+// LAF Table : Empty Player view elements
+TAknWindowLineLayout Empty_Player_view_elements_Line_1();
+
+// LAF Table : Media Player Playback view navi pane elements
+TAknWindowLineLayout Media_Player_Playback_view_navi_pane_elements_Line_1();
+
+TAknWindowLineLayout Media_Player_Playback_view_navi_pane_elements_Line_2();
+
+TAknLayoutTableLimits Media_Player_Playback_view_navi_pane_elements_Limits();
+
+TAknWindowLineLayout Media_Player_Playback_view_navi_pane_elements(TInt aLineIndex);
+
+// LAF Table : Media Player Playback view navi pane texts
+TAknTextLineLayout Media_Player_Playback_view_navi_pane_texts_Line_1();
+
+// LAF Table : Media Player Playlist navi pane elements
+TAknWindowLineLayout Media_Player_Playlist_navi_pane_elements_Line_1();
+
+TAknWindowLineLayout Media_Player_Playlist_navi_pane_elements_Line_2();
+
+TAknLayoutTableLimits Media_Player_Playlist_navi_pane_elements_Limits();
+
+TAknWindowLineLayout Media_Player_Playlist_navi_pane_elements(TInt aLineIndex);
+
+// LAF Table : Media Player Playback view  elements
+TAknWindowLineLayout grid_mp_pane();
+
+TAknWindowLineLayout Media_Player_Playback_view_elements_Line_2();
+
+TAknWindowLineLayout Media_Player_Playback_view_elements_Line_3();
+
+TAknWindowLineLayout Media_Player_Playback_view_elements_Line_4();
+
+TAknWindowLineLayout Media_Player_Playback_view_elements_Line_5();
+
+TAknWindowLineLayout Media_Player_Playback_view_elements_Line_6();
+
+// LAF Table : Media Player Playback view texts
+TAknTextLineLayout Media_Player_Playback_view_texts_Line_1();
+
+TAknTextLineLayout Media_Player_Playback_view_texts_Line_2();
+
+TAknTextLineLayout Media_Player_Playback_view_texts_Line_3();
+
+TAknTextLineLayout Media_Player_Playback_view_texts_Line_4();
+
+TAknTextLineLayout Media_Player_Playback_view_texts_Line_5();
+
+TAknTextLineLayout Media_Player_Playback_view_texts_Line_6();
+
+TAknTextLineLayout Media_Player_Playback_view_texts_Line_7();
+
+TAknLayoutTableLimits Media_Player_Playback_view_texts_Limits();
+
+TAknTextLineLayout Media_Player_Playback_view_texts(TInt aLineIndex);
+
+// LAF Table : SMIL presentation attachment element
+TAknWindowLineLayout SMIL_presentation_attachment_element_Line_1();
+
+// LAF Table : SMIL presentation attachment highlight
+TAknWindowLineLayout SMIL_presentation_attachment_highlight_Line_1();
+
+TAknWindowLineLayout SMIL_presentation_attachment_highlight_Line_2();
+
+TAknLayoutTableLimits SMIL_presentation_attachment_highlight_Limits();
+
+TAknWindowLineLayout SMIL_presentation_attachment_highlight(TInt aLineIndex);
+
+// LAF Table : SMIL presentation elements and descendant panes
+TAknWindowLineLayout SMIL_presentation_elements_and_descendant_panes_Line_1();
+
+TAknWindowLineLayout smil_status_pane();
+
+TAknWindowLineLayout smil_text_pane(TInt aIndex_t, TInt aIndex_H);
+
+TAknLayoutTableLimits SMIL_presentation_elements_and_descendant_panes_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout SMIL_presentation_elements_and_descendant_panes_SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : SMIL status pane elements and descendant panes
+TAknWindowLineLayout smil_volume_pane();
+
+TAknWindowLineLayout SMIL_status_pane_elements_and_descendant_panes_Line_2();
+
+TAknWindowLineLayout SMIL_status_pane_elements_and_descendant_panes_Line_3();
+
+TAknWindowLineLayout SMIL_status_pane_elements_and_descendant_panes_Line_4();
+
+TAknLayoutTableLimits SMIL_status_pane_elements_and_descendant_panes_Limits();
+
+TAknWindowLineLayout SMIL_status_pane_elements_and_descendant_panes(TInt aLineIndex);
+
+// LAF Table : SMIL status pane texts
+TAknTextLineLayout SMIL_status_pane_texts_Line_1();
+
+// LAF Table : SMIL volume pane elements
+TAknWindowLineLayout SMIL_volume_pane_elements_Line_1();
+
+TAknWindowLineLayout SMIL_volume_pane_elements_Line_2();
+
+TAknLayoutTableLimits SMIL_volume_pane_elements_Limits();
+
+TAknWindowLineLayout SMIL_volume_pane_elements(TInt aLineIndex);
+
+TAknTextLineLayout Location_request_type_texts_Line_1(TInt aIndex_B);
+TAknMultiLineTextLayout Multiline_Location_request_type_texts_Line_1(TInt aNumberOfLinesShown);
+TAknWindowLineLayout Location_requestor_pane_elements_Line_1(TInt aIndex_l);
+TAknTextLineLayout Location_reqestor_pane_texts_Line_1(TInt aIndex_r, TInt aIndex_W);
+TAknWindowLineLayout Location_request_popup_window_grapihcs_Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Location_request_popup_window_grapihcs_Line_2(const TRect& aParentRect);
+TAknWindowLineLayout Location_request_popup_window_grapihcs_Line_3(const TRect& aParentRect);
+TAknWindowLineLayout Location_request_popup_window_grapihcs_Line_4(const TRect& aParentRect);
+TAknWindowLineLayout Location_request_popup_window_grapihcs_Line_5(const TRect& aParentRect);
+TAknLayoutTableLimits Location_request_popup_window_grapihcs_Limits();
+TAknWindowLineLayout Location_request_popup_window_grapihcs(TInt aLineIndex, const TRect& aParentRect);
+TAknLayoutTableLimits Volume_strength_area_values_Limits();
+
+TAknWindowLineLayout Volume_strength_area_values(TInt aLineIndex);
+
+// LAF Table : SMIL text pane elements
+TAknWindowLineLayout SMIL_text_pane_elements_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout smil_scroll_pane(const TRect& aParentRect);
+
+// LAF Table : SMIL text pane texts
+TAknTextLineLayout SMIL_text_pane_texts_Line_1(TInt aCommon1, TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_SMIL_text_pane_texts_Line_1(TInt aCommon1, TInt aNumberOfLinesShown);
+
+// LAF Table : SMIL scroll pane elements
+TAknWindowLineLayout SMIL_scroll_pane_elements_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout SMIL_scroll_pane_elements_Line_2();
+
+TAknWindowLineLayout SMIL_scroll_pane_elements_Line_3();
+
+TAknLayoutTableLimits SMIL_scroll_pane_elements_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout SMIL_scroll_pane_elements_SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : Pop-up windows (status pane as parent)
+TAknWindowLineLayout popup_pbook_thumbnail_window();
+
+TAknWindowLineLayout popup_call_status_window(TInt aIndex_l);
+
+TAknWindowLineLayout popup_call_video_up_window(TInt aCommon1);
+
+TAknWindowLineLayout popup_cale_events_window(TInt aCommon1);
+
+// LAF Table : Pop-up window list pane descendants(call conf)
+TAknWindowLineLayout list_single_graphic_popup_conf_pane(TInt aIndex_t);
+
+// LAF Table : List pane elements (conf single graphic)
+TAknWindowLineLayout List_pane_elements__conf_single_graphic__Line_1();
+
+TAknWindowLineLayout List_pane_elements__conf_single_graphic__Line_2();
+
+TAknLayoutTableLimits List_pane_elements__conf_single_graphic__Limits();
+
+TAknWindowLineLayout List_pane_elements__conf_single_graphic_(TInt aLineIndex);
+
+// LAF Table : List pane texts (conf single graphic)
+TAknTextLineLayout List_pane_texts__conf_single_graphic__Line_1();
+
+// LAF Table : List pane elements (menu single graphic bt)
+TAknWindowLineLayout List_pane_elements__menu_single_graphic_bt__Line_1();
+
+TAknWindowLineLayout List_pane_elements__menu_single_graphic_bt__Line_2(TInt aIndex_l);
+
+// LAF Table : List pane text (menu single graphic bt)
+TAknTextLineLayout List_pane_text__menu_single_graphic_bt__Line_1(TInt aCommon1);
+
+// LAF Table : Highlight graphics
+TAknWindowLineLayout Highlight_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Highlight_graphics_Line_2(const TRect& aParentRect);
+
+TAknLayoutTableLimits Highlight_graphics_Limits();
+
+TAknWindowLineLayout Highlight_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Pop-up window grid pane descendants (large graphic gms)
+TAknWindowLineLayout cell_large_graphic_popup_pane(TInt aIndex_l, TInt aIndex_t);
+
+// LAF Table : Cell pane elements (popup large graphic gms)
+TAknWindowLineLayout Cell_pane_elements__popup_large_graphic_gms__Line_1();
+
+TAknWindowLineLayout Cell_pane_elements__popup_large_graphic_gms__Line_2();
+
+TAknLayoutTableLimits Cell_pane_elements__popup_large_graphic_gms__Limits();
+
+TAknWindowLineLayout Cell_pane_elements__popup_large_graphic_gms_(TInt aLineIndex);
+
+// LAF Table : Highlight elements (grid pop-up)
+TAknWindowLineLayout Highlight_elements__grid_pop_up__Line_1(const TRect& aParentRect);
+
+// LAF Table : Number entry pop-up window texts
+TAknTextLineLayout Number_entry_pop_up_window_texts_Line_1(TInt aCommon1);
+
+TAknTextLineLayout Number_entry_pop_up_window_texts_Line_2(TInt aCommon1, TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Number_entry_pop_up_window_texts_Line_2(TInt aCommon1, TInt aNumberOfLinesShown);
+
+// LAF Table : Number entry pop-up window graphics
+TAknWindowLineLayout Number_entry_pop_up_window_graphics_Line_1(TInt aCommon1);
+
+TAknWindowLineLayout Number_entry_pop_up_window_graphics_Line_2(TInt aCommon1);
+
+TAknWindowLineLayout Number_entry_pop_up_window_graphics_Line_3(TInt aCommon1);
+
+TAknWindowLineLayout Number_entry_pop_up_window_graphics_Line_4(TInt aCommon1);
+
+TAknWindowLineLayout Number_entry_pop_up_window_graphics_Line_5(TInt aCommon1);
+
+TAknLayoutTableLimits Number_entry_pop_up_window_graphics_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Number_entry_pop_up_window_graphics_SUB_TABLE_0(TInt aLineIndex, TInt aCommon1);
+
+// LAF Table : Phonebook memory status pop-up window descendants and elements
+TAknWindowLineLayout popup_heading_pane();
+
+TAknWindowLineLayout Phonebook_memory_status_pop_up_window_descendants_and_elements_Line_2();
+
+TAknLayoutTableLimits Phonebook_memory_status_pop_up_window_descendants_and_elements_Limits();
+
+TAknWindowLineLayout Phonebook_memory_status_pop_up_window_descendants_and_elements(TInt aLineIndex);
+
+// LAF Table : Phonebook memory status pop-up window texts
+TAknTextLineLayout Phonebook_memory_status_pop_up_window_texts_Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Phonebook_memory_status_pop_up_window_texts_Line_1(TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Phonebook_memory_status_pop_up_window_texts_Line_2(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Phonebook_memory_status_pop_up_window_texts_Line_2(TInt aNumberOfLinesShown);
+
+TAknLayoutTableLimits Phonebook_memory_status_pop_up_window_texts_Limits();
+
+TAknTextLineLayout Phonebook_memory_status_pop_up_window_texts(TInt aLineIndex, TInt aIndex_B);
+
+// LAF Table : Phonebook memory status pop-up window graphics
+TAknWindowLineLayout Phonebook_memory_status_pop_up_window_graphics_Line_1();
+
+TAknWindowLineLayout Phonebook_memory_status_pop_up_window_graphics_Line_2();
+
+TAknWindowLineLayout Phonebook_memory_status_pop_up_window_graphics_Line_3();
+
+TAknWindowLineLayout Phonebook_memory_status_pop_up_window_graphics_Line_4();
+
+TAknWindowLineLayout Phonebook_memory_status_pop_up_window_graphics_Line_5();
+
+TAknLayoutTableLimits Phonebook_memory_status_pop_up_window_graphics_Limits();
+
+TAknWindowLineLayout Phonebook_memory_status_pop_up_window_graphics(TInt aLineIndex);
+
+// LAF Table : Graphical message image selection pop-up window descendants
+TAknWindowLineLayout Graphical_message_image_selection_pop_up_window_descendants_Line_1();
+
+TAknWindowLineLayout grid_large_graphic_popup_pane(TInt aIndex_H);
+
+// LAF Table : Graphical message image selection pop-up window elements
+TAknWindowLineLayout Graphical_message_image_selection_pop_up_window_elements_Line_1(TInt aIndex_t);
+
+TAknWindowLineLayout Graphical_message_image_selection_pop_up_window_elements_Line_2(TInt aIndex_l, TInt aIndex_H);
+
+// LAF Table : Graphical message image selection pop-up window graphics
+TAknWindowLineLayout Graphical_message_image_selection_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Graphical_message_image_selection_pop_up_window_graphics_Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout Graphical_message_image_selection_pop_up_window_graphics_Line_3(const TRect& aParentRect);
+
+TAknWindowLineLayout Graphical_message_image_selection_pop_up_window_graphics_Line_4(const TRect& aParentRect);
+
+TAknWindowLineLayout Graphical_message_image_selection_pop_up_window_graphics_Line_5(const TRect& aParentRect);
+
+TAknLayoutTableLimits Graphical_message_image_selection_pop_up_window_graphics_Limits();
+
+TAknWindowLineLayout Graphical_message_image_selection_pop_up_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Browser WIM PIN Code query pop-up window elements
+TAknWindowLineLayout Browser_WIM_PIN_Code_query_pop_up_window_elements_Line_1();
+
+TAknWindowLineLayout Browser_WIM_PIN_Code_query_pop_up_window_elements_Line_2(TInt aIndex_t);
+
+TAknWindowLineLayout Browser_WIM_PIN_Code_query_pop_up_window_elements_Line_3(TInt aIndex_t);
+
+TAknWindowLineLayout Browser_WIM_PIN_Code_query_pop_up_window_elements_Line_4(TInt aIndex_t);
+
+TAknWindowLineLayout Browser_WIM_PIN_Code_query_pop_up_window_elements_Line_5();
+
+TAknWindowLineLayout Browser_WIM_PIN_Code_query_pop_up_window_elements_Line_6(TInt aIndex_t);
+
+TAknLayoutTableLimits Browser_WIM_PIN_Code_query_pop_up_window_elements_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Browser_WIM_PIN_Code_query_pop_up_window_elements_SUB_TABLE_0(TInt aLineIndex, TInt aIndex_t);
+
+// LAF Table : Browser WIM PIN Code query pop-up window texts
+TAknTextLineLayout Browser_WIM_PIN_Code_query_pop_up_window_texts_Line_1();
+
+TAknTextLineLayout Browser_WIM_PIN_Code_query_pop_up_window_texts_Line_2(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Browser_WIM_PIN_Code_query_pop_up_window_texts_Line_2(TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Browser_WIM_PIN_Code_query_pop_up_window_texts_Line_3(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Browser_WIM_PIN_Code_query_pop_up_window_texts_Line_3(TInt aNumberOfLinesShown);
+
+TAknLayoutTableLimits Browser_WIM_PIN_Code_query_pop_up_window_texts_SUB_TABLE_0_Limits();
+
+TAknTextLineLayout Browser_WIM_PIN_Code_query_pop_up_window_texts_SUB_TABLE_0(TInt aLineIndex, TInt aIndex_B);
+
+// LAF Table : Browser WIM PIN Code query pop-up window graphics
+TAknWindowLineLayout Browser_WIM_PIN_Code_query_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Browser_WIM_PIN_Code_query_pop_up_window_graphics_Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout Browser_WIM_PIN_Code_query_pop_up_window_graphics_Line_3(const TRect& aParentRect);
+
+TAknWindowLineLayout Browser_WIM_PIN_Code_query_pop_up_window_graphics_Line_4(const TRect& aParentRect);
+
+TAknWindowLineLayout Browser_WIM_PIN_Code_query_pop_up_window_graphics_Line_5(const TRect& aParentRect);
+
+TAknLayoutTableLimits Browser_WIM_PIN_Code_query_pop_up_window_graphics_Limits();
+
+TAknWindowLineLayout Browser_WIM_PIN_Code_query_pop_up_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Browser Digital Signing query pop-up window elements
+TAknWindowLineLayout Browser_Digital_Signing_query_pop_up_window_elements_Line_1();
+
+TAknWindowLineLayout Browser_Digital_Signing_query_pop_up_window_elements_Line_2();
+
+TAknLayoutTableLimits Browser_Digital_Signing_query_pop_up_window_elements_Limits();
+
+TAknWindowLineLayout Browser_Digital_Signing_query_pop_up_window_elements(TInt aLineIndex);
+
+// LAF Table : Browser Digital Signing query pop-up window texts
+TAknTextLineLayout Browser_Digital_Signing_query_pop_up_window_texts_Line_1();
+
+TAknTextLineLayout Browser_Digital_Signing_query_pop_up_window_texts_Line_2(TInt aCommon1, TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Browser_Digital_Signing_query_pop_up_window_texts_Line_2(TInt aCommon1, TInt aNumberOfLinesShown);
+
+// LAF Table : SAT Information query pop-up window elements
+TAknWindowLineLayout SAT_Information_query_pop_up_window_elements_Line_1();
+
+TAknWindowLineLayout SAT_Information_query_pop_up_window_elements_Line_2();
+
+TAknLayoutTableLimits SAT_Information_query_pop_up_window_elements_Limits();
+
+TAknWindowLineLayout SAT_Information_query_pop_up_window_elements(TInt aLineIndex);
+
+// LAF Table : SAT Information query pop-up window texts
+TAknTextLineLayout SAT_Information_query_pop_up_window_texts_Line_1(TInt aCommon1, TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_SAT_Information_query_pop_up_window_texts_Line_1(TInt aCommon1, TInt aNumberOfLinesShown);
+
+// LAF Table : Analogue clock pop-up window elements
+TAknWindowLineLayout Analogue_clock_pop_up_window_elements_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Analogue_clock_pop_up_window_elements_Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout Analogue_clock_pop_up_window_elements_Line_3();
+
+TAknWindowLineLayout Analogue_clock_pop_up_window_elements_Line_4();
+
+TAknWindowLineLayout Analogue_clock_pop_up_window_elements_Line_5();
+
+TAknLayoutTableLimits Analogue_clock_pop_up_window_elements_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Analogue_clock_pop_up_window_elements_SUB_TABLE_0(TInt aLineIndex, const TRect& aParentRect);
+
+TAknLayoutTableLimits Analogue_clock_pop_up_window_elements_SUB_TABLE_1_Limits();
+
+TAknWindowLineLayout Analogue_clock_pop_up_window_elements_SUB_TABLE_1(TInt aLineIndex);
+
+// LAF Table : Analogue clock pop-up window texts
+TAknTextLineLayout Analogue_clock_pop_up_window_texts_Line_1();
+
+// LAF Table : Digital clock pop-up window elements
+TAknWindowLineLayout Digital_clock_pop_up_window_elements_Line_1();
+
+TAknWindowLineLayout Digital_clock_pop_up_window_elements_Line_2();
+
+TAknWindowLineLayout Digital_clock_pop_up_window_elements_Line_3();
+
+TAknLayoutTableLimits Digital_clock_pop_up_window_elements_Limits();
+
+TAknWindowLineLayout Digital_clock_pop_up_window_elements(TInt aLineIndex);
+
+// LAF Table : Digital clock pop-up window texts
+TAknTextLineLayout Digital_clock_pop_up_window_texts_Line_1();
+
+TAknTextLineLayout Digital_clock_pop_up_window_texts_Line_2();
+
+TAknLayoutTableLimits Digital_clock_pop_up_window_texts_Limits();
+
+TAknTextLineLayout Digital_clock_pop_up_window_texts(TInt aLineIndex);
+
+// LAF Table : Thumbnail pop-up window elements
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_1();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_2();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_3();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_4();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_5();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_6();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_7();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_8();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_9();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_10();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_11();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_12();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_13();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_14();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_15();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_16();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_17();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements_Line_18();
+
+TAknLayoutTableLimits Thumbnail_pop_up_window_elements_Limits();
+
+TAknWindowLineLayout Thumbnail_pop_up_window_elements(TInt aLineIndex);
+
+// LAF Table : Call status pop-up window elements
+TAknWindowLineLayout Call_status_pop_up_window_elements_Line_1();
+
+TAknWindowLineLayout Call_status_pop_up_window_elements_Line_2();
+
+TAknWindowLineLayout Call_status_pop_up_window_elements_Line_3();
+
+TAknWindowLineLayout Call_status_pop_up_window_elements_Line_4();
+
+TAknLayoutTableLimits Call_status_pop_up_window_elements_Limits();
+
+TAknWindowLineLayout Call_status_pop_up_window_elements(TInt aLineIndex);
+
+// LAF Table : Incoming call pop-up window elements
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_Line_1();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_Line_2();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_Line_3();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_Line_4();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_Line_5();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_Line_6();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_Line_7();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_Line_8();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_Line_9();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_Line_10();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_Line_11();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_Line_12();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_Line_13();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_Line_14(TInt aIndex_r);
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_Line_15();
+
+TAknLayoutTableLimits Incoming_call_pop_up_window_elements_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements_SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : Incoming call pop-up window texts
+TAknTextLineLayout Incoming_call_pop_up_window_texts_Line_1(TInt aCommon1, TInt aCommon2);
+
+TAknMultiLineTextLayout Multiline_Incoming_call_pop_up_window_texts_Line_1(TInt aCommon1, TInt aCommon2, TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Incoming_call_pop_up_window_texts_Line_2(TInt aCommon1, TInt aCommon2);
+
+TAknMultiLineTextLayout Multiline_Incoming_call_pop_up_window_texts_Line_2(TInt aCommon1, TInt aCommon2, TInt aNumberOfLinesShown);
+
+TAknLayoutTableLimits Incoming_call_pop_up_window_texts_Limits();
+
+TAknTextLineLayout Incoming_call_pop_up_window_texts(TInt aLineIndex, TInt aCommon1, TInt aCommon2);
+
+// LAF Table : Incoming call pop-up window graphics
+TAknWindowLineLayout Incoming_call_pop_up_window_graphics_Line_1(TInt aIndex_H);
+
+TAknWindowLineLayout Incoming_call_pop_up_window_graphics_Line_2(TInt aIndex_H);
+
+TAknWindowLineLayout Incoming_call_pop_up_window_graphics_Line_3(TInt aIndex_H);
+
+TAknWindowLineLayout Incoming_call_pop_up_window_graphics_Line_4(TInt aIndex_H);
+
+TAknWindowLineLayout Incoming_call_pop_up_window_graphics_Line_5(TInt aIndex_H);
+
+TAknLayoutTableLimits Incoming_call_pop_up_window_graphics_Limits();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_graphics(TInt aLineIndex, TInt aIndex_H);
+
+// LAF Table : Incoming call pop-up window elements (NE)
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE__Line_1();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE__Line_2();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE__Line_3();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE__Line_4();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE__Line_5();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE__Line_6();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE__Line_7();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE__Line_8();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE__Line_9();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE__Line_10();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE__Line_11();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE__Line_12();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE__Line_13();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE__Line_14();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE__Line_15();
+
+TAknLayoutTableLimits Incoming_call_pop_up_window_elements__NE__Limits();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_elements__NE_(TInt aLineIndex);
+
+// LAF Table : Incoming call pop-up window texts (NE)
+TAknTextLineLayout Incoming_call_pop_up_window_texts__NE__Line_1(TInt aCommon1, TInt aCommon2);
+
+TAknMultiLineTextLayout Multiline_Incoming_call_pop_up_window_texts__NE__Line_1(TInt aCommon1, TInt aCommon2, TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Incoming_call_pop_up_window_texts__NE__Line_2(TInt aCommon1, TInt aCommon2);
+
+TAknMultiLineTextLayout Multiline_Incoming_call_pop_up_window_texts__NE__Line_2(TInt aCommon1, TInt aCommon2, TInt aNumberOfLinesShown);
+
+TAknLayoutTableLimits Incoming_call_pop_up_window_texts__NE__Limits();
+
+TAknTextLineLayout Incoming_call_pop_up_window_texts__NE_(TInt aLineIndex, TInt aCommon1, TInt aCommon2);
+
+// LAF Table : Incoming call pop-up window graphics (NE)
+TAknWindowLineLayout Incoming_call_pop_up_window_graphics__NE__Line_1();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_graphics__NE__Line_2();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_graphics__NE__Line_3();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_graphics__NE__Line_4();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_graphics__NE__Line_5();
+
+TAknLayoutTableLimits Incoming_call_pop_up_window_graphics__NE__Limits();
+
+TAknWindowLineLayout Incoming_call_pop_up_window_graphics__NE_(TInt aLineIndex);
+
+// LAF Table : Outgoing call pop-up window elements (held)
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held__Line_1();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held__Line_2();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held__Line_3();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held__Line_4();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held__Line_5();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held__Line_6();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held__Line_7();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held__Line_8();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held__Line_9();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held__Line_10();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held__Line_11();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held__Line_12();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held__Line_13();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held__Line_14();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held__Line_15();
+
+TAknLayoutTableLimits Outgoing_call_pop_up_window_elements__held__Limits();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held_(TInt aLineIndex);
+
+// LAF Table : Outgoing call pop-up window texts (held)
+TAknTextLineLayout Outgoing_call_pop_up_window_texts__held__Line_1(TInt aCommon1, TInt aCommon2);
+
+TAknMultiLineTextLayout Multiline_Outgoing_call_pop_up_window_texts__held__Line_1(TInt aCommon1, TInt aCommon2, TInt aNumberOfLinesShown);
+
+// LAF Table : Outgoing call pop-up window graphics (held)
+TAknWindowLineLayout Outgoing_call_pop_up_window_graphics__held__Line_1();
+
+// LAF Table : Outgoing call pop-up window elements (held NE)
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held_NE__Line_1();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held_NE__Line_2();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held_NE__Line_3();
+
+TAknLayoutTableLimits Outgoing_call_pop_up_window_elements__held_NE__Limits();
+
+TAknWindowLineLayout Outgoing_call_pop_up_window_elements__held_NE_(TInt aLineIndex);
+
+// LAF Table : Outgoing call pop-up window texts (held NE)
+TAknTextLineLayout Outgoing_call_pop_up_window_texts__held_NE__Line_1();
+
+// LAF Table : Outgoing call pop-up window graphics (held NE)
+TAknWindowLineLayout Outgoing_call_pop_up_window_graphics__held_NE__Line_1();
+
+// LAF Table : First call pop-up window elements (one call)
+TAknWindowLineLayout First_call_pop_up_window_elements__one_call__Line_1();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__one_call__Line_2();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__one_call__Line_3();
+
+TAknLayoutTableLimits First_call_pop_up_window_elements__one_call__Limits();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__one_call_(TInt aLineIndex);
+
+// LAF Table : First call pop-up window texts (one call)
+TAknTextLineLayout First_call_pop_up_window_texts__one_call__Line_1(TInt aCommon1, TInt aCommon2);
+
+TAknMultiLineTextLayout Multiline_First_call_pop_up_window_texts__one_call__Line_1(TInt aCommon1, TInt aCommon2, TInt aNumberOfLinesShown);
+
+TAknTextLineLayout First_call_pop_up_window_texts__one_call__Line_2(TInt aCommon1);
+
+// LAF Table : First call pop-up window graphics (one call)
+TAknWindowLineLayout First_call_pop_up_window_graphics__one_call__Line_1();
+
+// LAF Table : First call pop-up window elements (two calls)
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls__Line_1();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls__Line_2();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls__Line_3();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls__Line_4();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls__Line_5();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls__Line_6();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls__Line_7();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls__Line_8();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls__Line_9();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls__Line_10();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls__Line_11();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls__Line_12();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls__Line_13();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls__Line_14();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls__Line_15();
+
+TAknLayoutTableLimits First_call_pop_up_window_elements__two_calls__Limits();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls_(TInt aLineIndex);
+
+// LAF Table : First call pop-up window texts (two calls)
+TAknTextLineLayout First_call_pop_up_window_texts__two_calls__Line_1(TInt aCommon1, TInt aCommon2);
+
+TAknMultiLineTextLayout Multiline_First_call_pop_up_window_texts__two_calls__Line_1(TInt aCommon1, TInt aCommon2, TInt aNumberOfLinesShown);
+
+TAknTextLineLayout First_call_pop_up_window_texts__two_calls__Line_2(TInt aCommon1);
+
+// LAF Table : First call pop-up window graphics (two calls)
+TAknWindowLineLayout First_call_pop_up_window_graphics__two_calls__Line_1();
+
+// LAF Table : First call pop-up window elements (two calls a waiting call)
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls_a_waiting_call__Line_1();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls_a_waiting_call__Line_2();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls_a_waiting_call__Line_3();
+
+TAknLayoutTableLimits First_call_pop_up_window_elements__two_calls_a_waiting_call__Limits();
+
+TAknWindowLineLayout First_call_pop_up_window_elements__two_calls_a_waiting_call_(TInt aLineIndex);
+
+// LAF Table : First call pop-up window texts (two calls a waiting call)
+TAknTextLineLayout First_call_pop_up_window_texts__two_calls_a_waiting_call__Line_1();
+
+// LAF Table : First call pop-up window graphics (two calls a waiting call)
+TAknWindowLineLayout First_call_pop_up_window_graphics__two_calls_a_waiting_call__Line_1();
+
+// LAF Table : First call pop-up window graphics (two wait NE)
+TAknWindowLineLayout First_call_pop_up_window_graphics__two_wait_NE__Line_1();
+
+// LAF Table : Waiting call pop-up window elements (held out NE)
+TAknWindowLineLayout Waiting_call_pop_up_window_elements__held_out_NE__Line_1();
+
+TAknWindowLineLayout Waiting_call_pop_up_window_elements__held_out_NE__Line_2();
+
+TAknWindowLineLayout Waiting_call_pop_up_window_elements__held_out_NE__Line_3();
+
+TAknLayoutTableLimits Waiting_call_pop_up_window_elements__held_out_NE__Limits();
+
+TAknWindowLineLayout Waiting_call_pop_up_window_elements__held_out_NE_(TInt aLineIndex);
+
+// LAF Table : Waiting call pop-up window texts (held out NE)
+TAknTextLineLayout Waiting_call_pop_up_window_texts__held_out_NE__Line_1();
+
+// LAF Table : Waiting call pop-up window graphics (held out NE)
+TAknWindowLineLayout Waiting_call_pop_up_window_graphics__held_out_NE__Line_1();
+
+// LAF Table : Waiting call pop-up window graphics (out)
+TAknWindowLineLayout Waiting_call_pop_up_window_graphics__out__Line_1();
+
+// LAF Table : Second call pop-up window elements (two)
+TAknWindowLineLayout Second_call_pop_up_window_elements__two__Line_1();
+
+TAknWindowLineLayout Second_call_pop_up_window_elements__two__Line_2();
+
+TAknWindowLineLayout Second_call_pop_up_window_elements__two__Line_3();
+
+TAknLayoutTableLimits Second_call_pop_up_window_elements__two__Limits();
+
+TAknWindowLineLayout Second_call_pop_up_window_elements__two_(TInt aLineIndex);
+
+// LAF Table : Second call pop-up window texts (two calls)
+TAknTextLineLayout Second_call_pop_up_window_texts__two_calls__Line_1(TInt aCommon1, TInt aCommon2);
+
+TAknMultiLineTextLayout Multiline_Second_call_pop_up_window_texts__two_calls__Line_1(TInt aCommon1, TInt aCommon2, TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Second_call_pop_up_window_texts__two_calls__Line_2(TInt aCommon1);
+
+// LAF Table : Second call pop-up window graphics (two calls)
+TAknWindowLineLayout Second_call_pop_up_window_graphics__two_calls__Line_1();
+
+// LAF Table : Second call pop-up window elements (two calls waiting call)
+TAknWindowLineLayout Second_call_pop_up_window_elements__two_calls_waiting_call__Line_1();
+
+TAknWindowLineLayout Second_call_pop_up_window_elements__two_calls_waiting_call__Line_2();
+
+TAknWindowLineLayout Second_call_pop_up_window_elements__two_calls_waiting_call__Line_3();
+
+TAknLayoutTableLimits Second_call_pop_up_window_elements__two_calls_waiting_call__Limits();
+
+TAknWindowLineLayout Second_call_pop_up_window_elements__two_calls_waiting_call_(TInt aLineIndex);
+
+// LAF Table : Second call pop-up window texts (two calls waiting call)
+TAknTextLineLayout Second_call_pop_up_window_texts__two_calls_waiting_call__Line_1();
+
+// LAF Table : Second call pop-up window graphics (two calls waiting call)
+TAknWindowLineLayout Second_call_pop_up_window_graphics__two_calls_waiting_call__Line_1();
+
+// LAF Table : Conference call pop-up window descendants and elements
+TAknWindowLineLayout Conference_call_pop_up_window_descendants_and_elements_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout list_conf_pane(TInt aIndex_H);
+
+// LAF Table : Conference call pop-up window texts
+TAknTextLineLayout Conference_call_pop_up_window_texts_Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Conference_call_pop_up_window_texts_Line_1(TInt aNumberOfLinesShown);
+
+// LAF Table : Muted state elements
+TAknWindowLineLayout Muted_state_elements_Line_1();
+
+// LAF Table : Calendar events list popup components
+TAknWindowLineLayout Calendar_events_list_popup_components_Line_1(TInt aIndex_t);
+
+// LAF Table : Calendar events list popup texts
+TAknTextLineLayout Calendar_events_list_popup_texts_Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Calendar_events_list_popup_texts_Line_1(TInt aNumberOfLinesShown);
+
+// LAF Table : Calendar events list popup graphics
+TAknWindowLineLayout Calendar_events_list_popup_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Calendar_events_list_popup_graphics_Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout Calendar_events_list_popup_graphics_Line_3(const TRect& aParentRect);
+
+TAknWindowLineLayout Calendar_events_list_popup_graphics_Line_4(const TRect& aParentRect);
+
+TAknLayoutTableLimits Calendar_events_list_popup_graphics_Limits();
+
+TAknWindowLineLayout Calendar_events_list_popup_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Presence status popup window elements
+TAknWindowLineLayout cell_cams_pane(TInt aIndex_l, TInt aIndex_t);
+TAknWindowLineLayout image_or_qgn_prop_dyc__ref_();
+TAknWindowLineLayout loc_type_pane(TInt aIndex_H);
+TAknWindowLineLayout loc_req_pane(TInt aIndex_t, TInt aIndex_H);
+
+// LAF Table : Additional heading pane elements
+TAknWindowLineLayout Additional_heading_pane_elements_Line_1();
+
+TAknWindowLineLayout Additional_heading_pane_elements_Line_2();
+
+TAknWindowLineLayout Additional_heading_pane_elements_Line_3();
+
+// LAF Table : Presence status popup window texts
+TAknTextLineLayout Presence_status_popup_window_texts_Line_1();
+
+TAknTextLineLayout Presence_status_popup_window_texts_Line_2(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Presence_status_popup_window_texts_Line_2(TInt aNumberOfLinesShown);
+
+// LAF Table : Presence status window graphics
+TAknWindowLineLayout Presence_status_window_graphics_Line_1();
+
+TAknWindowLineLayout Presence_status_window_graphics_Line_2();
+
+TAknWindowLineLayout Presence_status_window_graphics_Line_3();
+
+TAknWindowLineLayout Presence_status_window_graphics_Line_4();
+
+TAknWindowLineLayout Presence_status_window_graphics_Line_5();
+
+TAknLayoutTableLimits Presence_status_window_graphics_Limits();
+
+TAknWindowLineLayout Presence_status_window_graphics(TInt aLineIndex);
+
+// LAF Table : Pop-up windows (main pane as parent)
+TAknWindowLineLayout popup_number_entry_window();
+
+TAknWindowLineLayout popup_pb_memory_status_window();
+
+TAknWindowLineLayout popup_grid_large_graphic_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_call_audio_in_window(TInt aCommon1);
+
+TAknWindowLineLayout popup_call_audio_out_window(TInt aCommon1);
+
+TAknWindowLineLayout popup_call_audio_first_window(TInt aIndex_r, TInt aCommon1);
+
+TAknWindowLineLayout popup_call_audio_wait_window(TInt aCommon1);
+
+TAknWindowLineLayout popup_call_audio_second_window(TInt aIndex_r, TInt aCommon1);
+
+TAknWindowLineLayout popup_call_audio_conf_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_call_video_in_window();
+
+TAknWindowLineLayout popup_call_video_first_window();
+
+TAknWindowLineLayout popup_call_video_down_window();
+
+TAknWindowLineLayout popup_query_wml_wim_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_query_wml_sign_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_query_sat_info_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_grid_large_compo_graphic_window();
+
+TAknWindowLineLayout popup_dyc_status_message_window();
+
+// LAF Table : Thumbnail image sizes
+TAknWindowLineLayout VGA();
+
+TAknWindowLineLayout VGA_turned_90();
+
+TAknWindowLineLayout CIF();
+
+TAknWindowLineLayout CIF_turned_90();
+
+TAknWindowLineLayout Communicator_personal_image();
+
+TAknWindowLineLayout Image_aspect_ratio___0_625();
+
+TAknWindowLineLayout Image_aspect_ratio___1_467();
+
+TAknWindowLineLayout _0_625___image_aspect_ratio___1_467();
+
+TAknLayoutTableLimits Thumbnail_image_sizes_Limits();
+
+TAknWindowLineLayout Thumbnail_image_sizes(TInt aLineIndex);
+
+// LAF Table : Message writing layout elements
+TAknWindowLineLayout Message_writing_layout_elements_Line_1(TInt aIndex_t, TInt aIndex_H);
+TAknWindowLineLayout Message_writing_layout_elements_Line_2(TInt aIndex_t, TInt aIndex_H);
+TAknWindowLineLayout Message_writing_layout_elements_Line_3(TInt aIndex_t);
+TAknWindowLineLayout Message_writing_layout_elements_Line_4(TInt aIndex_H);
+TAknWindowLineLayout Message_writing_layout_elements_Line_5(TInt aIndex_t);
+TAknWindowLineLayout Message_writing_layout_elements_Line_6(TInt aIndex_C, TInt aIndex_t);
+TAknWindowLineLayout Message_writing_layout_elements_Line_7();
+TAknWindowLineLayout Message_writing_layout_elements_Line_8(TInt aIndex_t, TInt aIndex_W, TInt aIndex_H);
+
+
+TAknWindowLineLayout CamcorderBurst_Mode_Post_Recording_cell_elements_Line_1();
+TAknWindowLineLayout CamcorderBurst_Mode_Post_Recording_cell_elements_Line_2();
+TAknLayoutTableLimits CamcorderBurst_Mode_Post_Recording_cell_elements_Limits();
+TAknWindowLineLayout CamcorderBurst_Mode_Post_Recording_cell_elements(TInt aLineIndex);
+TAknWindowLineLayout Camcorder_Still_Image_Viewfinder_descendants_and_elements_Line_6();
+TAknWindowLineLayout Camcorder_Still_Image_Viewfinder_descendants_and_elements_Line_7();
+TAknWindowLineLayout near_QCIF();
+TAknTextLineLayout Media_Player_navi_pane_texts_Line_1();
+TAknWindowLineLayout Volume_strength_area_values_Line_1();
+TAknWindowLineLayout Volume_strength_area_values_Line_2();
+TAknWindowLineLayout Volume_strength_area_values_Line_3();
+TAknWindowLineLayout Volume_strength_area_values_Line_4();
+TAknWindowLineLayout Volume_strength_area_values_Line_5();
+TAknWindowLineLayout Volume_strength_area_values_Line_6();
+TAknWindowLineLayout Volume_strength_area_values_Line_7();
+TAknWindowLineLayout Volume_strength_area_values_Line_8();
+TAknWindowLineLayout blid_compass_pane();
+TAknWindowLineLayout BLID_compass_view_elements_Line_2();
+TAknWindowLineLayout BLID_compass_view_elements_Line_3();
+TAknLayoutTableLimits BLID_compass_view_elements_Limits();
+TAknWindowLineLayout BLID_compass_view_elements(TInt aLineIndex);
+TAknWindowLineLayout Accuracyvalues_Line_1();
+TAknWindowLineLayout Accuracyvalues_Line_2();
+TAknWindowLineLayout Accuracyvalues_Line_3();
+TAknWindowLineLayout Accuracyvalues_Line_4();
+TAknWindowLineLayout Accuracyvalues_Line_5();
+TAknWindowLineLayout Accuracyvalues_Line_6();
+TAknWindowLineLayout Accuracyvalues_Line_7();
+TAknWindowLineLayout Accuracyvalues_Line_8();
+TAknLayoutTableLimits Accuracyvalues_Limits();
+TAknWindowLineLayout Accuracyvalues(TInt aLineIndex);
+TAknTextLineLayout BLIDcompass_view_texts_Line_1();
+TAknTextLineLayout BLIDcompass_view_texts_Line_2();
+TAknTextLineLayout BLIDcompass_view_texts_Line_3();
+TAknLayoutTableLimits BLIDcompass_view_texts_Limits();
+TAknTextLineLayout BLIDcompass_view_texts(TInt aLineIndex);
+TAknWindowLineLayout Compasspane_elements_Line_1();
+TAknWindowLineLayout Arrow_head__graphic();
+TAknWindowLineLayout Arrow_body__graphic();
+TAknLayoutTableLimits Compasspane_elements_Limits();
+TAknWindowLineLayout Compasspane_elements(TInt aLineIndex);
+TAknWindowLineLayout blid_direction_pane();
+TAknTextLineLayout BLIDdirection_elements_Line_1();
+TAknWindowLineLayout Outgoingincoming_video_call_elements_Line_1();
+TAknWindowLineLayout Outgoingincoming_video_call_elements_Line_2();
+TAknLayoutTableLimits Outgoingincoming_video_call_elements_Limits();
+TAknWindowLineLayout Outgoingincoming_video_call_elements(TInt aLineIndex);
+TAknWindowLineLayout Uplink_video_image__large__Line_1();
+TAknWindowLineLayout Uplink_video_image__large__Line_2();
+TAknWindowLineLayout Uplink_video_image__large__Line_3();
+TAknLayoutTableLimits Uplink_video_image__large__Limits();
+TAknWindowLineLayout Uplink_video_image__large_(TInt aLineIndex);
+TAknWindowLineLayout Downlink_video_image_Line_1();
+TAknWindowLineLayout downlink_stream();
+TAknWindowLineLayout Downlink_video_image_Line_3();
+TAknLayoutTableLimits Downlink_video_image_Limits();
+TAknWindowLineLayout Downlink_video_image(TInt aLineIndex);
+TAknWindowLineLayout title_pane();
+TAknWindowLineLayout uni_indicator_pane();
+TAknLayoutTableLimits Status_pane_changes_Limits();
+TAknWindowLineLayout Status_pane_changes(TInt aLineIndex);
+TAknTextLineLayout Title_pane_texts_Line_2(TInt aIndex_B);
+TAknMultiLineTextLayout Multiline_Title_pane_texts_Line_2(TInt aNumberOfLinesShown);
+TAknWindowLineLayout Navipane_elements_and_descendant_panes_Line_1();
+TAknWindowLineLayout zooming_pane();
+TAknLayoutTableLimits Navipane_elements_and_descendant_panes_Limits();
+TAknWindowLineLayout Navipane_elements_and_descendant_panes(TInt aLineIndex);
+TAknWindowLineLayout Zooming_pane_elements_Line_1();
+TAknWindowLineLayout Zooming_pane_elements_Line_2();
+TAknWindowLineLayout Zooming_pane_elements_Line_3();
+TAknWindowLineLayout Zooming_pane_elements_Line_4();
+TAknLayoutTableLimits Zooming_pane_elements_Limits();
+TAknWindowLineLayout Zooming_pane_elements(TInt aLineIndex);
+TAknTextLineLayout Navipanetexts_Line_1();
+TAknTextLineLayout Navipanetexts_Line_2();
+TAknLayoutTableLimits Navipanetexts_Limits();
+TAknTextLineLayout Navipanetexts(TInt aLineIndex);
+TAknWindowLineLayout Videocall_indicator__NEwaiting_call__Line_1();
+TAknWindowLineLayout Videocall_indicator__NEwaiting_call__Line_2();
+TAknLayoutTableLimits Videocall_indicator__NEwaiting_call__Limits();
+TAknWindowLineLayout Videocall_indicator__NEwaiting_call_(TInt aLineIndex);
+TAknWindowLineLayout Callstatus_pop_up_window_elements_Line_1();
+TAknWindowLineLayout Callstatus_pop_up_window_elements_Line_2();
+TAknLayoutTableLimits Callstatus_pop_up_window_elements_Limits();
+TAknWindowLineLayout Callstatus_pop_up_window_elements(TInt aLineIndex);
+TAknWindowLineLayout Rectangle();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_2();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_3();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_4();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_5();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_6();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_7();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_8();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_9();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_10();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_11();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_12();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_13();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_14();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_15();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_16();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_17();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area__Line_18();
+TAknLayoutTableLimits Colorpalette_preview_screen_element_placing__main_area__Limits();
+TAknWindowLineLayout Colorpalette_preview_screen_element_placing__main_area_(TInt aLineIndex);
+TAknTextLineLayout Colorpalette_preview_screen_text_placing__main_area__Line_1();
+TAknTextLineLayout Colorpalette_preview_screen_text_placing__main_area__Line_2();
+TAknLayoutTableLimits Colorpalette_preview_screen_text_placing__main_area__Limits();
+TAknTextLineLayout Colorpalette_preview_screen_text_placing__main_area_(TInt aLineIndex);
+TAknWindowLineLayout audioskin_pane();
+TAknTextLineLayout Audio_Playbackview_texts_Line_1();
+TAknTextLineLayout Audio_Playbackview_texts_Line_2();
+TAknTextLineLayout Audio_Playbackview_texts_Line_3();
+TAknTextLineLayout Audio_Playbackview_texts_Line_4();
+TAknLayoutTableLimits Audio_Playbackview_texts_Limits();
+TAknTextLineLayout Audio_Playbackview_texts(TInt aLineIndex);
+TAknWindowLineLayout Audioskin_pane_elements_Line_1();
+TAknWindowLineLayout popup_loc_request_window(TInt aIndex_H);
+TAknWindowLineLayout list_single_graphic_popup_wml_pane(TInt aIndex_t);
+TAknLayoutTableLimits Pop_up_window_list_pane_descendants_call_conf__Limits();
+TAknWindowLineLayout Pop_up_window_list_pane_descendants_call_conf_(TInt aLineIndex, TInt aIndex_t);
+TAknWindowLineLayout list_wml_pane(TInt aIndex_H);
+TAknWindowLineLayout Browser_address_field_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Browser_address_field_pop_up_window_graphics_Line_2(const TRect& aParentRect);
+TAknWindowLineLayout Browser_address_field_pop_up_window_graphics_Line_3(const TRect& aParentRect);
+TAknWindowLineLayout Browser_address_field_pop_up_window_graphics_Line_4(const TRect& aParentRect);
+TAknLayoutTableLimits Browser_address_field_pop_up_window_graphics_Limits();
+TAknWindowLineLayout Browser_address_field_pop_up_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+TAknTextLineLayout First_call_pop_up_window_texts__one_call__Line_3();
+TAknWindowLineLayout First_call_pop_up_window_graphics__one_call__Line_2();
+TAknLayoutTableLimits First_call_pop_up_window_graphics__one_call__Limits();
+TAknWindowLineLayout First_call_pop_up_window_graphics__one_call_(TInt aLineIndex);
+TAknTextLineLayout First_call_pop_up_window_texts__two_calls__Line_3();
+TAknWindowLineLayout First_call_pop_up_window_graphics__two_calls__Line_2();
+TAknLayoutTableLimits First_call_pop_up_window_graphics__two_calls__Limits();
+TAknWindowLineLayout First_call_pop_up_window_graphics__two_calls_(TInt aLineIndex);
+
+TAknWindowLineLayout Call_type_pane_split_Line_1();
+TAknWindowLineLayout Call_type_pane_split_Line_2();
+
+TAknWindowLineLayout popup_wml_address_window(TInt aIndex_b, TInt aIndex_H);
+
+TAknWindowLineLayout List_pane_elements__browser_single_graphic__Line_1(TInt aIndex_C);
+TAknWindowLineLayout List_pane_elements__browser_single_graphic__Line_2();
+TAknTextLineLayout List_pane_texts__browser_single_graphic__Line_1(TInt aIndex_C);
+TAknWindowLineLayout Camcorder_Still_Image_Viewfinder_descendants_and_elements_Line_8();
+TAknWindowLineLayout Camcorder_Still_Image_Viewfinder_descendants_and_elements_Line_9();
+TAknWindowLineLayout Camcorder_Video_Viewfinder_descendants_and_elements_Line_7(TInt aIndex_C);
+TAknWindowLineLayout Camcorder_Video_Viewfinder_descendants_and_elements_Line_8(TInt aIndex_C);
+TAknWindowLineLayout Camcorder_Video_Recording_descendants_and_elements_Line_7(TInt aIndex_C);
+TAknWindowLineLayout Camcorder_Video_Recording_descendants_and_elements_Line_8(TInt aIndex_C);
+TAknWindowLineLayout Camcorder_Video_Recording_descendants_and_elements_Line_9(TInt aIndex_C);
+TAknTextLineLayout Camcorder_viewfinder_texts_Line_1(TInt aIndex_C);
+TAknWindowLineLayout Camcorder_Still_Image_Burst_Mode_Post_recording_elements_Line_1(TInt aIndex_t);
+TAknWindowLineLayout Camcorder_Still_Image_Burst_Mode_Post_recording_elements_Line_2(TInt aIndex_l);
+TAknWindowLineLayout grid_cams_pane();
+TAknTextLineLayout Camcorder_Burst_Mode_texts_Line_1();
+TAknWindowLineLayout Camcorder_Brightness_Contrast_descendants_and_elements_Line_1();
+TAknWindowLineLayout navi_slider_pane();
+TAknLayoutTableLimits Camcorder_Brightness_Contrast_descendants_and_elements_Limits();
+TAknWindowLineLayout Camcorder_Brightness_Contrast_descendants_and_elements(TInt aLineIndex);
+TAknWindowLineLayout Navi_Slider_pane_elements_Line_1();
+TAknWindowLineLayout Navi_Slider_pane_elements_Line_2();
+TAknLayoutTableLimits Navi_Slider_pane_elements_Limits();
+TAknWindowLineLayout Navi_Slider_pane_elements(TInt aLineIndex);
+TAknWindowLineLayout Camcorder_Manual_Exposure_descendants_and_elements_Line_1();
+
+TAknWindowLineLayout Zooming_steps_sizes_Line_1();
+TAknWindowLineLayout Zooming_steps_sizes_Line_2();
+TAknWindowLineLayout Zooming_steps_sizes_Line_3();
+TAknWindowLineLayout Zooming_steps_sizes_Line_4();
+TAknWindowLineLayout Zooming_steps_sizes_Line_5();
+TAknWindowLineLayout Zooming_steps_sizes_Line_6();
+TAknWindowLineLayout Zooming_steps_sizes_Line_7();
+TAknWindowLineLayout Zooming_steps_sizes_Line_8();
+TAknWindowLineLayout Zooming_steps_sizes_Line_9();
+TAknWindowLineLayout Zooming_steps_sizes_Line_10();
+TAknWindowLineLayout Zooming_steps_sizes_Line_11();
+
+TAknWindowLineLayout Uplink_video_image__small__Line_1();
+TAknWindowLineLayout Uplink_video_image__small__Line_2();
+TAknWindowLineLayout Uplink_video_image__small__Line_3();
+TAknLayoutTableLimits Uplink_video_image__small__Limits();
+TAknWindowLineLayout Uplink_video_image__small_(TInt aLineIndex);
+TAknWindowLineLayout Downlink_video_image_Line_4();
+TAknWindowLineLayout downlink_stream_area();
+
+TAknWindowLineLayout MIDP_text_elements_Line_1(TInt aIndex_t);
+TAknWindowLineLayout MIDP_text_elements_Line_2();
+TAknTextLineLayout MIDP_texts_Line_1(TInt aIndex_B);
+TAknMultiLineTextLayout Multiline_MIDP_texts_Line_1(TInt aNumberOfLinesShown);
+
+// LAF Table : Camcorder Zooming factor pane elements v2
+TAknWindowLineLayout Camcorder_Zooming_factor_pane_elements_v2_Line_1(TInt aIndex_C);
+
+TAknWindowLineLayout Camcorder_Zooming_factor_pane_elements_v2_Line_2(TInt aIndex_C);
+
+TAknWindowLineLayout Camcorder_Zooming_factor_pane_elements_v2_Line_3(TInt aIndex_C);
+
+TAknWindowLineLayout Camcorder_Zooming_factor_pane_elements_v2_Line_4(TInt aIndex_C);
+
+TAknLayoutTableLimits Camcorder_Zooming_factor_pane_elements_v2_Limits();
+
+TAknWindowLineLayout Camcorder_Zooming_factor_pane_elements_v2(TInt aLineIndex, TInt aIndex_C);
+
+// FM Radio layouts
+TAknWindowLineLayout cell_radio_pane(TInt aIndex_t);
+
+TAknWindowLineLayout FM_Radio_cell_elements_Line_1();
+
+TAknWindowLineLayout grid_radio_pane();
+TAknWindowLineLayout FM_Radio_elements_Line_2();
+TAknWindowLineLayout FM_Radio_elements_Line_3();
+TAknWindowLineLayout FM_Radio_elements_Line_4();
+TAknWindowLineLayout FM_Radio_elements_Line_5();
+TAknLayoutTableLimits FM_Radio_elements_Limits();
+TAknWindowLineLayout FM_Radio_elements(TInt aLineIndex);
+
+TAknTextLineLayout FM_Radio_texts_Line_1();
+TAknTextLineLayout FM_Radio_texts_Line_2();
+TAknTextLineLayout FM_Radio_texts_Line_3();
+TAknTextLineLayout FM_Radio_texts_Line_4();
+TAknTextLineLayout FM_Radio_texts_Line_5();
+TAknLayoutTableLimits FM_Radio_texts_Limits();
+TAknTextLineLayout FM_Radio_texts(TInt aLineIndex);
+
+TAknWindowLineLayout aid_cams_cif_uncrop_pane();
+
+TAknWindowLineLayout video_down_subqcif_pane();

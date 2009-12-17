@@ -1,0 +1,37 @@
+/*
+* Copyright (c) 2002-2007 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  
+*       Bldmake component description file for the Font Provider DLL
+*
+*/
+
+
+
+#include <platform_paths.hrh>
+
+PRJ_EXPORTS
+../data/link.ini                       /epoc32/data/z/private/1020509C/link.ini
+../data/link.ini                       /epoc32/RELEASE/WINSCW/udeb/Z/private/1020509C/link.ini
+
+// IBY-files
+../rom/FontProvider.iby CORE_MW_LAYER_IBY_EXPORT_PATH(fontprovider.iby)
+
+
+PRJ_MMPFILES
+// Do not build anything at the moment
+#ifndef TOOLS
+FontProvider.mmp 
+#endif
+
+// End of file

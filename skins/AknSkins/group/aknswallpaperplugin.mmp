@@ -1,0 +1,59 @@
+/*
+* Copyright (c) 2005-2007 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Project definition file for project aknswallpaperplugin
+*
+*/
+
+#include <data_caging_paths.hrh>
+#include <platform_paths.hrh>
+
+TARGET          aknswallpaperplugin.dll
+TARGETTYPE      PLUGIN
+UID             0x10009D8D 0x102750ca
+
+CAPABILITY      CAP_ECOM_PLUGIN
+VENDORID        VID_DEFAULT
+
+SOURCEPATH      ../wppsrc
+SOURCE          aknswallpaperplugin.cpp
+
+USERINCLUDE     ../wppinc 
+USERINCLUDE     ../loc
+
+// This is a SYSTEMINCLUDE macro containing the middleware
+// layer specific include directories
+MW_LAYER_SYSTEMINCLUDE
+
+// Published to /resource/plugins
+START RESOURCE  102750ca.rss
+TARGET          aknswallpaperplugin.rsc
+END // RESOURCE
+
+// Published to /resource
+START RESOURCE  aknswallpaperplugin.rss
+HEADER
+TARGETPATH      RESOURCE_FILES_DIR
+LANGUAGE_IDS
+END // RESOURCE
+
+SYSTEMINCLUDE   ../../../inc
+SYSTEMINCLUDE   ../../inc
+
+LIBRARY         euser.lib
+LIBRARY         servicehandler.lib
+LIBRARY         aknswallpaperutils.lib
+LIBRARY         commonengine.lib  // RConeResourceLoader
+LIBRARY         cone.lib          // CCoeEnv
+LIBRARY         efsrv.lib         // TParse
+LIBRARY         avkon.lib

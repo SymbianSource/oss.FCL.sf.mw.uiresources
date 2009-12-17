@@ -1,0 +1,51 @@
+/*
+* Copyright (c) 2002 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description: 
+*       This file contains the definitions of Unicode Private User Area
+*       codes used in S60 fonts.
+*
+*/
+
+#ifndef __PUACODES_HRH__
+#define __PUACODES_HRH__
+
+// S60 Unicode Private User Area codes
+
+#define KPuaCodeSpaceSymbol             0xF800
+#define KPuaCodeLineFeedSymbol          0xF801
+#define KPuaCodeNarrowDash              0xF802
+#define KPuaCodePhoneSymbol             0xF803
+#define KPuaCodeBrowserArrowDown        0xF804
+#define KPuaCodeAmSymbol                0xF805
+#define KPuaCodePmSymbol                0xF806
+#define KPuaCodeSilentSymbol            0xF807
+#define KPuaCodeChatNewMsgSymbol        0xF808
+#define KPuaCodeMirroredLineFeedSymbol  0xF809
+#define KPuaCodeShortHyphen             0xF80A
+#define KPuaCodeShortSpace              0xF80B
+#define KPuaCodeRightToLeftSymbol       0xF80C
+#define KPuaCodeLeftToRightSymbol       0xF80D
+#define KPuaCodeSmileyIconPadding       0xF80E
+#define KPuaCodeAprofSilentVibra        0xF80F
+#define KPuaCodeAprofSoundVibra         0xF810
+#define KPuaCodeAprofSound              0xF811
+#define KPuaCodeFullWidthSpaceSymbol    0xF812
+#define KPuaCodeHeartSymbol             0xF813
+#define KPuaCodeCarSymbol               0xF814
+#define KPuaCodeFarsiAmSymbol           0xF816     
+#define KPuaCodeFarsiPmSymbol           0xF817
+
+#endif // __PUACODES_HRH__
+
+// End of File

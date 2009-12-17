@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="100" height="100" viewBox="0 0 100 100"
+	 overflow="visible" enable-background="new 0 0 100 100" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<g>
+				<path fill="#FFFFFF" d="M26.508,30.913c-2.75-2.538-4.335-6.768-4.335-6.768C27.142,16.742,39.306,7.3,56.855,9.342
+					C75.043,11.457,83.841,27.11,83.208,37.05l8.226,10.571L80.648,62.316l-8.229,0.957l2.622,3.592
+					C65.843,81.458,48.29,85.053,38.877,83.572C34.226,82.84,14.455,79.447,12.021,54.6C3.984,46.35,10.435,29.009,26.508,30.913z
+					 M15.087,57.031c8.037,14.063,30.875,9.517,37.665-0.104l7.486-1.378l-3.891-4.964l9.389-15.549l14.699-0.211
+					c-10.892-14.488-29.713-9.73-36.691-1.059c0,0-4.547,1.375-8.987,0.529C46.175,48.36,30.525,63.164,15.087,57.031z"/>
+				
+					<linearGradient id="XMLID_6_" gradientUnits="userSpaceOnUse" x1="-241.5322" y1="300.2344" x2="-218.6393" y2="300.2344" gradientTransform="matrix(1.1364 0 0 1.1364 317.3726 -318.2319)">
+					<stop  offset="0" style="stop-color:#E0BC6C"/>
+					<stop  offset="1" style="stop-color:#CD9F3D"/>
+				</linearGradient>
+				<path fill="url(#XMLID_6_)" d="M24.073,24.225c11.631-13.302,25.904-15.312,36.165-12.88
+					c10.256,2.432,21.465,10.679,22.099,24.109c-5.241-8.864-17.448-12.901-25.06-11.527c-7.308,1.319-13.589,5.447-15.414,8.54
+					C36.021,34.82,26.19,31.291,24.073,24.225z"/>
+				<polygon fill="#F1DE84" points="53.994,58.852 61.369,70.539 72.904,66.961 65.291,56.246 				"/>
+				
+					<linearGradient id="XMLID_7_" gradientUnits="userSpaceOnUse" x1="-229.7959" y1="341.1816" x2="-251.1228" y2="341.1816" gradientTransform="matrix(1.1364 0 0 1.1364 317.3726 -318.2319)">
+					<stop  offset="0" style="stop-color:#7F3C21"/>
+					<stop  offset="1" style="stop-color:#AD832F"/>
+				</linearGradient>
+				<path fill="url(#XMLID_7_)" d="M13.345,56.998c1.322,12.543,10.949,22.717,24.93,24.68c12.946,1.818,26.618-4.92,34.629-14.717
+					l-11.535,3.578l-6.396-10.568C44.044,68.423,20.052,75.213,13.345,56.998z"/>
+				<polygon fill="#C4A64A" points="66.793,62.316 58.973,50.777 67.182,36.3 76.232,48.944 				"/>
+				<polygon fill="#7F3C21" points="66.793,62.316 79.376,60.674 89.466,47.409 75.945,48.961 				"/>
+				<polygon fill="#F1DE84" points="67.225,36.327 75.945,48.961 89.428,47.393 80.188,36.122 				"/>
+				
+					<radialGradient id="XMLID_8_" cx="-257.2373" cy="288.333" r="10.3875" gradientTransform="matrix(1.1392 0.16 -0.294 1.0923 405.0017 -234.3298)" gradientUnits="userSpaceOnUse">
+					<stop  offset="0" style="stop-color:#C4A64A"/>
+					<stop  offset="1" style="stop-color:#8E6F3A"/>
+				</radialGradient>
+				<path fill="url(#XMLID_8_)" d="M36.28,46.356c-1.831,6.796-9.065,11.5-16.154,10.501c-7.09-0.996-11.36-7.311-9.529-14.107
+					c1.828-6.801,9.063-11.507,16.156-10.514C33.839,33.232,38.107,39.555,36.28,46.356z"/>
+				
+					<linearGradient id="XMLID_9_" gradientUnits="userSpaceOnUse" x1="-230.1851" y1="339.4775" x2="-258.7486" y2="339.4775" gradientTransform="matrix(1.1364 0 0 1.1364 317.3726 -318.2319)">
+					<stop  offset="0" style="stop-color:#EACF5A"/>
+					<stop  offset="1" style="stop-color:#CD9F3D"/>
+				</linearGradient>
+				<path fill="url(#XMLID_9_)" d="M61.369,70.539c-12.716,11.648-44.46,13.557-48.185-14.037
+					c5.322,11.295,27.632,17.238,41.091,2.115L61.369,70.539z"/>
+				
+					<linearGradient id="XMLID_10_" gradientUnits="userSpaceOnUse" x1="-242.1226" y1="304.0547" x2="-219.6221" y2="304.0547" gradientTransform="matrix(1.1364 0 0 1.1364 317.3726 -318.2319)">
+					<stop  offset="0" style="stop-color:#C1A15B"/>
+					<stop  offset="1" style="stop-color:#3E2A08"/>
+				</linearGradient>
+				<path fill="url(#XMLID_10_)" d="M33.984,32.702c5.527-7.504,15.677-14.061,26.04-13.532
+					c10.365,0.528,19.668,8.458,22.313,16.284c-5.922-7.826-14.487-11.737-21.889-11.631c-6.255,0.089-14.38,3.594-18.583,8.644
+					C39.511,33.445,34.7,33.122,33.984,32.702z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

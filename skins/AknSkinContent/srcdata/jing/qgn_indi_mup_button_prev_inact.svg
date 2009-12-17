@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="50" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 50 50" height="50" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <path d="M 3.215 25.835 C 3.215 38.307 13.363 48.452 25.834 48.452 C 38.307 48.452 48.453 38.306 48.453 25.835 C 48.453 13.3619995 38.307 3.2139988 25.834 3.2139988 C 13.363 3.214 3.215 13.362 3.215 25.835 z " fill-opacity="0.01"/>
+    <path d="M 4.201 25.835 C 4.201 37.762 13.907001 47.466 25.834 47.466 C 37.764 47.466 47.466 37.762 47.466 25.835 C 47.466 13.904999 37.764 4.2039986 25.834 4.2039986 C 13.906 4.204 4.201 13.905 4.201 25.835 z " fill-opacity="0.02"/>
+    <path d="M 5.188 25.835 C 5.188 37.216 14.451 46.478996 25.834 46.478996 C 37.221 46.478996 46.476997 37.215996 46.476997 25.834997 C 46.476997 14.447997 37.220997 5.1889973 25.833998 5.1889973 C 14.451 5.189 5.188 14.448 5.188 25.835 z " fill-opacity="0.04"/>
+    <path d="M 6.021 25.835 C 6.021 36.757 14.908999 45.644997 25.834 45.644997 C 36.757 45.644997 45.645 36.756996 45.645 25.834997 C 45.645 14.910997 36.757 6.0219975 25.834 6.0219975 C 14.91 6.022 6.021 14.911 6.021 25.835 z " fill-opacity="0.07"/>
+    <linearGradient x1="24.8638" gradientTransform="matrix(1 0 0 -1 0.1377 48.834)" y1="43.2139" x2="24.8638" gradientUnits="userSpaceOnUse" y2="4.4943" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_83_" xlink:show="other">
+        <stop stop-color="#b0381e" offset="0"/>
+        <stop stop-color="#822519" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_83_)" d="M 25.0 5.257 C 14.111 5.257 5.2539997 14.113 5.2539997 25.001 C 5.2539997 35.887 14.111 44.743 25.0 44.743 C 35.889 44.743 44.748 35.887 44.748 25.001 C 44.748 14.113 35.889 5.257 25.0 5.257 z "/>
+    <linearGradient x1="24.8638" gradientTransform="matrix(1 0 0 -1 0.1377 48.834)" y1="41.7939" x2="24.8638" gradientUnits="userSpaceOnUse" y2="6.1544" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_84_" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#b0381e" offset="1"/>
+    </linearGradient>
+    <circle fill="url(#XMLID_84_)" r="18.669" cx="25.001" cy="25.001"/>
+    <ellipse fill-opacity="0.3" fill="#cfecff" rx="16.128" cx="25.001" ry="13.164" cy="25.021"/>
+    <polygon fill="#800000" points="23.542,18.085 23.542,34.119 12.623,26.089 "/>
+    <rect x="26.693" width="4.088" fill="#800000" y="18.088" height="16.031"/>
+</svg>

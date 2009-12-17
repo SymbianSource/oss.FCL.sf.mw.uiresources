@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="332" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 332 82" height="82" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <g>
+        <g stroke-opacity="0.6" fill-opacity="0.6">
+            <path d="M 12.0 1.0 C 7.037 1.0 3.0 5.037 3.0 10.0 L 3.0 62.0 C 3.0 66.963 7.037 71.0 12.0 71.0 L 318.0 71.0 C 322.963 71.0 327.0 66.963 327.0 62.0 L 327.0 10.0 C 327.0 5.037 322.963 1.0 318.0 1.0 L 12.0 1.0 z " fill-opacity="0.01" stroke-opacity="0.01"/>
+            <path d="M 12.0 2.0 C 7.589 2.0 4.0 5.59 4.0 10.0 L 4.0 62.0 C 4.0 66.412 7.5889997 70.0 12.0 70.0 L 318.0 70.0 C 322.411 70.0 326.0 66.412 326.0 62.0 L 326.0 10.0 C 326.0 5.59 322.411 2.0 318.0 2.0 L 12.0 2.0 z " fill-opacity="0.03" stroke-opacity="0.03"/>
+            <path d="M 12.0 3.0 C 8.141 3.0 5.0 6.141 5.0 10.0 L 5.0 62.0 C 5.0 65.859 8.141 69.0 12.0 69.0 L 318.0 69.0 C 321.859 69.0 325.0 65.859 325.0 62.0 L 325.0 10.0 C 325.0 6.141 321.859 3.0 318.0 3.0 L 12.0 3.0 z " fill-opacity="0.05" stroke-opacity="0.05"/>
+            <path d="M 12.0 4.0 C 8.691 4.0 6.0 6.691 6.0 10.0 L 6.0 62.0 C 6.0 65.309 8.691 68.0 12.0 68.0 L 318.0 68.0 C 321.309 68.0 324.0 65.309 324.0 62.0 L 324.0 10.0 C 324.0 6.691 321.309 4.0 318.0 4.0 L 12.0 4.0 z " fill-opacity="0.07" stroke-opacity="0.07"/>
+            <path d="M 323.0 62.0 C 323.0 64.762 320.762 67.0 318.0 67.0 L 12.0 67.0 C 9.238 67.0 7.0 64.762 7.0 62.0 L 7.0 10.0 C 7.0 7.238 9.238 5.0 12.0 5.0 L 318.0 5.0 C 320.762 5.0 323.0 7.238 323.0 10.0 L 323.0 62.0 z " fill-opacity="0.11" stroke-opacity="0.11"/>
+            <rect x="6" width="316" fill="#5f9ea0" y="4" height="62"/>
+            <rect width="332" fill="none" height="82"/>
+        </g>
+    </g>
+</svg>

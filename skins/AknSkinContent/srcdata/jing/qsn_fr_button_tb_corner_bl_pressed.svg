@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="14.173" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-4.452 -2.631 14.173 14.173" height="14.173" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <linearGradient x1="2.6343" y1="14.377" x2="2.6343" gradientUnits="userSpaceOnUse" y2="-42.3145" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+        <stop stop-color="#b0381e" offset="0"/>
+        <stop stop-color="#5c1001" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#XMLID_4_)" fill-opacity="0.9" stroke-opacity="0.9" points="-3.744,10.833 -3.744,-2.631 -4.452,-2.631 -4.452,11.542 9.721,11.542   9.721,10.833 "/>
+    <rect x="1.571" y="5.518" fill-opacity="0.4" fill="#840000" width="0.001" height="0.708" stroke-opacity="0.4"/>
+    <linearGradient x1="2.9888" y1="34.2197" x2="2.9888" gradientUnits="userSpaceOnUse" y2="-70.6621" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_5_" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#e0c4bd" offset="0.11"/>
+        <stop stop-color="#c26e45" offset="0.35"/>
+        <stop stop-color="#cf4530" offset="0.48"/>
+        <stop stop-color="#ad0000" offset="0.7"/>
+        <stop stop-color="#9c0000" offset="0.75"/>
+        <stop stop-color="#990000" offset="0.82"/>
+        <stop stop-color="#8a0000" offset="0.91"/>
+        <stop stop-color="#730303" offset="0.99"/>
+        <stop stop-color="#730303" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#XMLID_5_)" points="-3.035,10.125 -3.035,-2.631 -3.744,-2.631 -3.744,10.833 9.721,10.833 9.721,10.125 "/>
+    <rect x="1.925" width="0.708" fill="#f6a2a0" y="5.872" height="0.001"/>
+    <rect x="-3.035" width="12.756" fill="#f6a2a0" y="-2.631" height="12.756"/>
+    <linearGradient x1="3.3428" y1="11.542" x2="3.3428" gradientUnits="userSpaceOnUse" y2="-47.9853" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+        <stop stop-color="#fff5f5" offset="0"/>
+        <stop stop-color="#ffa29e" offset="1"/>
+    </linearGradient>
+    <rect x="-3.035" width="12.756" fill="url(#XMLID_6_)" y="-2.631" height="12.756"/>
+</svg>

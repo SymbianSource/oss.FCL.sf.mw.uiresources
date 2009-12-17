@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="44px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 44 44" height="44px" x="0px" y="0px">
+    <g>
+        <g>
+            <rect width="44" fill="none" height="44"/>
+            <rect x="7.236" y="5.534" display="none" fill="none" width="29.541" stroke-dasharray="0.5" height="32.478" stroke="#ffffff" stroke-width="0.1"/>
+        </g>
+        <g>
+            <linearGradient x1="28.749" y1="10.8311" x2="28.749" gradientUnits="userSpaceOnUse" y2="32.6694" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+                <stop stop-color="#ffffff" offset="0"/>
+                <stop stop-color="#ffffff" offset="1"/>
+            </linearGradient>
+            <rect x="24.35" width="8.799" fill="url(#SVGID_1_)" y="22" height="2"/>
+            <linearGradient x1="28.749" y1="10.8345" x2="28.749" gradientUnits="userSpaceOnUse" y2="32.6675" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_2_" xlink:show="other">
+                <stop stop-color="#ffffff" offset="0"/>
+                <stop stop-color="#ffffff" offset="1"/>
+            </linearGradient>
+            <rect x="24.35" width="8.799" fill="url(#SVGID_2_)" y="26" height="2"/>
+            <g>
+                <linearGradient x1="16.5723" y1="10.834" x2="16.5723" gradientUnits="userSpaceOnUse" y2="32.6681" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_3_" xlink:show="other">
+                    <stop stop-color="#ffffff" offset="0"/>
+                    <stop stop-color="#ffffff" offset="1"/>
+                </linearGradient>
+                <path fill="url(#SVGID_3_)" d="M 11.572 19.0 C 11.572 21.757 13.813999 24.0 16.571999 24.0 C 19.328 24.0 21.572 21.757 21.572 19.0 C 21.572 16.243 19.328 14.0 16.571999 14.0 C 13.814 14.0 11.572 16.243 11.572 19.0 z M 13.572 19.0 C 13.572 17.346 14.92 16.0 16.571999 16.0 C 18.225998 16.0 19.572 17.346 19.572 19.0 C 19.572 20.654 18.225998 22.0 16.571999 22.0 C 14.92 22.0 13.572 20.655 13.572 19.0 z "/>
+            </g>
+            <linearGradient x1="22" y1="10.834" x2="22" gradientUnits="userSpaceOnUse" y2="32.6675" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_4_" xlink:show="other">
+                <stop stop-color="#ffffff" offset="0"/>
+                <stop stop-color="#ffffff" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_4_)" d="M 34.738 13.0 L 34.75 13.0 L 34.75 31.0 L 23.35 31.0 L 23.246 30.527 C 21.885 26.859 20.645 25.0 19.559 25.0 L 13.584 25.0 C 12.497999 25.0 11.26 26.859 9.895 30.527 C 9.895 30.527 9.848 30.738 9.790999 31.0 L 9.25 31.0 L 9.25 13.0 L 34.738 13.0 z M 7.25 11.0 L 7.25 33.0 L 36.75 33.0 L 36.75 11.0 L 36.74 11.0 L 7.25 11.0 z M 11.859 31.0 C 12.66 28.898 13.507 27.396 13.882 27.0 L 19.261 27.0 C 19.636 27.396 20.484 28.898 21.282 31.0 L 11.859 31.0 z "/>
+            <linearGradient x1="28.749" y1="10.834" x2="28.749" gradientUnits="userSpaceOnUse" y2="32.667" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_5_" xlink:show="other">
+                <stop stop-color="#ffffff" offset="0"/>
+                <stop stop-color="#ffffff" offset="1"/>
+            </linearGradient>
+            <rect x="24.35" width="8.799" fill="url(#SVGID_5_)" y="18" height="2"/>
+        </g>
+    </g>
+</svg>

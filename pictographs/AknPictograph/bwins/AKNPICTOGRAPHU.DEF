@@ -1,0 +1,3 @@
+EXPORTS
+	?NewL@CAknPictographInterface@@SAPAV1@AAVCCoeControl@@AAVMAknPictographAnimatorCallBack@@@Z @ 1 NONAME ; public: static class CAknPictographInterface * __cdecl CAknPictographInterface::NewL(class CCoeControl &,class MAknPictographAnimatorCallBack &)
+

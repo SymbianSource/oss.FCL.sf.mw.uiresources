@@ -1,0 +1,7 @@
+EXPORTS
+	BaselineDeltaForCharacter__15AknFontProvideriG5TCharRiT3 @ 1 NONAME ; AknFontProvider::BaselineDeltaForCharacter(int, TChar, int &, int &)
+	CreateFontFromMetrics__15AknFontProvideriRC21TAknFontSpecificationR31TAknFontProviderSuppliedMetricsRi @ 2 NONAME ; AknFontProvider::CreateFontFromMetrics(int, TAknFontSpecification const &, TAknFontProviderSuppliedMetrics &, int &)
+	HasBaselineCorrection__15AknFontProvideri @ 3 NONAME R3UNUSED ; AknFontProvider::HasBaselineCorrection(int)
+	FontProviderIndexFromFontSpec__15AknFontProviderRC9TFontSpec @ 4 NONAME R3UNUSED ; AknFontProvider::FontProviderIndexFromFontSpec(TFontSpec const &)
+	MinimumBaselineDeltaForDescriptor__15AknFontProvideriRC7TDesC16RiT3iT3 @ 5 NONAME ; AknFontProvider::MinimumBaselineDeltaForDescriptor(int, TDesC16 const &, int &, int &, int, int &)
+

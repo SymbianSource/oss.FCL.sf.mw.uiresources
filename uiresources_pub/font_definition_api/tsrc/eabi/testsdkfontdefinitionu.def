@@ -1,0 +1,5 @@
+EXPORTS
+	_Z9LibEntryLR13CTestModuleIf @ 1 NONAME
+	_ZTI22TestMGraphicsDeviceMap @ 2 NONAME ; #<TI>#
+	_ZTV22TestMGraphicsDeviceMap @ 3 NONAME ; #<VT>#
+

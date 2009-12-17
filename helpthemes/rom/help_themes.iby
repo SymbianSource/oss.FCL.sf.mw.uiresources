@@ -1,0 +1,36 @@
+/*
+* Copyright (c) 2006-2006 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Help related definitions are included in this file.
+*
+*/
+
+#ifndef __HELP_THEMES_IBY__
+#define __HELP_THEMES_IBY__
+
+#ifdef FF_S60_HELPS_IN_USE
+
+  data=DATAZ_\resource\xhtml\theme\xsl\index2html.xslt	RESOURCE_FILES_DIR\xhtml\theme\xsl\index2html.xslt
+  data=DATAZ_\resource\xhtml\theme\js\functions.js	RESOURCE_FILES_DIR\xhtml\theme\js\functions.js
+  data=DATAZ_\resource\xhtml\theme\icons\qgn_indi_link_apps.gif	RESOURCE_FILES_DIR\xhtml\theme\icons\qgn_indi_link_apps.gif
+  data=DATAZ_\resource\xhtml\theme\icons\qgn_indi_link_help.gif	RESOURCE_FILES_DIR\xhtml\theme\icons\qgn_indi_link_help.gif
+  data=DATAZ_\resource\xhtml\theme\icons\qgn_indi_link_help_bidi.gif	RESOURCE_FILES_DIR\xhtml\theme\icons\qgn_indi_link_help_bidi.gif
+  data=DATAZ_\resource\xhtml\theme\icons\qgn_indi_link_ref_popup.gif	RESOURCE_FILES_DIR\xhtml\theme\icons\qgn_indi_link_ref_popup.gif
+  data=DATAZ_\resource\xhtml\theme\icons\qgn_indi_link_web.gif	RESOURCE_FILES_DIR\xhtml\theme\icons\qgn_indi_link_web.gif
+  data=DATAZ_\resource\xhtml\theme\icons\qgn_indi_tip.gif	RESOURCE_FILES_DIR\xhtml\theme\icons\qgn_indi_tip.gif
+  data=DATAZ_\resource\xhtml\theme\css\help.css	RESOURCE_FILES_DIR\xhtml\theme\css\help.css
+  data=DATAZ_\resource\xhtml\theme\css\help_bidi.css	RESOURCE_FILES_DIR\xhtml\theme\css\help_bidi.css
+
+#endif
+
+#endif

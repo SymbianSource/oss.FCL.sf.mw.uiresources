@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="100%" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0 0 12 32" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<g>
+<g>
+<linearGradient gradientTransform="matrix(1 0 0 -1 292.5 436.3906)" gradientUnits="userSpaceOnUse" id="XMLID_3_" x1="-286" x2="-286" y1="409.3906" y2="425.3906">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#EACF5A"/>
+</linearGradient>
+<path d="M6.5,27C4.016,27,2,25.049,2,22.587v-7.126C2,12.998,4.016,11,6.5,11l0,0         c2.486,0,4.5,1.998,4.5,4.461v7.126C11,25.049,8.986,27,6.5,27L6.5,27z" fill="url(#XMLID_3_)"/>
+<g>
+<linearGradient gradientTransform="matrix(1 0 0 -1 292.5 436.3906)" gradientUnits="userSpaceOnUse" id="XMLID_4_" x1="-286" x2="-286" y1="425.3906" y2="419.043">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#EACF5A"/>
+</linearGradient>
+<path d="M6.5,11C4.016,11,2,12.998,2,15.461v1.887h1v-1.473c0-1.916,1.566-3.422,3.5-3.422          c1.934,0,3.5,1.506,3.5,3.422v1.473h1v-1.887C11,12.998,8.986,11,6.5,11z" fill="url(#XMLID_4_)"/>
+</g>
+<g>
+<g fill-opacity="0.7" stroke-opacity="0.7">
+<path d="M1,15.461v7.126C1,25.598,3.467,28,6.5,28c3.031,0,5.5-2.402,5.5-5.413v-7.126           C12,12.45,9.531,10,6.5,10C3.467,10,1,12.45,1,15.461z M2,22.587v-7.126C2,13.002,4.018,11,6.5,11           c2.48,0,4.5,2.002,4.5,4.461v7.126C11,25.047,8.98,27,6.5,27C4.018,27,2,25.047,2,22.587z" fill="#704D18"/>
+</g>
+</g>
+</g>
+<g>
+<path d="M10,22.578C10,24.494,8.434,26,6.5,26C4.566,26,3,24.494,3,22.578         v-5.279H2v5.288C2,25.049,4.016,27,6.5,27c2.486,0,4.5-1.951,4.5-4.413v-5.288h-1V22.578z" fill="#E0BC6C" fill-opacity="0.8" stroke-opacity="0.8"/>
+</g>
+</g>
+<rect fill="none" height="32" width="12"/>
+</g>
+</g>
+</switch>
+</svg>

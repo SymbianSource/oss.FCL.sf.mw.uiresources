@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="44px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 44 44" height="44px" x="0px" y="0px">
+    <g>
+        <g>
+            <g>
+                <linearGradient x1="15.353" y1="8.7598" x2="15.353" gradientUnits="userSpaceOnUse" y2="35.2603" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+                    <stop stop-color="#ffffff" offset="0"/>
+                    <stop stop-color="#ffffff" offset="1"/>
+                </linearGradient>
+                <path fill="url(#SVGID_1_)" d="M 21.898 8.86 L 13.586 8.863999 C 12.675 8.863999 12.123 9.226999 11.818001 9.533999 C 11.354001 9.995999 11.121 10.645 11.121 11.454 L 11.121 26.405998 C 11.121 27.287 12.608 29.860998 15.342001 29.860998 C 18.081 29.860998 19.761002 27.437998 19.761002 26.374 L 19.761002 15.638 L 17.296 15.638 L 17.296 26.001 C 17.151 26.535 16.574001 27.452 15.419002 27.397 C 14.266002 27.343 13.648002 26.456 13.586001 26.11 L 13.604001 11.429998 C 13.604001 11.372998 22.036 11.350998 22.036 11.370998 L 22.036 28.316998 C 21.459002 29.239998 17.822 32.179996 16.879002 32.676 L 13.743002 32.676 C 12.769002 32.191998 9.228003 29.211998 8.672002 28.307 L 8.675002 17.565 L 6.212 17.565 L 6.207 28.542 C 6.207 30.273 12.339 35.14 13.52 35.14 L 17.12 35.14 C 18.314 35.14 24.5 30.287998 24.5 28.562 L 24.5 11.373 C 24.499 10.435 24.16 8.86 21.898 8.86 z "/>
+            </g>
+            <linearGradient x1="32.5498" y1="8.7593" x2="32.5498" gradientUnits="userSpaceOnUse" y2="35.2602" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_2_" xlink:show="other">
+                <stop stop-color="#ffffff" offset="0"/>
+                <stop stop-color="#ffffff" offset="1"/>
+            </linearGradient>
+            <polygon fill="url(#SVGID_2_)" points="37.793,24.734 27.306,31.734 27.306,17.734   "/>
+        </g>
+        <rect width="44" fill="none" height="44"/>
+    </g>
+</svg>

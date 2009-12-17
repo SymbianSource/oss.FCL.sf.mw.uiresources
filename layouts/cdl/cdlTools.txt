@@ -1,0 +1,18 @@
+# Comments are allowed
+#
+
+# Optional variations in the generated scripts
+
+<option tools>			# build the tools
+<option keepgoing>		# use abld -keepgoing
+
+# List of components required
+#
+# Name		abld_directory
+
+# Tools
+CdlCompilerToolkit			\s60\mw\uiresources\layouts\cdl\CdlCompilerToolkit\group
+CdlCompiler					\s60\mw\uiresources\layouts\cdl\CdlCompiler\group
+
+# Tools test
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="8" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-102.614 -73.438 8 8" height="8" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <path fill="#7f3c21" d="M -97.987 -73.437 L -102.613 -73.437 L -102.613 -65.438995 L -94.614 -65.438995 L -94.614 -70.453995 C -94.668 -72.144 -96.116 -73.5 -97.987 -73.437 z "/>
+    <linearGradient x1="-99.0796" y1="-73.4385" x2="-99.0796" gradientUnits="userSpaceOnUse" y2="-33.7534" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+        <stop stop-color="#fff5f5" offset="0"/>
+        <stop stop-color="#ffa29e" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_2_)" d="M -95.545 -65.438 L -95.545 -70.467 C -95.545 -71.258 -96.283 -72.533005 -97.852 -72.533005 C -97.856995 -72.533005 -102.615 -72.533005 -102.615 -72.533005 L -102.615 -65.438 L -95.545 -65.438 z "/>
+    <path fill="#ffffff" d="M -97.987 -73.437 L -102.613 -73.437 L -102.613 -65.438995 L -94.614 -65.438995 L -94.614 -70.453995 C -94.668 -72.144 -96.116 -73.5 -97.987 -73.437 z " fill-opacity="0.5" stroke-opacity="0.5"/>
+</svg>

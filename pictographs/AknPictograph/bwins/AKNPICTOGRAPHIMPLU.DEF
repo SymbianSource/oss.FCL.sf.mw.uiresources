@@ -1,0 +1,3 @@
+EXPORTS
+	?PictographDrawerFactoryFunctionL@@YAPAVMAknPictographDrawer@@AAVMAknPictographAnimatorCallBack@@@Z @ 1 NONAME ; class MAknPictographDrawer * __cdecl PictographDrawerFactoryFunctionL(class MAknPictographAnimatorCallBack &)
+

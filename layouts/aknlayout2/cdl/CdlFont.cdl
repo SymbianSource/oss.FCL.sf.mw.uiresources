@@ -1,0 +1,15 @@
+// CDLFont.cdl
+
+Name: CDL Font
+Version: 1.0
+UID: 0x102045DC
+Flag: KCdlFlagRomOnly
+
+%% C++
+
+#include <cdlfont.h>
+
+%% API
+
+TCdlArray<SIdMetricsPair> metricsArray;
+TCdlArray<SLogicalIdMetricsIdPair> logicalIdMapArray;

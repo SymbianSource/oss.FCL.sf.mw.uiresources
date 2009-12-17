@@ -1,0 +1,82 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+#ifndef __AKNLAYOUT2_UIACCEL_IBY__
+#define __AKNLAYOUT2_UIACCEL_IBY__
+
+REM AKNLAYOUT2_UIACCEL
+
+#if defined(FF_ROM_INCLUDE_ALF)
+
+#if defined(__LAYOUT_352_416) || defined(__LAYOUT_416_352)
+#include "AknLayout2_UiAccel_double.iby"
+#endif
+
+#if defined(__LAYOUT_240_320) || defined(__LAYOUT_320_240)
+#include "AknLayout2_UiAccel_qvga1.iby"
+#endif
+
+#if defined(__LAYOUT_240_320_LARGE_SCREEN) || defined(__LAYOUT_320_240_LARGE_SCREEN)
+#include "AknLayout2_UiAccel_qvga2.iby"
+#endif
+
+#if defined(__LAYOUT176_208) || defined(__LAYOUT208_176)
+#include "AknLayout2_UiAccel_low.iby"
+#endif
+
+#if defined(__LAYOUT_320_480) || defined(__LAYOUT_480_320)
+#include "AknLayout2_UiAccel_hvga.iby"
+#endif
+
+#if defined(__LAYOUT_480_640) || defined(__LAYOUT_640_480)
+#include "AknLayout2_UiAccel_vga.iby"
+#endif
+
+#if defined(FF_LAYOUT_480_640_VGA3) || defined(FF_LAYOUT_640_480_VGA3)
+#include "AknLayout2_UiAccel_vga3.iby"
+#endif
+
+// #if defined(__LAYOUT_480_640_TOUCH) || defined(__LAYOUT_640_480_TOUCH)
+// #include "AknLayout2_UiAccel_vga_touch.iby"
+// #endif
+
+#if defined(__LAYOUT_240_320_TOUCH) || defined(__LAYOUT_320_240_TOUCH)
+#include "AknLayout2_UiAccel_qvga_touch.iby"
+#endif
+
+#if defined(__LAYOUT_320_480_TOUCH) || defined(__LAYOUT_480_320_TOUCH)
+#include "AknLayout2_UiAccel_hvga_touch.iby"
+#endif
+
+#if defined(__LAYOUT_360_640_TOUCH) || defined(__LAYOUT_640_360_TOUCH)
+#include "AknLayout2_UiAccel_qhd_touch.iby"
+#endif
+
+#if defined(FF_LAYOUT_360_640_NONTOUCH) || defined(FF_LAYOUT_640_360_NONTOUCH)
+#include "AknLayout2_UiAccel_nhd.iby"
+#endif
+
+#if defined(FF_LAYOUT_360_640_TOUCH_LARGE_SCREEN) || defined(FF_LAYOUT_640_360_TOUCH_LARGE_SCREEN)
+#include "AknLayout2_UiAccel_nhd4_touch.iby"
+#endif
+
+#if defined(FF_LAYOUT_480_640_TOUCH_VGA4) || defined(FF_LAYOUT_640_480_TOUCH_VGA4)
+#include "AknLayout2_UiAccel_vga4_touch.iby"
+#endif
+
+#endif
+
+#endif

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 44 44" height="44" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <rect width="44" fill="none" height="44"/>
+    <linearGradient x1="23.5664" y1="1.1982" x2="23.7329" gradientUnits="userSpaceOnUse" y2="37.1949" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+        <stop stop-color="#ffffcf" offset="0"/>
+        <stop stop-color="#f0de80" offset="0.11"/>
+        <stop stop-color="#c26e54" offset="0.35"/>
+        <stop stop-color="#b0361a" offset="0.48"/>
+        <stop stop-color="#ad2621" offset="0.6629"/>
+        <stop stop-color="#9c0a00" offset="0.75"/>
+        <stop stop-color="#991712" offset="0.82"/>
+        <stop stop-color="#8a0000" offset="0.91"/>
+        <stop stop-color="#730303" offset="0.99"/>
+        <stop stop-color="#730303" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_4_)" d="M 23.563 16.146 L 23.563 23.943 C 23.5 23.922 23.444 23.908 23.375 23.900002 C 22.102 23.724 20.516 24.527002 19.832 25.699 C 19.154 26.869 19.644 27.961002 20.92 28.131 C 22.195 28.313 23.774 27.506 24.459 26.34 C 24.647 26.006 24.739 25.678 24.754 25.381 C 24.76 25.367 24.767 25.36 24.773 25.35 C 24.773 25.037 24.773 19.578 24.773 19.578 L 27.806 21.199 L 27.806 18.695002 L 23.563 16.146 z "/>
+    <linearGradient x1="21.9038" y1="1.2061" x2="22.0703" gradientUnits="userSpaceOnUse" y2="37.2065" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_5_" xlink:show="other">
+        <stop stop-color="#ffffcf" offset="0"/>
+        <stop stop-color="#f0de80" offset="0.11"/>
+        <stop stop-color="#c26e54" offset="0.35"/>
+        <stop stop-color="#b0361a" offset="0.48"/>
+        <stop stop-color="#ad2621" offset="0.6629"/>
+        <stop stop-color="#9c0a00" offset="0.75"/>
+        <stop stop-color="#991712" offset="0.82"/>
+        <stop stop-color="#8a0000" offset="0.91"/>
+        <stop stop-color="#730303" offset="0.99"/>
+        <stop stop-color="#730303" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_5_)" d="M 22.568 11.184 L 24.826 13.498 L 31.361 13.498 L 31.361 32.621 C 31.361 33.725 30.84 34.357 29.933 34.357 L 29.457 34.357 C 28.549 34.357 28.026 33.722 28.026 32.621 L 28.026 29.724998 L 16.126001 29.724998 L 16.126001 19.947998 L 13.819001 17.579 L 13.819001 29.724998 L 10.411001 29.724998 L 10.411001 32.621 C 10.411001 35.01 11.784001 36.678 13.743001 36.678 L 30.253002 36.678 C 32.214 36.678 33.585003 35.01 33.585003 32.621 L 33.585003 11.184 L 22.568 11.184 z M 14.336 34.357 C 13.43 34.357 12.906 33.722 12.906 32.621 C 12.906 32.621 12.906 32.299 12.906 32.040997 L 25.649 32.040997 C 25.649 32.298996 25.649 32.621 25.649 32.621 C 25.649 33.266 25.762 33.84 25.946 34.357 C 21.711 34.357 14.336 34.357 14.336 34.357 z "/>
+    <linearGradient x1="16.7222" y1="1.23" x2="16.8887" gradientUnits="userSpaceOnUse" y2="37.2305" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+        <stop stop-color="#ffffcf" offset="0"/>
+        <stop stop-color="#f0de80" offset="0.11"/>
+        <stop stop-color="#c26e54" offset="0.35"/>
+        <stop stop-color="#b0361a" offset="0.48"/>
+        <stop stop-color="#ad2621" offset="0.6629"/>
+        <stop stop-color="#9c0a00" offset="0.75"/>
+        <stop stop-color="#991712" offset="0.82"/>
+        <stop stop-color="#8a0000" offset="0.91"/>
+        <stop stop-color="#730303" offset="0.99"/>
+        <stop stop-color="#730303" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_6_)" d="M 21.578 13.51 L 19.238 15.789 C 19.089998 13.795 19.408 11.240001 17.681 9.121 C 16.161 7.258001 13.759 6.326 10.54 6.3500004 L 10.54 8.213 C 13.169 8.195001 15.093 8.899 16.241001 10.299 C 17.272 11.565 17.198002 13.678 17.376 15.872999 L 14.987001 13.415999 L 13.524001 14.837999 L 18.196 19.639 L 23.0 14.969 L 21.578 13.51 z "/>
+</svg>

@@ -1,0 +1,42 @@
+/*
+* Copyright (c) 2006 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  File that exports the files belonging to 
+:                Layout Data API
+*
+*/
+
+
+#include <platform_paths.hrh>
+
+PRJ_PLATFORMS
+DEFAULT
+
+PRJ_EXPORTS
+
+../inc/LayoutPack.cdl 									MW_LAYER_PLATFORM_EXPORT_PATH(LayoutPack.cdl)
+../inc/AknLayout.lag                    MW_LAYER_PLATFORM_EXPORT_PATH(AknLayout.lag)
+../inc/AknLayout2Def.h                  MW_LAYER_PLATFORM_EXPORT_PATH(AknLayout2Def.h)
+../inc/AknLayout2Def.h                  MW_LAYER_PLATFORM_EXPORT_PATH(AknLayoutDef.h)
+../inc/AknLayout2ScalableDef.h          MW_LAYER_PLATFORM_EXPORT_PATH(AknLayout2ScalableDef.h)
+../inc/CdlFont.h                        MW_LAYER_PLATFORM_EXPORT_PATH(CdlFont.h)
+../inc/aknapaclayout.cdl.h              MW_LAYER_PLATFORM_EXPORT_PATH(aknapaclayout.cdl.h)
+../inc/aknlayout.cdl.h                  MW_LAYER_PLATFORM_EXPORT_PATH(aknlayout.cdl.h)
+../inc/aknlayoutscalable_apps.cdl.h     MW_LAYER_PLATFORM_EXPORT_PATH(aknlayoutscalable_apps.cdl.h)
+../inc/aknlayoutscalable_avkon.cdl.h    MW_LAYER_PLATFORM_EXPORT_PATH(aknlayoutscalable_avkon.cdl.h)
+../inc/aknlayoutscalable_uiaccel.cdl.h  MW_LAYER_PLATFORM_EXPORT_PATH(aknlayoutscalable_uiaccel.cdl.h)
+../inc/appapaclayout.cdl.h              MW_LAYER_PLATFORM_EXPORT_PATH(appapaclayout.cdl.h)
+../inc/applayout.cdl.h                  MW_LAYER_PLATFORM_EXPORT_PATH(applayout.cdl.h)
+../inc/cdlfont.cdl.h                    MW_LAYER_PLATFORM_EXPORT_PATH(cdlfont.cdl.h)
+../inc/layoutmetadata.cdl.h             MW_LAYER_PLATFORM_EXPORT_PATH(layoutmetadata.cdl.h)
+../inc/skinlayout.cdl.h                 MW_LAYER_PLATFORM_EXPORT_PATH(skinlayout.cdl.h)

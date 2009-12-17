@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="589.605" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-154.445 -341.886 589.605 759.686" height="759.686" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <linearGradient x1="-199.937" gradientTransform="matrix(1 0 0 -1 0.1377 74.7471)" y1="461.9868" x2="480.3778" gradientUnits="userSpaceOnUse" y2="-388.4067" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_9_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#000000" offset="1"/>
+        </linearGradient>
+        <polygon fill="url(#XMLID_9_)" fill-opacity="0.11" points="435.161,417.799 435.161,-341.886 -154.445,-341.886 -154.445,417.799     "/>
+        <polygon points="435.161,417.799 435.161,-341.886 -154.445,-341.886 -154.445,417.799  " fill-opacity="0.1"/>
+        <linearGradient x1="140.2208" gradientTransform="matrix(1 0 0 -1 0.1377 74.7471)" y1="440.7329" x2="140.2207" gradientUnits="userSpaceOnUse" y2="-367.1374" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_10_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#e0e0e0" offset="1"/>
+        </linearGradient>
+        <polygon fill="url(#XMLID_10_)" points="435.161,417.799 435.161,-341.886 -154.445,-341.886 -154.445,417.799  "/>
+    </g>
+</svg>

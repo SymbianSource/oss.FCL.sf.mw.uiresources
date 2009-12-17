@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="60" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-0.671 0.429 60 52" height="52" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <linearGradient x1="-1359.923" gradientTransform="matrix(1 0 0 1 1389.2518 -789.4961)" y1="834.7268" x2="-1359.923" gradientUnits="userSpaceOnUse" y2="796.3267" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_70_" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#40a3a3" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_70_)" d="M 7.588 6.429 C 6.343 6.429 5.3289995 7.443 5.3289995 8.688 L 5.3289995 44.169 C 5.3289995 45.414997 6.3429995 46.428997 7.5879993 46.428997 L 51.069 46.428997 C 52.315 46.428997 53.329 45.414997 53.329 44.169 L 53.329 8.688 C 53.329 7.443 52.315 6.429 51.069 6.429 L 7.588 6.429 z " fill-opacity="0.7"/>
+    <g>
+        <g>
+            <g>
+                <linearGradient x1="-1359.923" gradientTransform="matrix(1 0 0 1 1389.2518 -789.4961)" y1="791.386" x2="-1359.923" gradientUnits="userSpaceOnUse" y2="836.506" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_71_" xlink:show="other">
+                    <stop stop-color="#ffffff" offset="0"/>
+                    <stop stop-color="#40a3a3" offset="1"/>
+                </linearGradient>
+                <path fill="url(#XMLID_71_)" d="M 6.329 44.169 L 6.329 8.688 C 6.329 7.994 6.893 7.429 7.588 7.429 L 51.069 7.429 C 51.762 7.429 52.329 7.993 52.329 8.688 L 52.329 44.169 C 52.329 44.861 51.765 45.428997 51.069 45.428997 L 7.588 45.428997 C 6.894 45.429 6.329 44.863 6.329 44.169 z " fill-opacity="0.9"/>
+            </g>
+        </g>
+    </g>
+    <linearGradient x1="-1360.1139" gradientTransform="matrix(1 0 0 1 1389.2518 -789.4961)" y1="832.7063" x2="-1360.1139" gradientUnits="userSpaceOnUse" y2="800.3063" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_72_" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#40a3a3" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_72_)" d="M 51.947 7.806 C 51.704 7.554001 51.418 7.429001 51.069 7.429001 L 7.588 7.429001 C 6.894 7.429001 6.329 7.993001 6.329 8.688001 L 6.329 44.169 C 6.329 44.515 6.472 44.819 6.701 45.042 C 6.704 45.055 7.329001 44.413 7.329001 44.413 L 7.329001 8.429 L 51.328003 8.429 L 51.947 7.806 z " fill-opacity="0.7"/>
+    <path fill="#ffffff" d="M 6.711 45.051 C 6.954 45.303 7.24 45.428 7.589 45.428 L 51.069 45.428 C 51.764 45.428 52.329 44.864 52.329 44.169 L 52.329 8.688 C 52.329 8.342 52.185997 8.035999 51.956997 7.815 C 51.954 7.802 51.329 8.443 51.329 8.443 C 51.329 8.443 51.329 43.649 51.329 44.428 C 50.591 44.428 7.329998 44.428 7.329998 44.428 L 6.711 45.051 z "/>
+    <polygon fill="#ffffff" points="39.329,24.543 31.215,24.543 31.215,16.428 27.443,16.428 27.443,24.543 19.329,24.543   19.329,28.314 27.443,28.314 27.443,36.43 31.215,36.43 31.215,28.314 39.329,28.314 "/>
+</svg>

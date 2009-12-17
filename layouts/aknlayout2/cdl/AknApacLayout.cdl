@@ -1,0 +1,259 @@
+// AknApacLayout
+
+Name: AknApacLayout
+Version: 1.0
+UID: 0x101ff6ca
+Flag: KCdlFlagRomOnly
+
+%% C++
+
+#include <aknlayout2def.h>
+
+%% Translation
+
+
+%% API
+
+
+// LAF Table : Find pane elements
+TAknWindowLineLayout Find_pane_elements_Line_6();
+
+// LAF Table : Pop-up windows (main pane as parent)
+TAknWindowLineLayout popup_fep_china_window(TInt aIsShownWithPopupWindows);
+TAknWindowLineLayout popup_fep_china_pinyin_window(TInt aIndex_H);
+
+// LAF Table : Cursor graphics (16)
+TAknWindowLineLayout Cursor_graphics__16__Line_1();
+
+// LAF Table : Cut copy and paste highlight graphics (16)
+TAknWindowLineLayout Cut_copy_and_paste_highlight_graphics__16__Line_1();
+
+// LAF Table : Time and date entry graphics (16)
+TAknWindowLineLayout Time_and_date_entry_graphics__16__Line_1();
+
+// LAF Table : Pop up window grid pane descendants (APAC character)
+TAknWindowLineLayout cell_apac_character_popup_pane(TInt aCommon1);
+
+// LAF Table : Cell pane texts (pop-up APAC character)
+TAknTextLineLayout Cell_pane_texts__pop_up_APAC_character__Line_1();
+
+// LAF Table : APAC character selection pop-up window descendants
+TAknWindowLineLayout APAC_character_selection_pop_up_window_descendants_Line_1(TInt aIndex_t);
+TAknWindowLineLayout grid_apac_character_popup_pane(TInt aIndex_t, TInt aIndex_H);
+
+// LAF Table : APAC character selection pop-up window elements
+TAknWindowLineLayout APAC_character_selection_pop_up_window_elements_Line_1(TInt aIndex_t);
+TAknWindowLineLayout APAC_character_selection_pop_up_window_elements_Line_2(TInt aIndex_l, TInt aIndex_H);
+
+// LAF Table : APAC character selection pop-up window graphics
+TAknWindowLineLayout APAC_character_selection_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+TAknWindowLineLayout APAC_character_selection_pop_up_window_graphics_Line_2(const TRect& aParentRect, TInt aIndex_t);
+TAknWindowLineLayout APAC_character_selection_pop_up_window_graphics_Line_3(const TRect& aParentRect, TInt aIndex_t);
+TAknWindowLineLayout APAC_character_selection_pop_up_window_graphics_Line_4(const TRect& aParentRect, TInt aIndex_t);
+TAknWindowLineLayout APAC_character_selection_pop_up_window_graphics_Line_5(const TRect& aParentRect, TInt aIndex_t);
+TAknLayoutTableLimits APAC_character_selection_pop_up_window_graphics_SUB_TABLE_0_Limits();
+TAknWindowLineLayout APAC_character_selection_pop_up_window_graphics_SUB_TABLE_0(TInt aLineIndex, const TRect& aParentRect, TInt aIndex_t);
+
+// LAF Table : Chinese FEP pop-up window elements and descendants panes
+TAknWindowLineLayout Chinese_FEP_pop_up_window_elements_and_descendants_panes_Line_1(TInt aPaneLayout);
+TAknWindowLineLayout fep_china_entry_pane(TInt aPaneLayout);
+TAknWindowLineLayout fep_china_candidate_pane(TInt aPaneLayout);
+
+// LAF Table : Chinese FEP entry pane texts
+TAknTextLineLayout Chinese_FEP_entry_pane_texts_Line_1(TInt aIndex_C, TInt aPaneLayout);
+
+// LAF Table : Chinese FEP candidate pane elements
+TAknWindowLineLayout Chinese_FEP_candidate_pane_elements_Line_1(TInt aLeftRight);
+TAknWindowLineLayout Chinese_FEP_candidate_pane_elements_Line_2();
+TAknWindowLineLayout Chinese_FEP_candidate_pane_elements_Line_3();
+TAknWindowLineLayout fep_china_highlight_pane(TInt aIndex_l);
+TAknLayoutTableLimits Chinese_FEP_candidate_pane_elements_SUB_TABLE_0_Limits();
+TAknWindowLineLayout Chinese_FEP_candidate_pane_elements_SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : Chinese FEP candidate pane texts
+TAknTextLineLayout Chinese_FEP_candidate_pane_texts_Line_1(TInt aIndex_C, TInt aCommon1);
+TAknTextLineLayout Chinese_FEP_candidate_pane_texts_Line_2(TInt aCommon1);
+
+// LAF Table : Chinese FEP pop up window graphics
+TAknWindowLineLayout Chinese_FEP_pop_up_window_graphics_Line_1(const TRect& aParentRect, TInt aIsShownWithPopupWindows);
+TAknWindowLineLayout Chinese_FEP_pop_up_window_graphics_Line_2(const TRect& aParentRect, TInt aIsShownWithPopupWindows);
+TAknWindowLineLayout Chinese_FEP_pop_up_window_graphics_Line_3(const TRect& aParentRect, TInt aIsShownWithPopupWindows);
+TAknWindowLineLayout Chinese_FEP_pop_up_window_graphics_Line_4(const TRect& aParentRect, TInt aIsShownWithPopupWindows);
+TAknWindowLineLayout Chinese_FEP_pop_up_window_graphics_Line_5(const TRect& aParentRect, TInt aIsShownWithPopupWindows);
+TAknLayoutTableLimits Chinese_FEP_pop_up_window_graphics_Limits();
+TAknWindowLineLayout Chinese_FEP_pop_up_window_graphics(TInt aLineIndex, const TRect& aParentRect, TInt aIsShownWithPopupWindows);
+
+// LAF Table : Chinese FEP highlight elements
+TAknWindowLineLayout Chinese_FEP_highlight_elements_Line_1();
+TAknWindowLineLayout Chinese_FEP_highlight_elements_Line_2();
+TAknWindowLineLayout Chinese_FEP_highlight_elements_Line_3();
+TAknLayoutTableLimits Chinese_FEP_highlight_elements_Limits();
+TAknWindowLineLayout Chinese_FEP_highlight_elements(TInt aLineIndex);
+
+// LAF Table : Chinese FEP highlight texts
+TAknTextLineLayout Chinese_FEP_highlight_texts_Line_1(TInt aIndex_C);
+
+// LAF Table : Unselected string highlight
+TAknWindowLineLayout Unselected_string_highlight_Line_1(TInt aPaneLayout);
+
+// LAF Table : Pinyin T9 candidate pop up window descendants panes
+TAknWindowLineLayout list_single_fep_china_pinyin_pane(TInt aIndex_t);
+
+// LAF Table : List pane texts (fep china)
+TAknTextLineLayout List_pane_texts__fep_china__Line_1(TInt aIndex_C);
+
+// LAF Table : Pinyin T9 candidate pop up window graphics
+TAknWindowLineLayout Pinyin_T9_candidate_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Pinyin_T9_candidate_pop_up_window_graphics_Line_2(const TRect& aParentRect);
+TAknWindowLineLayout Pinyin_T9_candidate_pop_up_window_graphics_Line_3(const TRect& aParentRect);
+TAknWindowLineLayout Pinyin_T9_candidate_pop_up_window_graphics_Line_4(const TRect& aParentRect);
+TAknLayoutTableLimits Pinyin_T9_candidate_pop_up_window_graphics_Limits();
+TAknWindowLineLayout Pinyin_T9_candidate_pop_up_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Pinyin T9 candidate highlight
+TAknWindowLineLayout Pinyin_T9_candidate_highlight_Line_1(const TRect& aParentRect);
+
+// From LAF Table : Pop-up windows (main pane as parent)
+TAknWindowLineLayout popup_grid_apac_character_window(TInt aIndex_H);
+TAknWindowLineLayout popup_fep_japan_predictive_window(TInt aIndex_l, TInt aIndex_H);
+TAknWindowLineLayout popup_fep_japan_candidate_window(TInt aIndex_l, TInt aIndex_W, TInt aIndex_H);
+
+// LAF Table : Candidateselection descendant panes
+TAknWindowLineLayout candidate_pane(TInt aIndex_W, TInt aIndex_H);
+
+// LAF Table : APAC specific list pane placing
+TAknWindowLineLayout list_single_popup_jap_candidate_pane(TInt aIndex_t, TInt aIndex_W);
+
+
+// LAF Table : Listpane text (single japan fep)
+TAknTextLineLayout List_pane_text__single_japan_fep__Line_1(TInt aIndex_W);
+
+
+// LAF Table : Predictive candidate selection list texts
+TAknTextLineLayout Predictive_candidate_selection_list_texts_Line_1(TInt aIndex_C, TInt aIndex_B);
+TAknMultiLineTextLayout Multiline_Predictive_candidate_selection_list_texts_Line_1(TInt aIndex_C, TInt aNumberOfLinesShown);
+
+// LAF Table : Predictive candidate selection highlight
+TAknWindowLineLayout Predictive_candidate_selection_highlight_Line_1();
+
+// LAF Table : Predictive candidate selection popup window graphics
+TAknWindowLineLayout Predictive_candidate_selection_popup_window_graphics_Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Predictive_candidate_selection_popup_window_graphics_Line_2(const TRect& aParentRect);
+TAknWindowLineLayout Predictive_candidate_selection_popup_window_graphics_Line_3(const TRect& aParentRect);
+TAknWindowLineLayout Predictive_candidate_selection_popup_window_graphics_Line_4(const TRect& aParentRect);
+TAknLayoutTableLimits Predictive_candidate_selection_popup_window_graphics_Limits();
+TAknWindowLineLayout Predictive_candidate_selection_popup_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Candidate selection list texts
+TAknTextLineLayout Candidate_selection_list_texts_Line_1();
+
+// LAF Table : Candidate selection pop-up window graphics
+TAknWindowLineLayout Candidate_selection_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Candidate_selection_pop_up_window_graphics_Line_2(const TRect& aParentRect);
+TAknWindowLineLayout Candidate_selection_pop_up_window_graphics_Line_3(const TRect& aParentRect);
+TAknWindowLineLayout Candidate_selection_pop_up_window_graphics_Line_4(const TRect& aParentRect);
+TAknLayoutTableLimits Candidate_selection_pop_up_window_graphics_Limits();
+TAknWindowLineLayout Candidate_selection_pop_up_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Chinese FEP Zi popup window elements and descendants panes
+TAknWindowLineLayout Chinese_FEP_Zi_popup_window_elements_and_descendants_panes_Line_1();
+TAknWindowLineLayout fep_china_zi_entry_pane(TInt aIndex_W);
+TAknWindowLineLayout fep_china_zi_candidate_pane(TInt aIndex_t);
+
+// LAF Table : Chinese FEP Zi entry pane elements
+TAknWindowLineLayout Chinese_FEP_Zi_entry_pane_elements_Line_1();
+TAknWindowLineLayout Chinese_FEP_Zi_entry_pane_elements_Line_2();
+TAknLayoutTableLimits Chinese_FEP_Zi_entry_pane_elements_Limits();
+TAknWindowLineLayout Chinese_FEP_Zi_entry_pane_elements(TInt aLineIndex);
+
+// LAF Table : Chinese FEP Zi entry pane texts
+TAknTextLineLayout Chinese_FEP_Zi_entry_pane_texts_Line_1(TInt aIndex_C);
+
+// LAF Table : Chinese FEP Zi candidate pane elements
+TAknWindowLineLayout Chinese_FEP_Zi_candidate_pane_elements_Line_1();
+TAknWindowLineLayout Chinese_FEP_Zi_candidate_pane_elements_Line_2();
+TAknWindowLineLayout Chinese_FEP_Zi_candidate_pane_elements_Line_3();
+TAknWindowLineLayout Chinese_FEP_Zi_candidate_pane_elements_Line_4();
+TAknWindowLineLayout fep_china_zi_highlight_pane();
+TAknLayoutTableLimits Chinese_FEP_Zi_candidate_pane_elements_Limits();
+TAknWindowLineLayout Chinese_FEP_Zi_candidate_pane_elements(TInt aLineIndex);
+
+// LAF Table : Chinese FEP Zi candidate pane texts
+TAknTextLineLayout Chinese_FEP_Zi_candidate_pane_texts_Line_1();
+TAknTextLineLayout Chinese_FEP_Zi_candidate_pane_texts_Line_2();
+TAknTextLineLayout Chinese_FEP_Zi_candidate_pane_texts_Line_3();
+TAknLayoutTableLimits Chinese_FEP_Zi_candidate_pane_texts_Limits();
+TAknTextLineLayout Chinese_FEP_Zi_candidate_pane_texts(TInt aLineIndex);
+
+// LAF Table : Chinese FEP Zi popup window graphics (part 1)
+TAknWindowLineLayout Chinese_FEP_Zi_popup_window_graphics__part_1__Line_1();
+TAknWindowLineLayout Chinese_FEP_Zi_popup_window_graphics__part_1__Line_2(TInt aIndex_t);
+TAknWindowLineLayout Chinese_FEP_Zi_popup_window_graphics__part_1__Line_3(TInt aIndex_t);
+TAknWindowLineLayout Chinese_FEP_Zi_popup_window_graphics__part_1__Line_4();
+TAknWindowLineLayout Chinese_FEP_Zi_popup_window_graphics__part_1__Line_5();
+TAknLayoutTableLimits Chinese_FEP_Zi_popup_window_graphics__part_1__SUB_TABLE_0_Limits();
+TAknWindowLineLayout Chinese_FEP_Zi_popup_window_graphics__part_1__SUB_TABLE_0(TInt aLineIndex, TInt aIndex_t);
+TAknLayoutTableLimits Chinese_FEP_Zi_popup_window_graphics__part_1__SUB_TABLE_1_Limits();
+TAknWindowLineLayout Chinese_FEP_Zi_popup_window_graphics__part_1__SUB_TABLE_1(TInt aLineIndex);
+
+// LAF Table : Chinese FEP Zi popup window graphics (part 2)
+TAknWindowLineLayout Chinese_FEP_Zi_popup_window_graphics__part_2__Line_1(TInt aIndex_t);
+TAknWindowLineLayout Chinese_FEP_Zi_popup_window_graphics__part_2__Line_2(TInt aIndex_t);
+TAknWindowLineLayout Chinese_FEP_Zi_popup_window_graphics__part_2__Line_3(TInt aIndex_t);
+TAknWindowLineLayout Chinese_FEP_Zi_popup_window_graphics__part_2__Line_4(TInt aIndex_t);
+TAknWindowLineLayout Chinese_FEP_Zi_popup_window_graphics__part_2__Line_5(TInt aIndex_t);
+TAknLayoutTableLimits Chinese_FEP_Zi_popup_window_graphics__part_2__Limits();
+TAknWindowLineLayout Chinese_FEP_Zi_popup_window_graphics__part_2_(TInt aLineIndex, TInt aIndex_t);
+
+// LAF Table : Input highlight elements
+TAknWindowLineLayout Input_highlight_elements_Line_1();
+
+// LAF Table : Candidate selection
+TAknWindowLineLayout Candidate_selection_Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Candidate_selection_Line_2(const TRect& aParentRect);
+TAknLayoutTableLimits Candidate_selection_Limits();
+TAknWindowLineLayout Candidate_selection(TInt aLineIndex, const TRect& aParentRect);
+
+// From LAF Table : Pop-up windows (main pane as parent)
+TAknWindowLineLayout popup_fep_china_zi_window(TInt aCommon1);
+
+// LAF Table : Find pop-up window elements
+TAknWindowLineLayout Find_pop_up_window_elements_Line_5();
+
+TAknWindowLineLayout Chinese_universal_FEP_pop_up_window_elements_and_descendants_panes_Line_1();
+TAknWindowLineLayout fep_china_uni_entry_pane();
+TAknWindowLineLayout fep_china_uni_candidate_pane(TInt aIndex_t);
+TAknLayoutTableLimits Chinese_universal_FEP_pop_up_window_elements_and_descendants_panes_SUB_TABLE_0_Limits();
+TAknWindowLineLayout Chinese_universal_FEP_pop_up_window_elements_and_descendants_panes_SUB_TABLE_0(TInt aLineIndex);
+TAknWindowLineLayout Chinese_universal_FEP_entry_pane_elements_Line_1();
+TAknWindowLineLayout Chinese_universal_FEP_entry_pane_elements_Line_2();
+TAknWindowLineLayout fep_entry_item_pane();
+TAknLayoutTableLimits Chinese_universal_FEP_entry_pane_elements_Limits();
+TAknWindowLineLayout Chinese_universal_FEP_entry_pane_elements(TInt aLineIndex);
+TAknTextLineLayout Chinese_universal_FEP_entry_pane_texts_Line_1(TInt aIndex_C);
+TAknWindowLineLayout Chinese_universal_FEPcandidate_pane_elements_Line_1();
+TAknWindowLineLayout Chinese_universal_FEPcandidate_pane_elements_Line_2();
+TAknWindowLineLayout Chinese_universal_FEPcandidate_pane_elements_Line_3();
+TAknWindowLineLayout Chinese_universal_FEPcandidate_pane_elements_Line_4();
+TAknWindowLineLayout fep_candidate_item_pane();
+TAknLayoutTableLimits Chinese_universal_FEPcandidate_pane_elements_Limits();
+TAknWindowLineLayout Chinese_universal_FEPcandidate_pane_elements(TInt aLineIndex);
+TAknTextLineLayout Chinese_universal_FEP_candidate_pane_texts_Line_1();
+TAknTextLineLayout Chinese_universal_FEP_candidate_pane_texts_Line_2();
+TAknTextLineLayout Chinese_universal_FEP_candidate_pane_texts_Line_3();
+TAknLayoutTableLimits Chinese_universal_FEP_candidate_pane_texts_Limits();
+TAknTextLineLayout Chinese_universal_FEP_candidate_pane_texts(TInt aLineIndex);
+TAknWindowLineLayout Chinese_universal_FEP_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Chinese_universal_FEP_pop_up_window_graphics_Line_2(const TRect& aParentRect);
+TAknWindowLineLayout Chinese_universal_FEP_pop_up_window_graphics_Line_3(const TRect& aParentRect);
+TAknWindowLineLayout Chinese_universal_FEP_pop_up_window_graphics_Line_4(const TRect& aParentRect);
+TAknLayoutTableLimits Chinese_universal_FEP_pop_up_window_graphics_Limits();
+TAknWindowLineLayout Chinese_universal_FEP_pop_up_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+TAknWindowLineLayout Input_highlight_Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Candidate_selection_highlight_Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Candidate_selection_highlight_Line_2(const TRect& aParentRect);
+TAknLayoutTableLimits Candidate_selection_highlight_Limits();
+TAknWindowLineLayout Candidate_selection_highlight(TInt aLineIndex, const TRect& aParentRect);
+TAknWindowLineLayout popup_fep_china_uni_window(TInt aIndex_l, TInt aIndex_H);
+
+

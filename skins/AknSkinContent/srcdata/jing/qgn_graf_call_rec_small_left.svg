@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="332" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 332 82" height="82" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <path d="M 12.0 10.0 C 6.486 10.0 2.0 14.486 2.0 20.0 L 2.0 72.0 C 2.0 77.514 6.486 82.0 12.0 82.0 L 318.0 82.0 C 323.514 82.0 328.0 77.514 328.0 72.0 L 328.0 20.0 C 328.0 14.486 323.514 10.0 318.0 10.0 L 12.0 10.0 z " fill-opacity="0.01"/>
+            <path d="M 12.0 11.0 C 7.037 11.0 3.0 15.037001 3.0 20.0 L 3.0 72.0 C 3.0 76.963 7.037 81.0 12.0 81.0 L 318.0 81.0 C 322.963 81.0 327.0 76.963 327.0 72.0 L 327.0 20.0 C 327.0 15.037001 322.963 11.0 318.0 11.0 L 12.0 11.0 z " fill-opacity="0.02"/>
+            <path d="M 12.0 12.0 C 7.589 12.0 4.0 15.59 4.0 20.0 L 4.0 72.0 C 4.0 76.412 7.5889997 80.0 12.0 80.0 L 318.0 80.0 C 322.411 80.0 326.0 76.412 326.0 72.0 L 326.0 20.0 C 326.0 15.59 322.411 12.0 318.0 12.0 L 12.0 12.0 z " fill-opacity="0.04"/>
+            <path d="M 12.0 13.0 C 8.141 13.0 5.0 16.141 5.0 20.0 L 5.0 72.0 C 5.0 75.859 8.141 79.0 12.0 79.0 L 318.0 79.0 C 321.859 79.0 325.0 75.859 325.0 72.0 L 325.0 20.0 C 325.0 16.141 321.859 13.0 318.0 13.0 L 12.0 13.0 z " fill-opacity="0.07"/>
+            <path d="M 12.0 14.0 C 8.691 14.0 6.0 16.691 6.0 20.0 L 6.0 72.0 C 6.0 75.309 8.691 78.0 12.0 78.0 L 318.0 78.0 C 321.309 78.0 324.0 75.309 324.0 72.0 L 324.0 20.0 C 324.0 16.691 321.309 14.0 318.0 14.0 L 12.0 14.0 z " fill-opacity="0.11"/>
+            <path d="M 323.0 72.0 C 323.0 74.762 320.762 77.0 318.0 77.0 L 12.0 77.0 C 9.238 77.0 7.0 74.762 7.0 72.0 L 7.0 20.0 C 7.0 17.237999 9.238 15.0 12.0 15.0 L 318.0 15.0 C 320.762 15.0 323.0 17.237999 323.0 20.0 L 323.0 72.0 z " fill-opacity="0.13"/>
+            <linearGradient x1="163.9995" y1="15.6841" x2="163.9995" gradientUnits="userSpaceOnUse" y2="75.3633" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+                <stop stop-color="#ffffff" offset="0"/>
+                <stop stop-color="#ffe7e6" offset="1"/>
+            </linearGradient>
+            <rect x="6" width="316" fill="url(#XMLID_2_)" y="14" height="62"/>
+            <rect width="332" fill="none" height="82"/>
+        </g>
+    </g>
+</svg>

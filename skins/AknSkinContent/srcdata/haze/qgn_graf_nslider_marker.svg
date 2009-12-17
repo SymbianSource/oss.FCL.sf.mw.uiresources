@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="16" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 16 16" height="16" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect width="16" fill="none" height="16"/>
+        <g>
+            <path d="M 1.0 6.0 C 0.45 6.0 0.0 6.45 0.0 7.0 L 0.0 14.0 C 0.0 14.551 0.45 15.0 1.0 15.0 L 15.0 15.0 C 15.55 15.0 16.0 14.551 16.0 14.0 L 16.0 7.0 C 16.0 6.45 15.55 6.0 15.0 6.0 L 1.0 6.0 z "/>
+        </g>
+        <linearGradient x1="7.9995" y1="7.3013" x2="7.9995" gradientUnits="userSpaceOnUse" y2="17.6113" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#ffffff" offset="0.0056"/>
+            <stop stop-color="#52a2a5" offset="1"/>
+        </linearGradient>
+        <rect x="1" width="14" fill="url(#XMLID_2_)" y="7" height="7"/>
+    </g>
+</svg>

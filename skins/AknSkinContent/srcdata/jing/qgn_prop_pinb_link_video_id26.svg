@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="100%" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<rect fill="none" height="100" width="100"/>
+<g>
+<rect fill="none" height="7.377" width="7.385" x="75.861" y="17.062"/>
+<rect fill="none" height="7.377" width="7.393" x="75.861" y="46.631"/>
+<rect fill="none" height="7.393" width="7.377" x="75.869" y="61.393"/>
+<rect fill="none" height="7.385" width="7.377" x="75.869" y="31.846"/>
+<rect fill="none" height="7.377" width="7.385" x="16.754" y="17.062"/>
+<rect fill="none" height="7.377" width="7.385" x="16.754" y="31.846"/>
+<rect fill="none" height="7.377" width="7.385" x="75.861" y="76.185"/>
+<rect fill="none" height="7.377" width="7.393" x="16.746" y="46.623"/>
+<rect fill="none" height="7.377" width="7.385" x="16.754" y="76.185"/>
+<rect fill="none" height="7.377" width="7.393" x="16.746" y="61.4"/>
+<rect fill="#EACF5A" height="22.723" width="36.946" x="31.531" y="1.723"/>
+<rect fill="#EACF5A" height="22.054" width="36.946" x="31.531" y="76.177"/>
+<rect fill="#EACF5A" height="36.947" width="36.946" x="31.531" y="31.846"/>
+<path d="M83.246,1.669v8.007h-7.377V1.669h-7.4v0.054v22.723H31.531V1.723V1.669h-7.392v8.007h-7.385V1.669        H9.361v96.668h7.393v-7.385h7.377v7.385h7.392V98.23V76.177h36.946V98.23v0.107h7.393v-7.385h7.377v7.385h7.393V1.669H83.246z         M75.869,61.393h7.377v7.393h-7.377V61.393z M83.246,39.231h-7.377v-7.385h7.377V39.231z M83.246,46.623v7.393h-7.377v-7.393        H83.246z M83.246,17.062v7.385h-7.377v-7.385H83.246z M31.531,31.846h36.946v36.947H31.531V31.846z M24.139,17.062v7.385        h-7.385v-7.385H24.139z M16.754,54.008v-7.385h7.377v7.393h-7.377V54.008z M24.139,61.393v7.393h-7.385v-7.393H24.139z         M16.754,39.231v-7.385h7.377v7.385H16.754z M16.754,83.562v-7.385h7.377v7.385H16.754z M75.869,83.562v-7.385h7.377v7.385        H75.869z" fill="#5C1001"/>
+</g>
+</g>
+</g>
+</switch>
+</svg>

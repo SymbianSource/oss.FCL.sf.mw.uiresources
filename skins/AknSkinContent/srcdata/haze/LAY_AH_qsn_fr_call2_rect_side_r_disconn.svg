@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="10" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="6 20.851 10 36" height="36" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect x="15.669" y="20.851" fill-opacity="0.01" fill="#808080" width="0.331" height="36"/>
+        <rect x="15.227" y="20.851" fill-opacity="0.03" fill="#808080" width="0.442" height="36"/>
+        <rect x="14.786" y="20.851" fill-opacity="0.04" fill="#808080" width="0.44" height="36"/>
+        <rect x="14.783" y="20.851" fill-opacity="0.03" fill="#808080" width="0.002" height="36"/>
+        <rect x="14.34" y="20.851" fill-opacity="0.03" fill="#808080" width="0.443" height="36"/>
+        <rect x="13.896" y="20.851" fill-opacity="0.03" fill="#808080" width="0.443" height="36"/>
+        <rect x="13.454" y="20.851" fill-opacity="0.03" fill="#808080" width="0.442" height="36"/>
+        <rect x="13.012" y="20.851" fill-opacity="0.03" fill="#808080" width="0.442" height="36"/>
+        <polygon fill="#808080" fill-opacity="0.03" points="6,56.851 13.012,56.851 13.012,20.851 6,20.851 6,20.851  "/>
+        <linearGradient x1="2773.373" gradientTransform="matrix(-1 0 0 -1 2634.373 1073.9688)" y1="1077.9102" x2="2613.1572" gradientUnits="userSpaceOnUse" y2="1031.95" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+            <stop stop-color="#808080" offset="0"/>
+            <stop stop-color="#5f9ea0" offset="1"/>
+        </linearGradient>
+        <polygon fill="url(#XMLID_2_)" fill-opacity="0.4" points="6,20.851 6,20.851 6,56.851 13.012,56.851 13.454,56.851 13.896,56.851    14.34,56.851 14.34,20.851 13.896,20.851 13.454,20.851 13.012,20.851  "/>
+    </g>
+</svg>

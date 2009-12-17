@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="100%" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0 0 100 86.207" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<rect fill="none" height="86.207" width="100"/>
+<g>
+<g>
+<linearGradient gradientTransform="matrix(3.4483 0 0 -3.4483 856.8953 1598.2505)" gradientUnits="userSpaceOnUse" id="XMLID_8_" x1="-241.5146" x2="-239.5146" y1="447.1455" y2="445.1455">
+<stop offset="0" style="stop-color:#E0BC6C"/>
+<stop offset="1" style="stop-color:#AD832F"/>
+</linearGradient>
+<path d="M42.542,67.748l-20.179,4.459l-7.335-9.676L25.5,45.82         C35.545,46.855,45.014,58.355,42.542,67.748z" fill="url(#XMLID_8_)"/>
+<linearGradient gradientTransform="matrix(3.4483 0 0 -3.4483 856.8953 1598.2505)" gradientUnits="userSpaceOnUse" id="XMLID_9_" x1="-226.4131" x2="-222.9134" y1="458.7119" y2="455.4622">
+<stop offset="0" style="stop-color:#E0BC6C"/>
+<stop offset="1" style="stop-color:#AD832F"/>
+</linearGradient>
+<polygon fill="url(#XMLID_9_)" points="81.331,31.542 92.272,35.572 91.807,23.438 81.259,10.955 69.131,7.721          70.969,18.807 "/>
+<polygon fill="#CD9F3D" points="81.331,31.542 70.969,18.807 26.776,55.465 34.048,64.345 "/>
+<polygon fill="#EACF5A" points="70.969,18.807 69.131,7.721 25.479,45.862 26.776,55.465 "/>
+<polygon fill="#AD832F" points="81.331,31.542 92.272,35.572 42.49,67.748 34.048,64.345 "/>
+</g>
+<linearGradient gradientTransform="matrix(-3.4362 -0.2886 0.2886 -3.4362 -268.5899 1282.999)" gradientUnits="userSpaceOnUse" id="XMLID_10_" x1="-51.0552" x2="-53.5872" y1="358.4941" y2="356.0594">
+<stop offset="0" style="stop-color:#0046B7"/>
+<stop offset="0.0056" style="stop-color:#670000"/>
+<stop offset="0.4888" style="stop-color:#B0381E"/>
+<stop offset="1" style="stop-color:#5C1001"/>
+</linearGradient>
+<path d="M24.852,71.666L7.807,75.317l8.51-14.903C16.431,63.986,20.883,69.552,24.852,71.666z" fill="url(#XMLID_10_)"/>
+</g>
+</g>
+</g>
+</switch>
+</svg>

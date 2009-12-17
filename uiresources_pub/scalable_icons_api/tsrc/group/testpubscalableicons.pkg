@@ -1,0 +1,49 @@
+;
+; Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+; All rights reserved.
+; This component and the accompanying materials are made available
+; under the terms of "Eclipse Public License v1.0"
+; which accompanies this distribution, and is available
+; at the URL "http://www.eclipse.org/legal/epl-v10.html".
+;
+; Initial Contributors:
+; Nokia Corporation - initial contribution.
+;
+; Contributors:
+;
+; Description: 
+;
+; Languages
+&EN
+
+; Header
+#{"testpubscalableicons"}, (0x2001CB80), 1, 0, 0, TYPE=SA
+
+; Localised Vendor name
+%{"Nokia"}
+
+; Unique Vendor name
+:"Nokia"
+
+
+;Copying ordinary file (not language dependent) to fixed drive drive.
+
+"..\init\testpubscalableicons.ini"-"c:\Testframework\testpubscalableicons.ini", FF   ; FF stands for Normal file
+; ?adds your cfg file if need
+
+"..\conf\tctestpubscalableiconsakniconsrvclient.cfg"-"c:\Testframework\tctestpubscalableiconsakniconsrvclient.cfg", FF   ; FF stands for Normal file
+"..\conf\tctestpubscalableiconsakniconutils.cfg"-"c:\Testframework\tctestpubscalableiconsakniconutils.cfg", FF   ; FF stands for Normal file
+"..\conf\tctestpubscalableiconsakninternaliconutils.cfg"-"c:\Testframework\tctestpubscalableiconsakninternaliconutils.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testpubscalableiconsakniconsrvclient.cfg"-"c:\Testframework\ui_testpubscalableiconsakniconsrvclient.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testpubscalableiconsakniconutils.cfg"-"c:\Testframework\ui_testpubscalableiconsakniconutils.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testpubscalableiconsakninternaliconutils.cfg"-"c:\Testframework\ui_testpubscalableiconsakninternaliconutils.cfg", FF   ; FF stands for Normal file
+"\epoc32\RELEASE\ARMV5\urel\testpubscalableicons.dll"-"c:\sys\bin\testpubscalableicons.dll", FF
+
+; ?deletes this line, and deletes the follow line if you have not any resource
+;"\epoc32\data\Z\resource\testpubscalableicons.rsc"-"c:\resource\testpubscalableicons.rsc", FF
+
+
+; Trim For Mms
+; ------------
+; to be added later
+

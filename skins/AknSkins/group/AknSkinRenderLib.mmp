@@ -1,0 +1,127 @@
+/*
+* Copyright (c) 2004-2008 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Project definition file for rendering library.
+*
+*/
+
+
+#include <platform_paths.hrh>
+
+TARGET          AKNSKINRENDERLIB.DLL
+TARGETTYPE      DLL
+UID             0x1000008D 0x101F8739
+
+CAPABILITY      CAP_GENERAL_DLL
+VENDORID        VID_DEFAULT
+
+USERINCLUDE     . ../rlinc 
+USERINCLUDE     ../rlplugininc 
+USERINCLUDE     ../rlpluginsrc/asm_versions 
+USERINCLUDE     ../inc 
+USERINCLUDE     ../srvinc 
+USERINCLUDE     ../alinc 
+USERINCLUDE     ../polyinc
+
+// This is a SYSTEMINCLUDE macro containing the middleware
+// layer specific include directories
+MW_LAYER_SYSTEMINCLUDE
+
+SYSTEMINCLUDE   ../../../inc
+SYSTEMINCLUDE   ../../inc
+
+LIBRARY         euser.lib
+LIBRARY         gdi.lib
+LIBRARY         fbscli.lib 
+LIBRARY         bitgdi.lib
+LIBRARY         AknIcon.lib
+LIBRARY         CdlEngine.lib
+LIBRARY         Avkon.lib
+LIBRARY         eikcore.lib
+LIBRARY         AknLayout2Scalable.lib
+LIBRARY         AknSkinSrv.lib
+LIBRARY         efsrv.lib
+LIBRARY         CentralRepository.lib
+LIBRARY         AknLayout2.lib
+
+SOURCEPATH      ../rlsrc
+SOURCE          AknSkinRenderLibDll.cpp
+SOURCE          AknsRlCommand.cpp
+SOURCE          AknsRlEffectPlugin.cpp
+SOURCE          AknsRlInternalEffectPool.cpp
+SOURCE          AknsRlDefaultRenderer.cpp
+SOURCE          AknsRlMasterLayout.cpp
+SOURCE          AknsRlUtils.cpp
+
+SOURCEPATH      ../rlpluginsrc
+SOURCE          AknsRlEffectPluginApplyColor.cpp
+SOURCE          AknsRlEffectPluginApplyGfx.cpp
+SOURCE          AknsRlEffectPluginAdjustChannels.cpp
+SOURCE          AknsRlEffectPluginAlphaBlend.cpp
+SOURCE          AknsRlEffectPluginBlackWhite.cpp
+SOURCE          AknsRlEffectPluginBumpMap.cpp
+SOURCE          AknsRlEffectPluginChannelBlend.cpp
+SOURCE          AknsRlEffectPluginContrast.cpp
+SOURCE          AknsRlEffectPluginConvolution.cpp
+SOURCE          AknsRlEffectPluginGrayscale.cpp
+SOURCE          AknsRlEffectPluginInvert.cpp
+SOURCE          AknsRlEffectPluginMovingLayers.cpp
+SOURCE          AknsRlEffectPluginNoise.cpp
+SOURCE          AknsRlEffectPluginSaturation.cpp
+SOURCE          AknsRlEffectPluginSolarize.cpp
+SOURCE          AknsRlEffectUtil.cpp
+SOURCE          AknsRlExpand.cpp
+
+SOURCEPATH      ../rlpluginsrc/asm_versions
+SOURCE          make_convo_bmp.cpp
+SOURCE          convo_edge_64k.cpp
+SOURCE          convo_blur_64k.cpp
+SOURCE          convo_blur_gauss_64k.cpp
+SOURCE          convo_emboss_soft_64k.cpp
+SOURCE          convo_emboss_hard_64k.cpp
+SOURCE          convo_enhance_detail_64k.cpp
+SOURCE          convo_enhance_focus_64k.cpp
+SOURCE          convo_soften_64k.cpp
+SOURCE          convo_sharpen_64k.cpp
+SOURCE          convo_sharpen_more_64k.cpp
+SOURCE          asm_contrast.cpp
+
+SOURCEPATH      ../alsrc
+SOURCE          AknsAlAnimationFactory.cpp
+SOURCE          AknsAlAnimationValue.cpp
+SOURCE          AknsAlTimingModelRealTime.cpp
+SOURCE          AknsAlTimingModelRelative.cpp
+
+SOURCEPATH      ../polysrc
+SOURCE          AknsAlPolyBase.cpp
+SOURCE          AknsAlPolyLine.cpp
+SOURCE          AknsAlPolyLine1D.cpp
+
+SOURCEPATH      ../src
+SOURCE          AknsFsHandleProvider.cpp
+
+// ============================================================================
+// Target-specific DEF files
+// ============================================================================
+
+#if defined(ARMCC)
+deffile ../EABI/ 
+#elif defined(WINSCW)
+deffile ../BWINSCW/ 
+#elif defined(WINS)
+deffile ../bwins/ 
+#else
+deffile ../bmarm/ 
+#endif
+
+// End of file

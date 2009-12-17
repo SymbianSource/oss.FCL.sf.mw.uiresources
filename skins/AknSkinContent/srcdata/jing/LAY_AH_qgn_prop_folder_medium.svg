@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.0" width="100px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 69.049" height="69.049px" x="0px" y="0px">
+    <g>
+        <g>
+            <g>
+                <polygon fill="#ffffff" points="75.018,50.921 82.795,19.088 73.249,15.736 66.372,16.997 63.405,6.978 56.997,4.954      36.416,7.835 36.553,13.463 17.205,16.482 32.209,64.095    "/>
+                <g>
+                    <polygon fill="#cd9f3d" points="33.811,60.28 23.934,20.329 42.059,17.288 41.918,11.301 61.235,8.207 73.111,48.534     "/>
+                    <polygon fill="#eacf5a" points="40.499,28.252 79.817,20.372 73.306,48.513 33.807,59.901     "/>
+                    <polygon fill="#eacf5a" points="40.499,28.252 79.817,20.372 73.06,17.906 33.848,24.634     "/>
+                    <polygon fill="#eacf5a" points="41.918,11.301 61.344,8.141 56.971,6.906 38.564,9.603     "/>
+                    <polygon fill="#eacf5a" points="23.934,20.329 42.059,17.288 38.791,15.454 20.002,18.288     "/>
+                    <polygon fill="#704d18" points="40.499,28.252 33.805,60.587 33.848,24.634     "/>
+                    <polygon fill="#704d18" points="23.934,20.329 33.805,60.587 20.002,18.288     "/>
+                    <polygon fill="#704d18" points="38.564,9.603 38.791,15.454 42.059,17.288 41.918,11.301     "/>
+                    <linearGradient x1="-358.1396" gradientTransform="matrix(-1.1905 -0.0746 0 1.1905 -365.1239 -333.196)" y1="309.0625" x2="-343.5551" gradientUnits="userSpaceOnUse" y2="285.24" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+                        <stop stop-color="#cd9f3d" offset="0"/>
+                        <stop stop-color="#ad832f" offset="1"/>
+                    </linearGradient>
+                    <polygon fill="url(#SVGID_1_)" points="33.805,60.587 40.486,28.494 65.783,23.501 73.111,48.534     "/>
+                </g>
+            </g>
+            <rect width="100" fill="none" height="69.049"/>
+        </g>
+    </g>
+</svg>

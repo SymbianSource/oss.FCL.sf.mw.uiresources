@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="3.377 12.666 44 44" height="44" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <rect x="12.878" width="7" fill="#ffffff" y="19.666" height="6"/>
+                        <rect x="21.878" width="7" fill="#ffffff" y="19.666" height="6"/>
+                        <rect x="30.879" width="7" fill="#ffffff" y="19.666" height="6"/>
+                    </g>
+                    <g>
+                        <rect x="12.878" width="7" fill="#ffffff" y="27.666" height="6"/>
+                        <rect x="21.878" width="7" fill="#ffffff" y="27.666" height="6"/>
+                        <rect x="30.879" width="7" fill="#ffffff" y="27.666" height="6"/>
+                    </g>
+                    <g>
+                        <rect x="12.878" width="7" fill="#ffffff" y="35.666" height="6"/>
+                        <rect x="21.878" width="7" fill="#ffffff" y="35.666" height="6"/>
+                        <rect x="30.879" width="7" fill="#ffffff" y="35.666" height="6"/>
+                    </g>
+                    <g>
+                        <rect x="21.878" width="7" fill="#ffffff" y="43.666" height="6"/>
+                        <rect x="30.879" width="7" fill="#ffffff" y="43.666" height="6"/>
+                        <rect x="12.878" width="7" fill="#ffffff" y="43.666" height="6"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

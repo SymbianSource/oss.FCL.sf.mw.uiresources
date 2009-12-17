@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 44 44" height="44" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <rect width="44" fill="none" height="44"/>
+    <linearGradient x1="18.79" y1="-13.12" x2="18.79" gradientUnits="userSpaceOnUse" y2="34.99" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <path fill="url(#SVGID_1)" d="M 31.579 20.428 L 26.131 20.428 L 21.249 9.744 C 22.1 9.284 22.684 8.395 22.684 7.3600006 C 22.684 5.8570004 21.464 4.637001 19.96 4.637001 C 18.455996 4.637001 17.238998 5.8570004 17.238998 7.3600006 C 17.238998 8.461 17.895998 9.407001 18.836998 9.835001 L 13.9 20.428 L 11.264 20.428 C 10.877 19.398 9.889 18.66 8.722 18.66 C 7.219 18.661 6.0 19.879 6.0 21.384 C 6.0 22.886002 7.219 24.104 8.722 24.104 C 9.889 24.104 10.877 23.367 11.264 22.337 L 13.01 22.337 L 8.685 31.62 L 11.408001 31.62 C 12.666001 28.909 14.256 25.495 15.727001 22.337002 L 24.294004 22.337002 L 25.669004 25.341002 L 28.377005 25.341002 L 27.004004 22.337002 L 31.580004 22.337002 L 31.580004 20.428 z M 16.616 20.428 C 18.528 16.324999 20.05 13.063999 20.05 13.063999 L 23.421 20.428 L 16.616 20.428 z "/>
+    <linearGradient x1="31.85" y1="14.08" x2="31.85" gradientUnits="userSpaceOnUse" y2="36.07" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_2" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <path fill="url(#SVGID_2)" d="M 25.697 27.061 L 25.697 39.364 L 38.0 39.364 L 38.0 27.061 L 25.697 27.061 z M 36.036 37.4 L 27.661 37.4 L 27.661 29.025002 L 36.036 29.025002 L 36.036 37.4 z "/>
+    <polygon fill="url(#SVGID_2)" points="29.774,36.639 29.774,29.787 33.923,33.212 "/>
+</svg>

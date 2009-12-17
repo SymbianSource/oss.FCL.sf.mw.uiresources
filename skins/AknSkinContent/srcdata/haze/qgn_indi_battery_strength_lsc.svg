@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="100" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-42 -42 100 100" height="100" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <g>
+                <g>
+                    <rect x="-42" width="100" fill="none" y="-42" height="100"/>
+                </g>
+            </g>
+        </g>
+        <g>
+            <polygon fill="#ffffff" fill-opacity="0.95" points="-8.719,-23.762 -33.678,-23.762 -33.678,-11.762 -3.503,-11.762   "/>
+            <polygon fill="#ffffff" points="-8.719,-23.762 -13.934,-35.766 -33.678,-35.766 -33.678,-23.762   "/>
+            <polygon fill="#ffffff" fill-opacity="0.9" points="-3.503,-11.762 -33.678,-11.762 -33.678,0.234 1.716,0.234   "/>
+            <polygon fill="#ffffff" fill-opacity="0.85" points="1.716,0.234 -33.678,0.234 -33.678,12.238 6.933,12.238   "/>
+            <polygon fill="#ffffff" fill-opacity="0.75" points="12.153,24.23 -33.678,24.23 -33.678,36.234 17.365,36.234   "/>
+            <polygon fill="#ffffff" fill-opacity="0.7" points="17.365,36.234 -33.678,36.234 -33.678,48.234 22.584,48.234   "/>
+            <polygon fill="#ffffff" fill-opacity="0.8" points="6.933,12.238 -33.678,12.238 -33.678,24.23 12.153,24.23   "/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+#ifndef ADAPTATION_LAYER_AKNAPACLAYOUT_HRH
+#define ADAPTATION_LAYER_AKNAPACLAYOUT_HRH
+#include "aknapaclayout.cdl.common.hrh"
+#include "dllinstances.hrh"
+
+#define _CDL_Adaptation_Layer_AknApacLayout_KCdlInstanceInterfaceUidValue _CDL_AknApacLayout_KCdlInterfaceUidValue
+#define _CDL_Adaptation_Layer_AknApacLayout_KCdlInstanceId KDllInst_Adaptation_Layer_AknApacLayout
+
+#endif // ADAPTATION_LAYER_AKNAPACLAYOUT_HRH

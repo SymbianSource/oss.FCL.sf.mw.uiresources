@@ -1,0 +1,46 @@
+;
+; Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+; All rights reserved.
+; This component and the accompanying materials are made available
+; under the terms of "Eclipse Public License v1.0"
+; which accompanies this distribution, and is available
+; at the URL "http://www.eclipse.org/legal/epl-v10.html".
+;
+; Initial Contributors:
+; Nokia Corporation - initial contribution.
+;
+; Contributors:
+;
+; Description:
+;
+; Languages
+&EN
+
+; Header
+#{"testsdkpictograph"}, (0x2001CB80), 1, 0, 0, TYPE=SA
+
+; Localised Vendor name
+%{"Nokia"}
+
+; Unique Vendor name
+:"Nokia"
+
+
+;Copying ordinary file (not language dependent) to fixed drive drive.
+
+"..\init\testsdkpictograph.ini"-"c:\Testframework\testsdkpictograph.ini", FF   ; FF stands for Normal file
+"..\conf\tctestsdkpictographint.cfg"-"c:\Testframework\tctestsdkpictographint.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testsdkpictographint.cfg"-"c:\Testframework\ui_testsdkpictographint.cfg", FF   ; FF stands for Normal file
+"..\conf\tctestsdkpictographiconsrv.cfg"-"c:\Testframework\tctestsdkpictographiconsrv.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testsdkpictographiconsrv.cfg"-"c:\Testframework\ui_testsdkpictographiconsrv.cfg", FF   ; FF stands for Normal file
+"..\conf\tctestsdkpictographiconutil.cfg"-"c:\Testframework\tctestsdkpictographiconutil.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testsdkpictographiconutil.cfg"-"c:\Testframework\ui_testsdkpictographiconutil.cfg", FF   ; FF stands for Normal file
+"..\conf\tctestsdkpictographintiu.cfg"-"c:\Testframework\tctestsdkpictographintiu.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testsdkpictographintiu.cfg"-"c:\Testframework\ui_testsdkpictographintiu.cfg", FF   ; FF stands for Normal file
+
+"\epoc32\RELEASE\ARMV5\urel\testsdkpictograph.dll"-"c:\sys\bin\testsdkpictograph.dll", FF
+
+
+; Trim For Mms
+; ------------
+; to be added later

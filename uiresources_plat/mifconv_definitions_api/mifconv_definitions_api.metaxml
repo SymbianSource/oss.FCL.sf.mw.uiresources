@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<api id="824c4a2affd7840d5b783baad4b7ea4c" dataversion="2.0">
+  <name>Mifconv Definitions API</name>
+  <description>Mifconv tool definitions.</description>
+  <type>c++</type>
+  <collection>uigraphics</collection>
+  <libs>
+  </libs>
+  <release category="platform"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>no</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

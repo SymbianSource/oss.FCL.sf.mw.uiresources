@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<api id="00da56b061e47295e3af4377b7beed48" dataversion="2.0">
+  <name>Wallpaper Configuration API</name>
+  <description>Wallpaper configuration settings.</description>
+  <type>c++</type>
+  <collection>skins</collection>
+  <libs>
+  </libs>
+  <release category="platform"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>no</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

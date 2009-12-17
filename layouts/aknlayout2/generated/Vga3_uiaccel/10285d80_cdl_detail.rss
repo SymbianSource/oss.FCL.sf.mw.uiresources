@@ -1,0 +1,83 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+#include <cdlecom.rh>
+#include <cdlecom.hrh>
+
+#include "uiaccel_elaf_vga3_normal_pack.hrh"
+#include "aknlayoutscalable_elaf_hvp3_c_vga3_prt_normal.hrh"
+#include "uiaccel_elaf_vga3_small_pack.hrh"
+#include "aknlayoutscalable_elaf_hvp3_c_vga3_prt_small.hrh"
+#include "uiaccel_elaf_vga3_large_pack.hrh"
+#include "aknlayoutscalable_elaf_hvp3_c_vga3_prt_large.hrh"
+#include "uiaccel_abrw_vga3_normal_pack.hrh"
+#include "aknlayoutscalable_abrw_hvp3_c_vga3_prt_normal.hrh"
+#include "uiaccel_abrw_vga3_small_pack.hrh"
+#include "aknlayoutscalable_abrw_hvp3_c_vga3_prt_small.hrh"
+#include "uiaccel_abrw_vga3_large_pack.hrh"
+#include "aknlayoutscalable_abrw_hvp3_c_vga3_prt_large.hrh"
+#include "uiaccel_apac_vga3_normal_pack.hrh"
+#include "uiaccel_apac_vga3_small_pack.hrh"
+#include "uiaccel_apac_vga3_large_pack.hrh"
+#include "uiaccel_elaf_vga3_land_normal_pack.hrh"
+#include "aknlayoutscalable_elaf_hvl3_c_vga3_lsc_normal.hrh"
+#include "uiaccel_elaf_vga3_land_small_pack.hrh"
+#include "aknlayoutscalable_elaf_hvl3_c_vga3_lsc_small.hrh"
+#include "uiaccel_elaf_vga3_land_large_pack.hrh"
+#include "aknlayoutscalable_elaf_hvl3_c_vga3_lsc_large.hrh"
+#include "uiaccel_abrw_vga3_land_normal_pack.hrh"
+#include "aknlayoutscalable_abrw_hvl3_c_vga3_lsc_normal.hrh"
+#include "uiaccel_abrw_vga3_land_small_pack.hrh"
+#include "aknlayoutscalable_abrw_hvl3_c_vga3_lsc_small.hrh"
+#include "uiaccel_abrw_vga3_land_large_pack.hrh"
+#include "aknlayoutscalable_abrw_hvl3_c_vga3_lsc_large.hrh"
+#include "uiaccel_apac_vga3_land_normal_pack.hrh"
+#include "uiaccel_apac_vga3_land_small_pack.hrh"
+#include "uiaccel_apac_vga3_land_large_pack.hrh"
+
+CDL_ECOM_REG_DETAIL_START
+	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Vga3_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hvp3_c_vga3_prt_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Vga3_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hvp3_c_vga3_prt_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Vga3_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hvp3_c_vga3_prt_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Vga3_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hvp3_c_vga3_prt_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Vga3_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hvp3_c_vga3_prt_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Vga3_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hvp3_c_vga3_prt_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Vga3_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Vga3_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Vga3_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Vga3_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hvl3_c_vga3_lsc_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Vga3_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hvl3_c_vga3_lsc_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Vga3_land_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hvl3_c_vga3_lsc_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Vga3_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hvl3_c_vga3_lsc_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Vga3_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hvl3_c_vga3_lsc_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Vga3_land_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hvl3_c_vga3_lsc_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Vga3_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Vga3_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Vga3_land_Large_Pack)
+CDL_ECOM_REG_DETAIL_END

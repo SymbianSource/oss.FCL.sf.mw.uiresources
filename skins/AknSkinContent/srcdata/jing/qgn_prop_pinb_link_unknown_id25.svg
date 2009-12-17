@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="100%" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<g>
+<rect fill="none" height="100" width="100"/>
+<g>
+<g>
+<path d="M28.112,18.6L38.4,13.144c-0.063,0.031,12.462-5.043,23.175-2.262          c10.35,2.7,16.55,8.331,22.513,17.531c5.956,9.188,7.362,25.3,3.418,33.881c-3.943,8.581-6.574,10.594-9.462,13.318          L64.6,85.331c10.863-18.919,8.632-39.675,1.969-48.869C59.9,27.263,46.069,15.163,28.112,18.6z" fill="url(#XMLID_8_)"/>
+<g>
+<path d="M80.356,54.075C81.381,74.706,66.537,90.744,47.2,89.912c-19.35-0.831-35.856-18.256-36.875-38.899           C9.3,30.381,24.144,14.337,43.487,15.163C62.831,16.019,79.331,33.45,80.356,54.075z" fill="#EACF5A"/>
+</g>
+<defs>
+<linearGradient gradientTransform="matrix(6.25 0 0 -6.25 1553.125 2939.9326)" gradientUnits="userSpaceOnUse" id="XMLID_8_" x1="-240.8286" x2="-236.4963" y1="466.3887" y2="461.2225">
+<stop offset="0" style="stop-color:#E0BC6C"/>
+<stop offset="0.5" style="stop-color:#AD832F"/>
+<stop offset="1" style="stop-color:#7F3C21"/>
+</linearGradient>
+</defs>
+</g>
+</g>
+</g>
+<rect fill="none" height="81.25" width="81.25" x="9.25" y="9.375"/>
+<g>
+<g>
+<path d="M46.181,88.419c-4.25-0.769-7.531-4.819-7.531-8.8c0-4.25,3.281-6.932,7.531-6.15         c4.163,0.756,7.431,4.725,7.431,8.875C53.612,86.331,50.244,89.162,46.181,88.419z" fill="#5C1001"/>
+<path d="M40.2,65.419c0-7.531,3.712-11.182,8.85-15.025c3-2.2,5.919-4.05,5.919-8.469         c0-5.043-4.15-10.219-9.206-11.144c-5.838-1.063-9.631,2.744-9.731,8.388l-11.413-2.082         c-0.181-11.975,9.119-20.006,21.244-17.8c11.144,2.025,20.694,13.244,20.694,24.487c0,14.688-13.356,11.619-15.213,23.668         L40.2,65.419z" fill="#5C1001"/>
+</g>
+</g>
+</g>
+</g>
+</switch>
+</svg>

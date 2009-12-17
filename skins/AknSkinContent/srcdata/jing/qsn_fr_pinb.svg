@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="473.194px" preserveAspectRatio="xMidYMid meet" viewBox="3.411 67.55 473.194 503.056" height="503.056px" x="0px" y="0px">
+    <rect x="3.411" width="473.194" fill="none" y="67.55" height="503.056"/>
+    <linearGradient x1="613.3044" gradientTransform="matrix(0.379 0 0 0.379 -187.9519 -353.3245)" y1="1115.26" x2="1691.7109" gradientUnits="userSpaceOnUse" y2="2492.5818" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="0.0056"/>
+        <stop stop-color="#feeced" offset="0.2809"/>
+        <stop stop-color="#ffb8b8" offset="1"/>
+    </linearGradient>
+    <path fill="url(#SVGID_1_)" d="M 4.778 68.932 C 4.778 71.672 4.778 566.484 4.778 569.224 C 7.488 569.224 472.529 569.224 475.239 569.224 C 475.239 566.486 475.239 71.672 475.239 68.93201 C 472.529 68.932 7.489 68.932 4.778 68.932 z " fill-opacity="0.8" stroke-opacity="0.8"/>
+    <g>
+        <path fill="#ea8c8c" d="M 473.871 68.932 C 473.871 68.932 473.871 566.462 473.871 567.842 C 472.506 567.842 4.778015 567.842 4.778015 567.842 L 4.778015 569.224 L 475.239 569.224 L 475.239 68.932 L 473.871 68.932 z "/>
+    </g>
+</svg>

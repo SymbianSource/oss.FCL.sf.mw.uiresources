@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="9" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="45.504 33.393 9 9" height="9" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <polygon points="55.092,40.801 55.08,40.801 55.024,32.973 44.889,32.982 44.889,42.332 55.092,42.332  " fill-opacity="0.06"/>
+        <polygon points="55.092,40.492 55.08,40.492 55.024,32.664 44.889,32.673 44.889,42.023 55.092,42.023  " fill-opacity="0.06"/>
+        <polygon points="55.092,39.898 55.08,39.898 55.024,32.07 44.889,32.08 44.889,41.43 55.092,41.43  " fill-opacity="0.06"/>
+        <linearGradient x1="50.5771" y1="24.5078" x2="50.319" gradientUnits="userSpaceOnUse" y2="29.6058" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+            <stop stop-color="#ffb8b8" offset="0"/>
+            <stop stop-color="#ffb8b8" offset="0.0169"/>
+            <stop stop-color="#feeced" offset="1"/>
+        </linearGradient>
+        <polygon fill="url(#XMLID_2_)" points="55.092,39.242 55.08,39.242 55.024,31.412 44.889,31.421 44.889,40.773 55.092,40.773  "/>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="16.001" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="54 -38 16.001 20" height="20" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <g>
+                <g>
+                    <linearGradient x1="-1327.252" gradientTransform="matrix(1 0 0 1 1389.252 -822.3535)" y1="803.1035" x2="-1327.252" gradientUnits="userSpaceOnUse" y2="786.2879" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_3_" xlink:show="other">
+                        <stop stop-color="#000000" offset="0"/>
+                        <stop stop-color="#054d49" offset="0.5"/>
+                        <stop stop-color="#52a2a5" offset="1"/>
+                    </linearGradient>
+                    <path fill="url(#XMLID_3_)" d="M 68.152 -36.75 L 55.852 -36.75 C 54.83 -36.75 54.0 -36.189 54.0 -35.497 L 54.0 -20.503002 C 54.0 -19.811003 54.829 -19.250002 55.852 -19.250002 L 68.153 -19.250002 C 69.173 -19.250002 70.002 -19.811003 70.002 -20.503002 L 70.002 -35.497 C 70.0 -36.189 69.171 -36.75 68.152 -36.75 z "/>
+                </g>
+                <linearGradient x1="-1327.252" gradientTransform="matrix(1 0 0 1 1389.252 -822.3535)" y1="783.418" x2="-1327.252" gradientUnits="userSpaceOnUse" y2="794.3555" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+                    <stop stop-color="#ffffff" offset="0"/>
+                    <stop stop-color="#ffffff" offset="0.1"/>
+                    <stop stop-color="#cfecff" offset="0.98"/>
+                    <stop stop-color="#cfecff" offset="1"/>
+                </linearGradient>
+                <path fill="url(#XMLID_4_)" d="M 68.152 -36.75 L 55.852 -36.75 C 54.83 -36.75 54.0 -36.189 54.0 -35.497 L 54.0 -28.0 L 70.0 -28.0 L 70.0 -35.497 C 70.0 -36.189 69.171 -36.75 68.152 -36.75 z " fill-opacity="0.2"/>
+            </g>
+            <rect x="54" width="16" fill="none" y="-38" height="20"/>
+        </g>
+    </g>
+</svg>

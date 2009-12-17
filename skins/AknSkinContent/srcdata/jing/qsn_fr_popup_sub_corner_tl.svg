@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="8" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-0.166 0.495 8 8" height="8" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <path fill="#656b6b" d="M -0.107 8.495 L 7.834 8.495 L 7.834 0.554 C 3.67 1.017 0.355 4.331 -0.107 8.495 z " fill-opacity="0.01"/>
+    <path fill="#656b6b" d="M 7.834 1.565 C 4.223 2.0180001 1.3569999 4.8830004 0.9029999 8.495 L 7.834 8.495 L 7.834 1.565 z " fill-opacity="0.02"/>
+    <path fill="#656b6b" d="M 7.834 2.575 C 4.775 3.016 2.355 5.436 1.914 8.495 L 7.834 8.495 L 7.834 2.575 z " fill-opacity="0.04"/>
+    <path fill="#656b6b" d="M 7.834 3.585 C 5.326 4.009 3.348 5.9890003 2.9240003 8.495 L 7.834 8.495 L 7.834 3.585 z " fill-opacity="0.07"/>
+    <path fill="#656b6b" d="M 7.834 4.597 C 5.8780003 4.995 4.334 6.54 3.936 8.495 L 7.834 8.495 L 7.834 4.597 z " fill-opacity="0.11"/>
+    <path fill="#656b6b" d="M 7.834 5.638 C 6.436 6.001 5.34 7.097 4.977 8.495 L 7.8340006 8.495 L 7.8340006 5.638 z " fill-opacity="0.13"/>
+    <path fill="#656b6b" d="M 7.834 6.679 C 6.986 6.981 6.319 7.647 6.018 8.495 L 7.834 8.495 L 7.834 6.679 z " fill-opacity="0.1"/>
+    <rect x="2.834" y="3.495" fill-opacity="0.02" fill="#656b6b" width="5" height="5"/>
+    <linearGradient x1="198.81" y1="188.69" x2="19.81" gradientUnits="userSpaceOnUse" y2="19.69" xlink:type="simple" xlink:actuate="onLoad" id="_2" xlink:show="other">
+        <stop stop-color="#ffe4e1" offset="0"/>
+        <stop stop-color="#ffe4e1" offset="0.24"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <rect x="3.834" width="4" fill="url(#_2)" y="4.495" height="4"/>
+</svg>

@@ -1,0 +1,18 @@
+# Comments are allowed
+#
+
+# Optional variations in the generated scripts
+
+<option keepgoing>		# use abld -keepgoing
+<option thumb>			# build THUMB versions of ARM components
+<option wd2>			# build wd2 versions of ARM components
+<option noarm4> 		# don't build arm4 versions of ARM components
+<option noarmi> 		# don't build armi versions of ARM components
+
+# List of components required
+#
+# Name		abld_directory
+
+# Engine
+CdlEngine					\s60\mw\uiresources\layouts\cdl\CdlEngine\group
+CdlServer					\s60\mw\uiresources\layouts\cdl\CdlServer\group

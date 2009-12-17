@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="134" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="74 8.181 134 7.338" height="7.338" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect x="74" y="15.078" fill-opacity="0.01" fill="#808080" width="134" height="0.44"/>
+        <rect x="74" y="14.636" fill-opacity="0.03" fill="#808080" width="134" height="0.442"/>
+        <rect x="74" y="14.192" fill-opacity="0.04" fill="#808080" width="134" height="0.441"/>
+        <rect x="74" y="13.746" fill-opacity="0.09" fill="#808080" width="134" height="0.446"/>
+        <rect x="74" y="13.306" fill-opacity="0.08" fill="#808080" width="134" height="0.44"/>
+        <rect x="74" y="12.86" fill-opacity="0.1" fill="#808080" width="134" height="0.443"/>
+        <rect x="74" y="12.418" fill-opacity="0.11" fill="#808080" width="134" height="0.442"/>
+        <rect x="74" y="11.974" fill-opacity="0.03" fill="#808080" width="134" height="0.445"/>
+        <rect x="74" y="8.181" fill-opacity="0.03" fill="#808080" width="134" height="3.793"/>
+        <linearGradient x1="2126.8838" gradientTransform="matrix(-1 0 0 1 2199.748 -786.2529)" y1="815.876" x2="1978.0682" gradientUnits="userSpaceOnUse" y2="773.1862" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+            <stop stop-color="#808080" offset="0"/>
+            <stop stop-color="#5f9ea0" offset="1"/>
+        </linearGradient>
+        <rect x="74" y="8.181" fill-opacity="0.4" fill="url(#XMLID_2_)" width="134" height="3.793"/>
+    </g>
+</svg>

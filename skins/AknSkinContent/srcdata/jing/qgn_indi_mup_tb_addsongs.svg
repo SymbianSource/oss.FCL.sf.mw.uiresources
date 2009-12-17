@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 44 44" height="44" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <rect width="44" fill="none" height="44"/>
+    <linearGradient x1="14.5718" gradientTransform="matrix(1 0 0 -1 0.1377 42.834)" y1="48.7754" x2="14.5718" gradientUnits="userSpaceOnUse" y2="-7.4246" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_3_" xlink:show="other">
+        <stop stop-color="#ffffcf" offset="0"/>
+        <stop stop-color="#f0de80" offset="0.11"/>
+        <stop stop-color="#c26e54" offset="0.35"/>
+        <stop stop-color="#b0361a" offset="0.48"/>
+        <stop stop-color="#ad2621" offset="0.6629"/>
+        <stop stop-color="#9c0a00" offset="0.75"/>
+        <stop stop-color="#991712" offset="0.82"/>
+        <stop stop-color="#8a0000" offset="0.91"/>
+        <stop stop-color="#730303" offset="0.99"/>
+        <stop stop-color="#730303" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_3_)" d="M 14.504 9.949 L 14.504 25.596 C 14.377 25.557 14.266 25.526 14.127 25.509 C 11.568 25.155 8.387 26.768002 7.018 29.118 C 5.654 31.467 6.639 33.658 9.199 34.0 C 11.758 34.365 14.929001 32.744 16.301 30.406 C 16.682001 29.734 16.865 29.076 16.895 28.48 C 16.907 28.453 16.916 28.439 16.928 28.418 C 16.928 27.785 16.928 16.829998 16.928 16.829998 L 23.015 20.086 L 23.015 15.060999 L 14.504 9.949 z "/>
+    <linearGradient x1="31.458" gradientTransform="matrix(1 0 0 -1 0.1377 42.834)" y1="33.084" x2="31.458" gradientUnits="userSpaceOnUse" y2="8.775" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+        <stop stop-color="#ffffcf" offset="0"/>
+        <stop stop-color="#f0de80" offset="0.11"/>
+        <stop stop-color="#c26e54" offset="0.35"/>
+        <stop stop-color="#b0361a" offset="0.48"/>
+        <stop stop-color="#ad2621" offset="0.6629"/>
+        <stop stop-color="#9c0a00" offset="0.75"/>
+        <stop stop-color="#991712" offset="0.82"/>
+        <stop stop-color="#8a0000" offset="0.91"/>
+        <stop stop-color="#730303" offset="0.99"/>
+        <stop stop-color="#730303" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#XMLID_4_)" points="37.596,18.83 32.846,18.83 32.846,14.08 30.346,14.08 30.346,18.83 25.596,18.83   25.596,21.33 30.346,21.33 30.346,26.08 32.846,26.08 32.846,21.33 37.596,21.33 "/>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="10" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 10 20" height="20" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <g>
+                <path fill="#840000" d="M 5.999 19.902 C 6.803 19.902 7.557 19.495 8.124001 18.748001 C 8.691001 18.001001 9.0 17.011 9.0 15.954 L 9.0 5.138 C 9.0 2.957 6.449 0.09899998 5.0039997 0.09899998 C 3.549 0.099 1.0 2.958 1.0 5.138 L 1.0 15.954 C 1.0 17.011 1.313 18.001 1.878 18.748001 C 2.443 19.495003 3.199 19.902 3.999 19.902 L 5.999 19.902 z "/>
+                <path fill="#ffffff" d="M 1.999 6.415 L 1.999 15.955 C 1.999 16.66 2.2089999 17.32 2.586 17.818 C 2.962 18.314001 3.466 18.588001 4.0 18.588001 L 5.0 18.588001 L 5.0 6.415 L 1.999 6.415 z "/>
+                <path fill="#ffffff" d="M 1.999 6.454 L 1.999 5.138 C 1.999 4.434 2.2089999 3.771 2.586 3.2740002 C 2.961 2.776 4.151 1.417 5.0 1.417 L 5.0 6.453 L 1.999 6.454 L 1.999 6.454 z "/>
+                <linearGradient x1="5" gradientTransform="matrix(1 0 0 1 0 -773)" y1="776.9355" x2="8" gradientUnits="userSpaceOnUse" y2="776.9355" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_5_" xlink:show="other">
+                    <stop stop-color="#ffffff" offset="0"/>
+                    <stop stop-color="#ffa29e" offset="1"/>
+                </linearGradient>
+                <path fill="url(#XMLID_5_)" d="M 5.0 1.417 C 5.85 1.417 7.0369997 2.775 7.414 3.273 C 7.793 3.771 8.0 4.434 8.0 5.138 L 8.0 6.453 L 5.0 6.453 L 5.0 1.417 z "/>
+                <linearGradient x1="5" gradientTransform="matrix(1 0 0 1 0 -773)" y1="785.4863" x2="8" gradientUnits="userSpaceOnUse" y2="785.4863" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+                    <stop stop-color="#ffffff" offset="0"/>
+                    <stop stop-color="#ffa29e" offset="1"/>
+                </linearGradient>
+                <path fill="url(#XMLID_6_)" d="M 8.0 6.386 L 8.0 15.954 C 8.0 17.407 7.105 18.587 5.999 18.587 L 5.0 18.587 L 5.0 6.386 L 8.0 6.386 z "/>
+                <path fill="#f6c8c7" d="M 2.999 5.138 C 2.999 4.41 4.285 3.004 5.004 3.004 C 5.717 3.004 7.0030003 4.41 7.0030003 5.138 L 7.0030003 15.954 C 7.0030003 16.682001 6.5550003 17.271 5.9990005 17.271 L 3.9990005 17.271 C 3.4480004 17.271 2.9990005 16.681 2.9990005 15.9539995 L 2.9990005 5.138 z "/>
+            </g>
+            <rect width="10" fill="none" height="20"/>
+        </g>
+    </g>
+</svg>

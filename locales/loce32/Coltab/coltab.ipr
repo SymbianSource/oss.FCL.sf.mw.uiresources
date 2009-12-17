@@ -1,0 +1,18 @@
+[purpose]
+
+Reads and parses the Unicode collation value table and writes out a C++ source file
+containing the data in a form that can be used by the EPOC collation system.
+
+[categories]
+Symbian
+licensee
+
+[files]
+tools\coltab.exe
+
+[owner]
+Text	# E32TOOLS
+
+[IPR]
+Copyright (c) 2000 Symbian Ltd. All rights reserved.
+

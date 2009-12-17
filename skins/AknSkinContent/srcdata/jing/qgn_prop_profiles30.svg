@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="100%" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0 0 84 72" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<g>
+<rect fill="none" height="72" width="84"/>
+<g>
+<path d="M31.194,58l-0.271-2.594l-3.629,5.045C7.916,50.805,10.57,32.754,16.765,26.825l4.513,1.682         l-1.046-4.27c7.15-8.296,19.938-15.891,36.616-11.304c17.699,4.867,19.539,26.49,6.284,38.492         C50.036,63.281,34.646,59.857,31.194,58z" fill="#FFFFFF"/>
+<g>
+<path d="M54.934,13.892c-11.508-3.687-26.549,1.185-33.364,10.959l20.944,6.83          C42.514,31.681,54.995,13.913,54.934,13.892z" fill="#F1DE84"/>
+<polygon fill="#5C1001" points="42.807,37.201 55.387,18.19 54.884,13.828 42.446,31.632 "/>
+<polygon fill="#7F3C21" points="42.446,31.632 21.569,24.851 22.685,30.013 42.807,37.201 "/>
+</g>
+<g>
+<path d="M25.594,52.486C14.088,48.799,10.286,37.885,17.1,28.111l20.945,6.83L25.594,52.486z" fill="#C1A15B"/>
+<path d="M25.594,52.486c-5.641-1.782-9.767-5.736-11.563-11.479c0.54,4.128,3.852,12.423,12.799,16.497          L25.594,52.486z" fill="#7F3C21"/>
+<polygon fill="#5C1001" points="38.339,40.46 26.83,57.504 25.594,52.486 37.979,34.892 "/>
+</g>
+<g>
+<path d="M64.789,38.818c6.777-9.719,3.054-20.567-8.305-24.313L44.068,32.293L64.789,38.818z" fill="#C1A15B"/>
+<polygon fill="#7F3C21" points="64.789,38.818 44.068,32.293 44.361,37.813 65.324,44.777 "/>
+<linearGradient gradientUnits="userSpaceOnUse" id="XMLID_3_" x1="64.7891" x2="69.4521" y1="33.9521" y2="33.9521">
+<stop offset="0" style="stop-color:#8E6F3A"/>
+<stop offset="0.5337" style="stop-color:#9E6434"/>
+<stop offset="1" style="stop-color:#7F3C21"/>
+</linearGradient>
+<path d="M64.789,38.818c0,0,5.604-7.876,2.117-15.691c3.803,7.393,2.219,12.675,2.219,12.675          s-0.423,3.905-3.801,8.975L64.789,38.818z" fill="url(#XMLID_3_)"/>
+</g>
+<g>
+<path d="M30.552,51.229c11.504,3.688,26.357-1.244,33.171-11.019l-20.721-6.526L30.552,51.229z" fill="#C1A15B"/>
+<linearGradient gradientTransform="matrix(1 0 0 -1 256.5 456.3906)" gradientUnits="userSpaceOnUse" id="XMLID_4_" x1="-187.8535" x2="-229.9663" y1="411.5381" y2="399.7554">
+<stop offset="0" style="stop-color:#8E6F3A"/>
+<stop offset="0.5337" style="stop-color:#9E6434"/>
+<stop offset="1" style="stop-color:#7F3C21"/>
+</linearGradient>
+<path d="M31.786,56.248l-1.234-5.02c9.097,3.18,25.88-0.186,33.171-11.019l0.533,5.959          C59.198,53.178,46.829,60.534,31.786,56.248z" fill="url(#XMLID_4_)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</switch>
+</svg>

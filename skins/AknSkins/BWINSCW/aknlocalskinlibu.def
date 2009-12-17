@@ -1,0 +1,5 @@
+EXPORTS
+	??1CAknLocalSkinInstance@@UAE@XZ @ 1 NONAME ; CAknLocalSkinInstance::~CAknLocalSkinInstance(void)
+	?ApplyL@CAknLocalSkinInstance@@QAEXABVTDesC16@@AAV?$RArray@VTAknsItemID@@@@@Z @ 2 NONAME ; void CAknLocalSkinInstance::ApplyL(class TDesC16 const &, class RArray<class TAknsItemID> &)
+	?NewL@CAknLocalSkinInstance@@SAPAV1@ABVRFs@@ABVRAknsSrvSession@@@Z @ 3 NONAME ; class CAknLocalSkinInstance * CAknLocalSkinInstance::NewL(class RFs const &, class RAknsSrvSession const &)
+

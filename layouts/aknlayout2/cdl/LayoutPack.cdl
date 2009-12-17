@@ -1,0 +1,25 @@
+// LayoutPack.cdl - this is the master layout interface. 
+// It acts as a CDL package to load other related layout instances.
+
+Name: LayoutPack
+Version: 1.0
+UID: 0x101feb1b
+
+%% C++
+
+#include <aknlayoutdef.h>
+#include <akndef.hrh>
+
+%% API
+
+//
+// Primary layout identification data
+//
+TDesC				name;		// The name of this layout
+TSize				size;		// Screen size that this layout works in
+TAknLayoutId        id;			// The type of layout, eg ELAF, ABRW, APAC
+TCdlArray<TCdlRef>	contents;	// related layout instances
+TAknUiZoom			zoom;		// The zoom level that is present in this layout
+TInt				styleHash;	// A hash of the screen style name that this layout works in
+TInt				priority; // the priority of this pack, instances in packs with the lowest priority will be added to the layout stack first
+TInt				appUid; // if this is non-zero, then this pack will only be loaded into an application whose Secure UID matches this

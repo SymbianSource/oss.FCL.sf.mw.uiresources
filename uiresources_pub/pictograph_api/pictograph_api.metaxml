@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<api id="c1dbfcc170045bd05e342cb2ed3970b2" dataversion="2.0">
+  <name>Pictograph API</name>
+  <description>Provides pictograph rendering functionality.</description>
+  <type>c++</type>
+  <collection>domain</collection>
+  <libs>
+    <lib name="aknpictograph.lib" />
+  </libs>
+  <release category="public" sinceversion="0"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>no</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

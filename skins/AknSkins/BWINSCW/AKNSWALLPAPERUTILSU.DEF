@@ -1,0 +1,4 @@
+EXPORTS
+	?SetIdleWallpaper@AknsWallpaperUtils@@SAHABVTDesC16@@PAVCCoeEnv@@HH@Z @ 1 NONAME ; int AknsWallpaperUtils::SetIdleWallpaper(class TDesC16 const &, class CCoeEnv *, int, int)
+	?SetSlidesetWallpaper@AknsWallpaperUtils@@SAHAAVCDesC16Array@@PAVCCoeEnv@@HH@Z @ 2 NONAME ; int AknsWallpaperUtils::SetSlidesetWallpaper(class CDesC16Array &, class CCoeEnv *, int, int)
+

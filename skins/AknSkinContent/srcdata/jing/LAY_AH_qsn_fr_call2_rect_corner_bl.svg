@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="24" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-0.5 -0.5 24 24" height="24" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <path fill="#656b6b" d="M 23.5 17.5 L 13.5 17.5 C 6.883 17.5 1.5 12.117001 1.5 5.5 L 1.5 -0.5 L 23.5 -0.5 L 23.5 17.5 z " fill-opacity="0.01"/>
+    <path fill="#656b6b" d="M 23.5 16.5 L 13.5 16.5 C 7.436 16.5 2.5 11.565001 2.5 5.5 L 2.5 -0.5 L 23.5 -0.5 L 23.5 16.5 z " fill-opacity="0.03"/>
+    <path fill="#656b6b" d="M 23.5 15.5 L 13.5 15.5 C 7.986 15.5 3.5 11.014999 3.5 5.5 L 3.5 -0.5 L 23.5 -0.5 L 23.5 15.5 z " fill-opacity="0.04"/>
+    <path fill="#656b6b" d="M 23.5 14.5 L 13.5 14.5 C 8.537001 14.5 4.5 10.462999 4.5 5.5 L 4.5 -0.5 L 23.5 -0.5 L 23.5 14.5 z " fill-opacity="0.09"/>
+    <path fill="#656b6b" d="M 23.5 13.5 L 13.5 13.5 C 9.089001 13.5 5.5 9.912 5.5 5.5 L 5.5 -0.5 L 23.5 -0.5 L 23.5 13.5 z " fill-opacity="0.08"/>
+    <path fill="#656b6b" d="M 23.5 12.5 L 13.5 12.5 C 9.641 12.5 6.5 9.358 6.5 5.5 L 6.5 -0.5 L 23.5 -0.5 L 23.5 12.5 z " fill-opacity="0.1"/>
+    <path fill="#656b6b" d="M 23.5 11.5 L 13.5 11.5 C 10.191 11.5 7.5 8.809999 7.5 5.5 L 7.5 -0.5 L 23.5 -0.5 L 23.5 11.5 z " fill-opacity="0.11"/>
+    <path fill="#656b6b" d="M 23.5 10.5 L 13.5 10.5 C 10.738 10.5 8.5 8.2630005 8.5 5.5 L 8.5 -0.5 L 23.5 -0.5 L 23.5 10.5 z " fill-opacity="0.1"/>
+    <rect x="8.5" y="-0.5" fill-opacity="0.03" fill="#656b6b" width="15" height="11"/>
+    <linearGradient x1="16.5" y1="5" x2="16.5" gradientUnits="userSpaceOnUse" y2="-83.5" xlink:type="simple" xlink:actuate="onLoad" id="_2" xlink:show="other">
+        <stop stop-color="#ffbebe" offset="0"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <rect x="9.5" width="14" fill="url(#_2)" y="-0.5" height="10"/>
+</svg>

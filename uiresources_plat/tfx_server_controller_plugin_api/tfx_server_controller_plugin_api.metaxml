@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<api id="81ec7f7019f130f98f8a83381258f30c" dataversion="2.0">
+  <name>TFX Server Controller Plug-in API</name>
+  <description>Plugin interface for starting and stopping the TFX Server.</description>
+  <type>c++</type>
+  <collection>skins</collection>
+  <libs>
+  </libs>
+  <release category="platform"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>no</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

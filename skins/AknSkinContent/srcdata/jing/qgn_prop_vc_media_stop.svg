@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="84" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 84 72" height="72" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <polyline fill="none" points="83.934,72.063 -0.066,72.063 -0.066,0.063 83.934,0.063  "/>
+        <g>
+            <g>
+                <path fill="#ffffff" d="M 25.316 12.274 L 21.691 13.227 L 22.91 52.117 L 59.308 61.43 L 62.454 58.492 L 63.552 19.321 L 25.316 12.274 z "/>
+            </g>
+            <polygon fill="#9e6434" points="59.26,60.805 61.938,58.227 63.006,19.676 59.842,20.644   "/>
+            <polygon fill="#eacf5a" points="59.26,60.805 23.383,51.586 22.303,13.571 59.842,20.644   "/>
+            <polygon fill="#9e6434" points="63.006,19.676 25.481,12.819 22.303,13.571 59.842,20.644   "/>
+        </g>
+        <linearGradient x1="31.5659" gradientTransform="matrix(1 0 0 1 0.1377 -770.9443)" y1="790.9961" x2="48.091" gradientUnits="userSpaceOnUse" y2="818.0686" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_8_" xlink:show="other">
+            <stop stop-color="#b0381e" offset="0"/>
+            <stop stop-color="#5c1001" offset="1"/>
+        </linearGradient>
+        <polygon fill="url(#XMLID_8_)" points="49.502,46.746 34.618,43.264 34.09,27.264 49.506,30.779  "/>
+    </g>
+</svg>

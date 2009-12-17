@@ -1,0 +1,28 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+// It contains common definitions for the client and customisation API.
+// It should not be modified manually.
+
+#ifndef AKNLAYOUTSCALABLE_AVKON_CDL_COMMON_HRH
+#define AKNLAYOUTSCALABLE_AVKON_CDL_COMMON_HRH
+
+// These constants are defined by the CDL interface: AknLayoutScalable_Avkon
+#define _CDL_AknLayoutScalable_Avkon_KCdlInterfaceUidValue 0x1020384e
+
+
+#endif // AKNLAYOUTSCALABLE_AVKON_CDL_COMMON_HRH

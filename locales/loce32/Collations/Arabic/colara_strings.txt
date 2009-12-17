@@ -1,0 +1,26 @@
+ % ============================================================================
+ %  Name     : COLARA_STRINGS.TXT
+ %  Part of  : S60
+ %
+ %  Description : ELOCL.DLL for Arabic, ELOCL.37
+ %  Version:
+ %
+ %  Copyright © 2002, 2003 Nokia Corporation.
+ %  This material, including documentation and any related 
+ %  computer programs, is protected by copyright controlled by 
+ %  Nokia Corporation. All rights are reserved. Copying, 
+ %  including reproducing, storing,  adapting or translating, any 
+ %  or all of this material requires the prior written consent of 
+ %  Nokia Corporation. This material also contains confidential 
+ %  information which may not be disclosed to others without the 
+ %  prior written consent of Nokia Corporation.
+ % ============================================================================
+
+
+0627 0653 [.06D5.0021.0002.0622] % ARABIC LETTER ALEF WITH MADDA ABOVE
+0627 0654 [.06D5.0022.0002.0623] % ARABIC LETTER ALEF WITH HAMZA ABOVE
+0648 0654 [.06D5.0023.0002.0624] % ARABIC LETTER WAW WITH HAMZA ABOVE % regarded as variant of alef
+0627 0655 [.06D5.0024.0002.0625] % ARABIC LETTER ALEF WITH HAMZA BELOW
+064A 0654 [.06D5.0025.0002.0626] % ARABIC LETTER YEH WITH HAMZA ABOVE  % regarded as variant of alef
+
+

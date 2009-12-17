@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="31.828" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="53.387 -11.693 31.828 36.017" height="36.017" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <linearGradient x1="53.5176" y1="-15.1626" x2="81.5669" gradientUnits="userSpaceOnUse" y2="12.8872" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_3_" xlink:show="other">
+        <stop stop-color="#f1de84" offset="0"/>
+        <stop stop-color="#b0381e" offset="0.5"/>
+        <stop stop-color="#5c1001" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_3_)" d="M 74.294 -0.979 L 70.363 0.286 L 72.782 3.585 L 70.868 4.967 L 68.479 1.67 L 66.088 4.967 L 64.172 3.585 L 66.592995 0.286 L 62.675995 -0.979 L 63.408997 -3.2259998 L 67.284 -1.9579998 L 67.284 -6.062 L 69.645 -6.062 L 69.645 -1.9579996 L 73.543 -3.2259998 L 74.294 -0.979 z "/>
+    <g>
+        <linearGradient x1="71.2441" gradientTransform="matrix(0 -1 1 0 1.5527 53.4395)" y1="49.5342" x2="38.4601" gradientUnits="userSpaceOnUse" y2="82.3182" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+            <stop stop-color="#f1de84" offset="0"/>
+            <stop stop-color="#b0381e" offset="0.5"/>
+            <stop stop-color="#5c1001" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_4_)" d="M 78.029 5.4 C 79.072 3.693 79.685 1.689 79.685 -0.44399977 C 79.685 -6.6489997 74.634 -11.694 68.432 -11.694 C 62.229 -11.694 57.182 -6.649 57.182 -0.44400024 C 57.182 2.5139997 58.339 5.2019997 60.214 7.212 L 61.983 5.4449997 C 60.56 3.8879995 59.684 1.8239996 59.684 -0.44500017 C 59.684 -5.2710004 63.61 -9.198999 68.432 -9.198999 C 73.253 -9.198999 77.181 -5.2709994 77.181 -0.4449997 C 77.181 4.3780003 73.253 8.305 68.432 8.305 C 67.981 8.305 67.54 8.26 67.107 8.194 L 69.644005 10.731 C 71.328 10.546 72.899 9.992 74.27901 9.153 L 81.37501 16.239 L 85.21501 12.585 L 78.029 5.4 z "/>
+        <polygon fill="#800000" points="63.261,6.301 60.919,8.648 66.009,13.738 53.387,13.738 53.387,16.883 66.011,16.883    60.919,21.978 63.261,24.324 72.271,15.315  "/>
+    </g>
+</svg>

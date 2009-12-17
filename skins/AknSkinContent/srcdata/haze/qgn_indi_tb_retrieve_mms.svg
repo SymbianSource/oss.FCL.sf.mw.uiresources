@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44px" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 44 44" height="44px" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <linearGradient x1="6.94" y1="7.91" x2="34.71" gradientUnits="userSpaceOnUse" y2="35.43" xlink:type="simple" xlink:actuate="onLoad" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#e0eaf3" offset="0.11"/>
+        <stop stop-color="#a2c2dd" offset="0.35"/>
+        <stop stop-color="#8ca9cf" offset="0.48"/>
+        <stop stop-color="#6c83bb" offset="0.7"/>
+        <stop stop-color="#637db5" offset="0.75"/>
+        <stop stop-color="#4c6ea4" offset="0.82"/>
+        <stop stop-color="#265689" offset="0.91"/>
+        <stop stop-color="#003d6d" offset="0.99"/>
+        <stop stop-color="#003d6d" offset="1"/>
+    </linearGradient>
+    <linearGradient x1="20.6" y1="4.09" x2="20.6" gradientUnits="userSpaceOnUse" y2="38.96" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_2" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#SVGID_2)" points="26.746,14.701 23.996,17.234 28.348,17.234 24.02,21.564 17.183,21.564 12.856,17.234 17.296,17.234 14.546,14.701 7.905,14.701 7.905,34.393 18.093,34.393 18.093,31.857 10.438,31.857 10.438,18.586 16.378,24.49 16.437,24.547 16.519,24.547 24.697,24.561 24.779,24.561 24.838,24.504 30.768,18.588 30.768,24.191 33.303,24.191 33.303,14.701 "/>
+    <polygon fill="url(#SVGID_2)" points="17.679,4.1 23.613,4.1 23.613,10.248 27.297,10.248 27.297,11.475 20.647,17.6 13.995,11.475 13.995,10.248 17.679,10.248 "/>
+    <path fill="url(#SVGID_2)" d="M 34.061 33.971 L 34.061 37.325 L 21.767 37.325 L 21.767 27.899002 L 29.867 27.899002 C 30.268 27.331 30.786 26.808002 31.434 26.382002 C 31.549 26.307 31.675 26.259005 31.794 26.192 L 20.093 26.192 L 20.093 39.032 L 35.739 39.032 L 35.739 33.300003 C 35.187 33.606 34.623 33.831 34.061 33.971 z "/>
+    <path fill="url(#SVGID_2)" d="M 35.305 19.593 L 35.305 27.031 C 34.403 26.916 33.299 27.174 32.356 27.787 C 30.742998 28.844 30.227 30.54 30.967 31.666 C 31.703 32.79 33.647 32.708 35.258 31.65 C 36.198997 30.979 36.863 29.973 36.731 28.63 L 36.729 21.801 L 39.95 23.409998 L 40.511 22.192995 L 35.305 19.593 z "/>
+    <path fill="url(#SVGID_2)" d="M 29.479 33.278 L 25.866 29.66 L 25.862 29.667 L 25.862 29.145 L 24.829002 29.145 L 24.829002 33.279 L 23.354002 33.279 L 23.354002 36.005 L 28.305002 36.002003 L 31.030005 33.279003 L 29.479 33.279003 z M 25.861 33.278 L 25.861 30.694 L 28.445 33.278 L 25.861 33.278 z "/>
+    <rect width="44" fill="none" height="44"/>
+</svg>

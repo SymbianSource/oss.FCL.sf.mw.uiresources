@@ -1,0 +1,909 @@
+// ..\cdl\SkinLayout.cdl
+// Created by the CDL compiler toolkit
+
+Name: SkinLayout
+Version: 1.0
+UID: 0x01005c19
+Flag: KCdlFlagRomOnly
+
+%% C++
+
+#include <aknlayout2def.h>
+
+%% Translation
+
+
+%% API
+
+TAknWindowLineLayout xInput_field_skin_placing__find_list__Line_1();
+
+TAknWindowLineLayout xInput_field_skin_placing__find_list__Line_2();
+
+TAknWindowLineLayout xInput_field_skin_placing__find_list__Line_3();
+
+TAknWindowLineLayout xInput_field_skin_placing__find_list__Line_4();
+
+TAknWindowLineLayout xInput_field_skin_placing__find_list__Line_5();
+
+TAknWindowLineLayout xInput_field_skin_placing__find_list__Line_6();
+
+TAknWindowLineLayout xInput_field_skin_placing__find_list__Line_7();
+
+TAknWindowLineLayout xInput_field_skin_placing__find_list__Line_8();
+
+TAknWindowLineLayout xInput_field_skin_placing__find_list__Line_9();
+
+TAknLayoutTableLimits xInput_field_skin_placing__find_list__Limits();
+
+TAknWindowLineLayout xInput_field_skin_placing__find_list_(TInt aLineIndex);
+
+TAknWindowLineLayout Screen_background_skin_placing_Line_1();
+
+TAknWindowLineLayout Area_background_skin_placing_Line_1();
+
+TAknWindowLineLayout Area_background_skin_placing_Line_2(TInt aIndex_t, TInt aIndex_H);
+
+TAknWindowLineLayout Area_background_skin_placing_Line_3();
+
+TAknWindowLineLayout Pane_background_skin_naming_Line_1();
+
+TAknWindowLineLayout Navi_pane_background_stripe_skin_placing_Line_1(TInt aCommon1);
+
+TAknWindowLineLayout Navi_pane_background_stripe_skin_placing_Line_2();
+
+TAknWindowLineLayout Volume_level_skin_placing_Line_1(TInt aIndex_l);
+
+TAknWindowLineLayout Volume_level_skin_placing_Line_2(TInt aIndex_l);
+
+TAknLayoutTableLimits Volume_level_skin_placing_Limits();
+
+TAknWindowLineLayout Volume_level_skin_placing(TInt aLineIndex, TInt aIndex_l);
+
+TAknWindowLineLayout Volume_area_values_Line_1(TInt aIndex_l);
+
+TAknWindowLineLayout Volume_area_values_Line_2(TInt aIndex_l);
+
+TAknWindowLineLayout Volume_area_values_Line_3(TInt aIndex_l);
+
+TAknWindowLineLayout Volume_area_values_Line_4(TInt aIndex_l);
+
+TAknWindowLineLayout Volume_area_values_Line_5(TInt aIndex_l);
+
+TAknWindowLineLayout Volume_area_values_Line_6(TInt aIndex_l);
+
+TAknWindowLineLayout Volume_area_values_Line_7(TInt aIndex_l);
+
+TAknWindowLineLayout Volume_area_values_Line_8(TInt aIndex_l);
+
+TAknWindowLineLayout Volume_area_values_Line_9(TInt aIndex_l);
+
+TAknWindowLineLayout Volume_area_values_Line_10(TInt aIndex_l);
+
+TAknWindowLineLayout Volume_area_values_Line_11(TInt aIndex_l);
+
+TAknLayoutTableLimits Volume_area_values_Limits();
+
+TAknWindowLineLayout Volume_area_values(TInt aLineIndex, TInt aIndex_l);
+
+TAknWindowLineLayout Column_background_and_list_slice_skin_placing_Line_1();
+
+TAknWindowLineLayout Column_background_and_list_slice_skin_placing_Line_2();
+
+TAknWindowLineLayout Column_background_and_list_slice_skin_placing_Line_3();
+
+TAknWindowLineLayout Column_background_and_list_slice_skin_placing_Line_4();
+
+TAknWindowLineLayout Column_background_and_list_slice_skin_placing_Line_5();
+
+TAknWindowLineLayout Column_background_and_list_slice_skin_placing_Line_6();
+
+TAknWindowLineLayout Column_background_and_list_slice_skin_placing_Line_7();
+
+TAknLayoutTableLimits Column_background_and_list_slice_skin_placing_Limits();
+
+TAknWindowLineLayout Column_background_and_list_slice_skin_placing(TInt aLineIndex);
+
+TAknWindowLineLayout Setting_list_item_skin_elements__value_background__Line_1();
+
+TAknWindowLineLayout Setting_list_item_skin_elements__value_background__Line_2();
+
+TAknWindowLineLayout Setting_list_item_skin_elements__value_background__Line_3();
+
+TAknWindowLineLayout Setting_list_item_skin_elements__value_background__Line_4();
+
+TAknWindowLineLayout Setting_list_item_skin_elements__value_background__Line_5();
+
+TAknWindowLineLayout Setting_list_item_skin_elements__value_background__Line_6();
+
+TAknWindowLineLayout Setting_list_item_skin_elements__value_background__Line_7();
+
+TAknWindowLineLayout Setting_list_item_skin_elements__value_background__Line_8();
+
+TAknWindowLineLayout Setting_list_item_skin_elements__value_background__Line_9();
+
+TAknLayoutTableLimits Setting_list_item_skin_elements__value_background__Limits();
+
+TAknWindowLineLayout Setting_list_item_skin_elements__value_background_(TInt aLineIndex);
+
+TAknWindowLineLayout Setting_list_item_skin_placing__volume__Line_1();
+
+TAknWindowLineLayout Setting_list_item_skin_placing__volume__Line_2();
+
+TAknLayoutTableLimits Setting_list_item_skin_placing__volume__Limits();
+
+TAknWindowLineLayout Setting_list_item_skin_placing__volume_(TInt aLineIndex);
+
+TAknWindowLineLayout Settings_volume_area_values_Line_1();
+
+TAknWindowLineLayout Settings_volume_area_values_Line_2();
+
+TAknWindowLineLayout Settings_volume_area_values_Line_3();
+
+TAknWindowLineLayout Settings_volume_area_values_Line_4();
+
+TAknWindowLineLayout Settings_volume_area_values_Line_5();
+
+TAknWindowLineLayout Settings_volume_area_values_Line_6();
+
+TAknWindowLineLayout Settings_volume_area_values_Line_7();
+
+TAknWindowLineLayout Settings_volume_area_values_Line_8();
+
+TAknWindowLineLayout Settings_volume_area_values_Line_9();
+
+TAknWindowLineLayout Settings_volume_area_values_Line_10();
+
+TAknWindowLineLayout Settings_volume_area_values_Line_11();
+
+TAknLayoutTableLimits Settings_volume_area_values_Limits();
+
+TAknWindowLineLayout Settings_volume_area_values(TInt aLineIndex);
+
+TAknWindowLineLayout List_highlight_skin_placing__general__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__general__Line_2();
+
+TAknWindowLineLayout List_highlight_skin_placing__general__Line_3();
+
+TAknWindowLineLayout List_highlight_skin_placing__general__Line_4();
+
+TAknWindowLineLayout List_highlight_skin_placing__general__Line_5();
+
+TAknWindowLineLayout List_highlight_skin_placing__general__Line_6();
+
+TAknWindowLineLayout List_highlight_skin_placing__general__Line_7();
+
+TAknWindowLineLayout List_highlight_skin_placing__general__Line_8(const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__general__Line_9(const TRect& aParentRect);
+
+TAknLayoutTableLimits List_highlight_skin_placing__general__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_highlight_skin_placing__general__SUB_TABLE_0(TInt aLineIndex);
+
+TAknLayoutTableLimits List_highlight_skin_placing__general__SUB_TABLE_1_Limits();
+
+TAknWindowLineLayout List_highlight_skin_placing__general__SUB_TABLE_1(TInt aLineIndex, const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__settings__Line_1();
+
+TAknWindowLineLayout List_highlight_skin_placing__settings__Line_2();
+
+TAknWindowLineLayout List_highlight_skin_placing__settings__Line_3();
+
+TAknWindowLineLayout List_highlight_skin_placing__settings__Line_4();
+
+TAknWindowLineLayout List_highlight_skin_placing__settings__Line_5();
+
+TAknWindowLineLayout List_highlight_skin_placing__settings__Line_6();
+
+TAknWindowLineLayout List_highlight_skin_placing__settings__Line_7();
+
+TAknWindowLineLayout List_highlight_skin_placing__settings__Line_8();
+
+TAknWindowLineLayout List_highlight_skin_placing__settings__Line_9();
+
+TAknLayoutTableLimits List_highlight_skin_placing__settings__Limits();
+
+TAknWindowLineLayout List_highlight_skin_placing__settings_(TInt aLineIndex);
+
+TAknWindowLineLayout List_highlight_skin_placing__apps_specific__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__apps_specific__Line_2();
+
+TAknWindowLineLayout List_highlight_skin_placing__apps_specific__Line_3();
+
+TAknWindowLineLayout List_highlight_skin_placing__apps_specific__Line_4();
+
+TAknWindowLineLayout List_highlight_skin_placing__apps_specific__Line_5();
+
+TAknWindowLineLayout List_highlight_skin_placing__apps_specific__Line_6(const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__apps_specific__Line_7(const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__apps_specific__Line_8(const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__apps_specific__Line_9(const TRect& aParentRect);
+
+TAknLayoutTableLimits List_highlight_skin_placing__apps_specific__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_highlight_skin_placing__apps_specific__SUB_TABLE_0(TInt aLineIndex);
+
+TAknLayoutTableLimits List_highlight_skin_placing__apps_specific__SUB_TABLE_1_Limits();
+
+TAknWindowLineLayout List_highlight_skin_placing__apps_specific__SUB_TABLE_1(TInt aLineIndex, const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_specific__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_specific__Line_2();
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_specific__Line_3();
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_specific__Line_4();
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_specific__Line_5();
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_specific__Line_6(const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_specific__Line_7(const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_specific__Line_8(const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_specific__Line_9(const TRect& aParentRect);
+
+TAknLayoutTableLimits List_highlight_skin_placing__popup_specific__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_specific__SUB_TABLE_0(TInt aLineIndex);
+
+TAknLayoutTableLimits List_highlight_skin_placing__popup_specific__SUB_TABLE_1_Limits();
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_specific__SUB_TABLE_1(TInt aLineIndex, const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_windows__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_windows__Line_2();
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_windows__Line_3();
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_windows__Line_4();
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_windows__Line_5();
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_windows__Line_6(const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_windows__Line_7(const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_windows__Line_8(const TRect& aParentRect);
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_windows__Line_9(const TRect& aParentRect);
+
+TAknLayoutTableLimits List_highlight_skin_placing__popup_windows__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_windows__SUB_TABLE_0(TInt aLineIndex);
+
+TAknLayoutTableLimits List_highlight_skin_placing__popup_windows__SUB_TABLE_1_Limits();
+
+TAknWindowLineLayout List_highlight_skin_placing__popup_windows__SUB_TABLE_1(TInt aLineIndex, const TRect& aParentRect);
+
+TAknWindowLineLayout Highlight_skin_placing__grid__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Highlight_skin_placing__grid__Line_2();
+
+TAknWindowLineLayout Highlight_skin_placing__grid__Line_3();
+
+TAknWindowLineLayout Highlight_skin_placing__grid__Line_4();
+
+TAknWindowLineLayout Highlight_skin_placing__grid__Line_5();
+
+TAknWindowLineLayout Highlight_skin_placing__grid__Line_6(const TRect& aParentRect);
+
+TAknWindowLineLayout Highlight_skin_placing__grid__Line_7(const TRect& aParentRect);
+
+TAknWindowLineLayout Highlight_skin_placing__grid__Line_8(const TRect& aParentRect);
+
+TAknWindowLineLayout Highlight_skin_placing__grid__Line_9(const TRect& aParentRect);
+
+TAknLayoutTableLimits Highlight_skin_placing__grid__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Highlight_skin_placing__grid__SUB_TABLE_0(TInt aLineIndex);
+
+TAknLayoutTableLimits Highlight_skin_placing__grid__SUB_TABLE_1_Limits();
+
+TAknWindowLineLayout Highlight_skin_placing__grid__SUB_TABLE_1(TInt aLineIndex, const TRect& aParentRect);
+
+TAknWindowLineLayout Highlight_skin_placing__form_popup_field__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Highlight_skin_placing__form_popup_field__Line_2();
+
+TAknWindowLineLayout Highlight_skin_placing__form_popup_field__Line_3();
+
+TAknWindowLineLayout Highlight_skin_placing__form_popup_field__Line_4();
+
+TAknWindowLineLayout Highlight_skin_placing__form_popup_field__Line_5();
+
+TAknWindowLineLayout Highlight_skin_placing__form_popup_field__Line_6(const TRect& aParentRect);
+
+TAknWindowLineLayout Highlight_skin_placing__form_popup_field__Line_7(const TRect& aParentRect);
+
+TAknWindowLineLayout Highlight_skin_placing__form_popup_field__Line_8(const TRect& aParentRect);
+
+TAknWindowLineLayout Highlight_skin_placing__form_popup_field__Line_9(const TRect& aParentRect);
+
+TAknLayoutTableLimits Highlight_skin_placing__form_popup_field__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Highlight_skin_placing__form_popup_field__SUB_TABLE_0(TInt aLineIndex);
+
+TAknLayoutTableLimits Highlight_skin_placing__form_popup_field__SUB_TABLE_1_Limits();
+
+TAknWindowLineLayout Highlight_skin_placing__form_popup_field__SUB_TABLE_1(TInt aLineIndex, const TRect& aParentRect);
+
+TAknWindowLineLayout xFind_pop_up_window_elements_Line_1();
+
+TAknWindowLineLayout xFind_pop_up_window_elements_Line_2();
+
+TAknWindowLineLayout xFind_pop_up_window_elements_Line_3();
+
+TAknLayoutTableLimits xFind_pop_up_window_elements_Limits();
+
+TAknWindowLineLayout xFind_pop_up_window_elements(TInt aLineIndex);
+
+TAknWindowLineLayout Input_field_skin_placing__general__Line_1();
+
+TAknWindowLineLayout Input_field_skin_placing__general__Line_2();
+
+TAknWindowLineLayout Input_field_skin_placing__general__Line_3();
+
+TAknWindowLineLayout Input_field_skin_placing__general__Line_4();
+
+TAknWindowLineLayout Input_field_skin_placing__general__Line_5();
+
+TAknWindowLineLayout Input_field_skin_placing__general__Line_6();
+
+TAknWindowLineLayout Input_field_skin_placing__general__Line_7();
+
+TAknWindowLineLayout Input_field_skin_placing__general__Line_8();
+
+TAknWindowLineLayout Input_field_skin_placing__general__Line_9();
+
+TAknLayoutTableLimits Input_field_skin_placing__general__Limits();
+
+TAknWindowLineLayout Input_field_skin_placing__general_(TInt aLineIndex);
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__background_highlight__Line_1();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__background_highlight__Line_2();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__background_highlight__Line_3();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__background_highlight__Line_4();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__background_highlight__Line_5();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__background_highlight__Line_6();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__background_highlight__Line_7();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__background_highlight__Line_8();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__background_highlight__Line_9();
+
+TAknLayoutTableLimits Edited_settings_item_skin_placing__background_highlight__Limits();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__background_highlight_(TInt aLineIndex);
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__value_background__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__value_background__Line_2();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__value_background__Line_3();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__value_background__Line_4();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__value_background__Line_5();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__value_background__Line_6();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__value_background__Line_7();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__value_background__Line_8(const TRect& aParentRect);
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__value_background__Line_9(const TRect& aParentRect);
+
+TAknLayoutTableLimits Edited_settings_item_skin_placing__value_background__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__value_background__SUB_TABLE_0(TInt aLineIndex);
+
+TAknLayoutTableLimits Edited_settings_item_skin_placing__value_background__SUB_TABLE_1_Limits();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__value_background__SUB_TABLE_1(TInt aLineIndex, const TRect& aParentRect);
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__input__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__input__Line_2();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__input__Line_3();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__input__Line_4();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__input__Line_5();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__input__Line_6();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__input__Line_7();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__input__Line_8(const TRect& aParentRect);
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__input__Line_9(const TRect& aParentRect);
+
+TAknLayoutTableLimits Edited_settings_item_skin_placing__input__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__input__SUB_TABLE_0(TInt aLineIndex);
+
+TAknLayoutTableLimits Edited_settings_item_skin_placing__input__SUB_TABLE_1_Limits();
+
+TAknWindowLineLayout Edited_settings_item_skin_placing__input__SUB_TABLE_1(TInt aLineIndex, const TRect& aParentRect);
+
+TAknWindowLineLayout Setting_volume_skin_placing_Line_1();
+
+TAknWindowLineLayout Setting_volume_skin_placing_Line_2();
+
+TAknLayoutTableLimits Setting_volume_skin_placing_Limits();
+
+TAknWindowLineLayout Setting_volume_skin_placing(TInt aLineIndex);
+
+TAknWindowLineLayout Settings_volume_area_values_dup_Line_1();
+
+TAknWindowLineLayout Settings_volume_area_values_dup_Line_2();
+
+TAknWindowLineLayout Settings_volume_area_values_dup_Line_3();
+
+TAknWindowLineLayout Settings_volume_area_values_dup_Line_4();
+
+TAknWindowLineLayout Settings_volume_area_values_dup_Line_5();
+
+TAknWindowLineLayout Settings_volume_area_values_dup_Line_6();
+
+TAknWindowLineLayout Settings_volume_area_values_dup_Line_7();
+
+TAknWindowLineLayout Settings_volume_area_values_dup_Line_8();
+
+TAknWindowLineLayout Settings_volume_area_values_dup_Line_9();
+
+TAknWindowLineLayout Settings_volume_area_values_dup_Line_10();
+
+TAknWindowLineLayout Settings_volume_area_values_dup_Line_11();
+
+TAknLayoutTableLimits Settings_volume_area_values_dup_Limits();
+
+TAknWindowLineLayout Settings_volume_area_values_dup(TInt aLineIndex);
+
+TAknWindowLineLayout Popup_windows_skin_placing__dimming__Line_1();
+
+TAknWindowLineLayout Popup_windows_skin_placing__background_slice__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Popup_windows_skin_placing__background_slice__Line_2();
+
+TAknWindowLineLayout Popup_windows_skin_placing__frame_general__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Popup_windows_skin_placing__frame_general__Line_2();
+
+TAknWindowLineLayout Popup_windows_skin_placing__frame_general__Line_3();
+
+TAknWindowLineLayout Popup_windows_skin_placing__frame_general__Line_4();
+
+TAknWindowLineLayout Popup_windows_skin_placing__frame_general__Line_5();
+
+TAknWindowLineLayout Popup_windows_skin_placing__frame_general__Line_6();
+
+TAknWindowLineLayout Popup_windows_skin_placing__frame_general__Line_7();
+
+TAknWindowLineLayout Popup_windows_skin_placing__frame_general__Line_8(const TRect& aParentRect);
+
+TAknWindowLineLayout Popup_windows_skin_placing__frame_general__Line_9(const TRect& aParentRect);
+
+TAknLayoutTableLimits Popup_windows_skin_placing__frame_general__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Popup_windows_skin_placing__frame_general__SUB_TABLE_0(TInt aLineIndex);
+
+TAknLayoutTableLimits Popup_windows_skin_placing__frame_general__SUB_TABLE_1_Limits();
+
+TAknWindowLineLayout Popup_windows_skin_placing__frame_general__SUB_TABLE_1(TInt aLineIndex, const TRect& aParentRect);
+
+TAknWindowLineLayout Submenu_skin_placing_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Submenu_skin_placing_Line_2();
+
+TAknWindowLineLayout Submenu_skin_placing_Line_3();
+
+TAknWindowLineLayout Submenu_skin_placing_Line_4();
+
+TAknWindowLineLayout Submenu_skin_placing_Line_5();
+
+TAknWindowLineLayout Submenu_skin_placing_Line_6(const TRect& aParentRect);
+
+TAknWindowLineLayout Submenu_skin_placing_Line_7(const TRect& aParentRect);
+
+TAknWindowLineLayout Submenu_skin_placing_Line_8(const TRect& aParentRect);
+
+TAknWindowLineLayout Submenu_skin_placing_Line_9(const TRect& aParentRect);
+
+TAknLayoutTableLimits Submenu_skin_placing_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Submenu_skin_placing_SUB_TABLE_0(TInt aLineIndex);
+
+TAknLayoutTableLimits Submenu_skin_placing_SUB_TABLE_1_Limits();
+
+TAknWindowLineLayout Submenu_skin_placing_SUB_TABLE_1(TInt aLineIndex, const TRect& aParentRect);
+
+TAknWindowLineLayout Slice_skin_placing__fastapps__Line_1();
+
+TAknWindowLineLayout Fast_application_swapping_skin_placing_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Fast_application_swapping_skin_placing_Line_2();
+
+TAknWindowLineLayout Fast_application_swapping_skin_placing_Line_3();
+
+TAknWindowLineLayout Fast_application_swapping_skin_placing_Line_4();
+
+TAknWindowLineLayout Fast_application_swapping_skin_placing_Line_5();
+
+TAknWindowLineLayout Fast_application_swapping_skin_placing_Line_6();
+
+TAknWindowLineLayout Fast_application_swapping_skin_placing_Line_7();
+
+TAknWindowLineLayout Fast_application_swapping_skin_placing_Line_8(const TRect& aParentRect);
+
+TAknWindowLineLayout Fast_application_swapping_skin_placing_Line_9(const TRect& aParentRect);
+
+TAknWindowLineLayout Fast_application_swapping_skin_placing_Line_10(const TRect& aParentRect);
+
+TAknLayoutTableLimits Fast_application_swapping_skin_placing_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Fast_application_swapping_skin_placing_SUB_TABLE_0(TInt aLineIndex);
+
+TAknLayoutTableLimits Fast_application_swapping_skin_placing_SUB_TABLE_1_Limits();
+
+TAknWindowLineLayout Fast_application_swapping_skin_placing_SUB_TABLE_1(TInt aLineIndex, const TRect& aParentRect);
+
+TAknWindowLineLayout wallpaper_pane();
+
+TAknWindowLineLayout Changes_to_existing_elements__idle_wallpaper__Line_2(const TRect& aParentRect, TInt aIndex_t, TInt aIndex_H);
+
+TAknWindowLineLayout Idle_clock_skin_placing___analogue__Line_1();
+
+TAknWindowLineLayout Idle_clock_skin_placing___analogue__Line_2();
+
+TAknWindowLineLayout Idle_clock_skin_placing___analogue__Line_3();
+
+TAknWindowLineLayout Idle_clock_skin_placing___analogue__Line_4();
+
+TAknWindowLineLayout Idle_clock_skin_placing___analogue__Line_5();
+
+TAknLayoutTableLimits Idle_clock_skin_placing___analogue__Limits();
+
+TAknWindowLineLayout Idle_clock_skin_placing___analogue_(TInt aLineIndex);
+
+TAknWindowLineLayout Idle_clock_skin_placing___digital__Line_1(TInt aIndex_l);
+
+TAknWindowLineLayout Idle_clock_skin_placing___digital__Line_2(TInt aIndex_l);
+
+TAknWindowLineLayout Idle_clock_skin_placing___digital__Line_3(const TRect& aParentRect);
+
+TAknLayoutTableLimits Idle_clock_skin_placing___digital__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Idle_clock_skin_placing___digital__SUB_TABLE_0(TInt aLineIndex, TInt aIndex_l);
+
+TAknWindowLineLayout Power_save_state_skin_placing_Line_1();
+
+TAknWindowLineLayout Calendar_skin_elements__general__dup_Line_1();
+
+TAknWindowLineLayout Calendar_skin_elements__general__dup_Line_2();
+
+TAknWindowLineLayout Calendar_skin_elements__general__dup_Line_3();
+
+TAknWindowLineLayout Calendar_skin_elements__general__dup_Line_4();
+
+TAknWindowLineLayout Calendar_skin_elements__general__dup_Line_5();
+
+TAknWindowLineLayout Calendar_skin_elements__general__dup_Line_6();
+
+TAknWindowLineLayout Calendar_skin_elements__general__dup_Line_7();
+
+TAknWindowLineLayout Calendar_skin_elements__general__dup_Line_8();
+
+TAknWindowLineLayout Calendar_skin_elements__general__dup_Line_9();
+
+TAknLayoutTableLimits Calendar_skin_elements__general__dup_Limits();
+
+TAknWindowLineLayout Calendar_skin_elements__general__dup(TInt aLineIndex);
+
+TAknWindowLineLayout Slice_skin_placing__pinb__Line_1();
+
+TAknWindowLineLayout Favorites_skin_placing_Line_1();
+
+TAknWindowLineLayout Favorites_skin_placing_Line_2();
+
+TAknWindowLineLayout Favorites_skin_placing_Line_3();
+
+TAknWindowLineLayout Favorites_skin_placing_Line_4();
+
+TAknWindowLineLayout Favorites_skin_placing_Line_5();
+
+TAknWindowLineLayout Favorites_skin_placing_Line_6();
+
+TAknWindowLineLayout Favorites_skin_placing_Line_7();
+
+TAknWindowLineLayout Favorites_skin_placing_Line_8();
+
+TAknWindowLineLayout Favorites_skin_placing_Line_9();
+
+TAknWindowLineLayout Favorites_skin_placing_Line_10();
+
+TAknLayoutTableLimits Favorites_skin_placing_Limits();
+
+TAknWindowLineLayout Favorites_skin_placing(TInt aLineIndex);
+
+TAknWindowLineLayout Screen_saver_skin_placing_Line_1();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__Line_1(TInt aIndex_l, TInt aIndex_t);
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_1();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_2();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_3();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_4();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_5();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_6();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_7();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_8();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_9();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_10();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_11();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_12();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_13();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_14();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_15();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_16();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_17();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup_Line_18();
+
+TAknLayoutTableLimits Colour_palette_preview_screen_element_placing__main_area__dup_Limits();
+
+TAknWindowLineLayout Colour_palette_preview_screen_element_placing__main_area__dup(TInt aLineIndex);
+
+TAknWindowLineLayout Chinese_FEP_pop_up_window_lines_Line_1(TInt aPaneLayout);
+
+TAknWindowLineLayout Chinese_FEP_pop_up_window_lines_Line_2();
+
+TAknWindowLineLayout Scaling_on_background_images__general__Line_1();
+
+TAknWindowLineLayout Scaling_on_status_area_background__general__Line_1(TInt aCommon1);
+
+TAknWindowLineLayout Scaling_on_status_area_background__idle__Line_1(TInt aCommon1);
+
+TAknWindowLineLayout Scaling_on_navi_pane_background_images_Line_1();
+
+TAknWindowLineLayout Scaling_on_tab_graphics_Line_1();
+
+TAknWindowLineLayout Scaling_on_setting_list_volume_skin_elements_Line_1(TInt aCommon1);
+
+TAknWindowLineLayout Scaling_on_setting_volume_skin_Line_1(TInt aCommon1);
+
+TAknWindowLineLayout Scaling_on_setting_volume_skin_sizes_Line_1();
+
+TAknWindowLineLayout Scaling_on_pop_up_windows_skin_placing__dimming__Line_1();
+
+TAknWindowLineLayout Scaling_on_ending_graphics_for_fast_application_swapping_window_Line_1();
+
+TAknWindowLineLayout Scaling_on_power_save_state_skin_element_size_Line_1();
+
+TAknWindowLineLayout Scaling_on_screensaver_skin_size_Line_1();
+
+TAknWindowLineLayout Notepad_skin_element_placing_Line_1();
+TAknWindowLineLayout Notepad_skin_element_placing_Line_2();
+TAknWindowLineLayout Notepad_skin_element_placing_Line_3();
+TAknWindowLineLayout Notepad_skin_element_placing_Line_4();
+TAknWindowLineLayout Notepad_skin_element_placing_Line_5();
+TAknWindowLineLayout Notepad_skin_element_placing_Line_6();
+TAknWindowLineLayout Notepad_skin_element_placing_Line_7();
+TAknWindowLineLayout Notepad_skin_element_placing_Line_8();
+TAknWindowLineLayout Notepad_skin_element_placing_Line_9();
+TAknLayoutTableLimits Notepad_skin_element_placing_Limits();
+TAknWindowLineLayout Notepad_skin_element_placing(TInt aLineIndex);
+TAknWindowLineLayout Calculator_paper_skin_element_placing_Line_1();
+TAknWindowLineLayout Calculator_paper_skin_element_placing_Line_2();
+TAknWindowLineLayout Calculator_paper_skin_element_placing_Line_3();
+TAknWindowLineLayout Calculator_paper_skin_element_placing_Line_4();
+TAknWindowLineLayout Calculator_paper_skin_element_placing_Line_5();
+TAknWindowLineLayout Calculator_paper_skin_element_placing_Line_6();
+TAknWindowLineLayout Calculator_paper_skin_element_placing_Line_7();
+TAknWindowLineLayout Calculator_paper_skin_element_placing_Line_8();
+TAknWindowLineLayout Calculator_paper_skin_element_placing_Line_9();
+TAknLayoutTableLimits Calculator_paper_skin_element_placing_Limits();
+TAknWindowLineLayout Calculator_paper_skin_element_placing(TInt aLineIndex);
+TAknWindowLineLayout Calculator_glass_element_placing_Line_1();
+TAknWindowLineLayout Calculator_glass_element_placing_Line_2();
+TAknWindowLineLayout Calculator_glass_element_placing_Line_3();
+TAknLayoutTableLimits Calculator_glass_element_placing_Limits();
+TAknWindowLineLayout Calculator_glass_element_placing(TInt aLineIndex);
+TAknWindowLineLayout Scalingon_background_images__general__Line_1();
+TAknWindowLineLayout Scalingon_background_images__general__Line_2();
+TAknLayoutTableLimits Scalingon_background_images__general__Limits();
+TAknWindowLineLayout Scalingon_background_images__general_(TInt aLineIndex);
+TAknWindowLineLayout Scaling_on_status_area_background__general__Line_2(TInt aCommon1);
+TAknLayoutTableLimits Scaling_on_status_area_background__general__Limits();
+TAknWindowLineLayout Scaling_on_status_area_background__general_(TInt aLineIndex, TInt aCommon1);
+TAknWindowLineLayout Scaling_on_status_area_background__idle__Line_2(TInt aCommon1);
+TAknLayoutTableLimits Scaling_on_status_area_background__idle__Limits();
+TAknWindowLineLayout Scaling_on_status_area_background__idle_(TInt aLineIndex, TInt aCommon1);
+TAknWindowLineLayout Scalingon_navipane_background_images_Line_1();
+TAknWindowLineLayout Scalingon_navipane_background_images_Line_2();
+TAknLayoutTableLimits Scalingon_navipane_background_images_Limits();
+TAknWindowLineLayout Scalingon_navipane_background_images(TInt aLineIndex);
+TAknWindowLineLayout Scalingon_tab_graphics_Line_1();
+TAknWindowLineLayout Scalingon_tab_graphics_Line_2();
+TAknLayoutTableLimits Scalingon_tab_graphics_Limits();
+TAknWindowLineLayout Scalingon_tab_graphics(TInt aLineIndex);
+TAknWindowLineLayout Scalinon_volume_area_values_Line_1(TInt aIndex_l);
+TAknWindowLineLayout Scalinon_volume_area_values_Line_2(TInt aIndex_l);
+TAknWindowLineLayout Scalinon_volume_area_values_Line_3(TInt aIndex_l);
+TAknWindowLineLayout Scalinon_volume_area_values_Line_4(TInt aIndex_l);
+TAknWindowLineLayout Scalinon_volume_area_values_Line_5(TInt aIndex_l);
+TAknWindowLineLayout Scalinon_volume_area_values_Line_6(TInt aIndex_l);
+TAknWindowLineLayout Scalinon_volume_area_values_Line_7(TInt aIndex_l);
+TAknWindowLineLayout Scalinon_volume_area_values_Line_8(TInt aIndex_l);
+TAknWindowLineLayout Scalinon_volume_area_values_Line_9(TInt aIndex_l);
+TAknWindowLineLayout Scalinon_volume_area_values_Line_10(TInt aIndex_l);
+TAknWindowLineLayout Scalinon_volume_area_values_Line_11(TInt aIndex_l);
+TAknLayoutTableLimits Scalinon_volume_area_values_Limits();
+TAknWindowLineLayout Scalinon_volume_area_values(TInt aLineIndex, TInt aIndex_l);
+TAknWindowLineLayout Scalingon_setting_list_item_skin_elements__value_background__Line_1();
+TAknWindowLineLayout Scalingon_setting_list_item_skin_elements__value_background__Line_2();
+TAknWindowLineLayout Scalingon_setting_list_item_skin_elements__value_background__Line_3();
+TAknWindowLineLayout Scalingon_setting_list_item_skin_elements__value_background__Line_4();
+TAknWindowLineLayout Scalingon_setting_list_item_skin_elements__value_background__Line_5();
+TAknWindowLineLayout Scalingon_setting_list_item_skin_elements__value_background__Line_6();
+TAknWindowLineLayout Scalingon_setting_list_item_skin_elements__value_background__Line_7();
+TAknWindowLineLayout Scalingon_setting_list_item_skin_elements__value_background__Line_8();
+TAknWindowLineLayout Scalingon_setting_list_item_skin_elements__value_background__Line_9();
+TAknLayoutTableLimits Scalingon_setting_list_item_skin_elements__value_background__Limits();
+TAknWindowLineLayout Scalingon_setting_list_item_skin_elements__value_background_(TInt aLineIndex);
+TAknWindowLineLayout Scalingon_setting_list_volume_skin_elements_Line_1(TInt aCommon1);
+TAknWindowLineLayout Scalingon_setting_list_volume_skin_elements_Line_2(TInt aCommon1);
+TAknLayoutTableLimits Scalingon_setting_list_volume_skin_elements_Limits();
+TAknWindowLineLayout Scalingon_setting_list_volume_skin_elements(TInt aLineIndex, TInt aCommon1);
+TAknWindowLineLayout Scalingon_setting_list_item_skin_placing_Line_1();
+TAknWindowLineLayout Scalingon_setting_list_item_skin_placing_Line_2();
+TAknLayoutTableLimits Scalingon_setting_list_item_skin_placing_Limits();
+TAknWindowLineLayout Scalingon_setting_list_item_skin_placing(TInt aLineIndex);
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__general__Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__general__Line_2();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__general__Line_3();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__general__Line_4();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__general__Line_5();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__general__Line_6();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__general__Line_7();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__general__Line_8(const TRect& aParentRect);
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__general__Line_9(const TRect& aParentRect);
+TAknLayoutTableLimits Scaling_on_list_highlight_skin_placing__general__SUB_TABLE_0_Limits();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__general__SUB_TABLE_0(TInt aLineIndex);
+TAknLayoutTableLimits Scaling_on_list_highlight_skin_placing__general__SUB_TABLE_1_Limits();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__general__SUB_TABLE_1(TInt aLineIndex, const TRect& aParentRect);
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__settings__Line_1();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__settings__Line_2();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__settings__Line_3();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__settings__Line_4();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__settings__Line_5();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__settings__Line_6();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__settings__Line_7();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__settings__Line_8();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__settings__Line_9();
+TAknLayoutTableLimits Scaling_on_list_highlight_skin_placing__settings__Limits();
+TAknWindowLineLayout Scaling_on_list_highlight_skin_placing__settings_(TInt aLineIndex);
+TAknWindowLineLayout Scalingon_edited_settings_item_skin_placing__background_highlight__Line_1();
+TAknWindowLineLayout Scalingon_edited_settings_item_skin_placing__background_highlight__Line_2();
+TAknWindowLineLayout Scalingon_edited_settings_item_skin_placing__background_highlight__Line_3();
+TAknWindowLineLayout Scalingon_edited_settings_item_skin_placing__background_highlight__Line_4();
+TAknWindowLineLayout Scalingon_edited_settings_item_skin_placing__background_highlight__Line_5();
+TAknWindowLineLayout Scalingon_edited_settings_item_skin_placing__background_highlight__Line_6();
+TAknWindowLineLayout Scalingon_edited_settings_item_skin_placing__background_highlight__Line_7();
+TAknWindowLineLayout Scalingon_edited_settings_item_skin_placing__background_highlight__Line_8();
+TAknWindowLineLayout Scalingon_edited_settings_item_skin_placing__background_highlight__Line_9();
+TAknLayoutTableLimits Scalingon_edited_settings_item_skin_placing__background_highlight__Limits();
+TAknWindowLineLayout Scalingon_edited_settings_item_skin_placing__background_highlight_(TInt aLineIndex);
+TAknWindowLineLayout Scaling_on_edited_settings_item_skin_placing__valuebackground__Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Scaling_on_edited_settings_item_skin_placing__valuebackground__Line_2();
+TAknWindowLineLayout Scaling_on_edited_settings_item_skin_placing__valuebackground__Line_3();
+TAknWindowLineLayout Scaling_on_edited_settings_item_skin_placing__valuebackground__Line_4();
+TAknWindowLineLayout Scaling_on_edited_settings_item_skin_placing__valuebackground__Line_5(TInt aIndex_r);
+TAknWindowLineLayout Scaling_on_edited_settings_item_skin_placing__valuebackground__Line_6();
+TAknWindowLineLayout Scaling_on_edited_settings_item_skin_placing__valuebackground__Line_7();
+TAknWindowLineLayout Scaling_on_edited_settings_item_skin_placing__valuebackground__Line_8(const TRect& aParentRect);
+TAknWindowLineLayout Scaling_on_edited_settings_item_skin_placing__valuebackground__Line_9(const TRect& aParentRect);
+TAknLayoutTableLimits Scaling_on_edited_settings_item_skin_placing__valuebackground__SUB_TABLE_0_Limits();
+TAknWindowLineLayout Scaling_on_edited_settings_item_skin_placing__valuebackground__SUB_TABLE_0(TInt aLineIndex);
+TAknLayoutTableLimits Scaling_on_edited_settings_item_skin_placing__valuebackground__SUB_TABLE_1_Limits();
+TAknWindowLineLayout Scaling_on_edited_settings_item_skin_placing__valuebackground__SUB_TABLE_1(TInt aLineIndex);
+TAknLayoutTableLimits Scaling_on_edited_settings_item_skin_placing__valuebackground__SUB_TABLE_2_Limits();
+TAknWindowLineLayout Scaling_on_edited_settings_item_skin_placing__valuebackground__SUB_TABLE_2(TInt aLineIndex, const TRect& aParentRect);
+TAknWindowLineLayout Scalingon_setting_volume_skin_Line_1(TInt aCommon1);
+TAknWindowLineLayout Scalingon_setting_volume_skin_Line_2(TInt aCommon1);
+TAknLayoutTableLimits Scalingon_setting_volume_skin_Limits();
+TAknWindowLineLayout Scalingon_setting_volume_skin(TInt aLineIndex, TInt aCommon1);
+TAknWindowLineLayout Scaling_on_setting_volume_skin_sizes_Line_2();
+TAknLayoutTableLimits Scaling_on_setting_volume_skin_sizes_Limits();
+TAknWindowLineLayout Scaling_on_setting_volume_skin_sizes(TInt aLineIndex);
+TAknWindowLineLayout Scalingon_pop_up_windows_skin_placing__dimming__Line_1();
+TAknWindowLineLayout Scalingon_pop_up_windows_skin_placing__dimming__Line_2();
+TAknLayoutTableLimits Scalingon_pop_up_windows_skin_placing__dimming__Limits();
+TAknWindowLineLayout Scalingon_pop_up_windows_skin_placing__dimming_(TInt aLineIndex);
+TAknWindowLineLayout Scaling_on_pop_up_windows_skin_placing__frame_general__Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Scaling_on_pop_up_windows_skin_placing__frame_general__Line_2();
+TAknWindowLineLayout Scaling_on_pop_up_windows_skin_placing__frame_general__Line_3();
+TAknWindowLineLayout Scaling_on_pop_up_windows_skin_placing__frame_general__Line_4();
+TAknWindowLineLayout Scaling_on_pop_up_windows_skin_placing__frame_general__Line_5();
+TAknWindowLineLayout Scaling_on_pop_up_windows_skin_placing__frame_general__Line_6();
+TAknWindowLineLayout Scaling_on_pop_up_windows_skin_placing__frame_general__Line_7();
+TAknWindowLineLayout Scaling_on_pop_up_windows_skin_placing__frame_general__Line_8(const TRect& aParentRect);
+TAknWindowLineLayout Scaling_on_pop_up_windows_skin_placing__frame_general__Line_9(const TRect& aParentRect);
+TAknLayoutTableLimits Scaling_on_pop_up_windows_skin_placing__frame_general__SUB_TABLE_0_Limits();
+TAknWindowLineLayout Scaling_on_pop_up_windows_skin_placing__frame_general__SUB_TABLE_0(TInt aLineIndex);
+TAknLayoutTableLimits Scaling_on_pop_up_windows_skin_placing__frame_general__SUB_TABLE_1_Limits();
+TAknWindowLineLayout Scaling_on_pop_up_windows_skin_placing__frame_general__SUB_TABLE_1(TInt aLineIndex, const TRect& aParentRect);
+TAknWindowLineLayout Scaling_on_ending_graphics_for_fast_application_swappingwindow_Line_1();
+TAknWindowLineLayout Scaling_on_ending_graphics_for_fast_application_swappingwindow_Line_2();
+TAknLayoutTableLimits Scaling_on_ending_graphics_for_fast_application_swappingwindow_Limits();
+TAknWindowLineLayout Scaling_on_ending_graphics_for_fast_application_swappingwindow(TInt aLineIndex);
+TAknWindowLineLayout Scaling_on_power_save_state_skin_element_size_Line_2();
+TAknLayoutTableLimits Scaling_on_power_save_state_skin_element_size_Limits();
+TAknWindowLineLayout Scaling_on_power_save_state_skin_element_size(TInt aLineIndex);
+TAknWindowLineLayout Scaling_on_calendar_skin_element_placing_and_size__dayweek__Line_1();
+TAknWindowLineLayout Scaling_on_calendar_skin_element_placing_and_size__dayweek__Line_2();
+TAknWindowLineLayout Scaling_on_calendar_skin_element_placing_and_size__dayweek__Line_3();
+TAknWindowLineLayout Scaling_on_calendar_skin_element_placing_and_size__dayweek__Line_4();
+TAknWindowLineLayout Scaling_on_calendar_skin_element_placing_and_size__dayweek__Line_5();
+TAknWindowLineLayout Scaling_on_calendar_skin_element_placing_and_size__dayweek__Line_6();
+TAknWindowLineLayout Scaling_on_calendar_skin_element_placing_and_size__dayweek__Line_7();
+TAknWindowLineLayout Scaling_on_calendar_skin_element_placing_and_size__dayweek__Line_8();
+TAknWindowLineLayout Scaling_on_calendar_skin_element_placing_and_size__dayweek__Line_9();
+TAknLayoutTableLimits Scaling_on_calendar_skin_element_placing_and_size__dayweek__Limits();
+TAknWindowLineLayout Scaling_on_calendar_skin_element_placing_and_size__dayweek_(TInt aLineIndex);
+TAknWindowLineLayout Scalingon_calendar_skin_element_placing_and_size__month__Line_1();
+TAknWindowLineLayout Scalingon_calendar_skin_element_placing_and_size__month__Line_2();
+TAknWindowLineLayout Scalingon_calendar_skin_element_placing_and_size__month__Line_3();
+TAknWindowLineLayout Scalingon_calendar_skin_element_placing_and_size__month__Line_4();
+TAknWindowLineLayout Scalingon_calendar_skin_element_placing_and_size__month__Line_5();
+TAknWindowLineLayout Scalingon_calendar_skin_element_placing_and_size__month__Line_6();
+TAknWindowLineLayout Scalingon_calendar_skin_element_placing_and_size__month__Line_7();
+TAknWindowLineLayout Scalingon_calendar_skin_element_placing_and_size__month__Line_8();
+TAknWindowLineLayout Scalingon_calendar_skin_element_placing_and_size__month__Line_9();
+TAknLayoutTableLimits Scalingon_calendar_skin_element_placing_and_size__month__Limits();
+TAknWindowLineLayout Scalingon_calendar_skin_element_placing_and_size__month_(TInt aLineIndex);
+TAknWindowLineLayout Scaling_on_favourites_skin_sizes_and_placing_Line_1();
+TAknWindowLineLayout Scaling_on_favourites_skin_sizes_and_placing_Line_2();
+TAknWindowLineLayout Scaling_on_favourites_skin_sizes_and_placing_Line_3();
+TAknWindowLineLayout Scaling_on_favourites_skin_sizes_and_placing_Line_4();
+TAknWindowLineLayout Scaling_on_favourites_skin_sizes_and_placing_Line_5();
+TAknWindowLineLayout Scaling_on_favourites_skin_sizes_and_placing_Line_6();
+TAknWindowLineLayout Scaling_on_favourites_skin_sizes_and_placing_Line_7();
+TAknWindowLineLayout Scaling_on_favourites_skin_sizes_and_placing_Line_8();
+TAknWindowLineLayout Scaling_on_favourites_skin_sizes_and_placing_Line_9();
+TAknWindowLineLayout Scaling_on_favourites_skin_sizes_and_placing_Line_10();
+TAknLayoutTableLimits Scaling_on_favourites_skin_sizes_and_placing_Limits();
+TAknWindowLineLayout Scaling_on_favourites_skin_sizes_and_placing(TInt aLineIndex);

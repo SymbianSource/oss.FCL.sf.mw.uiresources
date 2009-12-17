@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="5" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-0.25 4.25 5 19" height="19" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <linearGradient x1="-690.376" gradientTransform="matrix(1 0 0 -1 694.626 1025.4688)" y1="1006.2188" x2="-690.376" gradientUnits="userSpaceOnUse" y2="1020.2183" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+            <stop stop-color="#000000" offset="0"/>
+            <stop stop-color="#52a0a3" offset="1"/>
+        </linearGradient>
+        <rect x="3.75" width="1" fill="url(#XMLID_4_)" y="4.25" height="19"/>
+        <linearGradient x1="-692.876" gradientTransform="matrix(1 0 0 -1 694.626 1025.4688)" y1="1006.2188" x2="-692.876" gradientUnits="userSpaceOnUse" y2="1020.2183" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_5_" xlink:show="other">
+            <stop stop-color="#000000" offset="0"/>
+            <stop stop-color="#52a0a3" offset="1"/>
+        </linearGradient>
+        <rect x="-0.25" width="4" fill="url(#XMLID_5_)" y="4.25" height="19"/>
+        <linearGradient x1="-692.876" gradientTransform="matrix(1 0 0 -1 694.626 1025.4688)" y1="993.2188" x2="-692.876" gradientUnits="userSpaceOnUse" y2="1014.2183" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+            <stop stop-color="#000000" offset="0"/>
+            <stop stop-color="#52a0a3" offset="1"/>
+        </linearGradient>
+        <rect x="-0.25" width="4" fill="url(#XMLID_6_)" y="4.25" height="19"/>
+    </g>
+</svg>

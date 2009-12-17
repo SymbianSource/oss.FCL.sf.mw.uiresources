@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44px" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 44 44" height="44px" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <path fill="url(#SVGID_1)" d="M 9.305 10.654 L 9.305 15.626 L 11.811001 15.626 L 11.811001 14.413 L 19.18 21.74 L 28.774 21.756 L 36.132 14.413 L 36.132 30.785 L 11.811 30.785 L 11.811 29.628 L 9.305 29.628 L 9.305 33.291 L 38.639 33.291 L 38.639 10.654 L 9.305 10.654 z M 28.079 18.707 L 19.86 18.707 L 14.315001 13.160001 L 33.626 13.160001 L 28.079 18.707 z "/>
+    <path fill="url(#SVGID_1)" d="M 7.912 27.628 L 12.957001 27.628 L 12.957001 23.479 L 5.527001 23.479 L 7.912 27.628 z M 2.163 17.628 L 4.549 21.777 L 12.957 21.777 L 12.957 17.628 L 2.163 17.628 z "/>
+    <rect width="44" fill="none" height="44"/>
+    <defs>
+        <linearGradient x1="23.97" y1="10.5" x2="23.97" gradientUnits="userSpaceOnUse" y2="33.17" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#ffffff" offset="1"/>
+        </linearGradient>
+    </defs>
+</svg>

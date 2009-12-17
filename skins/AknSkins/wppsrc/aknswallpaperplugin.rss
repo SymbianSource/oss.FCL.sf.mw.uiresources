@@ -1,0 +1,91 @@
+/*
+* Copyright (c) 2005-2007 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Project definition file for project aknswallpaperplugin
+*
+*/
+
+
+NAME    AKWP  // aknswallpaperplugin AIW Provider
+
+// Resource types
+#include <eikon.rh>
+#include <avkon.rh>
+
+// Commands etc.
+#include <AvkonIcons.hrh>
+#include "aknswallpaperplugin.rh"
+
+
+// Compiled resources
+#include <avkon.rsg>
+
+// Localized texts.
+#include <psln.loc>
+#include <drmcommon.loc>
+#include <aknswallpaperplugin.loc>
+
+// Graphics
+#include <avkon.mbg>
+
+RESOURCE RSS_SIGNATURE { }
+
+// ---------------------------------------------------------------------------
+// r_akns_wallpaper_plugin_menu
+//
+// Menu for setting main wallpaper for the device.
+// ---------------------------------------------------------------------------
+//
+RESOURCE MENU_PANE r_akns_wallpaper_plugin_menu
+    {
+    items =
+        {
+        MENU_ITEM {
+                   command = EAknsWallpaperPluginCmdSetWallPaper;
+                   txt = qtn_wpp_set_as_bg_image;
+                  }
+        };
+    }
+
+
+RESOURCE TBUF r_akns_wallpaper_text_drm_preview   { buf = qtn_drm_prev_rights_set; }
+
+RESOURCE TBUF r_akns_wallpaper_text_loading_image { buf = qtn_skins_loading_image; }
+
+
+RESOURCE DIALOG r_akns_wallpaper_general_wait_note
+    {
+    flags = EAknWaitNoteFlags;
+    buttons = R_AVKON_SOFTKEYS_EMPTY;
+    items =
+        {
+        DLG_LINE
+            {
+            type = EAknCtNote;
+            id = EAknsWallpaperPluginGeneralWaitNote;
+            control= AVKON_NOTE
+                {
+                layout = EWaitLayout;
+                imagefile = AVKON_ICON_FILE;
+                imageid = EMbmAvkonQgn_note_progress;
+                imagemask = EMbmAvkonQgn_note_progress_mask;
+                animation = R_QGN_GRAF_WAIT_BAR_ANIM;
+                };
+            }
+        };
+    }
+
+RESOURCE TBUF r_akns_wallpaper_text_image_corrupted { buf = qtn_skins_image_format_wrong; }
+
+RESOURCE TBUF r_akns_wallpaper_text_image_too_large { buf = qtn_skins_image_too_large; }
+

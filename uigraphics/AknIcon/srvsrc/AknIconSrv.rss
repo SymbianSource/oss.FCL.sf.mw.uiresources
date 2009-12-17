@@ -1,0 +1,174 @@
+/*
+* Copyright (c) 2002-2004 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:   Product specific settings, e.g. scalable icon cache configuration.
+*                This file should be configured by product programs.
+*
+*/
+
+//  INCLUDES
+#include <uikon.rh>
+#include "AknIconSrv.rh"
+
+//  CONSTANTS (these are configurable)
+
+// Max memory used for dynamic icon cache in bytes.
+// Product programs should configure this according to how much memory
+// they can spare for this purpose.
+//
+#define KMaxDynamicCacheSize (5*1024*1024) // 5 MB
+				
+// -----------------------------------------------------------------------------
+// Defines whether icons are RLE compressed in RAM or not.
+// Using the compression saves RAM but has an impact to the
+// performance when loading and rendering the icons.
+// It is recommended not to compress icons, if there are
+// no problems with the RAM consumption.
+//
+// Possible values:
+//
+// 0 = No compression
+// 1 = RLE compression
+// 2 = Palette compression
+//
+#define KBitmapCompression 1
+
+
+// -----------------------------------------------------------------------------
+// These constants define color depths for
+// various image types. AknIcon itself uses the icon
+// depth constant for svg icons.
+//
+// The RAM consumption is 3 bytes per pixel with EColor16M and
+// 4 bytes per pixel with EColor16MU, whereas it is only 2 bytes per pixel with
+// EColor64K.
+//
+// Possible values:
+//
+// 0 = EColor64K
+// 1 = EColor16M
+// 2 = EColor16MU
+
+#define KPreferredIconDepth 0 // preferred depth for icons
+#define KPreferredPhotoDepth 1 // preferred depth for photos
+#define KPreferredVideoDepth 2 // preferred depth for video
+#define KPreferredOffscreenDepth 0 // preferred depth for offscreen bitmaps
+
+// -----------------------------------------------------------------------------
+// These constants define mask depths for
+// various image types. AknIcon itself uses the icon
+// depth constant for svg icons.
+//
+// Possible values:
+//
+// 0 = EGray2
+// 1 = EGray256
+
+#define KPreferredIconMaskDepth 1
+#define KPreferredOffscreenMaskDepth 1
+
+//  RESOURCE DEFINITIONS 
+
+// -----------------------------------------------------------------------------
+// r_use_bitmap_compression
+// -----------------------------------------------------------------------------
+//
+RESOURCE NUMBER_INT8 r_compress_bitmaps
+    {
+    value = KBitmapCompression;
+    }
+
+// -----------------------------------------------------------------------------
+// r_preferred_icon_depth
+// -----------------------------------------------------------------------------
+//
+RESOURCE NUMBER_INT32 r_preferred_icon_depth
+    {
+    value = KPreferredIconDepth;
+    }
+
+// -----------------------------------------------------------------------------
+// r_preferred_icon_mask_depth
+// -----------------------------------------------------------------------------
+//
+RESOURCE NUMBER_INT32 r_preferred_icon_mask_depth
+    {
+    value = KPreferredIconMaskDepth;
+    }
+
+// -----------------------------------------------------------------------------
+// r_preferred_photo_depth
+// -----------------------------------------------------------------------------
+//    
+RESOURCE NUMBER_INT32 r_preferred_photo_depth
+    {
+    value = KPreferredPhotoDepth;
+    }
+
+// -----------------------------------------------------------------------------
+// r_preferred_video_depth
+// -----------------------------------------------------------------------------
+//    
+RESOURCE NUMBER_INT32 r_preferred_video_depth
+    {
+    value = KPreferredVideoDepth;
+    }
+
+// -----------------------------------------------------------------------------
+// r_preferred_offscreen_depth
+// -----------------------------------------------------------------------------
+//    
+RESOURCE NUMBER_INT32 r_preferred_offscreen_depth
+    {
+    value = KPreferredOffscreenDepth;
+    }
+
+// -----------------------------------------------------------------------------
+// r_preferred_offscreen_mask_depth
+// -----------------------------------------------------------------------------
+//    
+RESOURCE NUMBER_INT32 r_preferred_offscreen_mask_depth
+    {
+    value = KPreferredOffscreenMaskDepth;
+    }
+
+// -----------------------------------------------------------------------------
+// r_dynamic_cache_size
+// -----------------------------------------------------------------------------
+//
+RESOURCE NUMBER_INT32 r_max_dynamic_cache_size
+    {
+    value = KMaxDynamicCacheSize;
+    }
+
+// -----------------------------------------------------------------------------
+// precacher list
+// -----------------------------------------------------------------------------
+//
+
+// Precacher is configured to accelerate following use cases:
+// 1. Text message editor startup in portrait
+// 2. Maps startup in portrait
+// 3. Wep startup in portait
+// 4. Rotation of home screen
+// 5. Text message editor startup in landscape
+// 6. Maps startup in landscape
+// 7. Wep startup in landscape
+RESOURCE ARRAY r_precache_list2
+    {
+    items =
+        {
+	// Add the items to pre-cache here
+        };
+    }
+// End of File

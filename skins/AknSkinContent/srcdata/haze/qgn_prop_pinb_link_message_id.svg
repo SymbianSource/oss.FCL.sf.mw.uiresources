@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="13" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 13 13" height="13" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <polygon fill="#cee1ef" points="11.274,12.85 0.736,9.918 0.077,0.9 11.343,2.957  "/>
+        <polygon fill="#a2c2dd" points="0.736,9.918 0.077,0.9 4.975,7.035 1.677,10.03  "/>
+        <polygon fill="#a2c2dd" points="11.256,12.846 11.321,2.953 6.035,7.16 10.416,12.36  "/>
+        <polygon fill="#a2c2dd" points="0.736,9.918 11.233,12.846 6.384,6.83 4.578,6.616  "/>
+        <polygon fill="#496da2" points="11.233,12.846 12.519,11.813 12.794,2.04 11.321,2.953  "/>
+        <polygon fill="#cee1ef" points="12.794,2.04 1.598,0.366 0.081,0.898 11.358,2.953  "/>
+        <polygon fill="#496da2" points="1.298,10.073 0.736,9.918 3.965,6.8 4.593,7.496  "/>
+        <polygon fill="#496da2" points="10.288,12.566 11.233,12.846 7.223,6.99 6.294,7.503  "/>
+        <polygon fill="#496da2" points="0.143,1.525 0.098,0.904 4.678,7.925 11.358,2.953 11.389,3.641 4.712,9.453  "/>
+        <polygon fill="#a2c2dd" points="0.081,0.898 4.68,8.052 11.358,2.953  "/>
+    </g>
+    <rect width="13" fill="none" height="13"/>
+</svg>

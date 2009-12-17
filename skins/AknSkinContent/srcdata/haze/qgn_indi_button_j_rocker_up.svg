@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="88px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 88 88" height="88px" x="0px" y="0px">
+    <g>
+        <rect width="88" fill="none" y="0" height="88"/>
+        <g>
+            <linearGradient x1="35.5254" y1="-0.2842" x2="83.1879" gradientUnits="userSpaceOnUse" y2="73.8804" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+                <stop stop-color="#e8ffff" offset="0"/>
+                <stop stop-color="#747f7f" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_1_)" d="M 43.999 1.408 C 55.743 1.408 66.391 6.184 74.103 13.897 L 75.099 12.902 C 67.131 4.935 56.131 0.0 44.0 0.0 C 31.869 0.0 20.869 4.935 12.901 12.902 L 13.897 13.897 C 21.608 6.185 32.256 1.408 43.999 1.408 z " fill-opacity="0.13" stroke-opacity="0.13"/>
+            <linearGradient x1="22.2695" y1="-7.833" x2="98.3598" gradientUnits="userSpaceOnUse" y2="68.2572" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_2_" xlink:show="other">
+                <stop stop-color="#e8ffff" offset="0"/>
+                <stop stop-color="#747f7f" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_2_)" d="M 13.897 13.897 L 14.893001 14.892 C 22.35 7.436 32.646 2.816 44.0 2.816 C 55.355 2.816 65.651 7.435 73.108 14.892 L 74.103004 13.897 C 66.391 6.185 55.743 1.408 43.999 1.408 C 32.256 1.408 21.608 6.185 13.897 13.897 z " fill-opacity="0.33" stroke-opacity="0.33"/>
+            <linearGradient x1="19.8052" y1="-11.0659" x2="89.6821" gradientUnits="userSpaceOnUse" y2="63.9041" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_3_" xlink:show="other">
+                <stop stop-color="#e8ffff" offset="0"/>
+                <stop stop-color="#747f7f" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_3_)" d="M 44.0 7.04 C 54.207 7.04 63.446 11.177 70.135 17.865 L 73.108 14.893 C 65.651 7.436 55.355 2.816 44.0 2.816 C 32.646 2.816 22.35 7.435 14.893 14.892 L 17.866 17.864 C 24.554 11.177 33.793 7.04 44.0 7.04 z " fill-opacity="0.33" stroke-opacity="0.33"/>
+            <linearGradient x1="16.1602" y1="-9.9751" x2="73.2425" gradientUnits="userSpaceOnUse" y2="47.107" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_4_" xlink:show="other">
+                <stop stop-color="#e8ffff" offset="0"/>
+                <stop stop-color="#747f7f" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_4_)" d="M 43.999 25.617 C 49.076 25.617 53.672 27.674 56.998 31.002 L 70.135 17.865002 C 63.446 11.177 54.207 7.04 44.0 7.04 C 33.793 7.04 24.554 11.177 17.865 17.865 L 31.0 31.0 C 34.327 27.674 38.922 25.617 43.999 25.617 z "/>
+        </g>
+        <linearGradient x1="12.3916" y1="-17.0068" x2="93.1693" gradientUnits="userSpaceOnUse" y2="63.7706" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_5_" xlink:show="other">
+            <stop stop-color="#e8ffff" offset="0"/>
+            <stop stop-color="#747f7f" offset="1"/>
+        </linearGradient>
+        <path fill="url(#SVGID_5_)" d="M 56.511 30.537 L 72.448 14.6 C 65.16 7.312 55.097 2.797 44.0 2.797 C 32.902 2.797 22.838 7.312 15.549999 14.601 L 31.487999 30.538 C 34.768997 27.486 39.165 25.618 44.0 25.618 C 48.835 25.618 53.229 27.485 56.511 30.537 z "/>
+        <linearGradient x1="23.4585" y1="-3.7124" x2="156.0422" gradientUnits="userSpaceOnUse" y2="118.4041" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_6_" xlink:show="other">
+            <stop stop-color="#e8ffff" offset="0"/>
+            <stop stop-color="#747f7f" offset="1"/>
+        </linearGradient>
+        <path fill="url(#SVGID_6_)" d="M 56.038 30.113 L 71.548996 14.603001 C 64.111 7.394 54.354 3.43 43.999 3.43 C 33.644 3.43 23.888 7.394 16.449001 14.604 L 31.960001 30.114 C 35.186 27.315 39.393 25.617 43.999 25.617 C 48.605 25.617 52.813 27.314 56.038 30.113 z "/>
+        <polygon fill="#ffffff" points="37.72,16.792 50.278,16.792 44,10.513  "/>
+    </g>
+</svg>

@@ -1,0 +1,115 @@
+/*
+* Copyright (c) 2002-2008 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+
+#include <platform_paths.hrh>
+#include <bldvariant.hrh>
+
+PRJ_EXPORTS
+
+// IBY-files
+../rom/AknLayout2.iby 											CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2.iby)
+../rom/AknLayout2_common.iby 								CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_common.iby)
+../rom/AknLayout2_qhd_touch.iby 						CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_qhd_touch.iby)
+../rom/AknLayout2_qvga1.iby 								CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_qvga1.iby)
+../rom/AknLayout2_qvga2.iby 								CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_qvga2.iby)
+../rom/AknLayout2_double.iby 								CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_double.iby)
+../rom/AknLayout2_hvga.iby 									CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_hvga.iby)
+../rom/AknLayout2_hvga_touch.iby 						CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_hvga_touch.iby)
+../rom/AknLayout2_low.iby 									CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_low.iby)
+../rom/AknLayout2_qvga_touch.iby 						CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_qvga_touch.iby)
+../rom/AknLayout2_vga.iby 									CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_vga.iby)
+../rom/AknLayout2_vga_touch.iby 						CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_vga_touch.iby)
+../rom/AknLayout2_vga3.iby 									CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_vga3.iby)
+../rom/AknLayout2_nhd.iby 									CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_nhd.iby)
+../rom/AknLayout2_nhd4_touch.iby 						CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_nhd4_touch.iby)
+../rom/AknLayout2_vga4_touch.iby 						CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_vga4_touch.iby)
+
+../rom/AknLayout2_UiAccel.iby 							CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel.iby)
+../rom/AknLayout2_UiAccel_qhd_touch.iby 		CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_qhd_touch.iby)
+../rom/AknLayout2_UiAccel_qvga1.iby 				CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_qvga1.iby)
+../rom/AknLayout2_UiAccel_qvga2.iby 				CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_qvga2.iby)
+../rom/AknLayout2_UiAccel_vga.iby 					CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_vga.iby)
+../rom/AknLayout2_UiAccel_vga3.iby 					CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_vga3.iby)
+../rom/AknLayout2_UiAccel_nhd.iby 					CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_nhd.iby)
+../rom/AknLayout2_UiAccel_double.iby 				CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_double.iby)
+../rom/AknLayout2_UiAccel_hvga.iby 					CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_hvga.iby)
+../rom/AknLayout2_UiAccel_hvga_touch.iby 		CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_hvga_touch.iby)
+../rom/AknLayout2_UiAccel_low.iby 					CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_low.iby)
+../rom/AknLayout2_UiAccel_qvga_touch.iby 		CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_qvga_touch.iby)
+../rom/AknLayout2_UiAccel_vga_touch.iby 		CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_vga_touch.iby)
+../rom/AknLayout2_UiAccel_vga4_touch.iby 		CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_vga4_touch.iby)
+
+../binary_temp/winscw_udeb/CdlEngine.lib /epoc32/release/winscw/udeb/aknlayout.lib
+../binary_temp/armv5_lib/CdlEngine.lib /epoc32/release/armv5/lib/aknlayout.lib
+../binary_temp/armv5_lib/CdlEngine.dso /epoc32/release/armv5/lib/aknlayout.dso
+
+./replace_aknlayout.mk	/epoc32/tools/makefile_templates/aknlayout/replace_aknlayout.mk
+./replace_aknlayout.meta	/epoc32/tools/makefile_templates/aknlayout/replace_aknlayout.meta
+
+// Quick workaround for exporting needed headers that are currently generated and exported
+// only when gencode.cmd is run.
+../generated_inc/layoutpack.cdl.h                        MW_LAYER_PLATFORM_EXPORT_PATH(LayoutPack.cdl.h)
+../generated_inc/layoutpack.cdl.common.h                 MW_LAYER_PLATFORM_EXPORT_PATH(LayoutPack.cdl.common.h)
+../generated_inc/aknlayout.cdl.common.h                  MW_LAYER_PLATFORM_EXPORT_PATH(AknLayout.cdl.common.h)
+../generated_inc/aknapaclayout.cdl.common.h              MW_LAYER_PLATFORM_EXPORT_PATH(AknApacLayout.cdl.common.h)
+../generated_inc/applayout.cdl.common.h                  MW_LAYER_PLATFORM_EXPORT_PATH(AppLayout.cdl.common.h)
+../generated_inc/appapaclayout.cdl.common.h              MW_LAYER_PLATFORM_EXPORT_PATH(AppApacLayout.cdl.common.h)
+../generated_inc/skinlayout.cdl.common.h                 MW_LAYER_PLATFORM_EXPORT_PATH(SkinLayout.cdl.common.h)
+../generated_inc/aknlayoutscalable_avkon.cdl.common.h    MW_LAYER_PLATFORM_EXPORT_PATH(AknLayoutScalable_Avkon.cdl.common.h)
+../generated_inc/aknlayoutscalable_apps.cdl.common.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknLayoutScalable_Apps.cdl.common.h)
+../generated_inc/aknlayoutscalable_uiaccel.cdl.common.h  MW_LAYER_PLATFORM_EXPORT_PATH(AknLayoutScalable_uiaccel.cdl.common.h)
+../generated_inc/cdlfont.cdl.common.h                    MW_LAYER_PLATFORM_EXPORT_PATH(CdlFont.cdl.common.h)
+../generated_inc/layoutmetadata.cdl.common.h             MW_LAYER_PLATFORM_EXPORT_PATH(LayoutMetaData.cdl.common.h)
+../generated_inc/displaylayoutmetrics.cdl.h              MW_LAYER_PLATFORM_EXPORT_PATH(displaylayoutmetrics.cdl.h)
+../generated_inc/displaylayoutmetrics.cdl.common.h       MW_LAYER_PLATFORM_EXPORT_PATH(displaylayoutmetrics.cdl.common.h)
+../generated_inc/aknapaclayout.cdl.common.hrh              MW_LAYER_PLATFORM_EXPORT_PATH(aknapaclayout.cdl.common.hrh)
+../generated_inc/aknlayout.cdl.common.hrh                  MW_LAYER_PLATFORM_EXPORT_PATH(aknlayout.cdl.common.hrh)
+../generated_inc/aknlayoutscalable_apps.cdl.common.hrh     MW_LAYER_PLATFORM_EXPORT_PATH(aknlayoutscalable_apps.cdl.common.hrh)
+../generated_inc/aknlayoutscalable_avkon.cdl.common.hrh    MW_LAYER_PLATFORM_EXPORT_PATH(aknlayoutscalable_avkon.cdl.common.hrh)
+../generated_inc/aknlayoutscalable_uiaccel.cdl.common.hrh  MW_LAYER_PLATFORM_EXPORT_PATH(aknlayoutscalable_uiaccel.cdl.common.hrh)
+../generated_inc/appapaclayout.cdl.common.hrh              MW_LAYER_PLATFORM_EXPORT_PATH(appapaclayout.cdl.common.hrh)
+../generated_inc/applayout.cdl.common.hrh                  MW_LAYER_PLATFORM_EXPORT_PATH(applayout.cdl.common.hrh)
+../generated_inc/cdlfont.cdl.common.hrh                    MW_LAYER_PLATFORM_EXPORT_PATH(cdlfont.cdl.common.hrh)
+../generated_inc/displaylayoutmetrics.cdl.common.hrh       MW_LAYER_PLATFORM_EXPORT_PATH(displaylayoutmetrics.cdl.common.hrh)
+../generated_inc/layoutmetadata.cdl.common.hrh             MW_LAYER_PLATFORM_EXPORT_PATH(layoutmetadata.cdl.common.hrh)
+../generated_inc/skinlayout.cdl.common.hrh                 MW_LAYER_PLATFORM_EXPORT_PATH(skinlayout.cdl.common.hrh)
+../generated_inc/layoutpack.cdl.common.hrh                 MW_LAYER_PLATFORM_EXPORT_PATH(layoutpack.cdl.common.hrh)
+
+
+PRJ_MMPFILES
+#ifndef TOOLS
+
+AknLayout2Scalable.mmp
+AknLayout2.mmp
+AknLayout2Adaptation.mmp
+aknlayout2hierarchy.mmp
+
+LayoutInstRedir.mmp
+LayoutInstRedir_akn_app_qvga1.mmp
+LayoutInstRedir_akn_app_qhd_touch.mmp
+LayoutInstRedir_akn_app_nhd4.mmp
+LayoutInstRedir_akn_app_vga4_touch.mmp
+
+#if defined(FF_ROM_INCLUDE_ALF)
+LayoutInstRedir_uiaccel_qvga1.mmp
+LayoutInstRedir_uiaccel_qhd_touch.mmp
+LayoutInstRedir_uiaccel_nhd4.mmp
+LayoutInstRedir_uiaccel_vga4_touch.mmp
+#endif // FF_ROM_INCLUDE_ALF
+	
+#endif  // TOOLS

@@ -1,0 +1,14 @@
+Adaptation_Layer_AknLayout_Elaf
+Adaptation_Layer_AknApacLayout
+Adaptation_Layer_AppLayout_Elaf
+Adaptation_Layer_AppApacLayout
+Adaptation_Layer_SkinLayout
+LayoutMetaData_defaults
+LayoutMetaData_scrollbar
+LayoutMetaData_land
+LayoutMetaData_APAC
+LayoutMetaData_abrw
+LayoutMetaData_pensupport
+LayoutMetaData_liststretching
+LayoutMetaData_MSK
+LayoutMetaData_touchpane

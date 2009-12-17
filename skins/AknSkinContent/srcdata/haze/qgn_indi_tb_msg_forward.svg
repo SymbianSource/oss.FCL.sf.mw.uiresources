@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44px" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 44 44" height="44px" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <path fill="url(#SVGID_1)" d="M 23.016 30.785 L 9.811 30.785 L 9.811 14.413 L 17.18 21.74 L 26.774 21.756 L 34.132 14.413 L 34.132 21.269 L 36.639 23.989 L 36.639 10.654 L 7.305 10.654 L 7.305 33.291 L 23.016 33.291 L 23.016 30.785 z M 31.626 13.16 L 26.079 18.707 L 17.86 18.707 L 12.315001 13.160001 L 31.626 13.160001 z "/>
+    <polygon fill="url(#SVGID_1)" points="25.016,31.946 25.016,26.014 31.163,26.014 31.163,22.33 32.39,22.33 38.516,28.978 32.39,35.631 31.163,35.631 31.163,31.946 "/>
+    <rect width="44" fill="none" height="44"/>
+    <defs>
+        <linearGradient x1="21.97" y1="10.65" x2="21.97" gradientUnits="userSpaceOnUse" y2="33.22" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#ffffff" offset="1"/>
+        </linearGradient>
+    </defs>
+</svg>

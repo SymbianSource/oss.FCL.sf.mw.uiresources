@@ -1,0 +1,111 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+#include <cdlecom.rh>
+#include <cdlecom.hrh>
+
+#include "elaf_vga_touch_normal_pack.hrh"
+#include "aknlayoutscalable_elaf_pvp_av_vga_prt_tch_normal.hrh"
+#include "aknlayoutscalable_elaf_pvp_apps_vga_prt_tch_normal.hrh"
+#include "cdlfontinst_vga_touch.hrh"
+#include "displaylayoutmetricsinst_vga_touch.hrh"
+#include "elaf_vga_touch_small_pack.hrh"
+#include "aknlayoutscalable_elaf_pvp_av_vga_prt_tch_small.hrh"
+#include "aknlayoutscalable_elaf_pvp_apps_vga_prt_tch_small.hrh"
+#include "elaf_vga_touch_large_pack.hrh"
+#include "aknlayoutscalable_elaf_pvp_av_vga_prt_tch_large.hrh"
+#include "aknlayoutscalable_elaf_pvp_apps_vga_prt_tch_large.hrh"
+#include "abrw_vga_touch_normal_pack.hrh"
+#include "aknlayoutscalable_abrw_pvp_av_vga_prt_tch_normal.hrh"
+#include "aknlayoutscalable_abrw_pvp_apps_vga_prt_tch_normal.hrh"
+#include "abrw_vga_touch_small_pack.hrh"
+#include "aknlayoutscalable_abrw_pvp_av_vga_prt_tch_small.hrh"
+#include "aknlayoutscalable_abrw_pvp_apps_vga_prt_tch_small.hrh"
+#include "abrw_vga_touch_large_pack.hrh"
+#include "aknlayoutscalable_abrw_pvp_av_vga_prt_tch_large.hrh"
+#include "aknlayoutscalable_abrw_pvp_apps_vga_prt_tch_large.hrh"
+#include "apac_vga_touch_normal_pack.hrh"
+#include "apac_vga_touch_small_pack.hrh"
+#include "apac_vga_touch_large_pack.hrh"
+#include "elaf_vga_touch_land_normal_pack.hrh"
+#include "aknlayoutscalable_elaf_pvl_av_vga_lsc_tch_normal.hrh"
+#include "aknlayoutscalable_elaf_pvl_apps_vga_lsc_tch_normal.hrh"
+#include "elaf_vga_touch_land_small_pack.hrh"
+#include "aknlayoutscalable_elaf_pvl_av_vga_lsc_tch_small.hrh"
+#include "aknlayoutscalable_elaf_pvl_apps_vga_lsc_tch_small.hrh"
+#include "elaf_vga_touch_land_large_pack.hrh"
+#include "aknlayoutscalable_elaf_pvl_av_vga_lsc_tch_large.hrh"
+#include "aknlayoutscalable_elaf_pvl_apps_vga_lsc_tch_large.hrh"
+#include "abrw_vga_touch_land_normal_pack.hrh"
+#include "aknlayoutscalable_abrw_pvl_av_vga_lsc_tch_normal.hrh"
+#include "aknlayoutscalable_abrw_pvl_apps_vga_lsc_tch_normal.hrh"
+#include "abrw_vga_touch_land_small_pack.hrh"
+#include "aknlayoutscalable_abrw_pvl_av_vga_lsc_tch_small.hrh"
+#include "aknlayoutscalable_abrw_pvl_apps_vga_lsc_tch_small.hrh"
+#include "abrw_vga_touch_land_large_pack.hrh"
+#include "aknlayoutscalable_abrw_pvl_av_vga_lsc_tch_large.hrh"
+#include "aknlayoutscalable_abrw_pvl_apps_vga_lsc_tch_large.hrh"
+#include "apac_vga_touch_land_normal_pack.hrh"
+#include "apac_vga_touch_land_small_pack.hrh"
+#include "apac_vga_touch_land_large_pack.hrh"
+
+CDL_ECOM_REG_DETAIL_START
+	CDL_ECOM_DETAIL_IMPL(Elaf_Vga_touch_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pvp_av_vga_prt_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pvp_apps_vga_prt_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(CdlFontInst_vga_touch)
+,	CDL_ECOM_DETAIL_IMPL(displaylayoutmetricsinst_Vga_touch)
+,	CDL_ECOM_DETAIL_IMPL(Elaf_Vga_touch_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pvp_av_vga_prt_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pvp_apps_vga_prt_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(Elaf_Vga_touch_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pvp_av_vga_prt_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pvp_apps_vga_prt_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Vga_touch_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pvp_av_vga_prt_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pvp_apps_vga_prt_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Vga_touch_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pvp_av_vga_prt_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pvp_apps_vga_prt_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Vga_touch_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pvp_av_vga_prt_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pvp_apps_vga_prt_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Vga_touch_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Vga_touch_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Vga_touch_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(Elaf_Vga_touch_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pvl_av_vga_lsc_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pvl_apps_vga_lsc_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(Elaf_Vga_touch_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pvl_av_vga_lsc_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pvl_apps_vga_lsc_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(Elaf_Vga_touch_land_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pvl_av_vga_lsc_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pvl_apps_vga_lsc_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Vga_touch_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pvl_av_vga_lsc_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pvl_apps_vga_lsc_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Vga_touch_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pvl_av_vga_lsc_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pvl_apps_vga_lsc_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Vga_touch_land_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pvl_av_vga_lsc_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pvl_apps_vga_lsc_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Vga_touch_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Vga_touch_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Vga_touch_land_Large_Pack)
+CDL_ECOM_REG_DETAIL_END

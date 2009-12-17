@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-0.072 0.024 44 44" height="44" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <rect x="-0.072" width="44" fill="none" y="0.024" height="44"/>
+    <linearGradient x1="22" y1="9.15" x2="22" gradientUnits="userSpaceOnUse" y2="35.22" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#SVGID_1)" points="32,15.604 32,33.528 11.899,33.528 11.899,10.43 26.91,10.43 26.91,8.299 9.781,8.299 9.781,35.702 34.221,35.702 34.221,15.604 "/>
+    <polygon fill="url(#SVGID_1)" points="26.91,8.299 26.91,15.604 34.221,15.604 "/>
+    <linearGradient x1="21.49" y1="7.71" x2="21.49" gradientUnits="userSpaceOnUse" y2="36.57" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_3" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <ellipse rx="2.459" ry="2.47" fill="url(#SVGID_3)" cx="21.492" cy="15.77"/>
+    <linearGradient x1="21.89" y1="7.21" x2="21.89" gradientUnits="userSpaceOnUse" y2="37.23" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_4" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#SVGID_4)" points="23.994,28.045 23.994,19.719 18.443,19.708 18.443,22.019 19.846,22.047 19.846,28.045 17.985,28.045 17.985,30.413 25.805,30.413 25.805,28.045 "/>
+</svg>

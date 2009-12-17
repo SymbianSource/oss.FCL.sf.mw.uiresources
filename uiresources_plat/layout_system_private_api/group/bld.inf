@@ -1,0 +1,34 @@
+/*
+* Copyright (c) 2006 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  File that exports the files belonging to 
+:                Layout System Private API
+*
+*/
+
+
+#include <platform_paths.hrh>
+
+PRJ_PLATFORMS
+DEFAULT
+
+PRJ_EXPORTS
+
+../inc/AknLayout2AdaptationDataDef.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknLayout2AdaptationDataDef.h)
+../inc/AknLayout2Decode.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknLayout2Decode.h)
+../inc/AknLayout2DataDef.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknLayout2DataDef.h)
+../inc/AknLayout2ScalableDataDef.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknLayout2ScalableDataDef.h)
+../inc/AknLayout2ScalableDecode.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknLayout2ScalableDecode.h)
+../inc/aknlayout2hierarchy.h     MW_LAYER_PLATFORM_EXPORT_PATH(aknlayout2hierarchy.h)
+../inc/AknLayout2AdaptationDecode.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknLayout2AdaptationDecode.h)
+../inc/aknlayout2hierarchydef.h     MW_LAYER_PLATFORM_EXPORT_PATH(aknlayout2hierarchydef.h)

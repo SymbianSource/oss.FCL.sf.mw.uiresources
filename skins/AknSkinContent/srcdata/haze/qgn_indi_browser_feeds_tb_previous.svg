@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="54" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="6.998 16.231 54 54.001" height="54.001" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <polygon fill="#ffffff" points="36.195,25.231 36.195,33.227 44.195,33.227         "/>
+                                </g>
+                            </g>
+                            <rect x="22.438" width="16.859" fill="#ffffff" y="34.178" height="1.828"/>
+                            <rect x="22.438" width="16.859" fill="#ffffff" y="38.412" height="1.828"/>
+                            <rect x="22.438" width="8.673" fill="#ffffff" y="42.643" height="1.828"/>
+                            <rect x="22.438" width="8.673" fill="#ffffff" y="46.877" height="1.828"/>
+                        </g>
+                    </g>
+                    <g>
+                        <path fill="#ffffff" d="M 41.766 33.227 L 41.766 42.510002 L 44.196 42.510002 L 44.196 33.227 L 41.766 33.227 z M 17.446 55.23 L 31.166 55.23 L 31.166 52.850998 L 19.768 52.850998 L 19.768 27.564 L 36.195 27.564 L 36.195 25.230999 L 17.445 25.230999 L 17.445 55.23 z "/>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <polygon fill="#ffffff" points="50.549,50.209 50.549,55.043 43.744,56.979 43.744,61.232 42.043,61.232 33.535,52.723    42.043,44.221 43.744,44.221 43.744,48.475  "/>
+    </g>
+    <rect x="6.998" width="54" fill="none" y="16.231" height="54.001"/>
+</svg>

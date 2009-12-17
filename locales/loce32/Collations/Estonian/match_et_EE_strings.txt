@@ -1,0 +1,14 @@
+0043 030C [.0864.0041.0008.0043] % Latin capital C with caron
+0063 030C [.0864.0041.0008.0043] % Latin small C with caron
+0053 030C [.0863.0041.0008.0053] % Latin capital S with caron
+0073 030C [.0863.0041.0008.0053] % Latin small S with caron
+005A 030C [.0862.0041.0008.005A] % Latin capital Z with caron
+007A 030C [.0862.0041.0008.005A] % Latin small Z with caron 
+004F 0303 [.08B2.004F.0008.1E88] % Latin capital O with tilde
+006F 0303 [.08B2.004F.0002.1E88] % Latin small O with tilde
+0041 0308 [.08B3.0047.0008.1E88] % Latin capital A with diaeresis
+0061 0308 [.08B3.0047.0002.1E88] % Latin small A with diaeresis
+004F 0308 [.08B4.0047.0008.1E88] % Latin capital O with diaeresis
+006F 0308 [.08B4.0047.0002.1E88] % Latin small O with diaeresis
+0055 0308 [.08B5.0047.0008.1E88] % Latin capital U with diaeresis
+0075 0308 [.08B5.0047.0002.1E88] % Latin small U with diaeresis

@@ -1,0 +1,3 @@
+-c16,8 qgn_prop_link_embd_large.bmp
+-c16,8 qgn_prop_link_embd_medium.bmp
+-c16,1 qgn_prop_link_embd_small.bmp

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="12" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 12 200" height="200" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <g>
+                <path d="M 0.0 119.461 L 0.0 164.586 C 0.0 167.496 2.804 170.0 6.0 170.0 C 9.195 170.0 12.0 167.496 12.0 164.586 L 12.0 119.461 C 12.0 118.0 11.318 116.609 10.085 115.548996 C 8.939 114.564 7.451 114.0 6.0 114.0 C 2.804 114.0 0.0 116.551 0.0 119.461 z " fill-opacity="0.7"/>
+                <linearGradient x1="-688.626" gradientTransform="matrix(1 0 0 -1 694.626 1195.9688)" y1="1026.9688" x2="-688.626" gradientUnits="userSpaceOnUse" y2="1080.9688" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+                    <stop stop-color="#ffffff" offset="0"/>
+                    <stop stop-color="#52a2a5" offset="1"/>
+                </linearGradient>
+                <path fill="url(#XMLID_2_)" d="M 6.0 169.0 C 3.516 169.0 1.0 167.049 1.0 164.586 L 1.0 119.461 C 1.0 116.998 3.516 115.0 6.0 115.0 L 6.0 115.0 C 8.486 115.0 11.0 116.998 11.0 119.461 L 11.0 164.586 C 11.0 167.049 8.486 169.0 6.0 169.0 L 6.0 169.0 z "/>
+                <g stroke-opacity="0.4" fill-opacity="0.4">
+                    <g>
+                        <path fill="#417ed3" d="M 6.0 115.0 C 3.516 115.0 1.0 116.998 1.0 119.461 L 1.0 142.346 L 2.0 142.346 L 2.0 119.87499 C 2.0 117.95899 4.067 116.452995 6.0 116.452995 C 7.936 116.452995 10.0 117.95899 10.0 119.87499 L 10.0 142.346 L 11.0 142.346 L 11.0 119.46099 C 11.0 116.998 8.486 115.0 6.0 115.0 z "/>
+                    </g>
+                </g>
+                <path fill="#417ed3" d="M 10.0 164.578 C 10.0 166.494 7.936 168.0 6.0 168.0 C 4.067 168.0 2.0 166.494 2.0 164.578 L 2.0 142.29901 L 1.0 142.29901 L 1.0 164.58601 C 1.0 167.049 3.516 169.0 6.0 169.0 C 8.486 169.0 11.0 167.049 11.0 164.586 L 11.0 142.299 L 10.0 142.299 L 10.0 164.578 z " fill-opacity="0.4"/>
+            </g>
+            <rect width="12" fill="none" height="200"/>
+        </g>
+    </g>
+</svg>

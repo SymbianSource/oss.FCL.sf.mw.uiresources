@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="60" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 60 80" height="80" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <linearGradient x1="29.11" y1="37.63" x2="40.91" gradientUnits="userSpaceOnUse" y2="60.88" xlink:type="simple" xlink:actuate="onLoad" id="_6" xlink:show="other">
+        <stop stop-color="#a2c2dd" offset="0"/>
+        <stop stop-color="#a2c2dd" offset="0.1"/>
+        <stop stop-color="#6c83bb" offset="0.71"/>
+        <stop stop-color="#003d6d" offset="0.99"/>
+        <stop stop-color="#003d6d" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_6)" d="M 16.176 14.783 L 4.304 25.613 L 5.4 45.105 L 17.038 58.931 L 35.437 63.478 L 52.775 50.3 L 53.629 31.738998 L 40.182 16.516 L 21.266998 13.136001 L 16.176 14.783 z "/>
+    <linearGradient x1="51.06" y1="22.33" x2="51.06" gradientUnits="userSpaceOnUse" y2="60.83" xlink:type="simple" xlink:actuate="onLoad" id="_7" xlink:show="other">
+        <stop stop-color="#e6eef4" offset="0"/>
+        <stop stop-color="#c03a3a" offset="0.44"/>
+        <stop stop-color="#302d02" offset="0.94"/>
+        <stop stop-color="#302d02" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#_7)" points="49.166,34.424 53.273,31.867 52.434,50.122 48.846,53.186 "/>
+    <linearGradient x1="33.42" y1="7.53" x2="50.25" gradientUnits="userSpaceOnUse" y2="34.53" xlink:type="simple" xlink:actuate="onLoad" id="_8" xlink:show="other">
+        <stop stop-color="#e3dfe4" offset="0"/>
+        <stop stop-color="#c03a3a" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#_8)" points="35.658,18.622 40,16.839 53.254,31.852 49.109,34.432 "/>
+    <linearGradient x1="20.21" y1="11.1" x2="39.87" gradientUnits="userSpaceOnUse" y2="23.1" xlink:type="simple" xlink:actuate="onLoad" id="_9" xlink:show="other">
+        <stop stop-color="#e3dfe4" offset="0"/>
+        <stop stop-color="#c03a3a" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#_9)" points="16.355,15.092 21.292,13.496 40,16.839 35.646,18.638 "/>
+    <polygon fill="#e0cfd4" points="35.646,18.725 49.243,34.445 48.959,53.05 35.359,63.1 17.232,58.62 5.742,44.97 4.663,25.76 16.603,15.213 "/>
+    <linearGradient x1="-2.79" y1="1.57" x2="36.04" gradientUnits="userSpaceOnUse" y2="50.91" xlink:type="simple" xlink:actuate="onLoad" id="_10" xlink:show="other">
+        <stop stop-color="#e3dfe4" offset="0"/>
+        <stop stop-color="#c03a3a" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_10)" d="M 17.365 17.124 L 6.295 26.725 L 7.236 44.202 L 17.97 56.723 L 34.642 60.744 L 47.015 52.024 L 47.286 35.301 L 34.746 20.778 L 17.365 17.124 z "/>
+    <path fill="#ffffff" d="M 37.215 34.541 L 37.537 50.273003 L 40.049 50.827003 C 40.049 50.827003 39.947 44.693005 39.942 44.221004 C 42.255 44.802006 46.086002 46.194004 46.171 41.093006 C 46.262 35.68 40.074 35.254 37.215 34.541 z M 39.918 41.632 L 39.854 37.689 C 41.344 38.082 43.653 38.315 43.577 40.457 C 43.479 42.9 42.21 42.08 39.918 41.632 z "/>
+    <path fill="#ffffff" d="M 31.299 46.41 C 28.777 45.472 28.906 41.514 28.949 38.861 C 28.994999 36.024002 29.678 35.366 31.027 35.444 C 33.419 36.056 33.474 39.068 33.505 41.047 C 33.6 47.139 31.578 46.514 31.299 46.41 z M 26.636 40.401 C 26.855999 42.989002 26.855999 47.573 31.251 49.08 C 32.416 49.480003 36.798 49.781002 35.363 37.710003 C 35.041 35.002003 33.013 33.203003 31.07 32.773003 C 29.382 32.402 25.992 32.871 26.636 40.401 z "/>
+    <path fill="#ffffff" d="M 17.995 32.544 L 20.847 33.166 L 21.062 46.125 L 23.630001 46.732 L 23.415 33.725998 L 26.267 34.353996 L 26.23 32.018997 L 17.955 30.231997 L 17.995 32.544 z "/>
+    <path fill="#ffffff" d="M 9.185 32.171 C 9.467 34.495003 10.529 35.25 11.869 36.258003 C 11.869 36.258003 15.366 38.530003 15.280001 40.940002 C 15.259001 41.518 14.783001 42.294003 13.512001 42.026 C 11.3410015 41.577 11.503001 39.359 11.503001 39.359 L 8.772001 38.746002 C 8.772001 38.746002 9.008001 43.721 13.469002 44.611 C 14.663002 44.849 17.572002 44.765 17.756002 41.299 C 17.956003 37.528 13.428002 34.415 13.428002 34.415 C 12.508002 33.713 11.569002 33.332 11.721003 32.473 C 12.166002 29.972 14.947002 32.28 14.658003 33.155 L 17.301003 33.726997 C 17.301003 33.726997 17.684002 30.041998 13.145002 28.854998 C 10.238 28.098 8.981 30.487 9.185 32.171 z "/>
+</svg>

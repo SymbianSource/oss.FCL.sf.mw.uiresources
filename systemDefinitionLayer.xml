@@ -1,0 +1,312 @@
+<layer name="uiresources">
+  <module name="group_uiresources">
+    <component name="group_uiresources">
+      <unit unitID="uiresources" mrp="" bldFile="&layer_real_source_path;\group" name="uiresources" />
+    </component>
+  </module>
+  <module name="layouts">
+    <component name="layouts">
+      <unit unitID="uiresources_layouts" mrp="" filter="not_build" bldFile="&layer_real_source_path;\layouts\group" name="layouts" />
+    </component>
+  </module>
+  <module name="aknlayout2">
+    <component name="aknlayout2">
+      <unit unitID="uiresources_layouts_aknlayout2" mrp="" filter="not_build" bldFile="&layer_real_source_path;\layouts\aknlayout2\group" name="aknlayout2" priority="130" />
+    </component>
+  </module>
+  <module name="master2dhuiml">
+    <component name="master2dhuiml">
+      <unit unitID="uiresources_layouts_aknlayout2_internal_master2dhuiml" mrp="" filter="not_build,test_internal" bldFile="&layer_real_source_path;\layouts\aknlayout2\internal\master2dhuiml\group" name="master2dhuiml" />
+    </component>
+  </module>
+  <module name="LayPerfScalable2">
+    <component name="LayPerfScalable2">
+      <unit unitID="uiresources_layouts_aknlayout2_internal_tsrc_LayPerfScalable2" mrp="" filter="not_build,test_internal" bldFile="&layer_real_source_path;\layouts\aknlayout2\internal\tsrc\LayPerfScalable2\group" name="LayPerfScalable2" />
+    </component>
+  </module>
+  <module name="CdlEngine">
+    <component name="CdlEngine">
+      <unit unitID="uiresources_layouts_cdl_CdlEngine" mrp="" filter="not_build" bldFile="&layer_real_source_path;\layouts\cdl\CdlEngine\group" name="CdlEngine" priority="110" />
+    </component>
+  </module>
+  <module name="CdlServer">
+    <component name="CdlServer">
+      <unit unitID="uiresources_layouts_cdl_CdlServer" mrp="" filter="not_build" bldFile="&layer_real_source_path;\layouts\cdl\CdlServer\group" name="CdlServer" priority="120" />
+    </component>
+  </module>
+  <module name="CdlExplorer">
+    <component name="CdlExplorer">
+      <unit unitID="uiresources_layouts_cdl_CdlUtils_CdlExplorer" mrp="" filter="not_build" bldFile="&layer_real_source_path;\layouts\cdl\CdlUtils\CdlExplorer\group" name="CdlExplorer" />
+    </component>
+  </module>
+  <module name="CdlAutoTest">
+    <component name="CdlAutoTest">
+      <unit unitID="uiresources_layouts_cdl_Internal_CdlAutoTest" mrp="" filter="not_build,test_internal" bldFile="&layer_real_source_path;\layouts\cdl\Internal\CdlAutoTest\group" name="CdlAutoTest" />
+    </component>
+  </module>
+  <module name="TCdl1App">
+    <component name="TCdl1App">
+      <unit unitID="uiresources_layouts_cdl_Internal_TCdl1_TCdl1App" mrp="" filter="not_build,test_internal" bldFile="&layer_real_source_path;\layouts\cdl\Internal\TCdl1\TCdl1App\group" name="TCdl1App" />
+    </component>
+  </module>
+  <module name="locales">
+    <component name="locales">
+      <unit unitID="uiresources_locales" mrp="" filter="not_build" bldFile="&layer_real_source_path;\locales\group" name="locales" />
+    </component>
+  </module>
+  <module name="pictographs">
+    <component name="pictographs">
+      <unit unitID="uiresources_pictographs" mrp="" filter="not_build" bldFile="&layer_real_source_path;\pictographs\group" name="pictographs" />
+    </component>
+  </module>
+  <module name="AknPictograph">
+    <component name="AknPictograph">
+      <unit unitID="uiresources_pictographs_AknPictograph" mrp="" filter="not_build" bldFile="&layer_real_source_path;\pictographs\AknPictograph\group" name="AknPictograph" />
+    </component>
+  </module>
+  <module name="PictoTest">
+    <component name="PictoTest">
+      <unit unitID="uiresources_pictographs_AknPictograph_internal_tsrc_PictoTest" mrp="" filter="not_build,test_internal" bldFile="&layer_real_source_path;\pictographs\AknPictograph\internal\tsrc\PictoTest\group" name="PictoTest" />
+    </component>
+  </module>
+  <module name="AknPictoBitmapBuilder">
+    <component name="AknPictoBitmapBuilder">
+      <unit unitID="uiresources_pictographs_AknPictograph_tools_AknPictoBitmapBuilder" mrp="" filter="not_build" bldFile="&layer_real_source_path;\pictographs\AknPictograph\tools\AknPictoBitmapBuilder\group" name="AknPictoBitmapBuilder" />
+    </component>
+  </module>
+  <module name="skins">
+    <component name="skins">
+      <unit unitID="uiresources_skins" mrp="" filter="not_build" bldFile="&layer_real_source_path;\skins\group" name="skins" />
+    </component>
+  </module>
+  <module name="AknSkinContent">
+    <component name="AknSkinContent">
+      <unit unitID="uiresources_skins_AknSkinContent" mrp="" filter="not_build" bldFile="&layer_real_source_path;\skins\AknSkinContent\group" name="AknSkinContent" />
+    </component>
+  </module>
+  <module name="AknSkins">
+    <component name="AknSkins">
+      <unit unitID="uiresources_skins_AknSkins" mrp="" filter="not_build" bldFile="&layer_real_source_path;\skins\AknSkins\group" name="AknSkins" />
+    </component>
+  </module>
+  <module name="ModuleTest">
+    <component name="ModuleTest">
+      <unit unitID="uiresources_skins_AknSkins_internal_ModuleTest" mrp="" filter="not_build,test_internal" bldFile="&layer_real_source_path;\skins\AknSkins\internal\ModuleTest\group" name="ModuleTest" />
+    </component>
+  </module>
+  <module name="SdcTools">
+    <component name="SdcTools">
+      <unit unitID="uiresources_skins_AknSkins_internal_SdcTools" mrp="" filter="not_build,test_internal" bldFile="&layer_real_source_path;\skins\AknSkins\internal\SdcTools\group" name="SdcTools" />
+    </component>
+  </module>
+  <module name="SymFx">
+    <component name="SymFx">
+      <unit unitID="uiresources_skins_AknSkins_internal_SymFx" mrp="" filter="not_build,test_internal" bldFile="&layer_real_source_path;\skins\AknSkins\internal\SymFx\group" name="SymFx" />
+    </component>
+  </module>
+  <module name="uiconfig">
+    <component name="uiconfig">
+      <unit unitID="uiresources_uiconfig" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiconfig\group" name="uiconfig" />
+    </component>
+  </module>
+  <module name="s60config">
+    <component name="s60config">
+      <unit unitID="uiresources_uiconfig_s60config" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiconfig\s60config\group" name="s60config" />
+    </component>
+  </module>
+  <module name="uigraphics">
+    <component name="uigraphics">
+      <unit unitID="uiresources_uigraphics" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uigraphics\group" name="uigraphics" />
+    </component>
+  </module>
+  <module name="AknIcon">
+    <component name="AknIcon">
+      <unit unitID="uiresources_uigraphics_AknIcon" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uigraphics\AknIcon\group" name="AknIcon" />
+    </component>
+  </module>
+  <module name="AknIconDemo">
+    <component name="AknIconDemo">
+      <unit unitID="uiresources_uigraphics_AknIcon_internal_tsrc_AknIconDemo" mrp="" filter="not_build,test_internal" bldFile="&layer_real_source_path;\uigraphics\AknIcon\internal\tsrc\AknIconDemo\group" name="AknIconDemo" />
+    </component>
+  </module>
+  <module name="AknIconTest">
+    <component name="AknIconTest">
+      <unit unitID="uiresources_uigraphics_AknIcon_internal_tsrc_AknIconTest" mrp="" filter="not_build,test_internal" bldFile="&layer_real_source_path;\uigraphics\AknIcon\internal\tsrc\AknIconTest\group" name="AknIconTest" />
+    </component>
+  </module>
+  <module name="Bitmaps2">
+    <component name="Bitmaps2">
+      <unit unitID="uiresources_uigraphics_Bitmaps2" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uigraphics\Bitmaps2\group" name="Bitmaps2" />
+    </component>
+  </module>
+  <module name="FontProvider">
+    <component name="FontProvider">
+      <unit unitID="uiresources_uigraphics_FontProvider" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uigraphics\FontProvider\group" name="FontProvider" />
+    </component>
+  </module>
+  <module name="fonts">
+    <component name="fonts">
+      <unit unitID="uiresources_uigraphics_fonts" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uigraphics\fonts\group" name="fonts" />
+    </component>
+  </module>
+  <module name="Icons">
+    <component name="Icons">
+      <unit unitID="uiresources_uigraphics_Icons" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uigraphics\Icons\group" name="Icons" />
+    </component>
+  </module>
+  <module name="OemNokia">
+    <component name="OemNokia">
+      <unit unitID="uiresources_uigraphics_Icons_data_OemNokia" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uigraphics\Icons\data\OemNokia\group" name="OemNokia" />
+    </component>
+  </module>
+  <module name="m3gapi">
+    <component name="m3gapi">
+      <unit unitID="uiresources_uigraphics_m3gapi" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uigraphics\m3gapi\group" name="m3gapi" />
+    </component>
+  </module>
+  <module name="M3GCore11">
+    <component name="M3GCore11">
+      <unit unitID="uiresources_uigraphics_M3GCore11" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uigraphics\M3GCore11\group" name="M3GCore11" />
+    </component>
+  </module>
+  <module name="palette">
+    <component name="palette">
+      <unit unitID="uiresources_uigraphics_palette" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uigraphics\palette\group" name="palette" />
+    </component>
+  </module>
+  <module name="VariatedBitmaps">
+    <component name="VariatedBitmaps">
+      <unit unitID="uiresources_uigraphics_VariatedBitmaps" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uigraphics\VariatedBitmaps\group" name="VariatedBitmaps" />
+    </component>
+  </module>
+  <module name="uiresources_dom">
+    <component name="uiresources_dom">
+      <unit unitID="uiresources_uiresources_dom" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\group" name="uiresources_dom" />
+    </component>
+  </module>
+  <module name="cdl_api">
+    <component name="cdl_api">
+      <unit unitID="uiresources_uiresources_dom_cdl_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\cdl_api\group" name="cdl_api" />
+    </component>
+  </module>
+  <module name="extended_fonts_api">
+    <component name="extended_fonts_api">
+      <unit unitID="uiresources_uiresources_dom_extended_fonts_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\extended_fonts_api\group" name="extended_fonts_api" />
+    </component>
+  </module>
+  <module name="extended_skins_api">
+    <component name="extended_skins_api">
+      <unit unitID="uiresources_uiresources_dom_extended_skins_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\extended_skins_api\group" name="extended_skins_api" />
+    </component>
+  </module>
+  <module name="graphic_configuration_api">
+    <component name="graphic_configuration_api">
+      <unit unitID="uiresources_uiresources_dom_graphic_configuration_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\graphic_configuration_api\group" name="graphic_configuration_api" />
+    </component>
+  </module>
+  <module name="language_code_definitions_api">
+    <component name="language_code_definitions_api">
+      <unit unitID="uiresources_uiresources_dom_language_code_definitions_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\language_code_definitions_api\group" name="language_code_definitions_api" />
+    </component>
+  </module>
+  <module name="layout_data_api">
+    <component name="layout_data_api">
+      <unit unitID="uiresources_uiresources_dom_layout_data_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\layout_data_api\group" name="layout_data_api" />
+    </component>
+  </module>
+  <module name="layout_system_private_api">
+    <component name="layout_system_private_api">
+      <unit unitID="uiresources_uiresources_dom_layout_system_private_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\layout_system_private_api\group" name="layout_system_private_api" />
+    </component>
+  </module>
+  <module name="m3g_api">
+    <component name="m3g_api">
+      <unit unitID="uiresources_uiresources_dom_m3g_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\m3g_api\group" name="m3g_api" />
+    </component>
+  </module>
+  <module name="m3g_core_api">
+    <component name="m3g_core_api">
+      <unit unitID="uiresources_uiresources_dom_m3g_core_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\m3g_core_api\group" name="m3g_core_api" />
+    </component>
+  </module>
+  <module name="mifconv_definitions_api">
+    <component name="mifconv_definitions_api">
+      <unit unitID="uiresources_uiresources_dom_mifconv_definitions_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\mifconv_definitions_api\group" name="mifconv_definitions_api" />
+    </component>
+  </module>
+  <module name="mif_header_cdl_api">
+    <component name="mif_header_cdl_api">
+      <unit unitID="uiresources_uiresources_dom_mif_header_cdl_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\mif_header_cdl_api\group" name="mif_header_cdl_api" />
+    </component>
+  </module>
+  <module name="personalisation_and_skins_settings_api">
+    <component name="personalisation_and_skins_settings_api">
+      <unit unitID="uiresources_uiresources_dom_personalisation_and_skins_settings_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\personalisation_and_skins_settings_api\group" name="personalisation_and_skins_settings_api" />
+    </component>
+  </module>
+  <module name="private_user_area_code_definitions_api">
+    <component name="private_user_area_code_definitions_api">
+      <unit unitID="uiresources_uiresources_dom_private_user_area_code_definitions_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\private_user_area_code_definitions_api\group" name="private_user_area_code_definitions_api" />
+    </component>
+  </module>
+  <module name="skins_image_attributes_api">
+    <component name="skins_image_attributes_api">
+      <unit unitID="uiresources_uiresources_dom_skins_image_attributes_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\skins_image_attributes_api\group" name="skins_image_attributes_api" />
+    </component>
+  </module>
+  <module name="tfx_effect_setup_plugin_api">
+    <component name="tfx_effect_setup_plugin_api">
+      <unit unitID="uiresources_uiresources_dom_tfx_effect_setup_plugin_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\tfx_effect_setup_plugin_api\group" name="tfx_effect_setup_plugin_api" />
+    </component>
+  </module>
+  <module name="tfx_server_controller_plugin_api">
+    <component name="tfx_server_controller_plugin_api">
+      <unit unitID="uiresources_uiresources_dom_tfx_server_controller_plugin_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\tfx_server_controller_plugin_api\group" name="tfx_server_controller_plugin_api" />
+    </component>
+  </module>
+  <module name="tfx_server_plugin_ids_api">
+    <component name="tfx_server_plugin_ids_api">
+      <unit unitID="uiresources_uiresources_dom_tfx_server_plugin_ids_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\tfx_server_plugin_ids_api\group" name="tfx_server_plugin_ids_api" />
+    </component>
+  </module>
+  <module name="wallpaper_configuration_api">
+    <component name="wallpaper_configuration_api">
+      <unit unitID="uiresources_uiresources_dom_wallpaper_configuration_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_dom\wallpaper_configuration_api\group" name="wallpaper_configuration_api" />
+    </component>
+  </module>
+  <module name="uiresources_sdk">
+    <component name="uiresources_sdk">
+      <unit unitID="uiresources_uiresources_sdk" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_sdk\group" name="uiresources_sdk" />
+    </component>
+  </module>
+  <module name="font_definition_api">
+    <component name="font_definition_api">
+      <unit unitID="uiresources_uiresources_sdk_font_definition_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_sdk\font_definition_api\group" name="font_definition_api" />
+    </component>
+  </module>
+  <module name="graphics_api">
+    <component name="graphics_api">
+      <unit unitID="uiresources_uiresources_sdk_graphics_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_sdk\graphics_api\group" name="graphics_api" />
+    </component>
+  </module>
+  <module name="layout_id_definitions_api">
+    <component name="layout_id_definitions_api">
+      <unit unitID="uiresources_uiresources_sdk_layout_id_definitions_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_sdk\layout_id_definitions_api\group" name="layout_id_definitions_api" />
+    </component>
+  </module>
+  <module name="pictograph_api">
+    <component name="pictograph_api">
+      <unit unitID="uiresources_uiresources_sdk_pictograph_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_sdk\pictograph_api\group" name="pictograph_api" />
+    </component>
+  </module>
+  <module name="scalable_icons_api">
+    <component name="scalable_icons_api">
+      <unit unitID="uiresources_uiresources_sdk_scalable_icons_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_sdk\scalable_icons_api\group" name="scalable_icons_api" />
+    </component>
+  </module>
+  <module name="skins_api">
+    <component name="skins_api">
+      <unit unitID="uiresources_uiresources_sdk_skins_api" mrp="" filter="not_build" bldFile="&layer_real_source_path;\uiresources_sdk\skins_api\group" name="skins_api" />
+    </component>
+  </module>
+</layer>

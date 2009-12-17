@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE SystemDefinition SYSTEM "sysdef_1_4_0.dtd" [
+  <!ENTITY layer_real_source_path "sf/mw/uiresources" >
+]>
+
+<SystemDefinition name="uiresources" schema="1.4.0">
+  <systemModel>
+    <layer name="mw_layer">
+      <module name="uiresources">
+        <unit unitID="abs.uiresources" mrp="" bldFile="&layer_real_source_path;/group" name="uiresources" />
+        <unit unitID="abs.OemNokia" mrp="" bldFile="&layer_real_source_path;/uigraphics/Icons/data/OemNokia/group" filter="dfs_build" name="OemNokia" />
+      </module>
+    </layer>
+
+<layer name="api_test_layer">
+  <module name="uiresources_api_tests">
+  	<unit unitID="abs.uiresources.tsrc.all_tests" mrp="" bldFile="&layer_real_source_path;/tsrc/group" name="uiresources_tsrc_cdl" filter="uiresources_api_all" />
+		<unit unitID="abs.uiresources.tsrc.cdl" mrp="" bldFile="&layer_real_source_path;/uiresources_plat/cdl_api/tsrc/group" name="uiresources_tsrc_cdl" filter="cdl_api" />
+		<unit unitID="abs.uiresources.tsrc.extended_fonts" mrp="" bldFile="&layer_real_source_path;/uiresources_plat/extended_fonts_api/tsrc/group" name="uiresources_tsrc_extended_fonts" filter="extended_fonts_api" />
+		<unit unitID="abs.uiresources.tsrc.extended_skins" mrp="" bldFile="&layer_real_source_path;/uiresources_plat/extended_skins_api/tsrc/group" name="uiresources_tsrc_extended_skins" filter="extended_skins_api" />
+		<unit unitID="abs.uiresources.tsrc.graphic_configuration" mrp="" bldFile="&layer_real_source_path;/uiresources_plat/graphic_configuration_api/tsrc/group" name="uiresources_tsrc_graphic_configuration" filter="graphic_configuration_api" />
+		<unit unitID="abs.uiresources.tsrc.layout_data" mrp="" bldFile="&layer_real_source_path;/uiresources_plat/layout_data_api/tsrc/group" name="uiresources_tsrc_layout_data" filter="layout_data_api" />
+		<unit unitID="abs.uiresources.tsrc.layout_system_private" mrp="" bldFile="&layer_real_source_path;/uiresources_plat/layout_system_private_api/tsrc/group" name="uiresources_tsrc_layout_system_private" filter="layout_system_private_api" />
+		<unit unitID="abs.uiresources.tsrc.skins_image_attributes" mrp="" bldFile="&layer_real_source_path;/uiresources_plat/skins_image_attributes_api/tsrc/group" name="uiresources_tsrc_skins_image_attributes" filter="skins_image_attributes_api" />
+		<unit unitID="abs.uiresources.tsrc.font_definition" mrp="" bldFile="&layer_real_source_path;/uiresources_pub/font_definition_api/tsrc/group" name="uiresources_tsrc_font_definition" filter="font_definition_api" />
+		<unit unitID="abs.uiresources.tsrc.graphics" mrp="" bldFile="&layer_real_source_path;/uiresources_pub/graphics_api/tsrc/group" name="uiresources_tsrc_graphics" filter="graphics_api" />
+		<unit unitID="abs.uiresources.tsrc.pictograph" mrp="" bldFile="&layer_real_source_path;/uiresources_pub/pictograph_api/tsrc/group" name="uiresources_tsrc_pictograph" filter="pictograph_api" />
+		<unit unitID="abs.uiresources.tsrc.skins" mrp="" bldFile="&layer_real_source_path;/uiresources_pub/skins_api/tsrc/group" name="uiresources_tsrc_skins" filter="skins_api" />
+  </module>
+</layer>
+
+  </systemModel>
+</SystemDefinition>

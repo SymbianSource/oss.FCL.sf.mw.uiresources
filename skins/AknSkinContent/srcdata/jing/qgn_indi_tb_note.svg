@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 44 44" height="44" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <rect width="44" fill="none" height="44"/>
+    <linearGradient x1="22.4927" y1="3.6362" x2="22.4927" gradientUnits="userSpaceOnUse" y2="36.6104" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_32_" xlink:show="other">
+        <stop stop-color="#ffffcf" offset="0"/>
+        <stop stop-color="#f0de80" offset="0.11"/>
+        <stop stop-color="#c26e54" offset="0.35"/>
+        <stop stop-color="#b0361a" offset="0.48"/>
+        <stop stop-color="#ad2621" offset="0.6629"/>
+        <stop stop-color="#9c0a00" offset="0.75"/>
+        <stop stop-color="#991712" offset="0.82"/>
+        <stop stop-color="#8a0000" offset="0.91"/>
+        <stop stop-color="#730303" offset="0.99"/>
+        <stop stop-color="#730303" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_32_)" d="M 26.91 19.293 L 26.91 18.361 L 11.111 18.361 L 11.111 20.361 L 25.895 20.361 L 26.91 19.293 z M 20.576 22.361 L 11.111 22.361 L 11.111 24.361 L 20.576 24.361 L 20.576 22.361 z M 26.91 14.361 L 11.111 14.361 L 11.111 16.361 L 26.91 16.361 L 26.91 14.361 z M 26.008 8.031 L 24.014 8.031 L 24.014 11.332001 L 26.008 11.332001 L 26.008 8.031 z M 22.008 8.031 L 20.014 8.031 L 20.014 11.332001 L 22.008 11.332001 L 22.008 8.031 z M 28.984 17.266 L 30.97 15.279001 L 30.966 8.683001 L 27.665 8.683001 L 27.665 10.677 L 28.978998 10.677 L 28.978998 17.266 L 28.984 17.266 z M 14.031 8.031 L 12.037001 8.031 L 12.037001 11.332001 L 14.031 11.332001 L 14.031 8.031 z M 28.984 29.537 L 28.984 33.975 L 9.037 33.975 L 9.037 10.678 L 10.353 10.678 L 10.353 8.684 L 7.053 8.684 L 7.0429993 35.969 L 30.979 35.969 L 30.977 27.545002 L 28.984 29.537 z M 18.018 8.031 L 16.026 8.031 L 16.026 11.332001 L 18.018 11.332001 L 18.018 8.031 z M 21.061 31.326 L 26.021 29.672 L 37.943 17.748 L 34.633 14.441001 L 22.713 26.365 L 21.061 31.326 z "/>
+</svg>

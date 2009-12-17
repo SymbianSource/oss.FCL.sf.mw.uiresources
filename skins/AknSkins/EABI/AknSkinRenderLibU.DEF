@@ -1,0 +1,23 @@
+EXPORTS
+	_Z17AknsRlDummyExportv @ 1 NONAME
+	_ZN19CAknsRlMasterLayout13GetItemLayoutERK11TAknsItemIDRK5TRectRS3_ @ 2 NONAME
+	_ZN19CAknsRlMasterLayout17CurrentLayoutTypeEv @ 3 NONAME
+	_ZN19CAknsRlMasterLayout4NewLEv @ 4 NONAME
+	_ZN19CAknsRlMasterLayout9GetParentERK11TAknsItemID @ 5 NONAME
+	_ZN22CAknsRlDefaultRenderer4NewLEP15RAknsSrvSession @ 6 NONAME
+	_ZN22MAknsRlCommandIterator16CleanupOperationEPv @ 7 NONAME
+	_ZN22AknsAlAnimationFactory18CreateTimingModelLE4TUid @ 8 NONAME
+	_ZN22AknsAlAnimationFactory19CreateEffectPluginLE4TUid @ 9 NONAME
+	_ZN22AknsAlAnimationFactory21CreateAnimationValueLE4TUid @ 10 NONAME
+	_ZTI15CAknsAlPolyBase @ 11 NONAME ; #<TI>#
+	_ZTI15CAknsAlPolyLine @ 12 NONAME ; #<TI>#
+	_ZTI17CAknsAlPolyLine1D @ 13 NONAME ; #<TI>#
+	_ZTI31CAknsRlEffectPluginMovingLayers @ 14 NONAME ; #<TI>#
+	_ZTV15CAknsAlPolyBase @ 15 NONAME ; #<VT>#
+	_ZTV15CAknsAlPolyLine @ 16 NONAME ; #<VT>#
+	_ZTV17CAknsAlPolyLine1D @ 17 NONAME ; #<VT>#
+	_ZTV31CAknsRlEffectPluginMovingLayers @ 18 NONAME ; #<VT>#
+	_ZN11AknsRlUtils13IsPopupCenterERK11TAknsItemID @ 19 NONAME
+	_ZN11AknsRlUtils23GetPopupFrameDimensionsER5TSizeS1_ @ 20 NONAME
+	_ZN19CAknsRlMasterLayout17CurrentLayoutSizeEv @ 21 NONAME
+

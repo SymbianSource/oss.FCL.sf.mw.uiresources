@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="24" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-1.102 -0.617 24 82" height="82" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <path fill="#656b6b" d="M 14.898 -0.617 L 14.898 32.258 C 14.898 41.606 8.339 50.483 -1.1020002 52.795 L -1.1020002 -0.617 L 14.898 -0.617 z " fill-opacity="0.01"/>
+    <path fill="#656b6b" d="M 13.898 -0.617 L 13.898 32.258 C 13.898 41.356 7.533 49.444 -1.1020002 51.723 L -1.1020002 -0.6170006 L 13.898 -0.6170006 z " fill-opacity="0.02"/>
+    <path fill="#656b6b" d="M 12.898 -0.617 L 12.898 32.258 C 12.898 40.75 7.0839996 48.43 -1.1020002 50.692 L -1.1020002 -0.617 L 12.898 -0.617 z " fill-opacity="0.03"/>
+    <path fill="#656b6b" d="M 11.898 -0.617 L 11.898 32.258 C 11.898 39.998 6.726 47.354 -1.1020002 49.639 L -1.1020002 -0.617 L 11.898 -0.617 z " fill-opacity="0.06"/>
+    <path fill="#656b6b" d="M 10.896 -0.617 L 10.896 32.258 C 10.896 39.481 5.992 46.307 -1.1020002 48.582 L -1.1020002 -0.617 L 10.896 -0.617 z " fill-opacity="0.05"/>
+    <path fill="#656b6b" d="M 9.898 -0.617 L 9.896 31.258 C 9.898 38.471 5.824 44.962997 -1.1020002 47.373 L -1.1020002 -0.6170006 L 9.898 -0.6170006 z " fill-opacity="0.1"/>
+    <path fill="#656b6b" d="M 8.898 -0.617 L 8.896 30.258 C 8.898 37.212997 5.8199997 43.627 -1.1020002 46.192 L -1.1020002 -0.617 L 8.898 -0.617 z " fill-opacity="0.1"/>
+    <path fill="#656b6b" d="M 7.898 -0.617 L 7.896 29.268 C 7.898 35.961 5.6809998 42.297 -1.1020002 45.003998 L -1.1020002 -0.617 L 7.898 -0.617 z " fill-opacity="0.1"/>
+    <linearGradient x1="4.9" y1="38.54" x2="4.9" gradientUnits="userSpaceOnUse" y2="-2.08" xlink:type="simple" xlink:actuate="onLoad" id="_2" xlink:show="other">
+        <stop stop-color="#ffbebe" offset="0"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_2)" d="M 10.898 -0.617 L 10.898 28.268 C 10.898 35.94 5.851 42.432 -1.1020002 44.606 L -1.1020002 -0.617 L 10.898 -0.617 z "/>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="31.534" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="2.168 6.949 31.534 36.304" height="36.304" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <linearGradient x1="-4.0466" y1="7.1037" x2="26.3284" gradientUnits="userSpaceOnUse" y2="37.4787" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+                <stop stop-color="#ffffcf" offset="0"/>
+                <stop stop-color="#f0de80" offset="0.11"/>
+                <stop stop-color="#c26e54" offset="0.35"/>
+                <stop stop-color="#b0361a" offset="0.48"/>
+                <stop stop-color="#ad2621" offset="0.6629"/>
+                <stop stop-color="#9c0a00" offset="0.75"/>
+                <stop stop-color="#991712" offset="0.82"/>
+                <stop stop-color="#8a0000" offset="0.91"/>
+                <stop stop-color="#730303" offset="0.99"/>
+                <stop stop-color="#730303" offset="1"/>
+            </linearGradient>
+            <path fill="url(#XMLID_2_)" d="M 20.315 13.257 L 2.168 31.407 L 12.004001 33.481 L 13.895 43.252 L 32.103 25.047 L 20.315 13.257 z M 15.243 38.936 L 13.84 31.682 L 6.426 30.119 L 20.375 16.168001 L 29.193 24.988 L 15.243 38.936 z "/>
+            <path fill="#800000" d="M 21.202 21.662 C 20.776 22.516 20.97 23.342 21.518 23.888 C 23.642 26.014 30.28 22.475 29.323 18.792 C 31.13 17.626 33.702 17.566 33.702 17.566 L 33.649 15.323 C 31.537998 15.199 29.283998 17.071 28.700998 17.591 C 28.579 17.429 28.469995 17.261 28.304998 17.1 C 28.256 17.049 28.203 17.008 28.152998 16.959 C 28.485 16.6 30.638998 14.178 30.507998 11.917999 L 28.266998 11.867 C 28.266998 11.867 28.207 14.392 27.071 16.193 C 25.62 15.496 24.315 16.162 23.7 16.717001 L 25.037 18.074 C 25.381 17.824 25.978 17.742 26.82 18.587002 C 28.833 20.600002 25.077 22.829002 22.993 22.301004 C 22.549 22.19 21.202 21.662 21.202 21.662 z "/>
+        </g>
+    </g>
+    <polygon fill="#800000" points="19.956,11.047 17.842,11.894 16.196,7.801 18.31,6.949 "/>
+    <polygon fill="#800000" points="16.667,12.851 15.818,14.968 11.723,13.323 12.572,11.206 "/>
+</svg>

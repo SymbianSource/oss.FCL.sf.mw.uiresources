@@ -1,0 +1,13 @@
+// displaylayoutmetrics.cdl
+
+Name: Display Layout Metrics
+Version: 1.0
+UID: 0x10285822
+Flag: KCdlFlagRomOnly
+
+%% C++
+
+
+%% API
+
+TReal32 UnitValue();

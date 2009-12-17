@@ -1,0 +1,80 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+#ifndef __AKNSKINS_IBY__
+#define __AKNSKINS_IBY__
+
+// Libraries and Executables
+
+file=ABI_DIR\BUILD_DIR\aknskins.dll                     SHARED_LIB_DIR\aknskins.dll
+file=ABI_DIR\BUILD_DIR\aknskinsrv.dll                   SHARED_LIB_DIR\aknskinsrv.dll
+file=ABI_DIR\BUILD_DIR\aknskinsrv.exe                   PROGRAMS_DIR\aknskinsrv.exe
+file=ABI_DIR\BUILD_DIR\aknskinrenderlib.dll             SHARED_LIB_DIR\aknskinrenderlib.dll
+file=ABI_DIR\BUILD_DIR\aknswallpaperutils.dll           SHARED_LIB_DIR\aknswallpaperutils.dll
+file=ABI_DIR\BUILD_DIR\aknlocalskinlib.dll              SHARED_LIB_DIR\aknlocalskinlib.dll
+
+ECOM_PLUGIN(aknswallpaperplugin.dll,102750ca.rsc)
+
+// Series 60 Default System Skin
+
+AUTO-BITMAP=DATAZ_\RESOURCE_FILES_DIR\skins\101f84b9\Series60Skin.mbm  RESOURCE_FILES_DIR\skins\101f84b9\Series60Skin.mbm
+data=DATAZ_\SKINS_DIR\import\101f84b9\Series60Skin.skn         SKINS_DIR\import\101f84b9\Series60Skin.skn
+data=DATAZ_\RESOURCE_FILES_DIR\skins\101f84b9\Series60Skin.mif         RESOURCE_FILES_DIR\skins\101f84b9\Series60Skin.mif
+
+// Series 60 Default System Skin MIF CDL header
+ECOM_PLUGIN(101f84b9.dll,101f84b9.rsc)
+data=DATAZ_\resource\cdl\101f84b9_cdl_detail.rsc		Resource\Cdl\101f84b9_cdl_detail.rsc
+
+// "Haze" ROM skin
+#if defined(FF_THEME_HAZE)
+AUTO-BITMAP=DATAZ_\RESOURCE_FILES_DIR\skins\2000B12D\Haze.mbm  RESOURCE_FILES_DIR\skins\2000B12D\Haze.mbm
+data=DATAZ_\SKINS_DIR\import\2000B12D\Haze.skn         SKINS_DIR\import\2000B12D\Haze.skn
+data=DATAZ_\RESOURCE_FILES_DIR\skins\2000B12D\Haze.mif         RESOURCE_FILES_DIR\skins\2000B12D\Haze.mif
+#endif
+
+// "JingMask" ROM Mask
+#if defined(FF_THEME_JINGMASK)
+// (zero-length, must be excluded to make bmconv work in ROM image creation)
+//AUTO-BITMAP=DATAZ_\RESOURCE_FILES_DIR\skins\2000B12E\Jing.mbm  RESOURCE_FILES_DIR\skins\2000B12E\Jing.mbm
+data=DATAZ_\SKINS_DIR\import\2000B12E\Jing.skn         SKINS_DIR\import\2000B12E\Jing.skn
+data=DATAZ_\RESOURCE_FILES_DIR\skins\2000B12E\Jing.mif         RESOURCE_FILES_DIR\skins\2000B12E\Jing.mif
+#endif
+
+
+// Other data files
+
+data=ZSYSTEM\install\Series60SkinsSupport.SIS           \system\install\Series60SkinsSupport.SIS 
+data=ZSYSTEM\install\Series60ScalableSkinsSupport.SIS   \system\install\Series60ScalableSkinsSupport.SIS 
+
+// Backup
+
+data=DATAZ_\private\10207114\backup_registration.xml	private\10207114\backup_registration.xml
+
+// OOM plugin
+
+ECOM_PLUGIN(AknSkinsOOMPlugin.dll,aknskinsoomplugin.rsc)
+
+#if defined(__UI_TRANSITION_EFFECTS)
+DATA=DATAZ_\resource\skins\101f84b9\101f84b9.sel        RESOURCE_FILES_DIR\skins\101f84b9\101f84b9.sel
+// Using only default skin
+//DATA=DATAZ_\resource\skins\2000B12D\2000B12D.sel        RESOURCE_FILES_DIR\skins\2000B12D\2000B12D.sel
+//DATA=DATAZ_\resource\skins\2000B12E\2000B12E.sel        RESOURCE_FILES_DIR\skins\2000B12E\2000B12E.sel
+#endif
+
+
+#endif // __AKNSKINS_IBY__
+
+//  End of File 

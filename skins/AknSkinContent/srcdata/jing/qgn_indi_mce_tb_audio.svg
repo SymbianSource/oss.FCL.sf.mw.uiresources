@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 44 44" height="44" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <linearGradient x1="13.6353" y1="9.1528" x2="29.2007" gradientUnits="userSpaceOnUse" y2="32.8135" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_158_" xlink:show="other">
+        <stop stop-color="#ffffcf" offset="0"/>
+        <stop stop-color="#f0de80" offset="0.11"/>
+        <stop stop-color="#c26e54" offset="0.35"/>
+        <stop stop-color="#b0361a" offset="0.48"/>
+        <stop stop-color="#ad2621" offset="0.6629"/>
+        <stop stop-color="#9c0a00" offset="0.75"/>
+        <stop stop-color="#991712" offset="0.82"/>
+        <stop stop-color="#8a0000" offset="0.91"/>
+        <stop stop-color="#730303" offset="0.99"/>
+        <stop stop-color="#730303" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_158_)" d="M 34.15 27.539 C 34.15 27.442999 34.162003 27.344 34.15 27.246 L 34.15 8.732 L 15.984001 11.524 L 15.984001 27.143002 C 14.586001 26.880001 12.802001 27.264002 11.295001 28.247002 C 8.885001 29.825 8.111001 32.355003 9.215001 34.04 C 10.319001 35.725 13.418001 35.63 15.828001 34.05 C 17.408 33.016 18.283 31.604 18.398 30.273998 L 18.41 30.273998 C 18.41 30.273998 18.41 30.163998 18.41 29.963999 C 18.41 29.862999 18.418 29.765999 18.41 29.666998 L 18.41 16.853 L 31.727001 14.806001 L 31.727001 24.721 C 30.330002 24.457 28.539001 24.838001 27.037 25.825 C 24.625 27.404001 23.852001 29.939001 24.955 31.62 C 26.058 33.305 29.158 33.208 31.567 31.632 C 33.151 30.598 34.024 29.182 34.139 27.854 L 34.147 27.854 L 34.147 27.54 L 34.15 27.54 z "/>
+</svg>

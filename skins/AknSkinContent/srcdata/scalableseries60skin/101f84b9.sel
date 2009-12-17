@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sel xmlns="http://www.nokia.com/sel/2.0">
+	<fullscreentransitions>
+     	<transition context="1" effect="app_activate_common_defaultstyle">
+	    </transition>
+	    <transition context="3" effect="app_start_common_defaultstyle">
+	    </transition>
+	    <transition context="5" effect="app_exit_common_defaultstyle">
+	    </transition>
+	    <transition context="6" effect="app_start_rect_common_defaultstyle">
+	    </transition>
+		  <transition context="7" effect="app_start_switch_common_defaultstyle">
+	    </transition>	  
+	    <transition context="8" effect="app_start_switch_rect_common_defaultstyle">
+	    </transition>	 
+	    	    <transition context="12" effect="layout_switch_defaultstyle"> 
+	    </transition>
+	    <transition context="13" effect="layout_switch_Exit_defaultstyle"> 
+	    </transition>
+	    <transition context="14" effect="layout_switch_Start_defaultstyle"> 
+	    </transition>
+
+	  	<transition context="5000" effect="app_activate_common_defaultstyle"> 
+	    </transition>
+	    <!-- Appshell custom effects  -->
+	    <transition context="1001" effect="folder_open_defaultstyle" uid="0x101F4CD2"> 
+	    </transition>
+	    <transition context="1002" effect="folder_close_defaultstyle" uid="0x101F4CD2"> 
+	    </transition>
+        <transition context="1" effect="appshell_activate_common_defaultstyle" uid="0x101F4CD2"/>
+        <transition context="3" effect="appshell_activate_common_defaultstyle" uid="0x101F4CD2"/>
+        <transition context="5" effect="appshell_exit_defaultstyle" uid="0x101F4CD2"/>
+	    <!-- effect for switch to activeidle by appkey  -->
+	<transition context="5" effect="appshell_exit_defaultstyle" uid="0x102750f0"/>
+	    <!-- Startup custom exit effect -->
+	    <transition context="5" effect="startup_exit_defaultstyle" uid="0x100058F4"> 
+	    </transition>
+	    <!-- Screensaver exit effect -->
+	    <transition context="1001" effect="screensaver_deactivate_defaultstyle" uid="0x100056CF">
+	    </transition>    
+	    <!-- Screensaver start effect -->
+	    <transition context="1002" effect="screensaver_activate_defaultstyle" uid="0x100056CF">
+	    </transition>    
+	    <!-- Skin change effect -->
+			<transition context="1500" effect="app_skinchange_defaultstyle"> 
+	    </transition>	    	    
+	    <!-- Skin change2 effect -->
+			<transition context="1501" effect="app_skinchange_defaultstyle2"> 
+	    </transition>
+	    
+	    <!-- Touch dialer open effect -->
+			<transition context="1505" effect="touch_dialer_open_defaultstyle"> 
+	    </transition>	    	    
+	    <!-- Touch dialer close effect -->
+			<transition context="1506" effect="touch_dialer_close_defaultstyle"> 
+	    </transition>
+	    <!-- Active Idle3 view switch effect -->
+	    <transition context="1003" effect="activeidle_viewswitch_defaultstyle" uid="0x102750F0">
+	    </transition>    
+	    <transition context="1004" effect="activeidle_viewswitch_right_defaultstyle" uid="0x102750F0">
+	    </transition>    
+	    <transition context="1507" effect="call_swipe_answer_defaultstyle"> 
+	    </transition>
+	    <transition context="1508" effect="activeidle_viewswitch_showhide_defaultstyle"> 
+	    </transition>
+	    
+	    
+	</fullscreentransitions>
+	
+	<controltransitions>
+		  		  
+		  <transition context_uid="0x10281F88" effect="comp_optionsmenu_main_defaultstyle" action="3" actionstring="Appear">
+	    </transition>
+	    
+	   	<transition context_uid="0x10281F88" effect="comp_optionsmenu_main_defaultstyle" action="4" actionstring="Disappear">
+	    </transition>
+	    
+	    <transition context_uid="0x10281F89" effect="comp_optionsmenu_main_cascade_defaultstyle" action="3" actionstring="Appear">
+	    </transition>
+	    
+	   	<transition context_uid="0x10281F89" effect="comp_optionsmenu_main_cascade_defaultstyle" action="4" actionstring="Disappear">
+	    </transition>	    
+	    
+	    <transition context_uid="0x10281F90" effect="comp_taskswapper_defaultstyle" action="3" actionstring="Appear">
+	    </transition>
+	    
+	    <transition context_uid="0x10281F90" effect="comp_taskswapper_defaultstyle" action="4" actionstring="Disappear">
+	    </transition>		  
+	    	    
+	    <transition context_uid="0x10282E4C" effect="comp_contextmenu_defaultstyle" action="3" actionstring="Appear">
+	    </transition>		  
+		  
+		  <transition context_uid="0x10282E4C" effect="comp_contextmenu_defaultstyle" action="4" actionstring="Disappear">
+	    </transition>		  
+		        	
+
+      <transition context_uid="0x10282E4D" effect="comp_numberentry_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+
+      <transition context_uid="0x10282E4D" effect="comp_numberentry_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x10282E4A" effect="comp_toolbar_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+
+      <transition context_uid="0x10282E4A" effect="comp_toolbar_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x10282E49" effect="comp_touchtoolbar_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+
+      <transition context_uid="0x10282E49" effect="comp_touchtoolbar_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x20007B17" effect="comp_media_toolbar_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+
+      <transition context_uid="0x20007B17" effect="comp_media_toolbar_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+
+      <transition context_uid="0x10282E50" effect="comp_errornote_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E50" effect="comp_errornote_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E51" effect="comp_warningnote_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E51" effect="comp_warningnote_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E52" effect="comp_informationnote_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E52" effect="comp_informationnote_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E53" effect="comp_confirmationnote_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E53" effect="comp_confirmationnote_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E54" effect="comp_waitnote_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E54" effect="comp_waitnote_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E55" effect="comp_popuplist_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E55" effect="comp_popuplist_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E56" effect="comp_query_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E56" effect="comp_query_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E57" effect="comp_popup_default_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E57" effect="comp_popup_default_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x2000B472" effect="comp_systemnotify_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x2000B472" effect="comp_systemnotify_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x2000B473" effect="comp_systemnotify_battery_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x2000B473" effect="comp_systemnotify_battery_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+
+      <transition context_uid="0x2000B474" effect="comp_sequence_first_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x2000B474" effect="comp_sequence_first_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x2000B475" effect="comp_sequence_mid_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x2000B475" effect="comp_sequence_mid_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x2000B476" effect="comp_sequence_last_defaultstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x2000B476" effect="comp_sequence_last_defaultstyle" action="4" actionstring="Disappear">
+      </transition>
+
+
+	</controltransitions>		
+	
+	<listtransitions>
+		<transition effect="list_common_background_defaultstyle" context="1"/> 
+		<transition effect="list_common_item_defaultstyle" context="2"/> 
+		<transition effect="optionsmenu_background_defaultstyle" context="1" type="2"/>
+		<transition effect="optionsmenu_item_defaultstyle" context="2" type="2"/>
+
+		<transition uid="0x101F4CD2" effect="list_appshell_background_defaultstyle" context="1" type="1"/>
+		<transition uid="0x101F4CD2" effect="list_appshell_item_defaultstyle" context="2" type="1"/>
+
+		<transition uid="0x101F4CD2" effect="grid_appshell_background_defaultstyle" context="1" type="4"/>
+		<transition uid="0x101F4CD2" effect="grid_appshell_item_defaultstyle" context="2" type="4"/>
+		
+		<transition effect="idle_background_defaultstyle" context="1" type="6"/>
+		<transition effect="idle_item_defaultstyle" context="2" type="6"/>
+
+
+	</listtransitions>
+	
+</sel>

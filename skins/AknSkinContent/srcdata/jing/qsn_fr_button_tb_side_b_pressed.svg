@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="172.914" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-77.775 -2.962 172.914 14.173" height="14.173" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <linearGradient x1="8.6816" y1="14.0459" x2="8.6816" gradientUnits="userSpaceOnUse" y2="-42.6475" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+        <stop stop-color="#b0381e" offset="0"/>
+        <stop stop-color="#5c1001" offset="1"/>
+    </linearGradient>
+    <rect x="-77.775" y="10.502" fill-opacity="0.9" fill="url(#XMLID_4_)" width="172.914" height="0.709" stroke-opacity="0.9"/>
+    <linearGradient x1="8.6816" y1="33.8887" x2="8.6816" gradientUnits="userSpaceOnUse" y2="-70.9932" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_5_" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#e0c4bd" offset="0.11"/>
+        <stop stop-color="#c26e45" offset="0.35"/>
+        <stop stop-color="#cf4530" offset="0.48"/>
+        <stop stop-color="#ad0000" offset="0.7"/>
+        <stop stop-color="#9c0000" offset="0.75"/>
+        <stop stop-color="#990000" offset="0.82"/>
+        <stop stop-color="#8a0000" offset="0.91"/>
+        <stop stop-color="#730303" offset="0.99"/>
+        <stop stop-color="#730303" offset="1"/>
+    </linearGradient>
+    <rect x="-77.775" width="172.914" fill="url(#XMLID_5_)" y="9.794" height="0.708"/>
+    <rect x="-77.775" width="172.914" fill="#f6a2a0" y="-2.962" height="12.756"/>
+    <linearGradient x1="8.6816" y1="11.2109" x2="8.6816" gradientUnits="userSpaceOnUse" y2="-48.3164" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+        <stop stop-color="#fff5f5" offset="0"/>
+        <stop stop-color="#ffa29e" offset="1"/>
+    </linearGradient>
+    <rect x="-77.775" width="172.914" fill="url(#XMLID_6_)" y="-2.962" height="12.756"/>
+</svg>

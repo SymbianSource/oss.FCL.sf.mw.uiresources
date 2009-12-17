@@ -1,0 +1,34 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+#ifndef __AKNLAYOUT2_UIACCEL_QHD_TOUCH_IBY__
+#define __AKNLAYOUT2_UIACCEL_QHD_TOUCH_IBY__
+
+REM AKNLAYOUT2_UIACCEL_QHD_TOUCH
+
+#if defined(FF_ROM_INCLUDE_ALF)
+
+#if defined(__LAYOUT_360_640_TOUCH) || defined(__LAYOUT_640_360_TOUCH)
+
+ECOM_PLUGIN(10285D7B.dll,10285D7B.rsc)
+data=DATAZ_\resource\cdl\10285D7B_cdl_detail.rsc		Resource\Cdl\10285D7B_cdl_detail.rsc
+
+#endif
+
+#endif
+
+#endif

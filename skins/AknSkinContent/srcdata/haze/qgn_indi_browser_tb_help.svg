@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="44px" preserveAspectRatio="xMidYMid meet" viewBox="3.377 13.494 44 44" height="44px" x="0px" y="0px">
+    <switch>
+        <foreignObject x="0" width="1" y="0" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"/>
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <linearGradient x1="11.1807" y1="16.7612" x2="38.3082" gradientUnits="userSpaceOnUse" y2="43.8888" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+                                <stop stop-color="#ffffff" offset="0"/>
+                                <stop stop-color="#ffffff" offset="0.1142"/>
+                                <stop stop-color="#ffffff" offset="0.35"/>
+                                <stop stop-color="#ffffff" offset="0.4825"/>
+                                <stop stop-color="#ffffff" offset="0.7"/>
+                                <stop stop-color="#ffffff" offset="0.7458"/>
+                                <stop stop-color="#ffffff" offset="0.8189"/>
+                                <stop stop-color="#ffffff" offset="0.9097"/>
+                                <stop stop-color="#ffffff" offset="0.9888"/>
+                                <stop stop-color="#ffffff" offset="1"/>
+                            </linearGradient>
+                            <path fill="url(#SVGID_1_)" d="M 27.338 42.17 L 22.559 42.17 C 22.545 41.482 22.539 41.063 22.539 40.914 C 22.539 39.363 22.795 38.088997 23.307 37.090996 C 23.821 36.088997 24.846 34.963997 26.383 33.715996 C 27.918 32.466995 28.838 31.648996 29.137 31.260996 C 29.599998 30.646996 29.83 29.973995 29.83 29.236996 C 29.83 28.210997 29.422 27.332996 28.603 26.601995 C 27.784 25.870996 26.681 25.503996 25.294 25.503996 C 23.956 25.503996 22.839 25.885996 21.939 26.648996 C 21.039 27.413996 20.551 28.538996 20.551 30.135996 L 15.786001 30.120996 C 15.786001 27.659996 16.336 25.397997 18.104002 23.835997 C 19.872004 22.273996 22.193005 21.493996 25.068005 21.493996 C 28.091003 21.493996 30.496002 22.283997 32.285004 23.863997 C 34.072 25.444994 34.965004 27.284994 34.965004 29.383995 C 34.965004 30.547997 34.637005 31.648994 33.981003 32.685997 C 33.325 33.723 31.922005 35.133995 29.772003 36.921997 C 28.661003 37.845997 27.971004 38.589996 27.702003 39.150997 C 27.434 39.715 27.313 40.721 27.338 42.17 z "/>
+                        </g>
+                        <linearGradient x1="3.0532" y1="24.875" x2="30.1875" gradientUnits="userSpaceOnUse" y2="52.0093" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_2_" xlink:show="other">
+                            <stop stop-color="#ffffff" offset="0"/>
+                            <stop stop-color="#ffffff" offset="0.1142"/>
+                            <stop stop-color="#ffffff" offset="0.35"/>
+                            <stop stop-color="#ffffff" offset="0.4825"/>
+                            <stop stop-color="#ffffff" offset="0.7"/>
+                            <stop stop-color="#ffffff" offset="0.7458"/>
+                            <stop stop-color="#ffffff" offset="0.8189"/>
+                            <stop stop-color="#ffffff" offset="0.9097"/>
+                            <stop stop-color="#ffffff" offset="0.9888"/>
+                            <stop stop-color="#ffffff" offset="1"/>
+                        </linearGradient>
+                        <circle fill="url(#SVGID_2_)" r="2.666" cx="25.008" cy="46.828"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </switch>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<api id="09954e0f1e81179801c8587dc8c02781" dataversion="2.0">
+  <name>Graphic Configuration API</name>
+  <description>Information of preferred display modes and compression for different types of graphics.</description>
+  <type>c++</type>
+  <collection>domain</collection>
+  <libs>
+    <lib name="aknicon.lib" />
+  </libs>
+  <release category="platform"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>no</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

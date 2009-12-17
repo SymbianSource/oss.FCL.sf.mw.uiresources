@@ -1,0 +1,47 @@
+# removegtfiles.flm
+#
+# Copyright (c) 2007-2008 Nokia Ltd. All rights reserved.
+#
+# Header file exporting Function Like Makefile (FLM)
+# The file destinations  relative to EPOCROOT
+
+CLEANTARGETS:=
+
+TARGETDIR=$(EPOCROOT)/EPOC32/DATA/Z
+PLUGINDIR=$(TARGETDIR)/RESOURCE/PLUGINS
+TARGETDIRCFG=$(EPOCROOT)/EPOC32/RELEASE/$(PLATFORM)/$(CFG)
+
+LISTOFFILES:=eon14.gdr ncrbiu.ttf ncrbru.ttf ncrriu.ttf ncrrru.ttf ntmbiu.ttf ntmbru.ttf ntmriu.ttf ntmrru.ttf swabiu.ttf swabru.ttf swariu.ttf swarru.ttf unicode.gdr unicode_minus_cjk.gdr unicode_most_basic.gdr
+PLUGINFILES:=freetype.rsc
+DLLS:=freetype.dll freetype.dll.map
+             
+CLEANTARGETS:=$(addprefix $(TARGETDIR)/RESOURCE/FONTS/,$(LISTOFFILES))
+CLEANTARGETS:=$(CLEANTARGETS) $(addprefix $(PLUGINDIR)/,$(PLUGINFILES))
+CLEANTARGETS:=$(CLEANTARGETS) $(addprefix $(TARGETDIRCFG)/,$(DLLS))
+
+#$(info <CLEANTARGETS:=$(CLEANTARGETS)>)
+
+define CleanFiles
+	[ ! -z "$1" ] && {  echo "      <rm files=' $1' />"; $(GNURM) -f $1; };
+endef
+
+define group10filecleans
+	-@$(if $1,$(call CleanFiles,$(wordlist 1,10,$1))
+	$(call group10filecleans,$(wordlist 11,$(words $1),$1)),true)
+endef
+
+define group50filecleans
+	-@$(if $1,$(call group10filecleans,$(wordlist 1,50,$1))
+	$(call group50filecleans,$(wordlist 51,$(words $1),$1)),true)
+endef
+
+define removefiles
+
+TARGET_$(PLATFORM)_$(CFG):=1
+MAKEFILE::
+	$(call group50filecleans,$(CLEANTARGETS))
+endef
+
+ifeq ($(TARGET_$(PLATFORM)_$(CFG)),)
+$(eval $(call removefiles))
+endif

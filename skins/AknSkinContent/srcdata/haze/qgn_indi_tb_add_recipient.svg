@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44px" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 44 44" height="44px" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <path fill="url(#SVGID_1)" d="M 10.034 16.072 C 10.034 19.523 12.841001 22.331 16.293 22.331 C 19.743 22.331 22.551998 19.523 22.551998 16.072002 C 22.551998 12.621004 19.742 9.812002 16.293 9.812002 C 12.841 9.813 10.034 12.621 10.034 16.072 z M 12.538 16.072 C 12.538 14.001 14.224 12.316 16.294 12.316 C 18.364002 12.316 20.05 14.000999 20.05 16.072 C 20.05 18.143002 18.364 19.826 16.294 19.826 C 14.224001 19.826 12.538 18.145 12.538 16.072 z "/>
+    <path fill="url(#SVGID_1)" d="M 25.791 34.134 L 25.66 33.542 C 23.726 26.939 21.39 23.582 20.03 23.582 L 12.550999 23.582 C 11.1919985 23.582 8.866999 26.915 6.9209986 33.542 C 6.9209986 33.542 6.8619986 33.807 6.7909985 34.134 L 9.38 34.134 C 10.46 30.387 11.958 27.082 12.927 26.086 L 19.66 26.086 C 20.637 27.082 22.039 30.481998 23.202 34.134 L 25.791 34.134 z "/>
+    <polygon fill="url(#SVGID_1)" points="37.148,18.873 32.398,18.873 32.398,14.123 29.898,14.123 29.898,18.873 25.148,18.873 25.148,21.373 29.898,21.373 29.898,26.123 32.398,26.123 32.398,21.373 37.148,21.373 "/>
+    <rect width="44" fill="none" height="44"/>
+    <defs>
+        <linearGradient x1="16.29" y1="9.79" x2="16.29" gradientUnits="userSpaceOnUse" y2="34.1" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#ffffff" offset="1"/>
+        </linearGradient>
+    </defs>
+</svg>

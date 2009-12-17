@@ -1,0 +1,37 @@
+/*
+* Copyright (c) 2006 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  File that exports the files belonging to 
+:                Extended Skins API
+*
+*/
+
+
+#include <platform_paths.hrh>
+
+PRJ_PLATFORMS
+DEFAULT
+
+PRJ_EXPORTS
+
+../inc/AknsSrvSkinInformationPkg.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknsSrvSkinInformationPkg.h)
+../inc/AknsSrvVariant.hrh     MW_LAYER_PLATFORM_EXPORT_PATH(AknsSrvVariant.hrh)
+../inc/AknsPointerStore.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknsPointerStore.h)
+../inc/AknsEffectAnim.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknsEffectAnim.h)
+../inc/AknsSrvClient.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknsSrvClient.h)
+../inc/AknsSrvChunkLookup.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknsSrvChunkLookup.h)
+../inc/AknsItemDef.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknsItemDef.h)
+../inc/AknsPkgID.inl     MW_LAYER_PLATFORM_EXPORT_PATH(AknsPkgID.inl)
+../inc/AknsSkinUID.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknsSkinUID.h)
+../inc/AknsRendererWrapper.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknsRendererWrapper.h)
+../inc/AknsPkgID.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknsPkgID.h)

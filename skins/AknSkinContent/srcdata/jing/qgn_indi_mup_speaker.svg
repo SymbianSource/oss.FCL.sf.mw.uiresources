@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="20" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 20 20" height="20" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <path fill="#840000" d="M 4.495 3.993 C 4.495 3.993 3.1609998 6.851 2.7199998 7.795 C 2.0619998 7.795 0.041999817 7.795 0.041999817 7.795 L 0.041999817 15.525 C 0.041999817 15.525 2.0279999 15.525 2.6849997 15.525 C 3.1049998 16.588 4.455 19.993 4.455 19.993 L 10.042999 19.993 L 10.042999 3.993 L 4.495 3.993 z M 8.792 18.771 L 5.31 18.771 L 3.54 14.3 L 1.292 14.3 L 1.292 9.019 L 3.522 9.019 L 5.299 5.217 L 8.792 5.217 L 8.792 18.771 z "/>
+    <linearGradient x1="3.835" gradientTransform="matrix(1 0 0 -1 0 19)" y1="12.0176" x2="8.0107" gradientUnits="userSpaceOnUse" y2="2.4132" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffa29e" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#XMLID_2_)" points="3.522,9.019 1.292,9.019 1.292,14.301 3.54,14.301 5.31,18.771 8.792,18.771 8.792,5.217   5.299,5.217 "/>
+    <rect width="20" fill="none" height="20"/>
+</svg>

@@ -1,0 +1,40 @@
+/*
+* Copyright (c) 2006 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  File that exports the files belonging to 
+:                CDL API
+*
+*/
+
+
+#include <platform_paths.hrh>
+
+PRJ_PLATFORMS
+DEFAULT
+
+PRJ_EXPORTS
+
+../inc/UserPckg.cdl     MW_LAYER_PLATFORM_EXPORT_PATH(UserPckg.cdl)
+../inc/userpckg.cdl.h     MW_LAYER_PLATFORM_EXPORT_PATH(userpckg.cdl.h)
+../inc/userpckg.cdl.common.hrh     MW_LAYER_PLATFORM_EXPORT_PATH(userpckg.cdl.common.hrh)
+../inc/userpckg.cdl.common.h     MW_LAYER_PLATFORM_EXPORT_PATH(userpckg.cdl.common.h)
+../inc/CdlEngDef.h     MW_LAYER_PLATFORM_EXPORT_PATH(CdlEngDef.h)
+../inc/CdlRefs.h     MW_LAYER_PLATFORM_EXPORT_PATH(CdlRefs.h)
+../inc/CdlUserPackageExplorer.h     MW_LAYER_PLATFORM_EXPORT_PATH(CdlUserPackageExplorer.h)
+../inc/CdlExplorer.inl     MW_LAYER_PLATFORM_EXPORT_PATH(CdlExplorer.inl)
+../inc/CdlTypes.h     MW_LAYER_PLATFORM_EXPORT_PATH(CdlTypes.h)
+../inc/CdlEngine.h     MW_LAYER_PLATFORM_EXPORT_PATH(CdlEngine.h)
+../inc/CdlExplorer.h     MW_LAYER_PLATFORM_EXPORT_PATH(CdlExplorer.h)
+../inc/CdlEcom.hrh     MW_LAYER_PLATFORM_EXPORT_PATH(CdlEcom.hrh)
+../inc/CdlEcom.rh     MW_LAYER_PLATFORM_EXPORT_PATH(CdlEcom.rh)
+../inc/CdlRefs.inl     MW_LAYER_PLATFORM_EXPORT_PATH(CdlRefs.inl)

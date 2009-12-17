@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="84" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="63.373 14.657 84 58" height="58" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <linearGradient x1="104.86" y1="43.19" x2="115.84" gradientUnits="userSpaceOnUse" y2="64.8" xlink:type="simple" xlink:actuate="onLoad" id="_6" xlink:show="other">
+        <stop stop-color="#aabbd7" offset="0"/>
+        <stop stop-color="#92a5cc" offset="0.26"/>
+        <stop stop-color="#6c83bb" offset="0.71"/>
+        <stop stop-color="#637db5" offset="0.76"/>
+        <stop stop-color="#4c6ea4" offset="0.83"/>
+        <stop stop-color="#265689" offset="0.91"/>
+        <stop stop-color="#003d6d" offset="0.99"/>
+        <stop stop-color="#003d6d" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_6)" d="M 97.197 19.751 L 92.183 22.397999 C 83.951 25.661999 78.918 34.052 79.402 43.754997 C 80.048004 56.802998 90.525 67.843994 102.756 68.368996 C 107.458 68.56899 111.879 67.213 115.541 64.44199 C 115.604004 64.43399 120.361 60.868996 123.247 58.075993 C 125.23 56.155994 126.613 54.44699 128.243 50.921993 C 129.2 48.837994 129.652 46.09899 129.652 43.184994 C 129.652 38.323994 128.38599 32.987995 126.08399 29.434994 C 122.00599 23.133993 117.87599 19.921993 111.828995 18.347994 C 105.65 16.741 98.554 19.234 97.197 19.751 z M 126.082 29.435 L 126.082 29.435 L 126.082 29.435 z "/>
+    <linearGradient x1="105.61" y1="20.8" x2="124.16" gradientUnits="userSpaceOnUse" y2="59.27" xlink:type="simple" xlink:actuate="onLoad" id="_7" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#e0eaf3" offset="0.11"/>
+        <stop stop-color="#a2c2dd" offset="0.35"/>
+        <stop stop-color="#8ca9cf" offset="0.48"/>
+        <stop stop-color="#6c83bb" offset="0.7"/>
+        <stop stop-color="#637db5" offset="0.75"/>
+        <stop stop-color="#4c6ea4" offset="0.82"/>
+        <stop stop-color="#265689" offset="0.91"/>
+        <stop stop-color="#003d6d" offset="0.99"/>
+        <stop stop-color="#003d6d" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_7)" d="M 90.855 23.499 L 97.27901 20.094 C 97.23801 20.119 105.05201 16.946 111.73801 18.686 C 118.200005 20.368 122.07001 23.882 125.78801 29.625 C 129.509 35.362 130.38101 45.417 127.92401 50.776 C 126.33701 54.212 125.02201 55.872 123.002014 57.827 C 120.10201 60.636 115.346016 64.192 115.346016 64.192 L 90.855 23.499 z "/>
+    <radialGradient gradientUnits="userSpaceOnUse" xlink:type="simple" r="32.16" xlink:actuate="onLoad" cx="90.57" id="_8" cy="27.95" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#a2c2dd" offset="1"/>
+    </radialGradient>
+    <path fill="url(#_8)" d="M 123.463 45.649 C 124.104 58.528 114.837 68.54 102.769 68.02 C 90.693 67.504 80.39 56.62 79.75 43.738 C 79.11 30.862 88.376 20.842999 100.444 21.362999 C 112.523 21.893 122.824 32.771 123.463 45.649 z "/>
+    <linearGradient x1="83.96" y1="28.59" x2="102.29" gradientUnits="userSpaceOnUse" y2="58.62" xlink:type="simple" xlink:actuate="onLoad" id="_9" xlink:show="other">
+        <stop stop-color="#e6eef4" offset="0"/>
+        <stop stop-color="#cbb5db" offset="0.13"/>
+        <stop stop-color="#ae79c2" offset="0.28"/>
+        <stop stop-color="#9d54b2" offset="0.39"/>
+        <stop stop-color="#9646ac" offset="0.44"/>
+        <stop stop-color="#70297e" offset="0.6"/>
+        <stop stop-color="#54135c" offset="0.74"/>
+        <stop stop-color="#430647" offset="0.86"/>
+        <stop stop-color="#3d013f" offset="0.94"/>
+        <stop stop-color="#3d013f" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_9)" d="M 100.326 58.572 C 98.51199 58.147 97.111 56.343 97.111 54.642998 C 97.111 52.828 98.509 51.749996 100.326 52.184 C 102.106995 52.598 103.504 54.369 103.504 56.139 C 103.504 57.846 102.064 58.979 100.326 58.572 z "/>
+    <path fill="url(#_9)" d="M 97.769 48.61 C 97.769 45.391 99.356995 43.918 101.549995 42.39 C 102.83399 41.515 104.08399 40.788 104.08399 38.899998 C 104.08399 36.745 102.30599 34.439 100.149994 33.931 C 97.65399 33.347 96.03099 34.888 95.98999 37.297 L 91.11099 36.153 C 91.034996 31.029999 95.007996 27.807 100.190994 29.025 C 104.952995 30.14 109.034996 35.148 109.034996 39.952 C 109.034996 46.227 103.327995 44.62 102.533 49.725 L 97.769 48.61 z "/>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="100" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-1.979 1.139 100 60" height="60" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect x="-1.979" y="32.139" fill-opacity="0.01" fill="#656b6b" width="100" height="29"/>
+        <rect x="-1.979" y="33.139" fill-opacity="0.02" fill="#656b6b" width="100" height="28"/>
+        <rect x="-1.979" y="34.139" fill-opacity="0.03" fill="#656b6b" width="100" height="27"/>
+        <rect x="-1.979" y="35.139" fill-opacity="0.05" fill="#656b6b" width="100" height="26"/>
+        <path fill="#656b6b" d="M 98.021 61.139 L 98.021 36.139 C 83.087006 36.139 28.322006 36.139 -1.9789963 36.139 L -1.9789963 61.139 L 98.021 61.139 z " fill-opacity="0.06"/>
+        <path fill="#656b6b" d="M 98.021 61.139 L 98.021 37.139 C 82.503006 37.139 28.151001 37.139 -1.9789963 37.139 L -1.9789963 61.139 L 98.021 61.139 z " fill-opacity="0.1"/>
+        <path fill="#656b6b" d="M 98.021 61.139 L 98.021 38.139 C 81.98 38.139 28.0 38.139 -1.9789963 38.139 L -1.9789963 61.139 L 98.021 61.139 z " fill-opacity="0.1"/>
+        <path fill="#656b6b" d="M 98.021 61.139 L 98.021 39.139 C 81.046005 39.139 27.729004 39.139 -1.9789963 39.139 L -1.9789963 61.139 L 98.021 61.139 z " fill-opacity="0.1"/>
+        <rect x="-1.979" width="100" fill="#52a1a4" y="36.139" height="1"/>
+        <rect x="-1.979" width="100" fill="#52a1a4" y="37.139" height="24"/>
+        <rect x="-1.979" width="100" fill="none" y="1.139" height="60"/>
+    </g>
+</svg>

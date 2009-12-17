@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="172.913" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-77.61 -3.161 172.913 14.174" height="14.174" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <linearGradient x1="8.8467" y1="53.5322" x2="8.8467" gradientUnits="userSpaceOnUse" y2="-3.1612" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+        <stop stop-color="#b0381e" offset="0"/>
+        <stop stop-color="#5c1001" offset="1"/>
+    </linearGradient>
+    <rect x="-77.61" y="-3.161" fill-opacity="0.9" fill="url(#XMLID_4_)" width="172.913" height="0.709" stroke-opacity="0.9"/>
+    <linearGradient x1="8.8467" y1="73.3749" x2="8.8467" gradientUnits="userSpaceOnUse" y2="-31.5069" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_5_" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#e0c4bd" offset="0.11"/>
+        <stop stop-color="#c26e45" offset="0.35"/>
+        <stop stop-color="#cf4530" offset="0.48"/>
+        <stop stop-color="#ad0000" offset="0.7"/>
+        <stop stop-color="#9c0000" offset="0.75"/>
+        <stop stop-color="#990000" offset="0.82"/>
+        <stop stop-color="#8a0000" offset="0.91"/>
+        <stop stop-color="#730303" offset="0.99"/>
+        <stop stop-color="#730303" offset="1"/>
+    </linearGradient>
+    <rect x="-77.61" width="172.913" fill="url(#XMLID_5_)" y="-2.452" height="0.708"/>
+    <rect x="-77.61" width="172.913" fill="#f6a2a0" y="-1.744" height="12.757"/>
+    <linearGradient x1="8.8467" y1="50.6972" x2="8.8467" gradientUnits="userSpaceOnUse" y2="-8.8301" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+        <stop stop-color="#fff5f5" offset="0"/>
+        <stop stop-color="#ffa29e" offset="1"/>
+    </linearGradient>
+    <rect x="-77.61" width="172.913" fill="url(#XMLID_6_)" y="-1.744" height="12.757"/>
+</svg>

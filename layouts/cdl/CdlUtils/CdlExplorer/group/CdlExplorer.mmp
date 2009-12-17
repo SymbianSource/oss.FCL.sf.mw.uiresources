@@ -1,0 +1,68 @@
+/*
+* Copyright (c) 2003-2007 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Project definition file for project CdlExplorer.
+*
+*/
+
+
+#include <data_caging_paths.hrh>
+#include <platform_paths.hrh>
+
+TARGET          cdlexplorer.exe
+TARGETTYPE      exe
+UID             0x100039CE 0x101F9564
+
+CAPABILITY      CAP_APPLICATION
+VENDORID        VID_DEFAULT
+
+SOURCEPATH      ../src
+SOURCE          cdlexplorerapp.cpp
+SOURCE          cdlexplorerappui.cpp
+SOURCE          cdlexplorerdocument.cpp
+SOURCE          cdlexplorercontainer.cpp
+SOURCE          cdlexplorable.cpp
+SOURCE          userpackageexplorable.cpp
+SOURCE          interfaceexplorable.cpp
+SOURCE          globalcustsexplorable.cpp
+
+USERINCLUDE     .
+USERINCLUDE     ../inc
+
+// This is a SYSTEMINCLUDE macro containing the middleware
+// layer specific include directories
+MW_LAYER_SYSTEMINCLUDE
+
+SYSTEMINCLUDE   ../../../../../inc
+SYSTEMINCLUDE   ../../../../inc
+
+START RESOURCE  ../data/cdlexplorer.rss
+HEADER
+TARGETPATH      APP_RESOURCE_DIR
+LANG sc
+END  // RESOURCE
+
+START RESOURCE  ../aif/cdlexplorer_reg.rss
+DEPENDS cdlexplorer.rsg
+// Do not change the UID below.
+TARGETPATH      /private/10003a3f/apps
+END
+
+LIBRARY         euser.lib
+LIBRARY         apparc.lib
+LIBRARY         cone.lib
+LIBRARY         eikcore.lib
+LIBRARY         eikcoctl.lib
+LIBRARY         avkon.lib
+LIBRARY         cdlengine.lib
+LIBRARY			efsrv.lib

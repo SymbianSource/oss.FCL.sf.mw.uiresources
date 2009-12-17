@@ -1,0 +1,31 @@
+/*
+* Copyright (c) 2004 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Local variation for Skin client-side library
+*
+*/
+
+
+#ifndef AKNSKINSVARIANT_HRH
+#define AKNSKINSVARIANT_HRH
+
+// define this if note sliding animations should be supported.
+// The default value is to animate the notes. Sliding direction
+// is defined by active skin
+// 0 - animations disabled
+// 1 - animations enabled
+const TInt KAknsFeaSlideNotes = 1;
+
+#endif // AKNSKINSVARIANT_HRH
+
+// End of File

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="44px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 44 44" height="44px" x="0px" y="0px">
+    <rect width="44" fill="none" height="44"/>
+    <path fill="url(#SVGID_1_)" d="M 26.91 19.293 L 26.91 18.361 L 11.111 18.361 L 11.111 20.361 L 25.895 20.361 L 26.91 19.293 z M 20.576 22.361 L 11.111 22.361 L 11.111 24.361 L 20.576 24.361 L 20.576 22.361 z M 26.91 14.361 L 11.111 14.361 L 11.111 16.361 L 26.91 16.361 L 26.91 14.361 z M 26.008 8.031 L 24.014 8.031 L 24.014 11.332001 L 26.008 11.332001 L 26.008 8.031 z M 22.008 8.031 L 20.014 8.031 L 20.014 11.332001 L 22.008 11.332001 L 22.008 8.031 z M 28.984 17.266 L 30.97 15.279001 L 30.968 8.683001 L 27.666998 8.683001 L 27.666998 10.677 L 28.982998 10.677 L 28.982998 17.266 z M 14.031 8.031 L 12.037001 8.031 L 12.037001 11.332001 L 14.031 11.332001 L 14.031 8.031 z M 28.984 29.537 L 28.984 33.975 L 9.037 33.975 L 9.037 10.678 L 10.353 10.678 L 10.353 8.684 L 7.053 8.684 L 7.043 35.969 L 30.979 35.969 L 30.976 27.545002 L 28.984 29.537 z M 18.018 8.031 L 16.026 8.031 L 16.026 11.332001 L 18.018 11.332001 L 18.018 8.031 z M 21.061 31.326 L 26.022 29.672 L 37.944 17.748 L 34.635 14.441001 L 22.713 26.365 L 21.061 31.326 z "/>
+    <defs>
+        <linearGradient x1="22.4932" y1="7.7827" x2="22.4932" gradientUnits="userSpaceOnUse" y2="35.9248" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#ffffff" offset="1"/>
+        </linearGradient>
+    </defs>
+</svg>

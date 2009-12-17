@@ -1,0 +1,64 @@
+/*
+* Copyright (c) 2002-2007 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description: 
+*   Build file
+*
+*/
+
+
+#include <platform_paths.hrh>
+
+PRJ_PLATFORMS 
+DEFAULT TOOLS 
+
+PRJ_EXPORTS
+
+// internal headers
+../srvinc/AknIconSrvDebug.h     |../../../inc/AknIconSrvDebug.h
+
+// IBY-files
+../rom/AknIcon.iby CORE_MW_LAYER_IBY_EXPORT_PATH(aknicon.iby)
+../SvgtFbsRasterizer/rom/fbsrasterizer.iby CORE_MW_LAYER_IBY_EXPORT_PATH(fbsrasterizer.iby)
+
+./akniconinterfaces.meta /epoc32/tools/makefile_templates/s60/akniconinterfaces.meta
+./akniconinterfaces.flm  /epoc32/tools/makefile_templates/s60/akniconinterfaces.flm
+./s60extensions.xml      /epoc32/tools/makefile_templates/s60/s60extensions.xml
+
+PRJ_EXTENSIONS
+#if defined(SBSV2) && !defined(TOOLS)
+start extension s60/akniconinterfaces
+option FILENAME MifHeader
+end
+#endif
+
+
+PRJ_MMPFILES
+#if defined(TOOLS)
+MifToCdlIndex.mmp
+#else
+  
+#ifndef SBSV2
+gnumakefile AknIconInterfaces.mk
+#endif
+
+AknIcon.mmp
+AknIconSrvMain.mmp
+AknIconOomPlugin.mmp
+../SvgtFbsRasterizer/group/SvgtFbsRasterizer.mmp
+#endif
+
+PRJ_TESTMMPFILES
+CVT_AknIcon.mmp
+
+

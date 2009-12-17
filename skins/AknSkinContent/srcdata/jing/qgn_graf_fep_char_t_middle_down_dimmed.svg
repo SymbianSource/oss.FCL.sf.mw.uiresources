@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="40" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 40 50" height="50" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect width="40" fill="none" height="50"/>
+        <g>
+            <linearGradient x1="39.3623" gradientTransform="matrix(1 0 0 1 0.1377 -791.9443)" y1="816.9453" x2="0.3623" gradientUnits="userSpaceOnUse" y2="816.9453" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+                <stop stop-color="#e3ecf5" offset="0"/>
+                <stop stop-color="#f9fcff" offset="1"/>
+            </linearGradient>
+            <path fill="url(#XMLID_4_)" d="M 38.198 49.5 L 1.801 49.5 C 1.083 49.5 0.5 48.788 0.5 47.91 L 6.997 2.091 C 6.997 1.213 7.58 0.5 8.298 0.5 L 31.628 0.5 C 32.348 0.5 32.93 1.213 32.93 2.091 L 39.5 47.91 C 39.5 48.788 38.915 49.5 38.198 49.5 L 38.198 49.5 z "/>
+            <linearGradient x1="-1384.6133" gradientTransform="matrix(0.3186 0 0 0.3186 479.3354 -359.4045)" y1="1206.5459" x2="-1498.855" gradientUnits="userSpaceOnUse" y2="1206.5459" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_5_" xlink:show="other">
+                <stop stop-color="#e1ebf4" offset="0"/>
+                <stop stop-color="#f9fcff" offset="1"/>
+            </linearGradient>
+            <polygon fill="url(#XMLID_5_)" points="8.298,2.091 31.628,2.091 38.198,47.91 1.801,47.91   "/>
+            <linearGradient x1="81.2168" y1="24.9995" x2="0.3052" gradientUnits="userSpaceOnUse" y2="24.9995" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+                <stop stop-color="#ffa29e" offset="0"/>
+                <stop stop-color="#ffc9c9" offset="0.0056"/>
+                <stop stop-color="#fff5f5" offset="1"/>
+            </linearGradient>
+            <path fill="url(#XMLID_6_)" d="M 38.198 49.5 L 1.801 49.5 C 1.083 49.5 0.5 48.788 0.5 47.91 L 6.997 2.091 C 6.997 1.213 7.58 0.5 8.298 0.5 L 31.628 0.5 C 32.348 0.5 32.93 1.213 32.93 2.091 L 39.5 47.91 C 39.5 48.788 38.915 49.5 38.198 49.5 L 38.198 49.5 z "/>
+            <path fill="#ffffff" d="M 38.198 49.5 L 1.801 49.5 C 1.083 49.5 0.5 48.788 0.5 47.91 L 6.997 2.091 C 6.997 1.213 7.58 0.5 8.298 0.5 L 31.628 0.5 C 32.348 0.5 32.93 1.213 32.93 2.091 L 39.5 47.91 C 39.5 48.788 38.915 49.5 38.198 49.5 L 38.198 49.5 z " fill-opacity="0.7" stroke-opacity="0.7"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<api id="9605ce40dcc7c078ebc4ab990a713b60" dataversion="2.0">
+  <name>MIF Header CDL API</name>
+  <description>Defines the data structure used with CDL instances storing information of MIF headers.</description>
+  <type>c++</type>
+  <collection>domain</collection>
+  <libs>
+    <lib name="aknicon.lib" />
+  </libs>
+  <release category="platform"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>no</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

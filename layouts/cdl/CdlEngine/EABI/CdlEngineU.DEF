@@ -1,0 +1,117 @@
+EXPORTS
+	_ZN12CCdlInstance4NewLERK7TCdlRefPK13SCdlInterfacePKS_P10CCdlEnginePi @ 1 NONAME
+	_ZN12CCdlInstance5NewLCERK7TCdlRefPK13SCdlInterfacePKS_P10CCdlEnginePi @ 2 NONAME
+	_ZN13CCdlEngineRefD0Ev @ 3 NONAME
+	_ZN13CCdlEngineRefD1Ev @ 4 NONAME
+	_ZN13CCdlEngineRefD2Ev @ 5 NONAME
+	_ZN15CdlServerEngine16CreateCdlEngineLEv @ 6 NONAME
+	_ZN16CdlExplorerUtils12CreateRefsLCERK12CCdlInstance @ 7 NONAME
+	_ZN16CdlExplorerUtils12CreateRefsLCERK12CCdlInstanceRK9TCdlArrayI7TCdlRefE @ 8 NONAME
+	_ZN18MCdlChangeObserver26HandleAvailableRefsChangeLEv @ 9 NONAME
+	_ZN18MCdlChangeObserver26HandleCustomisationChangeLERK8CCdlUids @ 10 NONAME
+	_ZN18MCdlChangeObserverD0Ev @ 11 NONAME
+	_ZN18MCdlChangeObserverD1Ev @ 12 NONAME
+	_ZN18MCdlChangeObserverD2Ev @ 13 NONAME
+	_ZN23CCdlUserPackageExplorer10ConstructLEv @ 14 NONAME
+	_ZN23CCdlUserPackageExplorerD0Ev @ 15 NONAME
+	_ZN23CCdlUserPackageExplorerD1Ev @ 16 NONAME
+	_ZN23CCdlUserPackageExplorerD2Ev @ 17 NONAME
+	_ZN24CCdlInstanceExplorerBase6FindLCE4TUid @ 18 NONAME
+	_ZN24CCdlInstanceExplorerBaseD0Ev @ 19 NONAME
+	_ZN24CCdlInstanceExplorerBaseD1Ev @ 20 NONAME
+	_ZN24CCdlInstanceExplorerBaseD2Ev @ 21 NONAME
+	_ZN8CCdlRefs16MergeAndReplaceLERKS_ @ 22 NONAME
+	_ZN8CCdlRefs4NewLEv @ 23 NONAME
+	_ZN8CCdlRefs5NewLCEv @ 24 NONAME
+	_ZN8CCdlRefs6DeleteERK7TDesC16 @ 25 NONAME
+	_ZN8CCdlRefs6DeleteERKNS_9TIteratorES2_ @ 26 NONAME
+	_ZN8CCdlRefs6DeleteERNS_9TIteratorE @ 27 NONAME
+	_ZN8CCdlRefs7AppendLERK17CCdlRefCollection @ 28 NONAME
+	_ZN8CCdlRefs7AppendLERK7TCdlRef @ 29 NONAME
+	_ZN8CCdlRefs7ImportLERK6TDesC8 @ 30 NONAME
+	_ZN8CCdlRefs7InsertLERKNS_9TIteratorERK7TCdlRef @ 31 NONAME
+	_ZN8CCdlRefs9AddLayerLERKS_ @ 32 NONAME
+	_ZN8CCdlRefs9TIteratorC1ERKS0_ @ 33 NONAME
+	_ZN8CCdlRefs9TIteratorC2ERKS0_ @ 34 NONAME
+	_ZN8CCdlRefs9TIteratorppEv @ 35 NONAME
+	_ZN8CCdlRefsD0Ev @ 36 NONAME
+	_ZN8CCdlRefsD1Ev @ 37 NONAME
+	_ZN8CCdlRefsD2Ev @ 38 NONAME
+	_ZN8CCdlUids4AddLE4TUid @ 39 NONAME
+	_ZN8CCdlUids4AddLERKS_ @ 40 NONAME
+	_ZN8CCdlUids5NewLCEv @ 41 NONAME
+	_ZN8CCdlUids6RemoveE4TUid @ 42 NONAME
+	_ZN8CCdlUids6RemoveERKS_ @ 43 NONAME
+	_ZN8CCdlUids7ImportLERK6TDesC8 @ 44 NONAME
+	_ZN8CCdlUidsC1Ev @ 45 NONAME
+	_ZN8CCdlUidsC2Ev @ 46 NONAME
+	_ZN9CCdlNames4AddLERK7TDesC16 @ 47 NONAME
+	_ZN9CCdlNames5NewLCEv @ 48 NONAME
+	_ZN9CCdlNames7ImportLERK6TDesC8 @ 49 NONAME
+	_ZN9CCdlNamesC1Ev @ 50 NONAME
+	_ZN9CCdlNamesC2Ev @ 51 NONAME
+	_ZN9CCdlNamesD0Ev @ 52 NONAME
+	_ZN9CCdlNamesD1Ev @ 53 NONAME
+	_ZN9CCdlNamesD2Ev @ 54 NONAME
+	_ZN9CdlEngine11GetFunctionE4TUidi @ 55 NONAME
+	_ZN9CdlEngine12CompareNamesERK7TDesC16S2_ @ 56 NONAME
+	_ZN9CdlEngine12LocalStateLCERK8CCdlUids @ 57 NONAME
+	_ZN9CdlEngine13GlobalStateLCERK8CCdlUids @ 58 NONAME
+	_ZN9CdlEngine14FileContentsLCERK7TDesC16 @ 59 NONAME
+	_ZN9CdlEngine14SetLocalStateLERK8CCdlRefs @ 60 NONAME
+	_ZN9CdlEngine15FindInstancesLCE4TUid @ 61 NONAME
+	_ZN9CdlEngine15LastAccessedRefE4TUid @ 62 NONAME
+	_ZN9CdlEngine15SetGlobalStateLERK8CCdlRefs @ 63 NONAME
+	_ZN9CdlEngine16CreateCdlEngineLEv @ 64 NONAME
+	_ZN9CdlEngine18AllAvailableRefsLCEv @ 65 NONAME
+	_ZN9CdlEngine18LoadCustomisationLERK7TCdlRef @ 66 NONAME
+	_ZN9CdlEngine21CustomisationInstanceE4TUid @ 67 NONAME
+	_ZN9CdlEngine21RequireCustomisationLEPK13SCdlInterface @ 68 NONAME
+	_ZN9CdlEngine22IsCustomisationStartedEPK13SCdlInterface @ 69 NONAME
+	_ZN9CdlEngine24FindCustomisationFilesLCEv @ 70 NONAME
+	_ZN9CdlEngine25StartGlobalCustomisationLEv @ 71 NONAME
+	_ZN9CdlEngine26EnableGlobalCustomisationLERK8CCdlUidsi @ 72 NONAME
+	_ZN9CdlEngine31SetAvailableRefsChangeObserverLEP18MCdlChangeObserver @ 73 NONAME
+	_ZN9CdlEngine31SetCustomisationChangeObserverLEP18MCdlChangeObserver4TUid @ 74 NONAME
+	_ZN9CdlEngine38FileNameRelativeToLastAccessedInstanceE4TUidR4TBufILi256EE @ 75 NONAME
+	_ZN9CdlEngine7GetDataE4TUidi @ 76 NONAME
+	_ZN9CdlEngine9LastApiIdEv @ 77 NONAME
+	_ZNK12CCdlInstance11GetFunctionEi @ 78 NONAME
+	_ZNK12CCdlInstance15LastAccessedRefEv @ 79 NONAME
+	_ZNK12CCdlInstance38FileNameRelativeToLastAccessedInstanceER4TBufILi256EE @ 80 NONAME
+	_ZNK12CCdlInstance3RefEv @ 81 NONAME
+	_ZNK12CCdlInstance7GetDataEi @ 82 NONAME
+	_ZNK12CCdlInstance8SubLayerEv @ 83 NONAME
+	_ZNK12CCdlInstanceeqERKS_ @ 84 NONAME
+	_ZNK23CCdlUserPackageExplorer7CompareERKN16CDL_User_Package9CInstanceES3_ @ 85 NONAME
+	_ZNK8CCdlRefs13SubsetByUidLCE4TUid @ 86 NONAME
+	_ZNK8CCdlRefs14SubsetByNameLCERK7TDesC16 @ 87 NONAME
+	_ZNK8CCdlRefs14SubsetByUidsLCERK8CCdlUids @ 88 NONAME
+	_ZNK8CCdlRefs3EndEv @ 89 NONAME
+	_ZNK8CCdlRefs3RefEi @ 90 NONAME
+	_ZNK8CCdlRefs5BeginE4TUid @ 91 NONAME
+	_ZNK8CCdlRefs5BeginERK7TDesC16 @ 92 NONAME
+	_ZNK8CCdlRefs5BeginEv @ 93 NONAME
+	_ZNK8CCdlRefs5NamesEv @ 94 NONAME
+	_ZNK8CCdlRefs6UidsLCEv @ 95 NONAME
+	_ZNK8CCdlRefs7ExportLEv @ 96 NONAME
+	_ZNK8CCdlRefs8ExportLCEv @ 97 NONAME
+	_ZNK8CCdlRefs9CountRefsEv @ 98 NONAME
+	_ZNK8CCdlUids14IntersectionLCERKS_ @ 99 NONAME
+	_ZNK8CCdlUids6ExportEv @ 100 NONAME
+	_ZNK8CCdlUids9FindIndexE4TUid @ 101 NONAME
+	_ZNK9CCdlNames7ExportLEv @ 102 NONAME
+	_ZNK9CCdlNames8ExportLCEv @ 103 NONAME
+	_ZNK9CCdlNames9FindIndexERK7TDesC16 @ 104 NONAME
+	_ZTI18MCdlChangeObserver @ 105 NONAME ; #<TI>#
+	_ZTI23CCdlUserPackageExplorer @ 106 NONAME ; #<TI>#
+	_ZTI24CCdlInstanceExplorerBase @ 107 NONAME ; #<TI>#
+	_ZTI9CCdlNames @ 108 NONAME ; #<TI>#
+	_ZTV18MCdlChangeObserver @ 109 NONAME ; #<VT>#
+	_ZTV23CCdlUserPackageExplorer @ 110 NONAME ; #<VT>#
+	_ZTV24CCdlInstanceExplorerBase @ 111 NONAME ; #<VT>#
+	_ZTV9CCdlNames @ 112 NONAME ; #<VT>#
+	_ZN9CdlEngine18IsCdlEngineCreatedEv @ 113 NONAME
+	_ZN8CCdlRefs7AppendLERK7TDesC16RK9TCdlArrayI7TCdlRefE @ 114 NONAME
+	_ZN9CdlEngine11ImplementorE4TUidi @ 115 NONAME
+

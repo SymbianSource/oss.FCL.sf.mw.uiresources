@@ -1,0 +1,29 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+// This header file contains the customisation implementation identity for AknLayoutScalable_Elaf_phl_apps_qhd_lsc_tch_Small
+// This file may be manually modified.
+
+#ifndef AKNLAYOUTSCALABLE_ELAF_PHL_APPS_QHD_LSC_TCH_SMALL_HRH
+#define AKNLAYOUTSCALABLE_ELAF_PHL_APPS_QHD_LSC_TCH_SMALL_HRH
+#include "aknlayoutscalable_apps.cdl.common.hrh"
+#include "dllinstances.hrh"
+
+#define _CDL_AknLayoutScalable_Elaf_phl_apps_qhd_lsc_tch_Small_KCdlInstanceInterfaceUidValue _CDL_AknLayoutScalable_Apps_KCdlInterfaceUidValue
+#define _CDL_AknLayoutScalable_Elaf_phl_apps_qhd_lsc_tch_Small_KCdlInstanceId KDllInst_AknLayoutScalable_Elaf_phl_apps_qhd_lsc_tch_Small
+
+#endif // AKNLAYOUTSCALABLE_ELAF_PHL_APPS_QHD_LSC_TCH_SMALL_HRH

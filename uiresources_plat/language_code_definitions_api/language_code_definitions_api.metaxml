@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<api id="d2f88b2559b5b4671d54f168330ae971" dataversion="2.0">
+  <name>Language Code Definitions API</name>
+  <description>Defines extra language codes used in S60.</description>
+  <type>c++</type>
+  <collection>locales</collection>
+  <libs>
+  </libs>
+  <release category="platform"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>no</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

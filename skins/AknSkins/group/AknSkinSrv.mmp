@@ -1,0 +1,121 @@
+/*
+* Copyright (c) 2002-2007 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Project definition file.
+*
+*/
+
+
+#include <platform_paths.hrh>
+
+TARGET          AKNSKINSRV.dll
+TARGETTYPE      DLL
+UID             0x1000008D 0x10005A35
+
+CAPABILITY      CAP_GENERAL_DLL
+VENDORID        VID_DEFAULT
+
+#ifdef __VFP_HW_SUPPORT
+OPTION ARMCC --fpu vfpv2 --fpmode fast
+#endif
+
+USERINCLUDE     . ../srvinc 
+USERINCLUDE     ../inc
+
+// This is a SYSTEMINCLUDE macro containing the middleware
+// layer specific include directories
+MW_LAYER_SYSTEMINCLUDE
+
+SYSTEMINCLUDE   ../../../inc
+SYSTEMINCLUDE   ../../inc
+SYSTEMINCLUDE   /epoc32/include/caf
+SYSTEMINCLUDE   /epoc32/include/connect
+
+LIBRARY         euser.lib
+LIBRARY         bafl.lib
+LIBRARY         efsrv.lib
+LIBRARY         fbscli.lib 
+LIBRARY         drmhelper.lib
+LIBRARY         ImageConversion.lib
+LIBRARY         BitmapTransforms.lib
+LIBRARY         bitgdi.lib
+LIBRARY         SvgEngine.lib
+LIBRARY         gdi.lib
+LIBRARY         hal.lib
+
+LIBRARY         DrmRights.lib
+
+LIBRARY         caf.lib
+LIBRARY         cafutils.lib
+
+LIBRARY         CentralRepository.lib
+LIBRARY         CenRepNotifHandler.lib
+
+LIBRARY         xmlframework.lib
+LIBRARY         ws32.lib
+LIBRARY         ecom.lib
+
+LIBRARY         abclient.lib 
+LIBRARY         sbeclient.lib
+LIBRARY         PlatformEnv.lib
+LIBRARY         disknotifyhandler.lib
+LIBRARY         platformver.lib
+
+LIBRARY         apgrfx.lib
+LIBRARY         IclExtJpegApi.lib
+LIBRARY         avkon.lib
+LIBRARY         AknIcon.lib
+
+SOURCEPATH      ../srvsrc
+SOURCE          AknsSrvClient.cpp
+SOURCE          AknsSkinChangeHandler.cpp
+SOURCE          AknsSrv.cpp
+SOURCE          AknsSrvScheduler.cpp
+SOURCE          AknsSrvSession.cpp
+SOURCE          AknsSrvSettings.cpp
+SOURCE          AknsItemDef.cpp
+SOURCE          AknsItemID.cpp
+SOURCE          AknsSrvSkinInformationPkg.cpp
+SOURCE          AknsSrvUtils.cpp
+SOURCE          AknsSrvFileBuffer.cpp
+SOURCE          AknsPkgID.cpp
+SOURCE          AknsSrvExclusion.cpp
+SOURCE          AknsSrvBitmapStore.cpp
+SOURCE          AknsSrvChunkMaintainer.cpp
+SOURCE          AknsSrvChunkMaintainer2.cpp
+SOURCE          AknsSrvChunkLookup.cpp
+SOURCE          aknssrvinstallobserver.cpp
+SOURCE          aknssrvwallpaperscaling.cpp
+SOURCE          tfxconfigparser.cpp
+SOURCE          aknssrvactivebackupdataclient.cpp
+SOURCE          aknssrvactivedataowner.cpp
+SOURCE          aknssrvwallpapertimer.cpp
+SOURCE          AknsDriveMaster.cpp
+SOURCE          aknssrviconconfigmap.cpp
+SOURCE          AknsSrvWallpaperCache.cpp
+
+// ============================================================================
+// Target-specific DEF files
+// ============================================================================
+
+#if defined(ARMCC)
+deffile ../EABI/ 
+#elif defined(WINSCW)
+deffile ../BWINSCW/ 
+#elif defined(WINS)
+deffile ../bwins/ 
+#else
+deffile ../bmarm/ 
+#endif
+
+// End of File

@@ -1,0 +1,77 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+// It contains the project definition for a customisation DLL.
+// It may be modified manually.
+#include <platform_paths.hrh>
+
+target           000007d1.dll
+targettype		 PLUGIN
+UID 			 0x10009D8D 0x000007d1
+CAPABILITY       CAP_ECOM_PLUGIN
+VENDORID         VID_DEFAULT
+
+SOURCEPATH       .
+userinclude      .
+systeminclude    .
+MW_LAYER_SYSTEMINCLUDE
+
+source           uiaccel_layoutinst_nhd4.cpp
+source           uiaccel_elaf_nhd4_normal_pack.cpp
+source           aknlayoutscalable_elaf_hnp4_c_nhd4_prt_tch_normal.cpp
+source           uiaccel_elaf_nhd4_small_pack.cpp
+source           aknlayoutscalable_elaf_hnp4_c_nhd4_prt_tch_small.cpp
+source           uiaccel_elaf_nhd4_large_pack.cpp
+source           aknlayoutscalable_elaf_hnp4_c_nhd4_prt_tch_large.cpp
+source           uiaccel_abrw_nhd4_normal_pack.cpp
+source           aknlayoutscalable_abrw_hnp4_c_nhd4_prt_tch_normal.cpp
+source           uiaccel_abrw_nhd4_small_pack.cpp
+source           aknlayoutscalable_abrw_hnp4_c_nhd4_prt_tch_small.cpp
+source           uiaccel_abrw_nhd4_large_pack.cpp
+source           aknlayoutscalable_abrw_hnp4_c_nhd4_prt_tch_large.cpp
+source           uiaccel_apac_nhd4_normal_pack.cpp
+source           uiaccel_apac_nhd4_small_pack.cpp
+source           uiaccel_apac_nhd4_large_pack.cpp
+source           uiaccel_elaf_nhd4_land_normal_pack.cpp
+source           aknlayoutscalable_elaf_hnl4_c_nhd4_lsc_tch_normal.cpp
+source           uiaccel_elaf_nhd4_land_small_pack.cpp
+source           aknlayoutscalable_elaf_hnl4_c_nhd4_lsc_tch_small.cpp
+source           uiaccel_elaf_nhd4_land_large_pack.cpp
+source           aknlayoutscalable_elaf_hnl4_c_nhd4_lsc_tch_large.cpp
+source           uiaccel_abrw_nhd4_land_normal_pack.cpp
+source           aknlayoutscalable_abrw_hnl4_c_nhd4_lsc_tch_normal.cpp
+source           uiaccel_abrw_nhd4_land_small_pack.cpp
+source           aknlayoutscalable_abrw_hnl4_c_nhd4_lsc_tch_small.cpp
+source           uiaccel_abrw_nhd4_land_large_pack.cpp
+source           aknlayoutscalable_abrw_hnl4_c_nhd4_lsc_tch_large.cpp
+source           uiaccel_apac_nhd4_land_normal_pack.cpp
+source           uiaccel_apac_nhd4_land_small_pack.cpp
+source           uiaccel_apac_nhd4_land_large_pack.cpp
+
+library          euser.lib
+library          aknlayout2scalable.lib
+library          cdlengine.lib
+
+START RESOURCE	 000007d1.rss
+TARGET       000007d1.rsc
+END
+START RESOURCE   000007d1_cdl_detail.rss
+TARGETPATH       resource/cdl
+END
+
+SOURCE ../../DecodeLib/AknLayout2ScalableDecode.cpp
+systeminclude ..

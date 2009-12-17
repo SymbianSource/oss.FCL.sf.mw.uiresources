@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="264" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-0.5 -0.5 264 32" height="32" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <path fill="#656b6b" d="M -0.5 -0.5 L -0.5 25.5 C 56.396 25.5 211.902 25.5 263.5 25.5 L 263.5 -0.5 L -0.5 -0.5 z " fill-opacity="0.01"/>
+    <path fill="#656b6b" d="M -0.5 -0.5 L -0.5 24.5 C 56.375 24.5 211.9 24.5 263.5 24.5 L 263.5 -0.5 L -0.5 -0.5 z " fill-opacity="0.02"/>
+    <path fill="#656b6b" d="M -0.5 -0.5 L -0.5 23.5 C 56.297 23.5 211.887 23.5 263.5 23.5 L 263.5 -0.5 L -0.5 -0.5 z " fill-opacity="0.03"/>
+    <path fill="#656b6b" d="M -0.5 -0.5 L -0.5 22.496 C 56.124 22.497 211.857 22.499 263.5 22.5 L 263.5 -0.5 L -0.5 -0.5 z " fill-opacity="0.06"/>
+    <rect x="-0.5" y="-0.5" fill-opacity="0.05" fill="#656b6b" width="264" height="22"/>
+    <rect x="-0.5" y="-0.499" fill-opacity="0.1" fill="#656b6b" width="264" height="20.998"/>
+    <path fill="#656b6b" d="M -0.5 -0.5 L -0.5 19.5 C 54.094 19.5 211.512 19.5 263.5 19.5 L 263.5 -0.5 L -0.5 -0.5 z " fill-opacity="0.1"/>
+    <rect x="-0.5" y="-0.5" fill-opacity="0.1" fill="#656b6b" width="264" height="19"/>
+    <rect x="-0.5" width="264" fill="#52a1a4" y="-0.5" height="18"/>
+</svg>

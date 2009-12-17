@@ -1,0 +1,3 @@
+005A [.0862.0020.0008.0282] % Latin capital Z after S
+007A [.0862.0020.0002.0282] % Latin small z after s
+028D [.08B8.0020.0002.028D] % LATIN SMALL LETTER TURNED W moved to make space

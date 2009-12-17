@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-3.015 -3.019 44 44" height="44" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <linearGradient x1="18.984" y1="-5.519" x2="18.984" gradientUnits="userSpaceOnUse" y2="32.481" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_44_" xlink:show="other">
+            <stop stop-color="#ffffcf" offset="0"/>
+            <stop stop-color="#f0de80" offset="0.11"/>
+            <stop stop-color="#c26e54" offset="0.35"/>
+            <stop stop-color="#b0361a" offset="0.48"/>
+            <stop stop-color="#ad2621" offset="0.6629"/>
+            <stop stop-color="#9c0a00" offset="0.75"/>
+            <stop stop-color="#991712" offset="0.82"/>
+            <stop stop-color="#8a0000" offset="0.91"/>
+            <stop stop-color="#730303" offset="0.99"/>
+            <stop stop-color="#730303" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_44_)" d="M 32.301 32.299 C 32.307 32.293 32.315 32.287 32.32 32.283 L 32.317 32.279 C 33.395 31.175 33.556 29.763 33.577 29.28 C 33.288 28.989998 19.964 15.665998 19.964 15.665998 C 19.457 15.1589985 19.424 14.090999 19.38 12.609999 C 19.320002 10.588999 19.246 8.075998 17.902 6.731999 C 15.725 4.554999 13.024 3.132999 9.029 5.973999 C 9.846001 6.790999 13.776001 10.720999 13.776001 10.720999 L 13.094001 13.088999 L 10.728001 13.767999 C 10.728001 13.767999 6.7990007 9.838999 5.9810004 9.020998 C 3.1380005 13.015998 4.5610003 15.716998 6.739 17.894997 C 8.082001 19.237995 10.595 19.312996 12.616 19.370996 C 14.097 19.417995 15.166 19.448996 15.673 19.953997 C 15.673 19.953997 28.998 33.276997 29.289 33.567997 C 29.768002 33.546997 31.185 33.385 32.287003 32.306995 L 32.289 32.309994 C 32.294 32.31 32.297 32.304 32.301 32.299 z "/>
+        <rect x="-3.016" width="44" fill="none" y="-3.019" height="44"/>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+EXPORTS
+	_Z9LibEntryLR13CTestModuleIf @ 1 NONAME
+	_ZTI16CAknIconObserver @ 2 NONAME ; #<TI>#
+	_ZTI32CTestPubScalableIconsMifProvider @ 3 NONAME ; #<TI>#
+	_ZTV16CAknIconObserver @ 4 NONAME ; #<VT>#
+	_ZTV32CTestPubScalableIconsMifProvider @ 5 NONAME ; #<VT>#
+

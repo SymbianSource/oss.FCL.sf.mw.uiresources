@@ -1,0 +1,88 @@
+EXPORTS
+	WindowTable__30AknLayoutScalableDecodeSupportR28TAknWindowComponentLayoutImpPC17SCompDataImplDataiiii @ 1 NONAME ; AknLayoutScalableDecodeSupport::WindowTable(TAknWindowComponentLayoutImp &, SCompDataImplData const *, int, int, int, int)
+	TextLine__30AknLayoutScalableDecodeSupportR26TAknTextComponentLayoutImpPC17SCompDataImplData @ 2 NONAME R3UNUSED ; AknLayoutScalableDecodeSupport::TextLine(TAknTextComponentLayoutImp &, SCompDataImplData const *)
+	TextLine__30AknLayoutScalableDecodeSupportR26TAknTextComponentLayoutImpPC17SCompDataImplDataiii @ 3 NONAME ; AknLayoutScalableDecodeSupport::TextLine(TAknTextComponentLayoutImp &, SCompDataImplData const *, int, int, int)
+	TextTable__30AknLayoutScalableDecodeSupportR26TAknTextComponentLayoutImpPC17SCompDataImplDatai @ 4 NONAME R3UNUSED ; AknLayoutScalableDecodeSupport::TextTable(TAknTextComponentLayoutImp &, SCompDataImplData const *, int)
+	TextTable__30AknLayoutScalableDecodeSupportR26TAknTextComponentLayoutImpPC17SCompDataImplDataiiii @ 5 NONAME ; AknLayoutScalableDecodeSupport::TextTable(TAknTextComponentLayoutImp &, SCompDataImplData const *, int, int, int, int)
+	WindowLine__30AknLayoutScalableDecodeSupportR28TAknWindowComponentLayoutImpPC17SCompDataImplData @ 6 NONAME R3UNUSED ; AknLayoutScalableDecodeSupport::WindowLine(TAknWindowComponentLayoutImp &, SCompDataImplData const *)
+	WindowLine__30AknLayoutScalableDecodeSupportR28TAknWindowComponentLayoutImpPC17SCompDataImplDataiii @ 7 NONAME ; AknLayoutScalableDecodeSupport::WindowLine(TAknWindowComponentLayoutImp &, SCompDataImplData const *, int, int, int)
+	WindowTable__30AknLayoutScalableDecodeSupportR28TAknWindowComponentLayoutImpPC17SCompDataImplDatai @ 8 NONAME R3UNUSED ; AknLayoutScalableDecodeSupport::WindowTable(TAknWindowComponentLayoutImp &, SCompDataImplData const *, int)
+	TableLimits__30AknLayoutScalableDecodeSupportPCUs @ 9 NONAME R3UNUSED ; AknLayoutScalableDecodeSupport::TableLimits(unsigned short const *)
+	t__C25TAknWindowComponentLayout @ 10 NONAME R3UNUSED ; TAknWindowComponentLayout::t(void) const
+	C__C25TAknWindowComponentLayout @ 11 NONAME R3UNUSED ; TAknWindowComponentLayout::C(void) const
+	FirstIndex__C29TAknLayoutScalableTableLimits @ 12 NONAME R3UNUSED ; TAknLayoutScalableTableLimits::FirstIndex(void) const
+	Font__C23TAknTextComponentLayout @ 13 NONAME R3UNUSED ; TAknTextComponentLayout::Font(void) const
+	H__C23TAknTextComponentLayout @ 14 NONAME R3UNUSED ; TAknTextComponentLayout::H(void) const
+	H__C25TAknWindowComponentLayout @ 15 NONAME R3UNUSED ; TAknWindowComponentLayout::H(void) const
+	J__C23TAknTextComponentLayout @ 16 NONAME R3UNUSED ; TAknTextComponentLayout::J(void) const
+	LastIndex__C29TAknLayoutScalableTableLimits @ 17 NONAME R3UNUSED ; TAknLayoutScalableTableLimits::LastIndex(void) const
+	SetC__23TAknTextComponentLayouts @ 18 NONAME R3UNUSED ; TAknTextComponentLayout::SetC(short)
+	SetC__25TAknWindowComponentLayouts @ 19 NONAME R3UNUSED ; TAknWindowComponentLayout::SetC(short)
+	SetFirstIndex__29TAknLayoutScalableTableLimitsi @ 20 NONAME R3UNUSED ; TAknLayoutScalableTableLimits::SetFirstIndex(int)
+	SetFont__23TAknTextComponentLayouts @ 21 NONAME R3UNUSED ; TAknTextComponentLayout::SetFont(short)
+	SetH__23TAknTextComponentLayouts @ 22 NONAME R3UNUSED ; TAknTextComponentLayout::SetH(short)
+	SetH__25TAknWindowComponentLayouts @ 23 NONAME R3UNUSED ; TAknWindowComponentLayout::SetH(short)
+	SetJ__23TAknTextComponentLayouts @ 24 NONAME R3UNUSED ; TAknTextComponentLayout::SetJ(short)
+	SetLastIndex__29TAknLayoutScalableTableLimitsi @ 25 NONAME R3UNUSED ; TAknLayoutScalableTableLimits::SetLastIndex(int)
+	SetW__23TAknTextComponentLayouts @ 26 NONAME R3UNUSED ; TAknTextComponentLayout::SetW(short)
+	SetW__25TAknWindowComponentLayouts @ 27 NONAME R3UNUSED ; TAknWindowComponentLayout::SetW(short)
+	Setb__23TAknTextComponentLayouts @ 28 NONAME R3UNUSED ; TAknTextComponentLayout::Setb(short)
+	Setb__25TAknWindowComponentLayouts @ 29 NONAME R3UNUSED ; TAknWindowComponentLayout::Setb(short)
+	Setl__23TAknTextComponentLayouts @ 30 NONAME R3UNUSED ; TAknTextComponentLayout::Setl(short)
+	Setl__25TAknWindowComponentLayouts @ 31 NONAME R3UNUSED ; TAknWindowComponentLayout::Setl(short)
+	Setr__23TAknTextComponentLayouts @ 32 NONAME R3UNUSED ; TAknTextComponentLayout::Setr(short)
+	Setr__25TAknWindowComponentLayouts @ 33 NONAME R3UNUSED ; TAknWindowComponentLayout::Setr(short)
+	Sett__23TAknTextComponentLayouts @ 34 NONAME R3UNUSED ; TAknTextComponentLayout::Sett(short)
+	Sett__25TAknWindowComponentLayouts @ 35 NONAME R3UNUSED ; TAknWindowComponentLayout::Sett(short)
+	W__C23TAknTextComponentLayout @ 36 NONAME R3UNUSED ; TAknTextComponentLayout::W(void) const
+	W__C25TAknWindowComponentLayout @ 37 NONAME R3UNUSED ; TAknWindowComponentLayout::W(void) const
+	__23TAknTextComponentLayout @ 38 NONAME R3UNUSED ; TAknTextComponentLayout::TAknTextComponentLayout(void)
+	__25TAknWindowComponentLayout @ 39 NONAME R3UNUSED ; TAknWindowComponentLayout::TAknWindowComponentLayout(void)
+	__29TAknLayoutScalableTableLimitsii @ 40 NONAME R3UNUSED ; TAknLayoutScalableTableLimits::TAknLayoutScalableTableLimits(int, int)
+	b__C23TAknTextComponentLayout @ 41 NONAME R3UNUSED ; TAknTextComponentLayout::b(void) const
+	b__C25TAknWindowComponentLayout @ 42 NONAME R3UNUSED ; TAknWindowComponentLayout::b(void) const
+	l__C23TAknTextComponentLayout @ 43 NONAME R3UNUSED ; TAknTextComponentLayout::l(void) const
+	l__C25TAknWindowComponentLayout @ 44 NONAME R3UNUSED ; TAknWindowComponentLayout::l(void) const
+	r__C23TAknTextComponentLayout @ 45 NONAME R3UNUSED ; TAknTextComponentLayout::r(void) const
+	r__C25TAknWindowComponentLayout @ 46 NONAME R3UNUSED ; TAknWindowComponentLayout::r(void) const
+	t__C23TAknTextComponentLayout @ 47 NONAME R3UNUSED ; TAknTextComponentLayout::t(void) const
+	C__C23TAknTextComponentLayout @ 48 NONAME R3UNUSED ; TAknTextComponentLayout::C(void) const
+	__29TAknLayoutScalableTableLimits @ 49 NONAME R3UNUSED ; TAknLayoutScalableTableLimits::TAknLayoutScalableTableLimits(void)
+	LayoutLimits__C29TAknLayoutScalableTableLimits @ 50 NONAME R3UNUSED ; TAknLayoutScalableTableLimits::LayoutLimits(void) const
+	LayoutLine__C23TAknTextComponentLayout @ 51 NONAME R3UNUSED ; TAknTextComponentLayout::LayoutLine(void) const
+	LayoutLine__C25TAknWindowComponentLayout @ 52 NONAME R3UNUSED ; TAknWindowComponentLayout::LayoutLine(void) const
+	ComposeText__25TAknWindowComponentLayoutT0G23TAknTextComponentLayout @ 53 NONAME ; TAknWindowComponentLayout::ComposeText(TAknWindowComponentLayout, TAknTextComponentLayout)
+	Compose__25TAknWindowComponentLayoutT0T0 @ 54 NONAME ; TAknWindowComponentLayout::Compose(TAknWindowComponentLayout, TAknWindowComponentLayout)
+	Intersect__25TAknWindowComponentLayoutT0T0 @ 55 NONAME ; TAknWindowComponentLayout::Intersect(TAknWindowComponentLayout, TAknWindowComponentLayout)
+	Minus__25TAknWindowComponentLayoutT0T0 @ 56 NONAME ; TAknWindowComponentLayout::Minus(TAknWindowComponentLayout, TAknWindowComponentLayout)
+	Split__25TAknWindowComponentLayoutT0i @ 57 NONAME ; TAknWindowComponentLayout::Split(TAknWindowComponentLayout, int)
+	MultiLineGrid__25TAknWindowComponentLayoutT0iiii @ 58 NONAME ; TAknWindowComponentLayout::MultiLineGrid(TAknWindowComponentLayout, int, int, int, int)
+	MultiLineX__25TAknWindowComponentLayoutT0ii @ 59 NONAME ; TAknWindowComponentLayout::MultiLineX(TAknWindowComponentLayout, int, int)
+	MultiLineY__25TAknWindowComponentLayoutT0ii @ 60 NONAME ; TAknWindowComponentLayout::MultiLineY(TAknWindowComponentLayout, int, int)
+	Anim__25TAknWindowComponentLayoutT0T0RCQ225TAknWindowComponentLayout13TRangeTriplet @ 61 NONAME ; TAknWindowComponentLayout::Anim(TAknWindowComponentLayout, TAknWindowComponentLayout, TAknWindowComponentLayout::TRangeTriplet const &)
+	FirstColumn__C33TAknLayoutScalableParameterLimits @ 62 NONAME R3UNUSED ; TAknLayoutScalableParameterLimits::FirstColumn(void) const
+	FirstRow__C33TAknLayoutScalableParameterLimits @ 63 NONAME R3UNUSED ; TAknLayoutScalableParameterLimits::FirstRow(void) const
+	FirstVariety__C33TAknLayoutScalableParameterLimits @ 64 NONAME R3UNUSED ; TAknLayoutScalableParameterLimits::FirstVariety(void) const
+	LastColumn__C33TAknLayoutScalableParameterLimits @ 65 NONAME R3UNUSED ; TAknLayoutScalableParameterLimits::LastColumn(void) const
+	LastRow__C33TAknLayoutScalableParameterLimits @ 66 NONAME R3UNUSED ; TAknLayoutScalableParameterLimits::LastRow(void) const
+	LastVariety__C33TAknLayoutScalableParameterLimits @ 67 NONAME R3UNUSED ; TAknLayoutScalableParameterLimits::LastVariety(void) const
+	SetFirstColumn__33TAknLayoutScalableParameterLimitsi @ 68 NONAME R3UNUSED ; TAknLayoutScalableParameterLimits::SetFirstColumn(int)
+	SetFirstRow__33TAknLayoutScalableParameterLimitsi @ 69 NONAME R3UNUSED ; TAknLayoutScalableParameterLimits::SetFirstRow(int)
+	SetFirstVariety__33TAknLayoutScalableParameterLimitsi @ 70 NONAME R3UNUSED ; TAknLayoutScalableParameterLimits::SetFirstVariety(int)
+	SetLastColumn__33TAknLayoutScalableParameterLimitsi @ 71 NONAME R3UNUSED ; TAknLayoutScalableParameterLimits::SetLastColumn(int)
+	SetLastRow__33TAknLayoutScalableParameterLimitsi @ 72 NONAME R3UNUSED ; TAknLayoutScalableParameterLimits::SetLastRow(int)
+	SetLastVariety__33TAknLayoutScalableParameterLimitsi @ 73 NONAME R3UNUSED ; TAknLayoutScalableParameterLimits::SetLastVariety(int)
+	__33TAknLayoutScalableParameterLimits @ 74 NONAME R3UNUSED ; TAknLayoutScalableParameterLimits::TAknLayoutScalableParameterLimits(void)
+	__33TAknLayoutScalableParameterLimitsiiiiii @ 75 NONAME ; TAknLayoutScalableParameterLimits::TAknLayoutScalableParameterLimits(int, int, int, int, int, int)
+	ParameterLimitsTable__30AknLayoutScalableDecodeSupportR36TAknLayoutScalableParameterLimitsImpPC17SCompDataImplDatai @ 76 NONAME R3UNUSED ; AknLayoutScalableDecodeSupport::ParameterLimitsTable(TAknLayoutScalableParameterLimitsImp &, SCompDataImplData const *, int)
+	ParameterLimits__30AknLayoutScalableDecodeSupportR36TAknLayoutScalableParameterLimitsImpPC17SCompDataImplData @ 77 NONAME R3UNUSED ; AknLayoutScalableDecodeSupport::ParameterLimits(TAknLayoutScalableParameterLimitsImp &, SCompDataImplData const *)
+	MultiLineY__23TAknTextComponentLayoutT0ii @ 78 NONAME ; TAknTextComponentLayout::MultiLineY(TAknTextComponentLayout, int, int)
+	RemoveLayoutEmptys__23TAknTextComponentLayoutT0 @ 79 NONAME ; TAknTextComponentLayout::RemoveLayoutEmptys(TAknTextComponentLayout)
+	SetZeroSized__25TAknWindowComponentLayout @ 80 NONAME R3UNUSED ; TAknWindowComponentLayout::SetZeroSized(void)
+	SiblingAsChild__25TAknWindowComponentLayoutT0T0 @ 81 NONAME ; TAknWindowComponentLayout::SiblingAsChild(TAknWindowComponentLayout, TAknWindowComponentLayout)
+	Anim__23TAknTextComponentLayoutT0T0RCQ225TAknWindowComponentLayout13TRangeTriplet @ 82 NONAME ; TAknTextComponentLayout::Anim(TAknTextComponentLayout, TAknTextComponentLayout, TAknWindowComponentLayout::TRangeTriplet const &)
+	__23TAknTextComponentLayoutG18TAknTextLineLayout @ 83 NONAME ; TAknTextComponentLayout::TAknTextComponentLayout(TAknTextLineLayout)
+	__25TAknWindowComponentLayoutG20TAknWindowLineLayout @ 84 NONAME ; TAknWindowComponentLayout::TAknWindowComponentLayout(TAknWindowLineLayout)
+	__as__23TAknTextComponentLayoutG18TAknTextLineLayout @ 85 NONAME ; TAknTextComponentLayout::operator=(TAknTextLineLayout)
+	__as__25TAknWindowComponentLayoutG20TAknWindowLineLayout @ 86 NONAME ; TAknWindowComponentLayout::operator=(TAknWindowLineLayout)
+

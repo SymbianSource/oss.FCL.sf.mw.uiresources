@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="100%" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0 0 12 200" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<g>
+<g>
+<g>
+<path d="M0,119.456v45.087C0,167.449,2.804,170,6,170          c3.195,0,6-2.551,6-5.457v-45.087c0-1.46-0.682-2.849-1.915-3.909C8.939,114.564,7.451,114,6,114          C2.804,114,0,116.55,0,119.456z" fill="#2A403E" fill-opacity="0.5" stroke-opacity="0.5"/>
+</g>
+<path d="M6,169.001c-2.484,0-5-1.999-5-4.458v-45.087c0-2.46,2.516-4.457,5-4.457l0,0         c2.486,0,5,1.997,5,4.457v45.087C11,167.002,8.486,169.001,6,169.001L6,169.001z" fill="#6E8489"/>
+</g>
+<rect fill="none" height="200" width="12"/>
+</g>
+</g>
+</g>
+</switch>
+</svg>

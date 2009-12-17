@@ -1,0 +1,57 @@
+/*
+* Copyright (c) 2002 - 2008 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description: 
+*   Build file
+*
+*/
+
+
+#include <platform_paths.hrh>
+
+// Note: Undefine this flag if generated *.mbm and *.h files need to be
+// regenerated (e.g. in case of configuration change).
+#define AKN_PICTOGRAPH_USE_PREGENERATED
+
+PRJ_EXPORTS
+
+#ifdef AKN_PICTOGRAPH_USE_PREGENERATED
+#include "../pregenerated/bld.inf"
+#endif // AKN_PICTOGRAPH_USE_PREGENERATED
+
+// IBY-files
+../rom/AknPictograph.iby CORE_MW_LAYER_IBY_EXPORT_PATH(aknpictograph.iby)
+../rom/AknPictograph_variant.iby CUSTOMER_MW_LAYER_IBY_EXPORT_PATH(aknpictograph_variant.iby)
+
+
+PRJ_MMPFILES
+
+#ifndef TOOLS
+
+#ifndef AKN_PICTOGRAPH_USE_PREGENERATED
+gnumakefile AknPictographConfig.mk
+gnumakefile AknPictographBitmaps.mk
+#endif // AKN_PICTOGRAPH_USE_PREGENERATED
+
+
+AknPictograph.mmp
+
+
+AknPictographImpl.mmp
+
+
+#endif // TOOLS
+
+PRJ_TESTMMPFILES
+CVT_AknPictograph.mmp
+

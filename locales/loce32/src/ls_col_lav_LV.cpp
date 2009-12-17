@@ -1,0 +1,86 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description: 
+*
+*/
+
+
+#include <kernel/ls_std.h>
+#include <collate.h>
+
+const TUint KUidCol_lav_lvCollationMethod = 0x100059DD;
+
+static const TUint32 TheCol_lav_lvKey[] = 
+	{
+	0x6d00121,0x6d00109,0x6f82209,0x6f82221,0x7200121,0x7200109,0x7543609,0x7543621,
+	0x78e0121,0x78e0109,0x7b23609,0x7b23621,0x7be3609,0x7be3621,0x7ee3609,0x7ee3621,
+	0x8363609,0x8363621,0x85e2209,0x85e2221,0x88e0121,0x88e0109,0x8ca2209,0x8ca2221,
+	};
+
+static const TUint32 TheCol_lav_lvIndex[] = 
+	{
+	0x590008,0x790009,
+	};
+
+static const TUint16 TheCol_lav_lvStringElement[] = 
+	{
+	0x2,0x41,0x304,0x2,0x61,0x304,0x2,0x63,
+	0x30c,0x2,0x43,0x30c,0x2,0x45,0x304,0x2,
+	0x65,0x304,0x2,0x67,0x327,0x2,0x47,0x327,
+	0x2,0x49,0x304,0x2,0x69,0x304,0x2,0x6b,
+	0x327,0x2,0x4b,0x327,0x2,0x6c,0x327,0x2,
+	0x4c,0x327,0x2,0x6e,0x327,0x2,0x4e,0x327,
+	0x2,0x72,0x327,0x2,0x52,0x327,0x2,0x73,
+	0x30c,0x2,0x53,0x30c,0x2,0x55,0x304,0x2,
+	0x75,0x304,0x2,0x7a,0x30c,0x2,0x5a,0x30c,
+	};
+
+static const TUint32 TheCol_lav_lvStringIndex[] = 
+	{
+	0x0,0x90003,0xc0004,0x150007,0x180008,0x21000b,0x27000d,0x2d000f,
+	0x330011,0x390013,0x3c0014,0x450017,0x30001,0x60002,0xf0005,0x120006,
+	0x1b0009,0x1e000a,0x24000c,0x2a000e,0x300010,0x360012,0x3f0015,0x420016,
+	};
+
+static const TCollationKeyTable TheCol_lav_lvTable = 
+	{ TheCol_lav_lvKey, TheCol_lav_lvIndex, 2, TheCol_lav_lvStringElement, TheCol_lav_lvStringIndex, 24 };
+
+static const TCollationMethod TheCollationMethod[] = 
+	{
+		{
+		KUidCol_lav_lvCollationMethod, // the method for the locale
+		NULL, // use the standard table as the main table
+		&TheCol_lav_lvTable, // the locale values override the standard values
+		0 // the flags are standard
+		},
+		{
+		KUidBasicCollationMethod, // the standard unlocalised method
+		NULL, // null means use the standard table
+		NULL, // there's no override table
+		0 // the flags are standard
+		}
+	};
+
+static const TCollationDataSet TheCollationDataSet =
+	{
+	TheCollationMethod,
+	2
+	};
+
+// The one and only locale character set object.
+const LCharSet TheCharSet =
+	{
+	NULL,
+	&TheCollationDataSet
+	};

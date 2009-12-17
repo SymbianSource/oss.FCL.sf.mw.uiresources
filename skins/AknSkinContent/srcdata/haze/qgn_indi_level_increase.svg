@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="20" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 20 20" height="20" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect width="20" fill="none" height="20"/>
+        <g>
+            <polygon fill="#ffffff" points="12.125,17.587 7.984,17.587 7.984,12.18 2.414,12.18 2.414,8.039 7.984,8.039 7.984,2.414     12.125,2.414 12.125,8.039 17.587,8.039 17.587,12.18 12.125,12.18   "/>
+            <polygon points="11.436,8.729 11.436,3.104 8.674,3.104 8.674,8.729 3.104,8.729 3.104,11.488 8.674,11.488 8.674,16.896     11.436,16.896 11.436,11.488 16.896,11.488 16.896,8.729   "/>
+        </g>
+    </g>
+</svg>

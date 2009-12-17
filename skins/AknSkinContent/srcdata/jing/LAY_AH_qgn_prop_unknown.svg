@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="84px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 84 72" height="72px" x="0px" y="0px">
+    <g>
+        <g>
+            <rect width="84" fill="none" height="72"/>
+        </g>
+        <g>
+            <polygon fill="#ffffff" points="58.341,5.544 63.183,6.573 62.169,56.072 23.959,67.063 20.045,63.486 19.131,11.459   "/>
+            <polygon fill="#9e6434" points="24.045,13.826 20.896,12.863 21.961,61.738 24.627,64.305   "/>
+            <polygon fill="#eacf5a" points="24.045,13.826 61.42,7.542 60.78,54.714 24.627,64.305   "/>
+            <polygon fill="#9e6434" points="24.045,13.826 61.42,7.542 58.258,6.793 20.896,12.863   "/>
+            <g>
+                <linearGradient x1="-81.1611" gradientTransform="matrix(-1 0 0 -1 -18.6582 -820.9648)" y1="-838.292" x2="-59.9509" gradientUnits="userSpaceOnUse" y2="-873.0406" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+                    <stop stop-color="#b0381e" offset="0"/>
+                    <stop stop-color="#5c1001" offset="1"/>
+                </linearGradient>
+                <path fill="url(#SVGID_1_)" d="M 39.893 49.206 C 39.893 47.154 41.509003 45.107002 43.568 44.628002 C 45.671 44.129 47.29 45.372 47.29 47.475002 C 47.29 49.440002 45.671 51.530003 43.568 52.020004 C 41.559 52.491 39.893 51.18 39.893 49.206 z "/>
+                <linearGradient x1="-72.1436" gradientTransform="matrix(-1 0 0 -1 -18.6582 -820.9648)" y1="-832.7769" x2="-50.9271" gradientUnits="userSpaceOnUse" y2="-867.5356" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_2_" xlink:show="other">
+                    <stop stop-color="#b0381e" offset="0"/>
+                    <stop stop-color="#5c1001" offset="1"/>
+                </linearGradient>
+                <path fill="url(#SVGID_2_)" d="M 41.014 41.783 C 40.092 35.874 33.489 37.734 33.489 30.471 C 33.489 24.911001 38.212997 19.116001 43.724 17.826 C 49.719997 16.417 54.318 20.149 54.231 26.077 L 48.585 27.399 C 48.536 24.612 46.659 22.828 43.768997 23.503 C 41.275997 24.092001 39.218 26.76 39.218 29.253 C 39.218 31.44 40.663998 32.28 42.149998 33.291 C 44.689 35.059002 46.525997 36.766 46.525997 40.492 L 41.014 41.783 z "/>
+            </g>
+        </g>
+    </g>
+</svg>

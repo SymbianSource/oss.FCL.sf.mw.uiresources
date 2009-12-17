@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="60" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 60 60" height="60" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <linearGradient x1="30.6289" y1="6.0737" x2="30.2891" gradientUnits="userSpaceOnUse" y2="46.7432" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_3_" xlink:show="other">
+        <stop stop-color="#ffffcf" offset="0"/>
+        <stop stop-color="#f0de80" offset="0.11"/>
+        <stop stop-color="#c26e54" offset="0.35"/>
+        <stop stop-color="#b0361a" offset="0.48"/>
+        <stop stop-color="#ad2621" offset="0.6629"/>
+        <stop stop-color="#9c0a00" offset="0.75"/>
+        <stop stop-color="#991712" offset="0.82"/>
+        <stop stop-color="#8a0000" offset="0.91"/>
+        <stop stop-color="#730303" offset="0.99"/>
+        <stop stop-color="#730303" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_3_)" d="M 25.13 29.997 L 25.13 40.478 L 25.63 40.478 L 35.641 40.478 L 35.641 29.997 L 25.13 29.997 z M 32.141 36.979 C 30.843 36.979 29.926 36.979 28.63 36.979 C 28.63 35.692 28.63 34.782 28.63 33.499 C 29.926 33.499 30.843 33.499 32.141 33.499 C 32.139 34.781 32.139 35.689 32.141 36.979 z "/>
+    <linearGradient x1="30.6094" y1="6.0737" x2="30.2695" gradientUnits="userSpaceOnUse" y2="46.7432" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+        <stop stop-color="#ffffcf" offset="0"/>
+        <stop stop-color="#f0de80" offset="0.11"/>
+        <stop stop-color="#c26e54" offset="0.35"/>
+        <stop stop-color="#b0361a" offset="0.48"/>
+        <stop stop-color="#ad2621" offset="0.6629"/>
+        <stop stop-color="#9c0a00" offset="0.75"/>
+        <stop stop-color="#991712" offset="0.82"/>
+        <stop stop-color="#8a0000" offset="0.91"/>
+        <stop stop-color="#730303" offset="0.99"/>
+        <stop stop-color="#730303" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_4_)" d="M 54.012 32.533 L 30.387 11.277 L 30.054998 11.578 L 6.764 32.533 L 8.071 32.533 C 8.071 32.533 13.453 32.533 15.174 32.533 C 15.172999 36.402 15.172999 46.425003 15.172999 46.428 L 15.172999 46.926003 L 45.598 46.926003 L 45.598 46.428 C 45.596 46.425003 45.596 43.682003 45.598 40.512 C 45.596 37.620003 45.596 34.378 45.596 32.533 L 54.012 32.533 z M 42.096 29.035 L 42.096 43.424 L 18.674 43.424 L 18.674 29.035 L 15.888 29.035 L 30.387 15.985 L 44.888 29.033 L 42.096 29.035 z "/>
+    <rect width="60" fill="none" height="60"/>
+</svg>

@@ -1,0 +1,83 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+#include <CdlEcom.rh>
+#include <CdlEcom.hrh>
+
+#include "uiaccel_elaf_vga4_touch_normal_pack.hrh"
+#include "aknlayoutscalable_elaf_hvp4_c_vga4_prt_tch_normal.hrh"
+#include "uiaccel_elaf_vga4_touch_small_pack.hrh"
+#include "aknlayoutscalable_elaf_hvp4_c_vga4_prt_tch_small.hrh"
+#include "uiaccel_elaf_vga4_touch_large_pack.hrh"
+#include "aknlayoutscalable_elaf_hvp4_c_vga4_prt_tch_large.hrh"
+#include "uiaccel_abrw_vga4_touch_normal_pack.hrh"
+#include "aknlayoutscalable_abrw_hvp4_c_vga4_prt_tch_normal.hrh"
+#include "uiaccel_abrw_vga4_touch_small_pack.hrh"
+#include "aknlayoutscalable_abrw_hvp4_c_vga4_prt_tch_small.hrh"
+#include "uiaccel_abrw_vga4_touch_large_pack.hrh"
+#include "aknlayoutscalable_abrw_hvp4_c_vga4_prt_tch_large.hrh"
+#include "uiaccel_apac_vga4_touch_normal_pack.hrh"
+#include "uiaccel_apac_vga4_touch_small_pack.hrh"
+#include "uiaccel_apac_vga4_touch_large_pack.hrh"
+#include "uiaccel_elaf_vga4_touch_land_normal_pack.hrh"
+#include "aknlayoutscalable_elaf_hvl4_c_vga4_lsc_tch_normal.hrh"
+#include "uiaccel_elaf_vga4_touch_land_small_pack.hrh"
+#include "aknlayoutscalable_elaf_hvl4_c_vga4_lsc_tch_small.hrh"
+#include "uiaccel_elaf_vga4_touch_land_large_pack.hrh"
+#include "aknlayoutscalable_elaf_hvl4_c_vga4_lsc_tch_large.hrh"
+#include "uiaccel_abrw_vga4_touch_land_normal_pack.hrh"
+#include "aknlayoutscalable_abrw_hvl4_c_vga4_lsc_tch_normal.hrh"
+#include "uiaccel_abrw_vga4_touch_land_small_pack.hrh"
+#include "aknlayoutscalable_abrw_hvl4_c_vga4_lsc_tch_small.hrh"
+#include "uiaccel_abrw_vga4_touch_land_large_pack.hrh"
+#include "aknlayoutscalable_abrw_hvl4_c_vga4_lsc_tch_large.hrh"
+#include "uiaccel_apac_vga4_touch_land_normal_pack.hrh"
+#include "uiaccel_apac_vga4_touch_land_small_pack.hrh"
+#include "uiaccel_apac_vga4_touch_land_large_pack.hrh"
+
+CDL_ECOM_REG_DETAIL_START
+	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Vga4_touch_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hvp4_c_vga4_prt_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Vga4_touch_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hvp4_c_vga4_prt_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Vga4_touch_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hvp4_c_vga4_prt_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Vga4_touch_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hvp4_c_vga4_prt_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Vga4_touch_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hvp4_c_vga4_prt_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Vga4_touch_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hvp4_c_vga4_prt_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Vga4_touch_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Vga4_touch_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Vga4_touch_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Vga4_touch_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hvl4_c_vga4_lsc_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Vga4_touch_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hvl4_c_vga4_lsc_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Vga4_touch_land_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hvl4_c_vga4_lsc_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Vga4_touch_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hvl4_c_vga4_lsc_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Vga4_touch_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hvl4_c_vga4_lsc_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Vga4_touch_land_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hvl4_c_vga4_lsc_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Vga4_touch_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Vga4_touch_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Vga4_touch_land_Large_Pack)
+CDL_ECOM_REG_DETAIL_END

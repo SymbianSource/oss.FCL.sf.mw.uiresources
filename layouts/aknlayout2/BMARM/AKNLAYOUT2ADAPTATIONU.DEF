@@ -1,0 +1,9 @@
+EXPORTS
+	TableLimits__32AknLayoutAdaptationDecodeSupportPCUi @ 1 NONAME R3UNUSED ; AknLayoutAdaptationDecodeSupport::TableLimits(unsigned int const *)
+	TextTable__32AknLayoutAdaptationDecodeSupportR18TAknTextLineLayoutPCUiiRC5TRectiiiii @ 2 NONAME ; AknLayoutAdaptationDecodeSupport::TextTable(TAknTextLineLayout &, unsigned int const *, int, TRect const &, int, int, int, int, int)
+	TextTable__32AknLayoutAdaptationDecodeSupportR18TAknTextLineLayoutPCUiiiiiii @ 3 NONAME ; AknLayoutAdaptationDecodeSupport::TextTable(TAknTextLineLayout &, unsigned int const *, int, int, int, int, int, int)
+	WindowTable__32AknLayoutAdaptationDecodeSupportR20TAknWindowLineLayoutPCUiiRC5TRectiiiii @ 4 NONAME ; AknLayoutAdaptationDecodeSupport::WindowTable(TAknWindowLineLayout &, unsigned int const *, int, TRect const &, int, int, int, int, int)
+	WindowTable__32AknLayoutAdaptationDecodeSupportR20TAknWindowLineLayoutPCUiiiiiii @ 5 NONAME ; AknLayoutAdaptationDecodeSupport::WindowTable(TAknWindowLineLayout &, unsigned int const *, int, int, int, int, int, int)
+	MultiLineTextLine__32AknLayoutAdaptationDecodeSupportR18TAknTextLineLayoutPCUiiiiii @ 6 NONAME ; AknLayoutAdaptationDecodeSupport::MultiLineTextLine(TAknTextLineLayout &, unsigned int const *, int, int, int, int, int)
+	MultiLineTextLine__32AknLayoutAdaptationDecodeSupportR18TAknTextLineLayoutPCUiRC5TRectiiiii @ 7 NONAME ; AknLayoutAdaptationDecodeSupport::MultiLineTextLine(TAknTextLineLayout &, unsigned int const *, TRect const &, int, int, int, int, int)
+

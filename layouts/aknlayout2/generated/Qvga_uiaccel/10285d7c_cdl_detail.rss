@@ -1,0 +1,83 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+#include <CdlEcom.rh>
+#include <CdlEcom.hrh>
+
+#include "uiaccel_elaf_qvga_normal_pack.hrh"
+#include "aknlayoutscalable_elaf_hqp_c_qvga_prt_normal.hrh"
+#include "uiaccel_elaf_qvga_small_pack.hrh"
+#include "aknlayoutscalable_elaf_hqp_c_qvga_prt_small.hrh"
+#include "uiaccel_elaf_qvga_large_pack.hrh"
+#include "aknlayoutscalable_elaf_hqp_c_qvga_prt_large.hrh"
+#include "uiaccel_abrw_qvga_normal_pack.hrh"
+#include "aknlayoutscalable_abrw_hqp_c_qvga_prt_normal.hrh"
+#include "uiaccel_abrw_qvga_small_pack.hrh"
+#include "aknlayoutscalable_abrw_hqp_c_qvga_prt_small.hrh"
+#include "uiaccel_abrw_qvga_large_pack.hrh"
+#include "aknlayoutscalable_abrw_hqp_c_qvga_prt_large.hrh"
+#include "uiaccel_apac_qvga_normal_pack.hrh"
+#include "uiaccel_apac_qvga_small_pack.hrh"
+#include "uiaccel_apac_qvga_large_pack.hrh"
+#include "uiaccel_elaf_qvga_land_normal_pack.hrh"
+#include "aknlayoutscalable_elaf_hql_c_qvga_lsc_normal.hrh"
+#include "uiaccel_elaf_qvga_land_small_pack.hrh"
+#include "aknlayoutscalable_elaf_hql_c_qvga_lsc_small.hrh"
+#include "uiaccel_elaf_qvga_land_large_pack.hrh"
+#include "aknlayoutscalable_elaf_hql_c_qvga_lsc_large.hrh"
+#include "uiaccel_abrw_qvga_land_normal_pack.hrh"
+#include "aknlayoutscalable_abrw_hql_c_qvga_lsc_normal.hrh"
+#include "uiaccel_abrw_qvga_land_small_pack.hrh"
+#include "aknlayoutscalable_abrw_hql_c_qvga_lsc_small.hrh"
+#include "uiaccel_abrw_qvga_land_large_pack.hrh"
+#include "aknlayoutscalable_abrw_hql_c_qvga_lsc_large.hrh"
+#include "uiaccel_apac_qvga_land_normal_pack.hrh"
+#include "uiaccel_apac_qvga_land_small_pack.hrh"
+#include "uiaccel_apac_qvga_land_large_pack.hrh"
+
+CDL_ECOM_REG_DETAIL_START
+	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Qvga_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hqp_c_qvga_prt_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Qvga_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hqp_c_qvga_prt_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Qvga_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hqp_c_qvga_prt_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Qvga_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hqp_c_qvga_prt_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Qvga_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hqp_c_qvga_prt_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Qvga_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hqp_c_qvga_prt_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Qvga_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Qvga_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Qvga_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Qvga_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hql_c_qvga_lsc_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Qvga_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hql_c_qvga_lsc_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Qvga_land_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hql_c_qvga_lsc_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Qvga_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hql_c_qvga_lsc_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Qvga_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hql_c_qvga_lsc_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Qvga_land_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hql_c_qvga_lsc_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Qvga_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Qvga_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Qvga_land_Large_Pack)
+CDL_ECOM_REG_DETAIL_END

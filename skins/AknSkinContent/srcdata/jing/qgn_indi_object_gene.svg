@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="9" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 9 9" height="9" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect width="9" fill="none" height="9"/>
+    </g>
+    <g>
+        <path fill="#800000" d="M 6.117 6.354 C 6.547 4.433 3.704 3.9480002 4.301 1.9850001 C 4.793 0.367 7.314 0.45 8.434 1.259 C 8.232 1.608 8.031 1.957 7.83 2.306 C 6.85 1.471 4.885 1.961 6.045 3.329 C 6.8970003 4.332 7.688 4.939 7.243 6.351 L 6.117 6.351 M 6.626 7.087 C 7.857 7.087 7.859 8.854 6.626 8.854 C 5.398 8.854 5.4 7.087 6.626 7.087 "/>
+    </g>
+</svg>

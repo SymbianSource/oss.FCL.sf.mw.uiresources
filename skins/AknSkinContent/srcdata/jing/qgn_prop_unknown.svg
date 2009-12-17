@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="84" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 84 72" height="72" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <rect width="84" fill="none" height="72"/>
+        </g>
+        <g>
+            <polygon fill="#ffffff" points="64.869,11.459 63.955,63.486 60.041,67.063 21.831,56.072 20.817,6.573 25.659,5.544   "/>
+            <polygon fill="#9e6434" points="59.373,64.305 62.039,61.738 63.104,12.863 59.955,13.826   "/>
+            <polygon fill="#eacf5a" points="59.373,64.305 23.219,54.714 22.58,7.542 59.955,13.826   "/>
+            <polygon fill="#9e6434" points="63.104,12.863 25.742,6.793 22.58,7.542 59.955,13.826   "/>
+            <g>
+                <linearGradient x1="21.3589" gradientTransform="matrix(1 0 0 1 0.1377 -770.9443)" y1="788.2725" x2="42.5691" gradientUnits="userSpaceOnUse" y2="823.0212" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_11_" xlink:show="other">
+                    <stop stop-color="#b0381e" offset="0"/>
+                    <stop stop-color="#5c1001" offset="1"/>
+                </linearGradient>
+                <path fill="url(#XMLID_11_)" d="M 40.432 52.02 C 38.329998 51.53 36.711 49.440002 36.711 47.475 C 36.711 45.371998 38.329998 44.128998 40.432 44.628 C 42.490997 45.107 44.107 47.154 44.107 49.205997 C 44.107 51.18 42.441 52.491 40.432 52.02 z "/>
+                <linearGradient x1="30.3774" gradientTransform="matrix(1 0 0 1 0.1377 -770.9443)" y1="782.7559" x2="51.5941" gradientUnits="userSpaceOnUse" y2="817.515" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_12_" xlink:show="other">
+                    <stop stop-color="#b0381e" offset="0"/>
+                    <stop stop-color="#5c1001" offset="1"/>
+                </linearGradient>
+                <path fill="url(#XMLID_12_)" d="M 37.473 40.492 C 37.473 36.765 39.311 35.059002 41.85 33.291 C 43.336 32.28 44.781998 31.44 44.781998 29.253 C 44.781998 26.76 42.724 24.092001 40.231 23.503 C 37.341 22.828001 35.463997 24.612 35.415 27.399 L 29.769001 26.077 C 29.682001 20.149 34.280003 16.417 40.276 17.826 C 45.788002 19.116001 50.512 24.911 50.512 30.471 C 50.512 37.734 43.908 35.874 42.987 41.783 L 37.473 40.492 z "/>
+            </g>
+        </g>
+    </g>
+</svg>

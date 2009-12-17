@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="20" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-9.505 28.168 20 32" height="32" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <linearGradient x1="0.4951" gradientTransform="matrix(1 0 0 -1 0 31)" y1="-29.168" x2="0.4951" gradientUnits="userSpaceOnUse" y2="1.8301" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_3_" xlink:show="other">
+                <stop stop-color="#fefefe" offset="0"/>
+                <stop stop-color="#feeced" offset="0.2921"/>
+                <stop stop-color="#ffb8b8" offset="1"/>
+            </linearGradient>
+            <rect x="-9.505" width="20" fill="url(#XMLID_3_)" y="29.17" height="30.998"/>
+            <linearGradient x1="0.4951" gradientTransform="matrix(1 0 0 -1 0 31)" y1="1.8301" x2="0.4951" gradientUnits="userSpaceOnUse" y2="-10.9192" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+                <stop stop-color="#fefefe" offset="0"/>
+                <stop stop-color="#feeced" offset="0.2921"/>
+                <stop stop-color="#ffb8b8" offset="1"/>
+            </linearGradient>
+            <path fill="url(#XMLID_4_)" d="M -9.505 29.17 C -9.505 31.004 -9.505 32.506 -9.505 33.92 L 10.495 33.92 C 10.495 32.505997 10.495 31.003998 10.495 29.169998 L -9.505 29.169998 z "/>
+            <rect x="-9.505" width="20" fill="none" y="28.168" height="32"/>
+            <path fill="#ffffff" d="M -9.505 60.168 L 10.495 60.168 C 10.495 59.918 10.495 59.668 10.495 59.17 L -9.505 59.17 " fill-opacity="0.5"/>
+            <polygon fill="#840000" fill-opacity="0.4" points="-9.505,28.17 -9.505,29.168 -9.505,29.17 10.495,29.17 10.495,29.168     10.495,28.17   "/>
+        </g>
+    </g>
+</svg>

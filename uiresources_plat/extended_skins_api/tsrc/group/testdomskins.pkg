@@ -1,0 +1,54 @@
+;
+; Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+; All rights reserved.
+; This component and the accompanying materials are made available
+; under the terms of "Eclipse Public License v1.0"
+; which accompanies this distribution, and is available
+; at the URL "http://www.eclipse.org/legal/epl-v10.html".
+;
+; Initial Contributors:
+; Nokia Corporation - initial contribution.
+;
+; Contributors:
+;
+; Description:
+;
+; Languages
+&EN
+
+; Header
+#{"testdomskins"}, (0x2001CB80), 1, 0, 0, TYPE=SA
+
+; Localised Vendor name
+%{"Nokia"}
+
+; Unique Vendor name
+:"Nokia"
+
+
+;Copying ordinary file (not language dependent) to fixed drive drive.
+
+"..\init\testdomskins.ini"-"c:\Testframework\testdomskins.ini", FF   ; FF stands for Normal file
+"..\conf\tctestdomskinsanim.cfg"-"c:\Testframework\tctestdomskinsanim.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testdomskinsanim.cfg"-"c:\Testframework\ui_testdomskinsanim.cfg", FF   ; FF stands for Normal file
+"..\conf\tctestdomskinsitemdef.cfg"-"c:\Testframework\tctestdomskinsitemdef.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testdomskinsitemdef.cfg"-"c:\Testframework\ui_testdomskinsitemdef.cfg", FF   ; FF stands for Normal file
+"..\conf\tctestdomskinspkgid.cfg"-"c:\Testframework\tctestdomskinspkgid.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testdomskinspkgid.cfg"-"c:\Testframework\ui_testdomskinspkgid.cfg", FF   ; FF stands for Normal file
+"..\conf\tctestdomskinspoistore.cfg"-"c:\Testframework\tctestdomskinspoistore.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testdomskinspoistore.cfg"-"c:\Testframework\ui_testdomskinspoistore.cfg", FF   ; FF stands for Normal file
+"..\conf\tctestdomskinswrap.cfg"-"c:\Testframework\tctestdomskinswrap.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testdomskinswrap.cfg"-"c:\Testframework\ui_testdomskinswrap.cfg", FF   ; FF stands for Normal file
+"..\conf\tctestdomskinschunk.cfg"-"c:\Testframework\tctestdomskinschunk.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testdomskinschunk.cfg"-"c:\Testframework\ui_testdomskinschunk.cfg", FF   ; FF stands for Normal file
+"..\conf\tctestdomskinsclient.cfg"-"c:\Testframework\tctestdomskinsclient.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testdomskinsclient.cfg"-"c:\Testframework\ui_testdomskinsclient.cfg", FF   ; FF stands for Normal file
+"..\conf\tctestdomskinsinfo.cfg"-"c:\Testframework\tctestdomskinsinfo.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testdomskinsinfo.cfg"-"c:\Testframework\ui_testdomskinsinfo.cfg", FF   ; FF stands for Normal file
+
+"\epoc32\RELEASE\ARMV5\urel\testdomskins.dll"-"c:\sys\bin\testdomskins.dll", FF
+
+
+; Trim For Mms
+; ------------
+; to be added later

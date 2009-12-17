@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<api id="32cedce872bf540d69666a9be36cf9fd" dataversion="2.0">
+  <name>Skins Image Attributes API</name>
+  <description>Provides access to skins image attribute data.</description>
+  <type>c++</type>
+  <collection>domain</collection>
+  <libs>
+    <lib name="aknskinsrv.lib" />
+  </libs>
+  <release category="platform"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>no</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

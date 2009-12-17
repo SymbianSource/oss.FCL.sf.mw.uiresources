@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-11.328 -11.148 44 44" height="44" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect x="-11.328" width="44" fill="none" y="-11.148" height="44"/>
+        <g>
+            <linearGradient x1="18.8115" y1="-1.126" x2="18.8115" gradientUnits="userSpaceOnUse" y2="22.3741" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_5_" xlink:show="other">
+                <stop stop-color="#ffffff" offset="0"/>
+                <stop stop-color="#ffffff" offset="1"/>
+            </linearGradient>
+            <path fill="url(#XMLID_5_)" d="M 12.104 -3.998 C 19.2 -3.322 24.844 2.3220005 25.52 9.418 L 12.104 9.418 L 12.104 -3.998 z "/>
+            <linearGradient x1="2.5332" y1="-1.126" x2="2.5332" gradientUnits="userSpaceOnUse" y2="22.3741" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+                <stop stop-color="#ffffff" offset="0"/>
+                <stop stop-color="#ffffff" offset="1"/>
+            </linearGradient>
+            <path fill="url(#XMLID_6_)" d="M -4.176 9.418 C -3.5 2.322 2.145 -3.322 9.242 -3.998 L 9.242 9.418 L -4.176 9.418 z "/>
+            <linearGradient x1="18.8115" y1="-1.1348" x2="18.8115" gradientUnits="userSpaceOnUse" y2="22.3653" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_7_" xlink:show="other">
+                <stop stop-color="#ffffff" offset="0"/>
+                <stop stop-color="#ffffff" offset="1"/>
+            </linearGradient>
+            <path fill="url(#XMLID_7_)" d="M 25.52 12.281 C 24.844 19.379 19.2 25.021 12.104 25.697 L 12.104 12.281 L 25.52 12.281 z "/>
+            <g>
+                <linearGradient x1="2.5332" y1="-1.1343" x2="2.5332" gradientUnits="userSpaceOnUse" y2="22.3658" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_8_" xlink:show="other">
+                    <stop stop-color="#ffffff" offset="0"/>
+                    <stop stop-color="#ffffff" offset="1"/>
+                </linearGradient>
+                <path fill="url(#XMLID_8_)" d="M 9.242 12.281 L 9.242 25.697 C 2.145 25.021 -3.5 19.379 -4.176 12.281 L 9.242 12.281 M 6.787 14.734 L -1.1759996 14.734 C 0.054000378 18.496 3.0270004 21.466 6.787 22.697 L 6.787 14.734 L 6.787 14.734 z "/>
+            </g>
+        </g>
+    </g>
+</svg>

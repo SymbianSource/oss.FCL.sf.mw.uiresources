@@ -1,0 +1,8 @@
+// This CDL file contains all excluded layout APIs
+
+Name: Excluded
+Version: 1.0
+UID: 0x00000000
+
+%% API
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 44 44" height="44" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <radialGradient gradientTransform="matrix(1 0 0 -1 0.1377 42.834)" gradientUnits="userSpaceOnUse" xlink:type="simple" r="31.12" xlink:actuate="onLoad" cx="7.7222" id="XMLID_136_" cy="34.0049" xlink:show="other">
+        <stop stop-color="#fffcdb" offset="0"/>
+        <stop stop-color="#ddc0c5" offset="0.16"/>
+        <stop stop-color="#e08563" offset="0.47"/>
+        <stop stop-color="#c23437" offset="0.72"/>
+        <stop stop-color="#c21212" offset="0.9"/>
+        <stop stop-color="#940d0d" offset="1"/>
+    </radialGradient>
+    <circle fill="url(#XMLID_136_)" r="13.551" cx="22" cy="22"/>
+</svg>

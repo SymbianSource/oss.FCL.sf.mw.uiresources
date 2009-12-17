@@ -1,0 +1,42 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+#ifndef __AKNPICTOGRAPH_VARIANT_IBY__
+#define __AKNPICTOGRAPH_VARIANT_IBY__
+
+#include <bldvariant.hrh>
+
+#ifdef __JAPANESE_PICTOGRAPHS
+
+// NOTE: warning of missing DATAZ_\RESOURCE_FILES_DIR\AknPictographXY.mbm and
+// DATAZ_\RESOURCE_FILES_DIR\AknPictographMaskXY.mbm
+// can be ignored if \S60\AknPictograph\config\pictoXY.ini is also missing.
+
+file=ABI_DIR\BUILD_DIR\AknPictographImpl.dll                 SHARED_LIB_DIR\AknPictographImpl.dll
+data=DATAZ_\RESOURCE_FILES_DIR\AknPictograph12.mbm           RESOURCE_FILES_DIR\AknPictograph12.mbm
+data=DATAZ_\RESOURCE_FILES_DIR\AknPictographMask12.mbm       RESOURCE_FILES_DIR\AknPictographMask12.mbm
+data=DATAZ_\RESOURCE_FILES_DIR\AknPictograph16.mbm           RESOURCE_FILES_DIR\AknPictograph16.mbm
+data=DATAZ_\RESOURCE_FILES_DIR\AknPictographMask16.mbm       RESOURCE_FILES_DIR\AknPictographMask16.mbm
+data=DATAZ_\RESOURCE_FILES_DIR\AknPictograph18.mbm           RESOURCE_FILES_DIR\AknPictograph18.mbm
+data=DATAZ_\RESOURCE_FILES_DIR\AknPictographMask18.mbm       RESOURCE_FILES_DIR\AknPictographMask18.mbm
+data=DATAZ_\RESOURCE_FILES_DIR\AknPictograph24.mbm           RESOURCE_FILES_DIR\AknPictograph24.mbm
+data=DATAZ_\RESOURCE_FILES_DIR\AknPictographMask24.mbm       RESOURCE_FILES_DIR\AknPictographMask24.mbm
+data=DATAZ_\RESOURCE_FILES_DIR\AknPictograph30.mbm           RESOURCE_FILES_DIR\AknPictograph30.mbm
+data=DATAZ_\RESOURCE_FILES_DIR\AknPictographMask30.mbm       RESOURCE_FILES_DIR\AknPictographMask30.mbm
+
+#endif // __JAPANESE_PICTOGRAPHS
+
+#endif // __AKNPICTOGRAPH_VARIANT_IBY__

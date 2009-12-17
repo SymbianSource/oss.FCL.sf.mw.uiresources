@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="28" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="18 17 28 32" height="32" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <linearGradient x1="-921.7632" gradientTransform="matrix(-3.125 0 0 3.125 -2846.0039 -1569.5625)" y1="507.668" x2="-921.7632" gradientUnits="userSpaceOnUse" y2="517.9396" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_3_" xlink:show="other">
+                <stop stop-color="#e92c2c" offset="0"/>
+                <stop stop-color="#ff8787" offset="0.12"/>
+                <stop stop-color="#e63737" offset="0.3596"/>
+                <stop stop-color="#a32626" offset="0.9382"/>
+                <stop stop-color="#d33131" offset="1"/>
+            </linearGradient>
+            <path fill="url(#XMLID_3_)" d="M 23.012 49.0 L 46.0 49.0 L 46.0 20.002 L 42.75 20.002 C 37.863 20.002 36.27 22.565 34.625 25.912 L 32.648 29.862001 L 25.092 45.23 C 24.295 46.777 23.644 48.104 23.012 49.0 z "/>
+            <path fill="#840000" d="M 24.203 44.773 L 31.75 29.420998 L 33.727 25.467999 C 35.465 21.93 37.297 19.0 42.75 19.0 L 46.0 19.0 C 46.0 19.5 46.0 19.75 46.0 20.0 L 42.75 20.0 C 37.863 20.0 36.27 22.562 34.625 25.91 L 32.648 29.86 L 25.091 45.23 C 24.293999 46.777 23.643 48.103 23.011 49.0 L 21.75 49.0 C 22.412 48.217 23.15 46.816 24.203 44.773 z " fill-opacity="0.5"/>
+            <path fill="#840000" d="M 46.0 49.0 L 21.75 49.0 C 22.02 48.63 22.155 48.368 22.375 48.002 L 46.0 48.002 " fill-opacity="0.5"/>
+            <rect x="18" width="28" fill="none" y="17" height="32"/>
+            <linearGradient x1="39.1055" y1="31.335" x2="39.1055" gradientUnits="userSpaceOnUse" y2="21.0486" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+                <stop stop-color="#e81e1e" offset="0"/>
+                <stop stop-color="#ffffff" offset="1"/>
+            </linearGradient>
+            <path fill="url(#XMLID_4_)" d="M 32.28 30.611 L 32.211998 30.75 L 34.875 30.75 C 35.137 28.775 35.598 26.336 37.072998 24.876999 C 38.609 23.356 40.928 23.0 43.0 23.0 L 46.0 23.0 L 46.0 20.002 L 42.75 20.002 C 37.863 20.002 36.27 22.565 34.625 25.912 L 32.28 30.611 z " fill-opacity="0.5" stroke-opacity="0.5"/>
+        </g>
+    </g>
+</svg>

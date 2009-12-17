@@ -1,0 +1,51 @@
+/*
+* Copyright (c) 2004 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description: MakMake Project file for fontutils
+*
+*/
+
+
+
+#include <platform_paths.hrh>
+
+target          FontUtils.DLL
+targettype      DLL
+UID 	 0x10005522 0x1020509D
+
+CAPABILITY      CAP_GENERAL_DLL
+VENDORID        VID_DEFAULT
+
+sourcepath              ../src
+
+lang SC
+userinclude     . ../inc
+
+// This is a SYSTEMINCLUDE macro containing the middleware
+// layer specific include directories
+MW_LAYER_SYSTEMINCLUDE
+
+SYSTEMINCLUDE   ../../../inc
+SYSTEMINCLUDE   ../../inc
+
+source  AknFontUtilsDll.cpp
+source  AknFontId.cpp
+source  AknFontSpecification.cpp
+source  AknFontProviderSuppliedMetrics.cpp
+
+library EUSER.LIB
+library GDI.LIB
+library CdlEngine.lib
+library cone.lib
+
+deffile FONTUTILS.DEF

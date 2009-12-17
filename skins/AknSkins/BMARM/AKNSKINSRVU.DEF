@@ -1,0 +1,166 @@
+EXPORTS
+	__15RAknsSrvSession @ 1 NONAME R3UNUSED ; RAknsSrvSession::RAknsSrvSession(void)
+	Close__15RAknsSrvSession @ 2 NONAME R3UNUSED ; RAknsSrvSession::Close(void)
+	Colors__C22CAknsColorTableItemDef @ 3 NONAME R3UNUSED ; CAknsColorTableItemDef::Colors(void) const
+	Connect__15RAknsSrvSessionP23MAknsSkinChangeObserveri @ 4 NONAME R3UNUSED ; RAknsSrvSession::Connect(MAknsSkinChangeObserver *, int)
+	DisableSkinChangeNotify__15RAknsSrvSession @ 5 NONAME R3UNUSED ; RAknsSrvSession::DisableSkinChangeNotify(void)
+	EnableSkinChangeNotify__15RAknsSrvSession @ 6 NONAME R3UNUSED ; RAknsSrvSession::EnableSkinChangeNotify(void)
+	Filename__C18CAknsBitmapItemDef @ 7 NONAME R3UNUSED ; CAknsBitmapItemDef::Filename(void) const
+	ID__C12CAknsItemDef @ 8 NONAME R3UNUSED ; CAknsItemDef::ID(void) const
+	Images__C22CAknsImageTableItemDef @ 9 NONAME R3UNUSED ; CAknsImageTableItemDef::Images(void) const
+	Index__C18CAknsBitmapItemDef @ 10 NONAME R3UNUSED ; CAknsBitmapItemDef::Index(void) const
+	LinearOrder__11TAknsItemIDRC11TAknsItemIDT1 @ 11 NONAME R3UNUSED ; TAknsItemID::LinearOrder(TAknsItemID const &, TAknsItemID const &)
+	LinearOrder__12CAknsItemDefRC12CAknsItemDefT1 @ 12 NONAME R3UNUSED ; CAknsItemDef::LinearOrder(CAknsItemDef const &, CAknsItemDef const &)
+	Reserved1__12CAknsItemDef @ 13 NONAME R3UNUSED ; CAknsItemDef::Reserved1(void)
+	Reserved1__15RAknsSrvSession @ 14 NONAME R3UNUSED ; RAknsSrvSession::Reserved1(void)
+	Reserved2__15RAknsSrvSession @ 15 NONAME R3UNUSED ; RAknsSrvSession::Reserved2(void)
+	Reserved3__15RAknsSrvSession @ 16 NONAME R3UNUSED ; RAknsSrvSession::Reserved3(void)
+	MaskIndex__C24CAknsMaskedBitmapItemDef @ 17 NONAME R3UNUSED ; CAknsMaskedBitmapItemDef::MaskIndex(void) const
+	NewL__12CAknsItemDefRC11TAknsItemID @ 18 NONAME R3UNUSED ; CAknsItemDef::NewL(TAknsItemID const &)
+	NewL__18CAknsBitmapItemDefRC11TAknsItemID @ 19 NONAME R3UNUSED ; CAknsBitmapItemDef::NewL(TAknsItemID const &)
+	NewL__18CAknsBitmapItemDefRC11TAknsItemIDRC7TDesC16i @ 20 NONAME R3UNUSED ; CAknsBitmapItemDef::NewL(TAknsItemID const &, TDesC16 const &, int)
+	NewL__22CAknsImageTableItemDefRC11TAknsItemID @ 21 NONAME R3UNUSED ; CAknsImageTableItemDef::NewL(TAknsItemID const &)
+	NewL__22CAknsImageTableItemDefRC11TAknsItemIDiPC11TAknsItemID @ 22 NONAME R3UNUSED ; CAknsImageTableItemDef::NewL(TAknsItemID const &, int, TAknsItemID const *)
+	NewL__22CAknsColorTableItemDefRC11TAknsItemID @ 23 NONAME R3UNUSED ; CAknsColorTableItemDef::NewL(TAknsItemID const &)
+	NewL__22CAknsColorTableItemDefRC11TAknsItemIDiPC20TAknsColorTableEntry @ 24 NONAME R3UNUSED ; CAknsColorTableItemDef::NewL(TAknsItemID const &, int, TAknsColorTableEntry const *)
+	NewL__24CAknsMaskedBitmapItemDefRC11TAknsItemID @ 25 NONAME R3UNUSED ; CAknsMaskedBitmapItemDef::NewL(TAknsItemID const &)
+	NewL__24CAknsMaskedBitmapItemDefRC11TAknsItemIDRC7TDesC16ii @ 26 NONAME ; CAknsMaskedBitmapItemDef::NewL(TAknsItemID const &, TDesC16 const &, int, int)
+	NumberOfColors__C22CAknsColorTableItemDef @ 27 NONAME R3UNUSED ; CAknsColorTableItemDef::NumberOfColors(void) const
+	NumberOfImages__C22CAknsImageTableItemDef @ 28 NONAME R3UNUSED ; CAknsImageTableItemDef::NumberOfImages(void) const
+	SetAllDefinitionSets__15RAknsSrvSessionG10TAknsPkgID @ 29 NONAME ; RAknsSrvSession::SetAllDefinitionSets(TAknsPkgID)
+	SetColorsL__22CAknsColorTableItemDefiPC20TAknsColorTableEntry @ 30 NONAME R3UNUSED ; CAknsColorTableItemDef::SetColorsL(int, TAknsColorTableEntry const *)
+	SetColors__22CAknsColorTableItemDefiPC20TAknsColorTableEntry @ 31 NONAME R3UNUSED ; CAknsColorTableItemDef::SetColors(int, TAknsColorTableEntry const *)
+	SetDefinitionSet__15RAknsSrvSession17TAknsItemDefClassG10TAknsPkgID @ 32 NONAME ; RAknsSrvSession::SetDefinitionSet(TAknsItemDefClass, TAknsPkgID)
+	SetFilenameL__18CAknsBitmapItemDefRC7TDesC16 @ 33 NONAME R3UNUSED ; CAknsBitmapItemDef::SetFilenameL(TDesC16 const &)
+	SetFilename__18CAknsBitmapItemDefRC7TDesC16 @ 34 NONAME R3UNUSED ; CAknsBitmapItemDef::SetFilename(TDesC16 const &)
+	SetImagesL__22CAknsImageTableItemDefiPC11TAknsItemID @ 35 NONAME R3UNUSED ; CAknsImageTableItemDef::SetImagesL(int, TAknsItemID const *)
+	SetImages__22CAknsImageTableItemDefiPC11TAknsItemID @ 36 NONAME R3UNUSED ; CAknsImageTableItemDef::SetImages(int, TAknsItemID const *)
+	SetIndex__18CAknsBitmapItemDefi @ 37 NONAME R3UNUSED ; CAknsBitmapItemDef::SetIndex(int)
+	Reserved2__12CAknsItemDef @ 38 NONAME R3UNUSED ; CAknsItemDef::Reserved2(void)
+	SetMaskIndex__24CAknsMaskedBitmapItemDefi @ 39 NONAME R3UNUSED ; CAknsMaskedBitmapItemDef::SetMaskIndex(int)
+	ThreadStart__8CAknsSrv @ 40 NONAME R3UNUSED ; CAknsSrv::ThreadStart(void)
+	Type__C12CAknsItemDef @ 41 NONAME R3UNUSED ; CAknsItemDef::Type(void) const
+	"_._12CAknsItemDef" @ 42 NONAME R3UNUSED ; CAknsItemDef::~CAknsItemDef(void)
+	Reserved4__15RAknsSrvSession @ 43 NONAME R3UNUSED ; RAknsSrvSession::Reserved4(void)
+	__12CAknsItemDefRC11TAknsItemID @ 44 NONAME R3UNUSED ; CAknsItemDef::CAknsItemDef(TAknsItemID const &)
+	ClientError__15RAknsSrvSessioni @ 45 NONAME R3UNUSED ; RAknsSrvSession::ClientError(int)
+	NewL__17CAknsImageItemDefRC11TAknsItemID @ 46 NONAME R3UNUSED ; CAknsImageItemDef::NewL(TAknsItemID const &)
+	SetAttributesL__17CAknsImageItemDefRC23TAknsImageAttributeData @ 47 NONAME R3UNUSED ; CAknsImageItemDef::SetAttributesL(TAknsImageAttributeData const &)
+	Attributes__C17CAknsImageItemDef @ 48 NONAME R3UNUSED ; CAknsImageItemDef::Attributes(void) const
+	Flash__C19CAknsBmpAnimItemDef @ 49 NONAME R3UNUSED ; CAknsBmpAnimItemDef::Flash(void) const
+	FrameInfos__C19CAknsBmpAnimItemDef @ 50 NONAME R3UNUSED ; CAknsBmpAnimItemDef::FrameInfos(void) const
+	FrameInterval__C19CAknsBmpAnimItemDef @ 51 NONAME R3UNUSED ; CAknsBmpAnimItemDef::FrameInterval(void) const
+	LastFrameBackground__C19CAknsBmpAnimItemDef @ 52 NONAME R3UNUSED ; CAknsBmpAnimItemDef::LastFrameBackground(void) const
+	NewL__19CAknsBmpAnimItemDefRC11TAknsItemID @ 53 NONAME R3UNUSED ; CAknsBmpAnimItemDef::NewL(TAknsItemID const &)
+	NewL__19CAknsBmpAnimItemDefRC11TAknsItemIDiPC11TAknsItemIDPC21TAknsBmpAnimFrameInfo @ 54 NONAME ; CAknsBmpAnimItemDef::NewL(TAknsItemID const &, int, TAknsItemID const *, TAknsBmpAnimFrameInfo const *)
+	PlayMode__C19CAknsBmpAnimItemDef @ 55 NONAME R3UNUSED ; CAknsBmpAnimItemDef::PlayMode(void) const
+	SetFlash__19CAknsBmpAnimItemDefi @ 56 NONAME R3UNUSED ; CAknsBmpAnimItemDef::SetFlash(int)
+	SetFrameInfosL__19CAknsBmpAnimItemDefPC21TAknsBmpAnimFrameInfo @ 57 NONAME R3UNUSED ; CAknsBmpAnimItemDef::SetFrameInfosL(TAknsBmpAnimFrameInfo const *)
+	SetFrameInfos__19CAknsBmpAnimItemDefPC21TAknsBmpAnimFrameInfo @ 58 NONAME R3UNUSED ; CAknsBmpAnimItemDef::SetFrameInfos(TAknsBmpAnimFrameInfo const *)
+	SetFrameInterval__19CAknsBmpAnimItemDefs @ 59 NONAME R3UNUSED ; CAknsBmpAnimItemDef::SetFrameInterval(short)
+	SetLastFrameBackground__19CAknsBmpAnimItemDefi @ 60 NONAME R3UNUSED ; CAknsBmpAnimItemDef::SetLastFrameBackground(int)
+	SetPlayMode__19CAknsBmpAnimItemDefs @ 61 NONAME R3UNUSED ; CAknsBmpAnimItemDef::SetPlayMode(short)
+	Directory__C26CAknsSrvSkinInformationPkg @ 62 NONAME R3UNUSED ; CAknsSrvSkinInformationPkg::Directory(void) const
+	EnumerateSkinPackagesL__15RAknsSrvSession30TAknSkinSrvSkinPackageLocation @ 63 NONAME R3UNUSED ; RAknsSrvSession::EnumerateSkinPackagesL(TAknSkinSrvSkinPackageLocation)
+	IniFileDirectory__C26CAknsSrvSkinInformationPkg @ 64 NONAME R3UNUSED ; CAknsSrvSkinInformationPkg::IniFileDirectory(void) const
+	IsCopyable__C26CAknsSrvSkinInformationPkg @ 65 NONAME R3UNUSED ; CAknsSrvSkinInformationPkg::IsCopyable(void) const
+	IsDeletable__C26CAknsSrvSkinInformationPkg @ 66 NONAME R3UNUSED ; CAknsSrvSkinInformationPkg::IsDeletable(void) const
+	Name__C26CAknsSrvSkinInformationPkg @ 67 NONAME R3UNUSED ; CAknsSrvSkinInformationPkg::Name(void) const
+	PID__C26CAknsSrvSkinInformationPkg @ 68 NONAME R3UNUSED ; CAknsSrvSkinInformationPkg::PID(void) const
+	CreateChunkLookupL__15RAknsSrvSession @ 69 NONAME R3UNUSED ; RAknsSrvSession::CreateChunkLookupL(void)
+	LookupAndCreateDefL__19CAknsSrvChunkLookupRC11TAknsItemID @ 70 NONAME R3UNUSED ; CAknsSrvChunkLookup::LookupAndCreateDefL(TAknsItemID const &)
+	Reserved__19CAknsSrvChunkLookup @ 71 NONAME R3UNUSED ; CAknsSrvChunkLookup::Reserved(void)
+	ColorSchemePID__C26CAknsSrvSkinInformationPkg @ 72 NONAME R3UNUSED ; CAknsSrvSkinInformationPkg::ColorSchemePID(void) const
+	SetIdleWallPaper__15RAknsSrvSessionRC7TDesC16ii @ 73 NONAME ; RAknsSrvSession::SetIdleWallPaper(TDesC16 const &, int, int)
+	HasIconset__C26CAknsSrvSkinInformationPkg @ 74 NONAME R3UNUSED ; CAknsSrvSkinInformationPkg::HasIconset(void) const
+	IdleStateWallPaperImageFileName__C26CAknsSrvSkinInformationPkg @ 75 NONAME R3UNUSED ; CAknsSrvSkinInformationPkg::IdleStateWallPaperImageFileName(void) const
+	IdleStateWallPaperImageIndex__C26CAknsSrvSkinInformationPkg @ 76 NONAME R3UNUSED ; CAknsSrvSkinInformationPkg::IdleStateWallPaperImageIndex(void) const
+	PinboarWallPaperImageFileName__C26CAknsSrvSkinInformationPkg @ 77 NONAME R3UNUSED ; CAknsSrvSkinInformationPkg::PinboarWallPaperImageFileName(void) const
+	PinboardWallPaperImageIndex__C26CAknsSrvSkinInformationPkg @ 78 NONAME R3UNUSED ; CAknsSrvSkinInformationPkg::PinboardWallPaperImageIndex(void) const
+	SetPinboardWallpaper__15RAknsSrvSessionRC7TDesC16i @ 79 NONAME R3UNUSED ; RAknsSrvSession::SetPinboardWallpaper(TDesC16 const &, int)
+	CopyToDes__C10TAknsPkgIDR6TDes16 @ 80 NONAME R3UNUSED ; TAknsPkgID::CopyToDes(TDes16 &) const
+	SetFromDesL__10TAknsPkgIDRC7TDesC16 @ 81 NONAME R3UNUSED ; TAknsPkgID::SetFromDesL(TDesC16 const &)
+	NewL__18CAknsStringItemDefRC11TAknsItemID @ 82 NONAME R3UNUSED ; CAknsStringItemDef::NewL(TAknsItemID const &)
+	SetStringL__18CAknsStringItemDefRC7TDesC16 @ 83 NONAME R3UNUSED ; CAknsStringItemDef::SetStringL(TDesC16 const &)
+	String__C18CAknsStringItemDef @ 84 NONAME R3UNUSED ; CAknsStringItemDef::String(void) const
+	IsCorrupted__C26CAknsSrvSkinInformationPkg @ 85 NONAME R3UNUSED ; CAknsSrvSkinInformationPkg::IsCorrupted(void) const
+	ProtectionType__C26CAknsSrvSkinInformationPkg @ 86 NONAME R3UNUSED ; CAknsSrvSkinInformationPkg::ProtectionType(void) const
+	FullName__C26CAknsSrvSkinInformationPkg @ 87 NONAME R3UNUSED ; CAknsSrvSkinInformationPkg::FullName(void) const
+	AddParameterL__18CAknsEffectItemDefP19CAknsEffectParamDef @ 88 NONAME R3UNUSED ; CAknsEffectItemDef::AddParameterL(CAknsEffectParamDef *)
+	EffectCount__C23CAknsEffectQueueItemDef @ 89 NONAME R3UNUSED ; CAknsEffectQueueItemDef::EffectCount(void) const
+	EffectUid__C18CAknsEffectItemDef @ 90 NONAME R3UNUSED ; CAknsEffectItemDef::EffectUid(void) const
+	GetBitmapIndex__19CAknsEffectParamDef @ 91 NONAME R3UNUSED ; CAknsEffectParamDef::GetBitmapIndex(void)
+	GetEffect__C23CAknsEffectQueueItemDefl @ 92 NONAME R3UNUSED ; CAknsEffectQueueItemDef::GetEffect(long) const
+	GetFilename__19CAknsEffectParamDef @ 93 NONAME R3UNUSED ; CAknsEffectParamDef::GetFilename(void)
+	GetMaskIndex__19CAknsEffectParamDef @ 94 NONAME R3UNUSED ; CAknsEffectParamDef::GetMaskIndex(void)
+	GetName__19CAknsEffectParamDef @ 95 NONAME R3UNUSED ; CAknsEffectParamDef::GetName(void)
+	GetNumber__19CAknsEffectParamDef @ 96 NONAME R3UNUSED ; CAknsEffectParamDef::GetNumber(void)
+	GetParameter__C18CAknsEffectItemDefl @ 97 NONAME R3UNUSED ; CAknsEffectItemDef::GetParameter(long) const
+	GetString__19CAknsEffectParamDef @ 98 NONAME R3UNUSED ; CAknsEffectParamDef::GetString(void)
+	GetType__19CAknsEffectParamDef @ 99 NONAME R3UNUSED ; CAknsEffectParamDef::GetType(void)
+	NewL__18CAknsEffectItemDef @ 100 NONAME R3UNUSED ; CAknsEffectItemDef::NewL(void)
+	NewL__19CAknsEffectParamDef @ 101 NONAME R3UNUSED ; CAknsEffectParamDef::NewL(void)
+	NewL__23CAknsEffectQueueItemDefRC11TAknsItemID @ 102 NONAME R3UNUSED ; CAknsEffectQueueItemDef::NewL(TAknsItemID const &)
+	ParameterCount__C18CAknsEffectItemDef @ 103 NONAME R3UNUSED ; CAknsEffectItemDef::ParameterCount(void) const
+	SetEffectUid__18CAknsEffectItemDefG4TUid @ 104 NONAME R3UNUSED ; CAknsEffectItemDef::SetEffectUid(TUid)
+	SetLayerIndexesAndModes__18CAknsEffectItemDefUlUlUlUlUlUl @ 105 NONAME ; CAknsEffectItemDef::SetLayerIndexesAndModes(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+	SetLayerIndexesAndModes__23CAknsEffectQueueItemDefUlUlUlUl @ 106 NONAME ; CAknsEffectQueueItemDef::SetLayerIndexesAndModes(unsigned long, unsigned long, unsigned long, unsigned long)
+	SetNameL__19CAknsEffectParamDefRC7TDesC16 @ 107 NONAME R3UNUSED ; CAknsEffectParamDef::SetNameL(TDesC16 const &)
+	SetReference__23CAknsEffectQueueItemDefRC11TAknsItemID @ 108 NONAME R3UNUSED ; CAknsEffectQueueItemDef::SetReference(TAknsItemID const &)
+	SetType__19CAknsEffectParamDefUl @ 109 NONAME R3UNUSED ; CAknsEffectParamDef::SetType(unsigned long)
+	SetValueL__19CAknsEffectParamDefRC7TDesC16 @ 110 NONAME R3UNUSED ; CAknsEffectParamDef::SetValueL(TDesC16 const &)
+	SetValueL__19CAknsEffectParamDefRC7TDesC16UlUl @ 111 NONAME ; CAknsEffectParamDef::SetValueL(TDesC16 const &, unsigned long, unsigned long)
+	SetValue__19CAknsEffectParamDefUl @ 112 NONAME R3UNUSED ; CAknsEffectParamDef::SetValue(unsigned long)
+	AddEffectL__23CAknsEffectQueueItemDefP18CAknsEffectItemDef @ 113 NONAME R3UNUSED ; CAknsEffectQueueItemDef::AddEffectL(CAknsEffectItemDef *)
+	LookupAndCreateScalableItemL__19CAknsSrvChunkLookupRC11TAknsItemID15TAknsLayoutTypeRP10CFbsBitmapT3 @ 114 NONAME ; CAknsSrvChunkLookup::LookupAndCreateScalableItemL(TAknsItemID const &, TAknsLayoutType, CFbsBitmap *&, CFbsBitmap *&)
+	StoreScalableGraphics__15RAknsSrvSessionRC11TAknsItemID15TAknsLayoutTypePC10CFbsBitmapT3 @ 115 NONAME ; RAknsSrvSession::StoreScalableGraphics(TAknsItemID const &, TAknsLayoutType, CFbsBitmap const *, CFbsBitmap const *)
+	ClearScalableGraphics__15RAknsSrvSession @ 116 NONAME R3UNUSED ; RAknsSrvSession::ClearScalableGraphics(void)
+	BeginRender__19CAknsSrvChunkLookup @ 117 NONAME R3UNUSED ; CAknsSrvChunkLookup::BeginRender(void)
+	EndRender__19CAknsSrvChunkLookup @ 118 NONAME R3UNUSED ; CAknsSrvChunkLookup::EndRender(void)
+	AddAnimationValueL__21CAknsAnimationItemDefP22CAknsAnimationValueDef @ 119 NONAME R3UNUSED ; CAknsAnimationItemDef::AddAnimationValueL(CAknsAnimationValueDef *)
+	AddNamedReferenceL__28CAknsAnimationCommandItemDefP22CAknsNamedReferenceDef @ 120 NONAME R3UNUSED ; CAknsAnimationCommandItemDef::AddNamedReferenceL(CAknsNamedReferenceDef *)
+	AddParameterL__19CAknsTimingModelDefP19CAknsEffectParamDef @ 121 NONAME R3UNUSED ; CAknsTimingModelDef::AddParameterL(CAknsEffectParamDef *)
+	AddParameterL__22CAknsAnimationValueDefP19CAknsEffectParamDef @ 122 NONAME R3UNUSED ; CAknsAnimationValueDef::AddParameterL(CAknsEffectParamDef *)
+	AddPreprocessCommandL__21CAknsAnimationItemDefP18CAknsEffectItemDef @ 123 NONAME R3UNUSED ; CAknsAnimationItemDef::AddPreprocessCommandL(CAknsEffectItemDef *)
+	AddSizeBoundParamL__21CAknsAnimationItemDefP22CAknsSizeBoundParamDef @ 124 NONAME R3UNUSED ; CAknsAnimationItemDef::AddSizeBoundParamL(CAknsSizeBoundParamDef *)
+	AddTimingModelL__21CAknsAnimationItemDefP19CAknsTimingModelDef @ 125 NONAME R3UNUSED ; CAknsAnimationItemDef::AddTimingModelL(CAknsTimingModelDef *)
+	AnimationCommandItemCount__C21CAknsAnimationItemDef @ 126 NONAME R3UNUSED ; CAknsAnimationItemDef::AnimationCommandItemCount(void) const
+	AnimationCommandItem__C21CAknsAnimationItemDefl @ 127 NONAME R3UNUSED ; CAknsAnimationItemDef::AnimationCommandItem(long) const
+	AnimationValueCount__C21CAknsAnimationItemDef @ 128 NONAME R3UNUSED ; CAknsAnimationItemDef::AnimationValueCount(void) const
+	AnimationValueId__C22CAknsNamedReferenceDef @ 129 NONAME R3UNUSED ; CAknsNamedReferenceDef::AnimationValueId(void) const
+	AnimationValueId__C22CAknsSizeBoundParamDef @ 130 NONAME R3UNUSED ; CAknsSizeBoundParamDef::AnimationValueId(void) const
+	AnimationValueUid__C22CAknsAnimationValueDef @ 131 NONAME R3UNUSED ; CAknsAnimationValueDef::AnimationValueUid(void) const
+	AnimationValue__C21CAknsAnimationItemDefl @ 132 NONAME R3UNUSED ; CAknsAnimationItemDef::AnimationValue(long) const
+	MinInterval__C21CAknsAnimationItemDef @ 133 NONAME R3UNUSED ; CAknsAnimationItemDef::MinInterval(void) const
+	Name__C22CAknsNamedReferenceDef @ 134 NONAME R3UNUSED ; CAknsNamedReferenceDef::Name(void) const
+	Name__C22CAknsSizeBoundParamDef @ 135 NONAME R3UNUSED ; CAknsSizeBoundParamDef::Name(void) const
+	NamedReferenceCount__C28CAknsAnimationCommandItemDef @ 136 NONAME R3UNUSED ; CAknsAnimationCommandItemDef::NamedReferenceCount(void) const
+	NamedReference__C28CAknsAnimationCommandItemDefl @ 137 NONAME R3UNUSED ; CAknsAnimationCommandItemDef::NamedReference(long) const
+	NewL__19CAknsTimingModelDef @ 138 NONAME R3UNUSED ; CAknsTimingModelDef::NewL(void)
+	NewL__21CAknsAnimationItemDefRC11TAknsItemID @ 139 NONAME R3UNUSED ; CAknsAnimationItemDef::NewL(TAknsItemID const &)
+	NewL__22CAknsAnimationValueDef @ 140 NONAME R3UNUSED ; CAknsAnimationValueDef::NewL(void)
+	NewL__22CAknsNamedReferenceDef @ 141 NONAME R3UNUSED ; CAknsNamedReferenceDef::NewL(void)
+	NewL__22CAknsSizeBoundParamDef @ 142 NONAME R3UNUSED ; CAknsSizeBoundParamDef::NewL(void)
+	NewL__28CAknsAnimationCommandItemDef @ 143 NONAME R3UNUSED ; CAknsAnimationCommandItemDef::NewL(void)
+	ParamFlags__C22CAknsSizeBoundParamDef @ 144 NONAME R3UNUSED ; CAknsSizeBoundParamDef::ParamFlags(void) const
+	ParameterCount__C19CAknsTimingModelDef @ 145 NONAME R3UNUSED ; CAknsTimingModelDef::ParameterCount(void) const
+	ParameterCount__C22CAknsAnimationValueDef @ 146 NONAME R3UNUSED ; CAknsAnimationValueDef::ParameterCount(void) const
+	Parameter__C19CAknsTimingModelDefl @ 147 NONAME R3UNUSED ; CAknsTimingModelDef::Parameter(long) const
+	Parameter__C22CAknsAnimationValueDefl @ 148 NONAME R3UNUSED ; CAknsAnimationValueDef::Parameter(long) const
+	PreprocessCommandCount__C21CAknsAnimationItemDef @ 149 NONAME R3UNUSED ; CAknsAnimationItemDef::PreprocessCommandCount(void) const
+	PreprocessCommand__C21CAknsAnimationItemDefl @ 150 NONAME R3UNUSED ; CAknsAnimationItemDef::PreprocessCommand(long) const
+	SetAnimationValueUid__22CAknsAnimationValueDefG4TUid @ 151 NONAME R3UNUSED ; CAknsAnimationValueDef::SetAnimationValueUid(TUid)
+	SetDataL__22CAknsNamedReferenceDefRC7TDesC16Ul @ 152 NONAME R3UNUSED ; CAknsNamedReferenceDef::SetDataL(TDesC16 const &, unsigned long)
+	SetDataL__22CAknsSizeBoundParamDefRC7TDesC16UlUl @ 153 NONAME ; CAknsSizeBoundParamDef::SetDataL(TDesC16 const &, unsigned long, unsigned long)
+	SetLayerIndexesAndModes__21CAknsAnimationItemDefUlUlUlUl @ 154 NONAME ; CAknsAnimationItemDef::SetLayerIndexesAndModes(unsigned long, unsigned long, unsigned long, unsigned long)
+	SetMinInterval__21CAknsAnimationItemDefUl @ 155 NONAME R3UNUSED ; CAknsAnimationItemDef::SetMinInterval(unsigned long)
+	SetTimingModelId__22CAknsAnimationValueDefUl @ 156 NONAME R3UNUSED ; CAknsAnimationValueDef::SetTimingModelId(unsigned long)
+	SetTimingModelUid__19CAknsTimingModelDefG4TUid @ 157 NONAME R3UNUSED ; CAknsTimingModelDef::SetTimingModelUid(TUid)
+	SizeBoundParamCount__C21CAknsAnimationItemDef @ 158 NONAME R3UNUSED ; CAknsAnimationItemDef::SizeBoundParamCount(void) const
+	SizeBoundParam__C21CAknsAnimationItemDefl @ 159 NONAME R3UNUSED ; CAknsAnimationItemDef::SizeBoundParam(long) const
+	TimingModelCount__C21CAknsAnimationItemDef @ 160 NONAME R3UNUSED ; CAknsAnimationItemDef::TimingModelCount(void) const
+	TimingModelId__C22CAknsAnimationValueDef @ 161 NONAME R3UNUSED ; CAknsAnimationValueDef::TimingModelId(void) const
+	TimingModelUid__C19CAknsTimingModelDef @ 162 NONAME R3UNUSED ; CAknsTimingModelDef::TimingModelUid(void) const
+	TimingModel__C21CAknsAnimationItemDefl @ 163 NONAME R3UNUSED ; CAknsAnimationItemDef::TimingModel(long) const
+	AddAnimationCommandItemL__21CAknsAnimationItemDefP28CAknsAnimationCommandItemDef @ 164 NONAME R3UNUSED ; CAknsAnimationItemDef::AddAnimationCommandItemL(CAknsAnimationCommandItemDef *)
+

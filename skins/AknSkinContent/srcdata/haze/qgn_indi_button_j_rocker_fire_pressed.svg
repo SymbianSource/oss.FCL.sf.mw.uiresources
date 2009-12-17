@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="88" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 88 88" height="88" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect width="88" fill="none" height="88"/>
+        <linearGradient x1="-3034.0034" gradientTransform="matrix(1 0 0 -1 3099.666 328.9297)" y1="264.1201" x2="-3077.8765" gradientUnits="userSpaceOnUse" y2="306.2664" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_15_" xlink:show="other">
+            <stop stop-color="#e8ffff" offset="0"/>
+            <stop stop-color="#747f7f" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_15_)" d="M 43.999 62.451 C 33.825 62.451 25.547 54.173 25.547 43.999 C 25.547 33.824 33.824 25.546001 43.999 25.546001 C 54.173 25.546001 62.451 33.824 62.451 43.999 C 62.451 54.173 54.173 62.451 43.999 62.451 L 43.999 62.451 z "/>
+        <linearGradient x1="43.9995" y1="61.043" x2="43.9995" gradientUnits="userSpaceOnUse" y2="26.8062" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_16_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#747f7f" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_16_)" d="M 43.999 61.043 C 34.602 61.043 26.954 53.397 26.954 43.998 C 26.954 34.600002 34.601 26.954 43.999 26.954 C 53.396 26.954 61.044 34.6 61.044 43.998 C 61.044 53.396 53.396 61.043 43.999 61.043 L 43.999 61.043 z "/>
+        <path fill="#5f9ea0" d="M 43.966 37.448 C 40.665 37.448 37.98 40.136 37.98 43.436 C 37.98 46.736 40.665 49.420002 43.966 49.420002 C 47.267998 49.420002 49.951 46.734 49.951 43.436 C 49.952 40.136 47.268 37.448 43.966 37.448 z "/>
+    </g>
+</svg>

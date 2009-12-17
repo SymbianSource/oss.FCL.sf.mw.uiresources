@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="12px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 12 29" height="29px" x="0px" y="0px">
+    <g>
+        <rect width="12" fill="none" height="29"/>
+        <g>
+            <linearGradient x1="66.4805" gradientTransform="matrix(-1 0 0 -1 69.4805 -73.0195)" y1="-73.6533" x2="66.4805" gradientUnits="userSpaceOnUse" y2="-106.9839" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+                <stop stop-color="#e62020" offset="0"/>
+                <stop stop-color="#e62020" offset="0.5225"/>
+                <stop stop-color="#e62020" offset="0.764"/>
+                <stop stop-color="#e62020" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_1_)" d="M 5.0 26.5 C 5.0 25.672 4.328 25.0 3.5 25.0 L 2.5 25.0 C 1.672 25.0 1.0 25.672 1.0 26.5 L 1.0 26.5 C 1.0 27.328 1.672 28.0 2.5 28.0 L 3.5 28.0 C 4.328 28.0 5.0 27.328 5.0 26.5 L 5.0 26.5 z "/>
+            <linearGradient x1="65.9805" gradientTransform="matrix(-1 0 0 -1 69.4805 -73.0195)" y1="-73.6533" x2="65.9805" gradientUnits="userSpaceOnUse" y2="-106.9839" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_2_" xlink:show="other">
+                <stop stop-color="#e62020" offset="0"/>
+                <stop stop-color="#e62020" offset="0.5225"/>
+                <stop stop-color="#e62020" offset="0.764"/>
+                <stop stop-color="#e62020" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_2_)" d="M 6.0 22.5 C 6.0 21.672 5.328 21.0 4.5 21.0 L 2.5 21.0 C 1.672 21.0 1.0 21.672 1.0 22.5 L 1.0 22.5 C 1.0 23.328 1.672 24.0 2.5 24.0 L 4.5 24.0 C 5.328 24.0 6.0 23.328 6.0 22.5 L 6.0 22.5 z "/>
+            <linearGradient x1="65.4805" gradientTransform="matrix(-1 0 0 -1 69.4805 -73.0195)" y1="-73.6533" x2="65.4805" gradientUnits="userSpaceOnUse" y2="-106.9839" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_3_" xlink:show="other">
+                <stop stop-color="#e62020" offset="0"/>
+                <stop stop-color="#e62020" offset="0.5225"/>
+                <stop stop-color="#e62020" offset="0.764"/>
+                <stop stop-color="#e62020" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_3_)" d="M 7.0 18.5 C 7.0 17.672 6.328 17.0 5.5 17.0 L 2.5 17.0 C 1.672 17.0 1.0 17.672 1.0 18.5 L 1.0 18.5 C 1.0 19.328 1.672 20.0 2.5 20.0 L 5.5 20.0 C 6.328 20.0 7.0 19.328 7.0 18.5 L 7.0 18.5 z "/>
+            <linearGradient x1="64.9805" gradientTransform="matrix(-1 0 0 -1 69.4805 -73.0195)" y1="-73.6533" x2="64.9805" gradientUnits="userSpaceOnUse" y2="-106.9839" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_4_" xlink:show="other">
+                <stop stop-color="#e62020" offset="0"/>
+                <stop stop-color="#e62020" offset="0.5225"/>
+                <stop stop-color="#e62020" offset="0.764"/>
+                <stop stop-color="#e62020" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_4_)" d="M 8.0 14.5 C 8.0 13.672 7.328 13.0 6.5 13.0 L 2.5 13.0 C 1.672 13.0 1.0 13.672 1.0 14.5 L 1.0 14.5 C 1.0 15.328 1.672 16.0 2.5 16.0 L 6.5 16.0 C 7.328 16.0 8.0 15.328 8.0 14.5 L 8.0 14.5 z "/>
+            <linearGradient x1="64.4805" gradientTransform="matrix(-1 0 0 -1 69.4805 -73.0195)" y1="-73.6533" x2="64.4805" gradientUnits="userSpaceOnUse" y2="-106.9839" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_5_" xlink:show="other">
+                <stop stop-color="#e62020" offset="0"/>
+                <stop stop-color="#e62020" offset="0.5225"/>
+                <stop stop-color="#e62020" offset="0.764"/>
+                <stop stop-color="#e62020" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_5_)" d="M 9.0 10.5 C 9.0 9.672 8.328 9.0 7.5 9.0 L 2.5 9.0 C 1.672 9.0 1.0 9.672 1.0 10.5 L 1.0 10.5 C 1.0 11.328 1.672 12.0 2.5 12.0 L 7.5 12.0 C 8.328 12.0 9.0 11.328 9.0 10.5 L 9.0 10.5 z "/>
+            <linearGradient x1="63.9805" gradientTransform="matrix(-1 0 0 -1 69.4805 -73.0195)" y1="-73.6533" x2="63.9805" gradientUnits="userSpaceOnUse" y2="-106.9839" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_6_" xlink:show="other">
+                <stop stop-color="#e62020" offset="0"/>
+                <stop stop-color="#e62020" offset="0.5225"/>
+                <stop stop-color="#e62020" offset="0.764"/>
+                <stop stop-color="#e62020" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_6_)" d="M 10.0 6.5 C 10.0 5.672 9.328 5.0 8.5 5.0 L 2.5 5.0 C 1.672 5.0 1.0 5.672 1.0 6.5 L 1.0 6.5 C 1.0 7.328 1.672 8.0 2.5 8.0 L 8.5 8.0 C 9.328 8.0 10.0 7.328 10.0 6.5 L 10.0 6.5 z "/>
+            <linearGradient x1="63.4805" gradientTransform="matrix(-1 0 0 -1 69.4805 -73.0195)" y1="-73.6533" x2="63.4805" gradientUnits="userSpaceOnUse" y2="-106.9839" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_7_" xlink:show="other">
+                <stop stop-color="#e62020" offset="0"/>
+                <stop stop-color="#e62020" offset="0.5225"/>
+                <stop stop-color="#e62020" offset="0.764"/>
+                <stop stop-color="#e62020" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_7_)" d="M 11.0 2.5 C 11.0 1.672 10.328 1.0 9.5 1.0 L 2.5 1.0 C 1.672 1.0 1.0 1.672 1.0 2.5 L 1.0 2.5 C 1.0 3.328 1.672 4.0 2.5 4.0 L 9.5 4.0 C 10.328 4.0 11.0 3.328 11.0 2.5 L 11.0 2.5 z "/>
+        </g>
+    </g>
+</svg>

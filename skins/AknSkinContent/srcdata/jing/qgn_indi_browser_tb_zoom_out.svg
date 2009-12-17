@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-2.975 -2.998 44 44" height="44" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect x="-2.975" width="44" fill="none" y="-2.997" height="44"/>
+        <linearGradient x1="39.2496" gradientTransform="matrix(0 -1 1 0 1.5757 37.4665)" y1="-2.601" x2="6.4653" gradientUnits="userSpaceOnUse" y2="30.1833" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_3_" xlink:show="other">
+            <stop stop-color="#ffffcf" offset="0"/>
+            <stop stop-color="#f0de80" offset="0.11"/>
+            <stop stop-color="#c26e54" offset="0.35"/>
+            <stop stop-color="#b0361a" offset="0.48"/>
+            <stop stop-color="#ad2621" offset="0.6629"/>
+            <stop stop-color="#9c0a00" offset="0.75"/>
+            <stop stop-color="#991712" offset="0.82"/>
+            <stop stop-color="#8a0000" offset="0.91"/>
+            <stop stop-color="#730303" offset="0.99"/>
+            <stop stop-color="#730303" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_3_)" d="M 5.076 15.572 C 5.076 21.773 10.123 26.82 16.326 26.82 C 18.47 26.82 20.466 26.207 22.173 25.17 L 29.269 32.256 L 33.109 28.602 L 25.923 21.416 C 26.966 19.709 27.579 17.705 27.579 15.572 C 27.579 9.367001 22.528 4.3220005 16.326 4.3220005 C 10.123 4.322 5.076 9.367 5.076 15.572 z M 25.076 15.572 C 25.076 20.394 21.148 24.322 16.326 24.322 C 11.504 24.322 7.578 20.394 7.578 15.571999 C 7.578 10.745998 11.504 6.817999 16.326 6.817999 C 21.148 6.818 25.076 10.746 25.076 15.572 z "/>
+        <linearGradient x1="-20.2592" y1="-21.0693" x2="45.167" gradientUnits="userSpaceOnUse" y2="44.3569" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+            <stop stop-color="#ffffcf" offset="0"/>
+            <stop stop-color="#f0de80" offset="0.11"/>
+            <stop stop-color="#c26e54" offset="0.35"/>
+            <stop stop-color="#b0361a" offset="0.48"/>
+            <stop stop-color="#ad2621" offset="0.6629"/>
+            <stop stop-color="#9c0a00" offset="0.75"/>
+            <stop stop-color="#991712" offset="0.82"/>
+            <stop stop-color="#8a0000" offset="0.91"/>
+            <stop stop-color="#730303" offset="0.99"/>
+            <stop stop-color="#730303" offset="1"/>
+        </linearGradient>
+        <rect x="10.326" width="12" fill="url(#XMLID_4_)" y="14.016" height="3"/>
+    </g>
+</svg>

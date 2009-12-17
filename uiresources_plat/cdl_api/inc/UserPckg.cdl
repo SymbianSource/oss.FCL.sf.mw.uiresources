@@ -1,0 +1,13 @@
+// CDL Standard Package
+
+Name: CDL User Package
+Version: 1.0
+UID: 0x101f8bb2
+
+%% API
+
+TDesC				name;
+TLanguage			language;
+TUid                uid;
+TCdlArray<TCdlRef>	contents;
+

@@ -1,0 +1,12 @@
+EXPORTS
+	AknsRlDummyExport__Fv @ 1 NONAME R3UNUSED ; AknsRlDummyExport(void)
+	GetItemLayout__19CAknsRlMasterLayoutRC11TAknsItemIDRC5TRectR5TRect @ 2 NONAME ; CAknsRlMasterLayout::GetItemLayout(TAknsItemID const &, TRect const &, TRect &)
+	GetParent__19CAknsRlMasterLayoutRC11TAknsItemID @ 3 NONAME R3UNUSED ; CAknsRlMasterLayout::GetParent(TAknsItemID const &)
+	NewL__19CAknsRlMasterLayout @ 4 NONAME R3UNUSED ; CAknsRlMasterLayout::NewL(void)
+	NewL__22CAknsRlDefaultRenderer @ 5 NONAME R3UNUSED ; CAknsRlDefaultRenderer::NewL(void)
+	CleanupOperation__22MAknsRlCommandIteratorPv @ 6 NONAME R3UNUSED ; MAknsRlCommandIterator::CleanupOperation(void *)
+	CurrentLayoutType__19CAknsRlMasterLayout @ 7 NONAME R3UNUSED ; CAknsRlMasterLayout::CurrentLayoutType(void)
+	CreateAnimationValueL__22AknsAlAnimationFactoryG4TUid @ 8 NONAME R3UNUSED ; AknsAlAnimationFactory::CreateAnimationValueL(TUid)
+	CreateEffectPluginL__22AknsAlAnimationFactoryG4TUid @ 9 NONAME R3UNUSED ; AknsAlAnimationFactory::CreateEffectPluginL(TUid)
+	CreateTimingModelL__22AknsAlAnimationFactoryG4TUid @ 10 NONAME R3UNUSED ; AknsAlAnimationFactory::CreateTimingModelL(TUid)
+

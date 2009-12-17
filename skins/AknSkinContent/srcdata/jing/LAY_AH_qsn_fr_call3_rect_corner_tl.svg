@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="24" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-2.1 -1.01 24 24" height="24" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <path fill="#656b6b" d="M -0.1 22.99 L -0.1 10.99 C -0.1 4.3729997 5.283 -1.0100002 11.9 -1.0100002 L 21.9 -1.0100002 L 21.9 22.99 L -0.1 22.99 z " fill-opacity="0.01"/>
+    <path fill="#656b6b" d="M 0.9 22.99 L 0.9 10.99 C 0.9 4.9259996 5.836 -0.010000229 11.9 -0.010000229 L 21.9 -0.010000229 L 21.9 22.99 L 0.9 22.99 z " fill-opacity="0.03"/>
+    <path fill="#656b6b" d="M 1.9 22.99 L 1.9 10.99 C 1.9 5.476 6.386 0.9899998 11.9 0.9899998 L 21.9 0.9899998 L 21.9 22.99 L 1.9 22.99 z " fill-opacity="0.04"/>
+    <path fill="#656b6b" d="M 2.9 22.99 L 2.9 10.99 C 2.9 6.027 6.937 1.9899998 11.9 1.9899998 L 21.9 1.9899998 L 21.9 22.99 L 2.9 22.99 z " fill-opacity="0.09"/>
+    <path fill="#656b6b" d="M 3.9 22.99 L 3.9 10.99 C 3.9 6.579 7.488 2.9899998 11.9 2.9899998 L 21.9 2.9899998 L 21.9 22.99 L 3.9 22.99 z " fill-opacity="0.08"/>
+    <path fill="#656b6b" d="M 4.9 22.99 L 4.9 10.99 C 4.9 7.131 8.041 3.99 11.9 3.99 L 21.9 3.99 L 21.9 22.99 L 4.9 22.99 z " fill-opacity="0.1"/>
+    <path fill="#656b6b" d="M 5.9 22.99 L 5.9 10.99 C 5.9 7.681 8.591 4.99 11.9 4.99 L 21.9 4.99 L 21.9 22.99 L 5.9 22.99 z " fill-opacity="0.11"/>
+    <path fill="#656b6b" d="M 6.9 22.99 L 6.9 10.99 C 6.9 8.228 9.1380005 5.99 11.9 5.99 L 21.9 5.99 L 21.9 22.99 L 6.9 22.99 z " fill-opacity="0.1"/>
+    <polygon fill="#656b6b" fill-opacity="0.03" points="6.9,22.99 6.9,1.99 7.9,1.99 21.9,1.99 21.9,22.99 "/>
+    <linearGradient x1="14.9" y1="110.09" x2="14.9" gradientUnits="userSpaceOnUse" y2="4.39" xlink:type="simple" xlink:actuate="onLoad" id="_3" xlink:show="other">
+        <stop stop-color="#a8c4cc" offset="0"/>
+        <stop stop-color="#d9f4e0" offset="0.53"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <rect x="7.9" width="14" fill="url(#_3)" y="2.99" height="20"/>
+    <linearGradient x1="16.4" y1="106.79" x2="16.4" gradientUnits="userSpaceOnUse" y2="7.09" xlink:type="simple" xlink:actuate="onLoad" id="_4" xlink:show="other">
+        <stop stop-color="#c4d9d1" offset="0"/>
+        <stop stop-color="#d9f4e0" offset="0.23"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <rect x="10.9" width="11" fill="url(#_4)" y="5.99" height="17"/>
+    <rect x="-2.1" width="24" fill="none" y="-1.01" height="24"/>
+</svg>

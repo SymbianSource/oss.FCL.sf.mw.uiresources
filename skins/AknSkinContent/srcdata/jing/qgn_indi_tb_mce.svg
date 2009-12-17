@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="43.939" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 43.939 43.945" height="43.945" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <linearGradient x1="21.9709" y1="5.0715" x2="21.9709" gradientUnits="userSpaceOnUse" y2="31.7566" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+        <stop stop-color="#ffffcf" offset="0"/>
+        <stop stop-color="#f0de80" offset="0.11"/>
+        <stop stop-color="#c26e54" offset="0.35"/>
+        <stop stop-color="#b0361a" offset="0.48"/>
+        <stop stop-color="#ad2621" offset="0.6629"/>
+        <stop stop-color="#9c0a00" offset="0.75"/>
+        <stop stop-color="#991712" offset="0.82"/>
+        <stop stop-color="#8a0000" offset="0.91"/>
+        <stop stop-color="#730303" offset="0.99"/>
+        <stop stop-color="#730303" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_6_)" d="M 7.304 10.654 L 7.304 33.291 L 36.638 33.291 L 36.638 10.654 L 7.304 10.654 z M 31.626 13.16 L 26.079 18.707 L 17.86 18.707 L 12.315001 13.160001 L 31.626 13.160001 z M 34.132 30.785 L 9.81 30.785 L 9.81 14.413 L 17.179 21.74 L 26.773 21.756 L 34.13 14.413 L 34.132 30.785 L 34.132 30.785 z "/>
+</svg>

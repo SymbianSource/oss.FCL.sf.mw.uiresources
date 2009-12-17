@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="100%" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0 0 100 69.049" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<g>
+<polygon fill="#FFFFFF" points="67.791,64.095 82.795,16.482 63.447,13.463 63.584,7.835 43.003,4.954 36.594,6.978         33.628,16.997 26.751,15.736 17.205,19.088 24.982,50.921 "/>
+<g>
+<polygon fill="#CD9F3D" points="26.888,48.534 38.764,8.207 58.082,11.301 57.941,17.288 76.066,20.329 66.19,60.28 "/>
+<polygon fill="#EACF5A" points="66.193,59.902 26.694,48.513 20.182,20.372 59.501,28.252 "/>
+<polygon fill="#EACF5A" points="66.152,24.634 26.94,17.906 20.182,20.372 59.501,28.252 "/>
+<polygon fill="#EACF5A" points="61.435,9.603 43.029,6.906 38.656,8.141 58.082,11.301 "/>
+<polygon fill="#EACF5A" points="79.998,18.288 61.209,15.454 57.941,17.288 76.066,20.329 "/>
+<polygon fill="#704D18" points="66.152,24.634 66.196,60.587 59.501,28.252 "/>
+<polygon fill="#704D18" points="79.998,18.288 66.196,60.587 76.066,20.329 "/>
+<polygon fill="#704D18" points="58.082,11.301 57.941,17.288 61.209,15.454 61.435,9.603 "/>
+<polygon fill="url(#XMLID_14_)" points="26.888,48.534 34.217,23.501 59.514,28.494 66.196,60.587 "/>
+<defs>
+<linearGradient gradientTransform="matrix(1.1905 -0.0746 0 -1.1905 295.8331 477.6032)" gradientUnits="userSpaceOnUse" id="XMLID_14_" x1="-215.9478" x2="-201.3631" y1="363.0898" y2="386.9125">
+<stop offset="0" style="stop-color:#CD9F3D"/>
+<stop offset="1" style="stop-color:#AD832F"/>
+</linearGradient>
+</defs>
+</g>
+</g>
+<rect fill="none" height="69.049" width="100"/>
+</g>
+</g>
+</switch>
+</svg>

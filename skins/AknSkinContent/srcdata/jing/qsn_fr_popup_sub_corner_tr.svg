@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="8" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-0.166 0.495 8 8" height="8" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <path fill="#656b6b" d="M 7.775 8.495 C 7.313 4.331 3.998 1.017 -0.166 0.554 L -0.166 8.495 L 7.775 8.495 z " fill-opacity="0.01"/>
+    <path fill="#656b6b" d="M 6.765 8.495 C 6.311 4.884 3.4459999 2.0179996 -0.16600037 1.565 L -0.16600037 8.495 L 6.765 8.495 z " fill-opacity="0.02"/>
+    <path fill="#656b6b" d="M 5.754 8.495 C 5.314 5.436 2.8930001 3.0159998 -0.16599989 2.5749998 L -0.16599989 8.495 L 5.754 8.495 z " fill-opacity="0.04"/>
+    <path fill="#656b6b" d="M 4.744 8.495 C 4.32 5.989 2.342 4.009 -0.16599989 3.585 L -0.16599989 8.495 L 4.744 8.495 z " fill-opacity="0.07"/>
+    <path fill="#656b6b" d="M 3.732 8.495 C 3.334 6.54 1.79 4.995 -0.166 4.597 L -0.166 8.495 L 3.732 8.495 z " fill-opacity="0.11"/>
+    <path fill="#656b6b" d="M 2.691 8.495 C 2.328 7.097 1.232 6.001 -0.166 5.638 L -0.166 8.495 L 2.691 8.495 z " fill-opacity="0.13"/>
+    <path fill="#656b6b" d="M 1.65 8.495 C 1.349 7.647 0.682 6.981 -0.166 6.679 L -0.166 8.495 L 1.65 8.495 z " fill-opacity="0.1"/>
+    <polygon fill="#656b6b" fill-opacity="0.02" points="2.834,8.495 2.834,3.495 1.834,3.495 -0.166,3.495 -0.166,8.495 "/>
+    <linearGradient x1="109.72" y1="109.3" x2="-69.24" gradientUnits="userSpaceOnUse" y2="-59.66" xlink:type="simple" xlink:actuate="onLoad" id="_2" xlink:show="other">
+        <stop stop-color="#ffe4e1" offset="0"/>
+        <stop stop-color="#ffe4e1" offset="0.24"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <rect x="-0.166" width="2" fill="url(#_2)" y="4.495" height="4"/>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="100" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="8.521 0.993 100 60" height="60" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect x="8.521" y="31.993" fill-opacity="0.01" fill="#656b6b" width="100" height="29"/>
+        <rect x="8.521" y="32.993" fill-opacity="0.02" fill="#656b6b" width="100" height="28"/>
+        <rect x="8.521" y="33.993" fill-opacity="0.03" fill="#656b6b" width="100" height="27"/>
+        <rect x="8.521" y="34.993" fill-opacity="0.05" fill="#656b6b" width="100" height="26"/>
+        <path fill="#656b6b" d="M 8.521 60.993 L 8.521 35.993 C 23.455 35.993 78.22 35.993 108.520996 35.993 L 108.520996 60.993 L 8.521 60.993 z " fill-opacity="0.06"/>
+        <path fill="#656b6b" d="M 8.521 60.993 L 8.521 36.993 C 24.039 36.993 78.39101 36.993 108.520996 36.993 L 108.520996 60.993 L 8.521 60.993 z " fill-opacity="0.1"/>
+        <path fill="#656b6b" d="M 8.521 60.993 L 8.521 37.993 C 24.562 37.993 78.54201 37.993 108.520996 37.993 L 108.520996 60.993 L 8.521 60.993 z " fill-opacity="0.1"/>
+        <path fill="#656b6b" d="M 8.521 60.993 L 8.521 38.993 C 25.496 38.993 78.813 38.993 108.520996 38.993 L 108.520996 60.993 L 8.521 60.993 z " fill-opacity="0.1"/>
+        <rect x="8.521" y="35.993" fill-opacity="0.8" fill="#ffffff" width="100" height="25"/>
+        <rect x="8.521" width="100" fill="none" y="0.993" height="60"/>
+    </g>
+</svg>

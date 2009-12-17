@@ -1,0 +1,119 @@
+/*
+* Copyright (c) 2003-2007 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  ?Description
+*
+*/
+
+
+#include <bldvariant.hrh>
+
+PRJ_PLATFORMS
+DEFAULT
+
+#undef OLD_PLATFORM_SKINS
+
+PRJ_EXPORTS
+//../srcdata/scalableseries60skin/101f84b9.sel /epoc32/release/winscw/udeb/z/resource/skins/101f84b9/101f84b9.sel
+
+// Using only default skin
+//../srcdata/haze/2000B12D.sel                  /epoc32/release/winscw/udeb/z/resource/skins/2000B12D/2000B12D.sel
+//../srcdata/jing/2000B12E.sel                  /epoc32/release/winscw/udeb/z/resource/skins/2000B12E/2000B12E.sel
+#ifdef OLD_PLATFORM_SKINS
+../srcdata/armi/1020711F.sel                 /epoc32/release/winscw/udeb/z/resource/skins/1020711F/1020711F.sel
+../srcdata/city/10207120.sel                 /epoc32/release/winscw/udeb/z/resource/skins/10207120/10207120.sel
+#endif
+
+//../srcdata/scalableseries60skin/101f84b9.sel /epoc32/release/winscw/urel/z/resource/skins/101f84b9/101f84b9.sel
+//../srcdata/haze/2000B12D.sel                  /epoc32/release/winscw/urel/z/resource/skins/2000B12D/2000B12D.sel
+//../srcdata/jing/2000B12E.sel                  /epoc32/release/winscw/urel/z/resource/skins/2000B12E/2000B12E.sel
+#ifdef OLD_PLATFORM_SKINS
+../srcdata/armi/1020711F.sel                 /epoc32/release/winscw/urel/z/resource/skins/1020711F/1020711F.sel
+../srcdata/city/10207120.sel                 /epoc32/release/winscw/urel/z/resource/skins/10207120/10207120.sel
+#endif
+
+//../srcdata/scalableseries60skin/101f84b9.sel /epoc32/data/z/resource/skins/101f84b9/101f84b9.sel
+//../srcdata/haze/2000B12D.sel                  /epoc32/data/z/resource/skins/2000B12D/2000B12D.sel
+//../srcdata/jing/2000B12E.sel                  /epoc32/data/z/resource/skins/2000B12E/2000B12E.sel
+#ifdef OLD_PLATFORM_SKINS
+../srcdata/armi/1020711F.sel                 /epoc32/data/z/resource/skins/1020711F/1020711F.sel
+../srcdata/city/10207120.sel                 /epoc32/data/z/resource/skins/10207120/10207120.sel
+#endif
+
+#ifdef SBSV2
+  ./skingenerator.flm                       /epoc32/tools/makefile_templates/skins/skingenerator.flm
+  ./skingenerator.meta                      /epoc32/tools/makefile_templates/skins/skingenerator.meta
+  ./skingenerator.xml                       /epoc32/tools/makefile_templates/skins/skingenerator.xml
+
+  :zip ../srcdata/haze/haze.zip             |../srcdata/haze
+  :zip ../srcdata/jing/jing.zip             |../srcdata/jing
+#endif
+
+PRJ_EXTENSIONS
+#ifndef TOOLS
+#ifdef SBSV2
+START EXTENSION skins/skingenerator
+  OPTION AKNSSKINNAME scalableseries60skin
+  OPTION AKNSSKINREALNAME series60skin
+  OPTION AKNSSKINUID 101f84b9
+  OPTION AKNSSRCDIR ../srcdata/scalableseries60skin
+END
+START EXTENSION skins/skingenerator
+  OPTION AKNSSKINNAME jing
+  OPTION AKNSSKINREALNAME jing
+  OPTION AKNSSKINUID 2000B12E
+  OPTION AKNSSRCDIR ../srcdata/jing
+END
+START EXTENSION skins/skingenerator
+  OPTION AKNSSKINNAME haze
+  OPTION AKNSSKINREALNAME haze
+  OPTION AKNSSKINUID 2000B12D
+  OPTION AKNSSRCDIR ../srcdata/haze
+END
+START EXTENSION s60/mif2cdlindex
+  OPTION TARGETFILE series60skinindexdll_inst.cpp
+  OPTION GENPATH ../srcdata/scalableseries60skin/MifIndexDll
+  OPTION MIFDIR $(EPOCROOT)/epoc32/data/z/resource/skins/101f84b9
+  OPTION MIFFILE series60skin.mif
+  OPTION DLLNAME series60skinIndexDll
+  OPTION DLLUID 0x101f84b9
+END
+#endif
+#endif
+
+PRJ_MMPFILES
+
+
+#ifndef TOOLS
+#ifndef SBSV2
+  // Scalable system default skin
+  gnumakefile scalableseries60skin.mk
+
+  // Scalable (ROM) skin "Haze"
+  gnumakefile haze.mk
+
+  // Scalable (ROM) skin "JingMask"
+  gnumakefile jing.mk
+#endif  //SBSV2
+    
+  ../srcdata/scalableseries60skin/MifIndexDll/series60skinindexdll.mmp
+
+#ifdef OLD_PLATFORM_SKINS
+// Scalable (ROM) skin "Armi"
+gnumakefile armi.mk
+
+// Scalable (ROM) skin "City"
+gnumakefile city.mk
+#endif
+#endif
+// End of File

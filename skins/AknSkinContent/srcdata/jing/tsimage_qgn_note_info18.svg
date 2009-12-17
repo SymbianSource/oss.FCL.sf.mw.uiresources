@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="100%" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0 0 60 80" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<g>
+<g>
+<path d="M30.088,13.241c-10.999-0.324-16.179,13.053-8.005,20.813l-4.244,2.773l0.666,7.497l2.41,0.865         l0.531,6.469l-3.238,2.119l0.646,8.66l16.9,6.219l7.541-7.291l0.208-8.396l-2.938-0.875l0.354-17.279l-3.498-0.824         C46.346,26.372,39.991,13.241,30.088,13.241z" fill="#FFFFFF"/>
+<g>
+<g>
+<polygon fill="#704D18" points="32.387,58.553 38.963,53.24 39.121,35.969 32.063,40.842 "/>
+<polygon fill="#CD9F3D" points="19.502,37.12 32.152,40.842 39.177,35.969 26.091,33.12 "/>
+<polygon fill="#CD9F3D" points="32.371,58.318 35.477,59.254 41.754,53.99 38.963,53.24 "/>
+<polygon fill="#CD9F3D" points="19.983,54.395 23.091,55.332 29.151,51.002 26.462,50.273 "/>
+<polygon fill="#704D18" points="35.303,66.119 41.68,60.082 41.754,53.99 35.346,59.299 "/>
+<polygon fill="#EACF5A" points="19.502,37.12 32.063,40.842 32.371,58.363 35.367,59.246 35.277,66.121 20.546,61.115            20.029,54.352 23.114,55.365 22.388,44.229 19.923,43.082 "/>
+</g>
+<g>
+<radialGradient cx="-241.1621" cy="440.6484" fx="-241.1621" fy="440.6484" gradientTransform="matrix(1 0 0 -1 268.5 460.3906)" gradientUnits="userSpaceOnUse" id="XMLID_52_" r="12.412">
+<stop offset="0" style="stop-color:#EACF5A"/>
+<stop offset="0.9101" style="stop-color:#CD9F3D"/>
+<stop offset="1" style="stop-color:#8E6F3A"/>
+</radialGradient>
+<circle cx="29.837" cy="25.266" fill="url(#XMLID_52_)" r="10.029"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<rect fill="none" height="80" width="60"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</switch>
+</svg>

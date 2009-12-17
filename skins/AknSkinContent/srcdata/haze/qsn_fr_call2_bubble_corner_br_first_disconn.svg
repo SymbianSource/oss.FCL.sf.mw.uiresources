@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-1 -1 44 32" height="32" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <g stroke-opacity="0.7" fill-opacity="0.7">
+        <path fill="#656b6b" d="M -1.0 22.0 L 17.895 22.0 C 30.083 22.0 40.0 12.079 40.0 -0.115 L 40.0 -1.0 L -1.0 -1.0 L -1.0 22.0 z " fill-opacity="0.01"/>
+        <path fill="#656b6b" d="M -1.0 21.0 L 17.895 21.0 C 29.531 21.0 39.0 11.526 39.0 -0.115 L 39.0 -1.0 L -1.0 -1.0 L -1.0 21.0 z " fill-opacity="0.03"/>
+        <path fill="#656b6b" d="M -1.0 20.0 L 17.895 20.0 C 28.98 20.0 38.0 10.978 38.0 -0.115 L 38.0 -1.0 L -1.0 -1.0 L -1.0 20.0 z " fill-opacity="0.05"/>
+        <path fill="#656b6b" d="M -1.0 19.0 L 17.895 19.0 C 28.43 19.0 37.0 10.425 37.0 -0.115 L 37.0 -1.0 L -1.0 -1.0 L -1.0 19.0 z " fill-opacity="0.07"/>
+        <path fill="#656b6b" d="M -1.0 18.0 L 17.895 18.0 C 27.877 18.0 36.0 9.873 36.0 -0.115 L 36.0 -1.0 L -1.0 -1.0 L -1.0 18.0 z " fill-opacity="0.11"/>
+        <path fill="#5f9ea0" d="M -1.0 17.0 L 17.895 17.0 C 27.342 17.0 35.0 9.335 35.0 -0.115 L 35.0 -1.0 L -1.0 -1.0 L -1.0 17.0 z "/>
+    </g>
+</svg>

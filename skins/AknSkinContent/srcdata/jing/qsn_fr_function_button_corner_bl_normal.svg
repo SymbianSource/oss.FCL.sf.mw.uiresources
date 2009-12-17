@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="8" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-212.473 54.42 8 7.992" height="7.992" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <path fill="#ff4747" d="M -212.473 54.42 L -212.473 59.282997 C -212.325 60.99 -210.885 62.368996 -209.096 62.412 L -204.473 62.412 L -204.473 54.42 L -212.473 54.42 z "/>
+    <linearGradient x1="-208.001" y1="31.7422" x2="-208.001" gradientUnits="userSpaceOnUse" y2="71.4272" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+        <stop stop-color="#fff5f5" offset="0"/>
+        <stop stop-color="#ffa29e" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_2_)" d="M -211.529 54.42 L -211.528 59.393 C -211.424 60.546997 -210.362 61.519997 -209.114 61.519997 L -204.473 61.519997 L -204.473 54.42 L -211.529 54.42 z "/>
+</svg>

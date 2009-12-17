@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<api id="79adf6078afb9e4b2acb8a931f5450dd" dataversion="2.0">
+  <name>Layout System Private API</name>
+  <description>Interfaces related to how the layout system works internally.</description>
+  <type>c++</type>
+  <collection>domain</collection>
+  <libs>
+    <lib name="aknlayout2.lib" />
+    <lib name="aknlayout2adaptation.lib" />
+    <lib name="aknlayout2scalable.lib" />
+  </libs>
+  <release category="platform"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>no</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

@@ -1,0 +1,20 @@
+// LayoutMetaData.cdl
+
+Name: Layout Meta Data
+Version: 1.0
+UID: 0x10204FC6
+Flag: KCdlFlagRomOnly
+
+%% C++
+
+
+%% API
+
+TBool IsLandscapeOrientation();
+TBool IsMirrored();
+TBool IsScrollbarEnabled();
+TBool IsAPAC();
+TBool IsPenEnabled();
+TBool IsListStretchingEnabled();
+TBool IsMSKEnabled();
+TBool IsTouchPaneEnabled();

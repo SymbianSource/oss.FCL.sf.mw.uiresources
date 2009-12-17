@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="24" height="78" viewBox="-0.5 0.5 24 78">
+<rect fill-opacity="0.01" height="78" width="21" x="-0.5" y="0.5"/>
+<rect fill-opacity="0.03" height="78" width="20" x="-0.5" y="0.5"/>
+<rect fill-opacity="0.05" height="78" width="19" x="-0.5" y="0.5"/>
+<rect fill-opacity="0.07" height="78" width="18" x="-0.5" y="0.5"/>
+<rect fill-opacity="0.11" height="78" width="17" x="-0.5" y="0.5"/>
+<rect fill="#FFFFFF" fill-opacity="0.6" height="78" width="18" x="-0.5" y="0.5"/>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="134" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="73.5 8.996 134 5.409" height="5.409" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect x="73.5" y="8.996" fill-opacity="0.01" fill="#808080" width="134" height="0.442"/>
+        <rect x="73.5" y="9.438" fill-opacity="0.03" fill="#808080" width="134" height="0.444"/>
+        <rect x="73.5" y="9.883" fill-opacity="0.04" fill="#808080" width="134" height="0.44"/>
+        <rect x="73.5" y="10.324" fill-opacity="0.03" fill="#808080" width="134" height="0.444"/>
+        <rect x="73.5" y="10.769" fill-opacity="0.03" fill="#808080" width="134" height="0.444"/>
+        <rect x="73.5" y="11.213" fill-opacity="0.03" fill="#808080" width="134" height="0.442"/>
+        <rect x="73.5" y="11.655" fill-opacity="0.03" fill="#808080" width="134" height="0.443"/>
+        <rect x="73.5" y="14.405" fill-opacity="0.03" fill="#808080" width="134" height="0"/>
+        <linearGradient x1="1128.0547" gradientTransform="matrix(-1 0 0 -1 1190.375 233.416)" y1="196.585" x2="979.2388" gradientUnits="userSpaceOnUse" y2="239.2748" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_7_" xlink:show="other">
+            <stop stop-color="#808080" offset="0"/>
+            <stop stop-color="#5f9ea0" offset="1"/>
+        </linearGradient>
+        <rect x="73.5" y="14.405" fill-opacity="0.4" fill="url(#XMLID_7_)" width="134" height="0"/>
+        <rect x="73.5" y="12.099" fill-opacity="0.03" fill="#808080" width="134" height="2.306"/>
+        <linearGradient x1="1823.21" gradientTransform="matrix(-1 0 0 1 1885 -818.6533)" y1="808.6621" x2="1673.9716" gradientUnits="userSpaceOnUse" y2="851.4733" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_8_" xlink:show="other">
+            <stop stop-color="#808080" offset="0"/>
+            <stop stop-color="#5f9ea0" offset="1"/>
+        </linearGradient>
+        <polygon fill="url(#XMLID_8_)" fill-opacity="0.4" points="73.5,10.769 73.5,11.213 73.5,11.655 73.5,12.099 73.5,14.405    207.5,14.405 207.5,12.099 207.5,11.655 207.5,11.213 207.5,10.769  "/>
+    </g>
+</svg>

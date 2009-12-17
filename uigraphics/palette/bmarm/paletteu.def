@@ -1,0 +1,6 @@
+EXPORTS
+	Color16array__14DynamicPalette @ 1 NONAME ; Color16array(void)
+	Color16inverse__14DynamicPalette @ 2 NONAME ; Color16inverse(void)
+	DefaultColor256Util__14DynamicPalette @ 3 NONAME ; DefaultColor256Util(void)
+	SetColor256Util__14DynamicPaletteQ214DynamicPalette6TIndex @ 4 NONAME ; SetColor256Util(TIndex)
+

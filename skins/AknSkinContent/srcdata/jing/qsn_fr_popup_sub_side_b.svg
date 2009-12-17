@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="156" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-0.166 0.495 156 8" height="8" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <path fill="#656b6b" d="M 155.834 0.495 L -0.16600037 0.495 L -0.16600037 8.436 C 0.16199964 8.473 0.49599963 8.495 0.83399963 8.495 L 154.834 8.495 C 155.172 8.495 155.506 8.474 155.834 8.436 L 155.834 0.495 z " fill-opacity="0.01"/>
+    <path fill="#656b6b" d="M -0.166 0.495 L -0.166 7.427 C 0.16200002 7.468 0.49400002 7.495 0.834 7.495 L 154.834 7.495 C 155.174 7.495 155.506 7.468 155.834 7.427 L 155.834 0.495 L -0.166 0.495 z " fill-opacity="0.02"/>
+    <path fill="#656b6b" d="M -0.166 0.495 L -0.166 6.415 C 0.16200002 6.462 0.49400002 6.495 0.834 6.495 L 154.834 6.495 C 155.174 6.495 155.506 6.462 155.834 6.415 L 155.834 0.4949999 L -0.166 0.4949999 z " fill-opacity="0.04"/>
+    <path fill="#656b6b" d="M -0.166 0.495 L -0.166 5.4049997 C 0.16000001 5.4599996 0.49199998 5.495 0.834 5.495 L 154.834 5.495 C 155.176 5.495 155.508 5.46 155.834 5.4049997 L 155.834 0.4949999 L -0.166 0.4949999 z " fill-opacity="0.07"/>
+    <path fill="#656b6b" d="M -0.166 0.495 L -0.166 4.393 C 0.15700002 4.459 0.49199998 4.495 0.834 4.495 L 154.834 4.495 C 155.176 4.495 155.511 4.46 155.834 4.3929996 L 155.834 0.495 L -0.166 0.495 z " fill-opacity="0.11"/>
+    <path fill="#656b6b" d="M -0.166 0.495 L -0.166 3.354 C 0.15500002 3.436 0.486 3.4950001 0.834 3.4950001 L 154.834 3.4950001 C 155.182 3.4950001 155.513 3.436 155.834 3.354 L 155.834 0.495 L -0.166 0.495 z " fill-opacity="0.13"/>
+    <path fill="#656b6b" d="M -0.166 0.495 L -0.166 2.3109999 C 0.14800002 2.422 0.481 2.495 0.834 2.495 L 154.834 2.495 C 155.187 2.495 155.52 2.4229999 155.834 2.3109999 L 155.834 0.495 L -0.166 0.495 z " fill-opacity="0.1"/>
+    <rect x="-0.166" y="0.495" fill-opacity="0.02" fill="#656b6b" width="156" height="3"/>
+    <linearGradient x1="154.14" y1="73.54" x2="-24.86" gradientUnits="userSpaceOnUse" y2="-95.47" xlink:type="simple" xlink:actuate="onLoad" id="_2" xlink:show="other">
+        <stop stop-color="#ffe4e1" offset="0"/>
+        <stop stop-color="#ffe4e1" offset="0.24"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <rect x="-0.166" width="156" fill="url(#_2)" y="0.495" height="2"/>
+</svg>

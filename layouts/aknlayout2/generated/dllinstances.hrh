@@ -1,0 +1,36 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+#ifndef LayoutInst_INST_IDS
+#define LayoutInst_INST_IDS
+
+#define KDllInst_Adaptation_Layer_AknLayout_Elaf 0x00000000
+#define KDllInst_Adaptation_Layer_AknApacLayout 0x00000001
+#define KDllInst_Adaptation_Layer_AppLayout_Elaf 0x00000002
+#define KDllInst_Adaptation_Layer_AppApacLayout 0x00000003
+#define KDllInst_Adaptation_Layer_SkinLayout 0x00000004
+#define KDllInst_LayoutMetaData_defaults 0x00000005
+#define KDllInst_LayoutMetaData_scrollbar 0x00000006
+#define KDllInst_LayoutMetaData_land 0x00000007
+#define KDllInst_LayoutMetaData_APAC 0x00000008
+#define KDllInst_LayoutMetaData_abrw 0x00000009
+#define KDllInst_LayoutMetaData_pensupport 0x0000000a
+#define KDllInst_LayoutMetaData_liststretching 0x0000000b
+#define KDllInst_LayoutMetaData_MSK 0x0000000c
+#define KDllInst_LayoutMetaData_touchpane 0x0000000d
+
+#endif

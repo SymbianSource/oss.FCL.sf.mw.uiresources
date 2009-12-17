@@ -1,0 +1,51 @@
+/*
+* Copyright (c) 2002-2004 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:   
+*
+*/
+
+
+
+#ifndef AKN_ICON_SRV_RH
+#define AKN_ICON_SRV_RH
+
+//  INCLUDES
+#include "AknIconSrv.hrh"
+
+
+//  STRUCTURE DEFINITIONS
+// -----------------------------------------------------------------------------
+// PRECACHE ICON
+// -----------------------------------------------------------------------------
+//
+STRUCT ICON2
+    {
+    // Skin ID for the icon in skin. This is used primarily.
+
+    LONG skin_id_major = -1; // If major and minor skin ID are set to -1,
+    LONG skin_id_minor = -1; // Fallback MIF location is used.
+
+    // Fallback MIF location, if the icon is not present in the active skin.
+
+    LTEXT16 fallback_icon_file = ""; // full file name
+    LONG fallback_icon_id;
+    LONG fallback_mask_id;
+    LONG icon_width;
+    LONG icon_height;
+    LONG icon_mode;
+    }
+
+#endif      // AKN_ICON_SRV_RH
+            
+// End of File

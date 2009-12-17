@@ -1,0 +1,93 @@
+/*
+* Copyright (c) 2002-2008 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description: 
+*   Build file
+*
+*/
+
+
+
+#include <platform_paths.hrh>
+
+PRJ_PLATFORMS
+DEFAULT
+
+PRJ_EXPORTS
+
+#ifdef RD_INTELLIGENT_TEXT_INPUT
+../src/epoc_iti.ini                 /epoc32/data/epoc.ini
+#else
+../src/epoc.ini                 /epoc32/data/epoc.ini
+#endif
+
+../src/epoc_240x320.ini                 /epoc32/data/epoc_240x320.ini
+../src/epoc_640x360_touch_qwerty.ini    /epoc32/data/epoc_640x360_touch_qwerty.ini
+../src/epoc_360x640_touch.ini           /epoc32/data/epoc_360x640_touch.ini
+../src/epoc_640x360_nhd4_qwerty.ini    /epoc32/data/epoc_640x360_nhd4_qwerty.ini
+../src/epoc_360x640_nhd4.ini           /epoc32/data/epoc_360x640_nhd4.ini
+../src/epoc_640x480_touch_qwerty.ini   /epoc32/data/epoc_640x480_touch_qwerty.ini
+
+#ifdef RD_INTELLIGENT_TEXT_INPUT
+../src/epoc_320x240_qvga2_3x11Qwerty.ini  /epoc32/data/epoc_320x240_qvga2_3x11Qwerty.ini
+../src/epoc_320x240_qvga2_4x10Qwerty.ini  /epoc32/data/epoc_320x240_qvga2_4x10Qwerty.ini
+../src/epoc_320x240_qvga2_HalfQwerty.ini  /epoc32/data/epoc_320x240_qvga2_HalfQwerty.ini
+#endif
+
+../src/QVGA_P_B.bmp        /epoc32/data/QVGA_P_B.bmp
+../src/QHD_P_B.bmp         /epoc32/data/QHD_P_B.bmp
+../src/NHD4_L_B_QW.bmp      /epoc32/data/NHD4_L_B_QW.bmp   
+../src/NHD4_P_B.bmp         /epoc32/data/NHD4_P_B.bmp 
+../src/QHD_L_B_QW.bmp       /epoc32/data/QHD_L_B_QW.bmp 
+../src/VGA_L_B_QW.bmp       /epoc32/data/VGA_L_B_QW.bmp
+                           
+#ifdef RD_INTELLIGENT_TEXT_INPUT
+../src/QVGA_L_B_3x11QW.bmp	/epoc32/data/QVGA_L_B_3x11QW.bmp
+../src/QVGA_L_B_4x10QW.bmp	/epoc32/data/QVGA_L_B_4x10QW.bmp
+../src/QVGA_L_B_half_Qwerty_QW.bmp /epoc32/data/QVGA_L_B_half_Qwerty_QW.bmp
+#endif
+
+#ifdef RD_TACTILE_FEEDBACK
+#ifdef RD_INTELLIGENT_TEXT_INPUT
+../src/hw_wsini.ini     		/epoc32/data/wsini.ini  
+../src/wsini_iti.ini        /epoc32/release/winscw/udeb/z/system/data/wsini.ini
+../src/wsini_iti.ini        /epoc32/release/winscw/urel/z/system/data/wsini.ini
+../src/wsini_iti.ini        /epoc32/release/winscw/udeb/z/system/data/wsini.icl
+../src/wsini_iti.ini        /epoc32/release/winscw/urel/z/system/data/wsini.icl
+#else
+../src/hw_wsini_qhd.ini       /epoc32/data/wsini.ini  
+../src/wsini_tactile.ini      /epoc32/release/winscw/udeb/z/system/data/wsini.ini
+../src/wsini_tactile.ini      /epoc32/release/winscw/urel/z/system/data/wsini.ini
+../src/wsini_tactile.ini      /epoc32/release/winscw/udeb/z/system/data/wsini.icl
+../src/wsini_tactile.ini      /epoc32/release/winscw/urel/z/system/data/wsini.icl
+#endif
+#else    
+../src/hw_wsini.ini     /epoc32/data/wsini.ini  
+../src/wsini.ini        /epoc32/release/winscw/udeb/z/system/data/wsini.ini
+../src/wsini.ini        /epoc32/release/winscw/urel/z/system/data/wsini.ini
+../src/wsini.ini        /epoc32/release/winscw/udeb/z/system/data/wsini.icl
+../src/wsini.ini        /epoc32/release/winscw/urel/z/system/data/wsini.icl
+#endif
+
+../bin/MMCCRD0A.BIN     /epoc32/data/media/MMCCRD0A.BIN   
+../bin/MMCCRD1A.BIN     /epoc32/data/media/MMCCRD1A.BIN   
+../bin/MMCCRD2A.BIN     /epoc32/data/media/MMCCRD2A.BIN   
+
+
+// IBY-files
+../rom/wsini.iby CORE_MW_LAYER_IBY_EXPORT_PATH(wsini.iby)
+
+
+PRJ_MMPFILES
+
+PRJ_TESTMMPFILES

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="100%" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0 0 12 32" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<g>
+<g>
+<linearGradient gradientTransform="matrix(1 0 0 -1 292.5 436.3906)" gradientUnits="userSpaceOnUse" id="XMLID_3_" x1="-286" x2="-286" y1="409.3418" y2="419.3906">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#EACF5A"/>
+</linearGradient>
+<path d="M6.5,27.049c-2.484,0-4.5-1.711-4.5-4.174V21.25C2,18.787,4.016,17,6.5,17l0,0         c2.486,0,4.5,1.787,4.5,4.25v1.625C11,25.338,8.986,27.049,6.5,27.049L6.5,27.049z" fill="url(#XMLID_3_)"/>
+<g>
+<linearGradient gradientTransform="matrix(1 0 0 -1 292.5 436.3906)" gradientUnits="userSpaceOnUse" id="XMLID_4_" x1="-286" x2="-286" y1="419.3906" y2="414.7266">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#EACF5A"/>
+</linearGradient>
+<path d="M6.5,17C4.016,17,2,18.787,2,21.25v0.098h1v0.316c0-1.916,1.566-3.211,3.5-3.211          c1.934,0,3.5,1.295,3.5,3.211v-0.316h1V21.25C11,18.787,8.986,17,6.5,17z" fill="url(#XMLID_4_)"/>
+</g>
+<g>
+<g fill-opacity="0.7" stroke-opacity="0.7">
+<path d="M1,21.25v1.625C1,25.887,3.467,28,6.5,28c3.031,0,5.5-2.113,5.5-5.125V21.25           C12,18.238,9.531,16,6.5,16C3.467,16,1,18.238,1,21.25z M2,22.875V21.25C2,18.79,4.018,17,6.5,17c2.48,0,4.5,1.79,4.5,4.25           v1.625c0,2.46-2.02,4.174-4.5,4.174C4.018,27.049,2,25.335,2,22.875z" fill="#704D18"/>
+</g>
+</g>
+</g>
+<g>
+<path d="M10,22.867c0,1.914-1.566,3.182-3.5,3.182         c-1.934,0-3.5-1.268-3.5-3.182v-1.568H2v1.576c0,2.463,2.016,4.174,4.5,4.174c2.486,0,4.5-1.711,4.5-4.174v-1.576h-1V22.867z         " fill="#E0BC6C" fill-opacity="0.8" stroke-opacity="0.8"/>
+</g>
+</g>
+<rect fill="none" height="32" width="12"/>
+</g>
+</g>
+</switch>
+</svg>

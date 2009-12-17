@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="16" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 16 16" height="16" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <rect width="16" fill="#52a1a4" y="4.821" height="6.357" fill-opacity="0.6"/>
+            <rect width="16" fill="#ffffff" y="11.18" height="0.762"/>
+            <rect width="16" fill="#ffffff" y="4.059" height="0.763"/>
+        </g>
+        <rect width="16" fill="none" height="16"/>
+    </g>
+</svg>

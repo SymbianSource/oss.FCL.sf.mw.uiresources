@@ -1,0 +1,113 @@
+/*
+* Copyright (c) 2004-2007 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Local variation for Skin server
+*
+*/
+
+
+#ifndef AKNSSRVVARIANT_HRH
+#define AKNSSRVVARIANT_HRH
+
+#include <aknswallpaperconfprivatecrkeys.h>
+
+// ============================ FEATURES FOR 2.6 ===============================
+
+#if defined(__SERIES60_26__)
+
+// Release level for 2.6
+const TInt KAknsSrvFeaPlatformMajor = 2;
+const TInt KAknsSrvFeaPlatformMinor = 6;
+
+// ============================ FEATURES FOR 2.7 ===============================
+
+#elif defined(__SERIES60_27__)
+
+// Release level for 2.7 is intentionally 2.8
+const TInt KAknsSrvFeaPlatformMajor = 2;
+const TInt KAknsSrvFeaPlatformMinor = 8;
+
+// ============================ FEATURES FOR 2.8 ===============================
+
+#elif defined(__SERIES60_28__)
+
+// Release level for 2.8
+const TInt KAknsSrvFeaPlatformMajor = 2;
+const TInt KAknsSrvFeaPlatformMinor = 8;
+
+// ============================ FEATURES FOR 3.0 ===============================
+
+#elif defined(__SERIES60_30__)
+
+// Release level for 3.0
+const TInt KAknsSrvFeaPlatformMajor = 3;
+const TInt KAknsSrvFeaPlatformMinor = 0;
+
+// ============================ FEATURES FOR 3.1 ===============================
+
+#elif defined(__SERIES60_31__)
+
+// Release level for 3.1
+const TInt KAknsSrvFeaPlatformMajor = 3;
+const TInt KAknsSrvFeaPlatformMinor = 1;
+
+// ============================ FEATURES FOR 3.1 ===============================
+
+#elif defined(__SERIES60_32__)
+
+// Release level for 3.2
+const TInt KAknsSrvFeaPlatformMajor = 3;
+const TInt KAknsSrvFeaPlatformMinor = 2;
+
+#else
+
+#pragma message("Unknown platform release in AknsSrvVariant.hrh")
+
+// Zero-zero release level (restricts all release-specifics)
+const TInt KAknsSrvFeaPlatformMajor = 0;
+const TInt KAknsSrvFeaPlatformMinor = 0;
+
+#endif
+    
+// Maximum cropping and stretching values for portrait,
+// these are upto the product to configure as they wish
+// NOTE that these values are no longer used in 3.2 and later releases.
+// Instead use repository KCRUidWallpaperConfiguration (@see aknswallpaperconfprivatecrkeys.h)
+#ifdef RD_FULLSCREEN_WALLPAPER
+const float KMaxPortraitCropFactor = 0.33f;
+#else
+const float KMaxPortraitCropFactor = 0.23f;
+#endif // RD_FULLSCREEN_WALLPAPER
+const float KMaxPortraitStrecthFactor = 0.15f;
+const TWallpaperScalePriority KPortraitScalePriority = EPrioCrop;
+
+// Maximum cropping and stretching values for portrait,
+// these are upto the product to configure as they wish
+
+// NOTE!: The mainpane area where the wallpaper is laid out is
+// landscape even in portrait resolution in QVGA, ie. both
+// resolutions use the landscape parameters in QVGA
+const float KMaxLandscapeCropFactor = 0.131f;
+const float KMaxLandscapetrecthFactor = 0.10f;
+const TWallpaperScalePriority KLandscapeScalePriority = EPrioCrop;
+
+
+// If a product wants to hide the default s60 theme,
+// set default skin UID to central repository:
+// repository UID: 0x101F876F ( KCRUidPersonalisation )
+// key UID: 0x00000013 ( KPslnDefaultSkin )
+// value: new default skin UID.
+
+#endif // AKNSSRVVARIANT_HRH
+
+// End of File

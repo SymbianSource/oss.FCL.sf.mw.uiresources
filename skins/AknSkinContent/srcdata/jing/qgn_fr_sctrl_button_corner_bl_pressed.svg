@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="20" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 20 20" height="20" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect width="20" fill="none" height="19.998"/>
+        <rect y="19" fill-opacity="0.6" fill="#8b0000" width="20" height="1" stroke-opacity="0.6"/>
+        <rect width="20" fill="url(#XMLID_2_)" height="19"/>
+        <rect x="0.014" y="19.998" fill-opacity="0.2" fill="#3f3f3f" width="1" height="0.002" stroke-opacity="0.2"/>
+        <rect x="0.014" fill-opacity="0.6" fill="#8b0000" width="1" height="19.998" stroke-opacity="0.6"/>
+        <defs>
+            <linearGradient x1="9.9995" y1="-50.3022" x2="9.9995" gradientUnits="userSpaceOnUse" y2="18.1995" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+                <stop stop-color="#ff4747" offset="0"/>
+                <stop stop-color="#ffbebe" offset="1"/>
+            </linearGradient>
+        </defs>
+    </g>
+</svg>

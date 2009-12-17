@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-1.774 10.778 44 44" height="44" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <polygon fill="#ffffff" points="30.669,19.824 30.669,27.82 38.669,27.82        "/>
+                            </g>
+                        </g>
+                        <rect x="16.911" width="16.859" fill="#ffffff" y="28.771" height="1.828"/>
+                        <rect x="16.911" width="16.859" fill="#ffffff" y="33.004" height="1.829"/>
+                        <rect x="16.911" width="8.674" fill="#ffffff" y="37.236" height="1.828"/>
+                        <rect x="16.911" width="8.674" fill="#ffffff" y="41.469" height="1.828"/>
+                    </g>
+                </g>
+                <g>
+                    <path fill="#ffffff" d="M 36.24 27.82 L 36.24 37.103 L 38.670002 37.103 L 38.670002 27.82 L 36.24 27.82 z M 11.92 49.824 L 25.639 49.824 L 25.639 47.445 L 14.241 47.445 L 14.241 22.157 L 30.668999 22.157 L 30.668999 19.824 L 11.92 19.824 L 11.92 49.824 z "/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <path fill="#ffffff" d="M 39.637 39.102 L 28.637001 39.102 C 28.083 39.102 27.637001 39.550003 27.637001 40.102 L 27.637001 51.102 C 27.637001 51.655003 28.083 52.102 28.637001 52.102 L 39.637 52.102 C 40.189 52.102 40.637 51.655003 40.637 51.102 L 40.637 40.102 C 40.637 39.55 40.189 39.102 39.637 39.102 z M 31.858 50.838 L 29.979 50.838 L 29.979 47.746002 L 31.858 47.746002 L 31.858 50.838 z M 36.906 42.534 L 29.905998 42.534 L 29.905998 40.843002 L 36.906 40.843002 L 36.906 42.534 z "/>
+</svg>

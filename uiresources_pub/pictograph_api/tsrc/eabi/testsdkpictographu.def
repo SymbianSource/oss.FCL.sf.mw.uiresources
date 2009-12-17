@@ -1,0 +1,11 @@
+EXPORTS
+	_Z9LibEntryLR13CTestModuleIf @ 1 NONAME
+	_ZTI17CTestIconObserver @ 2 NONAME ; #<TI>#
+	_ZTI17CTestIconProvider @ 3 NONAME ; #<TI>#
+	_ZTI25CTestSDKPicToGraphControl @ 4 NONAME ; #<TI>#
+	_ZTI33CAknPictographAnimatorCallBackExt @ 5 NONAME ; #<TI>#
+	_ZTV17CTestIconObserver @ 6 NONAME ; #<VT>#
+	_ZTV17CTestIconProvider @ 7 NONAME ; #<VT>#
+	_ZTV25CTestSDKPicToGraphControl @ 8 NONAME ; #<VT>#
+	_ZTV33CAknPictographAnimatorCallBackExt @ 9 NONAME ; #<VT>#
+

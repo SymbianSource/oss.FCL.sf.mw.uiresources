@@ -1,0 +1,111 @@
+/*
+* Copyright (c) 2002 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description: 
+*    Project definition file
+*
+*/
+
+
+MACRO PRECACHE2 _NGATESTING
+
+//Enable this macro only when you want to generate list of icons that need precaching
+//MACRO PRECACHELOG
+//#define PRECACHELOG
+
+/** #__NVG */
+MACRO __NVG
+#define __NVG 
+
+#include <data_caging_paths.hrh>
+#include <platform_paths.hrh>
+
+TARGET          AknIcon.dll
+TARGETTYPE      DLL
+UID             0x1000008D 0x1020735A
+
+CAPABILITY      CAP_GENERAL_DLL
+VENDORID        VID_DEFAULT
+
+USERINCLUDE     ../inc ../srvinc
+
+// This is a SYSTEMINCLUDE macro containing the middleware
+// layer specific include directories
+MW_LAYER_SYSTEMINCLUDE
+SYSTEMINCLUDE /epoc32/include/platform/mw
+
+SOURCEPATH      ../src
+SOURCE          AknBitmap.cpp
+SOURCE          AknIconManager.cpp
+SOURCE          AknSourceBitmapIconManager.cpp
+SOURCE          AknFileProviderIconManager.cpp
+SOURCE          AknIconFormatHandlerFactory.cpp
+SOURCE          AknIconFormatHandler.cpp
+SOURCE          AknIconLocationInfo.cpp
+SOURCE          akniconconfig.cpp
+
+#ifdef __SVGT
+SOURCE          AknSvgFormatHandler.cpp
+#endif // __SVGT
+
+#ifdef __NVG
+SOURCE          AknNvgFormatHandler.cpp
+#endif // __NVG
+SOURCE          AknIconLoader.cpp
+SOURCE          AknIconUtils.cpp
+SOURCE          AknNGAFormatHandler.cpp
+
+SOURCEPATH      ../srvsrc
+LANG            SC
+
+SOURCE          AknIconSrvClient.cpp
+SOURCE          AknIconSrvTlsData.cpp
+SOURCE          AknIconSrvSession.cpp
+SOURCE          AknIconSrv.cpp
+SOURCE          AknIconSrvScheduler.cpp
+SOURCE          AknIconSrvIconItem.cpp
+SOURCE          AknIconSrvCache.cpp
+SOURCE          AknIconSrvDebug.cpp
+SOURCE          AknIconDataItem.cpp
+SOURCE          AknIconDataPreserver.cpp
+SOURCE          AknIconSrvUtils.cpp
+SOURCE          AknIconFileNameItem.cpp
+SOURCE          AknIconFileNameCache.cpp
+SOURCE          AknIconSrvPrecacher.cpp
+
+START RESOURCE  AknIconSrv.rss
+HEADER
+TARGETPATH      RESOURCE_FILES_DIR
+END
+
+LIBRARY         euser.lib
+LIBRARY         fbscli.lib
+LIBRARY         efsrv.lib
+LIBRARY         gdi.lib
+LIBRARY         bafl.lib
+#ifdef __SVGT
+LIBRARY         SvgEngine.lib
+#endif // __SVGT
+#ifdef __NVG
+LIBRARY         NVGDecoder.lib
+#endif // __NVG
+LIBRARY         AknSkinSrv.lib
+LIBRARY         bitgdi.lib
+LIBRARY         CdlEngine.lib
+LIBRARY         centralrepository.lib
+LIBRARY         flogger.lib
+
+#ifdef PRECACHELOG
+LIBRARY         flogger.lib
+#endif
+// End of file.

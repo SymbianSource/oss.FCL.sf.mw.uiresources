@@ -1,0 +1,91 @@
+EXPORTS
+	__pp__Q28CCdlRefs9TIterator @ 1 NONAME R3UNUSED ; CCdlRefs::TIterator::operator++(void)
+	AddL__8CCdlUidsRC8CCdlUids @ 2 NONAME R3UNUSED ; CCdlUids::AddL(CCdlUids const &)
+	AddL__9CCdlNamesRC7TDesC16 @ 3 NONAME R3UNUSED ; CCdlNames::AddL(TDesC16 const &)
+	AddLayerL__8CCdlRefsRC8CCdlRefs @ 4 NONAME R3UNUSED ; CCdlRefs::AddLayerL(CCdlRefs const &)
+	AllAvailableRefsLC__9CdlEngine @ 5 NONAME R3UNUSED ; CdlEngine::AllAvailableRefsLC(void)
+	AppendL__8CCdlRefsRC17CCdlRefCollection @ 6 NONAME R3UNUSED ; CCdlRefs::AppendL(CCdlRefCollection const &)
+	AppendL__8CCdlRefsRC7TCdlRef @ 7 NONAME R3UNUSED ; CCdlRefs::AppendL(TCdlRef const &)
+	Begin__C8CCdlRefs @ 8 NONAME R3UNUSED ; CCdlRefs::Begin(void) const
+	Begin__C8CCdlRefsG4TUid @ 9 NONAME R3UNUSED ; CCdlRefs::Begin(TUid) const
+	Begin__C8CCdlRefsRC7TDesC16 @ 10 NONAME R3UNUSED ; CCdlRefs::Begin(TDesC16 const &) const
+	LastApiId__9CdlEngine @ 11 NONAME R3UNUSED ; CdlEngine::LastApiId(void)
+	Compare__C23CCdlUserPackageExplorerRCQ216CDL_User_Package9CInstanceT1 @ 12 NONAME R3UNUSED ; CCdlUserPackageExplorer::Compare(CDL_User_Package::CInstance const &, CDL_User_Package::CInstance const &) const
+	CompareNames__9CdlEngineRC7TDesC16T1 @ 13 NONAME R3UNUSED ; CdlEngine::CompareNames(TDesC16 const &, TDesC16 const &)
+	ConstructL__23CCdlUserPackageExplorer @ 14 NONAME R3UNUSED ; CCdlUserPackageExplorer::ConstructL(void)
+	CountRefs__C8CCdlRefs @ 15 NONAME R3UNUSED ; CCdlRefs::CountRefs(void) const
+	CreateCdlEngineL__15CdlServerEngine @ 16 NONAME R3UNUSED ; CdlServerEngine::CreateCdlEngineL(void)
+	CreateCdlEngineL__9CdlEngine @ 17 NONAME R3UNUSED ; CdlEngine::CreateCdlEngineL(void)
+	CreateRefsLC__16CdlExplorerUtilsRC12CCdlInstance @ 18 NONAME R3UNUSED ; CdlExplorerUtils::CreateRefsLC(CCdlInstance const &)
+	CreateRefsLC__16CdlExplorerUtilsRC12CCdlInstanceRCt9TCdlArray1Z7TCdlRef @ 19 NONAME R3UNUSED ; CdlExplorerUtils::CreateRefsLC(CCdlInstance const &, TCdlArray<TCdlRef> const &)
+	CustomisationInstance__9CdlEngineG4TUid @ 20 NONAME R3UNUSED ; CdlEngine::CustomisationInstance(TUid)
+	Delete__8CCdlRefsRQ28CCdlRefs9TIterator @ 21 NONAME R3UNUSED ; CCdlRefs::Delete(CCdlRefs::TIterator &)
+	EnableGlobalCustomisationL__9CdlEngineRC8CCdlUidsi @ 22 NONAME R3UNUSED ; CdlEngine::EnableGlobalCustomisationL(CCdlUids const &, int)
+	End__C8CCdlRefs @ 23 NONAME R3UNUSED ; CCdlRefs::End(void) const
+	ExportLC__C8CCdlRefs @ 24 NONAME R3UNUSED ; CCdlRefs::ExportLC(void) const
+	ExportLC__C9CCdlNames @ 25 NONAME R3UNUSED ; CCdlNames::ExportLC(void) const
+	ExportL__C8CCdlRefs @ 26 NONAME R3UNUSED ; CCdlRefs::ExportL(void) const
+	ExportL__C9CCdlNames @ 27 NONAME R3UNUSED ; CCdlNames::ExportL(void) const
+	Export__C8CCdlUids @ 28 NONAME R3UNUSED ; CCdlUids::Export(void) const
+	FileContentsLC__9CdlEngineRC7TDesC16 @ 29 NONAME R3UNUSED ; CdlEngine::FileContentsLC(TDesC16 const &)
+	FileNameRelativeToLastAccessedInstance__9CdlEngineG4TUidRt4TBuf1i256 @ 30 NONAME R3UNUSED ; CdlEngine::FileNameRelativeToLastAccessedInstance(TUid, TBuf<256> &)
+	FileNameRelativeToLastAccessedInstance__C12CCdlInstanceRt4TBuf1i256 @ 31 NONAME R3UNUSED ; CCdlInstance::FileNameRelativeToLastAccessedInstance(TBuf<256> &) const
+	FindCustomisationFilesLC__9CdlEngine @ 32 NONAME R3UNUSED ; CdlEngine::FindCustomisationFilesLC(void)
+	FindIndex__C8CCdlUidsG4TUid @ 33 NONAME R3UNUSED ; CCdlUids::FindIndex(TUid) const
+	FindIndex__C9CCdlNamesRC7TDesC16 @ 34 NONAME R3UNUSED ; CCdlNames::FindIndex(TDesC16 const &) const
+	FindInstancesLC__9CdlEngineG4TUid @ 35 NONAME R3UNUSED ; CdlEngine::FindInstancesLC(TUid)
+	FindLC__24CCdlInstanceExplorerBaseG4TUid @ 36 NONAME R3UNUSED ; CCdlInstanceExplorerBase::FindLC(TUid)
+	GetData__9CdlEngineG4TUidi @ 37 NONAME R3UNUSED ; CdlEngine::GetData(TUid, int)
+	GetData__C12CCdlInstancei @ 38 NONAME R3UNUSED ; CCdlInstance::GetData(int) const
+	GetFunction__9CdlEngineG4TUidi @ 39 NONAME R3UNUSED ; CdlEngine::GetFunction(TUid, int)
+	GetFunction__C12CCdlInstancei @ 40 NONAME R3UNUSED ; CCdlInstance::GetFunction(int) const
+	GlobalStateLC__9CdlEngineRC8CCdlUids @ 41 NONAME R3UNUSED ; CdlEngine::GlobalStateLC(CCdlUids const &)
+	HandleAvailableRefsChangeL__18MCdlChangeObserver @ 42 NONAME R3UNUSED ; MCdlChangeObserver::HandleAvailableRefsChangeL(void)
+	HandleCustomisationChangeL__18MCdlChangeObserverRC8CCdlUids @ 43 NONAME R3UNUSED ; MCdlChangeObserver::HandleCustomisationChangeL(CCdlUids const &)
+	ImportL__8CCdlRefsRC6TDesC8 @ 44 NONAME R3UNUSED ; CCdlRefs::ImportL(TDesC8 const &)
+	ImportL__8CCdlUidsRC6TDesC8 @ 45 NONAME R3UNUSED ; CCdlUids::ImportL(TDesC8 const &)
+	ImportL__9CCdlNamesRC6TDesC8 @ 46 NONAME R3UNUSED ; CCdlNames::ImportL(TDesC8 const &)
+	InsertL__8CCdlRefsRCQ28CCdlRefs9TIteratorRC7TCdlRef @ 47 NONAME R3UNUSED ; CCdlRefs::InsertL(CCdlRefs::TIterator const &, TCdlRef const &)
+	IntersectionLC__C8CCdlUidsRC8CCdlUids @ 48 NONAME R3UNUSED ; CCdlUids::IntersectionLC(CCdlUids const &) const
+	IsCustomisationStarted__9CdlEnginePC13SCdlInterface @ 49 NONAME R3UNUSED ; CdlEngine::IsCustomisationStarted(SCdlInterface const *)
+	LastAccessedRef__9CdlEngineG4TUid @ 50 NONAME R3UNUSED ; CdlEngine::LastAccessedRef(TUid)
+	LastAccessedRef__C12CCdlInstance @ 51 NONAME R3UNUSED ; CCdlInstance::LastAccessedRef(void) const
+	LoadCustomisationL__9CdlEngineRC7TCdlRef @ 52 NONAME R3UNUSED ; CdlEngine::LoadCustomisationL(TCdlRef const &)
+	LocalStateLC__9CdlEngineRC8CCdlUids @ 53 NONAME R3UNUSED ; CdlEngine::LocalStateLC(CCdlUids const &)
+	MergeAndReplaceL__8CCdlRefsRC8CCdlRefs @ 54 NONAME R3UNUSED ; CCdlRefs::MergeAndReplaceL(CCdlRefs const &)
+	Names__C8CCdlRefs @ 55 NONAME R3UNUSED ; CCdlRefs::Names(void) const
+	NewLC__12CCdlInstanceRC7TCdlRefPC13SCdlInterfacePC12CCdlInstanceP10CCdlEnginePi @ 56 NONAME ; CCdlInstance::NewLC(TCdlRef const &, SCdlInterface const *, CCdlInstance const *, CCdlEngine *, int *)
+	NewLC__8CCdlRefs @ 57 NONAME R3UNUSED ; CCdlRefs::NewLC(void)
+	NewLC__8CCdlUids @ 58 NONAME R3UNUSED ; CCdlUids::NewLC(void)
+	NewLC__9CCdlNames @ 59 NONAME R3UNUSED ; CCdlNames::NewLC(void)
+	NewL__12CCdlInstanceRC7TCdlRefPC13SCdlInterfacePC12CCdlInstanceP10CCdlEnginePi @ 60 NONAME ; CCdlInstance::NewL(TCdlRef const &, SCdlInterface const *, CCdlInstance const *, CCdlEngine *, int *)
+	NewL__8CCdlRefs @ 61 NONAME R3UNUSED ; CCdlRefs::NewL(void)
+	Ref__C12CCdlInstance @ 62 NONAME R3UNUSED ; CCdlInstance::Ref(void) const
+	Ref__C8CCdlRefsi @ 63 NONAME R3UNUSED ; CCdlRefs::Ref(int) const
+	Remove__8CCdlUidsG4TUid @ 64 NONAME R3UNUSED ; CCdlUids::Remove(TUid)
+	Remove__8CCdlUidsRC8CCdlUids @ 65 NONAME R3UNUSED ; CCdlUids::Remove(CCdlUids const &)
+	RequireCustomisationL__9CdlEnginePC13SCdlInterface @ 66 NONAME R3UNUSED ; CdlEngine::RequireCustomisationL(SCdlInterface const *)
+	SetAvailableRefsChangeObserverL__9CdlEngineP18MCdlChangeObserver @ 67 NONAME R3UNUSED ; CdlEngine::SetAvailableRefsChangeObserverL(MCdlChangeObserver *)
+	SetCustomisationChangeObserverL__9CdlEngineP18MCdlChangeObserverG4TUid @ 68 NONAME R3UNUSED ; CdlEngine::SetCustomisationChangeObserverL(MCdlChangeObserver *, TUid)
+	SetGlobalStateL__9CdlEngineRC8CCdlRefs @ 69 NONAME R3UNUSED ; CdlEngine::SetGlobalStateL(CCdlRefs const &)
+	SetLocalStateL__9CdlEngineRC8CCdlRefs @ 70 NONAME R3UNUSED ; CdlEngine::SetLocalStateL(CCdlRefs const &)
+	StartGlobalCustomisationL__9CdlEngine @ 71 NONAME R3UNUSED ; CdlEngine::StartGlobalCustomisationL(void)
+	Delete__8CCdlRefsRCQ28CCdlRefs9TIteratorT1 @ 72 NONAME R3UNUSED ; CCdlRefs::Delete(CCdlRefs::TIterator const &, CCdlRefs::TIterator const &)
+	SubLayer__C12CCdlInstance @ 73 NONAME R3UNUSED ; CCdlInstance::SubLayer(void) const
+	SubsetByNameLC__C8CCdlRefsRC7TDesC16 @ 74 NONAME R3UNUSED ; CCdlRefs::SubsetByNameLC(TDesC16 const &) const
+	SubsetByUidLC__C8CCdlRefsG4TUid @ 75 NONAME R3UNUSED ; CCdlRefs::SubsetByUidLC(TUid) const
+	SubsetByUidsLC__C8CCdlRefsRC8CCdlUids @ 76 NONAME R3UNUSED ; CCdlRefs::SubsetByUidsLC(CCdlUids const &) const
+	UidsLC__C8CCdlRefs @ 77 NONAME R3UNUSED ; CCdlRefs::UidsLC(void) const
+	"_._13CCdlEngineRef" @ 78 NONAME R3UNUSED ; CCdlEngineRef::~CCdlEngineRef(void)
+	"_._18MCdlChangeObserver" @ 79 NONAME R3UNUSED ; MCdlChangeObserver::~MCdlChangeObserver(void)
+	"_._23CCdlUserPackageExplorer" @ 80 NONAME R3UNUSED ; CCdlUserPackageExplorer::~CCdlUserPackageExplorer(void)
+	"_._24CCdlInstanceExplorerBase" @ 81 NONAME R3UNUSED ; CCdlInstanceExplorerBase::~CCdlInstanceExplorerBase(void)
+	"_._8CCdlRefs" @ 82 NONAME R3UNUSED ; CCdlRefs::~CCdlRefs(void)
+	"_._9CCdlNames" @ 83 NONAME R3UNUSED ; CCdlNames::~CCdlNames(void)
+	__8CCdlUids @ 84 NONAME R3UNUSED ; CCdlUids::CCdlUids(void)
+	__9CCdlNames @ 85 NONAME R3UNUSED ; CCdlNames::CCdlNames(void)
+	__Q28CCdlRefs9TIteratorRCQ28CCdlRefs9TIterator @ 86 NONAME R3UNUSED ; CCdlRefs::TIterator::TIterator(CCdlRefs::TIterator const &)
+	__eq__C12CCdlInstanceRC12CCdlInstance @ 87 NONAME R3UNUSED ; CCdlInstance::operator==(CCdlInstance const &) const
+	AddL__8CCdlUidsG4TUid @ 88 NONAME R3UNUSED ; CCdlUids::AddL(TUid)
+	Delete__8CCdlRefsRC7TDesC16 @ 89 NONAME R3UNUSED ; CCdlRefs::Delete(TDesC16 const &)
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="58" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 58 58" height="58" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <path fill="#f6a2a0" d="M 1.762 29.002 C 1.762 44.022003 13.981 56.238 28.998999 56.238 C 44.019997 56.238 56.238 44.018997 56.238 29.001999 C 56.238 13.980999 44.017 1.7619991 28.998999 1.7619991 C 13.117 1.762 1.762 15.167 1.762 29.002 z " fill-opacity="0.2"/>
+    <path fill="#f6a2a0" d="M 2.762 29.002 C 2.762 43.471 14.533 55.238 28.999 55.238 C 43.469 55.238 55.238 43.468 55.238 29.001999 C 55.238 14.535999 43.468 2.762 28.999 2.762 C 14.533 2.762 2.762 14.534 2.762 29.002 z " fill-opacity="0.4"/>
+    <path fill="#f6a2a0" d="M 3.907 29.0 C 3.907 42.835 15.164 54.092 28.998999 54.092 C 42.836998 54.092 54.093 42.835 54.093 29.0 C 54.093 15.164 42.836998 3.908001 28.998999 3.908001 C 15.164 3.908 3.907 15.164 3.907 29.0 z "/>
+    <radialGradient gradientTransform="matrix(1 0 0 -1 0.1377 56.834)" gradientUnits="userSpaceOnUse" xlink:type="simple" r="22.9023" xlink:actuate="onLoad" cx="28.8623" id="XMLID_62_" cy="27.834" xlink:show="other">
+        <stop stop-color="#b3ddff" offset="0"/>
+        <stop stop-color="#ffffff" offset="0.01"/>
+        <stop stop-color="#f2d4e0" offset="0.41"/>
+        <stop stop-color="#f6a2a0" offset="0.81"/>
+        <stop stop-color="#f6a2a0" offset="1"/>
+    </radialGradient>
+    <path fill="url(#XMLID_62_)" d="M 28.999 6.098 C 16.371 6.098 6.0980015 16.372 6.0980015 29.001 C 6.0980015 41.628 16.371002 51.902 28.999 51.902 C 41.628 51.902 51.902 41.628 51.902 29.001001 C 51.902 16.372 41.627 6.098 28.999 6.098 z "/>
+    <linearGradient x1="28.8628" gradientTransform="matrix(1 0 0 -1 0.1377 56.834)" y1="50.3154" x2="28.8628" gradientUnits="userSpaceOnUse" y2="5.395" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_63_" xlink:show="other">
+        <stop stop-color="#b0381e" offset="0"/>
+        <stop stop-color="#822519" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_63_)" d="M 28.999 6.098 C 16.371 6.098 6.0980015 16.372 6.0980015 29.001 C 6.0980015 41.628 16.371002 51.902 28.999 51.902 C 41.628 51.902 51.902 41.628 51.902 29.001001 C 51.902 16.372 41.628 6.098 28.999 6.098 z M 28.999 50.656 C 17.038 50.656 7.3480015 40.963997 7.3480015 29.000998 C 7.3480015 17.039997 17.038002 7.343998 28.999 7.343998 C 40.959 7.343998 50.652 17.039997 50.652 29.000998 C 50.652 40.963 40.959 50.656 28.999 50.656 z " fill-opacity="0.5"/>
+    <linearGradient x1="28.8618" gradientTransform="matrix(1 0 0 -1 0.1377 56.834)" y1="53.6348" x2="28.8618" gradientUnits="userSpaceOnUse" y2="-5.1359" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_64_" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#b0381e" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_64_)" d="M 50.656 29.0 C 50.656 40.963 40.961 50.656 28.997997 50.656 C 17.034 50.656 7.343 40.963 7.343 29.0 C 7.343 17.04 17.034 7.3430004 28.998001 7.3430004 C 40.961 7.343 50.656 17.041 50.656 29.0 z " fill-opacity="0.5"/>
+    <path fill="#ffffff" d="M 47.708 29.023 C 47.708 49.248 10.291 49.248 10.291 29.023 C 10.292 8.82 47.708 8.82 47.708 29.023 z " fill-opacity="0.15"/>
+    <path d="M 21.473 21.384 L 21.473 38.86 C 21.473 39.207 21.824 39.403 22.111 39.272 L 41.973 30.376 C 42.368 30.199 42.27 29.684 41.967 29.55 L 22.105999 20.97 C 21.838 20.853 21.473 21.081 21.473 21.384 z " fill-opacity="0.6"/>
+    <path fill="#f6a2a0" d="M 18.263 23.458 L 18.263 36.787003 C 18.263 40.372 22.034 42.314003 24.876 41.111004 L 41.376 34.341003 C 45.149998 32.750004 45.283 27.295004 41.32 25.673004 L 24.83 19.113005 C 21.67 17.812 18.263 20.231 18.263 23.458 z " fill-opacity="0.1"/>
+    <path fill="#f6a2a0" d="M 19.263 23.458 L 19.263 36.787003 C 19.263 39.329002 22.118 41.193 24.487 40.191 L 40.987 33.421 C 44.241 32.049 43.772 27.757002 40.944 26.598001 L 24.451 20.038002 C 21.961 19.014 19.263 20.902 19.263 23.458 z " fill-opacity="0.2"/>
+    <path fill="#f6a2a0" d="M 20.263 23.458 L 20.263 36.787003 C 20.263 38.394 22.084 40.122 24.097 39.269 L 40.596 32.5 C 42.637 31.64 42.942 28.497 40.565002 27.522999 L 24.07 20.963 C 22.508 20.32 20.263 21.401 20.263 23.458 z " fill-opacity="0.3"/>
+</svg>

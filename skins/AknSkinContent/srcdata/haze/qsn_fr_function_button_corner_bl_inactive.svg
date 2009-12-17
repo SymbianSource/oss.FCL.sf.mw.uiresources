@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="8" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-0.5 0.146 8 8" height="8" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect x="-0.5" width="8" fill="none" y="0.146" height="8"/>
+        <path fill="#0e807a" d="M -0.5 0.146 L -0.5 5.009 C -0.352 6.7159996 1.088 8.094999 2.877 8.138 L 7.5 8.138 L 7.5 0.146 L -0.5 0.146 z " fill-opacity="0.5" stroke-opacity="0.5"/>
+        <linearGradient x1="-690.6538" gradientTransform="matrix(1 0 0 -1 694.626 1003.9688)" y1="1024.9092" x2="-690.6538" gradientUnits="userSpaceOnUse" y2="996.7231" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#9d9d9d" offset="1"/>
+            <stop stop-color="#515151" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_2_)" d="M 0.444 0.146 L 0.445 5.119 C 0.549 6.273 1.6110001 7.2460003 2.859 7.2460003 L 7.5 7.2460003 L 7.5 0.14600039 L 0.444 0.14600039 z "/>
+        <path fill="#0e807a" d="M -0.5 0.146 L -0.5 5.009 C -0.352 6.7159996 1.088 8.094999 2.877 8.138 L 7.5 8.138 L 7.5 0.146 L -0.5 0.146 z " fill-opacity="0.5" stroke-opacity="0.5"/>
+    </g>
+</svg>

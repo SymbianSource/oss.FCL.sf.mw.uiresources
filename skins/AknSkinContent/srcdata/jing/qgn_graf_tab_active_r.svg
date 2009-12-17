@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="28" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-116.943 1.491 28 32" height="32" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <linearGradient x1="-3947.9429" gradientTransform="matrix(1 0 0 -1 3843.7285 31)" y1="-2.4907" x2="-3947.9429" gradientUnits="userSpaceOnUse" y2="28.5068" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_3_" xlink:show="other">
+                <stop stop-color="#fefefe" offset="0"/>
+                <stop stop-color="#feeced" offset="0.2921"/>
+                <stop stop-color="#ffb8b8" offset="1"/>
+            </linearGradient>
+            <path fill="url(#XMLID_3_)" d="M -92.382 33.379 C -92.51501 33.344 -92.642006 33.301003 -92.76501 33.248 C -94.29401 32.672 -95.337006 30.971 -97.01101 27.723001 L -106.517006 8.404001 C -107.54001 6.3170013 -108.56601 4.537001 -110.37401 3.4910011 C -111.47001 2.8580012 -112.851006 2.493001 -114.69201 2.493001 L -116.94201 2.493001 L -116.94201 33.49 L -91.48501 33.49 C -91.77601 33.488003 -92.04101 33.461002 -92.282005 33.406002 C -92.318 33.4 -92.349 33.387 -92.382 33.379 z "/>
+            <rect x="-116.943" width="28" fill="none" y="1.491" height="32"/>
+            <linearGradient x1="-3953.7827" gradientTransform="matrix(1 0 0 -1 3843.7285 31)" y1="28.5078" x2="-3953.7827" gradientUnits="userSpaceOnUse" y2="15.7598" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+                <stop stop-color="#fefefe" offset="0"/>
+                <stop stop-color="#feeced" offset="0.2921"/>
+                <stop stop-color="#ffdbdb" offset="1"/>
+            </linearGradient>
+            <path fill="url(#XMLID_4_)" d="M -106.517 8.403 C -107.54 6.317 -108.566 4.5369997 -110.374 3.4909997 C -111.47 2.8579998 -112.851 2.4929996 -114.692 2.4929996 L -116.942 2.4929996 L -116.942 7.4909997 L -113.884 7.4909997 C -111.134 7.4909997 -108.634 8.740999 -107.259 11.740999 C -107.149 11.985999 -106.51 13.365999 -106.01 15.240999 L -103.164 15.240999 L -103.227005 15.088999 L -106.517 8.403 z "/>
+            <path fill="#ffffff" d="M -116.943 33.49 L -92.693 33.49 C -92.963 33.121002 -93.097 32.859 -93.318 32.492 L -116.943 32.492 " fill-opacity="0.5"/>
+            <g>
+                <path fill="#840000" d="M -106.517 8.403 C -107.54 6.317 -108.566 4.5369997 -110.374 3.4909997 C -111.47 2.8579998 -112.851 2.4929996 -114.692 2.4929996 L -116.942 2.4929996 L -116.942 1.4929996 L -114.692 1.4929996 C -111.897 1.4929996 -110.044 2.2639995 -108.665 3.4909997 C -107.351 4.658 -106.467 6.2359996 -105.618004 7.962 L -96.123 27.266 C -93.907 31.567001 -93.075005 32.495003 -91.442 32.493 L -90.942 32.493 L -90.942 33.491 L -91.485 33.491 C -93.815 33.471 -94.912 31.800001 -97.01 27.723001 L -106.517 8.403 z " fill-opacity="0.4"/>
+            </g>
+        </g>
+    </g>
+</svg>

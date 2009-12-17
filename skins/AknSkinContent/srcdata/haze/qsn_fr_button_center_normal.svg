@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="14" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0.75 4.75 14 19" height="19" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <linearGradient x1="-686.876" gradientTransform="matrix(1 0 0 -1 694.626 1026.4688)" y1="1006.7188" x2="-686.876" gradientUnits="userSpaceOnUse" y2="1020.7183" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_3_" xlink:show="other">
+            <stop stop-color="#000000" offset="0"/>
+            <stop stop-color="#52a0a3" offset="1"/>
+        </linearGradient>
+        <rect x="0.75" width="14" fill="url(#XMLID_3_)" y="4.75" height="19"/>
+        <linearGradient x1="-686.876" gradientTransform="matrix(1 0 0 -1 694.626 1026.4688)" y1="993.7188" x2="-686.876" gradientUnits="userSpaceOnUse" y2="1014.7183" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+            <stop stop-color="#000000" offset="0"/>
+            <stop stop-color="#52a0a3" offset="1"/>
+        </linearGradient>
+        <rect x="0.75" width="14" fill="url(#XMLID_4_)" y="4.75" height="19"/>
+    </g>
+</svg>

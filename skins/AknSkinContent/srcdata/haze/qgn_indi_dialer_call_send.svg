@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="38" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-1 -1 38 32" height="32" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <radialGradient gradientTransform="matrix(2.6316 0 0 2.6316 2740.7842 -3425.2808)" gradientUnits="userSpaceOnUse" xlink:type="simple" r="11.0362" xlink:actuate="onLoad" cx="-1036.1372" id="XMLID_10_" cy="1301.376" xlink:show="other">
+            <stop stop-color="#e6eef4" offset="0"/>
+            <stop stop-color="#c6dcc1" offset="0.0772"/>
+            <stop stop-color="#91c06f" offset="0.211"/>
+            <stop stop-color="#6bab33" offset="0.321"/>
+            <stop stop-color="#539e0e" offset="0.4014"/>
+            <stop stop-color="#4a9900" offset="0.4438"/>
+            <stop stop-color="#398419" offset="0.5605"/>
+            <stop stop-color="#22663b" offset="0.746"/>
+            <stop stop-color="#135550" offset="0.8992"/>
+            <stop stop-color="#0e4e58" offset="1"/>
+        </radialGradient>
+        <path fill="url(#XMLID_10_)" d="M 27.374 7.882 C 26.77 6.975 26.050001 6.423 25.562 6.051 C 24.168 4.988 18.538 3.8760002 12.713 9.6970005 C 9.182 13.237 8.188 16.689001 8.188 19.163 C 8.188 20.763 8.605 21.955 9.016 22.497 C 9.448999 23.058 9.984 23.757 10.9 24.362 C 11.167999 24.543999 11.636 24.705 12.141 24.796 L 12.254 24.802 C 13.172 24.743 14.181 24.039 15.526999 22.519001 C 15.969 22.019001 17.418 20.289001 17.418 19.074001 C 17.418 19.074001 17.411999 18.928001 17.41 18.894001 C 17.398 18.865002 17.389 18.833 17.389 18.833 C 17.373 18.786 17.217 18.341 16.525 17.792 C 16.094 17.45 15.455 17.208 14.6189995 17.073 L 14.223999 17.009 L 14.225999 16.609001 C 14.243999 14.605001 17.616999 11.232001 19.612999 11.221001 L 20.012 11.219001 L 20.074999 11.615001 C 20.207998 12.445001 20.449999 13.088001 20.796 13.523001 C 21.303 14.1640005 21.734 14.35 21.948 14.4140005 C 22.759 14.491 24.093 13.785001 25.515 12.524 C 27.036 11.18 27.741 10.168 27.799 9.239 C 27.799 9.239 27.802 9.211 27.803999 9.181001 C 27.805 9.153 27.8 9.129 27.8 9.129 C 27.753 8.834 27.609 8.239 27.374 7.882 z "/>
+        <rect x="-1" width="38" fill="none" y="-1" height="32"/>
+    </g>
+</svg>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="60" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 60 80" height="80" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <linearGradient x1="30.8" y1="41.37" x2="43.56" gradientUnits="userSpaceOnUse" y2="66.5" xlink:type="simple" xlink:actuate="onLoad" id="_68" xlink:show="other">
+        <stop stop-color="#a2c2dd" offset="0"/>
+        <stop stop-color="#a2c2dd" offset="0.1"/>
+        <stop stop-color="#6c83bb" offset="0.71"/>
+        <stop stop-color="#003d6d" offset="0.99"/>
+        <stop stop-color="#003d6d" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_68)" d="M 26.253 14.749 C 18.359001 15.316 12.782001 17.765 12.782001 20.682 L 14.963 63.043 C 15.085 63.67 15.332001 64.234 15.704 64.773 C 17.381 67.793 23.479 70.127 29.871 70.191 C 32.951 70.191 36.339 69.542 39.169 68.409004 C 40.851997 67.8 42.282997 66.969 43.3 66.013 C 44.285 65.129 44.823997 64.23 44.897 63.325 L 47.048 20.682 C 47.048 17.726 41.384 15.271999 33.274002 14.712999 C 32.465004 14.448999 31.202002 14.287999 29.835003 14.287999 C 28.388 14.288 27.053 14.46 26.253 14.749 z "/>
+    <linearGradient x1="23.73" y1="46" x2="47.17" gradientUnits="userSpaceOnUse" y2="45.81" xlink:type="simple" xlink:actuate="onLoad" id="_69" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="0.05"/>
+        <stop stop-color="#a2c2dd" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_69)" d="M 46.082 22.181 L 44.546 63.298 C 44.288002 66.57 36.874 69.842 29.873001 69.842 C 22.457 69.776 15.855001 66.616005 15.596001 63.341003 L 13.825001 22.181004 C 19.895 24.986 38.95 26.194 46.082 22.181 z "/>
+    <linearGradient x1="25.46" y1="44.69" x2="4.83" gradientUnits="userSpaceOnUse" y2="44.69" xlink:type="simple" xlink:actuate="onLoad" id="_70" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="0.05"/>
+        <stop stop-color="#a2c2dd" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_70)" d="M 23.283 25.251 L 23.640001 68.617004 C 19.469002 67.703 15.866001 65.79401 15.312001 63.025005 L 13.144001 20.754005 C 13.84 21.156 21.104 24.704 23.283 25.251 z "/>
+    <linearGradient x1="36.97" y1="44.42" x2="53.93" gradientUnits="userSpaceOnUse" y2="44.42" xlink:type="simple" xlink:actuate="onLoad" id="_71" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="0.05"/>
+        <stop stop-color="#a2c2dd" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_71)" d="M 39.038 68.088 C 42.051 66.989 44.491997 65.10899 44.526997 62.981 L 46.670998 20.754997 C 46.670998 20.754997 40.749996 24.087997 39.735996 24.549997 L 39.038 68.088 z "/>
+    <linearGradient x1="29.87" y1="51.04" x2="29.87" gradientUnits="userSpaceOnUse" y2="79.51" xlink:type="simple" xlink:actuate="onLoad" id="_72" xlink:show="other">
+        <stop stop-color="#e3dfe4" offset="0"/>
+        <stop stop-color="#c03a3a" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_72)" d="M 42.172 61.622 C 41.585 64.15 36.272 66.937004 29.821001 66.937004 C 23.087002 66.937004 18.03 63.935005 17.514 61.247005 L 17.071 52.648006 C 18.098999 55.390007 23.437 57.482006 29.866 57.482006 C 36.306 57.482006 41.65 55.378006 42.666 52.628006 L 42.172 61.622 z "/>
+    <linearGradient x1="16.14" y1="41.13" x2="43.54" gradientUnits="userSpaceOnUse" y2="41.13" xlink:type="simple" xlink:actuate="onLoad" id="_73" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="0.05"/>
+        <stop stop-color="#a2c2dd" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_73)" d="M 43.083 43.557 C 41.602 46.133 36.245 48.042 29.866001 48.042 C 23.408 48.042 18.0 46.083 16.597 43.458 L 16.144001 34.215 C 17.889002 36.778 23.436 38.324 29.93 38.324 C 36.361 38.324 41.738 36.812 43.539 34.288002 L 43.083 43.557 z " fill-opacity="0.35"/>
+    <linearGradient x1="16.61" y1="50.46" x2="43.1" gradientUnits="userSpaceOnUse" y2="50.46" xlink:type="simple" xlink:actuate="onLoad" id="_74" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="0.05"/>
+        <stop stop-color="#a2c2dd" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_74)" d="M 17.086 52.607 C 18.114 55.347 23.452 57.436996 29.882 57.436996 C 36.322 57.436996 41.667 55.334995 42.682 52.584995 L 43.098 43.581993 C 41.619 46.159992 36.258 48.062992 29.882 48.062992 C 23.424 48.062992 18.015999 46.103992 16.612 43.482994 L 17.086 52.607 z " fill-opacity="0.35"/>
+    <linearGradient x1="15.66" y1="32.21" x2="44.01" gradientUnits="userSpaceOnUse" y2="32.21" xlink:type="simple" xlink:actuate="onLoad" id="_75" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="0.05"/>
+        <stop stop-color="#a2c2dd" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_75)" d="M 43.555 34.245 C 41.755 36.77 36.376 38.28 29.944 38.28 C 23.452 38.28 17.905 36.735 16.161 34.173 L 15.657999 26.151001 C 18.845999 28.174002 23.276999 29.355001 30.022 29.355001 C 36.706 29.355001 40.968998 28.212002 44.009 26.228 L 43.555 34.245 z " fill-opacity="0.35"/>
+    <linearGradient x1="13.9" y1="20.19" x2="45.65" gradientUnits="userSpaceOnUse" y2="20.19" xlink:type="simple" xlink:actuate="onLoad" id="_76" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="0.05"/>
+        <stop stop-color="#a2c2dd" offset="1"/>
+    </linearGradient>
+    <ellipse rx="15.873" ry="4.893" fill="url(#_76)" cx="29.778" cy="20.188"/>
+    <radialGradient gradientUnits="userSpaceOnUse" xlink:type="simple" r="12.54" xlink:actuate="onLoad" cx="29.91" id="_77" cy="20.68" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="0.05"/>
+        <stop stop-color="#a2c2dd" offset="1"/>
+    </radialGradient>
+    <path fill="url(#_77)" d="M 46.695 20.682 C 46.695 23.848999 39.183 26.414 29.914 26.414 C 20.645 26.414 13.132 23.848999 13.132 20.682 C 13.132 17.518 20.646 14.947999 29.914 14.947999 C 39.184 14.947 46.695 17.518 46.695 20.682 z M 29.785 15.69 C 21.431 15.69 14.665 17.784 14.665 20.367 C 14.665 22.95 21.431 25.046001 29.785 25.046001 C 38.139 25.046001 44.908 22.95 44.908 20.367 C 44.908 17.784 38.139 15.69 29.785 15.69 z "/>
+    <radialGradient gradientUnits="userSpaceOnUse" xlink:type="simple" r="6.9" xlink:actuate="onLoad" cx="31.67" id="_78" cy="24.5" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="0.05"/>
+        <stop stop-color="#a2c2dd" offset="1"/>
+    </radialGradient>
+    <path fill="url(#_78)" d="M 37.284 20.194 C 37.284 21.630001 33.96 22.798 29.854 22.798 C 25.755001 22.798 22.426 21.630001 22.426 20.194 C 22.426 18.758 25.755001 17.594 29.854 17.594 C 33.96 17.594 37.284 18.758 37.284 20.194 z "/>
+    <linearGradient x1="23.38" y1="18.82" x2="34.98" gradientUnits="userSpaceOnUse" y2="18.55" xlink:type="simple" xlink:actuate="onLoad" id="_79" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#a2c2dd" offset="0.35"/>
+        <stop stop-color="#6c83bb" offset="0.7"/>
+        <stop stop-color="#003d6d" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_79)" d="M 35.402 19.783 C 35.402 20.727001 32.832 21.815 29.735 21.815 C 26.633001 21.815 24.172 20.728 24.172 19.783 L 25.677 15.623001 C 25.677 16.154001 27.522 16.581001 29.796 16.581001 C 32.067 16.581001 33.911 16.155 33.911 15.623001 L 35.402 19.783 z "/>
+    <linearGradient x1="25.71" y1="15.68" x2="33.94" gradientUnits="userSpaceOnUse" y2="15.68" xlink:type="simple" xlink:actuate="onLoad" id="_80" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ffffff" offset="0.05"/>
+        <stop stop-color="#a2c2dd" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_80)" d="M 33.943 15.599 C 33.943 16.13 32.084 16.717 29.809002 16.717 C 27.537003 16.717 25.707 16.129 25.707 15.598999 C 25.707 15.067999 27.551 14.637999 29.825 14.637999 C 32.102 14.638 33.943 15.068 33.943 15.599 z "/>
+    <path fill="#7b341f" d="M 32.691 47.576 L 27.34 47.576 L 27.34 31.216 L 32.692 31.216 L 32.692 47.576 L 32.691 47.576 z "/>
+    <circle fill="#7b341f" r="2.678" cx="30.015" cy="51.995"/>
+</svg>

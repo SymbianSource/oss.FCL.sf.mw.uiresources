@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="100%" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 11.018 11" height="100%" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect x="3.188" y="3.125" fill-opacity="0.75" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 15.4827 6.3246)" fill="#037f78" width="6.487" height="6.488" stroke-opacity="0.75"/>
+        <rect x="2.188" y="2.093" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 13.0461 5.2709)" fill="#024c48" width="6.487" height="6.488"/>
+        <rect x="0" width="11" fill="none" height="11"/>
+        <g>
+            <linearGradient x1="-689.5149" gradientTransform="matrix(1 0 0 -1 694.626 1006.9688)" y1="1001.9199" x2="-687.5147" gradientUnits="userSpaceOnUse" y2="999.9197" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+                <stop stop-color="#ffffff" offset="0"/>
+                <stop stop-color="#ffffff" offset="0.0056"/>
+                <stop stop-color="#52a2a5" offset="1"/>
+            </linearGradient>
+            <polygon fill="url(#XMLID_2_)" points="8.535,5.369 5.431,8.475 2.327,5.369 5.431,2.265   "/>
+        </g>
+    </g>
+</svg>

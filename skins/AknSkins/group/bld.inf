@@ -1,0 +1,124 @@
+/*
+* Copyright (c) 2002-2007 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Build configuration for skins subsystems
+*
+*/
+
+
+#include <platform_paths.hrh>
+
+// ============================================================================
+// Platforms
+// ============================================================================
+//
+PRJ_PLATFORMS
+DEFAULT TOOLS CWTOOLS
+
+// ============================================================================
+// Exports
+// ============================================================================
+//
+PRJ_EXPORTS
+backup_registration.xml z:/private/10207114/backup_registration.xml
+
+//
+// Skins support stub SIS from AknSkins/data
+//
+../data/Series60SkinsSupport.SIS /epoc32/release/winscw/udeb/z/system/Install/Series60SkinsSupport.SIS
+../data/Series60SkinsSupport.SIS /epoc32/release/winscw/urel/z/system/Install/Series60SkinsSupport.SIS
+../data/Series60SkinsSupport.SIS /epoc32/data/z/system/Install/Series60SkinsSupport.SIS
+../data/AknSkinDescCompiler_NR.EXE  /epoc32/tools/AknSkinDescCompiler.EXE
+../data/AknSkinDescCompiler_NR.EXE  /epoc32/tools/AknSkinDescCompiler_NR.EXE
+../data/AknSkinDescCompiler_NR.EXE  /epoc32/release/tools/rel/AknSkinDescCompiler.EXE
+../data/AknSkinDescCompiler_NR.EXE  /epoc32/release/tools/rel/AknSkinDescCompiler_NR.EXE
+
+//
+// Scalable skins support stub SIS from AknSkins/data
+//
+../data/Series60ScalableSkinsSupport.SIS /epoc32/release/winscw/udeb/z/system/Install/Series60ScalableSkinsSupport.SIS
+../data/Series60ScalableSkinsSupport.SIS /epoc32/release/winscw/urel/z/system/Install/Series60ScalableSkinsSupport.SIS
+../data/Series60ScalableSkinsSupport.SIS /epoc32/data/z/system/Install/Series60ScalableSkinsSupport.SIS
+
+//
+// Default exclusions list
+//
+../data/SkinExclusions.ini /epoc32/release/winscw/udeb/z/system/data/SkinExclusions.ini
+../data/SkinExclusions.ini /epoc32/release/winscw/urel/z/system/data/SkinExclusions.ini
+../data/SkinExclusions.ini /epoc32/data/z/system/data/SkinExclusions.ini
+//
+// SDK include files from AknSkins/inc
+//
+#ifdef RD_FULLSCREEN_WALLPAPER
+../inc/AknsCombinedBackgroundControlContext.h   MW_LAYER_PLATFORM_EXPORT_PATH(AknsCombinedBackgroundControlContext.h)
+../inc/AknsMaskedLayerBackgroundControlContext.h   MW_LAYER_PLATFORM_EXPORT_PATH(AknsMaskedLayerBackgroundControlContext.h)
+#endif //RD_FULLSCREEN_WALLPAPER
+
+// Tfx Server Plugin API interface exports
+
+//
+// domain include files from AknSkins/lskininc
+//
+../lskininc/aknlocalskinlib.h                     MW_LAYER_PLATFORM_EXPORT_PATH(aknlocalskinlib.h)
+
+// IBY file exports.
+../rom/aknskins.iby CORE_MW_LAYER_IBY_EXPORT_PATH(aknskins.iby)
+../rom/aknskins_Variant.iby CUSTOMER_MW_LAYER_IBY_EXPORT_PATH(aknskins_Variant.iby)
+../rom/aknskinsresources.iby LANGUAGE_MW_LAYER_IBY_EXPORT_PATH(aknskinsresources.iby)
+
+// Localized strings.
+../loc/aknswallpaperplugin.loc MW_LAYER_LOC_EXPORT_PATH(aknswallpaperplugin.loc)
+
+// Generic configuration interface for component cenrep settings
+../conf/aknskins.confml                  APP_LAYER_CONFML(aknskins.confml)
+../conf/aknskins_101F876F.crml           APP_LAYER_CRML(aknskins_101F876F.crml)
+../conf/aknskins_10282CB2.crml           APP_LAYER_CRML(aknskins_10282CB2.crml)
+
+// ============================================================================
+// MMP Files
+// ============================================================================
+//
+PRJ_MMPFILES
+
+#if defined(TOOLS) || defined(CWTOOLS)
+// Skin descriptor compiler (TOOLS target only)
+//
+/*
+ * NOTE! AknSkinDescCompiler is not compiled any more during usual build.
+ * It is just exported from ../data directory.
+ * If want to compile AknSkinDescCompiler from sources, you need to 
+ * uncomment below line, run build tools. New Compiler will be in /epoc32/tools/
+ *
+ */
+//AknSkinDescCompiler.mmp
+//AknSkinDescCompiler_NR.mmp
+
+
+#else
+//
+// Skins framework (All targets except TOOLS)
+//
+AknSkinRenderLib.mmp BUILD_AS_ARM
+AknSkinSrv.mmp
+AknSkins.mmp
+AknSkinSrvMain.mmp
+AknsWallpaperUtils.mmp
+aknswallpaperplugin.mmp
+aknsoomplugin.mmp
+aknlocalskinlib.mmp
+#endif
+
+PRJ_TESTMMPFILES
+CVT_AknSkins.mmp
+
+// End of file

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="100%" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0 0 12 32" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<g>
+<path d="M6.5,27C4.016,27,2,25.049,2,22.587v-3.126C2,16.998,4.016,15,6.5,15        l0,0c2.486,0,4.5,1.998,4.5,4.461v3.126C11,25.049,8.986,27,6.5,27L6.5,27z" fill="#B0381E" fill-opacity="0.6" stroke-opacity="0.6"/>
+</g>
+<g>
+<g fill-opacity="0.6" stroke-opacity="0.6">
+<path d="M1,19.461v3.126C1,25.598,3.467,28,6.5,28c3.031,0,5.5-2.402,5.5-5.413v-3.126         C12,16.45,9.531,14,6.5,14C3.467,14,1,16.45,1,19.461z M2,22.587v-3.126C2,17.002,4.018,15,6.5,15         c2.48,0,4.5,2.002,4.5,4.461v3.126C11,25.047,8.98,27,6.5,27C4.018,27,2,25.047,2,22.587z" fill="#670000"/>
+</g>
+</g>
+<rect fill="none" height="32" width="12"/>
+</g>
+</g>
+</switch>
+</svg>

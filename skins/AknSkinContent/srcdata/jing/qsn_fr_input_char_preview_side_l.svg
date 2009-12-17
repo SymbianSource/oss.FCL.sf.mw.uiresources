@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="15.997" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-424.494 45.754 15.997 31" height="31" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <linearGradient x1="-443.8618" y1="40.6797" x2="-402.6129" gradientUnits="userSpaceOnUse" y2="81.9286" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_3_" xlink:show="other">
+        <stop stop-color="#ffbebe" offset="0"/>
+        <stop stop-color="#ff4747" offset="1"/>
+    </linearGradient>
+    <rect x="-424.494" width="2.414" fill="url(#XMLID_3_)" y="45.754" height="31"/>
+    <linearGradient x1="-415.2852" y1="25.9121" x2="-415.2852" gradientUnits="userSpaceOnUse" y2="144.9668" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ff4747" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#XMLID_4_)" points="-408.497,76.754 -408.497,45.754 -422.074,45.754 -422.065,76.754 "/>
+</svg>

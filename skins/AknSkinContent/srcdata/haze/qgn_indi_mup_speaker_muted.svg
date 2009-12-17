@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="20" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 20 20" height="20" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <path d="M 10.013 4.003 L 4.466 4.003 L 2.69 7.804 L 0.013 7.804 L 0.013 15.533 L 2.656 15.533 L 4.425 20.0 L 10.0130005 20.0 L 10.0130005 4.003 L 10.013 4.003 z "/>
+            <polygon fill="none" points="3.494,9.027 1.263,9.027 1.263,14.309 3.511,14.309 5.281,18.779 8.763,18.779 8.763,10.219     4.792,6.25   "/>
+            <path fill="#ffffff" d="M 8.763 18.779 L 5.281 18.779 L 3.5100002 14.307999 L 1.263 14.307999 L 1.263 9.027 L 3.493 9.027 L 4.34 7.196 L 3.403 6.259 L 2.69 7.804 L 0.013 7.804 L 0.013 15.533 L 2.656 15.533 C 3.076 16.598 4.425 20.0 4.425 20.0 L 10.0130005 20.0 L 10.0130005 12.73 L 8.7630005 11.48 L 8.7630005 18.779 z "/>
+            <polygon fill="#ffffff" points="8.763,5.227 8.763,6.547 10.013,7.797 10.013,4.003 6.221,4.003 7.444,5.227   "/>
+            <rect x="-3.222" y="9.288" transform="matrix(-0.7072 -0.707 0.707 -0.7072 9.6653 24.2537)" fill="#ffffff" width="26.153" height="1.676"/>
+            <rect width="20" fill="none" height="19.997"/>
+        </g>
+    </g>
+</svg>

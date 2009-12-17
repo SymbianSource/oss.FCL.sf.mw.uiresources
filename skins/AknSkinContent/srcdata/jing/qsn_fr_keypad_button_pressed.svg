@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="40px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" height="40px" x="0px" y="0px">
+    <rect width="40" fill="none" height="40"/>
+    <polygon fill="#a65900" points="40,40 0,40 0,0 40,0 "/>
+    <linearGradient x1="14.9507" gradientTransform="matrix(1 0 0 1 5.04 -803.0391)" y1="803.3232" x2="14.9507" gradientUnits="userSpaceOnUse" y2="841.948" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+        <stop stop-color="#d49e4e" offset="0"/>
+        <stop stop-color="#ffbe5e" offset="0.3284"/>
+        <stop stop-color="#fff7e3" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#SVGID_1_)" points="38.982,38.982 1,38.982 1,1.001 38.982,1.001 "/>
+    <linearGradient x1="20.0522" y1="9.1934" x2="20.0522" gradientUnits="userSpaceOnUse" y2="29.6895" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_2_" xlink:show="other">
+        <stop stop-color="#ffedc9" offset="0"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <rect x="2.054" y="23.261" fill-opacity="0.5" fill="url(#SVGID_2_)" width="35.998" height="14.57" stroke-opacity="0.5"/>
+</svg>

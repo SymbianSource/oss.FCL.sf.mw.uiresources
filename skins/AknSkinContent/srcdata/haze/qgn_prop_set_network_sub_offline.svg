@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="42" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 42 29" height="29" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <rect x="0.039" width="42" fill="none" y="0.134" height="29"/>
+        </g>
+        <linearGradient x1="-675.9951" gradientTransform="matrix(1 0 0 -1 694.626 1024.9688)" y1="1019.6855" x2="-674.1342" gradientUnits="userSpaceOnUse" y2="1014.7935" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_281_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#e4edf5" offset="0.0804"/>
+            <stop stop-color="#b4cee4" offset="0.2367"/>
+            <stop stop-color="#a2c2dd" offset="0.3146"/>
+            <stop stop-color="#8eabd1" offset="0.4547"/>
+            <stop stop-color="#6c83bb" offset="0.6573"/>
+            <stop stop-color="#637db5" offset="0.7036"/>
+            <stop stop-color="#4c6ea4" offset="0.7776"/>
+            <stop stop-color="#265689" offset="0.8695"/>
+            <stop stop-color="#003d6d" offset="0.9494"/>
+            <stop stop-color="#003d6d" offset="1"/>
+        </linearGradient>
+        <polygon fill="url(#XMLID_281_)" points="22.111,4.839 20.557,6.656 20.021,11.606 16.054,8.104  "/>
+        <linearGradient x1="-674.2402" gradientTransform="matrix(1 0 0 -1 694.626 1024.9688)" y1="1018.3223" x2="-672.4695" gradientUnits="userSpaceOnUse" y2="1009.3782" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_282_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#e4edf5" offset="0.0804"/>
+            <stop stop-color="#b4cee4" offset="0.2367"/>
+            <stop stop-color="#a2c2dd" offset="0.3146"/>
+            <stop stop-color="#8eabd1" offset="0.4547"/>
+            <stop stop-color="#6c83bb" offset="0.6573"/>
+            <stop stop-color="#637db5" offset="0.7036"/>
+            <stop stop-color="#4c6ea4" offset="0.7776"/>
+            <stop stop-color="#265689" offset="0.8695"/>
+            <stop stop-color="#003d6d" offset="0.9494"/>
+            <stop stop-color="#003d6d" offset="1"/>
+        </linearGradient>
+        <polygon fill="url(#XMLID_282_)" points="18.148,9.608 20.112,7.806 24.257,11.947 21.689,14.479  "/>
+        <linearGradient x1="-674.8628" gradientTransform="matrix(1 0 0 -1 694.626 1024.9688)" y1="1012.124" x2="-667.3688" gradientUnits="userSpaceOnUse" y2="1022.2744" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_283_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#f8fbfd" offset="0.1745"/>
+            <stop stop-color="#e6eff6" offset="0.4209"/>
+            <stop stop-color="#c8dbeb" offset="0.7103"/>
+            <stop stop-color="#a2c2dd" offset="1"/>
+        </linearGradient>
+        <polygon fill="url(#XMLID_283_)" points="33.771,7.225 17.96,3.97 15.222,5.465 18.554,9.032 30.676,11.595  "/>
+        <linearGradient x1="-668.709" gradientTransform="matrix(1 0 0 -1 694.626 1024.9688)" y1="1024.0322" x2="-668.709" gradientUnits="userSpaceOnUse" y2="992.3618" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_284_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#e4edf5" offset="0.0804"/>
+            <stop stop-color="#b4cee4" offset="0.2367"/>
+            <stop stop-color="#a2c2dd" offset="0.3146"/>
+            <stop stop-color="#8eabd1" offset="0.4547"/>
+            <stop stop-color="#6c83bb" offset="0.6573"/>
+            <stop stop-color="#637db5" offset="0.7036"/>
+            <stop stop-color="#4c6ea4" offset="0.7776"/>
+            <stop stop-color="#265689" offset="0.8695"/>
+            <stop stop-color="#003d6d" offset="0.9494"/>
+            <stop stop-color="#003d6d" offset="1"/>
+        </linearGradient>
+        <polygon fill="url(#XMLID_284_)" points="24.448,10.176 24.46,24.686 27.386,22.979 27.38,10.008  "/>
+        <g>
+            <g>
+                <g>
+                    <linearGradient x1="-662.959" gradientTransform="matrix(1 0 0 -1 694.626 1024.9688)" y1="1020.1621" x2="-681.4132" gradientUnits="userSpaceOnUse" y2="1004.1382" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_285_" xlink:show="other">
+                        <stop stop-color="#ffffff" offset="0"/>
+                        <stop stop-color="#f8fbfd" offset="0.1745"/>
+                        <stop stop-color="#e6eff6" offset="0.4209"/>
+                        <stop stop-color="#c8dbeb" offset="0.7103"/>
+                        <stop stop-color="#a2c2dd" offset="1"/>
+                    </linearGradient>
+                    <path fill="url(#XMLID_285_)" d="M 15.222 5.465 L 15.224 10.314 L 21.525 17.051 L 21.529 24.037 L 24.460999 24.685001 L 24.456999 17.705002 L 30.848 13.832002 L 30.845999 8.932001 L 15.222 5.465 z M 21.521 13.216 L 18.147 9.608 L 18.146 9.042 L 21.521 9.799 L 21.521 13.216 z M 27.921 11.813 L 24.453999 13.910999 L 24.453 10.449999 L 27.921 11.220999 L 27.921 11.813 z "/>
+                </g>
+            </g>
+        </g>
+        <g>
+            <path fill="#ffffff" d="M 6.375 17.521 C 4.92 17.521 2.922 17.869 2.419 20.857 L 2.3439999 21.31 C 2.3439999 21.31 5.699 21.307999 6.0979996 21.307999 C 6.2189994 21.522999 6.3989997 21.846998 6.5119996 22.051998 C 6.3989997 22.258999 6.22 22.580997 6.0979996 22.797998 C 5.7 22.797998 2.3439996 22.8 2.3439996 22.8 L 2.4199996 23.251 C 2.9249997 26.238998 4.9229994 26.585 6.3779993 26.583 C 7.525999 26.583 8.551999 25.618 9.374 24.843 C 9.816 24.425001 10.236 24.03 10.459 24.03 L 20.737999 24.026001 L 20.852999 23.897001 C 21.071999 23.657001 21.585 22.991001 21.595999 22.061 L 21.595999 22.028 C 21.584 21.096 21.07 20.434 20.850998 20.19 L 20.735998 20.065 L 10.459 20.07 C 10.236 20.07 9.815 19.677 9.372 19.258999 C 8.549 18.486 7.526 17.521 6.375 17.521 z " fill-opacity="0.4"/>
+            <linearGradient x1="-780.2212" gradientTransform="matrix(1.1905 -5.000000e-004 5.000000e-004 1.1905 933.6827 -1990.1733)" y1="1684.0615" x2="-770.911" gradientUnits="userSpaceOnUse" y2="1695.2618" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_286_" xlink:show="other">
+                <stop stop-color="#e6eef4" offset="0"/>
+                <stop stop-color="#9646ac" offset="0.4438"/>
+                <stop stop-color="#3d013f" offset="0.9382"/>
+                <stop stop-color="#3d013f" offset="1"/>
+            </linearGradient>
+            <path fill="url(#XMLID_286_)" d="M 21.211 22.047 C 21.211 22.043001 21.213001 22.038 21.213001 22.036001 L 21.211 22.036001 C 21.201 21.224 20.737 20.640001 20.565 20.454 C 20.348001 20.455 10.459001 20.459 10.459001 20.459 C 10.080001 20.459 9.674001 20.072 9.106001 19.541 C 8.333001 18.814001 7.371001 17.908 6.375001 17.908 C 4.758001 17.909 3.229001 18.385 2.800001 20.923 C 3.407001 20.922 6.325001 20.922 6.325001 20.922 L 6.9520006 22.053001 L 6.3260007 23.186 C 6.3260007 23.186 3.4080007 23.186 2.8010006 23.188002 C 3.2320006 25.725002 4.7610006 26.2 6.3790007 26.198002 C 7.3750005 26.198002 8.338 25.293001 9.109001 24.563002 C 9.674001 24.032001 10.081001 23.645002 10.460001 23.645002 C 10.460001 23.645002 20.351002 23.641003 20.567001 23.641003 C 20.737001 23.453003 21.202002 22.870003 21.211 22.059002 L 21.213001 22.059002 C 21.213 22.055 21.211 22.051 21.211 22.047 z "/>
+        </g>
+        <linearGradient x1="-664.6846" gradientTransform="matrix(1 0 0 -1 694.626 1024.9688)" y1="1019.6533" x2="-660.693" gradientUnits="userSpaceOnUse" y2="1010.7697" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_287_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#e4edf5" offset="0.0804"/>
+            <stop stop-color="#b4cee4" offset="0.2367"/>
+            <stop stop-color="#a2c2dd" offset="0.3146"/>
+            <stop stop-color="#8eabd1" offset="0.4547"/>
+            <stop stop-color="#6c83bb" offset="0.6573"/>
+            <stop stop-color="#637db5" offset="0.7036"/>
+            <stop stop-color="#4c6ea4" offset="0.7776"/>
+            <stop stop-color="#265689" offset="0.8695"/>
+            <stop stop-color="#003d6d" offset="0.9494"/>
+            <stop stop-color="#003d6d" offset="1"/>
+        </linearGradient>
+        <polygon fill="url(#XMLID_287_)" points="33.755,7.263 30.827,8.933 30.829,13.833 33.755,12.125  "/>
+        <path fill="#ffffff" d="M 33.768 7.168 L 17.956 3.913 L 15.217999 5.4090004 L 15.219999 10.258 L 21.522 16.995 L 21.526 23.980001 L 24.457998 24.628002 L 27.383999 22.921001 L 27.38 15.8740015 L 30.845 13.774002 L 30.845 13.763002 L 33.753 12.066002 L 33.753 7.206 L 33.734997 7.216 L 33.768 7.168 z M 27.917 11.755 L 27.376 12.083 L 27.376 11.041 L 27.917 11.162001 L 27.917 11.755 z " fill-opacity="0.4"/>
+        <g>
+            <path fill="#ffffff" d="M 31.833 18.473 C 31.178 17.821 28.186 14.839 28.186 14.839 L 26.156 16.879 C 26.156 16.879 29.135 19.848 29.796 20.505 C 29.137 21.161999 26.156 24.133 26.156 24.133 L 28.186 26.171999 C 28.186 26.171999 31.177 23.192 31.833 22.536999 C 32.49 23.190998 35.48 26.171999 35.48 26.171999 L 37.510998 24.133 C 37.510998 24.133 34.531998 21.161999 33.871998 20.505 C 34.531998 19.848 37.510998 16.879 37.510998 16.879 L 35.48 14.837999 C 35.48 14.838 32.489 17.82 31.833 18.473 z "/>
+            <linearGradient x1="206.4385" gradientTransform="matrix(0.5 0 0 0.5 -67.854 -1513.5195)" y1="3046.5518" x2="192.7889" gradientUnits="userSpaceOnUse" y2="3088.094" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_288_" xlink:show="other">
+                <stop stop-color="#e6eef4" offset="0"/>
+                <stop stop-color="#c03a3a" offset="0.4438"/>
+                <stop stop-color="#302d02" offset="0.9382"/>
+                <stop stop-color="#302d02" offset="1"/>
+            </linearGradient>
+            <polygon fill="url(#XMLID_288_)" points="36.674,16.877 35.48,15.678 31.833,19.313 28.188,15.678 26.993,16.877 30.635,20.505     26.993,24.133 28.188,25.332 31.833,21.699 35.479,25.332 36.674,24.133 33.032,20.505   "/>
+        </g>
+    </g>
+</svg>

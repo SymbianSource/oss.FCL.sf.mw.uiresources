@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="13" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 13 13" height="13" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <polygon fill="#a2c2dd" points="11.359,2.938 0.169,0.896 0.824,9.854 11.253,12.763 11.245,12.752 11.27,12.761 11.275,12.763     11.275,12.761 11.294,12.765   "/>
+            <polygon fill="#496da2" points="11.253,12.763 12.529,11.735 12.804,2.029 11.34,2.934   "/>
+            <polygon fill="#cee1ef" points="12.804,2.029 1.682,0.365 0.175,0.892 11.378,2.934   "/>
+            <polygon fill="#496da2" points="10.485,11.791 1.493,9.339 1.031,1.911 10.448,3.757   "/>
+            <polygon fill="#ffffff" points="10.485,11.791 1.285,9.387 0.794,1.719 10.47,3.581   "/>
+            <polygon fill="#cee1ef" points="9.662,10.76 1.848,8.824 1.431,2.601 9.632,4.302   "/>
+            <path fill="#496da2" d="M 5.181 7.667 L 3.455 7.238 L 4.933 4.696 L 5.181 7.667 M 7.435 8.232 L 5.685 7.7980003 L 5.432 4.795 L 7.435 8.232 M 4.85 3.726 L 4.862 3.9250002 L 3.002 7.126 L 1.859 6.847 L 2.298 8.88 L 8.602 10.449 L 9.686 8.791 L 7.878 8.343 L 5.369 4.026 L 5.353 3.857 L 4.85 3.726 "/>
+        </g>
+        <rect width="13" fill="none" height="13"/>
+    </g>
+</svg>

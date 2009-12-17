@@ -1,0 +1,7 @@
+EXPORTS
+	_Z9LibEntryLR13CTestModuleIf @ 1 NONAME
+	_ZTI20CTestSDKSkinsControl @ 2 NONAME ; #<TI>#
+	_ZTI27CTestSDKSkinsObjectProvider @ 3 NONAME ; #<TI>#
+	_ZTV20CTestSDKSkinsControl @ 4 NONAME ; #<VT>#
+	_ZTV27CTestSDKSkinsObjectProvider @ 5 NONAME ; #<VT>#
+

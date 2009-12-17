@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<api id="fd1fc0aeedf69e08f4d1fc9e499dba57" dataversion="2.0">
+  <name>Layout ID Definitions API</name>
+  <description>Defines regional layout variants.</description>
+  <type>c++</type>
+  <collection>layouts</collection>
+  <libs>
+  </libs>
+  <release category="public" sinceversion="0"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>no</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

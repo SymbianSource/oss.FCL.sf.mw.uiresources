@@ -1,0 +1,4 @@
+% sharp s after normal s 
+00DF ; [.085E.0020.0002.00DF] % ß after s
+
+ 

@@ -1,0 +1,77 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+// It contains the project definition for a customisation DLL.
+// It may be modified manually.
+#include <platform_paths.hrh>
+
+target           2001cb91.dll
+targettype		 PLUGIN
+UID 			 0x10009D8D 0x2001cb91
+CAPABILITY       CAP_ECOM_PLUGIN
+VENDORID         VID_DEFAULT
+
+SOURCEPATH       .
+userinclude      .
+systeminclude    .
+MW_LAYER_SYSTEMINCLUDE
+
+source           uiaccel_layoutinst_vga4_touch.cpp
+source           uiaccel_elaf_vga4_touch_normal_pack.cpp
+source           aknlayoutscalable_elaf_hvp4_c_vga4_prt_tch_normal.cpp
+source           uiaccel_elaf_vga4_touch_small_pack.cpp
+source           aknlayoutscalable_elaf_hvp4_c_vga4_prt_tch_small.cpp
+source           uiaccel_elaf_vga4_touch_large_pack.cpp
+source           aknlayoutscalable_elaf_hvp4_c_vga4_prt_tch_large.cpp
+source           uiaccel_abrw_vga4_touch_normal_pack.cpp
+source           aknlayoutscalable_abrw_hvp4_c_vga4_prt_tch_normal.cpp
+source           uiaccel_abrw_vga4_touch_small_pack.cpp
+source           aknlayoutscalable_abrw_hvp4_c_vga4_prt_tch_small.cpp
+source           uiaccel_abrw_vga4_touch_large_pack.cpp
+source           aknlayoutscalable_abrw_hvp4_c_vga4_prt_tch_large.cpp
+source           uiaccel_apac_vga4_touch_normal_pack.cpp
+source           uiaccel_apac_vga4_touch_small_pack.cpp
+source           uiaccel_apac_vga4_touch_large_pack.cpp
+source           uiaccel_elaf_vga4_touch_land_normal_pack.cpp
+source           aknlayoutscalable_elaf_hvl4_c_vga4_lsc_tch_normal.cpp
+source           uiaccel_elaf_vga4_touch_land_small_pack.cpp
+source           aknlayoutscalable_elaf_hvl4_c_vga4_lsc_tch_small.cpp
+source           uiaccel_elaf_vga4_touch_land_large_pack.cpp
+source           aknlayoutscalable_elaf_hvl4_c_vga4_lsc_tch_large.cpp
+source           uiaccel_abrw_vga4_touch_land_normal_pack.cpp
+source           aknlayoutscalable_abrw_hvl4_c_vga4_lsc_tch_normal.cpp
+source           uiaccel_abrw_vga4_touch_land_small_pack.cpp
+source           aknlayoutscalable_abrw_hvl4_c_vga4_lsc_tch_small.cpp
+source           uiaccel_abrw_vga4_touch_land_large_pack.cpp
+source           aknlayoutscalable_abrw_hvl4_c_vga4_lsc_tch_large.cpp
+source           uiaccel_apac_vga4_touch_land_normal_pack.cpp
+source           uiaccel_apac_vga4_touch_land_small_pack.cpp
+source           uiaccel_apac_vga4_touch_land_large_pack.cpp
+
+library          euser.lib
+library          aknlayout2scalable.lib
+library          cdlengine.lib
+
+START RESOURCE	 2001cb91.rss
+TARGET       2001cb91.rsc
+END
+START RESOURCE   2001cb91_cdl_detail.rss
+TARGETPATH       resource/cdl
+END
+
+SOURCE ../../DecodeLib/AknLayout2ScalableDecode.cpp
+systeminclude ..

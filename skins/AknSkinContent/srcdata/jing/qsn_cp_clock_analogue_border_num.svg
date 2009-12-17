@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="100" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-1 0 100 112" height="112" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <linearGradient x1="68" y1="53.7" x2="68" gradientUnits="userSpaceOnUse" y2="13.66" xlink:type="simple" xlink:actuate="onLoad" id="_2" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#707a87" offset="1"/>
+    </linearGradient>
+    <rect x="58" y="40" fill-opacity="0.5" fill="url(#_2)" width="20" height="18"/>
+    <rect x="58" y="40" fill-opacity="0.08" fill="#235487" width="1" height="18"/>
+    <rect x="59" y="40" fill-opacity="0.03" fill="#235487" width="1" height="18"/>
+    <rect x="76" y="40" fill-opacity="0.03" fill="#235487" width="1" height="18"/>
+    <rect x="58" y="40" fill-opacity="0.2" fill="#235487" width="20" height="1"/>
+    <rect x="58" y="41" fill-opacity="0.08" fill="#235487" width="20" height="1"/>
+    <rect x="58" y="42" fill-opacity="0.03" fill="#235487" width="20" height="1"/>
+    <rect x="77" y="40" fill-opacity="0.08" fill="#235487" width="1" height="18"/>
+    <rect x="58" y="57" fill-opacity="0.03" fill="#235487" width="20" height="1"/>
+</svg>

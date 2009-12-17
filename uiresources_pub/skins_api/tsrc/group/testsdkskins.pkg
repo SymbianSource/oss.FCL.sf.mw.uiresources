@@ -1,0 +1,73 @@
+;
+; Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+; All rights reserved.
+; This component and the accompanying materials are made available
+; under the terms of "Eclipse Public License v1.0"
+; which accompanies this distribution, and is available
+; at the URL "http://www.eclipse.org/legal/epl-v10.html".
+;
+; Initial Contributors:
+; Nokia Corporation - initial contribution.
+;
+; Contributors:
+;
+; Description:
+;
+; Languages
+&EN
+
+; Header
+#{"testsdkskins"}, (0x2001CB80), 1, 0, 0, TYPE=SA
+
+; Localised Vendor name
+%{"Nokia"}
+
+; Unique Vendor name
+:"Nokia"
+
+
+;Copying ordinary file (not language dependent) to fixed drive drive.
+
+"..\init\testsdkskins.ini"-"c:\Testframework\testsdkskins.ini", FF   ; FF stands for Normal file
+
+"..\conf\tctestsdkskinsbbcc.cfg"-"c:\Testframework\tctestsdkskinsbbcc.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testsdkskinsbbcc.cfg"-"c:\Testframework\ui_testsdkskinsbbcc.cfg", FF   ; FF stands for Normal file
+
+"..\conf\tctestsdkskinscc.cfg"-"c:\Testframework\tctestsdkskinscc.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testsdkskinscc.cfg"-"c:\Testframework\ui_testsdkskinscc.cfg", FF   ; FF stands for Normal file
+
+"..\conf\tctestsdkskinsdc.cfg"-"c:\Testframework\tctestsdkskinsdc.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testsdkskinsdc.cfg"-"c:\Testframework\ui_testsdkskinsdc.cfg", FF   ; FF stands for Normal file
+
+"..\conf\tctestsdkskinsdu.cfg"-"c:\Testframework\tctestsdkskinsdu.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testsdkskinsdu.cfg"-"c:\Testframework\ui_testsdkskinsdu.cfg", FF   ; FF stands for Normal file
+
+"..\conf\tctestsdkskinsbbcc.cfg"-"c:\Testframework\tctestsdkskinsfbcc.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testsdkskinsbbcc.cfg"-"c:\Testframework\ui_testsdkskinsfbcc.cfg", FF   ; FF stands for Normal file
+
+"..\conf\tctestsdkskinsid.cfg"-"c:\Testframework\tctestsdkskinsid.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testsdkskinsid.cfg"-"c:\Testframework\ui_testsdkskinsid.cfg", FF   ; FF stands for Normal file
+
+"..\conf\tctestsdkskinsii.cfg"-"c:\Testframework\tctestsdkskinsii.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testsdkskinsii.cfg"-"c:\Testframework\ui_testsdkskinsii.cfg", FF   ; FF stands for Normal file
+
+"..\conf\tctestsdkskinslbbcc.cfg"-"c:\Testframework\tctestsdkskinslbbcc.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testsdkskinslbbcc.cfg"-"c:\Testframework\ui_testsdkskinslbbcc.cfg", FF   ; FF stands for Normal file
+
+"..\conf\tctestsdkskinslbcc.cfg"-"c:\Testframework\tctestsdkskinslbcc.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testsdkskinslbcc.cfg"-"c:\Testframework\ui_testsdkskinslbcc.cfg", FF   ; FF stands for Normal file
+
+"..\conf\tctestsdkskinswu.cfg"-"c:\Testframework\tctestsdkskinswu.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testsdkskinswu.cfg"-"c:\Testframework\ui_testsdkskinswu.cfg", FF   ; FF stands for Normal file
+
+"..\conf\tctestsdkskinsu.cfg"-"c:\Testframework\tctestsdkskinsu.cfg", FF   ; FF stands for Normal file
+"..\conf\ui_testsdkskinsu.cfg"-"c:\Testframework\ui_testsdkskinsu.cfg", FF   ; FF stands for Normal file
+
+"\epoc32\RELEASE\ARMV5\urel\testsdkskins.dll"-"c:\sys\bin\testsdkskins.dll", FF
+
+
+
+
+; Trim For Mms
+; ------------
+; to be added later

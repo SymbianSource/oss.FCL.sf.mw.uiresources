@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="14.174" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-226.868 -482.447 14.174 14.174" height="14.174" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <polygon fill="#840000" fill-opacity="0.4" points="-226.16,-468.273 -226.16,-481.738 -212.694,-481.738 -212.694,-482.447   -226.868,-482.447 -226.868,-468.273 "/>
+    <polygon fill="#f6a2a0" points="-225.451,-481.03 -212.694,-481.03 -212.694,-481.738 -226.16,-481.738 -226.16,-468.273   -225.451,-468.273 "/>
+    <rect x="-225.451" width="12.757" fill="#f6a2a0" y="-481.03" height="12.757"/>
+    <linearGradient x1="-219.211" gradientTransform="matrix(1 0 0 -1 0.1377 -951.8862)" y1="-472.2732" x2="-219.211" gradientUnits="userSpaceOnUse" y2="-639.511" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+        <stop stop-color="#fff5f5" offset="0"/>
+        <stop stop-color="#ffa29e" offset="1"/>
+    </linearGradient>
+    <rect x="-225.451" width="12.757" fill="url(#XMLID_4_)" y="-481.03" height="12.757"/>
+    <rect x="-226.868" y="-482.447" fill-opacity="0.7" fill="#ffffff" width="14.174" height="14.173"/>
+</svg>

@@ -1,0 +1,43 @@
+/*
+* Copyright (c) 2003-2007 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Project definition file for skin descriptor compiler
+*
+*/
+
+#include <platform_paths.hrh>
+
+TARGET         AknSkinDescCompiler_NR.EXE
+TARGETTYPE     EXE
+OPTION MSVC /nologo /Zp4 /GX /W3
+
+MW_LAYER_SYSTEMINCLUDE
+USERINCLUDE    . ../sdcinc
+USERINCLUDE    ../inc
+
+SOURCEPATH     ../sdcsrc
+
+SOURCE         SDCMain.cpp
+SOURCE         SDCBinOutput.cpp
+SOURCE         SDCData.cpp
+SOURCE         SDCDebugOutput.cpp
+SOURCE         SDCException.cpp
+SOURCE         SDCGlobals.cpp
+SOURCE         SDCIIDConstants.cpp
+SOURCE         SDCInlOutput.cpp
+SOURCE         SDCInput.cpp
+SOURCE         SDCMbmOutput.cpp
+SOURCE         SDCPkgOutput.cpp
+SOURCE         SDCReader.cpp
+
+// End of File

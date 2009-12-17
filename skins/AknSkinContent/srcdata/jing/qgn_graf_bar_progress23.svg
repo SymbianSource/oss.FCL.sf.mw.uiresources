@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="100%" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0 0 100 6.536" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<g>
+<g>
+<linearGradient gradientTransform="matrix(0.3268 0 0 -0.3268 81.2094 138.4504)" gradientUnits="userSpaceOnUse" id="XMLID_3_" x1="-95.502" x2="-95.502" y1="422.6577" y2="405.361">
+<stop offset="0" style="stop-color:#F1DE84"/>
+<stop offset="0.2753" style="stop-color:#B0381E"/>
+<stop offset="0.6685" style="stop-color:#822519"/>
+<stop offset="1" style="stop-color:#5C1001"/>
+</linearGradient>
+<path d="M99.188,0.327H0.813c-0.268,0-0.486,0.188-0.486,0.421v5.04c0,0.232,0.218,0.422,0.486,0.422         h98.375c0.268,0,0.485-0.189,0.485-0.422v-5.04C99.674,0.516,99.455,0.327,99.188,0.327z" fill="url(#XMLID_3_)"/>
+</g>
+<g>
+<linearGradient gradientTransform="matrix(0.3268 0 0 -0.3268 -167.1529 -233.1053)" gradientUnits="userSpaceOnUse" id="XMLID_4_" x1="664.4883" x2="664.4883" y1="424.9077" y2="413.6577">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="0.1" style="stop-color:#FFFFFF"/>
+<stop offset="0.98" style="stop-color:#CFECFF"/>
+<stop offset="1" style="stop-color:#CFECFF"/>
+</linearGradient>
+<path d="M99.188,0.327H0.813c-0.268,0-0.486,0.188-0.486,0.421v2.52         h99.347v-2.52C99.674,0.516,99.455,0.327,99.188,0.327z" fill="url(#XMLID_4_)" fill-opacity="0.2" stroke-opacity="0.2"/>
+</g>
+</g>
+<rect fill="none" height="6.536" width="100"/>
+</g>
+</g>
+</switch>
+</svg>

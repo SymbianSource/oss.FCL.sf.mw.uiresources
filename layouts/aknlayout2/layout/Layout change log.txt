@@ -1,0 +1,150 @@
+September 03
+Initial lay files copied from AknLayout
+
+27/10/03
+lay files caught up to AknLayout latest values
+
+28/10/03
+Unification of elaf and apac APIs. The following elaf APIs had parameters added to allow
+apac to work too.
+	TAknTextLineLayout Title_pane_texts_Line_1(TInt aIndex_l, TInt aIndex_W);
+	TAknTextLineLayout Navi_pane_texts_Line_1(TInt aCommon1);
+The following elaf APIs were removed because of duplicate tables:
+	TAknTextLineLayout List_pane_texts__setting_double2__Line_1(TInt aCommon1);
+	TAknTextLineLayout List_pane_texts__setting_double2__Line_2();
+The following elaf APIs had parameter name changes
+	TAknTextLineLayout Wait_or_progress_note_pop_up_window_texts_Line_1(TInt aCommon1, TInt aIndex_r, TInt aIndex_B);
+	TAknMultiLineTextLayout Multiline_Wait_or_progress_note_pop_up_window_texts_Line_1(TInt aCommon1, TInt aIndex_r, TInt aNumberOfLinesShown);
+
+29/10/03
+Unified API for square too.
+Square LAF extracted from P:\Averell\Team\docs\Requirements\LAF\Averell_2.6\Elaf\html\Series_60_2_6_Square_AVKON_LAF_Delta_0_1.htm
+This involves lots of changes to all lay files.
+This is a list of table that we don't want in any API:
+TAknLayoutTableLimits List_pane_elements__double_large_graphic__SUB_TABLE_0_Limits()
+TAknWindowLineLayout List_pane_elements__double_large_graphic__SUB_TABLE_0(TInt aLineIndex)
+TAknLayoutTableLimits Pop_up_windows__main_pane_as_parent__SUB_TABLE_0_Limits()
+TAknWindowLineLayout Pop_up_windows__main_pane_as_parent__SUB_TABLE_0(TInt aLineIndex, TInt aIndex_H)
+TAknLayoutTableLimits Pop_up_windows__main_pane_as_parent__SUB_TABLE_1_Limits()
+TAknWindowLineLayout Pop_up_windows__main_pane_as_parent__SUB_TABLE_1(TInt aLineIndex, TInt aIndex_H)
+TAknLayoutTableLimits Pop_up_windows__main_pane_as_parent__SUB_TABLE_2_Limits()
+TAknWindowLineLayout Pop_up_windows__main_pane_as_parent__SUB_TABLE_2(TInt aLineIndex, TInt aIndex_H)
+Skin LAF re-extracted from P:\Averell\Team\docs\Requirements\LAF\Averell_2.0\skin\html\Series_60_Skin_LAF_R2.0_v2.htm
+
+31/10/03
+AknLayout.cdl regenerated with comments saying what LAF table is the source
+Table API review by MGR to remove unnecessary table API. Removed:
+TAknLayoutTableLimits Status_pane_descendants_SUB_TABLE_0_Limits();
+TAknWindowLineLayout Status_pane_descendants_SUB_TABLE_0(TInt aLineIndex, const TRect& aParentRect);
+TAknLayoutTableLimits Navi_pane_texts_SUB_TABLE_0_Limits();
+TAknTextLineLayout Navi_pane_texts_SUB_TABLE_0(TInt aLineIndex);
+TAknLayoutTableLimits Main_pane_descendants_SUB_TABLE_0_Limits();
+TAknWindowLineLayout Main_pane_descendants_SUB_TABLE_0(TInt aLineIndex);
+TAknLayoutTableLimits Form_pop_up_field_elements_and_descendants_SUB_TABLE_0_Limits();
+TAknWindowLineLayout Form_pop_up_field_elements_and_descendants_SUB_TABLE_0(TInt aLineIndex);
+TAknLayoutTableLimits Form_pop_up_wide_field_elements_and_descendants_SUB_TABLE_0_Limits();
+TAknWindowLineLayout Form_pop_up_wide_field_elements_and_descendants_SUB_TABLE_0(TInt aLineIndex);
+TAknLayoutTableLimits Form_slider_field_elements_and_descendants_SUB_TABLE_0_Limits();
+TAknWindowLineLayout Form_slider_field_elements_and_descendants_SUB_TABLE_0(TInt aLineIndex);
+TAknLayoutTableLimits Form_slider_field_elements_and_descendants_dup_SUB_TABLE_0_Limits();
+TAknWindowLineLayout Form_slider_field_elements_and_descendants_dup_SUB_TABLE_0(TInt aLineIndex);
+TAknLayoutTableLimits List_pane_elements_and_descendants__settings_edited__SUB_TABLE_0_Limits();
+TAknWindowLineLayout List_pane_elements_and_descendants__settings_edited__SUB_TABLE_0(TInt aLineIndex);
+TAknLayoutTableLimits List_pane_elements_and_descendants__settings_edited__SUB_TABLE_1_Limits();
+TAknWindowLineLayout List_pane_elements_and_descendants__settings_edited__SUB_TABLE_1(TInt aLineIndex);
+TAknLayoutTableLimits Pop_up_window_list_pane_descendants_SUB_TABLE_0_Limits();
+TAknWindowLineLayout Pop_up_window_list_pane_descendants_SUB_TABLE_0(TInt aLineIndex, TInt aIndex_t);
+TAknLayoutTableLimits List_pane_elements__menu_single_graphic_heading__SUB_TABLE_0_Limits();
+TAknWindowLineLayout List_pane_elements__menu_single_graphic_heading__SUB_TABLE_0(TInt aLineIndex);
+TAknLayoutTableLimits Data_query_pop_up_window_elements_SUB_TABLE_0_Limits();
+TAknWindowLineLayout Data_query_pop_up_window_elements_SUB_TABLE_0(TInt aLineIndex, const TRect& aParentRect, TInt aCommon1);
+TAknLayoutTableLimits Combined_data_and_code_query_pop_up_window_elements_SUB_TABLE_0_Limits();
+TAknWindowLineLayout Combined_data_and_code_query_pop_up_window_elements_SUB_TABLE_0(TInt aLineIndex, TInt aIndex_C, TInt aIndex_t);
+TAknLayoutTableLimits Combined_data_and_code_query_pop_up_window_elements_SUB_TABLE_1_Limits();
+TAknWindowLineLayout Combined_data_and_code_query_pop_up_window_elements_SUB_TABLE_1(TInt aLineIndex, TInt aIndex_t);
+TAknLayoutTableLimits Colour_selection_pop_up_window_descendants_SUB_TABLE_0_Limits();
+TAknWindowLineLayout Colour_selection_pop_up_window_descendants_SUB_TABLE_0(TInt aLineIndex);
+
+8/12/2003
+API updating to 2.1 and 2.6 versions, where possible.
+The layout API is divided up as {akn, app} x {elaf, apac, square}
+The source documents are:
+Akn     Series_60_EUR_AVKON_LAF_R2.1_v1.0.doc -> AknElaf.lay
+AknApac Series_60_APAC_AVKON_LAF_Delta_R2.1_v1.0.doc -> AknApac.lay
+AknSq   Series_60_2_6_Square_AVKON_LAF_Delta_0_1.doc -> AknElafSq.lay
+App     Series_60_EUR_APPS_LAF_R2.1_v1.0.doc -> AppElaf.lay
+AppApac Series_60_APAC_APPS_LAF_Delta_R2.1_v1.0.doc -> AppApac.lay
+AppSq   Series_60_2_6_Square_Application_LAF_Delta_0_3.doc -> AppElafSq.lay
+Note that LAY file names have changed.
+The avkon changes are going to be a careful update of the API as necessary.
+The apps changes are going to be a complete rebuild of the layout system.
+Both avkon and apps will have a unified elaf/apac/square API.
+AknElaf changes: 
+	Small status pane added to lay and CDL, 
+	no numeric changes made, 
+	BC maintianed.
+AknApac changes: 
+	None taken from LAF, numeric changes only.
+	Comments added to CDL file
+	CDL name changed.
+AknElafSq changes: 
+	Whole LAY file taken.
+	Square LAY modified to match ELAF API where necessary.
+	CDL updated with new square only API
+	Comments added to CDL file
+	CDL name changed.
+Apps elaf, apac and square APIs unified
+	All changes taken
+	New CDL files created
+
+8/1/2004
+Layout compiler extract mode fix has found more tables in elaf and square laf specs
+for avkon and apps. APAC laf specs do not have this problem.
+New tables will be added to the end of the existing APIs.
+Akn elaf: All apparently new tables were already in the Elaf.lay file - they must have had
+their tables corrupted in word some time after they were originally extracted.
+Akn elaf sq: All new tables moved across and unified with elaf.
+Apps elaf: two new tables added to lay file and to the end of the CDL interface
+Apps square: tables added to lay file
+Unification check is good
+
+24/2/2004
+Multiple changes to Avkon layouts to support apac square and abrw square
+New lay files added
+makefile updated to build new packages etc
+data unified between layouts where necessary
+
+2/3/2004
+Multiple changes to App layouts to support AppAbrw
+Note that some changes have forced change to CDL API, which have been manually merged in, breaking SC
+makefile updated to build updated package contents etc
+Unification check fails at present - needs investigation
+
+16/3/2004
+Added AppApacSq and AppAbrwSquare lay files
+makefile updated to build new packages etc
+data unified between layouts where necessary
+minor SC breaking change to CDL API - no known clients
+Unification check fails at present - needs investigation
+
+6/4/2004
+Added skinSq lay file
+added to build system and unirep
+
+8/4/2004
+Added skinAbrw lay file
+added to build system and unirep
+
+15/4/2004
+Added skinAbrwSq lay file
+added to build system and unirep
+
+16/4/2004
+new contents of skin laf extracted from Series_60_2_x_Skin_LAF_3_2.doc, 
+updates applied to skin lay files, mirroring where appropriate. 
+new "scaling" tables added in all cases, even if data redundant, as they refer to scaling of bitmaps not of item placement, so should be separate API. 
+Added API to CDL.
+
+2/3/2006
+Legacy layout files removed from the project.
+The new system uses only adaptation layer to provide clients with legacy layout data.

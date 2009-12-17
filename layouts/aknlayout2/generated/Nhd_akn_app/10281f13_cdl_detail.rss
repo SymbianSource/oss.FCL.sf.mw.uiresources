@@ -1,0 +1,111 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+#include <cdlecom.rh>
+#include <cdlecom.hrh>
+
+#include "elaf_nhd_normal_pack.hrh"
+#include "aknlayoutscalable_elaf_pnp_av_nhd_prt_normal.hrh"
+#include "aknlayoutscalable_elaf_pnp_apps_nhd_prt_normal.hrh"
+#include "cdlfontinst_nhd.hrh"
+#include "displaylayoutmetricsinst_nhd.hrh"
+#include "elaf_nhd_small_pack.hrh"
+#include "aknlayoutscalable_elaf_pnp_av_nhd_prt_small.hrh"
+#include "aknlayoutscalable_elaf_pnp_apps_nhd_prt_small.hrh"
+#include "elaf_nhd_large_pack.hrh"
+#include "aknlayoutscalable_elaf_pnp_av_nhd_prt_large.hrh"
+#include "aknlayoutscalable_elaf_pnp_apps_nhd_prt_large.hrh"
+#include "abrw_nhd_normal_pack.hrh"
+#include "aknlayoutscalable_abrw_pnp_av_nhd_prt_normal.hrh"
+#include "aknlayoutscalable_abrw_pnp_apps_nhd_prt_normal.hrh"
+#include "abrw_nhd_small_pack.hrh"
+#include "aknlayoutscalable_abrw_pnp_av_nhd_prt_small.hrh"
+#include "aknlayoutscalable_abrw_pnp_apps_nhd_prt_small.hrh"
+#include "abrw_nhd_large_pack.hrh"
+#include "aknlayoutscalable_abrw_pnp_av_nhd_prt_large.hrh"
+#include "aknlayoutscalable_abrw_pnp_apps_nhd_prt_large.hrh"
+#include "apac_nhd_normal_pack.hrh"
+#include "apac_nhd_small_pack.hrh"
+#include "apac_nhd_large_pack.hrh"
+#include "elaf_nhd_land_normal_pack.hrh"
+#include "aknlayoutscalable_elaf_pnl_av_nhd_lsc_normal.hrh"
+#include "aknlayoutscalable_elaf_pnl_apps_nhd_lsc_normal.hrh"
+#include "elaf_nhd_land_small_pack.hrh"
+#include "aknlayoutscalable_elaf_pnl_av_nhd_lsc_small.hrh"
+#include "aknlayoutscalable_elaf_pnl_apps_nhd_lsc_small.hrh"
+#include "elaf_nhd_land_large_pack.hrh"
+#include "aknlayoutscalable_elaf_pnl_av_nhd_lsc_large.hrh"
+#include "aknlayoutscalable_elaf_pnl_apps_nhd_lsc_large.hrh"
+#include "abrw_nhd_land_normal_pack.hrh"
+#include "aknlayoutscalable_abrw_pnl_av_nhd_lsc_normal.hrh"
+#include "aknlayoutscalable_abrw_pnl_apps_nhd_lsc_normal.hrh"
+#include "abrw_nhd_land_small_pack.hrh"
+#include "aknlayoutscalable_abrw_pnl_av_nhd_lsc_small.hrh"
+#include "aknlayoutscalable_abrw_pnl_apps_nhd_lsc_small.hrh"
+#include "abrw_nhd_land_large_pack.hrh"
+#include "aknlayoutscalable_abrw_pnl_av_nhd_lsc_large.hrh"
+#include "aknlayoutscalable_abrw_pnl_apps_nhd_lsc_large.hrh"
+#include "apac_nhd_land_normal_pack.hrh"
+#include "apac_nhd_land_small_pack.hrh"
+#include "apac_nhd_land_large_pack.hrh"
+
+CDL_ECOM_REG_DETAIL_START
+	CDL_ECOM_DETAIL_IMPL(Elaf_Nhd_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pnp_av_nhd_prt_Normal)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pnp_apps_nhd_prt_Normal)
+,	CDL_ECOM_DETAIL_IMPL(CdlFontInst_nhd)
+,	CDL_ECOM_DETAIL_IMPL(displaylayoutmetricsinst_Nhd)
+,	CDL_ECOM_DETAIL_IMPL(Elaf_Nhd_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pnp_av_nhd_prt_Small)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pnp_apps_nhd_prt_Small)
+,	CDL_ECOM_DETAIL_IMPL(Elaf_Nhd_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pnp_av_nhd_prt_Large)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pnp_apps_nhd_prt_Large)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Nhd_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pnp_av_nhd_prt_Normal)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pnp_apps_nhd_prt_Normal)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Nhd_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pnp_av_nhd_prt_Small)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pnp_apps_nhd_prt_Small)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Nhd_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pnp_av_nhd_prt_Large)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pnp_apps_nhd_prt_Large)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Nhd_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Nhd_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Nhd_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(Elaf_Nhd_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pnl_av_nhd_lsc_Normal)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pnl_apps_nhd_lsc_Normal)
+,	CDL_ECOM_DETAIL_IMPL(Elaf_Nhd_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pnl_av_nhd_lsc_Small)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pnl_apps_nhd_lsc_Small)
+,	CDL_ECOM_DETAIL_IMPL(Elaf_Nhd_land_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pnl_av_nhd_lsc_Large)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pnl_apps_nhd_lsc_Large)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Nhd_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pnl_av_nhd_lsc_Normal)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pnl_apps_nhd_lsc_Normal)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Nhd_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pnl_av_nhd_lsc_Small)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pnl_apps_nhd_lsc_Small)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Nhd_land_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pnl_av_nhd_lsc_Large)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pnl_apps_nhd_lsc_Large)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Nhd_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Nhd_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Nhd_land_Large_Pack)
+CDL_ECOM_REG_DETAIL_END

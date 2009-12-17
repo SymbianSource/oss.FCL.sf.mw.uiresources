@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="100%" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<rect fill="none" height="100" width="100"/>
+<g>
+<g>
+<path d="M82.17,43.416l10.445-25.039L81.808,7.015l-23.462,9.87C57.584,29.923,69.685,44.623,82.17,43.416z" fill="#EACF5A"/>
+<polygon fill="#EACF5A" points="28.577,85.131 31.446,99.916 16.084,96.815 2.354,80.793 0.731,64.662 14.492,69.293 "/>
+<polygon fill="#CD9F3D" points="28.577,85.131 14.492,69.293 70.361,20.539 80.17,31.639 "/>
+<polygon fill="#F1DE84" points="14.492,69.293 0.731,64.662 58.377,16.908 70.361,20.539 "/>
+<polygon fill="#AD832F" points="28.577,85.131 31.446,99.916 82.4,42.985 80.17,31.639 "/>
+</g>
+<path d="M91.416,21.331l8.168-20.869l-20.761,7.77C83.361,9.123,89.547,15.831,91.416,21.331z" fill="url(#XMLID_12_)"/>
+<defs>
+<linearGradient gradientTransform="matrix(0.5923 -7.6692 -7.6692 -0.5923 -571.8411 2162.8735)" gradientUnits="userSpaceOnUse" id="XMLID_12_" x1="286.7217" x2="285.2618" y1="-63.7676" y2="-65.1713">
+<stop offset="0" style="stop-color:#0046B7"/>
+<stop offset="0.0056" style="stop-color:#822519"/>
+<stop offset="0.4888" style="stop-color:#5C1001"/>
+<stop offset="1" style="stop-color:#9C0C00"/>
+</linearGradient>
+</defs>
+</g>
+</g>
+</g>
+</switch>
+</svg>

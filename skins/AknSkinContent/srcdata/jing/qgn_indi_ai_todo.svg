@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="16" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 16 15.964" height="15.964" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <rect width="16" fill="none" y="-0.018" height="16"/>
+            <rect x="1.5" width="13" fill="none" y="1.482" height="13"/>
+            <g>
+                <polygon fill="#e0bc6c" points="11.689,14.466 3.631,12.263 3.36,2.103 11.697,3.506    "/>
+                <polygon fill="#5c1001" points="11.682,14.498 12.92,13.615 13.118,2.767 11.673,3.533    "/>
+                <polygon fill="#f1de84" points="13.098,2.769 4.767,1.569 3.365,2.111 11.68,3.535    "/>
+                <polygon fill="#5c1001" points="7.769,10.498 7.369,11.125 10.839,11.882 10.839,11.173    "/>
+                <path fill="#5c1001" d="M 5.55 11.136 C 5.1010003 10.761 4.36 10.1449995 4.36 10.1449995 L 3.789 10.83 L 5.783 12.4869995 L 7.538 9.535 L 6.77 9.082 C 6.77 9.082 5.909 10.529 5.55 11.136 z "/>
+                <polygon fill="#5c1001" points="7.769,7.06 7.369,7.687 10.839,8.447 10.839,7.737    "/>
+                <path fill="#5c1001" d="M 5.55 7.699 C 5.101 7.325 4.36 6.708 4.36 6.708 L 3.788 7.393 L 5.782 9.05 L 7.537 6.099 L 6.77 5.646 C 6.77 5.646 5.909 7.092 5.55 7.699 z "/>
+            </g>
+            <g>
+                <path fill="#5c1001" d="M 7.713 4.401 C 7.557 4.256 7.338 4.203 7.167 4.253 L 4.412 3.12 L 4.162 3.8259997 L 7.0270004 4.8079996 C 7.05 4.838 7.438 5.28 7.771 4.982 C 7.932 4.837 7.915 4.586 7.713 4.401 z "/>
+                <radialGradient gradientTransform="matrix(0.8726 -0.4874 -0.4885 -0.8706 189.3733 -800.8673)" gradientUnits="userSpaceOnUse" xlink:type="simple" r="2.1718" xlink:actuate="onLoad" cx="-555.2583" id="XMLID_2_" cy="-612.3418" xlink:show="other">
+                    <stop stop-color="#f1de84" offset="0"/>
+                    <stop stop-color="#cd9f3d" offset="0.5337"/>
+                    <stop stop-color="#704d18" offset="1"/>
+                </radialGradient>
+                <circle fill="url(#XMLID_2_)" r="1.614" cx="4.282" cy="3.384"/>
+            </g>
+        </g>
+    </g>
+</svg>

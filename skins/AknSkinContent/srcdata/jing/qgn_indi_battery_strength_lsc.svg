@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="16" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 16 16" height="16" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect width="16" fill="none" height="16"/>
+        <linearGradient x1="3" y1="15.5459" x2="3" gradientUnits="userSpaceOnUse" y2="-0.7393" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_8_" xlink:show="other">
+            <stop stop-color="#e62020" offset="0"/>
+            <stop stop-color="#e62020" offset="0.0787"/>
+            <stop stop-color="#e62020" offset="0.5674"/>
+            <stop stop-color="#e62020" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_8_)" d="M 5.0 4.25 C 5.0 3.836 4.735 3.5 4.125 3.5 L 1.875 3.5 C 1.264 3.5 1.0 3.836 1.0 4.25 L 1.0 4.25 C 1.0 4.664 1.264 5.0 1.875 5.0 L 4.125 5.0 C 4.735 5.0 5.0 4.664 5.0 4.25 L 5.0 4.25 z "/>
+        <linearGradient x1="2.5" y1="15.5459" x2="2.5" gradientUnits="userSpaceOnUse" y2="-0.7393" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_9_" xlink:show="other">
+            <stop stop-color="#e62020" offset="0"/>
+            <stop stop-color="#e62020" offset="0.0787"/>
+            <stop stop-color="#e62020" offset="0.5674"/>
+            <stop stop-color="#e62020" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_9_)" d="M 4.0 2.25 C 4.0 1.836 3.735 1.5 3.125 1.5 L 1.875 1.5 C 1.264 1.5 1.0 1.836 1.0 2.25 L 1.0 2.25 C 1.0 2.664 1.264 3.0 1.875 3.0 L 3.125 3.0 C 3.735 3.0 4.0 2.664 4.0 2.25 L 4.0 2.25 z "/>
+        <linearGradient x1="3.5" y1="15.5459" x2="3.5" gradientUnits="userSpaceOnUse" y2="-0.7393" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_10_" xlink:show="other">
+            <stop stop-color="#e62020" offset="0"/>
+            <stop stop-color="#e62020" offset="0.0787"/>
+            <stop stop-color="#e62020" offset="0.5674"/>
+            <stop stop-color="#e62020" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_10_)" d="M 6.0 6.25 C 6.0 5.836 5.738 5.5 5.128 5.5 L 1.8779998 5.5 C 1.267 5.5 1.0 5.836 1.0 6.25 L 1.0 6.25 C 1.0 6.664 1.267 7.0 1.878 7.0 L 5.1280003 7.0 C 5.738 7.0 6.0 6.664 6.0 6.25 L 6.0 6.25 z "/>
+        <linearGradient x1="3.9961" y1="15.5459" x2="3.9961" gradientUnits="userSpaceOnUse" y2="-0.7393" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_11_" xlink:show="other">
+            <stop stop-color="#e62020" offset="0"/>
+            <stop stop-color="#e62020" offset="0.0787"/>
+            <stop stop-color="#e62020" offset="0.5674"/>
+            <stop stop-color="#e62020" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_11_)" d="M 7.0 8.25 C 7.0 7.836 6.738 7.5 6.128 7.5 L 1.8779998 7.5 C 1.2659998 7.5 0.9919998 7.836 0.9919998 8.25 L 0.9919998 8.25 C 0.992 8.664 1.266 9.0 1.878 9.0 L 6.1280003 9.0 C 6.738 9.0 7.0 8.664 7.0 8.25 L 7.0 8.25 z "/>
+        <linearGradient x1="4.9976" y1="15.5459" x2="4.9976" gradientUnits="userSpaceOnUse" y2="-0.7393" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_12_" xlink:show="other">
+            <stop stop-color="#e62020" offset="0"/>
+            <stop stop-color="#e62020" offset="0.0787"/>
+            <stop stop-color="#e62020" offset="0.5674"/>
+            <stop stop-color="#e62020" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_12_)" d="M 9.0 12.248 C 9.0 11.834001 8.738 11.498 8.128 11.498 L 1.8780004 11.498 C 1.2670002 11.498 0.99400026 11.834001 0.99400026 12.248 L 0.99400026 12.248 C 0.99400026 12.662 1.2660003 12.998 1.8780004 12.998 L 8.128 12.998 C 8.738 12.998 9.0 12.662 9.0 12.248 L 9.0 12.248 z "/>
+        <linearGradient x1="5.4976" y1="15.5459" x2="5.4976" gradientUnits="userSpaceOnUse" y2="-0.7393" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_13_" xlink:show="other">
+            <stop stop-color="#e62020" offset="0"/>
+            <stop stop-color="#e62020" offset="0.0787"/>
+            <stop stop-color="#e62020" offset="0.5674"/>
+            <stop stop-color="#e62020" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_13_)" d="M 10.0 14.25 C 10.0 13.836 9.738 13.5 9.128 13.5 L 1.8780004 13.5 C 1.2670002 13.5 0.99400026 13.836 0.99400026 14.25 L 0.99400026 14.25 C 0.99400026 14.664 1.2660003 15.0 1.8780004 15.0 L 9.128 15.0 C 9.738 15.0 10.0 14.664 10.0 14.25 L 10.0 14.25 z "/>
+        <linearGradient x1="4.4961" y1="15.5459" x2="4.4961" gradientUnits="userSpaceOnUse" y2="-0.7393" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_14_" xlink:show="other">
+            <stop stop-color="#e62020" offset="0"/>
+            <stop stop-color="#e62020" offset="0.0787"/>
+            <stop stop-color="#e62020" offset="0.5674"/>
+            <stop stop-color="#e62020" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_14_)" d="M 8.0 10.25 C 8.0 9.836 7.739 9.5 7.128 9.5 L 1.8779998 9.5 C 1.2659998 9.5 0.9919998 9.836 0.9919998 10.25 L 0.9919998 10.25 C 0.9919998 10.664 1.2649999 11.0 1.8779998 11.0 L 7.128 11.0 C 7.739 11.0 8.0 10.664 8.0 10.25 L 8.0 10.25 z "/>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="14.172" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-161.778 25.833 14.172 14.172" height="14.172" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <polygon fill="#840000" fill-opacity="0.4" points="-148.313,39.296 -161.777,39.296 -161.777,40.005 -147.604,40.005   -147.604,25.833 -148.313,25.833 "/>
+    <polygon fill="#f6a2a0" points="-149.022,38.589 -161.777,38.589 -161.777,39.296 -148.313,39.296 -148.313,25.833 -149.022,25.833   "/>
+    <rect x="-161.777" width="12.755" fill="#f6a2a0" y="25.833" height="12.756"/>
+    <linearGradient x1="-155.5368" gradientTransform="matrix(1 0 0 -1 0.1377 64.6729)" y1="75.6919" x2="-155.5368" gradientUnits="userSpaceOnUse" y2="-91.5587" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+        <stop stop-color="#fff5f5" offset="0"/>
+        <stop stop-color="#ffa29e" offset="1"/>
+    </linearGradient>
+    <rect x="-161.777" width="12.755" fill="url(#XMLID_4_)" y="25.833" height="12.756"/>
+    <rect x="-153.113" width="2.657" fill="#800000" y="29.374" height="7.655"/>
+    <rect x="-158.681" width="8.161" fill="#800000" y="34.371" height="2.657"/>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="88" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 88 88" height="88" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <g>
+                <g>
+                    <path fill="#ffffff" d="M 17.458 16.4 L 17.458 42.725998 C 17.458 42.725998 27.601 60.170998 29.354 63.183 C 26.643 65.118996 11.809 75.715996 11.809 75.715996 L 36.369 90.092995 C 36.369 90.092995 51.036 78.899994 53.085 77.337 C 55.334 78.597 71.529 87.679 71.529 87.679 L 90.466 70.484 C 90.466 70.484 74.482 62.609 71.275 61.031002 C 72.943 57.611 83.242004 36.482002 83.242004 36.482002 L 57.902 25.583 C 57.902 25.583 56.214 29.189 55.523 30.659 C 53.198997 29.659 48.054 27.448 48.054 27.448 C 48.054 27.448 43.835 30.247 41.581 31.741001 C 41.209 30.896002 40.965 30.34 40.834 30.042002 C 40.842 29.106 41.076 3.0870018 41.076 3.0870018 L 17.458 16.4 z "/>
+                    <g>
+                        <g>
+                            <polygon fill="#ad832f" points="48.023,52.027 59.027,28.541 80.154,37.627 68.24,62.07       "/>
+                            <polygon fill="#ad832f" points="19.73,42.114 32.359,63.83 48.023,52.027 38.559,30.511       "/>
+                            <polygon fill="#cd9f3d" points="19.73,42.114 19.73,17.729 38.77,6.997 38.559,30.511       "/>
+                            <polygon fill="#ad832f" points="15.982,75.527 32.359,63.83 52.893,74.625 36.2,87.363       "/>
+                            <polygon fill="#ad832f" points="71.213,84.896 52.893,74.625 68.24,62.07 86.465,71.046       "/>
+                        </g>
+                        <g>
+                            <polygon fill="#b5ab3c" points="31.473,41.171 48.287,30.021 68.776,38.828 52.893,51.084       "/>
+                            <polygon fill="#615a26" points="31.473,41.171 32.359,63.83 52.893,74.625 52.893,51.084       "/>
+                            <linearGradient x1="32.6128" y1="74.2583" x2="52.4365" gradientUnits="userSpaceOnUse" y2="61.8267" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+                                <stop stop-color="#a89959" offset="0"/>
+                                <stop stop-color="#615a26" offset="1"/>
+                            </linearGradient>
+                            <polygon fill="url(#XMLID_4_)" points="50.48,49.968 32.359,63.83 52.893,74.625       "/>
+                            <linearGradient x1="46.4063" y1="33.7729" x2="61.1904" gradientUnits="userSpaceOnUse" y2="57.2925" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_5_" xlink:show="other">
+                                <stop stop-color="#704d18" offset="0"/>
+                                <stop stop-color="#311904" offset="1"/>
+                            </linearGradient>
+                            <polygon fill="url(#XMLID_5_)" points="52.893,51.084 52.893,74.625 68.24,62.07 68.776,38.828       "/>
+                            <linearGradient x1="62.6758" y1="70.7866" x2="45.54" gradientUnits="userSpaceOnUse" y2="50.9624" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+                                <stop stop-color="#704d18" offset="0"/>
+                                <stop stop-color="#311904" offset="1"/>
+                            </linearGradient>
+                            <polygon fill="url(#XMLID_6_)" points="53.395,54.041 52.893,74.625 68.24,62.07       "/>
+                        </g>
+                    </g>
+                </g>
+                <rect width="100" fill="none" y="0" height="99.999"/>
+            </g>
+        </g>
+    </g>
+</svg>

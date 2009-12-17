@@ -1,0 +1,121 @@
+// AppApacLayout.cdl
+
+Name: AppApacLayout
+Version: 1.0
+UID: 0x101ff6c9
+Flag: KCdlFlagRomOnly
+
+%% C++
+
+#include <aknlayout2def.h>
+
+%% Translation
+
+
+%% API
+
+
+// LAF Table : Real time view texts
+TAknTextLineLayout Real_time_view_texts_Line_1(TInt aIndex_B);
+TAknMultiLineTextLayout Multiline_Real_time_view_texts_Line_1(TInt aNumberOfLinesShown);
+TAknTextLineLayout Real_time_view_texts_Line_2(TInt aIndex_B);
+TAknMultiLineTextLayout Multiline_Real_time_view_texts_Line_2(TInt aNumberOfLinesShown);
+TAknTextLineLayout Real_time_view_texts_Line_3(TInt aCommon1);
+TAknTextLineLayout Real_time_view_texts_Line_4(TInt aCommon1);
+TAknTextLineLayout Real_time_view_texts_Line_5();
+TAknLayoutTableLimits Real_time_view_texts_SUB_TABLE_0_Limits();
+TAknTextLineLayout Real_time_view_texts_SUB_TABLE_0(TInt aLineIndex, TInt aIndex_B);
+TAknLayoutTableLimits Real_time_view_texts_SUB_TABLE_1_Limits();
+TAknTextLineLayout Real_time_view_texts_SUB_TABLE_1(TInt aLineIndex, TInt aCommon1);
+
+// LAF Table : Alarm clock view texts
+TAknTextLineLayout Alarm_clock_view_texts_Line_1();
+TAknTextLineLayout Alarm_clock_view_texts_Line_2(TInt aCommon1);
+TAknTextLineLayout Alarm_clock_view_texts_Line_3(TInt aCommon1);
+TAknTextLineLayout Alarm_clock_view_texts_Line_4();
+TAknTextLineLayout Alarm_clock_view_texts_Line_5();
+TAknTextLineLayout Alarm_clock_view_texts_Line_6(TInt aIndex_B);
+TAknMultiLineTextLayout Multiline_Alarm_clock_view_texts_Line_6(TInt aNumberOfLinesShown);
+TAknTextLineLayout Alarm_clock_view_texts_Line_7();
+TAknTextLineLayout Alarm_clock_view_texts_Line_8();
+TAknLayoutTableLimits Alarm_clock_view_texts_SUB_TABLE_0_Limits();
+TAknTextLineLayout Alarm_clock_view_texts_SUB_TABLE_0(TInt aLineIndex, TInt aCommon1);
+TAknLayoutTableLimits Alarm_clock_view_texts_SUB_TABLE_1_Limits();
+TAknTextLineLayout Alarm_clock_view_texts_SUB_TABLE_1(TInt aLineIndex);
+TAknLayoutTableLimits Alarm_clock_view_texts_SUB_TABLE_2_Limits();
+TAknTextLineLayout Alarm_clock_view_texts_SUB_TABLE_2(TInt aLineIndex);
+
+// LAF Table : Help text bolding
+TAknTextLineLayout Help_text_bolding_Line_1();
+TAknTextLineLayout Help_text_bolding_Line_2();
+TAknLayoutTableLimits Help_text_bolding_Limits();
+TAknTextLineLayout Help_text_bolding(TInt aLineIndex);
+
+// LAF Table : Chinese Dictionary text
+TAknTextLineLayout Chinese_Dictionary_text_Line_1();
+TAknTextLineLayout Chinese_Dictionary_text_Line_2();
+TAknTextLineLayout Chinese_Dictionary_text_Line_3(TInt aIndex_B);
+TAknMultiLineTextLayout Multiline_Chinese_Dictionary_text_Line_3(TInt aNumberOfLinesShown);
+TAknTextLineLayout Chinese_Dictionary_text_Line_4(TInt aIndex_B);
+TAknMultiLineTextLayout Multiline_Chinese_Dictionary_text_Line_4(TInt aNumberOfLinesShown);
+TAknLayoutTableLimits Chinese_Dictionary_text_SUB_TABLE_0_Limits();
+TAknTextLineLayout Chinese_Dictionary_text_SUB_TABLE_0(TInt aLineIndex);
+TAknLayoutTableLimits Chinese_Dictionary_text_SUB_TABLE_1_Limits();
+TAknTextLineLayout Chinese_Dictionary_text_SUB_TABLE_1(TInt aLineIndex, TInt aIndex_B);
+
+// LAF Table : Chinese Dictionary elements and descendant panes
+TAknWindowLineLayout Chinese_Dictionary_elements_and_descendant_panes_Line_1();
+TAknWindowLineLayout Chinese_Dictionary_elements_and_descendant_panes_Line_2();
+TAknWindowLineLayout Chinese_Dictionary_elements_and_descendant_panes_Line_3();
+TAknWindowLineLayout Chinese_Dictionary_elements_and_descendant_panes_Line_4();
+TAknWindowLineLayout chi_dic_find_pane();
+TAknWindowLineLayout chi_dic_list_pane();
+TAknLayoutTableLimits Chinese_Dictionary_elements_and_descendant_panes_Limits();
+TAknWindowLineLayout Chinese_Dictionary_elements_and_descendant_panes(TInt aLineIndex);
+
+// LAF Table : Incoming video call pop-up window texts
+TAknTextLineLayout Incoming_video_call_pop_up_window_texts_Line_1(TInt aCommon1, TInt aCommon2);
+TAknMultiLineTextLayout Multiline_Incoming_video_call_pop_up_window_texts_Line_1(TInt aCommon1, TInt aCommon2, TInt aNumberOfLinesShown);
+
+// LAF Table : First video call pop-up window texts
+TAknTextLineLayout First_video_call_pop_up_window_texts_Line_1();
+
+// LAF Table : Lunar Calendar information layout
+TAknTextLineLayout Lunar_Calendar_information_layout_Line_1();
+TAknTextLineLayout Lunar_Calendar_information_layout_Line_2(TInt aIndex_B);
+TAknMultiLineTextLayout Multiline_Lunar_Calendar_information_layout_Line_2(TInt aNumberOfLinesShown);
+TAknTextLineLayout Lunar_Calendar_information_layout_Line_3();
+TAknWindowLineLayout Lunar_Calendar_Elements_Line_1(TInt aIndex_t);
+
+// LAF Table : Chinese Dictionary find pane text
+TAknTextLineLayout Chinese_Dictionary_find_pane_text_Line_1();
+TAknTextLineLayout Chinese_Dictionary_find_pane_text_Line_2();
+TAknTextLineLayout Chinese_Dictionary_find_pane_text_Line_3();
+TAknLayoutTableLimits Chinese_Dictionary_find_pane_text_Limits();
+TAknTextLineLayout Chinese_Dictionary_find_pane_text(TInt aLineIndex);
+
+// LAF Table : List pane text
+TAknTextLineLayout List_pane_text_Line_1();
+TAknTextLineLayout List_pane_text_Line_2();
+TAknLayoutTableLimits List_pane_text_Limits();
+TAknTextLineLayout List_pane_text(TInt aLineIndex);
+
+// LAF Table : 
+TAknWindowLineLayout List_pane_highlight__chi_dic__Line_1();
+TAknWindowLineLayout List_pane_highlight__chi_dic__Line_2();
+TAknLayoutTableLimits List_pane_highlight__chi_dic__Limits();
+TAknWindowLineLayout List_pane_highlight__chi_dic_(TInt aLineIndex);
+
+// LAF Table : Chinese Dictionary find pane elements
+TAknWindowLineLayout Chinese_Dictionary_find_pane_elements_Line_1();
+TAknWindowLineLayout Chinese_Dictionary_find_pane_elements_Line_2();
+TAknWindowLineLayout Chinese_Dictionary_find_pane_elements_Line_3();
+TAknLayoutTableLimits Chinese_Dictionary_find_pane_elements_Limits();
+TAknWindowLineLayout Chinese_Dictionary_find_pane_elements(TInt aLineIndex);
+
+// LAF Table : List pane placing (chi,dic)
+TAknWindowLineLayout list_chi_dic_pane(TInt aNumberOfLinesShown);
+
+// LAF Table : Find pane elements (pinb)
+TAknWindowLineLayout Find_pane_elements__pinb__Line_5();
+

@@ -1,0 +1,125 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+// It contains the customisation API.
+// It should not be modified manually.
+
+#ifndef APPAPACLAYOUT_CDL_CUSTOM_H
+#define APPAPACLAYOUT_CDL_CUSTOM_H
+
+#include <CdlEngDef.h>
+#include "AppApacLayout.cdl.common.h"
+
+namespace AppApacLayout
+{
+
+// This structure defines the interface to a customisation instance.
+// A customisation instance must supply an instance of this structure, with the pointer
+// members either being NULL, or pointing at functions or data of the correct type.
+
+#ifdef __WINS__
+struct SCdlImpl0
+#else
+struct SCdlImpl
+#endif
+	{
+	TReal_time_view_texts_Line_1_sig* Real_time_view_texts_Line_1;
+	TMultiline_Real_time_view_texts_Line_1_sig* Multiline_Real_time_view_texts_Line_1;
+	TReal_time_view_texts_Line_2_sig* Real_time_view_texts_Line_2;
+	TMultiline_Real_time_view_texts_Line_2_sig* Multiline_Real_time_view_texts_Line_2;
+	TReal_time_view_texts_Line_3_sig* Real_time_view_texts_Line_3;
+	TReal_time_view_texts_Line_4_sig* Real_time_view_texts_Line_4;
+	TReal_time_view_texts_Line_5_sig* Real_time_view_texts_Line_5;
+	TReal_time_view_texts_SUB_TABLE_0_Limits_sig* Real_time_view_texts_SUB_TABLE_0_Limits;
+	TReal_time_view_texts_SUB_TABLE_0_sig* Real_time_view_texts_SUB_TABLE_0;
+	TReal_time_view_texts_SUB_TABLE_1_Limits_sig* Real_time_view_texts_SUB_TABLE_1_Limits;
+	TReal_time_view_texts_SUB_TABLE_1_sig* Real_time_view_texts_SUB_TABLE_1;
+	TAlarm_clock_view_texts_Line_1_sig* Alarm_clock_view_texts_Line_1;
+	TAlarm_clock_view_texts_Line_2_sig* Alarm_clock_view_texts_Line_2;
+	TAlarm_clock_view_texts_Line_3_sig* Alarm_clock_view_texts_Line_3;
+	TAlarm_clock_view_texts_Line_4_sig* Alarm_clock_view_texts_Line_4;
+	TAlarm_clock_view_texts_Line_5_sig* Alarm_clock_view_texts_Line_5;
+	TAlarm_clock_view_texts_Line_6_sig* Alarm_clock_view_texts_Line_6;
+	TMultiline_Alarm_clock_view_texts_Line_6_sig* Multiline_Alarm_clock_view_texts_Line_6;
+	TAlarm_clock_view_texts_Line_7_sig* Alarm_clock_view_texts_Line_7;
+	TAlarm_clock_view_texts_Line_8_sig* Alarm_clock_view_texts_Line_8;
+	TAlarm_clock_view_texts_SUB_TABLE_0_Limits_sig* Alarm_clock_view_texts_SUB_TABLE_0_Limits;
+	TAlarm_clock_view_texts_SUB_TABLE_0_sig* Alarm_clock_view_texts_SUB_TABLE_0;
+	TAlarm_clock_view_texts_SUB_TABLE_1_Limits_sig* Alarm_clock_view_texts_SUB_TABLE_1_Limits;
+	TAlarm_clock_view_texts_SUB_TABLE_1_sig* Alarm_clock_view_texts_SUB_TABLE_1;
+	TAlarm_clock_view_texts_SUB_TABLE_2_Limits_sig* Alarm_clock_view_texts_SUB_TABLE_2_Limits;
+	TAlarm_clock_view_texts_SUB_TABLE_2_sig* Alarm_clock_view_texts_SUB_TABLE_2;
+	THelp_text_bolding_Line_1_sig* Help_text_bolding_Line_1;
+	THelp_text_bolding_Line_2_sig* Help_text_bolding_Line_2;
+	THelp_text_bolding_Limits_sig* Help_text_bolding_Limits;
+	THelp_text_bolding_sig* Help_text_bolding;
+	TChinese_Dictionary_text_Line_1_sig* Chinese_Dictionary_text_Line_1;
+	TChinese_Dictionary_text_Line_2_sig* Chinese_Dictionary_text_Line_2;
+	TChinese_Dictionary_text_Line_3_sig* Chinese_Dictionary_text_Line_3;
+	TMultiline_Chinese_Dictionary_text_Line_3_sig* Multiline_Chinese_Dictionary_text_Line_3;
+	TChinese_Dictionary_text_Line_4_sig* Chinese_Dictionary_text_Line_4;
+	TMultiline_Chinese_Dictionary_text_Line_4_sig* Multiline_Chinese_Dictionary_text_Line_4;
+	TChinese_Dictionary_text_SUB_TABLE_0_Limits_sig* Chinese_Dictionary_text_SUB_TABLE_0_Limits;
+	TChinese_Dictionary_text_SUB_TABLE_0_sig* Chinese_Dictionary_text_SUB_TABLE_0;
+	TChinese_Dictionary_text_SUB_TABLE_1_Limits_sig* Chinese_Dictionary_text_SUB_TABLE_1_Limits;
+	TChinese_Dictionary_text_SUB_TABLE_1_sig* Chinese_Dictionary_text_SUB_TABLE_1;
+	TChinese_Dictionary_elements_and_descendant_panes_Line_1_sig* Chinese_Dictionary_elements_and_descendant_panes_Line_1;
+	TChinese_Dictionary_elements_and_descendant_panes_Line_2_sig* Chinese_Dictionary_elements_and_descendant_panes_Line_2;
+	TChinese_Dictionary_elements_and_descendant_panes_Line_3_sig* Chinese_Dictionary_elements_and_descendant_panes_Line_3;
+	TChinese_Dictionary_elements_and_descendant_panes_Line_4_sig* Chinese_Dictionary_elements_and_descendant_panes_Line_4;
+	Tchi_dic_find_pane_sig* chi_dic_find_pane;
+	Tchi_dic_list_pane_sig* chi_dic_list_pane;
+	TChinese_Dictionary_elements_and_descendant_panes_Limits_sig* Chinese_Dictionary_elements_and_descendant_panes_Limits;
+	TChinese_Dictionary_elements_and_descendant_panes_sig* Chinese_Dictionary_elements_and_descendant_panes;
+	TIncoming_video_call_pop_up_window_texts_Line_1_sig* Incoming_video_call_pop_up_window_texts_Line_1;
+	TMultiline_Incoming_video_call_pop_up_window_texts_Line_1_sig* Multiline_Incoming_video_call_pop_up_window_texts_Line_1;
+	TFirst_video_call_pop_up_window_texts_Line_1_sig* First_video_call_pop_up_window_texts_Line_1;
+	TLunar_Calendar_information_layout_Line_1_sig* Lunar_Calendar_information_layout_Line_1;
+	TLunar_Calendar_information_layout_Line_2_sig* Lunar_Calendar_information_layout_Line_2;
+	TMultiline_Lunar_Calendar_information_layout_Line_2_sig* Multiline_Lunar_Calendar_information_layout_Line_2;
+	TLunar_Calendar_information_layout_Line_3_sig* Lunar_Calendar_information_layout_Line_3;
+	TLunar_Calendar_Elements_Line_1_sig* Lunar_Calendar_Elements_Line_1;
+	TChinese_Dictionary_find_pane_text_Line_1_sig* Chinese_Dictionary_find_pane_text_Line_1;
+	TChinese_Dictionary_find_pane_text_Line_2_sig* Chinese_Dictionary_find_pane_text_Line_2;
+	TChinese_Dictionary_find_pane_text_Line_3_sig* Chinese_Dictionary_find_pane_text_Line_3;
+	TChinese_Dictionary_find_pane_text_Limits_sig* Chinese_Dictionary_find_pane_text_Limits;
+	TChinese_Dictionary_find_pane_text_sig* Chinese_Dictionary_find_pane_text;
+	TList_pane_text_Line_1_sig* List_pane_text_Line_1;
+	TList_pane_text_Line_2_sig* List_pane_text_Line_2;
+	TList_pane_text_Limits_sig* List_pane_text_Limits;
+	TList_pane_text_sig* List_pane_text;
+	TList_pane_highlight__chi_dic__Line_1_sig* List_pane_highlight__chi_dic__Line_1;
+	TList_pane_highlight__chi_dic__Line_2_sig* List_pane_highlight__chi_dic__Line_2;
+	TList_pane_highlight__chi_dic__Limits_sig* List_pane_highlight__chi_dic__Limits;
+	TList_pane_highlight__chi_dic__sig* List_pane_highlight__chi_dic_;
+	TChinese_Dictionary_find_pane_elements_Line_1_sig* Chinese_Dictionary_find_pane_elements_Line_1;
+	TChinese_Dictionary_find_pane_elements_Line_2_sig* Chinese_Dictionary_find_pane_elements_Line_2;
+	TChinese_Dictionary_find_pane_elements_Line_3_sig* Chinese_Dictionary_find_pane_elements_Line_3;
+	TChinese_Dictionary_find_pane_elements_Limits_sig* Chinese_Dictionary_find_pane_elements_Limits;
+	TChinese_Dictionary_find_pane_elements_sig* Chinese_Dictionary_find_pane_elements;
+	Tlist_chi_dic_pane_sig* list_chi_dic_pane;
+	TFind_pane_elements__pinb__Line_5_sig* Find_pane_elements__pinb__Line_5;
+	};
+#ifdef __WINS__
+struct SCdlImpl
+	{
+	SCdlImpl0 i0;
+	};
+#endif
+
+} // end of namespace AppApacLayout
+#endif // APPAPACLAYOUT_CDL_CUSTOM_H

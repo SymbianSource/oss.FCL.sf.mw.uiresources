@@ -1,0 +1,28 @@
+# Comments are allowed
+#
+
+# Optional variations in the generated scripts
+
+<option keepgoing>		# use abld -keepgoing
+<option thumb>			# build THUMB versions of ARM components
+<option wd2>			# build wd2 versions of ARM components
+<option noarm4> 		# don't build arm4 versions of ARM components
+<option noarmi> 		# don't build armi versions of ARM components
+
+# List of components required
+#
+# Name		abld_directory
+
+# Utility apps
+CdlExplorer					\s60\mw\uiresources\layouts\cdl\CdlUtils\CdlExplorer\group
+
+# Test apps
+TCdl1Cust					\s60\mw\uiresources\layouts\cdl\Internal\TCdl1\TCdl1Cust
+TCdl1App					\s60\mw\uiresources\layouts\cdl\Internal\TCdl1\TCdl1App\Group
+CdlAutoTest					\s60\mw\uiresources\layouts\cdl\Internal\CdlAutoTest\group
+
+# cdlbod demos
+CdlBod						\s60\mw\uiresources\layouts\cdl\Internal\CdlBod\CdlBod
+Bods						\s60\mw\uiresources\layouts\cdl\Internal\CdlBod\Bods
+CdlSnake					\s60\mw\uiresources\layouts\cdl\Internal\CdlBod\CdlSnake
+LionsLunch					\s60\mw\uiresources\layouts\cdl\Internal\CdlBod\LionsLunch

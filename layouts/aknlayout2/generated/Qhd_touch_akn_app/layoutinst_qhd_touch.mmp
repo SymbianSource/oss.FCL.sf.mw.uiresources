@@ -1,0 +1,91 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+// It contains the project definition for a customisation DLL.
+// It may be modified manually.
+#include <platform_paths.hrh>
+
+target           10283389.dll
+targettype		 PLUGIN
+UID 			 0x10009D8D 0x10283389
+CAPABILITY       CAP_ECOM_PLUGIN
+VENDORID         VID_DEFAULT
+
+SOURCEPATH       .
+userinclude      .
+systeminclude    .
+MW_LAYER_SYSTEMINCLUDE
+
+source           layoutinst_qhd_touch.cpp
+source           elaf_qhd_touch_normal_pack.cpp
+source           aknlayoutscalable_elaf_php_av_qhd_prt_tch_normal.cpp
+source           aknlayoutscalable_elaf_php_apps_qhd_prt_tch_normal.cpp
+source           Cdlfontinst_qhd_touch.cpp
+source           displaylayoutmetricsinst_qhd_touch.cpp
+source           elaf_qhd_touch_small_pack.cpp
+source           aknlayoutscalable_elaf_php_av_qhd_prt_tch_small.cpp
+source           aknlayoutscalable_elaf_php_apps_qhd_prt_tch_small.cpp
+source           elaf_qhd_touch_large_pack.cpp
+source           aknlayoutscalable_elaf_php_av_qhd_prt_tch_large.cpp
+source           aknlayoutscalable_elaf_php_apps_qhd_prt_tch_large.cpp
+source           abrw_qhd_touch_normal_pack.cpp
+source           aknlayoutscalable_abrw_php_av_qhd_prt_tch_normal.cpp
+source           aknlayoutscalable_abrw_php_apps_qhd_prt_tch_normal.cpp
+source           abrw_qhd_touch_small_pack.cpp
+source           aknlayoutscalable_abrw_php_av_qhd_prt_tch_small.cpp
+source           aknlayoutscalable_abrw_php_apps_qhd_prt_tch_small.cpp
+source           abrw_qhd_touch_large_pack.cpp
+source           aknlayoutscalable_abrw_php_av_qhd_prt_tch_large.cpp
+source           aknlayoutscalable_abrw_php_apps_qhd_prt_tch_large.cpp
+source           apac_qhd_touch_normal_pack.cpp
+source           apac_qhd_touch_small_pack.cpp
+source           apac_qhd_touch_large_pack.cpp
+source           elaf_qhd_touch_land_normal_pack.cpp
+source           aknlayoutscalable_elaf_phl_av_qhd_lsc_tch_normal.cpp
+source           aknlayoutscalable_elaf_phl_apps_qhd_lsc_tch_normal.cpp
+source           elaf_qhd_touch_land_small_pack.cpp
+source           aknlayoutscalable_elaf_phl_av_qhd_lsc_tch_small.cpp
+source           aknlayoutscalable_elaf_phl_apps_qhd_lsc_tch_small.cpp
+source           elaf_qhd_touch_land_large_pack.cpp
+source           aknlayoutscalable_elaf_phl_av_qhd_lsc_tch_large.cpp
+source           aknlayoutscalable_elaf_phl_apps_qhd_lsc_tch_large.cpp
+source           abrw_qhd_touch_land_normal_pack.cpp
+source           aknlayoutscalable_abrw_phl_av_qhd_lsc_tch_normal.cpp
+source           aknlayoutscalable_abrw_phl_apps_qhd_lsc_tch_normal.cpp
+source           abrw_qhd_touch_land_small_pack.cpp
+source           aknlayoutscalable_abrw_phl_av_qhd_lsc_tch_small.cpp
+source           aknlayoutscalable_abrw_phl_apps_qhd_lsc_tch_small.cpp
+source           abrw_qhd_touch_land_large_pack.cpp
+source           aknlayoutscalable_abrw_phl_av_qhd_lsc_tch_large.cpp
+source           aknlayoutscalable_abrw_phl_apps_qhd_lsc_tch_large.cpp
+source           apac_qhd_touch_land_normal_pack.cpp
+source           apac_qhd_touch_land_small_pack.cpp
+source           apac_qhd_touch_land_large_pack.cpp
+
+library          euser.lib
+library          aknlayout2scalable.lib
+library          cdlengine.lib
+
+START RESOURCE	 10283389.rss
+TARGET       10283389.rsc
+END
+START RESOURCE   10283389_cdl_detail.rss
+TARGETPATH       resource/cdl
+END
+
+SOURCE ../../DecodeLib/AknLayout2ScalableDecode.cpp
+systeminclude ..

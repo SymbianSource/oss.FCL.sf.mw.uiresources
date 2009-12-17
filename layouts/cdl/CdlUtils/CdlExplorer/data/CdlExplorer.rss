@@ -1,0 +1,158 @@
+/*
+* Copyright (c) 2003 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description: This file contains all the resources for the CdlExplorer.
+*
+*/
+
+
+//  RESOURCE IDENTIFIER
+NAME    AWIZ // 4 letter ID
+
+//  INCLUDES
+
+#include <eikon.rh>
+#include "cdlexplorer.hrh"
+#include <avkon.rsg>
+#include <avkon.rh>
+#include <avkon.mbg>
+#include <appinfo.rh>
+
+//  CONSTANTS  
+//#define ?constant   ?value
+
+
+//  MACROS  
+//#define ?macro
+
+
+//  RESOURCE DEFINITIONS 
+
+RESOURCE RSS_SIGNATURE { }
+
+RESOURCE TBUF { buf="CdlExplorer"; }
+
+RESOURCE EIK_APP_INFO
+    {
+    hotkeys=r_cdlexplorer_hotkeys;
+    menubar=r_cdlexplorer_menubar;
+    cba=R_AVKON_SOFTKEYS_OPTIONS_BACK;     
+    }
+
+//----------------------------------------------------
+//   
+//    r_cdlexplorer_hotkeys
+//    ?description
+//
+//----------------------------------------------------
+//
+RESOURCE HOTKEYS r_cdlexplorer_hotkeys
+    {
+    control=
+        {
+        HOTKEY { command=EAknCmdExit; key='e'; }
+        };
+    }
+
+//----------------------------------------------------
+//   
+//    r_cdlexplorer_menubar
+//    ?description
+//
+//----------------------------------------------------
+//
+RESOURCE MENU_BAR r_cdlexplorer_menubar
+    {
+    titles=
+        {
+        MENU_TITLE { menu_pane=r_cdlexplorer_menu; txt="File"; }
+        };
+    }
+
+//----------------------------------------------------
+//   
+//    r_cdlexplorer_menu
+//    ?description
+//
+//----------------------------------------------------
+//
+RESOURCE MENU_PANE r_cdlexplorer_menu
+    {
+    items=
+        {
+        MENU_ITEM { command=ECdlExplorerCmdAppOpen; txt="Open"; },
+        MENU_ITEM { command=ECdlExplorerCmdAppProperties; txt="Properties"; },
+		MENU_ITEM { txt="View"; cascade=r_cdlexplorer_view_menu;},
+		MENU_ITEM { command=ECdlExplorerCmdAppApply; txt="Apply"; cascade=r_cdlexplorer_apply_menu;},
+        MENU_ITEM { command=EAknCmdExit; txt="Exit"; }
+        };
+    }
+
+RESOURCE MENU_PANE r_cdlexplorer_view_menu
+    {
+    items=
+        {
+        MENU_ITEM { command=ECdlExplorerCmdAppDllView; txt="By DLL"; },
+        MENU_ITEM { command=ECdlExplorerCmdAppUserPackageView; txt="By user package"; },
+        MENU_ITEM { command=ECdlExplorerCmdAppInterfaceView; txt="By interface"; },
+        MENU_ITEM { command=ECdlExplorerCmdAppGlobalCustsView; txt="Global state"; }
+        };
+    }
+
+RESOURCE MENU_PANE r_cdlexplorer_apply_menu
+    {
+    items=
+        {
+        MENU_ITEM { command=ECdlExplorerCmdAppApplyStandAlone; txt="Stand alone"; },
+        MENU_ITEM { command=ECdlExplorerCmdAppApplyLayer; txt="Layer"; }
+        };
+    }
+
+RESOURCE DIALOG r_properties_message_query
+{
+    flags = EGeneralQueryFlags | EEikDialogFlagNoBorder | EEikDialogFlagNoShadow;
+    buttons = R_AVKON_SOFTKEYS_OK_CANCEL;
+    items=
+    {
+        DLG_LINE
+        {
+            type = EAknCtPopupHeadingPane;
+            id = EAknMessageQueryHeaderId;
+            control = AVKON_HEADING
+            {
+                label = "Properties";
+                headinglayout = R_AVKON_WML_SIGN_QUERY_HEADING_PANE;
+            };
+        },
+        DLG_LINE
+        {
+            type = EAknCtMessageQuery;
+            id = EAknMessageQueryContentId;
+            control = AVKON_MESSAGE_QUERY
+            {
+                message = "a";
+            };
+        }
+    };
+}
+
+RESOURCE LOCALISABLE_APP_INFO r_localisable_app_info
+{
+    short_caption = "CdlExplorer";
+    caption_and_icon = CAPTION_AND_ICON_INFO
+    {
+        caption = "CdlExplorer";
+    };
+}
+            
+// End of File

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="43.939" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 43.939 43.945" height="43.945" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <radialGradient gradientTransform="matrix(1 0 0 1 0.2754 -799.166)" gradientUnits="userSpaceOnUse" xlink:type="simple" r="42.2789" xlink:actuate="onLoad" cx="16.1653" id="XMLID_2_" cy="798.5662" xlink:show="other">
+        <stop stop-color="#e6eef4" offset="0"/>
+        <stop stop-color="#c6dcc1" offset="0.08"/>
+        <stop stop-color="#91c06f" offset="0.21"/>
+        <stop stop-color="#47b821" offset="0.32"/>
+        <stop stop-color="#47bf0e" offset="0.4"/>
+        <stop stop-color="#4ac40d" offset="0.44"/>
+        <stop stop-color="#47a619" offset="0.56"/>
+        <stop stop-color="#22663b" offset="0.75"/>
+        <stop stop-color="#135550" offset="0.9"/>
+        <stop stop-color="#0e4e58" offset="1"/>
+    </radialGradient>
+    <path fill="url(#XMLID_2_)" d="M 35.772 11.706 C 34.893 10.387 33.846 9.583 33.137 9.041 C 31.11 7.492 22.91 5.874 14.435 14.351 C 9.293 19.504 7.847 24.53 7.847 28.131 C 7.847 30.459 8.451 32.195 9.05 32.985 C 9.681 33.8 10.46 34.821 11.79 35.705 C 12.185 35.967003 12.864 36.201 13.601 36.333 L 13.769 36.342 C 15.101 36.257 16.57 35.235 18.533 33.02 C 19.179 32.29 21.285002 29.77 21.285002 28.001 C 21.285002 28.001 21.275002 27.789 21.273005 27.74 C 21.255005 27.698 21.242002 27.654 21.242002 27.654 C 21.221004 27.584 20.994003 26.937 19.982002 26.138 C 19.355 25.638998 18.421 25.284998 17.209002 25.088 L 16.633001 24.996 L 16.639002 24.412 C 16.662003 21.491 21.575 16.580002 24.483002 16.566 L 25.063002 16.564 L 25.159002 17.139 C 25.352003 18.349 25.704002 19.285 26.206003 19.917 C 26.944004 20.85 27.571005 21.122 27.884005 21.213 C 29.068005 21.326 31.007002 20.296 33.079002 18.463 C 35.294003 16.507 36.319004 15.032999 36.405003 13.681999 C 36.405003 13.681999 36.409004 13.639999 36.411003 13.598 C 36.405003 13.559 36.401005 13.523 36.401005 13.523 C 36.325 13.094 36.118 12.227 35.772 11.706 z "/>
+</svg>

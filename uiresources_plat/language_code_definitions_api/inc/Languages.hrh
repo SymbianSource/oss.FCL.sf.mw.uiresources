@@ -1,0 +1,38 @@
+/*
+* Copyright (c) 2002 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description: 
+*       This file contains new language definitions for Series 60.
+*
+*/
+
+#ifndef __LANGUAGES_HRH__
+#define __LANGUAGES_HRH__
+
+// Series 60 added language codes
+
+#define KLangApacEnglish        129
+#define KLangTaiwanEnglish      157
+#define KLangHongKongEnglish    158
+#define KLangPrcEnglish         159
+#define KLangJapaneseEnglish    160
+#define KLangThaiEnglish        161
+#define KLangApacMalay          326
+#define KLangBasque             102
+#define KLangGalician           103
+#define KLangApacIndonesian     327
+#define KLangIndicEnglish       230
+
+#endif // __LANGUAGES_HRH__
+
+// End of File

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="40" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 40 50" height="50" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect width="40" fill="none" height="50"/>
+        <g>
+            <linearGradient x1="40.1387" gradientTransform="matrix(1 0 0 -1 0.1377 48.834)" y1="23.8345" x2="5.5012" gradientUnits="userSpaceOnUse" y2="23.8345" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+                <stop stop-color="#e3ecf5" offset="0"/>
+                <stop stop-color="#e3ecf5" offset="0.0165"/>
+                <stop stop-color="#f9fcff" offset="1"/>
+            </linearGradient>
+            <path fill="url(#XMLID_4_)" d="M 38.199 49.5 L 1.801 49.5 C 1.082 49.5 0.5 48.788 0.5 47.909 L 0.542 2.09 C 0.542 1.2119999 1.1229999 0.49999988 1.842 0.49999988 L 31.701 0.49999988 C 32.417 0.49999988 33.001 1.2119999 33.001 2.09 L 39.5 47.909 C 39.5 48.788 38.916 49.5 38.199 49.5 L 38.199 49.5 z "/>
+            <linearGradient x1="-1640.8047" gradientTransform="matrix(0.3186 0 0 0.3186 560.9594 1063.1125)" y1="-3258.3574" x2="-1755.0498" gradientUnits="userSpaceOnUse" y2="-3258.3574" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_5_" xlink:show="other">
+                <stop stop-color="#e1ebf4" offset="0"/>
+                <stop stop-color="#f9fcff" offset="1"/>
+            </linearGradient>
+            <polygon fill="url(#XMLID_5_)" points="1.842,2.09 31.701,2.09 38.199,47.909 1.801,47.909   "/>
+            <linearGradient x1="89.1074" y1="24.9995" x2="-3.876" gradientUnits="userSpaceOnUse" y2="24.9995" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+                <stop stop-color="#ffa29e" offset="0"/>
+                <stop stop-color="#ffc9c9" offset="0.0056"/>
+                <stop stop-color="#fff5f5" offset="1"/>
+            </linearGradient>
+            <path fill="url(#XMLID_6_)" d="M 38.666 50.0 L 1.334 50.0 C 0.597 50.0 0.0 49.273 0.0 48.377 L 0.043 1.622 C 0.043 0.727 0.639 0.0 1.376 0.0 L 32.001 0.0 C 32.734 0.0 33.335 0.727 33.335 1.622 L 40.0 48.377 C 40.0 49.273 39.4 50.0 38.666 50.0 L 38.666 50.0 z "/>
+            <path fill="#ffffff" d="M 38.666 50.0 L 1.334 50.0 C 0.597 50.0 0.0 49.273 0.0 48.377 L 0.043 1.622 C 0.043 0.727 0.639 0.0 1.376 0.0 L 32.001 0.0 C 32.734 0.0 33.335 0.727 33.335 1.622 L 40.0 48.377 C 40.0 49.273 39.4 50.0 38.666 50.0 L 38.666 50.0 z " fill-opacity="0.7" stroke-opacity="0.7"/>
+        </g>
+    </g>
+</svg>

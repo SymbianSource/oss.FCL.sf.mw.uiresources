@@ -1,0 +1,32 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+#ifndef __AKNLAYOUT2_HVGA_TOUCH_IBY__
+#define __AKNLAYOUT2_HVGA_TOUCH_IBY__
+
+REM AKNLAYOUT2_HVGA_TOUCH
+
+#include "AknLayout2_common.iby"
+
+#if defined(__LAYOUT_320_480_TOUCH) || defined(__LAYOUT_480_320_TOUCH)
+
+ECOM_PLUGIN(10281f15.dll,10281f15.rsc)
+data=DATAZ_\resource\cdl\10281f15_cdl_detail.rsc		Resource\Cdl\10281f15_cdl_detail.rsc
+
+#endif
+
+#endif

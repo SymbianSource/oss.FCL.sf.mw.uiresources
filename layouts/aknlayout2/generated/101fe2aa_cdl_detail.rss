@@ -1,0 +1,51 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+#include <CdlEcom.rh>
+#include <CdlEcom.hrh>
+
+#include "adaptation_layer_aknlayout_elaf.hrh"
+#include "adaptation_layer_aknapaclayout.hrh"
+#include "adaptation_layer_applayout_elaf.hrh"
+#include "adaptation_layer_appapaclayout.hrh"
+#include "adaptation_layer_skinlayout.hrh"
+#include "layoutmetadata_defaults.hrh"
+#include "layoutmetadata_scrollbar.hrh"
+#include "layoutmetadata_land.hrh"
+#include "layoutmetadata_apac.hrh"
+#include "layoutmetadata_abrw.hrh"
+#include "layoutmetadata_pensupport.hrh"
+#include "layoutmetadata_liststretching.hrh"
+#include "layoutmetadata_msk.hrh"
+#include "layoutmetadata_touchpane.hrh"
+
+CDL_ECOM_REG_DETAIL_START
+	CDL_ECOM_DETAIL_IMPL(Adaptation_Layer_AknLayout_Elaf)
+,	CDL_ECOM_DETAIL_IMPL(Adaptation_Layer_AknApacLayout)
+,	CDL_ECOM_DETAIL_IMPL(Adaptation_Layer_AppLayout_Elaf)
+,	CDL_ECOM_DETAIL_IMPL(Adaptation_Layer_AppApacLayout)
+,	CDL_ECOM_DETAIL_IMPL(Adaptation_Layer_SkinLayout)
+,	CDL_ECOM_DETAIL_IMPL(LayoutMetaData_defaults)
+,	CDL_ECOM_DETAIL_IMPL(LayoutMetaData_scrollbar)
+,	CDL_ECOM_DETAIL_IMPL(LayoutMetaData_land)
+,	CDL_ECOM_DETAIL_IMPL(LayoutMetaData_APAC)
+,	CDL_ECOM_DETAIL_IMPL(LayoutMetaData_abrw)
+,	CDL_ECOM_DETAIL_IMPL(LayoutMetaData_pensupport)
+,	CDL_ECOM_DETAIL_IMPL(LayoutMetaData_liststretching)
+,	CDL_ECOM_DETAIL_IMPL(LayoutMetaData_MSK)
+,	CDL_ECOM_DETAIL_IMPL(LayoutMetaData_touchpane)
+CDL_ECOM_REG_DETAIL_END

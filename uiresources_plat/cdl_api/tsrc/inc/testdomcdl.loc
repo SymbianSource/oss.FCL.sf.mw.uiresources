@@ -1,0 +1,44 @@
+/*
+* Copyright (c) 2002 - 2007 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  loc file
+*
+*/
+
+
+//  LOCALISATION STRINGS
+
+// Caption
+#define qtn_apps_tavl_list                  "DOMTESTCdl"
+#define qtn_apps_tavl_grid                  "DOMTESTCdl"
+
+// MenuBar
+#define qtn_domtestcdl_menubar              "Option"
+#define qtn_domtestcdl_cba_next             "Next"
+#define qtn_domtestcdl_autotest             "Autotest"
+#define qtn_domtestcdl_menu_exit            "Exit"
+
+// softkey
+#define text_softkey_option                 "Options"
+
+// outline 
+#define qtn_domtestcdl_outline1             "Outline01"
+#define string_r_domtest_text               "domtest"
+#define qtn_localization_filename           "\\resource\\app\\domtestcdl"
+#define qtn_apps_name                       "DOMTestDomCdl"
+#define qtn_apps_buf                        "DOMTestDomCdl"
+#define qtn_group_name                      "DOMTest"
+
+// End of File
+
+

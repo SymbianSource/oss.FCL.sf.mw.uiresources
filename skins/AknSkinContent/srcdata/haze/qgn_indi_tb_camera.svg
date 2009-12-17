@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="44px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 44 44" height="44px" x="0px" y="0px">
+    <g>
+        <linearGradient x1="22.0015" y1="10.563" x2="22.0015" gradientUnits="userSpaceOnUse" y2="35.9028" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#ffffff" offset="1"/>
+        </linearGradient>
+        <path fill="url(#SVGID_1_)" d="M 22.004 19.049 C 18.504 19.049 15.674 21.881 15.674 25.376 C 15.674 28.872 18.504 31.702 22.004 31.702 C 25.496 31.702 28.33 28.872 28.33 25.376 C 28.33 21.881 25.496 19.049 22.004 19.049 z M 22.004 29.598 C 19.668 29.598 17.785 27.708 17.785 25.376 C 17.785 23.045 19.668 21.158 22.004 21.158 C 24.332 21.158 26.223 23.044998 26.223 25.376 C 26.223 27.708 24.336 29.598 22.004 29.598 z "/>
+        <linearGradient x1="12.5122" y1="10.5635" x2="12.5122" gradientUnits="userSpaceOnUse" y2="35.9023" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_2_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#ffffff" offset="1"/>
+        </linearGradient>
+        <rect x="11.457" width="2.111" fill="url(#SVGID_2_)" y="19.049" height="2.109"/>
+        <linearGradient x1="22.0015" y1="10.5635" x2="22.0015" gradientUnits="userSpaceOnUse" y2="35.8784" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_3_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#ffffff" offset="1"/>
+        </linearGradient>
+        <path fill="url(#SVGID_3_)" d="M 34.721 14.83 L 34.721 10.608999 L 26.283 10.608999 L 26.283 14.83 L 7.236 14.83 L 7.236 35.924 L 36.768 35.924 L 36.768 14.83 L 34.721 14.83 z M 28.395 12.723 L 32.614 12.723 L 32.614 14.83 L 28.395 14.83 L 28.395 12.723 z M 34.613 33.824 L 9.414 33.824 L 9.414 16.924002 L 34.613 16.924002 L 34.613 33.824 z "/>
+        <rect width="44" fill="none" height="44"/>
+    </g>
+</svg>

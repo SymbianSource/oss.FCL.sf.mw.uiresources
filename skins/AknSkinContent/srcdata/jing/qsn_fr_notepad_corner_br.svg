@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="12" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 12 18" height="18" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <rect width="6" fill="url(#XMLID_2_)" height="4" fill-opacity="0.6" stroke-opacity="0.6"/>
+        <rect width="12" fill="none" height="18"/>
+        <polygon fill="#ff4747" fill-opacity="0.4" stroke-opacity="0.4" points="6,4 0,4 0,7 0,7 9,7 9,0 6,0  "/>
+        <defs>
+            <linearGradient x1="3" y1="-0.1406" x2="3" gradientUnits="userSpaceOnUse" y2="-248.1406" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+                <stop stop-color="#ffffff" offset="0"/>
+                <stop stop-color="#ffbebe" offset="1"/>
+            </linearGradient>
+        </defs>
+    </g>
+</svg>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="88px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 88 88" height="88px" x="0px" y="0px">
+    <g>
+        <rect width="88" fill="none" height="88"/>
+        <g>
+            <linearGradient x1="7.2368" y1="17.895" x2="54.8997" gradientUnits="userSpaceOnUse" y2="92.0602" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+                <stop stop-color="#e8ffff" offset="0"/>
+                <stop stop-color="#747f7f" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_1_)" d="M 44.0 86.593 C 32.257 86.593 21.609 81.816 13.898001 74.104004 L 12.902 75.09901 C 20.869 83.066 31.869 88.0 44.0 88.0 C 56.131 88.0 67.131 83.066 75.098 75.099 L 74.103 74.103 C 66.391 81.816 55.743 86.593 44.0 86.593 z " fill-opacity="0.13" stroke-opacity="0.13"/>
+            <linearGradient x1="-7.8325" y1="22.2705" x2="68.2577" gradientUnits="userSpaceOnUse" y2="98.3608" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_2_" xlink:show="other">
+                <stop stop-color="#e8ffff" offset="0"/>
+                <stop stop-color="#747f7f" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_2_)" d="M 44.0 85.184 C 32.646 85.184 22.35 80.565994 14.893 73.108 L 13.896999 74.104004 C 21.609 81.816 32.257 86.593 44.0 86.593 C 55.743 86.593 66.391 81.816 74.104004 74.103004 L 73.108 73.108 C 65.651 80.566 55.355 85.184 44.0 85.184 z " fill-opacity="0.33" stroke-opacity="0.33"/>
+            <linearGradient x1="-9.23" y1="15.998" x2="60.6469" gradientUnits="userSpaceOnUse" y2="90.9681" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_3_" xlink:show="other">
+                <stop stop-color="#e8ffff" offset="0"/>
+                <stop stop-color="#747f7f" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_3_)" d="M 44.0 80.96 C 33.794 80.96 24.554 76.823 17.865 70.135 L 14.893 73.108 C 22.35 80.566 32.646 85.184 44.0 85.184 C 55.355 85.184 65.651 80.565994 73.108 73.108 L 70.135 70.135 C 63.447 76.824 54.207 80.96 44.0 80.96 z " fill-opacity="0.33" stroke-opacity="0.33"/>
+            <linearGradient x1="-9.9775" y1="16.1577" x2="47.1073" gradientUnits="userSpaceOnUse" y2="73.2424" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_4_" xlink:show="other">
+                <stop stop-color="#e8ffff" offset="0"/>
+                <stop stop-color="#747f7f" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_4_)" d="M 44.0 62.382 C 38.924 62.382 34.328 60.325 31.001999 56.999 L 17.865 70.135 C 24.554 76.824 33.794 80.96 44.0 80.96 C 54.207 80.96 63.447 76.823 70.135 70.135 L 56.998 56.999 C 53.671 60.325 49.076 62.382 44.0 62.382 z "/>
+        </g>
+        <linearGradient x1="-17.0088" y1="12.3921" x2="63.768" gradientUnits="userSpaceOnUse" y2="93.1686" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_5_" xlink:show="other">
+            <stop stop-color="#e8ffff" offset="0"/>
+            <stop stop-color="#747f7f" offset="1"/>
+        </linearGradient>
+        <path fill="url(#SVGID_5_)" d="M 31.487 57.462 L 15.549 73.4 C 22.839 80.689 32.902 85.203 44.0 85.203 C 55.097 85.203 65.160995 80.689 72.448 73.4 L 56.511 57.462 C 53.229 60.513 48.834 62.382004 43.999 62.382004 C 39.165 62.382 34.769 60.513 31.487 57.462 z "/>
+        <linearGradient x1="-3.3989" y1="29.1377" x2="129.189" gradientUnits="userSpaceOnUse" y2="151.2582" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_6_" xlink:show="other">
+            <stop stop-color="#e8ffff" offset="0"/>
+            <stop stop-color="#747f7f" offset="1"/>
+        </linearGradient>
+        <path fill="url(#SVGID_6_)" d="M 31.959 57.885 L 16.448 73.397 C 23.887 80.606 33.645 84.57 44.0 84.57 C 54.354 84.57 64.112 80.606 71.548996 73.397 L 56.038 57.885 C 52.811996 60.684 48.605 62.382 43.999 62.382 C 39.393 62.382 35.186 60.685 31.959 57.885 z "/>
+        <polygon fill="#ffffff" points="37.72,71.561 50.278,71.561 44,77.84  "/>
+    </g>
+</svg>

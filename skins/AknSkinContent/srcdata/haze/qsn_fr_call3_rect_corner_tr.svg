@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="24" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-0.5 -0.5 24 24" height="24" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <path fill="#656b6b" d="M 21.5 23.5 L 21.5 11.5 C 21.5 4.883 16.117 -0.5 9.5 -0.5 L -0.5 -0.5 L -0.5 23.5 L 21.5 23.5 z " fill-opacity="0.01"/>
+    <path fill="#656b6b" d="M 20.5 23.5 L 20.5 11.5 C 20.5 5.436 15.566 0.5 9.5 0.5 L -0.5 0.5 L -0.5 23.5 L 20.5 23.5 z " fill-opacity="0.02"/>
+    <path fill="#656b6b" d="M 19.5 23.5 L 19.5 11.5 C 19.5 5.986 15.014 1.5 9.5 1.5 L -0.5 1.5 L -0.5 23.5 L 19.5 23.5 z " fill-opacity="0.03"/>
+    <path fill="#656b6b" d="M 18.5 23.5 L 18.5 11.5 C 18.5 6.537 14.462999 2.5 9.5 2.5 L -0.5 2.5 L -0.5 23.5 L 18.5 23.5 z " fill-opacity="0.06"/>
+    <path fill="#656b6b" d="M 17.5 23.5 L 17.5 11.5 C 17.5 7.09 13.912 3.5 9.5 3.5 L -0.5 3.5 L -0.5 23.5 L 17.5 23.5 z " fill-opacity="0.05"/>
+    <path fill="#656b6b" d="M 16.5 23.5 L 16.5 11.5 C 16.5 7.641 13.359 4.5 9.5 4.5 L -0.5 4.5 L -0.5 23.5 L 16.5 23.5 z " fill-opacity="0.1"/>
+    <path fill="#656b6b" d="M 15.5 23.5 L 15.5 11.5 C 15.5 8.191 12.809 5.5 9.5 5.5 L -0.5 5.5 L -0.5 23.5 L 15.5 23.5 z " fill-opacity="0.1"/>
+    <path fill="#656b6b" d="M 14.5 23.5 L 14.5 11.5 C 14.5 8.738 12.262 6.5 9.5 6.5 L -0.5 6.5 L -0.5 23.5 L 14.5 23.5 z " fill-opacity="0.1"/>
+    <polygon fill="#656b6b" fill-opacity="0.05" points="14.5,23.5 14.5,2.5 13.5,2.5 -0.5,2.5 -0.5,23.5 "/>
+    <rect x="-0.5" width="14" fill="#52a1a4" y="3.5" height="20"/>
+</svg>

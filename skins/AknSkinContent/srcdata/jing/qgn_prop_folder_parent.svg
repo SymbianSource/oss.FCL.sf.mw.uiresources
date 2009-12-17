@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="88" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 88 88" height="88" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <rect width="88" fill="none" height="88"/>
+    <path fill="#ffffff" d="M 40.195 12.758 L 35.466 14.229 C 35.466 14.229 32.37 24.534 32.05 25.601 C 30.991 25.418 23.598 24.151 23.598 24.151 L 15.808 26.995998 L 22.881 57.2 L 64.963 70.146 L 79.793 24.696005 C 79.793 24.696005 61.205 21.890003 60.045 21.717005 C 60.081997 20.709003 60.279 15.627003 60.279 15.627003 L 40.347 12.707003 L 40.195 12.758 z "/>
+    <polygon fill="#cd9f3d" points="23.609,56.738 35.967,14.777 56.066,18.003 55.922,24.229 74.781,27.391 64.507,68.961 "/>
+    <linearGradient x1="-46.6548" gradientTransform="matrix(1.1364 0 0 1.1364 104.9048 -1564.2681)" y1="1425.6504" x2="-79.5311" gradientUnits="userSpaceOnUse" y2="1397.8091" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_7_" xlink:show="other">
+        <stop stop-color="#f1de84" offset="0"/>
+        <stop stop-color="#b0381e" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#XMLID_7_)" points="64.508,68.566 23.408,56.719 16.631,27.439 57.546,35.639 "/>
+    <linearGradient x1="21.3057" y1="26.2534" x2="51.2246" gradientUnits="userSpaceOnUse" y2="31.9595" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_8_" xlink:show="other">
+        <stop stop-color="#f1de84" offset="0"/>
+        <stop stop-color="#b0381e" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#XMLID_8_)" points="64.469,31.873 23.665,24.873 16.631,27.439 57.652,35.797 "/>
+    <polygon fill="#eacf5a" points="59.557,16.232 40.406,13.427 36.004,14.797 56.066,18.003 "/>
+    <polygon fill="#eacf5a" points="78.871,25.267 59.32,22.318 55.922,24.229 74.781,27.391 "/>
+    <polygon fill="#3e2a08" points="64.469,31.873 64.512,69.279 57.547,35.854 "/>
+    <polygon fill="#704d18" points="78.871,25.267 64.525,69.025 74.781,27.391 "/>
+    <polygon fill="#704d18" points="56.066,18.003 55.922,24.229 59.32,22.318 59.557,16.232 "/>
+    <linearGradient x1="-62.2783" gradientTransform="matrix(1.1364 0 0 -1.1364 104.9048 -607.1548)" y1="-590.6714" x2="-32.3606" gradientUnits="userSpaceOnUse" y2="-559.5802" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_9_" xlink:show="other">
+        <stop stop-color="#f1de84" offset="0"/>
+        <stop stop-color="#b0381e" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#XMLID_9_)" points="23.609,56.738 31.348,30.449 57.604,35.847 64.525,69.025 "/>
+    <linearGradient x1="19.3535" gradientTransform="matrix(1 0 0 1 0.2754 -757.1104)" y1="798.2881" x2="19.3535" gradientUnits="userSpaceOnUse" y2="828.2881" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_10_" xlink:show="other">
+        <stop stop-color="#b0381e" offset="0"/>
+        <stop stop-color="#5c1001" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_10_)" d="M 22.277 68.135 L 22.277 56.16 L 27.326 61.424 L 31.176 57.574 L 19.628 46.027 L 8.082 57.577 L 11.93 61.424 L 16.835 56.16 L 16.837002 73.578 L 30.986002 73.578 L 30.986002 68.137 L 22.277 68.135 z "/>
+    <linearGradient x1="35.6108" gradientTransform="matrix(1 0 0 1 0.2754 -757.1104)" y1="798.2822" x2="35.6108" gradientUnits="userSpaceOnUse" y2="828.2876" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_11_" xlink:show="other">
+        <stop stop-color="#b0381e" offset="0"/>
+        <stop stop-color="#5c1001" offset="1"/>
+    </linearGradient>
+    <rect x="33.709" width="4.354" fill="url(#XMLID_11_)" y="68.135" height="5.443"/>
+    <linearGradient x1="43.231" gradientTransform="matrix(1 0 0 1 0.2754 -757.1104)" y1="798.2822" x2="43.231" gradientUnits="userSpaceOnUse" y2="828.2876" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_12_" xlink:show="other">
+        <stop stop-color="#b0381e" offset="0"/>
+        <stop stop-color="#5c1001" offset="1"/>
+    </linearGradient>
+    <rect x="41.329" width="4.354" fill="url(#XMLID_12_)" y="68.135" height="5.443"/>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="172.914" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-228.36 -59.663 172.914 14.173" height="14.173" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <rect x="-228.36" y="-46.199" fill-opacity="0.4" fill="#840000" width="172.914" height="0.709" stroke-opacity="0.4"/>
+    <rect x="-228.36" width="172.914" fill="#f6a2a0" y="-46.907" height="0.708"/>
+    <rect x="-228.36" width="172.914" fill="#f6a2a0" y="-59.663" height="12.756"/>
+    <linearGradient x1="-141.9038" y1="-96.5137" x2="-141.9038" gradientUnits="userSpaceOnUse" y2="70.7305" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+        <stop stop-color="#fff5f5" offset="0"/>
+        <stop stop-color="#ffa29e" offset="1"/>
+    </linearGradient>
+    <rect x="-228.36" width="172.914" fill="url(#XMLID_2_)" y="-59.663" height="12.756"/>
+</svg>

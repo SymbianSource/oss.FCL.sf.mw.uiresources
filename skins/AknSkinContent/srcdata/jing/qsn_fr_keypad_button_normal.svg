@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="40px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" height="40px" x="0px" y="0px">
+    <path fill="#7a3131" d="M 0.0 40.499 C -0.134 40.499 -0.26 40.447002 -0.354 40.353 L -0.354 40.353 C -0.449 40.258 -0.5 40.133 -0.5 39.999 L -0.5 39.999 L -0.5 0.0 C -0.5 -0.132 -0.447 -0.262 -0.354 -0.354 L -0.354 -0.354 C -0.262 -0.447 -0.132 -0.5 0.0 -0.5 L 0.0 -0.5 L 39.999 -0.5 C 40.133 -0.5 40.258 -0.449 40.353 -0.354 L 40.353 -0.354 C 40.448 -0.26 40.499 -0.134 40.499 0.0 L 40.499 0.0 L 40.499 39.999 C 40.499 40.133 40.445 40.258 40.353 40.353 L 40.353 40.353 C 40.256 40.445 40.131 40.499 39.999 40.499 L 39.999 40.499 L 0.0 40.499 L 0.0 40.499 z "/>
+    <linearGradient x1="19.9995" y1="40.9727" x2="19.9995" gradientUnits="userSpaceOnUse" y2="4.3237" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+        <stop stop-color="#ff8f8f" offset="0"/>
+        <stop stop-color="#ffd6d6" offset="1"/>
+    </linearGradient>
+    <polyline fill="url(#SVGID_1_)" points="39.498,0.499 0.499,0.499 0.499,39.5 0.499,39.5 39.5,39.5 "/>
+    <linearGradient x1="19.9995" y1="34.8271" x2="19.9995" gradientUnits="userSpaceOnUse" y2="0.6284" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_2_" xlink:show="other">
+        <stop stop-color="#ffc9c9" offset="0"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <rect x="1.527" y="1.675" fill-opacity="0.5" fill="url(#SVGID_2_)" width="36.943" height="14.57" stroke-opacity="0.5"/>
+</svg>

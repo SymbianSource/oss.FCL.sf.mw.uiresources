@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="58" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-51 1 58 58" height="58" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <g>
+                <rect x="-51" width="58" fill="none" y="1" height="58"/>
+                <g>
+                    <path d="M -49.206 29.034 C -49.206 43.501 -37.434002 55.271 -22.967001 55.271 C -8.498001 55.271 3.271 43.5 3.271 29.034 C 3.271 14.566 -8.499001 2.7959995 -22.967001 2.7959995 C -37.434 2.796 -49.206 14.566 -49.206 29.034 z " fill-opacity="0.01"/>
+                    <path d="M -48.061 29.034 C -48.061 42.870003 -36.805 54.126 -22.967001 54.126 C -9.128001 54.126 2.1289997 42.87 2.1289997 29.034 C 2.1289997 15.198 -9.128 3.9430008 -22.967001 3.9430008 C -36.805 3.943 -48.061 15.198 -48.061 29.034 z " fill-opacity="0.02"/>
+                    <path d="M -46.917 29.034 C -46.917 42.236 -36.172 52.98 -22.967 52.98 C -9.758999 52.98 0.98000145 42.236 0.98000145 29.034 C 0.98000145 15.826 -9.759998 5.087 -22.967 5.087 C -36.171 5.087 -46.917 15.826 -46.917 29.034 z " fill-opacity="0.04"/>
+                    <path d="M -45.95 29.034 C -45.95 41.707 -35.64 52.012 -22.967001 52.012 C -10.298001 52.012 0.01099968 41.707 0.01099968 29.034 C 0.01099968 16.363 -10.298 6.054001 -22.967001 6.054001 C -35.641 6.054 -45.95 16.363 -45.95 29.034 z " fill-opacity="0.07"/>
+                </g>
+                <path fill="#5fe5ff" d="M -22.0 7.097 C -34.631 7.097 -44.908 17.37 -44.908 30.0 C -44.908 42.628998 -34.631 52.902 -22.0 52.902 C -9.37 52.902 0.907 42.629 0.907 30.0 C 0.907 17.37 -9.37 7.097 -22.0 7.097 z "/>
+                <linearGradient x1="-716.626" gradientTransform="matrix(1 0 0 -1 694.626 1053.9688)" y1="1049.6006" x2="-716.626" gradientUnits="userSpaceOnUse" y2="1003.0386" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+                    <stop stop-color="#000000" offset="0"/>
+                    <stop stop-color="#000000" offset="0.3933"/>
+                    <stop stop-color="#52a2a5" offset="0.9944"/>
+                    <stop stop-color="#52a2a5" offset="1"/>
+                </linearGradient>
+                <path fill="url(#XMLID_4_)" d="M -22.0 8.971 C -33.6 8.971 -43.033 18.407 -43.033 30.002998 C -43.033 41.596 -33.599 51.027 -22.0 51.027 C -10.402 51.027 -0.9680004 41.595 -0.9680004 30.003 C -0.968 18.406 -10.402 8.971 -22.0 8.971 z "/>
+                <linearGradient x1="-716.624" gradientTransform="matrix(1 0 0 -1 694.626 1053.9688)" y1="1004.4102" x2="-716.624" gradientUnits="userSpaceOnUse" y2="1048.8171" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_5_" xlink:show="other">
+                    <stop stop-color="#000000" offset="0"/>
+                    <stop stop-color="#000000" offset="0.3933"/>
+                    <stop stop-color="#52a2a5" offset="0.9944"/>
+                    <stop stop-color="#52a2a5" offset="1"/>
+                </linearGradient>
+                <path fill="url(#XMLID_5_)" d="M -22.0 10.201 C -32.919 10.201 -41.802002 19.083 -41.802002 30.003 C -41.802002 40.917 -32.919003 49.801003 -22.000002 49.801003 C -11.081001 49.801003 -2.1950016 40.917004 -2.1950016 30.003002 C -2.195 19.083 -11.081 10.201 -22.0 10.201 z "/>
+                <linearGradient x1="-21.998" y1="29.209" x2="-21.998" gradientUnits="userSpaceOnUse" y2="57.3086" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+                    <stop stop-color="#ffffff" offset="0"/>
+                    <stop stop-color="#7fd3ff" offset="1"/>
+                </linearGradient>
+                <path fill="url(#XMLID_6_)" d="M -3.341 30.002 C -3.341 40.305 -11.694 48.654 -22.0 48.654 C -32.306 48.654 -40.656 40.304 -40.656 30.001999 C -40.656 19.696999 -32.306 11.341999 -21.999998 11.341999 C -11.693996 11.341999 -3.341 19.697 -3.341 30.002 z "/>
+            </g>
+        </g>
+    </g>
+    <g>
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <rect x="-30.508" width="5.685" fill="#007f21" y="19.47" height="19.329"/>
+                    </g>
+                    <g>
+                        <rect x="-18.981" width="5.684" fill="#007f21" y="19.47" height="19.329"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

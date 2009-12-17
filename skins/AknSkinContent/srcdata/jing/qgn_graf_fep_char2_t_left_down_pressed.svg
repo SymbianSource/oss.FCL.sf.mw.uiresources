@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="40" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 40 50" height="50" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <rect width="40" fill="none" height="50"/>
+    <linearGradient x1="0.5" y1="25" x2="39.5" gradientUnits="userSpaceOnUse" y2="25" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+        <stop stop-color="#cd9f3d" offset="0"/>
+        <stop stop-color="#ad832f" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_6_)" d="M 38.199 49.5 L 1.801 49.5 C 1.082 49.5 0.5 48.788 0.5 47.909 L 0.542 2.09 C 0.542 1.2119999 1.1229999 0.49999988 1.842 0.49999988 L 31.701 0.49999988 C 32.417 0.49999988 33.001 1.2119999 33.001 2.09 L 39.5 47.909 C 39.5 48.788 38.916 49.5 38.199 49.5 L 38.199 49.5 z "/>
+    <path fill="#eacf5a" d="M 39.422 48.434 L 33.012 3.23 L 33.001 3.16 L 33.001 3.09 C 33.001 2.708 32.788998 2.502 32.702 2.502 L 2.842 2.502 C 2.739 2.502 2.543 2.731 2.543 3.09 L 2.5 48.91 C 2.5 49.271 2.698 49.5 2.801 49.5 L 38.198997 49.5 C 38.766 49.5 39.243 49.055 39.422 48.434 z "/>
+</svg>

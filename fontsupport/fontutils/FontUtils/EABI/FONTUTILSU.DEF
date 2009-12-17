@@ -1,0 +1,29 @@
+EXPORTS
+	_ZN10TAknFontId13IsEncodedFontEi @ 1 NONAME
+	_ZN21TAknFontSpecificationC1E16TAknFontCategoryRK9TFontSpecPK18MGraphicsDeviceMap @ 2 NONAME
+	_ZN21TAknFontSpecificationC1Ei @ 3 NONAME
+	_ZN21TAknFontSpecificationC2E16TAknFontCategoryRK9TFontSpecPK18MGraphicsDeviceMap @ 4 NONAME
+	_ZN21TAknFontSpecificationC2Ei @ 5 NONAME
+	_ZNK21TAknFontSpecification12FontCategoryEv @ 6 NONAME
+	_ZNK21TAknFontSpecification14TextPaneHeightEv @ 7 NONAME
+	_ZNK21TAknFontSpecification6WeightEv @ 8 NONAME
+	_ZNK21TAknFontSpecification7PostureEv @ 9 NONAME
+	_ZN31TAknFontProviderSuppliedMetrics15SetExcessAscentEi @ 10 NONAME
+	_ZN31TAknFontProviderSuppliedMetrics16SetExcessDescentEi @ 11 NONAME
+	_ZN31TAknFontProviderSuppliedMetrics29SetMaxDescentToTextPaneBottomEi @ 12 NONAME
+	_ZNK31TAknFontProviderSuppliedMetrics12ExcessAscentEv @ 13 NONAME
+	_ZNK31TAknFontProviderSuppliedMetrics13ExcessDescentEv @ 14 NONAME
+	_ZNK31TAknFontProviderSuppliedMetrics26MaxDescentToTextPaneBottomEv @ 15 NONAME
+	_ZN21TAknFontSpecification10SetPostureE12TFontPosture @ 16 NONAME
+	_ZN21TAknFontSpecification15SetFontCategoryE16TAknFontCategory @ 17 NONAME
+	_ZN21TAknFontSpecification17SetTextPaneHeightEi @ 18 NONAME
+	_ZN21TAknFontSpecification9SetWeightE17TFontStrokeWeight @ 19 NONAME
+	_ZN21TAknFontSpecification21SetExactMatchRequiredEi @ 20 NONAME
+	_ZN21TAknFontSpecification31SetTextPaneHeightIsDesignHeightEi @ 21 NONAME
+	_ZN21TAknFontSpecification8SetUnitsENS_26TAknFontSpecificationUnitsE @ 22 NONAME
+	_ZNK21TAknFontSpecification18ExactMatchRequiredEv @ 23 NONAME
+	_ZNK21TAknFontSpecification22TextPaneIsDesignHeightEv @ 24 NONAME
+	_ZNK21TAknFontSpecification5UnitsEv @ 25 NONAME
+	_ZN10TAknFontId26FontIdForStartupNormalFontEv @ 26 NONAME
+	_ZNK21TAknFontSpecification17IsOutlineEffectOnEv @ 27 NONAME
+

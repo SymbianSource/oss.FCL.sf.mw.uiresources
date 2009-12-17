@@ -1,0 +1,31 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+PRJ_TESTMMPFILES
+
+#include "../../uiresources_plat/cdl_api/tsrc/group/bld.inf"
+#include "../../uiresources_plat/extended_fonts_api/tsrc/group/bld.inf"
+#include "../../uiresources_plat/extended_skins_api/tsrc/group/bld.inf"
+#include "../../uiresources_plat/graphic_configuration_api/tsrc/group/bld.inf"
+#include "../../uiresources_plat/layout_data_api/tsrc/group/bld.inf"
+#include "../../uiresources_plat/layout_system_private_api/tsrc/group/bld.inf"
+#include "../../uiresources_plat/skins_image_attributes_api/tsrc/group/bld.inf"
+
+#include "../../uiresources_pub/font_definition_api/tsrc/group/bld.inf"
+#include "../../uiresources_pub/graphics_api/tsrc/group/bld.inf"
+#include "../../uiresources_pub/pictograph_api/tsrc/group/bld.inf"
+#include "../../uiresources_pub/skins_api/tsrc/group/bld.inf"

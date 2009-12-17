@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sel xmlns="http://www.nokia.com/sel/2.0" baseskin="101f84b9">
+	<fullscreentransitions>
+     	<transition context="1" effect="app_activate_common_hazestyle">
+	    </transition>
+	    <transition context="3" effect="app_start_common_hazestyle">
+	    </transition>
+	    <transition context="5" effect="app_exit_common_hazestyle">
+	    </transition>
+	    <transition context="6" effect="app_start_rect_common_hazestyle">
+	    </transition>
+		  <transition context="7" effect="app_start_switch_common_hazestyle">
+	    </transition>	  
+	    <transition context="8" effect="app_start_switch_rect_common_hazestyle">
+	    </transition>	 
+	    
+            <transition context="12" effect="layout_switch_hazestyle"> 
+	    </transition>
+	    <transition context="13" effect="layout_switch_Exit_hazestyle"> 
+	    </transition>
+	    <transition context="14" effect="layout_switch_Start_hazestyle"> 
+	    </transition>
+
+	  	<transition context="5000" effect="app_activate_common_hazestyle"> 
+	    </transition>
+	    <!-- Appshell custom effects  -->
+	    <transition context="1001" effect="folder_open_hazestyle" uid="0x101F4CD2"> 
+	    </transition>
+	    <transition context="1002" effect="folder_close_hazestyle" uid="0x101F4CD2"> 
+	    </transition>
+	    <transition context="5" effect="appshell_exit_hazestyle" uid="0x101F4CD2"> 
+	    </transition>
+	    <!-- Startup custom exit effect -->
+	    <transition context="5" effect="startup_exit_hazestyle" uid="0x100058F4"> 
+	    </transition>
+	    <!-- Screensaver exit effect -->
+	    <transition context="1001" effect="screensaver_deactivate_hazestyle" uid="0x100056CF">
+	    </transition>    
+	    <!-- Screensaver start effect -->
+	    <transition context="1002" effect="screensaver_activate_hazestyle" uid="0x100056CF">
+	    </transition>    
+	    
+	    <!-- Touch dialer open effect -->
+			<transition context="1505" effect="touch_dialer_open_hazestyle"> 
+	    </transition>	    	    
+	    <!-- Touch dialer close effect -->
+			<transition context="1506" effect="touch_dialer_close_hazestyle"> 
+	    </transition>
+	</fullscreentransitions>
+	
+	
+	<controltransitions>
+		  		  
+		  <transition context_uid="0x10281F88" effect="comp_optionsmenu_main_hazestyle" action="3" actionstring="Appear">
+	    </transition>
+	    
+	   	<transition context_uid="0x10281F88" effect="comp_optionsmenu_main_hazestyle" action="4" actionstring="Disappear">
+	    </transition>
+	    
+	    <transition context_uid="0x10281F89" effect="comp_optionsmenu_main_cascade_hazestyle" action="3" actionstring="Appear">
+	    </transition>
+	    
+	   	<transition context_uid="0x10281F89" effect="comp_optionsmenu_main_cascade_hazestyle" action="4" actionstring="Disappear">
+	    </transition>	
+	        
+	    <transition context_uid="0x10281F90" effect="comp_taskswapper_hazestyle" action="3" actionstring="Appear">
+	    </transition>
+	    
+	    <transition context_uid="0x10281F90" effect="comp_taskswapper_hazestyle" action="4" actionstring="Disappear">
+	    </transition>	    
+	    
+	    <transition context_uid="0x10282E4C" effect="comp_contextmenu_hazestyle" action="3" actionstring="Appear">
+	    </transition>		  
+		  
+		  <transition context_uid="0x10282E4C" effect="comp_contextmenu_hazestyle" action="4" actionstring="Disappear">
+	    </transition>		  
+	        	
+
+      <transition context_uid="0x10282E4D" effect="comp_numberentry_hazestyle" action="3" actionstring="Appear">
+      </transition>
+
+      <transition context_uid="0x10282E4D" effect="comp_numberentry_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+        
+        
+			<transition context_uid="0x10282E4A" effect="comp_toolbar_hazestyle" action="3" actionstring="Appear">
+      </transition>
+
+      <transition context_uid="0x10282E4A" effect="comp_toolbar_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x10282E49" effect="comp_touchtoolbar_hazestyle" action="3" actionstring="Appear">
+      </transition>
+
+      <transition context_uid="0x10282E49" effect="comp_touchtoolbar_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+
+      <transition context_uid="0x10282E50" effect="comp_errornote_hazestyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E50" effect="comp_errornote_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E51" effect="comp_warningnote_hazestyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E51" effect="comp_warningnote_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E52" effect="comp_informationnote_hazestyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E52" effect="comp_informationnote_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E53" effect="comp_confirmationnote_hazestyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E53" effect="comp_confirmationnote_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E54" effect="comp_waitnote_hazestyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E54" effect="comp_waitnote_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E55" effect="comp_popuplist_hazestyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E55" effect="comp_popuplist_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E56" effect="comp_query_hazestyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E56" effect="comp_query_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E57" effect="comp_popup_default_hazestyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E57" effect="comp_popup_default_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x2000B472" effect="comp_systemnotify_hazestyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x2000B472" effect="comp_systemnotify_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x2000B473" effect="comp_systemnotify_battery_hazestyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x2000B473" effect="comp_systemnotify_battery_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x2000B474" effect="comp_sequence_first_hazestyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x2000B474" effect="comp_sequence_first_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x2000B475" effect="comp_sequence_mid_hazestyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x2000B475" effect="comp_sequence_mid_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x2000B476" effect="comp_sequence_last_hazestyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x2000B476" effect="comp_sequence_last_hazestyle" action="4" actionstring="Disappear">
+      </transition>
+    
+      
+	</controltransitions>
+
+	<listtransitions>
+		<transition effect="list_common_background_hazestyle" context="1"/> 
+		<transition effect="list_common_item_hazestyle" context="2"/> 
+
+		<transition uid="0x101F4CD2" effect="list_appshell_background_hazestyle" context="1" type="1"/>
+		<transition uid="0x101F4CD2" effect="list_appshell_item_hazestyle" context="2" type="1"/>
+
+		<transition uid="0x101F4CD2" effect="grid_appshell_background_hazestyle" context="1" type="4"/>
+		<transition uid="0x101F4CD2" effect="grid_appshell_item_hazestyle" context="2" type="4"/>
+
+		<transition effect="optionsmenu_background_hazestyle" context="1" type="2"/>
+		<transition effect="optionsmenu_item_hazestyle" context="2" type="2"/>
+	</listtransitions>
+
+</sel>

@@ -1,0 +1,62 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+// It contains the project definition for a customisation DLL.
+// It may be modified manually.
+#include <platform_paths.hrh>
+
+target           101fe2aa.dll
+targettype		 PLUGIN
+UID 			 0x10009D8D 0x101fe2aa
+CAPABILITY       CAP_ECOM_PLUGIN
+VENDORID         VID_DEFAULT
+
+SOURCEPATH       .
+userinclude      .
+systeminclude    .
+MW_LAYER_SYSTEMINCLUDE
+
+source           layoutinst.cpp
+source           adaptation_layer_aknlayout_elaf.cpp
+source           adaptation_layer_aknapaclayout.cpp
+source           adaptation_layer_applayout_elaf.cpp
+source           adaptation_layer_appapaclayout.cpp
+source           adaptation_layer_skinlayout.cpp
+source           layoutmetadata_defaults.cpp
+source           layoutmetadata_scrollbar.cpp
+source           layoutmetadata_land.cpp
+source           layoutmetadata_apac.cpp
+source           layoutmetadata_abrw.cpp
+source           layoutmetadata_pensupport.cpp
+source           layoutmetadata_liststretching.cpp
+source           layoutmetadata_msk.cpp
+source           layoutmetadata_touchpane.cpp
+
+library          euser.lib
+library          aknlayout2.lib
+library          aknlayout2scalable.lib
+library          aknlayout2adaptation.lib
+library          cdlengine.lib
+
+START RESOURCE	 101fe2aa.rss
+TARGET       101fe2aa.rsc
+END
+START RESOURCE   101fe2aa_cdl_detail.rss
+TARGETPATH       resource/cdl
+END
+
+SOURCE ../DecodeLib/AknLayout2AdaptationDecode.cpp

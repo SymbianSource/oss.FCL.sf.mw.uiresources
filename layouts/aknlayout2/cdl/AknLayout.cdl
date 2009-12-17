@@ -1,0 +1,2040 @@
+// AknLayout.cdl
+
+Name: AknLayout
+Version: 1.0
+UID: 0x101fe1dd
+Flag: KCdlFlagRomOnly
+
+%% C++
+
+#include <aknlayout2def.h>
+
+%% Translation
+
+
+%% API
+
+// LAF Table : Screen dimensions
+TAknWindowLineLayout screen();
+
+// LAF Table : Application window dimensions
+TAknWindowLineLayout application_window(const TRect& aParentRect);
+
+// LAF Table : Application window descendants
+TAknWindowLineLayout status_pane(const TRect& aParentRect, TInt aIndex_H);
+
+TAknWindowLineLayout main_pane(const TRect& aParentRect, TInt aCommon1, TInt aIndex_t, TInt aIndex_b);
+
+TAknWindowLineLayout control_pane(const TRect& aParentRect);
+
+// LAF Table : Status pane descendants
+TAknWindowLineLayout signal_pane(const TRect& aParentRect);
+
+TAknWindowLineLayout context_pane(const TRect& aParentRect, TInt aIndex_W);
+
+TAknWindowLineLayout title_pane(TInt aCommon1);
+
+TAknWindowLineLayout battery_pane(const TRect& aParentRect);
+
+TAknWindowLineLayout uni_indicator_pane(const TRect& aParentRect);
+
+TAknWindowLineLayout navi_pane(TInt aCommon1);
+
+// LAF Table : Status pane elements
+TAknWindowLineLayout Status_pane_elements_Line_1();
+
+TAknWindowLineLayout Status_pane_elements_Line_2();
+
+TAknLayoutTableLimits Status_pane_elements_Limits();
+
+TAknWindowLineLayout Status_pane_elements(TInt aLineIndex);
+
+// LAF Table : Signal pane elements
+TAknWindowLineLayout Signal_pane_elements_Line_1();
+
+TAknWindowLineLayout Signal_pane_elements_Line_2();
+
+TAknLayoutTableLimits Signal_pane_elements_Limits();
+
+TAknWindowLineLayout Signal_pane_elements(TInt aLineIndex);
+
+// LAF Table : Signal strength area values
+TAknWindowLineLayout Signal_strength_area_values_Line_1();
+
+TAknWindowLineLayout Signal_strength_area_values_Line_2();
+
+TAknWindowLineLayout Signal_strength_area_values_Line_3();
+
+TAknWindowLineLayout Signal_strength_area_values_Line_4();
+
+TAknWindowLineLayout Signal_strength_area_values_Line_5();
+
+TAknWindowLineLayout Signal_strength_area_values_Line_6();
+
+TAknWindowLineLayout Signal_strength_area_values_Line_7();
+
+TAknWindowLineLayout Signal_strength_area_values_Line_8();
+
+TAknLayoutTableLimits Signal_strength_area_values_Limits();
+
+TAknWindowLineLayout Signal_strength_area_values(TInt aLineIndex);
+
+// LAF Table : Battery pane elements
+TAknWindowLineLayout Battery_pane_elements_Line_1();
+
+TAknWindowLineLayout Battery_pane_elements_Line_2();
+
+TAknLayoutTableLimits Battery_pane_elements_Limits();
+
+TAknWindowLineLayout Battery_pane_elements(TInt aLineIndex);
+
+// LAF Table : Battery strength area values
+TAknWindowLineLayout Battery_strength_area_values_Line_1();
+
+TAknWindowLineLayout Battery_strength_area_values_Line_2();
+
+TAknWindowLineLayout Battery_strength_area_values_Line_3();
+
+TAknWindowLineLayout Battery_strength_area_values_Line_4();
+
+TAknWindowLineLayout Battery_strength_area_values_Line_5();
+
+TAknWindowLineLayout Battery_strength_area_values_Line_6();
+
+TAknWindowLineLayout Battery_strength_area_values_Line_7();
+
+TAknWindowLineLayout Battery_strength_area_values_Line_8();
+
+TAknLayoutTableLimits Battery_strength_area_values_Limits();
+
+TAknWindowLineLayout Battery_strength_area_values(TInt aLineIndex);
+
+// LAF Table : Context pane elements
+TAknWindowLineLayout Context_pane_elements_Line_1();
+
+// LAF Table : Title pane texts
+TAknTextLineLayout Title_pane_texts_Line_1(TInt aIndex_l, TInt aIndex_W);
+
+TAknTextLineLayout Title_pane_texts_Line_2(TInt aIndex_B, TInt aIndex_W);
+
+TAknMultiLineTextLayout Multiline_Title_pane_texts_Line_2(TInt aIndex_W, TInt aNumberOfLinesShown);
+
+// LAF Table : Title pane elements
+TAknWindowLineLayout Title_pane_elements_Line_1();
+
+// LAF Table : Universal indicator pane elements
+TAknWindowLineLayout Universal_indicator_pane_elements_Line_1(TInt aIndex_t);
+
+// LAF Table : Navi pane arrow elements
+TAknWindowLineLayout Navi_pane_arrow_elements_Line_1();
+
+TAknWindowLineLayout Navi_pane_arrow_elements_Line_2(TInt aIndex_l, TInt aIndex_r);
+
+// LAF Table : Navi pane tab elements
+TAknWindowLineLayout Navi_pane_tab_elements_Line_1();
+
+TAknWindowLineLayout Navi_pane_tab_elements_Line_2();
+
+TAknWindowLineLayout Navi_pane_tab_elements_Line_3();
+
+TAknWindowLineLayout Navi_pane_tab_elements_Line_4();
+
+TAknWindowLineLayout Navi_pane_tab_elements_Line_5();
+
+TAknWindowLineLayout Navi_pane_tab_elements_Line_6();
+
+TAknWindowLineLayout Navi_pane_tab_elements_Line_7();
+
+TAknWindowLineLayout Navi_pane_tab_elements_Line_8();
+
+TAknWindowLineLayout Navi_pane_tab_elements_Line_9();
+
+TAknWindowLineLayout Navi_pane_tab_elements_Line_10();
+
+TAknWindowLineLayout Navi_pane_tab_elements_Line_11();
+
+TAknWindowLineLayout Navi_pane_tab_elements_Line_12();
+
+TAknWindowLineLayout Navi_pane_tab_elements_Line_13();
+
+TAknWindowLineLayout Navi_pane_tab_elements_Line_14();
+
+TAknLayoutTableLimits Navi_pane_tab_elements_Limits();
+
+TAknWindowLineLayout Navi_pane_tab_elements(TInt aLineIndex);
+
+// LAF Table : Elements on the tabs
+TAknWindowLineLayout Elements_on_the_tabs_Line_1(TInt aIndex_l);
+
+TAknWindowLineLayout Elements_on_the_tabs_Line_2(TInt aIndex_l);
+
+TAknWindowLineLayout Elements_on_the_tabs_Line_3(TInt aIndex_l);
+
+TAknLayoutTableLimits Elements_on_the_tabs_Limits();
+
+TAknWindowLineLayout Elements_on_the_tabs(TInt aLineIndex, TInt aIndex_l);
+
+// LAF Table : Texts on the tabs
+TAknTextLineLayout Texts_on_the_tabs_Line_1(TInt aCommon1);
+
+TAknTextLineLayout Texts_on_the_tabs_Line_2(TInt aCommon1);
+
+TAknTextLineLayout Texts_on_the_tabs_Line_3(TInt aCommon1);
+
+TAknTextLineLayout Texts_on_the_tabs_Line_4(TInt aCommon1);
+
+TAknTextLineLayout Texts_on_the_tabs_Line_5(TInt aCommon1);
+
+TAknLayoutTableLimits Texts_on_the_tabs_Limits();
+
+TAknTextLineLayout Texts_on_the_tabs(TInt aLineIndex, TInt aCommon1);
+
+// LAF Table : Navi pane icons
+TAknWindowLineLayout Navi_pane_icons_Line_1();
+
+TAknWindowLineLayout Navi_pane_icons_Line_2(TInt aCommon1);
+
+// LAF Table : Navi pane texts
+TAknTextLineLayout Navi_pane_texts_Line_1(TInt aCommon1);
+
+TAknTextLineLayout Navi_pane_texts_Line_2(TInt aIndex_J);
+
+TAknTextLineLayout Navi_pane_texts_Line_3(TInt aIndex_C);
+
+TAknTextLineLayout Navi_pane_texts_Line_4();
+
+TAknTextLineLayout Navi_pane_texts_Line_5();
+
+TAknTextLineLayout Navi_pane_texts_Line_6(TInt aIndex_l);
+
+TAknTextLineLayout Navi_pane_texts_Line_7(TInt aIndex_C, TInt aIndex_W);
+
+// LAF Table : Navi pane area for editing status icons
+TAknWindowLineLayout Navi_pane_area_for_editing_status_icons_Line_1();
+
+// LAF Table : Volume glider elements (one)
+TAknWindowLineLayout Volume_glider_elements__one__Line_1(TInt aIndex_l);
+
+TAknWindowLineLayout volume_navi_pane(TInt aIndex_l);
+
+TAknLayoutTableLimits Volume_glider_elements__one__Limits();
+
+TAknWindowLineLayout Volume_glider_elements__one_(TInt aLineIndex, TInt aIndex_l);
+
+// LAF Table : Volume pane elements (one)
+TAknWindowLineLayout Volume_pane_elements__one__Line_1(TInt aIndex_C);
+
+TAknWindowLineLayout Volume_pane_elements__one__Line_2(TInt aIndex_C);
+
+TAknWindowLineLayout Volume_pane_elements__one__Line_3(TInt aIndex_C);
+
+TAknWindowLineLayout Volume_pane_elements__one__Line_4(TInt aIndex_C);
+
+TAknWindowLineLayout Volume_pane_elements__one__Line_5(TInt aIndex_C);
+
+TAknWindowLineLayout Volume_pane_elements__one__Line_6(TInt aIndex_C);
+
+TAknWindowLineLayout Volume_pane_elements__one__Line_7(TInt aIndex_C);
+
+TAknWindowLineLayout Volume_pane_elements__one__Line_8(TInt aIndex_C);
+
+TAknWindowLineLayout Volume_pane_elements__one__Line_9(TInt aIndex_C);
+
+TAknWindowLineLayout Volume_pane_elements__one__Line_10(TInt aIndex_C);
+
+TAknLayoutTableLimits Volume_pane_elements__one__Limits();
+
+TAknWindowLineLayout Volume_pane_elements__one_(TInt aLineIndex, TInt aIndex_C);
+
+// LAF Table : Main pane descendants
+TAknWindowLineLayout list_gen_pane(TInt aIndex_H);
+
+TAknWindowLineLayout find_pane();
+
+TAknWindowLineLayout wallpaper_pane();
+
+TAknWindowLineLayout indicator_pane();
+
+TAknWindowLineLayout soft_indicator_pane(TInt aIndex_H);
+
+// LAF Table : List pane column division
+TAknWindowLineLayout A_column();
+
+TAknWindowLineLayout B_column();
+
+TAknWindowLineLayout C_column();
+
+TAknWindowLineLayout D_column();
+
+TAknLayoutTableLimits List_pane_column_division_Limits();
+
+TAknWindowLineLayout List_pane_column_division(TInt aLineIndex);
+
+// LAF Table : General list pane descendants
+TAknWindowLineLayout list_single_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_single_number_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_single_heading_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_single_graphic_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_single_graphic_heading_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_single_number_heading_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_single_large_graphic_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_double_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_double2_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_double_number_pane_list_single_big_number_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_double_time_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_double_large_graphic_pane_list_double2_large_graphic_pane_list_single_big_large_graphic_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_double_graphic_pane_list_double2_graphic_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_single_big_heading_graphic_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_single_big_heading_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_setting_pane_list_big_setting_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_setting_number_pane_list_big_setting_number_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_setting_double2_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_double2_graphic_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_double2_large_graphic_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_single_2graphic_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_double2_graphic_large_graphic_pane(TInt aIndex_t);
+
+TAknLayoutTableLimits General_list_pane_descendants_Limits();
+
+TAknWindowLineLayout General_list_pane_descendants(TInt aLineIndex, TInt aIndex_t);
+
+// LAF Table : List pane elements (single)
+TAknWindowLineLayout List_pane_elements__single__Line_1();
+
+TAknWindowLineLayout List_pane_elements__single__Line_2(TInt aIndex_l);
+
+// LAF Table : List pane texts (single)
+TAknTextLineLayout List_pane_texts__single__Line_1(TInt aIndex_r, TInt aIndex_W);
+
+// LAF Table : List pane elements (single number)
+TAknWindowLineLayout List_pane_elements__single_number__Line_1();
+
+TAknWindowLineLayout List_pane_elements__single_number__Line_2(TInt aIndex_l);
+
+// LAF Table : List pane texts (single number)
+TAknTextLineLayout List_pane_texts__single_number__Line_1();
+
+TAknTextLineLayout List_pane_texts__single_number__Line_2(TInt aIndex_r, TInt aIndex_W);
+
+// LAF Table : List pane elements (single heading)
+TAknWindowLineLayout List_pane_elements__single_heading__Line_1();
+
+TAknWindowLineLayout List_pane_elements__single_heading__Line_2();
+
+TAknWindowLineLayout List_pane_elements__single_heading__Line_3(TInt aIndex_l);
+
+TAknLayoutTableLimits List_pane_elements__single_heading__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_pane_elements__single_heading__SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : List pane texts (single heading)
+TAknTextLineLayout List_pane_texts__single_heading__Line_1(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__single_heading__Line_2(TInt aCommon1);
+
+TAknLayoutTableLimits List_pane_texts__single_heading__Limits();
+
+TAknTextLineLayout List_pane_texts__single_heading_(TInt aLineIndex, TInt aCommon1);
+
+// LAF Table : List pane elements (single graphic)
+TAknWindowLineLayout List_pane_elements__single_graphic__Line_1();
+
+TAknWindowLineLayout List_pane_elements__single_graphic__Line_2();
+
+TAknWindowLineLayout List_pane_elements__single_graphic__Line_3(TInt aIndex_l);
+
+TAknLayoutTableLimits List_pane_elements__single_graphic__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_pane_elements__single_graphic__SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : List pane texts (single graphic)
+TAknTextLineLayout List_pane_texts__single_graphic__Line_1(TInt aIndex_r, TInt aIndex_W);
+
+// LAF Table : List pane elements (single graphic heading)
+TAknWindowLineLayout List_pane_elements__single_graphic_heading__Line_1();
+
+TAknWindowLineLayout List_pane_elements__single_graphic_heading__Line_2();
+
+TAknWindowLineLayout List_pane_elements__single_graphic_heading__Line_3();
+
+TAknWindowLineLayout List_pane_elements__single_graphic_heading__Line_4(TInt aIndex_l);
+
+TAknLayoutTableLimits List_pane_elements__single_graphic_heading__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_pane_elements__single_graphic_heading__SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : List pane texts (single graphic heading)
+TAknTextLineLayout List_pane_texts__single_graphic_heading__Line_1(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__single_graphic_heading__Line_2(TInt aCommon1);
+
+TAknLayoutTableLimits List_pane_texts__single_graphic_heading__Limits();
+
+TAknTextLineLayout List_pane_texts__single_graphic_heading_(TInt aLineIndex, TInt aCommon1);
+
+// LAF Table : List pane elements (single number heading)
+TAknWindowLineLayout List_pane_elements__single_number_heading__Line_1();
+
+TAknWindowLineLayout List_pane_elements__single_number_heading__Line_2();
+
+TAknWindowLineLayout List_pane_elements__single_number_heading__Line_3(TInt aIndex_l);
+
+TAknLayoutTableLimits List_pane_elements__single_number_heading__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_pane_elements__single_number_heading__SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : List pane texts (single number heading)
+TAknTextLineLayout List_pane_texts__single_number_heading__Line_1(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__single_number_heading__Line_2(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__single_number_heading__Line_3(TInt aCommon1);
+
+TAknLayoutTableLimits List_pane_texts__single_number_heading__Limits();
+
+TAknTextLineLayout List_pane_texts__single_number_heading_(TInt aLineIndex, TInt aCommon1);
+
+// LAF Table : List pane elements (single large graphic)
+TAknWindowLineLayout List_pane_elements__single_large_graphic__Line_1();
+
+TAknWindowLineLayout List_pane_elements__single_large_graphic__Line_2(TInt aIndex_t);
+
+TAknWindowLineLayout List_pane_elements__single_large_graphic__Line_3(TInt aIndex_l);
+
+TAknWindowLineLayout do_not_use_empty_pane1();
+
+TAknWindowLineLayout do_not_use_empty_pane2();
+
+// LAF Table : List pane texts (single large graphic)
+TAknTextLineLayout List_pane_texts__single_large_graphic__Line_1(TInt aCommon1);
+
+// LAF Table : List pane elements (double)
+TAknWindowLineLayout List_pane_elements__double__Line_1();
+
+TAknWindowLineLayout List_pane_elements__double__Line_2(TInt aIndex_l);
+
+// LAF Table : List pane texts (double)
+TAknTextLineLayout List_pane_texts__double__Line_1(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__double__Line_2();
+
+// LAF Table : List pane text (double2)
+TAknTextLineLayout List_pane_text__double2__Line_1(TInt aCommon1);
+
+TAknTextLineLayout List_pane_text__double2__Line_2();
+
+// LAF Table : List pane elements (double number)
+TAknWindowLineLayout List_pane_elements__double_number__Line_1();
+
+TAknWindowLineLayout List_pane_elements__double_number__Line_2(TInt aIndex_l);
+
+// LAF Table : List pane texts (double number)
+TAknTextLineLayout List_pane_texts__double_number__Line_1();
+
+TAknTextLineLayout List_pane_texts__double_number__Line_2(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__double_number__Line_3();
+
+// LAF Table : List pane elements (double graphic)
+TAknWindowLineLayout List_pane_elements__double_graphic__Line_1();
+
+TAknWindowLineLayout List_pane_elements__double_graphic__Line_2();
+
+TAknWindowLineLayout List_pane_elements__double_graphic__Line_3(TInt aIndex_l);
+
+TAknLayoutTableLimits List_pane_elements__double_graphic__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_pane_elements__double_graphic__SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : List pane texts (double graphic)
+TAknTextLineLayout List_pane_texts__double_graphic__Line_1(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__double_graphic__Line_2();
+
+// LAF Table : List pane elements (double2 graphic)
+TAknWindowLineLayout List_pane_elements__double2_graphic__Line_1();
+
+TAknWindowLineLayout List_pane_elements__double2_graphic__Line_2();
+
+TAknWindowLineLayout List_pane_elements__double2_graphic__Line_3(TInt aIndex_l);
+
+TAknLayoutTableLimits List_pane_elements__double2_graphic__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_pane_elements__double2_graphic__SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : List pane texts (double2 graphic)
+TAknTextLineLayout List_pane_texts__double2_graphic__Line_1(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__double2_graphic__Line_2();
+
+// LAF Table : List pane elements (double2 large graphic)
+TAknWindowLineLayout List_pane_elements__double2_large_graphic__Line_1();
+
+TAknWindowLineLayout List_pane_elements__double2_large_graphic__Line_2();
+
+TAknWindowLineLayout List_pane_elements__double2_large_graphic__Line_3(TInt aIndex_l);
+
+TAknLayoutTableLimits List_pane_elements__double2_large_graphic__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_pane_elements__double2_large_graphic__SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : List pane texts (double2 large graphic)
+TAknTextLineLayout List_pane_texts__double2_large_graphic__Line_1(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__double2_large_graphic__Line_2();
+
+// LAF Table : List pane elements (large single heading graphic)
+TAknWindowLineLayout List_pane_elements__large_single_heading_graphic__Line_1();
+
+TAknWindowLineLayout List_pane_elements__large_single_heading_graphic__Line_2();
+
+TAknWindowLineLayout List_pane_elements__large_single_heading_graphic__Line_3(TInt aIndex_l);
+
+TAknLayoutTableLimits List_pane_elements__large_single_heading_graphic__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_pane_elements__large_single_heading_graphic__SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : List pane texts (large single heading graphic)
+TAknTextLineLayout List_pane_texts__large_single_heading_graphic__Line_1(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__large_single_heading_graphic__Line_2();
+
+// LAF Table : List pane elements (large single heading)
+TAknWindowLineLayout List_pane_elements__large_single_heading__Line_1();
+
+// LAF Table : List pane texts (large single heading)
+TAknTextLineLayout List_pane_texts__large_single_heading__Line_1();
+
+TAknTextLineLayout List_pane_texts__large_single_heading__Line_2();
+
+TAknLayoutTableLimits List_pane_texts__large_single_heading__Limits();
+
+TAknTextLineLayout List_pane_texts__large_single_heading_(TInt aLineIndex);
+
+// LAF Table : List pane elements (double time)
+TAknWindowLineLayout List_pane_elements__double_time__Line_1();
+
+// LAF Table : List pane texts (double time)
+TAknTextLineLayout List_pane_texts__double_time__Line_1();
+
+TAknTextLineLayout List_pane_texts__double_time__Line_2();
+
+TAknTextLineLayout List_pane_texts__double_time__Line_3();
+
+TAknTextLineLayout List_pane_texts__double_time__Line_4();
+
+TAknLayoutTableLimits List_pane_texts__double_time__Limits();
+
+TAknTextLineLayout List_pane_texts__double_time_(TInt aLineIndex);
+
+// LAF Table : List pane elements (double large graphic)
+TAknWindowLineLayout List_pane_elements__double_large_graphic__Line_1();
+
+TAknWindowLineLayout List_pane_elements__double_large_graphic__Line_2();
+
+TAknWindowLineLayout List_pane_elements__double_large_graphic__Line_3();
+
+TAknWindowLineLayout List_pane_elements__double_large_graphic__Line_4();
+
+TAknWindowLineLayout List_pane_elements__double_large_graphic__Line_5();
+
+TAknWindowLineLayout List_pane_elements__double_large_graphic__Line_6();
+
+TAknWindowLineLayout List_pane_elements__double_large_graphic__Line_7();
+
+TAknWindowLineLayout List_pane_elements__double_large_graphic__Line_8();
+
+TAknWindowLineLayout List_pane_elements__double_large_graphic__Line_9(TInt aIndex_l);
+
+TAknWindowLineLayout List_pane_elements__double_large_graphic__Line_10();
+
+// LAF Table : List pane texts (double large graphic)
+TAknTextLineLayout List_pane_texts__double_large_graphic__Line_1(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__double_large_graphic__Line_2();
+
+// LAF Table : List pane elements (setting)
+TAknWindowLineLayout List_pane_elements__setting__Line_1();
+
+TAknWindowLineLayout List_pane_elements__setting__Line_2();
+
+TAknWindowLineLayout List_pane_elements__setting__Line_3();
+
+TAknWindowLineLayout List_pane_elements__setting__Line_4();
+
+TAknWindowLineLayout List_pane_elements__setting__Line_5();
+
+TAknWindowLineLayout List_pane_elements__setting__Line_6();
+
+TAknLayoutTableLimits List_pane_elements__setting__Limits();
+
+TAknWindowLineLayout List_pane_elements__setting_(TInt aLineIndex);
+
+// LAF Table : List pane texts (setting)
+TAknTextLineLayout List_pane_texts__setting__Line_1();
+
+TAknTextLineLayout List_pane_texts__setting__Line_2();
+
+TAknTextLineLayout List_pane_texts__setting__Line_3();
+
+TAknTextLineLayout List_pane_texts__setting__Line_4();
+
+TAknLayoutTableLimits List_pane_texts__setting__Limits();
+
+TAknTextLineLayout List_pane_texts__setting_(TInt aLineIndex);
+
+// LAF Table : List pane elements (setting number)
+TAknWindowLineLayout List_pane_elements__setting_number__Line_1();
+
+TAknWindowLineLayout List_pane_elements__setting_number__Line_2();
+
+TAknWindowLineLayout List_pane_elements__setting_number__Line_3();
+
+TAknWindowLineLayout List_pane_elements__setting_number__Line_4();
+
+TAknWindowLineLayout List_pane_elements__setting_number__Line_5();
+
+TAknLayoutTableLimits List_pane_elements__setting_number__Limits();
+
+TAknWindowLineLayout List_pane_elements__setting_number_(TInt aLineIndex);
+
+// LAF Table : List pane texts (setting number)
+TAknTextLineLayout List_pane_texts__setting_number__Line_1();
+
+TAknTextLineLayout List_pane_texts__setting_number__Line_2();
+
+TAknTextLineLayout List_pane_texts__setting_number__Line_3();
+
+TAknTextLineLayout List_pane_texts__setting_number__Line_4();
+
+TAknLayoutTableLimits List_pane_texts__setting_number__Limits();
+
+TAknTextLineLayout List_pane_texts__setting_number_(TInt aLineIndex);
+
+// LAF Table : Setting volume elements
+TAknWindowLineLayout Setting_volume_elements_Line_1(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_elements_Line_2(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_elements_Line_3(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_elements_Line_4(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_elements_Line_5(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_elements_Line_6(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_elements_Line_7(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_elements_Line_8(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_elements_Line_9(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_elements_Line_10(TInt aIndex_C);
+
+TAknLayoutTableLimits Setting_volume_elements_Limits();
+
+TAknWindowLineLayout Setting_volume_elements(TInt aLineIndex, TInt aIndex_C);
+
+// LAF Table : Setting slider elements
+TAknWindowLineLayout Setting_slider_elements_Line_1();
+
+// LAF Table : List pane elements (setting double2)
+TAknWindowLineLayout List_pane_elements__setting_double2__Line_1();
+
+TAknWindowLineLayout List_pane_elements__setting_double2__Line_2();
+
+TAknWindowLineLayout List_pane_elements__setting_double2__Line_3();
+
+TAknLayoutTableLimits List_pane_elements__setting_double2__Limits();
+
+TAknWindowLineLayout List_pane_elements__setting_double2_(TInt aLineIndex);
+
+// LAF Table : List pane lines (A column)
+TAknWindowLineLayout List_pane_lines__A_column__Line_1(TInt aCommon1);
+
+TAknWindowLineLayout List_pane_lines__A_column__Line_2();
+
+// LAF Table : List pane lines (AB columns)
+TAknWindowLineLayout List_pane_lines__AB_columns__Line_1(TInt aCommon1);
+
+TAknWindowLineLayout List_pane_lines__AB_columns__Line_2();
+
+// LAF Table : List pane lines (BC columns)
+TAknWindowLineLayout List_pane_lines__BC_columns__Line_1(TInt aCommon1);
+
+TAknWindowLineLayout List_pane_lines__BC_columns__Line_2();
+
+// LAF Table : List pane highlight graphics (various)
+TAknWindowLineLayout List_pane_highlight_graphics__various__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout List_pane_highlight_graphics__various__Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout List_pane_highlight_graphics__various__Line_3(TInt aIndex_l);
+
+TAknLayoutTableLimits List_pane_highlight_graphics__various__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_pane_highlight_graphics__various__SUB_TABLE_0(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : List pane highlight graphics (setting number)
+TAknWindowLineLayout List_pane_highlight_graphics__setting_number__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout List_pane_highlight_graphics__setting_number__Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout List_pane_highlight_graphics__setting_number__Line_3();
+
+TAknLayoutTableLimits List_pane_highlight_graphics__setting_number__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_pane_highlight_graphics__setting_number__SUB_TABLE_0(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Find pane elements
+TAknWindowLineLayout Find_pane_elements_Line_1();
+
+TAknWindowLineLayout Find_pane_elements_Line_2();
+
+TAknWindowLineLayout Find_pane_elements_Line_3();
+
+TAknWindowLineLayout Find_pane_elements_Line_4();
+
+TAknWindowLineLayout Find_pane_elements_Line_5();
+
+TAknLayoutTableLimits Find_pane_elements_Limits();
+
+TAknWindowLineLayout Find_pane_elements(TInt aLineIndex);
+
+// LAF Table : Find pane texts
+TAknTextLineLayout Find_pane_texts_Line_1();
+
+// LAF Table : Form descendant panes
+TAknWindowLineLayout form_field_data_pane(TInt aIndex_t, TInt aIndex_H);
+
+TAknWindowLineLayout form_field_data_wide_pane(TInt aIndex_t, TInt aIndex_H);
+
+TAknWindowLineLayout form_field_popup_pane(TInt aIndex_t, TInt aIndex_H);
+
+TAknWindowLineLayout form_field_popup_wide_pane(TInt aIndex_t, TInt aIndex_H);
+
+TAknWindowLineLayout form_field_slider_pane(TInt aIndex_t, TInt aIndex_H);
+
+TAknWindowLineLayout form_field_slider_wide_pane(TInt aIndex_t, TInt aIndex_H);
+
+TAknLayoutTableLimits Form_descendant_panes_Limits();
+
+TAknWindowLineLayout Form_descendant_panes(TInt aLineIndex, TInt aIndex_t, TInt aIndex_H);
+
+// LAF Table : Form data field elements
+TAknWindowLineLayout Form_data_field_elements_Line_1(TInt aIndex_H);
+
+TAknWindowLineLayout Form_data_field_elements_Line_2();
+
+TAknWindowLineLayout Form_data_field_elements_Line_3(TInt aIndex_H);
+
+TAknWindowLineLayout Form_data_field_elements_Line_4();
+
+// LAF Table : Form data field texts
+TAknTextLineLayout Form_data_field_texts_Line_1(TInt aCommon1, TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Form_data_field_texts_Line_1(TInt aCommon1, TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Form_data_field_texts_Line_2(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Form_data_field_texts_Line_2(TInt aNumberOfLinesShown);
+
+// LAF Table : Form data wide field elements
+TAknWindowLineLayout Form_data_wide_field_elements_Line_1(TInt aIndex_H);
+
+TAknWindowLineLayout Form_data_wide_field_elements_Line_2();
+
+TAknWindowLineLayout Form_data_wide_field_elements_Line_3(TInt aIndex_H);
+
+TAknWindowLineLayout Form_data_wide_field_elements_Line_4();
+
+// LAF Table : Form data wide field texts
+TAknTextLineLayout Form_data_wide_field_texts_Line_1();
+
+TAknTextLineLayout Form_data_wide_field_texts_Line_2(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Form_data_wide_field_texts_Line_2(TInt aNumberOfLinesShown);
+
+// LAF Table : Form pop-up field elements and descendants
+TAknWindowLineLayout Form_pop_up_field_elements_and_descendants_Line_1(TInt aIndex_H);
+
+TAknWindowLineLayout Form_pop_up_field_elements_and_descendants_Line_2();
+
+TAknWindowLineLayout Form_pop_up_field_elements_and_descendants_Line_3(TInt aIndex_H);
+
+TAknWindowLineLayout Form_pop_up_field_elements_and_descendants_Line_4();
+
+TAknWindowLineLayout Form_pop_up_field_elements_and_descendants_Line_5();
+
+TAknWindowLineLayout list_form_pane(TInt aIndex_H);
+
+// LAF Table : List pane elements (form pop-up)
+TAknWindowLineLayout list_form_graphic_pane(TInt aIndex_t);
+
+// LAF Table : List pane elements (form graphic)
+TAknWindowLineLayout List_pane_elements__form_graphic__Line_1(TInt aIndex_C);
+
+TAknWindowLineLayout List_pane_elements__form_graphic__Line_2();
+
+// LAF Table : List pane texts (form graphic)
+TAknTextLineLayout List_pane_texts__form_graphic__Line_1(TInt aIndex_C, TInt aCommon1);
+
+// LAF Table : Form pop-up wide field elements and descendants
+TAknWindowLineLayout Form_pop_up_wide_field_elements_and_descendants_Line_1(TInt aIndex_H);
+
+TAknWindowLineLayout Form_pop_up_wide_field_elements_and_descendants_Line_2();
+
+TAknWindowLineLayout Form_pop_up_wide_field_elements_and_descendants_Line_3(TInt aIndex_H);
+
+TAknWindowLineLayout Form_pop_up_wide_field_elements_and_descendants_Line_4();
+
+TAknWindowLineLayout Form_pop_up_wide_field_elements_and_descendants_Line_5();
+
+TAknWindowLineLayout list_form_wide_pane(TInt aCommon1, TInt aIndex_H);
+
+// LAF Table : List pane elements (form pop-up wide)
+TAknWindowLineLayout list_form_graphic_wide_pane(TInt aIndex_t);
+
+// LAF Table : List pane elements (form graphic wide)
+TAknWindowLineLayout List_pane_elements__form_graphic_wide__Line_1(TInt aIndex_C);
+
+TAknWindowLineLayout List_pane_elements__form_graphic_wide__Line_2();
+
+// LAF Table : List pane texts (form graphic wide)
+TAknTextLineLayout List_pane_texts__form_graphic_wide__Line_1(TInt aIndex_C, TInt aIndex_l, TInt aIndex_r, TInt aIndex_W);
+
+// LAF Table : Form slider field elements and descendants
+TAknWindowLineLayout Form_slider_field_elements_and_descendants_Line_1(TInt aIndex_H);
+
+TAknWindowLineLayout Form_slider_field_elements_and_descendants_Line_2();
+
+TAknWindowLineLayout Form_slider_field_elements_and_descendants_Line_3(TInt aIndex_H);
+
+TAknWindowLineLayout Form_slider_field_elements_and_descendants_Line_4();
+
+TAknWindowLineLayout Form_slider_field_elements_and_descendants_Line_5();
+
+TAknWindowLineLayout Form_slider_field_elements_and_descendants_Line_6(TInt aIndex_t);
+
+// LAF Table : Slider pane elements (form)
+TAknWindowLineLayout Slider_pane_elements__form__Line_1();
+
+TAknWindowLineLayout Slider_pane_elements__form__Line_2();
+
+TAknLayoutTableLimits Slider_pane_elements__form__Limits();
+
+TAknWindowLineLayout Slider_pane_elements__form_(TInt aLineIndex);
+
+// LAF Table : Form slider field texts
+TAknTextLineLayout Form_slider_field_texts_Line_1();
+
+TAknTextLineLayout Form_slider_field_texts_Line_2();
+
+TAknTextLineLayout Form_slider_field_texts_Line_3(TInt aCommon1, TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Form_slider_field_texts_Line_3(TInt aCommon1, TInt aNumberOfLinesShown);
+
+TAknLayoutTableLimits Form_slider_field_texts_SUB_TABLE_0_Limits();
+
+TAknTextLineLayout Form_slider_field_texts_SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : Form slider field elements and descendants_dup
+TAknWindowLineLayout Form_slider_field_elements_and_descendants_dup_Line_1(TInt aIndex_H);
+
+TAknWindowLineLayout Form_slider_field_elements_and_descendants_dup_Line_2();
+
+TAknWindowLineLayout Form_slider_field_elements_and_descendants_dup_Line_3(TInt aIndex_H);
+
+TAknWindowLineLayout Form_slider_field_elements_and_descendants_dup_Line_4();
+
+TAknWindowLineLayout Form_slider_field_elements_and_descendants_dup_Line_5();
+
+TAknWindowLineLayout Form_slider_field_elements_and_descendants_dup_Line_6(TInt aIndex_t);
+
+// LAF Table : Slider pane elements (form)_dup
+TAknWindowLineLayout Slider_pane_elements__form__dup_Line_1();
+
+TAknWindowLineLayout Slider_pane_elements__form__dup_Line_2();
+
+TAknLayoutTableLimits Slider_pane_elements__form__dup_Limits();
+
+TAknWindowLineLayout Slider_pane_elements__form__dup(TInt aLineIndex);
+
+// LAF Table : Form slider field texts_dup
+TAknTextLineLayout Form_slider_field_texts_dup_Line_1();
+
+TAknTextLineLayout Form_slider_field_texts_dup_Line_2();
+
+TAknTextLineLayout Form_slider_field_texts_dup_Line_3(TInt aCommon1, TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Form_slider_field_texts_dup_Line_3(TInt aCommon1, TInt aNumberOfLinesShown);
+
+TAknLayoutTableLimits Form_slider_field_texts_dup_SUB_TABLE_0_Limits();
+
+TAknTextLineLayout Form_slider_field_texts_dup_SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : Cursor graphics (13)
+TAknWindowLineLayout Cursor_graphics__13__Line_1();
+
+// LAF Table : Predictive text input graphics (13)
+TAknWindowLineLayout Predictive_text_input_graphics__13__Line_1();
+
+TAknWindowLineLayout Predictive_text_input_graphics__13__Line_2();
+
+TAknLayoutTableLimits Predictive_text_input_graphics__13__Limits();
+
+TAknWindowLineLayout Predictive_text_input_graphics__13_(TInt aLineIndex);
+
+// LAF Table : Cut copy and paste highlight graphics (13)
+TAknWindowLineLayout Cut_copy_and_paste_highlight_graphics__13__Line_1();
+
+// LAF Table : Time and date entry graphics (13)
+TAknWindowLineLayout Time_and_date_entry_graphics__13__Line_1();
+
+// LAF Table : Cursor graphics (12)
+TAknWindowLineLayout Cursor_graphics__12__Line_1();
+
+// LAF Table : Predictive text input graphics (12)
+TAknWindowLineLayout Predictive_text_input_graphics__12__Line_1();
+
+TAknWindowLineLayout Predictive_text_input_graphics__12__Line_2();
+
+TAknLayoutTableLimits Predictive_text_input_graphics__12__Limits();
+
+TAknWindowLineLayout Predictive_text_input_graphics__12_(TInt aLineIndex);
+
+// LAF Table : Cut copy and paste highlight graphics (12)
+TAknWindowLineLayout Cut_copy_and_paste_highlight_graphics__12__Line_1();
+
+// LAF Table : Time and date entry graphics (12)
+TAknWindowLineLayout Time_and_date_entry_graphics__12__Line_1();
+
+// LAF Table : AVKON specific list pane
+TAknWindowLineLayout list_set_graphic_pane(TInt aIndex_t);
+
+// LAF Table : List pane elements (set graphic)
+TAknWindowLineLayout List_pane_elements__set_graphic__Line_1(TInt aIndex_C);
+
+TAknWindowLineLayout List_pane_elements__set_graphic__Line_2();
+
+TAknWindowLineLayout List_pane_elements__set_graphic__Line_3();
+
+TAknLayoutTableLimits List_pane_elements__set_graphic__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_pane_elements__set_graphic__SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : List pane texts (set graphic)
+TAknTextLineLayout List_pane_texts__set_graphic__Line_1(TInt aIndex_C, TInt aIndex_l, TInt aIndex_W);
+
+// LAF Table : Application grid descendant
+TAknWindowLineLayout Application_grid_descendant_Line_1(TInt aIndex_l, TInt aIndex_t);
+
+// LAF Table : Cell pane elements (app)
+TAknWindowLineLayout Cell_pane_elements__app__Line_1();
+
+TAknWindowLineLayout Cell_pane_elements__app__Line_2();
+
+TAknLayoutTableLimits Cell_pane_elements__app__Limits();
+
+TAknWindowLineLayout Cell_pane_elements__app_(TInt aLineIndex);
+
+// LAF Table : Cell pane texts (app)
+TAknTextLineLayout Cell_pane_texts__app__Line_1();
+
+// LAF Table : Cell pane highlight elements (various)
+TAknWindowLineLayout Cell_pane_highlight_elements__various__Line_1(const TRect& aParentRect);
+
+// LAF Table : Wallpaper pane element
+TAknWindowLineLayout Wallpaper_pane_element_Line_1(const TRect& aParentRect);
+
+// LAF Table : Indicator pane elements
+TAknWindowLineLayout Indicator_pane_elements_Line_1();
+
+// LAF Table : Soft indicator pane elements
+TAknWindowLineLayout Soft_indicator_pane_elements_Line_1(const TRect& aParentRect, TInt aIndex_t, TInt aIndex_H);
+
+// LAF Table : Soft indicator pane texts
+TAknTextLineLayout Soft_indicator_pane_texts_Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Soft_indicator_pane_texts_Line_1(TInt aNumberOfLinesShown);
+
+// LAF Table : Idle power save state descendant
+TAknWindowLineLayout power_save_pane(TInt aIndex_t);
+
+// LAF Table : Power save pane descendants
+TAknWindowLineLayout Power_save_pane_descendants_Line_1();
+
+TAknWindowLineLayout Power_save_pane_descendants_Line_2();
+
+TAknWindowLineLayout Power_save_pane_descendants_Line_3();
+
+TAknLayoutTableLimits Power_save_pane_descendants_Limits();
+
+TAknWindowLineLayout Power_save_pane_descendants(TInt aLineIndex);
+
+// LAF Table : Idle power save state texts
+TAknTextLineLayout Idle_power_save_state_texts_Line_1();
+
+TAknTextLineLayout Idle_power_save_state_texts_Line_2();
+
+TAknTextLineLayout Idle_power_save_state_texts_Line_3();
+
+TAknTextLineLayout Idle_power_save_state_texts_Line_4();
+
+TAknLayoutTableLimits Idle_power_save_state_texts_Limits();
+
+TAknTextLineLayout Idle_power_save_state_texts(TInt aLineIndex);
+
+// LAF Table : Application selection grid elements
+TAknWindowLineLayout grid_app_pane();
+
+// LAF Table : Empty list texts
+TAknTextLineLayout Empty_list_texts_Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Empty_list_texts_Line_1(TInt aNumberOfLinesShown);
+
+// LAF Table : Empty list texts (find)
+TAknTextLineLayout Empty_list_texts__find__Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Empty_list_texts__find__Line_1(TInt aNumberOfLinesShown);
+
+// LAF Table : List pane elements and descendants (settings edited)
+TAknWindowLineLayout List_pane_elements_and_descendants__settings_edited__Line_1();
+
+TAknWindowLineLayout List_pane_elements_and_descendants__settings_edited__Line_2();
+
+TAknWindowLineLayout list_set_pane(TInt aCommon1);
+
+TAknWindowLineLayout List_pane_elements_and_descendants__settings_edited__Line_4();
+
+TAknWindowLineLayout setting_volume_pane();
+
+TAknWindowLineLayout setting_slider_pane();
+
+TAknWindowLineLayout setting_slider_graphic_pane();
+
+TAknWindowLineLayout setting_text_pane();
+
+TAknWindowLineLayout setting_code_pane();
+
+// LAF Table : Setting item texts
+TAknTextLineLayout Setting_item_texts_Line_1();
+
+TAknTextLineLayout Setting_item_texts_Line_2(TInt aCommon1);
+
+// LAF Table : Setting volume pane elements
+TAknWindowLineLayout Setting_volume_pane_elements_Line_1();
+
+TAknWindowLineLayout Setting_volume_pane_elements_Line_2(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_pane_elements_Line_3(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_pane_elements_Line_4(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_pane_elements_Line_5(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_pane_elements_Line_6(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_pane_elements_Line_7(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_pane_elements_Line_8(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_pane_elements_Line_9(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_pane_elements_Line_10(TInt aIndex_C);
+
+TAknWindowLineLayout Setting_volume_pane_elements_Line_11(TInt aIndex_C);
+
+TAknLayoutTableLimits Setting_volume_pane_elements_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Setting_volume_pane_elements_SUB_TABLE_0(TInt aLineIndex, TInt aIndex_C);
+
+// LAF Table : Setting slider pane elements and descendants
+TAknWindowLineLayout Setting_slider_pane_elements_and_descendants_Line_1();
+
+TAknWindowLineLayout Setting_slider_pane_elements_and_descendants_Line_2();
+
+TAknLayoutTableLimits Setting_slider_pane_elements_and_descendants_Limits();
+
+TAknWindowLineLayout Setting_slider_pane_elements_and_descendants(TInt aLineIndex);
+
+// LAF Table : Slider pane elements
+TAknWindowLineLayout Slider_pane_elements_Line_1();
+
+TAknWindowLineLayout Slider_pane_elements_Line_2();
+
+TAknLayoutTableLimits Slider_pane_elements_Limits();
+
+TAknWindowLineLayout Slider_pane_elements(TInt aLineIndex);
+
+// LAF Table : Slider texts (set)
+TAknTextLineLayout Slider_texts__set__Line_1();
+
+TAknTextLineLayout Slider_texts__set__Line_2(TInt aCommon1);
+
+TAknMultiLineTextLayout Multiline_Slider_texts__set__Line_2(TInt aCommon1, TInt aNumberOfLinesShown);
+
+// LAF Table : Setting slider pane (graphic) elements and descendants
+TAknWindowLineLayout Setting_slider_pane__graphic__elements_and_descendants_Line_1();
+
+TAknWindowLineLayout Setting_slider_pane__graphic__elements_and_descendants_Line_2();
+
+TAknWindowLineLayout Setting_slider_pane__graphic__elements_and_descendants_Line_3();
+
+TAknLayoutTableLimits Setting_slider_pane__graphic__elements_and_descendants_Limits();
+
+TAknWindowLineLayout Setting_slider_pane__graphic__elements_and_descendants(TInt aLineIndex);
+
+// LAF Table : Slider with graphic texts (set)
+TAknTextLineLayout Slider_with_graphic_texts__set__Line_1(TInt aCommon1);
+
+TAknMultiLineTextLayout Multiline_Slider_with_graphic_texts__set__Line_1(TInt aCommon1, TInt aNumberOfLinesShown);
+
+// LAF Table : Setting text pane elements
+TAknWindowLineLayout Setting_text_pane_elements_Line_1();
+
+TAknWindowLineLayout Setting_text_pane_elements_Line_2();
+
+TAknWindowLineLayout Setting_text_pane_elements_Line_3();
+
+TAknWindowLineLayout Setting_text_pane_elements_Line_4();
+
+TAknLayoutTableLimits Setting_text_pane_elements_Limits();
+
+TAknWindowLineLayout Setting_text_pane_elements(TInt aLineIndex);
+
+// LAF Table : Setting text pane texts
+TAknTextLineLayout Setting_text_pane_texts_Line_1(TInt aIndex_B, TInt aIndex_J);
+
+TAknMultiLineTextLayout Multiline_Setting_text_pane_texts_Line_1(TInt aIndex_J, TInt aNumberOfLinesShown);
+
+// LAF Table : Code time and date entry pane elements
+TAknWindowLineLayout Code_time_and_date_entry_pane_elements_Line_1();
+
+TAknWindowLineLayout Code_time_and_date_entry_pane_elements_Line_2();
+
+TAknWindowLineLayout Code_time_and_date_entry_pane_elements_Line_3();
+
+TAknLayoutTableLimits Code_time_and_date_entry_pane_elements_Limits();
+
+TAknWindowLineLayout Code_time_and_date_entry_pane_elements(TInt aLineIndex);
+
+// LAF Table : Code time and date entry pane texts
+TAknTextLineLayout Code_time_and_date_entry_pane_texts_Line_1();
+
+// LAF Table : Control pane elements
+TAknWindowLineLayout Control_pane_elements_Line_1();
+
+TAknWindowLineLayout Control_pane_elements_Line_2();
+
+TAknWindowLineLayout Control_pane_elements_Line_3();
+
+TAknWindowLineLayout Control_pane_elements_Line_4();
+
+TAknLayoutTableLimits Control_pane_elements_Limits();
+
+TAknWindowLineLayout Control_pane_elements(TInt aLineIndex);
+
+// LAF Table : Control pane texts
+TAknTextLineLayout Control_pane_texts_Line_1();
+
+TAknTextLineLayout Control_pane_texts_Line_2();
+
+TAknLayoutTableLimits Control_pane_texts_Limits();
+
+TAknTextLineLayout Control_pane_texts(TInt aLineIndex);
+
+// LAF Table : Pop-up windows (main pane as parent)
+TAknWindowLineLayout popup_menu_window(TInt aIndex_H);
+
+TAknWindowLineLayout Pop_up_windows__main_pane_as_parent__Line_2(TInt aCommon1);
+
+TAknWindowLineLayout popup_menu_graphic_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_menu_graphic_heading_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_menu_double_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_menu_double_large_graphic_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_note_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_note_wait_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_note_image_window();
+
+TAknWindowLineLayout popup_query_data_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_query_code_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_query_time_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_query_date_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_query_data_code_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_find_window();
+
+TAknWindowLineLayout popup_snote_single_text_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_snote_single_graphic_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_snote_group_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_grid_graphic_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_menu_double2_window(TInt aIndex_H);
+
+TAknWindowLineLayout popup_grid_large_graphic_colour_window();
+
+// LAF Table : Pop-up windows (status pane as parent)
+TAknWindowLineLayout popup_fast_swap_window(TInt aIndex_W, TInt aIndex_H);
+
+// LAF Table : Pop-up window list pane descendants
+TAknWindowLineLayout list_single_popup_menu_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_single_heading_popup_menu_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_single_graphic_popup_menu_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_single_graphic_heading_popup_menu_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_menu_double_popup_menu_pane(TInt aIndex_t);
+
+TAknWindowLineLayout list_single_popup_submenu_pane(TInt aIndex_t, TInt aIndex_W);
+
+TAknWindowLineLayout list_double_large_graphic_popup_menu_pane(TInt aIndex_t);
+
+TAknWindowLineLayout Pop_up_window_list_pane_descendants_Line_8();
+
+TAknWindowLineLayout list_double2_popup_menu_pane(TInt aIndex_t);
+
+// LAF Table : List pane elements (menu single)
+TAknWindowLineLayout List_pane_elements__menu_single__Line_1();
+
+TAknWindowLineLayout List_pane_elements__menu_single__Line_2();
+
+TAknWindowLineLayout List_pane_elements__menu_single__Line_3(TInt aIndex_l);
+
+TAknLayoutTableLimits List_pane_elements__menu_single__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_pane_elements__menu_single__SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : List pane texts (menu single)
+TAknTextLineLayout List_pane_texts__menu_single__Line_1(TInt aCommon1);
+
+// LAF Table : List pane text (submenu single)
+TAknTextLineLayout List_pane_text__submenu_single__Line_1(TInt aIndex_W);
+
+// LAF Table : List pane elements (menu single graphic)
+TAknWindowLineLayout List_pane_elements__menu_single_graphic__Line_1();
+
+TAknWindowLineLayout List_pane_elements__menu_single_graphic__Line_2(TInt aIndex_l);
+
+// LAF Table : List pane texts (menu single graphic)
+TAknTextLineLayout List_pane_texts__menu_single_graphic__Line_1(TInt aCommon1);
+
+// LAF Table : List pane elements (menu single heading)
+TAknWindowLineLayout List_pane_elements__menu_single_heading__Line_1();
+
+TAknWindowLineLayout List_pane_elements__menu_single_heading__Line_2(TInt aIndex_l);
+
+// LAF Table : List pane texts (menu single heading)
+TAknTextLineLayout List_pane_texts__menu_single_heading__Line_1();
+
+TAknTextLineLayout List_pane_texts__menu_single_heading__Line_2(TInt aCommon1);
+
+// LAF Table : List pane elements (menu single graphic heading)
+TAknWindowLineLayout List_pane_elements__menu_single_graphic_heading__Line_1();
+
+TAknWindowLineLayout List_pane_elements__menu_single_graphic_heading__Line_2();
+
+TAknWindowLineLayout List_pane_elements__menu_single_graphic_heading__Line_3(TInt aIndex_l);
+
+// LAF Table : List pane texts (menu single graphic heading)
+TAknTextLineLayout List_pane_texts__menu_single_graphic_heading__Line_1(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__menu_single_graphic_heading__Line_2(TInt aCommon1);
+
+TAknLayoutTableLimits List_pane_texts__menu_single_graphic_heading__Limits();
+
+TAknTextLineLayout List_pane_texts__menu_single_graphic_heading_(TInt aLineIndex, TInt aCommon1);
+
+// LAF Table : List pane elements (menu double)
+TAknWindowLineLayout List_pane_elements__menu_double__Line_1(TInt aIndex_l);
+
+// LAF Table : List pane texts (menu double)
+TAknTextLineLayout List_pane_texts__menu_double__Line_1(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__menu_double__Line_2();
+
+// LAF Table : List pane elements (menu double2)
+TAknWindowLineLayout List_pane_elements__menu_double2__Line_1(TInt aIndex_l);
+
+// LAF Table : List pane texts (menu double2)
+TAknTextLineLayout List_pane_texts__menu_double2__Line_1(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__menu_double2__Line_2();
+
+// LAF Table : List pane elements (menu double large graphic)
+TAknWindowLineLayout List_pane_elements__menu_double_large_graphic__Line_1();
+
+TAknWindowLineLayout List_pane_elements__menu_double_large_graphic__Line_2(TInt aIndex_l);
+
+// LAF Table : List pane texts (menu double large graphic)
+TAknTextLineLayout List_pane_texts__menu_double_large_graphic__Line_1(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__menu_double_large_graphic__Line_2();
+
+// LAF Table : Highlight graphics (various)
+TAknWindowLineLayout Highlight_graphics__various__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Highlight_graphics__various__Line_2(const TRect& aParentRect);
+
+TAknLayoutTableLimits Highlight_graphics__various__Limits();
+
+TAknWindowLineLayout Highlight_graphics__various_(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Pop-up window grid pane descendants (graphic)
+TAknWindowLineLayout cell_graphic_popup_pane(TInt aIndex_l, TInt aIndex_t);
+
+// LAF Table : Cell pane elements (pop-up graphic)
+TAknWindowLineLayout Cell_pane_elements__pop_up_graphic__Line_1();
+
+// LAF Table : Cell pane texts (pop-up graphic)
+TAknTextLineLayout Cell_pane_texts__pop_up_graphic__Line_1();
+
+// LAF Table : Pop-up window grid pane descendants (large graphic colour)
+TAknWindowLineLayout cell_large_graphic_colour_popup_pane(TInt aIndex_l, TInt aIndex_t, TInt aIndex_H);
+
+// LAF Table : Cell pane elements (pop-up large graphic colour)
+TAknWindowLineLayout colour(TInt aIndex_H);
+
+// LAF Table : Pop-up window cell pane (large graphic colour none)
+TAknWindowLineLayout Pop_up_window_cell_pane__large_graphic_colour_none__Line_1();
+
+// LAF Table : Cell pane texts (pop-up large graphic colour none)
+TAknTextLineLayout Cell_pane_texts__pop_up_large_graphic_colour_none__Line_1();
+
+// LAF Table : Highlight elements (grid pop-up)
+TAknWindowLineLayout Highlight_elements__grid_pop_up__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Highlight_elements__grid_pop_up__Line_2(const TRect& aParentRect);
+
+TAknLayoutTableLimits Highlight_elements__grid_pop_up__Limits();
+
+TAknWindowLineLayout Highlight_elements__grid_pop_up_(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : List heading pane elements
+TAknWindowLineLayout List_heading_pane_elements_Line_1();
+
+TAknWindowLineLayout List_heading_pane_elements_Line_2();
+
+TAknLayoutTableLimits List_heading_pane_elements_Limits();
+
+TAknWindowLineLayout List_heading_pane_elements(TInt aLineIndex);
+
+// LAF Table : List heading pane texts
+TAknTextLineLayout List_heading_pane_texts_Line_1(TInt aIndex_W);
+
+// LAF Table : Pop-up menu with heading window graphics
+TAknWindowLineLayout Pop_up_menu_with_heading_window_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Pop_up_menu_with_heading_window_graphics_Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout Pop_up_menu_with_heading_window_graphics_Line_3(const TRect& aParentRect);
+
+TAknWindowLineLayout Pop_up_menu_with_heading_window_graphics_Line_4(const TRect& aParentRect);
+
+TAknWindowLineLayout Pop_up_menu_with_heading_window_graphics_Line_5(const TRect& aParentRect);
+
+TAknLayoutTableLimits Pop_up_menu_with_heading_window_graphics_Limits();
+
+TAknWindowLineLayout Pop_up_menu_with_heading_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Menu pop-up window descendants
+TAknWindowLineLayout list_menu_pane(TInt aIndex_t, TInt aIndex_H);
+
+TAknWindowLineLayout Menu_pop_up_window_descendants_Line_2();
+
+// LAF Table : Menu pop-up window graphics
+TAknWindowLineLayout Menu_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Menu_pop_up_window_graphics_Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout Menu_pop_up_window_graphics_Line_3(const TRect& aParentRect);
+
+TAknWindowLineLayout Menu_pop_up_window_graphics_Line_4(const TRect& aParentRect);
+
+TAknWindowLineLayout Menu_pop_up_window_graphics_Line_5(const TRect& aParentRect);
+
+TAknLayoutTableLimits Menu_pop_up_window_graphics_Limits();
+
+TAknWindowLineLayout Menu_pop_up_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Submenu pop-up window descendants
+TAknWindowLineLayout list_submenu_pane(TInt aIndex_W, TInt aIndex_H);
+
+// LAF Table : Submenu pop-up window graphics
+TAknWindowLineLayout Submenu_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Submenu_pop_up_window_graphics_Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout Submenu_pop_up_window_graphics_Line_3(const TRect& aParentRect);
+
+TAknWindowLineLayout Submenu_pop_up_window_graphics_Line_4(const TRect& aParentRect);
+
+TAknLayoutTableLimits Submenu_pop_up_window_graphics_Limits();
+
+TAknWindowLineLayout Submenu_pop_up_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Submenu pop-up window positioning
+TAknWindowLineLayout Submenu_pop_up_window_positioning_Line_1(TInt aIndex_W, TInt aIndex_H);
+
+TAknWindowLineLayout Submenu_pop_up_window_positioning_Line_2(TInt aIndex_W, TInt aIndex_H);
+
+TAknLayoutTableLimits Submenu_pop_up_window_positioning_Limits();
+
+TAknWindowLineLayout Submenu_pop_up_window_positioning(TInt aLineIndex, TInt aIndex_W, TInt aIndex_H);
+
+// LAF Table : Menu pop-up window descendant (single graphic)
+TAknWindowLineLayout list_menu_graphic_pane(TInt aIndex_t, TInt aIndex_H);
+
+// LAF Table : Menu pop-up window descendants (single heading)
+TAknWindowLineLayout list_menu_heading_pane(TInt aIndex_t, TInt aIndex_H);
+
+TAknWindowLineLayout Menu_pop_up_window_descendants__single_heading__Line_2();
+
+TAknWindowLineLayout Menu_pop_up_window_descendants__single_heading__Line_3(TInt aIndex_r);
+
+// LAF Table : Menu pop-up window descendants and elements (single graphic heading)
+TAknWindowLineLayout list_menu_graphic_heading_pane(TInt aIndex_t, TInt aIndex_H);
+
+TAknWindowLineLayout Menu_pop_up_window_descendants_and_elements__single_graphic_heading__Line_2();
+
+TAknWindowLineLayout Menu_pop_up_window_descendants_and_elements__single_graphic_heading__Line_3(TInt aIndex_r);
+
+// LAF Table : Menu pop-up window descendants (double double2)
+TAknWindowLineLayout list_menu_double_pane_list_menu_double2_pane(TInt aIndex_t, TInt aIndex_H);
+
+TAknWindowLineLayout Menu_pop_up_window_descendants__double_double2__Line_2();
+
+// LAF Table : Menu pop-up window descendants (double)
+TAknWindowLineLayout list_menu_double_large_graphic_pane(TInt aIndex_t, TInt aIndex_H);
+
+TAknWindowLineLayout Menu_pop_up_window_descendants__double__Line_2();
+
+// LAF Table : Note pop-up window elements
+TAknWindowLineLayout Note_pop_up_window_elements_Line_1();
+
+// LAF Table : Note pop-up window texts
+TAknTextLineLayout Note_pop_up_window_texts_Line_1(TInt aCommon1);
+
+TAknMultiLineTextLayout Multiline_Note_pop_up_window_texts_Line_1(TInt aCommon1, TInt aNumberOfLinesShown);
+
+// LAF Table : Note pop-up window graphics
+TAknWindowLineLayout Note_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Note_pop_up_window_graphics_Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout Note_pop_up_window_graphics_Line_3(const TRect& aParentRect);
+
+TAknWindowLineLayout Note_pop_up_window_graphics_Line_4(const TRect& aParentRect);
+
+TAknWindowLineLayout Note_pop_up_window_graphics_Line_5(const TRect& aParentRect);
+
+TAknLayoutTableLimits Note_pop_up_window_graphics_Limits();
+
+TAknWindowLineLayout Note_pop_up_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Wait or progress note pop-up window elements
+TAknWindowLineLayout Wait_or_progress_note_pop_up_window_elements_Line_1();
+
+TAknWindowLineLayout Wait_or_progress_note_pop_up_window_elements_Line_2(TInt aIndex_t);
+
+TAknWindowLineLayout Wait_or_progress_note_pop_up_window_elements_Line_3();
+
+TAknWindowLineLayout Wait_or_progress_note_pop_up_window_elements_Line_4();
+
+TAknLayoutTableLimits First_general_event_elements_Limits();
+
+TAknWindowLineLayout First_general_event_elements(TInt aLineIndex);
+
+// LAF Table : Wait or progress note pop-up window texts
+TAknTextLineLayout Wait_or_progress_note_pop_up_window_texts_Line_1(TInt aCommon1, TInt aNotCommon, TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Wait_or_progress_note_pop_up_window_texts_Line_1(TInt aCommon1, TInt aNotCommon, TInt aNumberOfLinesShown);
+
+// LAF Table : Note with an image pop-up window elements
+TAknWindowLineLayout Note_with_an_image_pop_up_window_elements_Line_1();
+
+TAknWindowLineLayout Note_with_an_image_pop_up_window_elements_Line_2();
+
+TAknWindowLineLayout Note_with_an_image_pop_up_window_elements_Line_3();
+
+TAknWindowLineLayout Note_with_an_image_pop_up_window_elements_Line_4();
+
+TAknWindowLineLayout Note_with_an_image_pop_up_window_elements_Line_5();
+
+TAknWindowLineLayout Note_with_an_image_pop_up_window_elements_Line_6();
+
+TAknWindowLineLayout Note_with_an_image_pop_up_window_elements_Line_7();
+
+TAknWindowLineLayout Note_with_an_image_pop_up_window_elements_Line_8();
+
+TAknWindowLineLayout Note_with_an_image_pop_up_window_elements_Line_9();
+
+TAknWindowLineLayout Note_with_an_image_pop_up_window_elements_Line_10();
+
+TAknWindowLineLayout Note_with_an_image_pop_up_window_elements_Line_11();
+
+TAknWindowLineLayout Note_with_an_image_pop_up_window_elements_Line_12();
+
+TAknWindowLineLayout Note_with_an_image_pop_up_window_elements_Line_13();
+
+TAknLayoutTableLimits Note_with_an_image_pop_up_window_elements_Limits();
+
+TAknWindowLineLayout Note_with_an_image_pop_up_window_elements(TInt aLineIndex);
+
+// LAF Table : Note with an image pop-up window texts
+TAknTextLineLayout Note_with_an_image_pop_up_window_texts_Line_1(TInt aIndex_l, TInt aIndex_r, TInt aIndex_B, TInt aIndex_W);
+
+TAknMultiLineTextLayout Multiline_Note_with_an_image_pop_up_window_texts_Line_1(TInt aIndex_l, TInt aIndex_r, TInt aIndex_W, TInt aNumberOfLinesShown);
+
+// LAF Table : Query with heading window graphics
+TAknWindowLineLayout Query_with_heading_window_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Query_with_heading_window_graphics_Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout Query_with_heading_window_graphics_Line_3(const TRect& aParentRect);
+
+TAknWindowLineLayout Query_with_heading_window_graphics_Line_4(const TRect& aParentRect);
+
+TAknWindowLineLayout Query_with_heading_window_graphics_Line_5(const TRect& aParentRect);
+
+TAknLayoutTableLimits Query_with_heading_window_graphics_Limits();
+
+TAknWindowLineLayout Query_with_heading_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Query with heading window descendants
+TAknWindowLineLayout popup_list_heading_pane(const TRect& aParentRect);
+
+// LAF Table : Heading pane elements
+TAknWindowLineLayout Heading_pane_elements_Line_1();
+
+TAknWindowLineLayout Icon(TInt aIndex_t);
+//TAknWindowLineLayout Icon();
+
+
+//TAknLayoutTableLimits Heading_pane_elements_SUB_TABLE_0_Limits();
+//TAknLayoutTableLimits Heading_pane_elements_Limits();
+
+//TAknWindowLineLayout Heading_pane_elements_SUB_TABLE_0(TInt aLineIndex);
+//TAknWindowLineLayout Heading_pane_elements_(TInt aLineIndex);
+
+// LAF Table : Heading pane texts
+TAknTextLineLayout Heading_pane_texts_Line_1(TInt aIndex_W);
+
+// LAF Table : Data query pop-up window elements
+TAknWindowLineLayout Data_query_pop_up_window_elements_Line_1(TInt aIndex_t);
+
+TAknWindowLineLayout Data_query_pop_up_window_elements_Line_2(const TRect& aParentRect, TInt aCommon1);
+
+TAknWindowLineLayout Data_query_pop_up_window_elements_Line_3(const TRect& aParentRect, TInt aCommon1);
+
+TAknWindowLineLayout Data_query_pop_up_window_elements_Line_4(TInt aIndex_t);
+
+TAknWindowLineLayout Data_query_pop_up_window_elements_Line_5();
+
+// LAF Table : Data query pop-up window texts
+TAknTextLineLayout Data_query_pop_up_window_texts_Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Data_query_pop_up_window_texts_Line_1(TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Data_query_pop_up_window_texts_Line_2(TInt aIndex_B, TInt aIndex_J);
+
+TAknMultiLineTextLayout Multiline_Data_query_pop_up_window_texts_Line_2(TInt aIndex_J, TInt aNumberOfLinesShown);
+
+// LAF Table : Data query pop-up window graphics
+TAknWindowLineLayout Data_query_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Data_query_pop_up_window_graphics_Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout Data_query_pop_up_window_graphics_Line_3(const TRect& aParentRect);
+
+TAknWindowLineLayout Data_query_pop_up_window_graphics_Line_4(const TRect& aParentRect);
+
+TAknWindowLineLayout Data_query_pop_up_window_graphics_Line_5(const TRect& aParentRect);
+
+TAknLayoutTableLimits Data_query_pop_up_window_graphics_Limits();
+
+TAknWindowLineLayout Data_query_pop_up_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Code query pop-up window elements
+TAknWindowLineLayout Code_query_pop_up_window_elements_Line_1(TInt aIndex_t);
+
+TAknWindowLineLayout Code_query_pop_up_window_elements_Line_2(TInt aIndex_t);
+
+TAknWindowLineLayout Code_query_pop_up_window_elements_Line_3(TInt aIndex_t);
+
+TAknWindowLineLayout Code_query_pop_up_window_elements_Line_4(TInt aIndex_t);
+
+TAknLayoutTableLimits Code_query_pop_up_window_elements_Limits();
+
+TAknWindowLineLayout Code_query_pop_up_window_elements(TInt aLineIndex, TInt aIndex_t);
+
+// LAF Table : Code query pop-up window texts
+TAknTextLineLayout Code_query_pop_up_window_texts_Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Code_query_pop_up_window_texts_Line_1(TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Code_query_pop_up_window_texts_Line_2(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Code_query_pop_up_window_texts_Line_2(TInt aNumberOfLinesShown);
+
+TAknLayoutTableLimits Code_query_pop_up_window_texts_Limits();
+
+TAknTextLineLayout Code_query_pop_up_window_texts(TInt aLineIndex, TInt aIndex_B);
+
+// LAF Table : Combined data and code query pop-up window elements
+TAknWindowLineLayout Combined_data_and_code_query_pop_up_window_elements_Line_1(TInt aIndex_C, TInt aIndex_t);
+
+TAknWindowLineLayout Combined_data_and_code_query_pop_up_window_elements_Line_2(TInt aIndex_C, TInt aIndex_t);
+
+TAknWindowLineLayout Combined_data_and_code_query_pop_up_window_elements_Line_3(TInt aIndex_t);
+
+TAknWindowLineLayout Combined_data_and_code_query_pop_up_window_elements_Line_4(TInt aIndex_t);
+
+TAknWindowLineLayout Combined_data_and_code_query_pop_up_window_elements_Line_5(TInt aIndex_t);
+
+// LAF Table : Combined data and code query pop-up window texts
+TAknTextLineLayout Combined_data_and_code_query_pop_up_window_texts_Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Combined_data_and_code_query_pop_up_window_texts_Line_1(TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Combined_data_and_code_query_pop_up_window_texts_Line_2(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Combined_data_and_code_query_pop_up_window_texts_Line_2(TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Combined_data_and_code_query_pop_up_window_texts_Line_3(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Combined_data_and_code_query_pop_up_window_texts_Line_3(TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Combined_data_and_code_query_pop_up_window_texts_Line_4(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Combined_data_and_code_query_pop_up_window_texts_Line_4(TInt aNumberOfLinesShown);
+
+TAknLayoutTableLimits Combined_data_and_code_query_pop_up_window_texts_Limits();
+
+TAknTextLineLayout Combined_data_and_code_query_pop_up_window_texts(TInt aLineIndex, TInt aIndex_B);
+
+// LAF Table : Combined data and code query pop-up window graphics
+TAknWindowLineLayout Combined_data_and_code_query_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Combined_data_and_code_query_pop_up_window_graphics_Line_2(const TRect& aParentRect, TInt aIndex_H);
+
+TAknWindowLineLayout Combined_data_and_code_query_pop_up_window_graphics_Line_3(const TRect& aParentRect, TInt aIndex_H);
+
+TAknWindowLineLayout Combined_data_and_code_query_pop_up_window_graphics_Line_4(const TRect& aParentRect, TInt aIndex_H);
+
+TAknWindowLineLayout Combined_data_and_code_query_pop_up_window_graphics_Line_5(const TRect& aParentRect, TInt aIndex_H);
+
+TAknLayoutTableLimits Combined_data_and_code_query_pop_up_window_graphics_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Combined_data_and_code_query_pop_up_window_graphics_SUB_TABLE_0(TInt aLineIndex, const TRect& aParentRect, TInt aIndex_H);
+
+// LAF Table : Find pop-up window elements
+TAknWindowLineLayout Find_pop_up_window_elements_Line_1();
+
+TAknWindowLineLayout Find_pop_up_window_elements_Line_2();
+
+TAknWindowLineLayout Find_pop_up_window_elements_Line_3();
+
+TAknWindowLineLayout Find_pop_up_window_elements_Line_4();
+
+TAknLayoutTableLimits Find_pop_up_window_elements_Limits();
+
+TAknWindowLineLayout Find_pop_up_window_elements(TInt aLineIndex);
+
+// LAF Table : Find pop-up window texts
+TAknTextLineLayout Find_pop_up_window_texts_Line_1();
+
+// LAF Table : Find pop-up window graphics
+TAknWindowLineLayout Find_pop_up_window_graphics_Line_1();
+
+TAknWindowLineLayout Find_pop_up_window_graphics_Line_2();
+
+TAknWindowLineLayout Find_pop_up_window_graphics_Line_3();
+
+TAknWindowLineLayout Find_pop_up_window_graphics_Line_4();
+
+TAknWindowLineLayout Find_pop_up_window_graphics_Line_5();
+
+TAknLayoutTableLimits Find_pop_up_window_graphics_Limits();
+
+TAknWindowLineLayout Find_pop_up_window_graphics(TInt aLineIndex);
+
+// LAF Table : Pop-up menu with find pane graphics
+TAknWindowLineLayout Pop_up_menu_with_find_pane_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Pop_up_menu_with_find_pane_graphics_Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout Pop_up_menu_with_find_pane_graphics_Line_3(const TRect& aParentRect);
+
+TAknWindowLineLayout Pop_up_menu_with_find_pane_graphics_Line_4(const TRect& aParentRect);
+
+TAknWindowLineLayout Pop_up_menu_with_find_pane_graphics_Line_5(const TRect& aParentRect);
+
+TAknLayoutTableLimits Pop_up_menu_with_find_pane_graphics_Limits();
+
+TAknWindowLineLayout Pop_up_menu_with_find_pane_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Notification pop-up window elements (text)
+TAknWindowLineLayout Notification_pop_up_window_elements__text__Line_1();
+
+// LAF Table : Notification pop-up window texts (text)
+TAknTextLineLayout Notification_pop_up_window_texts__text__Line_1(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Notification_pop_up_window_texts__text__Line_1(TInt aNumberOfLinesShown);
+
+// LAF Table : Notification pop-up window graphics (text)
+TAknWindowLineLayout Notification_pop_up_window_graphics__text__Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Notification_pop_up_window_graphics__text__Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout Notification_pop_up_window_graphics__text__Line_3(const TRect& aParentRect);
+
+TAknWindowLineLayout Notification_pop_up_window_graphics__text__Line_4(const TRect& aParentRect);
+
+TAknWindowLineLayout Notification_pop_up_window_graphics__text__Line_5(const TRect& aParentRect);
+
+TAknLayoutTableLimits Notification_pop_up_window_graphics__text__Limits();
+
+TAknWindowLineLayout Notification_pop_up_window_graphics__text_(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Notification pop-up window elements (graphic)
+TAknWindowLineLayout Notification_pop_up_window_elements__graphic__Line_1();
+
+TAknWindowLineLayout Notification_pop_up_window_elements__graphic__Line_2();
+
+TAknLayoutTableLimits Notification_pop_up_window_elements__graphic__Limits();
+
+TAknWindowLineLayout Notification_pop_up_window_elements__graphic_(TInt aLineIndex);
+
+// LAF Table : Notification pop-up window texts (graphic)
+TAknTextLineLayout Notification_pop_up_window_texts__graphic__Line_1(TInt aCommon1);
+
+TAknMultiLineTextLayout Multiline_Notification_pop_up_window_texts__graphic__Line_1(TInt aCommon1, TInt aNumberOfLinesShown);
+
+// LAF Table : Identifier icon selection pop-up window descendants
+TAknWindowLineLayout Identifier_icon_selection_pop_up_window_descendants_Line_1(TInt aIndex_t);
+
+TAknWindowLineLayout grid_graphic_popup_pane(TInt aCommon1, TInt aIndex_H);
+
+// LAF Table : Identifier icon selection pop-up window elements
+TAknWindowLineLayout Identifier_icon_selection_pop_up_window_elements_Line_1(TInt aCommon1);
+
+TAknWindowLineLayout Identifier_icon_selection_pop_up_window_elements_Line_2(TInt aIndex_l, TInt aIndex_t, TInt aIndex_H);
+
+// LAF Table : Identifier icon selection pop-up window graphics
+TAknWindowLineLayout Identifier_icon_selection_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Identifier_icon_selection_pop_up_window_graphics_Line_2(const TRect& aParentRect, TInt aIndex_t);
+
+TAknWindowLineLayout Identifier_icon_selection_pop_up_window_graphics_Line_3(const TRect& aParentRect, TInt aIndex_t);
+
+TAknWindowLineLayout Identifier_icon_selection_pop_up_window_graphics_Line_4(const TRect& aParentRect, TInt aIndex_t);
+
+TAknWindowLineLayout Identifier_icon_selection_pop_up_window_graphics_Line_5(const TRect& aParentRect, TInt aIndex_t);
+
+TAknLayoutTableLimits Identifier_icon_selection_pop_up_window_graphics_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Identifier_icon_selection_pop_up_window_graphics_SUB_TABLE_0(TInt aLineIndex, const TRect& aParentRect, TInt aIndex_t);
+
+// LAF Table : Colour selection pop-up window descendants
+TAknWindowLineLayout Colour_selection_pop_up_window_descendants_Line_1();
+
+TAknWindowLineLayout Colour_selection_pop_up_window_descendants_Line_2();
+
+TAknWindowLineLayout grid_large_graphic_colour_popup_pane(TInt aCommon1);
+
+// LAF Table : Composer symbol selection pop-up window elements
+TAknWindowLineLayout Composer_symbol_selection_pop_up_window_elements_Line_1(TInt aIndex_t);
+
+TAknWindowLineLayout Composer_symbol_selection_pop_up_window_elements_Line_2(TInt aIndex_l, TInt aIndex_t, TInt aIndex_W, TInt aIndex_H);
+
+// LAF Table : Colour selection pop-up window graphics
+TAknWindowLineLayout Colour_selection_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Colour_selection_pop_up_window_graphics_Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout Colour_selection_pop_up_window_graphics_Line_3(const TRect& aParentRect);
+
+TAknWindowLineLayout Colour_selection_pop_up_window_graphics_Line_4(const TRect& aParentRect);
+
+TAknWindowLineLayout Colour_selection_pop_up_window_graphics_Line_5(const TRect& aParentRect);
+
+TAknLayoutTableLimits Colour_selection_pop_up_window_graphics_Limits();
+
+TAknWindowLineLayout Colour_selection_pop_up_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : Fast application swapping pop-up window descendants
+TAknWindowLineLayout Fast_application_swapping_pop_up_window_descendants_Line_1(TInt aIndex_t);
+
+// LAF Table : Fast application swapping pop-up window graphics
+TAknWindowLineLayout Fast_application_swapping_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+
+TAknWindowLineLayout Fast_application_swapping_pop_up_window_graphics_Line_2(const TRect& aParentRect);
+
+TAknWindowLineLayout Fast_application_swapping_pop_up_window_graphics_Line_3(const TRect& aParentRect);
+
+TAknWindowLineLayout Fast_application_swapping_pop_up_window_graphics_Line_4(const TRect& aParentRect);
+
+TAknWindowLineLayout Fast_application_swapping_pop_up_window_graphics_Line_5(const TRect& aParentRect);
+
+TAknWindowLineLayout Fast_application_swapping_pop_up_window_graphics_Line_6();
+
+TAknLayoutTableLimits Fast_application_swapping_pop_up_window_graphics_SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout Fast_application_swapping_pop_up_window_graphics_SUB_TABLE_0(TInt aLineIndex, const TRect& aParentRect);
+
+// LAF Table : List pane texts (setting, double2)
+TAknTextLineLayout List_pane_texts__setting__double2__Line_1();
+
+TAknTextLineLayout List_pane_texts__setting__double2__Line_2();
+
+TAknLayoutTableLimits List_pane_texts__setting__double2__Limits();
+
+TAknTextLineLayout List_pane_texts__setting__double2_(TInt aLineIndex);
+
+// LAF Table : List pane elements (single 2graphic)
+TAknWindowLineLayout List_pane_elements__single_2graphic__Line_1();
+
+TAknWindowLineLayout List_pane_elements__single_2graphic__Line_2();
+
+TAknWindowLineLayout List_pane_elements__single_2graphic__Line_3();
+
+TAknWindowLineLayout List_pane_elements__single_2graphic__Line_4(TInt aIndex_l);
+
+TAknLayoutTableLimits List_pane_elements__single_2graphic__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_pane_elements__single_2graphic__SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : List pane texts (single 2graphic)
+TAknTextLineLayout List_pane_texts__single_2graphic__Line_1(TInt aIndex_r, TInt aIndex_W);
+
+// LAF Table : List pane elements (double2 graphic large graphic)
+TAknWindowLineLayout List_pane_elements__double2_graphic_large_graphic__Line_1();
+
+TAknWindowLineLayout List_pane_elements__double2_graphic_large_graphic__Line_2();
+
+TAknWindowLineLayout List_pane_elements__double2_graphic_large_graphic__Line_3();
+
+TAknWindowLineLayout List_pane_elements__double2_graphic_large_graphic__Line_4(TInt aIndex_l);
+
+TAknLayoutTableLimits List_pane_elements__double2_graphic_large_graphic__SUB_TABLE_0_Limits();
+
+TAknWindowLineLayout List_pane_elements__double2_graphic_large_graphic__SUB_TABLE_0(TInt aLineIndex);
+
+// LAF Table : List pane texts (double2 graphic large graphic)
+TAknTextLineLayout List_pane_texts__double2_graphic_large_graphic__Line_1(TInt aCommon1);
+
+TAknTextLineLayout List_pane_texts__double2_graphic_large_graphic__Line_2();
+
+// LAF Table : Form data wide graphic field texts
+TAknTextLineLayout Form_data_wide_graphic_field_texts_Line_1();
+
+TAknTextLineLayout Form_data_wide_graphic_field_texts_Line_2(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Form_data_wide_graphic_field_texts_Line_2(TInt aNumberOfLinesShown);
+
+// LAF Table : Application window descendants 2.1
+TAknWindowLineLayout status_small_pane();
+
+// LAF Table : Small status pane descendants and elements
+TAknWindowLineLayout Small_status_pane_descendants_and_elements_Line_1();
+
+TAknWindowLineLayout status_small_icon_pane();
+
+TAknWindowLineLayout status_small_wait_pane();
+
+TAknWindowLineLayout Small_status_pane_descendants_and_elements_Line_4();
+
+TAknWindowLineLayout Small_status_pane_descendants_and_elements_Line_5();
+
+TAknWindowLineLayout Small_status_pane_descendants_and_elements_Line_6();
+
+TAknLayoutTableLimits Small_status_pane_descendants_and_elements_Limits();
+
+TAknWindowLineLayout Small_status_pane_descendants_and_elements(TInt aLineIndex);
+
+// LAF Table : Small status pane texts
+TAknTextLineLayout Small_status_pane_texts_Line_1(TInt aIndex_J);
+
+// LAF Table : Small status waiting pane components
+TAknWindowLineLayout Small_status_waiting_pane_components_Line_1();
+
+TAknWindowLineLayout Small_status_waiting_pane_components_Line_2();
+
+TAknWindowLineLayout Small_status_waiting_pane_components_Line_3();
+
+TAknWindowLineLayout Small_status_waiting_pane_components_Line_4();
+
+TAknLayoutTableLimits Small_status_waiting_pane_components_Limits();
+
+TAknWindowLineLayout Small_status_waiting_pane_components(TInt aLineIndex);
+
+// Layouts for AknPopupForm
+TAknWindowLineLayout Note_with_additional_information_popup_window_elements_Line_1();
+
+TAknWindowLineLayout Note_with_additional_information_popup_window_elements_Line_2(TInt aIndex_W);
+
+TAknWindowLineLayout Note_with_additional_information_popup_window_elements_Line_3(TInt aIndex_W);
+
+
+TAknTextLineLayout Note_with_additional_information_popup_window_texts_Line_1(TInt aCommon1, TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Note_with_additional_information_popup_window_texts_Line_1(TInt aCommon1, TInt aNumberOfLinesShown);
+
+
+TAknTextLineLayout Note_with_additional_information_popup_window_texts_Line_2(TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Note_with_additional_information_popup_window_texts_Line_2(TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Note_with_additional_information_popup_window_texts_Line_3(TInt aCommon1, TInt aIndex_B);
+
+TAknMultiLineTextLayout Multiline_Note_with_additional_information_popup_window_texts_Line_3(TInt aCommon1, TInt aNumberOfLinesShown);
+
+TAknTextLineLayout Heading_pane_texts_Line_2();
+
+
+TAknWindowLineLayout Side_volume_key_popup_window_elements_Line_1();
+TAknWindowLineLayout Side_volume_key_popup_window_elements_Line_2();
+
+TAknTextLineLayout Side_volume_key_popup_window_texts_Line_1();
+TAknTextLineLayout Side_volume_key_popup_window_texts_Line_2();
+
+TAknWindowLineLayout Side_volume_key_popup_window_background_Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Side_volume_key_popup_window_background_Line_2(const TRect& aParentRect);
+TAknWindowLineLayout Side_volume_key_popup_window_background_Line_3(const TRect& aParentRect);
+TAknWindowLineLayout Side_volume_key_popup_window_background_Line_4(const TRect& aParentRect);
+
+// LAF Table : Transparent setting item texts
+TAknTextLineLayout Transparent_setting_item_texts_Line_1();
+TAknTextLineLayout Transparent_setting_item_texts_Line_2();
+TAknTextLineLayout Transparent_setting_item_texts_Line_3(TInt aCommon1);
+TAknTextLineLayout Transparent_setting_item_texts_Line_4(TInt aCommon1);
+
+// LAF Table : List pane texts (set trans graphic)
+TAknTextLineLayout List_pane_texts__set_trans_graphic__Line_1(TInt aIndex_l, TInt aIndex_W);
+TAknTextLineLayout List_pane_texts__set_trans_graphic__Line_2(TInt aIndex_l, TInt aIndex_W);
+
+// LAF Table : List pane elements and descendants (settings edited)
+TAknWindowLineLayout list_set_trans_pane(TInt aIndex_H);
+
+// LAF Table : AVKON specific list pane
+TAknWindowLineLayout list_set_trans_graphic_pane(TInt aIndex_t);
+
+// LAF Table : List pane elements (set trans graphic)
+TAknWindowLineLayout List_pane_elements__set_trans_graphic__Line_1();
+
+TAknWindowLineLayout List_pane_elements__set_trans_graphic__Line_2();
+
+TAknWindowLineLayout List_pane_elements__set_trans_graphic__Line_3();
+
+TAknWindowLineLayout List_pane_elements__set_trans_graphic__Line_4();
+
+TAknWindowLineLayout List_pane_elements__set_trans_graphic__Line_5();
+
+// Active idle state layouts
+TAknTextLineLayout Soft_indicator_texts_Line_1();
+TAknWindowLineLayout ai_links_pane();
+TAknWindowLineLayout ai_gene_pane(TInt aIndex_H);
+TAknWindowLineLayout Link_pane_elements_and_descendant_panes_Line_1();
+TAknWindowLineLayout grid_ai_links_pane();
+TAknLayoutTableLimits Link_pane_elements_and_descendant_panes_Limits();
+TAknWindowLineLayout Link_pane_elements_and_descendant_panes(TInt aLineIndex);
+TAknWindowLineLayout cell_ai_link_pane(TInt aIndex_l);
+TAknWindowLineLayout Link_shortcut_cell_pane_elements_Line_1();
+TAknWindowLineLayout Link_shortcut_cell_pane_elements_Line_2();
+TAknWindowLineLayout Link_shortcut_cell_pane_elements_Line_3();
+TAknWindowLineLayout Link_shortcut_cell_pane_elements_Line_4();
+TAknLayoutTableLimits Link_shortcut_cell_pane_elements_Limits();
+TAknWindowLineLayout Link_shortcut_cell_pane_elements(TInt aLineIndex);
+TAknWindowLineLayout popup_ai_links_title_window();
+TAknTextLineLayout Link_shortcut_title_texts_Line_1();
+TAknWindowLineLayout Link_shortcut_title_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Link_shortcut_title_pop_up_window_graphics_Line_2(const TRect& aParentRect);
+TAknWindowLineLayout Link_shortcut_title_pop_up_window_graphics_Line_3(const TRect& aParentRect);
+TAknWindowLineLayout Link_shortcut_title_pop_up_window_graphics_Line_4(const TRect& aParentRect);
+TAknLayoutTableLimits Link_shortcut_title_pop_up_window_graphics_Limits();
+TAknWindowLineLayout Link_shortcut_title_pop_up_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+TAknWindowLineLayout ai_gene_pane_1();
+TAknWindowLineLayout ai_gene_pane_2(TInt aIndex_t);
+TAknWindowLineLayout First_general_event_elements_Line_1();
+TAknWindowLineLayout First_general_event_elements_Line_2();
+TAknTextLineLayout First_general_event_texts_Line_1(TInt aCommon1);
+TAknTextLineLayout Second_general_event_pane_texts_Line_1(TInt aCommon1);
+TAknWindowLineLayout Shortcut_link_highlight_Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Highlight_for_other_Active_Idle_items_Line_1(const TRect& aParentRect);
+TAknTextLineLayout Find_pop_up_window_texts_Line_2();
+TAknLayoutTableLimits Find_pop_up_window_texts_Limits();
+TAknTextLineLayout Find_pop_up_window_texts(TInt aLineIndex);
+TAknTextLineLayout Find_pane_texts_Line_2();
+TAknLayoutTableLimits Find_pane_texts_Limits();
+TAknTextLineLayout Find_pane_texts(TInt aLineIndex);
+
+TAknWindowLineLayout ai_gene_pane_3();
+TAknWindowLineLayout Third_general_event_elements_Line_1();
+TAknWindowLineLayout Third_general_event_elements_Line_2();
+TAknLayoutTableLimits Third_general_event_elements_Limits();
+TAknWindowLineLayout Third_general_event_elements(TInt aLineIndex);
+TAknWindowLineLayout popup_ai_message_window();
+
+TAknWindowLineLayout Active_idle_message_pop_up_window_descendants_Line_1();
+TAknWindowLineLayout Active_idle_message_pop_up_window_descendants_Line_2();
+TAknWindowLineLayout Active_idle_message_pop_up_window_descendants_Line_3();
+TAknLayoutTableLimits Active_idle_message_pop_up_window_descendants_Limits();
+TAknWindowLineLayout Active_idle_message_pop_up_window_descendants(TInt aLineIndex);
+TAknTextLineLayout Active_idle_message_popup_window_texts_Line_1(TInt aCommon1, TInt aIndex_B);
+TAknMultiLineTextLayout Multiline_Active_idle_message_popup_window_texts_Line_1(TInt aCommon1, TInt aNumberOfLinesShown);
+TAknWindowLineLayout Active_idle_heading_pane_elements_Line_1();
+TAknWindowLineLayout Active_idle_heading_pane_elements_Line_2();
+TAknWindowLineLayout Active_idle_heading_pane_elements_Line_3();
+TAknWindowLineLayout Active_idle_heading_pane_elements_Line_4();
+TAknLayoutTableLimits Active_idle_heading_pane_elements_Limits();
+TAknWindowLineLayout Active_idle_heading_pane_elements(TInt aLineIndex);
+TAknTextLineLayout Active_idle_heading_pane_texts_Line_1(TInt aCommon1);
+TAknTextLineLayout Active_idle_heading_pane_texts_Line_2();
+TAknWindowLineLayout Active_idle_message_pop_up_window_graphics_Line_1(const TRect& aParentRect);
+TAknWindowLineLayout Active_idle_message_pop_up_window_graphics_Line_2(const TRect& aParentRect);
+TAknWindowLineLayout Active_idle_message_pop_up_window_graphics_Line_3(const TRect& aParentRect);
+TAknWindowLineLayout Active_idle_message_pop_up_window_graphics_Line_4(const TRect& aParentRect);
+TAknWindowLineLayout Active_idle_message_pop_up_window_graphics_Line_5(const TRect& aParentRect);
+TAknLayoutTableLimits Active_idle_message_pop_up_window_graphics_Limits();
+TAknWindowLineLayout Active_idle_message_pop_up_window_graphics(TInt aLineIndex, const TRect& aParentRect);
+
+
+

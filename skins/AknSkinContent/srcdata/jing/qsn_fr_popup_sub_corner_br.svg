@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="8" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-0.166 0.495 8 8" height="8" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <path fill="#656b6b" d="M 7.775 0.495 L -0.16599989 0.495 L -0.16599989 8.436 C 3.998 7.974 7.313 4.661 7.775 0.495 z " fill-opacity="0.01"/>
+    <path fill="#656b6b" d="M -0.166 7.427 C 3.4450002 6.974 6.3110003 4.1070004 6.7650003 0.4949999 L -0.16599989 0.4949999 L -0.16599989 7.427 z " fill-opacity="0.02"/>
+    <path fill="#656b6b" d="M -0.166 6.415 C 2.8930001 5.976 5.313 3.554 5.754 0.4949999 L -0.16599989 0.4949999 L -0.16599989 6.415 z " fill-opacity="0.04"/>
+    <path fill="#656b6b" d="M -0.166 5.405 C 2.342 4.9810004 4.32 3.0030003 4.744 0.49500036 L -0.16599989 0.49500036 L -0.16599989 5.405 z " fill-opacity="0.07"/>
+    <path fill="#656b6b" d="M -0.166 4.394 C 1.79 3.996 3.334 2.453 3.732 0.49600005 L -0.16599989 0.49600005 L -0.16599989 4.394 z " fill-opacity="0.11"/>
+    <path fill="#656b6b" d="M -0.166 3.354 C 1.232 2.989 2.328 1.8950001 2.6910002 0.49500012 L -0.16599989 0.49500012 L -0.16599989 3.354 z " fill-opacity="0.13"/>
+    <path fill="#656b6b" d="M -0.166 2.312 C 0.682 2.011 1.349 1.345 1.65 0.495 L -0.16600001 0.495 L -0.16600001 2.312 z " fill-opacity="0.1"/>
+    <rect x="-0.166" y="0.495" fill-opacity="0.02" fill="#656b6b" width="3" height="3"/>
+    <linearGradient x1="35.37" y1="34.1" x2="-143.63" gradientUnits="userSpaceOnUse" y2="-134.9" xlink:type="simple" xlink:actuate="onLoad" id="_2" xlink:show="other">
+        <stop stop-color="#ffe4e1" offset="0"/>
+        <stop stop-color="#ffe4e1" offset="0.24"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <rect x="-0.166" width="2" fill="url(#_2)" y="0.495" height="2"/>
+</svg>

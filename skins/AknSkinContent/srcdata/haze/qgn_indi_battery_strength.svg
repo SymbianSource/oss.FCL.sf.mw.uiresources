@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="41.379" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="28.622 0 41.379 100" height="100" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <rect x="28.622" width="41.379" fill="none" height="100"/>
+    <g>
+        <polygon fill="#ffffff" fill-opacity="0.95" points="51.344,83.201 66.642,83.201 66.642,69.898 48.147,69.898  "/>
+        <polygon fill="#ffffff" points="51.344,83.201 54.541,96.504 66.642,96.504 66.642,83.201  "/>
+        <polygon fill="#ffffff" fill-opacity="0.9" points="48.147,69.898 66.642,69.898 66.642,56.602 44.95,56.602  "/>
+        <polygon fill="#ffffff" fill-opacity="0.85" points="44.95,56.602 66.642,56.602 66.642,43.299 41.752,43.299  "/>
+        <polygon fill="#ffffff" fill-opacity="0.75" points="38.553,30.002 66.642,30.002 66.642,16.7 35.358,16.7  "/>
+        <polygon fill="#ffffff" fill-opacity="0.7" points="35.358,16.7 66.642,16.7 66.642,3.4 32.159,3.4  "/>
+        <polygon fill="#ffffff" fill-opacity="0.8" points="41.752,43.299 66.642,43.299 66.642,30.002 38.553,30.002  "/>
+    </g>
+</svg>

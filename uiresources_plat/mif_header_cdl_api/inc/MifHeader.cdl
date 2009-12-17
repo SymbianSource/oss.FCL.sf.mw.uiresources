@@ -1,0 +1,20 @@
+Name: MifHeader
+Version: 1.0
+UID: 0x102827ce
+
+%% C++
+
+// from AknIconLoader.h
+// In MIF file version 2+, bitmap icons are identified in the bitmap offset array
+// with iOffset being <=0. In that case, -iOffset means the corresponding MBM ID,
+// which can be used for CFbsBitmap::Load.
+
+struct TMifBitmapOffsetElement
+    {
+    TInt32 iOffset; // pointer to icon. icon = header + data.
+    TInt32 iLength; // combined length of TMifIconHeader and its data.
+    };
+
+%% API
+
+TCdlArray<TMifBitmapOffsetElement>	indicies;

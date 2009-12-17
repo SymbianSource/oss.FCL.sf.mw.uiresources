@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.0" width="100px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 69.049" height="69.049px" x="0px" y="0px">
+    <g>
+        <g>
+            <rect width="100" fill="none" height="69.049"/>
+            <g>
+                <polygon fill="#ffffff" points="56.369,62.114 58.388,64.069 81.077,57.521 81.886,29.367 79.078,28.432 76.441,29.166      79.1,18.118 70.224,15.003 63.828,16.174 61.071,6.858 55.113,4.977 35.977,7.656 36.104,12.886 18.113,15.693 32.063,59.966      56.369,52.417    "/>
+                <g>
+                    <polygon fill="#c4a64a" points="33.465,56.269 24.283,19.118 41.137,16.292 41.006,10.727 58.969,7.848 70.013,45.345     "/>
+                    <polygon fill="#eacf5a" points="39.686,26.486 76.246,19.159 70.189,45.325 33.463,55.917     "/>
+                    <polygon fill="#f1de84" points="39.686,26.486 76.246,19.159 69.963,16.866 33.5,23.125     "/>
+                    <polygon fill="#f1de84" points="41.006,10.727 59.067,7.785 55.004,6.636 37.889,9.146     "/>
+                    <polygon fill="#f1de84" points="24.283,19.118 41.137,16.292 38.098,14.586 20.627,17.221     "/>
+                    <polygon fill="#ad832f" points="39.686,26.486 33.46,56.552 33.5,23.125     "/>
+                    <polygon fill="#ad832f" points="24.283,19.118 33.46,56.552 20.627,17.221     "/>
+                    <polygon fill="#ad832f" points="37.889,9.146 38.098,14.586 41.137,16.292 41.006,10.727     "/>
+                    <polygon fill="#eacf5a" points="33.46,56.552 39.676,26.712 63.196,22.066 70.013,45.345     "/>
+                </g>
+                <g>
+                    <path fill="#c1a15b" d="M 59.243 62.438 L 59.285 40.569 C 60.89 38.256 62.668 35.684 64.351 33.59 L 80.937996 29.667 L 80.092995 56.603 L 59.243 62.438 z "/>
+                    <polygon fill="#413c0c" points="57.888,61.006 58.011,41.591 59.444,40.367 59.245,62.438     "/>
+                    <polygon fill="#8e6f3a" points="66.038,33.447 64.898,32.648 79.428,29.163 80.982,29.65     "/>
+                    <g>
+                        <g>
+                            <rect x="78.822" width="1.918" fill="#7f3c21" y="35.882" height="2.995"/>
+                            <rect x="78.676" width="1.917" fill="#7f3c21" y="40.341" height="2.996"/>
+                            <rect x="78.527" width="1.917" fill="#7f3c21" y="44.8" height="2.994"/>
+                            <rect x="78.379" width="1.916" fill="#7f3c21" y="49.258" height="2.994"/>
+                            <polygon fill="#7f3c21" points="78.343,54.179 80.164,53.581 80.042,56.646 78.201,57.13       "/>
+                            <rect x="59.462" width="1.874" fill="#0046b7" y="39.271" height="2.994"/>
+                            <rect x="59.404" width="1.874" fill="#7f3c21" y="43.791" height="2.993"/>
+                            <rect x="59.347" width="1.873" fill="#7f3c21" y="48.308" height="2.996"/>
+                            <rect x="59.303" width="1.874" fill="#7f3c21" y="52.991" height="2.994"/>
+                            <polygon fill="#7f3c21" points="77.297,30.577 77.222,32.716 79.042,32.218 78.971,34.421 80.788,33.942 80.938,29.663               "/>
+                            <polygon fill="#7f3c21" points="75.943,32.899 76.039,30.936 73.134,31.678 73.138,33.733       "/>
+                            <polygon fill="#7f3c21" points="71.708,33.992 71.803,32.029 68.897,32.771 68.901,34.826       "/>
+                            <polygon fill="#7f3c21" points="67.382,35.085 67.477,33.123 64.57,33.864 64.575,35.919       "/>
+                            <polygon fill="#7f3c21" points="76.402,57.642 76.499,55.681 73.593,56.539 73.596,58.415       "/>
+                            <polygon fill="#7f3c21" points="72.167,58.853 72.263,56.892 69.357,57.751 69.36,59.627       "/>
+                            <polygon fill="#7f3c21" points="67.84,60.065 67.936,58.104 65.03,58.962 65.034,60.839       "/>
+                            <polygon fill="#7f3c21" points="62.882,61.476 62.908,59.396 61.105,59.837 61.071,57.67 59.255,58.19 59.209,62.47       "/>
+                        </g>
+                        <g>
+                            <linearGradient x1="-363.0854" gradientTransform="matrix(-1.1905 0.0126 0 1.1905 -365.1278 -240.6322)" y1="240.4316" x2="-355.4961" gradientUnits="userSpaceOnUse" y2="240.4316" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+                                <stop stop-color="#822519" offset="0"/>
+                                <stop stop-color="#5c1001" offset="1"/>
+                            </linearGradient>
+                            <polygon fill="url(#SVGID_1_)" points="58.415,41.239 58.09,42.481 67.125,41.677 65.707,39.683       "/>
+                            <path fill="#b0381e" d="M 64.899 32.649 C 64.422005 33.663 65.732 37.667 66.554 40.107998 C 66.157 38.199997 65.335 35.378 66.037 33.446 L 64.899 32.649 z "/>
+                            <linearGradient x1="-356.7129" gradientTransform="matrix(-1.1905 0.0126 0 1.1905 -365.1278 -240.6322)" y1="230.54" x2="-359.2294" gradientUnits="userSpaceOnUse" y2="240.8033" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_2_" xlink:show="other">
+                                <stop stop-color="#9e6434" offset="0"/>
+                                <stop stop-color="#b0381e" offset="1"/>
+                            </linearGradient>
+                            <path fill="url(#SVGID_2_)" d="M 66.553 40.108 C 66.399 39.626003 64.782 34.457 64.898 32.648003 C 62.608 35.167004 58.858 40.444004 58.011 41.591003 C 58.7 41.509 65.809 40.157 66.553 40.108 z "/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

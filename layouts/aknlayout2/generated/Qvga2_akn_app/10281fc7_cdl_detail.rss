@@ -1,0 +1,111 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+#include <cdlecom.rh>
+#include <cdlecom.hrh>
+
+#include "elaf_qvga2_normal_pack.hrh"
+#include "aknlayoutscalable_elaf_pqp2_av_qvga2_prt_normal.hrh"
+#include "aknlayoutscalable_elaf_pqp2_apps_qvga2_prt_normal.hrh"
+#include "cdlfontinst_qvga2.hrh"
+#include "displaylayoutmetricsinst_qvga2.hrh"
+#include "elaf_qvga2_small_pack.hrh"
+#include "aknlayoutscalable_elaf_pqp2_av_qvga2_prt_small.hrh"
+#include "aknlayoutscalable_elaf_pqp2_apps_qvga2_prt_small.hrh"
+#include "elaf_qvga2_large_pack.hrh"
+#include "aknlayoutscalable_elaf_pqp2_av_qvga2_prt_large.hrh"
+#include "aknlayoutscalable_elaf_pqp2_apps_qvga2_prt_large.hrh"
+#include "abrw_qvga2_normal_pack.hrh"
+#include "aknlayoutscalable_abrw_pqp2_av_qvga2_prt_normal.hrh"
+#include "aknlayoutscalable_abrw_pqp2_apps_qvga2_prt_normal.hrh"
+#include "abrw_qvga2_small_pack.hrh"
+#include "aknlayoutscalable_abrw_pqp2_av_qvga2_prt_small.hrh"
+#include "aknlayoutscalable_abrw_pqp2_apps_qvga2_prt_small.hrh"
+#include "abrw_qvga2_large_pack.hrh"
+#include "aknlayoutscalable_abrw_pqp2_av_qvga2_prt_large.hrh"
+#include "aknlayoutscalable_abrw_pqp2_apps_qvga2_prt_large.hrh"
+#include "apac_qvga2_normal_pack.hrh"
+#include "apac_qvga2_small_pack.hrh"
+#include "apac_qvga2_large_pack.hrh"
+#include "elaf_qvga2_land_normal_pack.hrh"
+#include "aknlayoutscalable_elaf_pql2_av_qvga2_lsc_normal.hrh"
+#include "aknlayoutscalable_elaf_pql2_apps_qvga2_lsc_normal.hrh"
+#include "elaf_qvga2_land_small_pack.hrh"
+#include "aknlayoutscalable_elaf_pql2_av_qvga2_lsc_small.hrh"
+#include "aknlayoutscalable_elaf_pql2_apps_qvga2_lsc_small.hrh"
+#include "elaf_qvga2_land_large_pack.hrh"
+#include "aknlayoutscalable_elaf_pql2_av_qvga2_lsc_large.hrh"
+#include "aknlayoutscalable_elaf_pql2_apps_qvga2_lsc_large.hrh"
+#include "abrw_qvga2_land_normal_pack.hrh"
+#include "aknlayoutscalable_abrw_pql2_av_qvga2_lsc_normal.hrh"
+#include "aknlayoutscalable_abrw_pql2_apps_qvga2_lsc_normal.hrh"
+#include "abrw_qvga2_land_small_pack.hrh"
+#include "aknlayoutscalable_abrw_pql2_av_qvga2_lsc_small.hrh"
+#include "aknlayoutscalable_abrw_pql2_apps_qvga2_lsc_small.hrh"
+#include "abrw_qvga2_land_large_pack.hrh"
+#include "aknlayoutscalable_abrw_pql2_av_qvga2_lsc_large.hrh"
+#include "aknlayoutscalable_abrw_pql2_apps_qvga2_lsc_large.hrh"
+#include "apac_qvga2_land_normal_pack.hrh"
+#include "apac_qvga2_land_small_pack.hrh"
+#include "apac_qvga2_land_large_pack.hrh"
+
+CDL_ECOM_REG_DETAIL_START
+	CDL_ECOM_DETAIL_IMPL(Elaf_Qvga2_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pqp2_av_qvga2_prt_Normal)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pqp2_apps_qvga2_prt_Normal)
+,	CDL_ECOM_DETAIL_IMPL(CdlFontInst_QVGA2)
+,	CDL_ECOM_DETAIL_IMPL(displaylayoutmetricsinst_Qvga2)
+,	CDL_ECOM_DETAIL_IMPL(Elaf_Qvga2_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pqp2_av_qvga2_prt_Small)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pqp2_apps_qvga2_prt_Small)
+,	CDL_ECOM_DETAIL_IMPL(Elaf_Qvga2_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pqp2_av_qvga2_prt_Large)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pqp2_apps_qvga2_prt_Large)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Qvga2_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pqp2_av_qvga2_prt_Normal)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pqp2_apps_qvga2_prt_Normal)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Qvga2_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pqp2_av_qvga2_prt_Small)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pqp2_apps_qvga2_prt_Small)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Qvga2_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pqp2_av_qvga2_prt_Large)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pqp2_apps_qvga2_prt_Large)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Qvga2_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Qvga2_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Qvga2_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(Elaf_Qvga2_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pql2_av_qvga2_lsc_Normal)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pql2_apps_qvga2_lsc_Normal)
+,	CDL_ECOM_DETAIL_IMPL(Elaf_Qvga2_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pql2_av_qvga2_lsc_Small)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pql2_apps_qvga2_lsc_Small)
+,	CDL_ECOM_DETAIL_IMPL(Elaf_Qvga2_land_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pql2_av_qvga2_lsc_Large)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_pql2_apps_qvga2_lsc_Large)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Qvga2_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pql2_av_qvga2_lsc_Normal)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pql2_apps_qvga2_lsc_Normal)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Qvga2_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pql2_av_qvga2_lsc_Small)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pql2_apps_qvga2_lsc_Small)
+,	CDL_ECOM_DETAIL_IMPL(Abrw_Qvga2_land_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pql2_av_qvga2_lsc_Large)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_pql2_apps_qvga2_lsc_Large)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Qvga2_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Qvga2_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(Apac_Qvga2_land_Large_Pack)
+CDL_ECOM_REG_DETAIL_END

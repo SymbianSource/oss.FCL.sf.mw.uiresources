@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sel xmlns="http://www.nokia.com/sel/2.0" baseskin="101f84b9">
+	<fullscreentransitions>
+     	<transition context="1" effect="app_activate_common_jingstyle">
+	    </transition>
+	    <transition context="3" effect="app_start_common_jingstyle">
+	    </transition>
+	    <transition context="5" effect="app_exit_common_jingstyle">
+	    </transition>
+	    <transition context="6" effect="app_start_rect_common_jingstyle">
+	    </transition>
+		  <transition context="7" effect="app_start_switch_common_jingstyle">
+	    </transition>	  
+	    <transition context="8" effect="app_start_switch_rect_common_jingstyle">
+	    </transition>	 
+	    	    <transition context="12" effect="layout_switch_jingstyle"> 
+	    </transition>
+	    <transition context="13" effect="layout_switch_Exit_jingstyle"> 
+	    </transition>
+	    <transition context="14" effect="layout_switch_Start_jingstyle"> 
+	    </transition>
+
+	  	<transition context="5000" effect="app_activate_common_jingstyle"> 
+	    </transition>
+	    <!-- Appshell custom effects  -->
+	    <transition context="1001" effect="folder_open_jingstyle" uid="0x101F4CD2"> 
+	    </transition>
+	    <transition context="1002" effect="folder_close_jingstyle" uid="0x101F4CD2"> 
+	    </transition>
+	    <transition context="5" effect="appshell_exit_jingstyle" uid="0x101F4CD2"> 
+	    </transition>
+	    <!-- Startup custom exit effect -->
+	    <transition context="5" effect="startup_exit_jingstyle" uid="0x100058F4"> 
+	    </transition>
+	    <!-- Screensaver exit effect -->
+	    <transition context="1001" effect="screensaver_deactivate_jingstyle" uid="0x100056CF">
+	    </transition>    
+	    <!-- Screensaver start effect -->
+	    <transition context="1002" effect="screensaver_activate_jingstyle" uid="0x100056CF">
+	    </transition>    
+	    
+	    <!-- Touch dialer open effect -->
+			<transition context="1505" effect="touch_dialer_open_jingstyle"> 
+	    </transition>	    	    
+	    <!-- Touch dialer close effect -->
+			<transition context="1506" effect="touch_dialer_close_jingstyle"> 
+	    </transition>
+	</fullscreentransitions>
+	
+
+	<controltransitions>
+		  		  
+		  <transition context_uid="0x10281F88" effect="comp_optionsmenu_main_jingstyle" action="3" actionstring="Appear">
+	    </transition>
+	    
+	   	<transition context_uid="0x10281F88" effect="comp_optionsmenu_main_jingstyle" action="4" actionstring="Disappear">
+	    </transition>
+	    
+	    <transition context_uid="0x10281F89" effect="comp_optionsmenu_main_cascade_jingstyle" action="3" actionstring="Appear">
+	    </transition>
+	    
+	   	<transition context_uid="0x10281F89" effect="comp_optionsmenu_main_cascade_jingstyle" action="4" actionstring="Disappear">
+	    </transition>	    
+	    
+	    <transition context_uid="0x10281F90" effect="comp_taskswapper_jingstyle" action="3" actionstring="Appear">
+	    </transition>
+	    
+	    <transition context_uid="0x10281F90" effect="comp_taskswapper_jingstyle" action="4" actionstring="Disappear">
+	    </transition>	 
+	    
+ 			<transition context_uid="0x10282E4C" effect="comp_contextmenu_jingstyle" action="3" actionstring="Appear">
+	    </transition>		  
+		  
+		  <transition context_uid="0x10282E4C" effect="comp_contextmenu_jingstyle" action="4" actionstring="Disappear">
+	    </transition>		  
+	    
+      <transition context_uid="0x10282E4D" effect="comp_numberentry_jingstyle" action="3" actionstring="Appear">
+      </transition>
+
+      <transition context_uid="0x10282E4D" effect="comp_numberentry_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+      
+			<transition context_uid="0x10282E4A" effect="comp_toolbar_jingstyle" action="3" actionstring="Appear">
+      </transition>
+
+      <transition context_uid="0x10282E4A" effect="comp_toolbar_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x10282E49" effect="comp_touchtoolbar_jingstyle" action="3" actionstring="Appear">
+      </transition>
+
+      <transition context_uid="0x10282E49" effect="comp_touchtoolbar_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      
+      
+			<transition context_uid="0x10282E50" effect="comp_errornote_jingstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E50" effect="comp_errornote_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E51" effect="comp_warningnote_jingstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E51" effect="comp_warningnote_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E52" effect="comp_informationnote_jingstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E52" effect="comp_informationnote_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E53" effect="comp_confirmationnote_jingstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E53" effect="comp_confirmationnote_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E54" effect="comp_waitnote_jingstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E54" effect="comp_waitnote_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E55" effect="comp_popuplist_jingstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E55" effect="comp_popuplist_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E56" effect="comp_query_jingstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E56" effect="comp_query_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+      <transition context_uid="0x10282E57" effect="comp_popup_default_jingstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x10282E57" effect="comp_popup_default_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x2000B472" effect="comp_systemnotify_jingstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x2000B472" effect="comp_systemnotify_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x2000B473" effect="comp_systemnotify_battery_jingstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x2000B473" effect="comp_systemnotify_battery_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x2000B474" effect="comp_sequence_first_jingstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x2000B474" effect="comp_sequence_first_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x2000B475" effect="comp_sequence_mid_jingstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x2000B475" effect="comp_sequence_mid_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+      
+      <transition context_uid="0x2000B476" effect="comp_sequence_last_jingstyle" action="3" actionstring="Appear">
+      </transition>
+      <transition context_uid="0x2000B476" effect="comp_sequence_last_jingstyle" action="4" actionstring="Disappear">
+      </transition>
+	</controltransitions>		
+	
+	<listtransitions>
+		<transition effect="list_common_background_jingstyle" context="1"/>
+		<transition effect="list_common_item_jingstyle" context="2"/>
+
+		<transition uid="0x101F4CD2" effect="list_appshell_background_jingstyle" context="1" type="1"/>
+		<transition uid="0x101F4CD2" effect="list_appshell_item_jingstyle" context="2" type="1"/>
+
+		<transition uid="0x101F4CD2" effect="grid_appshell_background_jingstyle" context="1" type="4"/>
+		<transition uid="0x101F4CD2" effect="grid_appshell_item_jingstyle" context="2" type="4"/>
+
+		<transition effect="optionsmenu_background_jingstyle" context="1" type="2"/>
+		<transition effect="optionsmenu_item_jingstyle" context="2" type="2"/>
+	</listtransitions>
+
+</sel>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 44 44" height="44" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <linearGradient x1="16.7554" gradientTransform="matrix(1 0 0 -1 0.1377 42.834)" y1="17.5376" x2="31.6354" gradientUnits="userSpaceOnUse" y2="3.9176" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_3_" xlink:show="other">
+        <stop stop-color="#ffffcf" offset="0"/>
+        <stop stop-color="#f0de80" offset="0.11"/>
+        <stop stop-color="#c26e54" offset="0.35"/>
+        <stop stop-color="#b0361a" offset="0.48"/>
+        <stop stop-color="#ad2621" offset="0.6629"/>
+        <stop stop-color="#9c0a00" offset="0.75"/>
+        <stop stop-color="#991712" offset="0.82"/>
+        <stop stop-color="#8a0000" offset="0.91"/>
+        <stop stop-color="#730303" offset="0.99"/>
+        <stop stop-color="#730303" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#XMLID_3_)" points="13.578,37.49 36.005,37.49 36.005,27.563 "/>
+    <linearGradient x1="10.7314" gradientTransform="matrix(1 0 0 -1 0.1377 42.834)" y1="34.4844" x2="26.3814" gradientUnits="userSpaceOnUse" y2="17.4344" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+        <stop stop-color="#ffffcf" offset="0"/>
+        <stop stop-color="#f0de80" offset="0.11"/>
+        <stop stop-color="#c26e54" offset="0.35"/>
+        <stop stop-color="#b0361a" offset="0.48"/>
+        <stop stop-color="#ad2621" offset="0.6629"/>
+        <stop stop-color="#9c0a00" offset="0.75"/>
+        <stop stop-color="#991712" offset="0.82"/>
+        <stop stop-color="#8a0000" offset="0.91"/>
+        <stop stop-color="#730303" offset="0.99"/>
+        <stop stop-color="#730303" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_4_)" d="M 34.896 10.274 C 34.115 8.961 33.041 8.227 32.359 7.7070003 C 30.406002 6.2130003 22.505001 4.655 14.339001 12.82 C 9.387001 17.786999 7.994001 22.626999 7.994001 26.096 C 7.994001 28.34 8.577001 30.012001 9.153001 30.77 C 9.760001 31.559 10.470001 32.61 11.794001 33.389 C 12.773001 33.966 13.700001 34.002 13.700001 34.002 C 14.982 33.920998 16.396 32.934 18.285 30.803 C 18.909 30.098 20.938 27.671999 20.938 25.969 C 20.938 25.969 21.226 25.497 19.682 24.176 C 18.644 23.287 16.453999 23.077 16.453999 23.077 L 16.458998 22.514 C 16.483997 19.701 21.212997 14.972 24.014997 14.957 L 24.574997 14.9539995 L 24.666996 15.507 C 24.853996 16.674 25.190996 17.576 25.676996 18.187 C 26.388996 19.083 26.990995 19.347 27.291996 19.434 C 28.431995 19.545 30.299995 18.549 32.296997 16.785 C 34.431995 14.901999 35.419 13.481 35.500996 12.177 C 35.501 12.177 35.586 11.434 34.896 10.274 z M 31.021 15.344 C 29.345 16.823 28.152 17.371 27.656 17.473999 C 27.543 17.384998 27.376 17.242998 27.187 16.988998 C 26.601 16.199999 26.476 14.637999 26.476 14.637999 C 26.07 12.746999 24.006 13.027999 24.006 13.027999 C 20.144001 13.047999 14.568001 18.620998 14.533001 22.501999 C 14.533001 22.501999 14.225001 24.605999 16.153002 24.980999 L 16.703001 25.068998 C 18.460001 25.340998 18.871 26.029999 18.966002 26.138998 C 18.855001 26.769999 18.100002 28.105999 16.846 29.521997 C 15.088 31.504997 14.145 32.001 13.700001 32.052998 C 13.260001 31.958998 12.939001 31.841997 12.859001 31.783998 C 10.210001 29.871998 9.920001 28.145998 9.920001 26.095999 C 9.920001 23.813 10.671001 19.227 15.704 14.181999 C 23.461 6.425999 30.261002 8.525999 31.186 9.235999 C 33.600002 11.089999 33.475002 11.805999 33.551003 12.155999 C 33.475 12.675 32.968 13.622 31.021 15.344 z "/>
+</svg>

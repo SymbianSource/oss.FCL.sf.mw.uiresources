@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0.136 0.109 44 44" height="44" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <linearGradient x1="14.3398" y1="7.9326" x2="14.3398" gradientUnits="userSpaceOnUse" y2="36.5395" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#ffffff" offset="1"/>
+        </linearGradient>
+        <rect x="12.7" width="3.278" fill="url(#XMLID_4_)" y="29.205" height="3.297"/>
+        <linearGradient x1="21.2695" y1="7.9326" x2="21.2695" gradientUnits="userSpaceOnUse" y2="36.5395" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_5_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#ffffff" offset="1"/>
+        </linearGradient>
+        <rect x="19.629" width="3.282" fill="url(#XMLID_5_)" y="29.205" height="3.297"/>
+        <linearGradient x1="22.1362" y1="7.9326" x2="22.1362" gradientUnits="userSpaceOnUse" y2="36.5404" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#ffffff" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_6_)" d="M 31.106 23.676 L 28.903 23.676 L 28.903 20.307 L 28.827 20.307 C 30.118 19.131 30.944 17.449 30.944 15.555001 C 30.944 12.002001 28.069 9.119001 24.538 9.119001 C 23.407 9.119001 22.372 9.4330015 21.459 9.946001 C 20.124 7.834001 17.788 6.420001 15.115999 6.420001 C 10.969 6.420001 7.5999994 9.807001 7.5999994 13.976002 C 7.5999994 16.637001 8.969999 18.959002 11.03 20.307 L 7.401 20.307 L 7.401 37.797 L 28.903 37.797 L 28.903 32.219 L 31.094 32.219 L 33.815 34.582 L 36.872 34.582 L 36.872 21.504 L 33.72 21.504 L 31.106 23.676 z M 26.685 35.201 L 9.616 35.201 L 9.616 22.178 L 26.683 22.178 L 26.685 35.201 L 26.685 35.201 z M 24.177 19.989 C 21.907 19.989 20.06 18.214 19.892 15.969 C 19.13 17.946 17.238 19.348 15.001 19.348 C 12.099001 19.348 9.743 16.981 9.743 14.060999 C 9.743 11.138999 12.097 8.775 15.000999 8.775 C 17.845 8.775 20.141 11.042 20.238998 13.878 C 20.912998 12.357 22.422998 11.29 24.179 11.29 C 26.575 11.29 28.502 13.241 28.502 15.638 C 28.504 18.045 26.575 19.989 24.177 19.989 z M 34.401 32.078 L 32.204002 30.141998 L 29.516005 30.141998 L 29.516005 25.835 L 32.189003 25.835 L 34.404003 23.974 L 34.404003 32.078 L 34.401 32.078 z "/>
+        <rect x="0.136" width="44" fill="none" y="0.109" height="44"/>
+    </g>
+</svg>

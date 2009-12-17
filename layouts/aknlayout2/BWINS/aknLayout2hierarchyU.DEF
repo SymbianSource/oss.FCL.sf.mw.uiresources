@@ -1,0 +1,22 @@
+EXPORTS
+	??0TAknLayoutHierarchyComponentHandle@@QAE@HHH@Z @ 1 NONAME ; TAknLayoutHierarchyComponentHandle::TAknLayoutHierarchyComponentHandle(int, int, int)
+	??0TAknLayoutHierarchyComponentHandle@@QAE@XZ @ 2 NONAME ; TAknLayoutHierarchyComponentHandle::TAknLayoutHierarchyComponentHandle(void)
+	?ApiId@TAknLayoutHierarchyComponentHandle@@QBEHXZ @ 3 NONAME ; int TAknLayoutHierarchyComponentHandle::ApiId(void) const
+	?Column@TAknLayoutHierarchyComponentHandle@@QBEHXZ @ 4 NONAME ; int TAknLayoutHierarchyComponentHandle::Column(void) const
+	?ComponentId@TAknLayoutHierarchyComponentHandle@@QBEHXZ @ 5 NONAME ; int TAknLayoutHierarchyComponentHandle::ComponentId(void) const
+	?OptionIndex@TAknLayoutHierarchyComponentHandle@@QBEHXZ @ 6 NONAME ; int TAknLayoutHierarchyComponentHandle::OptionIndex(void) const
+	?Row@TAknLayoutHierarchyComponentHandle@@QBEHXZ @ 7 NONAME ; int TAknLayoutHierarchyComponentHandle::Row(void) const
+	?VarietyIndex@TAknLayoutHierarchyComponentHandle@@QBEHXZ @ 8 NONAME ; int TAknLayoutHierarchyComponentHandle::VarietyIndex(void) const
+	?SetApiId@TAknLayoutHierarchyComponentHandle@@QAEXH@Z @ 9 NONAME ; void TAknLayoutHierarchyComponentHandle::SetApiId(int)
+	?SetColumn@TAknLayoutHierarchyComponentHandle@@QAEXH@Z @ 10 NONAME ; void TAknLayoutHierarchyComponentHandle::SetColumn(int)
+	?SetComponentId@TAknLayoutHierarchyComponentHandle@@QAEXH@Z @ 11 NONAME ; void TAknLayoutHierarchyComponentHandle::SetComponentId(int)
+	?SetOptionIndex@TAknLayoutHierarchyComponentHandle@@QAEXH@Z @ 12 NONAME ; void TAknLayoutHierarchyComponentHandle::SetOptionIndex(int)
+	?SetRow@TAknLayoutHierarchyComponentHandle@@QAEXH@Z @ 13 NONAME ; void TAknLayoutHierarchyComponentHandle::SetRow(int)
+	?SetVarietyIndex@TAknLayoutHierarchyComponentHandle@@QAEXH@Z @ 14 NONAME ; void TAknLayoutHierarchyComponentHandle::SetVarietyIndex(int)
+	?GetComponentType@AknLayout2Hierarchy@@SA?AW4TAknLayoutScalableComponentType@@ABVTAknLayoutHierarchyComponentHandle@@@Z @ 15 NONAME ; enum TAknLayoutScalableComponentType AknLayout2Hierarchy::GetComponentType(class TAknLayoutHierarchyComponentHandle const &)
+	?GetParamLimits@AknLayout2Hierarchy@@SA?AVTAknLayoutScalableParameterLimits@@ABVTAknLayoutHierarchyComponentHandle@@@Z @ 16 NONAME ; class TAknLayoutScalableParameterLimits AknLayout2Hierarchy::GetParamLimits(class TAknLayoutHierarchyComponentHandle const &)
+	?GetTextComponentLayout@AknLayout2Hierarchy@@SA?AVTAknTextComponentLayout@@ABVTAknLayoutHierarchyComponentHandle@@@Z @ 17 NONAME ; class TAknTextComponentLayout AknLayout2Hierarchy::GetTextComponentLayout(class TAknLayoutHierarchyComponentHandle const &)
+	?GetWindowComponentLayout@AknLayout2Hierarchy@@SA?AVTAknWindowComponentLayout@@ABVTAknLayoutHierarchyComponentHandle@@@Z @ 18 NONAME ; class TAknWindowComponentLayout AknLayout2Hierarchy::GetWindowComponentLayout(class TAknLayoutHierarchyComponentHandle const &)
+	?LayoutSystemId@TAknLayoutHierarchyComponentHandle@@QBEHXZ @ 19 NONAME ; int TAknLayoutHierarchyComponentHandle::LayoutSystemId(void) const
+	?SetLayoutSystemId@TAknLayoutHierarchyComponentHandle@@QAEXH@Z @ 20 NONAME ; void TAknLayoutHierarchyComponentHandle::SetLayoutSystemId(int)
+

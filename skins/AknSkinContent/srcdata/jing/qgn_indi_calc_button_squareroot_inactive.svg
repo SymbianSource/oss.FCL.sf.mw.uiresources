@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="60" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-0.428 0.265 60 52" height="52" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <path fill="#ff5656" d="M 51.312 6.264 L 7.831 6.264 C 6.586 6.264 5.5719995 7.278 5.5719995 8.523 L 5.5719995 44.003 C 5.5719995 45.248997 6.5859995 46.264 7.8309994 46.264 L 51.311996 46.264 C 52.557995 46.264 53.571995 45.249 53.571995 44.003 L 53.571995 8.522 C 53.572 7.277 52.558 6.264 51.312 6.264 z M 52.572 44.003 C 52.572 44.697 52.007 45.264 51.312 45.264 L 7.831 45.264 C 7.137 45.264 6.572 44.699 6.572 44.003 L 6.572 8.522 C 6.572 7.828 7.135 7.263001 7.831 7.263001 L 51.312 7.263001 C 52.005 7.263001 52.572 7.8270006 52.572 8.522 L 52.572 44.003 z " fill-opacity="0.5" stroke-opacity="0.5"/>
+    <g>
+        <linearGradient x1="-665.054" gradientTransform="matrix(1 0 0 -1 694.626 1048.4988)" y1="997.6888" x2="-665.054" gradientUnits="userSpaceOnUse" y2="1042.8188" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+            <stop stop-color="#c7d9d9" offset="0"/>
+            <stop stop-color="#c7d9d9" offset="0.26"/>
+            <stop stop-color="#ffffff" offset="0.72"/>
+            <stop stop-color="#ffffff" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_2_)" d="M 51.312 7.264 L 7.831 7.264 C 7.137 7.264 6.572 7.828 6.572 8.523 L 6.572 44.003 C 6.572 44.697 7.135 45.264 7.831 45.264 L 51.312 45.264 C 52.005 45.264 52.572 44.699 52.572 44.003 L 52.572 8.522 C 52.572 7.828 52.007 7.264 51.312 7.264 z " fill-opacity="0.5"/>
+    </g>
+    <path fill="#f4b9ba" d="M 51.312 7.264 L 7.831 7.264 C 7.137 7.264 6.572 7.828 6.572 8.523 L 6.572 44.003 C 6.572 44.697 7.135 45.264 7.831 45.264 L 51.312 45.264 C 52.005 45.264 52.572 44.699 52.572 44.003 L 52.572 8.522 C 52.572 7.828 52.007 7.264 51.312 7.264 z "/>
+    <path fill="#ff5656" d="M 26.777 18.198 L 21.404 29.84 L 17.566 26.002 L 14.9 28.667 L 22.562 36.329 C 22.562 36.329 28.34 23.807 29.189 21.971 C 31.301998 21.971 44.244 21.971 44.244 21.971 L 44.244 18.2 L 26.777 18.198 L 26.777 18.198 z " fill-opacity="0.5" stroke-opacity="0.5"/>
+</svg>

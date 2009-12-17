@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="45.354" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-12.5 -341.886 45.354 759.685" height="759.685" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <linearGradient x1="-217.7515" y1="-223.0386" x2="462.5634" gradientUnits="userSpaceOnUse" y2="627.355" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#000000" offset="1"/>
+        </linearGradient>
+        <rect x="-12.5" y="-341.886" fill-opacity="0.11" fill="url(#XMLID_6_)" width="7.09" height="759.685" stroke-opacity="0.11"/>
+        <linearGradient x1="-213.4297" y1="-226.4961" x2="466.8852" gradientUnits="userSpaceOnUse" y2="623.8975" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_7_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#000000" offset="1"/>
+        </linearGradient>
+        <rect x="-5.41" y="-341.886" fill-opacity="0.11" fill="url(#XMLID_7_)" width="7.085" height="759.685" stroke-opacity="0.11"/>
+        <rect x="-5.41" y="-341.886" fill-opacity="0.1" width="7.085" height="759.685" stroke-opacity="0.1"/>
+        <linearGradient x1="-209.1099" y1="-229.9521" x2="471.205" gradientUnits="userSpaceOnUse" y2="620.4415" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_8_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#000000" offset="1"/>
+        </linearGradient>
+        <rect x="1.675" y="-341.886" fill-opacity="0.11" fill="url(#XMLID_8_)" width="7.085" height="759.685" stroke-opacity="0.11"/>
+        <rect x="1.675" y="-341.886" fill-opacity="0.1" width="7.085" height="759.685" stroke-opacity="0.1"/>
+        <linearGradient x1="5.2173" y1="-373.0708" x2="5.2172" gradientUnits="userSpaceOnUse" y2="448.9736" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_9_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#000000" offset="1"/>
+        </linearGradient>
+        <rect x="1.675" y="-341.886" fill-opacity="0.2" fill="url(#XMLID_9_)" width="7.085" height="759.685" stroke-opacity="0.2"/>
+        <linearGradient x1="20.8066" y1="-365.9858" x2="20.8066" gradientUnits="userSpaceOnUse" y2="441.8839" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_10_" xlink:show="other">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#e0e0e0" offset="1"/>
+        </linearGradient>
+        <rect x="8.76" width="24.095" fill="url(#XMLID_10_)" y="-341.886" height="759.685"/>
+    </g>
+</svg>

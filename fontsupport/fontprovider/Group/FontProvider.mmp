@@ -1,0 +1,57 @@
+/*
+* Copyright (c) 2004 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  MakMake Project file for fontprovider
+*
+*/
+
+
+
+#include <platform_paths.hrh>
+
+target          FontProvider.DLL
+targettype      DLL
+UID 	 0x10005522 0x1020509C
+
+CAPABILITY      CAP_GENERAL_DLL
+VENDORID        VID_DEFAULT
+
+sourcepath              ../Src
+
+lang SC
+// Note, there is no User Include
+
+
+// This is a SYSTEMINCLUDE macro containing the middleware
+// layer specific include directories
+MW_LAYER_SYSTEMINCLUDE
+
+SYSTEMINCLUDE   ../../../inc
+SYSTEMINCLUDE   ../../inc
+
+source  FontProvider.cpp
+
+library EUSER.LIB
+library GDI.LIB
+library CONE.LIB
+library FONTUTILS.LIB
+library FEATMGR.LIB
+library FBSCLI.LIB
+library FNTSTR.LIB
+library EIKCORE.LIB
+library EGUL.LIB
+library BAFL.LIB
+library CENTRALREPOSITORY.LIB
+library EFSRV.LIB
+
+deffile FONTPROVIDER.DEF

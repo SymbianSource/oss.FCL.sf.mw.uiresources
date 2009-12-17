@@ -1,0 +1,31 @@
+/*
+* Copyright (c) 2002-2007 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Build information file for project Icons
+*
+*/
+
+
+#include <iconlocations.hrh>
+
+// Changed the zip file extraction from using iconsconfig.mk
+// to zip export because of problems with MBS Linux.
+// :zip build tool doesn't support wildcards, so if a new
+// zip is added to the data folder, an export for it needs to be added also.
+
+PRJ_EXPORTS
+:zip ../data/A_H.zip        S60_SRC_ICON_DIR
+:zip ../data/Icons.zip      S60_SRC_ICON_DIR
+:zip ../data/Skin_Green.zip S60_SRC_ICON_DIR
+
+PRJ_TESTMMPFILES

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="16" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 16 16" height="16" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <g>
+            <path fill="#5c1001" d="M 0.042 1.497 L 0.042 14.497 L 13.042 14.497 L 13.042 1.4969997 L 0.042 1.4969997 z "/>
+            <rect x="1.244" width="10.599" fill="#eacf5a" y="2.699" height="10.599"/>
+        </g>
+        <rect width="16" fill="none" height="16"/>
+    </g>
+    <polyline fill="none" points="51,69 35,69 35,53 51,53 "/>
+</svg>

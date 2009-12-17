@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<api id="33f5da3f02e726859a6d6fa80cd37fc3" dataversion="2.0">
+  <name>Font Definition API</name>
+  <description>S60 font definitions used for accessing the system fonts.</description>
+  <type>c++</type>
+  <collection>domain</collection>
+  <libs>
+    <lib name="fontutils.lib" />
+  </libs>
+  <release category="public" sinceversion="0"/>
+  <attributes>
+     <!-- This indicates wether the api provedes separate html documentation -->
+     <!-- or is the additional documentation generated from headers. -->
+     <!-- If you are unsuere then the value is "no" -->
+     <htmldocprovided>no</htmldocprovided>
+     <adaptation>no</adaptation>
+  </attributes>
+</api>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="8" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-163.473 25.42 8 7.992" height="7.992" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <path fill="#7f3c21" d="M -163.473 25.42 L -163.473 30.283 C -163.32501 31.990002 -161.88501 33.369 -160.09601 33.412003 L -155.473 33.412003 L -155.473 25.42 L -163.473 25.42 z "/>
+    <linearGradient x1="-159.001" y1="2.7422" x2="-159.001" gradientUnits="userSpaceOnUse" y2="42.4272" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_2_" xlink:show="other">
+        <stop stop-color="#fff5f5" offset="0"/>
+        <stop stop-color="#ffa29e" offset="1"/>
+    </linearGradient>
+    <path fill="url(#XMLID_2_)" d="M -162.529 25.42 L -162.528 30.393 C -162.424 31.547 -161.362 32.52 -160.114 32.52 L -155.47299 32.52 L -155.47299 25.42 L -162.529 25.42 z "/>
+    <path fill="#ffffff" d="M -163.473 25.42 L -163.473 30.283 C -163.32501 31.990002 -161.88501 33.369 -160.09601 33.412003 L -155.473 33.412003 L -155.473 25.42 L -163.473 25.42 z " fill-opacity="0.5" stroke-opacity="0.5"/>
+</svg>

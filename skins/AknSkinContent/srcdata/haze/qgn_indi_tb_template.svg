@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="44px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 44 44" height="44px" x="0px" y="0px">
+    <g>
+        <g>
+            <linearGradient x1="22" y1="8.2432" x2="22" gradientUnits="userSpaceOnUse" y2="35.646" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+                <stop stop-color="#ffffff" offset="0"/>
+                <stop stop-color="#ffffff" offset="1"/>
+            </linearGradient>
+            <polygon fill="url(#SVGID_1_)" points="32,14.822 32,33.527 11.898,33.527 11.898,10.43 27.5,10.43 26.91,8.299 9.779,8.299     9.779,35.701 34.221,35.701 34.221,15.604   "/>
+            <linearGradient x1="-190.2378" gradientTransform="matrix(1 0 0 -1 214.52 6.9863)" y1="1.1587" x2="-183.6633" gradientUnits="userSpaceOnUse" y2="-9.0688" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_2_" xlink:show="other">
+                <stop stop-color="#ffffff" offset="0"/>
+                <stop stop-color="#ffffff" offset="1"/>
+            </linearGradient>
+            <polygon fill="url(#SVGID_2_)" points="26.91,8.299 26.91,15.604 34.221,15.604   "/>
+        </g>
+        <rect width="44" fill="none" height="44"/>
+        <g>
+            <linearGradient x1="19.0503" y1="8.2915" x2="19.0503" gradientUnits="userSpaceOnUse" y2="35.6259" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_3_" xlink:show="other">
+                <stop stop-color="#ffffff" offset="0"/>
+                <stop stop-color="#ffffff" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_3_)" d="M 24.27 23.256 L 13.832 23.256 L 13.832 13.436001 L 24.27 13.436001 L 24.27 23.256 L 24.27 23.256 z M 15.113 21.951 L 22.986 21.951 L 22.986 14.74 L 15.113 14.74 L 15.113 21.951 L 15.113 21.951 z "/>
+        </g>
+        <g>
+            <linearGradient x1="21.9668" y1="8.2866" x2="21.9668" gradientUnits="userSpaceOnUse" y2="35.6831" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_4_" xlink:show="other">
+                <stop stop-color="#ffffff" offset="0"/>
+                <stop stop-color="#ffffff" offset="1"/>
+            </linearGradient>
+            <path fill="url(#SVGID_4_)" d="M 30.102 31.124 L 13.831999 31.124 L 13.831999 25.128 L 30.102 25.128 L 30.102 31.124 L 30.102 31.124 z M 15.113 29.819 L 28.818 29.819 L 28.818 26.432 L 15.113 26.432 L 15.113 29.819 L 15.113 29.819 z "/>
+        </g>
+    </g>
+</svg>

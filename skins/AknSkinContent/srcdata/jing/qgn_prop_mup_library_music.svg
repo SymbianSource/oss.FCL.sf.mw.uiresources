@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="84" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 84 72" height="72" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <path fill="#ffffff" d="M 29.282 7.88 L 25.881 19.405 L 17.289 17.915 L 9.447001 20.824 L 16.615002 51.514 L 59.236 64.203 L 74.214 18.472004 L 54.207 15.48 L 54.484 9.334 L 34.246 6.362 L 29.282 7.88 z "/>
+        <polygon fill="#cd9f3d" points="17.34,50.913 29.843,8.455 50.182,11.718 50.035,18.018 69.115,21.218 58.719,63.279  "/>
+        <polygon fill="#eacf5a" points="58.723,62.879 17.139,50.893 10.281,21.267 51.676,29.564  "/>
+        <polygon fill="#9e6434" points="58.68,25.754 17.397,18.67 10.281,21.267 51.786,29.724  "/>
+        <polygon fill="#9e6434" points="53.713,9.927 34.333,7.088 29.883,8.475 50.182,11.718  "/>
+        <polygon fill="#9e6434" points="73.256,19.07 53.475,16.085 50.035,18.018 69.115,21.218  "/>
+        <polygon fill="#ad832f" points="58.68,25.754 58.725,63.602 51.68,29.781  "/>
+        <polygon fill="#ad832f" points="73.256,19.07 58.738,63.344 69.115,21.218  "/>
+        <polygon fill="#ad832f" points="50.182,11.718 50.035,18.018 53.475,16.085 53.713,9.927  "/>
+        <polygon fill="#cd9f3d" points="17.34,50.913 25.17,24.313 51.736,29.773 58.738,63.344  "/>
+        <rect width="84" fill="none" height="72"/>
+        <linearGradient x1="-52.0996" gradientTransform="matrix(0.9939 -0.1105 -0.1105 -0.9939 72.9193 57.4397)" y1="43.917" x2="-31.9197" gradientUnits="userSpaceOnUse" y2="8.6028" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+            <stop stop-color="#b0381e" offset="0"/>
+            <stop stop-color="#5c1001" offset="1"/>
+        </linearGradient>
+        <path fill="url(#XMLID_4_)" d="M 31.001 28.572 L 33.092 45.742 C 32.939 45.672 32.808 45.596 32.648 45.537 C 29.669 44.398 26.2 44.92 24.904 46.678 C 23.603 48.405 24.991 50.775997 27.971 51.989 C 30.954 53.231 34.418 52.789 35.712 50.979 C 36.079 50.459 36.206997 49.879 36.167 49.303 C 36.181 49.283 36.187 49.272003 36.199 49.256 C 36.125 48.635 34.575 35.767 34.575 35.767 L 41.942 40.641 L 41.348 35.641 L 31.001 28.572 z "/>
+    </g>
+</svg>

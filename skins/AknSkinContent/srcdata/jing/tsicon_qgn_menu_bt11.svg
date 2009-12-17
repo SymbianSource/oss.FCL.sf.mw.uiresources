@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="100%" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<g>
+<g>
+<path d="M22.66,34.342c0-10.37,5.94-25.239,30.973-24.325c13.203,0.319,23.146,11.257,23.769,25.805         l-0.479,26.929c-0.148,13.126-9.375,25.853-27.273,27.272c-17.208-0.082-25.284-13.636-26.412-26.879         C22.319,52.359,22.66,34.342,22.66,34.342z" fill="#FFFFFF"/>
+<g>
+<path d="M37.193,14.64c2.766-1.666,9.259-2.813,9.259-2.813c10.919-1.609,27.841,3.749,28.669,26.113          l-0.614,24.74C74.01,78.824,63.534,84.306,51.708,86.757c9.845-4.767,14.945-17.093,15.452-31.8          c0.504-14.708-4.428-31.859-17.232-37.895C49.93,17.062,36.776,14.892,37.193,14.64z" fill="url(#XMLID_2_)"/>
+<g>
+<path d="M47.303,13.623c13.998,1.736,21.908,13.215,21.576,30.189L68.182,65.82           C68.01,80.15,57.404,88.075,45.941,87.031C33.839,85.928,25.127,72.178,25.3,57.846l-0.237-23.013           C25.235,20.51,35.243,11.709,47.303,13.623z" fill="#CD9F3D"/>
+</g>
+<g>
+<path d="M60.709,40.916L49.681,51.202l10.966,14.819L44.53,81.031l0.037-25.061l-7.808,7.272l-2.834-4.057           l9.871-9.197l-9.816-13.251l2.85-2.884l7.764,10.479l0.088-25.047L60.709,40.916z M48.726,31.473           c-0.011,4.881-0.031,9.164-0.051,13.959c2.772-2.57,5.367-5.002,6.146-5.727C53.379,37.756,51.344,35.01,48.726,31.473            M54.76,64.811c-0.773-1.057-3.356-4.546-6.113-8.258c-0.002,4.802-0.004,9.087-0.016,13.959           C51.26,68.066,53.309,66.158,54.76,64.811" fill="#FFFFFF"/>
+</g>
+<defs>
+<linearGradient gradientTransform="matrix(1.1364 0 0 -1.1364 282.3861 534.5338)" gradientUnits="userSpaceOnUse" id="XMLID_2_" x1="-210.4097" x2="-198.478" y1="452.9219" y2="429.9228">
+<stop offset="0" style="stop-color:#EACF5A"/>
+<stop offset="0.2309" style="stop-color:#C4A64A"/>
+<stop offset="0.6376" style="stop-color:#AD832F"/>
+<stop offset="1" style="stop-color:#8E6F3A"/>
+</linearGradient>
+</defs>
+</g>
+</g>
+<g>
+<g>
+<rect fill="none" height="100" width="100"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</switch>
+</svg>

@@ -1,0 +1,44 @@
+/*
+* Copyright (c) 2006 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  File that exports the files belonging to 
+:                Skins API
+*
+*/
+
+
+#include <platform_paths.hrh>
+
+PRJ_PLATFORMS
+DEFAULT
+
+PRJ_EXPORTS
+
+../inc/AknsDataContext.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsDataContext.h)
+../inc/AknsListBoxBackgroundControlContext.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsListBoxBackgroundControlContext.h)
+../inc/AknsWallpaperUtils.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsWallpaperUtils.h)
+../inc/AknsItemID.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsItemID.h)
+../inc/AknsConstants.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsConstants.h)
+../inc/AknsRlEffectContext.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsRlEffectContext.h)
+../inc/AknsItemID.inl     MW_LAYER_PUBLIC_EXPORT_PATH(AknsItemID.inl)
+../inc/AknsConstants.hrh     MW_LAYER_PUBLIC_EXPORT_PATH(aknsconstants.hrh)
+../inc/AknsFrameBackgroundControlContext.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsFrameBackgroundControlContext.h)
+../inc/AknsDrawUtils.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsDrawUtils.h)
+../inc/AknsUtils.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsUtils.h)
+../inc/AknsRlEffect.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsRlEffect.h)
+../inc/AknsControlContext.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsControlContext.h)
+../inc/AknsItemData.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsItemData.h)
+../inc/AknsLayeredBackgroundControlContext.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsLayeredBackgroundControlContext.h)
+../inc/AknsSkinInstance.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsSkinInstance.h)
+../inc/AknsBasicBackgroundControlContext.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsBasicBackgroundControlContext.h)
+../inc/AknsRlParameter.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknsRlParameter.h)

@@ -1,0 +1,47 @@
+/*
+* Copyright (c) 2002 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  
+*   Project definition file
+*
+*/
+
+
+#include <platform_paths.hrh>
+
+TARGET MifToCdlIndex.exe
+
+TARGETTYPE exe
+
+// These options enable exception handling and set the warning level to 3 for command
+// line builds. STL code generates too many warnings at level 4, but is clean at
+// level 3. Also require RTTI.
+option MSVC /GX /W3 /GR
+
+SOURCEPATH ../MifToCdlIndex
+SOURCE MifToCdlIndex.cpp
+SOURCE MifHandler.cpp
+SOURCE DllCreator.cpp
+
+USERINCLUDE  ../MifToCdlIndex ../inc
+SYSTEMINCLUDE ../MifToCdlIndex ../inc
+MW_LAYER_SYSTEMINCLUDE
+
+START TOOLS
+  #if defined(CW32)
+    win32_library /epoc32/release/cwtools/rel/CdlCompilerToolkit.lib
+  #elif defined(VC32)
+    win32_library /epoc32/release/tools/rel/CdlCompilerToolkit.lib
+  #endif
+END
+

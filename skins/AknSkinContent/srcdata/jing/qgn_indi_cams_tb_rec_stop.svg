@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="44" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 44 44" height="44" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <radialGradient gradientTransform="matrix(1 0 0 -1 0.1377 42.834)" gradientUnits="userSpaceOnUse" xlink:type="simple" r="37.21" xlink:actuate="onLoad" cx="3.0522" id="XMLID_138_" cy="42.415" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#0a0a00" offset="1"/>
+    </radialGradient>
+    <rect x="9.496" width="25.008" fill="url(#XMLID_138_)" y="9.496" height="25.008"/>
+</svg>

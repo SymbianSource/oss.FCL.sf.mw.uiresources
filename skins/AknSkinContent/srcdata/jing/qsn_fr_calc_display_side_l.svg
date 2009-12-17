@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="8" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 8 64" height="64" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <g>
+        <linearGradient x1="-1170.8745" gradientTransform="matrix(-1 0 0 -1 -1166.8574 -666)" y1="-707.751" x2="-1170.8745" gradientUnits="userSpaceOnUse" y2="-665.8608" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+            <stop stop-color="#fff5f5" offset="0"/>
+            <stop stop-color="#ffa29e" offset="1"/>
+        </linearGradient>
+        <rect x="0.017" y="0.117" fill-opacity="0.4" fill="url(#XMLID_4_)" width="8" height="63.999"/>
+        <g>
+            <g>
+                <polygon fill="#f6a2a0" fill-opacity="0.3" points="2.017,2.117 2.017,62.116 8.018,62.116 8.018,60.116 4.017,60.116      4.017,4.117 8.018,4.117 8.018,2.117    "/>
+                <polygon fill="#840000" fill-opacity="0.4" points="0.017,0.117 0.017,64.116 8.018,64.116 8.018,62.116 2.017,62.116      2.017,2.117 8.018,2.117 8.018,0.117    "/>
+                <polyline fill="none" points="8.018,64.116 0.017,64.116 0.017,0.117 8.018,0.117    "/>
+            </g>
+        </g>
+    </g>
+</svg>

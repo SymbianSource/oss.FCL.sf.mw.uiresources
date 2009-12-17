@@ -1,0 +1,36 @@
+/*
+* Copyright (c) 2006 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Includes all the Domain API specific bld.inf files, which 
+*                export files.
+*
+*/
+
+
+
+#include "../layout_system_private_api/group/bld.inf"
+#include "../layout_data_api/group/bld.inf"
+#include "../cdl_api/group/bld.inf"
+#include "../extended_skins_api/group/bld.inf"
+#include "../tfx_server_controller_plugin_api/group/bld.inf"
+#include "../extended_fonts_api/group/bld.inf"
+#include "../graphic_configuration_api/group/bld.inf"
+#include "../mif_header_cdl_api/group/bld.inf"
+#include "../personalisation_and_skins_settings_api/group/bld.inf"
+#include "../tfx_effect_setup_plugin_api/group/bld.inf"
+#include "../mifconv_definitions_api/group/bld.inf"
+#include "../wallpaper_configuration_api/group/bld.inf"
+#include "../language_code_definitions_api/group/bld.inf"
+#include "../skins_image_attributes_api/group/bld.inf"
+#include "../private_user_area_code_definitions_api/group/bld.inf"
+#include "../tfx_server_plugin_ids_api/group/bld.inf"

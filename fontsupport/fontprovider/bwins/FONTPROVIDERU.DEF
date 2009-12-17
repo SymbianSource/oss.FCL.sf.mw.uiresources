@@ -1,0 +1,10 @@
+EXPORTS
+	?BaselineDeltaForCharacter@AknFontProvider@@SAHHVTChar@@AAH1@Z @ 1 NONAME ; public: static int __cdecl AknFontProvider::BaselineDeltaForCharacter(int,class TChar,int &,int &)
+	?CreateFontFromMetrics@AknFontProvider@@SAPAVCFbsFont@@AAVCBitmapDevice@@HABVTAknFontSpecification@@AAVTAknFontProviderSuppliedMetrics@@AAH@Z @ 2 NONAME ; class CFbsFont * AknFontProvider::CreateFontFromMetrics(class CBitmapDevice &, int, class TAknFontSpecification const &, class TAknFontProviderSuppliedMetrics &, int &)
+	?HasBaselineCorrection@AknFontProvider@@SAHH@Z @ 3 NONAME ; public: static int __cdecl AknFontProvider::HasBaselineCorrection(int)
+	?MinimumBaselineDeltaForDescriptor@AknFontProvider@@SAHHABVTDesC16@@AAH1H1@Z @ 4 NONAME ; public: static int __cdecl AknFontProvider::MinimumBaselineDeltaForDescriptor(int,class TDesC16 const &,int &,int &,int,int &)
+	?FontProviderIndexFromFontSpec@AknFontProvider@@SAHABVTFontSpec@@@Z @ 5 NONAME ; public: static int __cdecl AknFontProvider::FontProviderIndexFromFontSpec(class TFontSpec const &)
+	?CreateFontFromTypefaceAndMetrics@AknFontProvider@@SAPAVCFbsFont@@AAVCBitmapDevice@@ABVTTypeface@@ABVTAknFontSpecification@@AAVTAknFontProviderSuppliedMetrics@@AAH@Z @ 6 NONAME ; class CFbsFont * AknFontProvider::CreateFontFromTypefaceAndMetrics(class CBitmapDevice &, class TTypeface const &, class TAknFontSpecification const &, class TAknFontProviderSuppliedMetrics &, int &)
+	?InitializeSystemL@AknFontProvider@@SAXABVCEikonEnv@@@Z @ 7 NONAME ; void AknFontProvider::InitializeSystemL(class CEikonEnv const &)
+	?GetFontSpecFromMetrics@AknFontProvider@@SAHAAVCBitmapDevice@@HABVTAknFontSpecification@@AAVTFontSpec@@AAH@Z @ 8 NONAME ; int AknFontProvider::GetFontSpecFromMetrics(class CBitmapDevice &, int, class TAknFontSpecification const &, class TFontSpec &, int &)
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="172.918" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="-28.86 -14.264 172.918 25.512" height="25.512" preserveAspectRatio="xMidYMid meet" version="1.1">
+    <polygon fill="#f6a2a0" points="-28.86,11.248 144.053,11.248 144.053,-14.264 -28.86,-14.264 -28.86,11.247 "/>
+    <linearGradient x1="57.4588" gradientTransform="matrix(1 0 0 -1 0.1377 -4.1818)" y1="21.4208" x2="57.4588" gradientUnits="userSpaceOnUse" y2="-145.8201" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_6_" xlink:show="other">
+        <stop stop-color="#fff5f5" offset="0"/>
+        <stop stop-color="#ffa29e" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#XMLID_6_)" points="-28.86,11.248 144.053,11.248 144.053,-14.264 -28.86,-14.264 -28.86,11.247 "/>
+    <rect x="-28.86" y="-14.264" fill-opacity="0.7" fill="#ffffff" width="172.918" height="25.512"/>
+</svg>

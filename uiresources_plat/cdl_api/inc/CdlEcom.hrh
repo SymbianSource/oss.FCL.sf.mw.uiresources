@@ -1,0 +1,64 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+#ifndef CDLECOM_HRH
+#define CDLECOM_HRH
+
+#define CDL_ECOM_MAIN_REG_WITH_VERSION(dllUid, dllVersion)\
+RESOURCE REGISTRY_INFO theInfo\
+{\
+	dll_uid = dllUid;\
+	interfaces =\
+	{\
+		INTERFACE_INFO\
+		{\
+		interface_uid = 0x101f8243;\
+		implementations = \
+			{\
+			IMPLEMENTATION_INFO\
+				{\
+				implementation_uid = dllUid;\
+				version_no = dllVersion;\
+				display_name = "";\
+				default_data = "";\
+				opaque_data = "";\
+				}\
+			};\
+		}\
+	};\
+}
+
+#define CDL_ECOM_MAIN_REG(dllUid)\
+CDL_ECOM_MAIN_REG_WITH_VERSION(dllUid, 1)
+
+#define CDL_ECOM_REG_DETAIL_START \
+RESOURCE CDL_IMPLS theDetails\
+{\
+	impls = \
+	{
+
+#define CDL_ECOM_REG_DETAIL_END\
+	};\
+}
+
+#define CDL_ECOM_DETAIL_IMPL(implName)\
+	CDL_IMPL_INFO\
+	{\
+	uid = _CDL_##implName##_KCdlInstanceInterfaceUidValue;\
+	id = _CDL_##implName##_KCdlInstanceId;\
+	}
+
+#endif // CDLECOM_HRH
