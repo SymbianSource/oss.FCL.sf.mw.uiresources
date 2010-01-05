@@ -17,7 +17,7 @@
 #include "nvgrenderstage.h"
 #include "nvgrenderstagepanic.h"
 
-_LIT(KNvgRenderStageName, "nvgbitmap");
+_LIT(KNvgRenderStageName, "NVGRenderStage");
 
 void Panic(TNvgRenderStagePanic aPanic)
 	{
