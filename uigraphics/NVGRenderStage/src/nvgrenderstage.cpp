@@ -99,7 +99,7 @@ next stage to draw to. A pointer to the MWsGraphicsContext interface is saved he
 and is used for all subsequent MWsGraphicsContext operations called on this
 render stage. 
 
-This render stage draws all extended bitmaps of type 0x10285A78
+This render stage draws all extended bitmaps of type 0x39b9273e
 and passes all other drawing operations directly to the next render stage through
 its MWsGraphicsContext interface.
 
@@ -146,7 +146,7 @@ void CNvgRenderStage::End(TRequestStatus* aCompositorReady)
 		}
 	}
 
-/** If the passed bitmap is an extended bitmap of type 0x10285A78, draw it to the stored
+/** If the passed bitmap is an extended bitmap of type 0x39b9273e, draw it to the stored
 graphics context of the next render stage using  DrawExtendedBitmap(), if the passed bitmap
 is not an extended bitmap just pass it on to the next render stage directly.
 
@@ -168,7 +168,7 @@ void CNvgRenderStage::BitBlt(const TPoint& aDestPos, const CFbsBitmap& aSourceBi
 		}
 	}
 
-/** If the passed bitmap is an extended bitmap of type 0x10285A78, draw it to the 
+/** If the passed bitmap is an extended bitmap of type 0x39b9273e, draw it to the 
 stored graphics context of the next render stage using  DrawExtendedBitmap(), if the
 passed bitmap is not an extended bitmap just pass it on to the next render stage directly.
 
@@ -190,7 +190,7 @@ void CNvgRenderStage::BitBlt(const TPoint& aDestPos, const CFbsBitmap& aSourceBi
 		}
 	}
 
-/** If either of the passed bitmaps is an extended bitmap of type 0x10285A78 convert
+/** If either of the passed bitmaps is an extended bitmap of type 0x39b9273e convert
 to a normal bitmap before passing to the next render stage, otherwise
 just pass to the next render stage directly.
 
@@ -219,7 +219,7 @@ void CNvgRenderStage::BitBltMasked(const TPoint& aDestPos, const CFbsBitmap& aSo
 		}
 	}
 
-/** If either of the passed bitmaps is an extended bitmap of type 0x10285A78
+/** If either of the passed bitmaps is an extended bitmap of type 0x39b9273e
 convert to a normal bitmap before passing to the next render stage, otherwise
 just pass to the next render stage directly.
 
@@ -318,7 +318,7 @@ void CNvgRenderStage::DrawPie(const TRect& aRect, const TPoint& aStart, const TP
 		}
 	}
 
-/** If the passed bitmap is an extended bitmap of type 0x10285A78, draw it to the 
+/** If the passed bitmap is an extended bitmap of type 0x39b9273e, draw it to the 
 stored graphics context of the next render stage using DrawExtendedBitmap(), if the
 passed bitmap is not an extended bitmap just pass it on to the next render stage directly.
 
@@ -340,7 +340,7 @@ void CNvgRenderStage::DrawBitmap(const TRect& aDestRect, const CFbsBitmap& aSour
 		}
 	}
 
-/** If the passed bitmap is an extended bitmap of type 0x10285A78, draw it to the 
+/** If the passed bitmap is an extended bitmap of type 0x39b9273e, draw it to the 
 stored graphics context of the next render stage using DrawExtendedBitmap(), if the
 passed bitmap is not an extended bitmap just pass it on to the next render stage directly.
 
@@ -362,7 +362,7 @@ void CNvgRenderStage::DrawBitmap(const TRect& aDestRect, const CFbsBitmap& aSour
 		}
 	}
 
-/** If the passed bitmap or mask bitmap is an extended bitmap of type 0x10285A78
+/** If the passed bitmap or mask bitmap is an extended bitmap of type 0x39b9273e
 convert it to a normal bitmap before calling DrawBitmapMasked(), normal bitmaps
 are passed straight through to the next render stage without conversion.
 
@@ -755,7 +755,7 @@ void CNvgRenderStage::SetStrikethroughStyle(TFontStrikethrough aStrikethroughSty
 		}
 	}
 
-/** If the passed bitmap is an extended bitmap of type 0x10285A78
+/** If the passed bitmap is an extended bitmap of type 0x39b9273e
 convert the extended bitmap to a normal bitmap and set the converted bitmap
 as the current brush pattern. If the passed bitmap is a normal
 bitmap just pass it on to the next render stage.
@@ -768,7 +768,7 @@ void CNvgRenderStage::SetBrushPattern(const CFbsBitmap& aBitmap)
 	SetBrushPattern(aBitmap.Handle());	
 	}
 
-/** If the passed bitmap handle refers to an extended bitmap of type 0x10285A78
+/** If the passed bitmap handle refers to an extended bitmap of type 0x39b9273e
 convert the extended bitmap to a normal bitmap and set the converted bitmap
 as the current brush pattern. If the passed bitmap handle refers to a normal
 bitmap just pass it on to the next render stage.
@@ -988,9 +988,9 @@ void CNvgRenderStage::Pop()
 
 @param aGc The graphics context to draw the extended bitmap to.
 @param aDestRect The rectangle that the source bitmap will be drawn to.
-@param aSourceBitmap The extended bitmap of type 0x10285A78 to be drawn.
+@param aSourceBitmap The extended bitmap of type 0x39b9273e to be drawn.
 
-@pre aSourceBitmap must be an extended bitmap of type 0x10285A78.
+@pre aSourceBitmap must be an extended bitmap of type 0x39b9273e.
 @post Sets an error that can be retrieved using GetError() is an error occurs. 
  */
 void CNvgRenderStage::DrawExtendedBitmap(MWsGraphicsContext& aGc, const TRect& aDestRect, const CFbsBitmap& aSourceBitmap)
@@ -1003,9 +1003,9 @@ void CNvgRenderStage::DrawExtendedBitmap(MWsGraphicsContext& aGc, const TRect& a
 
 @param aGc The graphics context to draw the extended bitmap to.
 @param aDestRect The rectangle that the source bitmap will be drawn to.
-@param aSourceBitmap The extended bitmap of type 0x10285A78 to be drawn.
+@param aSourceBitmap The extended bitmap of type 0x39b9273e to be drawn.
 
-@pre aSourceBitmap must be an extended bitmap of type 0x10285A78.
+@pre aSourceBitmap must be an extended bitmap of type 0x39b9273e.
 @post Sets an error that can be retrieved using GetError() is an error occurs. 
  */
 void CNvgRenderStage::DrawExtendedBitmap(CFbsBitGc& aGc, const TRect& aDestRect, const CFbsBitmap& aSourceBitmap)
@@ -1021,7 +1021,7 @@ bitmap passed is resized before the extended bitmap is drawn into it.
 @param aExtendedBitmapSrc The extended bitmap to draw in to the normal bitmap aBitmapDest
 @param aBitmapDest The normal bitmap that the extended bitmap is to be drawn into
 
-@pre aExtendedBitmapSrc must be an extended bitmap of extended bitmap type 0x10285A78
+@pre aExtendedBitmapSrc must be an extended bitmap of extended bitmap type 0x39b9273e
 @post aBitmapDest has been reset and resized and now contains a representation of the aExtendedBitmapSrc
  */
 void CNvgRenderStage::CopyExtendedBitmapToNormalBitmap(const CFbsBitmap& aExtendedBitmapSrc, CFbsBitmap& aBitmapDst)
