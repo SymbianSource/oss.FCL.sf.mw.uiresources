@@ -1481,7 +1481,11 @@ enum TAknsQsnTextColorsIndex
     //Text#80  AVKON Buttons, AVKON Button default texts. #4b5879
     EAknsCIQsnTextColorsCG80   = 79,
     //Text#81  Email, Email header texts. #4b5879
-    EAknsCIQsnTextColorsCG81   = 80
+    EAknsCIQsnTextColorsCG81   = 80,
+    //Text#82  Call handling, Answer-button text. #ffffff
+    EAknsCIQsnTextColorsCG82   = 81,
+    //Text#83  Call handling, Reject-button text. #ffffff
+    EAknsCIQsnTextColorsCG83   = 82
     };
 
 /**
@@ -16675,11 +16679,11 @@ static const TAknsItemID KAknsIIDQsnFrCmailListCornerBl =
 static const TAknsItemID KAknsIIDQsnFrCmailListCornerBr =
     { EAknsMajorSkin, EAknsMinorQsnFrCmailListCornerBr};   
    
-static const TAknsItemID KAknsIIDQsnFrCmailListSideTop =
-    { EAknsMajorSkin, EAknsMinorQsnFrCmailListSideTop};   
+static const TAknsItemID KAknsIIDQsnFrCmailListSideT =
+    { EAknsMajorSkin, EAknsMinorQsnFrCmailListSideT};   
     
-static const TAknsItemID KAknsIIDQsnFrCmailListSideBottom =
-    { EAknsMajorSkin, EAknsMinorQsnFrCmailListSideBottom}; 
+static const TAknsItemID KAknsIIDQsnFrCmailListSideB =
+    { EAknsMajorSkin, EAknsMinorQsnFrCmailListSideB}; 
 
 static const TAknsItemID KAknsIIDQsnFrCmailListSideL =
     { EAknsMajorSkin, EAknsMinorQsnFrCmailListSideL};  
@@ -16771,11 +16775,11 @@ static const TAknsItemID KAknsIIDQsnFrTitleDividerCornerBl =
 static const TAknsItemID KAknsIIDQsnFrTitleDividerCornerBr =
     { EAknsMajorSkin, EAknsMinorQsnFrTitleDividerCornerBr};   
    
-static const TAknsItemID KAknsIIDQsnFrTitleDividerSideTop =
-    { EAknsMajorSkin, EAknsMinorQsnFrTitleDividerSideTop};   
+static const TAknsItemID KAknsIIDQsnFrTitleDividerSideT =
+    { EAknsMajorSkin, EAknsMinorQsnFrTitleDividerSideT};   
     
-static const TAknsItemID KAknsIIDQsnFrTitleDividerSideBottom =
-    { EAknsMajorSkin, EAknsMinorQsnFrTitleDividerSideBottom}; 
+static const TAknsItemID KAknsIIDQsnFrTitleDividerSideB =
+    { EAknsMajorSkin, EAknsMinorQsnFrTitleDividerSideB}; 
 
 static const TAknsItemID KAknsIIDQsnFrTitleDividerSideL =
     { EAknsMajorSkin, EAknsMinorQsnFrTitleDividerSideL};  
@@ -21014,6 +21018,63 @@ static const TAknsItemID KAknsIIDQgnIndiTbShowCc =
 
 static const TAknsItemID KAknsIIDQgnNoteDevicelockSwipe =
     { EAknsMajorGeneric, EAknsMinorGenericQgnNoteDevicelockSwipe };
+
+static const TAknsItemID KAknsIIDQgnGrafFepCharButton =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnGrafFepCharButton };
+
+static const TAknsItemID KAknsIIDQgnIndiBigclockCalendar =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiBigclockCalendar };
+
+static const TAknsItemID KAknsIIDQgnIndiBigclockCalls =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiBigclockCalls };
+
+static const TAknsItemID KAknsIIDQgnIndiBigclockEmail =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiBigclockEmail };
+
+static const TAknsItemID KAknsIIDQgnIndiBigclockMail =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiBigclockMail };
+
+static const TAknsItemID KAknsIIDQgnIndiBigclockVoicemail =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiBigclockVoicemail };
+
+static const TAknsItemID KAknsIIDQgnIndiBigclockVoicemailStar =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiBigclockVoicemailStar };
+
+static const TAknsItemID KAknsIIDQgnIndiBrowserTbExit =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiBrowserTbExit };
+
+static const TAknsItemID KAknsIIDQgnIndiFepButtonCaseKoreanSymbol =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiFepButtonCaseKoreanSymbol };
+
+static const TAknsItemID KAknsIIDQgnIndiInputCaseTextEnglishKorean =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputCaseTextEnglishKorean };
+
+static const TAknsItemID KAknsIIDQgnIndiInputCaseTextKoreanEnglish =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputCaseTextKoreanEnglish };
+
+static const TAknsItemID KAknsIIDQgnIndiInputTableDown =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputTableDown };
+
+static const TAknsItemID KAknsIIDQgnIndiInputTableUp =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputTableUp };
+
+static const TAknsItemID KAknsIIDQgnPropPbAddTop =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropPbAddTop };
+
+static const TAknsItemID KAknsIIDQgnPropPbThumpMycard =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropPbThumpMycard };
+
+static const TAknsItemID KAknsIIDQsnBigclockScreensaverAnalogueFace =
+    { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockScreensaverAnalogueFace };
+
+static const TAknsItemID KAknsIIDQsnBigclockScreensaverAnaloguePointerHours =
+    { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockScreensaverAnaloguePointerHours };
+
+static const TAknsItemID KAknsIIDQsnBigclockScreensaverAnaloguePointerMinutes =
+    { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockScreensaverAnaloguePointerMinutes };
+
+static const TAknsItemID KAknsIIDQsnBigclockScreensaverAnaloguePointerSeconds =
+    { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockScreensaverAnaloguePointerSeconds };
 
 // SCMMARKER_INSERTIONPOINT
 

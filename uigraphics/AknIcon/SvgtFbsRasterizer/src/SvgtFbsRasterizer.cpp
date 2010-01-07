@@ -93,7 +93,6 @@ CSvgtFbsRasterizer::~CSvgtFbsRasterizer()
         {
         delete iRecentBmps.First();
         }
-    delete iIdle;
     
     delete iNvgEngine;
     delete iGraphicsInterface;
@@ -174,45 +173,25 @@ void CSvgtFbsRasterizer::EndBitmap(TInt64 aBitmapId)
 	        {
 	        if (--regBmp->iRefCount == 0)
 	            {
-	            // Put unregistered bitmap in the cache of recently used bitmaps if wholly pre-rendered
-	            // and there is an active scheduler to add the idle-time clean-up active object to
-	            if (CActiveScheduler::Current())
-	                {
-	                if (!iIdle)
-	                    {
-	                    iIdle = CIdle::New(CActive::EPriorityIdle);
-	                    if (!iIdle)
-	                        {
-	                        delete regBmp;
-	                        return;
-	                        }
-	                    }
-	                regBmp->iLink.Deque();
-	                if (regBmp->DataSize() <= iCacheLimit)
-	                    {
-	                    iRecentBmps.AddFirst(*regBmp);
-	                    iTotalRecentBmpSize += regBmp->DataSize();
-	                    }
-	                // Delete the least recently used bitmaps if the maximum size of the cache is exceeded
-	                while (iTotalRecentBmpSize > iCacheLimit)
-	                    {
-	                    regBmp = iRecentBmps.Last();
-	                    iTotalRecentBmpSize -= regBmp->DataSize();
-	                    delete regBmp;
-	                    }
-	                // If the cache is not empty make sure the idle-time clean-up active object is scheduled to run
-	                if (!iRecentBmps.IsEmpty() && !iIdle->IsActive())
-	                    {
-	                    iIdle->Start(TCallBack(IdleFunction, this));
-	                    }
-	                }  
-	            else
-	                {
-	                delete regBmp;
-	                }
-	            }
-	        }
-	}
+            // Put unregistered bitmap in the cache of recently used bitmaps if wholly pre-rendered
+            // and there is an active scheduler to add the idle-time clean-up active object to
+
+            regBmp->iLink.Deque();
+            if (regBmp->DataSize() <= iCacheLimit)
+                {
+                iRecentBmps.AddFirst(*regBmp);
+                iTotalRecentBmpSize += regBmp->DataSize();
+                }
+            // Delete the least recently used bitmaps if the maximum size of the cache is exceeded
+            while (iTotalRecentBmpSize > iCacheLimit)
+                {
+                regBmp = iRecentBmps.Last();
+                iTotalRecentBmpSize -= regBmp->DataSize();
+                delete regBmp;
+                }
+            }
+        }
+    }
 
 /** Return a scanline from the passed extended bitmap given it's bitmap id. 
  */
@@ -280,21 +259,6 @@ CSvgtRegisteredBitmap* CSvgtFbsRasterizer::RecentBitmap(TInt64 aBitmapId)
     return NULL;
     }
 
-TInt CSvgtFbsRasterizer::IdleFunction(TAny* aPtr)
-    {
-     CSvgtFbsRasterizer* self = static_cast<CSvgtFbsRasterizer*>(aPtr);    
-    if(self->iSpecialProcess!=true)
-        {
-       
-        while (!self->iRecentBmps.IsEmpty())
-            {
-            delete self->iRecentBmps.First();
-            }
-        self->iTotalRecentBmpSize = 0;        
-        }
-    return 0;
-    }
-
 void CSvgtFbsRasterizer::InitializeRasterizer()
     {
     }
@@ -305,6 +269,7 @@ void CSvgtFbsRasterizer::RenderBitmapL(CSvgtRegisteredBitmap& aPixMap, CFbsBitma
     TSize newSize = aBitmapDesc.iSizeInPixels;
     UpdateMatrices();
     iMatricesUpdated = ETrue;
+
     TBool isMargin = aIconHeader.IsMarginCorrection();
     
     VGImage vgImage = VG_INVALID_HANDLE;
@@ -461,6 +426,13 @@ void CSvgtFbsRasterizer::RenderL( const TBitmapDesc& aBitmapDesc, CSvgtRegistere
     vgSeti(VG_SCISSORING, VG_FALSE);
     vgSetfv(VG_CLEAR_COLOR, 4, color);
     vgClear(0, 0, aBitmapDesc.iSizeInPixels.iWidth, aBitmapDesc.iSizeInPixels.iHeight);
+
+    vgSeti(VG_MATRIX_MODE, VG_MATRIX_IMAGE_USER_TO_SURFACE);
+    vgLoadIdentity();
+
+    vgSeti(VG_MATRIX_MODE, VG_MATRIX_PATH_USER_TO_SURFACE);
+    vgLoadIdentity();
+
     TInt rotAngle = iconheader.GetRotation();
     // setting the rotation angle
     iNvgEngine->Rotate(-rotAngle,  aBitmapDesc.iSizeInPixels.iWidth >> 1,aBitmapDesc.iSizeInPixels.iHeight >>1);

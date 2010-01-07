@@ -2,7 +2,7 @@
 * Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
 * All rights reserved.
 * This component and the accompanying materials are made available
-* under the terms of "Eclipse Public License v1.0"
+* under the terms of the License "Eclipse Public License v1.0"
 * which accompanies this distribution, and is available
 * at the URL "http://www.eclipse.org/legal/epl-v10.html".
 *
@@ -5278,8 +5278,8 @@
 {L"KAknsIIDQsnFrCmailListCornerTr",  EAknsMajorSkin, EAknsMinorQsnFrCmailListCornerTr},
 {L"KAknsIIDQsnFrCmailListCornerBl",  EAknsMajorSkin, EAknsMinorQsnFrCmailListCornerBl},
 {L"KAknsIIDQsnFrCmailListCornerBr",  EAknsMajorSkin, EAknsMinorQsnFrCmailListCornerBr},
-{L"KAknsIIDQsnFrCmailListSideTop",  EAknsMajorSkin, EAknsMinorQsnFrCmailListSideTop},
-{L"KAknsIIDQsnFrCmailListSideBottom",  EAknsMajorSkin, EAknsMinorQsnFrCmailListSideBottom},
+{L"KAknsIIDQsnFrCmailListSideT",  EAknsMajorSkin, EAknsMinorQsnFrCmailListSideT},
+{L"KAknsIIDQsnFrCmailListSideB",  EAknsMajorSkin, EAknsMinorQsnFrCmailListSideB},
 {L"KAknsIIDQsnFrCmailListSideL",  EAknsMajorSkin, EAknsMinorQsnFrCmailListSideL},
 {L"KAknsIIDQsnFrCmailListSideR",  EAknsMajorSkin, EAknsMinorQsnFrCmailListSideR},
 {L"KAknsIIDQsnFrCmailListCenter",  EAknsMajorSkin, EAknsMinorQsnFrCmailListCenter},
@@ -5308,8 +5308,8 @@
 {L"KAknsIIDQsnFrTitleDividerCornerTr",  EAknsMajorSkin, EAknsMinorQsnFrTitleDividerCornerTr},
 {L"KAknsIIDQsnFrTitleDividerCornerBl",  EAknsMajorSkin, EAknsMinorQsnFrTitleDividerCornerBl},
 {L"KAknsIIDQsnFrTitleDividerCornerBr",  EAknsMajorSkin, EAknsMinorQsnFrTitleDividerCornerBr},
-{L"KAknsIIDQsnFrTitleDividerSideTop",  EAknsMajorSkin, EAknsMinorQsnFrTitleDividerSideTop},
-{L"KAknsIIDQsnFrTitleDividerSideBottom",  EAknsMajorSkin, EAknsMinorQsnFrTitleDividerSideBottom},
+{L"KAknsIIDQsnFrTitleDividerSideT",  EAknsMajorSkin, EAknsMinorQsnFrTitleDividerSideT},
+{L"KAknsIIDQsnFrTitleDividerSideB",  EAknsMajorSkin, EAknsMinorQsnFrTitleDividerSideB},
 {L"KAknsIIDQsnFrTitleDividerSideL",  EAknsMajorSkin, EAknsMinorQsnFrTitleDividerSideL},
 {L"KAknsIIDQsnFrTitleDividerSideR",  EAknsMajorSkin, EAknsMinorQsnFrTitleDividerSideR},
 {L"KAknsIIDQsnFrTitleDividerCenter",  EAknsMajorSkin, EAknsMinorQsnFrTitleDividerCenter},
@@ -6710,3 +6710,22 @@
 {L"KAknsIIDQgnIndiTbShowBcc",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbShowBcc },
 {L"KAknsIIDQgnIndiTbShowCc",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbShowCc },
 {L"KAknsIIDQgnNoteDevicelockSwipe",  EAknsMajorGeneric, EAknsMinorGenericQgnNoteDevicelockSwipe },
+{L"KAknsIIDQgnGrafFepCharButton",  EAknsMajorGeneric, EAknsMinorGenericQgnGrafFepCharButton },
+{L"KAknsIIDQgnIndiBigclockCalendar",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiBigclockCalendar },
+{L"KAknsIIDQgnIndiBigclockCalls",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiBigclockCalls },
+{L"KAknsIIDQgnIndiBigclockEmail",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiBigclockEmail },
+{L"KAknsIIDQgnIndiBigclockMail",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiBigclockMail },
+{L"KAknsIIDQgnIndiBigclockVoicemail",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiBigclockVoicemail },
+{L"KAknsIIDQgnIndiBigclockVoicemailStar",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiBigclockVoicemailStar },
+{L"KAknsIIDQgnIndiBrowserTbExit",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiBrowserTbExit },
+{L"KAknsIIDQgnIndiFepButtonCaseKoreanSymbol",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiFepButtonCaseKoreanSymbol },
+{L"KAknsIIDQgnIndiInputCaseTextEnglishKorean",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputCaseTextEnglishKorean },
+{L"KAknsIIDQgnIndiInputCaseTextKoreanEnglish",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputCaseTextKoreanEnglish },
+{L"KAknsIIDQgnIndiInputTableDown",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputTableDown },
+{L"KAknsIIDQgnIndiInputTableUp",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputTableUp },
+{L"KAknsIIDQgnPropPbAddTop",  EAknsMajorGeneric, EAknsMinorGenericQgnPropPbAddTop },
+{L"KAknsIIDQgnPropPbThumpMycard",  EAknsMajorGeneric, EAknsMinorGenericQgnPropPbThumpMycard },
+{L"KAknsIIDQsnBigclockScreensaverAnalogueFace",  EAknsMajorGeneric, EAknsMinorGenericQsnBigclockScreensaverAnalogueFace },
+{L"KAknsIIDQsnBigclockScreensaverAnaloguePointerHours",  EAknsMajorGeneric, EAknsMinorGenericQsnBigclockScreensaverAnaloguePointerHours },
+{L"KAknsIIDQsnBigclockScreensaverAnaloguePointerMinutes",  EAknsMajorGeneric, EAknsMinorGenericQsnBigclockScreensaverAnaloguePointerMinutes },
+{L"KAknsIIDQsnBigclockScreensaverAnaloguePointerSeconds",  EAknsMajorGeneric, EAknsMinorGenericQsnBigclockScreensaverAnaloguePointerSeconds },

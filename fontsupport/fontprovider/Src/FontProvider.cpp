@@ -100,6 +100,15 @@ _LIT(KS60TCHKHRSANSSBLF, "S60TCHKHRSANSSBLF");
 _LIT(KS60TCHKHRSANSTTLSMBLDLF, "S60TCHKHRSANSTTLSMBLDLF");
 //end
 
+//browser link fonts start
+//Western Content Linked fonts
+_LIT(KS60LATAMTREG, "S60LATAMTREG");
+_LIT(KS60LATAMTBLD, "S60LATAMTBLD");
+_LIT(KS60LATTHOREG, "S60LATTHOREG");
+_LIT(KS60LATTHOBLD, "S60LATTHOBLD");
+_LIT(KS60LATCUMREG, "S60LATCUMREG");
+_LIT(KS60LATCUMBLD, "S60LATCUMBLD");
+//browser link fonts stop
 
 // Texts for measuring maximum ascents and descents:
 _LIT(KWesternFontMaxExtentText, "\x00C1\x00C7" );
@@ -125,6 +134,9 @@ _LIT(KWesternFontMaxExtentText, "\x00C1\x00C7" );
 #define ELanguageSupportHangul                      0x00200000
 //chinese adaptation
 #define ELanguageSupportChineseFontLinking          0x00400000
+//end
+//additional browser fonts
+#define ELanguageAdditionalContentFonts             0x00800000
 //end
 #define ELanguageSupportDevanagari                  0x01000000
 #define ELanguageSupportS60PrivateUseArea1          0x10000000
@@ -216,10 +228,22 @@ _LIT(KWesternFontMaxExtentText, "\x00C1\x00C7" );
                                         | ELanguageSupportChineseHiRes \
                                         | ELanguageSupportChineseFontLinking )
 //end                                    
-
+//browser
+#define EElafLangsBrowserFonts ( EElafLangs \
+                                   |ELanguageAdditionalContentFonts)
+//end
 
 // Wildcard value for langs (font is to be used for all languages)
 #define EAnyLangs           0xffffffff
+const TInt KAknFontStylesSupported(3);
+const TInt KAknAdditionalBrowserFonts(6);
+
+enum TAknLinkedFontTypes
+    {
+    EAknSystemLinkedFonts,
+    EAknContentLinkedFonts,
+    EAknAllLinkedFonts
+    };
 
 //chinese adaptation
 /**
@@ -472,10 +496,17 @@ _LIT(KTimesNewRoman, "times new roman");
 _LIT(KSerif, "serif");
 _LIT(KMonospace, "monospaced");
 _LIT(KCourier, "courier");
+_LIT(KCourierNew, "courier new");
+_LIT(KBaskerville, "Baskerville");
+_LIT(KTrebuchet, "Trebuchet");
 
 // Group names
 _LIT(KS60Group, "S60Group");
-
+//new browser fonts start
+_LIT(KArialGroup, "ArialGroup");
+_LIT(KTnrGroup, "TnrGroup");
+_LIT(KCourGroup, "CourGroup");
+//new browser fonts end
 // Default
 _LIT(KDefaultGroupName, "S60Group");
 
@@ -521,13 +552,16 @@ static const SAknAliasTableLine aliasTable[] = {
     { LIT_AS_DESC_PTR(KSansSerif) ,LIT_AS_DESC_PTR(KS60Group), &languagesAndTypefaceTable, ETrue  },
     { LIT_AS_DESC_PTR(KSerif) ,LIT_AS_DESC_PTR(KS60Group), &languagesAndTypefaceTable, ETrue  },
     { LIT_AS_DESC_PTR(KMonospace) ,LIT_AS_DESC_PTR(KS60Group), &languagesAndTypefaceTable, ETrue  },
-    { LIT_AS_DESC_PTR(KArial) ,LIT_AS_DESC_PTR(KS60Group), &languagesAndTypefaceTable, EFalse  },
+    { LIT_AS_DESC_PTR(KTrebuchet) ,LIT_AS_DESC_PTR(KArialGroup), &languagesAndTypefaceTable, EFalse  },
+    { LIT_AS_DESC_PTR(KArial) ,LIT_AS_DESC_PTR(KArialGroup), &languagesAndTypefaceTable, EFalse  },
     { LIT_AS_DESC_PTR(KVerdana),LIT_AS_DESC_PTR(KS60Group), &languagesAndTypefaceTable, EFalse  },
     { LIT_AS_DESC_PTR(KHelvetica),LIT_AS_DESC_PTR(KS60Group), &languagesAndTypefaceTable, EFalse  },
-    { LIT_AS_DESC_PTR(KGeorgia),LIT_AS_DESC_PTR(KS60Group), &languagesAndTypefaceTable, EFalse  },
-    { LIT_AS_DESC_PTR(KTimes),LIT_AS_DESC_PTR(KS60Group), &languagesAndTypefaceTable, EFalse  },
-    { LIT_AS_DESC_PTR(KTimesNewRoman) ,LIT_AS_DESC_PTR(KS60Group), &languagesAndTypefaceTable, EFalse  },
-    { LIT_AS_DESC_PTR(KCourier) ,LIT_AS_DESC_PTR(KS60Group), &languagesAndTypefaceTable, EFalse  },
+    { LIT_AS_DESC_PTR(KBaskerville),LIT_AS_DESC_PTR(KTnrGroup), &languagesAndTypefaceTable, EFalse  },
+    { LIT_AS_DESC_PTR(KGeorgia),LIT_AS_DESC_PTR(KTnrGroup), &languagesAndTypefaceTable, EFalse  },
+    { LIT_AS_DESC_PTR(KTimes),LIT_AS_DESC_PTR(KTnrGroup), &languagesAndTypefaceTable, EFalse  },
+    { LIT_AS_DESC_PTR(KTimesNewRoman) ,LIT_AS_DESC_PTR(KTnrGroup), &languagesAndTypefaceTable, EFalse  },
+    { LIT_AS_DESC_PTR(KCourier) ,LIT_AS_DESC_PTR(KCourGroup), &languagesAndTypefaceTable, EFalse  },
+    { LIT_AS_DESC_PTR(KCourierNew) ,LIT_AS_DESC_PTR(KCourGroup), &languagesAndTypefaceTable, EFalse  },
     { LIT_AS_DESC_PTR(KNullDesC) ,LIT_AS_DESC_PTR(KS60Group), &languagesAndTypefaceTable, EFalse }
 };
 
@@ -648,7 +682,20 @@ static const SAknProductFontTableLine productFontTable[] = {
     { EAknFontCategoryPrimarySmall, 0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSSBLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL },
     { EAknFontCategoryPrimary,      0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSSBLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL },
     { EAknFontCategoryTitle,        0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSTTLSMBLDLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL },
-    { EAknFontCategoryAny,          0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSRLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL }
+    { EAknFontCategoryAny,          0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSRLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL },
+    
+    //new browser fonts start
+    //western tnr
+    { EAknFontCategoryAny,          0, EAny, EStrokeWeightBold, EAny, EAny, ENotBold, EAntialiase, EElafLangsBrowserFonts, LIT_AS_DESC_PTR(KS60LATTHOBLD), LIT_AS_DESC_PTR(KTnrGroup), NULL, &latinHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryAny,          0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EElafLangsBrowserFonts, LIT_AS_DESC_PTR(KS60LATTHOREG), LIT_AS_DESC_PTR(KTnrGroup), NULL, &latinHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    //western arial
+    { EAknFontCategoryAny,          0, EAny, EStrokeWeightBold, EAny, EAny, ENotBold, EAntialiase, EElafLangsBrowserFonts, LIT_AS_DESC_PTR(KS60LATAMTBLD), LIT_AS_DESC_PTR(KArialGroup), NULL, &latinHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryAny,          0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EElafLangsBrowserFonts, LIT_AS_DESC_PTR(KS60LATAMTREG), LIT_AS_DESC_PTR(KArialGroup), NULL, &latinHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    //western courier
+    { EAknFontCategoryAny,          0, EAny, EStrokeWeightBold, EAny, EAny, ENotBold, EAntialiase, EElafLangsBrowserFonts, LIT_AS_DESC_PTR(KS60LATCUMBLD), LIT_AS_DESC_PTR(KCourGroup), NULL, &latinHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText)},
+    { EAknFontCategoryAny,          0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EElafLangsBrowserFonts, LIT_AS_DESC_PTR(KS60LATCUMREG), LIT_AS_DESC_PTR(KCourGroup), NULL, &latinHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) }, 
+        
+    //new browser fonts end
 //end
     };
 // ============================ GLOBAL FUNCTIONS ========================================
@@ -670,7 +717,7 @@ void PopulateFontFileNames(TFileText& tfile, RPointerArray<SLinkedFontDetails>& 
 TInt CreateLinkFontsL(RPointerArray<SLinkedFontDetails>& fontfiles);
 TBool ChineseLinkedFontPresent(const TDesC& newFaceName);
 TInt DoPopulateAndCreateLinkFontsL(TFileText atfile,  TDesC& astartTok, TDesC& astopTok);
-TBool LinkTypefacesInstalled();
+TBool LinkTypefacesInstalled(TAknLinkedFontTypes aFonttype = EAknAllLinkedFonts);
 //end
 LOCAL_C void Panic(TAknFontProviderPanicCodes aPanic)
     {
@@ -719,7 +766,7 @@ LOCAL_C TUint FontProviderRequiredLangs()
     //fontlinking unsuccessful, handle with normal font files as earlier
     if(fChLinkFlag)
         {
-      if(!LinkTypefacesInstalled())
+      if(!LinkTypefacesInstalled(EAknSystemLinkedFonts))
         fChLinkedFonts = EFalse;
     else
         fChLinkedFonts = ETrue;
@@ -1086,14 +1133,15 @@ LOCAL_C void SetUpFontSpecFromTableLine(
 */
 LOCAL_C TBool TypefaceAvailableL( 
     CGraphicsDevice& aDevice, 
-    const TTypeface& aTypeface )
+    const TTypeface& aTypeface,
+    TInt aTypefaceType =EGulNoSymbolFonts )
     {
     TBool found(EFalse);
 
     CDesCArray* array = new(ELeave) CDesCArrayFlat( 6 );
     CleanupStack::PushL( array );
 
-    FontUtils::GetAvailableFontsL(aDevice, *array, EGulNoSymbolFonts);
+    FontUtils::GetAvailableFontsL(aDevice, *array, aTypefaceType);
     for ( TInt i = 0; i < array->Count(); i++ )
         {       
         TPtrC fontName((*array)[i]);
@@ -1190,6 +1238,23 @@ LOCAL_C void SetUpFontSpecFromTypefaceAndSpecification(
     
     // Ensure proportionality flag is set. Assumes all S60 fonts are proportional
     aFontSpec.iTypeface.SetIsProportional(ETrue);    
+    
+    TInt reqLangs = FontProviderRequiredLangs();
+    if((reqLangs == EChineseLangsPRC) || (reqLangs ==EChineseLangsTaiwanHK)|| 
+       (reqLangs ==EChineseLangsPRCLF) ||(reqLangs ==EChineseLangsTaiwanHKLF))
+        {
+        if((aFontSpec.iHeight > 21) && ( EAntiAliasedGlyphBitmap != aFontSpec.iFontStyle.BitmapType()))
+            aFontSpec.iFontStyle.SetBitmapType(EAntiAliasedGlyphBitmap);
+        //stroke font files used, not to use bold
+        aFontSpec.iFontStyle.SetStrokeWeight(EStrokeWeightNormal );
+        }
+    else if(reqLangs == EKoreanLangs)
+        {
+        if((aFontSpec.iHeight > 17) && ( EAntiAliasedGlyphBitmap != aFontSpec.iFontStyle.BitmapType()))
+            aFontSpec.iFontStyle.SetBitmapType(EAntiAliasedGlyphBitmap);        
+        }
+    else if((aFontSpec.iHeight > 16) && ( EAntiAliasedGlyphBitmap != aFontSpec.iFontStyle.BitmapType()))
+        aFontSpec.iFontStyle.SetBitmapType(EAntiAliasedGlyphBitmap);
     }
 
 LOCAL_C TBool HasRequiredLanguages( 
@@ -1340,8 +1405,20 @@ LOCAL_C CFbsFont* TryToGetFontFromAlias(
         }
 
     TBool specIsSetUp(EFalse);
-
-    if ( aFoundIndex == KErrNotFound)
+    
+	//new browser fonts start
+    //checking whether the typeface is installed
+    TInt numberOfRows = sizeof( productFontTable )/ sizeof( SAknProductFontTableLine );
+    SAknProductFontTableLine line = productFontTable[aFoundIndex];
+    TTypeface pftTypeface;
+    TBool available(ETrue);
+    if(aFoundIndex>=0 && aFoundIndex<numberOfRows)
+        {
+    pftTypeface.iName = line.iTypefaceName->Left((KMaxTypefaceNameLength));
+    TRAP_IGNORE( available = TypefaceAvailableL( *aDevice, pftTypeface,EGulAllFonts ) );    
+        }
+    //end
+    if ( (aFoundIndex == KErrNotFound) || ((TInt)EFalse == available))
         {
         // Note that because the alias table has language matching, the direct typeface name should be 
         // appropriate at least for language.
@@ -1800,14 +1877,13 @@ EXPORT_C void AknFontProvider::InitializeSystemL ( const CEikonEnv& aEnv )
     //chinese adaptation
     TBool fChLinkedFonts = FeatureManager::FeatureSupported(KFeatureIdFfLinkedFontsChinese);
     TBool fChinese = FeatureManager::FeatureSupported(KFeatureIdChinese);
-    if(fChinese && fChLinkedFonts)
+    TBool fAdditionalFonts = FeatureManager::FeatureSupported(KFeatureIdFfAdditionalFonts);
+    if((fChinese && fChLinkedFonts) || fAdditionalFonts)
       {
       //attempt to create linked font only once
       if(!LinkTypefacesInstalled())
 	    {
-	     //TRAP call necessary
-	     //not need to handle return value, hanled by LinkTypefacesInstalled()
-	     TRAPD(errRet,IntializeLinkedFontL());
+	     TRAP_IGNORE(IntializeLinkedFontL());
       	}    	  
       }
     //end       
@@ -2112,6 +2188,8 @@ TInt IntializeLinkedFontL()
     _LIT(KSCHRStop, "[SCHR_LINK_STOP]");
     _LIT(KTCHKHRStart, "[TCHKHR_LINK_START]");
     _LIT(KTCHKHRStop, "[TCHKHR_LINK_STOP]");
+    _LIT(KWESTBROWStart, "[WESTERN_BROWSER_START]");
+    _LIT(KWESTBROWStop, "[WESTERN_BROWSER_STOP]");
 
     TInt ret = KErrNone;
     RPointerArray<SLinkedFontDetails> fontfiles;
@@ -2134,6 +2212,10 @@ TInt IntializeLinkedFontL()
             KFeatureIdChinesePrcFonts);
     TBool fHiResFonts = FeatureManager::FeatureSupported(
             KFeatureIdChineseFontsHires);
+    TBool fAdditionalFonts = FeatureManager::FeatureSupported(
+            KFeatureIdFfAdditionalFonts);
+    TBool fChinese = FeatureManager::FeatureSupported(
+            KFeatureIdChinese);
 
     
     if (fChLinkedFonts)
@@ -2169,6 +2251,16 @@ TInt IntializeLinkedFontL()
             }
         
         }
+    if(fAdditionalFonts)
+        {
+        if((!fChinese) && (!fSCFonts) && (!fTCHKFonts) && (!fHiResFonts))//must be western variant
+            {
+            startTok.Copy(KWESTBROWStart);
+            stopTok.Copy(KWESTBROWStop);
+            tfile.Seek(ESeekStart);
+            ret = DoPopulateAndCreateLinkFontsL(tfile, startTok, stopTok);            
+            }
+        }
 
     
     rFile.Close();
@@ -2193,7 +2285,7 @@ TInt DoPopulateAndCreateLinkFontsL(TFileText atfile,  TDesC& astartTok, TDesC& a
     fontfiles.Close();
     return ret;
     }
-TBool LinkTypefacesInstalled()
+TBool LinkTypefacesInstalled(TAknLinkedFontTypes aFonttype)
     {
     CWsScreenDevice * screenDevice = CCoeEnv::Static()->ScreenDevice();
     TInt noOfTypefaces = screenDevice->NumTypefaces();
@@ -2203,18 +2295,33 @@ TBool LinkTypefacesInstalled()
             KFeatureIdChinesePrcFonts);
     TBool fHiResFonts = FeatureManager::FeatureSupported(
             KFeatureIdChineseFontsHires);
+    TBool fAdditionalFonts = FeatureManager::FeatureSupported(
+            KFeatureIdFfAdditionalFonts);
 
     
     TBool ret = EFalse;
     TInt files = 0, ref = 0;
-    if(fSCFonts)
-        ref +=3;
-    if(fTCHKFonts)
-        ref +=3;
+    if( (EAknAllLinkedFonts == aFonttype) || (EAknSystemLinkedFonts == aFonttype))
+        {
+        if(fSCFonts)
+           ref +=KAknFontStylesSupported;
+        if(fTCHKFonts)
+           ref +=KAknFontStylesSupported;
+        }
+    if( (EAknAllLinkedFonts == aFonttype) || (EAknContentLinkedFonts == aFonttype))
+        {
+        if(fAdditionalFonts)
+            {
+            if((!fSCFonts) && (!fTCHKFonts) &&(!fHiResFonts))
+                ref +=KAknAdditionalBrowserFonts;
+            }
+        }
     for (TInt i = 0; i < noOfTypefaces; i++)
         {
         TTypefaceSupport typefaceInfo;
         screenDevice->TypefaceSupport(typefaceInfo, i);
+        if( (EAknAllLinkedFonts == aFonttype) || (EAknSystemLinkedFonts == aFonttype))
+            {
         if (fSCFonts && fHiResFonts)
             {
             if (typefaceInfo.iTypeface.iName.Compare(KS60SCHRSANSRLF)==0||
@@ -2255,6 +2362,27 @@ TBool LinkTypefacesInstalled()
                 files++;
                 }
             }
+        }
+        if( (EAknAllLinkedFonts == aFonttype) || (EAknContentLinkedFonts == aFonttype))
+            {
+           if(fAdditionalFonts)
+               {
+               if( (!fSCFonts) && (!fTCHKFonts) && (!fHiResFonts))
+                   {
+                   if (typefaceInfo.iTypeface.iName.Compare(KS60LATAMTREG)==0||
+                       typefaceInfo.iTypeface.iName.Compare(KS60LATAMTBLD)==0||
+                       typefaceInfo.iTypeface.iName.Compare(KS60LATTHOREG)==0||
+                       typefaceInfo.iTypeface.iName.Compare(KS60LATTHOBLD)==0||
+                       typefaceInfo.iTypeface.iName.Compare(KS60LATCUMREG)==0||
+                       typefaceInfo.iTypeface.iName.Compare(KS60LATCUMBLD)==0)
+                       {
+                       files++;
+                       }
+                   }
+               }
+            }
+               
+             
         }
     if (ref == files)
         ret = ETrue;

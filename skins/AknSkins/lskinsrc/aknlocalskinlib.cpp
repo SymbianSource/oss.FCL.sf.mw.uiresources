@@ -897,6 +897,12 @@ TBool CAknLocalSkinInstance::IsScalableItem(const TAknsItemID& aId)
         {
         return ETrue;
         }
+    else if ( aId.iMajor == EAknsMajorAvkon &&
+              aId.iMinor >= EAknsMinorQsnBgNavipaneSolid && 
+              aId.iMinor <= EAknsMinorQsnBgNavipaneWipeIdle )
+        {
+        return ETrue;
+        }
     return EFalse;
     }
 

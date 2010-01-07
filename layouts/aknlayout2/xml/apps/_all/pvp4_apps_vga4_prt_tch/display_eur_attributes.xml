@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LayoutAttributes createdOn="2009-11-26 11:19:43.537" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.4384169399365877">
+<LayoutAttributes createdOn="2009-12-11 19:49:00.039" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.4384169399365877">
   <attributeset compId="1" name="D">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -7735,13 +7735,13 @@
       <calc value="false"/>
     </attribute>
     <attribute id="47" name="Multi Column">
-      <calc value="true"/>
+      <calc value="false"/>
     </attribute>
     <attribute id="49" name="Number of columns">
       <calc value="1"/>
     </attribute>
     <attribute id="50" name="Hz Align">
-      <calc value="left"/>
+      <calc value="centered"/>
     </attribute>
     <attribute id="51" name="Vt Align">
       <calc value="top"/>
@@ -9393,6 +9393,200 @@
     </attribute>
     <attribute id="48" name="Number of rows">
       <calc value="5"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="true"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="7999" name="a0">
+    <attribute id="24" name="list type">
+      <calc value="Forced"/>
+    </attribute>
+    <attribute id="25" name="gap">
+      <calc value="0"/>
+    </attribute>
+    <attribute id="46" name="Multi Row">
+      <calc value="true"/>
+    </attribute>
+    <attribute id="47" name="Multi Column">
+      <calc value="false"/>
+    </attribute>
+    <attribute id="48" name="Number of rows">
+      <calc value="6"/>
+    </attribute>
+    <attribute id="50" name="Hz Align">
+      <calc value="left"/>
+    </attribute>
+    <attribute id="51" name="Vt Align">
+      <calc value="top"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="8001" name="a0">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="false"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="8001" name="a1">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="false"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="8007" name="a0">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="false"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="8014" name="a0">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="true"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="8019" name="a0">
+    <attribute id="24" name="list type">
+      <calc value="Forced"/>
+    </attribute>
+    <attribute id="25" name="gap">
+      <calc value="0"/>
+    </attribute>
+    <attribute id="46" name="Multi Row">
+      <calc value="true"/>
+    </attribute>
+    <attribute id="47" name="Multi Column">
+      <calc value="false"/>
+    </attribute>
+    <attribute id="48" name="Number of rows">
+      <calc value="4"/>
+    </attribute>
+    <attribute id="50" name="Hz Align">
+      <calc value="left"/>
+    </attribute>
+    <attribute id="51" name="Vt Align">
+      <calc value="top"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="8021" name="a0">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="false"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="8021" name="a1">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="false"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="8034" name="a0">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="false"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="8039" name="a0">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
+    </attribute>
+    <attribute id="24" name="list type">
+      <calc value="Forced"/>
+    </attribute>
+    <attribute id="25" name="gap">
+      <calc value="5"/>
+    </attribute>
+    <attribute id="46" name="Multi Row">
+      <calc value="true"/>
+    </attribute>
+    <attribute id="48" name="Number of rows">
+      <calc value="7"/>
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="true"/>

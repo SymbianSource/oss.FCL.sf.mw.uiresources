@@ -100,6 +100,17 @@ ECOM_PLUGIN(ityperast.dll, ityperast.RSC)
 
 #endif //__CHINESE
 
+#ifdef FF_ADDITIONAL_FONTS
+
+ data=ABI_DIR\BUILD_DIR\albw.ttf                                                   resource\Fonts\albw.ttf
+ data=ABI_DIR\BUILD_DIR\albwb.ttf                                                     resource\Fonts\albwb.ttf  
+ data=ABI_DIR\BUILD_DIR\cumbwr.ttf                                                  resource\Fonts\cumbwr.ttf
+  data=ABI_DIR\BUILD_DIR\cumbwb.ttf                                                  resource\Fonts\cumbwb.ttf  
+ data=ABI_DIR\BUILD_DIR\thowr.ttf                                                   resource\Fonts\thowr.ttf 
+ data=ABI_DIR\BUILD_DIR\thowb.ttf                                                    resource\Fonts\thowb.ttf 
+
+#endif //FF_ADDITIONAL_FONTS
+
 // Digi font available in all variants
 data=ABI_DIR\BUILD_DIR\S60ZDIGI.ttf                                                  resource\Fonts\S60ZDIGI.ttf
 

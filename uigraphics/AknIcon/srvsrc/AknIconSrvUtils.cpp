@@ -155,13 +155,6 @@ TAknContentDimensions AknIconSrvUtils::RenderPreparedIconL(
         CleanupStack::PushL( renderBitmap );
         }
 
-    User::LeaveIfError( renderBitmap->Create( resultSize, aBitmapDepth ) );
-    if ( aMask )
-        {
-        // Always use soft masks with SVGs.
-        User::LeaveIfError( aMask->Create( resultSize, EGray256 ) );
-        }
-
     aHandler.SetScaleMode( aMode );
     aHandler.SetRotation( aRotationAngle );
     aknIcon = CAknBitmap::DynamicCast(aBitmap);

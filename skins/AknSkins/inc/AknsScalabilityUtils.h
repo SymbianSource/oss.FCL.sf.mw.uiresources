@@ -122,6 +122,10 @@ NONSHARABLE_CLASS(AknsScalabilityUtils)
             CAknsRlMasterLayout& aLayoutMaster,
             const TSize& aLayoutSize, TRect& aRectOut, TBool& aMorphingOut,
             TBool& aEmpty );
+        static CFbsBitmap *LoadBitmapFromSkinId(
+            MAknsSkinInstance* aInstance,
+            const TAknsItemID &aID,
+            const TSize &size);
 
     private: // Construction and destruction
 

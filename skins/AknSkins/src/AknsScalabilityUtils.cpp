@@ -851,6 +851,99 @@ TBool AknsScalabilityUtils::GetBackwardCompatibilityColor(
     return EFalse;
     }
 
+CAknsEffectQueueItemData *GetEffectQueueItemData(MAknsSkinInstance* aInstance, const TAknsItemID &aID)
+    {
+    CAknsAppSkinInstance* appSkinInstance =
+        static_cast<CAknsAppSkinInstance*>(aInstance);
+        
+    TAknsItemID id = AknsScalabilityUtils::ConcreteEffectQueue(appSkinInstance, aID);
+
+    CAknsItemData *itemData = appSkinInstance->GetCachedItemData(id, EAknsITEffectQueue);
+    
+    return static_cast<CAknsEffectQueueItemData *>(itemData);
+    }
+
+CFbsBitmap *AknsScalabilityUtils::LoadBitmapFromSkinId(MAknsSkinInstance* aInstance, const TAknsItemID &aID, const TSize &size)
+    {
+    CAknsAppSkinInstance* appSkinInstance =
+        static_cast<CAknsAppSkinInstance*>(aInstance);
+        
+    CAknsItemData* itemData = NULL;
+    itemData = aInstance->GetCachedItemData(aID, EAknsITBitmap);
+    if (itemData)
+        {
+        CFbsBitmap *bmp =
+                static_cast<CAknsBitmapItemData*> (itemData)->Bitmap();
+
+        CFbsBitmap *ret = new CFbsBitmap();
+        ret->Duplicate(bmp->Handle());
+
+        return ret;
+        }
+
+    CFbsBitmap *bitmap = NULL;
+    CAknsEffectQueueItemData *effectQueueItemData = GetEffectQueueItemData(aInstance, aID);
+    if(effectQueueItemData)
+        {
+        MAknsRlCommandIterator *iter = effectQueueItemData->CreateCommandIteratorL();
+        while(iter->HasNext())
+            {
+            const TAknsRlCommandData *commandData = iter->NextL();
+            MAknsRlParameterIterator *paramIter = commandData->iParamIterator;
+            while(paramIter->HasNext())
+                {
+                const TAknsRlParameterData *paramData = paramIter->NextL();
+                if( paramData->iType == EAknsRlParameterTypeGraphics)
+                    {
+                    const TDesC16* filename = paramData->iGfx->iFilename;
+                    TInt index = paramData->iGfx->iIndex;
+                    
+                    if(index > 0)
+                        {
+                        bitmap = AknIconUtils::CreateIconL(*filename, index);                    
+                        AknIconUtils::SetSize(bitmap, size, EAspectRatioNotPreserved);
+                        break;
+                        }
+                    //could be wallpaper
+                    CFbsBitmap *mask = NULL;
+                    TRAPD(err, appSkinInstance->iSession.DecodeWallpaperImageL(*filename, size, bitmap, mask));
+                    
+                    if(err == KErrNone)
+                        {
+                        break;
+                        }
+                    }
+                }
+
+            if(bitmap)
+                {
+                break;
+                }
+            }
+        
+        delete iter;
+        }
+    
+    return bitmap;
+    }
+
+TBool IsScalableItem ( const TAknsItemID aID )
+    {
+    if ( aID.iMajor == EAknsMajorSkin &&
+         aID.iMinor >= EAknsMinorQsnBgScreen &&
+         aID.iMinor <= EAknsMinorQsnBgAreaMainSmall )
+        {
+        return ETrue;
+        }
+    else if ( aID.iMajor == EAknsMajorAvkon &&
+              aID.iMinor >= EAknsMinorQsnBgNavipaneSolid && 
+              aID.iMinor <= EAknsMinorQsnBgNavipaneWipeIdle )
+        {
+        //return ETrue;
+        }
+    
+    return EFalse;
+    }
 // -----------------------------------------------------------------------------
 // AknsScalabilityUtils::RecursiveCacheRenderL
 // (commented in the header).
@@ -943,7 +1036,31 @@ CAknsImageItemData* AknsScalabilityUtils::RecursiveCacheRenderL(
         aMorphingOut = morphing;
         return existingData;
         }
+    if(aSkin->iLocalItemDefArray.Count() == 0) //not in preview
+        {
+        if ( hasData && IsScalableItem( thisIid ) )
+            {
+            CAknsMaskedBitmapItemData* data =
+                    CAknsMaskedBitmapItemData::NewL();
 
+            data->SetDrawRect(aLayoutSize);
+            data->SetParentIID(KAknsIIDNone);
+
+            TAknsImageAttributeData attributes;
+            attributes.iAttributes = EAknsImageAttributeNBC;
+            data->SetAttributesL(attributes);
+
+            CFbsBitmap *bmp = LoadBitmapFromSkinId(aSkin, thisIid, aLayoutSize);
+            data->SetBitmap( bmp );
+            data->SetMask(NULL);
+
+            aSkin->AddLayoutBitmapL(thisIid, data, aLayoutType,
+                    aLayoutSize, morphing, aLocalItem);
+            aMorphingOut = morphing;
+            return CachedLayoutBitmap(aSkin, thisIid, rect.Size(),
+                    aLayoutSize, aLayoutType, morphing, aLocalItem);
+            }
+        }
     // Otherwise, start rendering
 
     CAknsMaskedBitmapItemData* thisData = CAknsMaskedBitmapItemData::NewL();

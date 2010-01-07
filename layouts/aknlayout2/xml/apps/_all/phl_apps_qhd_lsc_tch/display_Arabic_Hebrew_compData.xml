@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2009-11-26 17:05:04.153" LayoutName="phl_apps_qhd_lsc_tch" LayoutSetId="267" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.6900747253135928" MasterName="m_app_tch_92n_bsk" ppi="229.0" ppiUnit="Inches" resolutionHeight="360" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
+<Layout createdOn="2009-12-11 20:36:35.232" LayoutName="phl_apps_qhd_lsc_tch" LayoutSetId="267" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.6900747253135928" MasterName="m_app_tch_92n_bsk" ppi="229.0" ppiUnit="Inches" resolutionHeight="360" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
     <Component drawingorder="0" id="1" mirror="true" name="Screen" type="Screen"/>
     <Component drawingorder="0" id="2" maxVariety="0" mirror="true" name="application_window" type="Container"/>
     <Component drawingorder="16" id="11" maxVariety="3" mirror="true" name="navi_pane_mv_g2" type="Graphic"/>
@@ -1655,11 +1655,11 @@
     <Component drawingorder="2" id="4434" maxVariety="1" mirror="false" name="main_camera4_pane_g2" type="Graphic"/>
     <Component drawingorder="3" id="4435" maxVariety="1" mirror="false" name="main_camera4_pane_g3" type="Graphic"/>
     <Component drawingorder="4" id="4436" maxVariety="1" mirror="false" name="main_camera4_pane_g4" type="Graphic"/>
-    <Component drawingorder="5" id="4437" maxVariety="1" mirror="false" name="cam4_indicators_pane" type="Pane"/>
-    <Component drawingorder="0" id="4438" maxVariety="0" mirror="false" name="bg_tb_trans_pane_cp06" type="Graphic"/>
-    <Component drawingorder="1" id="4439" maxVariety="0" mirror="false" name="cam4_indicators_pane_g1" type="Graphic"/>
-    <Component drawingorder="2" id="4440" maxVariety="0" mirror="false" name="cam4_indicators_pane_g2" type="Graphic"/>
-    <Component drawingorder="3" id="4441" maxVariety="0" mirror="false" name="cam4_indicators_pane_t1" type="Text"/>
+    <Component drawingorder="6" id="4437" maxVariety="1" mirror="false" name="cam4_indicators_pane" type="Pane"/>
+    <Component drawingorder="5" id="4438" maxVariety="1" mirror="false" name="bg_tb_trans_pane_cp06" type="Graphic"/>
+    <Component drawingorder="4" id="4439" maxVariety="1" mirror="false" name="cam4_indicators_pane_g1" type="Graphic"/>
+    <Component drawingorder="2" id="4440" maxVariety="1" mirror="false" name="cam4_indicators_pane_g2" type="Graphic"/>
+    <Component drawingorder="3" id="4441" maxVariety="1" mirror="false" name="cam4_indicators_pane_t1" type="Text"/>
     <Component drawingorder="88" id="4442" maxVariety="0" mirror="true" name="main_video4_pane" type="Pane"/>
     <Component drawingorder="0" id="4443" maxVariety="1" mirror="false" name="video4_image_uncrop_cif_pane" type="Pane"/>
     <Component drawingorder="1" id="4444" maxVariety="1" mirror="false" name="main_video4_pane_g1" type="Graphic"/>
@@ -1667,20 +1667,20 @@
     <Component drawingorder="3" id="4446" maxVariety="1" mirror="false" name="main_video4_pane_g3" type="Graphic"/>
     <Component drawingorder="4" id="4447" maxVariety="1" mirror="false" name="main_video4_pane_g4" type="Graphic"/>
     <Component drawingorder="5" id="4448" maxVariety="1" mirror="false" name="vid4_indicators_pane" type="Pane"/>
-    <Component drawingorder="0" id="4449" maxVariety="0" mirror="false" name="bg_tb_trans_pane_cp07" type="Pane"/>
-    <Component drawingorder="1" id="4450" maxVariety="0" mirror="false" name="vid4_indicators_pane_g1" type="Graphic"/>
-    <Component drawingorder="2" id="4451" maxVariety="0" mirror="false" name="vid4_indicators_pane_g2" type="Graphic"/>
-    <Component drawingorder="3" id="4452" maxVariety="0" mirror="false" name="vid4_indicators_pane_g3" type="Graphic"/>
-    <Component drawingorder="4" id="4453" maxVariety="0" mirror="false" name="vid4_indicators_pane_t1" type="Text"/>
+    <Component drawingorder="6" id="4449" maxVariety="0" mirror="false" name="bg_tb_trans_pane_cp07" type="Pane"/>
+    <Component drawingorder="3" id="4450" maxVariety="0" mirror="false" name="vid4_indicators_pane_g1" type="Graphic"/>
+    <Component drawingorder="4" id="4451" maxVariety="0" mirror="false" name="vid4_indicators_pane_g2" type="Graphic"/>
+    <Component drawingorder="2" id="4452" maxVariety="0" mirror="false" name="vid4_indicators_pane_g3" type="Graphic"/>
+    <Component drawingorder="5" id="4453" maxVariety="0" mirror="false" name="vid4_indicators_pane_t1" type="Text"/>
     <Component drawingorder="6" id="4454" maxVariety="1" mirror="false" name="video4_image_uncrop_vga_pane" type="Pane"/>
     <Component drawingorder="7" id="4455" maxVariety="1" mirror="false" name="video4_image_uncrop_nhd_pane" type="Pane"/>
-    <Component drawingorder="6" id="4456" maxVariety="1" mirror="false" name="cam4_autofocus_pane" type="Pane"/>
+    <Component drawingorder="7" id="4456" maxVariety="1" mirror="false" name="cam4_autofocus_pane" type="Pane"/>
     <Component drawingorder="0" id="4457" maxVariety="0" mirror="false" name="cam4_autofocus_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="4458" maxVariety="0" mirror="false" name="cam4_autofocus_pane_g2" type="Graphic"/>
     <Component drawingorder="2" id="4459" maxVariety="0" mirror="false" name="cam4_autofocus_pane_g3" type="Graphic"/>
     <Component drawingorder="3" id="4460" maxVariety="0" mirror="false" name="cam4_autofocus_pane_g3_copy1" type="Graphic"/>
-    <Component drawingorder="7" id="4461" maxVariety="1" mirror="false" name="main_camera4_pane_g5" type="Graphic"/>
-    <Component drawingorder="8" id="4462" maxVariety="1" mirror="false" name="main_camera4_pane_t1" type="Text"/>
+    <Component drawingorder="8" id="4461" maxVariety="1" mirror="false" name="main_camera4_pane_g5" type="Graphic"/>
+    <Component drawingorder="9" id="4462" maxVariety="1" mirror="false" name="main_camera4_pane_t1" type="Text"/>
     <Component drawingorder="3" id="4463" maxVariety="1" mirror="false" name="main_video_tele_dialer_pane_t1" type="Text"/>
     <Component drawingorder="4" id="4464" maxVariety="1" mirror="false" name="main_video_tele_dialer_pane_t2" type="Text"/>
     <Component drawingorder="0" id="4465" maxVariety="0" mirror="true" name="video_down_pane_cp_t1" type="Text"/>
@@ -1803,7 +1803,7 @@
     <Component drawingorder="8" id="4591" maxVariety="7" mirror="true" name="main_cset_slider_pane_g1" type="Graphic"/>
     <Component drawingorder="9" id="4592" maxVariety="7" mirror="true" name="main_cset_slider_pane_g2" type="Graphic"/>
     <Component drawingorder="10" id="4593" maxVariety="7" mirror="true" name="aid_area_touch_slider" type="Pane"/>
-    <Component drawingorder="9" id="4594" maxVariety="1" mirror="false" name="cam4_zoom_pane" type="Pane"/>
+    <Component drawingorder="10" id="4594" maxVariety="1" mirror="false" name="cam4_zoom_pane" type="Pane"/>
     <Component drawingorder="0" id="4595" maxVariety="0" mirror="false" name="cam4_zoom_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="4596" maxVariety="0" mirror="false" name="cam4_zoom_pane_g2" type="Graphic"/>
     <Component drawingorder="2" id="4597" maxVariety="0" mirror="false" name="cam4_zoom_cont_pane" type="Pane"/>
@@ -2040,20 +2040,20 @@
     <Component drawingorder="4" id="4839" maxVariety="0" mirror="true" name="popup_imed_adjust2_window_g2" type="Graphic"/>
     <Component drawingorder="5" id="4840" maxVariety="0" mirror="true" name="popup_imed_adjust2_window_g3" type="Graphic"/>
     <Component drawingorder="1" id="4841" maxVariety="2" mirror="true" name="cell_cam4_burst_pane_g2" type="Graphic"/>
-    <Component drawingorder="10" id="4842" maxVariety="1" mirror="false" name="main_camera4_pane_t2" type="Text"/>
-    <Component drawingorder="11" id="4843" maxVariety="1" mirror="false" name="aid_touch_area_cam4" type="Pane"/>
-    <Component drawingorder="12" id="4844" maxVariety="1" mirror="false" name="main_camera4_pane_g6" type="Graphic"/>
+    <Component drawingorder="11" id="4842" maxVariety="1" mirror="false" name="main_camera4_pane_t2" type="Text"/>
+    <Component drawingorder="12" id="4843" maxVariety="1" mirror="false" name="aid_touch_area_cam4" type="Pane"/>
+    <Component drawingorder="5" id="4844" maxVariety="1" mirror="false" name="main_camera4_pane_g6" type="Graphic"/>
     <Component drawingorder="13" id="4845" maxVariety="0" mirror="false" name="battery_pane_cp01" type="Pane"/>
     <Component drawingorder="8" id="4846" maxVariety="1" mirror="false" name="aid_touch_area_vid4" type="Pane"/>
     <Component drawingorder="9" id="4847" maxVariety="1" mirror="false" name="main_video4_pane_g5" type="Graphic"/>
     <Component drawingorder="10" id="4848" maxVariety="1" mirror="false" name="vid4_progress_pane" type="Pane"/>
-    <Component drawingorder="0" id="4849" maxVariety="1" mirror="false" name="vid4_progress_pane_g1" type="Graphic"/>
-    <Component drawingorder="1" id="4850" maxVariety="1" mirror="false" name="vid4_progress_pane_g2" type="Graphic"/>
-    <Component drawingorder="2" id="4851" maxVariety="1" mirror="false" name="vid4_progress_pane_g3" type="Graphic"/>
-    <Component drawingorder="3" id="4852" maxVariety="1" mirror="false" name="vid4_progress_pane_t1" type="Text"/>
+    <Component drawingorder="7" id="4849" maxVariety="1" mirror="false" name="vid4_progress_pane_g1" type="Graphic"/>
+    <Component drawingorder="8" id="4850" maxVariety="1" mirror="false" name="vid4_progress_pane_g2" type="Graphic"/>
+    <Component drawingorder="6" id="4851" maxVariety="1" mirror="false" name="vid4_progress_pane_g3" type="Graphic"/>
+    <Component drawingorder="5" id="4852" maxVariety="1" mirror="false" name="vid4_progress_pane_t1" type="Text"/>
     <Component drawingorder="4" id="4853" maxVariety="1" mirror="false" name="wait_bar_pane_cp07" type="Pane"/>
-    <Component drawingorder="5" id="4854" maxVariety="1" mirror="false" name="vid4_progress_pane_t2" type="Text"/>
-    <Component drawingorder="6" id="4855" maxVariety="1" mirror="false" name="vid4_progress_pane_g4" type="Graphic"/>
+    <Component drawingorder="3" id="4854" maxVariety="1" mirror="false" name="vid4_progress_pane_t2" type="Text"/>
+    <Component drawingorder="2" id="4855" maxVariety="1" mirror="false" name="vid4_progress_pane_g4" type="Graphic"/>
     <Component drawingorder="34" id="4857" maxVariety="0" mirror="true" name="main_cset_slider_pane_g18" type="Graphic"/>
     <Component drawingorder="0" id="4858" maxVariety="1" mirror="true" name="main_sp_fs_list_pane" type="Pane"/>
     <Component drawingorder="7" id="4859" maxVariety="0" mirror="true" name="popup_blid_sat_info2_window_g1" type="Graphic"/>
@@ -2068,7 +2068,7 @@
     <Component drawingorder="11" id="4868" maxVariety="22" mirror="true" name="popup_call2_audio_first_window_g5" type="Graphic"/>
     <Component drawingorder="10" id="4869" maxVariety="6" mirror="false" name="aid_size_touch_image3_arrow_left" type="Pane"/>
     <Component drawingorder="11" id="4870" maxVariety="6" mirror="false" name="aid_size_touch_image3_arrow_right" type="Pane"/>
-    <Component drawingorder="7" id="4871" maxVariety="1" mirror="false" name="vid4_progress_pane_t3" type="Text"/>
+    <Component drawingorder="9" id="4871" maxVariety="1" mirror="false" name="vid4_progress_pane_t3" type="Text"/>
     <Component drawingorder="5" id="4872" maxVariety="1" mirror="false" name="hwr_training_navi_pane_g5" type="Graphic"/>
     <Component drawingorder="4" id="4873" maxVariety="1" mirror="true" name="popup_hwr_training_preview_window" type="Pane"/>
     <Component drawingorder="5" id="4874" maxVariety="2" mirror="true" name="main_hwr_training_symbol_option_pane" type="Pane"/>
@@ -2106,7 +2106,7 @@
     <Component drawingorder="0" id="4907" maxVariety="0" mirror="true" name="vded2_slider_bg_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="4908" maxVariety="0" mirror="true" name="vded2_slider_bg_pane_g2" type="Graphic"/>
     <Component drawingorder="2" id="4909" maxVariety="0" mirror="true" name="vded2_slider_bg_pane_g3" type="Graphic"/>
-    <Component drawingorder="5" id="4910" maxVariety="0" mirror="false" name="vid4_indicators_pane_g4" type="Graphic"/>
+    <Component drawingorder="7" id="4910" maxVariety="0" mirror="false" name="vid4_indicators_pane_g4" type="Graphic"/>
     <Component drawingorder="7" id="4912" maxVariety="1" mirror="true" name="aid_postcard_touch_up_pane" type="Pane"/>
     <Component drawingorder="8" id="4913" maxVariety="1" mirror="true" name="aid_postcard_touch_down_pane" type="Pane"/>
     <Component drawingorder="97" id="4914" maxVariety="0" mirror="true" name="main_blid2_pane" type="Pane"/>
@@ -2155,12 +2155,12 @@
     <Component drawingorder="0" id="4961" maxVariety="0" mirror="true" name="popup_vitu2_query_button_pane_t1" type="Text"/>
     <Component drawingorder="0" id="4963" maxVariety="0" mirror="true" name="popup_vitu2_query_input_button_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="4964" maxVariety="0" mirror="true" name="bg_button_pane_cp026" type="Pane"/>
-    <Component drawingorder="4" id="4965" maxVariety="0" mirror="false" name="cam4_battery_pane" type="Pane"/>
+    <Component drawingorder="0" id="4965" maxVariety="0" mirror="false" name="cam4_battery_pane" type="Pane"/>
     <Component drawingorder="0" id="4966" maxVariety="0" mirror="false" name="cam4_battery_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="4967" maxVariety="0" mirror="false" name="cam4_battery_pane_g2" type="Graphic"/>
-    <Component drawingorder="8" id="4968" maxVariety="0" mirror="false" name="cam4_battery_pane_cp01" type="Pane"/>
-    <Component drawingorder="6" id="4969" maxVariety="0" mirror="false" name="cam4_battery_pane_cp02" type="Pane"/>
-    <Component drawingorder="9" id="4970" maxVariety="0" mirror="false" name="cam4_battery_pane_cp03" type="Pane"/>
+    <Component drawingorder="0" id="4968" maxVariety="0" mirror="false" name="cam4_battery_pane_cp01" type="Pane"/>
+    <Component drawingorder="0" id="4969" maxVariety="0" mirror="false" name="cam4_battery_pane_cp02" type="Pane"/>
+    <Component drawingorder="10" id="4970" maxVariety="0" mirror="false" name="cam4_battery_pane_cp03" type="Pane"/>
     <Component drawingorder="14" id="4971" maxVariety="0" mirror="true" name="main_mp3_pane_t6" type="Text"/>
     <Component drawingorder="15" id="4972" maxVariety="0" mirror="true" name="popup_slider_window_cp01" type="Pane"/>
     <Component drawingorder="16" id="4973" maxVariety="0" mirror="true" name="popup_blid_sat_info2_window_t11" type="Text"/>
@@ -2386,13 +2386,13 @@
     <Component drawingorder="0" id="5212" maxVariety="0" mirror="true" name="list_highlight_pane_cp012" type="Pane"/>
     <Component drawingorder="1" id="5213" maxVariety="0" mirror="true" name="ncim_list_query_list_pane_g1" type="Graphic"/>
     <Component drawingorder="2" id="5214" maxVariety="0" mirror="true" name="ncim_list_query_list_pane_t1" type="Text"/>
-    <Component drawingorder="5" id="5225" maxVariety="0" mirror="false" name="cam4_indicators_pane_g3" type="Graphic"/>
-    <Component drawingorder="10" id="5226" maxVariety="1" mirror="false" name="vid4_progress_pane_g5" type="Graphic"/>
-    <Component drawingorder="7" id="5227" maxVariety="0" mirror="false" name="vid4_indicators_pane_g5" type="Graphic"/>
+    <Component drawingorder="1" id="5225" maxVariety="1" mirror="false" name="cam4_indicators_pane_g3" type="Graphic"/>
+    <Component drawingorder="1" id="5226" maxVariety="1" mirror="false" name="vid4_progress_pane_g5" type="Graphic"/>
+    <Component drawingorder="1" id="5227" maxVariety="0" mirror="false" name="vid4_indicators_pane_g5" type="Graphic"/>
     <Component drawingorder="1" id="5228" maxVariety="10" mirror="true" name="ncimui_text_pane" type="Pane"/>
     <Component drawingorder="0" id="5229" maxVariety="4" mirror="true" name="ncimui_list_pane" type="Pane"/>
     <Component drawingorder="2" id="5230" maxVariety="9" mirror="true" name="ncimui_group_query_pane" type="Pane"/>
-    <Component drawingorder="0" id="5231" maxVariety="3" mirror="true" name="ncimui_text_pane_t1" type="Text"/>
+    <Component drawingorder="0" id="5231" maxVariety="4" mirror="true" name="ncimui_text_pane_t1" type="Text"/>
     <Component drawingorder="0" id="5232" maxVariety="0" mirror="true" name="ncimui_list_single_graphic_pane" type="Pane"/>
     <Component drawingorder="0" id="5233" maxVariety="0" mirror="true" name="list_highlight_pane_cp013" type="Pane"/>
     <Component drawingorder="1" id="5234" maxVariety="0" mirror="true" name="ncim_list_single_graphic_pane_g1" type="Graphic"/>
@@ -3144,11 +3144,11 @@
     <Component drawingorder="1" id="7870" maxVariety="0" mirror="true" name="cell_call6_btn_pane_t1" type="Text"/>
     <Component drawingorder="2" id="7871" maxVariety="0" mirror="true" name="cell_call6_btn_pane_g1" type="Graphic"/>
     <Component drawingorder="139" id="7873" maxVariety="0" mirror="true" name="main_wgtman_pane" type="Pane"/>
-    <Component drawingorder="0" id="7874" maxVariety="1" mirror="true" name="listscroll_wgtman_pane" type="Pane"/>
-    <Component drawingorder="1" id="7875" maxVariety="1" mirror="true" name="wgtman_btn_pane" type="Pane"/>
-    <Component drawingorder="0" id="7876" maxVariety="1" mirror="true" name="wgtman_btn_pane_g1" type="Graphic"/>
-    <Component drawingorder="1" id="7877" maxVariety="1" mirror="true" name="wgtman_btn_pane_t1" type="Text"/>
-    <Component drawingorder="2" id="7878" maxVariety="0" mirror="true" name="wgtman_btn_pane_t2" type="Text"/>
+    <Component drawingorder="0" id="7874" maxVariety="3" mirror="true" name="listscroll_wgtman_pane" type="Pane"/>
+    <Component drawingorder="1" id="7875" maxVariety="3" mirror="true" name="wgtman_btn_pane" type="Pane"/>
+    <Component drawingorder="0" id="7876" maxVariety="7" mirror="true" name="wgtman_btn_pane_g1" type="Graphic"/>
+    <Component drawingorder="1" id="7877" maxVariety="7" mirror="true" name="wgtman_btn_pane_t1" type="Text"/>
+    <Component drawingorder="2" id="7878" maxVariety="3" mirror="true" name="wgtman_btn_pane_t2" type="Text"/>
     <Component drawingorder="0" id="7879" maxVariety="0" mirror="true" name="list_wgtman_pane" type="Pane"/>
     <Component drawingorder="1" id="7880" maxVariety="0" mirror="true" name="aid_scroll_copy1" type="Pane"/>
     <Component drawingorder="0" id="7881" maxVariety="0" mirror="true" name="listrow_wgtman_pane" type="Pane"/>
@@ -3188,7 +3188,7 @@
     <Component drawingorder="5" id="7923" maxVariety="1" mirror="true" name="dia3_keypad_fun_pane" type="Pane"/>
     <Component drawingorder="0" id="7924" maxVariety="0" mirror="true" name="dia3_list_pane" type="Pane"/>
     <Component drawingorder="1" id="7925" maxVariety="0" mirror="true" name="scroll_pane_cp12" type="Pane"/>
-    <Component drawingorder="0" id="7926" maxVariety="0" mirror="true" name="dia3_listrow_pane" type="Pane"/>
+    <Component drawingorder="0" id="7926" maxVariety="1" mirror="true" name="dia3_listrow_pane" type="Pane"/>
     <Component drawingorder="0" id="7927" maxVariety="0" mirror="true" name="bg_dia3_numentry_pane" type="Pane"/>
     <Component drawingorder="0" id="7928" maxVariety="0" mirror="true" name="bg_dia3_numentry_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="7929" maxVariety="0" mirror="true" name="dia3_numentry_pane_t1" type="Text"/>
@@ -3248,4 +3248,55 @@
     <Component drawingorder="0" id="7989" maxVariety="0" mirror="true" name="fps_text_pane_t1" type="Text"/>
     <Component drawingorder="1" id="7990" maxVariety="1" mirror="true" name="wait_bar_pane_cp010" type="Pane"/>
     <Component drawingorder="2" id="7991" maxVariety="1" mirror="true" name="main_fps_pane_g1" type="Graphic"/>
+    <Component drawingorder="0" id="7992" maxVariety="0" mirror="true" name="cam4_image_uncrop_pane_g1" type="Graphic"/>
+    <Component drawingorder="1" id="7993" maxVariety="0" mirror="true" name="cam4_image_uncrop_pane_g2" type="Graphic"/>
+    <Component drawingorder="2" id="7994" maxVariety="0" mirror="true" name="cam4_image_uncrop_pane_g3" type="Graphic"/>
+    <Component drawingorder="3" id="7995" maxVariety="0" mirror="true" name="cam4_image_uncrop_pane_g4" type="Graphic"/>
+    <Component drawingorder="143" id="7996" maxVariety="0" mirror="true" name="main_phob2_pane" type="Pane"/>
+    <Component drawingorder="0" id="7997" maxVariety="0" mirror="true" name="phob2_listscroll_pane" type="Pane"/>
+    <Component drawingorder="1" id="7998" maxVariety="0" mirror="true" name="phob2_contact_card_pane" type="Pane"/>
+    <Component drawingorder="0" id="7999" maxVariety="0" mirror="true" name="phob2_list_pane" type="Pane"/>
+    <Component drawingorder="1" id="8000" maxVariety="0" mirror="true" name="scroll_pane_cp034" type="Pane"/>
+    <Component drawingorder="0" id="8001" maxVariety="0" mirror="true" name="list_double_large_graphic_phob2_pane" type="Pane"/>
+    <Component drawingorder="0" id="8002" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_pane_g1" type="Graphic"/>
+    <Component drawingorder="1" id="8003" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_pane_t1" type="Text"/>
+    <Component drawingorder="2" id="8004" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_pane_t2" type="Text"/>
+    <Component drawingorder="3" id="8005" maxVariety="0" mirror="true" name="list_double_large_graphic_phob2_pane_g2" type="Graphic"/>
+    <Component drawingorder="4" id="8006" maxVariety="0" mirror="true" name="list_highlight_pane_cp024" type="Pane"/>
+    <Component drawingorder="0" id="8007" maxVariety="3" mirror="true" name="phob2_cc_data_pane" type="Pane"/>
+    <Component drawingorder="1" id="8008" maxVariety="3" mirror="true" name="phob2_cc_listscroll_pane" type="Pane"/>
+    <Component drawingorder="0" id="8009" maxVariety="2" mirror="true" name="phob2_cc_data_pane_g1" type="Graphic"/>
+    <Component drawingorder="1" id="8010" maxVariety="2" mirror="true" name="phob2_cc_data_pane_t1" type="Text"/>
+    <Component drawingorder="2" id="8011" maxVariety="2" mirror="true" name="phob2_cc_data_pane_t2" type="Text"/>
+    <Component drawingorder="3" id="8012" maxVariety="2" mirror="true" name="phob2_cc_data_pane_t3" type="Text"/>
+    <Component drawingorder="4" id="8013" maxVariety="2" mirror="true" name="phob2_cc_data_pane_g2" type="Graphic"/>
+    <Component drawingorder="5" id="8014" maxVariety="0" mirror="true" name="phob2_cc_button_pane" type="Pane"/>
+    <Component drawingorder="0" id="8015" maxVariety="1" mirror="true" name="bg_button_pane_cp033" type="Pane"/>
+    <Component drawingorder="1" id="8016" maxVariety="1" mirror="true" name="phob2_cc_button_pane_g1" type="Graphic"/>
+    <Component drawingorder="2" id="8017" maxVariety="1" mirror="true" name="phob2_cc_button_pane_t1" type="Text"/>
+    <Component drawingorder="3" id="8018" maxVariety="0" mirror="true" name="phob2_cc_button_pane_t2" type="Text"/>
+    <Component drawingorder="0" id="8019" maxVariety="1" mirror="true" name="phob2_cc_list_pane" type="Pane"/>
+    <Component drawingorder="1" id="8020" maxVariety="1" mirror="true" name="scroll_pane_cp035" type="Pane"/>
+    <Component drawingorder="0" id="8021" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_cc_pane" type="Pane"/>
+    <Component drawingorder="0" id="8023" maxVariety="7" mirror="true" name="list_highlight_pane_cp025" type="Pane"/>
+    <Component drawingorder="1" id="8024" maxVariety="3" mirror="true" name="list_double_large_graphic_phob2_cc_pane_g1" type="Graphic"/>
+    <Component drawingorder="2" id="8025" maxVariety="7" mirror="true" name="list_double_large_graphic_phob2_cc_pane_t1" type="Text"/>
+    <Component drawingorder="3" id="8026" maxVariety="7" mirror="true" name="list_double_large_graphic_phob2_cc_pane_t2" type="Text"/>
+    <Component drawingorder="4" id="8027" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_cc_pane_g2" type="Graphic"/>
+    <Component drawingorder="5" id="8028" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_cc_pane_g3" type="Graphic"/>
+    <Component drawingorder="6" id="8029" maxVariety="3" mirror="true" name="list_double_large_graphic_phob2_cc_pane_g4" type="Graphic"/>
+    <Component drawingorder="7" id="8030" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_cc_pane_g5" type="Graphic"/>
+    <Component drawingorder="2" id="8031" maxVariety="1" mirror="true" name="cell_tport_appsw_pane_cp02" type="Pane"/>
+    <Component drawingorder="3" id="8032" maxVariety="2" mirror="true" name="cell_tport_appsw_pane_cp03" type="Pane"/>
+    <Component drawingorder="22" id="8033" maxVariety="0" mirror="true" name="popup_wgtman_window" type="Pane"/>
+    <Component drawingorder="0" id="8034" maxVariety="0" mirror="true" name="wgtman_heading_pane" type="Pane"/>
+    <Component drawingorder="1" id="8035" maxVariety="0" mirror="true" name="wgtman_content_pane" type="Pane"/>
+    <Component drawingorder="0" id="8036" maxVariety="0" mirror="true" name="bg_heading_pane_cp02" type="Pane"/>
+    <Component drawingorder="1" id="8037" maxVariety="0" mirror="true" name="wgtman_heading_pane_g1" type="Graphic"/>
+    <Component drawingorder="2" id="8038" maxVariety="0" mirror="true" name="wgtman_heading_pane_t1" type="Text"/>
+    <Component drawingorder="0" id="8039" maxVariety="0" mirror="true" name="wgtman_list_pane" type="Pane"/>
+    <Component drawingorder="1" id="8040" maxVariety="0" mirror="true" name="scroll_pane_cp036" type="Pane"/>
+    <Component drawingorder="0" id="8041" maxVariety="0" mirror="true" name="wgtman_list_pane_t1" type="Text"/>
+    <Component drawingorder="1" id="8042" maxVariety="0" mirror="true" name="scroll_pane_cp038" type="Pane"/>
+    <Component drawingorder="2" id="8043" maxVariety="3" mirror="true" name="wgtman_btn_pane_cp_01" type="Pane"/>
 </Layout>

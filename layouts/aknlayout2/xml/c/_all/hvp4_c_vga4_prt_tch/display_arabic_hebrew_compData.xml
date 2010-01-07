@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2009-11-26 09:57:53.544" LayoutName="pvp4_c_vga4_prt_tch" LayoutSetId="28" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.5726717023831868" MasterName="m_hcc_tch_92v_bsk" ppi="333.33" ppiUnit="Inches" resolutionHeight="640" resolutionWidth="480" VariantId="2" variant_abbreviation="ah" variant_name="arabic_hebrew">
+<Layout createdOn="2009-12-11 18:16:53.75" LayoutName="pvp4_c_vga4_prt_tch" LayoutSetId="28" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.5726717023831868" MasterName="m_hcc_tch_92v_bsk" ppi="333.33" ppiUnit="Inches" resolutionHeight="640" resolutionWidth="480" VariantId="2" variant_abbreviation="ah" variant_name="arabic_hebrew">
     <Component drawingorder="0" id="1" mirror="true" name="Screen" type="Screen"/>
     <Component drawingorder="0" id="3" maxVariety="0" mirror="true" name="application_window" type="Pane"/>
     <Component drawingorder="0" id="4" maxVariety="5" mirror="true" name="area_top_pane" type="Pane"/>

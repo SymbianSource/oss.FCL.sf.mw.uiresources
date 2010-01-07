@@ -20,7 +20,7 @@
 
 #include "SvgtRegisteredBitmap.h"
 #include "svgtgraphicsinterface.h"
-#include <fbsrasterizer.h>
+#include <graphics/fbsrasterizer.h>
 #include <e32base.h>
 #include <VG/openvg.h>
 
@@ -56,7 +56,6 @@ private:
     CSvgtFbsRasterizer();
     CSvgtRegisteredBitmap* RegisteredBitmap(TInt64 aBitmapId);
     CSvgtRegisteredBitmap* RecentBitmap(TInt64 aBitmapId);
-    static TInt IdleFunction(TAny* aPtr);
     
     void DoBeginBitmapL(TInt64 aBitmapId, const TBitmapDesc& aBitmapDesc,
                         const TRegion* aRegionOfInterest);
@@ -109,8 +108,7 @@ private: //Data members
     TInt iTotalRecentBmpSize;
     /** An idle-time active object to clean up the recently used extended bitmaps.
      */
-    CIdle* iIdle;
-
+    
     CSvgtGraphicsInterface * iGraphicsInterface;
          
     TBool iIsRasterizerValidState;

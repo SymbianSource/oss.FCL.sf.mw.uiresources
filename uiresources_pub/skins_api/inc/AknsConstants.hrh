@@ -675,8 +675,8 @@ enum TAknsMinorSkinValue
     EAknsMinorQsnFrCmailListCornerTr    = 0x26d2,
     EAknsMinorQsnFrCmailListCornerBl    = 0x26d3,
     EAknsMinorQsnFrCmailListCornerBr    = 0x26d4,
-    EAknsMinorQsnFrCmailListSideTop     = 0x26d5,
-    EAknsMinorQsnFrCmailListSideBottom  = 0x26d6,
+    EAknsMinorQsnFrCmailListSideT       = 0x26d5,
+    EAknsMinorQsnFrCmailListSideB       = 0x26d6,
     EAknsMinorQsnFrCmailListSideL       = 0x26d7,
     EAknsMinorQsnFrCmailListSideR       = 0x26d8,
     EAknsMinorQsnFrCmailListCenter      = 0x26d9,
@@ -713,8 +713,8 @@ enum TAknsMinorSkinValue
     EAknsMinorQsnFrTitleDividerCornerTr    = 0x26f0,
     EAknsMinorQsnFrTitleDividerCornerBl    = 0x26f1,
     EAknsMinorQsnFrTitleDividerCornerBr    = 0x26f2,
-    EAknsMinorQsnFrTitleDividerSideTop     = 0x26f3,
-    EAknsMinorQsnFrTitleDividerSideBottom  = 0x26f4,
+    EAknsMinorQsnFrTitleDividerSideT       = 0x26f3,
+    EAknsMinorQsnFrTitleDividerSideB       = 0x26f4,
     EAknsMinorQsnFrTitleDividerSideL       = 0x26f5,
     EAknsMinorQsnFrTitleDividerSideR       = 0x26f6,
     EAknsMinorQsnFrTitleDividerCenter      = 0x26f7,
@@ -7348,8 +7348,27 @@ enum TAknsMinorGenericValue
     EAknsMinorGenericQgnIndiTbShowBcc = 0x249f,
     EAknsMinorGenericQgnIndiTbShowCc = 0x24a0,
     EAknsMinorGenericQgnNoteDevicelockSwipe = 0x24a1,
-    // SCMMARKER_INSERTIONPOINT [9378]
-    EAknsMinorGenericInternalCurrentLastItem = 0x24a2
+    EAknsMinorGenericQgnGrafFepCharButton = 0x24a2,
+    EAknsMinorGenericQgnIndiBigclockCalendar = 0x24a3,
+    EAknsMinorGenericQgnIndiBigclockCalls = 0x24a4,
+    EAknsMinorGenericQgnIndiBigclockEmail = 0x24a5,
+    EAknsMinorGenericQgnIndiBigclockMail = 0x24a6,
+    EAknsMinorGenericQgnIndiBigclockVoicemail = 0x24a7,
+    EAknsMinorGenericQgnIndiBigclockVoicemailStar = 0x24a8,
+    EAknsMinorGenericQgnIndiBrowserTbExit = 0x24a9,
+    EAknsMinorGenericQgnIndiFepButtonCaseKoreanSymbol = 0x24aa,
+    EAknsMinorGenericQgnIndiInputCaseTextEnglishKorean = 0x24ab,
+    EAknsMinorGenericQgnIndiInputCaseTextKoreanEnglish = 0x24ac,
+    EAknsMinorGenericQgnIndiInputTableDown = 0x24ad,
+    EAknsMinorGenericQgnIndiInputTableUp = 0x24ae,
+    EAknsMinorGenericQgnPropPbAddTop = 0x24af,
+    EAknsMinorGenericQgnPropPbThumpMycard = 0x24b0,
+    EAknsMinorGenericQsnBigclockScreensaverAnalogueFace = 0x24b1,
+    EAknsMinorGenericQsnBigclockScreensaverAnaloguePointerHours = 0x24b2,
+    EAknsMinorGenericQsnBigclockScreensaverAnaloguePointerMinutes = 0x24b3,
+    EAknsMinorGenericQsnBigclockScreensaverAnaloguePointerSeconds = 0x24b4,
+    // SCMMARKER_INSERTIONPOINT [9397]
+    EAknsMinorGenericInternalCurrentLastItem = 0x24b5
     };
 
 // ----------------------------------------------------------------------------

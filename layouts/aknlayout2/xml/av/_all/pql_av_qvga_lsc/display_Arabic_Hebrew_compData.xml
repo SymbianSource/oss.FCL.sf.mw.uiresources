@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2009-11-26 09:10:44.555" LayoutName="pql_av_qvga_lsc" LayoutSetId="168" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.34318394222211723" MasterName="m_avk_ccb" ppi="174.0" ppiUnit="Inches" resolutionHeight="240" resolutionWidth="320" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
+<Layout createdOn="2009-12-09 18:08:49.329" LayoutName="pql_av_qvga_lsc" LayoutSetId="168" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.34318394222211723" MasterName="m_avk_ccb" ppi="174.0" ppiUnit="Inches" resolutionHeight="240" resolutionWidth="320" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
     <Component drawingorder="3" id="0.005041552600666077" maxVariety="0" mirror="true" name="text_secondary" type="Text"/>
     <Component drawingorder="1" id="0.112689209815522" maxVariety="0" mirror="true" name="text_primary" type="Text"/>
     <Component drawingorder="0" id="0.3077307233172313" maxVariety="0" mirror="true" name="text_title" type="Text"/>
@@ -1860,7 +1860,7 @@
     <Component drawingorder="5" id="4965" maxVariety="1" mirror="true" name="list_single_graphic_hl_pane_g4_cp2" type="Graphic"/>
     <Component drawingorder="6" id="4966" maxVariety="1" mirror="true" name="list_single_graphic_hl_pane_g5_cp2" type="Graphic"/>
     <Component drawingorder="7" id="4967" maxVariety="0" mirror="true" name="aid_size_min_hl_cp2" type="Pane"/>
-    <Component drawingorder="7" id="4968" maxVariety="0" mirror="false" name="control_pane_g4" type="Graphic"/>
+    <Component drawingorder="7" id="4968" maxVariety="1" mirror="false" name="control_pane_g4" type="Graphic"/>
     <Component drawingorder="2" id="4969" maxVariety="1" mirror="true" name="popup_preview_fixed_window_g1" type="Graphic"/>
     <Component drawingorder="3" id="4970" maxVariety="1" mirror="true" name="list_preview_fixed_pane_cp" type="Pane"/>
     <Component drawingorder="4" id="4971" maxVariety="1" mirror="true" name="popup_preview_fixed_window_g2" type="Graphic"/>

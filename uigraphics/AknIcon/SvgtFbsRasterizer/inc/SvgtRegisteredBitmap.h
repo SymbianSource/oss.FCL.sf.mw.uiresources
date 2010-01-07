@@ -19,7 +19,7 @@
 #define SVGTREGISTEREDBITMAP_H
 #include <e32std.h>
 #include <fbs.h>
-#include <fbsrasterizer.h>
+#include <graphics/fbsrasterizer.h>
 /** Class for holding information about an extended bitmap registered with this rasterizer.
      */
 NONSHARABLE_CLASS (CSvgtRegisteredBitmap) : public CFbsBitmap

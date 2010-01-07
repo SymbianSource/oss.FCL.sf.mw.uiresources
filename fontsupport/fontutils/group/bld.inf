@@ -99,6 +99,38 @@ FONT_SRC_DIR(S60TSB.ttf)                          /epoc32/release/armv5/urel/S60
 ../Vectorfonts/Series60Korean.ttf                        /epoc32/release/armv5/udeb/Series60Korean.ttf
 ../Vectorfonts/Series60Korean.ttf                        /epoc32/release/armv5/urel/Series60Korean.ttf
 
+// Export browser content fonts
+../Vectorfonts/albw.ttf                      /epoc32/release/winscw/udeb/z/resource/Fonts/albw.ttf
+../Vectorfonts/albw.ttf                      /epoc32/release/winscw/urel/z/resource/Fonts/albw.ttf
+../Vectorfonts/albw.ttf                      /epoc32/release/armv5/udeb/albw.ttf
+../Vectorfonts/albw.ttf                       /epoc32/release/armv5/urel/albw.ttf
+
+../Vectorfonts/albwb.ttf                   /epoc32/release/winscw/udeb/z/resource/Fonts/albwb.ttf
+../Vectorfonts/albwb.ttf                    /epoc32/release/winscw/urel/z/resource/Fonts/albwb.ttf
+../Vectorfonts/albwb.ttf                     /epoc32/release/armv5/udeb/albwb.ttf
+../Vectorfonts/albwb.ttf                   /epoc32/release/armv5/urel/albwb.ttf
+
+../Vectorfonts/cumbwr.ttf                   /epoc32/release/winscw/udeb/z/resource/Fonts/cumbwr.ttf
+../Vectorfonts/cumbwr.ttf                    /epoc32/release/winscw/urel/z/resource/Fonts/cumbwr.ttf
+../Vectorfonts/cumbwr.ttf                     /epoc32/release/armv5/udeb/cumbwr.ttf
+../Vectorfonts/cumbwr.ttf                   /epoc32/release/armv5/urel/cumbwr.ttf
+
+../Vectorfonts/cumbwb.ttf                   /epoc32/release/winscw/udeb/z/resource/Fonts/cumbwb.ttf
+../Vectorfonts/cumbwb.ttf                    /epoc32/release/winscw/urel/z/resource/Fonts/cumbwb.ttf
+../Vectorfonts/cumbwb.ttf                     /epoc32/release/armv5/udeb/cumbwb.ttf
+../Vectorfonts/cumbwb.ttf                   /epoc32/release/armv5/urel/cumbwb.ttf
+
+../Vectorfonts/thowr.ttf                   /epoc32/release/winscw/udeb/z/resource/Fonts/thowr.ttf
+../Vectorfonts/thowr.ttf                    /epoc32/release/winscw/urel/z/resource/Fonts/thowr.ttf
+../Vectorfonts/thowr.ttf                     /epoc32/release/armv5/udeb/thowr.ttf
+../Vectorfonts/thowr.ttf                   /epoc32/release/armv5/urel/thowr.ttf
+
+../Vectorfonts/thowb.ttf                   /epoc32/release/winscw/udeb/z/resource/Fonts/thowb.ttf
+../Vectorfonts/thowb.ttf                    /epoc32/release/winscw/urel/z/resource/Fonts/thowb.ttf
+../Vectorfonts/thowb.ttf                     /epoc32/release/armv5/udeb/thowb.ttf
+../Vectorfonts/thowb.ttf                   /epoc32/release/armv5/urel/thowb.ttf
+
+
 // Export IBY files
 ../rom/FontUtils.iby                              CORE_MW_LAYER_IBY_EXPORT_PATH(FontUtils.iby)
 ../rom/fonts_variant.iby                          CUSTOMER_MW_LAYER_IBY_EXPORT_PATH(fonts_variant.iby)

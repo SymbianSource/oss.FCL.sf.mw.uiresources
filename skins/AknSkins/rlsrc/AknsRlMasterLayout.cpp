@@ -257,24 +257,19 @@ EXPORT_C TBool CAknsRlMasterLayout::GetItemLayout( const TAknsItemID& aIID,
 
             case EAknsMinorQsnBgAreaMainAppsGrid:
                 {
-                if (iGridMode == -1)
+                if(Layout_Meta_Data::IsLandscapeOrientation())
                     {
-                    // if gridmode is -1, it has not beed read
-                    // so read it here
-                    TRAP_IGNORE( iGridMode = GetGridModeL() );
+                    layRect.LayoutRect( normParentRect,
+                        iAknLayoutScalable_Avkon.main_pane(4));
+                    aRect = layRect.Rect();
                     }
-                if (!Layout_Meta_Data::IsLandscapeOrientation() && iGridMode == 1) //3x4 mode
+                else
                     {
                     layRect.LayoutRect( normParentRect,
                         iAknLayoutScalable_Avkon.main_pane(7));
                     aRect = layRect.Rect();
-                    return ETrue;
                     }
-                else // normal 3x3 mode
-                    {
-                    return AknLayoutUtils::LayoutMetricsRect(
-                        AknLayoutUtils::EMainPane, aRect );
-                    }
+                return ETrue;
                 }
 
             case EAknsMinorQsnBgAreaMain:
