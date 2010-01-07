@@ -28,13 +28,28 @@
 #include <nvg.h>
 #include "vgigraphicsinterface.h"
 
+/** Struct to form a simple LRU cache of conversion results
+ */
+class TCachedConversion
+  {
+public:
+  TCachedConversion();
+  ~TCachedConversion();
+  inline void Deque();
+  
+public:
+  TDblQueLink iLink;
+  TUint32 iBitmapID;
+  TUint32 iDiscriminator;
+  CFbsBitmap* iCachedResult;
+  };
 
-/** This is a test render stage used for integration testing extended bitmaps of  
-type 0x10285A78. This particular type of extended bitmap was created to test the 
-extended bitmap APIs added to CFbsBitGc (CreateExtendedBitmap(), ExtendedBitmapType() 
-and DataSize()) and also to test the extended bitmap rasterizer interface, CFbsRasterizer.
-The proprietary data contained in an extended bitmap of type 0x10285A78 defines
-the colours and stripe direction of a tricolour flag. 
+void TCachedConversion::Deque() {iLink.Deque();}
+
+/** This is a render stage used for processing NVG Icon bitmaps in the absence of
+graphics acceleration hardware. The software implementation of OpenVG is used to
+render the NVG drawing commands onto a normal CFbsBitmap, and a simple LRU cache
+is used to keep the results for faster redrawing.
 
 This render stage implements the MWsGraphicsContext interface so that it can intercept
 any drawing commands that draw an extended bitmap, any commands that draw a normal 
@@ -131,22 +146,28 @@ private:
 	
 private:
 	// Helper methods that support the implementation of MWsGraphicsContext
-	void DrawExtendedBitmap(MWsGraphicsContext& aGc, const TRect& aDestRect, const CFbsBitmap& aSourceBitmap);
-	void DrawExtendedBitmap(CFbsBitGc& aGc, const TRect& aDestRect, const CFbsBitmap& aSourceBitmap);
+	CFbsBitmap* GetConvertedBitmap(const CFbsBitmap& aSourceBitmap);
 	void CopyExtendedBitmapToNormalBitmap(const CFbsBitmap& aExtendedBitmapSrc, CFbsBitmap& aBitmapDst);
-	
+
 private:
 	MWsGraphicsContext* iGc;	
 	TInt iExtendedBitmapError;
 	TPoint iOrigin;
 	RRegion iEmptyRegion;
-	CFbsBitmap* iBmp;
-	CFbsBitmap* iMaskBmp;	
 	CFbsBitmap* iBrushPattern;
 	CFbsBitmap* iInternalBrushPattern;
 	MWsGraphicsContext::TBrushStyle iBrushStyle;
 	CVGIGraphicsInterface* iGraphicsInterface;
 	CNvgEngine* iNvgEngine;
+	
+	// LRU Cache of rendered bitmaps
+#define MAX_NVG_CACHE_SIZE 128
+
+	TDblQue<TCachedConversion> iCache;
+  TDblQueIter<TCachedConversion> iCacheIterator;
+	TUint iCacheFree;
 	};
+
+// #define DEBUG_NVG_RENDERSTAGE
 
 #endif // NVGRENDERSTAGE_H

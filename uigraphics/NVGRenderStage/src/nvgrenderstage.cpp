@@ -20,11 +20,22 @@
 #include <AknIconHeader.h>
 #include <AknIconUtils.h>
 
+TCachedConversion::TCachedConversion() :
+  iLink(), iCachedResult(NULL)
+  {}
+
+TCachedConversion::~TCachedConversion()
+  {
+  delete iCachedResult;
+  }
 
 const TUid KUidNvgExtendedBitmap = {0x39b9273e};  
 
 CNvgRenderStage::CNvgRenderStage() : 	
-	iExtendedBitmapError(KErrNone)
+	iExtendedBitmapError(KErrNone), 
+	iCache(_FOFF(TCachedConversion,iLink)), 
+	iCacheIterator(iCache),
+	iCacheFree(MAX_NVG_CACHE_SIZE)
 	{	
 	}
 
@@ -46,8 +57,6 @@ CNvgRenderStage* CNvgRenderStage::NewL(MWsGraphicDrawerEnvironment* /*aEnv*/, MW
 	
 void CNvgRenderStage::ConstructL(CWsRenderStage* aNextStage)
 	{
-	iBmp = new(ELeave) CFbsBitmap;	
-	iMaskBmp = new(ELeave) CFbsBitmap;	
 	iBrushPattern = new(ELeave) CFbsBitmap;
 	iInternalBrushPattern = new(ELeave) CFbsBitmap;
 	iGraphicsInterface = new(ELeave) CVGIGraphicsInterface;
@@ -61,12 +70,18 @@ void CNvgRenderStage::ConstructL(CWsRenderStage* aNextStage)
 CNvgRenderStage::~CNvgRenderStage()
 	{	
 	iEmptyRegion.Close();
-	delete iBmp;
-	delete iMaskBmp;	
 	delete iBrushPattern;
 	delete iInternalBrushPattern;
 	delete iNvgEngine;
 	delete iGraphicsInterface;
+	
+	iCacheIterator.SetToFirst();
+  TCachedConversion* cached = iCacheIterator++;
+	while (cached != NULL)
+	 {
+   delete cached;
+   cached = iCacheIterator++;
+   }
 	}
 
 /** The only interface returned by this render stage is MWsGraphicsContext.
@@ -156,15 +171,14 @@ void CNvgRenderStage::BitBlt(const TPoint& aDestPos, const CFbsBitmap& aSourceBi
 	{
 	if (iGc)
 		{
+		CFbsBitmap* sourceBitmap = const_cast<CFbsBitmap*>(&aSourceBitmap);
+		
 		if (aSourceBitmap.ExtendedBitmapType() == KUidNvgExtendedBitmap)
-			{			
-			TRect destRect(TPoint(aDestPos.iX,aDestPos.iY), aSourceBitmap.SizeInPixels());			
-			DrawExtendedBitmap(*iGc, destRect, aSourceBitmap);				
+			{						
+			sourceBitmap = GetConvertedBitmap(aSourceBitmap);
 			}
-		else
-			{
-			iGc->BitBlt(aDestPos, aSourceBitmap);
-			}
+		
+		iGc->BitBlt(aDestPos, *sourceBitmap);
 		}
 	}
 
@@ -178,15 +192,14 @@ void CNvgRenderStage::BitBlt(const TPoint& aDestPos, const CFbsBitmap& aSourceBi
 	{
 	if (iGc)
 		{			
+		CFbsBitmap* sourceBitmap = const_cast<CFbsBitmap*>(&aSourceBitmap);
+		
 		if (aSourceBitmap.ExtendedBitmapType() == KUidNvgExtendedBitmap)
-			{		
-			TRect destRect(TPoint(aDestPos.iX,aDestPos.iY), aSourceRect.Size()); 		
-			DrawExtendedBitmap(*iGc, destRect, aSourceBitmap);	
+			{						
+			sourceBitmap = GetConvertedBitmap(aSourceBitmap);
 			}
-		else
-			{
-			iGc->BitBlt(aDestPos, aSourceBitmap, aSourceRect);
-			}
+
+		iGc->BitBlt(aDestPos, *sourceBitmap, aSourceRect);
 		}
 	}
 
@@ -205,14 +218,12 @@ void CNvgRenderStage::BitBltMasked(const TPoint& aDestPos, const CFbsBitmap& aSo
 		
 		if (aSourceBitmap.ExtendedBitmapType() == KUidNvgExtendedBitmap)
 			{						
-			CopyExtendedBitmapToNormalBitmap(aSourceBitmap, *iBmp); 		
-			sourceBitmap = iBmp;
+			sourceBitmap = GetConvertedBitmap(aSourceBitmap);
 			}
 		
 		if (aMaskBitmap.ExtendedBitmapType() == KUidNvgExtendedBitmap)
 			{			
-			CopyExtendedBitmapToNormalBitmap(aMaskBitmap, *iMaskBmp); 		
-			maskBitmap = iMaskBmp;
+			maskBitmap = GetConvertedBitmap(aMaskBitmap);
 			}	
 		
 		iGc->BitBltMasked(aDestPos, *sourceBitmap, aSourceRect, *maskBitmap, aInvertMask);
@@ -234,14 +245,12 @@ void CNvgRenderStage::BitBltMasked(const TPoint& aDestPos, const CFbsBitmap& aSo
 		
 		if (aSourceBitmap.ExtendedBitmapType() == KUidNvgExtendedBitmap)
 			{
-			CopyExtendedBitmapToNormalBitmap(aSourceBitmap, *iBmp); 		
-			sourceBitmap = iBmp;
+			sourceBitmap = GetConvertedBitmap(aSourceBitmap);
 			}
 		
 		if (aMaskBitmap.ExtendedBitmapType() == KUidNvgExtendedBitmap)
 			{
-			CopyExtendedBitmapToNormalBitmap(aMaskBitmap, *iMaskBmp); 		
-			maskBitmap = iMaskBmp;
+			maskBitmap = GetConvertedBitmap(aMaskBitmap);
 			}	
 		
 		iGc->BitBltMasked(aDestPos, *sourceBitmap, aSourceRect, *maskBitmap, aMaskPos);
@@ -332,8 +341,7 @@ void CNvgRenderStage::DrawBitmap(const TRect& aDestRect, const CFbsBitmap& aSour
 		
 		if (aSourceBitmap.ExtendedBitmapType() == KUidNvgExtendedBitmap)
 			{
-			CopyExtendedBitmapToNormalBitmap(aSourceBitmap, *iBmp); 
-			sourceBitmap = iBmp;
+			sourceBitmap = GetConvertedBitmap(aSourceBitmap);
 			}
 				
 		iGc->DrawBitmap(aDestRect, *sourceBitmap);	
@@ -354,8 +362,7 @@ void CNvgRenderStage::DrawBitmap(const TRect& aDestRect, const CFbsBitmap& aSour
 		
 		if (aSourceBitmap.ExtendedBitmapType() == KUidNvgExtendedBitmap)
 			{
-			CopyExtendedBitmapToNormalBitmap(aSourceBitmap, *iBmp); 
-			sourceBitmap = iBmp;
+			sourceBitmap = GetConvertedBitmap(aSourceBitmap);
 			}
 				
 		iGc->DrawBitmap(aDestRect, *sourceBitmap, aSourceRect);		
@@ -377,13 +384,11 @@ void CNvgRenderStage::DrawBitmapMasked(const TRect& aDestRect, const CFbsBitmap&
 		
 		if (aSourceBitmap.ExtendedBitmapType() == KUidNvgExtendedBitmap)
 			{
-			CopyExtendedBitmapToNormalBitmap(aSourceBitmap, *iBmp); 
-			sourceBitmap = iBmp;
+			sourceBitmap = GetConvertedBitmap(aSourceBitmap);
 			}
 		if (aMaskBitmap.ExtendedBitmapType() == KUidNvgExtendedBitmap)
 			{
-			CopyExtendedBitmapToNormalBitmap(aMaskBitmap, *iMaskBmp);	
-			maskBitmap = iMaskBmp;
+			maskBitmap = GetConvertedBitmap(aMaskBitmap);
 			}
 	
 		iGc->DrawBitmapMasked(aDestRect, *sourceBitmap, aSourceRect, *maskBitmap, aInvertMask);
@@ -783,7 +788,7 @@ void CNvgRenderStage::SetBrushPattern(TInt aFbsBitmapHandle)
 		iBrushPattern->Duplicate(aFbsBitmapHandle);
 		if (iBrushPattern->ExtendedBitmapType() == KUidNvgExtendedBitmap)
 			{
-			CopyExtendedBitmapToNormalBitmap(*iBrushPattern, *iInternalBrushPattern);
+			iInternalBrushPattern = GetConvertedBitmap(*iBrushPattern);
 			iGc->SetBrushPattern(*iInternalBrushPattern);
 			}
 		else
@@ -984,36 +989,92 @@ void CNvgRenderStage::Pop()
 		}
 	}
 
-/** Helper method used by BitBlt() and DrawBitmap() 
 
-@param aGc The graphics context to draw the extended bitmap to.
-@param aDestRect The rectangle that the source bitmap will be drawn to.
-@param aSourceBitmap The extended bitmap of type 0x39b9273e to be drawn.
+/** Helper method that draws an NVG extended bitmap into a normal bitmap. 
 
-@pre aSourceBitmap must be an extended bitmap of type 0x39b9273e.
-@post Sets an error that can be retrieved using GetError() is an error occurs. 
+@param aExtendedBitmapSrc The extended bitmap to draw 
+
+@pre aExtendedBitmapSrc must be an extended bitmap of extended bitmap type 0x39b9273e
  */
-void CNvgRenderStage::DrawExtendedBitmap(MWsGraphicsContext& aGc, const TRect& aDestRect, const CFbsBitmap& aSourceBitmap)
-	{
-  CopyExtendedBitmapToNormalBitmap(aSourceBitmap, *iBmp); 		
-  aGc.BitBlt(aDestRect.iTl, *iBmp);
-	}
 
-/** Helper method used by BitBlt() and DrawBitmap()
+CFbsBitmap* CNvgRenderStage::GetConvertedBitmap(const CFbsBitmap& aExtendedBitmapSrc)
+  {
+  aExtendedBitmapSrc.BeginDataAccess();
+  const TUint8* bmpData = (const TUint8*)aExtendedBitmapSrc.DataAddress();
 
-@param aGc The graphics context to draw the extended bitmap to.
-@param aDestRect The rectangle that the source bitmap will be drawn to.
-@param aSourceBitmap The extended bitmap of type 0x39b9273e to be drawn.
+  TPtr8 IconHeaderPtr((TUint8*)bmpData, KIconHeaderLength, KIconHeaderLength);
+  TAknIconHeader iconheader(IconHeaderPtr);
 
-@pre aSourceBitmap must be an extended bitmap of type 0x39b9273e.
-@post Sets an error that can be retrieved using GetError() is an error occurs. 
- */
-void CNvgRenderStage::DrawExtendedBitmap(CFbsBitGc& aGc, const TRect& aDestRect, const CFbsBitmap& aSourceBitmap)
-	{
-  CopyExtendedBitmapToNormalBitmap(aSourceBitmap, *iBmp); 		
-  aGc.BitBlt(aDestRect.iTl, iBmp);
-	}
+  TUint32 bitmapid = iconheader.GetBitmapId();
+  TUint32 handle = aExtendedBitmapSrc.Handle();
+  aExtendedBitmapSrc.EndDataAccess();
+  CFbsBitmap* error = const_cast<CFbsBitmap*>(&aExtendedBitmapSrc);  // not renderable, but better than panic!
+  
+  // look to see if we have this in the cache
+  iCacheIterator.SetToFirst();
+  TCachedConversion* cached = iCacheIterator++;
+  while (cached != NULL)
+    {
+    if (cached->iBitmapID == bitmapid && cached->iDiscriminator == handle)
+      {
+      // Cache hit
+#ifdef DEBUG_NVG_RENDERSTAGE
+      RDebug::Printf("NVG Render cache hit for id %08x, handle %d\n", bitmapid, handle);
+#endif
+      cached->Deque();
+      iCache.AddFirst(*cached);  // move to front of the list, to record use
+      return cached->iCachedResult;  
+      }
+    cached = iCacheIterator++;
+    }
+  
+  // missed in the cache, need to perform the conversion
+  TInt err = KErrNone;
+  if (iCacheFree > 0)
+    {
+    // just allocate a new entry, which will be added to the end
+    TRAP(err, cached = new(ELeave) TCachedConversion);
+    if (err != KErrNone)
+      {
+      return error;
+      }
+    TRAP(err, cached->iCachedResult = new(ELeave) CFbsBitmap);
+    if (err != KErrNone)
+      {
+      delete cached;
+      return error;
+      }
+    }
+  else
+    {
+    // Remove the least recently used item
+    cached = iCache.Last();
+    cached->Deque();  // remove from the cache
+    iCacheFree++;
+#ifdef DEBUG_NVG_RENDERSTAGE
+    RDebug::Printf("NVG Render cache removing id %08x, handle %d\n", cached->iBitmapID, cached->iDiscriminator);
+#endif
+    }
+  
+  // cached is now available to hold the new result
+  cached->iBitmapID = bitmapid;
+  cached->iDiscriminator = handle;
 
+  CopyExtendedBitmapToNormalBitmap(aExtendedBitmapSrc, *cached->iCachedResult);
+  if (iExtendedBitmapError != KErrNone)
+    {
+    delete cached;
+    return error;
+    }
+  
+  // Newly cached bitmap is valid
+  iCache.AddFirst(*cached);
+  iCacheFree--;
+#ifdef DEBUG_NVG_RENDERSTAGE
+  RDebug::Printf("NVG Render cache added id %08x, handle %d (%d free)\n", bitmapid, handle, iCacheFree);
+#endif
+  return cached->iCachedResult;
+  }
 
 /** Helper method that draws an NVG extended bitmap into a normal bitmap. The normal
 bitmap passed is resized before the extended bitmap is drawn into it.
@@ -1024,6 +1085,7 @@ bitmap passed is resized before the extended bitmap is drawn into it.
 @pre aExtendedBitmapSrc must be an extended bitmap of extended bitmap type 0x39b9273e
 @post aBitmapDest has been reset and resized and now contains a representation of the aExtendedBitmapSrc
  */
+
 void CNvgRenderStage::CopyExtendedBitmapToNormalBitmap(const CFbsBitmap& aExtendedBitmapSrc, CFbsBitmap& aBitmapDst)
 	{
 	TSize size = aExtendedBitmapSrc.SizeInPixels();
@@ -1052,6 +1114,10 @@ void CNvgRenderStage::CopyExtendedBitmapToNormalBitmap(const CFbsBitmap& aExtend
 
   TPtr8 IconHeaderPtr((TUint8*)bmpData, KIconHeaderLength, KIconHeaderLength);
   TAknIconHeader iconheader(IconHeaderPtr);
+
+#ifdef DEBUG_NVG_RENDERSTAGE
+  RDebug::Printf("ConvertExtendedBitmap: id=%08x size (%d x %d)\n", iconheader.GetBitmapId(), size.iWidth, size.iHeight);
+#endif
 
   TInt dataSize = aExtendedBitmapSrc.DataSize();
   // skip TNVGIconHeader structure - we only know about version 0
