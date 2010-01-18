@@ -212,6 +212,10 @@ TInt CAknIconManager::InitializeIcon(
                    this, aSize.iWidth, aSize.iHeight, aMode, aAngle);
 #endif    
     
+    if(!iBitmap)
+        {
+            return KErrCorrupt;
+        }
     // If already initialized with the same parameters, do nothing.
     if ( iBitmap->Handle() )
         {

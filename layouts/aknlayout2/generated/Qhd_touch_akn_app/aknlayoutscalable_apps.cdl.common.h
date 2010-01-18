@@ -6385,6 +6385,35 @@ enum TApiId
 	EApiId_wgtman_list_pane,
 	EApiId_wgtman_list_pane_t1_ParamLimits,
 	EApiId_wgtman_list_pane_t1,
+	EApiId_cam4_grid_pane,
+	EApiId_bg_button_pane_cp015_ParamLimits,
+	EApiId_bg_button_pane_cp016_ParamLimits,
+	EApiId_bg_button_pane_cp017_ParamLimits,
+	EApiId_popup_vitu2_query_window_g3_ParamLimits,
+	EApiId_popup_vitu2_query_window_g3,
+	EApiId_popup_vitu2_query_window_t6_ParamLimits,
+	EApiId_popup_vitu2_query_window_t6,
+	EApiId_popup_vitu2_query_window_t7_ParamLimits,
+	EApiId_popup_vitu2_query_window_t7,
+	EApiId_cam4_grid_pane_g1,
+	EApiId_cam4_grid_pane_g2,
+	EApiId_cam4_grid_pane_g3,
+	EApiId_cam4_grid_pane_g4,
+	EApiId_cam4_grid_pane_g_Limits,
+	EApiId_cam4_grid_pane_g,
+	EApiId_aid_placing_vt_slider_lsc_ParamLimits,
+	EApiId_vidtel_button_pane_ParamLimits,
+	EApiId_vidtel_button_pane,
+	EApiId_bg_button_pane_cp034,
+	EApiId_vidtel_button_pane_g1,
+	EApiId_vidtel_button_pane_t1,
+	EApiId_aid_size_vtel_slider_touch,
+	EApiId_scroll_pane_cp039,
+	EApiId_ncim_query_button_pane_cp01_ParamLimits,
+	EApiId_ncimui_query_pane_g1_ParamLimits,
+	EApiId_input_focus_pane_cp012_ParamLimits,
+	EApiId_ncim_query_entry_pane_t1_ParamLimits,
+	EApiId_scroll_pane_cp039_ParamLimits,
 	E_TApiId_TableSize
 	};
 
@@ -12747,6 +12776,35 @@ typedef TAknWindowComponentLayout (Tscroll_pane_cp036_sig)(TInt, TInt, TInt);
 typedef TAknWindowComponentLayout (Twgtman_list_pane_sig)(TInt, TInt, TInt);
 typedef TAknLayoutScalableParameterLimits (Twgtman_list_pane_t1_ParamLimits_sig)(TInt);
 typedef TAknTextComponentLayout (Twgtman_list_pane_t1_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcam4_grid_pane_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tbg_button_pane_cp015_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tbg_button_pane_cp016_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tbg_button_pane_cp017_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tpopup_vitu2_query_window_g3_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tpopup_vitu2_query_window_g3_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tpopup_vitu2_query_window_t6_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tpopup_vitu2_query_window_t6_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tpopup_vitu2_query_window_t7_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tpopup_vitu2_query_window_t7_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcam4_grid_pane_g1_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcam4_grid_pane_g2_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcam4_grid_pane_g3_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcam4_grid_pane_g4_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableTableLimits (Tcam4_grid_pane_g_Limits_sig)();
+typedef TAknWindowComponentLayout (Tcam4_grid_pane_g_sig)(TInt, TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Taid_placing_vt_slider_lsc_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tvidtel_button_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tvidtel_button_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbg_button_pane_cp034_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tvidtel_button_pane_g1_sig)(TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tvidtel_button_pane_t1_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Taid_size_vtel_slider_touch_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tscroll_pane_cp039_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tncim_query_button_pane_cp01_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tncimui_query_pane_g1_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tinput_focus_pane_cp012_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tncim_query_entry_pane_t1_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tscroll_pane_cp039_ParamLimits_sig)(TInt);
 
 } // end of namespace AknLayoutScalable_Apps
 

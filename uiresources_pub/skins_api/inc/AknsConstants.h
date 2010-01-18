@@ -21076,6 +21076,726 @@ static const TAknsItemID KAknsIIDQsnBigclockScreensaverAnaloguePointerMinutes =
 static const TAknsItemID KAknsIIDQsnBigclockScreensaverAnaloguePointerSeconds =
     { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockScreensaverAnaloguePointerSeconds };
 
+static const TAknsItemID KAknsIIDQgnHomeContactnameBg =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnHomeContactnameBg };
+
+static const TAknsItemID KAknsIIDQgnIndiBigclockIm =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiBigclockIm };
+
+static const TAknsItemID KAknsIIDQgnMenuActivenotesLinkToCallView =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuActivenotesLinkToCallView };
+
+static const TAknsItemID KAknsIIDQgnMenuEzynotes =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuEzynotes };
+
+static const TAknsItemID KAknsIIDQgnMenuSetwizLst =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuSetwizLst };
+
+static const TAknsItemID KAknsIIDQgnMenuShortcutUnavailable =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuShortcutUnavailable };
+
+static const TAknsItemID KAknsIIDQgnMenuSmartpromoui =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuSmartpromoui };
+
+static const TAknsItemID KAknsIIDQgnMenuWelcome2Lst =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuWelcome2Lst };
+
+static const TAknsItemID KAknsIIDQgnMenuWelcomCxt =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuWelcomCxt };
+
+static const TAknsItemID KAknsIIDQsnBigclockScreensaverDateBackgroundCenter =
+    { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockScreensaverDateBackgroundCenter };
+
+static const TAknsItemID KAknsIIDQsnBigclockScreensaverDateBackgroundLeft =
+    { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockScreensaverDateBackgroundLeft };
+
+static const TAknsItemID KAknsIIDQsnBigclockScreensaverDateBackgroundRight =
+    { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockScreensaverDateBackgroundRight };
+
+static const TAknsItemID KAknsIIDQgnHomeEmailLogos =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnHomeEmailLogos };
+
+static const TAknsItemID KAknsIIDQgnIndiMessageAdd =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiMessageAdd };
+
+static const TAknsItemID KAknsIIDQgnStatJointImUni =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnStatJointImUni };
+
+static const TAknsItemID KAknsIIDQgnVraIcon =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnVraIcon };
+
+static const TAknsItemID KAknsIIDQgnActivenotesFolder =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnActivenotesFolder };
+
+static const TAknsItemID KAknsIIDQgnActivenotesNote =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnActivenotesNote };
+
+static const TAknsItemID KAknsIIDQgnGrafNotifBg =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnGrafNotifBg };
+
+static const TAknsItemID KAknsIIDQgnIconAppCake =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIconAppCake };
+
+static const TAknsItemID KAknsIIDQgnIndiActivenotesButtonNewGrid =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiActivenotesButtonNewGrid };
+
+static const TAknsItemID KAknsIIDQgnIndiActivenotesButtonNewList =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiActivenotesButtonNewList };
+
+static const TAknsItemID KAknsIIDQgnIndiActivenotesPlay =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiActivenotesPlay };
+
+static const TAknsItemID KAknsIIDQgnIndiActivenotesRec =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiActivenotesRec };
+
+static const TAknsItemID KAknsIIDQgnIndiEzynoteButtonNew =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiEzynoteButtonNew };
+
+static const TAknsItemID KAknsIIDQgnIndiEzynoteButtonNewInactive =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiEzynoteButtonNewInactive };
+
+static const TAknsItemID KAknsIIDQgnIndiEzynoteButtonNewList =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiEzynoteButtonNewList };
+
+static const TAknsItemID KAknsIIDQgnIndiEzynoteButtonNewPressed =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiEzynoteButtonNewPressed };
+
+static const TAknsItemID KAknsIIDQgnIndiHomePlasma =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiHomePlasma };
+
+static const TAknsItemID KAknsIIDQgnIndiHomePlasmaCharging =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiHomePlasmaCharging };
+
+static const TAknsItemID KAknsIIDQgnIndiMsgboardArrowLeft =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiMsgboardArrowLeft };
+
+static const TAknsItemID KAknsIIDQgnIndiMsgboardArrowRight =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiMsgboardArrowRight };
+
+static const TAknsItemID KAknsIIDQgnIndiPlasmaBatteryCharging =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiPlasmaBatteryCharging };
+
+static const TAknsItemID KAknsIIDQgnIndiTbModesAddCurrentLoc =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbModesAddCurrentLoc };
+
+static const TAknsItemID KAknsIIDQgnIndiTbModesAddMyLoc =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbModesAddMyLoc };
+
+static const TAknsItemID KAknsIIDQgnIndiTbModesSelectMap =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbModesSelectMap };
+
+static const TAknsItemID KAknsIIDQgnIndiTbMsgboardCreateMsg =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbMsgboardCreateMsg };
+
+static const TAknsItemID KAknsIIDQgnIndiTbMsgboardDelete =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbMsgboardDelete };
+
+static const TAknsItemID KAknsIIDQgnIndiTbMsgboardDetails =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbMsgboardDetails };
+
+static const TAknsItemID KAknsIIDQgnIndiTbMsgboardReply =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbMsgboardReply };
+
+static const TAknsItemID KAknsIIDQgnIndiTbMsgboardReplyGroup =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbMsgboardReplyGroup };
+
+static const TAknsItemID KAknsIIDQgnIndiTbMsgboardSend =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbMsgboardSend };
+
+static const TAknsItemID KAknsIIDQgnIndiTpActivenotesNewFolder =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTpActivenotesNewFolder };
+
+static const TAknsItemID KAknsIIDQgnIndiTpActivenotesNewNote =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTpActivenotesNewNote };
+
+static const TAknsItemID KAknsIIDQgnIndiVrRec =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiVrRec };
+
+static const TAknsItemID KAknsIIDQgnLanguageIcon =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnLanguageIcon };
+
+static const TAknsItemID KAknsIIDQgnListAnimChicken =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimChicken };
+
+static const TAknsItemID KAknsIIDQgnListAnimChickenBw =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimChickenBw };
+
+static const TAknsItemID KAknsIIDQgnListAnimCow =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimCow };
+
+static const TAknsItemID KAknsIIDQgnListAnimCowBw =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimCowBw };
+
+static const TAknsItemID KAknsIIDQgnListAnimDog =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimDog };
+
+static const TAknsItemID KAknsIIDQgnListAnimDogBw =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimDogBw };
+
+static const TAknsItemID KAknsIIDQgnListAnimDragon =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimDragon };
+
+static const TAknsItemID KAknsIIDQgnListAnimDragonBw =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimDragonBw };
+
+static const TAknsItemID KAknsIIDQgnListAnimHorse =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimHorse };
+
+static const TAknsItemID KAknsIIDQgnListAnimHorseBw =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimHorseBw };
+
+static const TAknsItemID KAknsIIDQgnListAnimMonkey =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimMonkey };
+
+static const TAknsItemID KAknsIIDQgnListAnimMonkeyBw =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimMonkeyBw };
+
+static const TAknsItemID KAknsIIDQgnListAnimMouse =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimMouse };
+
+static const TAknsItemID KAknsIIDQgnListAnimMouseBw =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimMouseBw };
+
+static const TAknsItemID KAknsIIDQgnListAnimPig =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimPig };
+
+static const TAknsItemID KAknsIIDQgnListAnimPigBw =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimPigBw };
+
+static const TAknsItemID KAknsIIDQgnListAnimRabbit =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimRabbit };
+
+static const TAknsItemID KAknsIIDQgnListAnimRabbitBw =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimRabbitBw };
+
+static const TAknsItemID KAknsIIDQgnListAnimSheep =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimSheep };
+
+static const TAknsItemID KAknsIIDQgnListAnimSheepBw =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimSheepBw };
+
+static const TAknsItemID KAknsIIDQgnListAnimSnake =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimSnake };
+
+static const TAknsItemID KAknsIIDQgnListAnimSnakeBw =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimSnakeBw };
+
+static const TAknsItemID KAknsIIDQgnListAnimTiger =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimTiger };
+
+static const TAknsItemID KAknsIIDQgnListAnimTigerBw =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnListAnimTigerBw };
+
+static const TAknsItemID KAknsIIDQgnMcspluginLogOut =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMcspluginLogOut };
+
+static const TAknsItemID KAknsIIDQgnMenuAnimplugingui =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuAnimplugingui };
+
+static const TAknsItemID KAknsIIDQgnMenuCmccChinamobileservice =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuCmccChinamobileservice };
+
+static const TAknsItemID KAknsIIDQgnMenuCmccCmmusic =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuCmccCmmusic };
+
+static const TAknsItemID KAknsIIDQgnMenuCmccCmphonebook =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuCmccCmphonebook };
+
+static const TAknsItemID KAknsIIDQgnMenuCmccCustomerservice =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuCmccCustomerservice };
+
+static const TAknsItemID KAknsIIDQgnMenuCmccMonternet =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuCmccMonternet };
+
+static const TAknsItemID KAknsIIDQgnMenuCmccMyfavorite =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuCmccMyfavorite };
+
+static const TAknsItemID KAknsIIDQgnMenuDcdAppicon =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuDcdAppicon };
+
+static const TAknsItemID KAknsIIDQgnMenuDcdChannelitem =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuDcdChannelitem };
+
+static const TAknsItemID KAknsIIDQgnMenuDcdGssetting =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuDcdGssetting };
+
+static const TAknsItemID KAknsIIDQgnMenuModesAutoOn =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuModesAutoOn };
+
+static const TAknsItemID KAknsIIDQgnMenuModesDefault =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuModesDefault };
+
+static const TAknsItemID KAknsIIDQgnMenuMsgboard =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuMsgboard };
+
+static const TAknsItemID KAknsIIDQgnMenuN9721swu =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuN9721swu };
+
+static const TAknsItemID KAknsIIDQgnMenuPlasma =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuPlasma };
+
+static const TAknsItemID KAknsIIDQgnMsActivesearch =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsActivesearch };
+
+static const TAknsItemID KAknsIIDQgnMsAnniversary =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsAnniversary };
+
+static const TAknsItemID KAknsIIDQgnMsArrowLeft =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsArrowLeft };
+
+static const TAknsItemID KAknsIIDQgnMsArrowRight =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsArrowRight };
+
+static const TAknsItemID KAknsIIDQgnMsCalendar =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsCalendar };
+
+static const TAknsItemID KAknsIIDQgnMsContacts =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsContacts };
+
+static const TAknsItemID KAknsIIDQgnMsEmail =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsEmail };
+
+static const TAknsItemID KAknsIIDQgnMsEmailReceived =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsEmailReceived };
+
+static const TAknsItemID KAknsIIDQgnMsEmailSent =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsEmailSent };
+
+static const TAknsItemID KAknsIIDQgnMsFiles =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsFiles };
+
+static const TAknsItemID KAknsIIDQgnMsFilesApps =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsFilesApps };
+
+static const TAknsItemID KAknsIIDQgnMsFilesAudio =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsFilesAudio };
+
+static const TAknsItemID KAknsIIDQgnMsFilesCategory =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsFilesCategory };
+
+static const TAknsItemID KAknsIIDQgnMsFilesExcel =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsFilesExcel };
+
+static const TAknsItemID KAknsIIDQgnMsFilesImage =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsFilesImage };
+
+static const TAknsItemID KAknsIIDQgnMsFilesPowerpoint =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsFilesPowerpoint };
+
+static const TAknsItemID KAknsIIDQgnMsFilesText =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsFilesText };
+
+static const TAknsItemID KAknsIIDQgnMsFilesVideo =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsFilesVideo };
+
+static const TAknsItemID KAknsIIDQgnMsFilesWord =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsFilesWord };
+
+static const TAknsItemID KAknsIIDQgnMsHelpCategoryIcon =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsHelpCategoryIcon };
+
+static const TAknsItemID KAknsIIDQgnMsIndevice1Music =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsIndevice1Music };
+
+static const TAknsItemID KAknsIIDQgnMsIndevice2Contacts =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsIndevice2Contacts };
+
+static const TAknsItemID KAknsIIDQgnMsIndevice2Placeholder =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsIndevice2Placeholder };
+
+static const TAknsItemID KAknsIIDQgnMsIndevice3Pictures =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsIndevice3Pictures };
+
+static const TAknsItemID KAknsIIDQgnMsIndevice3Placeholder =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsIndevice3Placeholder };
+
+static const TAknsItemID KAknsIIDQgnMsIndevice4Placeholder =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsIndevice4Placeholder };
+
+static const TAknsItemID KAknsIIDQgnMsIndevice4Videos =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsIndevice4Videos };
+
+static const TAknsItemID KAknsIIDQgnMsIndevice5PlacesLocations =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsIndevice5PlacesLocations };
+
+static const TAknsItemID KAknsIIDQgnMsIndevice6aBookmarks =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsIndevice6aBookmarks };
+
+static const TAknsItemID KAknsIIDQgnMsIndevice9AppsGames =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsIndevice9AppsGames };
+
+static const TAknsItemID KAknsIIDQgnMsMeeting =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsMeeting };
+
+static const TAknsItemID KAknsIIDQgnMsMemo =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsMemo };
+
+static const TAknsItemID KAknsIIDQgnMsMessaging =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsMessaging };
+
+static const TAknsItemID KAknsIIDQgnMsMmsReceived =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsMmsReceived };
+
+static const TAknsItemID KAknsIIDQgnMsMmsSent =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsMmsSent };
+
+static const TAknsItemID KAknsIIDQgnMsNotes =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsNotes };
+
+static const TAknsItemID KAknsIIDQgnMsOthersCategory =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsOthersCategory };
+
+static const TAknsItemID KAknsIIDQgnMsSearchboxShadow =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsSearchboxShadow };
+
+static const TAknsItemID KAknsIIDQgnMsSearchsettingsapp =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsSearchsettingsapp };
+
+static const TAknsItemID KAknsIIDQgnMsSmsReceived =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsSmsReceived };
+
+static const TAknsItemID KAknsIIDQgnMsSmsSent =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsSmsSent };
+
+static const TAknsItemID KAknsIIDQgnMsTodos =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMsTodos };
+
+static const TAknsItemID KAknsIIDQgnPopupAlarm =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPopupAlarm };
+
+static const TAknsItemID KAknsIIDQgnPropActivenotes =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropActivenotes };
+
+static const TAknsItemID KAknsIIDQgnPropActivenotesBusinessCard =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropActivenotesBusinessCard };
+
+static const TAknsItemID KAknsIIDQgnPropActivenotesFile =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropActivenotesFile };
+
+static const TAknsItemID KAknsIIDQgnPropActivenotesFileAudio =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropActivenotesFileAudio };
+
+static const TAknsItemID KAknsIIDQgnPropActivenotesFileBusinessCard =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropActivenotesFileBusinessCard };
+
+static const TAknsItemID KAknsIIDQgnPropActivenotesFileCorrupted =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropActivenotesFileCorrupted };
+
+static const TAknsItemID KAknsIIDQgnPropActivenotesFileImage =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropActivenotesFileImage };
+
+static const TAknsItemID KAknsIIDQgnPropActivenotesFileOther =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropActivenotesFileOther };
+
+static const TAknsItemID KAknsIIDQgnPropActivenotesFileVideo =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropActivenotesFileVideo };
+
+static const TAknsItemID KAknsIIDQgnPropActivenotesFolderGrid =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropActivenotesFolderGrid };
+
+static const TAknsItemID KAknsIIDQgnPropActivenotesFolderList =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropActivenotesFolderList };
+
+static const TAknsItemID KAknsIIDQgnPropActivenotesLinkToCall =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropActivenotesLinkToCall };
+
+static const TAknsItemID KAknsIIDQgnPropActivenotesLinkToCallList =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropActivenotesLinkToCallList };
+
+static const TAknsItemID KAknsIIDQgnPropActivenotesList =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropActivenotesList };
+
+static const TAknsItemID KAknsIIDQgnPropActivenotesLocation =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropActivenotesLocation };
+
+static const TAknsItemID KAknsIIDQgnPropCmccAreacode =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccAreacode };
+
+static const TAknsItemID KAknsIIDQgnPropCmccChat =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccChat };
+
+static const TAknsItemID KAknsIIDQgnPropCmccClubservice =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccClubservice };
+
+static const TAknsItemID KAknsIIDQgnPropCmccCmmusic =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccCmmusic };
+
+static const TAknsItemID KAknsIIDQgnPropCmccContactupdate =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccContactupdate };
+
+static const TAknsItemID KAknsIIDQgnPropCmccCorporatemail =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccCorporatemail };
+
+static const TAknsItemID KAknsIIDQgnPropCmccCustomermanager =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccCustomermanager };
+
+static const TAknsItemID KAknsIIDQgnPropCmccCustomermanagernumber =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccCustomermanagernumber };
+
+static const TAknsItemID KAknsIIDQgnPropCmccFetion =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccFetion };
+
+static const TAknsItemID KAknsIIDQgnPropCmccFinanceonline =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccFinanceonline };
+
+static const TAknsItemID KAknsIIDQgnPropCmccForwardsms =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccForwardsms };
+
+static const TAknsItemID KAknsIIDQgnPropCmccGallery =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccGallery };
+
+static const TAknsItemID KAknsIIDQgnPropCmccGames =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccGames };
+
+static const TAknsItemID KAknsIIDQgnPropCmccGgame =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccGgame };
+
+static const TAknsItemID KAknsIIDQgnPropCmccHotline =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccHotline };
+
+static const TAknsItemID KAknsIIDQgnPropCmccLocalcontacts =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccLocalcontacts };
+
+static const TAknsItemID KAknsIIDQgnPropCmccMagicbox =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccMagicbox };
+
+static const TAknsItemID KAknsIIDQgnPropCmccMmscard =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccMmscard };
+
+static const TAknsItemID KAknsIIDQgnPropCmccMobilesearch =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccMobilesearch };
+
+static const TAknsItemID KAknsIIDQgnPropCmccMobilesecretary =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccMobilesecretary };
+
+static const TAknsItemID KAknsIIDQgnPropCmccMobilesecretarynumber =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccMobilesecretarynumber };
+
+static const TAknsItemID KAknsIIDQgnPropCmccMomms =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccMomms };
+
+static const TAknsItemID KAknsIIDQgnPropCmccMonternet =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccMonternet };
+
+static const TAknsItemID KAknsIIDQgnPropCmccMosms =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccMosms };
+
+static const TAknsItemID KAknsIIDQgnPropCmccMovietv =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccMovietv };
+
+static const TAknsItemID KAknsIIDQgnPropCmccMymonternet =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccMymonternet };
+
+static const TAknsItemID KAknsIIDQgnPropCmccNewservices =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccNewservices };
+
+static const TAknsItemID KAknsIIDQgnPropCmccNewsweather =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccNewsweather };
+
+static const TAknsItemID KAknsIIDQgnPropCmccOnlinecontacts =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccOnlinecontacts };
+
+static const TAknsItemID KAknsIIDQgnPropCmccPbservices =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccPbservices };
+
+static const TAknsItemID KAknsIIDQgnPropCmccPhoneanimation =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccPhoneanimation };
+
+static const TAknsItemID KAknsIIDQgnPropCmccPhonebook =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccPhonebook };
+
+static const TAknsItemID KAknsIIDQgnPropCmccPhonebookmanager =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccPhonebookmanager };
+
+static const TAknsItemID KAknsIIDQgnPropCmccPicturesringtones =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccPicturesringtones };
+
+static const TAknsItemID KAknsIIDQgnPropCmccPlayer =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccPlayer };
+
+static const TAknsItemID KAknsIIDQgnPropCmccPushemail =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccPushemail };
+
+static const TAknsItemID KAknsIIDQgnPropCmccSendsms =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccSendsms };
+
+static const TAknsItemID KAknsIIDQgnPropCmccServicecenter =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccServicecenter };
+
+static const TAknsItemID KAknsIIDQgnPropCmccServiceguide =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccServiceguide };
+
+static const TAknsItemID KAknsIIDQgnPropCmccSetting =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccSetting };
+
+static const TAknsItemID KAknsIIDQgnPropCmccSimcardappication =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccSimcardappication };
+
+static const TAknsItemID KAknsIIDQgnPropCmccTravelagent =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccTravelagent };
+
+static const TAknsItemID KAknsIIDQgnPropCmccYdzq =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccYdzq };
+
+static const TAknsItemID KAknsIIDQgnPropCmccYdzqmore =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccYdzqmore };
+
+static const TAknsItemID KAknsIIDQgnPropEzynotesFolder =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropEzynotesFolder };
+
+static const TAknsItemID KAknsIIDQgnPropEzynotesFolderLarge =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropEzynotesFolderLarge };
+
+static const TAknsItemID KAknsIIDQgnPropLotus =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropLotus };
+
+static const TAknsItemID KAknsIIDQgnPropModesAutomation =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropModesAutomation };
+
+static const TAknsItemID KAknsIIDQgnPropModesAutoOff =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropModesAutoOff };
+
+static const TAknsItemID KAknsIIDQgnPropModesAutoOn =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropModesAutoOn };
+
+static const TAknsItemID KAknsIIDQgnPropModesCalendar =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropModesCalendar };
+
+static const TAknsItemID KAknsIIDQgnPropModesEmail =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropModesEmail };
+
+static const TAknsItemID KAknsIIDQgnPropModesLandmark =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropModesLandmark };
+
+static const TAknsItemID KAknsIIDQgnPropModesMsgkey =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropModesMsgkey };
+
+static const TAknsItemID KAknsIIDQgnPropModesProfile =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropModesProfile };
+
+static const TAknsItemID KAknsIIDQgnPropModesTheme =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropModesTheme };
+
+static const TAknsItemID KAknsIIDQgnPropMsgboard =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropMsgboard };
+
+static const TAknsItemID KAknsIIDQgnPropMsgboardMoreMsgSub =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropMsgboardMoreMsgSub };
+
+static const TAknsItemID KAknsIIDQgnPropMsgboardNewGroupSub =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropMsgboardNewGroupSub };
+
+static const TAknsItemID KAknsIIDQgnPropMsgboardRead =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropMsgboardRead };
+
+static const TAknsItemID KAknsIIDQgnPropMsgboardReadSub =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropMsgboardReadSub };
+
+static const TAknsItemID KAknsIIDQgnPropMsgboardSent =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropMsgboardSent };
+
+static const TAknsItemID KAknsIIDQgnPropMsgboardSentSub =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropMsgboardSentSub };
+
+static const TAknsItemID KAknsIIDQgnPropMsgboardUnread =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropMsgboardUnread };
+
+static const TAknsItemID KAknsIIDQgnPropMsgboardUnreadSub =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropMsgboardUnreadSub };
+
+static const TAknsItemID KAknsIIDQgnPropNotifCale =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropNotifCale };
+
+static const TAknsItemID KAknsIIDQgnPropNotifCalls =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropNotifCalls };
+
+static const TAknsItemID KAknsIIDQgnPropNotifDelete =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropNotifDelete };
+
+static const TAknsItemID KAknsIIDQgnPropNotifIm =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropNotifIm };
+
+static const TAknsItemID KAknsIIDQgnPropNotifMsg =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropNotifMsg };
+
+static const TAknsItemID KAknsIIDQgnPropNotifVoicemail =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropNotifVoicemail };
+
+static const TAknsItemID KAknsIIDQgnPropSetActivenotesSub =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropSetActivenotesSub };
+
+static const TAknsItemID KAknsIIDQgnPropSetAppsAn =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropSetAppsAn };
+
+static const TAknsItemID KAknsIIDQgnPropSetAppsAnykey =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropSetAppsAnykey };
+
+static const TAknsItemID KAknsIIDQgnPropSetSlideSub =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropSetSlideSub };
+
+static const TAknsItemID KAknsIIDQgnSetwizEmailMenuLst =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnSetwizEmailMenuLst };
+
+static const TAknsItemID KAknsIIDQgnSetwizOperatorMenuLst =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnSetwizOperatorMenuLst };
+
+static const TAknsItemID KAknsIIDQgnSetwizPttMenuLst =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnSetwizPttMenuLst };
+
+static const TAknsItemID KAknsIIDQgnSetwizVsMenuLst =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnSetwizVsMenuLst };
+
+static const TAknsItemID KAknsIIDQgnStatDcdChannelitemUnread =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnStatDcdChannelitemUnread };
+
+static const TAknsItemID KAknsIIDQgnTeamuiActivenotespluginIcon =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnTeamuiActivenotespluginIcon };
+
+static const TAknsItemID KAknsIIDQgnWelcome2FinishedGraphic =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcome2FinishedGraphic };
+
+static const TAknsItemID KAknsIIDQgnWelcome2PluginEmailwizIcon =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcome2PluginEmailwizIcon };
+
+static const TAknsItemID KAknsIIDQgnWelcome2PluginEmailwizIntroGraphic =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcome2PluginEmailwizIntroGraphic };
+
+static const TAknsItemID KAknsIIDQgnWelcome2PluginPersIcon =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcome2PluginPersIcon };
+
+static const TAknsItemID KAknsIIDQgnWelcome2PluginPersIntroGraphic =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcome2PluginPersIntroGraphic };
+
+static const TAknsItemID KAknsIIDQgnWelcome2PluginSwitchIcon =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcome2PluginSwitchIcon };
+
+static const TAknsItemID KAknsIIDQgnWelcomeBackgroundDark =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcomeBackgroundDark };
+
+static const TAknsItemID KAknsIIDQgnWelcomeBackgroundLight =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcomeBackgroundLight };
+
+static const TAknsItemID KAknsIIDQgnWelcomePluginEmail =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcomePluginEmail };
+
+static const TAknsItemID KAknsIIDQgnWelcomePluginEmailLandsc =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcomePluginEmailLandsc };
+
+static const TAknsItemID KAknsIIDQgnWelcomePluginEmailPortr =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcomePluginEmailPortr };
+
+static const TAknsItemID KAknsIIDQgnWelcomePluginMaps =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcomePluginMaps };
+
+static const TAknsItemID KAknsIIDQgnWelcomePluginMusic =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcomePluginMusic };
+
+static const TAknsItemID KAknsIIDQgnWelcomePluginSignup =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcomePluginSignup };
+
+static const TAknsItemID KAknsIIDQgnWelcomeSetupComp =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcomeSetupComp };
+
 // SCMMARKER_INSERTIONPOINT
 
 // SCCMARKER_END

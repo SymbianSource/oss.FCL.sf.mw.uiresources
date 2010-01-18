@@ -24,7 +24,7 @@
 #include <AknsImageAttributeData.h>
 #include "AknsSrvUtils.h"
 
-#include <aknutils.h> 
+#include <AknUtils.h> 
 #include <akniconconfig.h>
 
 #include "AknsDebug.h"

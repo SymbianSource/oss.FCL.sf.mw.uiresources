@@ -314,7 +314,9 @@ EXPORT_C TInt AknsUtils::GetAppIcon(
                 {
                 // Delete bitmaps and proceed
                 delete bitmap;
+                bitmap = NULL; 
                 delete mask;
+                mask = NULL; 
                 }
             }
         }

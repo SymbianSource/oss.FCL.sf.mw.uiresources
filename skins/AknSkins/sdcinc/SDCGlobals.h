@@ -41,7 +41,7 @@ extern CSDCInput gInput;
 // 3.0 = 2
 static const int gVersionMajor = 2;
 
-static const int gVersionMinor = 136;
+static const int gVersionMinor = 139;
 
 #if defined(__SERIES60_26__)
 static const unsigned char gPlatformMajor = 2;

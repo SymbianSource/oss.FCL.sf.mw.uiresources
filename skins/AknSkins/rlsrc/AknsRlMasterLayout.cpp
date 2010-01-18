@@ -266,7 +266,7 @@ EXPORT_C TBool CAknsRlMasterLayout::GetItemLayout( const TAknsItemID& aIID,
                 else
                     {
                     layRect.LayoutRect( normParentRect,
-                        iAknLayoutScalable_Avkon.main_pane(7));
+                        iAknLayoutScalable_Avkon.main_pane(3));
                     aRect = layRect.Rect();
                     }
                 return ETrue;

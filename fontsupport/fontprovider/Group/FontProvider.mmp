@@ -37,7 +37,6 @@ lang SC
 MW_LAYER_SYSTEMINCLUDE
 
 SYSTEMINCLUDE   ../../../inc
-SYSTEMINCLUDE   ../../inc
 
 source  FontProvider.cpp
 

@@ -22,7 +22,7 @@
 #define CDLFONT_CDL_COMMON_H
 
 
-#include <cdlfont.h>
+#include <CdlFont.h>
 
 
 namespace CDL_Font

@@ -1184,6 +1184,7 @@ EXPORT_C TBool AknsDrawUtils::PrepareFrame( MAknsSkinInstance* aInstance,
     const TAknsItemID& aFrameID, const TAknsItemID& aCenterID)
     {
     CBitmapContext* gc = NULL;
+    // coverity[var_deref_model]
     return CheckAndDrawFrame( aInstance, *gc, aOuterRect, aInnerRect,
         aFrameID, aCenterID, KAknsDrawParamPrepareOnly );
     }

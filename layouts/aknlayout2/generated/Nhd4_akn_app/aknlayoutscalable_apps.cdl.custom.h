@@ -6418,6 +6418,35 @@ struct SCdlImpl6
 	Twgtman_list_pane_sig* wgtman_list_pane;
 	Twgtman_list_pane_t1_ParamLimits_sig* wgtman_list_pane_t1_ParamLimits;
 	Twgtman_list_pane_t1_sig* wgtman_list_pane_t1;
+	Tcam4_grid_pane_sig* cam4_grid_pane;
+	Tbg_button_pane_cp015_ParamLimits_sig* bg_button_pane_cp015_ParamLimits;
+	Tbg_button_pane_cp016_ParamLimits_sig* bg_button_pane_cp016_ParamLimits;
+	Tbg_button_pane_cp017_ParamLimits_sig* bg_button_pane_cp017_ParamLimits;
+	Tpopup_vitu2_query_window_g3_ParamLimits_sig* popup_vitu2_query_window_g3_ParamLimits;
+	Tpopup_vitu2_query_window_g3_sig* popup_vitu2_query_window_g3;
+	Tpopup_vitu2_query_window_t6_ParamLimits_sig* popup_vitu2_query_window_t6_ParamLimits;
+	Tpopup_vitu2_query_window_t6_sig* popup_vitu2_query_window_t6;
+	Tpopup_vitu2_query_window_t7_ParamLimits_sig* popup_vitu2_query_window_t7_ParamLimits;
+	Tpopup_vitu2_query_window_t7_sig* popup_vitu2_query_window_t7;
+	Tcam4_grid_pane_g1_sig* cam4_grid_pane_g1;
+	Tcam4_grid_pane_g2_sig* cam4_grid_pane_g2;
+	Tcam4_grid_pane_g3_sig* cam4_grid_pane_g3;
+	Tcam4_grid_pane_g4_sig* cam4_grid_pane_g4;
+	Tcam4_grid_pane_g_Limits_sig* cam4_grid_pane_g_Limits;
+	Tcam4_grid_pane_g_sig* cam4_grid_pane_g;
+	Taid_placing_vt_slider_lsc_ParamLimits_sig* aid_placing_vt_slider_lsc_ParamLimits;
+	Tvidtel_button_pane_ParamLimits_sig* vidtel_button_pane_ParamLimits;
+	Tvidtel_button_pane_sig* vidtel_button_pane;
+	Tbg_button_pane_cp034_sig* bg_button_pane_cp034;
+	Tvidtel_button_pane_g1_sig* vidtel_button_pane_g1;
+	Tvidtel_button_pane_t1_sig* vidtel_button_pane_t1;
+	Taid_size_vtel_slider_touch_sig* aid_size_vtel_slider_touch;
+	Tscroll_pane_cp039_sig* scroll_pane_cp039;
+	Tncim_query_button_pane_cp01_ParamLimits_sig* ncim_query_button_pane_cp01_ParamLimits;
+	Tncimui_query_pane_g1_ParamLimits_sig* ncimui_query_pane_g1_ParamLimits;
+	Tinput_focus_pane_cp012_ParamLimits_sig* input_focus_pane_cp012_ParamLimits;
+	Tncim_query_entry_pane_t1_ParamLimits_sig* ncim_query_entry_pane_t1_ParamLimits;
+	Tscroll_pane_cp039_ParamLimits_sig* scroll_pane_cp039_ParamLimits;
 	};
 #ifdef __WINS__
 struct SCdlImpl

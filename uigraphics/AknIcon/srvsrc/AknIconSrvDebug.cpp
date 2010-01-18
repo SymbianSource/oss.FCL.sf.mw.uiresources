@@ -58,6 +58,8 @@ EXPORT_C GLDEF_C void __SERVER_HEAP_MARKEND()
 //
 EXPORT_C GLDEF_C void __SERVER_HEAP_FAILNEXT( TInt aCount )
     {
+	// Notice: this code is used to avoid the building warning!
+    aCount = aCount;
 #if defined(_DEBUG) && defined(__WINS__)
     RAknIconSrvClient* client = RAknIconSrvClient::GetSession();
     client->__SERVER_HEAP_FAILNEXT( aCount );
@@ -70,6 +72,8 @@ EXPORT_C GLDEF_C void __SERVER_HEAP_FAILNEXT( TInt aCount )
 //
 EXPORT_C GLDEF_C void __SERVER_HEAP_FAILNEXT_INCREASING( TInt aCount )
     {
+	// Notice: this code is used to avoid the building warning!
+    aCount = aCount;
 #if defined(_DEBUG) && defined(__WINS__)
     RAknIconSrvClient* client = RAknIconSrvClient::GetSession();
     client->__SERVER_HEAP_FAILNEXT_INCREASING( aCount );
@@ -123,6 +127,8 @@ EXPORT_C GLDEF_C TInt __SERVER_HEAP_USED()
 EXPORT_C GLREF_C void __SERVER_SET_PREFERRED_ICON_DISPLAY_MODE(
     TDisplayMode aMode )
     {
+	// Notice: this code is used to avoid the building warning!
+    aMode = aMode;
 #if defined(_DEBUG)
 
     // New display mode won't affect already connected clients,

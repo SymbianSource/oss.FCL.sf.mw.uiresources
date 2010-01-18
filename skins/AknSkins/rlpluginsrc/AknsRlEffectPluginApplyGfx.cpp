@@ -600,7 +600,10 @@ void CAknsRlEffectPluginApplyGfx::DoRenderL( const TAknsRlRenderOpParam& aParam 
             if( (aParam.iOutputLayerStatus==KAknsRlLayerRGBOnly) ||
                 (aParam.iOutputLayerStatus==KAknsRlLayerRGBA) )
                 {
-                layerData.iRGBGc->BitBlt( drawPoint, bitmap, imgRect );
+                if ( layerData.iRGBGc )
+                    {
+                    layerData.iRGBGc->BitBlt( drawPoint, bitmap, imgRect );
+                    }
                 // When RGBOnly is queried alpha information is not filled ->
                 // we need to check alphaGc exists.
                 if (generatedMask && layerData.iAlphaGc)

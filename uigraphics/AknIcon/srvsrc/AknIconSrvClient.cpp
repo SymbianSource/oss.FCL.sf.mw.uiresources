@@ -396,6 +396,8 @@ void RAknIconSrvClient::__SERVER_HEAP_MARKEND() const
 //
 void RAknIconSrvClient::__SERVER_HEAP_FAILNEXT( TInt aCount ) const
     {
+	// Notice: this code is used to avoid the building warning!
+    aCount = aCount;
 #if defined(_DEBUG) && defined(__WINS__)
     SendReceive( EServerHeapFailNext, TIpcArgs(aCount) );
 #endif
@@ -407,6 +409,8 @@ void RAknIconSrvClient::__SERVER_HEAP_FAILNEXT( TInt aCount ) const
 //
 void RAknIconSrvClient::__SERVER_HEAP_FAILNEXT_INCREASING( TInt aCount ) const
     {
+	// Notice: this code is used to avoid the building warning!
+    aCount = aCount;
 #if defined(_DEBUG) && defined(__WINS__)
     SendReceive( EServerHeapFailNextIncreasing, TIpcArgs(aCount) );
 #endif
@@ -454,6 +458,8 @@ TInt RAknIconSrvClient::__SERVER_HEAP_USED() const
 void RAknIconSrvClient::__SERVER_SET_PREFERRED_ICON_DISPLAY_MODE(
     TDisplayMode aMode ) const
     {
+	// Notice: this code is used to avoid the building warning!
+    aMode = aMode;
 #if defined(_DEBUG)
     SendReceive( EServerSetPreferredIconDisplayMode, TIpcArgs( aMode ) );
 #endif

@@ -15,7 +15,7 @@
 *
 */
 
-#include "svgtfbsrasterizer.h"
+#include "SvgtFbsRasterizer.h"
 #include "fbsrasterizerpanics.h"
 #include "SvgtRegisteredBitmap.h"
 #include "svgtgraphicsinterface.h"
@@ -24,7 +24,7 @@
 #include <AknIconHeader.h>
 #include <AknIconUtils.h>
 #include <vgcontext.h>
-
+#include <e32cmn.h>
 #include <bitstd.h>
 #include <bitdev.h>
 
@@ -67,21 +67,8 @@ CSvgtFbsRasterizer::CSvgtFbsRasterizer()
     :iRegisteredBmps(_FOFF(CSvgtRegisteredBitmap, iLink)), iRecentBmps(_FOFF(CSvgtRegisteredBitmap, iLink))
 	{
 	    RProcess currentProcess;
-	    TFileName exeFileName = currentProcess.FileName();
-	    exeFileName.Copy(exeFileName.Mid(11));
-	    exeFileName.Copy(exeFileName.Left(exeFileName.Length()-4));
-	    
-	    if(exeFileName.Compare(_L("peninputserver"))==0)
-	        {
-	        iCacheLimit = 0x133333;
-	        iSpecialProcess = TRUE;	        
-	        }
-	    else
-	        {
-	        iCacheLimit = KMaxRecentBmpCacheSize;
-	        iSpecialProcess = FALSE;            
-	        }
-	}
+	    iCacheLimit = GetCacheLimit(currentProcess.SecureId());
+	    }
 
 CSvgtFbsRasterizer::~CSvgtFbsRasterizer()
     {
@@ -487,6 +474,7 @@ void CSvgtFbsRasterizer::RenderL( const TBitmapDesc& aBitmapDesc, CSvgtRegistere
         RestoreMatrices();
         iMatricesUpdated = EFalse;
         }
+       iNvgEngine->ResetNvgState();
     }
 
 void CSvgtFbsRasterizer::UpdateMatrices()
@@ -645,3 +633,20 @@ TInt CSvgtFbsRasterizer::MapOpenVgErrorCodeToSymbian(TInt aErrorCode)
 
     }
 
+TInt CSvgtFbsRasterizer::GetCacheLimit(TUid aProcessUID) const
+    {
+    TInt cacheLimit = KMaxRecentBmpCacheSize;
+
+    RProcess currentProcess;
+   
+    if(aProcessUID == TUid::Uid(0x10003B20)) // Alf 
+        {
+        cacheLimit = 0x600000; 
+        }
+    else if(aProcessUID == TUid::Uid(0x10281855)) // Peninputserver
+        {
+        cacheLimit = 0x133333;
+        }
+    
+    return cacheLimit;
+    }

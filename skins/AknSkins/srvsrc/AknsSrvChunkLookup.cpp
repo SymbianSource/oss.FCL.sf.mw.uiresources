@@ -820,7 +820,10 @@ TUint32 CAknsSrvChunkLookup::CreateParameterL( CAknsEffectParamDef*& aDef,
         Mem::Copy(&maskindex, (content+6+paramnamelen*2), sizeof(TUint32));
         Mem::Copy(&filenameoffset, (content+10+paramnamelen*2), sizeof(TUint32));
         TInt* baseptr = (TInt*)(aBasePtr);
-        baseptr = baseptr+(baseptr[EAknsSrvFilenameAreaBaseOffset]/4);
+        if ( baseptr )
+            {
+            baseptr = baseptr+(baseptr[EAknsSrvFilenameAreaBaseOffset]/4);
+            }
 
         TAknsSrvMPPtr<const TText*> iFilename;
         iFilename.iPtrType = EAknsSrvMPPtrBaseRelativeRAM;

@@ -96,6 +96,10 @@ private:
      * Map OpenVg Error codes to symbian error codes
      */
     TInt MapOpenVgErrorCodeToSymbian(TInt aErrorCode);
+    /*
+     * Returns cache limit (if) specific to process
+     */
+    TInt GetCacheLimit(TUid aProcessUID) const;
 private: //Data members
     /** List of currently registered extended bitmaps, the key is the bitmap id.
      */
@@ -123,7 +127,6 @@ private: //Data members
     TReal32 iFillPaintMatrix[9];
     TReal32 iStrokePaintMatrix[9];
     TInt   iCacheLimit;
-    TBool   iSpecialProcess;
     };
 
 #endif // SVGTFBSRASTERIZER_H
