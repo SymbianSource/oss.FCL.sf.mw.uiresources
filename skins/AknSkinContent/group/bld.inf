@@ -83,7 +83,11 @@ END
 START EXTENSION s60/mif2cdlindex
   OPTION TARGETFILE series60skinindexdll_inst.cpp
   OPTION GENPATH ../srcdata/scalableseries60skin/MifIndexDll
+#ifdef WINSCW
+  OPTION MIFDIR $(EPOCROOT)/epoc32/release/winscw/$(CFG)/z/resource/skins/101f84b9
+#else
   OPTION MIFDIR $(EPOCROOT)/epoc32/data/z/resource/skins/101f84b9
+#endif
   OPTION MIFFILE series60skin.mif
   OPTION DLLNAME series60skinIndexDll
   OPTION DLLUID 0x101f84b9
