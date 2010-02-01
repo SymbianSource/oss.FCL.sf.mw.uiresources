@@ -100,13 +100,11 @@ AknLayout2Adaptation.mmp
 aknlayout2hierarchy.mmp
 
 LayoutInstRedir.mmp
-LayoutInstRedir_akn_app_qvga1.mmp
 LayoutInstRedir_akn_app_qhd_touch.mmp
 LayoutInstRedir_akn_app_nhd4.mmp
 LayoutInstRedir_akn_app_vga4_touch.mmp
 
 #if defined(FF_ROM_INCLUDE_ALF)
-LayoutInstRedir_uiaccel_qvga1.mmp
 LayoutInstRedir_uiaccel_qhd_touch.mmp
 LayoutInstRedir_uiaccel_nhd4.mmp
 LayoutInstRedir_uiaccel_vga4_touch.mmp

@@ -169,6 +169,11 @@ void CSvgtFbsRasterizer::EndBitmap(TInt64 aBitmapId)
                 iRecentBmps.AddFirst(*regBmp);
                 iTotalRecentBmpSize += regBmp->DataSize();
                 }
+            else
+                {
+                delete regBmp; // deleting the registered bitmap in a case when raster bitmap size is bigger than cache
+                }	
+                
             // Delete the least recently used bitmaps if the maximum size of the cache is exceeded
             while (iTotalRecentBmpSize > iCacheLimit)
                 {

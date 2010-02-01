@@ -80,7 +80,7 @@ const TFatUtilityFunctions shiftJisFatUtilityFunctions=
 
 
 // The configuration data
-const TLanguage LLocaleData::Language = (const enum TLanguage)KLangJapaneseEnglish;
+const TLanguage LLocaleData::Language = (enum TLanguage)KLangJapaneseEnglish;
 const TInt LLocaleData::CountryCode = 81;
 const TInt LLocaleData::UniversalTimeOffset = 9*3600;
 const TDateFormat LLocaleData::DateFormat = EDateEuropean;

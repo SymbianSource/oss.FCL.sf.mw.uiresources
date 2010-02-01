@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LayoutAttributes createdOn="2009-12-29 17:09:39.695" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.7512846128761481">
+<LayoutAttributes createdOn="2010-01-12 18:43:04.882" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.7512846128761481">
   <attributeset compId="1" name="D">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -297,13 +297,13 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
+      <calc value="5" zoom="+1 zoom"/>
+      <calc value="5" zoom="+2 zoom"/>
       <calc value="5" zoom="+3 zoom"/>
-      <calc value="6"/>
       <calc value="8" zoom="-3 zoom"/>
       <calc value="7" zoom="-2 zoom"/>
-      <calc value="5" zoom="+2 zoom"/>
+      <calc value="6"/>
       <calc value="7" zoom="-1 zoom"/>
-      <calc value="5" zoom="+1 zoom"/>
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="true"/>
@@ -1281,22 +1281,22 @@
       <calc value="0"/>
     </attribute>
     <attribute id="232" name="Height text primary">
+      <calc value="42" zoom="+1 zoom"/>
+      <calc value="44" zoom="+2 zoom"/>
       <calc value="46" zoom="+3 zoom"/>
-      <calc value="37"/>
       <calc value="26" zoom="-3 zoom"/>
       <calc value="30" zoom="-2 zoom"/>
-      <calc value="44" zoom="+2 zoom"/>
+      <calc value="37"/>
       <calc value="35" zoom="-1 zoom"/>
-      <calc value="42" zoom="+1 zoom"/>
     </attribute>
     <attribute id="233" name="Height text secondary">
+      <calc value="36" zoom="+1 zoom"/>
+      <calc value="38" zoom="+2 zoom"/>
       <calc value="40" zoom="+3 zoom"/>
-      <calc value="32"/>
       <calc value="22" zoom="-3 zoom"/>
       <calc value="26" zoom="-2 zoom"/>
-      <calc value="38" zoom="+2 zoom"/>
+      <calc value="32"/>
       <calc value="30" zoom="-1 zoom"/>
-      <calc value="36" zoom="+1 zoom"/>
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="false"/>
@@ -1482,19 +1482,19 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="3" zoom="+3 zoom"/>
-      <calc value="4"/>
-      <calc value="3" zoom="-2 zoom"/>
       <calc value="3" zoom="+2 zoom"/>
+      <calc value="3" zoom="+3 zoom"/>
+      <calc value="3" zoom="-2 zoom"/>
+      <calc value="4"/>
     </attribute>
     <attribute id="232" name="Height text primary">
+      <calc value="42" zoom="+1 zoom"/>
+      <calc value="44" zoom="+2 zoom"/>
       <calc value="46" zoom="+3 zoom"/>
-      <calc value="37"/>
       <calc value="26" zoom="-3 zoom"/>
       <calc value="30" zoom="-2 zoom"/>
-      <calc value="44" zoom="+2 zoom"/>
+      <calc value="37"/>
       <calc value="35" zoom="-1 zoom"/>
-      <calc value="42" zoom="+1 zoom"/>
     </attribute>
   </attributeset>
   <attributeset compId="1140" name="a0">
@@ -1511,19 +1511,19 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="3"/>
       <calc value="4" zoom="-3 zoom"/>
       <calc value="4" zoom="-2 zoom"/>
+      <calc value="3"/>
       <calc value="4" zoom="-1 zoom"/>
     </attribute>
     <attribute id="232" name="Height text primary">
+      <calc value="42" zoom="+1 zoom"/>
+      <calc value="44" zoom="+2 zoom"/>
       <calc value="46" zoom="+3 zoom"/>
-      <calc value="37"/>
       <calc value="26" zoom="-3 zoom"/>
       <calc value="30" zoom="-2 zoom"/>
-      <calc value="44" zoom="+2 zoom"/>
+      <calc value="37"/>
       <calc value="35" zoom="-1 zoom"/>
-      <calc value="42" zoom="+1 zoom"/>
     </attribute>
   </attributeset>
   <attributeset compId="1142" name="a0">
@@ -3167,12 +3167,12 @@
       <calc value="false"/>
     </attribute>
     <attribute id="48" name="Number of rows">
+      <calc value="9" zoom="+1 zoom"/>
+      <calc value="8" zoom="+2 zoom"/>
       <calc value="8" zoom="+3 zoom"/>
-      <calc value="10"/>
       <calc value="13" zoom="-3 zoom"/>
       <calc value="12" zoom="-2 zoom"/>
-      <calc value="8" zoom="+2 zoom"/>
-      <calc value="9" zoom="+1 zoom"/>
+      <calc value="10"/>
     </attribute>
     <attribute id="51" name="Vt Align">
       <calc value="bottom"/>
@@ -4225,13 +4225,13 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
+      <calc value="7" zoom="+1 zoom"/>
+      <calc value="7" zoom="+2 zoom"/>
       <calc value="7" zoom="+3 zoom"/>
-      <calc value="6"/>
       <calc value="4" zoom="-3 zoom"/>
       <calc value="5" zoom="-2 zoom"/>
-      <calc value="7" zoom="+2 zoom"/>
+      <calc value="6"/>
       <calc value="5" zoom="-1 zoom"/>
-      <calc value="7" zoom="+1 zoom"/>
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="true"/>
@@ -4282,9 +4282,9 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="5"/>
       <calc value="6" zoom="-3 zoom"/>
       <calc value="6" zoom="-2 zoom"/>
+      <calc value="5"/>
       <calc value="6" zoom="-1 zoom"/>
     </attribute>
     <attribute id="50" name="Hz Align">
@@ -4312,15 +4312,15 @@
       <calc value="16"/>
     </attribute>
     <attribute id="209" name="Width column A">
-      <calc value="46"/>
       <calc value="35" zoom="-3 zoom"/>
       <calc value="40" zoom="-2 zoom"/>
+      <calc value="46"/>
       <calc value="43" zoom="-1 zoom"/>
     </attribute>
     <attribute id="210" name="Width column AB">
-      <calc value="133"/>
       <calc value="100" zoom="-3 zoom"/>
       <calc value="116" zoom="-2 zoom"/>
+      <calc value="133"/>
       <calc value="125" zoom="-1 zoom"/>
     </attribute>
     <attribute id="211" name="List margin top double">
@@ -5827,13 +5827,13 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
+      <calc value="7" zoom="+1 zoom"/>
+      <calc value="7" zoom="+2 zoom"/>
       <calc value="5" zoom="+3 zoom"/>
-      <calc value="8"/>
       <calc value="13" zoom="-3 zoom"/>
       <calc value="12" zoom="-2 zoom"/>
-      <calc value="7" zoom="+2 zoom"/>
+      <calc value="8"/>
       <calc value="11" zoom="-1 zoom"/>
-      <calc value="7" zoom="+1 zoom"/>
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="true"/>
@@ -8748,6 +8748,23 @@
       <calc value="false"/>
     </attribute>
   </attributeset>
+  <attributeset compId="5682" name="a0">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="false"/>
+    </attribute>
+  </attributeset>
   <attributeset compId="5719" name="a0">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -9740,12 +9757,12 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
+      <calc value="5" zoom="+1 zoom"/>
+      <calc value="5" zoom="+2 zoom"/>
       <calc value="5" zoom="+3 zoom"/>
-      <calc value="6"/>
       <calc value="8" zoom="-3 zoom"/>
       <calc value="7" zoom="-2 zoom"/>
-      <calc value="5" zoom="+2 zoom"/>
-      <calc value="5" zoom="+1 zoom"/>
+      <calc value="6"/>
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="true"/>
@@ -9969,6 +9986,9 @@
       <calc value="Forced"/>
     </attribute>
     <attribute id="25" name="gap">
+      <calc value="5"/>
+    </attribute>
+    <attribute id="44" name="Top Margin">
       <calc value="5"/>
     </attribute>
     <attribute id="46" name="Multi Row">

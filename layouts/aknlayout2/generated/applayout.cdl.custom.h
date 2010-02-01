@@ -22,7 +22,7 @@
 #define APPLAYOUT_CDL_CUSTOM_H
 
 #include <CdlEngDef.h>
-#include "AppLayout.cdl.common.h"
+#include "applayout.cdl.common.h"
 
 namespace AppLayout
 {

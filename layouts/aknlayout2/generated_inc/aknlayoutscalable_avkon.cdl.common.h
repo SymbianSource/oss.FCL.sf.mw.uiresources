@@ -5677,6 +5677,7 @@ enum TApiId
 	EApiId_cell_graphic2_pane_t_Limits,
 	EApiId_cell_graphic2_pane_t_ParamLimits,
 	EApiId_cell_graphic2_pane_t,
+	EApiId_cell_graphic2_control_pane_t1,
 	E_TApiId_TableSize
 	};
 
@@ -11331,6 +11332,7 @@ typedef TAknTextComponentLayout (Tcell_graphic2_pane_t2_sig)(TInt, TInt, TInt);
 typedef TAknLayoutScalableTableLimits (Tcell_graphic2_pane_t_Limits_sig)();
 typedef TAknLayoutScalableParameterLimits (Tcell_graphic2_pane_t_ParamLimits_sig)(TInt, TInt);
 typedef TAknTextComponentLayout (Tcell_graphic2_pane_t_sig)(TInt, TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tcell_graphic2_control_pane_t1_sig)(TInt, TInt, TInt);
 
 } // end of namespace AknLayoutScalable_Avkon
 

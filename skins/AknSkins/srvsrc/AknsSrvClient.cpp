@@ -589,19 +589,10 @@ void RAknsSrvSession::DoWriteInifileL(const CDesCArray& aFilenameArray)
 // RAknsSrvSession::SetSlideSetWallpaper
 // -----------------------------------------------------------------------------
 //
-EXPORT_C TInt RAknsSrvSession::SetSlideSetWallpaper(const CDesCArray& aFilenameArray)
+EXPORT_C TInt RAknsSrvSession::SetSlideSetWallpaper(const CDesCArray& /*aFilenameArray*/)
     {
-    SendReceive(EAknSkinSrvStopSSIniFileObserver);
-    TRAPD(error, DoWriteInifileL(aFilenameArray));
-    if (error)
-        {
-        return error;
-        }
-    if (aFilenameArray.MdcaCount() == 1)
-        {
-        return KErrNone;
-        }
-    return SendReceive(EAknSkinSrvSetSlideSetWP);
+    //deprecated for 9.2 page specific wallpaper
+    return KErrNotSupported;  
     }
 
 // -----------------------------------------------------------------------------

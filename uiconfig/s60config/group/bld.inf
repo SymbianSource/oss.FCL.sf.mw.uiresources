@@ -31,7 +31,6 @@ PRJ_EXPORTS
 ../src/epoc.ini                 /epoc32/data/epoc.ini
 #endif
 
-../src/epoc_240x320.ini                 /epoc32/data/epoc_240x320.ini
 ../src/epoc_640x360_touch_qwerty.ini    /epoc32/data/epoc_640x360_touch_qwerty.ini
 ../src/epoc_360x640_touch.ini           /epoc32/data/epoc_360x640_touch.ini
 ../src/epoc_640x360_nhd4_qwerty.ini    /epoc32/data/epoc_640x360_nhd4_qwerty.ini
@@ -44,7 +43,6 @@ PRJ_EXPORTS
 ../src/epoc_320x240_qvga2_HalfQwerty.ini  /epoc32/data/epoc_320x240_qvga2_HalfQwerty.ini
 #endif
 
-../src/QVGA_P_B.bmp        /epoc32/data/QVGA_P_B.bmp
 ../src/QHD_P_B.bmp         /epoc32/data/QHD_P_B.bmp
 ../src/NHD4_L_B_QW.bmp      /epoc32/data/NHD4_L_B_QW.bmp   
 ../src/NHD4_P_B.bmp         /epoc32/data/NHD4_P_B.bmp 

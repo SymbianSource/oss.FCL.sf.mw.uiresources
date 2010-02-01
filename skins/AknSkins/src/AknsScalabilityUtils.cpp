@@ -1036,7 +1036,7 @@ CAknsImageItemData* AknsScalabilityUtils::RecursiveCacheRenderL(
         aMorphingOut = morphing;
         return existingData;
         }
-    if(aSkin->iLocalItemDefArray.Count() == 0) //not in preview
+/*    if(aSkin->iLocalItemDefArray.Count() == 0) //not in preview
         {
         if ( hasData && IsScalableItem( thisIid ) )
             {
@@ -1060,7 +1060,7 @@ CAknsImageItemData* AknsScalabilityUtils::RecursiveCacheRenderL(
             return CachedLayoutBitmap(aSkin, thisIid, rect.Size(),
                     aLayoutSize, aLayoutType, morphing, aLocalItem);
             }
-        }
+        }*/
     // Otherwise, start rendering
 
     CAknsMaskedBitmapItemData* thisData = CAknsMaskedBitmapItemData::NewL();

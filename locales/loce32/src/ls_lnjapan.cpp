@@ -66,8 +66,7 @@ const TText a_kugatsu[]={0x0039,0};
 const TText a_jyugatsu[]={0x0031,0x0030,0};
 const TText a_jyuichigatsu[]={0x0031,0x0031,0};
 const TText a_jyunigatsu[]={0x0031,0x0032,0};
-const TText gozen[]={0x5348,0x524d,0};
-const TText gogo[]={0x5348,0x5f8c,0};
+
 
 // The suffix table
 const TText * const LLanguage::DateSuffixTable[KMaxSuffixes] =

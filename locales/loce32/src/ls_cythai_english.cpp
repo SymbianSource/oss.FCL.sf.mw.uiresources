@@ -30,7 +30,7 @@
 //  LOCAL CONSTANTS AND MACROS  
 
 // The configuration data
-const TLanguage LLocaleData::Language = (const enum TLanguage)KLangThaiEnglish;
+const TLanguage LLocaleData::Language = (enum TLanguage)KLangThaiEnglish;
 const TInt LLocaleData::CountryCode = 66;   
 const TInt LLocaleData::UniversalTimeOffset = 7;    
 const TDateFormat LLocaleData::DateFormat = EDateEuropean;

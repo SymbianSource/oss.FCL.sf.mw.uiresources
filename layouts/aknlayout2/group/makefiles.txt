@@ -2,8 +2,6 @@ Copy_ZoomConfig.mk
 Interfaces.mk
 Copy.mk
 DLL_All.mk
-akn_app_qvga1.mk
-uiaccel_qvga1.mk
 akn_app_qhd_touch.mk
 uiaccel_qhd_touch.mk
 akn_app_nhd4.mk

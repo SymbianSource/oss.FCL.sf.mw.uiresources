@@ -400,15 +400,10 @@ void DoSetSlidesetWallpaperL(CDesCArray& aSelectedFiles, CCoeEnv* aCoeEnv, TInt 
 // Public API for setting slide set wallpaper.
 // -----------------------------------------------------------------------------
 //
-EXPORT_C TInt AknsWallpaperUtils::SetSlidesetWallpaper(CDesCArray& aSelectedFiles, CCoeEnv* aCoeEnv, TInt aWaitNoteTextResourceID, TInt aWaitNoteResourceID)
+EXPORT_C TInt AknsWallpaperUtils::SetSlidesetWallpaper(CDesCArray& /*aSelectedFiles*/, CCoeEnv* /*aCoeEnv*/, TInt /*aWaitNoteTextResourceID*/, TInt /*aWaitNoteResourceID*/)
     {
-#if !defined(RD_SLIDESHOW_WALLPAPER)
+    //deprecated for 9.2 page specific wallpaper
     return KErrNotSupported;
-#else
-    TInt err(KErrNone);
-    TRAP(err, DoSetSlidesetWallpaperL(aSelectedFiles, aCoeEnv, aWaitNoteTextResourceID, aWaitNoteResourceID));
-    return err;
-#endif //RD_SLIDESHOW_WALLPAPER
     }
     
 // End of file

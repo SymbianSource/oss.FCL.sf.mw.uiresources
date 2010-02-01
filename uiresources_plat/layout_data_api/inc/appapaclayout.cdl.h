@@ -21,8 +21,8 @@
 #ifndef APPAPACLAYOUT_CDL
 #define APPAPACLAYOUT_CDL
 
-#include <cdlengine.h>
-#include <appapaclayout.cdl.common.h>
+#include <CdlEngine.h>
+#include <AppApacLayout.cdl.common.h>
 
 namespace AppApacLayout
 {

@@ -62,6 +62,15 @@ static const unsigned char gPlatformMinor = 1;
 #elif defined(__SERIES60_32__)
 static const unsigned char gPlatformMajor = 3;
 static const unsigned char gPlatformMinor = 2;
+#elif defined(__SERIES60_50__)
+static const unsigned char gPlatformMajor = 5;
+static const unsigned char gPlatformMinor = 0;
+#elif defined(__SERIES60_51__)
+static const unsigned char gPlatformMajor = 5;
+static const unsigned char gPlatformMinor = 1;
+#elif defined(__SERIES60_52__)
+static const unsigned char gPlatformMajor = 5;
+static const unsigned char gPlatformMinor = 2;
 #else
 static const unsigned char gPlatformMajor = 0;
 static const unsigned char gPlatformMinor = 0;
