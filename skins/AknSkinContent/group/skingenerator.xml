@@ -37,7 +37,7 @@
 		  <param name='AKNSSKINUID' default=""/>
 		  <param name='AKNSSRCDIR' default=""/>
 		  <param name='AKNSGENDIR' default=""/>
-
+		  <param name='SVGENCODINGVERSION' default="3" /> <!-- Prefer SVGB files -->
 		  <param name='SKINDEBUG' default='1'/>
 		  
     </interface>
