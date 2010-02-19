@@ -1530,7 +1530,9 @@ enum TAknsQsnLineColorsIndex
     // line #13 Calculator line color #35
     EAknsCIQsnLineColorsCG13   = 12,
     //line #14	HWR pop-up window	Guideline	#120
-    EAknsCIQsnLineColorsCG14   = 13
+    EAknsCIQsnLineColorsCG14   = 13,
+    //line #15	lists	Separator line for touch items	#333333
+    EAknsCIQsnLineColorsCG15   = 14
     };
 
 /**
@@ -21795,6 +21797,114 @@ static const TAknsItemID KAknsIIDQgnWelcomePluginSignup =
 
 static const TAknsItemID KAknsIIDQgnWelcomeSetupComp =
     { EAknsMajorGeneric, EAknsMinorGenericQgnWelcomeSetupComp };
+
+static const TAknsItemID KAknsIIDQgnMenuWebtv =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuWebtv };
+
+static const TAknsItemID KAknsIIDQgnIndiButtonVideoShare =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiButtonVideoShare };
+
+static const TAknsItemID KAknsIIDQgnGrafNotifNoEventsBg =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnGrafNotifNoEventsBg };
+
+static const TAknsItemID KAknsIIDQgnIndiInputArabicBackspace =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputArabicBackspace };
+
+static const TAknsItemID KAknsIIDQgnIndiInputArabicEnter =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputArabicEnter };
+
+static const TAknsItemID KAknsIIDQgnIndiInputHwrArabicClose =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputHwrArabicClose };
+
+static const TAknsItemID KAknsIIDQgnIndiInputHwrArabicPage12 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputHwrArabicPage12 };
+
+static const TAknsItemID KAknsIIDQgnIndiInputHwrArabicPage13 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputHwrArabicPage13 };
+
+static const TAknsItemID KAknsIIDQgnIndiInputHwrArabicPage22 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputHwrArabicPage22 };
+
+static const TAknsItemID KAknsIIDQgnIndiInputHwrArabicPage23 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputHwrArabicPage23 };
+
+static const TAknsItemID KAknsIIDQgnIndiInputHwrArabicPage33 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputHwrArabicPage33 };
+
+static const TAknsItemID KAknsIIDQgnIndiInputHwrArabicSymbolTable =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputHwrArabicSymbolTable };
+
+static const TAknsItemID KAknsIIDQgnIndiInputHwrArabicWritingArea =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputHwrArabicWritingArea };
+
+static const TAknsItemID KAknsIIDQgnIndiManyItemsAdd1 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiManyItemsAdd1 };
+
+static const TAknsItemID KAknsIIDQgnIndiModeNotAutomatedAdd1 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiModeNotAutomatedAdd1 };
+
+static const TAknsItemID KAknsIIDQgnIndiRrsfeedwidgetFeedsTbAddnew =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiRrsfeedwidgetFeedsTbAddnew };
+
+static const TAknsItemID KAknsIIDQgnIndiSignalGprsTdscdmaAttach =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiSignalGprsTdscdmaAttach };
+
+static const TAknsItemID KAknsIIDQgnIndiSignalGprsTdscdmaContext =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiSignalGprsTdscdmaContext };
+
+static const TAknsItemID KAknsIIDQgnIndiSignalGprsTdscdmaIcon =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiSignalGprsTdscdmaIcon };
+
+static const TAknsItemID KAknsIIDQgnIndiSignalGprsTdscdmaMultipdp =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiSignalGprsTdscdmaMultipdp };
+
+static const TAknsItemID KAknsIIDQgnIndiSignalGprsTdscdmaSuspended =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiSignalGprsTdscdmaSuspended };
+
+static const TAknsItemID KAknsIIDQgnIndiSignalHsdpaTdscdmaAttach =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiSignalHsdpaTdscdmaAttach };
+
+static const TAknsItemID KAknsIIDQgnIndiSignalHsdpaTdscdmaContext =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiSignalHsdpaTdscdmaContext };
+
+static const TAknsItemID KAknsIIDQgnIndiSignalHsdpaTdscdmaIcon =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiSignalHsdpaTdscdmaIcon };
+
+static const TAknsItemID KAknsIIDQgnIndiSignalHsdpaTdscdmaMultipdp =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiSignalHsdpaTdscdmaMultipdp };
+
+static const TAknsItemID KAknsIIDQgnIndiSignalHsdpaTdscdmaSuspended =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiSignalHsdpaTdscdmaSuspended };
+
+static const TAknsItemID KAknsIIDQgnIndiSignalTdscdmaAttach =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiSignalTdscdmaAttach };
+
+static const TAknsItemID KAknsIIDQgnIndiSignalTdscdmaContext =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiSignalTdscdmaContext };
+
+static const TAknsItemID KAknsIIDQgnIndiSignalTdscdmaIcon =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiSignalTdscdmaIcon };
+
+static const TAknsItemID KAknsIIDQgnIndiSignalTdscdmaMultipdp =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiSignalTdscdmaMultipdp };
+
+static const TAknsItemID KAknsIIDQgnIndiSignalTdscdmaSuspended =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiSignalTdscdmaSuspended };
+
+static const TAknsItemID KAknsIIDQgnIndiWmAdd1 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiWmAdd1 };
+
+static const TAknsItemID KAknsIIDQgnNoteFaxpc1 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnNoteFaxpc1 };
+
+static const TAknsItemID KAknsIIDQgnPropCmccCustomermanage =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccCustomermanage };
+
+static const TAknsItemID KAknsIIDQgnPropModesProfiles =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropModesProfiles };
+
+static const TAknsItemID KAknsIIDQgnPropModesThemes =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropModesThemes };
 
 // SCMMARKER_INSERTIONPOINT
 

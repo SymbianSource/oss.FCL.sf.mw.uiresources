@@ -5705,6 +5705,10 @@ struct SCdlImpl5
 	Tcell_graphic2_pane_t_ParamLimits_sig* cell_graphic2_pane_t_ParamLimits;
 	Tcell_graphic2_pane_t_sig* cell_graphic2_pane_t;
 	Tcell_graphic2_control_pane_t1_sig* cell_graphic2_control_pane_t1;
+	Tsignal_pane_g3_ParamLimits_sig* signal_pane_g3_ParamLimits;
+	Tsignal_pane_g3_sig* signal_pane_g3;
+	Tsignal_pane_g4_ParamLimits_sig* signal_pane_g4_ParamLimits;
+	Tsignal_pane_g4_sig* signal_pane_g4;
 	};
 #ifdef __WINS__
 struct SCdlImpl

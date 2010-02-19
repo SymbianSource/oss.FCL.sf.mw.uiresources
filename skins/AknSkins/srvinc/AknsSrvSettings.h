@@ -126,6 +126,8 @@ NONSHARABLE_CLASS(CAknsSrvSettings) : public CBase,
         void WriteSkinToDefault();
         void WriteIdleBackgroundToDefault();
         void WriteSkinSettings(const TAknsPkgID aPid, TBool aMMC);
+        void WriteWallpaperType(TInt aType);
+        void WriteWallpaperPath(const TDesC& aPath);
 
         TInt ReadAHMirroringActive();
         TInt ReadActiveSkinPID();

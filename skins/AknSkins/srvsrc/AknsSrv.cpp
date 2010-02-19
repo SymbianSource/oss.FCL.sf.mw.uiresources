@@ -811,14 +811,14 @@ void CAknsSrv::NotifyDriveChange( const TInt& aDrive, const TBool& aMediaNotPres
             iOldSkin = KAknsNullPkgID;
             }
         // Wallpaper was on removable drive and it is no longer accessible.
-        if ( iWPOnRemovableDrive && iWPFilename )
+        /*if ( iWPOnRemovableDrive && iWPFilename )
             {
             if ( !AknsSrvUtils::IsFile( iFsSession, *iWPFilename ) )
                 {
                 iWPOnRemovableDrive = EFalse;
                 WallpaperLost();
                 }
-            }
+            }*/
         }
     }
 
@@ -1421,7 +1421,7 @@ void CAknsSrv::SetWallpaperL( const TDesC& aFilename,
         iCurrentSlide = 0;
         WallpaperTimerL()->Stop();
         }
-   if (!aIsSlide && iSlideSetNameArray)
+    if (!aIsSlide && iSlideSetNameArray)
         {
         delete iSlideSetNameArray;
         iSlideSetNameArray = NULL;
@@ -1526,14 +1526,20 @@ void CAknsSrv::SetWallpaperL( const TDesC& aFilename,
 
     iChunkMaintainer->SetWallpaper( aIID, aFilename, 0);
 
-// Set the wallpaper type as correct.
-    if ( aFilename != KNullDesC && !aIsSlide )
+    // Set the wallpaper type as correct.
+    if ( !aIsSlide )
         {
-        iWallpaperType = KAknsSkinSrvImageWallpaper;
-        }
-    else if ( aFilename == KNullDesC && !aIsSlide )
-        {
-        iWallpaperType = KAknsSkinSrvNoWallpaper;
+        if ( aFilename != KNullDesC )
+            {
+            iWallpaperType = KAknsSkinSrvImageWallpaper;
+            }
+        else
+            {
+            iWallpaperType = KAknsSkinSrvNoWallpaper;
+            }
+
+        iSettings->WriteWallpaperType( iWallpaperType );
+        iSettings->WriteWallpaperPath( aFilename );
         }
 
     iContentChanged = ETrue;
@@ -1751,13 +1757,10 @@ void CAknsSrv::WallpaperTimerTimeoutL( TBool aForceChange )
             }
         }
     
-    CRepository* skinsrep = CRepository::NewL(KCRUidPersonalisation);
-    CleanupStack::PushL(skinsrep);
-    
     if ( slideCount > 1 )
         {
         SetWallpaperL( iSlideSetNameArray->MdcaPoint(iCurrentSlide),KAknsIIDWallpaper, ETrue );
-        skinsrep->Set(KPslnIdleBackgroundImagePath, iSlideSetNameArray->MdcaPoint(iCurrentSlide));
+        iSettings->WriteWallpaperPath( iSlideSetNameArray->MdcaPoint(iCurrentSlide) );
         iMergeType = (TAknsSkinSrvMergeType)(iMergeType | EAknsSkinSrvIdleWp);
         iContentChanged = ETrue;
         BroadcastUpdate();
@@ -1783,8 +1786,8 @@ void CAknsSrv::WallpaperTimerTimeoutL( TBool aForceChange )
             {
             SetWallpaperL( fname,KAknsIIDWallpaper );
             iWallpaperType = KAknsSkinSrvImageWallpaper;
-            User::LeaveIfError(skinsrep->Set(KPslnIdleBackgroundImagePath, fname));
-            User::LeaveIfError(skinsrep->Set(KPslnWallpaperType, iWallpaperType));
+            iSettings->WriteWallpaperPath( fname );
+            iSettings->WriteWallpaperType( iWallpaperType );
             }
         else
             {
@@ -1803,7 +1806,6 @@ void CAknsSrv::WallpaperTimerTimeoutL( TBool aForceChange )
         iContentChanged = ETrue;
         BroadcastUpdate();
         }
-    CleanupStack::PopAndDestroy( skinsrep );
     }
 
 // -----------------------------------------------------------------------------
@@ -1815,6 +1817,7 @@ void CAknsSrv::SetSlidesetWallpaperL( )
     ReadSlideSetImageFilesL();
 
     iWallpaperType = KAknsSkinSrvSlidesetWallpaper;
+    iSettings->WriteWallpaperType( iWallpaperType );
 
     SetSlideSetTimerActiveL();
 

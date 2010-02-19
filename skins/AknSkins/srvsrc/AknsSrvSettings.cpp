@@ -1189,4 +1189,22 @@ void CAknsSrvSettings::HandleIdleTime()
     iDelayedNotification = EFalse;
     }
 
+// -----------------------------------------------------------------------------
+// Write Wallpaper Type.
+// -----------------------------------------------------------------------------
+//
+void CAknsSrvSettings::WriteWallpaperType(TInt aType)
+    {
+    iSkinsRepository->Set( KPslnWallpaperType, aType );
+    }
+
+// -----------------------------------------------------------------------------
+// Write Wallpaper Path.
+// -----------------------------------------------------------------------------
+//
+void CAknsSrvSettings::WriteWallpaperPath(const TDesC& aPath)
+    {
+    iSkinsRepository->Set( KPslnIdleBackgroundImagePath, aPath );
+    }
+
 // End of File
