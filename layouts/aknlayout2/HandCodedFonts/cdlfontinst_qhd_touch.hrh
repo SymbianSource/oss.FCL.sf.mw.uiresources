@@ -21,7 +21,7 @@
 
 #ifndef CDLFONTINST_QHD_TOUCH_HRH
 #define CDLFONTINST_QHD_TOUCH_HRH
-#include "cdlfont.cdl.common.hrh"
+#include "CdlFont.cdl.common.hrh"
 #include "dllinstances.hrh"
 
 #define _CDL_CdlFontInst_qhd_touch_KCdlInstanceInterfaceUidValue _CDL_CDL_Font_KCdlInterfaceUidValue

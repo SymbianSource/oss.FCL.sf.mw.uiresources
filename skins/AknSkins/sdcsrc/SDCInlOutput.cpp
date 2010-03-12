@@ -77,7 +77,7 @@ void CSDCInlOutput::Output( CSDCData* aData, const char* aSkinName, const char* 
     fprintf( file, "static const TText* const K%s_Mbm = _S(\"z:\\\\system\\\\skins\\\\%08x\\\\%s.mbm\");\n", aSkinName, storageUid, aSkinName );
     fprintf( file, "#endif\n");
 
-    int i, a;
+    unsigned int i, a;
 
     fprintf( file, "\n// Bitmap definitions\n");
     for( i=0; i<iData->iBitmapDefVector.size(); i++ )
@@ -320,7 +320,7 @@ void CSDCInlOutput::OutputClassList( FILE* aFile, const bool aAppIconClass, cons
     int entries = 0;
     fprintf( aFile, "static const TAknsSrvDef K%s_%s_All[] = {\n", aSkinName, className );
 
-    int i;
+    unsigned int i;
     for( i=0; i<iData->iBitmapDefVector.size(); i++ )
         {
         TSDCBitmapDef* entry = iData->iBitmapDefVector[i];

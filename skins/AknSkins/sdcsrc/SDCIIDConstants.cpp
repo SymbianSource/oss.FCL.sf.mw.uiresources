@@ -17,9 +17,12 @@
 
 
 #include <stdio.h>
+#include <wchar.h>
+
 #include "SDCGlobals.h"
 #include "SDCIIDConstants.h"
 #include "SDCInput.h"
+#include "SDCCompat.h"
 
 // Make std namespace available for compatibility
 namespace std {}
@@ -76,7 +79,7 @@ void SDCIIDConstants::Initialize( const char* aFilename )
 
     while( input.NextTokenAllowLF() )
         {
-        if( _wcsicmp( input.iToken, L"IID" ) == 0 )
+        if( sd_wcscasecmp( input.iToken, L"IID" ) == 0 )
             {
             // Parse string token
             input.NextStringToken();
@@ -116,9 +119,9 @@ SDCIIDConstants::~SDCIIDConstants()
 
 const TSDCIIDEntry* SDCIIDConstants::Find( const wchar_t* aName )
     {
-    for( int i=0; i<gIIDVector.size(); i++ )
+    for( unsigned int i=0; i<gIIDVector.size(); i++ )
         {
-        if( _wcsicmp( aName, gIIDVector[i]->iName ) == 0 )
+        if( sd_wcscasecmp( aName, gIIDVector[i]->iName ) == 0 )
             return gIIDVector[i];
         }
     return NULL;

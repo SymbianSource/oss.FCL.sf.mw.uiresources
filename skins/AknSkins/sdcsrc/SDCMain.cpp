@@ -18,9 +18,10 @@
 
 // INCLUDE FILES
 
-#include <stdlib.h>
-#include <string.h>
-#include <windows.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <cstdlib>
+#include <string>
 
 #include "SDCGlobals.h"
 #include "SDCReader.h"
@@ -30,6 +31,7 @@
 #include "SDCPkgOutput.h"
 #include "SDCIIDConstants.h"
 #include "SDCDebugOutput.h"
+#include "SDCCompat.h"
 
 // LOCAL VARIABLES
 
@@ -106,34 +108,34 @@ bool ParseArguments( int argc, char** argv )
     int fileParam = 0;
     for( int i=1; i<argc; i++ )
         {
-        if( stricmp( "--drm", argv[i] ) == 0 )
+        if( sd_strcasecmp( "--drm", argv[i] ) == 0 )
             {
             drmEnabled = true;
             }
-        else if( stricmp( "--forcesystem", argv[i] ) == 0 )
+        else if( sd_strcasecmp( "--forcesystem", argv[i] ) == 0 )
             {
             forceSystem = true;
             }
-        else if( stricmp( "--forcenormal", argv[i] ) == 0 )
+        else if( sd_strcasecmp( "--forcenormal", argv[i] ) == 0 )
             {
             forceNormal = true;
             }
-        else if( strnicmp( "-m", argv[i], 2 ) == 0 )
+        else if( sd_strncasecmp( "-m", argv[i], 2 ) == 0 )
             {
             strcpy( mbmPath, argv[i]+2 );
             AppendBackslash( mbmPath );
             }
-        else if( strnicmp( "-t", argv[i], 2 ) == 0 )
+        else if( sd_strncasecmp( "-t", argv[i], 2 ) == 0 )
             {
             strcpy( sknPath, argv[i]+2 );
             AppendBackslash( sknPath );
             }
-        else if( strnicmp( "-s", argv[i], 2 ) == 0 )
+        else if( sd_strncasecmp( "-s", argv[i], 2 ) == 0 )
             {
             strcpy( dllPath, argv[i]+2 );
             AppendBackslash( dllPath );
             }
-        else if( strnicmp( "-i", argv[i], 2 ) == 0 )
+        else if( sd_strncasecmp( "-i", argv[i], 2 ) == 0 )
             {
             strcpy( iidFile, argv[i]+2 );
             }
@@ -162,44 +164,49 @@ bool ParseArguments( int argc, char** argv )
 
 void GeneratePID( CSDCData* data )
     {
-    SYSTEMTIME sysTime;
-    GetSystemTime( &sysTime );
-    FILETIME fileTime;
-    SystemTimeToFileTime( &sysTime, &fileTime );
-    ULARGE_INTEGER currentTime;
-    currentTime.LowPart = fileTime.dwLowDateTime;
-    currentTime.HighPart = fileTime.dwHighDateTime;
+	struct timeval sysTime;
+	gettimeofday( &sysTime, NULL);
+	// 100-nanosecond
+	unsigned long long currentTime;
+	// get the 100-nanosecond number at time of UTC
+	currentTime = ( sysTime.tv_usec + mktime(gmtime(&sysTime.tv_sec)) * SEC_TO_USEC ) * USEC_TO_100NANOSEC;
 
-    sysTime.wYear = 2003;
-    sysTime.wMonth = 1;
-    sysTime.wDay = 1;
-    sysTime.wHour = 0;
-    sysTime.wMinute = 0;
-    sysTime.wSecond = 0;
-    sysTime.wMilliseconds = 0;
-    SystemTimeToFileTime( &sysTime, &fileTime );
-    ULARGE_INTEGER epochTime;
-    epochTime.LowPart = fileTime.dwLowDateTime;
-    epochTime.HighPart = fileTime.dwHighDateTime;
+	struct tm startTime;
+	// initialize startTime
+	memset(&startTime,0,sizeof(startTime));
+	startTime.tm_year = 2003 - 1900;
+	startTime.tm_mon = 0;
+	startTime.tm_mday = 1;
+	startTime.tm_hour = 0;
+	startTime.tm_min = 0;
+	startTime.tm_sec = 0;
+	time_t secTime = mktime( &startTime );
+	// 100-nanosecond
+	unsigned long long epochTime;
+	// get the 100-nanosecond number at time @20030101 00:00:00
+	epochTime = ( secTime * SEC_TO_USEC ) * USEC_TO_100NANOSEC;
 
-    ULARGE_INTEGER timeStamp;
-    timeStamp.QuadPart = currentTime.QuadPart - epochTime.QuadPart;
-    timeStamp.QuadPart = timeStamp.QuadPart >> 20;
+	unsigned long long timeStamp;
+	timeStamp = currentTime - epochTime;
+	timeStamp = timeStamp >> 20;
 
-    srand( gInput.iHash ^ currentTime.HighPart ^ currentTime.LowPart );
+	unsigned int highPart = static_cast<unsigned int>((currentTime >> 32) );
+	unsigned int lowPart = static_cast<unsigned int>( currentTime );
+	srand( gInput.iHash ^ highPart ^ lowPart );
 
-    // Timestamp
-    data->iPid.iPID2 = timeStamp.LowPart;
-    if( data->iPid.iPID2 == 0 ) data->iPid.iPID2 += 1;
+	// Timestamp
+	data->iPid.iPID2 = static_cast<int>(timeStamp);
+	if( data->iPid.iPID2 == 0 ) data->iPid.iPID2 += 1;
 
-    // Random number
-    data->iPid.iPID1 = rand();
-    data->iPid.iPID1 = data->iPid.iPID1 << 8;
-    data->iPid.iPID1 ^= rand();
-    data->iPid.iPID1 = data->iPid.iPID1 << 8;
-    data->iPid.iPID1 ^= rand();
-    data->iPid.iPID1 = data->iPid.iPID1 << 8;
-    data->iPid.iPID1 ^= rand();
+	// Random number
+	data->iPid.iPID1 = rand();
+	data->iPid.iPID1 = data->iPid.iPID1 << 8;
+	data->iPid.iPID1 ^= rand();
+	data->iPid.iPID1 = data->iPid.iPID1 << 8;
+	data->iPid.iPID1 ^= rand();
+	data->iPid.iPID1 = data->iPid.iPID1 << 8;
+	data->iPid.iPID1 ^= rand();
+
     }
 
 //////////////////////////////////////////////////////////////////////

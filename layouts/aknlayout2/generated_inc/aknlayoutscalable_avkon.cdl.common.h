@@ -5682,6 +5682,33 @@ enum TApiId
 	EApiId_signal_pane_g3,
 	EApiId_signal_pane_g4_ParamLimits,
 	EApiId_signal_pane_g4,
+	EApiId_cell_ai5_widget_list_row_pane_t3_ParamLimits,
+	EApiId_cell_ai5_widget_list_row_pane_t3,
+	EApiId_cell_ituss_key_pane_t1_ParamLimits,
+	EApiId_cell_ituss_key_pane_t1,
+	EApiId_form_field_data_wide_pane_vc_t2_ParamLimits,
+	EApiId_form_field_data_wide_pane_vc_t2,
+	EApiId_form_field_data_wide_pane_vc_t3_ParamLimits,
+	EApiId_form_field_data_wide_pane_vc_t3,
+	EApiId_form_field_data_wide_pane_vc_t_Limits,
+	EApiId_form_field_data_wide_pane_vc_t_ParamLimits,
+	EApiId_form_field_data_wide_pane_vc_t,
+	EApiId_form_field_slider_wide_pane_vc_t3_ParamLimits,
+	EApiId_form_field_slider_wide_pane_vc_t3,
+	EApiId_form_field_popup_wide_pane_vc_t2_ParamLimits,
+	EApiId_form_field_popup_wide_pane_vc_t2,
+	EApiId_form_field_popup_wide_pane_vc_t3_ParamLimits,
+	EApiId_form_field_popup_wide_pane_vc_t3,
+	EApiId_form_field_popup_wide_pane_vc_t_Limits,
+	EApiId_form_field_popup_wide_pane_vc_t_ParamLimits,
+	EApiId_form_field_popup_wide_pane_vc_t,
+	EApiId_aid_fshwr2_btn_pane_ParamLimits,
+	EApiId_aid_fshwr2_syb_pane_ParamLimits,
+	EApiId_aid_fshwr2_txt_pane_ParamLimits,
+	EApiId_fshwr2_bg_pane_ParamLimits,
+	EApiId_fshwr2_func_candi_pane_ParamLimits,
+	EApiId_fshwr2_hwr_syb_pane_ParamLimits,
+	EApiId_fshwr2_icf_pane_ParamLimits,
 	E_TApiId_TableSize
 	};
 
@@ -11341,6 +11368,33 @@ typedef TAknLayoutScalableParameterLimits (Tsignal_pane_g3_ParamLimits_sig)(TInt
 typedef TAknWindowComponentLayout (Tsignal_pane_g3_sig)(TInt, TInt, TInt);
 typedef TAknLayoutScalableParameterLimits (Tsignal_pane_g4_ParamLimits_sig)(TInt);
 typedef TAknWindowComponentLayout (Tsignal_pane_g4_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_ai5_widget_list_row_pane_t3_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tcell_ai5_widget_list_row_pane_t3_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_ituss_key_pane_t1_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tcell_ituss_key_pane_t1_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tform_field_data_wide_pane_vc_t2_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tform_field_data_wide_pane_vc_t2_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tform_field_data_wide_pane_vc_t3_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tform_field_data_wide_pane_vc_t3_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableTableLimits (Tform_field_data_wide_pane_vc_t_Limits_sig)();
+typedef TAknLayoutScalableParameterLimits (Tform_field_data_wide_pane_vc_t_ParamLimits_sig)(TInt, TInt);
+typedef TAknTextComponentLayout (Tform_field_data_wide_pane_vc_t_sig)(TInt, TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tform_field_slider_wide_pane_vc_t3_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tform_field_slider_wide_pane_vc_t3_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tform_field_popup_wide_pane_vc_t2_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tform_field_popup_wide_pane_vc_t2_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tform_field_popup_wide_pane_vc_t3_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tform_field_popup_wide_pane_vc_t3_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableTableLimits (Tform_field_popup_wide_pane_vc_t_Limits_sig)();
+typedef TAknLayoutScalableParameterLimits (Tform_field_popup_wide_pane_vc_t_ParamLimits_sig)(TInt, TInt);
+typedef TAknTextComponentLayout (Tform_field_popup_wide_pane_vc_t_sig)(TInt, TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Taid_fshwr2_btn_pane_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Taid_fshwr2_syb_pane_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Taid_fshwr2_txt_pane_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfshwr2_bg_pane_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfshwr2_func_candi_pane_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfshwr2_hwr_syb_pane_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfshwr2_icf_pane_ParamLimits_sig)(TInt);
 
 } // end of namespace AknLayoutScalable_Avkon
 

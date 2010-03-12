@@ -19,6 +19,7 @@
 #include "SDCDebugOutput.h"
 
 #include <stdio.h>
+#include <wchar.h>
 
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction
@@ -38,7 +39,7 @@ CSDCDebugOutput::~CSDCDebugOutput()
 
 void CSDCDebugOutput::Output( CSDCData* aData )
     {
-    int i;
+    unsigned int i;
 
     wprintf(L"\nSkin content\n");
     wprintf(L"  PID=0x%08x 0x%08x\n", aData->iPid.iPID2, aData->iPid.iPID1 );
@@ -77,7 +78,7 @@ void CSDCDebugOutput::Output( CSDCData* aData )
         TSDCColorTableDef* entry = aData->iColorTableDefVector[i];
         wprintf(L"  (0x%x,0x%x) = ", entry->iIID.iMajor, entry->iIID.iMinor );
 
-        for( int a=0; a<entry->iColors.size(); a++ )
+        for( unsigned int a=0; a<entry->iColors.size(); a++ )
             wprintf(L"[%i,0x%x] ", entry->iColors[a].iIndex, entry->iColors[a].iRgb );
 
         wprintf(L"\n");
@@ -89,7 +90,7 @@ void CSDCDebugOutput::Output( CSDCData* aData )
         TSDCFrameDef* entry = aData->iFrameDefVector[i];
         wprintf(L"  (0x%x,0x%x) = ", entry->iIID.iMajor, entry->iIID.iMinor );
 
-        for( int a=0; a<entry->iElements.size(); a++ )
+        for( unsigned int a=0; a<entry->iElements.size(); a++ )
             wprintf(L"[0x%x,0x%x] ", entry->iElements[a].iMajor, entry->iElements[a].iMinor );
 
         wprintf(L"\n");
@@ -101,7 +102,7 @@ void CSDCDebugOutput::Output( CSDCData* aData )
         TSDCAppIconDef* entry = aData->iAppIconDefVector[i];
         wprintf(L"  (0x%x,0x%x) = ", entry->iIID.iMajor, entry->iIID.iMinor );
 
-        for( int a=0; a<entry->iIcons.size(); a++ )
+        for( unsigned int a=0; a<entry->iIcons.size(); a++ )
             wprintf(L"[0x%x,0x%x] ", entry->iIcons[a].iMajor, entry->iIcons[a].iMinor );
 
         wprintf(L"\n");

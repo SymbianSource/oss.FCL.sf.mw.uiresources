@@ -800,10 +800,11 @@ void CAknsSrvActiveBackupDataClient::RestoreBaseDataSectionL(
                     {
                     // Otherwise, continue reading and writing the file.
                     iRestoreState = ERestoreExpectMoreData;
-                    }
-                if ( iFileOpenError )
-                    {
-                    return;
+
+                    if ( iFileOpenError )
+                        {
+                        return;
+                        }
                     }
 
                 break;

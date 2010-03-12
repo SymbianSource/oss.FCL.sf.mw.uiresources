@@ -25,7 +25,7 @@ namespace AknLayoutScalable_Abrw_php_apps_qhd_prt_tch_Small
 {
 
 extern const TUint16 KDataLookup[AknLayoutScalable_Apps::E_TApiId_TableSize];
-const SCompDataImplData KImplData = { KDataLookup, AknLayoutScalable_Apps::KByteCodedData_AknLayoutScalable_Elaf_php_apps_qhd_prt_tch + 0x0004c244 };
+const SCompDataImplData KImplData = { KDataLookup, AknLayoutScalable_Apps::KByteCodedData_AknLayoutScalable_Elaf_php_apps_qhd_prt_tch + 0x0004cf27 };
 
 TAknWindowComponentLayout WindowLineVCR(TInt aVariety, TInt aCol, TInt aRow) { return AknLayoutScalableDecode::WindowLineVCR(&KImplData, aVariety, aCol, aRow); }
 TAknLayoutScalableParameterLimits ParameterLimitsV(TInt aVariety) { return AknLayoutScalableDecode::ParameterLimitsV(&KImplData, aVariety); }
@@ -49,4975 +49,4973 @@ TAknTextComponentLayout GetTextComponentById(TInt aComponentId, TInt aVariety, T
 
 const TUint16 KDataLookup[AknLayoutScalable_Apps::E_TApiId_TableSize] =
 	{
-0x5bfd,	// (0x00051e41) Screen
+0x5a2d,	// (0x00052954) Screen
 
-0x5c09,	// (0x00051e4d) application_window
+0x5a39,	// (0x00052960) application_window
 
-0x5c49,	// (0x00051e8d) area_bottom_pane_ParamLimits
+0x5a95,	// (0x000529bc) area_bottom_pane_ParamLimits
 
-0x5c49,	// (0x00051e8d) area_bottom_pane
+0x5a95,	// (0x000529bc) area_bottom_pane
 
-0x5c7e,	// (0x00051ec2) area_top_pane_ParamLimits
+0x5aee,	// (0x00052a15) area_top_pane_ParamLimits
 
-0x5c7e,	// (0x00051ec2) area_top_pane
+0x5aee,	// (0x00052a15) area_top_pane
 
-0x03d8,	// (0x0004c61c) call_video_uplink_pane_ParamLimits
+0x5b52,	// (0x00052a79) call_video_uplink_pane_ParamLimits
 
-0x03d8,	// (0x0004c61c) call_video_uplink_pane
+0x5b52,	// (0x00052a79) call_video_uplink_pane
 
-0x5d0b,	// (0x00051f4f) main_pane_ParamLimits
+0x5b8f,	// (0x00052ab6) main_pane_ParamLimits
 
-0x5d0b,	// (0x00051f4f) main_pane
+0x5b8f,	// (0x00052ab6) main_pane
 
-0x419d,	// (0x000503e1) context_pane
+0x3de0,	// (0x00050d07) context_pane
 
-0x8e0f,	// (0x00055053) navi_pane
+0x8cfa,	// (0x00055c21) navi_pane
 
-0x8e2f,	// (0x00055073) popup_cale_events_window_ParamLimits
+0x8d1a,	// (0x00055c41) popup_cale_events_window_ParamLimits
 
-0x8e2f,	// (0x00055073) popup_cale_events_window
+0x8d1a,	// (0x00055c41) popup_cale_events_window
 
-0x41b0,	// (0x000503f4) popup_mup_playback_window
+0x3df3,	// (0x00050d1a) popup_mup_playback_window
 
-0x8e47,	// (0x0005508b) signal_pane
+0x8d32,	// (0x00055c59) signal_pane
 
-0x2269,	// (0x0004e4ad) main_browser_pane
+0x1eeb,	// (0x0004ee12) main_browser_pane
 
-0x2d3c,	// (0x0004ef80) main_burst_pane
+0x29be,	// (0x0004f8e5) main_burst_pane
 
-0x8cd9,	// (0x00054f1d) main_calc_pane
+0x8b77,	// (0x00055a9e) main_calc_pane
 
-0x2d3c,	// (0x0004ef80) main_cale_day_pane
+0x29be,	// (0x0004f8e5) main_cale_day_pane
 
-0x2269,	// (0x0004e4ad) main_cale_month_pane
+0x1eeb,	// (0x0004ee12) main_cale_month_pane
 
-0x2d3c,	// (0x0004ef80) main_cale_week_pane
+0x29be,	// (0x0004f8e5) main_cale_week_pane
 
-0x2d3c,	// (0x0004ef80) main_call_pane
+0x29be,	// (0x0004f8e5) main_call_pane
 
-0x1f3b,	// (0x0004e17f) main_call_poc_pane
+0x1bbd,	// (0x0004eae4) main_call_poc_pane
 
-0x2d3c,	// (0x0004ef80) main_camera_pane
+0x29be,	// (0x0004f8e5) main_camera_pane
 
-0x2d3c,	// (0x0004ef80) main_chi_dic_pane
+0x29be,	// (0x0004f8e5) main_chi_dic_pane
 
-0x2bc1,	// (0x0004ee05) main_clock_pane
+0x2843,	// (0x0004f76a) main_clock_pane
 
-0x1f3b,	// (0x0004e17f) main_fmradio_pane
+0x1bbd,	// (0x0004eae4) main_fmradio_pane
 
-0x2d3c,	// (0x0004ef80) main_graph_messa_pane
+0x29be,	// (0x0004f8e5) main_graph_messa_pane
 
-0x1f3b,	// (0x0004e17f) main_help_pane
+0x1bbd,	// (0x0004eae4) main_help_pane
 
-0x2269,	// (0x0004e4ad) main_im_pane
+0x1eeb,	// (0x0004ee12) main_im_pane
 
-0x2196,	// (0x0004e3da) main_image_pane_ParamLimits
+0x1e18,	// (0x0004ed3f) main_image_pane_ParamLimits
 
-0x2196,	// (0x0004e3da) main_image_pane
+0x1e18,	// (0x0004ed3f) main_image_pane
 
-0x1f3b,	// (0x0004e17f) main_location2_pane
+0x1bbd,	// (0x0004eae4) main_location2_pane
 
-0x2d3c,	// (0x0004ef80) main_location_pane
+0x29be,	// (0x0004f8e5) main_location_pane
 
-0x1f3b,	// (0x0004e17f) main_messa_pane
+0x1bbd,	// (0x0004eae4) main_messa_pane
 
-0x1f3b,	// (0x0004e17f) main_mp2_pane
+0x1bbd,	// (0x0004eae4) main_mp2_pane
 
-0x2d3c,	// (0x0004ef80) main_mp_pane
+0x29be,	// (0x0004f8e5) main_mp_pane
 
-0x1f3b,	// (0x0004e17f) main_msg_pane
+0x1bbd,	// (0x0004eae4) main_msg_pane
 
-0x1f3b,	// (0x0004e17f) main_mup_eq_pane
+0x1bbd,	// (0x0004eae4) main_mup_eq_pane
 
-0x1f3b,	// (0x0004e17f) main_mup_pane
+0x1bbd,	// (0x0004eae4) main_mup_pane
 
-0x2269,	// (0x0004e4ad) main_notes_pane
+0x1eeb,	// (0x0004ee12) main_notes_pane
 
-0x1f3b,	// (0x0004e17f) main_pec_pane
+0x1bbd,	// (0x0004eae4) main_pec_pane
 
-0x1f3b,	// (0x0004e17f) main_phob_pane
+0x1bbd,	// (0x0004eae4) main_phob_pane
 
-0x1f3b,	// (0x0004e17f) main_pinb_pane
+0x1bbd,	// (0x0004eae4) main_pinb_pane
 
-0x1f3b,	// (0x0004e17f) main_postcard_pane
+0x1bbd,	// (0x0004eae4) main_postcard_pane
 
-0x1f3b,	// (0x0004e17f) main_qdial_pane
+0x1bbd,	// (0x0004eae4) main_qdial_pane
 
-0x2d3c,	// (0x0004ef80) main_skin_pane
+0x29be,	// (0x0004f8e5) main_skin_pane
 
-0x1f3b,	// (0x0004e17f) main_smil2_pane
+0x1bbd,	// (0x0004eae4) main_smil2_pane
 
-0x2d3c,	// (0x0004ef80) main_smil_pane
+0x29be,	// (0x0004f8e5) main_smil_pane
 
-0x2d3c,	// (0x0004ef80) main_video_pane
+0x29be,	// (0x0004f8e5) main_video_pane
 
-0x2d3c,	// (0x0004ef80) main_video_tele_pane
+0x29be,	// (0x0004f8e5) main_video_tele_pane
 
-0x2196,	// (0x0004e3da) main_viewer_pane_ParamLimits
+0x1e18,	// (0x0004ed3f) main_viewer_pane_ParamLimits
 
-0x2196,	// (0x0004e3da) main_viewer_pane
+0x1e18,	// (0x0004ed3f) main_viewer_pane
 
-0x2d3c,	// (0x0004ef80) main_vorec_pane
+0x29be,	// (0x0004f8e5) main_vorec_pane
 
-0x8d0f,	// (0x00054f53) popup_blid_sat_info_window_ParamLimits
+0x8bc3,	// (0x00055aea) popup_blid_sat_info_window_ParamLimits
 
-0x8d0f,	// (0x00054f53) popup_blid_sat_info_window
+0x8bc3,	// (0x00055aea) popup_blid_sat_info_window
 
-0x8d25,	// (0x00054f69) popup_dyc_status_message_window_ParamLimits
+0x8be3,	// (0x00055b0a) popup_dyc_status_message_window_ParamLimits
 
-0x8d25,	// (0x00054f69) popup_dyc_status_message_window
+0x8be3,	// (0x00055b0a) popup_dyc_status_message_window
 
-0x8d35,	// (0x00054f79) popup_grid_large_graphic_window_ParamLimits
+0x8bf3,	// (0x00055b1a) popup_grid_large_graphic_window_ParamLimits
 
-0x8d35,	// (0x00054f79) popup_grid_large_graphic_window
+0x8bf3,	// (0x00055b1a) popup_grid_large_graphic_window
 
-0x8dab,	// (0x00054fef) popup_loc_request_window_ParamLimits
+0x8c84,	// (0x00055bab) popup_loc_request_window_ParamLimits
 
-0x8dab,	// (0x00054fef) popup_loc_request_window
+0x8c84,	// (0x00055bab) popup_loc_request_window
 
-0x8de7,	// (0x0005502b) popup_wml_address_window_ParamLimits
+0x8cd2,	// (0x00055bf9) popup_wml_address_window_ParamLimits
 
-0x8de7,	// (0x0005502b) popup_wml_address_window
+0x8cd2,	// (0x00055bf9) popup_wml_address_window
 
-0x8bb1,	// (0x00054df5) call_muted_g1
+0x8a4f,	// (0x00055976) call_muted_g1
 
-0x8873,	// (0x00054ab7) popup_call_audio_conf_window_ParamLimits
+0x8711,	// (0x00055638) popup_call_audio_conf_window_ParamLimits
 
-0x8873,	// (0x00054ab7) popup_call_audio_conf_window
+0x8711,	// (0x00055638) popup_call_audio_conf_window
 
-0x8bc1,	// (0x00054e05) popup_call_audio_first_window_ParamLimits
+0x8a5f,	// (0x00055986) popup_call_audio_first_window_ParamLimits
 
-0x8bc1,	// (0x00054e05) popup_call_audio_first_window
+0x8a5f,	// (0x00055986) popup_call_audio_first_window
 
-0x8c01,	// (0x00054e45) popup_call_audio_in_window_ParamLimits
+0x8a9f,	// (0x000559c6) popup_call_audio_in_window_ParamLimits
 
-0x8c01,	// (0x00054e45) popup_call_audio_in_window
+0x8a9f,	// (0x000559c6) popup_call_audio_in_window
 
-0x8c25,	// (0x00054e69) popup_call_audio_out_window_ParamLimits
+0x8ac3,	// (0x000559ea) popup_call_audio_out_window_ParamLimits
 
-0x8c25,	// (0x00054e69) popup_call_audio_out_window
+0x8ac3,	// (0x000559ea) popup_call_audio_out_window
 
-0x8c47,	// (0x00054e8b) popup_call_audio_second_window_ParamLimits
+0x8ae5,	// (0x00055a0c) popup_call_audio_second_window_ParamLimits
 
-0x8c47,	// (0x00054e8b) popup_call_audio_second_window
+0x8ae5,	// (0x00055a0c) popup_call_audio_second_window
 
-0x8c77,	// (0x00054ebb) popup_call_audio_wait_window_ParamLimits
+0x8b15,	// (0x00055a3c) popup_call_audio_wait_window_ParamLimits
 
-0x8c77,	// (0x00054ebb) popup_call_audio_wait_window
+0x8b15,	// (0x00055a3c) popup_call_audio_wait_window
 
-0x8c98,	// (0x00054edc) popup_number_entry_window_ParamLimits
+0x8b36,	// (0x00055a5d) popup_number_entry_window_ParamLimits
 
-0x8c98,	// (0x00054edc) popup_number_entry_window
+0x8b36,	// (0x00055a5d) popup_number_entry_window
 
-0x1b28,	// (0x0004dd6c) bg_popup_call_pane_cp05_ParamLimits
+0x17aa,	// (0x0004e6d1) bg_popup_call_pane_cp05_ParamLimits
 
-0x1b28,	// (0x0004dd6c) bg_popup_call_pane_cp05
+0x17aa,	// (0x0004e6d1) bg_popup_call_pane_cp05
 
-0x1b48,	// (0x0004dd8c) popup_number_entry_window_t1
+0x17ca,	// (0x0004e6f1) popup_number_entry_window_t1
 
-0x1b5b,	// (0x0004dd9f) popup_number_entry_window_t2
+0x17dd,	// (0x0004e704) popup_number_entry_window_t2
 
-0x1b6d,	// (0x0004ddb1) popup_number_entry_window_t3
+0x17ef,	// (0x0004e716) popup_number_entry_window_t3
 
 0x0003,
 
-0xf0e7,	// (0x0005b32b) popup_number_entry_window_t
+0xf0d8,	// (0x0005bfff) popup_number_entry_window_t
 
-0x1b7f,	// (0x0004ddc3) text_title_cp2
+0x1801,	// (0x0004e728) text_title_cp2
 
-0x1b92,	// (0x0004ddd6) bg_popup_call_pane_cp_ParamLimits
+0x1814,	// (0x0004e73b) bg_popup_call_pane_cp_ParamLimits
 
-0x1b92,	// (0x0004ddd6) bg_popup_call_pane_cp
+0x1814,	// (0x0004e73b) bg_popup_call_pane_cp
 
-0x1ba0,	// (0x0004dde4) call_thumbnail_pane
+0x1822,	// (0x0004e749) call_thumbnail_pane
 
-0x1ba8,	// (0x0004ddec) popup_call_audio_in_window_g1_ParamLimits
+0x182a,	// (0x0004e751) popup_call_audio_in_window_g1_ParamLimits
 
-0x1ba8,	// (0x0004ddec) popup_call_audio_in_window_g1
+0x182a,	// (0x0004e751) popup_call_audio_in_window_g1
 
-0x1bb4,	// (0x0004ddf8) popup_call_audio_in_window_g2_ParamLimits
+0x1836,	// (0x0004e75d) popup_call_audio_in_window_g2_ParamLimits
 
-0x1bb4,	// (0x0004ddf8) popup_call_audio_in_window_g2
+0x1836,	// (0x0004e75d) popup_call_audio_in_window_g2
 
-0x1bc0,	// (0x0004de04) popup_call_audio_in_window_g3_ParamLimits
+0x1842,	// (0x0004e769) popup_call_audio_in_window_g3_ParamLimits
 
-0x1bc0,	// (0x0004de04) popup_call_audio_in_window_g3
-
-0x0002,
-
-0xf0f0,	// (0x0005b334) popup_call_audio_in_window_g_ParamLimits
-
-0xf0f0,	// (0x0005b334) popup_call_audio_in_window_g
-
-0x1bcc,	// (0x0004de10) popup_call_audio_in_window_t1_ParamLimits
-
-0x1bcc,	// (0x0004de10) popup_call_audio_in_window_t1
-
-0x1be8,	// (0x0004de2c) popup_call_audio_in_window_t2_ParamLimits
-
-0x1be8,	// (0x0004de2c) popup_call_audio_in_window_t2
-
-0x1c04,	// (0x0004de48) popup_call_audio_in_window_t3_ParamLimits
-
-0x1c04,	// (0x0004de48) popup_call_audio_in_window_t3
+0x1842,	// (0x0004e769) popup_call_audio_in_window_g3
 
 0x0002,
 
-0xf0f7,	// (0x0005b33b) popup_call_audio_in_window_t_ParamLimits
+0xf0e1,	// (0x0005c008) popup_call_audio_in_window_g_ParamLimits
 
-0xf0f7,	// (0x0005b33b) popup_call_audio_in_window_t
+0xf0e1,	// (0x0005c008) popup_call_audio_in_window_g
 
-0x1b92,	// (0x0004ddd6) bg_popup_call_pane_cp01_ParamLimits
+0x184e,	// (0x0004e775) popup_call_audio_in_window_t1_ParamLimits
 
-0x1b92,	// (0x0004ddd6) bg_popup_call_pane_cp01
+0x184e,	// (0x0004e775) popup_call_audio_in_window_t1
 
-0x1ba0,	// (0x0004dde4) call_thumbnail_pane_cp02
+0x186a,	// (0x0004e791) popup_call_audio_in_window_t2_ParamLimits
 
-0x1c17,	// (0x0004de5b) call_type_pane_cp022
+0x186a,	// (0x0004e791) popup_call_audio_in_window_t2
 
-0x1c1f,	// (0x0004de63) popup_call_audio_out_window_g1_ParamLimits
+0x1886,	// (0x0004e7ad) popup_call_audio_in_window_t3_ParamLimits
 
-0x1c1f,	// (0x0004de63) popup_call_audio_out_window_g1
-
-0x1c31,	// (0x0004de75) popup_call_audio_out_window_g2_ParamLimits
-
-0x1c31,	// (0x0004de75) popup_call_audio_out_window_g2
-
-0x1c3d,	// (0x0004de81) popup_call_audio_out_window_g3_ParamLimits
-
-0x1c3d,	// (0x0004de81) popup_call_audio_out_window_g3
+0x1886,	// (0x0004e7ad) popup_call_audio_in_window_t3
 
 0x0002,
 
-0xf0fe,	// (0x0005b342) popup_call_audio_out_window_g_ParamLimits
+0xf0e8,	// (0x0005c00f) popup_call_audio_in_window_t_ParamLimits
 
-0xf0fe,	// (0x0005b342) popup_call_audio_out_window_g
+0xf0e8,	// (0x0005c00f) popup_call_audio_in_window_t
 
-0x1c4f,	// (0x0004de93) popup_call_audio_out_window_t1_ParamLimits
+0x1814,	// (0x0004e73b) bg_popup_call_pane_cp01_ParamLimits
 
-0x1c4f,	// (0x0004de93) popup_call_audio_out_window_t1
+0x1814,	// (0x0004e73b) bg_popup_call_pane_cp01
 
-0x1c67,	// (0x0004deab) popup_call_audio_out_window_t2_ParamLimits
+0x1822,	// (0x0004e749) call_thumbnail_pane_cp02
 
-0x1c67,	// (0x0004deab) popup_call_audio_out_window_t2
+0x1899,	// (0x0004e7c0) call_type_pane_cp022
+
+0x18a1,	// (0x0004e7c8) popup_call_audio_out_window_g1_ParamLimits
+
+0x18a1,	// (0x0004e7c8) popup_call_audio_out_window_g1
+
+0x18b3,	// (0x0004e7da) popup_call_audio_out_window_g2_ParamLimits
+
+0x18b3,	// (0x0004e7da) popup_call_audio_out_window_g2
+
+0x18bf,	// (0x0004e7e6) popup_call_audio_out_window_g3_ParamLimits
+
+0x18bf,	// (0x0004e7e6) popup_call_audio_out_window_g3
+
+0x0002,
+
+0xf0ef,	// (0x0005c016) popup_call_audio_out_window_g_ParamLimits
+
+0xf0ef,	// (0x0005c016) popup_call_audio_out_window_g
+
+0x18d1,	// (0x0004e7f8) popup_call_audio_out_window_t1_ParamLimits
+
+0x18d1,	// (0x0004e7f8) popup_call_audio_out_window_t1
+
+0x18e9,	// (0x0004e810) popup_call_audio_out_window_t2_ParamLimits
+
+0x18e9,	// (0x0004e810) popup_call_audio_out_window_t2
 
 0x0001,
 
-0xf105,	// (0x0005b349) popup_call_audio_out_window_t_ParamLimits
+0xf0f6,	// (0x0005c01d) popup_call_audio_out_window_t_ParamLimits
 
-0xf105,	// (0x0005b349) popup_call_audio_out_window_t
+0xf0f6,	// (0x0005c01d) popup_call_audio_out_window_t
 
-0x1c7c,	// (0x0004dec0) bg_popup_call_pane_ParamLimits
+0x18fe,	// (0x0004e825) bg_popup_call_pane_ParamLimits
 
-0x1c7c,	// (0x0004dec0) bg_popup_call_pane
+0x18fe,	// (0x0004e825) bg_popup_call_pane
 
-0x5ef8,	// (0x0005213c) call_thumbnail_pane_cp_ParamLimits
+0x5d9e,	// (0x00052cc5) call_thumbnail_pane_cp_ParamLimits
 
-0x5ef8,	// (0x0005213c) call_thumbnail_pane_cp
+0x5d9e,	// (0x00052cc5) call_thumbnail_pane_cp
 
-0x1d00,	// (0x0004df44) call_type_pane_cp01_ParamLimits
+0x1982,	// (0x0004e8a9) call_type_pane_cp01_ParamLimits
 
-0x1d00,	// (0x0004df44) call_type_pane_cp01
+0x1982,	// (0x0004e8a9) call_type_pane_cp01
 
-0x1d44,	// (0x0004df88) popup_call_audio_first_window_g1_ParamLimits
+0x19c6,	// (0x0004e8ed) popup_call_audio_first_window_g1_ParamLimits
 
-0x1d44,	// (0x0004df88) popup_call_audio_first_window_g1
+0x19c6,	// (0x0004e8ed) popup_call_audio_first_window_g1
 
-0x1d90,	// (0x0004dfd4) popup_call_audio_first_window_g2_ParamLimits
+0x1a12,	// (0x0004e939) popup_call_audio_first_window_g2_ParamLimits
 
-0x1d90,	// (0x0004dfd4) popup_call_audio_first_window_g2
+0x1a12,	// (0x0004e939) popup_call_audio_first_window_g2
 
 0x0001,
 
-0xf10a,	// (0x0005b34e) popup_call_audio_first_window_g_ParamLimits
+0xf0fb,	// (0x0005c022) popup_call_audio_first_window_g_ParamLimits
 
-0xf10a,	// (0x0005b34e) popup_call_audio_first_window_g
+0xf0fb,	// (0x0005c022) popup_call_audio_first_window_g
 
-0x1dd4,	// (0x0004e018) popup_call_audio_first_window_t1_ParamLimits
+0x1a56,	// (0x0004e97d) popup_call_audio_first_window_t1_ParamLimits
 
-0x1dd4,	// (0x0004e018) popup_call_audio_first_window_t1
+0x1a56,	// (0x0004e97d) popup_call_audio_first_window_t1
 
-0x1e80,	// (0x0004e0c4) popup_call_audio_first_window_t4_ParamLimits
+0x1b02,	// (0x0004ea29) popup_call_audio_first_window_t4_ParamLimits
 
-0x1e80,	// (0x0004e0c4) popup_call_audio_first_window_t4
+0x1b02,	// (0x0004ea29) popup_call_audio_first_window_t4
 
-0x1f0c,	// (0x0004e150) popup_call_audio_first_window_t5_ParamLimits
+0x1b8e,	// (0x0004eab5) popup_call_audio_first_window_t5_ParamLimits
 
-0x1f0c,	// (0x0004e150) popup_call_audio_first_window_t5
+0x1b8e,	// (0x0004eab5) popup_call_audio_first_window_t5
 
 0x0002,
 
-0xf10f,	// (0x0005b353) popup_call_audio_first_window_t_ParamLimits
+0xf100,	// (0x0005c027) popup_call_audio_first_window_t_ParamLimits
 
-0xf10f,	// (0x0005b353) popup_call_audio_first_window_t
+0xf100,	// (0x0005c027) popup_call_audio_first_window_t
 
-0x1f3b,	// (0x0004e17f) bg_popup_call_pane_cp02
+0x1bbd,	// (0x0004eae4) bg_popup_call_pane_cp02
 
-0x1f45,	// (0x0004e189) call_type_pane_cp023
+0x1bc7,	// (0x0004eaee) call_type_pane_cp023
 
-0x1f4d,	// (0x0004e191) popup_call_audio_wait_window_g1
+0x1bcf,	// (0x0004eaf6) popup_call_audio_wait_window_g1
 
-0x1f55,	// (0x0004e199) popup_call_audio_wait_window_g2
-
-0x0001,
-
-0xf116,	// (0x0005b35a) popup_call_audio_wait_window_g
-
-0x1f5d,	// (0x0004e1a1) popup_call_audio_wait_window_t3
-
-0x1f6b,	// (0x0004e1af) bg_popup_call_pane_cp03_ParamLimits
-
-0x1f6b,	// (0x0004e1af) bg_popup_call_pane_cp03
-
-0x1fcb,	// (0x0004e20f) call_thumbnail_pane_cp011_ParamLimits
-
-0x1fcb,	// (0x0004e20f) call_thumbnail_pane_cp011
-
-0x1fd7,	// (0x0004e21b) call_type_pane_cp034_ParamLimits
-
-0x1fd7,	// (0x0004e21b) call_type_pane_cp034
-
-0x2013,	// (0x0004e257) popup_call_audio_second_window_g1_ParamLimits
-
-0x2013,	// (0x0004e257) popup_call_audio_second_window_g1
-
-0x204f,	// (0x0004e293) popup_call_audio_second_window_g2_ParamLimits
-
-0x204f,	// (0x0004e293) popup_call_audio_second_window_g2
+0x1bd7,	// (0x0004eafe) popup_call_audio_wait_window_g2
 
 0x0001,
 
-0xf11b,	// (0x0005b35f) popup_call_audio_second_window_g_ParamLimits
+0xf107,	// (0x0005c02e) popup_call_audio_wait_window_g
 
-0xf11b,	// (0x0005b35f) popup_call_audio_second_window_g
+0x1bdf,	// (0x0004eb06) popup_call_audio_wait_window_t3
 
-0x208b,	// (0x0004e2cf) popup_call_audio_second_window_t1_ParamLimits
+0x1bed,	// (0x0004eb14) bg_popup_call_pane_cp03_ParamLimits
 
-0x208b,	// (0x0004e2cf) popup_call_audio_second_window_t1
+0x1bed,	// (0x0004eb14) bg_popup_call_pane_cp03
 
-0x210c,	// (0x0004e350) popup_call_audio_second_window_t2_ParamLimits
+0x1c4d,	// (0x0004eb74) call_thumbnail_pane_cp011_ParamLimits
 
-0x210c,	// (0x0004e350) popup_call_audio_second_window_t2
+0x1c4d,	// (0x0004eb74) call_thumbnail_pane_cp011
 
-0x2142,	// (0x0004e386) popup_call_audio_second_window_t3_ParamLimits
+0x1c59,	// (0x0004eb80) call_type_pane_cp034_ParamLimits
 
-0x2142,	// (0x0004e386) popup_call_audio_second_window_t3
+0x1c59,	// (0x0004eb80) call_type_pane_cp034
+
+0x1c95,	// (0x0004ebbc) popup_call_audio_second_window_g1_ParamLimits
+
+0x1c95,	// (0x0004ebbc) popup_call_audio_second_window_g1
+
+0x1cd1,	// (0x0004ebf8) popup_call_audio_second_window_g2_ParamLimits
+
+0x1cd1,	// (0x0004ebf8) popup_call_audio_second_window_g2
+
+0x0001,
+
+0xf10c,	// (0x0005c033) popup_call_audio_second_window_g_ParamLimits
+
+0xf10c,	// (0x0005c033) popup_call_audio_second_window_g
+
+0x1d0d,	// (0x0004ec34) popup_call_audio_second_window_t1_ParamLimits
+
+0x1d0d,	// (0x0004ec34) popup_call_audio_second_window_t1
+
+0x1d8e,	// (0x0004ecb5) popup_call_audio_second_window_t2_ParamLimits
+
+0x1d8e,	// (0x0004ecb5) popup_call_audio_second_window_t2
+
+0x1dc4,	// (0x0004eceb) popup_call_audio_second_window_t3_ParamLimits
+
+0x1dc4,	// (0x0004eceb) popup_call_audio_second_window_t3
 
 0x0002,
 
-0xf120,	// (0x0005b364) popup_call_audio_second_window_t_ParamLimits
+0xf111,	// (0x0005c038) popup_call_audio_second_window_t_ParamLimits
 
-0xf120,	// (0x0005b364) popup_call_audio_second_window_t
+0xf111,	// (0x0005c038) popup_call_audio_second_window_t
 
-0x1f3b,	// (0x0004e17f) bg_popup_call_pane_cp04
+0x1bbd,	// (0x0004eae4) bg_popup_call_pane_cp04
 
-0x2178,	// (0x0004e3bc) list_conf_pane
+0x1dfa,	// (0x0004ed21) list_conf_pane
 
-0x2180,	// (0x0004e3c4) popup_call_audio_conf_window_t1
+0x1e02,	// (0x0004ed29) popup_call_audio_conf_window_t1
 
-0x218e,	// (0x0004e3d2) call_thumbnail_pane_g1
+0x1e10,	// (0x0004ed37) call_thumbnail_pane_g1
 
-0x2196,	// (0x0004e3da) bg_pinb_pane_ParamLimits
+0x1e18,	// (0x0004ed3f) bg_pinb_pane_ParamLimits
 
-0x2196,	// (0x0004e3da) bg_pinb_pane
+0x1e18,	// (0x0004ed3f) bg_pinb_pane
 
-0x21a4,	// (0x0004e3e8) find_pinb_pane
+0x1e26,	// (0x0004ed4d) find_pinb_pane
 
-0x21ad,	// (0x0004e3f1) listscroll_pinb_pane_ParamLimits
+0x1e2f,	// (0x0004ed56) listscroll_pinb_pane_ParamLimits
 
-0x21ad,	// (0x0004e3f1) listscroll_pinb_pane
+0x1e2f,	// (0x0004ed56) listscroll_pinb_pane
 
-0x21bc,	// (0x0004e400) pinb_bg_pane_g1
+0x1e3e,	// (0x0004ed65) pinb_bg_pane_g1
 
-0x5f1c,	// (0x00052160) pinb_bg_pane_g2
+0x5dc2,	// (0x00052ce9) pinb_bg_pane_g2
 
-0x5f28,	// (0x0005216c) pinb_bg_pane_g3
+0x5dce,	// (0x00052cf5) pinb_bg_pane_g3
 
-0x5f34,	// (0x00052178) pinb_bg_pane_g4
+0x5dda,	// (0x00052d01) pinb_bg_pane_g4
 
-0x5f40,	// (0x00052184) pinb_bg_pane_g5
+0x5de6,	// (0x00052d0d) pinb_bg_pane_g5
 
-0x5f4c,	// (0x00052190) pinb_bg_pane_g6
+0x5df2,	// (0x00052d19) pinb_bg_pane_g6
 
-0x5f57,	// (0x0005219b) pinb_bg_pane_g7
+0x5dfd,	// (0x00052d24) pinb_bg_pane_g7
 
-0x5f62,	// (0x000521a6) pinb_bg_pane_g8
+0x5e08,	// (0x00052d2f) pinb_bg_pane_g8
 
-0x5f6d,	// (0x000521b1) pinb_bg_pane_g9
+0x5e13,	// (0x00052d3a) pinb_bg_pane_g9
 
-0x5f77,	// (0x000521bb) pinb_bg_pane_g10
+0x5e1d,	// (0x00052d44) pinb_bg_pane_g10
 
 0x0009,
 
-0xf127,	// (0x0005b36b) pinb_bg_pane_g
+0xf118,	// (0x0005c03f) pinb_bg_pane_g
 
-0x5f94,	// (0x000521d8) grid_pinb_pane
+0x5e3a,	// (0x00052d61) grid_pinb_pane
 
-0x5f9f,	// (0x000521e3) list_pinb_pane
+0x5e45,	// (0x00052d6c) list_pinb_pane
 
-0x5faa,	// (0x000521ee) scroll_pane_cp01_ParamLimits
+0x5e50,	// (0x00052d77) scroll_pane_cp01_ParamLimits
 
-0x5faa,	// (0x000521ee) scroll_pane_cp01
+0x5e50,	// (0x00052d77) scroll_pane_cp01
 
-0x21c6,	// (0x0004e40a) find_pinb_pane_g1_ParamLimits
+0x1e48,	// (0x0004ed6f) find_pinb_pane_g1_ParamLimits
 
-0x21c6,	// (0x0004e40a) find_pinb_pane_g1
+0x1e48,	// (0x0004ed6f) find_pinb_pane_g1
 
-0x21de,	// (0x0004e422) find_pinb_pane_t1
+0x1e60,	// (0x0004ed87) find_pinb_pane_t1
 
-0x21f0,	// (0x0004e434) find_pinb_pane_t2
+0x1e72,	// (0x0004ed99) find_pinb_pane_t2
 
 0x0001,
 
-0xf141,	// (0x0005b385) find_pinb_pane_t
+0xf132,	// (0x0005c059) find_pinb_pane_t
 
-0x2205,	// (0x0004e449) input_focus_pane_cp01_ParamLimits
+0x1e87,	// (0x0004edae) input_focus_pane_cp01_ParamLimits
 
-0x2205,	// (0x0004e449) input_focus_pane_cp01
+0x1e87,	// (0x0004edae) input_focus_pane_cp01
 
-0x5fbc,	// (0x00052200) cell_pinb_pane_ParamLimits
+0x5e62,	// (0x00052d89) cell_pinb_pane_ParamLimits
 
-0x5fbc,	// (0x00052200) cell_pinb_pane
+0x5e62,	// (0x00052d89) cell_pinb_pane
 
-0x5fe4,	// (0x00052228) cell_pinb_pane_g1_ParamLimits
+0x5e8a,	// (0x00052db1) cell_pinb_pane_g1_ParamLimits
 
-0x5fe4,	// (0x00052228) cell_pinb_pane_g1
+0x5e8a,	// (0x00052db1) cell_pinb_pane_g1
 
-0x5ff9,	// (0x0005223d) cell_pinb_pane_g2_ParamLimits
+0x5e9f,	// (0x00052dc6) cell_pinb_pane_g2_ParamLimits
 
-0x5ff9,	// (0x0005223d) cell_pinb_pane_g2
+0x5e9f,	// (0x00052dc6) cell_pinb_pane_g2
 
-0x2211,	// (0x0004e455) cell_pinb_pane_g3_ParamLimits
+0x1e93,	// (0x0004edba) cell_pinb_pane_g3_ParamLimits
 
-0x2211,	// (0x0004e455) cell_pinb_pane_g3
+0x1e93,	// (0x0004edba) cell_pinb_pane_g3
 
 0x0002,
 
-0xf146,	// (0x0005b38a) cell_pinb_pane_g_ParamLimits
+0xf137,	// (0x0005c05e) cell_pinb_pane_g_ParamLimits
 
-0xf146,	// (0x0005b38a) cell_pinb_pane_g
+0xf137,	// (0x0005c05e) cell_pinb_pane_g
 
-0x1f3b,	// (0x0004e17f) grid_highlight_pane_cp01
+0x1bbd,	// (0x0004eae4) grid_highlight_pane_cp01
 
-0x6005,	// (0x00052249) list_pinb_item_pane_ParamLimits
+0x5eab,	// (0x00052dd2) list_pinb_item_pane_ParamLimits
 
-0x6005,	// (0x00052249) list_pinb_item_pane
+0x5eab,	// (0x00052dd2) list_pinb_item_pane
 
-0x1f3b,	// (0x0004e17f) list_highlight_pane_cp02
+0x1bbd,	// (0x0004eae4) list_highlight_pane_cp02
 
-0x602b,	// (0x0005226f) list_pinb_item_pane_g1_ParamLimits
+0x5ed1,	// (0x00052df8) list_pinb_item_pane_g1_ParamLimits
 
-0x602b,	// (0x0005226f) list_pinb_item_pane_g1
+0x5ed1,	// (0x00052df8) list_pinb_item_pane_g1
 
-0x6038,	// (0x0005227c) list_pinb_item_pane_g2_ParamLimits
+0x5ede,	// (0x00052e05) list_pinb_item_pane_g2_ParamLimits
 
-0x6038,	// (0x0005227c) list_pinb_item_pane_g2
+0x5ede,	// (0x00052e05) list_pinb_item_pane_g2
 
-0x6044,	// (0x00052288) list_pinb_item_pane_g3_ParamLimits
+0x5eea,	// (0x00052e11) list_pinb_item_pane_g3_ParamLimits
 
-0x6044,	// (0x00052288) list_pinb_item_pane_g3
+0x5eea,	// (0x00052e11) list_pinb_item_pane_g3
 
-0x6055,	// (0x00052299) list_pinb_item_pane_g4_ParamLimits
+0x5efb,	// (0x00052e22) list_pinb_item_pane_g4_ParamLimits
 
-0x6055,	// (0x00052299) list_pinb_item_pane_g4
+0x5efb,	// (0x00052e22) list_pinb_item_pane_g4
 
 0x0003,
 
-0xf14d,	// (0x0005b391) list_pinb_item_pane_g_ParamLimits
+0xf13e,	// (0x0005c065) list_pinb_item_pane_g_ParamLimits
 
-0xf14d,	// (0x0005b391) list_pinb_item_pane_g
+0xf13e,	// (0x0005c065) list_pinb_item_pane_g
 
-0x6061,	// (0x000522a5) list_pinb_item_pane_t1_ParamLimits
+0x5f07,	// (0x00052e2e) list_pinb_item_pane_t1_ParamLimits
 
-0x6061,	// (0x000522a5) list_pinb_item_pane_t1
+0x5f07,	// (0x00052e2e) list_pinb_item_pane_t1
 
-0x6092,	// (0x000522d6) calc_display_pane
+0x5f38,	// (0x00052e5f) calc_display_pane
 
-0x60b0,	// (0x000522f4) calc_paper_pane
+0x5f56,	// (0x00052e7d) calc_paper_pane
 
-0x60cc,	// (0x00052310) grid_calc_pane
+0x5f72,	// (0x00052e99) grid_calc_pane
 
-0x1f3b,	// (0x0004e17f) bg_list_pane_cp01
+0x1bbd,	// (0x0004eae4) bg_list_pane_cp01
 
-0x60f8,	// (0x0005233c) clock_g1
+0x5f9e,	// (0x00052ec5) clock_g1
 
-0x6100,	// (0x00052344) clock_g2
+0x5fa6,	// (0x00052ecd) clock_g2
 
 0x0001,
 
-0xf156,	// (0x0005b39a) clock_g
+0xf147,	// (0x0005c06e) clock_g
 
-0x610a,	// (0x0005234e) clock_t1_ParamLimits
+0x5fb0,	// (0x00052ed7) clock_t1_ParamLimits
 
-0x610a,	// (0x0005234e) clock_t1
+0x5fb0,	// (0x00052ed7) clock_t1
 
-0x611f,	// (0x00052363) clock_t2_ParamLimits
+0x5fc5,	// (0x00052eec) clock_t2_ParamLimits
 
-0x611f,	// (0x00052363) clock_t2
+0x5fc5,	// (0x00052eec) clock_t2
 
-0x6131,	// (0x00052375) clock_t3_ParamLimits
+0x5fd7,	// (0x00052efe) clock_t3_ParamLimits
 
-0x6131,	// (0x00052375) clock_t3
+0x5fd7,	// (0x00052efe) clock_t3
 
-0x6143,	// (0x00052387) clock_t4_ParamLimits
+0x5fe9,	// (0x00052f10) clock_t4_ParamLimits
 
-0x6143,	// (0x00052387) clock_t4
+0x5fe9,	// (0x00052f10) clock_t4
 
-0x6155,	// (0x00052399) clock_t5_ParamLimits
+0x5ffb,	// (0x00052f22) clock_t5_ParamLimits
 
-0x6155,	// (0x00052399) clock_t5
+0x5ffb,	// (0x00052f22) clock_t5
 
-0x616a,	// (0x000523ae) clock_t6_ParamLimits
+0x6010,	// (0x00052f37) clock_t6_ParamLimits
 
-0x616a,	// (0x000523ae) clock_t6
+0x6010,	// (0x00052f37) clock_t6
 
-0x617c,	// (0x000523c0) clock_t7_ParamLimits
+0x6022,	// (0x00052f49) clock_t7_ParamLimits
 
-0x617c,	// (0x000523c0) clock_t7
+0x6022,	// (0x00052f49) clock_t7
 
-0x618e,	// (0x000523d2) clock_t8_ParamLimits
+0x6034,	// (0x00052f5b) clock_t8_ParamLimits
 
-0x618e,	// (0x000523d2) clock_t8
+0x6034,	// (0x00052f5b) clock_t8
 
-0x61a4,	// (0x000523e8) clock_t9_ParamLimits
+0x604a,	// (0x00052f71) clock_t9_ParamLimits
 
-0x61a4,	// (0x000523e8) clock_t9
+0x604a,	// (0x00052f71) clock_t9
 
 0x0008,
 
-0xf15b,	// (0x0005b39f) clock_t_ParamLimits
+0xf14c,	// (0x0005c073) clock_t_ParamLimits
 
-0xf15b,	// (0x0005b39f) clock_t
+0xf14c,	// (0x0005c073) clock_t
 
-0x221d,	// (0x0004e461) popup_clock_analogue_window_cp02
+0x1e9f,	// (0x0004edc6) popup_clock_analogue_window_cp02
 
-0x221d,	// (0x0004e461) popup_clock_digital_window_cp01
+0x1e9f,	// (0x0004edc6) popup_clock_digital_window_cp01
 
-0x2225,	// (0x0004e469) listscroll_help_pane
+0x1ea7,	// (0x0004edce) listscroll_help_pane
 
-0x1f3b,	// (0x0004e17f) phob_pre_status_pane
+0x1bbd,	// (0x0004eae4) phob_pre_status_pane
 
-0x222f,	// (0x0004e473) grid_qdial_pane
+0x1eb1,	// (0x0004edd8) grid_qdial_pane
 
-0x1f3b,	// (0x0004e17f) listscroll_mce_pane
+0x1bbd,	// (0x0004eae4) listscroll_mce_pane
 
-0x2239,	// (0x0004e47d) bg_notes_pane
+0x1ebb,	// (0x0004ede2) bg_notes_pane
 
-0x2247,	// (0x0004e48b) list_notes_pane
+0x1ec9,	// (0x0004edf0) list_notes_pane
 
-0x61ba,	// (0x000523fe) scroll_pane_cp06
+0x6060,	// (0x00052f87) scroll_pane_cp06
 
-0x2255,	// (0x0004e499) bg_calc_paper_pane
+0x1ed7,	// (0x0004edfe) bg_calc_paper_pane
 
-0x61d3,	// (0x00052417) list_calc_pane
+0x606f,	// (0x00052f96) list_calc_pane
 
-0x2269,	// (0x0004e4ad) bg_calc_display_pane
+0x1eeb,	// (0x0004ee12) bg_calc_display_pane
 
-0x61ed,	// (0x00052431) calc_display_pane_t1
+0x6089,	// (0x00052fb0) calc_display_pane_t1
 
-0x6202,	// (0x00052446) calc_display_pane_t2
+0x609e,	// (0x00052fc5) calc_display_pane_t2
 
-0x6217,	// (0x0005245b) calc_display_pane_t3
+0x60b3,	// (0x00052fda) calc_display_pane_t3
 
 0x0002,
 
-0xf16e,	// (0x0005b3b2) calc_display_pane_t
+0xf15f,	// (0x0005c086) calc_display_pane_t
 
-0x6229,	// (0x0005246d) cell_calc_pane_ParamLimits
+0x60c5,	// (0x00052fec) cell_calc_pane_ParamLimits
 
-0x6229,	// (0x0005246d) cell_calc_pane
+0x60c5,	// (0x00052fec) cell_calc_pane
 
-0x2275,	// (0x0004e4b9) bg_calc_paper_pane_g1
+0x1ef7,	// (0x0004ee1e) bg_calc_paper_pane_g1
 
-0x228d,	// (0x0004e4d1) bg_calc_paper_pane_g2
+0x1f0f,	// (0x0004ee36) bg_calc_paper_pane_g2
 
-0x2281,	// (0x0004e4c5) bg_calc_paper_pane_g3
+0x1f03,	// (0x0004ee2a) bg_calc_paper_pane_g3
 
-0x22a5,	// (0x0004e4e9) bg_calc_paper_pane_g4
+0x1f27,	// (0x0004ee4e) bg_calc_paper_pane_g4
 
-0x2299,	// (0x0004e4dd) bg_calc_paper_pane_g5
+0x1f1b,	// (0x0004ee42) bg_calc_paper_pane_g5
 
-0x6256,	// (0x0005249a) bg_calc_paper_pane_g6
+0x60f2,	// (0x00053019) bg_calc_paper_pane_g6
 
-0x6267,	// (0x000524ab) bg_calc_paper_pane_g7
+0x6103,	// (0x0005302a) bg_calc_paper_pane_g7
 
-0x6278,	// (0x000524bc) bg_calc_paper_pane_g8
+0x6114,	// (0x0005303b) bg_calc_paper_pane_g8
 
 0x0007,
 
-0xf175,	// (0x0005b3b9) bg_calc_paper_pane_g
+0xf166,	// (0x0005c08d) bg_calc_paper_pane_g
 
-0x6289,	// (0x000524cd) calc_bg_paper_pane_g9
+0x6125,	// (0x0005304c) calc_bg_paper_pane_g9
 
-0x629a,	// (0x000524de) list_calc_item_pane_ParamLimits
+0x6136,	// (0x0005305d) list_calc_item_pane_ParamLimits
 
-0x629a,	// (0x000524de) list_calc_item_pane
+0x6136,	// (0x0005305d) list_calc_item_pane
 
-0x22b1,	// (0x0004e4f5) list_calc_item_pane_g1
+0x1f33,	// (0x0004ee5a) list_calc_item_pane_g1
 
-0x62c9,	// (0x0005250d) list_calc_item_pane_t1_ParamLimits
+0x6165,	// (0x0005308c) list_calc_item_pane_t1_ParamLimits
 
-0x62c9,	// (0x0005250d) list_calc_item_pane_t1
+0x6165,	// (0x0005308c) list_calc_item_pane_t1
 
-0x62db,	// (0x0005251f) list_calc_item_pane_t2_ParamLimits
+0x6177,	// (0x0005309e) list_calc_item_pane_t2_ParamLimits
 
-0x62db,	// (0x0005251f) list_calc_item_pane_t2
+0x6177,	// (0x0005309e) list_calc_item_pane_t2
 
 0x0001,
 
-0xf186,	// (0x0005b3ca) list_calc_item_pane_t_ParamLimits
+0xf177,	// (0x0005c09e) list_calc_item_pane_t_ParamLimits
 
-0xf186,	// (0x0005b3ca) list_calc_item_pane_t
+0xf177,	// (0x0005c09e) list_calc_item_pane_t
 
-0x22be,	// (0x0004e502) cell_calc_pane_g1
+0x1f40,	// (0x0004ee67) cell_calc_pane_g1
 
-0x22c8,	// (0x0004e50c) grid_highlight_pane_cp02
+0x1f4a,	// (0x0004ee71) grid_highlight_pane_cp02
 
-0x630b,	// (0x0005254f) bg_calc_display_pane_g1
+0x61a7,	// (0x000530ce) bg_calc_display_pane_g1
 
-0x6314,	// (0x00052558) bg_calc_display_pane_g2
+0x61b0,	// (0x000530d7) bg_calc_display_pane_g2
 
-0x45b8,	// (0x000507fc) bg_calc_display_pane_g3
+0x412a,	// (0x00051051) bg_calc_display_pane_g3
 
 0x0002,
 
-0xf190,	// (0x0005b3d4) bg_calc_display_pane_g
+0xf181,	// (0x0005c0a8) bg_calc_display_pane_g
 
-0x631e,	// (0x00052562) cell_qdial_pane_ParamLimits
+0x61ba,	// (0x000530e1) cell_qdial_pane_ParamLimits
 
-0x631e,	// (0x00052562) cell_qdial_pane
+0x61ba,	// (0x000530e1) cell_qdial_pane
 
-0x6332,	// (0x00052576) cell_qdial_pane_g1_ParamLimits
+0x61ce,	// (0x000530f5) cell_qdial_pane_g1_ParamLimits
 
-0x6332,	// (0x00052576) cell_qdial_pane_g1
+0x61ce,	// (0x000530f5) cell_qdial_pane_g1
 
-0x633f,	// (0x00052583) cell_qdial_pane_g2_ParamLimits
+0x61db,	// (0x00053102) cell_qdial_pane_g2_ParamLimits
 
-0x633f,	// (0x00052583) cell_qdial_pane_g2
+0x61db,	// (0x00053102) cell_qdial_pane_g2
 
-0x22ea,	// (0x0004e52e) cell_qdial_pane_g3_ParamLimits
+0x1f6c,	// (0x0004ee93) cell_qdial_pane_g3_ParamLimits
 
-0x22ea,	// (0x0004e52e) cell_qdial_pane_g3
+0x1f6c,	// (0x0004ee93) cell_qdial_pane_g3
 
 0x0003,
 
-0xf197,	// (0x0005b3db) cell_qdial_pane_g_ParamLimits
+0xf188,	// (0x0005c0af) cell_qdial_pane_g_ParamLimits
 
-0xf197,	// (0x0005b3db) cell_qdial_pane_g
+0xf188,	// (0x0005c0af) cell_qdial_pane_g
 
-0x635d,	// (0x000525a1) cell_qdial_pane_t1_ParamLimits
+0x61f9,	// (0x00053120) cell_qdial_pane_t1_ParamLimits
 
-0x635d,	// (0x000525a1) cell_qdial_pane_t1
+0x61f9,	// (0x00053120) cell_qdial_pane_t1
 
-0x6375,	// (0x000525b9) cell_qdial_pane_t2_ParamLimits
+0x6211,	// (0x00053138) cell_qdial_pane_t2_ParamLimits
 
-0x6375,	// (0x000525b9) cell_qdial_pane_t2
+0x6211,	// (0x00053138) cell_qdial_pane_t2
 
-0x6388,	// (0x000525cc) cell_qdial_pane_t3_ParamLimits
+0x6224,	// (0x0005314b) cell_qdial_pane_t3_ParamLimits
 
-0x6388,	// (0x000525cc) cell_qdial_pane_t3
+0x6224,	// (0x0005314b) cell_qdial_pane_t3
 
 0x0002,
 
-0xf1a0,	// (0x0005b3e4) cell_qdial_pane_t_ParamLimits
+0xf191,	// (0x0005c0b8) cell_qdial_pane_t_ParamLimits
 
-0xf1a0,	// (0x0005b3e4) cell_qdial_pane_t
+0xf191,	// (0x0005c0b8) cell_qdial_pane_t
 
-0x1f3b,	// (0x0004e17f) grid_highlight_pane_cp04
+0x1bbd,	// (0x0004eae4) grid_highlight_pane_cp04
 
-0x22f6,	// (0x0004e53a) thumbnail_qdial_pane_ParamLimits
+0x1f78,	// (0x0004ee9f) thumbnail_qdial_pane_ParamLimits
 
-0x22f6,	// (0x0004e53a) thumbnail_qdial_pane
+0x1f78,	// (0x0004ee9f) thumbnail_qdial_pane
 
-0x2352,	// (0x0004e596) list_help_pane
+0x1fd4,	// (0x0004eefb) list_help_pane
 
-0x235b,	// (0x0004e59f) scroll_pane_cp02
+0x1fdd,	// (0x0004ef04) scroll_pane_cp02
 
-0x639b,	// (0x000525df) help_list_pane_t1_ParamLimits
+0x6237,	// (0x0005315e) help_list_pane_t1_ParamLimits
 
-0x639b,	// (0x000525df) help_list_pane_t1
+0x6237,	// (0x0005315e) help_list_pane_t1
 
-0x63ce,	// (0x00052612) bg_notes_pane_g2
+0x626a,	// (0x00053191) bg_notes_pane_g2
 
-0x63d6,	// (0x0005261a) bg_notes_pane_g3
+0x6272,	// (0x00053199) bg_notes_pane_g3
 
-0x63de,	// (0x00052622) notes_bg_pane_g1
+0x627a,	// (0x000531a1) notes_bg_pane_g1
 
-0x63e6,	// (0x0005262a) notes_bg_pane_g4
+0x6282,	// (0x000531a9) notes_bg_pane_g4
 
-0x63ee,	// (0x00052632) notes_bg_pane_g5
+0x628a,	// (0x000531b1) notes_bg_pane_g5
 
-0x63f6,	// (0x0005263a) notes_bg_pane_g6
+0x6292,	// (0x000531b9) notes_bg_pane_g6
 
-0x63fe,	// (0x00052642) notes_bg_pane_g7
+0x629a,	// (0x000531c1) notes_bg_pane_g7
 
-0x6406,	// (0x0005264a) notes_bg_pane_g8
+0x62a2,	// (0x000531c9) notes_bg_pane_g8
 
-0x640e,	// (0x00052652) notes_bg_pane_g9
+0x62aa,	// (0x000531d1) notes_bg_pane_g9
 
 0x0006,
 
-0xf1be,	// (0x0005b402) notes_bg_pane_g
+0xf1af,	// (0x0005c0d6) notes_bg_pane_g
 
-0x6416,	// (0x0005265a) list_notes_text_pane_ParamLimits
+0x62b2,	// (0x000531d9) list_notes_text_pane_ParamLimits
 
-0x6416,	// (0x0005265a) list_notes_text_pane
+0x62b2,	// (0x000531d9) list_notes_text_pane
 
-0x2364,	// (0x0004e5a8) list_notes_text_pane_g1
+0x1fe6,	// (0x0004ef0d) list_notes_text_pane_g1
 
-0x643e,	// (0x00052682) list_notes_text_pane_t1
+0x62da,	// (0x00053201) list_notes_text_pane_t1
 
-0x2269,	// (0x0004e4ad) listscroll_cale_week_pane
+0x1eeb,	// (0x0004ee12) listscroll_cale_week_pane
 
-0x6469,	// (0x000526ad) bg_cale_heading_pane
+0x6305,	// (0x0005322c) bg_cale_heading_pane
 
-0x237e,	// (0x0004e5c2) bg_cale_pane_cp01
+0x2000,	// (0x0004ef27) bg_cale_pane_cp01
 
-0x6485,	// (0x000526c9) cale_week_corner_pane
+0x6321,	// (0x00053248) cale_week_corner_pane
 
-0x649b,	// (0x000526df) cale_week_day_heading_pane
+0x6337,	// (0x0005325e) cale_week_day_heading_pane
 
-0x64b7,	// (0x000526fb) cale_week_scroll_pane_g1
+0x6353,	// (0x0005327a) cale_week_scroll_pane_g1
 
-0x64d0,	// (0x00052714) cale_week_scroll_pane_g2
+0x636c,	// (0x00053293) cale_week_scroll_pane_g2
 
-0x64e1,	// (0x00052725) cale_week_scroll_pane_g3
+0x637d,	// (0x000532a4) cale_week_scroll_pane_g3
 
-0x64f2,	// (0x00052736) cale_week_scroll_pane_g4
+0x638e,	// (0x000532b5) cale_week_scroll_pane_g4
 
-0x6503,	// (0x00052747) cale_week_scroll_pane_g5
+0x639f,	// (0x000532c6) cale_week_scroll_pane_g5
 
-0x6514,	// (0x00052758) cale_week_scroll_pane_g6
+0x63b0,	// (0x000532d7) cale_week_scroll_pane_g6
 
-0x6525,	// (0x00052769) cale_week_scroll_pane_g7
+0x63c1,	// (0x000532e8) cale_week_scroll_pane_g7
 
-0x6538,	// (0x0005277c) cale_week_scroll_pane_g8
+0x63d4,	// (0x000532fb) cale_week_scroll_pane_g8
 
-0x654b,	// (0x0005278f) cale_week_scroll_pane_g9
+0x63e7,	// (0x0005330e) cale_week_scroll_pane_g9
 
-0x655c,	// (0x000527a0) cale_week_scroll_pane_g10
+0x63f8,	// (0x0005331f) cale_week_scroll_pane_g10
 
-0x656d,	// (0x000527b1) cale_week_scroll_pane_g11
+0x6409,	// (0x00053330) cale_week_scroll_pane_g11
 
-0x657e,	// (0x000527c2) cale_week_scroll_pane_g12
+0x641a,	// (0x00053341) cale_week_scroll_pane_g12
 
-0x658f,	// (0x000527d3) cale_week_scroll_pane_g13
+0x642b,	// (0x00053352) cale_week_scroll_pane_g13
 
-0x65a8,	// (0x000527ec) cale_week_scroll_pane_g14
+0x6444,	// (0x0005336b) cale_week_scroll_pane_g14
 
-0x65c1,	// (0x00052805) cale_week_scroll_pane_g15
+0x645d,	// (0x00053384) cale_week_scroll_pane_g15
 
 0x000e,
 
-0xf1cd,	// (0x0005b411) cale_week_scroll_pane_g
+0xf1be,	// (0x0005c0e5) cale_week_scroll_pane_g
 
-0x65da,	// (0x0005281e) cale_week_time_pane
+0x6476,	// (0x0005339d) cale_week_time_pane
 
-0x65ed,	// (0x00052831) grid_cale_week_pane
+0x6489,	// (0x000533b0) grid_cale_week_pane
 
-0x660a,	// (0x0005284e) scroll_pane_cp08
+0x64a6,	// (0x000533cd) scroll_pane_cp08
 
-0x6624,	// (0x00052868) cell_cale_week_pane_ParamLimits
+0x64c0,	// (0x000533e7) cell_cale_week_pane_ParamLimits
 
-0x6624,	// (0x00052868) cell_cale_week_pane
+0x64c0,	// (0x000533e7) cell_cale_week_pane
 
-0x6670,	// (0x000528b4) cale_week_day_heading_pane_t1
+0x650c,	// (0x00053433) cale_week_day_heading_pane_t1
 
-0x6689,	// (0x000528cd) cale_week_day_heading_pane_t2
+0x6525,	// (0x0005344c) cale_week_day_heading_pane_t2
 
-0x66a2,	// (0x000528e6) cale_week_day_heading_pane_t3
+0x653e,	// (0x00053465) cale_week_day_heading_pane_t3
 
-0x66bb,	// (0x000528ff) cale_week_day_heading_pane_t4
+0x6557,	// (0x0005347e) cale_week_day_heading_pane_t4
 
-0x66d4,	// (0x00052918) cale_week_day_heading_pane_t5
+0x6570,	// (0x00053497) cale_week_day_heading_pane_t5
 
-0x66ed,	// (0x00052931) cale_week_day_heading_pane_t6
+0x6589,	// (0x000534b0) cale_week_day_heading_pane_t6
 
-0x6706,	// (0x0005294a) cale_week_day_heading_pane_t7
+0x65a2,	// (0x000534c9) cale_week_day_heading_pane_t7
 
 0x0006,
 
-0xf1ec,	// (0x0005b430) cale_week_day_heading_pane_t
+0xf1dd,	// (0x0005c104) cale_week_day_heading_pane_t
 
-0x23a9,	// (0x0004e5ed) bg_cale_side_pane
+0x202b,	// (0x0004ef52) bg_cale_side_pane
 
-0x671f,	// (0x00052963) cale_week_time_pane_t1
+0x65bb,	// (0x000534e2) cale_week_time_pane_t1
 
-0x6737,	// (0x0005297b) cale_week_time_pane_t2
+0x65d3,	// (0x000534fa) cale_week_time_pane_t2
 
-0x674f,	// (0x00052993) cale_week_time_pane_t3
+0x65eb,	// (0x00053512) cale_week_time_pane_t3
 
-0x6767,	// (0x000529ab) cale_week_time_pane_t4
+0x6603,	// (0x0005352a) cale_week_time_pane_t4
 
-0x677f,	// (0x000529c3) cale_week_time_pane_t5
+0x661b,	// (0x00053542) cale_week_time_pane_t5
 
-0x6797,	// (0x000529db) cale_week_time_pane_t6
+0x6633,	// (0x0005355a) cale_week_time_pane_t6
 
-0x67af,	// (0x000529f3) cale_week_time_pane_t7
+0x664b,	// (0x00053572) cale_week_time_pane_t7
 
-0x67cf,	// (0x00052a13) cale_week_time_pane_t8
+0x666b,	// (0x00053592) cale_week_time_pane_t8
 
 0x0007,
 
-0xf1fb,	// (0x0005b43f) cale_week_time_pane_t
+0xf1ec,	// (0x0005c113) cale_week_time_pane_t
 
-0x67ef,	// (0x00052a33) cell_cale_week_pane_g2
+0x668b,	// (0x000535b2) cell_cale_week_pane_g2
 
-0x6800,	// (0x00052a44) cell_cale_week_pane_g3_ParamLimits
+0x669c,	// (0x000535c3) cell_cale_week_pane_g3_ParamLimits
 
-0x6800,	// (0x00052a44) cell_cale_week_pane_g3
+0x669c,	// (0x000535c3) cell_cale_week_pane_g3
 
-0x23b7,	// (0x0004e5fb) grid_highlight_pane_cp07
+0x2039,	// (0x0004ef60) grid_highlight_pane_cp07
 
-0x23bf,	// (0x0004e603) listscroll_gms_pane
+0x2041,	// (0x0004ef68) listscroll_gms_pane
 
-0x23c9,	// (0x0004e60d) grid_gms_pane
+0x204b,	// (0x0004ef72) grid_gms_pane
 
-0x23d2,	// (0x0004e616) listscroll_gms_pane_g1
+0x2054,	// (0x0004ef7b) listscroll_gms_pane_g1
 
-0x23da,	// (0x0004e61e) listscroll_gms_pane_g2
+0x205c,	// (0x0004ef83) listscroll_gms_pane_g2
 
 0x0001,
 
-0xf20c,	// (0x0005b450) listscroll_gms_pane_g
+0xf1fd,	// (0x0005c124) listscroll_gms_pane_g
 
-0x6818,	// (0x00052a5c) scroll_pane_cp010
+0x66b4,	// (0x000535db) scroll_pane_cp010
 
-0x6823,	// (0x00052a67) cell_gms_pane_ParamLimits
+0x66bf,	// (0x000535e6) cell_gms_pane_ParamLimits
 
-0x6823,	// (0x00052a67) cell_gms_pane
+0x66bf,	// (0x000535e6) cell_gms_pane
 
-0x6836,	// (0x00052a7a) cell_gms_pane_g1
+0x66d2,	// (0x000535f9) cell_gms_pane_g1
 
-0x23e2,	// (0x0004e626) cell_gms_pane_g2
+0x2064,	// (0x0004ef8b) cell_gms_pane_g2
 
-0x23ea,	// (0x0004e62e) cell_gms_pane_g3
+0x206c,	// (0x0004ef93) cell_gms_pane_g3
 
-0x23f3,	// (0x0004e637) cell_gms_pane_g4
+0x2075,	// (0x0004ef9c) cell_gms_pane_g4
 
 0x0003,
 
-0xf211,	// (0x0005b455) cell_gms_pane_g
+0xf202,	// (0x0005c129) cell_gms_pane_g
 
-0x23fc,	// (0x0004e640) grid_highlight_pane_cp09
+0x207e,	// (0x0004efa5) grid_highlight_pane_cp09
 
-0x8b59,	// (0x00054d9d) phob_pre_status_pane_g1
+0x89f7,	// (0x0005591e) phob_pre_status_pane_g1
 
-0x8b61,	// (0x00054da5) phob_pre_status_pane_g2
+0x89ff,	// (0x00055926) phob_pre_status_pane_g2
 
-0x8b69,	// (0x00054dad) phob_pre_status_pane_g3
+0x8a07,	// (0x0005592e) phob_pre_status_pane_g3
 
-0x8b71,	// (0x00054db5) phob_pre_status_pane_g4
+0x8a0f,	// (0x00055936) phob_pre_status_pane_g4
 
 0x0004,
 
-0xf600,	// (0x0005b844) phob_pre_status_pane_g
+0xf5f1,	// (0x0005c518) phob_pre_status_pane_g
 
-0x8b81,	// (0x00054dc5) phob_pre_status_pane_t1
+0x8a1f,	// (0x00055946) phob_pre_status_pane_t1
 
-0x8b91,	// (0x00054dd5) phob_pre_status_pane_t2
+0x8a2f,	// (0x00055956) phob_pre_status_pane_t2
 
-0x8ba1,	// (0x00054de5) phob_pre_status_pane_t3
+0x8a3f,	// (0x00055966) phob_pre_status_pane_t3
 
 0x0002,
 
-0xf60b,	// (0x0005b84f) phob_pre_status_pane_t
+0xf5fc,	// (0x0005c523) phob_pre_status_pane_t
 
-0x1f3b,	// (0x0004e17f) bg_list_pane_cp05
+0x1bbd,	// (0x0004eae4) bg_list_pane_cp05
 
-0x6846,	// (0x00052a8a) grid_vorec_pane
+0x66e2,	// (0x00053609) grid_vorec_pane
 
-0x6850,	// (0x00052a94) vorec_t1
+0x66ee,	// (0x00053615) vorec_t1
 
-0x685e,	// (0x00052aa2) vorec_t2
+0x66fc,	// (0x00053623) vorec_t2
 
-0x686c,	// (0x00052ab0) vorec_t3
+0x670a,	// (0x00053631) vorec_t3
 
-0x687a,	// (0x00052abe) vorec_t4
+0x6718,	// (0x0005363f) vorec_t4
 
-0x6888,	// (0x00052acc) vorec_t5
+0x6726,	// (0x0005364d) vorec_t5
 
-0x6896,	// (0x00052ada) vorec_t6
+0x6734,	// (0x0005365b) vorec_t6
 
 0x0006,
 
-0xf21a,	// (0x0005b45e) vorec_t
+0xf20b,	// (0x0005c132) vorec_t
 
-0x68b2,	// (0x00052af6) wait_bar_pane_cp01
+0x6750,	// (0x00053677) wait_bar_pane_cp01
 
-0x68ba,	// (0x00052afe) cell_vorec_pane_ParamLimits
+0x6758,	// (0x0005367f) cell_vorec_pane_ParamLimits
 
-0x68ba,	// (0x00052afe) cell_vorec_pane
+0x6758,	// (0x0005367f) cell_vorec_pane
 
-0x2404,	// (0x0004e648) cell_vorec_pane_g1
+0x2086,	// (0x0004efad) cell_vorec_pane_g1
 
-0x1f3b,	// (0x0004e17f) grid_highlight_pane_cp05
+0x1bbd,	// (0x0004eae4) grid_highlight_pane_cp05
 
-0x68dd,	// (0x00052b21) cams_zoom_pane
+0x677b,	// (0x000536a2) cams_zoom_pane
 
-0x68e9,	// (0x00052b2d) image_vga_pane
+0x6787,	// (0x000536ae) image_vga_pane
 
-0x68f8,	// (0x00052b3c) main_camera_pane_g1
+0x6796,	// (0x000536bd) main_camera_pane_g1
 
-0x6906,	// (0x00052b4a) main_camera_pane_g2
+0x67a4,	// (0x000536cb) main_camera_pane_g2
 
-0x6912,	// (0x00052b56) main_camera_pane_g3
+0x67b0,	// (0x000536d7) main_camera_pane_g3
 
-0x691e,	// (0x00052b62) main_camera_pane_g4
+0x67bc,	// (0x000536e3) main_camera_pane_g4
 
-0x692a,	// (0x00052b6e) main_camera_pane_g5
+0x67c8,	// (0x000536ef) main_camera_pane_g5
 
-0x6936,	// (0x00052b7a) main_camera_pane_g6
+0x67d4,	// (0x000536fb) main_camera_pane_g6
 
-0x6942,	// (0x00052b86) main_camera_pane_g7
+0x67e0,	// (0x00053707) main_camera_pane_g7
 
 0x0007,
 
-0xf229,	// (0x0005b46d) main_camera_pane_g
+0xf21a,	// (0x0005c141) main_camera_pane_g
 
-0x694e,	// (0x00052b92) main_camera_pane_t1
+0x67ec,	// (0x00053713) main_camera_pane_t1
 
-0x6960,	// (0x00052ba4) main_camera_pane_t2
+0x67fe,	// (0x00053725) main_camera_pane_t2
 
 0x0001,
 
-0xf23a,	// (0x0005b47e) main_camera_pane_t
+0xf22b,	// (0x0005c152) main_camera_pane_t
 
-0x6981,	// (0x00052bc5) cams_zoom_pane_cp_ParamLimits
+0x681f,	// (0x00053746) cams_zoom_pane_cp_ParamLimits
 
-0x6981,	// (0x00052bc5) cams_zoom_pane_cp
+0x681f,	// (0x00053746) cams_zoom_pane_cp
 
-0x69a5,	// (0x00052be9) image_cif_pane_ParamLimits
+0x6843,	// (0x0005376a) image_cif_pane_ParamLimits
 
-0x69a5,	// (0x00052be9) image_cif_pane
+0x6843,	// (0x0005376a) image_cif_pane
 
-0x69c3,	// (0x00052c07) image_subqcif_pane
+0x6861,	// (0x00053788) image_subqcif_pane
 
-0x69cb,	// (0x00052c0f) main_video_pane_g1_ParamLimits
+0x6869,	// (0x00053790) main_video_pane_g1_ParamLimits
 
-0x69cb,	// (0x00052c0f) main_video_pane_g1
+0x6869,	// (0x00053790) main_video_pane_g1
 
-0x69eb,	// (0x00052c2f) main_video_pane_g2_ParamLimits
+0x6889,	// (0x000537b0) main_video_pane_g2_ParamLimits
 
-0x69eb,	// (0x00052c2f) main_video_pane_g2
+0x6889,	// (0x000537b0) main_video_pane_g2
 
-0x6a1b,	// (0x00052c5f) main_video_pane_g3_ParamLimits
+0x68b9,	// (0x000537e0) main_video_pane_g3_ParamLimits
 
-0x6a1b,	// (0x00052c5f) main_video_pane_g3
+0x68b9,	// (0x000537e0) main_video_pane_g3
 
-0x6a44,	// (0x00052c88) main_video_pane_g4_ParamLimits
+0x68e2,	// (0x00053809) main_video_pane_g4_ParamLimits
 
-0x6a44,	// (0x00052c88) main_video_pane_g4
+0x68e2,	// (0x00053809) main_video_pane_g4
 
-0x6a6d,	// (0x00052cb1) main_video_pane_g5_ParamLimits
+0x690b,	// (0x00053832) main_video_pane_g5_ParamLimits
 
-0x6a6d,	// (0x00052cb1) main_video_pane_g5
+0x690b,	// (0x00053832) main_video_pane_g5
 
-0x241a,	// (0x0004e65e) main_video_pane_g6_ParamLimits
+0x209c,	// (0x0004efc3) main_video_pane_g6_ParamLimits
 
-0x241a,	// (0x0004e65e) main_video_pane_g6
+0x209c,	// (0x0004efc3) main_video_pane_g6
 
 0x0006,
 
-0xf23f,	// (0x0005b483) main_video_pane_g_ParamLimits
+0xf230,	// (0x0005c157) main_video_pane_g_ParamLimits
 
-0xf23f,	// (0x0005b483) main_video_pane_g
+0xf230,	// (0x0005c157) main_video_pane_g
 
-0x6a8f,	// (0x00052cd3) main_video_pane_t1_ParamLimits
+0x692d,	// (0x00053854) main_video_pane_t1_ParamLimits
 
-0x6a8f,	// (0x00052cd3) main_video_pane_t1
+0x692d,	// (0x00053854) main_video_pane_t1
 
-0x2434,	// (0x0004e678) cams_zoom_pane_g1
+0x20b6,	// (0x0004efdd) cams_zoom_pane_g1
 
-0x243d,	// (0x0004e681) cams_zoom_pane_g2
+0x20bf,	// (0x0004efe6) cams_zoom_pane_g2
 
-0x2446,	// (0x0004e68a) cams_zoom_pane_g3
+0x20c8,	// (0x0004efef) cams_zoom_pane_g3
 
-0x244f,	// (0x0004e693) cams_zoom_pane_g4
+0x20d1,	// (0x0004eff8) cams_zoom_pane_g4
 
 0x0003,
 
-0xf24e,	// (0x0005b492) cams_zoom_pane_g
+0xf23f,	// (0x0005c166) cams_zoom_pane_g
 
-0x6ad9,	// (0x00052d1d) grid_cams_pane
+0x6977,	// (0x0005389e) grid_cams_pane
 
-0x6ae7,	// (0x00052d2b) linegrid_cams_pane
+0x6985,	// (0x000538ac) linegrid_cams_pane
 
-0x6af5,	// (0x00052d39) cell_cams_pane_ParamLimits
+0x6993,	// (0x000538ba) cell_cams_pane_ParamLimits
 
-0x6af5,	// (0x00052d39) cell_cams_pane
+0x6993,	// (0x000538ba) cell_cams_pane
 
-0x2458,	// (0x0004e69c) cams_burst_image_pane
+0x20da,	// (0x0004f001) cams_burst_image_pane
 
-0x2460,	// (0x0004e6a4) cell_cams_pane_g1
+0x20e2,	// (0x0004f009) cell_cams_pane_g1
 
-0x1f3b,	// (0x0004e17f) grid_highlight_pane_cp03
+0x1bbd,	// (0x0004eae4) grid_highlight_pane_cp03
 
-0x22be,	// (0x0004e502) mp_bg_pane_g1
+0x1f40,	// (0x0004ee67) mp_bg_pane_g1
 
-0x1f3b,	// (0x0004e17f) bg_list_pane_cp03
+0x1bbd,	// (0x0004eae4) bg_list_pane_cp03
 
-0x4075,	// (0x000502b9) bg_mp_pane
+0x3cf7,	// (0x00050c1e) bg_mp_pane
 
-0x407d,	// (0x000502c1) grid_mp_pane
+0x3cff,	// (0x00050c26) grid_mp_pane
 
-0x4085,	// (0x000502c9) media_player_g1
+0x3d07,	// (0x00050c2e) media_player_g1
 
-0x408d,	// (0x000502d1) media_player_t1
+0x3d0f,	// (0x00050c36) media_player_t1
 
-0x409b,	// (0x000502df) media_player_t2
+0x3d1d,	// (0x00050c44) media_player_t2
 
-0x40a9,	// (0x000502ed) media_player_t3
+0x3d2b,	// (0x00050c52) media_player_t3
 
-0x40b7,	// (0x000502fb) media_player_t4
+0x3d39,	// (0x00050c60) media_player_t4
 
-0x40c5,	// (0x00050309) media_player_t5
+0x3d47,	// (0x00050c6e) media_player_t5
 
-0x40d3,	// (0x00050317) media_player_t6
+0x3d55,	// (0x00050c7c) media_player_t6
 
-0x40e1,	// (0x00050325) media_player_t7
+0x3d63,	// (0x00050c8a) media_player_t7
 
 0x0006,
 
-0xf5ea,	// (0x0005b82e) media_player_t
+0xf5db,	// (0x0005c502) media_player_t
 
-0x40ef,	// (0x00050333) wait_bar_pane_cp02
+0x3d71,	// (0x00050c98) wait_bar_pane_cp02
 
-0xf5cf,	// (0x0005b813) main_usb_pane_t
+0xf5c0,	// (0x0005c4e7) main_usb_pane_t
 
-0x8b50,	// (0x00054d94) cell_mp_pane
+0x89ee,	// (0x00055915) cell_mp_pane
 
-0x22be,	// (0x0004e502) cell_mp_pane_g1
+0x1f40,	// (0x0004ee67) cell_mp_pane_g1
 
-0x1f3b,	// (0x0004e17f) grid_highlight_pane_cp06
+0x1bbd,	// (0x0004eae4) grid_highlight_pane_cp06
 
-0x2468,	// (0x0004e6ac) grid_skin_colour_pane
+0x20ea,	// (0x0004f011) grid_skin_colour_pane
 
-0x2470,	// (0x0004e6b4) list_highlight_pane_cp03
+0x20f2,	// (0x0004f019) list_highlight_pane_cp03
 
-0x6b5f,	// (0x00052da3) skin_g1
+0x69fd,	// (0x00053924) skin_g1
 
-0x2478,	// (0x0004e6bc) skin_t1
+0x20fa,	// (0x0004f021) skin_t1
 
-0x2487,	// (0x0004e6cb) skin_t2
-
-0x0001,
-
-0xf283,	// (0x0005b4c7) skin_t
-
-0x6b69,	// (0x00052dad) cell_skin_colour_pane_ParamLimits
-
-0x6b69,	// (0x00052dad) cell_skin_colour_pane
-
-0x2495,	// (0x0004e6d9) cell_skin_colour_pane_g1
-
-0x6bed,	// (0x00052e31) call_video_g1_ParamLimits
-
-0x6bed,	// (0x00052e31) call_video_g1
-
-0x6bfd,	// (0x00052e41) call_video_g2_ParamLimits
-
-0x6bfd,	// (0x00052e41) call_video_g2
+0x2109,	// (0x0004f030) skin_t2
 
 0x0001,
 
-0xf288,	// (0x0005b4cc) call_video_g_ParamLimits
+0xf274,	// (0x0005c19b) skin_t
 
-0xf288,	// (0x0005b4cc) call_video_g
+0x6a07,	// (0x0005392e) cell_skin_colour_pane_ParamLimits
 
-0x6c57,	// (0x00052e9b) call_video_uplink_pane_cp1_ParamLimits
+0x6a07,	// (0x0005392e) cell_skin_colour_pane
 
-0x6c57,	// (0x00052e9b) call_video_uplink_pane_cp1
+0x2117,	// (0x0004f03e) cell_skin_colour_pane_g1
 
-0x24a7,	// (0x0004e6eb) call_video_uplink_pane_cp2
+0x6a8b,	// (0x000539b2) call_video_g1_ParamLimits
 
-0x6d23,	// (0x00052f67) video_down_crop_pane_ParamLimits
+0x6a8b,	// (0x000539b2) call_video_g1
 
-0x6d23,	// (0x00052f67) video_down_crop_pane
+0x6a9b,	// (0x000539c2) call_video_g2_ParamLimits
 
-0x6e21,	// (0x00053065) video_down_pane_ParamLimits
-
-0x6e21,	// (0x00053065) video_down_pane
-
-0x24af,	// (0x0004e6f3) video_down_subqcif_pane_ParamLimits
-
-0x24af,	// (0x0004e6f3) video_down_subqcif_pane
-
-0x24c7,	// (0x0004e70b) video_down_subqcif_pane_cp_ParamLimits
-
-0x24c7,	// (0x0004e70b) video_down_subqcif_pane_cp
-
-0x24ed,	// (0x0004e731) im_reading_pane_ParamLimits
-
-0x24ed,	// (0x0004e731) im_reading_pane
-
-0x6f43,	// (0x00053187) im_writing_pane_ParamLimits
-
-0x6f43,	// (0x00053187) im_writing_pane
-
-0x6f61,	// (0x000531a5) im_reading_pane_t1
-
-0x2507,	// (0x0004e74b) list_im_pane
-
-0x2518,	// (0x0004e75c) scroll_pane_cp07
-
-0x6fb5,	// (0x000531f9) im_writing_pane_t1_ParamLimits
-
-0x6fb5,	// (0x000531f9) im_writing_pane_t1
-
-0x2531,	// (0x0004e775) im_writing_pane_t2_ParamLimits
-
-0x2531,	// (0x0004e775) im_writing_pane_t2
+0x6a9b,	// (0x000539c2) call_video_g2
 
 0x0001,
 
-0xf292,	// (0x0005b4d6) im_writing_pane_t_ParamLimits
+0xf279,	// (0x0005c1a0) call_video_g_ParamLimits
 
-0xf292,	// (0x0005b4d6) im_writing_pane_t
+0xf279,	// (0x0005c1a0) call_video_g
 
-0x1f3b,	// (0x0004e17f) input_focus_pane_cp04
+0x6af5,	// (0x00053a1c) call_video_uplink_pane_cp1_ParamLimits
 
-0x1f3b,	// (0x0004e17f) input_focus_pane_cp05
+0x6af5,	// (0x00053a1c) call_video_uplink_pane_cp1
 
-0x6fca,	// (0x0005320e) list_im_single_pane_ParamLimits
+0x2129,	// (0x0004f050) call_video_uplink_pane_cp2
 
-0x6fca,	// (0x0005320e) list_im_single_pane
+0x6bc1,	// (0x00053ae8) video_down_crop_pane_ParamLimits
 
-0x6fee,	// (0x00053232) list_single_im_pane_t1
+0x6bc1,	// (0x00053ae8) video_down_crop_pane
 
-0x8b14,	// (0x00054d58) blid_accuracy_pane
+0x6cbf,	// (0x00053be6) video_down_pane_ParamLimits
 
-0x8b1c,	// (0x00054d60) blid_compass_pane
+0x6cbf,	// (0x00053be6) video_down_pane
 
-0x8b26,	// (0x00054d6a) main_location_t1
+0x2131,	// (0x0004f058) video_down_subqcif_pane_ParamLimits
 
-0x8b34,	// (0x00054d78) main_location_t2
+0x2131,	// (0x0004f058) video_down_subqcif_pane
 
-0x8b42,	// (0x00054d86) main_location_t3
+0x2149,	// (0x0004f070) video_down_subqcif_pane_cp_ParamLimits
+
+0x2149,	// (0x0004f070) video_down_subqcif_pane_cp
+
+0x216f,	// (0x0004f096) im_reading_pane_ParamLimits
+
+0x216f,	// (0x0004f096) im_reading_pane
+
+0x6de1,	// (0x00053d08) im_writing_pane_ParamLimits
+
+0x6de1,	// (0x00053d08) im_writing_pane
+
+0x6dff,	// (0x00053d26) im_reading_pane_t1
+
+0x2189,	// (0x0004f0b0) list_im_pane
+
+0x219a,	// (0x0004f0c1) scroll_pane_cp07
+
+0x6e53,	// (0x00053d7a) im_writing_pane_t1_ParamLimits
+
+0x6e53,	// (0x00053d7a) im_writing_pane_t1
+
+0x21b3,	// (0x0004f0da) im_writing_pane_t2_ParamLimits
+
+0x21b3,	// (0x0004f0da) im_writing_pane_t2
+
+0x0001,
+
+0xf283,	// (0x0005c1aa) im_writing_pane_t_ParamLimits
+
+0xf283,	// (0x0005c1aa) im_writing_pane_t
+
+0x1bbd,	// (0x0004eae4) input_focus_pane_cp04
+
+0x1bbd,	// (0x0004eae4) input_focus_pane_cp05
+
+0x6e68,	// (0x00053d8f) list_im_single_pane_ParamLimits
+
+0x6e68,	// (0x00053d8f) list_im_single_pane
+
+0x6e8c,	// (0x00053db3) list_single_im_pane_t1
+
+0x89b2,	// (0x000558d9) blid_accuracy_pane
+
+0x89ba,	// (0x000558e1) blid_compass_pane
+
+0x89c4,	// (0x000558eb) main_location_t1
+
+0x89d2,	// (0x000558f9) main_location_t2
+
+0x89e0,	// (0x00055907) main_location_t3
 
 0x0002,
 
-0xf5f9,	// (0x0005b83d) main_location_t
+0xf5ea,	// (0x0005c511) main_location_t
 
-0x1f3b,	// (0x0004e17f) aid_levels_location
+0x1bbd,	// (0x0004eae4) aid_levels_location
 
-0x22be,	// (0x0004e502) blid_accuracy_pane_g1
+0x1f40,	// (0x0004ee67) blid_accuracy_pane_g1
 
-0x22be,	// (0x0004e502) blid_accuracy_pane_g2
+0x1f40,	// (0x0004ee67) blid_accuracy_pane_g2
 
 0x0001,
 
-0xf2f4,	// (0x0005b538) blid_accuracy_pane_g
+0xf2e5,	// (0x0005c20c) blid_accuracy_pane_g
 
-0x2579,	// (0x0004e7bd) wml_content_pane
+0x21fb,	// (0x0004f122) wml_content_pane
 
-0x25b7,	// (0x0004e7fb) wml_button_pane_ParamLimits
+0x2239,	// (0x0004f160) wml_button_pane_ParamLimits
 
-0x25b7,	// (0x0004e7fb) wml_button_pane
+0x2239,	// (0x0004f160) wml_button_pane
 
-0x6ffd,	// (0x00053241) wml_list_single_large_pane_ParamLimits
+0x6e9b,	// (0x00053dc2) wml_list_single_large_pane_ParamLimits
 
-0x6ffd,	// (0x00053241) wml_list_single_large_pane
+0x6e9b,	// (0x00053dc2) wml_list_single_large_pane
 
-0x7027,	// (0x0005326b) wml_list_single_medium_pane_ParamLimits
+0x6ec5,	// (0x00053dec) wml_list_single_medium_pane_ParamLimits
 
-0x7027,	// (0x0005326b) wml_list_single_medium_pane
+0x6ec5,	// (0x00053dec) wml_list_single_medium_pane
 
-0x7058,	// (0x0005329c) wml_list_single_small_pane_ParamLimits
+0x6ef6,	// (0x00053e1d) wml_list_single_small_pane_ParamLimits
 
-0x7058,	// (0x0005329c) wml_list_single_small_pane
+0x6ef6,	// (0x00053e1d) wml_list_single_small_pane
 
-0x25cb,	// (0x0004e80f) wml_selection_box_pane_ParamLimits
+0x224d,	// (0x0004f174) wml_selection_box_pane_ParamLimits
 
-0x25cb,	// (0x0004e80f) wml_selection_box_pane
+0x224d,	// (0x0004f174) wml_selection_box_pane
 
-0x25de,	// (0x0004e822) wml_list_single_pane_t1
+0x2260,	// (0x0004f187) wml_list_single_pane_t1
 
-0x25ed,	// (0x0004e831) wml_list_single_medium_pane_t1
+0x226f,	// (0x0004f196) wml_list_single_medium_pane_t1
 
-0x25fc,	// (0x0004e840) wml_list_single_large_pane_t1
+0x227e,	// (0x0004f1a5) wml_list_single_large_pane_t1
 
-0x260b,	// (0x0004e84f) input_focus_pane_cp02_ParamLimits
+0x228d,	// (0x0004f1b4) input_focus_pane_cp02_ParamLimits
 
-0x260b,	// (0x0004e84f) input_focus_pane_cp02
+0x228d,	// (0x0004f1b4) input_focus_pane_cp02
 
-0x261e,	// (0x0004e862) wml_selection_box_pane_g1
+0x22a0,	// (0x0004f1c7) wml_selection_box_pane_g1
 
-0x2627,	// (0x0004e86b) wml_selection_box_pane_t1_ParamLimits
+0x22a9,	// (0x0004f1d0) wml_selection_box_pane_t1_ParamLimits
 
-0x2627,	// (0x0004e86b) wml_selection_box_pane_t1
+0x22a9,	// (0x0004f1d0) wml_selection_box_pane_t1
 
-0x2196,	// (0x0004e3da) bg_wml_button_pane_ParamLimits
+0x1e18,	// (0x0004ed3f) bg_wml_button_pane_ParamLimits
 
-0x2196,	// (0x0004e3da) bg_wml_button_pane
+0x1e18,	// (0x0004ed3f) bg_wml_button_pane
 
-0x263f,	// (0x0004e883) wml_button_pane_g1
+0x22c1,	// (0x0004f1e8) wml_button_pane_g1
 
-0x2647,	// (0x0004e88b) wml_button_pane_t1
+0x22c9,	// (0x0004f1f0) wml_button_pane_t1
 
-0x263f,	// (0x0004e883) wml_button_bg_pane_g1
+0x22c1,	// (0x0004f1e8) wml_button_bg_pane_g1
 
-0x2657,	// (0x0004e89b) wml_button_bg_pane_g2
+0x22d9,	// (0x0004f200) wml_button_bg_pane_g2
 
-0x265f,	// (0x0004e8a3) wml_button_bg_pane_g3
+0x22e1,	// (0x0004f208) wml_button_bg_pane_g3
 
-0x2667,	// (0x0004e8ab) wml_button_bg_pane_g4
+0x22e9,	// (0x0004f210) wml_button_bg_pane_g4
 
-0x266f,	// (0x0004e8b3) wml_button_bg_pane_g5
+0x22f1,	// (0x0004f218) wml_button_bg_pane_g5
 
-0x2677,	// (0x0004e8bb) wml_button_bg_pane_g6
+0x22f9,	// (0x0004f220) wml_button_bg_pane_g6
 
-0x267f,	// (0x0004e8c3) wml_button_bg_pane_g7
+0x2301,	// (0x0004f228) wml_button_bg_pane_g7
 
-0x2687,	// (0x0004e8cb) wml_button_bg_pane_g8
+0x2309,	// (0x0004f230) wml_button_bg_pane_g8
 
-0x268f,	// (0x0004e8d3) wml_button_bg_pane_g9
+0x2311,	// (0x0004f238) wml_button_bg_pane_g9
 
 0x0008,
 
-0xf297,	// (0x0005b4db) wml_button_bg_pane_g
+0xf288,	// (0x0005c1af) wml_button_bg_pane_g
 
-0x7092,	// (0x000532d6) bg_list_pane_cp02
+0x6f30,	// (0x00053e57) bg_list_pane_cp02
 
-0x2697,	// (0x0004e8db) mce_header_pane_ParamLimits
+0x2319,	// (0x0004f240) mce_header_pane_ParamLimits
 
-0x2697,	// (0x0004e8db) mce_header_pane
+0x2319,	// (0x0004f240) mce_header_pane
 
-0x26ad,	// (0x0004e8f1) mce_icon_pane
+0x232f,	// (0x0004f256) mce_icon_pane
 
-0x26ad,	// (0x0004e8f1) mce_image_pane
+0x232f,	// (0x0004f256) mce_image_pane
 
-0x26b6,	// (0x0004e8fa) mce_text_pane_ParamLimits
+0x2338,	// (0x0004f25f) mce_text_pane_ParamLimits
 
-0x26b6,	// (0x0004e8fa) mce_text_pane
+0x2338,	// (0x0004f25f) mce_text_pane
 
-0x709c,	// (0x000532e0) scroll_pane_cp03
+0x6f3a,	// (0x00053e61) scroll_pane_cp03
 
-0x25af,	// (0x0004e7f3) scroll_pane_cp04
+0x2231,	// (0x0004f158) scroll_pane_cp04
 
-0x26c9,	// (0x0004e90d) scroll_pane_cp05_ParamLimits
+0x234b,	// (0x0004f272) scroll_pane_cp05_ParamLimits
 
-0x26c9,	// (0x0004e90d) scroll_pane_cp05
+0x234b,	// (0x0004f272) scroll_pane_cp05
 
-0x70a6,	// (0x000532ea) mce_header_field_pane_ParamLimits
+0x6f44,	// (0x00053e6b) mce_header_field_pane_ParamLimits
 
-0x70a6,	// (0x000532ea) mce_header_field_pane
+0x6f44,	// (0x00053e6b) mce_header_field_pane
 
-0x70c6,	// (0x0005330a) mce_header_field_pane_2_ParamLimits
+0x6f64,	// (0x00053e8b) mce_header_field_pane_2_ParamLimits
 
-0x70c6,	// (0x0005330a) mce_header_field_pane_2
+0x6f64,	// (0x00053e8b) mce_header_field_pane_2
 
-0x70dc,	// (0x00053320) mce_header_field_pane_3
+0x6f7a,	// (0x00053ea1) mce_header_field_pane_3
 
-0x70e4,	// (0x00053328) list_single_mce_message_pane_ParamLimits
+0x6f82,	// (0x00053ea9) list_single_mce_message_pane_ParamLimits
 
-0x70e4,	// (0x00053328) list_single_mce_message_pane
+0x6f82,	// (0x00053ea9) list_single_mce_message_pane
 
-0x7109,	// (0x0005334d) list_single_mce_smart_pane_ParamLimits
+0x6fa7,	// (0x00053ece) list_single_mce_smart_pane_ParamLimits
 
-0x7109,	// (0x0005334d) list_single_mce_smart_pane
+0x6fa7,	// (0x00053ece) list_single_mce_smart_pane
 
-0x26d5,	// (0x0004e919) input_focus_pane_cp03
+0x2357,	// (0x0004f27e) input_focus_pane_cp03
 
-0x26de,	// (0x0004e922) list_header_data_pane
+0x2360,	// (0x0004f287) list_header_data_pane
 
-0x7139,	// (0x0005337d) mce_header_field_pane_t1
+0x6fd7,	// (0x00053efe) mce_header_field_pane_t1
 
-0x7147,	// (0x0005338b) list_single_mce_header_pane_ParamLimits
+0x6fe5,	// (0x00053f0c) list_single_mce_header_pane_ParamLimits
 
-0x7147,	// (0x0005338b) list_single_mce_header_pane
+0x6fe5,	// (0x00053f0c) list_single_mce_header_pane
 
-0x26e6,	// (0x0004e92a) list_single_mce_header_pane_t1
+0x2368,	// (0x0004f28f) list_single_mce_header_pane_t1
 
-0x26f5,	// (0x0004e939) list_single_mce_message_pane_g1
+0x2377,	// (0x0004f29e) list_single_mce_message_pane_g1
 
-0x26fd,	// (0x0004e941) list_single_mce_message_pane_t1
+0x237f,	// (0x0004f2a6) list_single_mce_message_pane_t1
 
-0x718b,	// (0x000533cf) bg_cale_heading_pane_cp01_ParamLimits
+0x7029,	// (0x00053f50) bg_cale_heading_pane_cp01_ParamLimits
 
-0x718b,	// (0x000533cf) bg_cale_heading_pane_cp01
+0x7029,	// (0x00053f50) bg_cale_heading_pane_cp01
 
-0x270b,	// (0x0004e94f) bg_cale_pane_cp02_ParamLimits
+0x238d,	// (0x0004f2b4) bg_cale_pane_cp02_ParamLimits
 
-0x270b,	// (0x0004e94f) bg_cale_pane_cp02
+0x238d,	// (0x0004f2b4) bg_cale_pane_cp02
 
-0x71be,	// (0x00053402) cale_month_corner_pane
+0x705c,	// (0x00053f83) cale_month_corner_pane
 
-0x71d4,	// (0x00053418) cale_month_day_heading_pane_ParamLimits
+0x7072,	// (0x00053f99) cale_month_day_heading_pane_ParamLimits
 
-0x71d4,	// (0x00053418) cale_month_day_heading_pane
+0x7072,	// (0x00053f99) cale_month_day_heading_pane
 
-0x7217,	// (0x0005345b) cale_month_pane_g1_ParamLimits
+0x70b5,	// (0x00053fdc) cale_month_pane_g1_ParamLimits
 
-0x7217,	// (0x0005345b) cale_month_pane_g1
+0x70b5,	// (0x00053fdc) cale_month_pane_g1
 
-0x7243,	// (0x00053487) cale_month_pane_g2_ParamLimits
+0x70e1,	// (0x00054008) cale_month_pane_g2_ParamLimits
 
-0x7243,	// (0x00053487) cale_month_pane_g2
+0x70e1,	// (0x00054008) cale_month_pane_g2
 
-0x7266,	// (0x000534aa) cale_month_pane_g3_ParamLimits
+0x7104,	// (0x0005402b) cale_month_pane_g3_ParamLimits
 
-0x7266,	// (0x000534aa) cale_month_pane_g3
+0x7104,	// (0x0005402b) cale_month_pane_g3
 
-0x72a2,	// (0x000534e6) cale_month_pane_g4_ParamLimits
+0x7140,	// (0x00054067) cale_month_pane_g4_ParamLimits
 
-0x72a2,	// (0x000534e6) cale_month_pane_g4
+0x7140,	// (0x00054067) cale_month_pane_g4
 
-0x72de,	// (0x00053522) cale_month_pane_g5_ParamLimits
+0x717c,	// (0x000540a3) cale_month_pane_g5_ParamLimits
 
-0x72de,	// (0x00053522) cale_month_pane_g5
+0x717c,	// (0x000540a3) cale_month_pane_g5
 
-0x731a,	// (0x0005355e) cale_month_pane_g6_ParamLimits
+0x71b8,	// (0x000540df) cale_month_pane_g6_ParamLimits
 
-0x731a,	// (0x0005355e) cale_month_pane_g6
+0x71b8,	// (0x000540df) cale_month_pane_g6
 
-0x7356,	// (0x0005359a) cale_month_pane_g7_ParamLimits
+0x71f4,	// (0x0005411b) cale_month_pane_g7_ParamLimits
 
-0x7356,	// (0x0005359a) cale_month_pane_g7
+0x71f4,	// (0x0005411b) cale_month_pane_g7
 
-0x73a2,	// (0x000535e6) cale_month_pane_g8_ParamLimits
+0x7240,	// (0x00054167) cale_month_pane_g8_ParamLimits
 
-0x73a2,	// (0x000535e6) cale_month_pane_g8
+0x7240,	// (0x00054167) cale_month_pane_g8
 
-0x73ee,	// (0x00053632) cale_month_pane_g9_ParamLimits
+0x728c,	// (0x000541b3) cale_month_pane_g9_ParamLimits
 
-0x73ee,	// (0x00053632) cale_month_pane_g9
+0x728c,	// (0x000541b3) cale_month_pane_g9
 
-0x7434,	// (0x00053678) cale_month_pane_g10_ParamLimits
+0x72d2,	// (0x000541f9) cale_month_pane_g10_ParamLimits
 
-0x7434,	// (0x00053678) cale_month_pane_g10
+0x72d2,	// (0x000541f9) cale_month_pane_g10
 
-0x746e,	// (0x000536b2) cale_month_pane_g11_ParamLimits
+0x730c,	// (0x00054233) cale_month_pane_g11_ParamLimits
 
-0x746e,	// (0x000536b2) cale_month_pane_g11
+0x730c,	// (0x00054233) cale_month_pane_g11
 
-0x74ac,	// (0x000536f0) cale_month_pane_g12_ParamLimits
+0x734a,	// (0x00054271) cale_month_pane_g12_ParamLimits
 
-0x74ac,	// (0x000536f0) cale_month_pane_g12
+0x734a,	// (0x00054271) cale_month_pane_g12
 
-0x74ea,	// (0x0005372e) cale_month_pane_g13_ParamLimits
+0x7388,	// (0x000542af) cale_month_pane_g13_ParamLimits
 
-0x74ea,	// (0x0005372e) cale_month_pane_g13
+0x7388,	// (0x000542af) cale_month_pane_g13
 
 0x000c,
 
-0xf2aa,	// (0x0005b4ee) cale_month_pane_g_ParamLimits
+0xf29b,	// (0x0005c1c2) cale_month_pane_g_ParamLimits
 
-0xf2aa,	// (0x0005b4ee) cale_month_pane_g
+0xf29b,	// (0x0005c1c2) cale_month_pane_g
 
-0x7528,	// (0x0005376c) cale_month_week_pane
+0x73c6,	// (0x000542ed) cale_month_week_pane
 
-0x753b,	// (0x0005377f) grid_cale_month_pane_ParamLimits
+0x73d9,	// (0x00054300) grid_cale_month_pane_ParamLimits
 
-0x753b,	// (0x0005377f) grid_cale_month_pane
+0x73d9,	// (0x00054300) grid_cale_month_pane
 
-0x7579,	// (0x000537bd) cale_month_day_heading_pane_t1
+0x7417,	// (0x0005433e) cale_month_day_heading_pane_t1
 
-0x75d7,	// (0x0005381b) cale_month_day_heading_pane_t2
+0x7475,	// (0x0005439c) cale_month_day_heading_pane_t2
 
-0x763c,	// (0x00053880) cale_month_day_heading_pane_t3
+0x74da,	// (0x00054401) cale_month_day_heading_pane_t3
 
-0x76a1,	// (0x000538e5) cale_month_day_heading_pane_t4
+0x753f,	// (0x00054466) cale_month_day_heading_pane_t4
 
-0x7706,	// (0x0005394a) cale_month_day_heading_pane_t5
+0x75a4,	// (0x000544cb) cale_month_day_heading_pane_t5
 
-0x776b,	// (0x000539af) cale_month_day_heading_pane_t6
+0x7609,	// (0x00054530) cale_month_day_heading_pane_t6
 
-0x77d0,	// (0x00053a14) cale_month_day_heading_pane_t7
+0x766e,	// (0x00054595) cale_month_day_heading_pane_t7
 
 0x0006,
 
-0xf2c5,	// (0x0005b509) cale_month_day_heading_pane_t
+0xf2b6,	// (0x0005c1dd) cale_month_day_heading_pane_t
 
-0x23a9,	// (0x0004e5ed) bg_cale_side_pane_cp01
+0x202b,	// (0x0004ef52) bg_cale_side_pane_cp01
 
-0x7845,	// (0x00053a89) cale_month_week_pane_t1
+0x76e3,	// (0x0005460a) cale_month_week_pane_t1
 
-0x785c,	// (0x00053aa0) cale_month_week_pane_t2
+0x76fa,	// (0x00054621) cale_month_week_pane_t2
 
-0x7873,	// (0x00053ab7) cale_month_week_pane_t3
+0x7711,	// (0x00054638) cale_month_week_pane_t3
 
-0x788a,	// (0x00053ace) cale_month_week_pane_t4
+0x7728,	// (0x0005464f) cale_month_week_pane_t4
 
-0x78a1,	// (0x00053ae5) cale_month_week_pane_t5
+0x773f,	// (0x00054666) cale_month_week_pane_t5
 
-0x78bc,	// (0x00053b00) cale_month_week_pane_t6
-
-0x0005,
-
-0xf2d4,	// (0x0005b518) cale_month_week_pane_t
-
-0x78db,	// (0x00053b1f) cell_cale_month_pane_ParamLimits
-
-0x78db,	// (0x00053b1f) cell_cale_month_pane
-
-0x79a1,	// (0x00053be5) cell_cale_month_pane_g1
-
-0x79ad,	// (0x00053bf1) cell_cale_month_pane_t1_ParamLimits
-
-0x79ad,	// (0x00053bf1) cell_cale_month_pane_t1
-
-0x23b7,	// (0x0004e5fb) grid_highlight_pane_cp08
-
-0x22be,	// (0x0004e502) main_smil_g1
-
-0x79c9,	// (0x00053c0d) smil_status_pane
-
-0x2740,	// (0x0004e984) smil_text_pane
-
-0x3f95,	// (0x000501d9) bg_popup_call3_rect_pane_g8
-
-0x3f9d,	// (0x000501e1) bg_popup_call3_rect_pane_g9
-
-0x0008,
-
-0xf58d,	// (0x0005b7d1) bg_popup_call3_rect_pane_g
-
-0x422a,	// (0x0005046e) smil_status_volume_pane_g1
-
-0x274a,	// (0x0004e98e) smil_status_pane_t1
-
-0x8efa,	// (0x0005513e) volume_smil_pane
-
-0x2761,	// (0x0004e9a5) list_smil_text_pane
-
-0x79dc,	// (0x00053c20) scroll_pane_cp011
-
-0x79e7,	// (0x00053c2b) smil_text_list_pane_t1_ParamLimits
-
-0x79e7,	// (0x00053c2b) smil_text_list_pane_t1
-
-0x7a5f,	// (0x00053ca3) aid_volume_smil_ParamLimits
-
-0x7a5f,	// (0x00053ca3) aid_volume_smil
-
-0x22be,	// (0x0004e502) smil_volume_pane_g1
-
-0x22be,	// (0x0004e502) smil_volume_pane_g2
-
-0x0001,
-
-0xf2f4,	// (0x0005b538) smil_volume_pane_g
-
-0x2269,	// (0x0004e4ad) listscroll_cale_day_pane
-
-0x276b,	// (0x0004e9af) bg_cale_pane
-
-0x2783,	// (0x0004e9c7) list_cale_pane
-
-0x2794,	// (0x0004e9d8) scroll_pane_cp09
-
-0x27a5,	// (0x0004e9e9) cale_bg_pane_g1
-
-0x27ad,	// (0x0004e9f1) cale_bg_pane_g2
-
-0x27b5,	// (0x0004e9f9) cale_bg_pane_g3
-
-0x27bd,	// (0x0004ea01) cale_bg_pane_g4
-
-0x27c5,	// (0x0004ea09) cale_bg_pane_g5
-
-0x27cd,	// (0x0004ea11) cale_bg_pane_g6
-
-0x27d5,	// (0x0004ea19) cale_bg_pane_g7
-
-0x27dd,	// (0x0004ea21) cale_bg_pane_g8
-
-0x27e5,	// (0x0004ea29) cale_bg_pane_g9
-
-0x0008,
-
-0xf2f9,	// (0x0005b53d) cale_bg_pane_g
-
-0x7a81,	// (0x00053cc5) list_cale_time_pane_ParamLimits
-
-0x7a81,	// (0x00053cc5) list_cale_time_pane
-
-0x27ed,	// (0x0004ea31) list_cale_time_pane_g1_ParamLimits
-
-0x27ed,	// (0x0004ea31) list_cale_time_pane_g1
-
-0x27f9,	// (0x0004ea3d) list_cale_time_pane_g2_ParamLimits
-
-0x27f9,	// (0x0004ea3d) list_cale_time_pane_g2
-
-0x7a9d,	// (0x00053ce1) list_cale_time_pane_g3_ParamLimits
-
-0x7a9d,	// (0x00053ce1) list_cale_time_pane_g3
-
-0x7aab,	// (0x00053cef) list_cale_time_pane_g4_ParamLimits
-
-0x7aab,	// (0x00053cef) list_cale_time_pane_g4
-
-0x7ab9,	// (0x00053cfd) list_cale_time_pane_g5_ParamLimits
-
-0x7ab9,	// (0x00053cfd) list_cale_time_pane_g5
+0x775a,	// (0x00054681) cale_month_week_pane_t6
 
 0x0005,
 
-0xf30c,	// (0x0005b550) list_cale_time_pane_g_ParamLimits
+0xf2c5,	// (0x0005c1ec) cale_month_week_pane_t
 
-0xf30c,	// (0x0005b550) list_cale_time_pane_g
+0x7779,	// (0x000546a0) cell_cale_month_pane_ParamLimits
 
-0x2813,	// (0x0004ea57) list_cale_time_pane_t1_ParamLimits
+0x7779,	// (0x000546a0) cell_cale_month_pane
 
-0x2813,	// (0x0004ea57) list_cale_time_pane_t1
+0x783f,	// (0x00054766) cell_cale_month_pane_g1
 
-0x283b,	// (0x0004ea7f) list_cale_time_pane_t2_ParamLimits
+0x784b,	// (0x00054772) cell_cale_month_pane_t1_ParamLimits
 
-0x283b,	// (0x0004ea7f) list_cale_time_pane_t2
+0x784b,	// (0x00054772) cell_cale_month_pane_t1
 
-0x7dea,	// (0x0005402e) aid_blid_cardinal_pane
+0x2039,	// (0x0004ef60) grid_highlight_pane_cp08
 
-0x7e2c,	// (0x00054070) compass_pane_t4
+0x1f40,	// (0x0004ee67) main_smil_g1
 
-0x2863,	// (0x0004eaa7) list_cale_time_pane_t4_ParamLimits
+0x7867,	// (0x0005478e) smil_status_pane
 
-0x2863,	// (0x0004eaa7) list_cale_time_pane_t4
+0x23c2,	// (0x0004f2e9) smil_text_pane
 
-0x7e3a,	// (0x0005407e) compass_pane_t5
+0x3c17,	// (0x00050b3e) bg_popup_call3_rect_pane_g8
 
-0x7e4a,	// (0x0005408e) compass_pane_t6
+0x3c1f,	// (0x00050b46) bg_popup_call3_rect_pane_g9
 
-0x7e58,	// (0x0005409c) compass_pane_t7
+0x0008,
 
-0x2c8e,	// (0x0004eed2) navi_pane_cc_t1
+0xf57e,	// (0x0005c4a5) bg_popup_call3_rect_pane_g
 
-0x2df1,	// (0x0004f035) aid_phob_thumbnail_center_pane
+0x3e6d,	// (0x00050d94) smil_status_volume_pane_g1
 
-0x861a,	// (0x0005485e) main_postcard_pane_g4_ParamLimits
+0x23cc,	// (0x0004f2f3) smil_status_pane_t1
 
-0x0002,
+0x8de5,	// (0x00055d0c) volume_smil_pane
 
-0xf319,	// (0x0005b55d) list_cale_time_pane_t_ParamLimits
+0x23e3,	// (0x0004f30a) list_smil_text_pane
 
-0xf319,	// (0x0005b55d) list_cale_time_pane_t
+0x787a,	// (0x000547a1) scroll_pane_cp011
 
-0x1b92,	// (0x0004ddd6) bg_popup_window_pane_cp02_ParamLimits
+0x7885,	// (0x000547ac) smil_text_list_pane_t1_ParamLimits
 
-0x1b92,	// (0x0004ddd6) bg_popup_window_pane_cp02
+0x7885,	// (0x000547ac) smil_text_list_pane_t1
 
-0x288b,	// (0x0004eacf) heading_pane_cp01_ParamLimits
+0x78fd,	// (0x00054824) aid_volume_smil_ParamLimits
 
-0x288b,	// (0x0004eacf) heading_pane_cp01
+0x78fd,	// (0x00054824) aid_volume_smil
 
-0x2897,	// (0x0004eadb) loc_req_pane_ParamLimits
+0x1f40,	// (0x0004ee67) smil_volume_pane_g1
 
-0x2897,	// (0x0004eadb) loc_req_pane
-
-0x28a7,	// (0x0004eaeb) loc_type_pane_ParamLimits
-
-0x28a7,	// (0x0004eaeb) loc_type_pane
-
-0x28b9,	// (0x0004eafd) loc_type_pane_t1_ParamLimits
-
-0x28b9,	// (0x0004eafd) loc_type_pane_t1
-
-0x28cb,	// (0x0004eb0f) loc_type_pane_t2_ParamLimits
-
-0x28cb,	// (0x0004eb0f) loc_type_pane_t2
-
-0x28dd,	// (0x0004eb21) loc_type_pane_t3_ParamLimits
-
-0x28dd,	// (0x0004eb21) loc_type_pane_t3
-
-0x0002,
-
-0xf320,	// (0x0005b564) loc_type_pane_t_ParamLimits
-
-0xf320,	// (0x0005b564) loc_type_pane_t
-
-0x28ef,	// (0x0004eb33) list_loc_req_pane
-
-0x28f9,	// (0x0004eb3d) scroll_pane_cp012
-
-0x7ac7,	// (0x00053d0b) list_single_loc_request_popup_menu_pane_ParamLimits
-
-0x7ac7,	// (0x00053d0b) list_single_loc_request_popup_menu_pane
-
-0x2904,	// (0x0004eb48) list_single_loc_request_popup_menu_pane_g1_ParamLimits
-
-0x2904,	// (0x0004eb48) list_single_loc_request_popup_menu_pane_g1
-
-0x2910,	// (0x0004eb54) list_single_loc_request_popup_menu_pane_g2_ParamLimits
-
-0x2910,	// (0x0004eb54) list_single_loc_request_popup_menu_pane_g2
+0x1f40,	// (0x0004ee67) smil_volume_pane_g2
 
 0x0001,
 
-0xf327,	// (0x0005b56b) list_single_loc_request_popup_menu_pane_g_ParamLimits
+0xf2e5,	// (0x0005c20c) smil_volume_pane_g
 
-0xf327,	// (0x0005b56b) list_single_loc_request_popup_menu_pane_g
+0x1eeb,	// (0x0004ee12) listscroll_cale_day_pane
 
-0x291c,	// (0x0004eb60) list_single_loc_request_popup_menu_pane_t1_ParamLimits
+0x23ed,	// (0x0004f314) bg_cale_pane
 
-0x291c,	// (0x0004eb60) list_single_loc_request_popup_menu_pane_t1
+0x2405,	// (0x0004f32c) list_cale_pane
 
-0x7ad9,	// (0x00053d1d) bg_popup_window_pane_cp03_ParamLimits
+0x2416,	// (0x0004f33d) scroll_pane_cp09
 
-0x7ad9,	// (0x00053d1d) bg_popup_window_pane_cp03
+0x2427,	// (0x0004f34e) cale_bg_pane_g1
 
-0x7ae7,	// (0x00053d2b) heading_loc_req_pane_ParamLimits
+0x242f,	// (0x0004f356) cale_bg_pane_g2
 
-0x7ae7,	// (0x00053d2b) heading_loc_req_pane
+0x2437,	// (0x0004f35e) cale_bg_pane_g3
 
-0x7af3,	// (0x00053d37) popup_dyc_status_message_window_g1_ParamLimits
+0x243f,	// (0x0004f366) cale_bg_pane_g4
 
-0x7af3,	// (0x00053d37) popup_dyc_status_message_window_g1
+0x2447,	// (0x0004f36e) cale_bg_pane_g5
 
-0x7aff,	// (0x00053d43) popup_dyc_status_message_window_t1_ParamLimits
+0x244f,	// (0x0004f376) cale_bg_pane_g6
 
-0x7aff,	// (0x00053d43) popup_dyc_status_message_window_t1
+0x2457,	// (0x0004f37e) cale_bg_pane_g7
 
-0x7b11,	// (0x00053d55) popup_dyc_status_message_window_t2_ParamLimits
+0x245f,	// (0x0004f386) cale_bg_pane_g8
 
-0x7b11,	// (0x00053d55) popup_dyc_status_message_window_t2
+0x2467,	// (0x0004f38e) cale_bg_pane_g9
 
-0x7b23,	// (0x00053d67) popup_dyc_status_message_window_t3_ParamLimits
+0x0008,
 
-0x7b23,	// (0x00053d67) popup_dyc_status_message_window_t3
+0xf2ea,	// (0x0005c211) cale_bg_pane_g
+
+0x791f,	// (0x00054846) list_cale_time_pane_ParamLimits
+
+0x791f,	// (0x00054846) list_cale_time_pane
+
+0x246f,	// (0x0004f396) list_cale_time_pane_g1_ParamLimits
+
+0x246f,	// (0x0004f396) list_cale_time_pane_g1
+
+0x247b,	// (0x0004f3a2) list_cale_time_pane_g2_ParamLimits
+
+0x247b,	// (0x0004f3a2) list_cale_time_pane_g2
+
+0x793b,	// (0x00054862) list_cale_time_pane_g3_ParamLimits
+
+0x793b,	// (0x00054862) list_cale_time_pane_g3
+
+0x7949,	// (0x00054870) list_cale_time_pane_g4_ParamLimits
+
+0x7949,	// (0x00054870) list_cale_time_pane_g4
+
+0x7957,	// (0x0005487e) list_cale_time_pane_g5_ParamLimits
+
+0x7957,	// (0x0005487e) list_cale_time_pane_g5
+
+0x0005,
+
+0xf2fd,	// (0x0005c224) list_cale_time_pane_g_ParamLimits
+
+0xf2fd,	// (0x0005c224) list_cale_time_pane_g
+
+0x2495,	// (0x0004f3bc) list_cale_time_pane_t1_ParamLimits
+
+0x2495,	// (0x0004f3bc) list_cale_time_pane_t1
+
+0x24bd,	// (0x0004f3e4) list_cale_time_pane_t2_ParamLimits
+
+0x24bd,	// (0x0004f3e4) list_cale_time_pane_t2
+
+0x7c88,	// (0x00054baf) aid_blid_cardinal_pane
+
+0x7cca,	// (0x00054bf1) compass_pane_t4
+
+0x24e5,	// (0x0004f40c) list_cale_time_pane_t4_ParamLimits
+
+0x24e5,	// (0x0004f40c) list_cale_time_pane_t4
+
+0x7cd8,	// (0x00054bff) compass_pane_t5
+
+0x7ce8,	// (0x00054c0f) compass_pane_t6
+
+0x7cf6,	// (0x00054c1d) compass_pane_t7
+
+0x2910,	// (0x0004f837) navi_pane_cc_t1
+
+0x2a73,	// (0x0004f99a) aid_phob_thumbnail_center_pane
+
+0x84b8,	// (0x000553df) main_postcard_pane_g4_ParamLimits
 
 0x0002,
 
-0xf32c,	// (0x0005b570) popup_dyc_status_message_window_t_ParamLimits
+0xf30a,	// (0x0005c231) list_cale_time_pane_t_ParamLimits
 
-0xf32c,	// (0x0005b570) popup_dyc_status_message_window_t
+0xf30a,	// (0x0005c231) list_cale_time_pane_t
 
-0x1f3b,	// (0x0004e17f) bg_heading_pane_cp01
+0x1814,	// (0x0004e73b) bg_popup_window_pane_cp02_ParamLimits
 
-0x2932,	// (0x0004eb76) heading_loc_req_pane_g1
+0x1814,	// (0x0004e73b) bg_popup_window_pane_cp02
 
-0x293a,	// (0x0004eb7e) heading_loc_req_pane_g2
+0x250d,	// (0x0004f434) heading_pane_cp01_ParamLimits
 
-0x2942,	// (0x0004eb86) heading_loc_req_pane_g3
+0x250d,	// (0x0004f434) heading_pane_cp01
+
+0x2519,	// (0x0004f440) loc_req_pane_ParamLimits
+
+0x2519,	// (0x0004f440) loc_req_pane
+
+0x2529,	// (0x0004f450) loc_type_pane_ParamLimits
+
+0x2529,	// (0x0004f450) loc_type_pane
+
+0x253b,	// (0x0004f462) loc_type_pane_t1_ParamLimits
+
+0x253b,	// (0x0004f462) loc_type_pane_t1
+
+0x254d,	// (0x0004f474) loc_type_pane_t2_ParamLimits
+
+0x254d,	// (0x0004f474) loc_type_pane_t2
+
+0x255f,	// (0x0004f486) loc_type_pane_t3_ParamLimits
+
+0x255f,	// (0x0004f486) loc_type_pane_t3
 
 0x0002,
 
-0xf333,	// (0x0005b577) heading_loc_req_pane_g
+0xf311,	// (0x0005c238) loc_type_pane_t_ParamLimits
 
-0x294a,	// (0x0004eb8e) heading_loc_req_pane_t1
+0xf311,	// (0x0005c238) loc_type_pane_t
 
-0x2959,	// (0x0004eb9d) bg_popup_sub_pane_cp01_ParamLimits
+0x2571,	// (0x0004f498) list_loc_req_pane
 
-0x2959,	// (0x0004eb9d) bg_popup_sub_pane_cp01
+0x257b,	// (0x0004f4a2) scroll_pane_cp012
 
-0x2967,	// (0x0004ebab) popup_cale_events_window_g1_ParamLimits
+0x7965,	// (0x0005488c) list_single_loc_request_popup_menu_pane_ParamLimits
 
-0x2967,	// (0x0004ebab) popup_cale_events_window_g1
+0x7965,	// (0x0005488c) list_single_loc_request_popup_menu_pane
 
-0x2987,	// (0x0004ebcb) popup_cale_events_window_g2_ParamLimits
+0x2586,	// (0x0004f4ad) list_single_loc_request_popup_menu_pane_g1_ParamLimits
 
-0x2987,	// (0x0004ebcb) popup_cale_events_window_g2
+0x2586,	// (0x0004f4ad) list_single_loc_request_popup_menu_pane_g1
+
+0x2592,	// (0x0004f4b9) list_single_loc_request_popup_menu_pane_g2_ParamLimits
+
+0x2592,	// (0x0004f4b9) list_single_loc_request_popup_menu_pane_g2
 
 0x0001,
 
-0xf367,	// (0x0005b5ab) popup_cale_events_window_g_ParamLimits
+0xf318,	// (0x0005c23f) list_single_loc_request_popup_menu_pane_g_ParamLimits
 
-0xf367,	// (0x0005b5ab) popup_cale_events_window_g
+0xf318,	// (0x0005c23f) list_single_loc_request_popup_menu_pane_g
 
-0x29a7,	// (0x0004ebeb) popup_cale_events_window_t1_ParamLimits
+0x259e,	// (0x0004f4c5) list_single_loc_request_popup_menu_pane_t1_ParamLimits
 
-0x29a7,	// (0x0004ebeb) popup_cale_events_window_t1
+0x259e,	// (0x0004f4c5) list_single_loc_request_popup_menu_pane_t1
 
-0x29b9,	// (0x0004ebfd) popup_cale_events_window_t2_ParamLimits
+0x7977,	// (0x0005489e) bg_popup_window_pane_cp03_ParamLimits
 
-0x29b9,	// (0x0004ebfd) popup_cale_events_window_t2
+0x7977,	// (0x0005489e) bg_popup_window_pane_cp03
 
-0x29f7,	// (0x0004ec3b) popup_cale_events_window_t3_ParamLimits
+0x7985,	// (0x000548ac) heading_loc_req_pane_ParamLimits
 
-0x29f7,	// (0x0004ec3b) popup_cale_events_window_t3
+0x7985,	// (0x000548ac) heading_loc_req_pane
 
-0x2a31,	// (0x0004ec75) popup_cale_events_window_t4_ParamLimits
+0x7991,	// (0x000548b8) popup_dyc_status_message_window_g1_ParamLimits
 
-0x2a31,	// (0x0004ec75) popup_cale_events_window_t4
+0x7991,	// (0x000548b8) popup_dyc_status_message_window_g1
+
+0x799d,	// (0x000548c4) popup_dyc_status_message_window_t1_ParamLimits
+
+0x799d,	// (0x000548c4) popup_dyc_status_message_window_t1
+
+0x79af,	// (0x000548d6) popup_dyc_status_message_window_t2_ParamLimits
+
+0x79af,	// (0x000548d6) popup_dyc_status_message_window_t2
+
+0x79c1,	// (0x000548e8) popup_dyc_status_message_window_t3_ParamLimits
+
+0x79c1,	// (0x000548e8) popup_dyc_status_message_window_t3
+
+0x0002,
+
+0xf31d,	// (0x0005c244) popup_dyc_status_message_window_t_ParamLimits
+
+0xf31d,	// (0x0005c244) popup_dyc_status_message_window_t
+
+0x1bbd,	// (0x0004eae4) bg_heading_pane_cp01
+
+0x25b4,	// (0x0004f4db) heading_loc_req_pane_g1
+
+0x25bc,	// (0x0004f4e3) heading_loc_req_pane_g2
+
+0x25c4,	// (0x0004f4eb) heading_loc_req_pane_g3
+
+0x0002,
+
+0xf324,	// (0x0005c24b) heading_loc_req_pane_g
+
+0x25cc,	// (0x0004f4f3) heading_loc_req_pane_t1
+
+0x25db,	// (0x0004f502) bg_popup_sub_pane_cp01_ParamLimits
+
+0x25db,	// (0x0004f502) bg_popup_sub_pane_cp01
+
+0x25e9,	// (0x0004f510) popup_cale_events_window_g1_ParamLimits
+
+0x25e9,	// (0x0004f510) popup_cale_events_window_g1
+
+0x2609,	// (0x0004f530) popup_cale_events_window_g2_ParamLimits
+
+0x2609,	// (0x0004f530) popup_cale_events_window_g2
+
+0x0001,
+
+0xf358,	// (0x0005c27f) popup_cale_events_window_g_ParamLimits
+
+0xf358,	// (0x0005c27f) popup_cale_events_window_g
+
+0x2629,	// (0x0004f550) popup_cale_events_window_t1_ParamLimits
+
+0x2629,	// (0x0004f550) popup_cale_events_window_t1
+
+0x263b,	// (0x0004f562) popup_cale_events_window_t2_ParamLimits
+
+0x263b,	// (0x0004f562) popup_cale_events_window_t2
+
+0x2679,	// (0x0004f5a0) popup_cale_events_window_t3_ParamLimits
+
+0x2679,	// (0x0004f5a0) popup_cale_events_window_t3
+
+0x26b3,	// (0x0004f5da) popup_cale_events_window_t4_ParamLimits
+
+0x26b3,	// (0x0004f5da) popup_cale_events_window_t4
 
 0x0003,
 
-0xf36c,	// (0x0005b5b0) popup_cale_events_window_t_ParamLimits
+0xf35d,	// (0x0005c284) popup_cale_events_window_t_ParamLimits
 
-0xf36c,	// (0x0005b5b0) popup_cale_events_window_t
+0xf35d,	// (0x0005c284) popup_cale_events_window_t
 
-0x7ba7,	// (0x00053deb) call_type_pane
+0x7a45,	// (0x0005496c) call_type_pane
 
-0x2d4d,	// (0x0004ef91) popup_call_status_window_g1
+0x2a02,	// (0x0004f929) popup_call_status_window_g1
 
-0x7bb3,	// (0x00053df7) popup_call_status_window_g2
+0x7a51,	// (0x00054978) popup_call_status_window_g2
 
-0x7bbf,	// (0x00053e03) popup_call_status_window_g3
+0x7a5d,	// (0x00054984) popup_call_status_window_g3
 
 0x0002,
 
-0xf375,	// (0x0005b5b9) popup_call_status_window_g
+0xf366,	// (0x0005c28d) popup_call_status_window_g
 
-0x2a67,	// (0x0004ecab) call_type_pane_g1
+0x26e9,	// (0x0004f610) call_type_pane_g1
 
-0x2a70,	// (0x0004ecb4) call_type_pane_g2
-
-0x0001,
-
-0xf37c,	// (0x0005b5c0) call_type_pane_g
-
-0x1f3b,	// (0x0004e17f) bg_popup_sub_pane_cp02
-
-0x2a79,	// (0x0004ecbd) listscroll_popup_wml_pane
-
-0x2a81,	// (0x0004ecc5) list_wml_pane
-
-0x2a8b,	// (0x0004eccf) scroll_pane_cp013
-
-0x2a96,	// (0x0004ecda) list_single_graphic_popup_wml_pane_ParamLimits
-
-0x2a96,	// (0x0004ecda) list_single_graphic_popup_wml_pane
-
-0x22be,	// (0x0004e502) list_single_graphic_popup_wml_pane_g1
-
-0x2aaa,	// (0x0004ecee) list_single_graphic_popup_wml_pane_g2
+0x26f2,	// (0x0004f619) call_type_pane_g2
 
 0x0001,
 
-0xf381,	// (0x0005b5c5) list_single_graphic_popup_wml_pane_g
+0xf36d,	// (0x0005c294) call_type_pane_g
 
-0x2ab2,	// (0x0004ecf6) list_single_graphic_popup_wml_pane_t1
+0x1bbd,	// (0x0004eae4) bg_popup_sub_pane_cp02
 
-0x2ac0,	// (0x0004ed04) aid_call_pane
+0x26fb,	// (0x0004f622) listscroll_popup_wml_pane
 
-0x218e,	// (0x0004e3d2) popup_clock_analogue_window_g1
+0x2703,	// (0x0004f62a) list_wml_pane
 
-0x218e,	// (0x0004e3d2) popup_clock_analogue_window_g2
+0x270d,	// (0x0004f634) scroll_pane_cp013
 
-0x7bcb,	// (0x00053e0f) popup_clock_analogue_window_g3
+0x2718,	// (0x0004f63f) list_single_graphic_popup_wml_pane_ParamLimits
 
-0x7bcb,	// (0x00053e0f) popup_clock_analogue_window_g4
+0x2718,	// (0x0004f63f) list_single_graphic_popup_wml_pane
 
-0x22be,	// (0x0004e502) popup_clock_analogue_window_g5
+0x1f40,	// (0x0004ee67) list_single_graphic_popup_wml_pane_g1
+
+0x272c,	// (0x0004f653) list_single_graphic_popup_wml_pane_g2
+
+0x0001,
+
+0xf372,	// (0x0005c299) list_single_graphic_popup_wml_pane_g
+
+0x2734,	// (0x0004f65b) list_single_graphic_popup_wml_pane_t1
+
+0x2742,	// (0x0004f669) aid_call_pane
+
+0x1e10,	// (0x0004ed37) popup_clock_analogue_window_g1
+
+0x1e10,	// (0x0004ed37) popup_clock_analogue_window_g2
+
+0x7a69,	// (0x00054990) popup_clock_analogue_window_g3
+
+0x7a69,	// (0x00054990) popup_clock_analogue_window_g4
+
+0x1f40,	// (0x0004ee67) popup_clock_analogue_window_g5
 
 0x0004,
 
-0xf386,	// (0x0005b5ca) popup_clock_analogue_window_g
+0xf377,	// (0x0005c29e) popup_clock_analogue_window_g
 
-0x7bd3,	// (0x00053e17) popup_clock_analogue_window_t1
+0x7a71,	// (0x00054998) popup_clock_analogue_window_t1
 
-0x7be1,	// (0x00053e25) clock_digital_number_pane_ParamLimits
+0x7a7f,	// (0x000549a6) clock_digital_number_pane_ParamLimits
 
-0x7be1,	// (0x00053e25) clock_digital_number_pane
+0x7a7f,	// (0x000549a6) clock_digital_number_pane
 
-0x7bed,	// (0x00053e31) clock_digital_number_pane_cp02_ParamLimits
+0x7a8b,	// (0x000549b2) clock_digital_number_pane_cp02_ParamLimits
 
-0x7bed,	// (0x00053e31) clock_digital_number_pane_cp02
+0x7a8b,	// (0x000549b2) clock_digital_number_pane_cp02
 
-0x7bf9,	// (0x00053e3d) clock_digital_number_pane_cp03_ParamLimits
+0x7a97,	// (0x000549be) clock_digital_number_pane_cp03_ParamLimits
 
-0x7bf9,	// (0x00053e3d) clock_digital_number_pane_cp03
+0x7a97,	// (0x000549be) clock_digital_number_pane_cp03
 
-0x7c05,	// (0x00053e49) clock_digital_number_pane_cp04_ParamLimits
+0x7aa3,	// (0x000549ca) clock_digital_number_pane_cp04_ParamLimits
 
-0x7c05,	// (0x00053e49) clock_digital_number_pane_cp04
+0x7aa3,	// (0x000549ca) clock_digital_number_pane_cp04
 
-0x7c15,	// (0x00053e59) clock_digital_separator_pane_ParamLimits
+0x7ab3,	// (0x000549da) clock_digital_separator_pane_ParamLimits
 
-0x7c15,	// (0x00053e59) clock_digital_separator_pane
+0x7ab3,	// (0x000549da) clock_digital_separator_pane
 
-0x7c21,	// (0x00053e65) popup_clock_digital_window_t1
+0x7abf,	// (0x000549e6) popup_clock_digital_window_t1
 
-0x22be,	// (0x0004e502) clock_digital_number_pane_g1
+0x1f40,	// (0x0004ee67) clock_digital_number_pane_g1
 
-0x22be,	// (0x0004e502) clock_digital_number_pane_g2
-
-0x0001,
-
-0xf2f4,	// (0x0005b538) clock_digital_number_pane_g
-
-0x22be,	// (0x0004e502) clock_digital_separator_pane_g1
-
-0x22be,	// (0x0004e502) clock_digital_separator_pane_g2
+0x1f40,	// (0x0004ee67) clock_digital_number_pane_g2
 
 0x0001,
 
-0xf2f4,	// (0x0005b538) clock_digital_separator_pane_g
+0xf2e5,	// (0x0005c20c) clock_digital_number_pane_g
 
-0x1f3b,	// (0x0004e17f) bg_popup_window_pane_cp04
+0x1f40,	// (0x0004ee67) clock_digital_separator_pane_g1
 
-0x2ad0,	// (0x0004ed14) heading_pane_cp03
-
-0x2ad8,	// (0x0004ed1c) listscroll_popup_gms_pane
-
-0x2ae0,	// (0x0004ed24) grid_large_graphic_popup_pane
-
-0x2aea,	// (0x0004ed2e) listscroll_popup_gms_pane_g1
-
-0x2af2,	// (0x0004ed36) listscroll_popup_gms_pane_g2
+0x1f40,	// (0x0004ee67) clock_digital_separator_pane_g2
 
 0x0001,
 
-0xf391,	// (0x0005b5d5) listscroll_popup_gms_pane_g
+0xf2e5,	// (0x0005c20c) clock_digital_separator_pane_g
 
-0x25af,	// (0x0004e7f3) scroll_pane_cp014
+0x1bbd,	// (0x0004eae4) bg_popup_window_pane_cp04
 
-0x7c3e,	// (0x00053e82) cell_large_graphic_popup_pane_ParamLimits
+0x2752,	// (0x0004f679) heading_pane_cp03
 
-0x7c3e,	// (0x00053e82) cell_large_graphic_popup_pane
+0x275a,	// (0x0004f681) listscroll_popup_gms_pane
 
-0x7c56,	// (0x00053e9a) cell_large_graphic_popup_pane_g1_ParamLimits
+0x2762,	// (0x0004f689) grid_large_graphic_popup_pane
 
-0x7c56,	// (0x00053e9a) cell_large_graphic_popup_pane_g1
+0x276c,	// (0x0004f693) listscroll_popup_gms_pane_g1
 
-0x2afa,	// (0x0004ed3e) cell_large_graphic_popup_pane_g2_ParamLimits
+0x2774,	// (0x0004f69b) listscroll_popup_gms_pane_g2
 
-0x2afa,	// (0x0004ed3e) cell_large_graphic_popup_pane_g2
+0x0001,
 
-0x2b06,	// (0x0004ed4a) cell_large_graphic_popup_pane_g3_ParamLimits
+0xf382,	// (0x0005c2a9) listscroll_popup_gms_pane_g
 
-0x2b06,	// (0x0004ed4a) cell_large_graphic_popup_pane_g3
+0x2231,	// (0x0004f158) scroll_pane_cp014
 
-0x2b13,	// (0x0004ed57) cell_large_graphic_popup_pane_g4_ParamLimits
+0x7adc,	// (0x00054a03) cell_large_graphic_popup_pane_ParamLimits
 
-0x2b13,	// (0x0004ed57) cell_large_graphic_popup_pane_g4
+0x7adc,	// (0x00054a03) cell_large_graphic_popup_pane
+
+0x7af4,	// (0x00054a1b) cell_large_graphic_popup_pane_g1_ParamLimits
+
+0x7af4,	// (0x00054a1b) cell_large_graphic_popup_pane_g1
+
+0x277c,	// (0x0004f6a3) cell_large_graphic_popup_pane_g2_ParamLimits
+
+0x277c,	// (0x0004f6a3) cell_large_graphic_popup_pane_g2
+
+0x2788,	// (0x0004f6af) cell_large_graphic_popup_pane_g3_ParamLimits
+
+0x2788,	// (0x0004f6af) cell_large_graphic_popup_pane_g3
+
+0x2795,	// (0x0004f6bc) cell_large_graphic_popup_pane_g4_ParamLimits
+
+0x2795,	// (0x0004f6bc) cell_large_graphic_popup_pane_g4
 
 0x0003,
 
-0xf396,	// (0x0005b5da) cell_large_graphic_popup_pane_g_ParamLimits
+0xf387,	// (0x0005c2ae) cell_large_graphic_popup_pane_g_ParamLimits
 
-0xf396,	// (0x0005b5da) cell_large_graphic_popup_pane_g
+0xf387,	// (0x0005c2ae) cell_large_graphic_popup_pane_g
 
-0x2b23,	// (0x0004ed67) grid_highlight_pane_cp010
+0x27a5,	// (0x0004f6cc) grid_highlight_pane_cp010
 
-0x22be,	// (0x0004e502) bg_popup_call_pane_g1
+0x1f40,	// (0x0004ee67) bg_popup_call_pane_g1
 
-0x2b2d,	// (0x0004ed71) list_single_graphic_popup_conf_pane_ParamLimits
+0x27af,	// (0x0004f6d6) list_single_graphic_popup_conf_pane_ParamLimits
 
-0x2b2d,	// (0x0004ed71) list_single_graphic_popup_conf_pane
+0x27af,	// (0x0004f6d6) list_single_graphic_popup_conf_pane
 
-0x2b40,	// (0x0004ed84) list_highlight_pane_cp01
+0x27c2,	// (0x0004f6e9) list_highlight_pane_cp01
 
-0x2b49,	// (0x0004ed8d) list_single_graphic_popup_conf_pane_g1
+0x27cb,	// (0x0004f6f2) list_single_graphic_popup_conf_pane_g1
 
-0x2b51,	// (0x0004ed95) list_single_graphic_popup_conf_pane_g2
+0x27d3,	// (0x0004f6fa) list_single_graphic_popup_conf_pane_g2
 
 0x0001,
 
-0xf39f,	// (0x0005b5e3) list_single_graphic_popup_conf_pane_g
+0xf390,	// (0x0005c2b7) list_single_graphic_popup_conf_pane_g
 
-0x2b59,	// (0x0004ed9d) list_single_graphic_popup_conf_pane_t1
+0x27db,	// (0x0004f702) list_single_graphic_popup_conf_pane_t1
 
-0x2b67,	// (0x0004edab) linegrid_cams_pane_g1
+0x27e9,	// (0x0004f710) linegrid_cams_pane_g1
 
-0x7c62,	// (0x00053ea6) linegrid_cams_pane_g2
+0x7b00,	// (0x00054a27) linegrid_cams_pane_g2
 
-0x23ea,	// (0x0004e62e) linegrid_cams_pane_g3
+0x206c,	// (0x0004ef93) linegrid_cams_pane_g3
 
-0x2b70,	// (0x0004edb4) linegrid_cams_pane_g4
+0x27f2,	// (0x0004f719) linegrid_cams_pane_g4
 
-0x7c6b,	// (0x00053eaf) linegrid_cams_pane_g5
+0x7b09,	// (0x00054a30) linegrid_cams_pane_g5
 
-0x7c74,	// (0x00053eb8) linegrid_cams_pane_g6
+0x7b12,	// (0x00054a39) linegrid_cams_pane_g6
 
-0x23f3,	// (0x0004e637) linegrid_cams_pane_g7
+0x2075,	// (0x0004ef9c) linegrid_cams_pane_g7
 
 0x0006,
 
-0xf3a4,	// (0x0005b5e8) linegrid_cams_pane_g
+0xf395,	// (0x0005c2bc) linegrid_cams_pane_g
 
-0x2b79,	// (0x0004edbd) popup_clock_analogue_window
+0x27fb,	// (0x0004f722) popup_clock_analogue_window
 
-0x2b79,	// (0x0004edbd) popup_clock_digital_window
+0x27fb,	// (0x0004f722) popup_clock_digital_window
 
-0x1f3b,	// (0x0004e17f) popup_phob_thumbnail_window
+0x1bbd,	// (0x0004eae4) popup_phob_thumbnail_window
 
-0x22be,	// (0x0004e502) call_video_uplink_pane_g1
+0x1f40,	// (0x0004ee67) call_video_uplink_pane_g1
 
-0x2b82,	// (0x0004edc6) call_video_uplink_pane_g2
+0x2804,	// (0x0004f72b) call_video_uplink_pane_g2
 
 0x0001,
 
-0xf3b3,	// (0x0005b5f7) call_video_uplink_pane_g
+0xf3a4,	// (0x0005c2cb) call_video_uplink_pane_g
 
-0x2b8a,	// (0x0004edce) video_uplink_pane
+0x280c,	// (0x0004f733) video_uplink_pane
 
-0x2b92,	// (0x0004edd6) mce_image_pane_g1
+0x2814,	// (0x0004f73b) mce_image_pane_g1
 
-0x7c7d,	// (0x00053ec1) mce_image_pane_g2
+0x7b1b,	// (0x00054a42) mce_image_pane_g2
 
-0x7c87,	// (0x00053ecb) mce_image_pane_g3
+0x7b25,	// (0x00054a4c) mce_image_pane_g3
 
-0x7c8f,	// (0x00053ed3) mce_image_pane_g4
+0x7b2d,	// (0x00054a54) mce_image_pane_g4
 
-0x7c97,	// (0x00053edb) mce_image_pane_g5
+0x7b35,	// (0x00054a5c) mce_image_pane_g5
 
 0x0004,
 
-0xf3b8,	// (0x0005b5fc) mce_image_pane_g
+0xf3a9,	// (0x0005c2d0) mce_image_pane_g
 
-0x2b9c,	// (0x0004ede0) control_top_pane_stacon_cp01_ParamLimits
+0x281e,	// (0x0004f745) control_top_pane_stacon_cp01_ParamLimits
 
-0x2b9c,	// (0x0004ede0) control_top_pane_stacon_cp01
+0x281e,	// (0x0004f745) control_top_pane_stacon_cp01
 
-0x2bb0,	// (0x0004edf4) uni_indicator_pane_stacon_cp01_ParamLimits
+0x2832,	// (0x0004f759) uni_indicator_pane_stacon_cp01_ParamLimits
 
-0x2bb0,	// (0x0004edf4) uni_indicator_pane_stacon_cp01
+0x2832,	// (0x0004f759) uni_indicator_pane_stacon_cp01
 
-0x2bc1,	// (0x0004ee05) bg_popup_sub_pane_cp03
+0x2843,	// (0x0004f76a) bg_popup_sub_pane_cp03
 
-0x7c9f,	// (0x00053ee3) chi_dic_find_pane
+0x7b3d,	// (0x00054a64) chi_dic_find_pane
 
-0x7ca7,	// (0x00053eeb) listscroll_chi_dic_pane
+0x7b45,	// (0x00054a6c) listscroll_chi_dic_pane
 
-0x7cb0,	// (0x00053ef4) main_pane_chidic_g1
+0x7b4e,	// (0x00054a75) main_pane_chidic_g1
 
-0x2bcb,	// (0x0004ee0f) chi_dic_find_pane_t1
+0x284d,	// (0x0004f774) chi_dic_find_pane_t1
 
-0x2bd9,	// (0x0004ee1d) find_chidic_pane
+0x285b,	// (0x0004f782) find_chidic_pane
 
-0x2be2,	// (0x0004ee26) chi_dic_list_pane_ParamLimits
+0x2864,	// (0x0004f78b) chi_dic_list_pane_ParamLimits
 
-0x2be2,	// (0x0004ee26) chi_dic_list_pane
+0x2864,	// (0x0004f78b) chi_dic_list_pane
 
-0x2bf3,	// (0x0004ee37) scroll_pane_cp020
+0x2875,	// (0x0004f79c) scroll_pane_cp020
 
-0x2bfb,	// (0x0004ee3f) find_chidic_pane_t1
+0x287d,	// (0x0004f7a4) find_chidic_pane_t1
 
-0x1f3b,	// (0x0004e17f) input_focus_pane_cp06
+0x1bbd,	// (0x0004eae4) input_focus_pane_cp06
 
-0x7cc3,	// (0x00053f07) list_chi_dic_pane_ParamLimits
+0x7b61,	// (0x00054a88) list_chi_dic_pane_ParamLimits
 
-0x7cc3,	// (0x00053f07) list_chi_dic_pane
+0x7b61,	// (0x00054a88) list_chi_dic_pane
 
-0x7cdd,	// (0x00053f21) list_chi_dic_pane_t1_ParamLimits
+0x7b7b,	// (0x00054aa2) list_chi_dic_pane_t1_ParamLimits
 
-0x7cdd,	// (0x00053f21) list_chi_dic_pane_t1
+0x7b7b,	// (0x00054aa2) list_chi_dic_pane_t1
 
-0x1f3b,	// (0x0004e17f) list_highlight_pane_cp020
+0x1bbd,	// (0x0004eae4) list_highlight_pane_cp020
 
-0x2c0a,	// (0x0004ee4e) bg_cale_heading_pane_g1
+0x288c,	// (0x0004f7b3) bg_cale_heading_pane_g1
 
-0x7cf0,	// (0x00053f34) bg_cale_heading_pane_g2
+0x7b8e,	// (0x00054ab5) bg_cale_heading_pane_g2
 
-0x7cf8,	// (0x00053f3c) bg_cale_heading_pane_g3
+0x7b96,	// (0x00054abd) bg_cale_heading_pane_g3
 
-0x7d00,	// (0x00053f44) bg_cale_heading_pane_g4
+0x7b9e,	// (0x00054ac5) bg_cale_heading_pane_g4
 
-0x7d0a,	// (0x00053f4e) bg_cale_heading_pane_g5
+0x7ba8,	// (0x00054acf) bg_cale_heading_pane_g5
 
-0x7d14,	// (0x00053f58) bg_cale_heading_pane_g6
+0x7bb2,	// (0x00054ad9) bg_cale_heading_pane_g6
 
-0x7d1c,	// (0x00053f60) bg_cale_heading_pane_g7
+0x7bba,	// (0x00054ae1) bg_cale_heading_pane_g7
 
-0x7d24,	// (0x00053f68) bg_cale_heading_pane_g8
+0x7bc2,	// (0x00054ae9) bg_cale_heading_pane_g8
 
-0x7d2e,	// (0x00053f72) bg_cale_heading_pane_g9
-
-0x0008,
-
-0xf3c3,	// (0x0005b607) bg_cale_heading_pane_g
-
-0x2c0a,	// (0x0004ee4e) bg_cale_side_pane_g1
-
-0x7d38,	// (0x00053f7c) bg_cale_side_pane_g2
-
-0x7d42,	// (0x00053f86) bg_cale_side_pane_g3
-
-0x7d4c,	// (0x00053f90) bg_cale_side_pane_g4
-
-0x7d56,	// (0x00053f9a) bg_cale_side_pane_g5
-
-0x7d60,	// (0x00053fa4) bg_cale_side_pane_g6
-
-0x7d6a,	// (0x00053fae) bg_cale_side_pane_g7
-
-0x7d74,	// (0x00053fb8) bg_cale_side_pane_g8
-
-0x7d7c,	// (0x00053fc0) bg_cale_side_pane_g9
+0x7bcc,	// (0x00054af3) bg_cale_heading_pane_g9
 
 0x0008,
 
-0xf3d6,	// (0x0005b61a) bg_cale_side_pane_g
+0xf3b4,	// (0x0005c2db) bg_cale_heading_pane_g
 
-0x7d84,	// (0x00053fc8) popup_call_status_window_ParamLimits
+0x288c,	// (0x0004f7b3) bg_cale_side_pane_g1
 
-0x7d84,	// (0x00053fc8) popup_call_status_window
+0x7bd6,	// (0x00054afd) bg_cale_side_pane_g2
 
-0x2c12,	// (0x0004ee56) stacon_top_pane
+0x7be0,	// (0x00054b07) bg_cale_side_pane_g3
 
-0x2c1a,	// (0x0004ee5e) status_pane_ParamLimits
+0x7bea,	// (0x00054b11) bg_cale_side_pane_g4
 
-0x2c1a,	// (0x0004ee5e) status_pane
+0x7bf4,	// (0x00054b1b) bg_cale_side_pane_g5
 
-0x2c2f,	// (0x0004ee73) status_small_pane
+0x7bfe,	// (0x00054b25) bg_cale_side_pane_g6
 
-0x2c37,	// (0x0004ee7b) control_pane
+0x7c08,	// (0x00054b2f) bg_cale_side_pane_g7
 
-0x1f3b,	// (0x0004e17f) stacon_bottom_pane
+0x7c12,	// (0x00054b39) bg_cale_side_pane_g8
 
-0x2c3f,	// (0x0004ee83) list_single_mce_smart_pane_t1_ParamLimits
+0x7c1a,	// (0x00054b41) bg_cale_side_pane_g9
 
-0x2c3f,	// (0x0004ee83) list_single_mce_smart_pane_t1
+0x0008,
 
-0x2c52,	// (0x0004ee96) list_single_mce_smart_pane_t2_ParamLimits
+0xf3c7,	// (0x0005c2ee) bg_cale_side_pane_g
 
-0x2c52,	// (0x0004ee96) list_single_mce_smart_pane_t2
+0x7c22,	// (0x00054b49) popup_call_status_window_ParamLimits
+
+0x7c22,	// (0x00054b49) popup_call_status_window
+
+0x2894,	// (0x0004f7bb) stacon_top_pane
+
+0x289c,	// (0x0004f7c3) status_pane_ParamLimits
+
+0x289c,	// (0x0004f7c3) status_pane
+
+0x28b1,	// (0x0004f7d8) status_small_pane
+
+0x28b9,	// (0x0004f7e0) control_pane
+
+0x1bbd,	// (0x0004eae4) stacon_bottom_pane
+
+0x28c1,	// (0x0004f7e8) list_single_mce_smart_pane_t1_ParamLimits
+
+0x28c1,	// (0x0004f7e8) list_single_mce_smart_pane_t1
+
+0x28d4,	// (0x0004f7fb) list_single_mce_smart_pane_t2_ParamLimits
+
+0x28d4,	// (0x0004f7fb) list_single_mce_smart_pane_t2
 
 0x0001,
 
-0xf3e9,	// (0x0005b62d) list_single_mce_smart_pane_t_ParamLimits
+0xf3da,	// (0x0005c301) list_single_mce_smart_pane_t_ParamLimits
 
-0xf3e9,	// (0x0005b62d) list_single_mce_smart_pane_t
+0xf3da,	// (0x0005c301) list_single_mce_smart_pane_t
 
-0x7d90,	// (0x00053fd4) compass_pane
+0x7c2e,	// (0x00054b55) compass_pane
 
-0x7d9c,	// (0x00053fe0) main_location2_pane_t1
+0x7c3a,	// (0x00054b61) main_location2_pane_t1
 
-0x7db0,	// (0x00053ff4) main_location2_pane_t2
+0x7c4e,	// (0x00054b75) main_location2_pane_t2
 
-0x7dc4,	// (0x00054008) main_location2_pane_t3
+0x7c62,	// (0x00054b89) main_location2_pane_t3
 
 0x0003,
 
-0xf3ee,	// (0x0005b632) main_location2_pane_t
+0xf3df,	// (0x0005c306) main_location2_pane_t
 
-0x2c71,	// (0x0004eeb5) compass_pane_g1_ParamLimits
+0x28f3,	// (0x0004f81a) compass_pane_g1_ParamLimits
 
-0x2c71,	// (0x0004eeb5) compass_pane_g1
+0x28f3,	// (0x0004f81a) compass_pane_g1
 
-0x7e0e,	// (0x00054052) compass_pane_t1
+0x7cac,	// (0x00054bd3) compass_pane_t1
 
-0x7e1d,	// (0x00054061) compass_pane_t2
+0x7cbb,	// (0x00054be2) compass_pane_t2
 
 0x0005,
 
-0xf3f7,	// (0x0005b63b) compass_pane_t
+0xf3e8,	// (0x0005c30f) compass_pane_t
 
-0x7e68,	// (0x000540ac) text_secondary_cp61
+0x7d06,	// (0x00054c2d) text_secondary_cp61
 
-0x2c85,	// (0x0004eec9) navi_pane_cams_g5
+0x2907,	// (0x0004f82e) navi_pane_cams_g5
 
-0x2ca8,	// (0x0004eeec) navi_pane_im_t1
+0x292a,	// (0x0004f851) navi_pane_im_t1
 
-0x2cb6,	// (0x0004eefa) navi_pane_mp_g1_ParamLimits
+0x2938,	// (0x0004f85f) navi_pane_mp_g1_ParamLimits
 
-0x2cb6,	// (0x0004eefa) navi_pane_mp_g1
+0x2938,	// (0x0004f85f) navi_pane_mp_g1
 
-0x2cca,	// (0x0004ef0e) navi_pane_mp_g2_ParamLimits
+0x294c,	// (0x0004f873) navi_pane_mp_g2_ParamLimits
 
-0x2cca,	// (0x0004ef0e) navi_pane_mp_g2
+0x294c,	// (0x0004f873) navi_pane_mp_g2
 
-0x2cd6,	// (0x0004ef1a) navi_pane_mp_g3_ParamLimits
+0x2958,	// (0x0004f87f) navi_pane_mp_g3_ParamLimits
 
-0x2cd6,	// (0x0004ef1a) navi_pane_mp_g3
-
-0x0002,
-
-0xf40b,	// (0x0005b64f) navi_pane_mp_g_ParamLimits
-
-0xf40b,	// (0x0005b64f) navi_pane_mp_g
-
-0x2ce2,	// (0x0004ef26) navi_pane_mp_t1
-
-0x2cf0,	// (0x0004ef34) navi_pane_mp_t2
+0x2958,	// (0x0004f87f) navi_pane_mp_g3
 
 0x0002,
 
-0xf412,	// (0x0005b656) navi_pane_mp_t
+0xf3fc,	// (0x0005c323) navi_pane_mp_g_ParamLimits
 
-0x2d2c,	// (0x0004ef70) navi_pane_vt_g1
+0xf3fc,	// (0x0005c323) navi_pane_mp_g
 
-0x2ce2,	// (0x0004ef26) navi_pane_vt_t1
+0x2964,	// (0x0004f88b) navi_pane_mp_t1
 
-0x2d34,	// (0x0004ef78) navi_slider_pane
+0x2972,	// (0x0004f899) navi_pane_mp_t2
 
-0x2d3c,	// (0x0004ef80) zooming_pane
+0x0002,
 
-0x2d44,	// (0x0004ef88) navi_slider_pane_g1
+0xf403,	// (0x0005c32a) navi_pane_mp_t
 
-0x7f93,	// (0x000541d7) navi_slider_pane_g2
+0x29ae,	// (0x0004f8d5) navi_pane_vt_g1
+
+0x2964,	// (0x0004f88b) navi_pane_vt_t1
+
+0x29b6,	// (0x0004f8dd) navi_slider_pane
+
+0x29be,	// (0x0004f8e5) zooming_pane
+
+0x29c6,	// (0x0004f8ed) navi_slider_pane_g1
+
+0x7e31,	// (0x00054d58) navi_slider_pane_g2
 
 0x0006,
 
-0xf419,	// (0x0005b65d) navi_slider_pane_g
+0xf40a,	// (0x0005c331) navi_slider_pane_g
 
-0x2d76,	// (0x0004efba) aid_levels_zoom
+0x29ea,	// (0x0004f911) aid_levels_zoom
 
-0x2d7e,	// (0x0004efc2) zooming_pane_g1
+0x29f2,	// (0x0004f919) zooming_pane_g1
 
-0x2d86,	// (0x0004efca) zooming_pane_g2
+0x29fa,	// (0x0004f921) zooming_pane_g2
 
-0x2d86,	// (0x0004efca) zooming_pane_g3
+0x29fa,	// (0x0004f921) zooming_pane_g3
 
 0x0002,
 
-0xf428,	// (0x0005b66c) zooming_pane_g
+0xf419,	// (0x0005c340) zooming_pane_g
 
-0x2d8e,	// (0x0004efd2) level_10_zoom
+0x2a10,	// (0x0004f937) level_10_zoom
 
-0x2d97,	// (0x0004efdb) level_11_zoom
+0x2a19,	// (0x0004f940) level_11_zoom
 
-0x2da0,	// (0x0004efe4) level_1_zoom
+0x2a22,	// (0x0004f949) level_1_zoom
 
-0x2da9,	// (0x0004efed) level_2_zoom
+0x2a2b,	// (0x0004f952) level_2_zoom
 
-0x2db2,	// (0x0004eff6) level_3_zoom
+0x2a34,	// (0x0004f95b) level_3_zoom
 
-0x2dbb,	// (0x0004efff) level_4_zoom
+0x2a3d,	// (0x0004f964) level_4_zoom
 
-0x2dc4,	// (0x0004f008) level_5_zoom
+0x2a46,	// (0x0004f96d) level_5_zoom
 
-0x2dcd,	// (0x0004f011) level_6_zoom
+0x2a4f,	// (0x0004f976) level_6_zoom
 
-0x2dd6,	// (0x0004f01a) level_7_zoom
+0x2a58,	// (0x0004f97f) level_7_zoom
 
-0x2ddf,	// (0x0004f023) level_8_zoom
+0x2a61,	// (0x0004f988) level_8_zoom
 
-0x2de8,	// (0x0004f02c) level_9_zoom
+0x2a6a,	// (0x0004f991) level_9_zoom
 
-0x2df9,	// (0x0004f03d) popup_phob_thumbnail_window_g1
+0x2a7b,	// (0x0004f9a2) popup_phob_thumbnail_window_g1
 
-0x2e01,	// (0x0004f045) popup_phob_thumbnail_window_g2
-
-0x0001,
-
-0xf42f,	// (0x0005b673) popup_phob_thumbnail_window_g
-
-0x40f7,	// (0x0005033b) level_1_location
-
-0x40ff,	// (0x00050343) level_2_location
-
-0x4107,	// (0x0005034b) level_3_location
-
-0x410f,	// (0x00050353) level_4_location
-
-0x2d3c,	// (0x0004ef80) level_5_location
-
-0x7fa5,	// (0x000541e9) mce_icon_pane_g1
-
-0x7fad,	// (0x000541f1) mce_icon_pane_g2
+0x2a83,	// (0x0004f9aa) popup_phob_thumbnail_window_g2
 
 0x0001,
 
-0xf434,	// (0x0005b678) mce_icon_pane_g
+0xf420,	// (0x0005c347) popup_phob_thumbnail_window_g
 
-0x7fb5,	// (0x000541f9) main_mup_pane_g1_ParamLimits
+0x3d79,	// (0x00050ca0) level_1_location
 
-0x7fb5,	// (0x000541f9) main_mup_pane_g1
+0x3d81,	// (0x00050ca8) level_2_location
 
-0x7fcd,	// (0x00054211) main_mup_pane_g2_ParamLimits
+0x3d89,	// (0x00050cb0) level_3_location
 
-0x7fcd,	// (0x00054211) main_mup_pane_g2
+0x3d91,	// (0x00050cb8) level_4_location
 
-0x7fe9,	// (0x0005422d) main_mup_pane_g3_ParamLimits
+0x29be,	// (0x0004f8e5) level_5_location
 
-0x7fe9,	// (0x0005422d) main_mup_pane_g3
+0x7e43,	// (0x00054d6a) mce_icon_pane_g1
 
-0x8005,	// (0x00054249) main_mup_pane_g4_ParamLimits
+0x7e4b,	// (0x00054d72) mce_icon_pane_g2
 
-0x8005,	// (0x00054249) main_mup_pane_g4
+0x0001,
 
-0x8021,	// (0x00054265) main_mup_pane_g5_ParamLimits
+0xf425,	// (0x0005c34c) mce_icon_pane_g
 
-0x8021,	// (0x00054265) main_mup_pane_g5
+0x7e53,	// (0x00054d7a) main_mup_pane_g1_ParamLimits
 
-0x8042,	// (0x00054286) main_mup_pane_g6_ParamLimits
+0x7e53,	// (0x00054d7a) main_mup_pane_g1
 
-0x8042,	// (0x00054286) main_mup_pane_g6
+0x7e6b,	// (0x00054d92) main_mup_pane_g2_ParamLimits
 
-0x805e,	// (0x000542a2) main_mup_pane_g7_ParamLimits
+0x7e6b,	// (0x00054d92) main_mup_pane_g2
 
-0x805e,	// (0x000542a2) main_mup_pane_g7
+0x7e87,	// (0x00054dae) main_mup_pane_g3_ParamLimits
 
-0x807a,	// (0x000542be) main_mup_pane_g8_ParamLimits
+0x7e87,	// (0x00054dae) main_mup_pane_g3
 
-0x807a,	// (0x000542be) main_mup_pane_g8
+0x7ea3,	// (0x00054dca) main_mup_pane_g4_ParamLimits
 
-0x809a,	// (0x000542de) main_mup_pane_g9_ParamLimits
+0x7ea3,	// (0x00054dca) main_mup_pane_g4
 
-0x809a,	// (0x000542de) main_mup_pane_g9
+0x7ebf,	// (0x00054de6) main_mup_pane_g5_ParamLimits
 
-0x80b9,	// (0x000542fd) main_mup_pane_g10_ParamLimits
+0x7ebf,	// (0x00054de6) main_mup_pane_g5
 
-0x80b9,	// (0x000542fd) main_mup_pane_g10
+0x7ee0,	// (0x00054e07) main_mup_pane_g6_ParamLimits
 
-0x80d8,	// (0x0005431c) main_mup_pane_g11_ParamLimits
+0x7ee0,	// (0x00054e07) main_mup_pane_g6
 
-0x80d8,	// (0x0005431c) main_mup_pane_g11
+0x7efc,	// (0x00054e23) main_mup_pane_g7_ParamLimits
 
-0x80f0,	// (0x00054334) main_mup_pane_g12_ParamLimits
+0x7efc,	// (0x00054e23) main_mup_pane_g7
 
-0x80f0,	// (0x00054334) main_mup_pane_g12
+0x7f18,	// (0x00054e3f) main_mup_pane_g8_ParamLimits
 
-0x80fe,	// (0x00054342) main_mup_pane_g13_ParamLimits
+0x7f18,	// (0x00054e3f) main_mup_pane_g8
 
-0x80fe,	// (0x00054342) main_mup_pane_g13
+0x7f38,	// (0x00054e5f) main_mup_pane_g9_ParamLimits
+
+0x7f38,	// (0x00054e5f) main_mup_pane_g9
+
+0x7f57,	// (0x00054e7e) main_mup_pane_g10_ParamLimits
+
+0x7f57,	// (0x00054e7e) main_mup_pane_g10
+
+0x7f76,	// (0x00054e9d) main_mup_pane_g11_ParamLimits
+
+0x7f76,	// (0x00054e9d) main_mup_pane_g11
+
+0x7f8e,	// (0x00054eb5) main_mup_pane_g12_ParamLimits
+
+0x7f8e,	// (0x00054eb5) main_mup_pane_g12
+
+0x7f9c,	// (0x00054ec3) main_mup_pane_g13_ParamLimits
+
+0x7f9c,	// (0x00054ec3) main_mup_pane_g13
 
 0x000c,
 
-0xf439,	// (0x0005b67d) main_mup_pane_g_ParamLimits
+0xf42a,	// (0x0005c351) main_mup_pane_g_ParamLimits
 
-0xf439,	// (0x0005b67d) main_mup_pane_g
+0xf42a,	// (0x0005c351) main_mup_pane_g
 
-0x8114,	// (0x00054358) main_mup_pane_t1_ParamLimits
+0x7fb2,	// (0x00054ed9) main_mup_pane_t1_ParamLimits
 
-0x8114,	// (0x00054358) main_mup_pane_t1
+0x7fb2,	// (0x00054ed9) main_mup_pane_t1
 
-0x8131,	// (0x00054375) main_mup_pane_t2_ParamLimits
+0x7fcf,	// (0x00054ef6) main_mup_pane_t2_ParamLimits
 
-0x8131,	// (0x00054375) main_mup_pane_t2
+0x7fcf,	// (0x00054ef6) main_mup_pane_t2
 
-0x814b,	// (0x0005438f) main_mup_pane_t3_ParamLimits
+0x7fe9,	// (0x00054f10) main_mup_pane_t3_ParamLimits
 
-0x814b,	// (0x0005438f) main_mup_pane_t3
+0x7fe9,	// (0x00054f10) main_mup_pane_t3
 
-0x8165,	// (0x000543a9) main_mup_pane_t4_ParamLimits
+0x8003,	// (0x00054f2a) main_mup_pane_t4_ParamLimits
 
-0x8165,	// (0x000543a9) main_mup_pane_t4
+0x8003,	// (0x00054f2a) main_mup_pane_t4
 
-0x8177,	// (0x000543bb) main_mup_pane_t5_ParamLimits
+0x8015,	// (0x00054f3c) main_mup_pane_t5_ParamLimits
 
-0x8177,	// (0x000543bb) main_mup_pane_t5
+0x8015,	// (0x00054f3c) main_mup_pane_t5
 
-0x8189,	// (0x000543cd) main_mup_pane_t6_ParamLimits
+0x8027,	// (0x00054f4e) main_mup_pane_t6_ParamLimits
 
-0x8189,	// (0x000543cd) main_mup_pane_t6
+0x8027,	// (0x00054f4e) main_mup_pane_t6
 
 0x0005,
 
-0xf454,	// (0x0005b698) main_mup_pane_t_ParamLimits
+0xf445,	// (0x0005c36c) main_mup_pane_t_ParamLimits
 
-0xf454,	// (0x0005b698) main_mup_pane_t
+0xf445,	// (0x0005c36c) main_mup_pane_t
 
-0x819f,	// (0x000543e3) mup_progress_pane_ParamLimits
+0x803d,	// (0x00054f64) mup_progress_pane_ParamLimits
 
-0x819f,	// (0x000543e3) mup_progress_pane
+0x803d,	// (0x00054f64) mup_progress_pane
 
-0x81ab,	// (0x000543ef) mup_visualizer_pane_ParamLimits
+0x8049,	// (0x00054f70) mup_visualizer_pane_ParamLimits
 
-0x81ab,	// (0x000543ef) mup_visualizer_pane
+0x8049,	// (0x00054f70) mup_visualizer_pane
 
-0x81e5,	// (0x00054429) mup_volume_pane_ParamLimits
+0x8083,	// (0x00054faa) mup_volume_pane_ParamLimits
 
-0x81e5,	// (0x00054429) mup_volume_pane
+0x8083,	// (0x00054faa) mup_volume_pane
 
-0x2d4d,	// (0x0004ef91) mup_visualizer_pane_g1_ParamLimits
+0x2a02,	// (0x0004f929) mup_visualizer_pane_g1_ParamLimits
 
-0x2d4d,	// (0x0004ef91) mup_visualizer_pane_g1
+0x2a02,	// (0x0004f929) mup_visualizer_pane_g1
 
-0x2d4d,	// (0x0004ef91) mup_visualizer_pane_g2_ParamLimits
+0x2a02,	// (0x0004f929) mup_visualizer_pane_g2_ParamLimits
 
-0x2d4d,	// (0x0004ef91) mup_visualizer_pane_g2
+0x2a02,	// (0x0004f929) mup_visualizer_pane_g2
 
-0x2c71,	// (0x0004eeb5) mup_visualizer_pane_g3_ParamLimits
+0x28f3,	// (0x0004f81a) mup_visualizer_pane_g3_ParamLimits
 
-0x2c71,	// (0x0004eeb5) mup_visualizer_pane_g3
+0x28f3,	// (0x0004f81a) mup_visualizer_pane_g3
 
 0x0002,
 
-0xf461,	// (0x0005b6a5) mup_visualizer_pane_g_ParamLimits
+0xf452,	// (0x0005c379) mup_visualizer_pane_g_ParamLimits
 
-0xf461,	// (0x0005b6a5) mup_visualizer_pane_g
+0xf452,	// (0x0005c379) mup_visualizer_pane_g
 
-0x22be,	// (0x0004e502) mup_volume_pane_g1
+0x1f40,	// (0x0004ee67) mup_volume_pane_g1
 
-0x2e11,	// (0x0004f055) mup_volume_pane_g2
+0x2a93,	// (0x0004f9ba) mup_volume_pane_g2
 
 0x0001,
 
-0xf468,	// (0x0005b6ac) mup_volume_pane_g
+0xf459,	// (0x0005c380) mup_volume_pane_g
 
-0x22be,	// (0x0004e502) mup_progress_pane_g1
+0x1f40,	// (0x0004ee67) mup_progress_pane_g1
 
-0x2e1a,	// (0x0004f05e) mup_progress_pane_g2
+0x2a9c,	// (0x0004f9c3) mup_progress_pane_g2
 
-0x2e23,	// (0x0004f067) mup_progress_pane_g3
+0x2aa5,	// (0x0004f9cc) mup_progress_pane_g3
 
 0x0002,
 
-0xf46d,	// (0x0005b6b1) mup_progress_pane_g
+0xf45e,	// (0x0005c385) mup_progress_pane_g
 
-0x1f3b,	// (0x0004e17f) bg_popup_window_pane_cp05
+0x1bbd,	// (0x0004eae4) bg_popup_window_pane_cp05
 
-0x2e2c,	// (0x0004f070) heading_pane_cp02_ParamLimits
+0x2aae,	// (0x0004f9d5) heading_pane_cp02_ParamLimits
 
-0x2e2c,	// (0x0004f070) heading_pane_cp02
+0x2aae,	// (0x0004f9d5) heading_pane_cp02
 
-0x2e46,	// (0x0004f08a) list_popup_blid_pane
+0x2ac8,	// (0x0004f9ef) list_popup_blid_pane
 
-0x2e4e,	// (0x0004f092) list_blid_sat_info_pane_ParamLimits
+0x2ad0,	// (0x0004f9f7) list_blid_sat_info_pane_ParamLimits
 
-0x2e4e,	// (0x0004f092) list_blid_sat_info_pane
+0x2ad0,	// (0x0004f9f7) list_blid_sat_info_pane
 
-0x2e61,	// (0x0004f0a5) list_blid_sat_info_pane_g1
+0x2ae3,	// (0x0004fa0a) list_blid_sat_info_pane_g1
 
-0x2e69,	// (0x0004f0ad) list_blid_sat_info_pane_t1
+0x2aeb,	// (0x0004fa12) list_blid_sat_info_pane_t1
 
-0x82f2,	// (0x00054536) mup_equalizer_pane_ParamLimits
+0x8190,	// (0x000550b7) mup_equalizer_pane_ParamLimits
 
-0x82f2,	// (0x00054536) mup_equalizer_pane
+0x8190,	// (0x000550b7) mup_equalizer_pane
 
-0x8313,	// (0x00054557) mup_equalizer_pane_cp1_ParamLimits
+0x81b1,	// (0x000550d8) mup_equalizer_pane_cp1_ParamLimits
 
-0x8313,	// (0x00054557) mup_equalizer_pane_cp1
+0x81b1,	// (0x000550d8) mup_equalizer_pane_cp1
 
-0x8334,	// (0x00054578) mup_equalizer_pane_cp2_ParamLimits
+0x81d2,	// (0x000550f9) mup_equalizer_pane_cp2_ParamLimits
 
-0x8334,	// (0x00054578) mup_equalizer_pane_cp2
+0x81d2,	// (0x000550f9) mup_equalizer_pane_cp2
 
-0x8355,	// (0x00054599) mup_equalizer_pane_cp3_ParamLimits
+0x81f3,	// (0x0005511a) mup_equalizer_pane_cp3_ParamLimits
 
-0x8355,	// (0x00054599) mup_equalizer_pane_cp3
+0x81f3,	// (0x0005511a) mup_equalizer_pane_cp3
 
-0x8376,	// (0x000545ba) mup_equalizer_pane_cp4_ParamLimits
+0x8214,	// (0x0005513b) mup_equalizer_pane_cp4_ParamLimits
 
-0x8376,	// (0x000545ba) mup_equalizer_pane_cp4
+0x8214,	// (0x0005513b) mup_equalizer_pane_cp4
 
-0x8397,	// (0x000545db) mup_equalizer_pane_cp5
+0x8235,	// (0x0005515c) mup_equalizer_pane_cp5
 
-0x83ad,	// (0x000545f1) mup_equalizer_pane_cp6
+0x824b,	// (0x00055172) mup_equalizer_pane_cp6
 
-0x83c5,	// (0x00054609) mup_equalizer_pane_cp7
+0x8263,	// (0x0005518a) mup_equalizer_pane_cp7
 
-0x4015,	// (0x00050259) bg_popup_call_poc_act_pane_g9
+0x3c97,	// (0x00050bbe) bg_popup_call_poc_act_pane_g9
 
-0x401d,	// (0x00050261) bg_popup_call_poc_act_pane_g10
+0x3c9f,	// (0x00050bc6) bg_popup_call_poc_act_pane_g10
 
-0x4025,	// (0x00050269) bg_popup_call_poc_act_pane_g11
+0x3ca7,	// (0x00050bce) bg_popup_call_poc_act_pane_g11
 
 0x000a,
 
-0x2196,	// (0x0004e3da) mup_scale_pane
+0x1e18,	// (0x0004ed3f) mup_scale_pane
 
-0x22be,	// (0x0004e502) mup_scale_pane_g1
+0x1f40,	// (0x0004ee67) mup_scale_pane_g1
 
-0x2e77,	// (0x0004f0bb) mup_scale_pane_g2
-
-0x0006,
-
-0xf489,	// (0x0005b6cd) mup_scale_pane_g
-
-0x2e9b,	// (0x0004f0df) msg_data_pane
-
-0x2ea3,	// (0x0004f0e7) scroll_pane_cp017
-
-0x83ef,	// (0x00054633) bg_list_pane_cp04_ParamLimits
-
-0x83ef,	// (0x00054633) bg_list_pane_cp04
-
-0x2eab,	// (0x0004f0ef) msg_data_pane_g1
-
-0x8413,	// (0x00054657) msg_data_pane_g2
-
-0x841d,	// (0x00054661) msg_data_pane_g3
-
-0x8425,	// (0x00054669) msg_data_pane_g4
-
-0x842d,	// (0x00054671) msg_data_pane_g5
-
-0x8435,	// (0x00054679) msg_data_pane_g6
-
-0x843d,	// (0x00054681) msg_data_pane_g7
+0x2af9,	// (0x0004fa20) mup_scale_pane_g2
 
 0x0006,
 
-0xf498,	// (0x0005b6dc) msg_data_pane_g
+0xf47a,	// (0x0005c3a1) mup_scale_pane_g
 
-0x8445,	// (0x00054689) msg_text_pane_ParamLimits
+0x2b1d,	// (0x0004fa44) msg_data_pane
 
-0x8445,	// (0x00054689) msg_text_pane
+0x2b25,	// (0x0004fa4c) scroll_pane_cp017
 
-0x8485,	// (0x000546c9) qrid_highlight_pane_cp011_ParamLimits
+0x828d,	// (0x000551b4) bg_list_pane_cp04_ParamLimits
 
-0x8485,	// (0x000546c9) qrid_highlight_pane_cp011
+0x828d,	// (0x000551b4) bg_list_pane_cp04
 
-0x1f3b,	// (0x0004e17f) msg_body_pane
+0x2b2d,	// (0x0004fa54) msg_data_pane_g1
 
-0x1f3b,	// (0x0004e17f) msg_header_pane
+0x82b1,	// (0x000551d8) msg_data_pane_g2
 
-0x2ebc,	// (0x0004f100) input_focus_pane_cp07
+0x82bb,	// (0x000551e2) msg_data_pane_g3
 
-0x84ab,	// (0x000546ef) msg_header_pane_t1_ParamLimits
+0x82c3,	// (0x000551ea) msg_data_pane_g4
 
-0x84ab,	// (0x000546ef) msg_header_pane_t1
+0x82cb,	// (0x000551f2) msg_data_pane_g5
 
-0x84bd,	// (0x00054701) msg_header_pane_t2_ParamLimits
+0x82d3,	// (0x000551fa) msg_data_pane_g6
 
-0x84bd,	// (0x00054701) msg_header_pane_t2
+0x82db,	// (0x00055202) msg_data_pane_g7
+
+0x0006,
+
+0xf489,	// (0x0005c3b0) msg_data_pane_g
+
+0x82e3,	// (0x0005520a) msg_text_pane_ParamLimits
+
+0x82e3,	// (0x0005520a) msg_text_pane
+
+0x8323,	// (0x0005524a) qrid_highlight_pane_cp011_ParamLimits
+
+0x8323,	// (0x0005524a) qrid_highlight_pane_cp011
+
+0x1bbd,	// (0x0004eae4) msg_body_pane
+
+0x1bbd,	// (0x0004eae4) msg_header_pane
+
+0x2b3e,	// (0x0004fa65) input_focus_pane_cp07
+
+0x8349,	// (0x00055270) msg_header_pane_t1_ParamLimits
+
+0x8349,	// (0x00055270) msg_header_pane_t1
+
+0x835b,	// (0x00055282) msg_header_pane_t2_ParamLimits
+
+0x835b,	// (0x00055282) msg_header_pane_t2
 
 0x0001,
 
-0xf4ac,	// (0x0005b6f0) msg_header_pane_t_ParamLimits
+0xf49d,	// (0x0005c3c4) msg_header_pane_t_ParamLimits
 
-0xf4ac,	// (0x0005b6f0) msg_header_pane_t
+0xf49d,	// (0x0005c3c4) msg_header_pane_t
 
-0x2ed1,	// (0x0004f115) msg_body_pane_g1
+0x2b53,	// (0x0004fa7a) msg_body_pane_g1
 
-0x84cf,	// (0x00054713) msg_body_pane_t1_ParamLimits
+0x836d,	// (0x00055294) msg_body_pane_t1_ParamLimits
 
-0x84cf,	// (0x00054713) msg_body_pane_t1
+0x836d,	// (0x00055294) msg_body_pane_t1
 
-0x8500,	// (0x00054744) msg_body_pane_t2_ParamLimits
+0x839e,	// (0x000552c5) msg_body_pane_t2_ParamLimits
 
-0x8500,	// (0x00054744) msg_body_pane_t2
+0x839e,	// (0x000552c5) msg_body_pane_t2
 
-0x8512,	// (0x00054756) msg_body_pane_t3_ParamLimits
+0x83b0,	// (0x000552d7) msg_body_pane_t3_ParamLimits
 
-0x8512,	// (0x00054756) msg_body_pane_t3
+0x83b0,	// (0x000552d7) msg_body_pane_t3
 
 0x0002,
 
-0xf4b1,	// (0x0005b6f5) msg_body_pane_t_ParamLimits
+0xf4a2,	// (0x0005c3c9) msg_body_pane_t_ParamLimits
 
-0xf4b1,	// (0x0005b6f5) msg_body_pane_t
+0xf4a2,	// (0x0005c3c9) msg_body_pane_t
 
-0x8576,	// (0x000547ba) main_viewer_pane_g1_ParamLimits
+0x8414,	// (0x0005533b) main_viewer_pane_g1_ParamLimits
 
-0x8576,	// (0x000547ba) main_viewer_pane_g1
+0x8414,	// (0x0005533b) main_viewer_pane_g1
 
-0x8582,	// (0x000547c6) main_viewer_pane_g2_ParamLimits
+0x8420,	// (0x00055347) main_viewer_pane_g2_ParamLimits
 
-0x8582,	// (0x000547c6) main_viewer_pane_g2
+0x8420,	// (0x00055347) main_viewer_pane_g2
 
-0x858e,	// (0x000547d2) main_viewer_pane_g3_ParamLimits
+0x842c,	// (0x00055353) main_viewer_pane_g3_ParamLimits
 
-0x858e,	// (0x000547d2) main_viewer_pane_g3
+0x842c,	// (0x00055353) main_viewer_pane_g3
 
-0x859f,	// (0x000547e3) main_viewer_pane_g4_ParamLimits
+0x843d,	// (0x00055364) main_viewer_pane_g4_ParamLimits
 
-0x859f,	// (0x000547e3) main_viewer_pane_g4
+0x843d,	// (0x00055364) main_viewer_pane_g4
 
-0x85b0,	// (0x000547f4) main_viewer_pane_g5_ParamLimits
+0x844e,	// (0x00055375) main_viewer_pane_g5_ParamLimits
 
-0x85b0,	// (0x000547f4) main_viewer_pane_g5
+0x844e,	// (0x00055375) main_viewer_pane_g5
 
-0x85b0,	// (0x000547f4) main_viewer_pane_g7_ParamLimits
+0x844e,	// (0x00055375) main_viewer_pane_g7_ParamLimits
 
-0x85b0,	// (0x000547f4) main_viewer_pane_g7
+0x844e,	// (0x00055375) main_viewer_pane_g7
 
-0x2904,	// (0x0004eb48) main_viewer_pane_g8_ParamLimits
+0x2586,	// (0x0004f4ad) main_viewer_pane_g8_ParamLimits
 
-0x2904,	// (0x0004eb48) main_viewer_pane_g8
+0x2586,	// (0x0004f4ad) main_viewer_pane_g8
 
 0x0007,
 
-0xf4c1,	// (0x0005b705) main_viewer_pane_g_ParamLimits
+0xf4b2,	// (0x0005c3d9) main_viewer_pane_g_ParamLimits
 
-0xf4c1,	// (0x0005b705) main_viewer_pane_g
+0xf4b2,	// (0x0005c3d9) main_viewer_pane_g
 
-0x2ed9,	// (0x0004f11d) viewer_content_pane_ParamLimits
+0x2b5b,	// (0x0004fa82) viewer_content_pane_ParamLimits
 
-0x2ed9,	// (0x0004f11d) viewer_content_pane
+0x2b5b,	// (0x0004fa82) viewer_content_pane
 
-0x85ee,	// (0x00054832) main_postcard_pane_g1_ParamLimits
+0x848c,	// (0x000553b3) main_postcard_pane_g1_ParamLimits
 
-0x85ee,	// (0x00054832) main_postcard_pane_g1
+0x848c,	// (0x000553b3) main_postcard_pane_g1
 
-0x85fc,	// (0x00054840) main_postcard_pane_g2_ParamLimits
+0x849a,	// (0x000553c1) main_postcard_pane_g2_ParamLimits
 
-0x85fc,	// (0x00054840) main_postcard_pane_g2
+0x849a,	// (0x000553c1) main_postcard_pane_g2
 
-0x860a,	// (0x0005484e) main_postcard_pane_g3_ParamLimits
+0x84a8,	// (0x000553cf) main_postcard_pane_g3_ParamLimits
 
-0x860a,	// (0x0005484e) main_postcard_pane_g3
+0x84a8,	// (0x000553cf) main_postcard_pane_g3
 
 0x0005,
 
-0xf4d2,	// (0x0005b716) main_postcard_pane_g_ParamLimits
+0xf4c3,	// (0x0005c3ea) main_postcard_pane_g_ParamLimits
 
-0xf4d2,	// (0x0005b716) main_postcard_pane_g
+0xf4c3,	// (0x0005c3ea) main_postcard_pane_g
 
-0x861a,	// (0x0005485e) main_postcard_pane_g4
+0x84b8,	// (0x000553df) main_postcard_pane_g4
 
-0x4217,	// (0x0005045b) smil_status_volume_pane_g2
+0x3e5a,	// (0x00050d81) smil_status_volume_pane_g2
 
-0x8646,	// (0x0005488a) postcard_pane_ParamLimits
+0x84e4,	// (0x0005540b) postcard_pane_ParamLimits
 
-0x8646,	// (0x0005488a) postcard_pane
+0x84e4,	// (0x0005540b) postcard_pane
 
-0x2d4d,	// (0x0004ef91) postcard_pane_g1_ParamLimits
+0x2a02,	// (0x0004f929) postcard_pane_g1_ParamLimits
 
-0x2d4d,	// (0x0004ef91) postcard_pane_g1
+0x2a02,	// (0x0004f929) postcard_pane_g1
 
-0x8678,	// (0x000548bc) postcard_pane_g2_ParamLimits
+0x8516,	// (0x0005543d) postcard_pane_g2_ParamLimits
 
-0x8678,	// (0x000548bc) postcard_pane_g2
+0x8516,	// (0x0005543d) postcard_pane_g2
 
-0x8684,	// (0x000548c8) postcard_pane_g3_ParamLimits
+0x8522,	// (0x00055449) postcard_pane_g3_ParamLimits
 
-0x8684,	// (0x000548c8) postcard_pane_g3
+0x8522,	// (0x00055449) postcard_pane_g3
 
-0x2ef5,	// (0x0004f139) postcard_pane_g4_ParamLimits
+0x2b77,	// (0x0004fa9e) postcard_pane_g4_ParamLimits
 
-0x2ef5,	// (0x0004f139) postcard_pane_g4
+0x2b77,	// (0x0004fa9e) postcard_pane_g4
 
-0x8690,	// (0x000548d4) postcard_pane_g5_ParamLimits
+0x852e,	// (0x00055455) postcard_pane_g5_ParamLimits
 
-0x8690,	// (0x000548d4) postcard_pane_g5
+0x852e,	// (0x00055455) postcard_pane_g5
 
-0x869c,	// (0x000548e0) postcard_pane_g6_ParamLimits
+0x853a,	// (0x00055461) postcard_pane_g6_ParamLimits
 
-0x869c,	// (0x000548e0) postcard_pane_g6
+0x853a,	// (0x00055461) postcard_pane_g6
 
-0x2ee7,	// (0x0004f12b) postcard_pane_g7_ParamLimits
+0x2b69,	// (0x0004fa90) postcard_pane_g7_ParamLimits
 
-0x2ee7,	// (0x0004f12b) postcard_pane_g7
+0x2b69,	// (0x0004fa90) postcard_pane_g7
 
 0x0006,
 
-0xf4df,	// (0x0005b723) postcard_pane_g_ParamLimits
+0xf4d0,	// (0x0005c3f7) postcard_pane_g_ParamLimits
 
-0xf4df,	// (0x0005b723) postcard_pane_g
+0xf4d0,	// (0x0005c3f7) postcard_pane_g
 
-0x86a8,	// (0x000548ec) main_mp2_pane_g1_ParamLimits
+0x8546,	// (0x0005546d) main_mp2_pane_g1_ParamLimits
 
-0x86a8,	// (0x000548ec) main_mp2_pane_g1
+0x8546,	// (0x0005546d) main_mp2_pane_g1
 
-0x86b4,	// (0x000548f8) main_mp2_pane_g2_ParamLimits
+0x8552,	// (0x00055479) main_mp2_pane_g2_ParamLimits
 
-0x86b4,	// (0x000548f8) main_mp2_pane_g2
+0x8552,	// (0x00055479) main_mp2_pane_g2
 
-0x86c0,	// (0x00054904) main_mp2_pane_g3_ParamLimits
+0x855e,	// (0x00055485) main_mp2_pane_g3_ParamLimits
 
-0x86c0,	// (0x00054904) main_mp2_pane_g3
-
-0x0002,
-
-0xf4ee,	// (0x0005b732) main_mp2_pane_g_ParamLimits
-
-0xf4ee,	// (0x0005b732) main_mp2_pane_g
-
-0x86cc,	// (0x00054910) main_mp2_pane_t1_ParamLimits
-
-0x86cc,	// (0x00054910) main_mp2_pane_t1
-
-0x86e3,	// (0x00054927) main_mp2_pane_t2_ParamLimits
-
-0x86e3,	// (0x00054927) main_mp2_pane_t2
-
-0x86f7,	// (0x0005493b) main_mp2_pane_t3_ParamLimits
-
-0x86f7,	// (0x0005493b) main_mp2_pane_t3
+0x855e,	// (0x00055485) main_mp2_pane_g3
 
 0x0002,
 
-0xf4f5,	// (0x0005b739) main_mp2_pane_t_ParamLimits
+0xf4df,	// (0x0005c406) main_mp2_pane_g_ParamLimits
 
-0xf4f5,	// (0x0005b739) main_mp2_pane_t
+0xf4df,	// (0x0005c406) main_mp2_pane_g
 
-0x2f03,	// (0x0004f147) pec_content_pane_ParamLimits
+0x856a,	// (0x00055491) main_mp2_pane_t1_ParamLimits
 
-0x2f03,	// (0x0004f147) pec_content_pane
+0x856a,	// (0x00055491) main_mp2_pane_t1
 
-0x25af,	// (0x0004e7f3) scroll_pane_cp015
+0x8581,	// (0x000554a8) main_mp2_pane_t2_ParamLimits
 
-0x2f15,	// (0x0004f159) pec_attribute_pane_ParamLimits
+0x8581,	// (0x000554a8) main_mp2_pane_t2
 
-0x2f15,	// (0x0004f159) pec_attribute_pane
+0x8595,	// (0x000554bc) main_mp2_pane_t3_ParamLimits
 
-0x8709,	// (0x0005494d) pec_content_pane_g1_ParamLimits
+0x8595,	// (0x000554bc) main_mp2_pane_t3
 
-0x8709,	// (0x0005494d) pec_content_pane_g1
+0x0002,
 
-0x2f25,	// (0x0004f169) pec_content_pane_t1_ParamLimits
+0xf4e6,	// (0x0005c40d) main_mp2_pane_t_ParamLimits
 
-0x2f25,	// (0x0004f169) pec_content_pane_t1
+0xf4e6,	// (0x0005c40d) main_mp2_pane_t
 
-0x2f37,	// (0x0004f17b) pec_content_pane_t2_ParamLimits
+0x2b85,	// (0x0004faac) pec_content_pane_ParamLimits
 
-0x2f37,	// (0x0004f17b) pec_content_pane_t2
+0x2b85,	// (0x0004faac) pec_content_pane
 
-0x0001,
+0x2231,	// (0x0004f158) scroll_pane_cp015
 
-0xf4fc,	// (0x0005b740) pec_content_pane_t_ParamLimits
+0x2b97,	// (0x0004fabe) pec_attribute_pane_ParamLimits
 
-0xf4fc,	// (0x0005b740) pec_content_pane_t
+0x2b97,	// (0x0004fabe) pec_attribute_pane
 
-0x8715,	// (0x00054959) list_single_graphic_pane_cp01_ParamLimits
+0x85a7,	// (0x000554ce) pec_content_pane_g1_ParamLimits
 
-0x8715,	// (0x00054959) list_single_graphic_pane_cp01
+0x85a7,	// (0x000554ce) pec_content_pane_g1
 
-0x2196,	// (0x0004e3da) bg_popup_sub_pane_cp04
+0x2ba7,	// (0x0004face) pec_content_pane_t1_ParamLimits
 
-0x2f49,	// (0x0004f18d) popup_mup_playback_window_g1
+0x2ba7,	// (0x0004face) pec_content_pane_t1
 
-0x2f55,	// (0x0004f199) popup_mup_playback_window_t1
+0x2bb9,	// (0x0004fae0) pec_content_pane_t2_ParamLimits
 
-0x2f6a,	// (0x0004f1ae) popup_mup_playback_window_t2
-
-0x0001,
-
-0xf501,	// (0x0005b745) popup_mup_playback_window_t
-
-0x2fa1,	// (0x0004f1e5) main_image_pane_g1_ParamLimits
-
-0x2fa1,	// (0x0004f1e5) main_image_pane_g1
-
-0x2fe4,	// (0x0004f228) scroll_pane_cp018_ParamLimits
-
-0x2fe4,	// (0x0004f228) scroll_pane_cp018
-
-0x2ffc,	// (0x0004f240) scroll_pane_cp016_ParamLimits
-
-0x2ffc,	// (0x0004f240) scroll_pane_cp016
-
-0x87ae,	// (0x000549f2) smil2_image_pane_ParamLimits
-
-0x87ae,	// (0x000549f2) smil2_image_pane
-
-0x87de,	// (0x00054a22) smil2_root_pane_ParamLimits
-
-0x87de,	// (0x00054a22) smil2_root_pane
-
-0x880a,	// (0x00054a4e) smil2_text_pane_ParamLimits
-
-0x880a,	// (0x00054a4e) smil2_text_pane
-
-0x1f3b,	// (0x0004e17f) bg_list_pane_cp06
-
-0x3038,	// (0x0004f27c) grid_radio_pane
-
-0x1f3b,	// (0x0004e17f) bg_popup_window_pane_cp06
-
-0x3040,	// (0x0004f284) main_fmradio_pane_t1
-
-0x2ad0,	// (0x0004ed14) heading_pane_cp04
-
-0x304e,	// (0x0004f292) main_fmradio_pane_t2
-
-0x402d,	// (0x00050271) popup_cale_lunar_info_window_g1
-
-0x305c,	// (0x0004f2a0) main_fmradio_pane_t3
-
-0x4035,	// (0x00050279) popup_cale_lunar_info_window_g2
-
-0x306a,	// (0x0004f2ae) main_fmradio_pane_t4
+0x2bb9,	// (0x0004fae0) pec_content_pane_t2
 
 0x0001,
 
-0x3078,	// (0x0004f2bc) main_fmradio_pane_t5
+0xf4ed,	// (0x0005c414) pec_content_pane_t_ParamLimits
+
+0xf4ed,	// (0x0005c414) pec_content_pane_t
+
+0x85b3,	// (0x000554da) list_single_graphic_pane_cp01_ParamLimits
+
+0x85b3,	// (0x000554da) list_single_graphic_pane_cp01
+
+0x1e18,	// (0x0004ed3f) bg_popup_sub_pane_cp04
+
+0x2bcb,	// (0x0004faf2) popup_mup_playback_window_g1
+
+0x2bd7,	// (0x0004fafe) popup_mup_playback_window_t1
+
+0x2bec,	// (0x0004fb13) popup_mup_playback_window_t2
+
+0x0001,
+
+0xf4f2,	// (0x0005c419) popup_mup_playback_window_t
+
+0x2c23,	// (0x0004fb4a) main_image_pane_g1_ParamLimits
+
+0x2c23,	// (0x0004fb4a) main_image_pane_g1
+
+0x2c66,	// (0x0004fb8d) scroll_pane_cp018_ParamLimits
+
+0x2c66,	// (0x0004fb8d) scroll_pane_cp018
+
+0x2c7e,	// (0x0004fba5) scroll_pane_cp016_ParamLimits
+
+0x2c7e,	// (0x0004fba5) scroll_pane_cp016
+
+0x864c,	// (0x00055573) smil2_image_pane_ParamLimits
+
+0x864c,	// (0x00055573) smil2_image_pane
+
+0x867c,	// (0x000555a3) smil2_root_pane_ParamLimits
+
+0x867c,	// (0x000555a3) smil2_root_pane
+
+0x86a8,	// (0x000555cf) smil2_text_pane_ParamLimits
+
+0x86a8,	// (0x000555cf) smil2_text_pane
+
+0x1bbd,	// (0x0004eae4) bg_list_pane_cp06
+
+0x2cba,	// (0x0004fbe1) grid_radio_pane
+
+0x1bbd,	// (0x0004eae4) bg_popup_window_pane_cp06
+
+0x2cc2,	// (0x0004fbe9) main_fmradio_pane_t1
+
+0x2752,	// (0x0004f679) heading_pane_cp04
+
+0x2cd0,	// (0x0004fbf7) main_fmradio_pane_t2
+
+0x3caf,	// (0x00050bd6) popup_cale_lunar_info_window_g1
+
+0x2cde,	// (0x0004fc05) main_fmradio_pane_t3
+
+0x3cb7,	// (0x00050bde) popup_cale_lunar_info_window_g2
+
+0x2cec,	// (0x0004fc13) main_fmradio_pane_t4
+
+0x0001,
+
+0x2cfa,	// (0x0004fc21) main_fmradio_pane_t5
 
 0x0004,
 
-0xf5dc,	// (0x0005b820) popup_cale_lunar_info_window_g
+0xf5cd,	// (0x0005c4f4) popup_cale_lunar_info_window_g
 
-0xf516,	// (0x0005b75a) main_fmradio_pane_t
+0xf507,	// (0x0005c42e) main_fmradio_pane_t
 
-0x3086,	// (0x0004f2ca) wait_bar_pane_cp03
+0x2d08,	// (0x0004fc2f) wait_bar_pane_cp03
 
-0x308e,	// (0x0004f2d2) cell_fmradio_pane_ParamLimits
+0x2d10,	// (0x0004fc37) cell_fmradio_pane_ParamLimits
 
-0x308e,	// (0x0004f2d2) cell_fmradio_pane
+0x2d10,	// (0x0004fc37) cell_fmradio_pane
 
-0x2ee7,	// (0x0004f12b) cell_fmradio_pane_g1_ParamLimits
+0x2b69,	// (0x0004fa90) cell_fmradio_pane_g1_ParamLimits
 
-0x2ee7,	// (0x0004f12b) cell_fmradio_pane_g1
+0x2b69,	// (0x0004fa90) cell_fmradio_pane_g1
 
-0x1f3b,	// (0x0004e17f) grid_highlight_pane_cp011
+0x1bbd,	// (0x0004eae4) grid_highlight_pane_cp011
 
-0x30a1,	// (0x0004f2e5) poc_content_pane_ParamLimits
+0x2d23,	// (0x0004fc4a) poc_content_pane_ParamLimits
 
-0x30a1,	// (0x0004f2e5) poc_content_pane
+0x2d23,	// (0x0004fc4a) poc_content_pane
 
-0x30b3,	// (0x0004f2f7) scroll_pane_cp019
+0x2d35,	// (0x0004fc5c) scroll_pane_cp019
 
-0x884a,	// (0x00054a8e) popup_call_poc_act_window_ParamLimits
+0x86e8,	// (0x0005560f) popup_call_poc_act_window_ParamLimits
 
-0x884a,	// (0x00054a8e) popup_call_poc_act_window
+0x86e8,	// (0x0005560f) popup_call_poc_act_window
 
-0x8857,	// (0x00054a9b) popup_call_poc_inact_window_ParamLimits
+0x86f5,	// (0x0005561c) popup_call_poc_inact_window_ParamLimits
 
-0x8857,	// (0x00054a9b) popup_call_poc_inact_window
+0x86f5,	// (0x0005561c) popup_call_poc_inact_window
 
-0xf5b3,	// (0x0005b7f7) bg_popup_call_poc_act_pane_g
+0xf5a4,	// (0x0005c4cb) bg_popup_call_poc_act_pane_g
 
-0x3fa5,	// (0x000501e9) bg_popup_call_poc_inact_pane_g1
+0x3c27,	// (0x00050b4e) bg_popup_call_poc_inact_pane_g1
 
-0x3fad,	// (0x000501f1) bg_popup_call_poc_inact_pane_g2
+0x3c2f,	// (0x00050b56) bg_popup_call_poc_inact_pane_g2
 
-0x30bb,	// (0x0004f2ff) popup_call_poc_act_window_g2
+0x2d3d,	// (0x0004fc64) popup_call_poc_act_window_g2
 
-0x3fb5,	// (0x000501f9) bg_popup_call_poc_inact_pane_g3
+0x3c37,	// (0x00050b5e) bg_popup_call_poc_inact_pane_g3
 
-0x3fbd,	// (0x00050201) bg_popup_call_poc_inact_pane_g4
+0x3c3f,	// (0x00050b66) bg_popup_call_poc_inact_pane_g4
 
-0x3fc5,	// (0x00050209) bg_popup_call_poc_inact_pane_g5
+0x3c47,	// (0x00050b6e) bg_popup_call_poc_inact_pane_g5
 
-0x30c3,	// (0x0004f307) popup_call_poc_act_window_t1_ParamLimits
+0x2d45,	// (0x0004fc6c) popup_call_poc_act_window_t1_ParamLimits
 
-0x30c3,	// (0x0004f307) popup_call_poc_act_window_t1
+0x2d45,	// (0x0004fc6c) popup_call_poc_act_window_t1
 
-0x30eb,	// (0x0004f32f) popup_call_poc_act_window_t2_ParamLimits
+0x2d6d,	// (0x0004fc94) popup_call_poc_act_window_t2_ParamLimits
 
-0x30eb,	// (0x0004f32f) popup_call_poc_act_window_t2
+0x2d6d,	// (0x0004fc94) popup_call_poc_act_window_t2
 
-0x3113,	// (0x0004f357) popup_call_poc_act_window_t3_ParamLimits
+0x2d95,	// (0x0004fcbc) popup_call_poc_act_window_t3_ParamLimits
 
-0x3113,	// (0x0004f357) popup_call_poc_act_window_t3
+0x2d95,	// (0x0004fcbc) popup_call_poc_act_window_t3
 
-0x313b,	// (0x0004f37f) popup_call_poc_act_window_t4_ParamLimits
+0x2dbd,	// (0x0004fce4) popup_call_poc_act_window_t4_ParamLimits
 
-0x313b,	// (0x0004f37f) popup_call_poc_act_window_t4
+0x2dbd,	// (0x0004fce4) popup_call_poc_act_window_t4
 
 0x0003,
 
-0xf521,	// (0x0005b765) popup_call_poc_act_window_t_ParamLimits
+0xf512,	// (0x0005c439) popup_call_poc_act_window_t_ParamLimits
 
-0xf521,	// (0x0005b765) popup_call_poc_act_window_t
+0xf512,	// (0x0005c439) popup_call_poc_act_window_t
 
-0x3fcd,	// (0x00050211) bg_popup_call_poc_inact_pane_g6
+0x3c4f,	// (0x00050b76) bg_popup_call_poc_inact_pane_g6
 
-0x3fd5,	// (0x00050219) bg_popup_call_poc_inact_pane_g7
+0x3c57,	// (0x00050b7e) bg_popup_call_poc_inact_pane_g7
 
-0x3fdd,	// (0x00050221) bg_popup_call_poc_inact_pane_g8
+0x3c5f,	// (0x00050b86) bg_popup_call_poc_inact_pane_g8
 
-0x314d,	// (0x0004f391) popup_call_poc_inact_window_g2
+0x2dcf,	// (0x0004fcf6) popup_call_poc_inact_window_g2
 
-0x3fe5,	// (0x00050229) bg_popup_call_poc_inact_pane_g9
+0x3c67,	// (0x00050b8e) bg_popup_call_poc_inact_pane_g9
 
 0x0008,
 
-0xf5a0,	// (0x0005b7e4) bg_popup_call_poc_inact_pane_g
+0xf591,	// (0x0005c4b8) bg_popup_call_poc_inact_pane_g
 
-0x3155,	// (0x0004f399) popup_call_poc_inact_window_t1_ParamLimits
+0x2dd7,	// (0x0004fcfe) popup_call_poc_inact_window_t1_ParamLimits
 
-0x3155,	// (0x0004f399) popup_call_poc_inact_window_t1
+0x2dd7,	// (0x0004fcfe) popup_call_poc_inact_window_t1
 
-0x316a,	// (0x0004f3ae) popup_call_poc_inact_window_t2_ParamLimits
+0x2dec,	// (0x0004fd13) popup_call_poc_inact_window_t2_ParamLimits
 
-0x316a,	// (0x0004f3ae) popup_call_poc_inact_window_t2
+0x2dec,	// (0x0004fd13) popup_call_poc_inact_window_t2
 
-0x317f,	// (0x0004f3c3) popup_call_poc_inact_window_t3_ParamLimits
+0x2e01,	// (0x0004fd28) popup_call_poc_inact_window_t3_ParamLimits
 
-0x317f,	// (0x0004f3c3) popup_call_poc_inact_window_t3
+0x2e01,	// (0x0004fd28) popup_call_poc_inact_window_t3
 
 0x0002,
 
-0xf52a,	// (0x0005b76e) popup_call_poc_inact_window_t_ParamLimits
+0xf51b,	// (0x0005c442) popup_call_poc_inact_window_t_ParamLimits
 
-0xf52a,	// (0x0005b76e) popup_call_poc_inact_window_t
+0xf51b,	// (0x0005c442) popup_call_poc_inact_window_t
 
-0x419d,	// (0x000503e1) context_pane_ParamLimits
+0x3de0,	// (0x00050d07) context_pane_ParamLimits
 
-0x8e47,	// (0x0005508b) signal_pane_ParamLimits
+0x8d32,	// (0x00055c59) signal_pane_ParamLimits
 
-0x2d3c,	// (0x0004ef80) main_call2_pane
+0x29be,	// (0x0004f8e5) main_call2_pane
 
-0x418b,	// (0x000503cf) popup_phob_thumbnail2_window_ParamLimits
+0x8caa,	// (0x00055bd1) popup_phob_thumbnail2_window_ParamLimits
 
-0x418b,	// (0x000503cf) popup_phob_thumbnail2_window
+0x8caa,	// (0x00055bd1) popup_phob_thumbnail2_window
 
-0x8524,	// (0x00054768) aid_hotspot_pointer_arrow_pane
+0x83c2,	// (0x000552e9) aid_hotspot_pointer_arrow_pane
 
-0x852c,	// (0x00054770) aid_hotspot_pointer_hand_pane
+0x83ca,	// (0x000552f1) aid_hotspot_pointer_hand_pane
 
-0x8b79,	// (0x00054dbd) phob_pre_status_pane_g5
+0x8a17,	// (0x0005593e) phob_pre_status_pane_g5
 
-0x68dd,	// (0x00052b21) cams_zoom_pane_ParamLimits
+0x677b,	// (0x000536a2) cams_zoom_pane_ParamLimits
 
-0x68e9,	// (0x00052b2d) image_vga_pane_ParamLimits
+0x6787,	// (0x000536ae) image_vga_pane_ParamLimits
 
-0x68f8,	// (0x00052b3c) main_camera_pane_g1_ParamLimits
+0x6796,	// (0x000536bd) main_camera_pane_g1_ParamLimits
 
-0x6906,	// (0x00052b4a) main_camera_pane_g2_ParamLimits
+0x67a4,	// (0x000536cb) main_camera_pane_g2_ParamLimits
 
-0x6912,	// (0x00052b56) main_camera_pane_g3_ParamLimits
+0x67b0,	// (0x000536d7) main_camera_pane_g3_ParamLimits
 
-0x691e,	// (0x00052b62) main_camera_pane_g4_ParamLimits
+0x67bc,	// (0x000536e3) main_camera_pane_g4_ParamLimits
 
-0x692a,	// (0x00052b6e) main_camera_pane_g5_ParamLimits
+0x67c8,	// (0x000536ef) main_camera_pane_g5_ParamLimits
 
-0x6936,	// (0x00052b7a) main_camera_pane_g6_ParamLimits
+0x67d4,	// (0x000536fb) main_camera_pane_g6_ParamLimits
 
-0x6942,	// (0x00052b86) main_camera_pane_g7_ParamLimits
+0x67e0,	// (0x00053707) main_camera_pane_g7_ParamLimits
 
-0xf229,	// (0x0005b46d) main_camera_pane_g_ParamLimits
+0xf21a,	// (0x0005c141) main_camera_pane_g_ParamLimits
 
-0x694e,	// (0x00052b92) main_camera_pane_t1_ParamLimits
+0x67ec,	// (0x00053713) main_camera_pane_t1_ParamLimits
 
-0x6960,	// (0x00052ba4) main_camera_pane_t2_ParamLimits
+0x67fe,	// (0x00053725) main_camera_pane_t2_ParamLimits
 
-0xf23a,	// (0x0005b47e) main_camera_pane_t_ParamLimits
+0xf22b,	// (0x0005c152) main_camera_pane_t_ParamLimits
 
-0x2196,	// (0x0004e3da) bg_popup_preview_window_pane_cp01_ParamLimits
+0x1e18,	// (0x0004ed3f) bg_popup_preview_window_pane_cp01_ParamLimits
 
-0x2196,	// (0x0004e3da) bg_popup_preview_window_pane_cp01
+0x1e18,	// (0x0004ed3f) bg_popup_preview_window_pane_cp01
 
-0x3194,	// (0x0004f3d8) popup_phob_thumbnail2_window_g1_ParamLimits
+0x2e16,	// (0x0004fd3d) popup_phob_thumbnail2_window_g1_ParamLimits
 
-0x3194,	// (0x0004f3d8) popup_phob_thumbnail2_window_g1
+0x2e16,	// (0x0004fd3d) popup_phob_thumbnail2_window_g1
 
-0x1f3b,	// (0x0004e17f) call2_cli_visual_pane
+0x1bbd,	// (0x0004eae4) call2_cli_visual_pane
 
-0x8873,	// (0x00054ab7) popup_call2_audio_conf_window_ParamLimits
+0x8711,	// (0x00055638) popup_call2_audio_conf_window_ParamLimits
 
-0x8873,	// (0x00054ab7) popup_call2_audio_conf_window
+0x8711,	// (0x00055638) popup_call2_audio_conf_window
 
-0x8888,	// (0x00054acc) popup_call2_audio_first_window_ParamLimits
+0x8726,	// (0x0005564d) popup_call2_audio_first_window_ParamLimits
 
-0x8888,	// (0x00054acc) popup_call2_audio_first_window
+0x8726,	// (0x0005564d) popup_call2_audio_first_window
 
-0x8926,	// (0x00054b6a) popup_call2_audio_in_window_ParamLimits
+0x87c4,	// (0x000556eb) popup_call2_audio_in_window_ParamLimits
 
-0x8926,	// (0x00054b6a) popup_call2_audio_in_window
+0x87c4,	// (0x000556eb) popup_call2_audio_in_window
 
-0x8968,	// (0x00054bac) popup_call2_audio_out_window_ParamLimits
+0x8806,	// (0x0005572d) popup_call2_audio_out_window_ParamLimits
 
-0x8968,	// (0x00054bac) popup_call2_audio_out_window
+0x8806,	// (0x0005572d) popup_call2_audio_out_window
 
-0x89ca,	// (0x00054c0e) popup_call2_audio_second_window_ParamLimits
+0x8868,	// (0x0005578f) popup_call2_audio_second_window_ParamLimits
 
-0x89ca,	// (0x00054c0e) popup_call2_audio_second_window
+0x8868,	// (0x0005578f) popup_call2_audio_second_window
 
-0x8a28,	// (0x00054c6c) popup_call2_audio_wait_window_ParamLimits
+0x88c6,	// (0x000557ed) popup_call2_audio_wait_window_ParamLimits
 
-0x8a28,	// (0x00054c6c) popup_call2_audio_wait_window
+0x88c6,	// (0x000557ed) popup_call2_audio_wait_window
 
-0x1f3b,	// (0x0004e17f) bg_popup_call2_act_pane_cp03
+0x1bbd,	// (0x0004eae4) bg_popup_call2_act_pane_cp03
 
-0x2178,	// (0x0004e3bc) list_conf_pane_cp
+0x1dfa,	// (0x0004ed21) list_conf_pane_cp
 
-0x31a0,	// (0x0004f3e4) popup_call2_audio_conf_window_t1
+0x2e22,	// (0x0004fd49) popup_call2_audio_conf_window_t1
 
-0x2b2d,	// (0x0004ed71) list_single_graphic_popup_conf2_pane_ParamLimits
+0x27af,	// (0x0004f6d6) list_single_graphic_popup_conf2_pane_ParamLimits
 
-0x2b2d,	// (0x0004ed71) list_single_graphic_popup_conf2_pane
+0x27af,	// (0x0004f6d6) list_single_graphic_popup_conf2_pane
 
-0x2b40,	// (0x0004ed84) list_highlight_pane_cp04
+0x27c2,	// (0x0004f6e9) list_highlight_pane_cp04
 
-0x31ae,	// (0x0004f3f2) list_single_graphic_popup_conf2_pane_g1
+0x2e30,	// (0x0004fd57) list_single_graphic_popup_conf2_pane_g1
 
-0x2b51,	// (0x0004ed95) list_single_graphic_popup_conf2_pane_g2
+0x27d3,	// (0x0004f6fa) list_single_graphic_popup_conf2_pane_g2
 
 0x0001,
 
-0xf531,	// (0x0005b775) list_single_graphic_popup_conf2_pane_g
+0xf522,	// (0x0005c449) list_single_graphic_popup_conf2_pane_g
 
-0x31b8,	// (0x0004f3fc) list_single_graphic_popup_conf2_pane_t1
+0x2e3a,	// (0x0004fd61) list_single_graphic_popup_conf2_pane_t1
 
-0x31c6,	// (0x0004f40a) bg_popup_call2_act_pane_cp01_ParamLimits
+0x2e48,	// (0x0004fd6f) bg_popup_call2_act_pane_cp01_ParamLimits
 
-0x31c6,	// (0x0004f40a) bg_popup_call2_act_pane_cp01
+0x2e48,	// (0x0004fd6f) bg_popup_call2_act_pane_cp01
 
-0x3250,	// (0x0004f494) call_type_pane_cp05_ParamLimits
+0x2ed2,	// (0x0004fdf9) call_type_pane_cp05_ParamLimits
 
-0x3250,	// (0x0004f494) call_type_pane_cp05
+0x2ed2,	// (0x0004fdf9) call_type_pane_cp05
 
-0x32a4,	// (0x0004f4e8) popup_call2_audio_second_window_g1_ParamLimits
+0x2f26,	// (0x0004fe4d) popup_call2_audio_second_window_g1_ParamLimits
 
-0x32a4,	// (0x0004f4e8) popup_call2_audio_second_window_g1
+0x2f26,	// (0x0004fe4d) popup_call2_audio_second_window_g1
 
-0x32f8,	// (0x0004f53c) popup_call2_audio_second_window_g2_ParamLimits
+0x2f7a,	// (0x0004fea1) popup_call2_audio_second_window_g2_ParamLimits
 
-0x32f8,	// (0x0004f53c) popup_call2_audio_second_window_g2
+0x2f7a,	// (0x0004fea1) popup_call2_audio_second_window_g2
 
 0x0002,
 
-0xf536,	// (0x0005b77a) popup_call2_audio_second_window_g_ParamLimits
+0xf527,	// (0x0005c44e) popup_call2_audio_second_window_g_ParamLimits
 
-0xf536,	// (0x0005b77a) popup_call2_audio_second_window_g
+0xf527,	// (0x0005c44e) popup_call2_audio_second_window_g
 
-0x3377,	// (0x0004f5bb) popup_call2_audio_second_window_t1_ParamLimits
+0x2fdf,	// (0x0004ff06) popup_call2_audio_second_window_t1_ParamLimits
 
-0x3377,	// (0x0004f5bb) popup_call2_audio_second_window_t1
+0x2fdf,	// (0x0004ff06) popup_call2_audio_second_window_t1
 
-0x3432,	// (0x0004f676) popup_call2_audio_second_window_t2_ParamLimits
+0x309a,	// (0x0004ffc1) popup_call2_audio_second_window_t2_ParamLimits
 
-0x3432,	// (0x0004f676) popup_call2_audio_second_window_t2
+0x309a,	// (0x0004ffc1) popup_call2_audio_second_window_t2
 
-0x3485,	// (0x0004f6c9) popup_call2_audio_second_window_t3_ParamLimits
+0x30ed,	// (0x00050014) popup_call2_audio_second_window_t3_ParamLimits
 
-0x3485,	// (0x0004f6c9) popup_call2_audio_second_window_t3
+0x30ed,	// (0x00050014) popup_call2_audio_second_window_t3
 
 0x0003,
 
-0xf53d,	// (0x0005b781) popup_call2_audio_second_window_t_ParamLimits
+0xf52e,	// (0x0005c455) popup_call2_audio_second_window_t_ParamLimits
 
-0xf53d,	// (0x0005b781) popup_call2_audio_second_window_t
+0xf52e,	// (0x0005c455) popup_call2_audio_second_window_t
 
-0x1f3b,	// (0x0004e17f) bg_popup_call2_in_pane_cp02
+0x1bbd,	// (0x0004eae4) bg_popup_call2_in_pane_cp02
 
-0x1f45,	// (0x0004e189) call_type_pane_cp04
+0x1bc7,	// (0x0004eaee) call_type_pane_cp04
 
-0x1f4d,	// (0x0004e191) popup_call2_audio_wait_window_g1
+0x1bcf,	// (0x0004eaf6) popup_call2_audio_wait_window_g1
 
-0x1f55,	// (0x0004e199) popup_call2_audio_wait_window_g2
+0x1bd7,	// (0x0004eafe) popup_call2_audio_wait_window_g2
 
 0x0001,
 
-0xf116,	// (0x0005b35a) popup_call2_audio_wait_window_g
+0xf107,	// (0x0005c02e) popup_call2_audio_wait_window_g
 
-0x1f5d,	// (0x0004e1a1) popup_call2_audio_wait_window_t3
+0x1bdf,	// (0x0004eb06) popup_call2_audio_wait_window_t3
 
-0x3578,	// (0x0004f7bc) bg_popup_call2_act_pane_ParamLimits
+0x31e0,	// (0x00050107) bg_popup_call2_act_pane_ParamLimits
 
-0x3578,	// (0x0004f7bc) bg_popup_call2_act_pane
+0x31e0,	// (0x00050107) bg_popup_call2_act_pane
 
-0x3638,	// (0x0004f87c) call_type_pane_cp03_ParamLimits
+0x32a0,	// (0x000501c7) call_type_pane_cp03_ParamLimits
 
-0x3638,	// (0x0004f87c) call_type_pane_cp03
+0x32a0,	// (0x000501c7) call_type_pane_cp03
 
-0x369c,	// (0x0004f8e0) popup_call2_audio_first_window_g1_ParamLimits
+0x3304,	// (0x0005022b) popup_call2_audio_first_window_g1_ParamLimits
 
-0x369c,	// (0x0004f8e0) popup_call2_audio_first_window_g1
+0x3304,	// (0x0005022b) popup_call2_audio_first_window_g1
 
-0x370c,	// (0x0004f950) popup_call2_audio_first_window_g2_ParamLimits
+0x3374,	// (0x0005029b) popup_call2_audio_first_window_g2_ParamLimits
 
-0x370c,	// (0x0004f950) popup_call2_audio_first_window_g2
+0x3374,	// (0x0005029b) popup_call2_audio_first_window_g2
 
-0x2d4d,	// (0x0004ef91) popup_call2_audio_first_window_g3_ParamLimits
+0x2a02,	// (0x0004f929) popup_call2_audio_first_window_g3_ParamLimits
 
-0x2d4d,	// (0x0004ef91) popup_call2_audio_first_window_g3
+0x2a02,	// (0x0004f929) popup_call2_audio_first_window_g3
 
 0x0004,
 
-0xf546,	// (0x0005b78a) popup_call2_audio_first_window_g_ParamLimits
+0xf537,	// (0x0005c45e) popup_call2_audio_first_window_g_ParamLimits
 
-0xf546,	// (0x0005b78a) popup_call2_audio_first_window_g
+0xf537,	// (0x0005c45e) popup_call2_audio_first_window_g
 
-0x37ea,	// (0x0004fa2e) popup_call2_audio_first_window_t1_ParamLimits
+0x3452,	// (0x00050379) popup_call2_audio_first_window_t1_ParamLimits
 
-0x37ea,	// (0x0004fa2e) popup_call2_audio_first_window_t1
+0x3452,	// (0x00050379) popup_call2_audio_first_window_t1
 
-0x38ed,	// (0x0004fb31) popup_call2_audio_first_window_t4_ParamLimits
+0x3555,	// (0x0005047c) popup_call2_audio_first_window_t4_ParamLimits
 
-0x38ed,	// (0x0004fb31) popup_call2_audio_first_window_t4
+0x3555,	// (0x0005047c) popup_call2_audio_first_window_t4
 
-0x39d0,	// (0x0004fc14) popup_call2_audio_first_window_t5_ParamLimits
+0x3638,	// (0x0005055f) popup_call2_audio_first_window_t5_ParamLimits
 
-0x39d0,	// (0x0004fc14) popup_call2_audio_first_window_t5
-
-0x0003,
-
-0xf551,	// (0x0005b795) popup_call2_audio_first_window_t_ParamLimits
-
-0xf551,	// (0x0005b795) popup_call2_audio_first_window_t
-
-0x218e,	// (0x0004e3d2) bg_popup_call2_act_pane_g1
-
-0x403d,	// (0x00050281) popup_cale_lunar_info_window_t1
-
-0x404b,	// (0x0005028f) popup_cale_lunar_info_window_t2
-
-0x4059,	// (0x0005029d) popup_cale_lunar_info_window_t3
-
-0x1f3b,	// (0x0004e17f) bg_popup_call2_bubble_pane
-
-0x3ad1,	// (0x0004fd15) bg_popup_call2_in_pane_cp01_ParamLimits
-
-0x3ad1,	// (0x0004fd15) bg_popup_call2_in_pane_cp01
-
-0x1c17,	// (0x0004de5b) call_type_pane_cp02
-
-0x3b19,	// (0x0004fd5d) popup_call2_audio_out_window_g1_ParamLimits
-
-0x3b19,	// (0x0004fd5d) popup_call2_audio_out_window_g1
-
-0x3b45,	// (0x0004fd89) popup_call2_audio_out_window_g2_ParamLimits
-
-0x3b45,	// (0x0004fd89) popup_call2_audio_out_window_g2
-
-0x3b6d,	// (0x0004fdb1) popup_call2_audio_out_window_g3_ParamLimits
-
-0x3b6d,	// (0x0004fdb1) popup_call2_audio_out_window_g3
+0x3638,	// (0x0005055f) popup_call2_audio_first_window_t5
 
 0x0003,
 
-0xf55a,	// (0x0005b79e) popup_call2_audio_out_window_g_ParamLimits
+0xf542,	// (0x0005c469) popup_call2_audio_first_window_t_ParamLimits
 
-0xf55a,	// (0x0005b79e) popup_call2_audio_out_window_g
+0xf542,	// (0x0005c469) popup_call2_audio_first_window_t
 
-0x3ba8,	// (0x0004fdec) popup_call2_audio_out_window_t1_ParamLimits
+0x1e10,	// (0x0004ed37) bg_popup_call2_act_pane_g1
 
-0x3ba8,	// (0x0004fdec) popup_call2_audio_out_window_t1
+0x3cbf,	// (0x00050be6) popup_cale_lunar_info_window_t1
 
-0x3c07,	// (0x0004fe4b) popup_call2_audio_out_window_t2_ParamLimits
+0x3ccd,	// (0x00050bf4) popup_cale_lunar_info_window_t2
 
-0x3c07,	// (0x0004fe4b) popup_call2_audio_out_window_t2
+0x3cdb,	// (0x00050c02) popup_cale_lunar_info_window_t3
 
-0x3c5b,	// (0x0004fe9f) popup_call2_audio_out_window_t3_ParamLimits
+0x1bbd,	// (0x0004eae4) bg_popup_call2_bubble_pane
 
-0x3c5b,	// (0x0004fe9f) popup_call2_audio_out_window_t3
+0x3739,	// (0x00050660) bg_popup_call2_in_pane_cp01_ParamLimits
 
-0x3c71,	// (0x0004feb5) popup_call2_audio_out_window_t4_ParamLimits
+0x3739,	// (0x00050660) bg_popup_call2_in_pane_cp01
 
-0x3c71,	// (0x0004feb5) popup_call2_audio_out_window_t4
+0x1899,	// (0x0004e7c0) call_type_pane_cp02
 
-0x3c87,	// (0x0004fecb) popup_call2_audio_out_window_t5_ParamLimits
+0x3781,	// (0x000506a8) popup_call2_audio_out_window_g1_ParamLimits
 
-0x3c87,	// (0x0004fecb) popup_call2_audio_out_window_t5
+0x3781,	// (0x000506a8) popup_call2_audio_out_window_g1
+
+0x37ad,	// (0x000506d4) popup_call2_audio_out_window_g2_ParamLimits
+
+0x37ad,	// (0x000506d4) popup_call2_audio_out_window_g2
+
+0x37d5,	// (0x000506fc) popup_call2_audio_out_window_g3_ParamLimits
+
+0x37d5,	// (0x000506fc) popup_call2_audio_out_window_g3
+
+0x0003,
+
+0xf54b,	// (0x0005c472) popup_call2_audio_out_window_g_ParamLimits
+
+0xf54b,	// (0x0005c472) popup_call2_audio_out_window_g
+
+0x382a,	// (0x00050751) popup_call2_audio_out_window_t1_ParamLimits
+
+0x382a,	// (0x00050751) popup_call2_audio_out_window_t1
+
+0x3889,	// (0x000507b0) popup_call2_audio_out_window_t2_ParamLimits
+
+0x3889,	// (0x000507b0) popup_call2_audio_out_window_t2
+
+0x38dd,	// (0x00050804) popup_call2_audio_out_window_t3_ParamLimits
+
+0x38dd,	// (0x00050804) popup_call2_audio_out_window_t3
+
+0x38f3,	// (0x0005081a) popup_call2_audio_out_window_t4_ParamLimits
+
+0x38f3,	// (0x0005081a) popup_call2_audio_out_window_t4
+
+0x3909,	// (0x00050830) popup_call2_audio_out_window_t5_ParamLimits
+
+0x3909,	// (0x00050830) popup_call2_audio_out_window_t5
 
 0x0005,
 
-0xf563,	// (0x0005b7a7) popup_call2_audio_out_window_t_ParamLimits
+0xf554,	// (0x0005c47b) popup_call2_audio_out_window_t_ParamLimits
 
-0xf563,	// (0x0005b7a7) popup_call2_audio_out_window_t
+0xf554,	// (0x0005c47b) popup_call2_audio_out_window_t
 
-0x3ceb,	// (0x0004ff2f) bg_popup_call2_in_pane_ParamLimits
+0x396d,	// (0x00050894) bg_popup_call2_in_pane_ParamLimits
 
-0x3ceb,	// (0x0004ff2f) bg_popup_call2_in_pane
+0x396d,	// (0x00050894) bg_popup_call2_in_pane
 
-0x3d47,	// (0x0004ff8b) popup_call2_audio_in_window_g1_ParamLimits
+0x39c9,	// (0x000508f0) popup_call2_audio_in_window_g1_ParamLimits
 
-0x3d47,	// (0x0004ff8b) popup_call2_audio_in_window_g1
+0x39c9,	// (0x000508f0) popup_call2_audio_in_window_g1
 
-0x3d7f,	// (0x0004ffc3) popup_call2_audio_in_window_g2_ParamLimits
+0x3a01,	// (0x00050928) popup_call2_audio_in_window_g2_ParamLimits
 
-0x3d7f,	// (0x0004ffc3) popup_call2_audio_in_window_g2
+0x3a01,	// (0x00050928) popup_call2_audio_in_window_g2
 
-0x3db7,	// (0x0004fffb) popup_call2_audio_in_window_g3_ParamLimits
+0x3a39,	// (0x00050960) popup_call2_audio_in_window_g3_ParamLimits
 
-0x3db7,	// (0x0004fffb) popup_call2_audio_in_window_g3
+0x3a39,	// (0x00050960) popup_call2_audio_in_window_g3
 
 0x0003,
 
-0xf570,	// (0x0005b7b4) popup_call2_audio_in_window_g_ParamLimits
+0xf561,	// (0x0005c488) popup_call2_audio_in_window_g_ParamLimits
 
-0xf570,	// (0x0005b7b4) popup_call2_audio_in_window_g
+0xf561,	// (0x0005c488) popup_call2_audio_in_window_g
 
-0x3e0f,	// (0x00050053) popup_call2_audio_in_window_t1_ParamLimits
+0x3a91,	// (0x000509b8) popup_call2_audio_in_window_t1_ParamLimits
 
-0x3e0f,	// (0x00050053) popup_call2_audio_in_window_t1
+0x3a91,	// (0x000509b8) popup_call2_audio_in_window_t1
 
-0x3e8f,	// (0x000500d3) popup_call2_audio_in_window_t2_ParamLimits
+0x3b11,	// (0x00050a38) popup_call2_audio_in_window_t2_ParamLimits
 
-0x3e8f,	// (0x000500d3) popup_call2_audio_in_window_t2
+0x3b11,	// (0x00050a38) popup_call2_audio_in_window_t2
 
-0x3f0f,	// (0x00050153) popup_call2_audio_in_window_t3_ParamLimits
+0x3b91,	// (0x00050ab8) popup_call2_audio_in_window_t3_ParamLimits
 
-0x3f0f,	// (0x00050153) popup_call2_audio_in_window_t3
+0x3b91,	// (0x00050ab8) popup_call2_audio_in_window_t3
 
-0x3f29,	// (0x0005016d) popup_call2_audio_in_window_t4_ParamLimits
+0x3bab,	// (0x00050ad2) popup_call2_audio_in_window_t4_ParamLimits
 
-0x3f29,	// (0x0005016d) popup_call2_audio_in_window_t4
+0x3bab,	// (0x00050ad2) popup_call2_audio_in_window_t4
 
-0x3f3b,	// (0x0005017f) popup_call2_audio_in_window_t5_ParamLimits
+0x3bbd,	// (0x00050ae4) popup_call2_audio_in_window_t5_ParamLimits
 
-0x3f3b,	// (0x0005017f) popup_call2_audio_in_window_t5
+0x3bbd,	// (0x00050ae4) popup_call2_audio_in_window_t5
 
-0x3f50,	// (0x00050194) popup_call2_audio_in_window_t6_ParamLimits
+0x3bd2,	// (0x00050af9) popup_call2_audio_in_window_t6_ParamLimits
 
-0x3f50,	// (0x00050194) popup_call2_audio_in_window_t6
+0x3bd2,	// (0x00050af9) popup_call2_audio_in_window_t6
 
 0x0005,
 
-0xf579,	// (0x0005b7bd) popup_call2_audio_in_window_t_ParamLimits
+0xf56a,	// (0x0005c491) popup_call2_audio_in_window_t_ParamLimits
 
-0xf579,	// (0x0005b7bd) popup_call2_audio_in_window_t
+0xf56a,	// (0x0005c491) popup_call2_audio_in_window_t
 
-0x218e,	// (0x0004e3d2) bg_popup_call2_in_pane_g1
+0x1e10,	// (0x0004ed37) bg_popup_call2_in_pane_g1
 
-0x4067,	// (0x000502ab) popup_cale_lunar_info_window_t4
+0x3ce9,	// (0x00050c10) popup_cale_lunar_info_window_t4
 
 0x0003,
 
-0xf5e1,	// (0x0005b825) popup_cale_lunar_info_window_t
+0xf5d2,	// (0x0005c4f9) popup_cale_lunar_info_window_t
 
-0x2196,	// (0x0004e3da) bg_popup_call2_rect_pane_ParamLimits
+0x1e18,	// (0x0004ed3f) bg_popup_call2_rect_pane_ParamLimits
 
-0x2196,	// (0x0004e3da) bg_popup_call2_rect_pane
+0x1e18,	// (0x0004ed3f) bg_popup_call2_rect_pane
 
-0x1f3b,	// (0x0004e17f) call2_cli_visual_graphic_pane
+0x1bbd,	// (0x0004eae4) call2_cli_visual_graphic_pane
 
-0x1f3b,	// (0x0004e17f) call2_cli_visual_text_pane
+0x1bbd,	// (0x0004eae4) call2_cli_visual_text_pane
 
-0x8eed,	// (0x00055131) smil_status_volume_pane_g3
-
-0x0002,
-
-0x22be,	// (0x0004e502) call2_cli_visual_graphic_pane_g1
-
-0x22be,	// (0x0004e502) call2_cli_visual_graphic_pane_g2
-
-0x22be,	// (0x0004e502) call2_cli_visual_graphic_pane_g3
+0x8dd8,	// (0x00055cff) smil_status_volume_pane_g3
 
 0x0002,
 
-0xf586,	// (0x0005b7ca) call2_cli_visual_graphic_pane_g
+0x1f40,	// (0x0004ee67) call2_cli_visual_graphic_pane_g1
 
-0x3f65,	// (0x000501a9) bg_popup_call2_rect_pane_g1
+0x1f40,	// (0x0004ee67) call2_cli_visual_graphic_pane_g2
 
-0x234a,	// (0x0004e58e) bg_popup_call2_rect_pane_g2
+0x1f40,	// (0x0004ee67) call2_cli_visual_graphic_pane_g3
 
-0x3f6d,	// (0x000501b1) bg_popup_call2_rect_pane_g3
+0x0002,
 
-0x3f75,	// (0x000501b9) bg_popup_call2_rect_pane_g4
+0xf577,	// (0x0005c49e) call2_cli_visual_graphic_pane_g
 
-0x3f7d,	// (0x000501c1) bg_popup_call2_rect_pane_g5
+0x3be7,	// (0x00050b0e) bg_popup_call2_rect_pane_g1
 
-0x3f85,	// (0x000501c9) bg_popup_call2_rect_pane_g6
+0x1fcc,	// (0x0004eef3) bg_popup_call2_rect_pane_g2
 
-0x3f8d,	// (0x000501d1) bg_popup_call2_rect_pane_g7
+0x3bef,	// (0x00050b16) bg_popup_call2_rect_pane_g3
 
-0x3f95,	// (0x000501d9) bg_popup_call2_rect_pane_g8
+0x3bf7,	// (0x00050b1e) bg_popup_call2_rect_pane_g4
 
-0x3f9d,	// (0x000501e1) bg_popup_call2_rect_pane_g9
+0x3bff,	// (0x00050b26) bg_popup_call2_rect_pane_g5
 
-0x0008,
+0x3c07,	// (0x00050b2e) bg_popup_call2_rect_pane_g6
 
-0xf58d,	// (0x0005b7d1) bg_popup_call2_rect_pane_g
+0x3c0f,	// (0x00050b36) bg_popup_call2_rect_pane_g7
 
-0x3fa5,	// (0x000501e9) bg_popup_call2_bubble_pane_g1
+0x3c17,	// (0x00050b3e) bg_popup_call2_rect_pane_g8
 
-0x3fad,	// (0x000501f1) bg_popup_call2_bubble_pane_g2
-
-0x3fb5,	// (0x000501f9) bg_popup_call2_bubble_pane_g3
-
-0x3fbd,	// (0x00050201) bg_popup_call2_bubble_pane_g4
-
-0x3fc5,	// (0x00050209) bg_popup_call2_bubble_pane_g5
-
-0x3fcd,	// (0x00050211) bg_popup_call2_bubble_pane_g6
-
-0x3fd5,	// (0x00050219) bg_popup_call2_bubble_pane_g7
-
-0x3fdd,	// (0x00050221) bg_popup_call2_bubble_pane_g8
-
-0x3fe5,	// (0x00050229) bg_popup_call2_bubble_pane_g9
+0x3c1f,	// (0x00050b46) bg_popup_call2_rect_pane_g9
 
 0x0008,
 
-0xf5a0,	// (0x0005b7e4) bg_popup_call2_bubble_pane_g
+0xf57e,	// (0x0005c4a5) bg_popup_call2_rect_pane_g
 
-0x6456,	// (0x0005269a) aid_cale_week_size_cell_pane
+0x3c27,	// (0x00050b4e) bg_popup_call2_bubble_pane_g1
 
-0x6972,	// (0x00052bb6) aid_cams_cif_uncrop_pane_ParamLimits
+0x3c2f,	// (0x00050b56) bg_popup_call2_bubble_pane_g2
 
-0x6972,	// (0x00052bb6) aid_cams_cif_uncrop_pane
+0x3c37,	// (0x00050b5e) bg_popup_call2_bubble_pane_g3
 
-0x6acd,	// (0x00052d11) aid_cams_size_cell_ParamLimits
+0x3c3f,	// (0x00050b66) bg_popup_call2_bubble_pane_g4
 
-0x6acd,	// (0x00052d11) aid_cams_size_cell
+0x3c47,	// (0x00050b6e) bg_popup_call2_bubble_pane_g5
 
-0x6ad9,	// (0x00052d1d) grid_cams_pane_ParamLimits
+0x3c4f,	// (0x00050b76) bg_popup_call2_bubble_pane_g6
 
-0x6ae7,	// (0x00052d2b) linegrid_cams_pane_ParamLimits
+0x3c57,	// (0x00050b7e) bg_popup_call2_bubble_pane_g7
 
-0x6c15,	// (0x00052e59) call_video_pane_t1
+0x3c5f,	// (0x00050b86) bg_popup_call2_bubble_pane_g8
 
-0x6c36,	// (0x00052e7a) call_video_pane_t2
+0x3c67,	// (0x00050b8e) bg_popup_call2_bubble_pane_g9
 
-0x0001,
+0x0008,
 
-0xf28d,	// (0x0005b4d1) call_video_pane_t
+0xf591,	// (0x0005c4b8) bg_popup_call2_bubble_pane_g
 
-0x716d,	// (0x000533b1) aid_cale_month_size_cell_pane_ParamLimits
+0x62f2,	// (0x00053219) aid_cale_week_size_cell_pane
 
-0x716d,	// (0x000533b1) aid_cale_month_size_cell_pane
+0x6810,	// (0x00053737) aid_cams_cif_uncrop_pane_ParamLimits
 
-0xf62a,	// (0x0005b86e) smil_status_volume_pane_g
+0x6810,	// (0x00053737) aid_cams_cif_uncrop_pane
 
-0x8efa,	// (0x0005513e) volume_smil_pane_ParamLimits
+0x696b,	// (0x00053892) aid_cams_size_cell_ParamLimits
 
-0x0390,	// (0x0004c5d4) aid_popup2_width_pane
+0x696b,	// (0x00053892) aid_cams_size_cell
 
-0x6350,	// (0x00052594) cell_qdial_pane_g4_ParamLimits
+0x6977,	// (0x0005389e) grid_cams_pane_ParamLimits
 
-0x6350,	// (0x00052594) cell_qdial_pane_g4
+0x6985,	// (0x000538ac) linegrid_cams_pane_ParamLimits
 
-0x7dea,	// (0x0005402e) aid_blid_cardinal_pane_ParamLimits
+0x6ab3,	// (0x000539da) call_video_pane_t1
 
-0x7dfa,	// (0x0005403e) aid_blid_destination_pane_ParamLimits
-
-0x7dfa,	// (0x0005403e) aid_blid_destination_pane
-
-0x2196,	// (0x0004e3da) bg_popup_call_poc_act_pane_ParamLimits
-
-0x2196,	// (0x0004e3da) bg_popup_call_poc_act_pane
-
-0x2196,	// (0x0004e3da) bg_popup_call_poc_inact_pane_ParamLimits
-
-0x2196,	// (0x0004e3da) bg_popup_call_poc_inact_pane
-
-0x3fed,	// (0x00050231) bg_popup_call_poc_act_pane_g1
-
-0x3ff5,	// (0x00050239) bg_popup_call_poc_act_pane_g2
-
-0x3ffd,	// (0x00050241) bg_popup_call_poc_act_pane_g3
-
-0x3fbd,	// (0x00050201) bg_popup_call_poc_act_pane_g4
-
-0x3fc5,	// (0x00050209) bg_popup_call_poc_act_pane_g5
-
-0x4005,	// (0x00050249) bg_popup_call_poc_act_pane_g6
-
-0x3fd5,	// (0x00050219) bg_popup_call_poc_act_pane_g7
-
-0x400d,	// (0x00050251) bg_popup_call_poc_act_pane_g8
-
-0x1f3b,	// (0x0004e17f) main_usb_pane
-
-0x4166,	// (0x000503aa) popup_cale_lunar_info_window
-
-0x6f61,	// (0x000531a5) im_reading_pane_t1_ParamLimits
-
-0x2507,	// (0x0004e74b) list_im_pane_ParamLimits
-
-0x2518,	// (0x0004e75c) scroll_pane_cp07_ParamLimits
-
-0x1f3b,	// (0x0004e17f) grid_highlight_pane_cp012
-
-0x2196,	// (0x0004e3da) mup_scale_pane_ParamLimits
-
-0x2d4d,	// (0x0004ef91) main_usb_pane_g1_ParamLimits
-
-0x2d4d,	// (0x0004ef91) main_usb_pane_g1
-
-0x8a9c,	// (0x00054ce0) main_usb_pane_g2_ParamLimits
-
-0x8a9c,	// (0x00054ce0) main_usb_pane_g2
+0x6ad4,	// (0x000539fb) call_video_pane_t2
 
 0x0001,
 
-0xf5ca,	// (0x0005b80e) main_usb_pane_g_ParamLimits
+0xf27e,	// (0x0005c1a5) call_video_pane_t
 
-0xf5ca,	// (0x0005b80e) main_usb_pane_g
+0x700b,	// (0x00053f32) aid_cale_month_size_cell_pane_ParamLimits
 
-0x8aa8,	// (0x00054cec) main_usb_pane_t1_ParamLimits
+0x700b,	// (0x00053f32) aid_cale_month_size_cell_pane
 
-0x8aa8,	// (0x00054cec) main_usb_pane_t1
+0xf61b,	// (0x0005c542) smil_status_volume_pane_g
 
-0x8aba,	// (0x00054cfe) main_usb_pane_t2_ParamLimits
+0x8de5,	// (0x00055d0c) volume_smil_pane_ParamLimits
 
-0x8aba,	// (0x00054cfe) main_usb_pane_t2
+0x5a4d,	// (0x00052974) aid_popup2_width_pane
 
-0x8acc,	// (0x00054d10) main_usb_pane_t3_ParamLimits
+0x61ec,	// (0x00053113) cell_qdial_pane_g4_ParamLimits
 
-0x8acc,	// (0x00054d10) main_usb_pane_t3
+0x61ec,	// (0x00053113) cell_qdial_pane_g4
 
-0x8ade,	// (0x00054d22) main_usb_pane_t4_ParamLimits
+0x7c88,	// (0x00054baf) aid_blid_cardinal_pane_ParamLimits
 
-0x8ade,	// (0x00054d22) main_usb_pane_t4
+0x7c98,	// (0x00054bbf) aid_blid_destination_pane_ParamLimits
 
-0x8af0,	// (0x00054d34) main_usb_pane_t5_ParamLimits
+0x7c98,	// (0x00054bbf) aid_blid_destination_pane
 
-0x8af0,	// (0x00054d34) main_usb_pane_t5
+0x1e18,	// (0x0004ed3f) bg_popup_call_poc_act_pane_ParamLimits
 
-0x8b02,	// (0x00054d46) main_usb_pane_t6_ParamLimits
+0x1e18,	// (0x0004ed3f) bg_popup_call_poc_act_pane
 
-0x8b02,	// (0x00054d46) main_usb_pane_t6
+0x1e18,	// (0x0004ed3f) bg_popup_call_poc_inact_pane_ParamLimits
+
+0x1e18,	// (0x0004ed3f) bg_popup_call_poc_inact_pane
+
+0x3c6f,	// (0x00050b96) bg_popup_call_poc_act_pane_g1
+
+0x3c77,	// (0x00050b9e) bg_popup_call_poc_act_pane_g2
+
+0x3c7f,	// (0x00050ba6) bg_popup_call_poc_act_pane_g3
+
+0x3c3f,	// (0x00050b66) bg_popup_call_poc_act_pane_g4
+
+0x3c47,	// (0x00050b6e) bg_popup_call_poc_act_pane_g5
+
+0x3c87,	// (0x00050bae) bg_popup_call_poc_act_pane_g6
+
+0x3c57,	// (0x00050b7e) bg_popup_call_poc_act_pane_g7
+
+0x3c8f,	// (0x00050bb6) bg_popup_call_poc_act_pane_g8
+
+0x1bbd,	// (0x0004eae4) main_usb_pane
+
+0x8bd9,	// (0x00055b00) popup_cale_lunar_info_window
+
+0x6dff,	// (0x00053d26) im_reading_pane_t1_ParamLimits
+
+0x2189,	// (0x0004f0b0) list_im_pane_ParamLimits
+
+0x219a,	// (0x0004f0c1) scroll_pane_cp07_ParamLimits
+
+0x1bbd,	// (0x0004eae4) grid_highlight_pane_cp012
+
+0x1e18,	// (0x0004ed3f) mup_scale_pane_ParamLimits
+
+0x2a02,	// (0x0004f929) main_usb_pane_g1_ParamLimits
+
+0x2a02,	// (0x0004f929) main_usb_pane_g1
+
+0x893a,	// (0x00055861) main_usb_pane_g2_ParamLimits
+
+0x893a,	// (0x00055861) main_usb_pane_g2
+
+0x0001,
+
+0xf5bb,	// (0x0005c4e2) main_usb_pane_g_ParamLimits
+
+0xf5bb,	// (0x0005c4e2) main_usb_pane_g
+
+0x8946,	// (0x0005586d) main_usb_pane_t1_ParamLimits
+
+0x8946,	// (0x0005586d) main_usb_pane_t1
+
+0x8958,	// (0x0005587f) main_usb_pane_t2_ParamLimits
+
+0x8958,	// (0x0005587f) main_usb_pane_t2
+
+0x896a,	// (0x00055891) main_usb_pane_t3_ParamLimits
+
+0x896a,	// (0x00055891) main_usb_pane_t3
+
+0x897c,	// (0x000558a3) main_usb_pane_t4_ParamLimits
+
+0x897c,	// (0x000558a3) main_usb_pane_t4
+
+0x898e,	// (0x000558b5) main_usb_pane_t5_ParamLimits
+
+0x898e,	// (0x000558b5) main_usb_pane_t5
+
+0x89a0,	// (0x000558c7) main_usb_pane_t6_ParamLimits
+
+0x89a0,	// (0x000558c7) main_usb_pane_t6
 
 0x0005,
 
-0xf5cf,	// (0x0005b813) main_usb_pane_t_ParamLimits
+0xf5c0,	// (0x0005c4e7) main_usb_pane_t_ParamLimits
 
-0x7d90,	// (0x00053fd4) aid_text_placing
+0x7c2e,	// (0x00054b55) aid_text_placing
 
-0x7d9c,	// (0x00053fe0) main_location2_pane_t1_ParamLimits
+0x7c3a,	// (0x00054b61) main_location2_pane_t1_ParamLimits
 
-0x7db0,	// (0x00053ff4) main_location2_pane_t2_ParamLimits
+0x7c4e,	// (0x00054b75) main_location2_pane_t2_ParamLimits
 
-0x7dc4,	// (0x00054008) main_location2_pane_t3_ParamLimits
+0x7c62,	// (0x00054b89) main_location2_pane_t3_ParamLimits
 
-0x7dd8,	// (0x0005401c) main_location2_pane_t4_ParamLimits
+0x7c76,	// (0x00054b9d) main_location2_pane_t4_ParamLimits
 
-0x7dd8,	// (0x0005401c) main_location2_pane_t4
+0x7c76,	// (0x00054b9d) main_location2_pane_t4
 
-0xf3ee,	// (0x0005b632) main_location2_pane_t_ParamLimits
+0xf3df,	// (0x0005c306) main_location2_pane_t_ParamLimits
 
-0x21d2,	// (0x0004e416) find_pinb_pane_g2_ParamLimits
+0x1e54,	// (0x0004ed7b) find_pinb_pane_g2_ParamLimits
 
-0x21d2,	// (0x0004e416) find_pinb_pane_g2
+0x1e54,	// (0x0004ed7b) find_pinb_pane_g2
 
 0x0001,
 
-0xf13c,	// (0x0005b380) find_pinb_pane_g_ParamLimits
+0xf12d,	// (0x0005c054) find_pinb_pane_g_ParamLimits
 
-0xf13c,	// (0x0005b380) find_pinb_pane_g
+0xf12d,	// (0x0005c054) find_pinb_pane_g
 
-0x21de,	// (0x0004e422) find_pinb_pane_t1_ParamLimits
+0x1e60,	// (0x0004ed87) find_pinb_pane_t1_ParamLimits
 
-0x21f0,	// (0x0004e434) find_pinb_pane_t2_ParamLimits
+0x1e72,	// (0x0004ed99) find_pinb_pane_t2_ParamLimits
 
-0xf141,	// (0x0005b385) find_pinb_pane_t_ParamLimits
+0xf132,	// (0x0005c059) find_pinb_pane_t_ParamLimits
 
-0x1f3b,	// (0x0004e17f) main_call3_pane
+0x1bbd,	// (0x0004eae4) main_call3_pane
 
-0x7579,	// (0x000537bd) cale_month_day_heading_pane_t1_ParamLimits
+0x7417,	// (0x0005433e) cale_month_day_heading_pane_t1_ParamLimits
 
-0x75d7,	// (0x0005381b) cale_month_day_heading_pane_t2_ParamLimits
+0x7475,	// (0x0005439c) cale_month_day_heading_pane_t2_ParamLimits
 
-0x763c,	// (0x00053880) cale_month_day_heading_pane_t3_ParamLimits
+0x74da,	// (0x00054401) cale_month_day_heading_pane_t3_ParamLimits
 
-0x76a1,	// (0x000538e5) cale_month_day_heading_pane_t4_ParamLimits
+0x753f,	// (0x00054466) cale_month_day_heading_pane_t4_ParamLimits
 
-0x7706,	// (0x0005394a) cale_month_day_heading_pane_t5_ParamLimits
+0x75a4,	// (0x000544cb) cale_month_day_heading_pane_t5_ParamLimits
 
-0x776b,	// (0x000539af) cale_month_day_heading_pane_t6_ParamLimits
+0x7609,	// (0x00054530) cale_month_day_heading_pane_t6_ParamLimits
 
-0x77d0,	// (0x00053a14) cale_month_day_heading_pane_t7_ParamLimits
+0x766e,	// (0x00054595) cale_month_day_heading_pane_t7_ParamLimits
 
-0xf2c5,	// (0x0005b509) cale_month_day_heading_pane_t_ParamLimits
+0xf2b6,	// (0x0005c1dd) cale_month_day_heading_pane_t_ParamLimits
 
-0x2758,	// (0x0004e99c) smil_status_volume_pane
+0x23da,	// (0x0004f301) smil_status_volume_pane
 
-0x8660,	// (0x000548a4) postcard_address_pane_ParamLimits
+0x84fe,	// (0x00055425) postcard_address_pane_ParamLimits
 
-0x8660,	// (0x000548a4) postcard_address_pane
+0x84fe,	// (0x00055425) postcard_address_pane
 
-0x866c,	// (0x000548b0) postcard_message_pane_ParamLimits
+0x850a,	// (0x00055431) postcard_message_pane_ParamLimits
 
-0x866c,	// (0x000548b0) postcard_message_pane
+0x850a,	// (0x00055431) postcard_message_pane
 
-0x8a67,	// (0x00054cab) call2_cli_visual_pane_t1_ParamLimits
+0x8905,	// (0x0005582c) call2_cli_visual_pane_t1_ParamLimits
 
-0x8a67,	// (0x00054cab) call2_cli_visual_pane_t1
+0x8905,	// (0x0005582c) call2_cli_visual_pane_t1
 
-0x9051,	// (0x00055295) postcard_message_pane_t1_ParamLimits
+0x8f3c,	// (0x00055e63) postcard_message_pane_t1_ParamLimits
 
-0x9051,	// (0x00055295) postcard_message_pane_t1
+0x8f3c,	// (0x00055e63) postcard_message_pane_t1
 
-0x903a,	// (0x0005527e) postcard_address_pane_t1_ParamLimits
+0x8f25,	// (0x00055e4c) postcard_address_pane_t1_ParamLimits
 
-0x903a,	// (0x0005527e) postcard_address_pane_t1
+0x8f25,	// (0x00055e4c) postcard_address_pane_t1
 
-0x902b,	// (0x0005526f) popup_call3_audio_in_window_ParamLimits
+0x8f16,	// (0x00055e3d) popup_call3_audio_in_window_ParamLimits
 
-0x902b,	// (0x0005526f) popup_call3_audio_in_window
+0x8f16,	// (0x00055e3d) popup_call3_audio_in_window
 
-0x8f0f,	// (0x00055153) bg_popup_call3_in_pane_ParamLimits
+0x8dfa,	// (0x00055d21) bg_popup_call3_in_pane_ParamLimits
 
-0x8f0f,	// (0x00055153) bg_popup_call3_in_pane
+0x8dfa,	// (0x00055d21) bg_popup_call3_in_pane
 
-0x8f71,	// (0x000551b5) popup_call3_audio_in_window_g1_ParamLimits
+0x8e5c,	// (0x00055d83) popup_call3_audio_in_window_g1_ParamLimits
 
-0x8f71,	// (0x000551b5) popup_call3_audio_in_window_g1
+0x8e5c,	// (0x00055d83) popup_call3_audio_in_window_g1
 
-0x8f89,	// (0x000551cd) popup_call3_audio_in_window_g2_ParamLimits
+0x8e74,	// (0x00055d9b) popup_call3_audio_in_window_g2_ParamLimits
 
-0x8f89,	// (0x000551cd) popup_call3_audio_in_window_g2
+0x8e74,	// (0x00055d9b) popup_call3_audio_in_window_g2
 
-0x8fa1,	// (0x000551e5) popup_call3_audio_in_window_g3_ParamLimits
+0x8e8c,	// (0x00055db3) popup_call3_audio_in_window_g3_ParamLimits
 
-0x8fa1,	// (0x000551e5) popup_call3_audio_in_window_g3
+0x8e8c,	// (0x00055db3) popup_call3_audio_in_window_g3
 
 0x0003,
 
-0xf631,	// (0x0005b875) popup_call3_audio_in_window_g_ParamLimits
+0xf622,	// (0x0005c549) popup_call3_audio_in_window_g_ParamLimits
 
-0xf631,	// (0x0005b875) popup_call3_audio_in_window_g
+0xf622,	// (0x0005c549) popup_call3_audio_in_window_g
 
-0x8fc9,	// (0x0005520d) popup_call3_audio_in_window_t1_ParamLimits
+0x8eb4,	// (0x00055ddb) popup_call3_audio_in_window_t1_ParamLimits
 
-0x8fc9,	// (0x0005520d) popup_call3_audio_in_window_t1
+0x8eb4,	// (0x00055ddb) popup_call3_audio_in_window_t1
 
-0x8ff1,	// (0x00055235) popup_call3_audio_in_window_t2_ParamLimits
+0x8edc,	// (0x00055e03) popup_call3_audio_in_window_t2_ParamLimits
 
-0x8ff1,	// (0x00055235) popup_call3_audio_in_window_t2
+0x8edc,	// (0x00055e03) popup_call3_audio_in_window_t2
 
-0x9019,	// (0x0005525d) popup_call3_audio_in_window_t3_ParamLimits
+0x8f04,	// (0x00055e2b) popup_call3_audio_in_window_t3_ParamLimits
 
-0x9019,	// (0x0005525d) popup_call3_audio_in_window_t3
+0x8f04,	// (0x00055e2b) popup_call3_audio_in_window_t3
 
 0x0002,
 
-0xf63a,	// (0x0005b87e) popup_call3_audio_in_window_t_ParamLimits
+0xf62b,	// (0x0005c552) popup_call3_audio_in_window_t_ParamLimits
 
-0xf63a,	// (0x0005b87e) popup_call3_audio_in_window_t
+0xf62b,	// (0x0005c552) popup_call3_audio_in_window_t
 
-0x2d3c,	// (0x0004ef80) bg_popup_call3_rect_pane
+0x29be,	// (0x0004f8e5) bg_popup_call3_rect_pane
 
-0x3f65,	// (0x000501a9) bg_popup_call3_rect_pane_g1
+0x3be7,	// (0x00050b0e) bg_popup_call3_rect_pane_g1
 
-0x234a,	// (0x0004e58e) bg_popup_call3_rect_pane_g2
+0x1fcc,	// (0x0004eef3) bg_popup_call3_rect_pane_g2
 
-0x3f6d,	// (0x000501b1) bg_popup_call3_rect_pane_g3
+0x3bef,	// (0x00050b16) bg_popup_call3_rect_pane_g3
 
-0x3f75,	// (0x000501b9) bg_popup_call3_rect_pane_g4
+0x3bf7,	// (0x00050b1e) bg_popup_call3_rect_pane_g4
 
-0x3f7d,	// (0x000501c1) bg_popup_call3_rect_pane_g5
+0x3bff,	// (0x00050b26) bg_popup_call3_rect_pane_g5
 
-0x3f85,	// (0x000501c9) bg_popup_call3_rect_pane_g6
+0x3c07,	// (0x00050b2e) bg_popup_call3_rect_pane_g6
 
-0x3f8d,	// (0x000501d1) bg_popup_call3_rect_pane_g7
+0x3c0f,	// (0x00050b36) bg_popup_call3_rect_pane_g7
 
-0x8200,	// (0x00054444) mup_visualizer_osc_pane
+0x809e,	// (0x00054fc5) mup_visualizer_osc_pane
 
-0x2e09,	// (0x0004f04d) mup_visualizer_spec_pane
+0x2a8b,	// (0x0004f9b2) mup_visualizer_spec_pane
 
-0x8f2f,	// (0x00055173) call3_video_qcif_pane_ParamLimits
+0x8e1a,	// (0x00055d41) call3_video_qcif_pane_ParamLimits
 
-0x8f2f,	// (0x00055173) call3_video_qcif_pane
+0x8e1a,	// (0x00055d41) call3_video_qcif_pane
 
-0x8f41,	// (0x00055185) call3_video_qcif_uncrop_pane_ParamLimits
+0x8e2c,	// (0x00055d53) call3_video_qcif_uncrop_pane_ParamLimits
 
-0x8f41,	// (0x00055185) call3_video_qcif_uncrop_pane
+0x8e2c,	// (0x00055d53) call3_video_qcif_uncrop_pane
 
-0x8f4f,	// (0x00055193) call3_video_subqcif_pane_ParamLimits
+0x8e3a,	// (0x00055d61) call3_video_subqcif_pane_ParamLimits
 
-0x8f4f,	// (0x00055193) call3_video_subqcif_pane
+0x8e3a,	// (0x00055d61) call3_video_subqcif_pane
 
-0x8f61,	// (0x000551a5) call3_video_subqcif_uncrop_pane_ParamLimits
+0x8e4c,	// (0x00055d73) call3_video_subqcif_uncrop_pane_ParamLimits
 
-0x8f61,	// (0x000551a5) call3_video_subqcif_uncrop_pane
+0x8e4c,	// (0x00055d73) call3_video_subqcif_uncrop_pane
 
-0x8fb9,	// (0x000551fd) popup_call3_audio_in_window_g4_ParamLimits
+0x8ea4,	// (0x00055dcb) popup_call3_audio_in_window_g4_ParamLimits
 
-0x8fb9,	// (0x000551fd) popup_call3_audio_in_window_g4
+0x8ea4,	// (0x00055dcb) popup_call3_audio_in_window_g4
 
-0x8edc,	// (0x00055120) mup_spec_half_pane
+0x8dc7,	// (0x00055cee) mup_spec_half_pane
 
-0x8ee5,	// (0x00055129) mup_spec_half_pane_cp
+0x8dd0,	// (0x00055cf7) mup_spec_half_pane_cp
 
-0x41fd,	// (0x00050441) mup_osc_middle_pane
+0x3e40,	// (0x00050d67) mup_osc_middle_pane
 
-0x4206,	// (0x0005044a) mup_visualizer_osc_pane_g1
+0x3e49,	// (0x00050d70) mup_visualizer_osc_pane_g1
 
-0x8ebd,	// (0x00055101) mup_spec_bar_pane_ParamLimits
+0x8da8,	// (0x00055ccf) mup_spec_bar_pane_ParamLimits
 
-0x8ebd,	// (0x00055101) mup_spec_bar_pane
+0x8da8,	// (0x00055ccf) mup_spec_bar_pane
 
-0x41ea,	// (0x0005042e) mup_spec_bar_pane_g1
+0x3e2d,	// (0x00050d54) mup_spec_bar_pane_g1
 
-0x41f4,	// (0x00050438) mup_spec_bar_pane_g2
+0x3e37,	// (0x00050d5e) mup_spec_bar_pane_g2
 
 0x0001,
 
-0xf625,	// (0x0005b869) mup_spec_bar_pane_g
+0xf616,	// (0x0005c53d) mup_spec_bar_pane_g
 
-0x6456,	// (0x0005269a) aid_cale_week_size_cell_pane_ParamLimits
+0x62f2,	// (0x00053219) aid_cale_week_size_cell_pane_ParamLimits
 
-0x6469,	// (0x000526ad) bg_cale_heading_pane_ParamLimits
+0x6305,	// (0x0005322c) bg_cale_heading_pane_ParamLimits
 
-0x237e,	// (0x0004e5c2) bg_cale_pane_cp01_ParamLimits
+0x2000,	// (0x0004ef27) bg_cale_pane_cp01_ParamLimits
 
-0x6485,	// (0x000526c9) cale_week_corner_pane_ParamLimits
+0x6321,	// (0x00053248) cale_week_corner_pane_ParamLimits
 
-0x649b,	// (0x000526df) cale_week_day_heading_pane_ParamLimits
+0x6337,	// (0x0005325e) cale_week_day_heading_pane_ParamLimits
 
-0x64b7,	// (0x000526fb) cale_week_scroll_pane_g1_ParamLimits
+0x6353,	// (0x0005327a) cale_week_scroll_pane_g1_ParamLimits
 
-0x64d0,	// (0x00052714) cale_week_scroll_pane_g2_ParamLimits
+0x636c,	// (0x00053293) cale_week_scroll_pane_g2_ParamLimits
 
-0x64e1,	// (0x00052725) cale_week_scroll_pane_g3_ParamLimits
+0x637d,	// (0x000532a4) cale_week_scroll_pane_g3_ParamLimits
 
-0x64f2,	// (0x00052736) cale_week_scroll_pane_g4_ParamLimits
+0x638e,	// (0x000532b5) cale_week_scroll_pane_g4_ParamLimits
 
-0x6503,	// (0x00052747) cale_week_scroll_pane_g5_ParamLimits
+0x639f,	// (0x000532c6) cale_week_scroll_pane_g5_ParamLimits
 
-0x6514,	// (0x00052758) cale_week_scroll_pane_g6_ParamLimits
+0x63b0,	// (0x000532d7) cale_week_scroll_pane_g6_ParamLimits
 
-0x6525,	// (0x00052769) cale_week_scroll_pane_g7_ParamLimits
+0x63c1,	// (0x000532e8) cale_week_scroll_pane_g7_ParamLimits
 
-0x6538,	// (0x0005277c) cale_week_scroll_pane_g8_ParamLimits
+0x63d4,	// (0x000532fb) cale_week_scroll_pane_g8_ParamLimits
 
-0x654b,	// (0x0005278f) cale_week_scroll_pane_g9_ParamLimits
+0x63e7,	// (0x0005330e) cale_week_scroll_pane_g9_ParamLimits
 
-0x655c,	// (0x000527a0) cale_week_scroll_pane_g10_ParamLimits
+0x63f8,	// (0x0005331f) cale_week_scroll_pane_g10_ParamLimits
 
-0x656d,	// (0x000527b1) cale_week_scroll_pane_g11_ParamLimits
+0x6409,	// (0x00053330) cale_week_scroll_pane_g11_ParamLimits
 
-0x657e,	// (0x000527c2) cale_week_scroll_pane_g12_ParamLimits
+0x641a,	// (0x00053341) cale_week_scroll_pane_g12_ParamLimits
 
-0x658f,	// (0x000527d3) cale_week_scroll_pane_g13_ParamLimits
+0x642b,	// (0x00053352) cale_week_scroll_pane_g13_ParamLimits
 
-0x65a8,	// (0x000527ec) cale_week_scroll_pane_g14_ParamLimits
+0x6444,	// (0x0005336b) cale_week_scroll_pane_g14_ParamLimits
 
-0x65c1,	// (0x00052805) cale_week_scroll_pane_g15_ParamLimits
+0x645d,	// (0x00053384) cale_week_scroll_pane_g15_ParamLimits
 
-0xf1cd,	// (0x0005b411) cale_week_scroll_pane_g_ParamLimits
+0xf1be,	// (0x0005c0e5) cale_week_scroll_pane_g_ParamLimits
 
-0x65da,	// (0x0005281e) cale_week_time_pane_ParamLimits
+0x6476,	// (0x0005339d) cale_week_time_pane_ParamLimits
 
-0x65ed,	// (0x00052831) grid_cale_week_pane_ParamLimits
+0x6489,	// (0x000533b0) grid_cale_week_pane_ParamLimits
 
-0x2397,	// (0x0004e5db) listscroll_cale_week_pane_t1
+0x2019,	// (0x0004ef40) listscroll_cale_week_pane_t1
 
-0x660a,	// (0x0005284e) scroll_pane_cp08_ParamLimits
+0x64a6,	// (0x000533cd) scroll_pane_cp08_ParamLimits
 
-0x71be,	// (0x00053402) cale_month_corner_pane_ParamLimits
+0x705c,	// (0x00053f83) cale_month_corner_pane_ParamLimits
 
-0x272e,	// (0x0004e972) cale_month_pane_t1
+0x23b0,	// (0x0004f2d7) cale_month_pane_t1
 
-0x7528,	// (0x0005376c) cale_month_week_pane_ParamLimits
+0x73c6,	// (0x000542ed) cale_month_week_pane_ParamLimits
 
-0x2d4d,	// (0x0004ef91) popup_call_status_window_g1_ParamLimits
+0x2a02,	// (0x0004f929) popup_call_status_window_g1_ParamLimits
 
-0x7bb3,	// (0x00053df7) popup_call_status_window_g2_ParamLimits
+0x7a51,	// (0x00054978) popup_call_status_window_g2_ParamLimits
 
-0x7bbf,	// (0x00053e03) popup_call_status_window_g3_ParamLimits
+0x7a5d,	// (0x00054984) popup_call_status_window_g3_ParamLimits
 
-0xf375,	// (0x0005b5b9) popup_call_status_window_g_ParamLimits
+0xf366,	// (0x0005c28d) popup_call_status_window_g_ParamLimits
 
-0x2ac8,	// (0x0004ed0c) aid_call2_pane
+0x274a,	// (0x0004f671) aid_call2_pane
 
-0x849f,	// (0x000546e3) msg_header_pane_g1
+0x833d,	// (0x00055264) msg_header_pane_g1
 
-0x8660,	// (0x000548a4) postcard_address2_pane_ParamLimits
+0x84fe,	// (0x00055425) postcard_address2_pane_ParamLimits
 
-0x8660,	// (0x000548a4) postcard_address2_pane
+0x84fe,	// (0x00055425) postcard_address2_pane
 
-0x866c,	// (0x000548b0) postcard_message2_pane_ParamLimits
+0x850a,	// (0x00055431) postcard_message2_pane_ParamLimits
 
-0x866c,	// (0x000548b0) postcard_message2_pane
+0x850a,	// (0x00055431) postcard_message2_pane
 
-0x8e55,	// (0x00055099) message2_row_pane_ParamLimits
+0x8d40,	// (0x00055c67) message2_row_pane_ParamLimits
 
-0x8e55,	// (0x00055099) message2_row_pane
+0x8d40,	// (0x00055c67) message2_row_pane
 
-0x8e70,	// (0x000550b4) address2_row_pane_ParamLimits
+0x8d5b,	// (0x00055c82) address2_row_pane_ParamLimits
 
-0x8e70,	// (0x000550b4) address2_row_pane
+0x8d5b,	// (0x00055c82) address2_row_pane
 
-0x41b8,	// (0x000503fc) postcard_message2_row_pane_g1
+0x3dfb,	// (0x00050d22) postcard_message2_row_pane_g1
 
-0x41c0,	// (0x00050404) postcard_message2_row_pane_t1
+0x3e03,	// (0x00050d2a) postcard_message2_row_pane_t1
 
-0x41b8,	// (0x000503fc) address2_row_pane_g1
+0x3dfb,	// (0x00050d22) address2_row_pane_g1
 
-0x41c0,	// (0x00050404) address2_row_pane_t1
+0x3e03,	// (0x00050d2a) address2_row_pane_t1
 
-0x683e,	// (0x00052a82) aid_size_cell_vorec
+0x66da,	// (0x00053601) aid_size_cell_vorec
 
-0x1f3b,	// (0x0004e17f) main_rss_pane
+0x1bbd,	// (0x0004eae4) main_rss_pane
 
-0x8e83,	// (0x000550c7) rss_list_single_pane_ParamLimits
+0x8d6e,	// (0x00055c95) rss_list_single_pane_ParamLimits
 
-0x8e83,	// (0x000550c7) rss_list_single_pane
+0x8d6e,	// (0x00055c95) rss_list_single_pane
 
-0x41ce,	// (0x00050412) rss_list_single_pane_t1
+0x3e11,	// (0x00050d38) rss_list_single_pane_t1
 
-0x41dc,	// (0x00050420) rss_list_single_pane_t2
+0x3e1f,	// (0x00050d46) rss_list_single_pane_t2
 
 0x0001,
 
-0xf620,	// (0x0005b864) rss_list_single_pane_t
+0xf611,	// (0x0005c538) rss_list_single_pane_t
 
-0x1f3b,	// (0x0004e17f) main_camera2_pane
+0x1bbd,	// (0x0004eae4) main_camera2_pane
 
-0x1f3b,	// (0x0004e17f) main_video2_pane
+0x1bbd,	// (0x0004eae4) main_video2_pane
 
-0x90b5,	// (0x000552f9) cams_zoom_pane_cp2_ParamLimits
+0x8fa0,	// (0x00055ec7) cams_zoom_pane_cp2_ParamLimits
 
-0x90b5,	// (0x000552f9) cams_zoom_pane_cp2
+0x8fa0,	// (0x00055ec7) cams_zoom_pane_cp2
 
-0x90c1,	// (0x00055305) image2_vga_pane_ParamLimits
+0x8fac,	// (0x00055ed3) image2_vga_pane_ParamLimits
 
-0x90c1,	// (0x00055305) image2_vga_pane
+0x8fac,	// (0x00055ed3) image2_vga_pane
 
-0x90d0,	// (0x00055314) main_camera2_pane_g1_ParamLimits
+0x8fbb,	// (0x00055ee2) main_camera2_pane_g1_ParamLimits
 
-0x90d0,	// (0x00055314) main_camera2_pane_g1
+0x8fbb,	// (0x00055ee2) main_camera2_pane_g1
 
-0x90dc,	// (0x00055320) main_camera2_pane_g2_ParamLimits
+0x8fc7,	// (0x00055eee) main_camera2_pane_g2_ParamLimits
 
-0x90dc,	// (0x00055320) main_camera2_pane_g2
+0x8fc7,	// (0x00055eee) main_camera2_pane_g2
 
-0x90e8,	// (0x0005532c) main_camera2_pane_g3_ParamLimits
+0x8fd3,	// (0x00055efa) main_camera2_pane_g3_ParamLimits
 
-0x90e8,	// (0x0005532c) main_camera2_pane_g3
+0x8fd3,	// (0x00055efa) main_camera2_pane_g3
 
-0x90f4,	// (0x00055338) main_camera2_pane_g4_ParamLimits
+0x8fdf,	// (0x00055f06) main_camera2_pane_g4_ParamLimits
 
-0x90f4,	// (0x00055338) main_camera2_pane_g4
+0x8fdf,	// (0x00055f06) main_camera2_pane_g4
 
-0x9100,	// (0x00055344) main_camera2_pane_g5_ParamLimits
+0x8feb,	// (0x00055f12) main_camera2_pane_g5_ParamLimits
 
-0x9100,	// (0x00055344) main_camera2_pane_g5
+0x8feb,	// (0x00055f12) main_camera2_pane_g5
 
-0x910c,	// (0x00055350) main_camera2_pane_g6_ParamLimits
+0x8ff7,	// (0x00055f1e) main_camera2_pane_g6_ParamLimits
 
-0x910c,	// (0x00055350) main_camera2_pane_g6
+0x8ff7,	// (0x00055f1e) main_camera2_pane_g6
 
-0x9118,	// (0x0005535c) main_camera2_pane_g7_ParamLimits
+0x9003,	// (0x00055f2a) main_camera2_pane_g7_ParamLimits
 
-0x9118,	// (0x0005535c) main_camera2_pane_g7
+0x9003,	// (0x00055f2a) main_camera2_pane_g7
 
-0x9124,	// (0x00055368) main_camera2_pane_g8_ParamLimits
+0x900f,	// (0x00055f36) main_camera2_pane_g8_ParamLimits
 
-0x9124,	// (0x00055368) main_camera2_pane_g8
+0x900f,	// (0x00055f36) main_camera2_pane_g8
 
 0x0008,
 
-0xf641,	// (0x0005b885) main_camera2_pane_g_ParamLimits
+0xf632,	// (0x0005c559) main_camera2_pane_g_ParamLimits
 
-0xf641,	// (0x0005b885) main_camera2_pane_g
+0xf632,	// (0x0005c559) main_camera2_pane_g
 
-0x913c,	// (0x00055380) main_camera2_pane_t1_ParamLimits
+0x9027,	// (0x00055f4e) main_camera2_pane_t1_ParamLimits
 
-0x913c,	// (0x00055380) main_camera2_pane_t1
+0x9027,	// (0x00055f4e) main_camera2_pane_t1
 
-0x914e,	// (0x00055392) main_camera2_pane_t2_ParamLimits
+0x9039,	// (0x00055f60) main_camera2_pane_t2_ParamLimits
 
-0x914e,	// (0x00055392) main_camera2_pane_t2
+0x9039,	// (0x00055f60) main_camera2_pane_t2
 
-0x9160,	// (0x000553a4) main_camera2_pane_t3_ParamLimits
+0x904b,	// (0x00055f72) main_camera2_pane_t3_ParamLimits
 
-0x9160,	// (0x000553a4) main_camera2_pane_t3
+0x904b,	// (0x00055f72) main_camera2_pane_t3
 
-0x9172,	// (0x000553b6) main_camera2_pane_t4_ParamLimits
+0x905d,	// (0x00055f84) main_camera2_pane_t4_ParamLimits
 
-0x9172,	// (0x000553b6) main_camera2_pane_t4
+0x905d,	// (0x00055f84) main_camera2_pane_t4
 
 0x0006,
 
-0xf654,	// (0x0005b898) main_camera2_pane_t_ParamLimits
+0xf645,	// (0x0005c56c) main_camera2_pane_t_ParamLimits
 
-0xf654,	// (0x0005b898) main_camera2_pane_t
+0xf645,	// (0x0005c56c) main_camera2_pane_t
 
-0x91d4,	// (0x00055418) cams_zoom_pane_cp4_ParamLimits
+0x90bf,	// (0x00055fe6) cams_zoom_pane_cp4_ParamLimits
 
-0x91d4,	// (0x00055418) cams_zoom_pane_cp4
+0x90bf,	// (0x00055fe6) cams_zoom_pane_cp4
 
-0x91e4,	// (0x00055428) image2_cif_pane_ParamLimits
+0x90cf,	// (0x00055ff6) image2_cif_pane_ParamLimits
 
-0x91e4,	// (0x00055428) image2_cif_pane
+0x90cf,	// (0x00055ff6) image2_cif_pane
 
-0x91f9,	// (0x0005543d) image2_subqcif_pane_ParamLimits
+0x90e4,	// (0x0005600b) image2_subqcif_pane_ParamLimits
 
-0x91f9,	// (0x0005543d) image2_subqcif_pane
+0x90e4,	// (0x0005600b) image2_subqcif_pane
 
-0x9208,	// (0x0005544c) main_video2_pane_g1_ParamLimits
+0x90f3,	// (0x0005601a) main_video2_pane_g1_ParamLimits
 
-0x9208,	// (0x0005544c) main_video2_pane_g1
+0x90f3,	// (0x0005601a) main_video2_pane_g1
 
-0x921a,	// (0x0005545e) main_video2_pane_g2_ParamLimits
+0x9105,	// (0x0005602c) main_video2_pane_g2_ParamLimits
 
-0x921a,	// (0x0005545e) main_video2_pane_g2
+0x9105,	// (0x0005602c) main_video2_pane_g2
 
-0x922a,	// (0x0005546e) main_video2_pane_g3_ParamLimits
+0x9115,	// (0x0005603c) main_video2_pane_g3_ParamLimits
 
-0x922a,	// (0x0005546e) main_video2_pane_g3
+0x9115,	// (0x0005603c) main_video2_pane_g3
 
-0x923a,	// (0x0005547e) main_video2_pane_g4_ParamLimits
+0x9125,	// (0x0005604c) main_video2_pane_g4_ParamLimits
 
-0x923a,	// (0x0005547e) main_video2_pane_g4
+0x9125,	// (0x0005604c) main_video2_pane_g4
 
-0x924a,	// (0x0005548e) main_video2_pane_g5_ParamLimits
+0x9135,	// (0x0005605c) main_video2_pane_g5_ParamLimits
 
-0x924a,	// (0x0005548e) main_video2_pane_g5
+0x9135,	// (0x0005605c) main_video2_pane_g5
 
-0x925a,	// (0x0005549e) main_video2_pane_g6_ParamLimits
+0x9145,	// (0x0005606c) main_video2_pane_g6_ParamLimits
 
-0x925a,	// (0x0005549e) main_video2_pane_g6
+0x9145,	// (0x0005606c) main_video2_pane_g6
 
 0x0005,
 
-0xf663,	// (0x0005b8a7) main_video2_pane_g_ParamLimits
+0xf654,	// (0x0005c57b) main_video2_pane_g_ParamLimits
 
-0xf663,	// (0x0005b8a7) main_video2_pane_g
+0xf654,	// (0x0005c57b) main_video2_pane_g
 
-0x926c,	// (0x000554b0) main_video2_pane_t1_ParamLimits
+0x9157,	// (0x0005607e) main_video2_pane_t1_ParamLimits
 
-0x926c,	// (0x000554b0) main_video2_pane_t1
+0x9157,	// (0x0005607e) main_video2_pane_t1
 
-0x9286,	// (0x000554ca) main_video2_pane_t2_ParamLimits
+0x9171,	// (0x00056098) main_video2_pane_t2_ParamLimits
 
-0x9286,	// (0x000554ca) main_video2_pane_t2
+0x9171,	// (0x00056098) main_video2_pane_t2
 
-0x92ac,	// (0x000554f0) main_video2_pane_t3_ParamLimits
+0x9197,	// (0x000560be) main_video2_pane_t3_ParamLimits
 
-0x92ac,	// (0x000554f0) main_video2_pane_t3
+0x9197,	// (0x000560be) main_video2_pane_t3
 
 0x0002,
 
-0xf670,	// (0x0005b8b4) main_video2_pane_t_ParamLimits
+0xf661,	// (0x0005c588) main_video2_pane_t_ParamLimits
 
-0xf670,	// (0x0005b8b4) main_video2_pane_t
+0xf661,	// (0x0005c588) main_video2_pane_t
 
-0x8bb9,	// (0x00054dfd) call_muted_g2
+0x8a57,	// (0x0005597e) call_muted_g2
 
 0x0001,
 
-0xf612,	// (0x0005b856) call_muted_g
+0xf603,	// (0x0005c52a) call_muted_g
 
-0x1f3b,	// (0x0004e17f) main_mup2_pane
+0x1bbd,	// (0x0004eae4) main_mup2_pane
 
-0x426b,	// (0x000504af) main_mup2_pane_g1_ParamLimits
+0x3eae,	// (0x00050dd5) main_mup2_pane_g1_ParamLimits
 
-0x426b,	// (0x000504af) main_mup2_pane_g1
+0x3eae,	// (0x00050dd5) main_mup2_pane_g1
 
-0x92d2,	// (0x00055516) main_mup2_pane_g2_ParamLimits
+0x91bd,	// (0x000560e4) main_mup2_pane_g2_ParamLimits
 
-0x92d2,	// (0x00055516) main_mup2_pane_g2
+0x91bd,	// (0x000560e4) main_mup2_pane_g2
 
-0x9554,	// (0x00055798) main_mup_pane_g13_cp1
+0x943f,	// (0x00056366) main_mup_pane_g13_cp1
 
-0x955c,	// (0x000557a0) mup_volume_pane_cp1
+0x9447,	// (0x0005636e) mup_volume_pane_cp1
 
-0x92f2,	// (0x00055536) main_mup2_pane_g4_ParamLimits
+0x91dd,	// (0x00056104) main_mup2_pane_g4_ParamLimits
 
-0x92f2,	// (0x00055536) main_mup2_pane_g4
+0x91dd,	// (0x00056104) main_mup2_pane_g4
 
-0x9307,	// (0x0005554b) main_mup2_pane_g5_ParamLimits
+0x91f2,	// (0x00056119) main_mup2_pane_g5_ParamLimits
 
-0x9307,	// (0x0005554b) main_mup2_pane_g5
+0x91f2,	// (0x00056119) main_mup2_pane_g5
 
-0x931c,	// (0x00055560) main_mup2_pane_g6_ParamLimits
+0x9207,	// (0x0005612e) main_mup2_pane_g6_ParamLimits
 
-0x931c,	// (0x00055560) main_mup2_pane_g6
+0x9207,	// (0x0005612e) main_mup2_pane_g6
 
-0x9331,	// (0x00055575) main_mup2_pane_g7_ParamLimits
+0x921c,	// (0x00056143) main_mup2_pane_g7_ParamLimits
 
-0x9331,	// (0x00055575) main_mup2_pane_g7
+0x921c,	// (0x00056143) main_mup2_pane_g7
 
 0x0006,
 
-0xf677,	// (0x0005b8bb) main_mup2_pane_g_ParamLimits
+0xf668,	// (0x0005c58f) main_mup2_pane_g_ParamLimits
 
-0xf677,	// (0x0005b8bb) main_mup2_pane_g
+0xf668,	// (0x0005c58f) main_mup2_pane_g
 
-0x934d,	// (0x00055591) main_mup2_pane_t1_ParamLimits
+0x9238,	// (0x0005615f) main_mup2_pane_t1_ParamLimits
 
-0x934d,	// (0x00055591) main_mup2_pane_t1
+0x9238,	// (0x0005615f) main_mup2_pane_t1
 
-0x9364,	// (0x000555a8) main_mup2_pane_t2_ParamLimits
+0x924f,	// (0x00056176) main_mup2_pane_t2_ParamLimits
 
-0x9364,	// (0x000555a8) main_mup2_pane_t2
+0x924f,	// (0x00056176) main_mup2_pane_t2
 
-0x937b,	// (0x000555bf) main_mup2_pane_t3_ParamLimits
+0x9266,	// (0x0005618d) main_mup2_pane_t3_ParamLimits
 
-0x937b,	// (0x000555bf) main_mup2_pane_t3
+0x9266,	// (0x0005618d) main_mup2_pane_t3
 
-0x9392,	// (0x000555d6) main_mup2_pane_t4_ParamLimits
+0x927d,	// (0x000561a4) main_mup2_pane_t4_ParamLimits
 
-0x9392,	// (0x000555d6) main_mup2_pane_t4
+0x927d,	// (0x000561a4) main_mup2_pane_t4
 
-0x93ac,	// (0x000555f0) main_mup2_pane_t5_ParamLimits
+0x9297,	// (0x000561be) main_mup2_pane_t5_ParamLimits
 
-0x93ac,	// (0x000555f0) main_mup2_pane_t5
+0x9297,	// (0x000561be) main_mup2_pane_t5
 
-0x93c6,	// (0x0005560a) main_mup2_pane_t6_ParamLimits
+0x92b1,	// (0x000561d8) main_mup2_pane_t6_ParamLimits
 
-0x93c6,	// (0x0005560a) main_mup2_pane_t6
+0x92b1,	// (0x000561d8) main_mup2_pane_t6
 
 0x0005,
 
-0xf686,	// (0x0005b8ca) main_mup2_pane_t_ParamLimits
+0xf677,	// (0x0005c59e) main_mup2_pane_t_ParamLimits
 
-0xf686,	// (0x0005b8ca) main_mup2_pane_t
+0xf677,	// (0x0005c59e) main_mup2_pane_t
 
-0x93fe,	// (0x00055642) mup2_visualizer_pane_ParamLimits
+0x92e9,	// (0x00056210) mup2_visualizer_pane_ParamLimits
 
-0x93fe,	// (0x00055642) mup2_visualizer_pane
+0x92e9,	// (0x00056210) mup2_visualizer_pane
 
-0x9434,	// (0x00055678) mup_progress_pane_cp_ParamLimits
+0x931f,	// (0x00056246) mup_progress_pane_cp_ParamLimits
 
-0x9434,	// (0x00055678) mup_progress_pane_cp
+0x931f,	// (0x00056246) mup_progress_pane_cp
 
-0x953f,	// (0x00055783) mup_volume_pane_cp_ParamLimits
+0x942a,	// (0x00056351) mup_volume_pane_cp_ParamLimits
 
-0x953f,	// (0x00055783) mup_volume_pane_cp
+0x942a,	// (0x00056351) mup_volume_pane_cp
 
-0x944b,	// (0x0005568f) mup2_visualizer_pane_g1_ParamLimits
+0x9336,	// (0x0005625d) mup2_visualizer_pane_g1_ParamLimits
 
-0x944b,	// (0x0005568f) mup2_visualizer_pane_g1
+0x9336,	// (0x0005625d) mup2_visualizer_pane_g1
 
-0x423d,	// (0x00050481) mup2_visualizer_pane_g2_ParamLimits
+0x3e80,	// (0x00050da7) mup2_visualizer_pane_g2_ParamLimits
 
-0x423d,	// (0x00050481) mup2_visualizer_pane_g2
+0x3e80,	// (0x00050da7) mup2_visualizer_pane_g2
 
-0x9460,	// (0x000556a4) mup2_visualizer_pane_g3_ParamLimits
+0x934b,	// (0x00056272) mup2_visualizer_pane_g3_ParamLimits
 
-0x9460,	// (0x000556a4) mup2_visualizer_pane_g3
+0x934b,	// (0x00056272) mup2_visualizer_pane_g3
 
 0x0002,
 
-0xf693,	// (0x0005b8d7) mup2_visualizer_pane_g_ParamLimits
+0xf684,	// (0x0005c5ab) mup2_visualizer_pane_g_ParamLimits
 
-0xf693,	// (0x0005b8d7) mup2_visualizer_pane_g
+0xf684,	// (0x0005c5ab) mup2_visualizer_pane_g
 
-0x3030,	// (0x0004f274) aid_size_cell_fmradio
+0x2cb2,	// (0x0004fbd9) aid_size_cell_fmradio
 
-0x8ccf,	// (0x00054f13) aid_height_parent_landcape
+0x8b6d,	// (0x00055a94) aid_height_parent_landcape
 
-0x2596,	// (0x0004e7da) wml_content_pane_cp
+0x2218,	// (0x0004f13f) wml_content_pane_cp
 
-0x259e,	// (0x0004e7e2) wml_tabs_pane
+0x2220,	// (0x0004f147) wml_tabs_pane
 
-0x25a7,	// (0x0004e7eb) popup_wml_miniature_window
+0x2229,	// (0x0004f150) popup_wml_miniature_window
 
-0x25af,	// (0x0004e7f3) scroll_pane_cp021
+0x2231,	// (0x0004f158) scroll_pane_cp021
 
-0x25c3,	// (0x0004e807) wml_content_pane_comp8
+0x2245,	// (0x0004f16c) wml_content_pane_comp8
 
-0x1f3b,	// (0x0004e17f) bg_popup_sub_pane_cp05
+0x1bbd,	// (0x0004eae4) bg_popup_sub_pane_cp05
 
-0x425b,	// (0x0005049f) popup_wml_miniature_window_g1
+0x3e9e,	// (0x00050dc5) popup_wml_miniature_window_g1
 
-0x4263,	// (0x000504a7) wml_miniature_view_pane
+0x3ea6,	// (0x00050dcd) wml_miniature_view_pane
 
-0x946e,	// (0x000556b2) aid_size_wml_view
+0x9359,	// (0x00056280) aid_size_wml_view
 
-0x9476,	// (0x000556ba) wml_miniature_view_pane_g1
+0x9361,	// (0x00056288) wml_miniature_view_pane_g1
 
-0x947f,	// (0x000556c3) wml_miniature_view_pane_g2
+0x936a,	// (0x00056291) wml_miniature_view_pane_g2
 
-0x9488,	// (0x000556cc) wml_miniature_view_pane_g3
+0x9373,	// (0x0005629a) wml_miniature_view_pane_g3
 
-0x9490,	// (0x000556d4) wml_miniature_view_pane_g4
+0x937b,	// (0x000562a2) wml_miniature_view_pane_g4
 
-0x9498,	// (0x000556dc) wml_miniature_view_pane_g5
+0x9383,	// (0x000562aa) wml_miniature_view_pane_g5
 
-0x94a0,	// (0x000556e4) wml_miniature_view_pane_g6
+0x938b,	// (0x000562b2) wml_miniature_view_pane_g6
 
-0x94a8,	// (0x000556ec) wml_miniature_view_pane_g7
+0x9393,	// (0x000562ba) wml_miniature_view_pane_g7
 
-0x94b0,	// (0x000556f4) wml_miniature_view_pane_g8
+0x939b,	// (0x000562c2) wml_miniature_view_pane_g8
 
 0x0007,
 
-0xf69a,	// (0x0005b8de) wml_miniature_view_pane_g
+0xf68b,	// (0x0005c5b2) wml_miniature_view_pane_g
 
-0x426b,	// (0x000504af) background_graphic_ParamLimits
+0x3eae,	// (0x00050dd5) background_graphic_ParamLimits
 
-0x426b,	// (0x000504af) background_graphic
+0x3eae,	// (0x00050dd5) background_graphic
 
-0x4277,	// (0x000504bb) wml_tabs_2_pane
+0x3eba,	// (0x00050de1) wml_tabs_2_pane
 
-0x4280,	// (0x000504c4) wml_tabs_3_pane_ParamLimits
+0x3ec3,	// (0x00050dea) wml_tabs_3_pane_ParamLimits
 
-0x4280,	// (0x000504c4) wml_tabs_3_pane
+0x3ec3,	// (0x00050dea) wml_tabs_3_pane
 
-0x4292,	// (0x000504d6) wml_tabs_4_pane_ParamLimits
+0x3ed5,	// (0x00050dfc) wml_tabs_4_pane_ParamLimits
 
-0x4292,	// (0x000504d6) wml_tabs_4_pane
+0x3ed5,	// (0x00050dfc) wml_tabs_4_pane
 
-0x42a8,	// (0x000504ec) wml_tabs_5_pane_ParamLimits
+0x3eeb,	// (0x00050e12) wml_tabs_5_pane_ParamLimits
 
-0x42a8,	// (0x000504ec) wml_tabs_5_pane
+0x3eeb,	// (0x00050e12) wml_tabs_5_pane
 
-0x42c2,	// (0x00050506) wml_tabs_pane_g2_ParamLimits
+0x3f05,	// (0x00050e2c) wml_tabs_pane_g2_ParamLimits
 
-0x42c2,	// (0x00050506) wml_tabs_pane_g2
+0x3f05,	// (0x00050e2c) wml_tabs_pane_g2
 
-0x42d6,	// (0x0005051a) wml_tabs_pane_g3_ParamLimits
+0x3f19,	// (0x00050e40) wml_tabs_pane_g3_ParamLimits
 
-0x42d6,	// (0x0005051a) wml_tabs_pane_g3
+0x3f19,	// (0x00050e40) wml_tabs_pane_g3
 
-0x94b8,	// (0x000556fc) wml_tabs_2_active_pane_ParamLimits
+0x93a3,	// (0x000562ca) wml_tabs_2_active_pane_ParamLimits
 
-0x94b8,	// (0x000556fc) wml_tabs_2_active_pane
+0x93a3,	// (0x000562ca) wml_tabs_2_active_pane
 
-0x94c8,	// (0x0005570c) wml_tabs_2_passive_pane_ParamLimits
+0x93b3,	// (0x000562da) wml_tabs_2_passive_pane_ParamLimits
 
-0x94c8,	// (0x0005570c) wml_tabs_2_passive_pane
+0x93b3,	// (0x000562da) wml_tabs_2_passive_pane
 
-0x94d8,	// (0x0005571c) wml_tabs_3_active_pane_cp_ParamLimits
+0x93c3,	// (0x000562ea) wml_tabs_3_active_pane_cp_ParamLimits
 
-0x94d8,	// (0x0005571c) wml_tabs_3_active_pane_cp
+0x93c3,	// (0x000562ea) wml_tabs_3_active_pane_cp
 
-0x94e9,	// (0x0005572d) wml_tabs_3_passive_pane_ParamLimits
+0x93d4,	// (0x000562fb) wml_tabs_3_passive_pane_ParamLimits
 
-0x94e9,	// (0x0005572d) wml_tabs_3_passive_pane
+0x93d4,	// (0x000562fb) wml_tabs_3_passive_pane
 
-0x94fa,	// (0x0005573e) wml_tabs_3_passive_pane_cp_ParamLimits
+0x93e5,	// (0x0005630c) wml_tabs_3_passive_pane_cp_ParamLimits
 
-0x94fa,	// (0x0005573e) wml_tabs_3_passive_pane_cp
+0x93e5,	// (0x0005630c) wml_tabs_3_passive_pane_cp
 
-0x950b,	// (0x0005574f) tabs_4_active_pane
+0x93f6,	// (0x0005631d) tabs_4_active_pane
 
-0x9513,	// (0x00055757) tabs_4_passive_pane
+0x93fe,	// (0x00056325) tabs_4_passive_pane
 
-0x951b,	// (0x0005575f) tabs_4_passive_pane_cp
+0x9406,	// (0x0005632d) tabs_4_passive_pane_cp
 
-0x9523,	// (0x00055767) tabs_4_passive_pane_cp2
+0x940e,	// (0x00056335) tabs_4_passive_pane_cp2
 
-0x8a94,	// (0x00054cd8) aid_height_text
+0x8932,	// (0x00055859) aid_height_text
 
-0x81cd,	// (0x00054411) mup_volume_cont_pane_ParamLimits
+0x806b,	// (0x00054f92) mup_volume_cont_pane_ParamLimits
 
-0x81cd,	// (0x00054411) mup_volume_cont_pane
+0x806b,	// (0x00054f92) mup_volume_cont_pane
 
-0x5f82,	// (0x000521c6) aid_size_cell_pinb
+0x5e28,	// (0x00052d4f) aid_size_cell_pinb
 
-0x5f8c,	// (0x000521d0) aid_size_list_pinb
+0x5e32,	// (0x00052d59) aid_size_list_pinb
 
-0x941d,	// (0x00055661) mup2_volume_cont_pane_ParamLimits
+0x9308,	// (0x0005622f) mup2_volume_cont_pane_ParamLimits
 
-0x941d,	// (0x00055661) mup2_volume_cont_pane
+0x9308,	// (0x0005622f) mup2_volume_cont_pane
 
-0x952b,	// (0x0005576f) mup2_volume_cont_pane_g1_ParamLimits
+0x9416,	// (0x0005633d) mup2_volume_cont_pane_g1_ParamLimits
 
-0x952b,	// (0x0005576f) mup2_volume_cont_pane_g1
+0x9416,	// (0x0005633d) mup2_volume_cont_pane_g1
 
-0x5c15,	// (0x00051e59) aid_size_cell_touch_ParamLimits
+0x5a59,	// (0x00052980) aid_size_cell_touch_ParamLimits
 
-0x5c15,	// (0x00051e59) aid_size_cell_touch
+0x5a59,	// (0x00052980) aid_size_cell_touch
 
-0x5e68,	// (0x000520ac) touch_pane_ParamLimits
+0x5d0e,	// (0x00052c35) touch_pane_ParamLimits
 
-0x5e68,	// (0x000520ac) touch_pane
+0x5d0e,	// (0x00052c35) touch_pane
 
-0x037e,	// (0x0004c5c2) main_rss2_pane
+0x5d04,	// (0x00052c2b) main_rss2_pane
 
-0x42f3,	// (0x00050537) listscroll_rss2_pane
+0x3f36,	// (0x00050e5d) listscroll_rss2_pane
 
-0x42fc,	// (0x00050540) rss2_navigation_pane
+0x3f3f,	// (0x00050e66) rss2_navigation_pane
 
-0x4304,	// (0x00050548) list_rss2_pane
+0x3f47,	// (0x00050e6e) list_rss2_pane
 
-0x2bf3,	// (0x0004ee37) scroll_pane_cp22
+0x2875,	// (0x0004f79c) scroll_pane_cp22
 
-0x430c,	// (0x00050550) rss2_navigation_pane_g1
+0x3f4f,	// (0x00050e76) rss2_navigation_pane_g1
 
-0x4315,	// (0x00050559) rss2_navigation_pane_g2
+0x3f58,	// (0x00050e7f) rss2_navigation_pane_g2
 
-0x431d,	// (0x00050561) rss2_navigation_pane_g3
+0x3f60,	// (0x00050e87) rss2_navigation_pane_g3
 
 0x0002,
 
-0xf6ab,	// (0x0005b8ef) rss2_navigation_pane_g
+0xf69c,	// (0x0005c5c3) rss2_navigation_pane_g
 
-0x4325,	// (0x00050569) rss2_navigation_pane_t1
+0x3f68,	// (0x00050e8f) rss2_navigation_pane_t1
 
-0x9564,	// (0x000557a8) rss2_list_single_pane_ParamLimits
+0x944f,	// (0x00056376) rss2_list_single_pane_ParamLimits
 
-0x9564,	// (0x000557a8) rss2_list_single_pane
+0x944f,	// (0x00056376) rss2_list_single_pane
 
-0x4333,	// (0x00050577) rss2_list_single_pane_t2
+0x3f76,	// (0x00050e9d) rss2_list_single_pane_t2
 
-0x4341,	// (0x00050585) rss2_list_single_pane_t3_ParamLimits
+0x3f84,	// (0x00050eab) rss2_list_single_pane_t3_ParamLimits
 
-0x4341,	// (0x00050585) rss2_list_single_pane_t3
+0x3f84,	// (0x00050eab) rss2_list_single_pane_t3
 
-0x435e,	// (0x000505a2) rss2_list_single_pane_t4
+0x3fa1,	// (0x00050ec8) rss2_list_single_pane_t4
 
-0x79d4,	// (0x00053c18) smil_status_pane_g1
+0x7872,	// (0x00054799) smil_status_pane_g1
 
-0x334c,	// (0x0004f590) main_image2_pane_ParamLimits
+0x8b84,	// (0x00055aab) main_image2_pane_ParamLimits
 
-0x334c,	// (0x0004f590) main_image2_pane
+0x8b84,	// (0x00055aab) main_image2_pane
 
-0x9130,	// (0x00055374) main_camera2_pane_g9_ParamLimits
+0x901b,	// (0x00055f42) main_camera2_pane_g9_ParamLimits
 
-0x9130,	// (0x00055374) main_camera2_pane_g9
+0x901b,	// (0x00055f42) main_camera2_pane_g9
 
-0x9184,	// (0x000553c8) main_camera2_pane_t5_ParamLimits
+0x906f,	// (0x00055f96) main_camera2_pane_t5_ParamLimits
 
-0x9184,	// (0x000553c8) main_camera2_pane_t5
+0x906f,	// (0x00055f96) main_camera2_pane_t5
 
-0x9196,	// (0x000553da) main_camera2_pane_t6_ParamLimits
+0x9081,	// (0x00055fa8) main_camera2_pane_t6_ParamLimits
 
-0x9196,	// (0x000553da) main_camera2_pane_t6
+0x9081,	// (0x00055fa8) main_camera2_pane_t6
 
-0x9595,	// (0x000557d9) main_image2_pane_g1_ParamLimits
+0x9480,	// (0x000563a7) main_image2_pane_g1_ParamLimits
 
-0x9595,	// (0x000557d9) main_image2_pane_g1
+0x9480,	// (0x000563a7) main_image2_pane_g1
 
-0x8834,	// (0x00054a78) smil2_video_pane_ParamLimits
+0x86d2,	// (0x000555f9) smil2_video_pane_ParamLimits
 
-0x8834,	// (0x00054a78) smil2_video_pane
+0x86d2,	// (0x000555f9) smil2_video_pane
 
-0x03ac,	// (0x0004c5f0) aid_zoom_text_primary_cp
+0x596a,	// (0x00052891) aid_zoom_text_primary_cp
 
-0x03ec,	// (0x0004c630) popup_preview_fixed_window
+0x5ca9,	// (0x00052bd0) popup_preview_fixed_window
 
-0x24ff,	// (0x0004e743) im_reading_pane_g1
+0x2181,	// (0x0004f0a8) im_reading_pane_g1
 
-0x907a,	// (0x000552be) cams2_bc_adjust_pane_cp_ParamLimits
+0x8f65,	// (0x00055e8c) cams2_bc_adjust_pane_cp_ParamLimits
 
-0x907a,	// (0x000552be) cams2_bc_adjust_pane_cp
+0x8f65,	// (0x00055e8c) cams2_bc_adjust_pane_cp
 
-0x91c6,	// (0x0005540a) cams2_bc_adjust_pane_ParamLimits
+0x90b1,	// (0x00055fd8) cams2_bc_adjust_pane_ParamLimits
 
-0x91c6,	// (0x0005540a) cams2_bc_adjust_pane
+0x90b1,	// (0x00055fd8) cams2_bc_adjust_pane
 
-0x45c1,	// (0x00050805) cams2_bc_adjust_pane_g1
+0x4133,	// (0x0005105a) cams2_bc_adjust_pane_g1
 
-0x95a1,	// (0x000557e5) cams2_slider_pane
+0x948c,	// (0x000563b3) cams2_slider_pane
 
-0x95aa,	// (0x000557ee) cams2_slider_pane_g1
+0x9495,	// (0x000563bc) cams2_slider_pane_g1
 
-0x95b3,	// (0x000557f7) cams2_slider_pane_g2
+0x949e,	// (0x000563c5) cams2_slider_pane_g2
 
 0x0006,
 
-0xf6b2,	// (0x0005b8f6) cams2_slider_pane_g
+0xf6a3,	// (0x0005c5ca) cams2_slider_pane_g
 
-0x6092,	// (0x000522d6) calc_display_pane_ParamLimits
+0x5f38,	// (0x00052e5f) calc_display_pane_ParamLimits
 
-0x60b0,	// (0x000522f4) calc_paper_pane_ParamLimits
+0x5f56,	// (0x00052e7d) calc_paper_pane_ParamLimits
 
-0x60cc,	// (0x00052310) grid_calc_pane_ParamLimits
+0x5f72,	// (0x00052e99) grid_calc_pane_ParamLimits
 
-0x7c21,	// (0x00053e65) popup_clock_digital_window_t1_ParamLimits
+0x7abf,	// (0x000549e6) popup_clock_digital_window_t1_ParamLimits
 
-0x2fcd,	// (0x0004f211) main_image_pane_t1
+0x2c4f,	// (0x0004fb76) main_image_pane_t1
 
-0x6078,	// (0x000522bc) aid_size_cell_calc_ParamLimits
+0x5f1e,	// (0x00052e45) aid_size_cell_calc_ParamLimits
 
-0x6078,	// (0x000522bc) aid_size_cell_calc
+0x5f1e,	// (0x00052e45) aid_size_cell_calc
 
-0x8d01,	// (0x00054f45) popup_blid_sat_info2_window_ParamLimits
+0x8bb5,	// (0x00055adc) popup_blid_sat_info2_window_ParamLimits
 
-0x8d01,	// (0x00054f45) popup_blid_sat_info2_window
+0x8bb5,	// (0x00055adc) popup_blid_sat_info2_window
 
-0x4374,	// (0x000505b8) aid_size_cell_blid
+0x3fb7,	// (0x00050ede) aid_size_cell_blid
 
-0x437c,	// (0x000505c0) bg_popup_window_pane_cp07
+0x3fbf,	// (0x00050ee6) bg_popup_window_pane_cp07
 
-0x439f,	// (0x000505e3) grid_popup_blid_pane
+0x3fe2,	// (0x00050f09) grid_popup_blid_pane
 
-0x43a9,	// (0x000505ed) heading_pane_cp05_ParamLimits
+0x3fec,	// (0x00050f13) heading_pane_cp05_ParamLimits
 
-0x43a9,	// (0x000505ed) heading_pane_cp05
+0x3fec,	// (0x00050f13) heading_pane_cp05
 
-0x4473,	// (0x000506b7) cell_popup_blid_pane_ParamLimits
+0x40b6,	// (0x00050fdd) cell_popup_blid_pane_ParamLimits
 
-0x4473,	// (0x000506b7) cell_popup_blid_pane
+0x40b6,	// (0x00050fdd) cell_popup_blid_pane
 
-0x4497,	// (0x000506db) cell_popup_blid_pane_g1
+0x40da,	// (0x00051001) cell_popup_blid_pane_g1
 
-0x449f,	// (0x000506e3) cell_popup_blid_pane_t1
+0x40e2,	// (0x00051009) cell_popup_blid_pane_t1
 
-0x93e3,	// (0x00055627) mup2_indicator_pane_ParamLimits
+0x92ce,	// (0x000561f5) mup2_indicator_pane_ParamLimits
 
-0x93e3,	// (0x00055627) mup2_indicator_pane
+0x92ce,	// (0x000561f5) mup2_indicator_pane
 
-0x2d3c,	// (0x0004ef80) mup2_visualizer_osc_pane
+0x29be,	// (0x0004f8e5) mup2_visualizer_osc_pane
 
-0x4249,	// (0x0005048d) mup2_visualizer_spec_pane_ParamLimits
+0x3e8c,	// (0x00050db3) mup2_visualizer_spec_pane_ParamLimits
 
-0x4249,	// (0x0005048d) mup2_visualizer_spec_pane
+0x3e8c,	// (0x00050db3) mup2_visualizer_spec_pane
 
-0x95cd,	// (0x00055811) mup2_spec_half_pane
+0x94b8,	// (0x000563df) mup2_spec_half_pane
 
-0x95d6,	// (0x0005581a) mup2_spec_half_pane_cp
+0x94c1,	// (0x000563e8) mup2_spec_half_pane_cp
 
-0x95e0,	// (0x00055824) mup2_spec_bar_pane_ParamLimits
+0x94cb,	// (0x000563f2) mup2_spec_bar_pane_ParamLimits
 
-0x95e0,	// (0x00055824) mup2_spec_bar_pane
+0x94cb,	// (0x000563f2) mup2_spec_bar_pane
 
-0x41ea,	// (0x0005042e) mup2_spec_bar_pane_g1
+0x3e2d,	// (0x00050d54) mup2_spec_bar_pane_g1
 
-0x41f4,	// (0x00050438) mup2_spec_bar_pane_g2
+0x3e37,	// (0x00050d5e) mup2_spec_bar_pane_g2
 
 0x0001,
 
-0xf625,	// (0x0005b869) mup2_spec_bar_pane_g
+0xf616,	// (0x0005c53d) mup2_spec_bar_pane_g
 
-0x95ff,	// (0x00055843) mup2_osc_middle_pane
+0x94ea,	// (0x00056411) mup2_osc_middle_pane
 
-0x4206,	// (0x0005044a) mup2_visualizer_osc_pane_g1
+0x3e49,	// (0x00050d70) mup2_visualizer_osc_pane_g1
 
-0x1b48,	// (0x0004dd8c) popup_number_entry_window_t1_ParamLimits
+0x17ca,	// (0x0004e6f1) popup_number_entry_window_t1_ParamLimits
 
-0x1b5b,	// (0x0004dd9f) popup_number_entry_window_t2_ParamLimits
+0x17dd,	// (0x0004e704) popup_number_entry_window_t2_ParamLimits
 
-0x1b6d,	// (0x0004ddb1) popup_number_entry_window_t3_ParamLimits
+0x17ef,	// (0x0004e716) popup_number_entry_window_t3_ParamLimits
 
-0x5ebf,	// (0x00052103) popup_number_entry_window_t5_ParamLimits
+0x5d65,	// (0x00052c8c) popup_number_entry_window_t5_ParamLimits
 
-0x5ebf,	// (0x00052103) popup_number_entry_window_t5
+0x5d65,	// (0x00052c8c) popup_number_entry_window_t5
 
-0xf0e7,	// (0x0005b32b) popup_number_entry_window_t_ParamLimits
+0xf0d8,	// (0x0005bfff) popup_number_entry_window_t_ParamLimits
 
-0x1b7f,	// (0x0004ddc3) text_title_cp2_ParamLimits
+0x1801,	// (0x0004e728) text_title_cp2_ParamLimits
 
-0x8534,	// (0x00054778) aid_hotspot_pointer_text2_pane
+0x83d2,	// (0x000552f9) aid_hotspot_pointer_text2_pane
 
-0x85c2,	// (0x00054806) main_viewer_pane_g9_ParamLimits
+0x8460,	// (0x00055387) main_viewer_pane_g9_ParamLimits
 
-0x85c2,	// (0x00054806) main_viewer_pane_g9
+0x8460,	// (0x00055387) main_viewer_pane_g9
 
-0x272e,	// (0x0004e972) cale_month_pane_t1_ParamLimits
+0x23b0,	// (0x0004f2d7) cale_month_pane_t1_ParamLimits
 
-0x276b,	// (0x0004e9af) bg_cale_pane_ParamLimits
+0x23ed,	// (0x0004f314) bg_cale_pane_ParamLimits
 
-0x2783,	// (0x0004e9c7) list_cale_pane_ParamLimits
+0x2405,	// (0x0004f32c) list_cale_pane_ParamLimits
 
-0x2397,	// (0x0004e5db) listscroll_cale_day_pane_t1
+0x2019,	// (0x0004ef40) listscroll_cale_day_pane_t1
 
-0x2794,	// (0x0004e9d8) scroll_pane_cp09_ParamLimits
+0x2416,	// (0x0004f33d) scroll_pane_cp09_ParamLimits
 
-0x8208,	// (0x0005444c) main_mup_eq_pane_t1_ParamLimits
+0x80a6,	// (0x00054fcd) main_mup_eq_pane_t1_ParamLimits
 
-0x8208,	// (0x0005444c) main_mup_eq_pane_t1
+0x80a6,	// (0x00054fcd) main_mup_eq_pane_t1
 
-0x8222,	// (0x00054466) main_mup_eq_pane_t2_ParamLimits
+0x80c0,	// (0x00054fe7) main_mup_eq_pane_t2_ParamLimits
 
-0x8222,	// (0x00054466) main_mup_eq_pane_t2
+0x80c0,	// (0x00054fe7) main_mup_eq_pane_t2
 
-0x823c,	// (0x00054480) main_mup_eq_pane_t3_ParamLimits
+0x80da,	// (0x00055001) main_mup_eq_pane_t3_ParamLimits
 
-0x823c,	// (0x00054480) main_mup_eq_pane_t3
+0x80da,	// (0x00055001) main_mup_eq_pane_t3
 
-0x8254,	// (0x00054498) main_mup_eq_pane_t4_ParamLimits
+0x80f2,	// (0x00055019) main_mup_eq_pane_t4_ParamLimits
 
-0x8254,	// (0x00054498) main_mup_eq_pane_t4
+0x80f2,	// (0x00055019) main_mup_eq_pane_t4
 
-0x826c,	// (0x000544b0) main_mup_eq_pane_t5_ParamLimits
+0x810a,	// (0x00055031) main_mup_eq_pane_t5_ParamLimits
 
-0x826c,	// (0x000544b0) main_mup_eq_pane_t5
+0x810a,	// (0x00055031) main_mup_eq_pane_t5
 
-0x8284,	// (0x000544c8) main_mup_eq_pane_t6_ParamLimits
+0x8122,	// (0x00055049) main_mup_eq_pane_t6_ParamLimits
 
-0x8284,	// (0x000544c8) main_mup_eq_pane_t6
+0x8122,	// (0x00055049) main_mup_eq_pane_t6
 
-0x8298,	// (0x000544dc) main_mup_eq_pane_t7_ParamLimits
+0x8136,	// (0x0005505d) main_mup_eq_pane_t7_ParamLimits
 
-0x8298,	// (0x000544dc) main_mup_eq_pane_t7
+0x8136,	// (0x0005505d) main_mup_eq_pane_t7
 
-0x82ac,	// (0x000544f0) main_mup_eq_pane_t8_ParamLimits
+0x814a,	// (0x00055071) main_mup_eq_pane_t8_ParamLimits
 
-0x82ac,	// (0x000544f0) main_mup_eq_pane_t8
+0x814a,	// (0x00055071) main_mup_eq_pane_t8
 
-0x82c2,	// (0x00054506) main_mup_eq_pane_t9_ParamLimits
+0x8160,	// (0x00055087) main_mup_eq_pane_t9_ParamLimits
 
-0x82c2,	// (0x00054506) main_mup_eq_pane_t9
+0x8160,	// (0x00055087) main_mup_eq_pane_t9
 
-0x82da,	// (0x0005451e) main_mup_eq_pane_t10_ParamLimits
+0x8178,	// (0x0005509f) main_mup_eq_pane_t10_ParamLimits
 
-0x82da,	// (0x0005451e) main_mup_eq_pane_t10
+0x8178,	// (0x0005509f) main_mup_eq_pane_t10
 
 0x0009,
 
-0xf474,	// (0x0005b6b8) main_mup_eq_pane_t_ParamLimits
+0xf465,	// (0x0005c38c) main_mup_eq_pane_t_ParamLimits
 
-0xf474,	// (0x0005b6b8) main_mup_eq_pane_t
+0xf465,	// (0x0005c38c) main_mup_eq_pane_t
 
-0x8397,	// (0x000545db) mup_equalizer_pane_cp5_ParamLimits
+0x8235,	// (0x0005515c) mup_equalizer_pane_cp5_ParamLimits
 
-0x83ad,	// (0x000545f1) mup_equalizer_pane_cp6_ParamLimits
+0x824b,	// (0x00055172) mup_equalizer_pane_cp6_ParamLimits
 
-0x83c5,	// (0x00054609) mup_equalizer_pane_cp7_ParamLimits
+0x8263,	// (0x0005518a) mup_equalizer_pane_cp7_ParamLimits
 
-0x037e,	// (0x0004c5c2) main_gallery_pane
+0x5d04,	// (0x00052c2b) main_gallery_pane
 
-0x420f,	// (0x00050453) smil2_volume_pane
+0x3e52,	// (0x00050d79) smil2_volume_pane
 
-0x422a,	// (0x0005046e) smil_status_volume_pane_g1_ParamLimits
+0x3e6d,	// (0x00050d94) smil_status_volume_pane_g1_ParamLimits
 
-0x4217,	// (0x0005045b) smil_status_volume_pane_g2_ParamLimits
+0x3e5a,	// (0x00050d81) smil_status_volume_pane_g2_ParamLimits
 
-0x8eed,	// (0x00055131) smil_status_volume_pane_g3_ParamLimits
+0x8dd8,	// (0x00055cff) smil_status_volume_pane_g3_ParamLimits
 
-0xf62a,	// (0x0005b86e) smil_status_volume_pane_g_ParamLimits
+0xf61b,	// (0x0005c542) smil_status_volume_pane_g_ParamLimits
 
-0x437c,	// (0x000505c0) bg_popup_window_pane_cp07_ParamLimits
+0x3fbf,	// (0x00050ee6) bg_popup_window_pane_cp07_ParamLimits
 
-0x438a,	// (0x000505ce) blid_firmament_pane
+0x3fcd,	// (0x00050ef4) blid_firmament_pane
 
-0x9608,	// (0x0005584c) aid_size_cell_gallery_ParamLimits
+0x94f3,	// (0x0005641a) aid_size_cell_gallery_ParamLimits
 
-0x9608,	// (0x0005584c) aid_size_cell_gallery
+0x94f3,	// (0x0005641a) aid_size_cell_gallery
 
-0x9616,	// (0x0005585a) grid_gallery_pane_ParamLimits
+0x9501,	// (0x00056428) grid_gallery_pane_ParamLimits
 
-0x9616,	// (0x0005585a) grid_gallery_pane
+0x9501,	// (0x00056428) grid_gallery_pane
 
-0x9626,	// (0x0005586a) cell_gallery_pane_ParamLimits
+0x9511,	// (0x00056438) cell_gallery_pane_ParamLimits
 
-0x9626,	// (0x0005586a) cell_gallery_pane
+0x9511,	// (0x00056438) cell_gallery_pane
 
-0x44ad,	// (0x000506f1) bg_cell_gallery_focus_pane_ParamLimits
+0x40f0,	// (0x00051017) bg_cell_gallery_focus_pane_ParamLimits
 
-0x44ad,	// (0x000506f1) bg_cell_gallery_focus_pane
+0x40f0,	// (0x00051017) bg_cell_gallery_focus_pane
 
-0x44bf,	// (0x00050703) cell_gallery_pane_g1_ParamLimits
+0x4102,	// (0x00051029) cell_gallery_pane_g1_ParamLimits
 
-0x44bf,	// (0x00050703) cell_gallery_pane_g1
+0x4102,	// (0x00051029) cell_gallery_pane_g1
 
-0x9674,	// (0x000558b8) cell_gallery_pane_g2_ParamLimits
+0x955f,	// (0x00056486) cell_gallery_pane_g2_ParamLimits
 
-0x9674,	// (0x000558b8) cell_gallery_pane_g2
+0x955f,	// (0x00056486) cell_gallery_pane_g2
 
-0x9681,	// (0x000558c5) cell_gallery_pane_g3_ParamLimits
+0x956c,	// (0x00056493) cell_gallery_pane_g3_ParamLimits
 
-0x9681,	// (0x000558c5) cell_gallery_pane_g3
+0x956c,	// (0x00056493) cell_gallery_pane_g3
 
-0x44cb,	// (0x0005070f) cell_gallery_pane_g4_ParamLimits
+0x410e,	// (0x00051035) cell_gallery_pane_g4_ParamLimits
 
-0x44cb,	// (0x0005070f) cell_gallery_pane_g4
+0x410e,	// (0x00051035) cell_gallery_pane_g4
 
 0x0003,
 
-0xf6d8,	// (0x0005b91c) cell_gallery_pane_g_ParamLimits
+0xf6c9,	// (0x0005c5f0) cell_gallery_pane_g_ParamLimits
 
-0xf6d8,	// (0x0005b91c) cell_gallery_pane_g
+0xf6c9,	// (0x0005c5f0) cell_gallery_pane_g
 
-0x44d7,	// (0x0005071b) bg_cell_gallery_focus_pane_g1
+0x411a,	// (0x00051041) bg_cell_gallery_focus_pane_g1
 
-0x44df,	// (0x00050723) bg_cell_gallery_focus_pane_g2
+0x4122,	// (0x00051049) bg_cell_gallery_focus_pane_g2
 
-0x44e7,	// (0x0005072b) bg_cell_gallery_focus_pane_g3
+0x413b,	// (0x00051062) bg_cell_gallery_focus_pane_g3
 
-0x44ef,	// (0x00050733) bg_cell_gallery_focus_pane_g4
+0x4143,	// (0x0005106a) bg_cell_gallery_focus_pane_g4
 
-0x44f7,	// (0x0005073b) bg_cell_gallery_focus_pane_g5
+0x414b,	// (0x00051072) bg_cell_gallery_focus_pane_g5
 
-0x44ff,	// (0x00050743) bg_cell_gallery_focus_pane_g6
+0x4153,	// (0x0005107a) bg_cell_gallery_focus_pane_g6
 
-0x4507,	// (0x0005074b) bg_cell_gallery_focus_pane_g7
+0x415b,	// (0x00051082) bg_cell_gallery_focus_pane_g7
 
-0x450f,	// (0x00050753) bg_cell_gallery_focus_pane_g8
+0x4163,	// (0x0005108a) bg_cell_gallery_focus_pane_g8
 
 0x0007,
 
-0xf6e1,	// (0x0005b925) bg_cell_gallery_focus_pane_g
+0xf6d2,	// (0x0005c5f9) bg_cell_gallery_focus_pane_g
 
-0x4517,	// (0x0005075b) aid_firma_cardinal
+0x416b,	// (0x00051092) aid_firma_cardinal
 
-0x452b,	// (0x0005076f) blid_firmament_pane_t1
+0x417f,	// (0x000510a6) blid_firmament_pane_t1
 
-0x4542,	// (0x00050786) blid_firmament_pane_t2
+0x4196,	// (0x000510bd) blid_firmament_pane_t2
 
-0x4559,	// (0x0005079d) blid_firmament_pane_t3
+0x41ad,	// (0x000510d4) blid_firmament_pane_t3
 
-0x4570,	// (0x000507b4) blid_firmament_pane_t4
+0x41c4,	// (0x000510eb) blid_firmament_pane_t4
 
 0x0003,
 
-0xf6f2,	// (0x0005b936) blid_firmament_pane_t
+0xf6e3,	// (0x0005c60a) blid_firmament_pane_t
 
-0x4587,	// (0x000507cb) blid_sat_info_pane
+0x41db,	// (0x00051102) blid_sat_info_pane
 
-0x4597,	// (0x000507db) blid_sat_info_pane_g1
+0x41eb,	// (0x00051112) blid_sat_info_pane_g1
 
-0x4597,	// (0x000507db) blid_sat_info_pane_g2
+0x41eb,	// (0x00051112) blid_sat_info_pane_g2
 
 0x0001,
 
-0xf6fb,	// (0x0005b93f) blid_sat_info_pane_g
+0xf6ec,	// (0x0005c613) blid_sat_info_pane_g
 
-0x45a1,	// (0x000507e5) blid_sat_info_pane_t1
+0x41f5,	// (0x0005111c) blid_sat_info_pane_t1
 
-0x45af,	// (0x000507f3) smil2_volume_content_pane
+0x4203,	// (0x0005112a) smil2_volume_content_pane
 
-0x45c9,	// (0x0005080d) smil2_volume_pane_g1
+0x420c,	// (0x00051133) smil2_volume_pane_g1
 
-0x45b8,	// (0x000507fc) smil2_volume_content_pane_g1
+0x412a,	// (0x00051051) smil2_volume_content_pane_g1
 
-0x45d1,	// (0x00050815) smil2_volume_content_pane_g2
+0x4214,	// (0x0005113b) smil2_volume_content_pane_g2
 
-0x45da,	// (0x0005081e) smil2_volume_content_pane_g3
+0x421d,	// (0x00051144) smil2_volume_content_pane_g3
 
-0x45e3,	// (0x00050827) smil2_volume_content_pane_g4
+0x4226,	// (0x0005114d) smil2_volume_content_pane_g4
 
-0x45ec,	// (0x00050830) smil2_volume_content_pane_g5
+0x422f,	// (0x00051156) smil2_volume_content_pane_g5
 
-0x45f5,	// (0x00050839) smil2_volume_content_pane_g6
+0x4238,	// (0x0005115f) smil2_volume_content_pane_g6
 
-0x45fe,	// (0x00050842) smil2_volume_content_pane_g7
+0x4241,	// (0x00051168) smil2_volume_content_pane_g7
 
-0x4607,	// (0x0005084b) smil2_volume_content_pane_g8
+0x424a,	// (0x00051171) smil2_volume_content_pane_g8
 
-0x4610,	// (0x00050854) smil2_volume_content_pane_g9
+0x4253,	// (0x0005117a) smil2_volume_content_pane_g9
 
-0x4619,	// (0x0005085d) smil2_volume_content_pane_g10
+0x425c,	// (0x00051183) smil2_volume_content_pane_g10
 
 0x0009,
 
-0xf700,	// (0x0005b944) smil2_volume_content_pane_g
+0xf6f1,	// (0x0005c618) smil2_volume_content_pane_g
 
-0x6670,	// (0x000528b4) cale_week_day_heading_pane_t1_ParamLimits
+0x650c,	// (0x00053433) cale_week_day_heading_pane_t1_ParamLimits
 
-0x6689,	// (0x000528cd) cale_week_day_heading_pane_t2_ParamLimits
+0x6525,	// (0x0005344c) cale_week_day_heading_pane_t2_ParamLimits
 
-0x66a2,	// (0x000528e6) cale_week_day_heading_pane_t3_ParamLimits
+0x653e,	// (0x00053465) cale_week_day_heading_pane_t3_ParamLimits
 
-0x66bb,	// (0x000528ff) cale_week_day_heading_pane_t4_ParamLimits
+0x6557,	// (0x0005347e) cale_week_day_heading_pane_t4_ParamLimits
 
-0x66d4,	// (0x00052918) cale_week_day_heading_pane_t5_ParamLimits
+0x6570,	// (0x00053497) cale_week_day_heading_pane_t5_ParamLimits
 
-0x66ed,	// (0x00052931) cale_week_day_heading_pane_t6_ParamLimits
+0x6589,	// (0x000534b0) cale_week_day_heading_pane_t6_ParamLimits
 
-0x6706,	// (0x0005294a) cale_week_day_heading_pane_t7_ParamLimits
+0x65a2,	// (0x000534c9) cale_week_day_heading_pane_t7_ParamLimits
 
-0xf1ec,	// (0x0005b430) cale_week_day_heading_pane_t_ParamLimits
+0xf1dd,	// (0x0005c104) cale_week_day_heading_pane_t_ParamLimits
 
-0x23a9,	// (0x0004e5ed) bg_cale_side_pane_ParamLimits
+0x202b,	// (0x0004ef52) bg_cale_side_pane_ParamLimits
 
-0x671f,	// (0x00052963) cale_week_time_pane_t1_ParamLimits
+0x65bb,	// (0x000534e2) cale_week_time_pane_t1_ParamLimits
 
-0x6737,	// (0x0005297b) cale_week_time_pane_t2_ParamLimits
+0x65d3,	// (0x000534fa) cale_week_time_pane_t2_ParamLimits
 
-0x674f,	// (0x00052993) cale_week_time_pane_t3_ParamLimits
+0x65eb,	// (0x00053512) cale_week_time_pane_t3_ParamLimits
 
-0x6767,	// (0x000529ab) cale_week_time_pane_t4_ParamLimits
+0x6603,	// (0x0005352a) cale_week_time_pane_t4_ParamLimits
 
-0x677f,	// (0x000529c3) cale_week_time_pane_t5_ParamLimits
+0x661b,	// (0x00053542) cale_week_time_pane_t5_ParamLimits
 
-0x6797,	// (0x000529db) cale_week_time_pane_t6_ParamLimits
+0x6633,	// (0x0005355a) cale_week_time_pane_t6_ParamLimits
 
-0x67af,	// (0x000529f3) cale_week_time_pane_t7_ParamLimits
+0x664b,	// (0x00053572) cale_week_time_pane_t7_ParamLimits
 
-0x67cf,	// (0x00052a13) cale_week_time_pane_t8_ParamLimits
+0x666b,	// (0x00053592) cale_week_time_pane_t8_ParamLimits
 
-0xf1fb,	// (0x0005b43f) cale_week_time_pane_t_ParamLimits
+0xf1ec,	// (0x0005c113) cale_week_time_pane_t_ParamLimits
 
-0x67ef,	// (0x00052a33) cell_cale_week_pane_g2_ParamLimits
+0x668b,	// (0x000535b2) cell_cale_week_pane_g2_ParamLimits
 
-0x23a9,	// (0x0004e5ed) bg_cale_side_pane_cp01_ParamLimits
+0x202b,	// (0x0004ef52) bg_cale_side_pane_cp01_ParamLimits
 
-0x7845,	// (0x00053a89) cale_month_week_pane_t1_ParamLimits
+0x76e3,	// (0x0005460a) cale_month_week_pane_t1_ParamLimits
 
-0x785c,	// (0x00053aa0) cale_month_week_pane_t2_ParamLimits
+0x76fa,	// (0x00054621) cale_month_week_pane_t2_ParamLimits
 
-0x7873,	// (0x00053ab7) cale_month_week_pane_t3_ParamLimits
+0x7711,	// (0x00054638) cale_month_week_pane_t3_ParamLimits
 
-0x788a,	// (0x00053ace) cale_month_week_pane_t4_ParamLimits
+0x7728,	// (0x0005464f) cale_month_week_pane_t4_ParamLimits
 
-0x78a1,	// (0x00053ae5) cale_month_week_pane_t5_ParamLimits
+0x773f,	// (0x00054666) cale_month_week_pane_t5_ParamLimits
 
-0x78bc,	// (0x00053b00) cale_month_week_pane_t6_ParamLimits
+0x775a,	// (0x00054681) cale_month_week_pane_t6_ParamLimits
 
-0xf2d4,	// (0x0005b518) cale_month_week_pane_t_ParamLimits
+0xf2c5,	// (0x0005c1ec) cale_month_week_pane_t_ParamLimits
 
-0x79a1,	// (0x00053be5) cell_cale_month_pane_g1_ParamLimits
+0x783f,	// (0x00054766) cell_cale_month_pane_g1_ParamLimits
 
-0x037e,	// (0x0004c5c2) main_cale_event_viewer_pane
+0x5d04,	// (0x00052c2b) main_cale_event_viewer_pane
 
-0x037e,	// (0x0004c5c2) listscroll_cale_event_viewer_pane
+0x00f2,	// (0x0004d019) listscroll_cale_event_viewer_pane
 
-0x4622,	// (0x00050866) list_cale_ev_pane
+0x4265,	// (0x0005118c) list_cale_ev_pane
 
-0x462a,	// (0x0005086e) scroll_pane_cp023
+0x426d,	// (0x00051194) scroll_pane_cp023
 
-0x4636,	// (0x0005087a) field_cale_ev_pane_ParamLimits
+0x4279,	// (0x000511a0) field_cale_ev_pane_ParamLimits
 
-0x4636,	// (0x0005087a) field_cale_ev_pane
+0x4279,	// (0x000511a0) field_cale_ev_pane
 
-0x4654,	// (0x00050898) field_cale_ev_content_pane_ParamLimits
+0x4297,	// (0x000511be) field_cale_ev_content_pane_ParamLimits
 
-0x4654,	// (0x00050898) field_cale_ev_content_pane
+0x4297,	// (0x000511be) field_cale_ev_content_pane
 
-0x4660,	// (0x000508a4) field_cale_ev_pane_g1_ParamLimits
+0x42a3,	// (0x000511ca) field_cale_ev_pane_g1_ParamLimits
 
-0x4660,	// (0x000508a4) field_cale_ev_pane_g1
+0x42a3,	// (0x000511ca) field_cale_ev_pane_g1
 
-0x466c,	// (0x000508b0) field_cale_ev_pane_g2_ParamLimits
+0x42af,	// (0x000511d6) field_cale_ev_pane_g2_ParamLimits
 
-0x466c,	// (0x000508b0) field_cale_ev_pane_g2
+0x42af,	// (0x000511d6) field_cale_ev_pane_g2
 
-0x4684,	// (0x000508c8) field_cale_ev_pane_g3_ParamLimits
+0x42c7,	// (0x000511ee) field_cale_ev_pane_g3_ParamLimits
 
-0x4684,	// (0x000508c8) field_cale_ev_pane_g3
-
-0x0002,
-
-0xf715,	// (0x0005b959) field_cale_ev_pane_g_ParamLimits
-
-0xf715,	// (0x0005b959) field_cale_ev_pane_g
-
-0x469c,	// (0x000508e0) field_cale_ev_pane_t1_ParamLimits
-
-0x469c,	// (0x000508e0) field_cale_ev_pane_t1
-
-0x46b3,	// (0x000508f7) field_cale_ev_content_pane_t1_ParamLimits
-
-0x46b3,	// (0x000508f7) field_cale_ev_content_pane_t1
-
-0x2eb3,	// (0x0004f0f7) bg_button_pane_cp01
-
-0x2269,	// (0x0004e4ad) listscroll_cale_week_pane_ParamLimits
-
-0x644c,	// (0x00052690) popup_toolbar_window_cp01
-
-0x2397,	// (0x0004e5db) listscroll_cale_week_pane_t1_ParamLimits
-
-0x2269,	// (0x0004e4ad) listscroll_cale_day_pane_ParamLimits
-
-0x644c,	// (0x00052690) popup_toolbar_window_cp02
-
-0x2397,	// (0x0004e5db) listscroll_cale_day_pane_t1_ParamLimits
-
-0x2269,	// (0x0004e4ad) main_cale_month_pane_ParamLimits
-
-0x8dd1,	// (0x00055015) popup_toolbar_window_cp03_ParamLimits
-
-0x8dd1,	// (0x00055015) popup_toolbar_window_cp03
-
-0x874a,	// (0x0005498e) main_image_pane_g2_ParamLimits
-
-0x874a,	// (0x0005498e) main_image_pane_g2
-
-0x8756,	// (0x0005499a) main_image_pane_g3_ParamLimits
-
-0x8756,	// (0x0005499a) main_image_pane_g3
+0x42c7,	// (0x000511ee) field_cale_ev_pane_g3
 
 0x0002,
 
-0xf506,	// (0x0005b74a) main_image_pane_g_ParamLimits
+0xf706,	// (0x0005c62d) field_cale_ev_pane_g_ParamLimits
 
-0xf506,	// (0x0005b74a) main_image_pane_g
+0xf706,	// (0x0005c62d) field_cale_ev_pane_g
 
-0x2fcd,	// (0x0004f211) main_image_pane_t1_ParamLimits
+0x42df,	// (0x00051206) field_cale_ev_pane_t1_ParamLimits
 
-0x8762,	// (0x000549a6) main_image_pane_t2_ParamLimits
+0x42df,	// (0x00051206) field_cale_ev_pane_t1
 
-0x8762,	// (0x000549a6) main_image_pane_t2
+0x42f6,	// (0x0005121d) field_cale_ev_content_pane_t1_ParamLimits
 
-0x8774,	// (0x000549b8) main_image_pane_t3_ParamLimits
+0x42f6,	// (0x0005121d) field_cale_ev_content_pane_t1
 
-0x8774,	// (0x000549b8) main_image_pane_t3
+0x2b35,	// (0x0004fa5c) bg_button_pane_cp01
 
-0x8786,	// (0x000549ca) main_image_pane_t4_ParamLimits
+0x1eeb,	// (0x0004ee12) listscroll_cale_week_pane_ParamLimits
 
-0x8786,	// (0x000549ca) main_image_pane_t4
+0x62e8,	// (0x0005320f) popup_toolbar_window_cp01
+
+0x2019,	// (0x0004ef40) listscroll_cale_week_pane_t1_ParamLimits
+
+0x1eeb,	// (0x0004ee12) listscroll_cale_day_pane_ParamLimits
+
+0x62e8,	// (0x0005320f) popup_toolbar_window_cp02
+
+0x2019,	// (0x0004ef40) listscroll_cale_day_pane_t1_ParamLimits
+
+0x1eeb,	// (0x0004ee12) main_cale_month_pane_ParamLimits
+
+0x8cbc,	// (0x00055be3) popup_toolbar_window_cp03_ParamLimits
+
+0x8cbc,	// (0x00055be3) popup_toolbar_window_cp03
+
+0x85e8,	// (0x0005550f) main_image_pane_g2_ParamLimits
+
+0x85e8,	// (0x0005550f) main_image_pane_g2
+
+0x85f4,	// (0x0005551b) main_image_pane_g3_ParamLimits
+
+0x85f4,	// (0x0005551b) main_image_pane_g3
+
+0x0002,
+
+0xf4f7,	// (0x0005c41e) main_image_pane_g_ParamLimits
+
+0xf4f7,	// (0x0005c41e) main_image_pane_g
+
+0x2c4f,	// (0x0004fb76) main_image_pane_t1_ParamLimits
+
+0x8600,	// (0x00055527) main_image_pane_t2_ParamLimits
+
+0x8600,	// (0x00055527) main_image_pane_t2
+
+0x8612,	// (0x00055539) main_image_pane_t3_ParamLimits
+
+0x8612,	// (0x00055539) main_image_pane_t3
+
+0x8624,	// (0x0005554b) main_image_pane_t4_ParamLimits
+
+0x8624,	// (0x0005554b) main_image_pane_t4
 
 0x0003,
 
-0xf50d,	// (0x0005b751) main_image_pane_t_ParamLimits
+0xf4fe,	// (0x0005c425) main_image_pane_t_ParamLimits
 
-0xf50d,	// (0x0005b751) main_image_pane_t
+0xf4fe,	// (0x0005c425) main_image_pane_t
 
-0x8798,	// (0x000549dc) popup_image_details_window_cp01
+0x8636,	// (0x0005555d) popup_image_details_window_cp01
 
-0x87a2,	// (0x000549e6) popup_toobar_trans_pane_cp01_ParamLimits
+0x8640,	// (0x00055567) popup_toobar_trans_pane_cp01_ParamLimits
 
-0x87a2,	// (0x000549e6) popup_toobar_trans_pane_cp01
+0x8640,	// (0x00055567) popup_toobar_trans_pane_cp01
 
-0x8d4e,	// (0x00054f92) popup_image_details_window_ParamLimits
+0x8c0c,	// (0x00055b33) popup_image_details_window_ParamLimits
 
-0x8d4e,	// (0x00054f92) popup_image_details_window
+0x8c0c,	// (0x00055b33) popup_image_details_window
 
-0x4170,	// (0x000503b4) popup_image_focus_window
+0x8c1a,	// (0x00055b41) popup_image_focus_window
 
-0x906c,	// (0x000552b0) camera2_autofocus_pane_ParamLimits
+0x8f57,	// (0x00055e7e) camera2_autofocus_pane_ParamLimits
 
-0x906c,	// (0x000552b0) camera2_autofocus_pane
+0x8f57,	// (0x00055e7e) camera2_autofocus_pane
 
-0x037e,	// (0x0004c5c2) bg_popup_sub_pane_cp06
+0x00f2,	// (0x0004d019) bg_popup_sub_pane_cp06
 
-0x46d1,	// (0x00050915) popup_image_focus_window_g1
+0x4314,	// (0x0005123b) popup_image_focus_window_g1
 
-0x46d9,	// (0x0005091d) popup_image_focus_window_g2
+0x431c,	// (0x00051243) popup_image_focus_window_g2
 
-0x46e1,	// (0x00050925) popup_image_focus_window_g3
+0x4324,	// (0x0005124b) popup_image_focus_window_g3
 
-0x46e9,	// (0x0005092d) popup_image_focus_window_g4
+0x432c,	// (0x00051253) popup_image_focus_window_g4
 
 0x0003,
 
-0xf71c,	// (0x0005b960) popup_image_focus_window_g
+0xf70d,	// (0x0005c634) popup_image_focus_window_g
 
-0x46f1,	// (0x00050935) popup_image_focus_window_t1
+0x4334,	// (0x0005125b) popup_image_focus_window_t1
 
-0x46ff,	// (0x00050943) popup_image_focus_window_t2
+0x4342,	// (0x00051269) popup_image_focus_window_t2
 
-0x470f,	// (0x00050953) popup_image_focus_window_t3
-
-0x0002,
-
-0xf725,	// (0x0005b969) popup_image_focus_window_t
-
-0x471d,	// (0x00050961) camera2_autofocus_pane_g1
-
-0x334c,	// (0x0004f590) bg_tb_trans_pane_cp01
-
-0x472b,	// (0x0005096f) popup_image_details_window_g1
-
-0x473e,	// (0x00050982) popup_image_details_window_g2
+0x4352,	// (0x00051279) popup_image_focus_window_t3
 
 0x0002,
 
-0xf737,	// (0x0005b97b) popup_image_details_window_g
+0xf716,	// (0x0005c63d) popup_image_focus_window_t
 
-0x4767,	// (0x000509ab) popup_image_details_window_t1
+0x4360,	// (0x00051287) camera2_autofocus_pane_g1
 
-0x4779,	// (0x000509bd) popup_image_details_window_t2
+0x3810,	// (0x00050737) bg_tb_trans_pane_cp01
 
-0x4792,	// (0x000509d6) popup_image_details_window_t3
+0x436e,	// (0x00051295) popup_image_details_window_g1
 
-0x47a6,	// (0x000509ea) popup_image_details_window_t4
+0x4381,	// (0x000512a8) popup_image_details_window_g2
 
-0x47c1,	// (0x00050a05) popup_image_details_window_t5
+0x0002,
+
+0xf728,	// (0x0005c64f) popup_image_details_window_g
+
+0x43aa,	// (0x000512d1) popup_image_details_window_t1
+
+0x43bc,	// (0x000512e3) popup_image_details_window_t2
+
+0x43d5,	// (0x000512fc) popup_image_details_window_t3
+
+0x43e9,	// (0x00051310) popup_image_details_window_t4
+
+0x4404,	// (0x0005132b) popup_image_details_window_t5
 
 0x0004,
 
-0xf73e,	// (0x0005b982) popup_image_details_window_t
+0xf72f,	// (0x0005c656) popup_image_details_window_t
 
-0x2255,	// (0x0004e499) bg_calc_paper_pane_ParamLimits
+0x1ed7,	// (0x0004edfe) bg_calc_paper_pane_ParamLimits
 
-0x61c9,	// (0x0005240d) grid_highlight_pane_cp013
+0x5d04,	// (0x00052c2b) grid_highlight_pane_cp013
 
-0x61d3,	// (0x00052417) list_calc_pane_ParamLimits
+0x606f,	// (0x00052f96) list_calc_pane_ParamLimits
 
-0x61e5,	// (0x00052429) scroll_pane_cp024
+0x6081,	// (0x00052fa8) scroll_pane_cp024
 
-0x2269,	// (0x0004e4ad) bg_calc_display_pane_ParamLimits
+0x1eeb,	// (0x0004ee12) bg_calc_display_pane_ParamLimits
 
-0x61ed,	// (0x00052431) calc_display_pane_t1_ParamLimits
+0x6089,	// (0x00052fb0) calc_display_pane_t1_ParamLimits
 
-0x6202,	// (0x00052446) calc_display_pane_t2_ParamLimits
+0x609e,	// (0x00052fc5) calc_display_pane_t2_ParamLimits
 
-0x6217,	// (0x0005245b) calc_display_pane_t3_ParamLimits
+0x60b3,	// (0x00052fda) calc_display_pane_t3_ParamLimits
 
-0xf16e,	// (0x0005b3b2) calc_display_pane_t_ParamLimits
+0xf15f,	// (0x0005c086) calc_display_pane_t_ParamLimits
 
-0x62f3,	// (0x00052537) cell_calc_pane_g2
+0x618f,	// (0x000530b6) cell_calc_pane_g2
 
 0x0001,
 
-0xf18b,	// (0x0005b3cf) cell_calc_pane_g
+0xf17c,	// (0x0005c0a3) cell_calc_pane_g
 
-0x62fc,	// (0x00052540) cell_calc_pane_t1
+0x6198,	// (0x000530bf) cell_calc_pane_t1
 
-0x22c8,	// (0x0004e50c) grid_highlight_pane_cp02_ParamLimits
+0x1f4a,	// (0x0004ee71) grid_highlight_pane_cp02_ParamLimits
 
-0x22de,	// (0x0004e522) toolbar_button_pane_cp01_ParamLimits
+0x1f60,	// (0x0004ee87) toolbar_button_pane_cp01_ParamLimits
 
-0x22de,	// (0x0004e522) toolbar_button_pane_cp01
+0x1f60,	// (0x0004ee87) toolbar_button_pane_cp01
 
-0x3012,	// (0x0004f256) temp_image_control_pane_ParamLimits
+0x2c94,	// (0x0004fbbb) temp_image_control_pane_ParamLimits
 
-0x3012,	// (0x0004f256) temp_image_control_pane
+0x2c94,	// (0x0004fbbb) temp_image_control_pane
 
-0x334c,	// (0x0004f590) main_mp3_pane
+0x8b84,	// (0x00055aab) main_mp3_pane
 
-0x47db,	// (0x00050a1f) temp_image_control_pane_g1_ParamLimits
+0x441e,	// (0x00051345) temp_image_control_pane_g1_ParamLimits
 
-0x47db,	// (0x00050a1f) temp_image_control_pane_g1
+0x441e,	// (0x00051345) temp_image_control_pane_g1
 
-0x47e9,	// (0x00050a2d) temp_image_control_pane_g2_ParamLimits
+0x442c,	// (0x00051353) temp_image_control_pane_g2_ParamLimits
 
-0x47e9,	// (0x00050a2d) temp_image_control_pane_g2
+0x442c,	// (0x00051353) temp_image_control_pane_g2
 
-0x47fb,	// (0x00050a3f) temp_image_control_pane_g3_ParamLimits
+0x443e,	// (0x00051365) temp_image_control_pane_g3_ParamLimits
 
-0x47fb,	// (0x00050a3f) temp_image_control_pane_g3
+0x443e,	// (0x00051365) temp_image_control_pane_g3
 
-0x96be,	// (0x00055902) temp_image_control_pane_g4_ParamLimits
+0x95a9,	// (0x000564d0) temp_image_control_pane_g4_ParamLimits
 
-0x96be,	// (0x00055902) temp_image_control_pane_g4
+0x95a9,	// (0x000564d0) temp_image_control_pane_g4
 
 0x0003,
 
-0xf749,	// (0x0005b98d) temp_image_control_pane_g_ParamLimits
+0xf73a,	// (0x0005c661) temp_image_control_pane_g_ParamLimits
 
-0xf749,	// (0x0005b98d) temp_image_control_pane_g
+0xf73a,	// (0x0005c661) temp_image_control_pane_g
 
-0x47db,	// (0x00050a1f) main_mp3_pane_g1
+0x441e,	// (0x00051345) main_mp3_pane_g1
 
-0x96cf,	// (0x00055913) main_mp3_pane_g2
+0x95ba,	// (0x000564e1) main_mp3_pane_g2
 
 0x0007,
 
-0xf752,	// (0x0005b996) main_mp3_pane_g
+0xf743,	// (0x0005c66a) main_mp3_pane_g
 
-0x483e,	// (0x00050a82) main_mp3_pane_t1
+0x4481,	// (0x000513a8) main_mp3_pane_t1
 
-0x240e,	// (0x0004e652) main_camera_pane_g8_ParamLimits
+0x2090,	// (0x0004efb7) main_camera_pane_g8_ParamLimits
 
-0x240e,	// (0x0004e652) main_camera_pane_g8
+0x2090,	// (0x0004efb7) main_camera_pane_g8
 
-0x6a83,	// (0x00052cc7) main_video_pane_g7_ParamLimits
+0x6921,	// (0x00053848) main_video_pane_g7_ParamLimits
 
-0x6a83,	// (0x00052cc7) main_video_pane_g7
+0x6921,	// (0x00053848) main_video_pane_g7
 
-0x91b4,	// (0x000553f8) main_camera2_pane_t7_ParamLimits
+0x909f,	// (0x00055fc6) main_camera2_pane_t7_ParamLimits
 
-0x91b4,	// (0x000553f8) main_camera2_pane_t7
+0x909f,	// (0x00055fc6) main_camera2_pane_t7
 
-0x2556,	// (0x0004e79a) scroll_pane_cp025_ParamLimits
+0x21d8,	// (0x0004f0ff) scroll_pane_cp025_ParamLimits
 
-0x2556,	// (0x0004e79a) scroll_pane_cp025
+0x21d8,	// (0x0004f0ff) scroll_pane_cp025
 
-0x256a,	// (0x0004e7ae) scroll_pane_cp026_ParamLimits
+0x21ec,	// (0x0004f113) scroll_pane_cp026_ParamLimits
 
-0x256a,	// (0x0004e7ae) scroll_pane_cp026
+0x21ec,	// (0x0004f113) scroll_pane_cp026
 
-0x2579,	// (0x0004e7bd) wml_content_pane_ParamLimits
+0x21fb,	// (0x0004f122) wml_content_pane_ParamLimits
 
-0x037e,	// (0x0004c5c2) main_touch_calib_pane
+0x5d04,	// (0x00052c2b) main_touch_calib_pane
 
-0x9773,	// (0x000559b7) main_touch_calib_pane_g1
+0x965e,	// (0x00056585) main_touch_calib_pane_g1
 
-0x977f,	// (0x000559c3) main_touch_calib_pane_g2
+0x966a,	// (0x00056591) main_touch_calib_pane_g2
 
-0x978b,	// (0x000559cf) main_touch_calib_pane_g3
+0x9676,	// (0x0005659d) main_touch_calib_pane_g3
 
-0x9797,	// (0x000559db) main_touch_calib_pane_g4
+0x9682,	// (0x000565a9) main_touch_calib_pane_g4
 
 0x0003,
 
-0xf770,	// (0x0005b9b4) main_touch_calib_pane_g
+0xf761,	// (0x0005c688) main_touch_calib_pane_g
 
-0x97a3,	// (0x000559e7) main_touch_calib_pane_t1
+0x968e,	// (0x000565b5) main_touch_calib_pane_t1
 
-0x97ba,	// (0x000559fe) main_touch_calib_pane_t2
+0x96a5,	// (0x000565cc) main_touch_calib_pane_t2
 
 0x0004,
 
-0xf779,	// (0x0005b9bd) main_touch_calib_pane_t
+0xf76a,	// (0x0005c691) main_touch_calib_pane_t
 
-0x2c7d,	// (0x0004eec1) mup_progress_pane_cp02
+0x28ff,	// (0x0004f826) mup_progress_pane_cp02
 
-0x2c9c,	// (0x0004eee0) navi_pane_g1
+0x291e,	// (0x0004f845) navi_pane_g1
 
-0x2cfe,	// (0x0004ef42) navi_pane_mp_t3
+0x2980,	// (0x0004f8a7) navi_pane_mp_t3
 
-0x334c,	// (0x0004f590) main_mp3_pane_ParamLimits
+0x8b84,	// (0x00055aab) main_mp3_pane_ParamLimits
 
-0x8e0f,	// (0x00055053) navi_pane_ParamLimits
+0x8cfa,	// (0x00055c21) navi_pane_ParamLimits
 
-0x47db,	// (0x00050a1f) main_mp3_pane_g1_ParamLimits
+0x441e,	// (0x00051345) main_mp3_pane_g1_ParamLimits
 
-0x96cf,	// (0x00055913) main_mp3_pane_g2_ParamLimits
+0x95ba,	// (0x000564e1) main_mp3_pane_g2_ParamLimits
 
-0x96db,	// (0x0005591f) main_mp3_pane_g3_ParamLimits
+0x95c6,	// (0x000564ed) main_mp3_pane_g3_ParamLimits
 
-0x96db,	// (0x0005591f) main_mp3_pane_g3
+0x95c6,	// (0x000564ed) main_mp3_pane_g3
 
-0x96e7,	// (0x0005592b) main_mp3_pane_g4_ParamLimits
+0x95d2,	// (0x000564f9) main_mp3_pane_g4_ParamLimits
 
-0x96e7,	// (0x0005592b) main_mp3_pane_g4
+0x95d2,	// (0x000564f9) main_mp3_pane_g4
 
-0x480b,	// (0x00050a4f) main_mp3_pane_g5_ParamLimits
+0x444e,	// (0x00051375) main_mp3_pane_g5_ParamLimits
 
-0x480b,	// (0x00050a4f) main_mp3_pane_g5
+0x444e,	// (0x00051375) main_mp3_pane_g5
 
-0x4819,	// (0x00050a5d) main_mp3_pane_g6_ParamLimits
+0x445c,	// (0x00051383) main_mp3_pane_g6_ParamLimits
 
-0x4819,	// (0x00050a5d) main_mp3_pane_g6
+0x445c,	// (0x00051383) main_mp3_pane_g6
 
-0x4826,	// (0x00050a6a) main_mp3_pane_g7_ParamLimits
+0x4469,	// (0x00051390) main_mp3_pane_g7_ParamLimits
 
-0x4826,	// (0x00050a6a) main_mp3_pane_g7
+0x4469,	// (0x00051390) main_mp3_pane_g7
 
-0x4832,	// (0x00050a76) main_mp3_pane_g8_ParamLimits
+0x4475,	// (0x0005139c) main_mp3_pane_g8_ParamLimits
 
-0x4832,	// (0x00050a76) main_mp3_pane_g8
+0x4475,	// (0x0005139c) main_mp3_pane_g8
 
-0xf752,	// (0x0005b996) main_mp3_pane_g_ParamLimits
+0xf743,	// (0x0005c66a) main_mp3_pane_g_ParamLimits
 
-0x96f3,	// (0x00055937) main_mp3_pane_t2
+0x95de,	// (0x00056505) main_mp3_pane_t2
 
-0x9703,	// (0x00055947) main_mp3_pane_t3
+0x95ee,	// (0x00056515) main_mp3_pane_t3
 
-0x484c,	// (0x00050a90) main_mp3_pane_t4
+0x448f,	// (0x000513b6) main_mp3_pane_t4
 
-0x485a,	// (0x00050a9e) main_mp3_pane_t5
+0x449d,	// (0x000513c4) main_mp3_pane_t5
 
 0x0005,
 
-0xf763,	// (0x0005b9a7) main_mp3_pane_t
+0xf754,	// (0x0005c67b) main_mp3_pane_t
 
-0x4868,	// (0x00050aac) mup_progress_pane_cp01
+0x44ab,	// (0x000513d2) mup_progress_pane_cp01
 
-0x03ac,	// (0x0004c5f0) aid_zoom_text_secondary2
+0x596a,	// (0x00052891) aid_zoom_text_secondary2
 
-0x4622,	// (0x00050866) list_cale_ev2_pane
+0x4265,	// (0x0005118c) list_cale_ev2_pane
 
-0x462a,	// (0x0005086e) scroll_pane_cp023_ParamLimits
+0x426d,	// (0x00051194) scroll_pane_cp023_ParamLimits
 
-0x980f,	// (0x00055a53) field_cale_ev2_pane_ParamLimits
+0x96fa,	// (0x00056621) field_cale_ev2_pane_ParamLimits
 
-0x980f,	// (0x00055a53) field_cale_ev2_pane
+0x96fa,	// (0x00056621) field_cale_ev2_pane
 
-0x07e1,	// (0x0004ca25) field_cale_ev2_pane_g1_ParamLimits
+0x0538,	// (0x0004d45f) field_cale_ev2_pane_g1_ParamLimits
 
-0x07e1,	// (0x0004ca25) field_cale_ev2_pane_g1
+0x0538,	// (0x0004d45f) field_cale_ev2_pane_g1
 
-0x07ed,	// (0x0004ca31) field_cale_ev2_pane_g2_ParamLimits
+0x0544,	// (0x0004d46b) field_cale_ev2_pane_g2_ParamLimits
 
-0x07ed,	// (0x0004ca31) field_cale_ev2_pane_g2
+0x0544,	// (0x0004d46b) field_cale_ev2_pane_g2
 
-0x0805,	// (0x0004ca49) field_cale_ev2_pane_g3_ParamLimits
+0x055c,	// (0x0004d483) field_cale_ev2_pane_g3_ParamLimits
 
-0x0805,	// (0x0004ca49) field_cale_ev2_pane_g3
+0x055c,	// (0x0004d483) field_cale_ev2_pane_g3
 
 0x0003,
 
-0xf784,	// (0x0005b9c8) field_cale_ev2_pane_g_ParamLimits
+0xf775,	// (0x0005c69c) field_cale_ev2_pane_g_ParamLimits
 
-0xf784,	// (0x0005b9c8) field_cale_ev2_pane_g
+0xf775,	// (0x0005c69c) field_cale_ev2_pane_g
 
-0x9838,	// (0x00055a7c) field_cale_ev2_pane_t1_ParamLimits
+0x9723,	// (0x0005664a) field_cale_ev2_pane_t1_ParamLimits
 
-0x9838,	// (0x00055a7c) field_cale_ev2_pane_t1
+0x9723,	// (0x0005664a) field_cale_ev2_pane_t1
 
-0x984f,	// (0x00055a93) field_cale_ev2_pane_t2_ParamLimits
+0x973a,	// (0x00056661) field_cale_ev2_pane_t2_ParamLimits
 
-0x984f,	// (0x00055a93) field_cale_ev2_pane_t2
+0x973a,	// (0x00056661) field_cale_ev2_pane_t2
 
 0x0001,
 
-0xf78d,	// (0x0005b9d1) field_cale_ev2_pane_t_ParamLimits
+0xf77e,	// (0x0005c6a5) field_cale_ev2_pane_t_ParamLimits
 
-0xf78d,	// (0x0005b9d1) field_cale_ev2_pane_t
+0xf77e,	// (0x0005c6a5) field_cale_ev2_pane_t
 
-0x862a,	// (0x0005486e) main_postcard_pane_g5_ParamLimits
+0x84c8,	// (0x000553ef) main_postcard_pane_g5_ParamLimits
 
-0x862a,	// (0x0005486e) main_postcard_pane_g5
+0x84c8,	// (0x000553ef) main_postcard_pane_g5
 
-0x8638,	// (0x0005487c) main_postcard_pane_g6_ParamLimits
+0x84d6,	// (0x000553fd) main_postcard_pane_g6_ParamLimits
 
-0x8638,	// (0x0005487c) main_postcard_pane_g6
+0x84d6,	// (0x000553fd) main_postcard_pane_g6
 
-0x68cd,	// (0x00052b11) camera2_autofocus_pane_cp_ParamLimits
+0x676b,	// (0x00053692) camera2_autofocus_pane_cp_ParamLimits
 
-0x68cd,	// (0x00052b11) camera2_autofocus_pane_cp
+0x676b,	// (0x00053692) camera2_autofocus_pane_cp
 
-0x334c,	// (0x0004f590) main_mup3_pane
+0x8b84,	// (0x00055aab) main_mup3_pane
 
-0x9884,	// (0x00055ac8) main_mup3_pane_g1_ParamLimits
+0x976f,	// (0x00056696) main_mup3_pane_g1_ParamLimits
 
-0x9884,	// (0x00055ac8) main_mup3_pane_g1
+0x976f,	// (0x00056696) main_mup3_pane_g1
 
-0x98a5,	// (0x00055ae9) main_mup3_pane_g2_ParamLimits
+0x9790,	// (0x000566b7) main_mup3_pane_g2_ParamLimits
 
-0x98a5,	// (0x00055ae9) main_mup3_pane_g2
+0x9790,	// (0x000566b7) main_mup3_pane_g2
 
-0x991d,	// (0x00055b61) main_mup3_pane_g3_ParamLimits
+0x9808,	// (0x0005672f) main_mup3_pane_g3_ParamLimits
 
-0x991d,	// (0x00055b61) main_mup3_pane_g3
+0x9808,	// (0x0005672f) main_mup3_pane_g3
 
-0x9960,	// (0x00055ba4) main_mup3_pane_g4_ParamLimits
+0x984b,	// (0x00056772) main_mup3_pane_g4_ParamLimits
 
-0x9960,	// (0x00055ba4) main_mup3_pane_g4
+0x984b,	// (0x00056772) main_mup3_pane_g4
 
-0x99a3,	// (0x00055be7) main_mup3_pane_g5_ParamLimits
+0x988e,	// (0x000567b5) main_mup3_pane_g5_ParamLimits
 
-0x99a3,	// (0x00055be7) main_mup3_pane_g5
+0x988e,	// (0x000567b5) main_mup3_pane_g5
 
-0x99e6,	// (0x00055c2a) main_mup3_pane_g6_ParamLimits
+0x98d1,	// (0x000567f8) main_mup3_pane_g6_ParamLimits
 
-0x99e6,	// (0x00055c2a) main_mup3_pane_g6
+0x98d1,	// (0x000567f8) main_mup3_pane_g6
 
-0x4870,	// (0x00050ab4) main_mup3_pane_g7_ParamLimits
+0x44b3,	// (0x000513da) main_mup3_pane_g7_ParamLimits
 
-0x4870,	// (0x00050ab4) main_mup3_pane_g7
+0x44b3,	// (0x000513da) main_mup3_pane_g7
 
 0x0007,
 
-0xf79d,	// (0x0005b9e1) main_mup3_pane_g_ParamLimits
+0xf78e,	// (0x0005c6b5) main_mup3_pane_g_ParamLimits
 
-0xf79d,	// (0x0005b9e1) main_mup3_pane_g
+0xf78e,	// (0x0005c6b5) main_mup3_pane_g
 
-0x9a5c,	// (0x00055ca0) main_mup3_pane_t1_ParamLimits
+0x9947,	// (0x0005686e) main_mup3_pane_t1_ParamLimits
 
-0x9a5c,	// (0x00055ca0) main_mup3_pane_t1
+0x9947,	// (0x0005686e) main_mup3_pane_t1
 
-0x9acb,	// (0x00055d0f) main_mup3_pane_t2_ParamLimits
+0x99b6,	// (0x000568dd) main_mup3_pane_t2_ParamLimits
 
-0x9acb,	// (0x00055d0f) main_mup3_pane_t2
+0x99b6,	// (0x000568dd) main_mup3_pane_t2
 
-0x9b94,	// (0x00055dd8) main_mup3_pane_t4_ParamLimits
+0x9a7f,	// (0x000569a6) main_mup3_pane_t4_ParamLimits
 
-0x9b94,	// (0x00055dd8) main_mup3_pane_t4
+0x9a7f,	// (0x000569a6) main_mup3_pane_t4
 
-0x9be2,	// (0x00055e26) main_mup3_pane_t5_ParamLimits
+0x9acd,	// (0x000569f4) main_mup3_pane_t5_ParamLimits
 
-0x9be2,	// (0x00055e26) main_mup3_pane_t5
+0x9acd,	// (0x000569f4) main_mup3_pane_t5
 
-0x9c92,	// (0x00055ed6) main_mup3_pane_t6_ParamLimits
+0x9b7d,	// (0x00056aa4) main_mup3_pane_t6_ParamLimits
 
-0x9c92,	// (0x00055ed6) main_mup3_pane_t6
+0x9b7d,	// (0x00056aa4) main_mup3_pane_t6
 
 0x0005,
 
-0xf7ae,	// (0x0005b9f2) main_mup3_pane_t_ParamLimits
+0xf79f,	// (0x0005c6c6) main_mup3_pane_t_ParamLimits
 
-0xf7ae,	// (0x0005b9f2) main_mup3_pane_t
+0xf79f,	// (0x0005c6c6) main_mup3_pane_t
 
-0x9d3e,	// (0x00055f82) mup3_progress_pane_ParamLimits
+0x9c29,	// (0x00056b50) mup3_progress_pane_ParamLimits
 
-0x9d3e,	// (0x00055f82) mup3_progress_pane
+0x9c29,	// (0x00056b50) mup3_progress_pane
 
-0x9dbc,	// (0x00056000) popup_mup3_control_window_ParamLimits
+0x9ca7,	// (0x00056bce) popup_mup3_control_window_ParamLimits
 
-0x9dbc,	// (0x00056000) popup_mup3_control_window
+0x9ca7,	// (0x00056bce) popup_mup3_control_window
 
-0x487e,	// (0x00050ac2) popup_mup3_text_window
+0x44c1,	// (0x000513e8) popup_mup3_text_window
 
-0x9dd5,	// (0x00056019) mup3_progress_pane_t1
+0x9cc0,	// (0x00056be7) mup3_progress_pane_t1
 
-0x9df4,	// (0x00056038) mup3_progress_pane_t2
+0x9cdf,	// (0x00056c06) mup3_progress_pane_t2
 
-0x4886,	// (0x00050aca) mup3_progress_pane_t3
-
-0x0002,
-
-0xf7bb,	// (0x0005b9ff) mup3_progress_pane_t
-
-0x48a3,	// (0x00050ae7) mup_progress_pane_cp03
-
-0x037e,	// (0x0004c5c2) bg_tb_trans_pane_cp04
-
-0x9e13,	// (0x00056057) mup3_volume_pane
-
-0x9e1b,	// (0x0005605f) popup_mup3_control_window_g1
-
-0x9e24,	// (0x00056068) mup3_volume_pane_g1
-
-0x9e2d,	// (0x00056071) mup3_volume_pane_g2
-
-0x9e36,	// (0x0005607a) mup3_volume_pane_g3
+0x44c9,	// (0x000513f0) mup3_progress_pane_t3
 
 0x0002,
 
-0xf7c2,	// (0x0005ba06) mup3_volume_pane_g
+0xf7ac,	// (0x0005c6d3) mup3_progress_pane_t
 
-0x037e,	// (0x0004c5c2) bg_tb_trans_pane_cp03
+0x44e6,	// (0x0005140d) mup_progress_pane_cp03
 
-0x48b3,	// (0x00050af7) popup_mup3_text_window_g1
+0x00f2,	// (0x0004d019) bg_tb_trans_pane_cp04
 
-0x48bb,	// (0x00050aff) popup_mup3_text_window_t1
+0x9cfe,	// (0x00056c25) mup3_volume_pane
 
-0x22b1,	// (0x0004e4f5) list_calc_item_pane_g1_ParamLimits
+0x9d06,	// (0x00056c2d) popup_mup3_control_window_g1
 
-0x42ea,	// (0x0005052e) mup_volume_pane_cp_g1
+0x9d0f,	// (0x00056c36) mup3_volume_pane_g1
 
-0x97d1,	// (0x00055a15) main_touch_calib_pane_t3
+0x9d18,	// (0x00056c3f) mup3_volume_pane_g2
 
-0x97e5,	// (0x00055a29) main_touch_calib_pane_t4
-
-0x97f9,	// (0x00055a3d) main_touch_calib_pane_t5
-
-0x0388,	// (0x0004c5cc) aid_cell_size_toolbar2
-
-0x0390,	// (0x0004c5d4) aid_popup3_width_pane
-
-0x039c,	// (0x0004c5e0) aid_zoom_text_msg_primary
-
-0x68a4,	// (0x00052ae8) vorec_t7
-
-0x2275,	// (0x0004e4b9) bg_calc_paper_pane_g1_ParamLimits
-
-0x228d,	// (0x0004e4d1) bg_calc_paper_pane_g2_ParamLimits
-
-0x2281,	// (0x0004e4c5) bg_calc_paper_pane_g3_ParamLimits
-
-0x22a5,	// (0x0004e4e9) bg_calc_paper_pane_g4_ParamLimits
-
-0x2299,	// (0x0004e4dd) bg_calc_paper_pane_g5_ParamLimits
-
-0x6256,	// (0x0005249a) bg_calc_paper_pane_g6_ParamLimits
-
-0x6267,	// (0x000524ab) bg_calc_paper_pane_g7_ParamLimits
-
-0x6278,	// (0x000524bc) bg_calc_paper_pane_g8_ParamLimits
-
-0xf175,	// (0x0005b3b9) bg_calc_paper_pane_g_ParamLimits
-
-0x6289,	// (0x000524cd) calc_bg_paper_pane_g9_ParamLimits
-
-0x69b4,	// (0x00052bf8) image_qvga_pane_ParamLimits
-
-0x69b4,	// (0x00052bf8) image_qvga_pane
-
-0x2196,	// (0x0004e3da) bg_popup_sub_pane_cp04_ParamLimits
-
-0x2f49,	// (0x0004f18d) popup_mup_playback_window_g1_ParamLimits
-
-0x2f55,	// (0x0004f199) popup_mup_playback_window_t1_ParamLimits
-
-0x2f6a,	// (0x0004f1ae) popup_mup_playback_window_t2_ParamLimits
-
-0xf501,	// (0x0005b745) popup_mup_playback_window_t_ParamLimits
-
-0x92e3,	// (0x00055527) main_mup2_pane_g3_ParamLimits
-
-0x92e3,	// (0x00055527) main_mup2_pane_g3
-
-0x6cc3,	// (0x00052f07) popup_toolbar_window_cp04
-
-0x3366,	// (0x0004f5aa) popup_call2_audio_second_window_g3_ParamLimits
-
-0x3366,	// (0x0004f5aa) popup_call2_audio_second_window_g3
-
-0x3770,	// (0x0004f9b4) popup_call2_audio_first_window_g4_ParamLimits
-
-0x3770,	// (0x0004f9b4) popup_call2_audio_first_window_g4
-
-0x3def,	// (0x00050033) popup_call2_audio_in_window_g4_ParamLimits
-
-0x3def,	// (0x00050033) popup_call2_audio_in_window_g4
-
-0x873d,	// (0x00054981) aid_area_sk_bg_cut_ParamLimits
-
-0x873d,	// (0x00054981) aid_area_sk_bg_cut
-
-0x2f7f,	// (0x0004f1c3) aid_area_sk_bg_cut_2_ParamLimits
-
-0x2f7f,	// (0x0004f1c3) aid_area_sk_bg_cut_2
-
-0x9664,	// (0x000558a8) aid_placing_details_win
-
-0x966c,	// (0x000558b0) aid_placing_details_win_2
-
-0x471d,	// (0x00050961) camera2_autofocus_pane_g1_ParamLimits
-
-0x5e16,	// (0x0005205a) popup_fixed_preview_cale_window_ParamLimits
-
-0x5e16,	// (0x0005205a) popup_fixed_preview_cale_window
-
-0x2d6d,	// (0x0004efb1) navi_slider_pane_g3
-
-0x2d64,	// (0x0004efa8) navi_slider_pane_g4
-
-0x2d5b,	// (0x0004ef9f) navi_slider_pane_g5
-
-0x2d6d,	// (0x0004efb1) navi_slider_pane_g6
-
-0x7f9c,	// (0x000541e0) navi_slider_pane_g7
-
-0x2e80,	// (0x0004f0c4) mup_scale_pane_g3
-
-0x2e89,	// (0x0004f0cd) mup_scale_pane_g4
-
-0x2e92,	// (0x0004f0d6) mup_scale_pane_g5
-
-0x83dd,	// (0x00054621) mup_scale_pane_g6
-
-0x83e6,	// (0x0005462a) mup_scale_pane_g7
-
-0x2d6d,	// (0x0004efb1) cams2_slider_pane_g3
-
-0x436c,	// (0x000505b0) cams2_slider_pane_g4
-
-0x95bc,	// (0x00055800) cams2_slider_pane_g5
-
-0x2d6d,	// (0x0004efb1) cams2_slider_pane_g6
-
-0x95c4,	// (0x00055808) cams2_slider_pane_g7
-
-0x4597,	// (0x000507db) camera2_autofocus_pane_cp_g1
-
-0x48c9,	// (0x00050b0d) bg_popup_preview_window_pane_cp02_ParamLimits
-
-0x48c9,	// (0x00050b0d) bg_popup_preview_window_pane_cp02
-
-0x48d5,	// (0x00050b19) list_fp_cale_pane_ParamLimits
-
-0x48d5,	// (0x00050b19) list_fp_cale_pane
-
-0x48e1,	// (0x00050b25) popup_fixed_preview_cale_window_t1_ParamLimits
-
-0x48e1,	// (0x00050b25) popup_fixed_preview_cale_window_t1
-
-0x9e3f,	// (0x00056083) popup_fixed_preview_cale_window_t2_ParamLimits
-
-0x9e3f,	// (0x00056083) popup_fixed_preview_cale_window_t2
-
-0x9e54,	// (0x00056098) popup_fixed_preview_cale_window_t3_ParamLimits
-
-0x9e54,	// (0x00056098) popup_fixed_preview_cale_window_t3
+0x9d21,	// (0x00056c48) mup3_volume_pane_g3
 
 0x0002,
 
-0xf7c9,	// (0x0005ba0d) popup_fixed_preview_cale_window_t_ParamLimits
+0xf7b3,	// (0x0005c6da) mup3_volume_pane_g
 
-0xf7c9,	// (0x0005ba0d) popup_fixed_preview_cale_window_t
+0x00f2,	// (0x0004d019) bg_tb_trans_pane_cp03
 
-0x9e69,	// (0x000560ad) list_single_fp_cale_pane_ParamLimits
+0x44f6,	// (0x0005141d) popup_mup3_text_window_g1
 
-0x9e69,	// (0x000560ad) list_single_fp_cale_pane
+0x44fe,	// (0x00051425) popup_mup3_text_window_t1
 
-0x48ff,	// (0x00050b43) list_single_fp_cale_pane_g1_ParamLimits
+0x1f33,	// (0x0004ee5a) list_calc_item_pane_g1_ParamLimits
 
-0x48ff,	// (0x00050b43) list_single_fp_cale_pane_g1
+0x3f2d,	// (0x00050e54) mup_volume_pane_cp_g1
 
-0x490b,	// (0x00050b4f) list_single_fp_cale_pane_g2_ParamLimits
+0x96bc,	// (0x000565e3) main_touch_calib_pane_t3
 
-0x490b,	// (0x00050b4f) list_single_fp_cale_pane_g2
+0x96d0,	// (0x000565f7) main_touch_calib_pane_t4
+
+0x96e4,	// (0x0005660b) main_touch_calib_pane_t5
+
+0x5a45,	// (0x0005296c) aid_cell_size_toolbar2
+
+0x5a4d,	// (0x00052974) aid_popup3_width_pane
+
+0x5962,	// (0x00052889) aid_zoom_text_msg_primary
+
+0x6742,	// (0x00053669) vorec_t7
+
+0x1ef7,	// (0x0004ee1e) bg_calc_paper_pane_g1_ParamLimits
+
+0x1f0f,	// (0x0004ee36) bg_calc_paper_pane_g2_ParamLimits
+
+0x1f03,	// (0x0004ee2a) bg_calc_paper_pane_g3_ParamLimits
+
+0x1f27,	// (0x0004ee4e) bg_calc_paper_pane_g4_ParamLimits
+
+0x1f1b,	// (0x0004ee42) bg_calc_paper_pane_g5_ParamLimits
+
+0x60f2,	// (0x00053019) bg_calc_paper_pane_g6_ParamLimits
+
+0x6103,	// (0x0005302a) bg_calc_paper_pane_g7_ParamLimits
+
+0x6114,	// (0x0005303b) bg_calc_paper_pane_g8_ParamLimits
+
+0xf166,	// (0x0005c08d) bg_calc_paper_pane_g_ParamLimits
+
+0x6125,	// (0x0005304c) calc_bg_paper_pane_g9_ParamLimits
+
+0x6852,	// (0x00053779) image_qvga_pane_ParamLimits
+
+0x6852,	// (0x00053779) image_qvga_pane
+
+0x1e18,	// (0x0004ed3f) bg_popup_sub_pane_cp04_ParamLimits
+
+0x2bcb,	// (0x0004faf2) popup_mup_playback_window_g1_ParamLimits
+
+0x2bd7,	// (0x0004fafe) popup_mup_playback_window_t1_ParamLimits
+
+0x2bec,	// (0x0004fb13) popup_mup_playback_window_t2_ParamLimits
+
+0xf4f2,	// (0x0005c419) popup_mup_playback_window_t_ParamLimits
+
+0x91ce,	// (0x000560f5) main_mup2_pane_g3_ParamLimits
+
+0x91ce,	// (0x000560f5) main_mup2_pane_g3
+
+0x6b61,	// (0x00053a88) popup_toolbar_window_cp04
+
+0x2fce,	// (0x0004fef5) popup_call2_audio_second_window_g3_ParamLimits
+
+0x2fce,	// (0x0004fef5) popup_call2_audio_second_window_g3
+
+0x33d8,	// (0x000502ff) popup_call2_audio_first_window_g4_ParamLimits
+
+0x33d8,	// (0x000502ff) popup_call2_audio_first_window_g4
+
+0x3a71,	// (0x00050998) popup_call2_audio_in_window_g4_ParamLimits
+
+0x3a71,	// (0x00050998) popup_call2_audio_in_window_g4
+
+0x85db,	// (0x00055502) aid_area_sk_bg_cut_ParamLimits
+
+0x85db,	// (0x00055502) aid_area_sk_bg_cut
+
+0x2c01,	// (0x0004fb28) aid_area_sk_bg_cut_2_ParamLimits
+
+0x2c01,	// (0x0004fb28) aid_area_sk_bg_cut_2
+
+0x954f,	// (0x00056476) aid_placing_details_win
+
+0x9557,	// (0x0005647e) aid_placing_details_win_2
+
+0x4360,	// (0x00051287) camera2_autofocus_pane_g1_ParamLimits
+
+0x5c9a,	// (0x00052bc1) popup_fixed_preview_cale_window_ParamLimits
+
+0x5c9a,	// (0x00052bc1) popup_fixed_preview_cale_window
+
+0x29e1,	// (0x0004f908) navi_slider_pane_g3
+
+0x29d8,	// (0x0004f8ff) navi_slider_pane_g4
+
+0x29cf,	// (0x0004f8f6) navi_slider_pane_g5
+
+0x29e1,	// (0x0004f908) navi_slider_pane_g6
+
+0x7e3a,	// (0x00054d61) navi_slider_pane_g7
+
+0x2b02,	// (0x0004fa29) mup_scale_pane_g3
+
+0x2b0b,	// (0x0004fa32) mup_scale_pane_g4
+
+0x2b14,	// (0x0004fa3b) mup_scale_pane_g5
+
+0x827b,	// (0x000551a2) mup_scale_pane_g6
+
+0x8284,	// (0x000551ab) mup_scale_pane_g7
+
+0x29e1,	// (0x0004f908) cams2_slider_pane_g3
+
+0x3faf,	// (0x00050ed6) cams2_slider_pane_g4
+
+0x94a7,	// (0x000563ce) cams2_slider_pane_g5
+
+0x29e1,	// (0x0004f908) cams2_slider_pane_g6
+
+0x94af,	// (0x000563d6) cams2_slider_pane_g7
+
+0x41eb,	// (0x00051112) camera2_autofocus_pane_cp_g1
+
+0x450c,	// (0x00051433) bg_popup_preview_window_pane_cp02_ParamLimits
+
+0x450c,	// (0x00051433) bg_popup_preview_window_pane_cp02
+
+0x4518,	// (0x0005143f) list_fp_cale_pane_ParamLimits
+
+0x4518,	// (0x0005143f) list_fp_cale_pane
+
+0x4524,	// (0x0005144b) popup_fixed_preview_cale_window_t1_ParamLimits
+
+0x4524,	// (0x0005144b) popup_fixed_preview_cale_window_t1
+
+0x9d2a,	// (0x00056c51) popup_fixed_preview_cale_window_t2_ParamLimits
+
+0x9d2a,	// (0x00056c51) popup_fixed_preview_cale_window_t2
+
+0x9d3f,	// (0x00056c66) popup_fixed_preview_cale_window_t3_ParamLimits
+
+0x9d3f,	// (0x00056c66) popup_fixed_preview_cale_window_t3
 
 0x0002,
 
-0xf7d0,	// (0x0005ba14) list_single_fp_cale_pane_g_ParamLimits
+0xf7ba,	// (0x0005c6e1) popup_fixed_preview_cale_window_t_ParamLimits
 
-0xf7d0,	// (0x0005ba14) list_single_fp_cale_pane_g
+0xf7ba,	// (0x0005c6e1) popup_fixed_preview_cale_window_t
 
-0x4924,	// (0x00050b68) list_single_fp_cale_pane_t1_ParamLimits
+0x9d54,	// (0x00056c7b) list_single_fp_cale_pane_ParamLimits
 
-0x4924,	// (0x00050b68) list_single_fp_cale_pane_t1
+0x9d54,	// (0x00056c7b) list_single_fp_cale_pane
 
-0x4936,	// (0x00050b7a) list_single_fp_cale_pane_t2_ParamLimits
+0x4542,	// (0x00051469) list_single_fp_cale_pane_g1_ParamLimits
 
-0x4936,	// (0x00050b7a) list_single_fp_cale_pane_t2
+0x4542,	// (0x00051469) list_single_fp_cale_pane_g1
+
+0x454e,	// (0x00051475) list_single_fp_cale_pane_g2_ParamLimits
+
+0x454e,	// (0x00051475) list_single_fp_cale_pane_g2
+
+0x0002,
+
+0xf7c1,	// (0x0005c6e8) list_single_fp_cale_pane_g_ParamLimits
+
+0xf7c1,	// (0x0005c6e8) list_single_fp_cale_pane_g
+
+0x4567,	// (0x0005148e) list_single_fp_cale_pane_t1_ParamLimits
+
+0x4567,	// (0x0005148e) list_single_fp_cale_pane_t1
+
+0x4579,	// (0x000514a0) list_single_fp_cale_pane_t2_ParamLimits
+
+0x4579,	// (0x000514a0) list_single_fp_cale_pane_t2
 
 0x0001,
 
-0xf7d7,	// (0x0005ba1b) list_single_fp_cale_pane_t_ParamLimits
+0xf7c8,	// (0x0005c6ef) list_single_fp_cale_pane_t_ParamLimits
 
-0xf7d7,	// (0x0005ba1b) list_single_fp_cale_pane_t
-
-0x0000,
+0xf7c8,	// (0x0005c6ef) list_single_fp_cale_pane_t
 
 0x0000,
 
@@ -5025,7851 +5023,7943 @@ const TUint16 KDataLookup[AknLayoutScalable_Apps::E_TApiId_TableSize] =
 
 0x0000,
 
-0x037e,	// (0x0004c5c2) main_dialer_pane
+0x0000,
 
-0x9e7b,	// (0x000560bf) aid_cell_size_keypad
+0x5d04,	// (0x00052c2b) main_dialer_pane
 
-0x9e85,	// (0x000560c9) dialer_ne_pane
+0x9d66,	// (0x00056c8d) aid_cell_size_keypad
 
-0x9e8f,	// (0x000560d3) grid_dialer_command_1_pane
+0x9d70,	// (0x00056c97) dialer_ne_pane
 
-0x9e97,	// (0x000560db) grid_dialer_command_2_pane
+0x9d7a,	// (0x00056ca1) grid_dialer_command_1_pane
 
-0x9e9f,	// (0x000560e3) grid_dialer_keypad_pane
+0x9d82,	// (0x00056ca9) grid_dialer_command_2_pane
 
-0x9eb1,	// (0x000560f5) bg_popup_call_pane_cp06_ParamLimits
+0x9d8a,	// (0x00056cb1) grid_dialer_keypad_pane
 
-0x9eb1,	// (0x000560f5) bg_popup_call_pane_cp06
+0x9d9c,	// (0x00056cc3) bg_popup_call_pane_cp06_ParamLimits
 
-0x9ebd,	// (0x00056101) dialer_ne_clear_pane_ParamLimits
+0x9d9c,	// (0x00056cc3) bg_popup_call_pane_cp06
 
-0x9ebd,	// (0x00056101) dialer_ne_clear_pane
+0x9da8,	// (0x00056ccf) dialer_ne_clear_pane_ParamLimits
 
-0x4969,	// (0x00050bad) dialer_ne_pane_g1
+0x9da8,	// (0x00056ccf) dialer_ne_clear_pane
 
-0x4971,	// (0x00050bb5) dialer_ne_pane_t1_ParamLimits
+0x45ac,	// (0x000514d3) dialer_ne_pane_g1
 
-0x4971,	// (0x00050bb5) dialer_ne_pane_t1
+0x45b4,	// (0x000514db) dialer_ne_pane_t1_ParamLimits
 
-0x9ec9,	// (0x0005610d) dialer_ne_pane_t2_ParamLimits
+0x45b4,	// (0x000514db) dialer_ne_pane_t1
 
-0x9ec9,	// (0x0005610d) dialer_ne_pane_t2
+0x9db4,	// (0x00056cdb) dialer_ne_pane_t2_ParamLimits
 
-0x9ee6,	// (0x0005612a) dialer_ne_pane_t3_ParamLimits
+0x9db4,	// (0x00056cdb) dialer_ne_pane_t2
 
-0x9ee6,	// (0x0005612a) dialer_ne_pane_t3
+0x9dd1,	// (0x00056cf8) dialer_ne_pane_t3_ParamLimits
+
+0x9dd1,	// (0x00056cf8) dialer_ne_pane_t3
 
 0x0002,
 
-0xf7dc,	// (0x0005ba20) dialer_ne_pane_t_ParamLimits
+0xf7cd,	// (0x0005c6f4) dialer_ne_pane_t_ParamLimits
 
-0xf7dc,	// (0x0005ba20) dialer_ne_pane_t
+0xf7cd,	// (0x0005c6f4) dialer_ne_pane_t
 
-0x9f0a,	// (0x0005614e) dialer_ne_pane_t3_copy1_ParamLimits
+0x9df5,	// (0x00056d1c) dialer_ne_pane_t3_copy1_ParamLimits
 
-0x9f0a,	// (0x0005614e) dialer_ne_pane_t3_copy1
+0x9df5,	// (0x00056d1c) dialer_ne_pane_t3_copy1
 
-0x9f2e,	// (0x00056172) cell_dialer_keypad_pane_ParamLimits
+0x9e19,	// (0x00056d40) cell_dialer_keypad_pane_ParamLimits
 
-0x9f2e,	// (0x00056172) cell_dialer_keypad_pane
+0x9e19,	// (0x00056d40) cell_dialer_keypad_pane
 
-0x9f45,	// (0x00056189) cell_dialer_command_1_pane_ParamLimits
+0x9e30,	// (0x00056d57) cell_dialer_command_1_pane_ParamLimits
 
-0x9f45,	// (0x00056189) cell_dialer_command_1_pane
+0x9e30,	// (0x00056d57) cell_dialer_command_1_pane
 
-0x9f5b,	// (0x0005619f) cell_dialer_command_2_pane_ParamLimits
+0x9e46,	// (0x00056d6d) cell_dialer_command_2_pane_ParamLimits
 
-0x9f5b,	// (0x0005619f) cell_dialer_command_2_pane
+0x9e46,	// (0x00056d6d) cell_dialer_command_2_pane
 
-0x4983,	// (0x00050bc7) bg_button_pane_cp02_ParamLimits
+0x45c6,	// (0x000514ed) bg_button_pane_cp02_ParamLimits
 
-0x4983,	// (0x00050bc7) bg_button_pane_cp02
+0x45c6,	// (0x000514ed) bg_button_pane_cp02
 
-0x9f6a,	// (0x000561ae) cell_dialer_keypad_pane_g1_ParamLimits
+0x9e55,	// (0x00056d7c) cell_dialer_keypad_pane_g1_ParamLimits
 
-0x9f6a,	// (0x000561ae) cell_dialer_keypad_pane_g1
+0x9e55,	// (0x00056d7c) cell_dialer_keypad_pane_g1
 
-0x4983,	// (0x00050bc7) bg_button_pane_cp03_ParamLimits
+0x45c6,	// (0x000514ed) bg_button_pane_cp03_ParamLimits
 
-0x4983,	// (0x00050bc7) bg_button_pane_cp03
+0x45c6,	// (0x000514ed) bg_button_pane_cp03
 
-0x9f7f,	// (0x000561c3) cell_dialer_command_1_pane_g1_ParamLimits
+0x9e6a,	// (0x00056d91) cell_dialer_command_1_pane_g1_ParamLimits
 
-0x9f7f,	// (0x000561c3) cell_dialer_command_1_pane_g1
+0x9e6a,	// (0x00056d91) cell_dialer_command_1_pane_g1
 
-0x498f,	// (0x00050bd3) bg_button_pane_cp04
+0x45d2,	// (0x000514f9) bg_button_pane_cp04
 
-0x9f93,	// (0x000561d7) cell_dialer_command_2_pane_g1
+0x9e7e,	// (0x00056da5) cell_dialer_command_2_pane_g1
 
-0x2d3c,	// (0x0004ef80) bg_button_pane_cp06
+0x29be,	// (0x0004f8e5) bg_button_pane_cp06
 
-0x4997,	// (0x00050bdb) dialer_ne_clear_pane_g1
+0x45da,	// (0x00051501) dialer_ne_clear_pane_g1
 
-0x7edf,	// (0x00054123) navi_pane_g2
+0x7d7d,	// (0x00054ca4) navi_pane_g2
 
-0x7f0d,	// (0x00054151) navi_pane_g3
+0x7dab,	// (0x00054cd2) navi_pane_g3
 
 0x0002,
 
-0xf404,	// (0x0005b648) navi_pane_g
+0xf3f5,	// (0x0005c31c) navi_pane_g
 
-0x7f38,	// (0x0005417c) navi_pane_mv_g2
+0x7dd6,	// (0x00054cfd) navi_pane_mv_g2
 
-0x7f5f,	// (0x000541a3) navi_pane_mv_g5
+0x7dfd,	// (0x00054d24) navi_pane_mv_g5
 
-0x7f67,	// (0x000541ab) navi_pane_mv_t1
+0x7e05,	// (0x00054d2c) navi_pane_mv_t1
 
-0x2269,	// (0x0004e4ad) main_clock2_pane
+0x1eeb,	// (0x0004ee12) main_clock2_pane
 
-0x9fc4,	// (0x00056208) main_clock2_list_pane_ParamLimits
+0x9eaf,	// (0x00056dd6) main_clock2_list_pane_ParamLimits
 
-0x9fc4,	// (0x00056208) main_clock2_list_pane
+0x9eaf,	// (0x00056dd6) main_clock2_list_pane
 
-0x9fec,	// (0x00056230) main_clock2_pane_t1_ParamLimits
+0x9ed7,	// (0x00056dfe) main_clock2_pane_t1_ParamLimits
 
-0x9fec,	// (0x00056230) main_clock2_pane_t1
+0x9ed7,	// (0x00056dfe) main_clock2_pane_t1
 
-0xa00e,	// (0x00056252) main_clock2_pane_t2_ParamLimits
+0x9ef9,	// (0x00056e20) main_clock2_pane_t2_ParamLimits
 
-0xa00e,	// (0x00056252) main_clock2_pane_t2
-
-0x0004,
-
-0xf7e3,	// (0x0005ba27) main_clock2_pane_t_ParamLimits
-
-0xf7e3,	// (0x0005ba27) main_clock2_pane_t
-
-0xa069,	// (0x000562ad) popup_clock_analogue_window_cp03_ParamLimits
-
-0xa069,	// (0x000562ad) popup_clock_analogue_window_cp03
-
-0xa087,	// (0x000562cb) popup_clock_digital_window_cp02_ParamLimits
-
-0xa087,	// (0x000562cb) popup_clock_digital_window_cp02
-
-0xa0f4,	// (0x00056338) main_clock2_list_single_pane_ParamLimits
-
-0xa0f4,	// (0x00056338) main_clock2_list_single_pane
-
-0x2d3c,	// (0x0004ef80) list_highlight_pane_cp05
-
-0x499f,	// (0x00050be3) main_clock2_list_single_pane_t1
-
-0x6cc3,	// (0x00052f07) popup_toolbar_window_cp04_ParamLimits
-
-0x968e,	// (0x000558d2) camera2_autofocus_pane_g2_ParamLimits
-
-0x968e,	// (0x000558d2) camera2_autofocus_pane_g2
-
-0x969a,	// (0x000558de) camera2_autofocus_pane_g3_ParamLimits
-
-0x969a,	// (0x000558de) camera2_autofocus_pane_g3
-
-0x96a6,	// (0x000558ea) camera2_autofocus_pane_g4_ParamLimits
-
-0x96a6,	// (0x000558ea) camera2_autofocus_pane_g4
-
-0x96b2,	// (0x000558f6) camera2_autofocus_pane_g5_ParamLimits
-
-0x96b2,	// (0x000558f6) camera2_autofocus_pane_g5
+0x9ef9,	// (0x00056e20) main_clock2_pane_t2
 
 0x0004,
 
-0xf72c,	// (0x0005b970) camera2_autofocus_pane_g_ParamLimits
+0xf7d4,	// (0x0005c6fb) main_clock2_pane_t_ParamLimits
 
-0xf72c,	// (0x0005b970) camera2_autofocus_pane_g
+0xf7d4,	// (0x0005c6fb) main_clock2_pane_t
 
-0x9864,	// (0x00055aa8) camera2_autofocus_pane_cp_g2
+0x9f54,	// (0x00056e7b) popup_clock_analogue_window_cp03_ParamLimits
 
-0x986c,	// (0x00055ab0) camera2_autofocus_pane_cp_g3
+0x9f54,	// (0x00056e7b) popup_clock_analogue_window_cp03
 
-0x9874,	// (0x00055ab8) camera2_autofocus_pane_cp_g4
+0x9f72,	// (0x00056e99) popup_clock_digital_window_cp02_ParamLimits
 
-0x987c,	// (0x00055ac0) camera2_autofocus_pane_cp_g5
+0x9f72,	// (0x00056e99) popup_clock_digital_window_cp02
+
+0x9fdf,	// (0x00056f06) main_clock2_list_single_pane_ParamLimits
+
+0x9fdf,	// (0x00056f06) main_clock2_list_single_pane
+
+0x29be,	// (0x0004f8e5) list_highlight_pane_cp05
+
+0x45e2,	// (0x00051509) main_clock2_list_single_pane_t1
+
+0x6b61,	// (0x00053a88) popup_toolbar_window_cp04_ParamLimits
+
+0x9579,	// (0x000564a0) camera2_autofocus_pane_g2_ParamLimits
+
+0x9579,	// (0x000564a0) camera2_autofocus_pane_g2
+
+0x9585,	// (0x000564ac) camera2_autofocus_pane_g3_ParamLimits
+
+0x9585,	// (0x000564ac) camera2_autofocus_pane_g3
+
+0x9591,	// (0x000564b8) camera2_autofocus_pane_g4_ParamLimits
+
+0x9591,	// (0x000564b8) camera2_autofocus_pane_g4
+
+0x959d,	// (0x000564c4) camera2_autofocus_pane_g5_ParamLimits
+
+0x959d,	// (0x000564c4) camera2_autofocus_pane_g5
 
 0x0004,
 
-0xf792,	// (0x0005b9d6) camera2_autofocus_pane_cp_g
+0xf71d,	// (0x0005c644) camera2_autofocus_pane_g_ParamLimits
 
-0x9ea9,	// (0x000560ed) popup_dialer_spcha_window
+0xf71d,	// (0x0005c644) camera2_autofocus_pane_g
 
-0x037e,	// (0x0004c5c2) bg_popup_sub_pane_cp07
+0x974f,	// (0x00056676) camera2_autofocus_pane_cp_g2
 
-0x49ad,	// (0x00050bf1) list_spcha_pane
+0x9757,	// (0x0005667e) camera2_autofocus_pane_cp_g3
 
-0x49b5,	// (0x00050bf9) list_single_spcha_pane_ParamLimits
+0x975f,	// (0x00056686) camera2_autofocus_pane_cp_g4
 
-0x49b5,	// (0x00050bf9) list_single_spcha_pane
+0x9767,	// (0x0005668e) camera2_autofocus_pane_cp_g5
 
-0x037e,	// (0x0004c5c2) list_highlight_pane_cp06
+0x0004,
 
-0x49c6,	// (0x00050c0a) list_single_spcha_pane_t1
+0xf783,	// (0x0005c6aa) camera2_autofocus_pane_cp_g
 
-0x3b99,	// (0x0004fddd) popup_call2_audio_out_window_g4_ParamLimits
+0x9d94,	// (0x00056cbb) popup_dialer_spcha_window
 
-0x3b99,	// (0x0004fddd) popup_call2_audio_out_window_g4
+0x00f2,	// (0x0004d019) bg_popup_sub_pane_cp07
 
-0x037e,	// (0x0004c5c2) main_imed2_pane
+0x45f0,	// (0x00051517) list_spcha_pane
 
-0x4178,	// (0x000503bc) popup_imed_adjust2_window
+0x45f8,	// (0x0005151f) list_single_spcha_pane_ParamLimits
 
-0x8d5c,	// (0x00054fa0) popup_imed_trans_window_ParamLimits
+0x45f8,	// (0x0005151f) list_single_spcha_pane
 
-0x8d5c,	// (0x00054fa0) popup_imed_trans_window
+0x00f2,	// (0x0004d019) list_highlight_pane_cp06
 
-0x43d5,	// (0x00050619) popup_blid_sat_info2_window_t1
+0x4609,	// (0x00051530) list_single_spcha_pane_t1
 
-0x43e3,	// (0x00050627) popup_blid_sat_info2_window_t2
+0x3801,	// (0x00050728) popup_call2_audio_out_window_g4_ParamLimits
+
+0x3801,	// (0x00050728) popup_call2_audio_out_window_g4
+
+0x5d04,	// (0x00052c2b) main_imed2_pane
+
+0x8c22,	// (0x00055b49) popup_imed_adjust2_window
+
+0x8c35,	// (0x00055b5c) popup_imed_trans_window_ParamLimits
+
+0x8c35,	// (0x00055b5c) popup_imed_trans_window
+
+0x4018,	// (0x00050f3f) popup_blid_sat_info2_window_t1
+
+0x4026,	// (0x00050f4d) popup_blid_sat_info2_window_t2
 
 0x000a,
 
-0xf6c1,	// (0x0005b905) popup_blid_sat_info2_window_t
+0xf6b2,	// (0x0005c5d9) popup_blid_sat_info2_window_t
 
-0xa19e,	// (0x000563e2) aid_size_cell_colour_35
+0xa089,	// (0x00056fb0) aid_size_cell_colour_35
 
-0xa1b8,	// (0x000563fc) aid_size_cell_colour_112
+0xa0a3,	// (0x00056fca) aid_size_cell_colour_112
 
-0xa1cf,	// (0x00056413) aid_size_cell_effect
+0xa0ba,	// (0x00056fe1) aid_size_cell_effect
 
-0x334c,	// (0x0004f590) bg_tb_trans_pane_cp02
+0x3810,	// (0x00050737) bg_tb_trans_pane_cp02
 
-0x335a,	// (0x0004f59e) heading_imed_pane
+0x381e,	// (0x00050745) heading_imed_pane
 
-0xa1e9,	// (0x0005642d) listscroll_imed_pane
+0xa0d4,	// (0x00056ffb) listscroll_imed_pane
 
-0x49d4,	// (0x00050c18) heading_imed_pane_g1
+0x4617,	// (0x0005153e) heading_imed_pane_g1
 
-0x49dc,	// (0x00050c20) heading_imed_pane_t1
+0x461f,	// (0x00051546) heading_imed_pane_t1
 
-0x49ea,	// (0x00050c2e) grid_imed_colour_35_pane_ParamLimits
+0x462d,	// (0x00051554) grid_imed_colour_35_pane_ParamLimits
 
-0x49ea,	// (0x00050c2e) grid_imed_colour_35_pane
+0x462d,	// (0x00051554) grid_imed_colour_35_pane
 
-0xa1f5,	// (0x00056439) grid_imed_effect_pane
+0xa0e0,	// (0x00057007) grid_imed_effect_pane
 
-0x4a01,	// (0x00050c45) list_imed_aspect_pane
+0x4644,	// (0x0005156b) list_imed_aspect_pane
 
-0xa205,	// (0x00056449) scroll_pane_cp027_ParamLimits
+0xa0f0,	// (0x00057017) scroll_pane_cp027_ParamLimits
 
-0xa205,	// (0x00056449) scroll_pane_cp027
+0xa0f0,	// (0x00057017) scroll_pane_cp027
 
-0xa211,	// (0x00056455) cell_imed_effect_pane_ParamLimits
+0xa0fc,	// (0x00057023) cell_imed_effect_pane_ParamLimits
 
-0xa211,	// (0x00056455) cell_imed_effect_pane
+0xa0fc,	// (0x00057023) cell_imed_effect_pane
 
-0x4a09,	// (0x00050c4d) cell_imed_colour_pane_ParamLimits
+0x464c,	// (0x00051573) cell_imed_colour_pane_ParamLimits
 
-0x4a09,	// (0x00050c4d) cell_imed_colour_pane
+0x464c,	// (0x00051573) cell_imed_colour_pane
 
-0x4a4b,	// (0x00050c8f) cell_imed_colour_pane_g1_ParamLimits
+0x468e,	// (0x000515b5) cell_imed_colour_pane_g1_ParamLimits
 
-0x4a4b,	// (0x00050c8f) cell_imed_colour_pane_g1
+0x468e,	// (0x000515b5) cell_imed_colour_pane_g1
 
-0x4a5c,	// (0x00050ca0) hgihlgiht_grid_pane_cp016_ParamLimits
+0x469f,	// (0x000515c6) hgihlgiht_grid_pane_cp016_ParamLimits
 
-0x4a5c,	// (0x00050ca0) hgihlgiht_grid_pane_cp016
+0x469f,	// (0x000515c6) hgihlgiht_grid_pane_cp016
 
-0xa229,	// (0x0005646d) cell_imed_effect_pane_g1
+0xa114,	// (0x0005703b) cell_imed_effect_pane_g1
 
-0xa231,	// (0x00056475) grid_highlight_pane_cp017
+0xa11c,	// (0x00057043) grid_highlight_pane_cp017
 
-0x4a6d,	// (0x00050cb1) list_imed_single_pane_ParamLimits
+0x46b0,	// (0x000515d7) list_imed_single_pane_ParamLimits
 
-0x4a6d,	// (0x00050cb1) list_imed_single_pane
+0x46b0,	// (0x000515d7) list_imed_single_pane
 
-0x037e,	// (0x0004c5c2) list_highlight_pane_cp07
+0x00f2,	// (0x0004d019) list_highlight_pane_cp07
 
-0x4a82,	// (0x00050cc6) list_imed_aspect_pane_comp1_t1
+0x46c5,	// (0x000515ec) list_imed_aspect_pane_comp1_t1
 
-0x4150,	// (0x00050394) bg_tb_trans_pane_cp05
+0x3dd2,	// (0x00050cf9) bg_tb_trans_pane_cp05
 
-0x4aa4,	// (0x00050ce8) popup_imed_adjust2_window_g1
+0x46e7,	// (0x0005160e) popup_imed_adjust2_window_g1
 
-0x4acb,	// (0x00050d0f) popup_imed_adjust2_window_t1
+0x470e,	// (0x00051635) popup_imed_adjust2_window_t1
 
-0x4ae3,	// (0x00050d27) slider_imed_adjust_pane
+0x4726,	// (0x0005164d) slider_imed_adjust_pane
 
-0x4af7,	// (0x00050d3b) slider_imed_adjust_pane_g1
+0x473a,	// (0x00051661) slider_imed_adjust_pane_g1
 
-0x4b07,	// (0x00050d4b) slider_imed_adjust_pane_g2
+0x474a,	// (0x00051671) slider_imed_adjust_pane_g2
 
-0x4b17,	// (0x00050d5b) slider_imed_adjust_pane_g3
+0x475a,	// (0x00051681) slider_imed_adjust_pane_g3
 
-0x4b28,	// (0x00050d6c) slider_imed_adjust_pane_g4
+0x476b,	// (0x00051692) slider_imed_adjust_pane_g4
 
 0x0003,
 
-0xf800,	// (0x0005ba44) slider_imed_adjust_pane_g
+0xf7f1,	// (0x0005c718) slider_imed_adjust_pane_g
 
-0xa23a,	// (0x0005647e) aid_size_cell_clipart2
+0xa125,	// (0x0005704c) aid_size_cell_clipart2
 
-0xa246,	// (0x0005648a) grid_imed_clipart_pane
+0xa131,	// (0x00057058) grid_imed_clipart_pane
 
-0x4b39,	// (0x00050d7d) scroll_pane_cp031
+0x477c,	// (0x000516a3) scroll_pane_cp031
 
-0xa250,	// (0x00056494) cell_imed_clipart_pane_ParamLimits
+0xa13b,	// (0x00057062) cell_imed_clipart_pane_ParamLimits
 
-0xa250,	// (0x00056494) cell_imed_clipart_pane
+0xa13b,	// (0x00057062) cell_imed_clipart_pane
 
-0xa272,	// (0x000564b6) cell_imed_clipart_pane_g1
+0xa15d,	// (0x00057084) cell_imed_clipart_pane_g1
 
-0x037e,	// (0x0004c5c2) grid_highlight_pane_cp014
+0x00f2,	// (0x0004d019) grid_highlight_pane_cp014
 
-0x9fd0,	// (0x00056214) main_clock2_pane_g1_ParamLimits
+0x9ebb,	// (0x00056de2) main_clock2_pane_g1_ParamLimits
 
-0x9fd0,	// (0x00056214) main_clock2_pane_g1
+0x9ebb,	// (0x00056de2) main_clock2_pane_g1
 
-0xa09f,	// (0x000562e3) aid_call2_pane_cp10
+0x9f8a,	// (0x00056eb1) aid_call2_pane_cp10
 
-0xa0b1,	// (0x000562f5) aid_call_pane_cp10
+0x9f9c,	// (0x00056ec3) aid_call_pane_cp10
 
-0x2c71,	// (0x0004eeb5) popup_clock_analogue_window_cp10_g1
+0x28f3,	// (0x0004f81a) popup_clock_analogue_window_cp10_g1
 
-0x2c71,	// (0x0004eeb5) popup_clock_analogue_window_cp10_g2
+0x28f3,	// (0x0004f81a) popup_clock_analogue_window_cp10_g2
 
-0xa0c3,	// (0x00056307) popup_clock_analogue_window_cp10_g3
+0x9fae,	// (0x00056ed5) popup_clock_analogue_window_cp10_g3
 
-0xa0c3,	// (0x00056307) popup_clock_analogue_window_cp10_g4
+0x9fae,	// (0x00056ed5) popup_clock_analogue_window_cp10_g4
 
-0x2c71,	// (0x0004eeb5) popup_clock_analogue_window_cp10_g5
-
-0x0004,
-
-0xf7ee,	// (0x0005ba32) popup_clock_analogue_window_cp10_g
-
-0xa0d5,	// (0x00056319) popup_clock_analogue_window_cp10_t1
-
-0xa106,	// (0x0005634a) clock_digital_number_pane_cp10_ParamLimits
-
-0xa106,	// (0x0005634a) clock_digital_number_pane_cp10
-
-0xa11e,	// (0x00056362) clock_digital_number_pane_cp11_ParamLimits
-
-0xa11e,	// (0x00056362) clock_digital_number_pane_cp11
-
-0xa136,	// (0x0005637a) clock_digital_number_pane_cp12_ParamLimits
-
-0xa136,	// (0x0005637a) clock_digital_number_pane_cp12
-
-0xa14e,	// (0x00056392) clock_digital_number_pane_cp13_ParamLimits
-
-0xa14e,	// (0x00056392) clock_digital_number_pane_cp13
-
-0xa166,	// (0x000563aa) clock_digital_separator_pane_cp10_ParamLimits
-
-0xa166,	// (0x000563aa) clock_digital_separator_pane_cp10
-
-0xa17e,	// (0x000563c2) popup_clock_digital_window_cp02_t1_ParamLimits
-
-0xa17e,	// (0x000563c2) popup_clock_digital_window_cp02_t1
-
-0x218e,	// (0x0004e3d2) clock_digital_number_pane_cp10_g1
-
-0x218e,	// (0x0004e3d2) clock_digital_number_pane_cp10_g2
-
-0x0001,
-
-0xf809,	// (0x0005ba4d) clock_digital_number_pane_cp10_g
-
-0x218e,	// (0x0004e3d2) clock_digital_separator_pane_cp10_g1
-
-0x218e,	// (0x0004e3d2) clock_digital_separator_pane_g2_cp10
-
-0x2d0c,	// (0x0004ef50) navi_pane_vded_g4
-
-0x2d15,	// (0x0004ef59) navi_pane_vded_g5
-
-0x2d1e,	// (0x0004ef62) navi_pane_vded_t1
-
-0x037e,	// (0x0004c5c2) main_vded_pane
-
-0xa27b,	// (0x000564bf) main_vded_pane_g1
-
-0xa287,	// (0x000564cb) main_vded_pane_g2
-
-0xa291,	// (0x000564d5) main_vded_pane_g3
-
-0x0002,
-
-0xf80e,	// (0x0005ba52) main_vded_pane_g
-
-0xa29b,	// (0x000564df) main_vded_pane_t1
-
-0xa2a9,	// (0x000564ed) main_vded_pane_t2
-
-0x0001,
-
-0xf815,	// (0x0005ba59) main_vded_pane_t
-
-0xa2b7,	// (0x000564fb) vded_slider_pane
-
-0xa2c1,	// (0x00056505) vded_video_pane
-
-0x4b41,	// (0x00050d85) vded_video_pane_g1
-
-0xa2cb,	// (0x0005650f) vded_video_pane_g2
-
-0x4597,	// (0x000507db) vded_video_pane_g3
-
-0x0002,
-
-0xf81a,	// (0x0005ba5e) vded_video_pane_g
-
-0x4b4b,	// (0x00050d8f) vded_slider_pane_g1
-
-0x42ea,	// (0x0005052e) vded_slider_pane_g2
-
-0x4b54,	// (0x00050d98) vded_slider_pane_g3
-
-0x4b5d,	// (0x00050da1) vded_slider_pane_g4
-
-0x4b66,	// (0x00050daa) vded_slider_pane_g5
+0x28f3,	// (0x0004f81a) popup_clock_analogue_window_cp10_g5
 
 0x0004,
 
-0xf821,	// (0x0005ba65) vded_slider_pane_g
+0xf7df,	// (0x0005c706) popup_clock_analogue_window_cp10_g
 
-0x9dae,	// (0x00055ff2) mup3_rocker_pane_ParamLimits
+0x9fc0,	// (0x00056ee7) popup_clock_analogue_window_cp10_t1
 
-0x9dae,	// (0x00055ff2) mup3_rocker_pane
+0x9ff1,	// (0x00056f18) clock_digital_number_pane_cp10_ParamLimits
 
-0xa2d4,	// (0x00056518) mup3_control_keys_pane_g1
+0x9ff1,	// (0x00056f18) clock_digital_number_pane_cp10
 
-0xa2dc,	// (0x00056520) mup3_control_keys_pane_g2
+0xa009,	// (0x00056f30) clock_digital_number_pane_cp11_ParamLimits
 
-0xa2e4,	// (0x00056528) mup3_control_keys_pane_g3
+0xa009,	// (0x00056f30) clock_digital_number_pane_cp11
 
-0xa2ec,	// (0x00056530) mup3_control_keys_pane_g4
+0xa021,	// (0x00056f48) clock_digital_number_pane_cp12_ParamLimits
+
+0xa021,	// (0x00056f48) clock_digital_number_pane_cp12
+
+0xa039,	// (0x00056f60) clock_digital_number_pane_cp13_ParamLimits
+
+0xa039,	// (0x00056f60) clock_digital_number_pane_cp13
+
+0xa051,	// (0x00056f78) clock_digital_separator_pane_cp10_ParamLimits
+
+0xa051,	// (0x00056f78) clock_digital_separator_pane_cp10
+
+0xa069,	// (0x00056f90) popup_clock_digital_window_cp02_t1_ParamLimits
+
+0xa069,	// (0x00056f90) popup_clock_digital_window_cp02_t1
+
+0x1e10,	// (0x0004ed37) clock_digital_number_pane_cp10_g1
+
+0x1e10,	// (0x0004ed37) clock_digital_number_pane_cp10_g2
+
+0x0001,
+
+0xf7fa,	// (0x0005c721) clock_digital_number_pane_cp10_g
+
+0x1e10,	// (0x0004ed37) clock_digital_separator_pane_cp10_g1
+
+0x1e10,	// (0x0004ed37) clock_digital_separator_pane_g2_cp10
+
+0x298e,	// (0x0004f8b5) navi_pane_vded_g4
+
+0x2997,	// (0x0004f8be) navi_pane_vded_g5
+
+0x29a0,	// (0x0004f8c7) navi_pane_vded_t1
+
+0x5d04,	// (0x00052c2b) main_vded_pane
+
+0xa166,	// (0x0005708d) main_vded_pane_g1
+
+0xa172,	// (0x00057099) main_vded_pane_g2
+
+0xa17c,	// (0x000570a3) main_vded_pane_g3
+
+0x0002,
+
+0xf7ff,	// (0x0005c726) main_vded_pane_g
+
+0xa186,	// (0x000570ad) main_vded_pane_t1
+
+0xa194,	// (0x000570bb) main_vded_pane_t2
+
+0x0001,
+
+0xf806,	// (0x0005c72d) main_vded_pane_t
+
+0xa1a2,	// (0x000570c9) vded_slider_pane
+
+0xa1ac,	// (0x000570d3) vded_video_pane
+
+0x4784,	// (0x000516ab) vded_video_pane_g1
+
+0xa1b6,	// (0x000570dd) vded_video_pane_g2
+
+0x41eb,	// (0x00051112) vded_video_pane_g3
+
+0x0002,
+
+0xf80b,	// (0x0005c732) vded_video_pane_g
+
+0x478e,	// (0x000516b5) vded_slider_pane_g1
+
+0x3f2d,	// (0x00050e54) vded_slider_pane_g2
+
+0x4797,	// (0x000516be) vded_slider_pane_g3
+
+0x47a0,	// (0x000516c7) vded_slider_pane_g4
+
+0x47a9,	// (0x000516d0) vded_slider_pane_g5
+
+0x0004,
+
+0xf812,	// (0x0005c739) vded_slider_pane_g
+
+0x9c99,	// (0x00056bc0) mup3_rocker_pane_ParamLimits
+
+0x9c99,	// (0x00056bc0) mup3_rocker_pane
+
+0xa1bf,	// (0x000570e6) mup3_control_keys_pane_g1
+
+0xa1c7,	// (0x000570ee) mup3_control_keys_pane_g2
+
+0xa1cf,	// (0x000570f6) mup3_control_keys_pane_g3
+
+0xa1d7,	// (0x000570fe) mup3_control_keys_pane_g4
 
 0x0003,
 
-0xf82c,	// (0x0005ba70) mup3_control_keys_pane_g
+0xf81d,	// (0x0005c744) mup3_control_keys_pane_g
 
-0x5e34,	// (0x00052078) popup_toolbar2_fixed_window_cp01_ParamLimits
+0x5cc2,	// (0x00052be9) popup_toolbar2_fixed_window_cp01_ParamLimits
 
-0x5e34,	// (0x00052078) popup_toolbar2_fixed_window_cp01
+0x5cc2,	// (0x00052be9) popup_toolbar2_fixed_window_cp01
 
-0x9dc8,	// (0x0005600c) popup_toolbar2_fixed_window_cp02_ParamLimits
+0x9cb3,	// (0x00056bda) popup_toolbar2_fixed_window_cp02_ParamLimits
 
-0x9dc8,	// (0x0005600c) popup_toolbar2_fixed_window_cp02
+0x9cb3,	// (0x00056bda) popup_toolbar2_fixed_window_cp02
 
-0x34d8,	// (0x0004f71c) popup_call2_audio_second_window_t4_ParamLimits
+0x3140,	// (0x00050067) popup_call2_audio_second_window_t4_ParamLimits
 
-0x34d8,	// (0x0004f71c) popup_call2_audio_second_window_t4
+0x3140,	// (0x00050067) popup_call2_audio_second_window_t4
 
-0x3a06,	// (0x0004fc4a) popup_call2_audio_first_window_t6_ParamLimits
+0x366e,	// (0x00050595) popup_call2_audio_first_window_t6_ParamLimits
 
-0x3a06,	// (0x0004fc4a) popup_call2_audio_first_window_t6
+0x366e,	// (0x00050595) popup_call2_audio_first_window_t6
 
-0x3c9c,	// (0x0004fee0) popup_call2_audio_out_window_t6_ParamLimits
+0x391e,	// (0x00050845) popup_call2_audio_out_window_t6_ParamLimits
 
-0x3c9c,	// (0x0004fee0) popup_call2_audio_out_window_t6
+0x391e,	// (0x00050845) popup_call2_audio_out_window_t6
 
-0x037e,	// (0x0004c5c2) main_vitu_pane
+0x5d04,	// (0x00052c2b) main_vitu_pane
 
-0xa2fc,	// (0x00056540) aid_size_cell_itu_ParamLimits
+0xa1e7,	// (0x0005710e) aid_size_cell_itu_ParamLimits
 
-0xa2fc,	// (0x00056540) aid_size_cell_itu
+0xa1e7,	// (0x0005710e) aid_size_cell_itu
 
-0x0b21,	// (0x0004cd65) bg_popup_window_pane_cp08_ParamLimits
+0xa1f5,	// (0x0005711c) bg_popup_window_pane_cp08_ParamLimits
 
-0x0b21,	// (0x0004cd65) bg_popup_window_pane_cp08
+0xa1f5,	// (0x0005711c) bg_popup_window_pane_cp08
 
-0xa30a,	// (0x0005654e) field_vitu_entry_pane_ParamLimits
+0xa203,	// (0x0005712a) field_vitu_entry_pane_ParamLimits
 
-0xa30a,	// (0x0005654e) field_vitu_entry_pane
+0xa203,	// (0x0005712a) field_vitu_entry_pane
 
-0xa319,	// (0x0005655d) grid_vitu_function_pane_ParamLimits
+0xa212,	// (0x00057139) grid_vitu_function_pane_ParamLimits
 
-0xa319,	// (0x0005655d) grid_vitu_function_pane
+0xa212,	// (0x00057139) grid_vitu_function_pane
 
-0xa329,	// (0x0005656d) grid_vitu_itu_pane_ParamLimits
+0xa222,	// (0x00057149) grid_vitu_itu_pane_ParamLimits
 
-0xa329,	// (0x0005656d) grid_vitu_itu_pane
+0xa222,	// (0x00057149) grid_vitu_itu_pane
 
-0xa339,	// (0x0005657d) cell_vitu_itu_pane_ParamLimits
+0xa232,	// (0x00057159) cell_vitu_itu_pane_ParamLimits
 
-0xa339,	// (0x0005657d) cell_vitu_itu_pane
+0xa232,	// (0x00057159) cell_vitu_itu_pane
 
-0xa34e,	// (0x00056592) cell_vitu_function_pane_ParamLimits
+0xa247,	// (0x0005716e) cell_vitu_function_pane_ParamLimits
 
-0xa34e,	// (0x00056592) cell_vitu_function_pane
+0xa247,	// (0x0005716e) cell_vitu_function_pane
 
-0x334c,	// (0x0004f590) bg_popup_sub_pane_cp08_ParamLimits
+0x3810,	// (0x00050737) bg_popup_sub_pane_cp08_ParamLimits
 
-0x334c,	// (0x0004f590) bg_popup_sub_pane_cp08
+0x3810,	// (0x00050737) bg_popup_sub_pane_cp08
 
-0xa360,	// (0x000565a4) field_vitu_entry_pane_t1_ParamLimits
+0xa259,	// (0x00057180) field_vitu_entry_pane_t1_ParamLimits
 
-0xa360,	// (0x000565a4) field_vitu_entry_pane_t1
+0xa259,	// (0x00057180) field_vitu_entry_pane_t1
 
-0x4b87,	// (0x00050dcb) field_vitu_entry_pane_t2_ParamLimits
+0x47ca,	// (0x000516f1) field_vitu_entry_pane_t2_ParamLimits
 
-0x4b87,	// (0x00050dcb) field_vitu_entry_pane_t2
+0x47ca,	// (0x000516f1) field_vitu_entry_pane_t2
 
 0x0001,
 
-0xf83a,	// (0x0005ba7e) field_vitu_entry_pane_t_ParamLimits
+0xf82b,	// (0x0005c752) field_vitu_entry_pane_t_ParamLimits
 
-0xf83a,	// (0x0005ba7e) field_vitu_entry_pane_t
+0xf82b,	// (0x0005c752) field_vitu_entry_pane_t
 
-0x4ba4,	// (0x00050de8) bg_button_pane_cp05_ParamLimits
+0x47e7,	// (0x0005170e) bg_button_pane_cp05_ParamLimits
 
-0x4ba4,	// (0x00050de8) bg_button_pane_cp05
+0x47e7,	// (0x0005170e) bg_button_pane_cp05
 
-0xa37c,	// (0x000565c0) cell_vitu_itu_pane_g1
+0xa275,	// (0x0005719c) cell_vitu_itu_pane_g1
 
-0xa394,	// (0x000565d8) cell_vitu_itu_pane_t1_ParamLimits
+0xa28d,	// (0x000571b4) cell_vitu_itu_pane_t1_ParamLimits
 
-0xa394,	// (0x000565d8) cell_vitu_itu_pane_t1
+0xa28d,	// (0x000571b4) cell_vitu_itu_pane_t1
 
-0xa3a6,	// (0x000565ea) cell_vitu_itu_pane_t2_ParamLimits
+0xa29f,	// (0x000571c6) cell_vitu_itu_pane_t2_ParamLimits
 
-0xa3a6,	// (0x000565ea) cell_vitu_itu_pane_t2
+0xa29f,	// (0x000571c6) cell_vitu_itu_pane_t2
 
 0x0002,
 
-0xf83f,	// (0x0005ba83) cell_vitu_itu_pane_t_ParamLimits
+0xf830,	// (0x0005c757) cell_vitu_itu_pane_t_ParamLimits
 
-0xf83f,	// (0x0005ba83) cell_vitu_itu_pane_t
+0xf830,	// (0x0005c757) cell_vitu_itu_pane_t
 
-0x4bb2,	// (0x00050df6) bg_button_pane_cp07
+0x47f5,	// (0x0005171c) bg_button_pane_cp07
 
-0xa3db,	// (0x0005661f) cell_vitu_function_pane_g1
+0xa2d4,	// (0x000571fb) cell_vitu_function_pane_g1
 
-0x60f0,	// (0x00052334) main_calc_pane_g1
+0x5f96,	// (0x00052ebd) main_calc_pane_g1
 
-0x5c3d,	// (0x00051e81) aid_visual_content_pane
+0x5a81,	// (0x000529a8) aid_visual_content_pane
 
-0x037e,	// (0x0004c5c2) main_vradio_pane
+0x5d04,	// (0x00052c2b) main_vradio_pane
 
-0xa3e4,	// (0x00056628) main_vradio_pane_g1_ParamLimits
+0xa2dd,	// (0x00057204) main_vradio_pane_g1_ParamLimits
 
-0xa3e4,	// (0x00056628) main_vradio_pane_g1
+0xa2dd,	// (0x00057204) main_vradio_pane_g1
 
-0x4bbc,	// (0x00050e00) main_vradio_pane_g2_ParamLimits
+0x47ff,	// (0x00051726) main_vradio_pane_g2_ParamLimits
 
-0x4bbc,	// (0x00050e00) main_vradio_pane_g2
+0x47ff,	// (0x00051726) main_vradio_pane_g2
 
 0x0001,
 
-0xf846,	// (0x0005ba8a) main_vradio_pane_g_ParamLimits
+0xf837,	// (0x0005c75e) main_vradio_pane_g_ParamLimits
 
-0xf846,	// (0x0005ba8a) main_vradio_pane_g
+0xf837,	// (0x0005c75e) main_vradio_pane_g
 
-0xa3f4,	// (0x00056638) main_vradio_pane_t1_ParamLimits
+0xa2ed,	// (0x00057214) main_vradio_pane_t1_ParamLimits
 
-0xa3f4,	// (0x00056638) main_vradio_pane_t1
+0xa2ed,	// (0x00057214) main_vradio_pane_t1
 
-0xa406,	// (0x0005664a) main_vradio_pane_t2_ParamLimits
+0xa2ff,	// (0x00057226) main_vradio_pane_t2_ParamLimits
 
-0xa406,	// (0x0005664a) main_vradio_pane_t2
+0xa2ff,	// (0x00057226) main_vradio_pane_t2
 
-0x4bc9,	// (0x00050e0d) main_vradio_pane_t3_ParamLimits
+0x480c,	// (0x00051733) main_vradio_pane_t3_ParamLimits
 
-0x4bc9,	// (0x00050e0d) main_vradio_pane_t3
+0x480c,	// (0x00051733) main_vradio_pane_t3
 
 0x0002,
 
-0xf84b,	// (0x0005ba8f) main_vradio_pane_t_ParamLimits
+0xf83c,	// (0x0005c763) main_vradio_pane_t_ParamLimits
 
-0xf84b,	// (0x0005ba8f) main_vradio_pane_t
+0xf83c,	// (0x0005c763) main_vradio_pane_t
 
-0xa418,	// (0x0005665c) vradio_rocker_control_pane_ParamLimits
+0xa311,	// (0x00057238) vradio_rocker_control_pane_ParamLimits
 
-0xa418,	// (0x0005665c) vradio_rocker_control_pane
+0xa311,	// (0x00057238) vradio_rocker_control_pane
 
-0xa424,	// (0x00056668) vradio_station_info_pane_ParamLimits
+0xa31d,	// (0x00057244) vradio_station_info_pane_ParamLimits
 
-0xa424,	// (0x00056668) vradio_station_info_pane
+0xa31d,	// (0x00057244) vradio_station_info_pane
 
-0x4bdd,	// (0x00050e21) vradio_frequency_info_pane_ParamLimits
+0x4820,	// (0x00051747) vradio_frequency_info_pane_ParamLimits
 
-0x4bdd,	// (0x00050e21) vradio_frequency_info_pane
+0x4820,	// (0x00051747) vradio_frequency_info_pane
 
-0x4597,	// (0x000507db) vradio_station_info_pane_g1
+0x41eb,	// (0x00051112) vradio_station_info_pane_g1
 
-0x4bec,	// (0x00050e30) vradio_station_info_pane_t1_ParamLimits
+0x482f,	// (0x00051756) vradio_station_info_pane_t1_ParamLimits
 
-0x4bec,	// (0x00050e30) vradio_station_info_pane_t1
+0x482f,	// (0x00051756) vradio_station_info_pane_t1
 
-0x4c0e,	// (0x00050e52) vradio_station_info_pane_t2_ParamLimits
+0x4851,	// (0x00051778) vradio_station_info_pane_t2_ParamLimits
 
-0x4c0e,	// (0x00050e52) vradio_station_info_pane_t2
+0x4851,	// (0x00051778) vradio_station_info_pane_t2
 
 0x0001,
 
-0xf852,	// (0x0005ba96) vradio_station_info_pane_t_ParamLimits
+0xf843,	// (0x0005c76a) vradio_station_info_pane_t_ParamLimits
 
-0xf852,	// (0x0005ba96) vradio_station_info_pane_t
+0xf843,	// (0x0005c76a) vradio_station_info_pane_t
 
-0x4c20,	// (0x00050e64) vradio_tuning_pane
+0x4863,	// (0x0005178a) vradio_tuning_pane
 
-0x4c28,	// (0x00050e6c) vradio_rocker_control_pane_g1
+0x486b,	// (0x00051792) vradio_rocker_control_pane_g1
 
-0x4c30,	// (0x00050e74) vradio_rocker_control_pane_g2
+0x4873,	// (0x0005179a) vradio_rocker_control_pane_g2
 
-0x4c38,	// (0x00050e7c) vradio_rocker_control_pane_g3
+0x487b,	// (0x000517a2) vradio_rocker_control_pane_g3
 
-0x4c40,	// (0x00050e84) vradio_rocker_control_pane_g4
+0x4883,	// (0x000517aa) vradio_rocker_control_pane_g4
 
-0x4c48,	// (0x00050e8c) vradio_rocker_control_pane_g5
+0x488b,	// (0x000517b2) vradio_rocker_control_pane_g5
 
 0x0004,
 
-0xf857,	// (0x0005ba9b) vradio_rocker_control_pane_g
+0xf848,	// (0x0005c76f) vradio_rocker_control_pane_g
 
-0xa433,	// (0x00056677) vradio_frequency_info_pane_g1
+0xa32c,	// (0x00057253) vradio_frequency_info_pane_g1
 
-0x4c50,	// (0x00050e94) vradio_frequency_info_pane_t1_ParamLimits
+0x4893,	// (0x000517ba) vradio_frequency_info_pane_t1_ParamLimits
 
-0x4c50,	// (0x00050e94) vradio_frequency_info_pane_t1
+0x4893,	// (0x000517ba) vradio_frequency_info_pane_t1
 
-0xa43d,	// (0x00056681) vradio_tuning_pane_g1
+0xa336,	// (0x0005725d) vradio_tuning_pane_g1
 
-0xa446,	// (0x0005668a) vradio_tuning_pane_t1
+0xa33f,	// (0x00057266) vradio_tuning_pane_t1
 
-0x03b4,	// (0x0004c5f8) area_side_right_pane_ParamLimits
+0x5aca,	// (0x000529f1) area_side_right_pane_ParamLimits
 
-0x03b4,	// (0x0004c5f8) area_side_right_pane
+0x5aca,	// (0x000529f1) area_side_right_pane
 
-0x4117,	// (0x0005035b) status_small_pane_g1
+0x3d99,	// (0x00050cc0) status_small_pane_g1
 
-0x411f,	// (0x00050363) status_small_pane_g2
+0x3da1,	// (0x00050cc8) status_small_pane_g2
 
-0x4128,	// (0x0005036c) status_small_pane_g3
+0x3daa,	// (0x00050cd1) status_small_pane_g3
 
-0x4131,	// (0x00050375) status_small_pane_g4
+0x3db3,	// (0x00050cda) status_small_pane_g4
 
 0x0003,
 
-0xf617,	// (0x0005b85b) status_small_pane_g
+0xf608,	// (0x0005c52f) status_small_pane_g
 
-0x413a,	// (0x0005037e) status_small_pane_t1
+0x3dbc,	// (0x00050ce3) status_small_pane_t1
 
-0x037e,	// (0x0004c5c2) main_video3_pane
+0x5d04,	// (0x00052c2b) main_video3_pane
 
-0x4c64,	// (0x00050ea8) cams_zoom_vslider_pane
+0x48a7,	// (0x000517ce) cams_zoom_vslider_pane
 
-0x4c6c,	// (0x00050eb0) image3_wide_pane_ParamLimits
+0x48af,	// (0x000517d6) image3_wide_pane_ParamLimits
 
-0x4c6c,	// (0x00050eb0) image3_wide_pane
+0x48af,	// (0x000517d6) image3_wide_pane
 
-0x4c86,	// (0x00050eca) image3_wide_small_pane
+0x48c9,	// (0x000517f0) image3_wide_small_pane
 
-0x4c92,	// (0x00050ed6) main_video3_pane_g1_ParamLimits
+0x48d5,	// (0x000517fc) main_video3_pane_g1_ParamLimits
 
-0x4c92,	// (0x00050ed6) main_video3_pane_g1
+0x48d5,	// (0x000517fc) main_video3_pane_g1
 
-0x4cae,	// (0x00050ef2) main_video3_pane_g2_ParamLimits
+0x48f1,	// (0x00051818) main_video3_pane_g2_ParamLimits
 
-0x4cae,	// (0x00050ef2) main_video3_pane_g2
-
-0x0001,
-
-0xf862,	// (0x0005baa6) main_video3_pane_g_ParamLimits
-
-0xf862,	// (0x0005baa6) main_video3_pane_g
-
-0x4cca,	// (0x00050f0e) main_video3_pane_t1_ParamLimits
-
-0x4cca,	// (0x00050f0e) main_video3_pane_t1
-
-0x4cf5,	// (0x00050f39) main_video3_pane_t2_ParamLimits
-
-0x4cf5,	// (0x00050f39) main_video3_pane_t2
-
-0x4d20,	// (0x00050f64) main_video3_pane_t3_ParamLimits
-
-0x4d20,	// (0x00050f64) main_video3_pane_t3
-
-0x0002,
-
-0xf867,	// (0x0005baab) main_video3_pane_t_ParamLimits
-
-0xf867,	// (0x0005baab) main_video3_pane_t
-
-0x4d4d,	// (0x00050f91) cams_zoom_vslider_pane_g1
-
-0x4d56,	// (0x00050f9a) cams_zoom_vslider_pane_g2
+0x48f1,	// (0x00051818) main_video3_pane_g2
 
 0x0001,
 
-0xf86e,	// (0x0005bab2) cams_zoom_vslider_pane_g
+0xf853,	// (0x0005c77a) main_video3_pane_g_ParamLimits
 
-0x4d5e,	// (0x00050fa2) small_slider_vertical_pane
+0xf853,	// (0x0005c77a) main_video3_pane_g
 
-0x4597,	// (0x000507db) small_slider_vertical_pane_g1
+0x490d,	// (0x00051834) main_video3_pane_t1_ParamLimits
 
-0x4597,	// (0x000507db) small_slider_vertical_pane_g2
+0x490d,	// (0x00051834) main_video3_pane_t1
 
-0x4d66,	// (0x00050faa) small_slider_vertical_pane_g3
+0x4938,	// (0x0005185f) main_video3_pane_t2_ParamLimits
+
+0x4938,	// (0x0005185f) main_video3_pane_t2
+
+0x4963,	// (0x0005188a) main_video3_pane_t3_ParamLimits
+
+0x4963,	// (0x0005188a) main_video3_pane_t3
 
 0x0002,
 
-0xf873,	// (0x0005bab7) small_slider_vertical_pane_g
+0xf858,	// (0x0005c77f) main_video3_pane_t_ParamLimits
 
-0x037e,	// (0x0004c5c2) main_hwr_training_pane
+0xf858,	// (0x0005c77f) main_video3_pane_t
 
-0x4d6f,	// (0x00050fb3) hwr_training_instruct_pane_ParamLimits
+0x4990,	// (0x000518b7) cams_zoom_vslider_pane_g1
 
-0x4d6f,	// (0x00050fb3) hwr_training_instruct_pane
+0x4999,	// (0x000518c0) cams_zoom_vslider_pane_g2
 
-0xa455,	// (0x00056699) hwr_training_navi_pane_ParamLimits
+0x0001,
 
-0xa455,	// (0x00056699) hwr_training_navi_pane
+0xf85f,	// (0x0005c786) cams_zoom_vslider_pane_g
 
-0xa46f,	// (0x000566b3) hwr_training_write_pane_ParamLimits
+0x49a1,	// (0x000518c8) small_slider_vertical_pane
 
-0xa46f,	// (0x000566b3) hwr_training_write_pane
+0x41eb,	// (0x00051112) small_slider_vertical_pane_g1
 
-0x037e,	// (0x0004c5c2) bg_frame_shadow_pane
+0x41eb,	// (0x00051112) small_slider_vertical_pane_g2
 
-0x4da6,	// (0x00050fea) hwr_training_write_pane_g1
+0x49a9,	// (0x000518d0) small_slider_vertical_pane_g3
 
-0x4dae,	// (0x00050ff2) hwr_training_write_pane_g2
+0x0002,
 
-0x4db6,	// (0x00050ffa) hwr_training_write_pane_g3
+0xf864,	// (0x0005c78b) small_slider_vertical_pane_g
 
-0x4dbe,	// (0x00051002) hwr_training_write_pane_g4
+0x5d04,	// (0x00052c2b) main_hwr_training_pane
 
-0x4dc6,	// (0x0005100a) hwr_training_write_pane_g5
+0x49b2,	// (0x000518d9) hwr_training_instruct_pane_ParamLimits
 
-0x4dce,	// (0x00051012) hwr_training_write_pane_g6
+0x49b2,	// (0x000518d9) hwr_training_instruct_pane
 
-0x4dd6,	// (0x0005101a) hwr_training_write_pane_g7
+0xa34e,	// (0x00057275) hwr_training_navi_pane_ParamLimits
+
+0xa34e,	// (0x00057275) hwr_training_navi_pane
+
+0xa368,	// (0x0005728f) hwr_training_write_pane_ParamLimits
+
+0xa368,	// (0x0005728f) hwr_training_write_pane
+
+0x00f2,	// (0x0004d019) bg_frame_shadow_pane
+
+0x49e9,	// (0x00051910) hwr_training_write_pane_g1
+
+0x49f1,	// (0x00051918) hwr_training_write_pane_g2
+
+0x49f9,	// (0x00051920) hwr_training_write_pane_g3
+
+0x4a01,	// (0x00051928) hwr_training_write_pane_g4
+
+0x4a09,	// (0x00051930) hwr_training_write_pane_g5
+
+0x4a11,	// (0x00051938) hwr_training_write_pane_g6
+
+0x4a19,	// (0x00051940) hwr_training_write_pane_g7
 
 0x0006,
 
-0xf87a,	// (0x0005babe) hwr_training_write_pane_g
+0xf86b,	// (0x0005c792) hwr_training_write_pane_g
 
-0xa4a7,	// (0x000566eb) hwr_training_navi_pane_g1_ParamLimits
+0xa3a0,	// (0x000572c7) hwr_training_navi_pane_g1_ParamLimits
 
-0xa4a7,	// (0x000566eb) hwr_training_navi_pane_g1
+0xa3a0,	// (0x000572c7) hwr_training_navi_pane_g1
 
-0xa4b9,	// (0x000566fd) hwr_training_navi_pane_g2_ParamLimits
+0xa3b2,	// (0x000572d9) hwr_training_navi_pane_g2_ParamLimits
 
-0xa4b9,	// (0x000566fd) hwr_training_navi_pane_g2
+0xa3b2,	// (0x000572d9) hwr_training_navi_pane_g2
 
-0xa4cb,	// (0x0005670f) hwr_training_navi_pane_g3_ParamLimits
+0xa3c4,	// (0x000572eb) hwr_training_navi_pane_g3_ParamLimits
 
-0xa4cb,	// (0x0005670f) hwr_training_navi_pane_g3
+0xa3c4,	// (0x000572eb) hwr_training_navi_pane_g3
 
-0xa4db,	// (0x0005671f) hwr_training_navi_pane_g4_ParamLimits
+0xa3d4,	// (0x000572fb) hwr_training_navi_pane_g4_ParamLimits
 
-0xa4db,	// (0x0005671f) hwr_training_navi_pane_g4
+0xa3d4,	// (0x000572fb) hwr_training_navi_pane_g4
 
 0x0004,
 
-0xf889,	// (0x0005bacd) hwr_training_navi_pane_g_ParamLimits
+0xf87a,	// (0x0005c7a1) hwr_training_navi_pane_g_ParamLimits
 
-0xf889,	// (0x0005bacd) hwr_training_navi_pane_g
+0xf87a,	// (0x0005c7a1) hwr_training_navi_pane_g
 
-0xa4f5,	// (0x00056739) hwr_training_navi_pane_t1
+0xa3ee,	// (0x00057315) hwr_training_navi_pane_t1
 
-0xa503,	// (0x00056747) list_single_hwr_training_instruct_pane_ParamLimits
+0xa3fc,	// (0x00057323) list_single_hwr_training_instruct_pane_ParamLimits
 
-0xa503,	// (0x00056747) list_single_hwr_training_instruct_pane
+0xa3fc,	// (0x00057323) list_single_hwr_training_instruct_pane
 
-0x4dde,	// (0x00051022) list_single_hwr_training_instruct_pane_t1
+0x4a21,	// (0x00051948) list_single_hwr_training_instruct_pane_t1
 
-0x44d7,	// (0x0005071b) bg_frame_shadow_pane_g1
+0x411a,	// (0x00051041) bg_frame_shadow_pane_g1
 
-0x4ded,	// (0x00051031) bg_frame_shadow_pane_g2
+0x4a30,	// (0x00051957) bg_frame_shadow_pane_g2
 
-0x4df5,	// (0x00051039) bg_frame_shadow_pane_g3
+0x4a38,	// (0x0005195f) bg_frame_shadow_pane_g3
 
-0x4dfd,	// (0x00051041) bg_frame_shadow_pane_g4
+0x4a40,	// (0x00051967) bg_frame_shadow_pane_g4
 
-0x4e05,	// (0x00051049) bg_frame_shadow_pane_g5
+0x4a48,	// (0x0005196f) bg_frame_shadow_pane_g5
 
-0x4e0d,	// (0x00051051) bg_frame_shadow_pane_g6
+0x4a50,	// (0x00051977) bg_frame_shadow_pane_g6
 
-0x4e15,	// (0x00051059) bg_frame_shadow_pane_g7
+0x4a58,	// (0x0005197f) bg_frame_shadow_pane_g7
 
-0x2322,	// (0x0004e566) bg_frame_shadow_pane_g8
+0x1fa4,	// (0x0004eecb) bg_frame_shadow_pane_g8
 
 0x0007,
 
-0xf894,	// (0x0005bad8) bg_frame_shadow_pane_g
+0xf885,	// (0x0005c7ac) bg_frame_shadow_pane_g
 
-0x037e,	// (0x0004c5c2) main_video_tele_dialer_pane
+0x5d04,	// (0x00052c2b) main_video_tele_dialer_pane
 
-0xa528,	// (0x0005676c) aid_size_cell_video_keypad_ParamLimits
+0xa421,	// (0x00057348) aid_size_cell_video_keypad_ParamLimits
 
-0xa528,	// (0x0005676c) aid_size_cell_video_keypad
+0xa421,	// (0x00057348) aid_size_cell_video_keypad
 
-0xa538,	// (0x0005677c) grid_video_dialer_keypad_pane_ParamLimits
+0xa431,	// (0x00057358) grid_video_dialer_keypad_pane_ParamLimits
 
-0xa538,	// (0x0005677c) grid_video_dialer_keypad_pane
+0xa431,	// (0x00057358) grid_video_dialer_keypad_pane
 
-0xa56a,	// (0x000567ae) video_down_pane_cp_ParamLimits
+0xa463,	// (0x0005738a) video_down_pane_cp_ParamLimits
 
-0xa56a,	// (0x000567ae) video_down_pane_cp
+0xa463,	// (0x0005738a) video_down_pane_cp
 
-0xa576,	// (0x000567ba) cell_video_dialer_keypad_pane_ParamLimits
+0xa46f,	// (0x00057396) cell_video_dialer_keypad_pane_ParamLimits
 
-0xa576,	// (0x000567ba) cell_video_dialer_keypad_pane
+0xa46f,	// (0x00057396) cell_video_dialer_keypad_pane
 
-0x4e39,	// (0x0005107d) bg_button_pane_cp08_ParamLimits
+0x4a7c,	// (0x000519a3) bg_button_pane_cp08_ParamLimits
 
-0x4e39,	// (0x0005107d) bg_button_pane_cp08
+0x4a7c,	// (0x000519a3) bg_button_pane_cp08
 
-0xa58b,	// (0x000567cf) cell_video_dialer_keypad_pane_g1_ParamLimits
+0xa484,	// (0x000573ab) cell_video_dialer_keypad_pane_g1_ParamLimits
 
-0xa58b,	// (0x000567cf) cell_video_dialer_keypad_pane_g1
+0xa484,	// (0x000573ab) cell_video_dialer_keypad_pane_g1
 
-0x9da2,	// (0x00055fe6) mup3_rocker2_pane_ParamLimits
+0x9c8d,	// (0x00056bb4) mup3_rocker2_pane_ParamLimits
 
-0x9da2,	// (0x00055fe6) mup3_rocker2_pane
+0x9c8d,	// (0x00056bb4) mup3_rocker2_pane
 
-0x4597,	// (0x000507db) mup3_rocker2_pane_g1
+0x41eb,	// (0x00051112) mup3_rocker2_pane_g1
 
-0x8ce6,	// (0x00054f2a) main_dialer2_pane
+0x8b92,	// (0x00055ab9) main_dialer2_pane
 
-0x037e,	// (0x0004c5c2) main_mp4_pane
+0x5d04,	// (0x00052c2b) main_mp4_pane
 
-0xa5cd,	// (0x00056811) main_mp4_pane_g1_ParamLimits
+0xa4c6,	// (0x000573ed) main_mp4_pane_g1_ParamLimits
 
-0xa5cd,	// (0x00056811) main_mp4_pane_g1
+0xa4c6,	// (0x000573ed) main_mp4_pane_g1
 
-0xa5db,	// (0x0005681f) main_mp4_pane_g2_ParamLimits
+0xa4d4,	// (0x000573fb) main_mp4_pane_g2_ParamLimits
 
-0xa5db,	// (0x0005681f) main_mp4_pane_g2
+0xa4d4,	// (0x000573fb) main_mp4_pane_g2
 
-0xa5e9,	// (0x0005682d) main_mp4_pane_g3_ParamLimits
+0xa4e2,	// (0x00057409) main_mp4_pane_g3_ParamLimits
 
-0xa5e9,	// (0x0005682d) main_mp4_pane_g3
+0xa4e2,	// (0x00057409) main_mp4_pane_g3
 
-0xa62e,	// (0x00056872) main_mp4_pane_g4_ParamLimits
+0xa527,	// (0x0005744e) main_mp4_pane_g4_ParamLimits
 
-0xa62e,	// (0x00056872) main_mp4_pane_g4
+0xa527,	// (0x0005744e) main_mp4_pane_g4
 
-0xa656,	// (0x0005689a) main_mp4_pane_g5_ParamLimits
+0xa54f,	// (0x00057476) main_mp4_pane_g5_ParamLimits
 
-0xa656,	// (0x0005689a) main_mp4_pane_g5
+0xa54f,	// (0x00057476) main_mp4_pane_g5
 
 0x0005,
 
-0xf8b4,	// (0x0005baf8) main_mp4_pane_g_ParamLimits
+0xf8a5,	// (0x0005c7cc) main_mp4_pane_g_ParamLimits
 
-0xf8b4,	// (0x0005baf8) main_mp4_pane_g
+0xf8a5,	// (0x0005c7cc) main_mp4_pane_g
 
-0xa6a6,	// (0x000568ea) main_mp4_pane_t1_ParamLimits
+0xa59f,	// (0x000574c6) main_mp4_pane_t1_ParamLimits
 
-0xa6a6,	// (0x000568ea) main_mp4_pane_t1
+0xa59f,	// (0x000574c6) main_mp4_pane_t1
 
-0xa702,	// (0x00056946) main_mp4_pane_t2_ParamLimits
+0xa5fb,	// (0x00057522) main_mp4_pane_t2_ParamLimits
 
-0xa702,	// (0x00056946) main_mp4_pane_t2
+0xa5fb,	// (0x00057522) main_mp4_pane_t2
 
-0xde32,	// (0x0005a076) main_mp4_pane_t3_ParamLimits
+0x4a88,	// (0x000519af) main_mp4_pane_t3_ParamLimits
 
-0xde32,	// (0x0005a076) main_mp4_pane_t3
+0x4a88,	// (0x000519af) main_mp4_pane_t3
 
-0xa754,	// (0x00056998) main_mp4_pane_t4_ParamLimits
+0xa64d,	// (0x00057574) main_mp4_pane_t4_ParamLimits
 
-0xa754,	// (0x00056998) main_mp4_pane_t4
+0xa64d,	// (0x00057574) main_mp4_pane_t4
 
 0x0003,
 
-0xf8c1,	// (0x0005bb05) main_mp4_pane_t_ParamLimits
+0xf8b2,	// (0x0005c7d9) main_mp4_pane_t_ParamLimits
 
-0xf8c1,	// (0x0005bb05) main_mp4_pane_t
+0xf8b2,	// (0x0005c7d9) main_mp4_pane_t
 
-0xa798,	// (0x000569dc) mp4_progress_pane_ParamLimits
+0xa691,	// (0x000575b8) mp4_progress_pane_ParamLimits
 
-0xa798,	// (0x000569dc) mp4_progress_pane
+0xa691,	// (0x000575b8) mp4_progress_pane
 
-0xa7e2,	// (0x00056a26) mp4_rocker_pane_ParamLimits
+0xa6db,	// (0x00057602) mp4_rocker_pane_ParamLimits
 
-0xa7e2,	// (0x00056a26) mp4_rocker_pane
+0xa6db,	// (0x00057602) mp4_rocker_pane
 
-0xde5a,	// (0x0005a09e) mp4_progress_pane_t1
+0x4ab0,	// (0x000519d7) mp4_progress_pane_t1
 
-0xde73,	// (0x0005a0b7) mp4_progress_pane_t2
+0x4ac9,	// (0x000519f0) mp4_progress_pane_t2
 
 0x0001,
 
-0xf8ca,	// (0x0005bb0e) mp4_progress_pane_t
+0xf8bb,	// (0x0005c7e2) mp4_progress_pane_t
 
-0xde8c,	// (0x0005a0d0) mup_progress_pane_cp04
+0x4ae2,	// (0x00051a09) mup_progress_pane_cp04
 
-0xde98,	// (0x0005a0dc) mp4_rocker_pane_g1
+0x4c01,	// (0x00051b28) mp4_rocker_pane_g1
 
-0xa802,	// (0x00056a46) aid_cell_size_keypad2_ParamLimits
+0xa6fb,	// (0x00057622) aid_cell_size_keypad2_ParamLimits
 
-0xa802,	// (0x00056a46) aid_cell_size_keypad2
+0xa6fb,	// (0x00057622) aid_cell_size_keypad2
 
-0xa812,	// (0x00056a56) dialer2_ne_pane_ParamLimits
+0xa70b,	// (0x00057632) dialer2_ne_pane_ParamLimits
 
-0xa812,	// (0x00056a56) dialer2_ne_pane
+0xa70b,	// (0x00057632) dialer2_ne_pane
 
-0xa820,	// (0x00056a64) grid_dialer2_keypad_pane_ParamLimits
+0xa719,	// (0x00057640) grid_dialer2_keypad_pane_ParamLimits
 
-0xa820,	// (0x00056a64) grid_dialer2_keypad_pane
+0xa719,	// (0x00057640) grid_dialer2_keypad_pane
 
-0xdea2,	// (0x0005a0e6) bg_popup_call_pane_cp07_ParamLimits
+0xdde6,	// (0x0005ad0d) bg_popup_call_pane_cp07_ParamLimits
 
-0xdea2,	// (0x0005a0e6) bg_popup_call_pane_cp07
+0xdde6,	// (0x0005ad0d) bg_popup_call_pane_cp07
 
-0xa830,	// (0x00056a74) dialer2_ne_pane_t1_ParamLimits
+0xa729,	// (0x00057650) dialer2_ne_pane_t1_ParamLimits
 
-0xa830,	// (0x00056a74) dialer2_ne_pane_t1
+0xa729,	// (0x00057650) dialer2_ne_pane_t1
 
-0xa855,	// (0x00056a99) cell_dialer2_keypad_pane_ParamLimits
+0xa74e,	// (0x00057675) cell_dialer2_keypad_pane_ParamLimits
 
-0xa855,	// (0x00056a99) cell_dialer2_keypad_pane
+0xa74e,	// (0x00057675) cell_dialer2_keypad_pane
 
-0xdec2,	// (0x0005a106) bg_button_pane_pane_cp04_ParamLimits
+0x4b00,	// (0x00051a27) bg_button_pane_pane_cp04_ParamLimits
 
-0xdec2,	// (0x0005a106) bg_button_pane_pane_cp04
+0x4b00,	// (0x00051a27) bg_button_pane_pane_cp04
 
-0xa86a,	// (0x00056aae) cell_dialer2_keypad_pane_g1_ParamLimits
+0xa763,	// (0x0005768a) cell_dialer2_keypad_pane_g1_ParamLimits
 
-0xa86a,	// (0x00056aae) cell_dialer2_keypad_pane_g1
+0xa763,	// (0x0005768a) cell_dialer2_keypad_pane_g1
 
-0x6b85,	// (0x00052dc9) aid_placing_vt_set_content_ParamLimits
+0x6a23,	// (0x0005394a) aid_placing_vt_set_content_ParamLimits
 
-0x6b85,	// (0x00052dc9) aid_placing_vt_set_content
+0x6a23,	// (0x0005394a) aid_placing_vt_set_content
 
-0x6bb1,	// (0x00052df5) aid_placing_vt_set_title_ParamLimits
+0x6a4f,	// (0x00053976) aid_placing_vt_set_title_ParamLimits
 
-0x6bb1,	// (0x00052df5) aid_placing_vt_set_title
+0x6a4f,	// (0x00053976) aid_placing_vt_set_title
 
-0x037e,	// (0x0004c5c2) main_image3_pane
+0x5d04,	// (0x00052c2b) main_image3_pane
 
-0xa904,	// (0x00056b48) area_side_right_pane_cp01_ParamLimits
+0xa7fd,	// (0x00057724) area_side_right_pane_cp01_ParamLimits
 
-0xa904,	// (0x00056b48) area_side_right_pane_cp01
+0xa7fd,	// (0x00057724) area_side_right_pane_cp01
 
-0xa931,	// (0x00056b75) main_image3_pane_g1_ParamLimits
+0xa82a,	// (0x00057751) main_image3_pane_g1_ParamLimits
 
-0xa931,	// (0x00056b75) main_image3_pane_g1
+0xa82a,	// (0x00057751) main_image3_pane_g1
 
-0xa93f,	// (0x00056b83) main_image3_pane_g2_ParamLimits
+0xa838,	// (0x0005775f) main_image3_pane_g2_ParamLimits
 
-0xa93f,	// (0x00056b83) main_image3_pane_g2
+0xa838,	// (0x0005775f) main_image3_pane_g2
 
-0xa958,	// (0x00056b9c) main_image3_pane_g3_ParamLimits
+0xa851,	// (0x00057778) main_image3_pane_g3_ParamLimits
 
-0xa958,	// (0x00056b9c) main_image3_pane_g3
+0xa851,	// (0x00057778) main_image3_pane_g3
 
-0xa971,	// (0x00056bb5) main_image3_pane_g4_ParamLimits
+0xa86a,	// (0x00057791) main_image3_pane_g4_ParamLimits
 
-0xa971,	// (0x00056bb5) main_image3_pane_g4
-
-0x0003,
-
-0xf8d9,	// (0x0005bb1d) main_image3_pane_g_ParamLimits
-
-0xf8d9,	// (0x0005bb1d) main_image3_pane_g
-
-0xa98a,	// (0x00056bce) main_image3_pane_t1_ParamLimits
-
-0xa98a,	// (0x00056bce) main_image3_pane_t1
-
-0xa9af,	// (0x00056bf3) main_image3_pane_t2_ParamLimits
-
-0xa9af,	// (0x00056bf3) main_image3_pane_t2
-
-0xa9ce,	// (0x00056c12) main_image3_pane_t3_ParamLimits
-
-0xa9ce,	// (0x00056c12) main_image3_pane_t3
+0xa86a,	// (0x00057791) main_image3_pane_g4
 
 0x0003,
 
-0xf8e2,	// (0x0005bb26) main_image3_pane_t_ParamLimits
+0xf8ca,	// (0x0005c7f1) main_image3_pane_g_ParamLimits
 
-0xf8e2,	// (0x0005bb26) main_image3_pane_t
+0xf8ca,	// (0x0005c7f1) main_image3_pane_g
 
-0x0b21,	// (0x0004cd65) grid_sctrl_middle_pane_cp01_ParamLimits
+0xa883,	// (0x000577aa) main_image3_pane_t1_ParamLimits
 
-0x0b21,	// (0x0004cd65) grid_sctrl_middle_pane_cp01
+0xa883,	// (0x000577aa) main_image3_pane_t1
 
-0xaa2f,	// (0x00056c73) cell_sctrl_middle_pane_cp01_ParamLimits
+0xa8a8,	// (0x000577cf) main_image3_pane_t2_ParamLimits
 
-0xaa2f,	// (0x00056c73) cell_sctrl_middle_pane_cp01
+0xa8a8,	// (0x000577cf) main_image3_pane_t2
 
-0xaa40,	// (0x00056c84) cell_sctrl_middle_pane_cp01_g1_ParamLimits
+0xa8c7,	// (0x000577ee) main_image3_pane_t3_ParamLimits
 
-0xaa40,	// (0x00056c84) cell_sctrl_middle_pane_cp01_g1
+0xa8c7,	// (0x000577ee) main_image3_pane_t3
 
-0x037e,	// (0x0004c5c2) main_call4_pane
+0x0003,
 
-0xaa4d,	// (0x00056c91) aid_size_button_call4_ParamLimits
+0xf8d3,	// (0x0005c7fa) main_image3_pane_t_ParamLimits
 
-0xaa4d,	// (0x00056c91) aid_size_button_call4
+0xf8d3,	// (0x0005c7fa) main_image3_pane_t
 
-0xaa7d,	// (0x00056cc1) call4_windows_pane_ParamLimits
+0xa1f5,	// (0x0005711c) grid_sctrl_middle_pane_cp01_ParamLimits
 
-0xaa7d,	// (0x00056cc1) call4_windows_pane
+0xa1f5,	// (0x0005711c) grid_sctrl_middle_pane_cp01
 
-0xaa97,	// (0x00056cdb) grid_call4_button_pane_ParamLimits
+0xa928,	// (0x0005784f) cell_sctrl_middle_pane_cp01_ParamLimits
 
-0xaa97,	// (0x00056cdb) grid_call4_button_pane
+0xa928,	// (0x0005784f) cell_sctrl_middle_pane_cp01
 
-0xdece,	// (0x0005a112) call4_windows_conf_pane
+0xa939,	// (0x00057860) cell_sctrl_middle_pane_cp01_g1_ParamLimits
 
-0xdee5,	// (0x0005a129) popup_call4_audio_first_window_ParamLimits
+0xa939,	// (0x00057860) cell_sctrl_middle_pane_cp01_g1
 
-0xdee5,	// (0x0005a129) popup_call4_audio_first_window
+0x5d04,	// (0x00052c2b) main_call4_pane
 
-0xdf31,	// (0x0005a175) popup_call4_audio_second_window_ParamLimits
+0xa946,	// (0x0005786d) aid_size_button_call4_ParamLimits
 
-0xdf31,	// (0x0005a175) popup_call4_audio_second_window
+0xa946,	// (0x0005786d) aid_size_button_call4
 
-0xdf45,	// (0x0005a189) popup_call4_audio_wait_window_ParamLimits
+0xa976,	// (0x0005789d) call4_windows_pane_ParamLimits
 
-0xdf45,	// (0x0005a189) popup_call4_audio_wait_window
+0xa976,	// (0x0005789d) call4_windows_pane
 
-0xaabb,	// (0x00056cff) cell_call4_button_pane_ParamLimits
+0xa990,	// (0x000578b7) grid_call4_button_pane_ParamLimits
 
-0xaabb,	// (0x00056cff) cell_call4_button_pane
+0xa990,	// (0x000578b7) grid_call4_button_pane
 
-0xaae0,	// (0x00056d24) bg_button_pane_cp09_ParamLimits
+0x4b0c,	// (0x00051a33) call4_windows_conf_pane
 
-0xaae0,	// (0x00056d24) bg_button_pane_cp09
+0x4b23,	// (0x00051a4a) popup_call4_audio_first_window_ParamLimits
 
-0xaaec,	// (0x00056d30) cell_call4_button_pane_g1_ParamLimits
+0x4b23,	// (0x00051a4a) popup_call4_audio_first_window
 
-0xaaec,	// (0x00056d30) cell_call4_button_pane_g1
+0x4b6f,	// (0x00051a96) popup_call4_audio_second_window_ParamLimits
 
-0xaaf9,	// (0x00056d3d) cell_call4_button_pane_t1_ParamLimits
+0x4b6f,	// (0x00051a96) popup_call4_audio_second_window
 
-0xaaf9,	// (0x00056d3d) cell_call4_button_pane_t1
+0x4b83,	// (0x00051aaa) popup_call4_audio_wait_window_ParamLimits
 
-0xdf8d,	// (0x0005a1d1) popup_call4_audio_conf_window_ParamLimits
+0x4b83,	// (0x00051aaa) popup_call4_audio_wait_window
 
-0xdf8d,	// (0x0005a1d1) popup_call4_audio_conf_window
+0xa9b4,	// (0x000578db) cell_call4_button_pane_ParamLimits
 
-0x9dd5,	// (0x00056019) mup3_progress_pane_t1_ParamLimits
+0xa9b4,	// (0x000578db) cell_call4_button_pane
 
-0x9df4,	// (0x00056038) mup3_progress_pane_t2_ParamLimits
+0xa9d9,	// (0x00057900) bg_button_pane_cp09_ParamLimits
 
-0x4886,	// (0x00050aca) mup3_progress_pane_t3_ParamLimits
+0xa9d9,	// (0x00057900) bg_button_pane_cp09
 
-0xf7bb,	// (0x0005b9ff) mup3_progress_pane_t_ParamLimits
+0xa9e5,	// (0x0005790c) cell_call4_button_pane_g1_ParamLimits
 
-0x48a3,	// (0x00050ae7) mup_progress_pane_cp03_ParamLimits
+0xa9e5,	// (0x0005790c) cell_call4_button_pane_g1
 
-0xa2f4,	// (0x00056538) mup3_control_keys_pane_g4_copy1
+0xa9f2,	// (0x00057919) cell_call4_button_pane_t1_ParamLimits
 
-0xa7c6,	// (0x00056a0a) mp4_rocker2_pane_ParamLimits
+0xa9f2,	// (0x00057919) cell_call4_button_pane_t1
 
-0xa7c6,	// (0x00056a0a) mp4_rocker2_pane
+0x4bcb,	// (0x00051af2) popup_call4_audio_conf_window_ParamLimits
 
-0xdfa1,	// (0x0005a1e5) mp4_rocker2_pane_g1
+0x4bcb,	// (0x00051af2) popup_call4_audio_conf_window
 
-0xdfa9,	// (0x0005a1ed) mp4_rocker2_pane_g2
+0x9cc0,	// (0x00056be7) mup3_progress_pane_t1_ParamLimits
 
-0xab0b,	// (0x00056d4f) mp4_rocker2_pane_g3
+0x9cdf,	// (0x00056c06) mup3_progress_pane_t2_ParamLimits
 
-0xab13,	// (0x00056d57) mp4_rocker2_pane_g4
+0x44c9,	// (0x000513f0) mup3_progress_pane_t3_ParamLimits
 
-0xab1b,	// (0x00056d5f) mp4_rocker2_pane_g5
+0xf7ac,	// (0x0005c6d3) mup3_progress_pane_t_ParamLimits
+
+0x44e6,	// (0x0005140d) mup_progress_pane_cp03_ParamLimits
+
+0xa1df,	// (0x00057106) mup3_control_keys_pane_g4_copy1
+
+0xa6bf,	// (0x000575e6) mp4_rocker2_pane_ParamLimits
+
+0xa6bf,	// (0x000575e6) mp4_rocker2_pane
+
+0x4be7,	// (0x00051b0e) mp4_rocker2_pane_g1
+
+0x4bdf,	// (0x00051b06) mp4_rocker2_pane_g2
+
+0xaa04,	// (0x0005792b) mp4_rocker2_pane_g3
+
+0xaa0c,	// (0x00057933) mp4_rocker2_pane_g4
+
+0xaa14,	// (0x0005793b) mp4_rocker2_pane_g5
 
 0x0004,
 
-0xf8eb,	// (0x0005bb2f) mp4_rocker2_pane_g
+0xf8dc,	// (0x0005c803) mp4_rocker2_pane_g
 
-0x037e,	// (0x0004c5c2) main_camera4_pane
+0x5d04,	// (0x00052c2b) main_camera4_pane
 
-0x037e,	// (0x0004c5c2) main_video4_pane
+0x5d04,	// (0x00052c2b) main_video4_pane
 
-0xa546,	// (0x0005678a) main_video_tele_dialer_pane_t1_ParamLimits
+0xa43f,	// (0x00057366) main_video_tele_dialer_pane_t1_ParamLimits
 
-0xa546,	// (0x0005678a) main_video_tele_dialer_pane_t1
+0xa43f,	// (0x00057366) main_video_tele_dialer_pane_t1
 
-0xa558,	// (0x0005679c) main_video_tele_dialer_pane_t2_ParamLimits
+0xa451,	// (0x00057378) main_video_tele_dialer_pane_t2_ParamLimits
 
-0xa558,	// (0x0005679c) main_video_tele_dialer_pane_t2
+0xa451,	// (0x00057378) main_video_tele_dialer_pane_t2
 
 0x0001,
 
-0xf8a5,	// (0x0005bae9) main_video_tele_dialer_pane_t_ParamLimits
+0xf896,	// (0x0005c7bd) main_video_tele_dialer_pane_t_ParamLimits
 
-0xf8a5,	// (0x0005bae9) main_video_tele_dialer_pane_t
+0xf896,	// (0x0005c7bd) main_video_tele_dialer_pane_t
 
-0xab3b,	// (0x00056d7f) cam4_autofocus_pane_ParamLimits
+0xaa34,	// (0x0005795b) cam4_autofocus_pane_ParamLimits
 
-0xab3b,	// (0x00056d7f) cam4_autofocus_pane
+0xaa34,	// (0x0005795b) cam4_autofocus_pane
 
-0xab55,	// (0x00056d99) cam4_image_uncrop_pane_ParamLimits
+0xaa4e,	// (0x00057975) cam4_image_uncrop_pane_ParamLimits
 
-0xab55,	// (0x00056d99) cam4_image_uncrop_pane
+0xaa4e,	// (0x00057975) cam4_image_uncrop_pane
 
-0xab6c,	// (0x00056db0) cam4_indicators_pane_ParamLimits
+0xaa65,	// (0x0005798c) cam4_indicators_pane_ParamLimits
 
-0xab6c,	// (0x00056db0) cam4_indicators_pane
+0xaa65,	// (0x0005798c) cam4_indicators_pane
 
-0xab88,	// (0x00056dcc) main_camera4_pane_g1_ParamLimits
+0xaa81,	// (0x000579a8) main_camera4_pane_g1_ParamLimits
 
-0xab88,	// (0x00056dcc) main_camera4_pane_g1
+0xaa81,	// (0x000579a8) main_camera4_pane_g1
 
-0xab94,	// (0x00056dd8) main_camera4_pane_g2_ParamLimits
+0xaa8d,	// (0x000579b4) main_camera4_pane_g2_ParamLimits
 
-0xab94,	// (0x00056dd8) main_camera4_pane_g2
+0xaa8d,	// (0x000579b4) main_camera4_pane_g2
 
-0xab94,	// (0x00056dd8) main_camera4_pane_g3_ParamLimits
+0xaa8d,	// (0x000579b4) main_camera4_pane_g3_ParamLimits
 
-0xab94,	// (0x00056dd8) main_camera4_pane_g3
+0xaa8d,	// (0x000579b4) main_camera4_pane_g3
 
-0xaba0,	// (0x00056de4) main_camera4_pane_g4_ParamLimits
+0xaa99,	// (0x000579c0) main_camera4_pane_g4_ParamLimits
 
-0xaba0,	// (0x00056de4) main_camera4_pane_g4
+0xaa99,	// (0x000579c0) main_camera4_pane_g4
 
-0xabac,	// (0x00056df0) main_camera4_pane_g5_ParamLimits
+0xaaa5,	// (0x000579cc) main_camera4_pane_g5_ParamLimits
 
-0xabac,	// (0x00056df0) main_camera4_pane_g5
+0xaaa5,	// (0x000579cc) main_camera4_pane_g5
 
 0x0005,
 
-0xf8f6,	// (0x0005bb3a) main_camera4_pane_g_ParamLimits
+0xf8e7,	// (0x0005c80e) main_camera4_pane_g_ParamLimits
 
-0xf8f6,	// (0x0005bb3a) main_camera4_pane_g
+0xf8e7,	// (0x0005c80e) main_camera4_pane_g
 
-0xabc6,	// (0x00056e0a) main_camera4_pane_t1_ParamLimits
+0xaabf,	// (0x000579e6) main_camera4_pane_t1_ParamLimits
 
-0xabc6,	// (0x00056e0a) main_camera4_pane_t1
+0xaabf,	// (0x000579e6) main_camera4_pane_t1
 
-0xac0e,	// (0x00056e52) bg_tb_trans_pane_cp06
+0xab07,	// (0x00057a2e) bg_tb_trans_pane_cp06
 
-0xac24,	// (0x00056e68) cam4_indicators_pane_g1
+0xab1d,	// (0x00057a44) cam4_indicators_pane_g1
 
-0xac35,	// (0x00056e79) cam4_indicators_pane_g2
+0xab2e,	// (0x00057a55) cam4_indicators_pane_g2
 
 0x0002,
 
-0xf911,	// (0x0005bb55) cam4_indicators_pane_g
+0xf902,	// (0x0005c829) cam4_indicators_pane_g
 
-0xac53,	// (0x00056e97) cam4_indicators_pane_t1
+0xab4c,	// (0x00057a73) cam4_indicators_pane_t1
 
-0xac7d,	// (0x00056ec1) main_video4_pane_g1_ParamLimits
+0xab76,	// (0x00057a9d) main_video4_pane_g1_ParamLimits
 
-0xac7d,	// (0x00056ec1) main_video4_pane_g1
+0xab76,	// (0x00057a9d) main_video4_pane_g1
 
-0xac89,	// (0x00056ecd) main_video4_pane_g2_ParamLimits
+0xab82,	// (0x00057aa9) main_video4_pane_g2_ParamLimits
 
-0xac89,	// (0x00056ecd) main_video4_pane_g2
+0xab82,	// (0x00057aa9) main_video4_pane_g2
 
-0xac95,	// (0x00056ed9) main_video4_pane_g3_ParamLimits
+0xab8e,	// (0x00057ab5) main_video4_pane_g3_ParamLimits
 
-0xac95,	// (0x00056ed9) main_video4_pane_g3
+0xab8e,	// (0x00057ab5) main_video4_pane_g3
 
-0xaca1,	// (0x00056ee5) main_video4_pane_g4_ParamLimits
+0xab9a,	// (0x00057ac1) main_video4_pane_g4_ParamLimits
 
-0xaca1,	// (0x00056ee5) main_video4_pane_g4
+0xab9a,	// (0x00057ac1) main_video4_pane_g4
 
 0x0004,
 
-0xf918,	// (0x0005bb5c) main_video4_pane_g_ParamLimits
+0xf909,	// (0x0005c830) main_video4_pane_g_ParamLimits
 
-0xf918,	// (0x0005bb5c) main_video4_pane_g
+0xf909,	// (0x0005c830) main_video4_pane_g
 
-0xacc1,	// (0x00056f05) vid4_indicators_pane_ParamLimits
+0xabba,	// (0x00057ae1) vid4_indicators_pane_ParamLimits
 
-0xacc1,	// (0x00056f05) vid4_indicators_pane
+0xabba,	// (0x00057ae1) vid4_indicators_pane
 
-0xacdf,	// (0x00056f23) video4_image_uncrop_cif_pane_ParamLimits
+0xabd9,	// (0x00057b00) video4_image_uncrop_cif_pane_ParamLimits
 
-0xacdf,	// (0x00056f23) video4_image_uncrop_cif_pane
+0xabd9,	// (0x00057b00) video4_image_uncrop_cif_pane
 
-0xacee,	// (0x00056f32) video4_image_uncrop_nhd_pane_ParamLimits
+0xabe8,	// (0x00057b0f) video4_image_uncrop_nhd_pane_ParamLimits
 
-0xacee,	// (0x00056f32) video4_image_uncrop_nhd_pane
+0xabe8,	// (0x00057b0f) video4_image_uncrop_nhd_pane
 
-0xab55,	// (0x00056d99) video4_image_uncrop_vga_pane_ParamLimits
+0xaa4e,	// (0x00057975) video4_image_uncrop_vga_pane_ParamLimits
 
-0xab55,	// (0x00056d99) video4_image_uncrop_vga_pane
+0xaa4e,	// (0x00057975) video4_image_uncrop_vga_pane
 
-0xacfb,	// (0x00056f3f) bg_tb_trans_pane_cp07
+0x8b84,	// (0x00055aab) bg_tb_trans_pane_cp07
 
-0xad13,	// (0x00056f57) vid4_indicators_pane_g1
+0xabff,	// (0x00057b26) vid4_indicators_pane_g1
 
-0xad24,	// (0x00056f68) vid4_indicators_pane_g2
+0xac13,	// (0x00057b3a) vid4_indicators_pane_g2
 
-0xad35,	// (0x00056f79) vid4_indicators_pane_g3
+0xac27,	// (0x00057b4e) vid4_indicators_pane_g3
 
 0x0004,
 
-0xf923,	// (0x0005bb67) vid4_indicators_pane_g
+0xf914,	// (0x0005c83b) vid4_indicators_pane_g
 
-0xad62,	// (0x00056fa6) vid4_indicators_pane_t1
+0xac56,	// (0x00057b7d) vid4_indicators_pane_t1
 
-0xad7b,	// (0x00056fbf) cam4_autofocus_pane_g1
+0xac6d,	// (0x00057b94) cam4_autofocus_pane_g1
 
-0xad83,	// (0x00056fc7) cam4_autofocus_pane_g2
+0xac75,	// (0x00057b9c) cam4_autofocus_pane_g2
 
-0xad8b,	// (0x00056fcf) cam4_autofocus_pane_g3
+0xac7d,	// (0x00057ba4) cam4_autofocus_pane_g3
 
 0x0002,
 
-0xf92e,	// (0x0005bb72) cam4_autofocus_pane_g
+0xf91f,	// (0x0005c846) cam4_autofocus_pane_g
 
-0xad93,	// (0x00056fd7) cam4_autofocus_pane_g3_copy1
+0xac85,	// (0x00057bac) cam4_autofocus_pane_g3_copy1
 
-0x4e1d,	// (0x00051061) video_down_pane_cp_t1
+0x4a60,	// (0x00051987) video_down_pane_cp_t1
 
-0x4e2b,	// (0x0005106f) video_down_pane_cp_t2
+0x4a6e,	// (0x00051995) video_down_pane_cp_t2
 
 0x0001,
 
-0xf8aa,	// (0x0005baee) video_down_pane_cp_t
+0xf89b,	// (0x0005c7c2) video_down_pane_cp_t
 
-0x0b21,	// (0x0004cd65) popup_vitu2_window_ParamLimits
+0x5cea,	// (0x00052c11) popup_vitu2_window_ParamLimits
 
-0x0b21,	// (0x0004cd65) popup_vitu2_window
+0x5cea,	// (0x00052c11) popup_vitu2_window
 
-0xad9b,	// (0x00056fdf) aid_size_cell2_itu2_ParamLimits
+0xac8d,	// (0x00057bb4) aid_size_cell2_itu2_ParamLimits
 
-0xad9b,	// (0x00056fdf) aid_size_cell2_itu2
+0xac8d,	// (0x00057bb4) aid_size_cell2_itu2
 
-0xadbd,	// (0x00057001) aid_size_cell_itu2_ParamLimits
+0xacaf,	// (0x00057bd6) aid_size_cell_itu2_ParamLimits
 
-0xadbd,	// (0x00057001) aid_size_cell_itu2
+0xacaf,	// (0x00057bd6) aid_size_cell_itu2
 
-0xae01,	// (0x00057045) bg_popup_window_pane_cp09_ParamLimits
+0xacf3,	// (0x00057c1a) bg_popup_window_pane_cp09_ParamLimits
 
-0xae01,	// (0x00057045) bg_popup_window_pane_cp09
+0xacf3,	// (0x00057c1a) bg_popup_window_pane_cp09
 
-0xae0f,	// (0x00057053) field_vitu2_entry_pane_ParamLimits
+0xad01,	// (0x00057c28) field_vitu2_entry_pane_ParamLimits
 
-0xae0f,	// (0x00057053) field_vitu2_entry_pane
+0xad01,	// (0x00057c28) field_vitu2_entry_pane
 
-0xae2f,	// (0x00057073) grid_vitu2_function_pane_ParamLimits
+0xad21,	// (0x00057c48) grid_vitu2_function_pane_ParamLimits
 
-0xae2f,	// (0x00057073) grid_vitu2_function_pane
+0xad21,	// (0x00057c48) grid_vitu2_function_pane
 
-0xae73,	// (0x000570b7) grid_vitu2_itu_pane_ParamLimits
+0xad65,	// (0x00057c8c) grid_vitu2_itu_pane_ParamLimits
 
-0xae73,	// (0x000570b7) grid_vitu2_itu_pane
+0xad65,	// (0x00057c8c) grid_vitu2_itu_pane
 
-0xaeeb,	// (0x0005712f) cell_vitu2_itu_pane_ParamLimits
+0xaddd,	// (0x00057d04) cell_vitu2_itu_pane_ParamLimits
 
-0xaeeb,	// (0x0005712f) cell_vitu2_itu_pane
+0xaddd,	// (0x00057d04) cell_vitu2_itu_pane
 
-0xaf00,	// (0x00057144) cell_vitu2_function_pane_ParamLimits
+0xadf2,	// (0x00057d19) cell_vitu2_function_pane_ParamLimits
 
-0xaf00,	// (0x00057144) cell_vitu2_function_pane
+0xadf2,	// (0x00057d19) cell_vitu2_function_pane
 
-0xdfb1,	// (0x0005a1f5) bg_popup_call_pane_cp08_ParamLimits
+0xddf4,	// (0x0005ad1b) bg_popup_call_pane_cp08_ParamLimits
 
-0xdfb1,	// (0x0005a1f5) bg_popup_call_pane_cp08
+0xddf4,	// (0x0005ad1b) bg_popup_call_pane_cp08
 
-0xdfca,	// (0x0005a20e) field_vitu2_entry_pane_g1
+0xde0d,	// (0x0005ad34) field_vitu2_entry_pane_g1
 
-0xdfd6,	// (0x0005a21a) field_vitu2_entry_pane_g2
+0xde19,	// (0x0005ad40) field_vitu2_entry_pane_g2
 
 0x0002,
 
-0xf935,	// (0x0005bb79) field_vitu2_entry_pane_g
+0xf926,	// (0x0005c84d) field_vitu2_entry_pane_g
 
-0xaf3f,	// (0x00057183) field_vitu2_entry_pane_t1_ParamLimits
+0xae31,	// (0x00057d58) field_vitu2_entry_pane_t1_ParamLimits
 
-0xaf3f,	// (0x00057183) field_vitu2_entry_pane_t1
+0xae31,	// (0x00057d58) field_vitu2_entry_pane_t1
 
-0x0b39,	// (0x0004cd7d) field_vitu2_entry_pane_t2_ParamLimits
+0x08f0,	// (0x0004d817) field_vitu2_entry_pane_t2_ParamLimits
 
-0x0b39,	// (0x0004cd7d) field_vitu2_entry_pane_t2
+0x08f0,	// (0x0004d817) field_vitu2_entry_pane_t2
 
 0x0001,
 
-0xf93c,	// (0x0005bb80) field_vitu2_entry_pane_t_ParamLimits
+0xf92d,	// (0x0005c854) field_vitu2_entry_pane_t_ParamLimits
 
-0xf93c,	// (0x0005bb80) field_vitu2_entry_pane_t
+0xf92d,	// (0x0005c854) field_vitu2_entry_pane_t
 
-0xaf6f,	// (0x000571b3) bg_button_pane_cp010_ParamLimits
+0xae61,	// (0x00057d88) bg_button_pane_cp010_ParamLimits
 
-0xaf6f,	// (0x000571b3) bg_button_pane_cp010
+0xae61,	// (0x00057d88) bg_button_pane_cp010
 
-0xaf7d,	// (0x000571c1) cell_vitu2_itu_pane_g1
+0xae6f,	// (0x00057d96) cell_vitu2_itu_pane_g1
 
-0xaf9b,	// (0x000571df) cell_vitu2_itu_pane_t1_ParamLimits
+0xae8d,	// (0x00057db4) cell_vitu2_itu_pane_t1_ParamLimits
 
-0xaf9b,	// (0x000571df) cell_vitu2_itu_pane_t1
+0xae8d,	// (0x00057db4) cell_vitu2_itu_pane_t1
 
-0x5b42,	// (0x00051d86) cell_vitu2_itu_pane_t2_ParamLimits
+0x5972,	// (0x00052899) cell_vitu2_itu_pane_t2_ParamLimits
 
-0x5b42,	// (0x00051d86) cell_vitu2_itu_pane_t2
+0x5972,	// (0x00052899) cell_vitu2_itu_pane_t2
 
 0x0002,
 
-0xf946,	// (0x0005bb8a) cell_vitu2_itu_pane_t_ParamLimits
+0xf937,	// (0x0005c85e) cell_vitu2_itu_pane_t_ParamLimits
 
-0xf946,	// (0x0005bb8a) cell_vitu2_itu_pane_t
+0xf937,	// (0x0005c85e) cell_vitu2_itu_pane_t
 
-0xacfb,	// (0x00056f3f) bg_button_pane_cp011
+0x8b84,	// (0x00055aab) bg_button_pane_cp011
 
-0xafed,	// (0x00057231) cell_vitu2_function_pane_g1
+0xaedf,	// (0x00057e06) cell_vitu2_function_pane_g1
 
-0x037e,	// (0x0004c5c2) main_myfav_hc_pane
+0x5d04,	// (0x00052c2b) main_myfav_hc_pane
 
-0xaa10,	// (0x00056c54) popup_image3_note_pane_ParamLimits
+0xa909,	// (0x00057830) popup_image3_note_pane_ParamLimits
 
-0xaa10,	// (0x00056c54) popup_image3_note_pane
+0xa909,	// (0x00057830) popup_image3_note_pane
 
-0xaa1e,	// (0x00056c62) popup_image3_tool_bar_pane_ParamLimits
+0xa917,	// (0x0005783e) popup_image3_tool_bar_pane_ParamLimits
 
-0xaa1e,	// (0x00056c62) popup_image3_tool_bar_pane
+0xa917,	// (0x0005783e) popup_image3_tool_bar_pane
 
-0x5bb0,	// (0x00051df4) cell_vitu2_itu_pane_t3_ParamLimits
+0x59e0,	// (0x00052907) cell_vitu2_itu_pane_t3_ParamLimits
 
-0x5bb0,	// (0x00051df4) cell_vitu2_itu_pane_t3
+0x59e0,	// (0x00052907) cell_vitu2_itu_pane_t3
 
-0x037e,	// (0x0004c5c2) bg_popup_trans_pane
+0x00f2,	// (0x0004d019) bg_popup_trans_pane
 
-0xdff8,	// (0x0005a23c) grid_image3_tool_bar_pane
+0xde3b,	// (0x0005ad62) grid_image3_tool_bar_pane
 
-0xe002,	// (0x0005a246) bg_popup_trans_pane_g1
+0xde45,	// (0x0005ad6c) bg_popup_trans_pane_g1
 
-0x265f,	// (0x0004e8a3) bg_popup_trans_pane_g2
+0x22e1,	// (0x0004f208) bg_popup_trans_pane_g2
 
-0xe00a,	// (0x0005a24e) bg_popup_trans_pane_g3
+0xde4d,	// (0x0005ad74) bg_popup_trans_pane_g3
 
-0xe012,	// (0x0005a256) bg_popup_trans_pane_g4
+0xde55,	// (0x0005ad7c) bg_popup_trans_pane_g4
 
-0xe01a,	// (0x0005a25e) bg_popup_trans_pane_g5
+0xde5d,	// (0x0005ad84) bg_popup_trans_pane_g5
 
-0xe022,	// (0x0005a266) bg_popup_trans_pane_g6
+0xde65,	// (0x0005ad8c) bg_popup_trans_pane_g6
 
-0xe02a,	// (0x0005a26e) bg_popup_trans_pane_g7
+0xde6d,	// (0x0005ad94) bg_popup_trans_pane_g7
 
-0xe032,	// (0x0005a276) bg_popup_trans_pane_g8
+0xde75,	// (0x0005ad9c) bg_popup_trans_pane_g8
 
-0x263f,	// (0x0004e883) bg_popup_trans_pane_g9
+0x22c1,	// (0x0004f1e8) bg_popup_trans_pane_g9
 
 0x0008,
 
-0xf94d,	// (0x0005bb91) bg_popup_trans_pane_g
+0xf93e,	// (0x0005c865) bg_popup_trans_pane_g
 
-0xe03a,	// (0x0005a27e) cell_image3_tool_bar_pane_ParamLimits
+0xde7d,	// (0x0005ada4) cell_image3_tool_bar_pane_ParamLimits
 
-0xe03a,	// (0x0005a27e) cell_image3_tool_bar_pane
+0xde7d,	// (0x0005ada4) cell_image3_tool_bar_pane
 
-0x4597,	// (0x000507db) cell_image3_tool_bar_pane_g1
+0x41eb,	// (0x00051112) cell_image3_tool_bar_pane_g1
 
-0x037e,	// (0x0004c5c2) bg_popup_trans_pane_cp1
+0x00f2,	// (0x0004d019) bg_popup_trans_pane_cp1
 
-0xe04e,	// (0x0005a292) popup_image3_note_pane_t1
+0xde91,	// (0x0005adb8) popup_image3_note_pane_t1
 
-0xe05c,	// (0x0005a2a0) popup_image3_note_pane_t2
+0xde9f,	// (0x0005adc6) popup_image3_note_pane_t2
 
-0xe06a,	// (0x0005a2ae) popup_image3_note_pane_t3
-
-0x0002,
-
-0xf960,	// (0x0005bba4) popup_image3_note_pane_t
-
-0xe078,	// (0x0005a2bc) popup_image3_note_pane_t3_copy1
-
-0xb001,	// (0x00057245) bg_myfav_hc_instruction_pane_ParamLimits
-
-0xb001,	// (0x00057245) bg_myfav_hc_instruction_pane
-
-0xb019,	// (0x0005725d) cell_myfav_contact_pane_ParamLimits
-
-0xb019,	// (0x0005725d) cell_myfav_contact_pane
-
-0xb033,	// (0x00057277) cell_myfav_contact_pane_cp1_ParamLimits
-
-0xb033,	// (0x00057277) cell_myfav_contact_pane_cp1
-
-0xb04b,	// (0x0005728f) cell_myfav_contact_pane_cp2_ParamLimits
-
-0xb04b,	// (0x0005728f) cell_myfav_contact_pane_cp2
-
-0xb063,	// (0x000572a7) cell_myfav_contact_pane_cp3_ParamLimits
-
-0xb063,	// (0x000572a7) cell_myfav_contact_pane_cp3
-
-0xb07a,	// (0x000572be) cell_myfav_contact_pane_cp4_ParamLimits
-
-0xb07a,	// (0x000572be) cell_myfav_contact_pane_cp4
-
-0xb090,	// (0x000572d4) cell_myfav_contact_pane_cp5_ParamLimits
-
-0xb090,	// (0x000572d4) cell_myfav_contact_pane_cp5
-
-0xb0a4,	// (0x000572e8) cell_myfav_contact_pane_cp6_ParamLimits
-
-0xb0a4,	// (0x000572e8) cell_myfav_contact_pane_cp6
-
-0xb0b8,	// (0x000572fc) cell_myfav_contact_pane_cp7_ParamLimits
-
-0xb0b8,	// (0x000572fc) cell_myfav_contact_pane_cp7
-
-0xe086,	// (0x0005a2ca) listscroll_gen_pane_cp05
-
-0xb0d0,	// (0x00057314) main_myfav_hc_pane_g1_ParamLimits
-
-0xb0d0,	// (0x00057314) main_myfav_hc_pane_g1
-
-0xb0e6,	// (0x0005732a) main_myfav_hc_pane_g2_ParamLimits
-
-0xb0e6,	// (0x0005732a) main_myfav_hc_pane_g2
+0xdead,	// (0x0005add4) popup_image3_note_pane_t3
 
 0x0002,
 
-0xf967,	// (0x0005bbab) main_myfav_hc_pane_g_ParamLimits
+0xf951,	// (0x0005c878) popup_image3_note_pane_t
 
-0xf967,	// (0x0005bbab) main_myfav_hc_pane_g
+0xdebb,	// (0x0005ade2) popup_image3_note_pane_t3_copy1
 
-0xb114,	// (0x00057358) main_myfav_hc_pane_t1_ParamLimits
+0xaef3,	// (0x00057e1a) bg_myfav_hc_instruction_pane_ParamLimits
 
-0xb114,	// (0x00057358) main_myfav_hc_pane_t1
+0xaef3,	// (0x00057e1a) bg_myfav_hc_instruction_pane
 
-0xe08f,	// (0x0005a2d3) main_myfav_hc_pane_t2_ParamLimits
+0xaf0b,	// (0x00057e32) cell_myfav_contact_pane_ParamLimits
 
-0xe08f,	// (0x0005a2d3) main_myfav_hc_pane_t2
+0xaf0b,	// (0x00057e32) cell_myfav_contact_pane
 
-0xe0a1,	// (0x0005a2e5) main_myfav_hc_pane_t3_ParamLimits
+0xaf25,	// (0x00057e4c) cell_myfav_contact_pane_cp1_ParamLimits
 
-0xe0a1,	// (0x0005a2e5) main_myfav_hc_pane_t3
+0xaf25,	// (0x00057e4c) cell_myfav_contact_pane_cp1
 
-0xb12b,	// (0x0005736f) main_myfav_hc_pane_t4_ParamLimits
+0xaf3d,	// (0x00057e64) cell_myfav_contact_pane_cp2_ParamLimits
 
-0xb12b,	// (0x0005736f) main_myfav_hc_pane_t4
+0xaf3d,	// (0x00057e64) cell_myfav_contact_pane_cp2
+
+0xaf55,	// (0x00057e7c) cell_myfav_contact_pane_cp3_ParamLimits
+
+0xaf55,	// (0x00057e7c) cell_myfav_contact_pane_cp3
+
+0xaf6c,	// (0x00057e93) cell_myfav_contact_pane_cp4_ParamLimits
+
+0xaf6c,	// (0x00057e93) cell_myfav_contact_pane_cp4
+
+0xaf82,	// (0x00057ea9) cell_myfav_contact_pane_cp5_ParamLimits
+
+0xaf82,	// (0x00057ea9) cell_myfav_contact_pane_cp5
+
+0xaf96,	// (0x00057ebd) cell_myfav_contact_pane_cp6_ParamLimits
+
+0xaf96,	// (0x00057ebd) cell_myfav_contact_pane_cp6
+
+0xafaa,	// (0x00057ed1) cell_myfav_contact_pane_cp7_ParamLimits
+
+0xafaa,	// (0x00057ed1) cell_myfav_contact_pane_cp7
+
+0xdec9,	// (0x0005adf0) listscroll_gen_pane_cp05
+
+0xafc2,	// (0x00057ee9) main_myfav_hc_pane_g1_ParamLimits
+
+0xafc2,	// (0x00057ee9) main_myfav_hc_pane_g1
+
+0xafd8,	// (0x00057eff) main_myfav_hc_pane_g2_ParamLimits
+
+0xafd8,	// (0x00057eff) main_myfav_hc_pane_g2
+
+0x0002,
+
+0xf958,	// (0x0005c87f) main_myfav_hc_pane_g_ParamLimits
+
+0xf958,	// (0x0005c87f) main_myfav_hc_pane_g
+
+0xb006,	// (0x00057f2d) main_myfav_hc_pane_t1_ParamLimits
+
+0xb006,	// (0x00057f2d) main_myfav_hc_pane_t1
+
+0xded2,	// (0x0005adf9) main_myfav_hc_pane_t2_ParamLimits
+
+0xded2,	// (0x0005adf9) main_myfav_hc_pane_t2
+
+0xdee4,	// (0x0005ae0b) main_myfav_hc_pane_t3_ParamLimits
+
+0xdee4,	// (0x0005ae0b) main_myfav_hc_pane_t3
+
+0xb01d,	// (0x00057f44) main_myfav_hc_pane_t4_ParamLimits
+
+0xb01d,	// (0x00057f44) main_myfav_hc_pane_t4
 
 0x0004,
 
-0xf96e,	// (0x0005bbb2) main_myfav_hc_pane_t_ParamLimits
+0xf95f,	// (0x0005c886) main_myfav_hc_pane_t_ParamLimits
 
-0xf96e,	// (0x0005bbb2) main_myfav_hc_pane_t
+0xf95f,	// (0x0005c886) main_myfav_hc_pane_t
 
-0x4597,	// (0x000507db) bg_myfav_hc_instruction_pane_g1
+0x41eb,	// (0x00051112) bg_myfav_hc_instruction_pane_g1
 
-0xe0b3,	// (0x0005a2f7) cell_myfav_contact_pane_g1_ParamLimits
+0xdef6,	// (0x0005ae1d) cell_myfav_contact_pane_g1_ParamLimits
 
-0xe0b3,	// (0x0005a2f7) cell_myfav_contact_pane_g1
+0xdef6,	// (0x0005ae1d) cell_myfav_contact_pane_g1
 
-0xe0b3,	// (0x0005a2f7) cell_myfav_contact_pane_g2_ParamLimits
+0xdef6,	// (0x0005ae1d) cell_myfav_contact_pane_g2_ParamLimits
 
-0xe0b3,	// (0x0005a2f7) cell_myfav_contact_pane_g2
+0xdef6,	// (0x0005ae1d) cell_myfav_contact_pane_g2
 
-0xe0bf,	// (0x0005a303) cell_myfav_contact_pane_g3_ParamLimits
+0xdf02,	// (0x0005ae29) cell_myfav_contact_pane_g3_ParamLimits
 
-0xe0bf,	// (0x0005a303) cell_myfav_contact_pane_g3
+0xdf02,	// (0x0005ae29) cell_myfav_contact_pane_g3
 
-0x4870,	// (0x00050ab4) cell_myfav_contact_pane_g4_ParamLimits
+0x44b3,	// (0x000513da) cell_myfav_contact_pane_g4_ParamLimits
 
-0x4870,	// (0x00050ab4) cell_myfav_contact_pane_g4
+0x44b3,	// (0x000513da) cell_myfav_contact_pane_g4
 
-0xe0cc,	// (0x0005a310) cell_myfav_contact_pane_g5_ParamLimits
+0xdf0f,	// (0x0005ae36) cell_myfav_contact_pane_g5_ParamLimits
 
-0xe0cc,	// (0x0005a310) cell_myfav_contact_pane_g5
+0xdf0f,	// (0x0005ae36) cell_myfav_contact_pane_g5
 
 0x0004,
 
-0xf979,	// (0x0005bbbd) cell_myfav_contact_pane_g_ParamLimits
+0xf96a,	// (0x0005c891) cell_myfav_contact_pane_g_ParamLimits
 
-0xf979,	// (0x0005bbbd) cell_myfav_contact_pane_g
+0xf96a,	// (0x0005c891) cell_myfav_contact_pane_g
 
-0xb0fc,	// (0x00057340) main_myfav_hc_pane_g3_ParamLimits
+0xafee,	// (0x00057f15) main_myfav_hc_pane_g3_ParamLimits
 
-0xb0fc,	// (0x00057340) main_myfav_hc_pane_g3
+0xafee,	// (0x00057f15) main_myfav_hc_pane_g3
 
-0x5d79,	// (0x00051fbd) popup_adpt_find_window
+0x5bfd,	// (0x00052b24) popup_adpt_find_window
 
-0xb155,	// (0x00057399) afind_page_pane_ParamLimits
+0xb047,	// (0x00057f6e) afind_page_pane_ParamLimits
 
-0xb155,	// (0x00057399) afind_page_pane
+0xb047,	// (0x00057f6e) afind_page_pane
 
-0xb162,	// (0x000573a6) aid_size_cell_afind_ParamLimits
+0xb054,	// (0x00057f7b) aid_size_cell_afind_ParamLimits
 
-0xb162,	// (0x000573a6) aid_size_cell_afind
+0xb054,	// (0x00057f7b) aid_size_cell_afind
 
-0xb17c,	// (0x000573c0) bg_popup_sub_pane_cp09_ParamLimits
+0xb06e,	// (0x00057f95) bg_popup_sub_pane_cp09_ParamLimits
 
-0xb17c,	// (0x000573c0) bg_popup_sub_pane_cp09
+0xb06e,	// (0x00057f95) bg_popup_sub_pane_cp09
 
-0xb189,	// (0x000573cd) find_pane_cp01_ParamLimits
+0xb07b,	// (0x00057fa2) find_pane_cp01_ParamLimits
 
-0xb189,	// (0x000573cd) find_pane_cp01
+0xb07b,	// (0x00057fa2) find_pane_cp01
 
-0xe0d8,	// (0x0005a31c) grid_afind_control_pane_ParamLimits
+0xdf1b,	// (0x0005ae42) grid_afind_control_pane_ParamLimits
 
-0xe0d8,	// (0x0005a31c) grid_afind_control_pane
+0xdf1b,	// (0x0005ae42) grid_afind_control_pane
 
-0xb196,	// (0x000573da) grid_afind_pane_ParamLimits
+0xb088,	// (0x00057faf) grid_afind_pane_ParamLimits
 
-0xb196,	// (0x000573da) grid_afind_pane
+0xb088,	// (0x00057faf) grid_afind_pane
 
-0xb1b2,	// (0x000573f6) cell_afind_pane_ParamLimits
+0xb0a4,	// (0x00057fcb) cell_afind_pane_ParamLimits
 
-0xb1b2,	// (0x000573f6) cell_afind_pane
+0xb0a4,	// (0x00057fcb) cell_afind_pane
 
-0x4597,	// (0x000507db) afind_page_pane_g1
+0x41eb,	// (0x00051112) afind_page_pane_g1
 
-0xb1fa,	// (0x0005743e) afind_page_pane_g2
+0xb0ec,	// (0x00058013) afind_page_pane_g2
 
-0xb203,	// (0x00057447) afind_page_pane_g3
+0xb0f5,	// (0x0005801c) afind_page_pane_g3
 
 0x0002,
 
-0xf984,	// (0x0005bbc8) afind_page_pane_g
+0xf975,	// (0x0005c89c) afind_page_pane_g
 
-0xb20c,	// (0x00057450) afind_page_pane_t1
+0xb0fe,	// (0x00058025) afind_page_pane_t1
 
-0xe0ec,	// (0x0005a330) cell_afind_grid_control_pane_ParamLimits
+0xdf2f,	// (0x0005ae56) cell_afind_grid_control_pane_ParamLimits
 
-0xe0ec,	// (0x0005a330) cell_afind_grid_control_pane
+0xdf2f,	// (0x0005ae56) cell_afind_grid_control_pane
 
-0xdec2,	// (0x0005a106) bg_button_pane_cp69_ParamLimits
+0x4b00,	// (0x00051a27) bg_button_pane_cp69_ParamLimits
 
-0xdec2,	// (0x0005a106) bg_button_pane_cp69
+0x4b00,	// (0x00051a27) bg_button_pane_cp69
 
-0xb22c,	// (0x00057470) cell_afind_pane_g1_ParamLimits
+0xb11e,	// (0x00058045) cell_afind_pane_g1_ParamLimits
 
-0xb22c,	// (0x00057470) cell_afind_pane_g1
+0xb11e,	// (0x00058045) cell_afind_pane_g1
 
-0xb239,	// (0x0005747d) cell_afind_pane_t1_ParamLimits
+0xb12b,	// (0x00058052) cell_afind_pane_t1_ParamLimits
 
-0xb239,	// (0x0005747d) cell_afind_pane_t1
+0xb12b,	// (0x00058052) cell_afind_pane_t1
 
-0x2458,	// (0x0004e69c) bg_button_pane_cp72
+0x20da,	// (0x0004f001) bg_button_pane_cp72
 
-0xe0fb,	// (0x0005a33f) cell_afind_grid_control_pane_g1
+0xdf3e,	// (0x0005ae65) cell_afind_grid_control_pane_g1
 
-0x8864,	// (0x00054aa8) aid_image_placing_area_ParamLimits
+0x8702,	// (0x00055629) aid_image_placing_area_ParamLimits
 
-0x8864,	// (0x00054aa8) aid_image_placing_area
+0x8702,	// (0x00055629) aid_image_placing_area
 
-0x4b6f,	// (0x00050db3) field_vitu_entry_pane_g1_ParamLimits
+0x47b2,	// (0x000516d9) field_vitu_entry_pane_g1_ParamLimits
 
-0x4b6f,	// (0x00050db3) field_vitu_entry_pane_g1
+0x47b2,	// (0x000516d9) field_vitu_entry_pane_g1
 
-0x4b7b,	// (0x00050dbf) field_vitu_entry_pane_g2_ParamLimits
+0x47be,	// (0x000516e5) field_vitu_entry_pane_g2_ParamLimits
 
-0x4b7b,	// (0x00050dbf) field_vitu_entry_pane_g2
-
-0x0001,
-
-0xf835,	// (0x0005ba79) field_vitu_entry_pane_g_ParamLimits
-
-0xf835,	// (0x0005ba79) field_vitu_entry_pane_g
-
-0xa37c,	// (0x000565c0) cell_vitu_itu_pane_g1_ParamLimits
-
-0xa3be,	// (0x00056602) cell_vitu_itu_pane_t3_ParamLimits
-
-0xa3be,	// (0x00056602) cell_vitu_itu_pane_t3
-
-0xde5a,	// (0x0005a09e) mp4_progress_pane_t1_ParamLimits
-
-0xde73,	// (0x0005a0b7) mp4_progress_pane_t2_ParamLimits
-
-0xf8ca,	// (0x0005bb0e) mp4_progress_pane_t_ParamLimits
-
-0xde8c,	// (0x0005a0d0) mup_progress_pane_cp04_ParamLimits
-
-0xb13f,	// (0x00057383) main_myfav_hc_pane_t5_ParamLimits
-
-0xb13f,	// (0x00057383) main_myfav_hc_pane_t5
-
-0x03a4,	// (0x0004c5e8) aid_zoom_text_primary
-
-0x5d79,	// (0x00051fbd) popup_adpt_find_window_ParamLimits
-
-0x334c,	// (0x0004f590) main_cam_set_pane
-
-0xab7a,	// (0x00056dbe) cam4_zoom_pane_ParamLimits
-
-0xab7a,	// (0x00056dbe) cam4_zoom_pane
-
-0xb24b,	// (0x0005748f) main_cam_set_pane_g1_ParamLimits
-
-0xb24b,	// (0x0005748f) main_cam_set_pane_g1
-
-0xb259,	// (0x0005749d) main_cam_set_pane_g2_ParamLimits
-
-0xb259,	// (0x0005749d) main_cam_set_pane_g2
+0x47be,	// (0x000516e5) field_vitu_entry_pane_g2
 
 0x0001,
 
-0xf98b,	// (0x0005bbcf) main_cam_set_pane_g_ParamLimits
+0xf826,	// (0x0005c74d) field_vitu_entry_pane_g_ParamLimits
 
-0xf98b,	// (0x0005bbcf) main_cam_set_pane_g
+0xf826,	// (0x0005c74d) field_vitu_entry_pane_g
 
-0xb265,	// (0x000574a9) main_cam_set_pane_t1_ParamLimits
+0xa275,	// (0x0005719c) cell_vitu_itu_pane_g1_ParamLimits
 
-0xb265,	// (0x000574a9) main_cam_set_pane_t1
+0xa2b7,	// (0x000571de) cell_vitu_itu_pane_t3_ParamLimits
 
-0xb281,	// (0x000574c5) main_cset_listscroll_pane_ParamLimits
+0xa2b7,	// (0x000571de) cell_vitu_itu_pane_t3
 
-0xb281,	// (0x000574c5) main_cset_listscroll_pane
+0x4ab0,	// (0x000519d7) mp4_progress_pane_t1_ParamLimits
 
-0xb2ac,	// (0x000574f0) main_cset_slider_pane_ParamLimits
+0x4ac9,	// (0x000519f0) mp4_progress_pane_t2_ParamLimits
 
-0xb2ac,	// (0x000574f0) main_cset_slider_pane
+0xf8bb,	// (0x0005c7e2) mp4_progress_pane_t_ParamLimits
 
-0xe10c,	// (0x0005a350) main_cset_list_pane_ParamLimits
+0x4ae2,	// (0x00051a09) mup_progress_pane_cp04_ParamLimits
 
-0xe10c,	// (0x0005a350) main_cset_list_pane
+0xb031,	// (0x00057f58) main_myfav_hc_pane_t5_ParamLimits
 
-0xe11c,	// (0x0005a360) scroll_pane_cp028
+0xb031,	// (0x00057f58) main_myfav_hc_pane_t5
 
-0xb2cb,	// (0x0005750f) aid_area_touch_slider
+0x5a8d,	// (0x000529b4) aid_zoom_text_primary
 
-0xb2e7,	// (0x0005752b) cset_slider_pane
+0x5bfd,	// (0x00052b24) popup_adpt_find_window_ParamLimits
 
-0xb311,	// (0x00057555) main_cset_slider_pane_g1
+0x8b84,	// (0x00055aab) main_cam_set_pane
 
-0xb326,	// (0x0005756a) main_cset_slider_pane_g2
+0xaa73,	// (0x0005799a) cam4_zoom_pane_ParamLimits
+
+0xaa73,	// (0x0005799a) cam4_zoom_pane
+
+0xb13d,	// (0x00058064) main_cam_set_pane_g1_ParamLimits
+
+0xb13d,	// (0x00058064) main_cam_set_pane_g1
+
+0xb14b,	// (0x00058072) main_cam_set_pane_g2_ParamLimits
+
+0xb14b,	// (0x00058072) main_cam_set_pane_g2
+
+0x0001,
+
+0xf97c,	// (0x0005c8a3) main_cam_set_pane_g_ParamLimits
+
+0xf97c,	// (0x0005c8a3) main_cam_set_pane_g
+
+0xb157,	// (0x0005807e) main_cam_set_pane_t1_ParamLimits
+
+0xb157,	// (0x0005807e) main_cam_set_pane_t1
+
+0xb173,	// (0x0005809a) main_cset_listscroll_pane_ParamLimits
+
+0xb173,	// (0x0005809a) main_cset_listscroll_pane
+
+0xb19e,	// (0x000580c5) main_cset_slider_pane_ParamLimits
+
+0xb19e,	// (0x000580c5) main_cset_slider_pane
+
+0xdf4f,	// (0x0005ae76) main_cset_list_pane_ParamLimits
+
+0xdf4f,	// (0x0005ae76) main_cset_list_pane
+
+0xdf5f,	// (0x0005ae86) scroll_pane_cp028
+
+0xb1bd,	// (0x000580e4) aid_area_touch_slider
+
+0xb1d9,	// (0x00058100) cset_slider_pane
+
+0xb203,	// (0x0005812a) main_cset_slider_pane_g1
+
+0xb218,	// (0x0005813f) main_cset_slider_pane_g2
 
 0x0011,
 
-0xf990,	// (0x0005bbd4) main_cset_slider_pane_g
+0xf981,	// (0x0005c8a8) main_cset_slider_pane_g
 
-0xe155,	// (0x0005a399) main_cset_slider_pane_t1
+0xdf98,	// (0x0005aebf) main_cset_slider_pane_t1
 
-0xb3e8,	// (0x0005762c) main_cset_slider_pane_t2
+0xb2da,	// (0x00058201) main_cset_slider_pane_t2
 
-0xb402,	// (0x00057646) main_cset_slider_pane_t3
+0xb2f4,	// (0x0005821b) main_cset_slider_pane_t3
 
-0xb41c,	// (0x00057660) main_cset_slider_pane_t4
+0xb30e,	// (0x00058235) main_cset_slider_pane_t4
 
-0xb436,	// (0x0005767a) main_cset_slider_pane_t5
+0xb328,	// (0x0005824f) main_cset_slider_pane_t5
 
-0xb454,	// (0x00057698) main_cset_slider_pane_t6
+0xb346,	// (0x0005826d) main_cset_slider_pane_t6
 
-0xb46b,	// (0x000576af) main_cset_slider_pane_t7
+0xb35d,	// (0x00058284) main_cset_slider_pane_t7
 
 0x000e,
 
-0xf9b5,	// (0x0005bbf9) main_cset_slider_pane_t
+0xf9a6,	// (0x0005c8cd) main_cset_slider_pane_t
 
-0xb577,	// (0x000577bb) cset_list_set_pane_ParamLimits
+0xb469,	// (0x00058390) cset_list_set_pane_ParamLimits
 
-0xb577,	// (0x000577bb) cset_list_set_pane
+0xb469,	// (0x00058390) cset_list_set_pane
 
-0xb58d,	// (0x000577d1) aid_position_infowindow_above
+0xb47f,	// (0x000583a6) aid_position_infowindow_above
 
-0xb595,	// (0x000577d9) aid_position_infowindow_below
+0xb487,	// (0x000583ae) aid_position_infowindow_below
 
-0x0b56,	// (0x0004cd9a) cset_list_set_pane_g1_ParamLimits
+0x090d,	// (0x0004d834) cset_list_set_pane_g1_ParamLimits
 
-0x0b56,	// (0x0004cd9a) cset_list_set_pane_g1
+0x090d,	// (0x0004d834) cset_list_set_pane_g1
 
-0x0b62,	// (0x0004cda6) cset_list_set_pane_g3_ParamLimits
+0x0919,	// (0x0004d840) cset_list_set_pane_g3_ParamLimits
 
-0x0b62,	// (0x0004cda6) cset_list_set_pane_g3
+0x0919,	// (0x0004d840) cset_list_set_pane_g3
 
 0x0001,
 
-0xf9d4,	// (0x0005bc18) cset_list_set_pane_g_ParamLimits
+0xf9c5,	// (0x0005c8ec) cset_list_set_pane_g_ParamLimits
 
-0xf9d4,	// (0x0005bc18) cset_list_set_pane_g
+0xf9c5,	// (0x0005c8ec) cset_list_set_pane_g
 
-0x0b71,	// (0x0004cdb5) cset_list_set_pane_t1_ParamLimits
+0x0928,	// (0x0004d84f) cset_list_set_pane_t1_ParamLimits
 
-0x0b71,	// (0x0004cdb5) cset_list_set_pane_t1
+0x0928,	// (0x0004d84f) cset_list_set_pane_t1
 
-0x334c,	// (0x0004f590) list_highlight_pane_cp021_ParamLimits
+0x3810,	// (0x00050737) list_highlight_pane_cp021_ParamLimits
 
-0x334c,	// (0x0004f590) list_highlight_pane_cp021
+0x3810,	// (0x00050737) list_highlight_pane_cp021
 
-0x2e80,	// (0x0004f0c4) cset_slider_pane_g1
+0x2b02,	// (0x0004fa29) cset_slider_pane_g1
 
-0x2e92,	// (0x0004f0d6) cset_slider_pane_g2
+0x2b14,	// (0x0004fa3b) cset_slider_pane_g2
 
-0x2e89,	// (0x0004f0cd) cset_slider_pane_g3
+0x2b0b,	// (0x0004fa32) cset_slider_pane_g3
 
 0x0002,
 
-0xf9d9,	// (0x0005bc1d) cset_slider_pane_g
+0xf9ca,	// (0x0005c8f1) cset_slider_pane_g
 
-0xb59d,	// (0x000577e1) aid_area_touch_cam4_zoom
+0xb48f,	// (0x000583b6) aid_area_touch_cam4_zoom
 
-0xb5a5,	// (0x000577e9) cam4_zoom_cont_pane
+0xb497,	// (0x000583be) cam4_zoom_cont_pane
 
-0xb5ad,	// (0x000577f1) cam4_zoom_pane_g1
+0xb49f,	// (0x000583c6) cam4_zoom_pane_g1
 
-0xb5b5,	// (0x000577f9) cam4_zoom_pane_g2
+0xb4a7,	// (0x000583ce) cam4_zoom_pane_g2
 
-0xb5bd,	// (0x00057801) cam4_zoom_pane_g3
-
-0x0002,
-
-0xf9e0,	// (0x0005bc24) cam4_zoom_pane_g
-
-0xb5c5,	// (0x00057809) cam4_zoom_cont_pane_g1
-
-0xb5ce,	// (0x00057812) cam4_zoom_cont_pane_g2
-
-0xb5d7,	// (0x0005781b) cam4_zoom_cont_pane_g3
+0xb4af,	// (0x000583d6) cam4_zoom_pane_g3
 
 0x0002,
 
-0xf9e7,	// (0x0005bc2b) cam4_zoom_cont_pane_g
+0xf9d1,	// (0x0005c8f8) cam4_zoom_pane_g
 
-0xaa67,	// (0x00056cab) call4_image_pane_ParamLimits
+0xb4b7,	// (0x000583de) cam4_zoom_cont_pane_g1
 
-0xaa67,	// (0x00056cab) call4_image_pane
+0xb4c0,	// (0x000583e7) cam4_zoom_cont_pane_g2
 
-0xdece,	// (0x0005a112) call4_windows_conf_pane_ParamLimits
+0xb4c9,	// (0x000583f0) cam4_zoom_cont_pane_g3
 
-0xdf0f,	// (0x0005a153) popup_call4_audio_in_window_ParamLimits
+0x0002,
 
-0xdf0f,	// (0x0005a153) popup_call4_audio_in_window
+0xf9d8,	// (0x0005c8ff) cam4_zoom_cont_pane_g
 
-0x037e,	// (0x0004c5c2) bg_popup_call2_act_pane_cp02
+0xa960,	// (0x00057887) call4_image_pane_ParamLimits
 
-0xdf85,	// (0x0005a1c9) call4_list_conf_pane
+0xa960,	// (0x00057887) call4_image_pane
 
-0x4597,	// (0x000507db) call4_image_pane_g1
+0x4b0c,	// (0x00051a33) call4_windows_conf_pane_ParamLimits
 
-0x4597,	// (0x000507db) call4_image_pane_g2
+0x4b4d,	// (0x00051a74) popup_call4_audio_in_window_ParamLimits
 
-0x0001,
+0x4b4d,	// (0x00051a74) popup_call4_audio_in_window
 
-0xf6fb,	// (0x0005b93f) call4_image_pane_g
+0x00f2,	// (0x0004d019) bg_popup_call2_act_pane_cp02
 
-0xe1f5,	// (0x0005a439) list_single_graphic_popup_conf4_pane_ParamLimits
+0x4bc3,	// (0x00051aea) call4_list_conf_pane
 
-0xe1f5,	// (0x0005a439) list_single_graphic_popup_conf4_pane
+0x41eb,	// (0x00051112) call4_image_pane_g1
 
-0x037e,	// (0x0004c5c2) list_highlight_pane_cp022
-
-0xe208,	// (0x0005a44c) list_single_graphic_popup_conf4_pane_g1
-
-0x2b51,	// (0x0004ed95) list_single_graphic_popup_conf4_pane_g2
+0x41eb,	// (0x00051112) call4_image_pane_g2
 
 0x0001,
 
-0xf9ee,	// (0x0005bc32) list_single_graphic_popup_conf4_pane_g
+0xf6ec,	// (0x0005c613) call4_image_pane_g
 
-0xe210,	// (0x0005a454) list_single_graphic_popup_conf4_pane_t1
+0xe038,	// (0x0005af5f) list_single_graphic_popup_conf4_pane_ParamLimits
 
-0x6d15,	// (0x00052f59) popup_vtel_slider_window_ParamLimits
+0xe038,	// (0x0005af5f) list_single_graphic_popup_conf4_pane
 
-0x6d15,	// (0x00052f59) popup_vtel_slider_window
+0x00f2,	// (0x0004d019) list_highlight_pane_cp022
 
-0xdeb0,	// (0x0005a0f4) dialer2_ne_pane_t2_ParamLimits
+0xe04b,	// (0x0005af72) list_single_graphic_popup_conf4_pane_g1
 
-0xdeb0,	// (0x0005a0f4) dialer2_ne_pane_t2
+0x27d3,	// (0x0004f6fa) list_single_graphic_popup_conf4_pane_g2
 
 0x0001,
 
-0xf8cf,	// (0x0005bb13) dialer2_ne_pane_t_ParamLimits
+0xf9df,	// (0x0005c906) list_single_graphic_popup_conf4_pane_g
 
-0xf8cf,	// (0x0005bb13) dialer2_ne_pane_t
+0xe053,	// (0x0005af7a) list_single_graphic_popup_conf4_pane_t1
 
-0x334c,	// (0x0004f590) bg_popup_sub_pane_cp010_ParamLimits
+0x6bb3,	// (0x00053ada) popup_vtel_slider_window_ParamLimits
 
-0x334c,	// (0x0004f590) bg_popup_sub_pane_cp010
+0x6bb3,	// (0x00053ada) popup_vtel_slider_window
 
-0xb5e0,	// (0x00057824) popup_vtel_slider_window_g1_ParamLimits
+0x4aee,	// (0x00051a15) dialer2_ne_pane_t2_ParamLimits
 
-0xb5e0,	// (0x00057824) popup_vtel_slider_window_g1
+0x4aee,	// (0x00051a15) dialer2_ne_pane_t2
 
-0xb5ec,	// (0x00057830) popup_vtel_slider_window_g2_ParamLimits
+0x0001,
 
-0xb5ec,	// (0x00057830) popup_vtel_slider_window_g2
+0xf8c0,	// (0x0005c7e7) dialer2_ne_pane_t_ParamLimits
+
+0xf8c0,	// (0x0005c7e7) dialer2_ne_pane_t
+
+0x3810,	// (0x00050737) bg_popup_sub_pane_cp010_ParamLimits
+
+0x3810,	// (0x00050737) bg_popup_sub_pane_cp010
+
+0xb4d2,	// (0x000583f9) popup_vtel_slider_window_g1_ParamLimits
+
+0xb4d2,	// (0x000583f9) popup_vtel_slider_window_g1
+
+0xb4de,	// (0x00058405) popup_vtel_slider_window_g2_ParamLimits
+
+0xb4de,	// (0x00058405) popup_vtel_slider_window_g2
 
 0x0003,
 
-0xf9f3,	// (0x0005bc37) popup_vtel_slider_window_g_ParamLimits
+0xf9e4,	// (0x0005c90b) popup_vtel_slider_window_g_ParamLimits
 
-0xf9f3,	// (0x0005bc37) popup_vtel_slider_window_g
+0xf9e4,	// (0x0005c90b) popup_vtel_slider_window_g
 
-0xb634,	// (0x00057878) vtel_slider_pane_ParamLimits
+0xb526,	// (0x0005844d) vtel_slider_pane_ParamLimits
 
-0xb634,	// (0x00057878) vtel_slider_pane
+0xb526,	// (0x0005844d) vtel_slider_pane
 
-0xb643,	// (0x00057887) vtel_slider_pane_g1_ParamLimits
+0xb535,	// (0x0005845c) vtel_slider_pane_g1_ParamLimits
 
-0xb643,	// (0x00057887) vtel_slider_pane_g1
+0xb535,	// (0x0005845c) vtel_slider_pane_g1
 
-0xb650,	// (0x00057894) vtel_slider_pane_g2_ParamLimits
+0xb542,	// (0x00058469) vtel_slider_pane_g2_ParamLimits
 
-0xb650,	// (0x00057894) vtel_slider_pane_g2
+0xb542,	// (0x00058469) vtel_slider_pane_g2
 
-0xb65d,	// (0x000578a1) vtel_slider_pane_g3_ParamLimits
+0xb54f,	// (0x00058476) vtel_slider_pane_g3_ParamLimits
 
-0xb65d,	// (0x000578a1) vtel_slider_pane_g3
+0xb54f,	// (0x00058476) vtel_slider_pane_g3
 
-0xb643,	// (0x00057887) vtel_slider_pane_g4_ParamLimits
+0xb535,	// (0x0005845c) vtel_slider_pane_g4_ParamLimits
 
-0xb643,	// (0x00057887) vtel_slider_pane_g4
+0xb535,	// (0x0005845c) vtel_slider_pane_g4
 
-0xb66a,	// (0x000578ae) vtel_slider_pane_g5_ParamLimits
+0xb55c,	// (0x00058483) vtel_slider_pane_g5_ParamLimits
 
-0xb66a,	// (0x000578ae) vtel_slider_pane_g5
+0xb55c,	// (0x00058483) vtel_slider_pane_g5
 
 0x0004,
 
-0xf9fc,	// (0x0005bc40) vtel_slider_pane_g_ParamLimits
+0xf9ed,	// (0x0005c914) vtel_slider_pane_g_ParamLimits
 
-0xf9fc,	// (0x0005bc40) vtel_slider_pane_g
+0xf9ed,	// (0x0005c914) vtel_slider_pane_g
 
-0x037e,	// (0x0004c5c2) main_gallery2_pane
+0x5d04,	// (0x00052c2b) main_gallery2_pane
 
-0xade3,	// (0x00057027) aid_size_row_itut2_dropdow_list_ParamLimits
+0xacd5,	// (0x00057bfc) aid_size_row_itut2_dropdow_list_ParamLimits
 
-0xade3,	// (0x00057027) aid_size_row_itut2_dropdow_list
+0xacd5,	// (0x00057bfc) aid_size_row_itut2_dropdow_list
 
-0xae51,	// (0x00057095) grid_vitu2_function_top_pane_ParamLimits
+0xad43,	// (0x00057c6a) grid_vitu2_function_top_pane_ParamLimits
 
-0xae51,	// (0x00057095) grid_vitu2_function_top_pane
+0xad43,	// (0x00057c6a) grid_vitu2_function_top_pane
 
-0xaea7,	// (0x000570eb) popup_vitu2_dropdown_list_window_ParamLimits
+0xad99,	// (0x00057cc0) popup_vitu2_dropdown_list_window_ParamLimits
 
-0xaea7,	// (0x000570eb) popup_vitu2_dropdown_list_window
+0xad99,	// (0x00057cc0) popup_vitu2_dropdown_list_window
 
-0xaec7,	// (0x0005710b) popup_vitu2_match_list_window
+0xadb9,	// (0x00057ce0) popup_vitu2_match_list_window
 
-0xb677,	// (0x000578bb) cell_vitu2_function_top_pane_ParamLimits
+0xb569,	// (0x00058490) cell_vitu2_function_top_pane_ParamLimits
 
-0xb677,	// (0x000578bb) cell_vitu2_function_top_pane
+0xb569,	// (0x00058490) cell_vitu2_function_top_pane
 
-0xb697,	// (0x000578db) cell_vitu2_function_top_pane_cp01_ParamLimits
+0xb589,	// (0x000584b0) cell_vitu2_function_top_pane_cp01_ParamLimits
 
-0xb697,	// (0x000578db) cell_vitu2_function_top_pane_cp01
+0xb589,	// (0x000584b0) cell_vitu2_function_top_pane_cp01
 
-0xb6b5,	// (0x000578f9) cell_vitu2_function_top_wide_pane_ParamLimits
+0xb5a7,	// (0x000584ce) cell_vitu2_function_top_wide_pane_ParamLimits
 
-0xb6b5,	// (0x000578f9) cell_vitu2_function_top_wide_pane
+0xb5a7,	// (0x000584ce) cell_vitu2_function_top_wide_pane
 
-0xacfb,	// (0x00056f3f) bg_button_pane_cp012
+0x8b84,	// (0x00055aab) bg_button_pane_cp012
 
-0xb6d3,	// (0x00057917) cell_vitu2_function_top_pane_g1
+0xb5c5,	// (0x000584ec) cell_vitu2_function_top_pane_g1
 
-0xb6e2,	// (0x00057926) bg_button_pane_cp013_ParamLimits
+0xb5d4,	// (0x000584fb) bg_button_pane_cp013_ParamLimits
 
-0xb6e2,	// (0x00057926) bg_button_pane_cp013
+0xb5d4,	// (0x000584fb) bg_button_pane_cp013
 
-0xb6fe,	// (0x00057942) cell_vitu2_function_top_wide_pane_g1_ParamLimits
+0xb5f0,	// (0x00058517) cell_vitu2_function_top_wide_pane_g1_ParamLimits
 
-0xb6fe,	// (0x00057942) cell_vitu2_function_top_wide_pane_g1
+0xb5f0,	// (0x00058517) cell_vitu2_function_top_wide_pane_g1
 
-0xb716,	// (0x0005795a) bg_popup_sub_pane_cp20
+0x5cea,	// (0x00052c11) bg_popup_sub_pane_cp20
 
-0xb724,	// (0x00057968) list_vitu2_match_list_pane
+0xb608,	// (0x0005852f) list_vitu2_match_list_pane
 
-0xe002,	// (0x0005a246) bg_popup_sub_pane_cp20_g1
+0xde45,	// (0x0005ad6c) bg_popup_sub_pane_cp20_g1
 
-0xe00a,	// (0x0005a24e) bg_popup_sub_pane_cp20_g2
+0xde4d,	// (0x0005ad74) bg_popup_sub_pane_cp20_g2
 
-0x265f,	// (0x0004e8a3) bg_popup_sub_pane_cp20_g3
+0x22e1,	// (0x0004f208) bg_popup_sub_pane_cp20_g3
 
-0xe012,	// (0x0005a256) bg_popup_sub_pane_cp20_g4
+0xde55,	// (0x0005ad7c) bg_popup_sub_pane_cp20_g4
 
-0x263f,	// (0x0004e883) bg_popup_sub_pane_cp20_g5
+0x22c1,	// (0x0004f1e8) bg_popup_sub_pane_cp20_g5
 
-0xe226,	// (0x0005a46a) bg_popup_sub_pane_cp20_g6
+0xe069,	// (0x0005af90) bg_popup_sub_pane_cp20_g6
 
-0xe022,	// (0x0005a266) bg_popup_sub_pane_cp20_g7
+0xde65,	// (0x0005ad8c) bg_popup_sub_pane_cp20_g7
 
-0xe02a,	// (0x0005a26e) bg_popup_sub_pane_cp20_g8
+0xde6d,	// (0x0005ad94) bg_popup_sub_pane_cp20_g8
 
-0xe032,	// (0x0005a276) bg_popup_sub_pane_cp20_g9
+0xde75,	// (0x0005ad9c) bg_popup_sub_pane_cp20_g9
 
 0x0008,
 
-0xfa07,	// (0x0005bc4b) bg_popup_sub_pane_cp20_g
+0xf9f8,	// (0x0005c91f) bg_popup_sub_pane_cp20_g
 
-0xb73c,	// (0x00057980) list_vitu2_match_list_item_pane_ParamLimits
+0xb620,	// (0x00058547) list_vitu2_match_list_item_pane_ParamLimits
 
-0xb73c,	// (0x00057980) list_vitu2_match_list_item_pane
+0xb620,	// (0x00058547) list_vitu2_match_list_item_pane
 
-0xb74e,	// (0x00057992) list_vitu2_match_list_item_pane_t1
+0xb632,	// (0x00058559) list_vitu2_match_list_item_pane_t1
 
-0x61c9,	// (0x0005240d) bg_popup_sub_pane_cp21
+0x5d04,	// (0x00052c2b) bg_popup_sub_pane_cp21
 
-0xb78b,	// (0x000579cf) grid_vitu2_dropdown_list_pane
+0xb66f,	// (0x00058596) grid_vitu2_dropdown_list_pane
 
-0xb793,	// (0x000579d7) cell_vitu2_dropdown_list_char_pane_ParamLimits
+0xb677,	// (0x0005859e) cell_vitu2_dropdown_list_char_pane_ParamLimits
 
-0xb793,	// (0x000579d7) cell_vitu2_dropdown_list_char_pane
+0xb677,	// (0x0005859e) cell_vitu2_dropdown_list_char_pane
 
-0xb7b4,	// (0x000579f8) cell_vitu2_dropdown_list_ctrl_pane_ParamLimits
+0xb698,	// (0x000585bf) cell_vitu2_dropdown_list_ctrl_pane_ParamLimits
 
-0xb7b4,	// (0x000579f8) cell_vitu2_dropdown_list_ctrl_pane
+0xb698,	// (0x000585bf) cell_vitu2_dropdown_list_ctrl_pane
 
-0xe22e,	// (0x0005a472) cell_vitu2_dropdown_list_char_pane_g1
+0xe071,	// (0x0005af98) cell_vitu2_dropdown_list_char_pane_g1
 
-0xe237,	// (0x0005a47b) cell_vitu2_dropdown_list_char_pane_g2
+0xe07a,	// (0x0005afa1) cell_vitu2_dropdown_list_char_pane_g2
 
-0xe240,	// (0x0005a484) cell_vitu2_dropdown_list_char_pane_g3
+0xe083,	// (0x0005afaa) cell_vitu2_dropdown_list_char_pane_g3
 
 0x0002,
 
-0xfa24,	// (0x0005bc68) cell_vitu2_dropdown_list_char_pane_g
+0xfa15,	// (0x0005c93c) cell_vitu2_dropdown_list_char_pane_g
 
-0xb7e0,	// (0x00057a24) cell_vitu2_dropdown_list_char_pane_t1
+0xb6c4,	// (0x000585eb) cell_vitu2_dropdown_list_char_pane_t1
 
-0xb7ee,	// (0x00057a32) cell_vitu2_dropdown_list_ctrl_pane_g1_ParamLimits
+0xb6d2,	// (0x000585f9) cell_vitu2_dropdown_list_ctrl_pane_g1_ParamLimits
 
-0xb7ee,	// (0x00057a32) cell_vitu2_dropdown_list_ctrl_pane_g1
+0xb6d2,	// (0x000585f9) cell_vitu2_dropdown_list_ctrl_pane_g1
 
-0xb7fe,	// (0x00057a42) cell_vitu2_dropdown_list_ctrl_pane_g2_ParamLimits
+0xb6e2,	// (0x00058609) cell_vitu2_dropdown_list_ctrl_pane_g2_ParamLimits
 
-0xb7fe,	// (0x00057a42) cell_vitu2_dropdown_list_ctrl_pane_g2
+0xb6e2,	// (0x00058609) cell_vitu2_dropdown_list_ctrl_pane_g2
 
-0xb80f,	// (0x00057a53) cell_vitu2_dropdown_list_ctrl_pane_g3_ParamLimits
+0xb6f3,	// (0x0005861a) cell_vitu2_dropdown_list_ctrl_pane_g3_ParamLimits
 
-0xb80f,	// (0x00057a53) cell_vitu2_dropdown_list_ctrl_pane_g3
+0xb6f3,	// (0x0005861a) cell_vitu2_dropdown_list_ctrl_pane_g3
 
-0xb81f,	// (0x00057a63) cell_vitu2_dropdown_list_ctrl_pane_g4_ParamLimits
+0xb703,	// (0x0005862a) cell_vitu2_dropdown_list_ctrl_pane_g4_ParamLimits
 
-0xb81f,	// (0x00057a63) cell_vitu2_dropdown_list_ctrl_pane_g4
+0xb703,	// (0x0005862a) cell_vitu2_dropdown_list_ctrl_pane_g4
 
-0xac0e,	// (0x00056e52) cell_vitu2_dropdown_list_ctrl_pane_g5_ParamLimits
+0xab07,	// (0x00057a2e) cell_vitu2_dropdown_list_ctrl_pane_g5_ParamLimits
 
-0xac0e,	// (0x00056e52) cell_vitu2_dropdown_list_ctrl_pane_g5
+0xab07,	// (0x00057a2e) cell_vitu2_dropdown_list_ctrl_pane_g5
 
 0x0004,
 
-0xfa2b,	// (0x0005bc6f) cell_vitu2_dropdown_list_ctrl_pane_g_ParamLimits
+0xfa1c,	// (0x0005c943) cell_vitu2_dropdown_list_ctrl_pane_g_ParamLimits
 
-0xfa2b,	// (0x0005bc6f) cell_vitu2_dropdown_list_ctrl_pane_g
+0xfa1c,	// (0x0005c943) cell_vitu2_dropdown_list_ctrl_pane_g
 
-0xb83b,	// (0x00057a7f) aid_size_cell_gallery2_ParamLimits
+0xb71f,	// (0x00058646) aid_size_cell_gallery2_ParamLimits
 
-0xb83b,	// (0x00057a7f) aid_size_cell_gallery2
+0xb71f,	// (0x00058646) aid_size_cell_gallery2
 
-0xb849,	// (0x00057a8d) grid_gallery2_pane_ParamLimits
+0xb72d,	// (0x00058654) grid_gallery2_pane_ParamLimits
 
-0xb849,	// (0x00057a8d) grid_gallery2_pane
+0xb72d,	// (0x00058654) grid_gallery2_pane
 
-0xb858,	// (0x00057a9c) scroll_pane_cp029_ParamLimits
+0xb73c,	// (0x00058663) scroll_pane_cp029_ParamLimits
 
-0xb858,	// (0x00057a9c) scroll_pane_cp029
+0xb73c,	// (0x00058663) scroll_pane_cp029
 
-0xb864,	// (0x00057aa8) cell_gallery2_pane_ParamLimits
+0xb748,	// (0x0005866f) cell_gallery2_pane_ParamLimits
 
-0xb864,	// (0x00057aa8) cell_gallery2_pane
+0xb748,	// (0x0005866f) cell_gallery2_pane
 
-0xe249,	// (0x0005a48d) cell_gallery2_pane_g2
+0xe08c,	// (0x0005afb3) cell_gallery2_pane_g2
 
-0x1470,	// (0x0004d6b4) cell_gallery2_pane_g3
+0x106b,	// (0x0004df92) cell_gallery2_pane_g3
 
-0xe253,	// (0x0005a497) cell_gallery2_pane_g4
+0xe096,	// (0x0005afbd) cell_gallery2_pane_g4
 
-0xe25b,	// (0x0005a49f) cell_gallery2_pane_g5
+0xe09e,	// (0x0005afc5) cell_gallery2_pane_g5
 
-0x2d3c,	// (0x0004ef80) grid_highlight_pane_cp10
+0x29be,	// (0x0004f8e5) grid_highlight_pane_cp10
 
-0xaec7,	// (0x0005710b) popup_vitu2_match_list_window_ParamLimits
+0xadb9,	// (0x00057ce0) popup_vitu2_match_list_window_ParamLimits
 
-0xaedb,	// (0x0005711f) popup_vitu2_query_window_ParamLimits
+0xadcd,	// (0x00057cf4) popup_vitu2_query_window_ParamLimits
 
-0xaedb,	// (0x0005711f) popup_vitu2_query_window
+0xadcd,	// (0x00057cf4) popup_vitu2_query_window
 
-0x61c9,	// (0x0005240d) bg_vitu2_candi_button_pane
+0x5d04,	// (0x00052c2b) bg_vitu2_candi_button_pane
 
-0xe22e,	// (0x0005a472) cell_vitu2_dropdown_list_char_pane_g1_copy1
+0xe071,	// (0x0005af98) cell_vitu2_dropdown_list_char_pane_g1_copy1
 
-0xe237,	// (0x0005a47b) cell_vitu2_dropdown_list_char_pane_g2_copy1
+0xe07a,	// (0x0005afa1) cell_vitu2_dropdown_list_char_pane_g2_copy1
 
-0xe240,	// (0x0005a484) cell_vitu2_dropdown_list_char_pane_g2_copy2
+0xe083,	// (0x0005afaa) cell_vitu2_dropdown_list_char_pane_g2_copy2
 
-0xb892,	// (0x00057ad6) bg_button_pane_cp015
+0xb776,	// (0x0005869d) bg_button_pane_cp015
 
-0xb8a4,	// (0x00057ae8) bg_button_pane_cp016
+0xb788,	// (0x000586af) bg_button_pane_cp016
 
-0xb8b7,	// (0x00057afb) bg_button_pane_cp017
+0xb79b,	// (0x000586c2) bg_button_pane_cp017
 
-0x4150,	// (0x00050394) bg_popup_sub_pane_cp22
+0x3dd2,	// (0x00050cf9) bg_popup_sub_pane_cp22
 
-0xe263,	// (0x0005a4a7) popup_vitu2_query_window_g1
+0xe0a6,	// (0x0005afcd) popup_vitu2_query_window_g1
 
-0xb8fc,	// (0x00057b40) popup_vitu2_query_window_g2
+0xb7e0,	// (0x00058707) popup_vitu2_query_window_g2
 
 0x0002,
 
-0xfa36,	// (0x0005bc7a) popup_vitu2_query_window_g
+0xfa27,	// (0x0005c94e) popup_vitu2_query_window_g
 
-0xb919,	// (0x00057b5d) popup_vitu2_query_window_t1_ParamLimits
+0xb7fd,	// (0x00058724) popup_vitu2_query_window_t1_ParamLimits
 
-0xb919,	// (0x00057b5d) popup_vitu2_query_window_t1
+0xb7fd,	// (0x00058724) popup_vitu2_query_window_t1
 
-0xb94c,	// (0x00057b90) popup_vitu2_query_window_t2_ParamLimits
+0xb830,	// (0x00058757) popup_vitu2_query_window_t2_ParamLimits
 
-0xb94c,	// (0x00057b90) popup_vitu2_query_window_t2
+0xb830,	// (0x00058757) popup_vitu2_query_window_t2
 
-0xb95e,	// (0x00057ba2) popup_vitu2_query_window_t3_ParamLimits
+0xb842,	// (0x00058769) popup_vitu2_query_window_t3_ParamLimits
 
-0xb95e,	// (0x00057ba2) popup_vitu2_query_window_t3
+0xb842,	// (0x00058769) popup_vitu2_query_window_t3
 
-0xb986,	// (0x00057bca) popup_vitu2_query_window_t4_ParamLimits
+0xb86a,	// (0x00058791) popup_vitu2_query_window_t4_ParamLimits
 
-0xb986,	// (0x00057bca) popup_vitu2_query_window_t4
+0xb86a,	// (0x00058791) popup_vitu2_query_window_t4
 
-0xb9a7,	// (0x00057beb) popup_vitu2_query_window_t5_ParamLimits
+0xb88b,	// (0x000587b2) popup_vitu2_query_window_t5_ParamLimits
 
-0xb9a7,	// (0x00057beb) popup_vitu2_query_window_t5
-
-0x0006,
-
-0xfa3d,	// (0x0005bc81) popup_vitu2_query_window_t_ParamLimits
-
-0xfa3d,	// (0x0005bc81) popup_vitu2_query_window_t
-
-0xe104,	// (0x0005a348) main_cset_text_pane
-
-0xb2cb,	// (0x0005750f) aid_area_touch_slider_ParamLimits
-
-0xb2e7,	// (0x0005752b) cset_slider_pane_ParamLimits
-
-0xb311,	// (0x00057555) main_cset_slider_pane_g1_ParamLimits
-
-0xb326,	// (0x0005756a) main_cset_slider_pane_g2_ParamLimits
-
-0xe125,	// (0x0005a369) main_cset_slider_pane_g3_ParamLimits
-
-0xe125,	// (0x0005a369) main_cset_slider_pane_g3
-
-0xb33b,	// (0x0005757f) main_cset_slider_pane_g4_ParamLimits
-
-0xb33b,	// (0x0005757f) main_cset_slider_pane_g4
-
-0xb34a,	// (0x0005758e) main_cset_slider_pane_g5_ParamLimits
-
-0xb34a,	// (0x0005758e) main_cset_slider_pane_g5
-
-0xb358,	// (0x0005759c) main_cset_slider_pane_g6_ParamLimits
-
-0xb358,	// (0x0005759c) main_cset_slider_pane_g6
-
-0xf990,	// (0x0005bbd4) main_cset_slider_pane_g_ParamLimits
-
-0xe155,	// (0x0005a399) main_cset_slider_pane_t1_ParamLimits
-
-0xb3e8,	// (0x0005762c) main_cset_slider_pane_t2_ParamLimits
-
-0xb402,	// (0x00057646) main_cset_slider_pane_t3_ParamLimits
-
-0xb41c,	// (0x00057660) main_cset_slider_pane_t4_ParamLimits
-
-0xb436,	// (0x0005767a) main_cset_slider_pane_t5_ParamLimits
-
-0xb454,	// (0x00057698) main_cset_slider_pane_t6_ParamLimits
-
-0xb46b,	// (0x000576af) main_cset_slider_pane_t7_ParamLimits
-
-0xb499,	// (0x000576dd) main_cset_slider_pane_t8_ParamLimits
-
-0xb499,	// (0x000576dd) main_cset_slider_pane_t8
-
-0xb4c1,	// (0x00057705) main_cset_slider_pane_t9_ParamLimits
-
-0xb4c1,	// (0x00057705) main_cset_slider_pane_t9
-
-0xb4e9,	// (0x0005772d) main_cset_slider_pane_t10_ParamLimits
-
-0xb4e9,	// (0x0005772d) main_cset_slider_pane_t10
-
-0xb511,	// (0x00057755) main_cset_slider_pane_t11_ParamLimits
-
-0xb511,	// (0x00057755) main_cset_slider_pane_t11
-
-0xb53b,	// (0x0005777f) main_cset_slider_pane_t12_ParamLimits
-
-0xb53b,	// (0x0005777f) main_cset_slider_pane_t12
-
-0xb558,	// (0x0005779c) main_cset_slider_pane_t13_ParamLimits
-
-0xb558,	// (0x0005779c) main_cset_slider_pane_t13
-
-0xf9b5,	// (0x0005bbf9) main_cset_slider_pane_t_ParamLimits
-
-0x037e,	// (0x0004c5c2) bg_popup_sub_pane_cp011
-
-0xe26f,	// (0x0005a4b3) main_cset_text_pane_g1
-
-0xe277,	// (0x0005a4bb) main_cset_text_pane_t1
-
-0xe285,	// (0x0005a4c9) main_cset_text_pane_t2
-
-0xe293,	// (0x0005a4d7) main_cset_text_pane_t3
-
-0xe2a1,	// (0x0005a4e5) main_cset_text_pane_t4
-
-0xe2af,	// (0x0005a4f3) main_cset_text_pane_t5
-
-0xe2bd,	// (0x0005a501) main_cset_text_pane_t6
-
-0xe2cb,	// (0x0005a50f) main_cset_text_pane_t7
+0xb88b,	// (0x000587b2) popup_vitu2_query_window_t5
 
 0x0006,
 
-0xfa4c,	// (0x0005bc90) main_cset_text_pane_t
+0xfa2e,	// (0x0005c955) popup_vitu2_query_window_t_ParamLimits
 
-0x037e,	// (0x0004c5c2) main_cam4_burst_pane
+0xfa2e,	// (0x0005c955) popup_vitu2_query_window_t
 
-0x037e,	// (0x0004c5c2) main_cam5_pane
+0xdf47,	// (0x0005ae6e) main_cset_text_pane
 
-0xb21a,	// (0x0005745e) bg_button_pane_cp019
+0xb1bd,	// (0x000580e4) aid_area_touch_slider_ParamLimits
 
-0xb223,	// (0x00057467) bg_button_pane_cp020
+0xb1d9,	// (0x00058100) cset_slider_pane_ParamLimits
 
-0xe131,	// (0x0005a375) main_cset_slider_pane_g7_ParamLimits
+0xb203,	// (0x0005812a) main_cset_slider_pane_g1_ParamLimits
 
-0xe131,	// (0x0005a375) main_cset_slider_pane_g7
+0xb218,	// (0x0005813f) main_cset_slider_pane_g2_ParamLimits
 
-0xe13d,	// (0x0005a381) main_cset_slider_pane_g8_ParamLimits
+0xdf68,	// (0x0005ae8f) main_cset_slider_pane_g3_ParamLimits
 
-0xe13d,	// (0x0005a381) main_cset_slider_pane_g8
+0xdf68,	// (0x0005ae8f) main_cset_slider_pane_g3
 
-0xb36c,	// (0x000575b0) main_cset_slider_pane_g9_ParamLimits
+0xb22d,	// (0x00058154) main_cset_slider_pane_g4_ParamLimits
 
-0xb36c,	// (0x000575b0) main_cset_slider_pane_g9
+0xb22d,	// (0x00058154) main_cset_slider_pane_g4
 
-0xb378,	// (0x000575bc) main_cset_slider_pane_g10_ParamLimits
+0xb23c,	// (0x00058163) main_cset_slider_pane_g5_ParamLimits
 
-0xb378,	// (0x000575bc) main_cset_slider_pane_g10
+0xb23c,	// (0x00058163) main_cset_slider_pane_g5
 
-0xb384,	// (0x000575c8) main_cset_slider_pane_g11_ParamLimits
+0xb24a,	// (0x00058171) main_cset_slider_pane_g6_ParamLimits
 
-0xb384,	// (0x000575c8) main_cset_slider_pane_g11
+0xb24a,	// (0x00058171) main_cset_slider_pane_g6
 
-0xb390,	// (0x000575d4) main_cset_slider_pane_g12_ParamLimits
+0xf981,	// (0x0005c8a8) main_cset_slider_pane_g_ParamLimits
 
-0xb390,	// (0x000575d4) main_cset_slider_pane_g12
+0xdf98,	// (0x0005aebf) main_cset_slider_pane_t1_ParamLimits
 
-0xb39c,	// (0x000575e0) main_cset_slider_pane_g13_ParamLimits
+0xb2da,	// (0x00058201) main_cset_slider_pane_t2_ParamLimits
 
-0xb39c,	// (0x000575e0) main_cset_slider_pane_g13
+0xb2f4,	// (0x0005821b) main_cset_slider_pane_t3_ParamLimits
 
-0xb3a8,	// (0x000575ec) main_cset_slider_pane_g14_ParamLimits
+0xb30e,	// (0x00058235) main_cset_slider_pane_t4_ParamLimits
 
-0xb3a8,	// (0x000575ec) main_cset_slider_pane_g14
+0xb328,	// (0x0005824f) main_cset_slider_pane_t5_ParamLimits
 
-0xb3b4,	// (0x000575f8) main_cset_slider_pane_g15_ParamLimits
+0xb346,	// (0x0005826d) main_cset_slider_pane_t6_ParamLimits
 
-0xb3b4,	// (0x000575f8) main_cset_slider_pane_g15
+0xb35d,	// (0x00058284) main_cset_slider_pane_t7_ParamLimits
 
-0xe183,	// (0x0005a3c7) main_cset_slider_pane_t14_ParamLimits
+0xb38b,	// (0x000582b2) main_cset_slider_pane_t8_ParamLimits
 
-0xe183,	// (0x0005a3c7) main_cset_slider_pane_t14
+0xb38b,	// (0x000582b2) main_cset_slider_pane_t8
 
-0xe1bc,	// (0x0005a400) main_cset_slider_pane_t15_ParamLimits
+0xb3b3,	// (0x000582da) main_cset_slider_pane_t9_ParamLimits
 
-0xe1bc,	// (0x0005a400) main_cset_slider_pane_t15
+0xb3b3,	// (0x000582da) main_cset_slider_pane_t9
 
-0xba1e,	// (0x00057c62) aid_cam4_burst_size_cell_ParamLimits
+0xb3db,	// (0x00058302) main_cset_slider_pane_t10_ParamLimits
 
-0xba1e,	// (0x00057c62) aid_cam4_burst_size_cell
+0xb3db,	// (0x00058302) main_cset_slider_pane_t10
 
-0xba3a,	// (0x00057c7e) grid_cam4_burst_pane_ParamLimits
+0xb403,	// (0x0005832a) main_cset_slider_pane_t11_ParamLimits
 
-0xba3a,	// (0x00057c7e) grid_cam4_burst_pane
+0xb403,	// (0x0005832a) main_cset_slider_pane_t11
 
-0xba6a,	// (0x00057cae) linegrid_cam4_burst_pane_ParamLimits
+0xb42d,	// (0x00058354) main_cset_slider_pane_t12_ParamLimits
 
-0xba6a,	// (0x00057cae) linegrid_cam4_burst_pane
+0xb42d,	// (0x00058354) main_cset_slider_pane_t12
 
-0xba8a,	// (0x00057cce) scroll_pane_cp30_ParamLimits
+0xb44a,	// (0x00058371) main_cset_slider_pane_t13_ParamLimits
 
-0xba8a,	// (0x00057cce) scroll_pane_cp30
+0xb44a,	// (0x00058371) main_cset_slider_pane_t13
 
-0xba96,	// (0x00057cda) cell_cam4_burst_pane_ParamLimits
+0xf9a6,	// (0x0005c8cd) main_cset_slider_pane_t_ParamLimits
 
-0xba96,	// (0x00057cda) cell_cam4_burst_pane
+0x00f2,	// (0x0004d019) bg_popup_sub_pane_cp011
 
-0xe2d9,	// (0x0005a51d) linegrid_cam4_burst_pane_g1_ParamLimits
+0xe0b2,	// (0x0005afd9) main_cset_text_pane_g1
 
-0xe2d9,	// (0x0005a51d) linegrid_cam4_burst_pane_g1
+0xe0ba,	// (0x0005afe1) main_cset_text_pane_t1
 
-0xbad2,	// (0x00057d16) linegrid_cam4_burst_pane_g2_ParamLimits
+0xe0c8,	// (0x0005afef) main_cset_text_pane_t2
 
-0xbad2,	// (0x00057d16) linegrid_cam4_burst_pane_g2
+0xe0d6,	// (0x0005affd) main_cset_text_pane_t3
 
-0xe2e6,	// (0x0005a52a) linegrid_cam4_burst_pane_g3_ParamLimits
+0xe0e4,	// (0x0005b00b) main_cset_text_pane_t4
 
-0xe2e6,	// (0x0005a52a) linegrid_cam4_burst_pane_g3
+0xe0f2,	// (0x0005b019) main_cset_text_pane_t5
+
+0xe100,	// (0x0005b027) main_cset_text_pane_t6
+
+0xe10e,	// (0x0005b035) main_cset_text_pane_t7
+
+0x0006,
+
+0xfa3d,	// (0x0005c964) main_cset_text_pane_t
+
+0x5d04,	// (0x00052c2b) main_cam4_burst_pane
+
+0x5d04,	// (0x00052c2b) main_cam5_pane
+
+0xb10c,	// (0x00058033) bg_button_pane_cp019
+
+0xb115,	// (0x0005803c) bg_button_pane_cp020
+
+0xdf74,	// (0x0005ae9b) main_cset_slider_pane_g7_ParamLimits
+
+0xdf74,	// (0x0005ae9b) main_cset_slider_pane_g7
+
+0xdf80,	// (0x0005aea7) main_cset_slider_pane_g8_ParamLimits
+
+0xdf80,	// (0x0005aea7) main_cset_slider_pane_g8
+
+0xb25e,	// (0x00058185) main_cset_slider_pane_g9_ParamLimits
+
+0xb25e,	// (0x00058185) main_cset_slider_pane_g9
+
+0xb26a,	// (0x00058191) main_cset_slider_pane_g10_ParamLimits
+
+0xb26a,	// (0x00058191) main_cset_slider_pane_g10
+
+0xb276,	// (0x0005819d) main_cset_slider_pane_g11_ParamLimits
+
+0xb276,	// (0x0005819d) main_cset_slider_pane_g11
+
+0xb282,	// (0x000581a9) main_cset_slider_pane_g12_ParamLimits
+
+0xb282,	// (0x000581a9) main_cset_slider_pane_g12
+
+0xb28e,	// (0x000581b5) main_cset_slider_pane_g13_ParamLimits
+
+0xb28e,	// (0x000581b5) main_cset_slider_pane_g13
+
+0xb29a,	// (0x000581c1) main_cset_slider_pane_g14_ParamLimits
+
+0xb29a,	// (0x000581c1) main_cset_slider_pane_g14
+
+0xb2a6,	// (0x000581cd) main_cset_slider_pane_g15_ParamLimits
+
+0xb2a6,	// (0x000581cd) main_cset_slider_pane_g15
+
+0xdfc6,	// (0x0005aeed) main_cset_slider_pane_t14_ParamLimits
+
+0xdfc6,	// (0x0005aeed) main_cset_slider_pane_t14
+
+0xdfff,	// (0x0005af26) main_cset_slider_pane_t15_ParamLimits
+
+0xdfff,	// (0x0005af26) main_cset_slider_pane_t15
+
+0xb902,	// (0x00058829) aid_cam4_burst_size_cell_ParamLimits
+
+0xb902,	// (0x00058829) aid_cam4_burst_size_cell
+
+0xb91e,	// (0x00058845) grid_cam4_burst_pane_ParamLimits
+
+0xb91e,	// (0x00058845) grid_cam4_burst_pane
+
+0xb94e,	// (0x00058875) linegrid_cam4_burst_pane_ParamLimits
+
+0xb94e,	// (0x00058875) linegrid_cam4_burst_pane
+
+0xb96e,	// (0x00058895) scroll_pane_cp30_ParamLimits
+
+0xb96e,	// (0x00058895) scroll_pane_cp30
+
+0xb97a,	// (0x000588a1) cell_cam4_burst_pane_ParamLimits
+
+0xb97a,	// (0x000588a1) cell_cam4_burst_pane
+
+0xe11c,	// (0x0005b043) linegrid_cam4_burst_pane_g1_ParamLimits
+
+0xe11c,	// (0x0005b043) linegrid_cam4_burst_pane_g1
+
+0xb9b6,	// (0x000588dd) linegrid_cam4_burst_pane_g2_ParamLimits
+
+0xb9b6,	// (0x000588dd) linegrid_cam4_burst_pane_g2
+
+0xe129,	// (0x0005b050) linegrid_cam4_burst_pane_g3_ParamLimits
+
+0xe129,	// (0x0005b050) linegrid_cam4_burst_pane_g3
 
 0x0002,
 
-0xfa5b,	// (0x0005bc9f) linegrid_cam4_burst_pane_g_ParamLimits
+0xfa4c,	// (0x0005c973) linegrid_cam4_burst_pane_g_ParamLimits
 
-0xfa5b,	// (0x0005bc9f) linegrid_cam4_burst_pane_g
+0xfa4c,	// (0x0005c973) linegrid_cam4_burst_pane_g
 
-0xbae3,	// (0x00057d27) linegrid_cam4_burst_pane_g3_copy1_ParamLimits
+0xb9c7,	// (0x000588ee) linegrid_cam4_burst_pane_g3_copy1_ParamLimits
 
-0xbae3,	// (0x00057d27) linegrid_cam4_burst_pane_g3_copy1
+0xb9c7,	// (0x000588ee) linegrid_cam4_burst_pane_g3_copy1
 
-0xe2f3,	// (0x0005a537) linegrid_cam4_burst_pane_g4_ParamLimits
+0xe136,	// (0x0005b05d) linegrid_cam4_burst_pane_g4_ParamLimits
 
-0xe2f3,	// (0x0005a537) linegrid_cam4_burst_pane_g4
+0xe136,	// (0x0005b05d) linegrid_cam4_burst_pane_g4
 
-0xbafd,	// (0x00057d41) linegrid_cam4_burst_pane_g5_ParamLimits
+0xb9e1,	// (0x00058908) linegrid_cam4_burst_pane_g5_ParamLimits
 
-0xbafd,	// (0x00057d41) linegrid_cam4_burst_pane_g5
+0xb9e1,	// (0x00058908) linegrid_cam4_burst_pane_g5
 
-0xbb0e,	// (0x00057d52) linegrid_cam4_burst_pane_g6_ParamLimits
+0xb9f2,	// (0x00058919) linegrid_cam4_burst_pane_g6_ParamLimits
 
-0xbb0e,	// (0x00057d52) linegrid_cam4_burst_pane_g6
+0xb9f2,	// (0x00058919) linegrid_cam4_burst_pane_g6
 
-0xe300,	// (0x0005a544) linegrid_cam4_burst_pane_g7_ParamLimits
+0xe143,	// (0x0005b06a) linegrid_cam4_burst_pane_g7_ParamLimits
 
-0xe300,	// (0x0005a544) linegrid_cam4_burst_pane_g7
+0xe143,	// (0x0005b06a) linegrid_cam4_burst_pane_g7
 
-0xbb1f,	// (0x00057d63) cell_cam4_burst_pane_g1
+0xba03,	// (0x0005892a) cell_cam4_burst_pane_g1
 
-0xe319,	// (0x0005a55d) main_cam5_pane_t1_ParamLimits
+0xe15c,	// (0x0005b083) main_cam5_pane_t1_ParamLimits
 
-0xe319,	// (0x0005a55d) main_cam5_pane_t1
+0xe15c,	// (0x0005b083) main_cam5_pane_t1
 
-0xe32b,	// (0x0005a56f) main_cam5_pane_t2_ParamLimits
+0xe16e,	// (0x0005b095) main_cam5_pane_t2_ParamLimits
 
-0xe32b,	// (0x0005a56f) main_cam5_pane_t2
+0xe16e,	// (0x0005b095) main_cam5_pane_t2
 
-0xe33d,	// (0x0005a581) main_cam5_pane_t3_ParamLimits
+0xe180,	// (0x0005b0a7) main_cam5_pane_t3_ParamLimits
 
-0xe33d,	// (0x0005a581) main_cam5_pane_t3
+0xe180,	// (0x0005b0a7) main_cam5_pane_t3
 
-0xe34f,	// (0x0005a593) main_cam5_pane_t4_ParamLimits
+0xe192,	// (0x0005b0b9) main_cam5_pane_t4_ParamLimits
 
-0xe34f,	// (0x0005a593) main_cam5_pane_t4
+0xe192,	// (0x0005b0b9) main_cam5_pane_t4
 
-0xe367,	// (0x0005a5ab) main_cam5_pane_t5_ParamLimits
+0xe1aa,	// (0x0005b0d1) main_cam5_pane_t5_ParamLimits
 
-0xe367,	// (0x0005a5ab) main_cam5_pane_t5
+0xe1aa,	// (0x0005b0d1) main_cam5_pane_t5
 
-0xe37b,	// (0x0005a5bf) main_cam5_pane_t6_ParamLimits
+0xe1be,	// (0x0005b0e5) main_cam5_pane_t6_ParamLimits
 
-0xe37b,	// (0x0005a5bf) main_cam5_pane_t6
+0xe1be,	// (0x0005b0e5) main_cam5_pane_t6
 
-0xe38f,	// (0x0005a5d3) main_cam5_pane_t7_ParamLimits
+0xe1d2,	// (0x0005b0f9) main_cam5_pane_t7_ParamLimits
 
-0xe38f,	// (0x0005a5d3) main_cam5_pane_t7
+0xe1d2,	// (0x0005b0f9) main_cam5_pane_t7
 
-0xe3a1,	// (0x0005a5e5) main_cam5_pane_t8_ParamLimits
+0xe1e4,	// (0x0005b10b) main_cam5_pane_t8_ParamLimits
 
-0xe3a1,	// (0x0005a5e5) main_cam5_pane_t8
+0xe1e4,	// (0x0005b10b) main_cam5_pane_t8
 
-0xe3bd,	// (0x0005a601) main_cam5_pane_t9_ParamLimits
+0xe200,	// (0x0005b127) main_cam5_pane_t9_ParamLimits
 
-0xe3bd,	// (0x0005a601) main_cam5_pane_t9
+0xe200,	// (0x0005b127) main_cam5_pane_t9
 
-0xe3cf,	// (0x0005a613) main_cam5_pane_t10_ParamLimits
+0xe212,	// (0x0005b139) main_cam5_pane_t10_ParamLimits
 
-0xe3cf,	// (0x0005a613) main_cam5_pane_t10
+0xe212,	// (0x0005b139) main_cam5_pane_t10
 
-0xe3e1,	// (0x0005a625) main_cam5_pane_t11_ParamLimits
+0xe224,	// (0x0005b14b) main_cam5_pane_t11_ParamLimits
 
-0xe3e1,	// (0x0005a625) main_cam5_pane_t11
+0xe224,	// (0x0005b14b) main_cam5_pane_t11
 
-0xe3f3,	// (0x0005a637) main_cam5_pane_t12_ParamLimits
+0xe236,	// (0x0005b15d) main_cam5_pane_t12_ParamLimits
 
-0xe3f3,	// (0x0005a637) main_cam5_pane_t12
+0xe236,	// (0x0005b15d) main_cam5_pane_t12
 
-0xe408,	// (0x0005a64c) main_cam5_pane_t13_ParamLimits
+0xe24b,	// (0x0005b172) main_cam5_pane_t13_ParamLimits
 
-0xe408,	// (0x0005a64c) main_cam5_pane_t13
+0xe24b,	// (0x0005b172) main_cam5_pane_t13
 
 0x000c,
 
-0xfa67,	// (0x0005bcab) main_cam5_pane_t_ParamLimits
+0xfa58,	// (0x0005c97f) main_cam5_pane_t_ParamLimits
 
-0xfa67,	// (0x0005bcab) main_cam5_pane_t
+0xfa58,	// (0x0005c97f) main_cam5_pane_t
 
-0x5e25,	// (0x00052069) popup_scut_keymap_window_ParamLimits
+0x5cb3,	// (0x00052bda) popup_scut_keymap_window_ParamLimits
 
-0x5e25,	// (0x00052069) popup_scut_keymap_window
+0x5cb3,	// (0x00052bda) popup_scut_keymap_window
 
-0xbb32,	// (0x00057d76) aid_size_cell_brow_shortcut
+0xba16,	// (0x0005893d) aid_size_cell_brow_shortcut
 
-0x2d3c,	// (0x0004ef80) bg_popup_window_pane_cp010
+0x29be,	// (0x0004f8e5) bg_popup_window_pane_cp010
 
-0xbb3e,	// (0x00057d82) grid_scut_pane
+0xba22,	// (0x00058949) grid_scut_pane
 
-0xbb4a,	// (0x00057d8e) cell_scut_pane_ParamLimits
+0xba2e,	// (0x00058955) cell_scut_pane_ParamLimits
 
-0xbb4a,	// (0x00057d8e) cell_scut_pane
+0xba2e,	// (0x00058955) cell_scut_pane
 
-0xbb61,	// (0x00057da5) cell_scut_pane_g1
+0xba45,	// (0x0005896c) cell_scut_pane_g1
 
-0xe425,	// (0x0005a669) cell_scut_pane_t1
+0xe268,	// (0x0005b18f) cell_scut_pane_t1
 
-0xe434,	// (0x0005a678) cell_scut_pane_t2
+0xe277,	// (0x0005b19e) cell_scut_pane_t2
 
-0xbb6a,	// (0x00057dae) cell_scut_pane_t3
+0xba4e,	// (0x00058975) cell_scut_pane_t3
 
 0x0002,
 
-0xfa82,	// (0x0005bcc6) cell_scut_pane_t
+0xfa73,	// (0x0005c99a) cell_scut_pane_t
 
-0x99f4,	// (0x00055c38) main_mup3_pane_g8_ParamLimits
+0x98df,	// (0x00056806) main_mup3_pane_g8_ParamLimits
 
-0x99f4,	// (0x00055c38) main_mup3_pane_g8
+0x98df,	// (0x00056806) main_mup3_pane_g8
 
-0xadf1,	// (0x00057035) area_vitu2_query_pane_ParamLimits
+0xace3,	// (0x00057c0a) area_vitu2_query_pane_ParamLimits
 
-0xadf1,	// (0x00057035) area_vitu2_query_pane
+0xace3,	// (0x00057c0a) area_vitu2_query_pane
 
-0xb8ca,	// (0x00057b0e) input_focus_pane_cp08
+0xb7ae,	// (0x000586d5) input_focus_pane_cp08
 
-0xe443,	// (0x0005a687) area_vitu2_query_pane_g1
+0xe286,	// (0x0005b1ad) area_vitu2_query_pane_g1
 
-0xbb78,	// (0x00057dbc) area_vitu2_query_pane_g2
+0xba5c,	// (0x00058983) area_vitu2_query_pane_g2
 
 0x0001,
 
-0xfa89,	// (0x0005bccd) area_vitu2_query_pane_g
+0xfa7a,	// (0x0005c9a1) area_vitu2_query_pane_g
 
-0xbb89,	// (0x00057dcd) area_vitu2_query_pane_t1_ParamLimits
+0xba6d,	// (0x00058994) area_vitu2_query_pane_t1_ParamLimits
 
-0xbb89,	// (0x00057dcd) area_vitu2_query_pane_t1
+0xba6d,	// (0x00058994) area_vitu2_query_pane_t1
 
-0xbb9d,	// (0x00057de1) area_vitu2_query_pane_t2_ParamLimits
+0xba81,	// (0x000589a8) area_vitu2_query_pane_t2_ParamLimits
 
-0xbb9d,	// (0x00057de1) area_vitu2_query_pane_t2
+0xba81,	// (0x000589a8) area_vitu2_query_pane_t2
 
-0xbbb1,	// (0x00057df5) area_vitu2_query_pane_t3_ParamLimits
+0xba95,	// (0x000589bc) area_vitu2_query_pane_t3_ParamLimits
 
-0xbbb1,	// (0x00057df5) area_vitu2_query_pane_t3
+0xba95,	// (0x000589bc) area_vitu2_query_pane_t3
 
-0x0c08,	// (0x0004ce4c) area_vitu2_query_pane_t4_ParamLimits
+0x09bf,	// (0x0004d8e6) area_vitu2_query_pane_t4_ParamLimits
 
-0x0c08,	// (0x0004ce4c) area_vitu2_query_pane_t4
+0x09bf,	// (0x0004d8e6) area_vitu2_query_pane_t4
 
-0x0c30,	// (0x0004ce74) area_vitu2_query_pane_t5_ParamLimits
+0x09e7,	// (0x0004d90e) area_vitu2_query_pane_t5_ParamLimits
 
-0x0c30,	// (0x0004ce74) area_vitu2_query_pane_t5
+0x09e7,	// (0x0004d90e) area_vitu2_query_pane_t5
 
-0x0c58,	// (0x0004ce9c) area_vitu2_query_pane_t6_ParamLimits
+0x0a0f,	// (0x0004d936) area_vitu2_query_pane_t6_ParamLimits
 
-0x0c58,	// (0x0004ce9c) area_vitu2_query_pane_t6
+0x0a0f,	// (0x0004d936) area_vitu2_query_pane_t6
 
 0x0006,
 
-0xfa8e,	// (0x0005bcd2) area_vitu2_query_pane_t_ParamLimits
+0xfa7f,	// (0x0005c9a6) area_vitu2_query_pane_t_ParamLimits
 
-0xfa8e,	// (0x0005bcd2) area_vitu2_query_pane_t
+0xfa7f,	// (0x0005c9a6) area_vitu2_query_pane_t
 
-0xbbd9,	// (0x00057e1d) bg_button_pane_cp018
+0xbabd,	// (0x000589e4) bg_button_pane_cp018
 
-0xbbe7,	// (0x00057e2b) bg_button_pane_cp021
+0xbacb,	// (0x000589f2) bg_button_pane_cp021
 
-0xbbf3,	// (0x00057e37) bg_button_pane_cp022
+0xbad7,	// (0x000589fe) bg_button_pane_cp022
 
-0xbc04,	// (0x00057e48) input_focus_pane_cp09
+0xbae8,	// (0x00058a0f) input_focus_pane_cp09
 
-0x7e77,	// (0x000540bb) aid_size_touch_mv_arrow_left
+0x7d15,	// (0x00054c3c) aid_size_touch_mv_arrow_left
 
-0x7ea0,	// (0x000540e4) aid_size_touch_mv_arrow_right
+0x7d3e,	// (0x00054c65) aid_size_touch_mv_arrow_right
 
-0xb3cc,	// (0x00057610) main_cset_slider_pane_g16_ParamLimits
+0xb2be,	// (0x000581e5) main_cset_slider_pane_g16_ParamLimits
 
-0xb3cc,	// (0x00057610) main_cset_slider_pane_g16
+0xb2be,	// (0x000581e5) main_cset_slider_pane_g16
 
-0xb3da,	// (0x0005761e) main_cset_slider_pane_g17_ParamLimits
+0xb2cc,	// (0x000581f3) main_cset_slider_pane_g17_ParamLimits
 
-0xb3da,	// (0x0005761e) main_cset_slider_pane_g17
+0xb2cc,	// (0x000581f3) main_cset_slider_pane_g17
 
-0xbb1f,	// (0x00057d63) cell_cam4_burst_pane_g1_ParamLimits
+0xba03,	// (0x0005892a) cell_cam4_burst_pane_g1_ParamLimits
 
-0x037e,	// (0x0004c5c2) compa_mode_pane
+0x00f2,	// (0x0004d019) compa_mode_pane
 
-0xb5f8,	// (0x0005783c) popup_vtel_slider_window_g3_ParamLimits
+0xb4ea,	// (0x00058411) popup_vtel_slider_window_g3_ParamLimits
 
-0xb5f8,	// (0x0005783c) popup_vtel_slider_window_g3
+0xb4ea,	// (0x00058411) popup_vtel_slider_window_g3
 
-0xb60c,	// (0x00057850) popup_vtel_slider_window_g4_ParamLimits
+0xb4fe,	// (0x00058425) popup_vtel_slider_window_g4_ParamLimits
 
-0xb60c,	// (0x00057850) popup_vtel_slider_window_g4
+0xb4fe,	// (0x00058425) popup_vtel_slider_window_g4
 
-0xb620,	// (0x00057864) popup_vtel_slider_window_t1_ParamLimits
+0xb512,	// (0x00058439) popup_vtel_slider_window_t1_ParamLimits
 
-0xb620,	// (0x00057864) popup_vtel_slider_window_t1
+0xb512,	// (0x00058439) popup_vtel_slider_window_t1
 
-0x037e,	// (0x0004c5c2) main_cl_pane
+0x5d04,	// (0x00052c2b) main_cl_pane
 
-0x4178,	// (0x000503bc) popup_imed_adjust2_window_ParamLimits
+0x8c22,	// (0x00055b49) popup_imed_adjust2_window_ParamLimits
 
-0x4150,	// (0x00050394) bg_tb_trans_pane_cp05_ParamLimits
+0x3dd2,	// (0x00050cf9) bg_tb_trans_pane_cp05_ParamLimits
 
-0x4aa4,	// (0x00050ce8) popup_imed_adjust2_window_g1_ParamLimits
+0x46e7,	// (0x0005160e) popup_imed_adjust2_window_g1_ParamLimits
 
-0x4ab3,	// (0x00050cf7) popup_imed_adjust2_window_g2_ParamLimits
+0x46f6,	// (0x0005161d) popup_imed_adjust2_window_g2_ParamLimits
 
-0x4ab3,	// (0x00050cf7) popup_imed_adjust2_window_g2
+0x46f6,	// (0x0005161d) popup_imed_adjust2_window_g2
 
-0x4abf,	// (0x00050d03) popup_imed_adjust2_window_g3_ParamLimits
+0x4702,	// (0x00051629) popup_imed_adjust2_window_g3_ParamLimits
 
-0x4abf,	// (0x00050d03) popup_imed_adjust2_window_g3
+0x4702,	// (0x00051629) popup_imed_adjust2_window_g3
 
 0x0002,
 
-0xf7f9,	// (0x0005ba3d) popup_imed_adjust2_window_g_ParamLimits
+0xf7ea,	// (0x0005c711) popup_imed_adjust2_window_g_ParamLimits
 
-0xf7f9,	// (0x0005ba3d) popup_imed_adjust2_window_g
+0xf7ea,	// (0x0005c711) popup_imed_adjust2_window_g
 
-0x4acb,	// (0x00050d0f) popup_imed_adjust2_window_t1_ParamLimits
+0x470e,	// (0x00051635) popup_imed_adjust2_window_t1_ParamLimits
 
-0x4ae3,	// (0x00050d27) slider_imed_adjust_pane_ParamLimits
+0x4726,	// (0x0005164d) slider_imed_adjust_pane_ParamLimits
 
-0x4af7,	// (0x00050d3b) slider_imed_adjust_pane_g1_ParamLimits
+0x473a,	// (0x00051661) slider_imed_adjust_pane_g1_ParamLimits
 
-0x4b07,	// (0x00050d4b) slider_imed_adjust_pane_g2_ParamLimits
+0x474a,	// (0x00051671) slider_imed_adjust_pane_g2_ParamLimits
 
-0x4b17,	// (0x00050d5b) slider_imed_adjust_pane_g3_ParamLimits
+0x475a,	// (0x00051681) slider_imed_adjust_pane_g3_ParamLimits
 
-0x4b28,	// (0x00050d6c) slider_imed_adjust_pane_g4_ParamLimits
+0x476b,	// (0x00051692) slider_imed_adjust_pane_g4_ParamLimits
 
-0xf800,	// (0x0005ba44) slider_imed_adjust_pane_g_ParamLimits
+0xf7f1,	// (0x0005c718) slider_imed_adjust_pane_g_ParamLimits
 
-0xab23,	// (0x00056d67) aid_touch_area_cam4_ParamLimits
+0xaa1c,	// (0x00057943) aid_touch_area_cam4_ParamLimits
 
-0xab23,	// (0x00056d67) aid_touch_area_cam4
+0xaa1c,	// (0x00057943) aid_touch_area_cam4
 
-0xab33,	// (0x00056d77) battery_pane_cp01
+0xaa2c,	// (0x00057953) battery_pane_cp01
 
-0xabba,	// (0x00056dfe) main_camera4_pane_g6_ParamLimits
+0xaab3,	// (0x000579da) main_camera4_pane_g6_ParamLimits
 
-0xabba,	// (0x00056dfe) main_camera4_pane_g6
+0xaab3,	// (0x000579da) main_camera4_pane_g6
 
-0xabd8,	// (0x00056e1c) main_camera4_pane_t2_ParamLimits
+0xaad1,	// (0x000579f8) main_camera4_pane_t2_ParamLimits
 
-0xabd8,	// (0x00056e1c) main_camera4_pane_t2
-
-0x0001,
-
-0xf903,	// (0x0005bb47) main_camera4_pane_t_ParamLimits
-
-0xf903,	// (0x0005bb47) main_camera4_pane_t
-
-0xac6d,	// (0x00056eb1) aid_touch_area_vid4_ParamLimits
-
-0xac6d,	// (0x00056eb1) aid_touch_area_vid4
-
-0xacad,	// (0x00056ef1) main_video4_pane_g5_ParamLimits
-
-0xacad,	// (0x00056ef1) main_video4_pane_g5
-
-0xaccf,	// (0x00056f13) vid4_progress_pane_ParamLimits
-
-0xaccf,	// (0x00056f13) vid4_progress_pane
-
-0xe149,	// (0x0005a38d) main_cset_slider_pane_g18_ParamLimits
-
-0xe149,	// (0x0005a38d) main_cset_slider_pane_g18
-
-0xe30d,	// (0x0005a551) cell_cam4_burst_pane_g2_ParamLimits
-
-0xe30d,	// (0x0005a551) cell_cam4_burst_pane_g2
+0xaad1,	// (0x000579f8) main_camera4_pane_t2
 
 0x0001,
 
-0xfa62,	// (0x0005bca6) cell_cam4_burst_pane_g_ParamLimits
+0xf8f4,	// (0x0005c81b) main_camera4_pane_t_ParamLimits
 
-0xfa62,	// (0x0005bca6) cell_cam4_burst_pane_g
+0xf8f4,	// (0x0005c81b) main_camera4_pane_t
 
-0xbc15,	// (0x00057e59) bg_cl_pane_ParamLimits
+0xab66,	// (0x00057a8d) aid_touch_area_vid4_ParamLimits
 
-0xbc15,	// (0x00057e59) bg_cl_pane
+0xab66,	// (0x00057a8d) aid_touch_area_vid4
 
-0xbc21,	// (0x00057e65) cl_header_pane_ParamLimits
+0xaba6,	// (0x00057acd) main_video4_pane_g5_ParamLimits
 
-0xbc21,	// (0x00057e65) cl_header_pane
+0xaba6,	// (0x00057acd) main_video4_pane_g5
 
-0xbc2d,	// (0x00057e71) cl_listscroll_pane_ParamLimits
+0xabca,	// (0x00057af1) vid4_progress_pane_ParamLimits
 
-0xbc2d,	// (0x00057e71) cl_listscroll_pane
+0xabca,	// (0x00057af1) vid4_progress_pane
 
-0xe44f,	// (0x0005a693) bg_cl_pane_g1
+0xdf8c,	// (0x0005aeb3) main_cset_slider_pane_g18_ParamLimits
 
-0xe457,	// (0x0005a69b) bg_cl_pane_g2
+0xdf8c,	// (0x0005aeb3) main_cset_slider_pane_g18
 
-0xe45f,	// (0x0005a6a3) bg_cl_pane_g3
+0xe150,	// (0x0005b077) cell_cam4_burst_pane_g2_ParamLimits
 
-0xe467,	// (0x0005a6ab) bg_cl_pane_g4
+0xe150,	// (0x0005b077) cell_cam4_burst_pane_g2
 
-0xe46f,	// (0x0005a6b3) bg_cl_pane_g5
+0x0001,
 
-0xe477,	// (0x0005a6bb) bg_cl_pane_g6
+0xfa53,	// (0x0005c97a) cell_cam4_burst_pane_g_ParamLimits
 
-0xe47f,	// (0x0005a6c3) bg_cl_pane_g7
+0xfa53,	// (0x0005c97a) cell_cam4_burst_pane_g
 
-0xe487,	// (0x0005a6cb) bg_cl_pane_g8
+0xbaf9,	// (0x00058a20) bg_cl_pane_ParamLimits
 
-0xe48f,	// (0x0005a6d3) bg_cl_pane_g9
+0xbaf9,	// (0x00058a20) bg_cl_pane
+
+0xbb05,	// (0x00058a2c) cl_header_pane_ParamLimits
+
+0xbb05,	// (0x00058a2c) cl_header_pane
+
+0xbb11,	// (0x00058a38) cl_listscroll_pane_ParamLimits
+
+0xbb11,	// (0x00058a38) cl_listscroll_pane
+
+0xe292,	// (0x0005b1b9) bg_cl_pane_g1
+
+0xe29a,	// (0x0005b1c1) bg_cl_pane_g2
+
+0xe2a2,	// (0x0005b1c9) bg_cl_pane_g3
+
+0xe2aa,	// (0x0005b1d1) bg_cl_pane_g4
+
+0xe2b2,	// (0x0005b1d9) bg_cl_pane_g5
+
+0xe2ba,	// (0x0005b1e1) bg_cl_pane_g6
+
+0xe2c2,	// (0x0005b1e9) bg_cl_pane_g7
+
+0xe2ca,	// (0x0005b1f1) bg_cl_pane_g8
+
+0xe2d2,	// (0x0005b1f9) bg_cl_pane_g9
 
 0x0008,
 
-0xfa9d,	// (0x0005bce1) bg_cl_pane_g
+0xfa8e,	// (0x0005c9b5) bg_cl_pane_g
 
-0xbc39,	// (0x00057e7d) aid_height_cl_leading_ParamLimits
+0xbb1d,	// (0x00058a44) aid_height_cl_leading_ParamLimits
 
-0xbc39,	// (0x00057e7d) aid_height_cl_leading
+0xbb1d,	// (0x00058a44) aid_height_cl_leading
 
-0xbc45,	// (0x00057e89) aid_height_cl_text_ParamLimits
+0xbb29,	// (0x00058a50) aid_height_cl_text_ParamLimits
 
-0xbc45,	// (0x00057e89) aid_height_cl_text
+0xbb29,	// (0x00058a50) aid_height_cl_text
 
-0x0b21,	// (0x0004cd65) bg_cl_header_pane_ParamLimits
+0xa1f5,	// (0x0005711c) bg_cl_header_pane_ParamLimits
 
-0x0b21,	// (0x0004cd65) bg_cl_header_pane
+0xa1f5,	// (0x0005711c) bg_cl_header_pane
 
-0xbc5d,	// (0x00057ea1) cl_header_pane_g1_ParamLimits
+0xbb41,	// (0x00058a68) cl_header_pane_g1_ParamLimits
 
-0xbc5d,	// (0x00057ea1) cl_header_pane_g1
+0xbb41,	// (0x00058a68) cl_header_pane_g1
 
-0xbc6a,	// (0x00057eae) cl_header_pane_t1_ParamLimits
+0xbb4e,	// (0x00058a75) cl_header_pane_t1_ParamLimits
 
-0xbc6a,	// (0x00057eae) cl_header_pane_t1
+0xbb4e,	// (0x00058a75) cl_header_pane_t1
 
-0xe497,	// (0x0005a6db) cl_list_pane
+0xe2da,	// (0x0005b201) cl_list_pane
 
-0xe11c,	// (0x0005a360) hc_scroll_pane_cp01
+0xdf5f,	// (0x0005ae86) hc_scroll_pane_cp01
 
-0x263f,	// (0x0004e883) bg_cl_header_pane_g1
+0x22c1,	// (0x0004f1e8) bg_cl_header_pane_g1
 
-0xe002,	// (0x0005a246) bg_cl_header_pane_g2
+0xde45,	// (0x0005ad6c) bg_cl_header_pane_g2
 
-0x265f,	// (0x0004e8a3) bg_cl_header_pane_g3
+0x22e1,	// (0x0004f208) bg_cl_header_pane_g3
 
-0xe012,	// (0x0005a256) bg_cl_header_pane_g4
+0xde55,	// (0x0005ad7c) bg_cl_header_pane_g4
 
-0xe00a,	// (0x0005a24e) bg_cl_header_pane_g5
+0xde4d,	// (0x0005ad74) bg_cl_header_pane_g5
 
-0xe226,	// (0x0005a46a) bg_cl_header_pane_g6
+0xe069,	// (0x0005af90) bg_cl_header_pane_g6
 
-0xe02a,	// (0x0005a26e) bg_cl_header_pane_g7
+0xde6d,	// (0x0005ad94) bg_cl_header_pane_g7
 
-0xe032,	// (0x0005a276) bg_cl_header_pane_g8
+0xde75,	// (0x0005ad9c) bg_cl_header_pane_g8
 
-0xe022,	// (0x0005a266) bg_cl_header_pane_g9
+0xde65,	// (0x0005ad8c) bg_cl_header_pane_g9
 
 0x0008,
 
-0xfab0,	// (0x0005bcf4) bg_cl_header_pane_g
+0xfaa1,	// (0x0005c9c8) bg_cl_header_pane_g
 
-0xbc7c,	// (0x00057ec0) hc_cl_list_double_graphic_heading_pane_ParamLimits
+0xbb60,	// (0x00058a87) hc_cl_list_double_graphic_heading_pane_ParamLimits
 
-0xbc7c,	// (0x00057ec0) hc_cl_list_double_graphic_heading_pane
+0xbb60,	// (0x00058a87) hc_cl_list_double_graphic_heading_pane
 
-0xbc8d,	// (0x00057ed1) hc_cl_list_single_graphic_pane_ParamLimits
+0xbb71,	// (0x00058a98) hc_cl_list_single_graphic_pane_ParamLimits
 
-0xbc8d,	// (0x00057ed1) hc_cl_list_single_graphic_pane
+0xbb71,	// (0x00058a98) hc_cl_list_single_graphic_pane
 
-0xbca6,	// (0x00057eea) hc_cl_list_single_graphic_pane_g1_ParamLimits
+0xbb8a,	// (0x00058ab1) hc_cl_list_single_graphic_pane_g1_ParamLimits
 
-0xbca6,	// (0x00057eea) hc_cl_list_single_graphic_pane_g1
+0xbb8a,	// (0x00058ab1) hc_cl_list_single_graphic_pane_g1
 
-0xbcb2,	// (0x00057ef6) hc_cl_list_single_graphic_pane_g2_ParamLimits
+0xbb96,	// (0x00058abd) hc_cl_list_single_graphic_pane_g2_ParamLimits
 
-0xbcb2,	// (0x00057ef6) hc_cl_list_single_graphic_pane_g2
+0xbb96,	// (0x00058abd) hc_cl_list_single_graphic_pane_g2
 
 0x0001,
 
-0xfac3,	// (0x0005bd07) hc_cl_list_single_graphic_pane_g_ParamLimits
+0xfab4,	// (0x0005c9db) hc_cl_list_single_graphic_pane_g_ParamLimits
 
-0xfac3,	// (0x0005bd07) hc_cl_list_single_graphic_pane_g
+0xfab4,	// (0x0005c9db) hc_cl_list_single_graphic_pane_g
 
-0xbcc6,	// (0x00057f0a) hc_cl_list_single_graphic_pane_t1_ParamLimits
+0xbbaa,	// (0x00058ad1) hc_cl_list_single_graphic_pane_t1_ParamLimits
 
-0xbcc6,	// (0x00057f0a) hc_cl_list_single_graphic_pane_t1
+0xbbaa,	// (0x00058ad1) hc_cl_list_single_graphic_pane_t1
 
-0xbca6,	// (0x00057eea) hc_cl_list_double_graphic_heading_pane_g1_ParamLimits
+0xbb8a,	// (0x00058ab1) hc_cl_list_double_graphic_heading_pane_g1_ParamLimits
 
-0xbca6,	// (0x00057eea) hc_cl_list_double_graphic_heading_pane_g1
+0xbb8a,	// (0x00058ab1) hc_cl_list_double_graphic_heading_pane_g1
 
-0xbcdb,	// (0x00057f1f) hc_cl_list_double_graphic_heading_pane_g2_ParamLimits
+0xbbbf,	// (0x00058ae6) hc_cl_list_double_graphic_heading_pane_g2_ParamLimits
 
-0xbcdb,	// (0x00057f1f) hc_cl_list_double_graphic_heading_pane_g2
+0xbbbf,	// (0x00058ae6) hc_cl_list_double_graphic_heading_pane_g2
 
-0xbcef,	// (0x00057f33) hc_cl_list_double_graphic_heading_pane_g3_ParamLimits
+0xbbd3,	// (0x00058afa) hc_cl_list_double_graphic_heading_pane_g3_ParamLimits
 
-0xbcef,	// (0x00057f33) hc_cl_list_double_graphic_heading_pane_g3
+0xbbd3,	// (0x00058afa) hc_cl_list_double_graphic_heading_pane_g3
 
 0x0002,
 
-0xfac8,	// (0x0005bd0c) hc_cl_list_double_graphic_heading_pane_g_ParamLimits
+0xfab9,	// (0x0005c9e0) hc_cl_list_double_graphic_heading_pane_g_ParamLimits
 
-0xfac8,	// (0x0005bd0c) hc_cl_list_double_graphic_heading_pane_g
+0xfab9,	// (0x0005c9e0) hc_cl_list_double_graphic_heading_pane_g
 
-0xbd03,	// (0x00057f47) hc_cl_list_double_graphic_heading_pane_t1_ParamLimits
+0xbbe7,	// (0x00058b0e) hc_cl_list_double_graphic_heading_pane_t1_ParamLimits
 
-0xbd03,	// (0x00057f47) hc_cl_list_double_graphic_heading_pane_t1
+0xbbe7,	// (0x00058b0e) hc_cl_list_double_graphic_heading_pane_t1
 
-0xbd18,	// (0x00057f5c) hc_cl_list_double_graphic_heading_pane_t2_ParamLimits
+0xbbfc,	// (0x00058b23) hc_cl_list_double_graphic_heading_pane_t2_ParamLimits
 
-0xbd18,	// (0x00057f5c) hc_cl_list_double_graphic_heading_pane_t2
+0xbbfc,	// (0x00058b23) hc_cl_list_double_graphic_heading_pane_t2
 
 0x0001,
 
-0xfacf,	// (0x0005bd13) hc_cl_list_double_graphic_heading_pane_t_ParamLimits
+0xfac0,	// (0x0005c9e7) hc_cl_list_double_graphic_heading_pane_t_ParamLimits
 
-0xfacf,	// (0x0005bd13) hc_cl_list_double_graphic_heading_pane_t
+0xfac0,	// (0x0005c9e7) hc_cl_list_double_graphic_heading_pane_t
 
-0xbd35,	// (0x00057f79) vid4_progress_pane_g1
+0xbc19,	// (0x00058b40) vid4_progress_pane_g1
 
-0xbd45,	// (0x00057f89) vid4_progress_pane_g2
+0xbc2b,	// (0x00058b52) vid4_progress_pane_g2
 
-0x2904,	// (0x0004eb48) vid4_progress_pane_g3
+0x2586,	// (0x0004f4ad) vid4_progress_pane_g3
 
-0xbd55,	// (0x00057f99) vid4_progress_pane_g4
+0xbc3b,	// (0x00058b62) vid4_progress_pane_g4
 
 0x0004,
 
-0xfad4,	// (0x0005bd18) vid4_progress_pane_g
+0xfac5,	// (0x0005c9ec) vid4_progress_pane_g
 
-0xbd73,	// (0x00057fb7) vid4_progress_pane_t1
+0xbc59,	// (0x00058b80) vid4_progress_pane_t1
 
-0xbd88,	// (0x00057fcc) vid4_progress_pane_t2
-
-0x0002,
-
-0xfadf,	// (0x0005bd23) vid4_progress_pane_t
-
-0xbdb3,	// (0x00057ff7) wait_bar_pane_cp07
-
-0x438a,	// (0x000505ce) blid_firmament_pane_ParamLimits
-
-0x43cd,	// (0x00050611) popup_blid_sat_info2_window_g1
-
-0x43f1,	// (0x00050635) popup_blid_sat_info2_window_t3
-
-0x43ff,	// (0x00050643) popup_blid_sat_info2_window_t4
-
-0x440d,	// (0x00050651) popup_blid_sat_info2_window_t5
-
-0x441b,	// (0x0005065f) popup_blid_sat_info2_window_t6
-
-0x442b,	// (0x0005066f) popup_blid_sat_info2_window_t7
-
-0x4439,	// (0x0005067d) popup_blid_sat_info2_window_t8
-
-0x4447,	// (0x0005068b) popup_blid_sat_info2_window_t9
-
-0x4455,	// (0x00050699) popup_blid_sat_info2_window_t10
-
-0x4517,	// (0x0005075b) aid_firma_cardinal_ParamLimits
-
-0x452b,	// (0x0005076f) blid_firmament_pane_t1_ParamLimits
-
-0x4542,	// (0x00050786) blid_firmament_pane_t2_ParamLimits
-
-0x4559,	// (0x0005079d) blid_firmament_pane_t3_ParamLimits
-
-0x4570,	// (0x000507b4) blid_firmament_pane_t4_ParamLimits
-
-0xf6f2,	// (0x0005b936) blid_firmament_pane_t_ParamLimits
-
-0x4587,	// (0x000507cb) blid_sat_info_pane_ParamLimits
-
-0x334c,	// (0x0004f590) main_cam_set_pane_ParamLimits
-
-0xa19e,	// (0x000563e2) aid_size_cell_colour_35_ParamLimits
-
-0xa1b8,	// (0x000563fc) aid_size_cell_colour_112_ParamLimits
-
-0xa1cf,	// (0x00056413) aid_size_cell_effect_ParamLimits
-
-0x334c,	// (0x0004f590) bg_tb_trans_pane_cp02_ParamLimits
-
-0x335a,	// (0x0004f59e) heading_imed_pane_ParamLimits
-
-0xa1e9,	// (0x0005642d) listscroll_imed_pane_ParamLimits
-
-0x3782,	// (0x0004f9c6) popup_call2_audio_first_window_g5_ParamLimits
-
-0x3782,	// (0x0004f9c6) popup_call2_audio_first_window_g5
-
-0xa8d2,	// (0x00056b16) aid_size_touch_image3_arrow_left_ParamLimits
-
-0xa8d2,	// (0x00056b16) aid_size_touch_image3_arrow_left
-
-0xa8e8,	// (0x00056b2c) aid_size_touch_image3_arrow_right_ParamLimits
-
-0xa8e8,	// (0x00056b2c) aid_size_touch_image3_arrow_right
-
-0xbd9e,	// (0x00057fe2) vid4_progress_pane_t3
-
-0xa487,	// (0x000566cb) main_hwr_training_symbol_option_pane_ParamLimits
-
-0xa487,	// (0x000566cb) main_hwr_training_symbol_option_pane
-
-0x4d91,	// (0x00050fd5) popup_hwr_training_preview_window_ParamLimits
-
-0x4d91,	// (0x00050fd5) popup_hwr_training_preview_window
-
-0xa4e8,	// (0x0005672c) hwr_training_navi_pane_g5_ParamLimits
-
-0xa4e8,	// (0x0005672c) hwr_training_navi_pane_g5
-
-0xdff0,	// (0x0005a234) popup_char_count_window
-
-0xb716,	// (0x0005795a) bg_popup_sub_pane_cp20_ParamLimits
-
-0xb724,	// (0x00057968) list_vitu2_match_list_pane_ParamLimits
-
-0xb730,	// (0x00057974) vitu2_page_scroll_pane_ParamLimits
-
-0xb730,	// (0x00057974) vitu2_page_scroll_pane
-
-0xe4a0,	// (0x0005a6e4) list_single_hwr_training_symbol_option_pane_ParamLimits
-
-0xe4a0,	// (0x0005a6e4) list_single_hwr_training_symbol_option_pane
-
-0xe4b3,	// (0x0005a6f7) list_single_hwr_training_symbol_option_pane_g1
-
-0xe4bb,	// (0x0005a6ff) list_single_hwr_training_symbol_option_pane_t1
-
-0xe4c9,	// (0x0005a70d) bg_button_pane_cp023
-
-0xe4d2,	// (0x0005a716) bg_button_pane_cp024
-
-0xbdc5,	// (0x00058009) vitu2_page_scroll_pane_g1
-
-0xbdcd,	// (0x00058011) vitu2_page_scroll_pane_g2
-
-0x0001,
-
-0xfae6,	// (0x0005bd2a) vitu2_page_scroll_pane_g
-
-0xbdd5,	// (0x00058019) vitu2_page_scroll_pane_t1
-
-0xe505,	// (0x0005a749) popup_char_count_window_g1
-
-0xe50e,	// (0x0005a752) popup_char_count_window_g2
-
-0xe517,	// (0x0005a75b) popup_char_count_window_g3
+0xbc6e,	// (0x00058b95) vid4_progress_pane_t2
 
 0x0002,
 
-0xfaeb,	// (0x0005bd2f) popup_char_count_window_g
+0xfad0,	// (0x0005c9f7) vid4_progress_pane_t
 
-0xe520,	// (0x0005a764) popup_char_count_window_t1
+0xbc99,	// (0x00058bc0) wait_bar_pane_cp07
 
-0x037e,	// (0x0004c5c2) main_vded2_pane
+0x3fcd,	// (0x00050ef4) blid_firmament_pane_ParamLimits
 
-0x4a90,	// (0x00050cd4) aid_size_cell_imed_line
+0x4010,	// (0x00050f37) popup_blid_sat_info2_window_g1
 
-0x4a9a,	// (0x00050cde) grid_imed_line_width_pane
+0x4034,	// (0x00050f5b) popup_blid_sat_info2_window_t3
 
-0xad46,	// (0x00056f8a) vid4_indicators_pane_g4
+0x4042,	// (0x00050f69) popup_blid_sat_info2_window_t4
 
-0xe52e,	// (0x0005a772) cell_imed_line_width_pane_ParamLimits
+0x4050,	// (0x00050f77) popup_blid_sat_info2_window_t5
 
-0xe52e,	// (0x0005a772) cell_imed_line_width_pane
+0x405e,	// (0x00050f85) popup_blid_sat_info2_window_t6
 
-0xe542,	// (0x0005a786) cell_imed_line_width_pane_g1
+0x406e,	// (0x00050f95) popup_blid_sat_info2_window_t7
 
-0x45c1,	// (0x00050805) cell_imed_line_width_pane_g2
+0x407c,	// (0x00050fa3) popup_blid_sat_info2_window_t8
+
+0x408a,	// (0x00050fb1) popup_blid_sat_info2_window_t9
+
+0x4098,	// (0x00050fbf) popup_blid_sat_info2_window_t10
+
+0x416b,	// (0x00051092) aid_firma_cardinal_ParamLimits
+
+0x417f,	// (0x000510a6) blid_firmament_pane_t1_ParamLimits
+
+0x4196,	// (0x000510bd) blid_firmament_pane_t2_ParamLimits
+
+0x41ad,	// (0x000510d4) blid_firmament_pane_t3_ParamLimits
+
+0x41c4,	// (0x000510eb) blid_firmament_pane_t4_ParamLimits
+
+0xf6e3,	// (0x0005c60a) blid_firmament_pane_t_ParamLimits
+
+0x41db,	// (0x00051102) blid_sat_info_pane_ParamLimits
+
+0x8b84,	// (0x00055aab) main_cam_set_pane_ParamLimits
+
+0xa089,	// (0x00056fb0) aid_size_cell_colour_35_ParamLimits
+
+0xa0a3,	// (0x00056fca) aid_size_cell_colour_112_ParamLimits
+
+0xa0ba,	// (0x00056fe1) aid_size_cell_effect_ParamLimits
+
+0x3810,	// (0x00050737) bg_tb_trans_pane_cp02_ParamLimits
+
+0x381e,	// (0x00050745) heading_imed_pane_ParamLimits
+
+0xa0d4,	// (0x00056ffb) listscroll_imed_pane_ParamLimits
+
+0x33ea,	// (0x00050311) popup_call2_audio_first_window_g5_ParamLimits
+
+0x33ea,	// (0x00050311) popup_call2_audio_first_window_g5
+
+0xa7cb,	// (0x000576f2) aid_size_touch_image3_arrow_left_ParamLimits
+
+0xa7cb,	// (0x000576f2) aid_size_touch_image3_arrow_left
+
+0xa7e1,	// (0x00057708) aid_size_touch_image3_arrow_right_ParamLimits
+
+0xa7e1,	// (0x00057708) aid_size_touch_image3_arrow_right
+
+0xbc84,	// (0x00058bab) vid4_progress_pane_t3
+
+0xa380,	// (0x000572a7) main_hwr_training_symbol_option_pane_ParamLimits
+
+0xa380,	// (0x000572a7) main_hwr_training_symbol_option_pane
+
+0x49d4,	// (0x000518fb) popup_hwr_training_preview_window_ParamLimits
+
+0x49d4,	// (0x000518fb) popup_hwr_training_preview_window
+
+0xa3e1,	// (0x00057308) hwr_training_navi_pane_g5_ParamLimits
+
+0xa3e1,	// (0x00057308) hwr_training_navi_pane_g5
+
+0xde33,	// (0x0005ad5a) popup_char_count_window
+
+0x5cea,	// (0x00052c11) bg_popup_sub_pane_cp20_ParamLimits
+
+0xb608,	// (0x0005852f) list_vitu2_match_list_pane_ParamLimits
+
+0xb614,	// (0x0005853b) vitu2_page_scroll_pane_ParamLimits
+
+0xb614,	// (0x0005853b) vitu2_page_scroll_pane
+
+0xe2ec,	// (0x0005b213) list_single_hwr_training_symbol_option_pane_ParamLimits
+
+0xe2ec,	// (0x0005b213) list_single_hwr_training_symbol_option_pane
+
+0xe2ff,	// (0x0005b226) list_single_hwr_training_symbol_option_pane_g1
+
+0xe307,	// (0x0005b22e) list_single_hwr_training_symbol_option_pane_t1
+
+0xe315,	// (0x0005b23c) bg_button_pane_cp023
+
+0xe31e,	// (0x0005b245) bg_button_pane_cp024
+
+0xbcab,	// (0x00058bd2) vitu2_page_scroll_pane_g1
+
+0xbcb3,	// (0x00058bda) vitu2_page_scroll_pane_g2
 
 0x0001,
 
-0xfaf2,	// (0x0005bd36) cell_imed_line_width_pane_g
+0xfad7,	// (0x0005c9fe) vitu2_page_scroll_pane_g
 
-0xbde4,	// (0x00058028) main_vded2_pane_g1_ParamLimits
+0xbcbb,	// (0x00058be2) vitu2_page_scroll_pane_t1
 
-0xbde4,	// (0x00058028) main_vded2_pane_g1
+0xe351,	// (0x0005b278) popup_char_count_window_g1
 
-0xbdf1,	// (0x00058035) main_vded2_pane_g2_ParamLimits
+0xe35a,	// (0x0005b281) popup_char_count_window_g2
 
-0xbdf1,	// (0x00058035) main_vded2_pane_g2
-
-0x0001,
-
-0xfaf7,	// (0x0005bd3b) main_vded2_pane_g_ParamLimits
-
-0xfaf7,	// (0x0005bd3b) main_vded2_pane_g
-
-0xbdff,	// (0x00058043) vded2_slider_pane_ParamLimits
-
-0xbdff,	// (0x00058043) vded2_slider_pane
-
-0xbe0c,	// (0x00058050) aid_size_touch_vded2_end
-
-0xbe16,	// (0x0005805a) aid_size_touch_vded2_playhead
-
-0xe54b,	// (0x0005a78f) aid_size_touch_vded2_start
-
-0xe553,	// (0x0005a797) vded2_slider_bg_pane
-
-0xe55c,	// (0x0005a7a0) vded2_slider_pane_g1
-
-0xe565,	// (0x0005a7a9) vded2_slider_pane_g2
-
-0xbe1e,	// (0x00058062) vded2_slider_pane_g3
+0xe363,	// (0x0005b28a) popup_char_count_window_g3
 
 0x0002,
 
-0xfafc,	// (0x0005bd40) vded2_slider_pane_g
+0xfadc,	// (0x0005ca03) popup_char_count_window_g
 
-0xe56d,	// (0x0005a7b1) vded2_slider_bg_pane_g1
+0xe36c,	// (0x0005b293) popup_char_count_window_t1
 
-0xe576,	// (0x0005a7ba) vded2_slider_bg_pane_g2
+0x5d04,	// (0x00052c2b) main_vded2_pane
 
-0xe57f,	// (0x0005a7c3) vded2_slider_bg_pane_g3
+0x46d3,	// (0x000515fa) aid_size_cell_imed_line
 
-0x0002,
+0x46dd,	// (0x00051604) grid_imed_line_width_pane
 
-0xfb03,	// (0x0005bd47) vded2_slider_bg_pane_g
+0xac38,	// (0x00057b5f) vid4_indicators_pane_g4
 
-0x85ce,	// (0x00054812) aid_postcard_touch_down_pane_ParamLimits
+0xe37a,	// (0x0005b2a1) cell_imed_line_width_pane_ParamLimits
 
-0x85ce,	// (0x00054812) aid_postcard_touch_down_pane
+0xe37a,	// (0x0005b2a1) cell_imed_line_width_pane
 
-0x85de,	// (0x00054822) aid_postcard_touch_up_pane_ParamLimits
+0xe38e,	// (0x0005b2b5) cell_imed_line_width_pane_g1
 
-0x85de,	// (0x00054822) aid_postcard_touch_up_pane
-
-0x037e,	// (0x0004c5c2) main_blid2_pane
-
-0x415e,	// (0x000503a2) popup_blid2_search_window
-
-0x037e,	// (0x0004c5c2) blid2_gps_pane
-
-0x037e,	// (0x0004c5c2) blid2_navig_pane
-
-0x037e,	// (0x0004c5c2) blid2_search_pane
-
-0x037e,	// (0x0004c5c2) blid2_tripm_pane
-
-0xbe27,	// (0x0005806b) blid2_search_pane_g1_ParamLimits
-
-0xbe27,	// (0x0005806b) blid2_search_pane_g1
-
-0xbe37,	// (0x0005807b) blid2_search_pane_t1_ParamLimits
-
-0xbe37,	// (0x0005807b) blid2_search_pane_t1
-
-0xbe49,	// (0x0005808d) aid_size_cell_blid2_gps_ParamLimits
-
-0xbe49,	// (0x0005808d) aid_size_cell_blid2_gps
-
-0xbe59,	// (0x0005809d) blid2_gps_pane_g1_ParamLimits
-
-0xbe59,	// (0x0005809d) blid2_gps_pane_g1
-
-0xbe65,	// (0x000580a9) grid_blid2_satellite_pane_ParamLimits
-
-0xbe65,	// (0x000580a9) grid_blid2_satellite_pane
-
-0xbe75,	// (0x000580b9) blid2_navig_pane_g1_ParamLimits
-
-0xbe75,	// (0x000580b9) blid2_navig_pane_g1
-
-0xbe81,	// (0x000580c5) blid2_navig_pane_t1_ParamLimits
-
-0xbe81,	// (0x000580c5) blid2_navig_pane_t1
-
-0xbe93,	// (0x000580d7) blid2_navig_pane_t2_ParamLimits
-
-0xbe93,	// (0x000580d7) blid2_navig_pane_t2
+0x4133,	// (0x0005105a) cell_imed_line_width_pane_g2
 
 0x0001,
 
-0xfb0a,	// (0x0005bd4e) blid2_navig_pane_t_ParamLimits
+0xfae3,	// (0x0005ca0a) cell_imed_line_width_pane_g
 
-0xfb0a,	// (0x0005bd4e) blid2_navig_pane_t
+0xbcca,	// (0x00058bf1) main_vded2_pane_g1_ParamLimits
 
-0xbea5,	// (0x000580e9) blid2_navig_ring_pane_ParamLimits
+0xbcca,	// (0x00058bf1) main_vded2_pane_g1
 
-0xbea5,	// (0x000580e9) blid2_navig_ring_pane
+0xbcd7,	// (0x00058bfe) main_vded2_pane_g2_ParamLimits
 
-0xbeb5,	// (0x000580f9) blid2_speed_pane_ParamLimits
+0xbcd7,	// (0x00058bfe) main_vded2_pane_g2
 
-0xbeb5,	// (0x000580f9) blid2_speed_pane
+0x0001,
 
-0xbec1,	// (0x00058105) blid2_tripm_pane_g1_ParamLimits
+0xfae8,	// (0x0005ca0f) main_vded2_pane_g_ParamLimits
 
-0xbec1,	// (0x00058105) blid2_tripm_pane_g1
+0xfae8,	// (0x0005ca0f) main_vded2_pane_g
 
-0xbed1,	// (0x00058115) blid2_tripm_pane_g2_ParamLimits
+0xbce5,	// (0x00058c0c) vded2_slider_pane_ParamLimits
 
-0xbed1,	// (0x00058115) blid2_tripm_pane_g2
+0xbce5,	// (0x00058c0c) vded2_slider_pane
 
-0xbedd,	// (0x00058121) blid2_tripm_pane_g3_ParamLimits
+0xbcf2,	// (0x00058c19) aid_size_touch_vded2_end
 
-0xbedd,	// (0x00058121) blid2_tripm_pane_g3
+0xbcfc,	// (0x00058c23) aid_size_touch_vded2_playhead
 
-0xbee9,	// (0x0005812d) blid2_tripm_pane_g4_ParamLimits
+0xe397,	// (0x0005b2be) aid_size_touch_vded2_start
 
-0xbee9,	// (0x0005812d) blid2_tripm_pane_g4
+0xe39f,	// (0x0005b2c6) vded2_slider_bg_pane
 
-0xbef5,	// (0x00058139) blid2_tripm_pane_g5_ParamLimits
+0xe3a8,	// (0x0005b2cf) vded2_slider_pane_g1
 
-0xbef5,	// (0x00058139) blid2_tripm_pane_g5
+0xe3b1,	// (0x0005b2d8) vded2_slider_pane_g2
+
+0xbd04,	// (0x00058c2b) vded2_slider_pane_g3
+
+0x0002,
+
+0xfaed,	// (0x0005ca14) vded2_slider_pane_g
+
+0xe3b9,	// (0x0005b2e0) vded2_slider_bg_pane_g1
+
+0xe3c2,	// (0x0005b2e9) vded2_slider_bg_pane_g2
+
+0xe3cb,	// (0x0005b2f2) vded2_slider_bg_pane_g3
+
+0x0002,
+
+0xfaf4,	// (0x0005ca1b) vded2_slider_bg_pane_g
+
+0x846c,	// (0x00055393) aid_postcard_touch_down_pane_ParamLimits
+
+0x846c,	// (0x00055393) aid_postcard_touch_down_pane
+
+0x847c,	// (0x000553a3) aid_postcard_touch_up_pane_ParamLimits
+
+0x847c,	// (0x000553a3) aid_postcard_touch_up_pane
+
+0x5d04,	// (0x00052c2b) main_blid2_pane
+
+0x8bad,	// (0x00055ad4) popup_blid2_search_window
+
+0x00f2,	// (0x0004d019) blid2_gps_pane
+
+0x00f2,	// (0x0004d019) blid2_navig_pane
+
+0x00f2,	// (0x0004d019) blid2_search_pane
+
+0x00f2,	// (0x0004d019) blid2_tripm_pane
+
+0xbd0d,	// (0x00058c34) blid2_search_pane_g1_ParamLimits
+
+0xbd0d,	// (0x00058c34) blid2_search_pane_g1
+
+0xbd1d,	// (0x00058c44) blid2_search_pane_t1_ParamLimits
+
+0xbd1d,	// (0x00058c44) blid2_search_pane_t1
+
+0xbd2f,	// (0x00058c56) aid_size_cell_blid2_gps_ParamLimits
+
+0xbd2f,	// (0x00058c56) aid_size_cell_blid2_gps
+
+0xbd3f,	// (0x00058c66) blid2_gps_pane_g1_ParamLimits
+
+0xbd3f,	// (0x00058c66) blid2_gps_pane_g1
+
+0xbd4b,	// (0x00058c72) grid_blid2_satellite_pane_ParamLimits
+
+0xbd4b,	// (0x00058c72) grid_blid2_satellite_pane
+
+0xbd5b,	// (0x00058c82) blid2_navig_pane_g1_ParamLimits
+
+0xbd5b,	// (0x00058c82) blid2_navig_pane_g1
+
+0xbd67,	// (0x00058c8e) blid2_navig_pane_t1_ParamLimits
+
+0xbd67,	// (0x00058c8e) blid2_navig_pane_t1
+
+0xbd79,	// (0x00058ca0) blid2_navig_pane_t2_ParamLimits
+
+0xbd79,	// (0x00058ca0) blid2_navig_pane_t2
+
+0x0001,
+
+0xfafb,	// (0x0005ca22) blid2_navig_pane_t_ParamLimits
+
+0xfafb,	// (0x0005ca22) blid2_navig_pane_t
+
+0xbd8b,	// (0x00058cb2) blid2_navig_ring_pane_ParamLimits
+
+0xbd8b,	// (0x00058cb2) blid2_navig_ring_pane
+
+0xbd9b,	// (0x00058cc2) blid2_speed_pane_ParamLimits
+
+0xbd9b,	// (0x00058cc2) blid2_speed_pane
+
+0xbda7,	// (0x00058cce) blid2_tripm_pane_g1_ParamLimits
+
+0xbda7,	// (0x00058cce) blid2_tripm_pane_g1
+
+0xbdb7,	// (0x00058cde) blid2_tripm_pane_g2_ParamLimits
+
+0xbdb7,	// (0x00058cde) blid2_tripm_pane_g2
+
+0xbdc3,	// (0x00058cea) blid2_tripm_pane_g3_ParamLimits
+
+0xbdc3,	// (0x00058cea) blid2_tripm_pane_g3
+
+0xbdcf,	// (0x00058cf6) blid2_tripm_pane_g4_ParamLimits
+
+0xbdcf,	// (0x00058cf6) blid2_tripm_pane_g4
+
+0xbddb,	// (0x00058d02) blid2_tripm_pane_g5_ParamLimits
+
+0xbddb,	// (0x00058d02) blid2_tripm_pane_g5
 
 0x0005,
 
-0xfb0f,	// (0x0005bd53) blid2_tripm_pane_g_ParamLimits
+0xfb00,	// (0x0005ca27) blid2_tripm_pane_g_ParamLimits
 
-0xfb0f,	// (0x0005bd53) blid2_tripm_pane_g
+0xfb00,	// (0x0005ca27) blid2_tripm_pane_g
 
-0xbf11,	// (0x00058155) blid2_tripm_pane_t1_ParamLimits
+0xbdf7,	// (0x00058d1e) blid2_tripm_pane_t1_ParamLimits
 
-0xbf11,	// (0x00058155) blid2_tripm_pane_t1
+0xbdf7,	// (0x00058d1e) blid2_tripm_pane_t1
 
-0xbf25,	// (0x00058169) blid2_tripm_pane_t2_ParamLimits
+0xbe0b,	// (0x00058d32) blid2_tripm_pane_t2_ParamLimits
 
-0xbf25,	// (0x00058169) blid2_tripm_pane_t2
+0xbe0b,	// (0x00058d32) blid2_tripm_pane_t2
 
-0xbf37,	// (0x0005817b) blid2_tripm_pane_t3_ParamLimits
+0xbe1d,	// (0x00058d44) blid2_tripm_pane_t3_ParamLimits
 
-0xbf37,	// (0x0005817b) blid2_tripm_pane_t3
+0xbe1d,	// (0x00058d44) blid2_tripm_pane_t3
 
 0x0003,
 
-0xfb1c,	// (0x0005bd60) blid2_tripm_pane_t_ParamLimits
+0xfb0d,	// (0x0005ca34) blid2_tripm_pane_t_ParamLimits
 
-0xfb1c,	// (0x0005bd60) blid2_tripm_pane_t
+0xfb0d,	// (0x0005ca34) blid2_tripm_pane_t
 
-0xbf69,	// (0x000581ad) cell_blid2_satellite_pane_ParamLimits
+0xbe4f,	// (0x00058d76) cell_blid2_satellite_pane_ParamLimits
 
-0xbf69,	// (0x000581ad) cell_blid2_satellite_pane
+0xbe4f,	// (0x00058d76) cell_blid2_satellite_pane
 
-0xbf83,	// (0x000581c7) cell_blid2_satellite_pane_g1
+0xbe69,	// (0x00058d90) cell_blid2_satellite_pane_g1
 
-0xe588,	// (0x0005a7cc) cell_blid2_satellite_pane_t1
+0xe3d4,	// (0x0005b2fb) cell_blid2_satellite_pane_t1
 
-0x4597,	// (0x000507db) blid2_speed_pane_g1
+0x41eb,	// (0x00051112) blid2_speed_pane_g1
 
-0xe596,	// (0x0005a7da) blid2_speed_pane_t1
+0xe3e2,	// (0x0005b309) blid2_speed_pane_t1
 
-0xe5a4,	// (0x0005a7e8) blid2_speed_pane_t2
+0xe3f0,	// (0x0005b317) blid2_speed_pane_t2
 
 0x0001,
 
-0xfb25,	// (0x0005bd69) blid2_speed_pane_t
+0xfb16,	// (0x0005ca3d) blid2_speed_pane_t
 
-0x4597,	// (0x000507db) blid2_navig_ring_pane_g1
+0x41eb,	// (0x00051112) blid2_navig_ring_pane_g1
 
-0xbf8c,	// (0x000581d0) blid2_navig_ring_pane_g2
+0xbe72,	// (0x00058d99) blid2_navig_ring_pane_g2
 
-0xbf94,	// (0x000581d8) blid2_navig_ring_pane_g3
+0xbe7a,	// (0x00058da1) blid2_navig_ring_pane_g3
 
-0xbf9c,	// (0x000581e0) blid2_navig_ring_pane_g4
+0xbe82,	// (0x00058da9) blid2_navig_ring_pane_g4
 
-0xbfa4,	// (0x000581e8) blid2_navig_ring_pane_g5
+0xbe8a,	// (0x00058db1) blid2_navig_ring_pane_g5
 
 0x0004,
 
-0xfb2a,	// (0x0005bd6e) blid2_navig_ring_pane_g
+0xfb1b,	// (0x0005ca42) blid2_navig_ring_pane_g
 
-0x037e,	// (0x0004c5c2) bg_popup_window_pane_cp011
+0x00f2,	// (0x0004d019) bg_popup_window_pane_cp011
 
-0xe5b2,	// (0x0005a7f6) popup_blid2_search_window_g1
+0xe3fe,	// (0x0005b325) popup_blid2_search_window_g1
 
-0xe5ba,	// (0x0005a7fe) popup_blid2_search_window_t1
+0xe406,	// (0x0005b32d) popup_blid2_search_window_t1
 
-0xe5c8,	// (0x0005a80c) popup_blid2_search_window_t2
-
-0x0001,
-
-0xfb35,	// (0x0005bd79) popup_blid2_search_window_t
-
-0x254e,	// (0x0004e792) main_browser_pane_g1
-
-0x2269,	// (0x0004e4ad) main_browser_pane_ParamLimits
-
-0xacfb,	// (0x00056f3f) bg_button_pane_cp011_ParamLimits
-
-0xafed,	// (0x00057231) cell_vitu2_function_pane_g1_ParamLimits
-
-0x4150,	// (0x00050394) bg_popup_sub_pane_cp22_ParamLimits
-
-0xb8ca,	// (0x00057b0e) input_focus_pane_cp08_ParamLimits
-
-0xb8e1,	// (0x00057b25) popup_vitu2_query_button_pane_ParamLimits
-
-0xb8e1,	// (0x00057b25) popup_vitu2_query_button_pane
-
-0xb8f2,	// (0x00057b36) popup_vitu2_query_input_button_pane
-
-0xe263,	// (0x0005a4a7) popup_vitu2_query_window_g1_ParamLimits
-
-0xb8fc,	// (0x00057b40) popup_vitu2_query_window_g2_ParamLimits
-
-0xfa36,	// (0x0005bc7a) popup_vitu2_query_window_g_ParamLimits
-
-0x037e,	// (0x0004c5c2) bg_button_pane_cp026
-
-0xbfac,	// (0x000581f0) popup_vitu2_query_input_button_pane_g1
-
-0x037e,	// (0x0004c5c2) bg_button_pane_cp025
-
-0xe5d6,	// (0x0005a81a) popup_vitu2_query_button_pane_t1
-
-0x9713,	// (0x00055957) main_mp3_pane_t6
-
-0x9723,	// (0x00055967) popup_slider_window_cp01
-
-0xac1c,	// (0x00056e60) cam4_battery_pane
-
-0xad09,	// (0x00056f4d) cam4_battery_pane_cp02
-
-0xbd2d,	// (0x00057f71) cam4_battery_pane_cp01
-
-0xbd2d,	// (0x00057f71) cam4_battery_pane_cp03
-
-0xde98,	// (0x0005a0dc) cam4_battery_pane_g1
-
-0x4597,	// (0x000507db) cam4_battery_pane_g2
+0xe414,	// (0x0005b33b) popup_blid2_search_window_t2
 
 0x0001,
 
-0xfb3a,	// (0x0005bd7e) cam4_battery_pane_g
+0xfb26,	// (0x0005ca4d) popup_blid2_search_window_t
 
-0x4463,	// (0x000506a7) popup_blid_sat_info2_window_t11
+0x21d0,	// (0x0004f0f7) main_browser_pane_g1
 
-0x7e77,	// (0x000540bb) aid_size_touch_mv_arrow_left_ParamLimits
+0x1eeb,	// (0x0004ee12) main_browser_pane_ParamLimits
 
-0x7ea0,	// (0x000540e4) aid_size_touch_mv_arrow_right_ParamLimits
+0x8b84,	// (0x00055aab) bg_button_pane_cp011_ParamLimits
 
-0x2c9c,	// (0x0004eee0) navi_pane_g1_ParamLimits
+0xaedf,	// (0x00057e06) cell_vitu2_function_pane_g1_ParamLimits
 
-0x7edf,	// (0x00054123) navi_pane_g2_ParamLimits
+0x3dd2,	// (0x00050cf9) bg_popup_sub_pane_cp22_ParamLimits
 
-0x7f0d,	// (0x00054151) navi_pane_g3_ParamLimits
+0xb7ae,	// (0x000586d5) input_focus_pane_cp08_ParamLimits
 
-0xf404,	// (0x0005b648) navi_pane_g_ParamLimits
+0xb7c5,	// (0x000586ec) popup_vitu2_query_button_pane_ParamLimits
 
-0x7f67,	// (0x000541ab) navi_pane_mv_t1_ParamLimits
+0xb7c5,	// (0x000586ec) popup_vitu2_query_button_pane
 
-0xa1f5,	// (0x00056439) grid_imed_effect_pane_ParamLimits
+0xb7d6,	// (0x000586fd) popup_vitu2_query_input_button_pane
 
-0x6bd5,	// (0x00052e19) aid_placing_vt_slider_lsc
+0xe0a6,	// (0x0005afcd) popup_vitu2_query_window_g1_ParamLimits
 
-0x249d,	// (0x0004e6e1) aid_placing_vt_slider_prt
+0xb7e0,	// (0x00058707) popup_vitu2_query_window_g2_ParamLimits
 
-0x334c,	// (0x0004f590) bg_tb_trans_pane_cp01_ParamLimits
+0xfa27,	// (0x0005c94e) popup_vitu2_query_window_g_ParamLimits
 
-0x472b,	// (0x0005096f) popup_image_details_window_g1_ParamLimits
+0x00f2,	// (0x0004d019) bg_button_pane_cp026
 
-0x473e,	// (0x00050982) popup_image_details_window_g2_ParamLimits
+0xbe92,	// (0x00058db9) popup_vitu2_query_input_button_pane_g1
 
-0x4753,	// (0x00050997) popup_image_details_window_g3_ParamLimits
+0x00f2,	// (0x0004d019) bg_button_pane_cp025
 
-0x4753,	// (0x00050997) popup_image_details_window_g3
+0xe422,	// (0x0005b349) popup_vitu2_query_button_pane_t1
 
-0xf737,	// (0x0005b97b) popup_image_details_window_g_ParamLimits
+0x95fe,	// (0x00056525) main_mp3_pane_t6
 
-0x4767,	// (0x000509ab) popup_image_details_window_t1_ParamLimits
+0x960e,	// (0x00056535) popup_slider_window_cp01
 
-0x4779,	// (0x000509bd) popup_image_details_window_t2_ParamLimits
+0xab15,	// (0x00057a3c) cam4_battery_pane
 
-0x4792,	// (0x000509d6) popup_image_details_window_t3_ParamLimits
+0xabf5,	// (0x00057b1c) cam4_battery_pane_cp02
 
-0x47a6,	// (0x000509ea) popup_image_details_window_t4_ParamLimits
+0xbc11,	// (0x00058b38) cam4_battery_pane_cp01
 
-0x47c1,	// (0x00050a05) popup_image_details_window_t5_ParamLimits
+0xbc11,	// (0x00058b38) cam4_battery_pane_cp03
 
-0xf73e,	// (0x0005b982) popup_image_details_window_t_ParamLimits
+0x4c01,	// (0x00051b28) cam4_battery_pane_g1
 
-0xbc51,	// (0x00057e95) cl_header_name_pane_ParamLimits
+0x41eb,	// (0x00051112) cam4_battery_pane_g2
 
-0xbc51,	// (0x00057e95) cl_header_name_pane
+0x0001,
 
-0xbfb4,	// (0x000581f8) cl_header_name_pane_t1_ParamLimits
+0xfb2b,	// (0x0005ca52) cam4_battery_pane_g
 
-0xbfb4,	// (0x000581f8) cl_header_name_pane_t1
+0x40a6,	// (0x00050fcd) popup_blid_sat_info2_window_t11
 
-0xbfcb,	// (0x0005820f) cl_header_name_pane_t2_ParamLimits
+0x7d15,	// (0x00054c3c) aid_size_touch_mv_arrow_left_ParamLimits
 
-0xbfcb,	// (0x0005820f) cl_header_name_pane_t2
+0x7d3e,	// (0x00054c65) aid_size_touch_mv_arrow_right_ParamLimits
 
-0xbff5,	// (0x00058239) cl_header_name_pane_t3_ParamLimits
+0x291e,	// (0x0004f845) navi_pane_g1_ParamLimits
 
-0xbff5,	// (0x00058239) cl_header_name_pane_t3
+0x7d7d,	// (0x00054ca4) navi_pane_g2_ParamLimits
+
+0x7dab,	// (0x00054cd2) navi_pane_g3_ParamLimits
+
+0xf3f5,	// (0x0005c31c) navi_pane_g_ParamLimits
+
+0x7e05,	// (0x00054d2c) navi_pane_mv_t1_ParamLimits
+
+0xa0e0,	// (0x00057007) grid_imed_effect_pane_ParamLimits
+
+0x6a73,	// (0x0005399a) aid_placing_vt_slider_lsc
+
+0x211f,	// (0x0004f046) aid_placing_vt_slider_prt
+
+0x3810,	// (0x00050737) bg_tb_trans_pane_cp01_ParamLimits
+
+0x436e,	// (0x00051295) popup_image_details_window_g1_ParamLimits
+
+0x4381,	// (0x000512a8) popup_image_details_window_g2_ParamLimits
+
+0x4396,	// (0x000512bd) popup_image_details_window_g3_ParamLimits
+
+0x4396,	// (0x000512bd) popup_image_details_window_g3
+
+0xf728,	// (0x0005c64f) popup_image_details_window_g_ParamLimits
+
+0x43aa,	// (0x000512d1) popup_image_details_window_t1_ParamLimits
+
+0x43bc,	// (0x000512e3) popup_image_details_window_t2_ParamLimits
+
+0x43d5,	// (0x000512fc) popup_image_details_window_t3_ParamLimits
+
+0x43e9,	// (0x00051310) popup_image_details_window_t4_ParamLimits
+
+0x4404,	// (0x0005132b) popup_image_details_window_t5_ParamLimits
+
+0xf72f,	// (0x0005c656) popup_image_details_window_t_ParamLimits
+
+0xbb35,	// (0x00058a5c) cl_header_name_pane_ParamLimits
+
+0xbb35,	// (0x00058a5c) cl_header_name_pane
+
+0xbe9a,	// (0x00058dc1) cl_header_name_pane_t1_ParamLimits
+
+0xbe9a,	// (0x00058dc1) cl_header_name_pane_t1
+
+0xbeb1,	// (0x00058dd8) cl_header_name_pane_t2_ParamLimits
+
+0xbeb1,	// (0x00058dd8) cl_header_name_pane_t2
+
+0xbedb,	// (0x00058e02) cl_header_name_pane_t3_ParamLimits
+
+0xbedb,	// (0x00058e02) cl_header_name_pane_t3
 
 0x0002,
 
-0xfb3f,	// (0x0005bd83) cl_header_name_pane_t_ParamLimits
+0xfb30,	// (0x0005ca57) cl_header_name_pane_t_ParamLimits
 
-0xfb3f,	// (0x0005bd83) cl_header_name_pane_t
+0xfb30,	// (0x0005ca57) cl_header_name_pane_t
 
-0x7f38,	// (0x0005417c) navi_pane_mv_g2_ParamLimits
+0x7dd6,	// (0x00054cfd) navi_pane_mv_g2_ParamLimits
 
-0xdfca,	// (0x0005a20e) field_vitu2_entry_pane_g1_ParamLimits
+0xde0d,	// (0x0005ad34) field_vitu2_entry_pane_g1_ParamLimits
 
-0xdfd6,	// (0x0005a21a) field_vitu2_entry_pane_g2_ParamLimits
+0xde19,	// (0x0005ad40) field_vitu2_entry_pane_g2_ParamLimits
 
-0xdfe2,	// (0x0005a226) field_vitu2_entry_pane_g3_ParamLimits
+0xde25,	// (0x0005ad4c) field_vitu2_entry_pane_g3_ParamLimits
 
-0xdfe2,	// (0x0005a226) field_vitu2_entry_pane_g3
+0xde25,	// (0x0005ad4c) field_vitu2_entry_pane_g3
 
-0xf935,	// (0x0005bb79) field_vitu2_entry_pane_g_ParamLimits
+0xf926,	// (0x0005c84d) field_vitu2_entry_pane_g_ParamLimits
 
-0xaf7d,	// (0x000571c1) cell_vitu2_itu_pane_g1_ParamLimits
+0xae6f,	// (0x00057d96) cell_vitu2_itu_pane_g1_ParamLimits
 
-0xaf8d,	// (0x000571d1) cell_vitu2_itu_pane_g2_ParamLimits
+0xae7f,	// (0x00057da6) cell_vitu2_itu_pane_g2_ParamLimits
 
-0xaf8d,	// (0x000571d1) cell_vitu2_itu_pane_g2
+0xae7f,	// (0x00057da6) cell_vitu2_itu_pane_g2
 
 0x0001,
 
-0xf941,	// (0x0005bb85) cell_vitu2_itu_pane_g_ParamLimits
+0xf932,	// (0x0005c859) cell_vitu2_itu_pane_g_ParamLimits
 
-0xf941,	// (0x0005bb85) cell_vitu2_itu_pane_g
+0xf932,	// (0x0005c859) cell_vitu2_itu_pane_g
 
-0xacfb,	// (0x00056f3f) bg_vkb2_func_pane_cp05_ParamLimits
+0x8b84,	// (0x00055aab) bg_vkb2_func_pane_cp05_ParamLimits
 
-0xacfb,	// (0x00056f3f) bg_vkb2_func_pane_cp05
+0x8b84,	// (0x00055aab) bg_vkb2_func_pane_cp05
 
-0xacfb,	// (0x00056f3f) bg_vkb2_func_pane_cp03
+0x8b84,	// (0x00055aab) bg_vkb2_func_pane_cp03
 
-0xacfb,	// (0x00056f3f) bg_vkb2_func_pane_cp04
+0x8b84,	// (0x00055aab) bg_vkb2_func_pane_cp04
 
-0xacfb,	// (0x00056f3f) bg_vkb2_func_pane_cp10_ParamLimits
+0x8b84,	// (0x00055aab) bg_vkb2_func_pane_cp10_ParamLimits
 
-0xacfb,	// (0x00056f3f) bg_vkb2_func_pane_cp10
+0x8b84,	// (0x00055aab) bg_vkb2_func_pane_cp10
 
-0xbbf3,	// (0x00057e37) bg_vkb2_func_pane_cp08
+0xbad7,	// (0x000589fe) bg_vkb2_func_pane_cp08
 
-0xbbd9,	// (0x00057e1d) bg_vkb2_func_pane_cp06
+0xbabd,	// (0x000589e4) bg_vkb2_func_pane_cp06
 
-0xbbe7,	// (0x00057e2b) bg_vkb2_func_pane_cp07
+0xbacb,	// (0x000589f2) bg_vkb2_func_pane_cp07
 
-0xe4db,	// (0x0005a71f) bg_vkb2_func_pane_cp11_ParamLimits
+0xe327,	// (0x0005b24e) bg_vkb2_func_pane_cp11_ParamLimits
 
-0xe4db,	// (0x0005a71f) bg_vkb2_func_pane_cp11
+0xe327,	// (0x0005b24e) bg_vkb2_func_pane_cp11
 
-0xe4f0,	// (0x0005a734) bg_vkb2_func_pane_cp12_ParamLimits
+0xe33c,	// (0x0005b263) bg_vkb2_func_pane_cp12_ParamLimits
 
-0xe4f0,	// (0x0005a734) bg_vkb2_func_pane_cp12
+0xe33c,	// (0x0005b263) bg_vkb2_func_pane_cp12
 
-0x037e,	// (0x0004c5c2) bg_vkb2_func_pane_cp09
+0x00f2,	// (0x0004d019) bg_vkb2_func_pane_cp09
 
-0xe002,	// (0x0005a246) bg_vkb2_func_pane_g1
+0xde45,	// (0x0005ad6c) bg_vkb2_func_pane_g1
 
-0x265f,	// (0x0004e8a3) bg_vkb2_func_pane_g2
+0x22e1,	// (0x0004f208) bg_vkb2_func_pane_g2
 
-0xe00a,	// (0x0005a24e) bg_vkb2_func_pane_g3
+0xde4d,	// (0x0005ad74) bg_vkb2_func_pane_g3
 
-0xe012,	// (0x0005a256) bg_vkb2_func_pane_g4
+0xde55,	// (0x0005ad7c) bg_vkb2_func_pane_g4
 
-0xe226,	// (0x0005a46a) bg_vkb2_func_pane_g5
+0xe069,	// (0x0005af90) bg_vkb2_func_pane_g5
 
-0xe02a,	// (0x0005a26e) bg_vkb2_func_pane_g6
+0xde6d,	// (0x0005ad94) bg_vkb2_func_pane_g6
 
-0xe032,	// (0x0005a276) bg_vkb2_func_pane_g7
+0xde75,	// (0x0005ad9c) bg_vkb2_func_pane_g7
 
-0xe022,	// (0x0005a266) bg_vkb2_func_pane_g8
+0xde65,	// (0x0005ad8c) bg_vkb2_func_pane_g8
 
-0x263f,	// (0x0004e883) bg_vkb2_func_pane_g9
+0x22c1,	// (0x0004f1e8) bg_vkb2_func_pane_g9
 
 0x0008,
 
-0xfb46,	// (0x0005bd8a) bg_vkb2_func_pane_g
+0xfb37,	// (0x0005ca5e) bg_vkb2_func_pane_g
 
-0xbf03,	// (0x00058147) blid2_tripm_pane_g6_ParamLimits
+0xbde9,	// (0x00058d10) blid2_tripm_pane_g6_ParamLimits
 
-0xbf03,	// (0x00058147) blid2_tripm_pane_g6
+0xbde9,	// (0x00058d10) blid2_tripm_pane_g6
 
-0xde52,	// (0x0005a096) mp4_progress_pane_g1
+0x4aa8,	// (0x000519cf) mp4_progress_pane_g1
 
-0xbf5d,	// (0x000581a1) blid2_tripm_values_pane_ParamLimits
+0xbe43,	// (0x00058d6a) blid2_tripm_values_pane_ParamLimits
 
-0xbf5d,	// (0x000581a1) blid2_tripm_values_pane
+0xbe43,	// (0x00058d6a) blid2_tripm_values_pane
 
-0xc01a,	// (0x0005825e) blid2_tripm_values_pane_t1
+0xbf00,	// (0x00058e27) blid2_tripm_values_pane_t1
 
-0xc028,	// (0x0005826c) blid2_tripm_values_pane_t2
+0xbf0e,	// (0x00058e35) blid2_tripm_values_pane_t2
 
-0xc036,	// (0x0005827a) blid2_tripm_values_pane_t3
+0xbf1c,	// (0x00058e43) blid2_tripm_values_pane_t3
 
-0xc044,	// (0x00058288) blid2_tripm_values_pane_t4
+0xbf2a,	// (0x00058e51) blid2_tripm_values_pane_t4
 
-0xc052,	// (0x00058296) blid2_tripm_values_pane_t5
+0xbf38,	// (0x00058e5f) blid2_tripm_values_pane_t5
 
-0xc060,	// (0x000582a4) blid2_tripm_values_pane_t6
+0xbf46,	// (0x00058e6d) blid2_tripm_values_pane_t6
 
-0xc06e,	// (0x000582b2) blid2_tripm_values_pane_t7
+0xbf54,	// (0x00058e7b) blid2_tripm_values_pane_t7
 
-0xc07c,	// (0x000582c0) blid2_tripm_values_pane_t8
+0xbf62,	// (0x00058e89) blid2_tripm_values_pane_t8
 
-0xc08a,	// (0x000582ce) blid2_tripm_values_pane_t9
+0xbf70,	// (0x00058e97) blid2_tripm_values_pane_t9
 
 0x0008,
 
-0xfb59,	// (0x0005bd9d) blid2_tripm_values_pane_t
+0xfb4a,	// (0x0005ca71) blid2_tripm_values_pane_t
 
-0x6c15,	// (0x00052e59) call_video_pane_t1_ParamLimits
+0x6ab3,	// (0x000539da) call_video_pane_t1_ParamLimits
 
-0x6c36,	// (0x00052e7a) call_video_pane_t2_ParamLimits
+0x6ad4,	// (0x000539fb) call_video_pane_t2_ParamLimits
 
-0xf28d,	// (0x0005b4d1) call_video_pane_t_ParamLimits
+0xf27e,	// (0x0005c1a5) call_video_pane_t_ParamLimits
 
-0x849f,	// (0x000546e3) msg_header_pane_g1_ParamLimits
+0x833d,	// (0x00055264) msg_header_pane_g1_ParamLimits
 
-0x2ec5,	// (0x0004f109) msg_header_pane_g2_ParamLimits
+0x2b47,	// (0x0004fa6e) msg_header_pane_g2_ParamLimits
 
-0x2ec5,	// (0x0004f109) msg_header_pane_g2
-
-0x0001,
-
-0xf4a7,	// (0x0005b6eb) msg_header_pane_g_ParamLimits
-
-0xf4a7,	// (0x0005b6eb) msg_header_pane_g
-
-0x2269,	// (0x0004e4ad) main_clock2_pane_ParamLimits
-
-0x9f9b,	// (0x000561df) grid_clock2_toolbar_pane_ParamLimits
-
-0x9f9b,	// (0x000561df) grid_clock2_toolbar_pane
-
-0x9f9b,	// (0x000561df) listscroll_clock2_pane_ParamLimits
-
-0x9f9b,	// (0x000561df) listscroll_clock2_pane
-
-0xa032,	// (0x00056276) main_clock2_pane_t3_ParamLimits
-
-0xa032,	// (0x00056276) main_clock2_pane_t3
-
-0xa044,	// (0x00056288) main_clock2_pane_t4_ParamLimits
-
-0xa044,	// (0x00056288) main_clock2_pane_t4
-
-0xe5e4,	// (0x0005a828) cell_clock2_toolbar_pane
-
-0xe5ec,	// (0x0005a830) cell_clock2_toolbar_pane_cp01
-
-0xe5ec,	// (0x0005a830) cell_clock2_toolbar_pane_cp02
-
-0xe5f4,	// (0x0005a838) cell_clock2_toolbar_pane_cp03
-
-0xe5fc,	// (0x0005a840) list_clock2_pane
-
-0x2bf3,	// (0x0004ee37) scroll_pane_cp10
-
-0xe604,	// (0x0005a848) list_single_clock2_pane_ParamLimits
-
-0xe604,	// (0x0005a848) list_single_clock2_pane
-
-0x2d3c,	// (0x0004ef80) list_highlight_pane_cp08
-
-0xe611,	// (0x0005a855) list_single_clock2_pane_t1
-
-0xe61f,	// (0x0005a863) list_single_clock2_pane_t2
+0x2b47,	// (0x0004fa6e) msg_header_pane_g2
 
 0x0001,
 
-0xfb6c,	// (0x0005bdb0) list_single_clock2_pane_t
+0xf498,	// (0x0005c3bf) msg_header_pane_g_ParamLimits
 
-0x037e,	// (0x0004c5c2) bg_button_pane_cp10
+0xf498,	// (0x0005c3bf) msg_header_pane_g
 
-0xe62d,	// (0x0005a871) cell_clock2_toolbar_pane_g1
+0x1eeb,	// (0x0004ee12) main_clock2_pane_ParamLimits
 
-0x853c,	// (0x00054780) aid_main_viewer_pane_g1_ParamLimits
+0x9e86,	// (0x00056dad) grid_clock2_toolbar_pane_ParamLimits
 
-0x853c,	// (0x00054780) aid_main_viewer_pane_g1
+0x9e86,	// (0x00056dad) grid_clock2_toolbar_pane
 
-0x8548,	// (0x0005478c) aid_main_viewer_pane_g2_ParamLimits
+0x9e86,	// (0x00056dad) listscroll_clock2_pane_ParamLimits
 
-0x8548,	// (0x0005478c) aid_main_viewer_pane_g2
+0x9e86,	// (0x00056dad) listscroll_clock2_pane
 
-0x8554,	// (0x00054798) aid_main_viewer_pane_g3_ParamLimits
+0x9f1d,	// (0x00056e44) main_clock2_pane_t3_ParamLimits
 
-0x8554,	// (0x00054798) aid_main_viewer_pane_g3
+0x9f1d,	// (0x00056e44) main_clock2_pane_t3
 
-0x8565,	// (0x000547a9) aid_main_viewer_pane_g4_ParamLimits
+0x9f2f,	// (0x00056e56) main_clock2_pane_t4_ParamLimits
 
-0x8565,	// (0x000547a9) aid_main_viewer_pane_g4
+0x9f2f,	// (0x00056e56) main_clock2_pane_t4
+
+0xe430,	// (0x0005b357) cell_clock2_toolbar_pane
+
+0xe438,	// (0x0005b35f) cell_clock2_toolbar_pane_cp01
+
+0xe438,	// (0x0005b35f) cell_clock2_toolbar_pane_cp02
+
+0xe440,	// (0x0005b367) cell_clock2_toolbar_pane_cp03
+
+0xe448,	// (0x0005b36f) list_clock2_pane
+
+0x2875,	// (0x0004f79c) scroll_pane_cp10
+
+0xe450,	// (0x0005b377) list_single_clock2_pane_ParamLimits
+
+0xe450,	// (0x0005b377) list_single_clock2_pane
+
+0x29be,	// (0x0004f8e5) list_highlight_pane_cp08
+
+0xe45d,	// (0x0005b384) list_single_clock2_pane_t1
+
+0xe46b,	// (0x0005b392) list_single_clock2_pane_t2
+
+0x0001,
+
+0xfb5d,	// (0x0005ca84) list_single_clock2_pane_t
+
+0x00f2,	// (0x0004d019) bg_button_pane_cp10
+
+0xe479,	// (0x0005b3a0) cell_clock2_toolbar_pane_g1
+
+0x83da,	// (0x00055301) aid_main_viewer_pane_g1_ParamLimits
+
+0x83da,	// (0x00055301) aid_main_viewer_pane_g1
+
+0x83e6,	// (0x0005530d) aid_main_viewer_pane_g2_ParamLimits
+
+0x83e6,	// (0x0005530d) aid_main_viewer_pane_g2
+
+0x83f2,	// (0x00055319) aid_main_viewer_pane_g3_ParamLimits
+
+0x83f2,	// (0x00055319) aid_main_viewer_pane_g3
+
+0x8403,	// (0x0005532a) aid_main_viewer_pane_g4_ParamLimits
+
+0x8403,	// (0x0005532a) aid_main_viewer_pane_g4
 
 0x0003,
 
-0xf4b8,	// (0x0005b6fc) aid_main_viewer_pane_g_ParamLimits
+0xf4a9,	// (0x0005c3d0) aid_main_viewer_pane_g_ParamLimits
 
-0xf4b8,	// (0x0005b6fc) aid_main_viewer_pane_g
+0xf4a9,	// (0x0005c3d0) aid_main_viewer_pane_g
 
-0x8cd9,	// (0x00054f1d) main_calc_pane_ParamLimits
+0x8b77,	// (0x00055a9e) main_calc_pane_ParamLimits
 
-0x8ce6,	// (0x00054f2a) main_dialer2_pane_ParamLimits
+0x8b92,	// (0x00055ab9) main_dialer2_pane_ParamLimits
 
-0x037e,	// (0x0004c5c2) main_cam6_pane
+0x5d04,	// (0x00052c2b) main_cam6_pane
 
-0x037e,	// (0x0004c5c2) main_vid6_pane
+0x5d04,	// (0x00052c2b) main_vid6_pane
 
-0x9fa7,	// (0x000561eb) listscroll_gen_pane_cp06_ParamLimits
+0x9e92,	// (0x00056db9) listscroll_gen_pane_cp06_ParamLimits
 
-0x9fa7,	// (0x000561eb) listscroll_gen_pane_cp06
+0x9e92,	// (0x00056db9) listscroll_gen_pane_cp06
 
-0xa056,	// (0x0005629a) main_clock2_pane_t5_ParamLimits
+0x9f41,	// (0x00056e68) main_clock2_pane_t5_ParamLimits
 
-0xa056,	// (0x0005629a) main_clock2_pane_t5
+0x9f41,	// (0x00056e68) main_clock2_pane_t5
 
-0xa09f,	// (0x000562e3) aid_call2_pane_cp10_ParamLimits
+0x9f8a,	// (0x00056eb1) aid_call2_pane_cp10_ParamLimits
 
-0xa0b1,	// (0x000562f5) aid_call_pane_cp10_ParamLimits
+0x9f9c,	// (0x00056ec3) aid_call_pane_cp10_ParamLimits
 
-0x2c71,	// (0x0004eeb5) popup_clock_analogue_window_cp10_g1_ParamLimits
+0x28f3,	// (0x0004f81a) popup_clock_analogue_window_cp10_g1_ParamLimits
 
-0x2c71,	// (0x0004eeb5) popup_clock_analogue_window_cp10_g2_ParamLimits
+0x28f3,	// (0x0004f81a) popup_clock_analogue_window_cp10_g2_ParamLimits
 
-0xa0c3,	// (0x00056307) popup_clock_analogue_window_cp10_g3_ParamLimits
+0x9fae,	// (0x00056ed5) popup_clock_analogue_window_cp10_g3_ParamLimits
 
-0xa0c3,	// (0x00056307) popup_clock_analogue_window_cp10_g4_ParamLimits
+0x9fae,	// (0x00056ed5) popup_clock_analogue_window_cp10_g4_ParamLimits
 
-0x2c71,	// (0x0004eeb5) popup_clock_analogue_window_cp10_g5_ParamLimits
+0x28f3,	// (0x0004f81a) popup_clock_analogue_window_cp10_g5_ParamLimits
 
-0xf7ee,	// (0x0005ba32) popup_clock_analogue_window_cp10_g_ParamLimits
+0xf7df,	// (0x0005c706) popup_clock_analogue_window_cp10_g_ParamLimits
 
-0xa0d5,	// (0x00056319) popup_clock_analogue_window_cp10_t1_ParamLimits
+0x9fc0,	// (0x00056ee7) popup_clock_analogue_window_cp10_t1_ParamLimits
 
-0xa87f,	// (0x00056ac3) cell_dialer2_keypad_pane_g2_ParamLimits
+0xa778,	// (0x0005769f) cell_dialer2_keypad_pane_g2_ParamLimits
 
-0xa87f,	// (0x00056ac3) cell_dialer2_keypad_pane_g2
+0xa778,	// (0x0005769f) cell_dialer2_keypad_pane_g2
 
 0x0001,
 
-0xf8d4,	// (0x0005bb18) cell_dialer2_keypad_pane_g_ParamLimits
+0xf8c5,	// (0x0005c7ec) cell_dialer2_keypad_pane_g_ParamLimits
 
-0xf8d4,	// (0x0005bb18) cell_dialer2_keypad_pane_g
+0xf8c5,	// (0x0005c7ec) cell_dialer2_keypad_pane_g
 
-0xa89b,	// (0x00056adf) cell_dialer2_keypad_pane_t1
+0xa794,	// (0x000576bb) cell_dialer2_keypad_pane_t1
 
-0xb2b8,	// (0x000574fc) main_cset_text2_pane_ParamLimits
+0xb1aa,	// (0x000580d1) main_cset_text2_pane_ParamLimits
 
-0xb2b8,	// (0x000574fc) main_cset_text2_pane
+0xb1aa,	// (0x000580d1) main_cset_text2_pane
 
-0xe443,	// (0x0005a687) area_vitu2_query_pane_g1_ParamLimits
+0xe286,	// (0x0005b1ad) area_vitu2_query_pane_g1_ParamLimits
 
-0xbb78,	// (0x00057dbc) area_vitu2_query_pane_g2_ParamLimits
+0xba5c,	// (0x00058983) area_vitu2_query_pane_g2_ParamLimits
 
-0xfa89,	// (0x0005bccd) area_vitu2_query_pane_g_ParamLimits
+0xfa7a,	// (0x0005c9a1) area_vitu2_query_pane_g_ParamLimits
 
-0x0c80,	// (0x0004cec4) area_vitu2_query_pane_t7_ParamLimits
+0x0a37,	// (0x0004d95e) area_vitu2_query_pane_t7_ParamLimits
 
-0x0c80,	// (0x0004cec4) area_vitu2_query_pane_t7
+0x0a37,	// (0x0004d95e) area_vitu2_query_pane_t7
 
-0xbbd9,	// (0x00057e1d) bg_button_pane_cp018_ParamLimits
+0xbabd,	// (0x000589e4) bg_button_pane_cp018_ParamLimits
 
-0xbbe7,	// (0x00057e2b) bg_button_pane_cp021_ParamLimits
+0xbacb,	// (0x000589f2) bg_button_pane_cp021_ParamLimits
 
-0xbbf3,	// (0x00057e37) bg_button_pane_cp022_ParamLimits
+0xbad7,	// (0x000589fe) bg_button_pane_cp022_ParamLimits
 
-0xbbf3,	// (0x00057e37) bg_vkb2_func_pane_cp08_ParamLimits
+0xbad7,	// (0x000589fe) bg_vkb2_func_pane_cp08_ParamLimits
 
-0xbbd9,	// (0x00057e1d) bg_vkb2_func_pane_cp06_ParamLimits
+0xbabd,	// (0x000589e4) bg_vkb2_func_pane_cp06_ParamLimits
 
-0xbbe7,	// (0x00057e2b) bg_vkb2_func_pane_cp07_ParamLimits
+0xbacb,	// (0x000589f2) bg_vkb2_func_pane_cp07_ParamLimits
 
-0xbc04,	// (0x00057e48) input_focus_pane_cp09_ParamLimits
+0xbae8,	// (0x00058a0f) input_focus_pane_cp09_ParamLimits
 
-0xc098,	// (0x000582dc) cam6_autofocus_pane_ParamLimits
+0xbf7e,	// (0x00058ea5) cam6_autofocus_pane_ParamLimits
 
-0xc098,	// (0x000582dc) cam6_autofocus_pane
+0xbf7e,	// (0x00058ea5) cam6_autofocus_pane
 
-0xc0ba,	// (0x000582fe) cam6_image_uncrop_pane_ParamLimits
+0xbfa0,	// (0x00058ec7) cam6_image_uncrop_pane_ParamLimits
 
-0xc0ba,	// (0x000582fe) cam6_image_uncrop_pane
+0xbfa0,	// (0x00058ec7) cam6_image_uncrop_pane
 
-0xc0e7,	// (0x0005832b) cam6_indi_pane_ParamLimits
+0xbfcd,	// (0x00058ef4) cam6_indi_pane_ParamLimits
 
-0xc0e7,	// (0x0005832b) cam6_indi_pane
+0xbfcd,	// (0x00058ef4) cam6_indi_pane
 
-0xc101,	// (0x00058345) cam6_mode_pane_ParamLimits
+0xbfe7,	// (0x00058f0e) cam6_mode_pane_ParamLimits
 
-0xc101,	// (0x00058345) cam6_mode_pane
+0xbfe7,	// (0x00058f0e) cam6_mode_pane
 
-0xc115,	// (0x00058359) cam6_timer_pane_ParamLimits
+0xbffb,	// (0x00058f22) cam6_timer_pane_ParamLimits
 
-0xc115,	// (0x00058359) cam6_timer_pane
+0xbffb,	// (0x00058f22) cam6_timer_pane
 
-0xc121,	// (0x00058365) cam6_zoom_pane_ParamLimits
+0xc007,	// (0x00058f2e) cam6_zoom_pane_ParamLimits
 
-0xc121,	// (0x00058365) cam6_zoom_pane
+0xc007,	// (0x00058f2e) cam6_zoom_pane
 
-0xc139,	// (0x0005837d) cam6_mode_pane_g1_ParamLimits
+0xc01f,	// (0x00058f46) cam6_mode_pane_g1_ParamLimits
 
-0xc139,	// (0x0005837d) cam6_mode_pane_g1
+0xc01f,	// (0x00058f46) cam6_mode_pane_g1
 
-0xc145,	// (0x00058389) cam6_mode_pane_g2_ParamLimits
+0xc02b,	// (0x00058f52) cam6_mode_pane_g2_ParamLimits
 
-0xc145,	// (0x00058389) cam6_mode_pane_g2
+0xc02b,	// (0x00058f52) cam6_mode_pane_g2
 
-0xc151,	// (0x00058395) cam6_mode_pane_g3_ParamLimits
+0xc037,	// (0x00058f5e) cam6_mode_pane_g3_ParamLimits
 
-0xc151,	// (0x00058395) cam6_mode_pane_g3
+0xc037,	// (0x00058f5e) cam6_mode_pane_g3
 
-0xc15d,	// (0x000583a1) cam6_mode_pane_g4_ParamLimits
+0xc043,	// (0x00058f6a) cam6_mode_pane_g4_ParamLimits
 
-0xc15d,	// (0x000583a1) cam6_mode_pane_g4
-
-0x0003,
-
-0xfb71,	// (0x0005bdb5) cam6_mode_pane_g_ParamLimits
-
-0xfb71,	// (0x0005bdb5) cam6_mode_pane_g
-
-0xdea2,	// (0x0005a0e6) bg_tb_trans_pane_cp08_ParamLimits
-
-0xdea2,	// (0x0005a0e6) bg_tb_trans_pane_cp08
-
-0xe635,	// (0x0005a879) cam6_battery_pane_ParamLimits
-
-0xe635,	// (0x0005a879) cam6_battery_pane
-
-0xe64b,	// (0x0005a88f) cam6_indi_pane_g1_ParamLimits
-
-0xe64b,	// (0x0005a88f) cam6_indi_pane_g1
-
-0xe65d,	// (0x0005a8a1) cam6_indi_pane_g2_ParamLimits
-
-0xe65d,	// (0x0005a8a1) cam6_indi_pane_g2
-
-0xe66f,	// (0x0005a8b3) cam6_indi_pane_g3_ParamLimits
-
-0xe66f,	// (0x0005a8b3) cam6_indi_pane_g3
-
-0x0002,
-
-0xfb7a,	// (0x0005bdbe) cam6_indi_pane_g_ParamLimits
-
-0xfb7a,	// (0x0005bdbe) cam6_indi_pane_g
-
-0xe681,	// (0x0005a8c5) cam6_indi_pane_t1_ParamLimits
-
-0xe681,	// (0x0005a8c5) cam6_indi_pane_t1
-
-0xad83,	// (0x00056fc7) cam6_autofocus_pane_g1
-
-0xad7b,	// (0x00056fbf) cam6_autofocus_pane_g2
-
-0xad93,	// (0x00056fd7) cam6_autofocus_pane_g3
-
-0xad8b,	// (0x00056fcf) cam6_autofocus_pane_g4
+0xc043,	// (0x00058f6a) cam6_mode_pane_g4
 
 0x0003,
 
-0xfb81,	// (0x0005bdc5) cam6_autofocus_pane_g
+0xfb62,	// (0x0005ca89) cam6_mode_pane_g_ParamLimits
 
-0xe6a7,	// (0x0005a8eb) cam6_timer_pane_g1
+0xfb62,	// (0x0005ca89) cam6_mode_pane_g
 
-0xe6af,	// (0x0005a8f3) cam6_timer_pane_t1
+0xdde6,	// (0x0005ad0d) bg_tb_trans_pane_cp08_ParamLimits
 
-0xe6bd,	// (0x0005a901) cam6_zoom_cont_pane
+0xdde6,	// (0x0005ad0d) bg_tb_trans_pane_cp08
 
-0xe6c5,	// (0x0005a909) cam6_zoom_pane_g1
+0xe481,	// (0x0005b3a8) cam6_battery_pane_ParamLimits
 
-0xe6cd,	// (0x0005a911) cam6_zoom_pane_g2
+0xe481,	// (0x0005b3a8) cam6_battery_pane
 
-0xc169,	// (0x000583ad) cam6_zoom_pane_g3
+0xe497,	// (0x0005b3be) cam6_indi_pane_g1_ParamLimits
+
+0xe497,	// (0x0005b3be) cam6_indi_pane_g1
+
+0xe4a9,	// (0x0005b3d0) cam6_indi_pane_g2_ParamLimits
+
+0xe4a9,	// (0x0005b3d0) cam6_indi_pane_g2
+
+0xe4bb,	// (0x0005b3e2) cam6_indi_pane_g3_ParamLimits
+
+0xe4bb,	// (0x0005b3e2) cam6_indi_pane_g3
 
 0x0002,
 
-0xfb8a,	// (0x0005bdce) cam6_zoom_pane_g
+0xfb6b,	// (0x0005ca92) cam6_indi_pane_g_ParamLimits
 
-0x4597,	// (0x000507db) cam6_battery_pane_g1
+0xfb6b,	// (0x0005ca92) cam6_indi_pane_g
 
-0x4597,	// (0x000507db) cam6_battery_pane_g2
+0xe4cd,	// (0x0005b3f4) cam6_indi_pane_t1_ParamLimits
+
+0xe4cd,	// (0x0005b3f4) cam6_indi_pane_t1
+
+0xac75,	// (0x00057b9c) cam6_autofocus_pane_g1
+
+0xac6d,	// (0x00057b94) cam6_autofocus_pane_g2
+
+0xac85,	// (0x00057bac) cam6_autofocus_pane_g3
+
+0xac7d,	// (0x00057ba4) cam6_autofocus_pane_g4
+
+0x0003,
+
+0xfb72,	// (0x0005ca99) cam6_autofocus_pane_g
+
+0xe4f3,	// (0x0005b41a) cam6_timer_pane_g1
+
+0xe4fb,	// (0x0005b422) cam6_timer_pane_t1
+
+0xe509,	// (0x0005b430) cam6_zoom_cont_pane
+
+0xe511,	// (0x0005b438) cam6_zoom_pane_g1
+
+0xe519,	// (0x0005b440) cam6_zoom_pane_g2
+
+0xc04f,	// (0x00058f76) cam6_zoom_pane_g3
+
+0x0002,
+
+0xfb7b,	// (0x0005caa2) cam6_zoom_pane_g
+
+0x41eb,	// (0x00051112) cam6_battery_pane_g1
+
+0x41eb,	// (0x00051112) cam6_battery_pane_g2
 
 0x0001,
 
-0xf6fb,	// (0x0005b93f) cam6_battery_pane_g
+0xf6ec,	// (0x0005c613) cam6_battery_pane_g
 
-0xe6d5,	// (0x0005a919) cam6_zoom_cont_pane_g1
+0xe521,	// (0x0005b448) cam6_zoom_cont_pane_g1
 
-0xe6de,	// (0x0005a922) cam6_zoom_cont_pane_g2
+0xe52a,	// (0x0005b451) cam6_zoom_cont_pane_g2
 
-0xe6e7,	// (0x0005a92b) cam6_zoom_cont_pane_g3
+0xe533,	// (0x0005b45a) cam6_zoom_cont_pane_g3
 
 0x0002,
 
-0xfb91,	// (0x0005bdd5) cam6_zoom_cont_pane_g
+0xfb82,	// (0x0005caa9) cam6_zoom_cont_pane_g
 
-0xc186,	// (0x000583ca) cam6_mode_pane_cp_ParamLimits
+0xc06c,	// (0x00058f93) cam6_mode_pane_cp_ParamLimits
 
-0xc186,	// (0x000583ca) cam6_mode_pane_cp
+0xc06c,	// (0x00058f93) cam6_mode_pane_cp
 
-0xc19a,	// (0x000583de) cam6_zoom_pane_cp_ParamLimits
+0xc080,	// (0x00058fa7) cam6_zoom_pane_cp_ParamLimits
 
-0xc19a,	// (0x000583de) cam6_zoom_pane_cp
+0xc080,	// (0x00058fa7) cam6_zoom_pane_cp
 
-0xc1b2,	// (0x000583f6) vid6_image_uncrop_cif_pane_ParamLimits
+0xc098,	// (0x00058fbf) vid6_image_uncrop_cif_pane_ParamLimits
 
-0xc1b2,	// (0x000583f6) vid6_image_uncrop_cif_pane
+0xc098,	// (0x00058fbf) vid6_image_uncrop_cif_pane
 
-0xc1de,	// (0x00058422) vid6_image_uncrop_nhd_pane_ParamLimits
+0xc0c4,	// (0x00058feb) vid6_image_uncrop_nhd_pane_ParamLimits
 
-0xc1de,	// (0x00058422) vid6_image_uncrop_nhd_pane
+0xc0c4,	// (0x00058feb) vid6_image_uncrop_nhd_pane
 
-0xc1fb,	// (0x0005843f) vid6_image_uncrop_vga_pane_ParamLimits
+0xc0e1,	// (0x00059008) vid6_image_uncrop_vga_pane_ParamLimits
 
-0xc1fb,	// (0x0005843f) vid6_image_uncrop_vga_pane
+0xc0e1,	// (0x00059008) vid6_image_uncrop_vga_pane
 
-0xc21a,	// (0x0005845e) vid6_image_uncrop_wvga_pane_ParamLimits
+0xc100,	// (0x00059027) vid6_image_uncrop_wvga_pane_ParamLimits
 
-0xc21a,	// (0x0005845e) vid6_image_uncrop_wvga_pane
+0xc100,	// (0x00059027) vid6_image_uncrop_wvga_pane
 
-0xc237,	// (0x0005847b) vid6_indi_pane_ParamLimits
+0xc11d,	// (0x00059044) vid6_indi_pane_ParamLimits
 
-0xc237,	// (0x0005847b) vid6_indi_pane
+0xc11d,	// (0x00059044) vid6_indi_pane
 
-0xdea2,	// (0x0005a0e6) bg_tb_trans_pane_cp09_ParamLimits
+0xdde6,	// (0x0005ad0d) bg_tb_trans_pane_cp09_ParamLimits
 
-0xdea2,	// (0x0005a0e6) bg_tb_trans_pane_cp09
+0xdde6,	// (0x0005ad0d) bg_tb_trans_pane_cp09
 
-0xe6ff,	// (0x0005a943) cam6_battery_pane_cp_ParamLimits
+0xe54b,	// (0x0005b472) cam6_battery_pane_cp_ParamLimits
 
-0xe6ff,	// (0x0005a943) cam6_battery_pane_cp
+0xe54b,	// (0x0005b472) cam6_battery_pane_cp
 
-0xe70b,	// (0x0005a94f) vid6_indi_pane_g1_ParamLimits
+0xe557,	// (0x0005b47e) vid6_indi_pane_g1_ParamLimits
 
-0xe70b,	// (0x0005a94f) vid6_indi_pane_g1
+0xe557,	// (0x0005b47e) vid6_indi_pane_g1
 
-0xe71d,	// (0x0005a961) vid6_indi_pane_g2_ParamLimits
+0xe569,	// (0x0005b490) vid6_indi_pane_g2_ParamLimits
 
-0xe71d,	// (0x0005a961) vid6_indi_pane_g2
+0xe569,	// (0x0005b490) vid6_indi_pane_g2
 
-0xe72f,	// (0x0005a973) vid6_indi_pane_g3_ParamLimits
+0xe57b,	// (0x0005b4a2) vid6_indi_pane_g3_ParamLimits
 
-0xe72f,	// (0x0005a973) vid6_indi_pane_g3
+0xe57b,	// (0x0005b4a2) vid6_indi_pane_g3
 
-0xe744,	// (0x0005a988) vid6_indi_pane_g4_ParamLimits
+0xe590,	// (0x0005b4b7) vid6_indi_pane_g4_ParamLimits
 
-0xe744,	// (0x0005a988) vid6_indi_pane_g4
+0xe590,	// (0x0005b4b7) vid6_indi_pane_g4
 
-0xe759,	// (0x0005a99d) vid6_indi_pane_g5_ParamLimits
+0xe5a5,	// (0x0005b4cc) vid6_indi_pane_g5_ParamLimits
 
-0xe759,	// (0x0005a99d) vid6_indi_pane_g5
+0xe5a5,	// (0x0005b4cc) vid6_indi_pane_g5
 
 0x0004,
 
-0xfb98,	// (0x0005bddc) vid6_indi_pane_g_ParamLimits
+0xfb89,	// (0x0005cab0) vid6_indi_pane_g_ParamLimits
 
-0xfb98,	// (0x0005bddc) vid6_indi_pane_g
+0xfb89,	// (0x0005cab0) vid6_indi_pane_g
 
-0xe773,	// (0x0005a9b7) vid6_indi_pane_t1_ParamLimits
+0xe5bf,	// (0x0005b4e6) vid6_indi_pane_t1_ParamLimits
 
-0xe773,	// (0x0005a9b7) vid6_indi_pane_t1
+0xe5bf,	// (0x0005b4e6) vid6_indi_pane_t1
 
-0xe789,	// (0x0005a9cd) vid6_indi_pane_t2_ParamLimits
+0xe5d5,	// (0x0005b4fc) vid6_indi_pane_t2_ParamLimits
 
-0xe789,	// (0x0005a9cd) vid6_indi_pane_t2
+0xe5d5,	// (0x0005b4fc) vid6_indi_pane_t2
 
-0xe7b1,	// (0x0005a9f5) vid6_indi_pane_t3_ParamLimits
+0xe5fd,	// (0x0005b524) vid6_indi_pane_t3_ParamLimits
 
-0xe7b1,	// (0x0005a9f5) vid6_indi_pane_t3
+0xe5fd,	// (0x0005b524) vid6_indi_pane_t3
 
-0xe7d9,	// (0x0005aa1d) vid6_indi_pane_t4_ParamLimits
+0xe625,	// (0x0005b54c) vid6_indi_pane_t4_ParamLimits
 
-0xe7d9,	// (0x0005aa1d) vid6_indi_pane_t4
+0xe625,	// (0x0005b54c) vid6_indi_pane_t4
 
 0x0003,
 
-0xfba3,	// (0x0005bde7) vid6_indi_pane_t_ParamLimits
+0xfb94,	// (0x0005cabb) vid6_indi_pane_t_ParamLimits
 
-0xfba3,	// (0x0005bde7) vid6_indi_pane_t
+0xfb94,	// (0x0005cabb) vid6_indi_pane_t
 
-0xe7fd,	// (0x0005aa41) wait_bar_pane_cp08
+0xe649,	// (0x0005b570) wait_bar_pane_cp08
 
-0xc25c,	// (0x000584a0) main_cset_text2_pane_t1_ParamLimits
+0xc142,	// (0x00059069) main_cset_text2_pane_t1_ParamLimits
 
-0xc25c,	// (0x000584a0) main_cset_text2_pane_t1
+0xc142,	// (0x00059069) main_cset_text2_pane_t1
 
-0xc171,	// (0x000583b5) listscroll_gen_pane_cp06_t1_ParamLimits
+0xc057,	// (0x00058f7e) listscroll_gen_pane_cp06_t1_ParamLimits
 
-0xc171,	// (0x000583b5) listscroll_gen_pane_cp06_t1
+0xc057,	// (0x00058f7e) listscroll_gen_pane_cp06_t1
 
-0x037e,	// (0x0004c5c2) main_cam6_set_pane
+0x5d04,	// (0x00052c2b) main_cam6_set_pane
 
-0xac0e,	// (0x00056e52) bg_tb_trans_pane_cp06_ParamLimits
+0xab07,	// (0x00057a2e) bg_tb_trans_pane_cp06_ParamLimits
 
-0xac24,	// (0x00056e68) cam4_indicators_pane_g1_ParamLimits
+0xab1d,	// (0x00057a44) cam4_indicators_pane_g1_ParamLimits
 
-0xac35,	// (0x00056e79) cam4_indicators_pane_g2_ParamLimits
+0xab2e,	// (0x00057a55) cam4_indicators_pane_g2_ParamLimits
 
-0xf911,	// (0x0005bb55) cam4_indicators_pane_g_ParamLimits
+0xf902,	// (0x0005c829) cam4_indicators_pane_g_ParamLimits
 
-0xac53,	// (0x00056e97) cam4_indicators_pane_t1_ParamLimits
+0xab4c,	// (0x00057a73) cam4_indicators_pane_t1_ParamLimits
 
-0xacfb,	// (0x00056f3f) bg_tb_trans_pane_cp07_ParamLimits
+0x8b84,	// (0x00055aab) bg_tb_trans_pane_cp07_ParamLimits
 
-0xad13,	// (0x00056f57) vid4_indicators_pane_g1_ParamLimits
+0xabff,	// (0x00057b26) vid4_indicators_pane_g1_ParamLimits
 
-0xad24,	// (0x00056f68) vid4_indicators_pane_g2_ParamLimits
+0xac13,	// (0x00057b3a) vid4_indicators_pane_g2_ParamLimits
 
-0xad35,	// (0x00056f79) vid4_indicators_pane_g3_ParamLimits
+0xac27,	// (0x00057b4e) vid4_indicators_pane_g3_ParamLimits
 
-0xad46,	// (0x00056f8a) vid4_indicators_pane_g4_ParamLimits
+0xac38,	// (0x00057b5f) vid4_indicators_pane_g4_ParamLimits
 
-0xf923,	// (0x0005bb67) vid4_indicators_pane_g_ParamLimits
+0xf914,	// (0x0005c83b) vid4_indicators_pane_g_ParamLimits
 
-0xad62,	// (0x00056fa6) vid4_indicators_pane_t1_ParamLimits
+0xac56,	// (0x00057b7d) vid4_indicators_pane_t1_ParamLimits
 
-0xbd35,	// (0x00057f79) vid4_progress_pane_g1_ParamLimits
+0xbc19,	// (0x00058b40) vid4_progress_pane_g1_ParamLimits
 
-0xbd45,	// (0x00057f89) vid4_progress_pane_g2_ParamLimits
+0xbc2b,	// (0x00058b52) vid4_progress_pane_g2_ParamLimits
 
-0x2904,	// (0x0004eb48) vid4_progress_pane_g3_ParamLimits
+0x2586,	// (0x0004f4ad) vid4_progress_pane_g3_ParamLimits
 
-0xbd55,	// (0x00057f99) vid4_progress_pane_g4_ParamLimits
+0xbc3b,	// (0x00058b62) vid4_progress_pane_g4_ParamLimits
 
-0xfad4,	// (0x0005bd18) vid4_progress_pane_g_ParamLimits
+0xfac5,	// (0x0005c9ec) vid4_progress_pane_g_ParamLimits
 
-0xbd73,	// (0x00057fb7) vid4_progress_pane_t1_ParamLimits
+0xbc59,	// (0x00058b80) vid4_progress_pane_t1_ParamLimits
 
-0xbd88,	// (0x00057fcc) vid4_progress_pane_t2_ParamLimits
+0xbc6e,	// (0x00058b95) vid4_progress_pane_t2_ParamLimits
 
-0xbd9e,	// (0x00057fe2) vid4_progress_pane_t3_ParamLimits
+0xbc84,	// (0x00058bab) vid4_progress_pane_t3_ParamLimits
 
-0xfadf,	// (0x0005bd23) vid4_progress_pane_t_ParamLimits
+0xfad0,	// (0x0005c9f7) vid4_progress_pane_t_ParamLimits
 
-0xbdb3,	// (0x00057ff7) wait_bar_pane_cp07_ParamLimits
+0xbc99,	// (0x00058bc0) wait_bar_pane_cp07_ParamLimits
 
-0xc28f,	// (0x000584d3) main_cam6_set_pane_g2_ParamLimits
+0xc175,	// (0x0005909c) main_cam6_set_pane_g2_ParamLimits
 
-0xc28f,	// (0x000584d3) main_cam6_set_pane_g2
+0xc175,	// (0x0005909c) main_cam6_set_pane_g2
 
-0xc29b,	// (0x000584df) main_cset6_listscroll_pane_ParamLimits
+0xc181,	// (0x000590a8) main_cset6_listscroll_pane_ParamLimits
 
-0xc29b,	// (0x000584df) main_cset6_listscroll_pane
+0xc181,	// (0x000590a8) main_cset6_listscroll_pane
 
-0xc2c6,	// (0x0005850a) main_cset6_slider_pane_ParamLimits
+0xc1ac,	// (0x000590d3) main_cset6_slider_pane_ParamLimits
 
-0xc2c6,	// (0x0005850a) main_cset6_slider_pane
+0xc1ac,	// (0x000590d3) main_cset6_slider_pane
 
-0xc2d2,	// (0x00058516) main_cset6_text2_pane_ParamLimits
+0xc1b8,	// (0x000590df) main_cset6_text2_pane_ParamLimits
 
-0xc2d2,	// (0x00058516) main_cset6_text2_pane
+0xc1b8,	// (0x000590df) main_cset6_text2_pane
 
-0xe80c,	// (0x0005aa50) main_cset6_text_pane
+0xe658,	// (0x0005b57f) main_cset6_text_pane
 
-0xe814,	// (0x0005aa58) main_cset_list_pane_copy1_ParamLimits
+0xe660,	// (0x0005b587) main_cset_list_pane_copy1_ParamLimits
 
-0xe814,	// (0x0005aa58) main_cset_list_pane_copy1
+0xe660,	// (0x0005b587) main_cset_list_pane_copy1
 
-0xe824,	// (0x0005aa68) scroll_pane_cp028_copy1
+0xe670,	// (0x0005b597) scroll_pane_cp028_copy1
 
-0xc2e5,	// (0x00058529) cset_list_set_pane_copy1
+0xc1cb,	// (0x000590f2) cset_list_set_pane_copy1
 
-0xc2f8,	// (0x0005853c) aid_position_infowindow_above_copy1
+0xc1de,	// (0x00059105) aid_position_infowindow_above_copy1
 
-0xc300,	// (0x00058544) aid_position_infowindow_below_copy1
+0xc1e6,	// (0x0005910d) aid_position_infowindow_below_copy1
 
-0xc308,	// (0x0005854c) cset_list_set_pane_g1_copy1
+0xc1ee,	// (0x00059115) cset_list_set_pane_g1_copy1
 
-0x0b62,	// (0x0004cda6) cset_list_set_pane_g3_copy1_ParamLimits
+0x0919,	// (0x0004d840) cset_list_set_pane_g3_copy1_ParamLimits
 
-0x0b62,	// (0x0004cda6) cset_list_set_pane_g3_copy1
+0x0919,	// (0x0004d840) cset_list_set_pane_g3_copy1
 
-0x0b71,	// (0x0004cdb5) cset_list_set_pane_t1_copy1_ParamLimits
+0x0928,	// (0x0004d84f) cset_list_set_pane_t1_copy1_ParamLimits
 
-0x0b71,	// (0x0004cdb5) cset_list_set_pane_t1_copy1
+0x0928,	// (0x0004d84f) cset_list_set_pane_t1_copy1
 
-0x334c,	// (0x0004f590) list_highlight_pane_cp021_copy1_ParamLimits
+0x3810,	// (0x00050737) list_highlight_pane_cp021_copy1_ParamLimits
 
-0x334c,	// (0x0004f590) list_highlight_pane_cp021_copy1
+0x3810,	// (0x00050737) list_highlight_pane_cp021_copy1
 
-0xe82d,	// (0x0005aa71) cset6_slider_pane_ParamLimits
+0xe679,	// (0x0005b5a0) cset6_slider_pane_ParamLimits
 
-0xe82d,	// (0x0005aa71) cset6_slider_pane
+0xe679,	// (0x0005b5a0) cset6_slider_pane
 
-0xe859,	// (0x0005aa9d) main_cset6_slider_pane_g1_ParamLimits
+0xe6a5,	// (0x0005b5cc) main_cset6_slider_pane_g1_ParamLimits
 
-0xe859,	// (0x0005aa9d) main_cset6_slider_pane_g1
+0xe6a5,	// (0x0005b5cc) main_cset6_slider_pane_g1
 
-0xc310,	// (0x00058554) main_cset6_slider_pane_g2_ParamLimits
+0xc1f6,	// (0x0005911d) main_cset6_slider_pane_g2_ParamLimits
 
-0xc310,	// (0x00058554) main_cset6_slider_pane_g2
+0xc1f6,	// (0x0005911d) main_cset6_slider_pane_g2
 
-0xe881,	// (0x0005aac5) main_cset6_slider_pane_g3_ParamLimits
+0xe6cd,	// (0x0005b5f4) main_cset6_slider_pane_g3_ParamLimits
 
-0xe881,	// (0x0005aac5) main_cset6_slider_pane_g3
+0xe6cd,	// (0x0005b5f4) main_cset6_slider_pane_g3
 
-0xc338,	// (0x0005857c) main_cset6_slider_pane_g4_ParamLimits
+0xc21e,	// (0x00059145) main_cset6_slider_pane_g4_ParamLimits
 
-0xc338,	// (0x0005857c) main_cset6_slider_pane_g4
+0xc21e,	// (0x00059145) main_cset6_slider_pane_g4
 
-0xc344,	// (0x00058588) main_cset6_slider_pane_g5_ParamLimits
+0xc22a,	// (0x00059151) main_cset6_slider_pane_g5_ParamLimits
 
-0xc344,	// (0x00058588) main_cset6_slider_pane_g5
+0xc22a,	// (0x00059151) main_cset6_slider_pane_g5
 
-0xe131,	// (0x0005a375) main_cset6_slider_pane_g7_ParamLimits
+0xdf74,	// (0x0005ae9b) main_cset6_slider_pane_g7_ParamLimits
 
-0xe131,	// (0x0005a375) main_cset6_slider_pane_g7
+0xdf74,	// (0x0005ae9b) main_cset6_slider_pane_g7
 
-0xe13d,	// (0x0005a381) main_cset6_slider_pane_g8_ParamLimits
+0xdf80,	// (0x0005aea7) main_cset6_slider_pane_g8_ParamLimits
 
-0xe13d,	// (0x0005a381) main_cset6_slider_pane_g8
+0xdf80,	// (0x0005aea7) main_cset6_slider_pane_g8
 
-0xc352,	// (0x00058596) main_cset6_slider_pane_g9_ParamLimits
+0xc238,	// (0x0005915f) main_cset6_slider_pane_g9_ParamLimits
 
-0xc352,	// (0x00058596) main_cset6_slider_pane_g9
+0xc238,	// (0x0005915f) main_cset6_slider_pane_g9
 
-0xc35e,	// (0x000585a2) main_cset6_slider_pane_g10_ParamLimits
+0xc244,	// (0x0005916b) main_cset6_slider_pane_g10_ParamLimits
 
-0xc35e,	// (0x000585a2) main_cset6_slider_pane_g10
+0xc244,	// (0x0005916b) main_cset6_slider_pane_g10
 
-0xc36a,	// (0x000585ae) main_cset6_slider_pane_g11_ParamLimits
+0xc250,	// (0x00059177) main_cset6_slider_pane_g11_ParamLimits
 
-0xc36a,	// (0x000585ae) main_cset6_slider_pane_g11
+0xc250,	// (0x00059177) main_cset6_slider_pane_g11
 
-0xc376,	// (0x000585ba) main_cset6_slider_pane_g12_ParamLimits
+0xc25c,	// (0x00059183) main_cset6_slider_pane_g12_ParamLimits
 
-0xc376,	// (0x000585ba) main_cset6_slider_pane_g12
+0xc25c,	// (0x00059183) main_cset6_slider_pane_g12
 
-0xc382,	// (0x000585c6) main_cset6_slider_pane_g13_ParamLimits
+0xc268,	// (0x0005918f) main_cset6_slider_pane_g13_ParamLimits
 
-0xc382,	// (0x000585c6) main_cset6_slider_pane_g13
+0xc268,	// (0x0005918f) main_cset6_slider_pane_g13
 
-0xc38e,	// (0x000585d2) main_cset6_slider_pane_g14_ParamLimits
+0xc274,	// (0x0005919b) main_cset6_slider_pane_g14_ParamLimits
 
-0xc38e,	// (0x000585d2) main_cset6_slider_pane_g14
+0xc274,	// (0x0005919b) main_cset6_slider_pane_g14
 
-0xc39a,	// (0x000585de) main_cset6_slider_pane_g15_ParamLimits
+0xc280,	// (0x000591a7) main_cset6_slider_pane_g15_ParamLimits
 
-0xc39a,	// (0x000585de) main_cset6_slider_pane_g15
+0xc280,	// (0x000591a7) main_cset6_slider_pane_g15
 
-0xc3b2,	// (0x000585f6) main_cset6_slider_pane_g16_ParamLimits
+0xc298,	// (0x000591bf) main_cset6_slider_pane_g16_ParamLimits
 
-0xc3b2,	// (0x000585f6) main_cset6_slider_pane_g16
+0xc298,	// (0x000591bf) main_cset6_slider_pane_g16
 
-0xc3c0,	// (0x00058604) main_cset6_slider_pane_g17_ParamLimits
+0xc2a6,	// (0x000591cd) main_cset6_slider_pane_g17_ParamLimits
 
-0xc3c0,	// (0x00058604) main_cset6_slider_pane_g17
+0xc2a6,	// (0x000591cd) main_cset6_slider_pane_g17
 
 0x0011,
 
-0xfbac,	// (0x0005bdf0) main_cset6_slider_pane_g_ParamLimits
+0xfb9d,	// (0x0005cac4) main_cset6_slider_pane_g_ParamLimits
 
-0xfbac,	// (0x0005bdf0) main_cset6_slider_pane_g
+0xfb9d,	// (0x0005cac4) main_cset6_slider_pane_g
 
-0xe88d,	// (0x0005aad1) main_cset6_slider_pane_t1_ParamLimits
+0xe6d9,	// (0x0005b600) main_cset6_slider_pane_t1_ParamLimits
 
-0xe88d,	// (0x0005aad1) main_cset6_slider_pane_t1
+0xe6d9,	// (0x0005b600) main_cset6_slider_pane_t1
 
-0xc3e6,	// (0x0005862a) main_cset6_slider_pane_t2_ParamLimits
+0xc2cc,	// (0x000591f3) main_cset6_slider_pane_t2_ParamLimits
 
-0xc3e6,	// (0x0005862a) main_cset6_slider_pane_t2
+0xc2cc,	// (0x000591f3) main_cset6_slider_pane_t2
 
-0xc411,	// (0x00058655) main_cset6_slider_pane_t3_ParamLimits
+0xc2f7,	// (0x0005921e) main_cset6_slider_pane_t3_ParamLimits
 
-0xc411,	// (0x00058655) main_cset6_slider_pane_t3
+0xc2f7,	// (0x0005921e) main_cset6_slider_pane_t3
 
-0xc43c,	// (0x00058680) main_cset6_slider_pane_t4_ParamLimits
+0xc322,	// (0x00059249) main_cset6_slider_pane_t4_ParamLimits
 
-0xc43c,	// (0x00058680) main_cset6_slider_pane_t4
+0xc322,	// (0x00059249) main_cset6_slider_pane_t4
 
-0xc467,	// (0x000586ab) main_cset6_slider_pane_t5_ParamLimits
+0xc34d,	// (0x00059274) main_cset6_slider_pane_t5_ParamLimits
 
-0xc467,	// (0x000586ab) main_cset6_slider_pane_t5
+0xc34d,	// (0x00059274) main_cset6_slider_pane_t5
 
-0xe8ce,	// (0x0005ab12) main_cset6_slider_pane_t7_ParamLimits
+0xe71a,	// (0x0005b641) main_cset6_slider_pane_t7_ParamLimits
 
-0xe8ce,	// (0x0005ab12) main_cset6_slider_pane_t7
+0xe71a,	// (0x0005b641) main_cset6_slider_pane_t7
 
-0xc494,	// (0x000586d8) main_cset6_slider_pane_t8_ParamLimits
+0xc37a,	// (0x000592a1) main_cset6_slider_pane_t8_ParamLimits
 
-0xc494,	// (0x000586d8) main_cset6_slider_pane_t8
+0xc37a,	// (0x000592a1) main_cset6_slider_pane_t8
 
-0xc4b8,	// (0x000586fc) main_cset6_slider_pane_t9_ParamLimits
+0xc39e,	// (0x000592c5) main_cset6_slider_pane_t9_ParamLimits
 
-0xc4b8,	// (0x000586fc) main_cset6_slider_pane_t9
+0xc39e,	// (0x000592c5) main_cset6_slider_pane_t9
 
-0xc4dc,	// (0x00058720) main_cset6_slider_pane_t10_ParamLimits
+0xc3c2,	// (0x000592e9) main_cset6_slider_pane_t10_ParamLimits
 
-0xc4dc,	// (0x00058720) main_cset6_slider_pane_t10
+0xc3c2,	// (0x000592e9) main_cset6_slider_pane_t10
 
-0xc500,	// (0x00058744) main_cset6_slider_pane_t11_ParamLimits
+0xc3e6,	// (0x0005930d) main_cset6_slider_pane_t11_ParamLimits
 
-0xc500,	// (0x00058744) main_cset6_slider_pane_t11
+0xc3e6,	// (0x0005930d) main_cset6_slider_pane_t11
 
-0xe904,	// (0x0005ab48) main_cset6_slider_pane_t14_ParamLimits
+0xe750,	// (0x0005b677) main_cset6_slider_pane_t14_ParamLimits
 
-0xe904,	// (0x0005ab48) main_cset6_slider_pane_t14
+0xe750,	// (0x0005b677) main_cset6_slider_pane_t14
 
-0xe93d,	// (0x0005ab81) main_cset6_slider_pane_t15_ParamLimits
+0xe789,	// (0x0005b6b0) main_cset6_slider_pane_t15_ParamLimits
 
-0xe93d,	// (0x0005ab81) main_cset6_slider_pane_t15
+0xe789,	// (0x0005b6b0) main_cset6_slider_pane_t15
 
 0x000b,
 
-0xfbd1,	// (0x0005be15) main_cset6_slider_pane_t_ParamLimits
+0xfbc2,	// (0x0005cae9) main_cset6_slider_pane_t_ParamLimits
 
-0xfbd1,	// (0x0005be15) main_cset6_slider_pane_t
+0xfbc2,	// (0x0005cae9) main_cset6_slider_pane_t
 
-0xe976,	// (0x0005abba) cset_slider_pane_g1_copy1
+0xe7c2,	// (0x0005b6e9) cset_slider_pane_g1_copy1
 
-0xe97f,	// (0x0005abc3) cset_slider_pane_g2_copy1
+0xe7cb,	// (0x0005b6f2) cset_slider_pane_g2_copy1
 
-0xe988,	// (0x0005abcc) cset_slider_pane_g3_copy1
+0xe7d4,	// (0x0005b6fb) cset_slider_pane_g3_copy1
 
-0x037e,	// (0x0004c5c2) bg_popup_sub_pane_cp011_copy1
+0x00f2,	// (0x0004d019) bg_popup_sub_pane_cp011_copy1
 
-0xe26f,	// (0x0005a4b3) main_cset_text_pane_g1_copy1
+0xe7dd,	// (0x0005b704) main_cset_text_pane_g1_copy1
 
-0xe277,	// (0x0005a4bb) main_cset_text_pane_t1_copy1
+0xe0ba,	// (0x0005afe1) main_cset_text_pane_t1_copy1
 
-0xe285,	// (0x0005a4c9) main_cset_text_pane_t2_copy1
+0xe0c8,	// (0x0005afef) main_cset_text_pane_t2_copy1
 
-0xe293,	// (0x0005a4d7) main_cset_text_pane_t3_copy1
+0xe0d6,	// (0x0005affd) main_cset_text_pane_t3_copy1
 
-0xe2a1,	// (0x0005a4e5) main_cset_text_pane_t4_copy1
+0xe0e4,	// (0x0005b00b) main_cset_text_pane_t4_copy1
 
-0xe2af,	// (0x0005a4f3) main_cset_text_pane_t5_copy1
+0xe0f2,	// (0x0005b019) main_cset_text_pane_t5_copy1
 
-0xe2bd,	// (0x0005a501) main_cset_text_pane_t6_copy1
+0xe7e5,	// (0x0005b70c) main_cset_text_pane_t6_copy1
 
-0xe2cb,	// (0x0005a50f) main_cset_text_pane_t7_copy1
+0xe7f3,	// (0x0005b71a) main_cset_text_pane_t7_copy1
 
-0xc524,	// (0x00058768) main_cset_text2_pane_t1_copy1
+0xc40a,	// (0x00059331) main_cset_text2_pane_t1_copy1
 
-0x037e,	// (0x0004c5c2) main_ncimui_pane
+0x8b84,	// (0x00055aab) main_ncimui_pane
 
-0x8d25,	// (0x00054f69) popup_query_ncimui_window_ParamLimits
+0x8be3,	// (0x00055b0a) popup_query_ncimui_window_ParamLimits
 
-0x8d25,	// (0x00054f69) popup_query_ncimui_window
+0x8be3,	// (0x00055b0a) popup_query_ncimui_window
 
-0x081d,	// (0x0004ca61) field_cale_ev2_pane_g4_ParamLimits
+0x0574,	// (0x0004d49b) field_cale_ev2_pane_g4_ParamLimits
 
-0x081d,	// (0x0004ca61) field_cale_ev2_pane_g4
+0x0574,	// (0x0004d49b) field_cale_ev2_pane_g4
 
-0xa59f,	// (0x000567e3) cell_video_dialer_keypad_pane_g2_ParamLimits
+0xa498,	// (0x000573bf) cell_video_dialer_keypad_pane_g2_ParamLimits
 
-0xa59f,	// (0x000567e3) cell_video_dialer_keypad_pane_g2
+0xa498,	// (0x000573bf) cell_video_dialer_keypad_pane_g2
 
 0x0001,
 
-0xf8af,	// (0x0005baf3) cell_video_dialer_keypad_pane_g_ParamLimits
+0xf8a0,	// (0x0005c7c7) cell_video_dialer_keypad_pane_g_ParamLimits
 
-0xf8af,	// (0x0005baf3) cell_video_dialer_keypad_pane_g
+0xf8a0,	// (0x0005c7c7) cell_video_dialer_keypad_pane_g
 
-0xa5b7,	// (0x000567fb) cell_video_dialer_keypad_pane_t1
+0xa4b0,	// (0x000573d7) cell_video_dialer_keypad_pane_t1
 
-0x037e,	// (0x0004c5c2) bg_popup_window_pane_cp012
+0x00f2,	// (0x0004d019) bg_popup_window_pane_cp012
 
-0x2ad0,	// (0x0004ed14) heading_pane_cp06
+0x2752,	// (0x0004f679) heading_pane_cp06
 
-0xe9bb,	// (0x0005abff) ncim_query_content_pane
+0xe82b,	// (0x0005b752) ncim_query_content_pane
 
-0x037e,	// (0x0004c5c2) bg_popup_heading_pane_cp01
+0x00f2,	// (0x0004d019) bg_popup_heading_pane_cp01
 
-0xe9c3,	// (0x0005ac07) ncim_heading_pane_t1
+0xe833,	// (0x0005b75a) ncim_heading_pane_t1
 
-0xe9d1,	// (0x0005ac15) ncim_indicator_popup_pane
+0xe841,	// (0x0005b768) ncim_indicator_popup_pane
 
-0xe9e3,	// (0x0005ac27) ncim_query_button_pane
+0xe853,	// (0x0005b77a) ncim_query_button_pane
 
-0xe9f7,	// (0x0005ac3b) ncim_query_content_pane_t1
+0xe867,	// (0x0005b78e) ncim_query_content_pane_t1
 
-0xea09,	// (0x0005ac4d) ncim_query_content_pane_t2
+0xe879,	// (0x0005b7a0) ncim_query_content_pane_t2
 
 0x0005,
 
-0xfc10,	// (0x0005be54) ncim_query_content_pane_t
+0xfc06,	// (0x0005cb2d) ncim_query_content_pane_t
 
-0xea43,	// (0x0005ac87) ncim_query_list_pane
+0xe8b3,	// (0x0005b7da) ncim_query_list_pane
 
-0xea55,	// (0x0005ac99) ncim_query_popup_pane
+0xe8c5,	// (0x0005b7ec) ncim_query_popup_pane
 
-0xe9d1,	// (0x0005ac15) ncim_indicator_popup_pane_ParamLimits
+0xe841,	// (0x0005b768) ncim_indicator_popup_pane_ParamLimits
 
-0xc646,	// (0x0005888a) ncim_query_content_pane_g1_ParamLimits
+0xc55d,	// (0x00059484) ncim_query_content_pane_g1_ParamLimits
 
-0xc646,	// (0x0005888a) ncim_query_content_pane_g1
+0xc55d,	// (0x00059484) ncim_query_content_pane_g1
 
-0xe9f7,	// (0x0005ac3b) ncim_query_content_pane_t1_ParamLimits
+0xe867,	// (0x0005b78e) ncim_query_content_pane_t1_ParamLimits
 
-0xea09,	// (0x0005ac4d) ncim_query_content_pane_t2_ParamLimits
+0xe879,	// (0x0005b7a0) ncim_query_content_pane_t2_ParamLimits
 
-0xc652,	// (0x00058896) ncim_query_content_pane_t3_ParamLimits
+0xc569,	// (0x00059490) ncim_query_content_pane_t3_ParamLimits
 
-0xc652,	// (0x00058896) ncim_query_content_pane_t3
+0xc569,	// (0x00059490) ncim_query_content_pane_t3
 
-0xc66f,	// (0x000588b3) ncim_query_content_pane_t4_ParamLimits
+0xc586,	// (0x000594ad) ncim_query_content_pane_t4_ParamLimits
 
-0xc66f,	// (0x000588b3) ncim_query_content_pane_t4
+0xc586,	// (0x000594ad) ncim_query_content_pane_t4
 
-0xc68c,	// (0x000588d0) ncim_query_content_pane_t5_ParamLimits
+0xc5a3,	// (0x000594ca) ncim_query_content_pane_t5_ParamLimits
 
-0xc68c,	// (0x000588d0) ncim_query_content_pane_t5
+0xc5a3,	// (0x000594ca) ncim_query_content_pane_t5
 
-0xea1b,	// (0x0005ac5f) ncim_query_content_pane_t6_ParamLimits
+0xe88b,	// (0x0005b7b2) ncim_query_content_pane_t6_ParamLimits
 
-0xea1b,	// (0x0005ac5f) ncim_query_content_pane_t6
+0xe88b,	// (0x0005b7b2) ncim_query_content_pane_t6
 
-0xfc10,	// (0x0005be54) ncim_query_content_pane_t_ParamLimits
+0xfc06,	// (0x0005cb2d) ncim_query_content_pane_t_ParamLimits
 
-0xea43,	// (0x0005ac87) ncim_query_list_pane_ParamLimits
+0xe8b3,	// (0x0005b7da) ncim_query_list_pane_ParamLimits
 
-0xea55,	// (0x0005ac99) ncim_query_popup_pane_ParamLimits
+0xe8c5,	// (0x0005b7ec) ncim_query_popup_pane_ParamLimits
 
-0xea69,	// (0x0005acad) wait_bar_pane_cp04
+0xe8d9,	// (0x0005b800) wait_bar_pane_cp04
 
-0x037e,	// (0x0004c5c2) input_focus_pane_cp011
+0x00f2,	// (0x0004d019) input_focus_pane_cp011
 
-0xea71,	// (0x0005acb5) ncim_query_popup_pane_t1
+0xe8e1,	// (0x0005b808) ncim_query_popup_pane_t1
 
-0xea7f,	// (0x0005acc3) ncim_list_query_list_pane_ParamLimits
+0xe8ef,	// (0x0005b816) ncim_list_query_list_pane_ParamLimits
 
-0xea7f,	// (0x0005acc3) ncim_list_query_list_pane
+0xe8ef,	// (0x0005b816) ncim_list_query_list_pane
 
-0x037e,	// (0x0004c5c2) bg_button_pane_cp027
+0x00f2,	// (0x0004d019) bg_button_pane_cp027
 
-0xea8c,	// (0x0005acd0) ncim_query_button_pane_g1
+0xe8fc,	// (0x0005b823) ncim_query_button_pane_g1
 
-0x037e,	// (0x0004c5c2) list_highlight_pane_cp012
+0x00f2,	// (0x0004d019) list_highlight_pane_cp012
 
-0xea96,	// (0x0005acda) ncim_list_query_list_pane_g1
+0xe906,	// (0x0005b82d) ncim_list_query_list_pane_g1
 
-0xea9e,	// (0x0005ace2) ncim_list_query_list_pane_t1
+0xe90e,	// (0x0005b835) ncim_list_query_list_pane_t1
 
-0xac44,	// (0x00056e88) cam4_indicators_pane_g3_ParamLimits
+0xab3d,	// (0x00057a64) cam4_indicators_pane_g3_ParamLimits
 
-0xac44,	// (0x00056e88) cam4_indicators_pane_g3
+0xab3d,	// (0x00057a64) cam4_indicators_pane_g3
 
-0xad52,	// (0x00056f96) vid4_indicators_pane_g5_ParamLimits
+0xac44,	// (0x00057b6b) vid4_indicators_pane_g5_ParamLimits
 
-0xad52,	// (0x00056f96) vid4_indicators_pane_g5
+0xac44,	// (0x00057b6b) vid4_indicators_pane_g5
 
-0xbd64,	// (0x00057fa8) vid4_progress_pane_g5_ParamLimits
+0xbc4a,	// (0x00058b71) vid4_progress_pane_g5_ParamLimits
 
-0xbd64,	// (0x00057fa8) vid4_progress_pane_g5
+0xbc4a,	// (0x00058b71) vid4_progress_pane_g5
 
-0xc55f,	// (0x000587a3) main_ncimui_pane_g1
+0xc449,	// (0x00059370) main_ncimui_pane_g1
 
-0xc5b5,	// (0x000587f9) ncimui_group_query_pane_ParamLimits
+0xc4b1,	// (0x000593d8) ncimui_group_query_pane_ParamLimits
 
-0xc5b5,	// (0x000587f9) ncimui_group_query_pane
+0xc4b1,	// (0x000593d8) ncimui_group_query_pane
 
-0xc5f1,	// (0x00058835) ncimui_list_pane_ParamLimits
+0xc4f9,	// (0x00059420) ncimui_list_pane_ParamLimits
 
-0xc5f1,	// (0x00058835) ncimui_list_pane
+0xc4f9,	// (0x00059420) ncimui_list_pane
 
-0xc612,	// (0x00058856) ncimui_text_pane_ParamLimits
+0xc520,	// (0x00059447) ncimui_text_pane_ParamLimits
 
-0xc612,	// (0x00058856) ncimui_text_pane
+0xc520,	// (0x00059447) ncimui_text_pane
 
-0xc6a9,	// (0x000588ed) ncimui_text_pane_t1_ParamLimits
+0xc5c0,	// (0x000594e7) ncimui_text_pane_t1_ParamLimits
 
-0xc6a9,	// (0x000588ed) ncimui_text_pane_t1
+0xc5c0,	// (0x000594e7) ncimui_text_pane_t1
 
-0xeaac,	// (0x0005acf0) ncimui_list_single_graphic_pane_ParamLimits
+0xe91c,	// (0x0005b843) ncimui_list_single_graphic_pane_ParamLimits
 
-0xeaac,	// (0x0005acf0) ncimui_list_single_graphic_pane
+0xe91c,	// (0x0005b843) ncimui_list_single_graphic_pane
 
-0xc6c8,	// (0x0005890c) ncimui_query_pane_ParamLimits
+0xc5df,	// (0x00059506) ncimui_query_pane_ParamLimits
 
-0xc6c8,	// (0x0005890c) ncimui_query_pane
+0xc5df,	// (0x00059506) ncimui_query_pane
 
-0x037e,	// (0x0004c5c2) list_highlight_pane_cp013
+0x00f2,	// (0x0004d019) list_highlight_pane_cp013
 
-0xeabc,	// (0x0005ad00) ncim_list_query_list_pane_t1_copy1
+0xe92c,	// (0x0005b853) ncim_list_query_list_pane_t1_copy1
 
-0xea96,	// (0x0005acda) ncim_list_single_graphic_pane_g1
+0xe906,	// (0x0005b82d) ncim_list_single_graphic_pane_g1
 
-0xeaca,	// (0x0005ad0e) ncim_query_button_pane_cp01
+0xe93a,	// (0x0005b861) ncim_query_button_pane_cp01
 
-0xead6,	// (0x0005ad1a) ncim_query_entry_pane_ParamLimits
+0xe946,	// (0x0005b86d) ncim_query_entry_pane_ParamLimits
 
-0xead6,	// (0x0005ad1a) ncim_query_entry_pane
+0xe946,	// (0x0005b86d) ncim_query_entry_pane
 
-0xeae9,	// (0x0005ad2d) ncimui_query_pane_g1
+0xe959,	// (0x0005b880) ncimui_query_pane_g1
 
-0xeaf5,	// (0x0005ad39) ncimui_query_pane_t1_ParamLimits
+0xe965,	// (0x0005b88c) ncimui_query_pane_t1_ParamLimits
 
-0xeaf5,	// (0x0005ad39) ncimui_query_pane_t1
+0xe965,	// (0x0005b88c) ncimui_query_pane_t1
 
-0x334c,	// (0x0004f590) input_focus_pane_cp012
+0x3810,	// (0x00050737) input_focus_pane_cp012
 
-0xeb0e,	// (0x0005ad52) ncim_query_entry_pane_t1
+0xe97e,	// (0x0005b8a5) ncim_query_entry_pane_t1
 
-0x2269,	// (0x0004e4ad) main_im_pane_ParamLimits
+0x1eeb,	// (0x0004ee12) main_im_pane_ParamLimits
 
-0x334c,	// (0x0004f590) main_mobtv_pane_ParamLimits
+0x8b84,	// (0x00055aab) main_mobtv_pane_ParamLimits
 
-0x334c,	// (0x0004f590) main_mobtv_pane
+0x8b84,	// (0x00055aab) main_mobtv_pane
 
-0xc3ce,	// (0x00058612) main_cset6_slider_pane_g18_ParamLimits
+0xc2b4,	// (0x000591db) main_cset6_slider_pane_g18_ParamLimits
 
-0xc3ce,	// (0x00058612) main_cset6_slider_pane_g18
+0xc2b4,	// (0x000591db) main_cset6_slider_pane_g18
 
-0xc3da,	// (0x0005861e) main_cset6_slider_pane_g19_ParamLimits
+0xc2c0,	// (0x000591e7) main_cset6_slider_pane_g19_ParamLimits
 
-0xc3da,	// (0x0005861e) main_cset6_slider_pane_g19
+0xc2c0,	// (0x000591e7) main_cset6_slider_pane_g19
 
-0xdfe2,	// (0x0005a226) bg_main_mobtv_pane_ParamLimits
+0xde25,	// (0x0005ad4c) bg_main_mobtv_pane_ParamLimits
 
-0xdfe2,	// (0x0005a226) bg_main_mobtv_pane
+0xde25,	// (0x0005ad4c) bg_main_mobtv_pane
 
-0xc6db,	// (0x0005891f) main_mobtv_info_pane
+0xc5f2,	// (0x00059519) main_mobtv_info_pane
 
-0xc6e6,	// (0x0005892a) main_mobtv_loading_pane_ParamLimits
+0xc5fd,	// (0x00059524) main_mobtv_loading_pane_ParamLimits
 
-0xc6e6,	// (0x0005892a) main_mobtv_loading_pane
+0xc5fd,	// (0x00059524) main_mobtv_loading_pane
 
-0xeb20,	// (0x0005ad64) main_mobtv_pg_channel_list_pane
+0xe990,	// (0x0005b8b7) main_mobtv_pg_channel_list_pane
 
-0xeb2a,	// (0x0005ad6e) main_mobtv_pg_hdr_pane
+0xe99a,	// (0x0005b8c1) main_mobtv_pg_hdr_pane
 
-0xc6f3,	// (0x00058937) main_mobtv_programe_curr_pane_ParamLimits
+0xc60a,	// (0x00059531) main_mobtv_programe_curr_pane_ParamLimits
 
-0xc6f3,	// (0x00058937) main_mobtv_programe_curr_pane
+0xc60a,	// (0x00059531) main_mobtv_programe_curr_pane
 
-0xc700,	// (0x00058944) main_mobtv_programe_next_pane_ParamLimits
+0xc617,	// (0x0005953e) main_mobtv_programe_next_pane_ParamLimits
 
-0xc700,	// (0x00058944) main_mobtv_programe_next_pane
+0xc617,	// (0x0005953e) main_mobtv_programe_next_pane
 
-0xeb33,	// (0x0005ad77) popup_mobtv_noti_window
+0xe9a3,	// (0x0005b8ca) popup_mobtv_noti_window
 
-0x4597,	// (0x000507db) main_tv_pg_hdr_pane_g1
+0x41eb,	// (0x00051112) main_tv_pg_hdr_pane_g1
 
-0xeb3b,	// (0x0005ad7f) main_tv_pg_hdr_pane_g2
+0xe9ab,	// (0x0005b8d2) main_tv_pg_hdr_pane_g2
 
-0xeb43,	// (0x0005ad87) main_tv_pg_hdr_pane_g3
+0xe9b3,	// (0x0005b8da) main_tv_pg_hdr_pane_g3
 
-0xeb4b,	// (0x0005ad8f) main_tv_pg_hdr_pane_g4
+0xe9bb,	// (0x0005b8e2) main_tv_pg_hdr_pane_g4
 
-0xeb53,	// (0x0005ad97) main_tv_pg_hdr_pane_g5
+0xe9c3,	// (0x0005b8ea) main_tv_pg_hdr_pane_g5
 
-0xeb5d,	// (0x0005ada1) main_tv_pg_hdr_pane_g6
+0xe9cd,	// (0x0005b8f4) main_tv_pg_hdr_pane_g6
 
-0xeb67,	// (0x0005adab) main_tv_pg_hdr_pane_g7
+0xe9d7,	// (0x0005b8fe) main_tv_pg_hdr_pane_g7
 
-0xeb71,	// (0x0005adb5) main_tv_pg_hdr_pane_g8
+0xe9e1,	// (0x0005b908) main_tv_pg_hdr_pane_g8
 
-0xeb7b,	// (0x0005adbf) main_tv_pg_hdr_pane_g9
+0xe9eb,	// (0x0005b912) main_tv_pg_hdr_pane_g9
 
-0xeb85,	// (0x0005adc9) main_tv_pg_hdr_pane_g10
+0xe9f5,	// (0x0005b91c) main_tv_pg_hdr_pane_g10
 
-0xeb8f,	// (0x0005add3) main_tv_pg_hdr_pane_g11
+0xe9ff,	// (0x0005b926) main_tv_pg_hdr_pane_g11
 
 0x000a,
 
-0xfc1d,	// (0x0005be61) main_tv_pg_hdr_pane_g
+0xfc13,	// (0x0005cb3a) main_tv_pg_hdr_pane_g
 
-0xeb99,	// (0x0005addd) main_tv_pg_hdr_pane_t1
+0xea09,	// (0x0005b930) main_tv_pg_hdr_pane_t1
 
-0xeba7,	// (0x0005adeb) main_tv_pg_hdr_pane_t2
+0xea17,	// (0x0005b93e) main_tv_pg_hdr_pane_t2
 
-0xebb5,	// (0x0005adf9) main_tv_pg_hdr_pane_t3
+0xea25,	// (0x0005b94c) main_tv_pg_hdr_pane_t3
 
-0xebc5,	// (0x0005ae09) main_tv_pg_hdr_pane_t4
+0xea35,	// (0x0005b95c) main_tv_pg_hdr_pane_t4
 
-0xebd5,	// (0x0005ae19) main_tv_pg_hdr_pane_t5
+0xea45,	// (0x0005b96c) main_tv_pg_hdr_pane_t5
 
 0x0004,
 
-0xfc34,	// (0x0005be78) main_tv_pg_hdr_pane_t
+0xfc2a,	// (0x0005cb51) main_tv_pg_hdr_pane_t
 
-0xebe5,	// (0x0005ae29) single_mobtv_pg_channel_pane_ParamLimits
+0xea55,	// (0x0005b97c) single_mobtv_pg_channel_pane_ParamLimits
 
-0xebe5,	// (0x0005ae29) single_mobtv_pg_channel_pane
+0xea55,	// (0x0005b97c) single_mobtv_pg_channel_pane
 
-0xebf7,	// (0x0005ae3b) single_mobtv_pg_channel_table_pane
+0xea67,	// (0x0005b98e) single_mobtv_pg_channel_table_pane
 
-0xec00,	// (0x0005ae44) single_mobtv_pg_channel_thumb_pane
+0xea70,	// (0x0005b997) single_mobtv_pg_channel_thumb_pane
 
-0xec09,	// (0x0005ae4d) single_tv_pg_channel_pane_g1
+0xea79,	// (0x0005b9a0) single_tv_pg_channel_pane_g1
 
-0xec12,	// (0x0005ae56) single_tv_pg_channel_pane_g2
+0xea82,	// (0x0005b9a9) single_tv_pg_channel_pane_g2
 
 0x0001,
 
-0xfc3f,	// (0x0005be83) single_tv_pg_channel_pane_g
+0xfc35,	// (0x0005cb5c) single_tv_pg_channel_pane_g
 
-0x480b,	// (0x00050a4f) bg_single_mobtv_pg_channel_thumb_pane_ParamLimits
+0x444e,	// (0x00051375) bg_single_mobtv_pg_channel_thumb_pane_ParamLimits
 
-0x480b,	// (0x00050a4f) bg_single_mobtv_pg_channel_thumb_pane
+0x444e,	// (0x00051375) bg_single_mobtv_pg_channel_thumb_pane
 
-0xec1b,	// (0x0005ae5f) single_mobtv_pg_channel_thumb_pane_g1_ParamLimits
+0xea8b,	// (0x0005b9b2) single_mobtv_pg_channel_thumb_pane_g1_ParamLimits
 
-0xec1b,	// (0x0005ae5f) single_mobtv_pg_channel_thumb_pane_g1
+0xea8b,	// (0x0005b9b2) single_mobtv_pg_channel_thumb_pane_g1
 
-0xec29,	// (0x0005ae6d) single_mobtv_pg_channel_thumb_pane_g2_ParamLimits
+0xea99,	// (0x0005b9c0) single_mobtv_pg_channel_thumb_pane_g2_ParamLimits
 
-0xec29,	// (0x0005ae6d) single_mobtv_pg_channel_thumb_pane_g2
+0xea99,	// (0x0005b9c0) single_mobtv_pg_channel_thumb_pane_g2
 
-0xec35,	// (0x0005ae79) single_mobtv_pg_channel_thumb_pane_g3_ParamLimits
+0xeaa5,	// (0x0005b9cc) single_mobtv_pg_channel_thumb_pane_g3_ParamLimits
 
-0xec35,	// (0x0005ae79) single_mobtv_pg_channel_thumb_pane_g3
+0xeaa5,	// (0x0005b9cc) single_mobtv_pg_channel_thumb_pane_g3
 
 0x0002,
 
-0xfc44,	// (0x0005be88) single_mobtv_pg_channel_thumb_pane_g_ParamLimits
+0xfc3a,	// (0x0005cb61) single_mobtv_pg_channel_thumb_pane_g_ParamLimits
 
-0xfc44,	// (0x0005be88) single_mobtv_pg_channel_thumb_pane_g
+0xfc3a,	// (0x0005cb61) single_mobtv_pg_channel_thumb_pane_g
 
-0xec41,	// (0x0005ae85) single_mobtv_pg_channel_thumb_pane_t1
+0xeab1,	// (0x0005b9d8) single_mobtv_pg_channel_thumb_pane_t1
 
-0xec4f,	// (0x0005ae93) single_mobtv_pg_channel_thumb_pane_t2
-
-0x0001,
-
-0xfc4b,	// (0x0005be8f) single_mobtv_pg_channel_thumb_pane_t
-
-0x4597,	// (0x000507db) bg_single_mobtv_pg_channel_table_pane_g1
-
-0x4597,	// (0x000507db) bg_single_mobtv_pg_channel_table_pane_g2
+0xeabf,	// (0x0005b9e6) single_mobtv_pg_channel_thumb_pane_t2
 
 0x0001,
 
-0xf6fb,	// (0x0005b93f) bg_single_mobtv_pg_channel_table_pane_g
+0xfc41,	// (0x0005cb68) single_mobtv_pg_channel_thumb_pane_t
 
-0xec5d,	// (0x0005aea1) single_mobtv_pg_channel_table_pane_t1
+0x41eb,	// (0x00051112) bg_single_mobtv_pg_channel_table_pane_g1
 
-0xec6b,	// (0x0005aeaf) single_mobtv_pg_channel_table_pane_t2
+0x41eb,	// (0x00051112) bg_single_mobtv_pg_channel_table_pane_g2
 
 0x0001,
 
-0xfc50,	// (0x0005be94) single_mobtv_pg_channel_table_pane_t
+0xf6ec,	// (0x0005c613) bg_single_mobtv_pg_channel_table_pane_g
 
-0xc715,	// (0x00058959) main_mobtv_info_pane_g1_ParamLimits
+0xeacd,	// (0x0005b9f4) single_mobtv_pg_channel_table_pane_t1
 
-0xc715,	// (0x00058959) main_mobtv_info_pane_g1
+0xeadb,	// (0x0005ba02) single_mobtv_pg_channel_table_pane_t2
 
-0xc731,	// (0x00058975) main_mobtv_info_pane_t1_ParamLimits
+0x0001,
 
-0xc731,	// (0x00058975) main_mobtv_info_pane_t1
+0xfc46,	// (0x0005cb6d) single_mobtv_pg_channel_table_pane_t
 
-0xc7a9,	// (0x000589ed) main_mobtv_info_pane_t2_ParamLimits
+0xc62c,	// (0x00059553) main_mobtv_info_pane_g1_ParamLimits
 
-0xc7a9,	// (0x000589ed) main_mobtv_info_pane_t2
+0xc62c,	// (0x00059553) main_mobtv_info_pane_g1
+
+0xc648,	// (0x0005956f) main_mobtv_info_pane_t1_ParamLimits
+
+0xc648,	// (0x0005956f) main_mobtv_info_pane_t1
+
+0xc6c0,	// (0x000595e7) main_mobtv_info_pane_t2_ParamLimits
+
+0xc6c0,	// (0x000595e7) main_mobtv_info_pane_t2
 
 0x0002,
 
-0xfc5a,	// (0x0005be9e) main_mobtv_info_pane_t_ParamLimits
+0xfc50,	// (0x0005cb77) main_mobtv_info_pane_t_ParamLimits
 
-0xfc5a,	// (0x0005be9e) main_mobtv_info_pane_t
+0xfc50,	// (0x0005cb77) main_mobtv_info_pane_t
 
-0xc838,	// (0x00058a7c) wait_bar_pane_cp05
+0xc74f,	// (0x00059676) wait_bar_pane_cp05
 
-0xc84a,	// (0x00058a8e) main_mobtv_loading_pane_g1_ParamLimits
+0xc761,	// (0x00059688) main_mobtv_loading_pane_g1_ParamLimits
 
-0xc84a,	// (0x00058a8e) main_mobtv_loading_pane_g1
+0xc761,	// (0x00059688) main_mobtv_loading_pane_g1
 
-0xc858,	// (0x00058a9c) main_mobtv_loading_pane_g2_ParamLimits
+0xc76f,	// (0x00059696) main_mobtv_loading_pane_g2_ParamLimits
 
-0xc858,	// (0x00058a9c) main_mobtv_loading_pane_g2
+0xc76f,	// (0x00059696) main_mobtv_loading_pane_g2
 
-0xc864,	// (0x00058aa8) main_mobtv_loading_pane_g3_ParamLimits
+0xc77b,	// (0x000596a2) main_mobtv_loading_pane_g3_ParamLimits
 
-0xc864,	// (0x00058aa8) main_mobtv_loading_pane_g3
-
-0x0002,
-
-0xfc61,	// (0x0005bea5) main_mobtv_loading_pane_g_ParamLimits
-
-0xfc61,	// (0x0005bea5) main_mobtv_loading_pane_g
-
-0xec8b,	// (0x0005aecf) main_mobtv_loading_pane_t1_ParamLimits
-
-0xec8b,	// (0x0005aecf) main_mobtv_loading_pane_t1
-
-0xeca3,	// (0x0005aee7) main_mobtv_loading_pane_t2_ParamLimits
-
-0xeca3,	// (0x0005aee7) main_mobtv_loading_pane_t2
-
-0x0001,
-
-0xfc68,	// (0x0005beac) main_mobtv_loading_pane_t_ParamLimits
-
-0xfc68,	// (0x0005beac) main_mobtv_loading_pane_t
-
-0xc872,	// (0x00058ab6) wait_bar_pane_cp06_ParamLimits
-
-0xc872,	// (0x00058ab6) wait_bar_pane_cp06
-
-0xecc7,	// (0x0005af0b) main_mobtv_programe_curr_pane_t1
-
-0xecd5,	// (0x0005af19) main_mobtv_programe_curr_pane_t2
-
-0x0001,
-
-0xfc6d,	// (0x0005beb1) main_mobtv_programe_curr_pane_t
-
-0xece3,	// (0x0005af27) main_mobtv_programe_next_pane_t1
-
-0xecf1,	// (0x0005af35) main_mobtv_programe_next_pane_t2
-
-0xecff,	// (0x0005af43) main_mobtv_programe_next_pane_t3
+0xc77b,	// (0x000596a2) main_mobtv_loading_pane_g3
 
 0x0002,
 
-0xfc72,	// (0x0005beb6) main_mobtv_programe_next_pane_t
+0xfc57,	// (0x0005cb7e) main_mobtv_loading_pane_g_ParamLimits
 
-0x037e,	// (0x0004c5c2) bg_popup_mobtv_noti_window_pane
+0xfc57,	// (0x0005cb7e) main_mobtv_loading_pane_g
 
-0xed0d,	// (0x0005af51) popup_mobtv_noti_window_g1
+0xeae9,	// (0x0005ba10) main_mobtv_loading_pane_t1_ParamLimits
 
-0xed15,	// (0x0005af59) popup_mobtv_noti_window_t1
+0xeae9,	// (0x0005ba10) main_mobtv_loading_pane_t1
 
-0xed23,	// (0x0005af67) popup_mobtv_noti_window_t2
+0xeb01,	// (0x0005ba28) main_mobtv_loading_pane_t2_ParamLimits
+
+0xeb01,	// (0x0005ba28) main_mobtv_loading_pane_t2
 
 0x0001,
 
-0xfc79,	// (0x0005bebd) popup_mobtv_noti_window_t
+0xfc5e,	// (0x0005cb85) main_mobtv_loading_pane_t_ParamLimits
 
-0x4597,	// (0x000507db) bg_popup_mobtv_noti_window_pane_g1
+0xfc5e,	// (0x0005cb85) main_mobtv_loading_pane_t
 
-0x037e,	// (0x0004c5c2) sc_clock_pane
+0xc789,	// (0x000596b0) wait_bar_pane_cp06_ParamLimits
 
-0x037e,	// (0x0004c5c2) main_fs_bigclock_pane
+0xc789,	// (0x000596b0) wait_bar_pane_cp06
 
-0xbf4b,	// (0x0005818f) blid2_tripm_pane_t4_ParamLimits
+0xeb25,	// (0x0005ba4c) main_mobtv_programe_curr_pane_t1
 
-0xbf4b,	// (0x0005818f) blid2_tripm_pane_t4
+0xeb33,	// (0x0005ba5a) main_mobtv_programe_curr_pane_t2
 
-0xc87e,	// (0x00058ac2) sc_clock_pane_g1_ParamLimits
+0x0001,
 
-0xc87e,	// (0x00058ac2) sc_clock_pane_g1
+0xfc63,	// (0x0005cb8a) main_mobtv_programe_curr_pane_t
 
-0xc88c,	// (0x00058ad0) sc_clock_pane_t1_ParamLimits
+0xeb41,	// (0x0005ba68) main_mobtv_programe_next_pane_t1
 
-0xc88c,	// (0x00058ad0) sc_clock_pane_t1
+0xeb4f,	// (0x0005ba76) main_mobtv_programe_next_pane_t2
 
-0xc89f,	// (0x00058ae3) sc_clock_pane_t2_ParamLimits
+0xeb5d,	// (0x0005ba84) main_mobtv_programe_next_pane_t3
 
-0xc89f,	// (0x00058ae3) sc_clock_pane_t2
+0x0002,
 
-0xc8b1,	// (0x00058af5) sc_clock_pane_t3_ParamLimits
+0xfc68,	// (0x0005cb8f) main_mobtv_programe_next_pane_t
 
-0xc8b1,	// (0x00058af5) sc_clock_pane_t3
+0x00f2,	// (0x0004d019) bg_popup_mobtv_noti_window_pane
+
+0xeb6b,	// (0x0005ba92) popup_mobtv_noti_window_g1
+
+0xeb73,	// (0x0005ba9a) popup_mobtv_noti_window_t1
+
+0xeb81,	// (0x0005baa8) popup_mobtv_noti_window_t2
+
+0x0001,
+
+0xfc6f,	// (0x0005cb96) popup_mobtv_noti_window_t
+
+0x41eb,	// (0x00051112) bg_popup_mobtv_noti_window_pane_g1
+
+0x5d04,	// (0x00052c2b) sc_clock_pane
+
+0x5d04,	// (0x00052c2b) main_fs_bigclock_pane
+
+0xbe31,	// (0x00058d58) blid2_tripm_pane_t4_ParamLimits
+
+0xbe31,	// (0x00058d58) blid2_tripm_pane_t4
+
+0xc795,	// (0x000596bc) sc_clock_pane_g1_ParamLimits
+
+0xc795,	// (0x000596bc) sc_clock_pane_g1
+
+0xc7a3,	// (0x000596ca) sc_clock_pane_t1_ParamLimits
+
+0xc7a3,	// (0x000596ca) sc_clock_pane_t1
+
+0xc7b6,	// (0x000596dd) sc_clock_pane_t2_ParamLimits
+
+0xc7b6,	// (0x000596dd) sc_clock_pane_t2
+
+0xc7c8,	// (0x000596ef) sc_clock_pane_t3_ParamLimits
+
+0xc7c8,	// (0x000596ef) sc_clock_pane_t3
 
 0x0004,
 
-0xfc7e,	// (0x0005bec2) sc_clock_pane_t_ParamLimits
+0xfc74,	// (0x0005cb9b) sc_clock_pane_t_ParamLimits
 
-0xfc7e,	// (0x0005bec2) sc_clock_pane_t
+0xfc74,	// (0x0005cb9b) sc_clock_pane_t
 
-0xd580,	// (0x000597c4) main_fs_bigclock_indicator_pane_ParamLimits
+0xd4dc,	// (0x0005a403) main_fs_bigclock_indicator_pane_ParamLimits
 
-0xd580,	// (0x000597c4) main_fs_bigclock_indicator_pane
+0xd4dc,	// (0x0005a403) main_fs_bigclock_indicator_pane
 
-0xc93e,	// (0x00058b82) main_fs_bigclock_pane_g1_ParamLimits
+0xc855,	// (0x0005977c) main_fs_bigclock_pane_g1_ParamLimits
 
-0xc93e,	// (0x00058b82) main_fs_bigclock_pane_g1
+0xc855,	// (0x0005977c) main_fs_bigclock_pane_g1
 
-0xd58c,	// (0x000597d0) main_fs_bigclock_pane_t1_ParamLimits
+0xd4e8,	// (0x0005a40f) main_fs_bigclock_pane_t1_ParamLimits
 
-0xd58c,	// (0x000597d0) main_fs_bigclock_pane_t1
+0xd4e8,	// (0x0005a40f) main_fs_bigclock_pane_t1
 
-0xd59e,	// (0x000597e2) main_fs_bigclock_pane_t2_ParamLimits
+0xd4fa,	// (0x0005a421) main_fs_bigclock_pane_t2_ParamLimits
 
-0xd59e,	// (0x000597e2) main_fs_bigclock_pane_t2
+0xd4fa,	// (0x0005a421) main_fs_bigclock_pane_t2
 
-0xd5b2,	// (0x000597f6) main_fs_bigclock_pane_t3_ParamLimits
+0xd50e,	// (0x0005a435) main_fs_bigclock_pane_t3_ParamLimits
 
-0xd5b2,	// (0x000597f6) main_fs_bigclock_pane_t3
+0xd50e,	// (0x0005a435) main_fs_bigclock_pane_t3
 
 0x0002,
 
-0xfe82,	// (0x0005c0c6) main_fs_bigclock_pane_t_ParamLimits
+0xfe78,	// (0x0005cd9f) main_fs_bigclock_pane_t_ParamLimits
 
-0xfe82,	// (0x0005c0c6) main_fs_bigclock_pane_t
+0xfe78,	// (0x0005cd9f) main_fs_bigclock_pane_t
 
-0x16e8,	// (0x0004d92c) main_fs_bigclock_indicator_pane_g1
+0x12e3,	// (0x0004e20a) main_fs_bigclock_indicator_pane_g1
 
-0xe9eb,	// (0x0005ac2f) ncim_query_content_pane_g2_ParamLimits
+0xe85b,	// (0x0005b782) ncim_query_content_pane_g2_ParamLimits
 
-0xe9eb,	// (0x0005ac2f) ncim_query_content_pane_g2
+0xe85b,	// (0x0005b782) ncim_query_content_pane_g2
 
 0x0001,
 
-0xfc0b,	// (0x0005be4f) ncim_query_content_pane_g_ParamLimits
+0xfc01,	// (0x0005cb28) ncim_query_content_pane_g_ParamLimits
 
-0xfc0b,	// (0x0005be4f) ncim_query_content_pane_g
+0xfc01,	// (0x0005cb28) ncim_query_content_pane_g
 
-0xc8c5,	// (0x00058b09) sc_clock_pane_t4_ParamLimits
+0xc7dc,	// (0x00059703) sc_clock_pane_t4_ParamLimits
 
-0xc8c5,	// (0x00058b09) sc_clock_pane_t4
+0xc7dc,	// (0x00059703) sc_clock_pane_t4
 
-0x334c,	// (0x0004f590) main_radioblah_pane
+0x8b84,	// (0x00055aab) main_radioblah_pane
 
-0xdf53,	// (0x0005a197) cell_call4_button_pane_t1_copy1_ParamLimits
+0x4b91,	// (0x00051ab8) cell_call4_button_pane_t1_copy1_ParamLimits
 
-0xdf53,	// (0x0005a197) cell_call4_button_pane_t1_copy1
+0x4b91,	// (0x00051ab8) cell_call4_button_pane_t1_copy1
 
-0xc567,	// (0x000587ab) main_ncimui_pane_t1_ParamLimits
+0xc463,	// (0x0005938a) main_ncimui_pane_t1_ParamLimits
 
-0xc567,	// (0x000587ab) main_ncimui_pane_t1
+0xc463,	// (0x0005938a) main_ncimui_pane_t1
 
-0xc581,	// (0x000587c5) main_ncimui_pane_t2_ParamLimits
+0xc47d,	// (0x000593a4) main_ncimui_pane_t2_ParamLimits
 
-0xc581,	// (0x000587c5) main_ncimui_pane_t2
+0xc47d,	// (0x000593a4) main_ncimui_pane_t2
 
 0x0002,
 
-0xfc04,	// (0x0005be48) main_ncimui_pane_t_ParamLimits
+0xfbfa,	// (0x0005cb21) main_ncimui_pane_t_ParamLimits
 
-0xfc04,	// (0x0005be48) main_ncimui_pane_t
+0xfbfa,	// (0x0005cb21) main_ncimui_pane_t
 
-0xee69,	// (0x0005b0ad) main_radioblah_anim_pane_ParamLimits
+0xecc7,	// (0x0005bbee) main_radioblah_anim_pane_ParamLimits
 
-0xee69,	// (0x0005b0ad) main_radioblah_anim_pane
+0xecc7,	// (0x0005bbee) main_radioblah_anim_pane
 
-0xee7a,	// (0x0005b0be) main_radioblah_info_pane_ParamLimits
+0xecd8,	// (0x0005bbff) main_radioblah_info_pane_ParamLimits
 
-0xee7a,	// (0x0005b0be) main_radioblah_info_pane
+0xecd8,	// (0x0005bbff) main_radioblah_info_pane
 
-0xee8e,	// (0x0005b0d2) main_radioblah_pane_t1_ParamLimits
+0xecec,	// (0x0005bc13) main_radioblah_pane_t1_ParamLimits
 
-0xee8e,	// (0x0005b0d2) main_radioblah_pane_t1
+0xecec,	// (0x0005bc13) main_radioblah_pane_t1
 
-0xeeaa,	// (0x0005b0ee) main_radioblah_pane_t2_ParamLimits
+0xed08,	// (0x0005bc2f) main_radioblah_pane_t2_ParamLimits
 
-0xeeaa,	// (0x0005b0ee) main_radioblah_pane_t2
-
-0x0003,
-
-0xfc9f,	// (0x0005bee3) main_radioblah_pane_t_ParamLimits
-
-0xfc9f,	// (0x0005bee3) main_radioblah_pane_t
-
-0xc990,	// (0x00058bd4) main_radioblah_rocker_ctrl_pane_ParamLimits
-
-0xc990,	// (0x00058bd4) main_radioblah_rocker_ctrl_pane
-
-0xeef2,	// (0x0005b136) main_radioblah_info_pane_t1_ParamLimits
-
-0xeef2,	// (0x0005b136) main_radioblah_info_pane_t1
-
-0xc9d5,	// (0x00058c19) main_radioblah_info_pane_t2_ParamLimits
-
-0xc9d5,	// (0x00058c19) main_radioblah_info_pane_t2
+0xed08,	// (0x0005bc2f) main_radioblah_pane_t2
 
 0x0003,
 
-0xfca8,	// (0x0005beec) main_radioblah_info_pane_t_ParamLimits
+0xfc95,	// (0x0005cbbc) main_radioblah_pane_t_ParamLimits
 
-0xfca8,	// (0x0005beec) main_radioblah_info_pane_t
+0xfc95,	// (0x0005cbbc) main_radioblah_pane_t
 
-0x4597,	// (0x000507db) main_radioblah_rocker_ctrl_pane_g1
+0xc8a7,	// (0x000597ce) main_radioblah_rocker_ctrl_pane_ParamLimits
 
-0xca85,	// (0x00058cc9) main_radioblah_rocker_ctrl_pane_g2
+0xc8a7,	// (0x000597ce) main_radioblah_rocker_ctrl_pane
 
-0xca8d,	// (0x00058cd1) main_radioblah_rocker_ctrl_pane_g3
+0xed50,	// (0x0005bc77) main_radioblah_info_pane_t1_ParamLimits
 
-0xca95,	// (0x00058cd9) main_radioblah_rocker_ctrl_pane_g4
+0xed50,	// (0x0005bc77) main_radioblah_info_pane_t1
 
-0xca9d,	// (0x00058ce1) main_radioblah_rocker_ctrl_pane_g5
+0xc8ec,	// (0x00059813) main_radioblah_info_pane_t2_ParamLimits
 
-0xcaa5,	// (0x00058ce9) main_radioblah_rocker_ctrl_pane_g6
+0xc8ec,	// (0x00059813) main_radioblah_info_pane_t2
+
+0x0003,
+
+0xfc9e,	// (0x0005cbc5) main_radioblah_info_pane_t_ParamLimits
+
+0xfc9e,	// (0x0005cbc5) main_radioblah_info_pane_t
+
+0x41eb,	// (0x00051112) main_radioblah_rocker_ctrl_pane_g1
+
+0xc99c,	// (0x000598c3) main_radioblah_rocker_ctrl_pane_g2
+
+0xc9a4,	// (0x000598cb) main_radioblah_rocker_ctrl_pane_g3
+
+0xc9ac,	// (0x000598d3) main_radioblah_rocker_ctrl_pane_g4
+
+0xc9b4,	// (0x000598db) main_radioblah_rocker_ctrl_pane_g5
+
+0xc9bc,	// (0x000598e3) main_radioblah_rocker_ctrl_pane_g6
 
 0x0005,
 
-0xfcb1,	// (0x0005bef5) main_radioblah_rocker_ctrl_pane_g
+0xfca7,	// (0x0005cbce) main_radioblah_rocker_ctrl_pane_g
 
-0xc524,	// (0x00058768) main_cset_text2_pane_t1_copy1_ParamLimits
+0xc40a,	// (0x00059331) main_cset_text2_pane_t1_copy1_ParamLimits
 
-0xab64,	// (0x00056da8) cam4_image_uncrop_qvga_pane
+0xaa5d,	// (0x00057984) cam4_image_uncrop_qvga_pane
 
-0xacb9,	// (0x00056efd) vid4_image_uncrop_qcif_pane
+0xabb2,	// (0x00057ad9) vid4_image_uncrop_qcif_pane
 
-0xc0d9,	// (0x0005831d) cam6_image_uncrop_qvga_pane_ParamLimits
+0xbfbf,	// (0x00058ee6) cam6_image_uncrop_qvga_pane_ParamLimits
 
-0xc0d9,	// (0x0005831d) cam6_image_uncrop_qvga_pane
+0xbfbf,	// (0x00058ee6) cam6_image_uncrop_qvga_pane
 
-0xe6ef,	// (0x0005a933) vid6_image_uncrop_qcif_pane_ParamLimits
+0xe53b,	// (0x0005b462) vid6_image_uncrop_qcif_pane_ParamLimits
 
-0xe6ef,	// (0x0005a933) vid6_image_uncrop_qcif_pane
+0xe53b,	// (0x0005b462) vid6_image_uncrop_qcif_pane
 
-0x037e,	// (0x0004c5c2) bg_popup_preview_window_pane_cp03
+0x00f2,	// (0x0004d019) bg_popup_preview_window_pane_cp03
 
-0xe991,	// (0x0005abd5) list_cset_text2_pane
+0xe801,	// (0x0005b728) list_cset_text2_pane
 
-0xe999,	// (0x0005abdd) main_cset6_text2_pane_g1
+0xe809,	// (0x0005b730) main_cset6_text2_pane_g1
 
-0xe9a1,	// (0x0005abe5) main_cset6_text2_pane_t1
+0xe811,	// (0x0005b738) main_cset6_text2_pane_t1
 
-0x1a88,	// (0x0004dccc) list_cset_text2_pane_t1_ParamLimits
+0xc9c4,	// (0x000598eb) list_cset_text2_pane_t1_ParamLimits
 
-0x1a88,	// (0x0004dccc) list_cset_text2_pane_t1
+0xc9c4,	// (0x000598eb) list_cset_text2_pane_t1
 
-0x334c,	// (0x0004f590) main_radioblah_pane_ParamLimits
+0x8b84,	// (0x00055aab) main_radioblah_pane_ParamLimits
 
-0xc824,	// (0x00058a68) main_mobtv_info_pane_t3_ParamLimits
+0xc73b,	// (0x00059662) main_mobtv_info_pane_t3_ParamLimits
 
-0xc824,	// (0x00058a68) main_mobtv_info_pane_t3
+0xc73b,	// (0x00059662) main_mobtv_info_pane_t3
 
-0xc97e,	// (0x00058bc2) main_radioblah_pane_g1
+0xc895,	// (0x000597bc) main_radioblah_pane_g1
 
-0xc9a9,	// (0x00058bed) main_radioblah_info_pane_g1
+0xc8c0,	// (0x000597e7) main_radioblah_info_pane_g1
 
-0xca2a,	// (0x00058c6e) main_radioblah_info_pane_t3_ParamLimits
+0xc941,	// (0x00059868) main_radioblah_info_pane_t3_ParamLimits
 
-0xca2a,	// (0x00058c6e) main_radioblah_info_pane_t3
+0xc941,	// (0x00059868) main_radioblah_info_pane_t3
 
-0x7983,	// (0x00053bc7) highlight_cell_cale_month_pane_ParamLimits
+0x7821,	// (0x00054748) highlight_cell_cale_month_pane_ParamLimits
 
-0x7983,	// (0x00053bc7) highlight_cell_cale_month_pane
+0x7821,	// (0x00054748) highlight_cell_cale_month_pane
 
-0x037e,	// (0x0004c5c2) main_phob_fisheye_pane
+0x5d04,	// (0x00052c2b) main_phob_fisheye_pane
 
-0x48f3,	// (0x00050b37) scroll_pane_cp0031_ParamLimits
+0x4536,	// (0x0005145d) scroll_pane_cp0031_ParamLimits
 
-0x48f3,	// (0x00050b37) scroll_pane_cp0031
+0x4536,	// (0x0005145d) scroll_pane_cp0031
 
-0xe7fd,	// (0x0005aa41) wait_bar_pane_cp08_ParamLimits
+0xe649,	// (0x0005b570) wait_bar_pane_cp08_ParamLimits
 
-0xc2e5,	// (0x00058529) cset_list_set_pane_copy1_ParamLimits
+0xc1cb,	// (0x000590f2) cset_list_set_pane_copy1_ParamLimits
 
-0xef2c,	// (0x0005b170) highlight_cell_cale_month_pane_g1
+0xed8a,	// (0x0005bcb1) highlight_cell_cale_month_pane_g1
 
-0xcaad,	// (0x00058cf1) highlight_cell_cale_month_pane_t1
+0xc9e1,	// (0x00059908) highlight_cell_cale_month_pane_t1
 
-0xe497,	// (0x0005a6db) list_gen_pane_cp01
+0xe2da,	// (0x0005b201) list_gen_pane_cp01
 
-0xe11c,	// (0x0005a360) scroll_pane_01
+0xdf5f,	// (0x0005ae86) scroll_pane_01
 
-0xcabb,	// (0x00058cff) list_single_double_fisheye_pane
+0xc9ef,	// (0x00059916) list_single_double_fisheye_pane
 
-0xcac4,	// (0x00058d08) list_double_fisheye_pane_g1_ParamLimits
+0xc9f8,	// (0x0005991f) list_double_fisheye_pane_g1_ParamLimits
 
-0xcac4,	// (0x00058d08) list_double_fisheye_pane_g1
+0xc9f8,	// (0x0005991f) list_double_fisheye_pane_g1
 
-0xcad0,	// (0x00058d14) list_double_fisheye_pane_g2_ParamLimits
+0xca04,	// (0x0005992b) list_double_fisheye_pane_g2_ParamLimits
 
-0xcad0,	// (0x00058d14) list_double_fisheye_pane_g2
+0xca04,	// (0x0005992b) list_double_fisheye_pane_g2
 
-0xcae4,	// (0x00058d28) list_double_fisheye_pane_g3_ParamLimits
+0xca18,	// (0x0005993f) list_double_fisheye_pane_g3_ParamLimits
 
-0xcae4,	// (0x00058d28) list_double_fisheye_pane_g3
+0xca18,	// (0x0005993f) list_double_fisheye_pane_g3
 
 0x0004,
 
-0xfcbe,	// (0x0005bf02) list_double_fisheye_pane_g_ParamLimits
+0xfcb4,	// (0x0005cbdb) list_double_fisheye_pane_g_ParamLimits
 
-0xfcbe,	// (0x0005bf02) list_double_fisheye_pane_g
+0xfcb4,	// (0x0005cbdb) list_double_fisheye_pane_g
 
-0xcb0d,	// (0x00058d51) list_double_fisheye_pane_t1_ParamLimits
+0xca41,	// (0x00059968) list_double_fisheye_pane_t1_ParamLimits
 
-0xcb0d,	// (0x00058d51) list_double_fisheye_pane_t1
+0xca41,	// (0x00059968) list_double_fisheye_pane_t1
 
-0xcb28,	// (0x00058d6c) list_double_fisheye_pane_t2_ParamLimits
+0xca5c,	// (0x00059983) list_double_fisheye_pane_t2_ParamLimits
 
-0xcb28,	// (0x00058d6c) list_double_fisheye_pane_t2
-
-0x0001,
-
-0xfcc9,	// (0x0005bf0d) list_double_fisheye_pane_t_ParamLimits
-
-0xfcc9,	// (0x0005bf0d) list_double_fisheye_pane_t
-
-0x037e,	// (0x0004c5c2) main_call5_pane
-
-0xc8eb,	// (0x00058b2f) sc_swipe_pane_ParamLimits
-
-0xc8eb,	// (0x00058b2f) sc_swipe_pane
-
-0xcb56,	// (0x00058d9a) call5_image_pane_ParamLimits
-
-0xcb56,	// (0x00058d9a) call5_image_pane
-
-0xcb66,	// (0x00058daa) call5_swipe_1_pane_ParamLimits
-
-0xcb66,	// (0x00058daa) call5_swipe_1_pane
-
-0xcb72,	// (0x00058db6) call5_swipe_2_pane_ParamLimits
-
-0xcb72,	// (0x00058db6) call5_swipe_2_pane
-
-0xcb8c,	// (0x00058dd0) popup_call5_audio_first_window_ParamLimits
-
-0xcb8c,	// (0x00058dd0) popup_call5_audio_first_window
-
-0x480b,	// (0x00050a4f) call5_swipe_1_pane_g1_ParamLimits
-
-0x480b,	// (0x00050a4f) call5_swipe_1_pane_g1
-
-0xef34,	// (0x0005b178) call5_swipe_1_pane_g2_ParamLimits
-
-0xef34,	// (0x0005b178) call5_swipe_1_pane_g2
+0xca5c,	// (0x00059983) list_double_fisheye_pane_t2
 
 0x0001,
 
-0xfcce,	// (0x0005bf12) call5_swipe_1_pane_g_ParamLimits
+0xfcbf,	// (0x0005cbe6) list_double_fisheye_pane_t_ParamLimits
 
-0xfcce,	// (0x0005bf12) call5_swipe_1_pane_g
+0xfcbf,	// (0x0005cbe6) list_double_fisheye_pane_t
 
-0xef40,	// (0x0005b184) call5_swipe_1_pane_t1_ParamLimits
+0x5d04,	// (0x00052c2b) main_call5_pane
 
-0xef40,	// (0x0005b184) call5_swipe_1_pane_t1
+0xc802,	// (0x00059729) sc_swipe_pane_ParamLimits
 
-0x480b,	// (0x00050a4f) call5_swipe_2_pane_g1_ParamLimits
+0xc802,	// (0x00059729) sc_swipe_pane
 
-0x480b,	// (0x00050a4f) call5_swipe_2_pane_g1
+0xca8a,	// (0x000599b1) call5_image_pane_ParamLimits
 
-0xef55,	// (0x0005b199) call5_swipe_2_pane_g2_ParamLimits
+0xca8a,	// (0x000599b1) call5_image_pane
 
-0xef55,	// (0x0005b199) call5_swipe_2_pane_g2
+0xca9a,	// (0x000599c1) call5_swipe_1_pane_ParamLimits
 
-0x0001,
+0xca9a,	// (0x000599c1) call5_swipe_1_pane
 
-0xfcd3,	// (0x0005bf17) call5_swipe_2_pane_g_ParamLimits
+0xcaa6,	// (0x000599cd) call5_swipe_2_pane_ParamLimits
 
-0xfcd3,	// (0x0005bf17) call5_swipe_2_pane_g
+0xcaa6,	// (0x000599cd) call5_swipe_2_pane
 
-0xef61,	// (0x0005b1a5) call5_swipe_2_pane_t1_ParamLimits
+0xcac0,	// (0x000599e7) popup_call5_audio_first_window_ParamLimits
 
-0xef61,	// (0x0005b1a5) call5_swipe_2_pane_t1
+0xcac0,	// (0x000599e7) popup_call5_audio_first_window
 
-0xef76,	// (0x0005b1ba) sc_swipe_pane_g1_ParamLimits
+0x444e,	// (0x00051375) call5_swipe_1_pane_g1_ParamLimits
 
-0xef76,	// (0x0005b1ba) sc_swipe_pane_g1
+0x444e,	// (0x00051375) call5_swipe_1_pane_g1
 
-0xef83,	// (0x0005b1c7) sc_swipe_pane_g2_ParamLimits
+0xed92,	// (0x0005bcb9) call5_swipe_1_pane_g2_ParamLimits
 
-0xef83,	// (0x0005b1c7) sc_swipe_pane_g2
-
-0x0001,
-
-0xfcd8,	// (0x0005bf1c) sc_swipe_pane_g_ParamLimits
-
-0xfcd8,	// (0x0005bf1c) sc_swipe_pane_g
-
-0xef8f,	// (0x0005b1d3) sc_swipe_pane_t1_ParamLimits
-
-0xef8f,	// (0x0005b1d3) sc_swipe_pane_t1
-
-0x037e,	// (0x0004c5c2) main_cmail_launcher_pane
-
-0xcb9a,	// (0x00058dde) aid_size_cell_cmail_l_ParamLimits
-
-0xcb9a,	// (0x00058dde) aid_size_cell_cmail_l
-
-0xcbaa,	// (0x00058dee) grid_cmail_l_pane_ParamLimits
-
-0xcbaa,	// (0x00058dee) grid_cmail_l_pane
-
-0xcbba,	// (0x00058dfe) cell_cmail_l_pane_ParamLimits
-
-0xcbba,	// (0x00058dfe) cell_cmail_l_pane
-
-0xcbce,	// (0x00058e12) cell_cmail_l_pane_g1_ParamLimits
-
-0xcbce,	// (0x00058e12) cell_cmail_l_pane_g1
-
-0xcbda,	// (0x00058e1e) cell_cmail_l_pane_t1_ParamLimits
-
-0xcbda,	// (0x00058e1e) cell_cmail_l_pane_t1
-
-0xefa4,	// (0x0005b1e8) cell_cmail_l_pane_t2_ParamLimits
-
-0xefa4,	// (0x0005b1e8) cell_cmail_l_pane_t2
+0xed92,	// (0x0005bcb9) call5_swipe_1_pane_g2
 
 0x0001,
 
-0xfcdd,	// (0x0005bf21) cell_cmail_l_pane_t_ParamLimits
+0xfcc4,	// (0x0005cbeb) call5_swipe_1_pane_g_ParamLimits
 
-0xfcdd,	// (0x0005bf21) cell_cmail_l_pane_t
+0xfcc4,	// (0x0005cbeb) call5_swipe_1_pane_g
 
-0x334c,	// (0x0004f590) grid_highlight_pane_cp018_ParamLimits
+0xed9e,	// (0x0005bcc5) call5_swipe_1_pane_t1_ParamLimits
 
-0x334c,	// (0x0004f590) grid_highlight_pane_cp018
+0xed9e,	// (0x0005bcc5) call5_swipe_1_pane_t1
 
-0x5ce2,	// (0x00051f26) main2_pane_ParamLimits
+0x444e,	// (0x00051375) call5_swipe_2_pane_g1_ParamLimits
 
-0x5ce2,	// (0x00051f26) main2_pane
+0x444e,	// (0x00051375) call5_swipe_2_pane_g1
 
-0x2302,	// (0x0004e546) popup_sp_fs_action_menu_bg_pane_g1
+0xedb3,	// (0x0005bcda) call5_swipe_2_pane_g2_ParamLimits
 
-0x230a,	// (0x0004e54e) popup_sp_fs_action_menu_bg_pane_g2
+0xedb3,	// (0x0005bcda) call5_swipe_2_pane_g2
 
-0x2312,	// (0x0004e556) popup_sp_fs_action_menu_bg_pane_g3
+0x0001,
 
-0x231a,	// (0x0004e55e) popup_sp_fs_action_menu_bg_pane_g4
+0xfcc9,	// (0x0005cbf0) call5_swipe_2_pane_g_ParamLimits
 
-0x2322,	// (0x0004e566) popup_sp_fs_action_menu_bg_pane_g5
+0xfcc9,	// (0x0005cbf0) call5_swipe_2_pane_g
 
-0x232a,	// (0x0004e56e) popup_sp_fs_action_menu_bg_pane_g6
+0xedbf,	// (0x0005bce6) call5_swipe_2_pane_t1_ParamLimits
 
-0x2332,	// (0x0004e576) popup_sp_fs_action_menu_bg_pane_g7
+0xedbf,	// (0x0005bce6) call5_swipe_2_pane_t1
 
-0x233a,	// (0x0004e57e) popup_sp_fs_action_menu_bg_pane_g8
+0xedd4,	// (0x0005bcfb) sc_swipe_pane_g1_ParamLimits
 
-0x2342,	// (0x0004e586) popup_sp_fs_action_menu_bg_pane_g9
+0xedd4,	// (0x0005bcfb) sc_swipe_pane_g1
 
-0x234a,	// (0x0004e58e) popup_sp_fs_action_menu_bg_pane_g10
+0xede1,	// (0x0005bd08) sc_swipe_pane_g2_ParamLimits
 
-0x234a,	// (0x0004e58e) popup_sp_fs_action_menu_bg_pane_g11
+0xede1,	// (0x0005bd08) sc_swipe_pane_g2
+
+0x0001,
+
+0xfcce,	// (0x0005cbf5) sc_swipe_pane_g_ParamLimits
+
+0xfcce,	// (0x0005cbf5) sc_swipe_pane_g
+
+0xeded,	// (0x0005bd14) sc_swipe_pane_t1_ParamLimits
+
+0xeded,	// (0x0005bd14) sc_swipe_pane_t1
+
+0x5d04,	// (0x00052c2b) main_cmail_launcher_pane
+
+0xcace,	// (0x000599f5) aid_size_cell_cmail_l_ParamLimits
+
+0xcace,	// (0x000599f5) aid_size_cell_cmail_l
+
+0xcade,	// (0x00059a05) grid_cmail_l_pane_ParamLimits
+
+0xcade,	// (0x00059a05) grid_cmail_l_pane
+
+0xcaee,	// (0x00059a15) cell_cmail_l_pane_ParamLimits
+
+0xcaee,	// (0x00059a15) cell_cmail_l_pane
+
+0xcb02,	// (0x00059a29) cell_cmail_l_pane_g1_ParamLimits
+
+0xcb02,	// (0x00059a29) cell_cmail_l_pane_g1
+
+0xcb0e,	// (0x00059a35) cell_cmail_l_pane_t1_ParamLimits
+
+0xcb0e,	// (0x00059a35) cell_cmail_l_pane_t1
+
+0xee02,	// (0x0005bd29) cell_cmail_l_pane_t2_ParamLimits
+
+0xee02,	// (0x0005bd29) cell_cmail_l_pane_t2
+
+0x0001,
+
+0xfcd3,	// (0x0005cbfa) cell_cmail_l_pane_t_ParamLimits
+
+0xfcd3,	// (0x0005cbfa) cell_cmail_l_pane_t
+
+0x3810,	// (0x00050737) grid_highlight_pane_cp018_ParamLimits
+
+0x3810,	// (0x00050737) grid_highlight_pane_cp018
+
+0x5b66,	// (0x00052a8d) main2_pane_ParamLimits
+
+0x5b66,	// (0x00052a8d) main2_pane
+
+0x1f84,	// (0x0004eeab) popup_sp_fs_action_menu_bg_pane_g1
+
+0x1f8c,	// (0x0004eeb3) popup_sp_fs_action_menu_bg_pane_g2
+
+0x1f94,	// (0x0004eebb) popup_sp_fs_action_menu_bg_pane_g3
+
+0x1f9c,	// (0x0004eec3) popup_sp_fs_action_menu_bg_pane_g4
+
+0x1fa4,	// (0x0004eecb) popup_sp_fs_action_menu_bg_pane_g5
+
+0x1fac,	// (0x0004eed3) popup_sp_fs_action_menu_bg_pane_g6
+
+0x1fb4,	// (0x0004eedb) popup_sp_fs_action_menu_bg_pane_g7
+
+0x1fbc,	// (0x0004eee3) popup_sp_fs_action_menu_bg_pane_g8
+
+0x1fc4,	// (0x0004eeeb) popup_sp_fs_action_menu_bg_pane_g9
+
+0x1fcc,	// (0x0004eef3) popup_sp_fs_action_menu_bg_pane_g10
+
+0x1fcc,	// (0x0004eef3) popup_sp_fs_action_menu_bg_pane_g11
 
 0x000a,
 
-0xf1a7,	// (0x0005b3eb) popup_sp_fs_action_menu_bg_pane_g
+0xf198,	// (0x0005c0bf) popup_sp_fs_action_menu_bg_pane_g
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t3_g3_g1_ParamLimits
+0x0206,	// (0x0004d12d) list_medium_line_x2_t3_g3_g1_ParamLimits
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t3_g3_g1
+0x0206,	// (0x0004d12d) list_medium_line_x2_t3_g3_g1
 
-0x04fa,	// (0x0004c73e) list_medium_line_x2_t3_g3_g2_ParamLimits
+0x0212,	// (0x0004d139) list_medium_line_x2_t3_g3_g2_ParamLimits
 
-0x04fa,	// (0x0004c73e) list_medium_line_x2_t3_g3_g2
+0x0212,	// (0x0004d139) list_medium_line_x2_t3_g3_g2
 
-0x0506,	// (0x0004c74a) list_medium_line_x2_t3_g3_g3_ParamLimits
+0x021e,	// (0x0004d145) list_medium_line_x2_t3_g3_g3_ParamLimits
 
-0x0506,	// (0x0004c74a) list_medium_line_x2_t3_g3_g3
-
-0x0002,
-
-0xf257,	// (0x0005b49b) list_medium_line_x2_t3_g3_g_ParamLimits
-
-0xf257,	// (0x0005b49b) list_medium_line_x2_t3_g3_g
-
-0x0512,	// (0x0004c756) list_medium_line_x2_t3_g3_t1_ParamLimits
-
-0x0512,	// (0x0004c756) list_medium_line_x2_t3_g3_t1
-
-0x6b08,	// (0x00052d4c) list_medium_line_x2_t3_g3_t2_ParamLimits
-
-0x6b08,	// (0x00052d4c) list_medium_line_x2_t3_g3_t2
-
-0x0527,	// (0x0004c76b) list_medium_line_x2_t3_g3_t3_ParamLimits
-
-0x0527,	// (0x0004c76b) list_medium_line_x2_t3_g3_t3
+0x021e,	// (0x0004d145) list_medium_line_x2_t3_g3_g3
 
 0x0002,
 
-0xf25e,	// (0x0005b4a2) list_medium_line_x2_t3_g3_t_ParamLimits
+0xf248,	// (0x0005c16f) list_medium_line_x2_t3_g3_g_ParamLimits
 
-0xf25e,	// (0x0005b4a2) list_medium_line_x2_t3_g3_t
+0xf248,	// (0x0005c16f) list_medium_line_x2_t3_g3_g
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t3_g2_g1_ParamLimits
+0x022a,	// (0x0004d151) list_medium_line_x2_t3_g3_t1_ParamLimits
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t3_g2_g1
+0x022a,	// (0x0004d151) list_medium_line_x2_t3_g3_t1
 
-0x0506,	// (0x0004c74a) list_medium_line_x2_t3_g2_g2_ParamLimits
+0x69a6,	// (0x000538cd) list_medium_line_x2_t3_g3_t2_ParamLimits
 
-0x0506,	// (0x0004c74a) list_medium_line_x2_t3_g2_g2
+0x69a6,	// (0x000538cd) list_medium_line_x2_t3_g3_t2
+
+0x023f,	// (0x0004d166) list_medium_line_x2_t3_g3_t3_ParamLimits
+
+0x023f,	// (0x0004d166) list_medium_line_x2_t3_g3_t3
+
+0x0002,
+
+0xf24f,	// (0x0005c176) list_medium_line_x2_t3_g3_t_ParamLimits
+
+0xf24f,	// (0x0005c176) list_medium_line_x2_t3_g3_t
+
+0x0206,	// (0x0004d12d) list_medium_line_x2_t3_g2_g1_ParamLimits
+
+0x0206,	// (0x0004d12d) list_medium_line_x2_t3_g2_g1
+
+0x021e,	// (0x0004d145) list_medium_line_x2_t3_g2_g2_ParamLimits
+
+0x021e,	// (0x0004d145) list_medium_line_x2_t3_g2_g2
 
 0x0001,
 
-0xf265,	// (0x0005b4a9) list_medium_line_x2_t3_g2_g_ParamLimits
+0xf256,	// (0x0005c17d) list_medium_line_x2_t3_g2_g_ParamLimits
 
-0xf265,	// (0x0005b4a9) list_medium_line_x2_t3_g2_g
+0xf256,	// (0x0005c17d) list_medium_line_x2_t3_g2_g
 
-0x053c,	// (0x0004c780) list_medium_line_x2_t3_g2_t1_ParamLimits
+0x0254,	// (0x0004d17b) list_medium_line_x2_t3_g2_t1_ParamLimits
 
-0x053c,	// (0x0004c780) list_medium_line_x2_t3_g2_t1
+0x0254,	// (0x0004d17b) list_medium_line_x2_t3_g2_t1
 
-0x0552,	// (0x0004c796) list_medium_line_x2_t3_g2_t2_ParamLimits
+0x026a,	// (0x0004d191) list_medium_line_x2_t3_g2_t2_ParamLimits
 
-0x0552,	// (0x0004c796) list_medium_line_x2_t3_g2_t2
+0x026a,	// (0x0004d191) list_medium_line_x2_t3_g2_t2
 
-0x0527,	// (0x0004c76b) list_medium_line_x2_t3_g2_t3_ParamLimits
+0x023f,	// (0x0004d166) list_medium_line_x2_t3_g2_t3_ParamLimits
 
-0x0527,	// (0x0004c76b) list_medium_line_x2_t3_g2_t3
+0x023f,	// (0x0004d166) list_medium_line_x2_t3_g2_t3
 
 0x0002,
 
-0xf26a,	// (0x0005b4ae) list_medium_line_x2_t3_g2_t_ParamLimits
+0xf25b,	// (0x0005c182) list_medium_line_x2_t3_g2_t_ParamLimits
 
-0xf26a,	// (0x0005b4ae) list_medium_line_x2_t3_g2_t
+0xf25b,	// (0x0005c182) list_medium_line_x2_t3_g2_t
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t4_g4_g1_ParamLimits
+0x0206,	// (0x0004d12d) list_medium_line_x2_t4_g4_g1_ParamLimits
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t4_g4_g1
+0x0206,	// (0x0004d12d) list_medium_line_x2_t4_g4_g1
 
-0x0564,	// (0x0004c7a8) list_medium_line_x2_t4_g4_g2_ParamLimits
+0x027c,	// (0x0004d1a3) list_medium_line_x2_t4_g4_g2_ParamLimits
 
-0x0564,	// (0x0004c7a8) list_medium_line_x2_t4_g4_g2
+0x027c,	// (0x0004d1a3) list_medium_line_x2_t4_g4_g2
 
-0x04fa,	// (0x0004c73e) list_medium_line_x2_t4_g4_g3_ParamLimits
+0x0212,	// (0x0004d139) list_medium_line_x2_t4_g4_g3_ParamLimits
 
-0x04fa,	// (0x0004c73e) list_medium_line_x2_t4_g4_g3
+0x0212,	// (0x0004d139) list_medium_line_x2_t4_g4_g3
 
-0x0570,	// (0x0004c7b4) list_medium_line_x2_t4_g4_g4_ParamLimits
+0x0288,	// (0x0004d1af) list_medium_line_x2_t4_g4_g4_ParamLimits
 
-0x0570,	// (0x0004c7b4) list_medium_line_x2_t4_g4_g4
-
-0x0003,
-
-0xf271,	// (0x0005b4b5) list_medium_line_x2_t4_g4_g_ParamLimits
-
-0xf271,	// (0x0005b4b5) list_medium_line_x2_t4_g4_g
-
-0x6b1a,	// (0x00052d5e) list_medium_line_x2_t4_g4_t1_ParamLimits
-
-0x6b1a,	// (0x00052d5e) list_medium_line_x2_t4_g4_t1
-
-0x6b34,	// (0x00052d78) list_medium_line_x2_t4_g4_t2_ParamLimits
-
-0x6b34,	// (0x00052d78) list_medium_line_x2_t4_g4_t2
-
-0x6b4a,	// (0x00052d8e) list_medium_line_x2_t4_g4_t3_ParamLimits
-
-0x6b4a,	// (0x00052d8e) list_medium_line_x2_t4_g4_t3
-
-0x057c,	// (0x0004c7c0) list_medium_line_x2_t4_g4_t4_ParamLimits
-
-0x057c,	// (0x0004c7c0) list_medium_line_x2_t4_g4_t4
+0x0288,	// (0x0004d1af) list_medium_line_x2_t4_g4_g4
 
 0x0003,
 
-0xf27a,	// (0x0005b4be) list_medium_line_x2_t4_g4_t_ParamLimits
+0xf262,	// (0x0005c189) list_medium_line_x2_t4_g4_g_ParamLimits
 
-0xf27a,	// (0x0005b4be) list_medium_line_x2_t4_g4_t
+0xf262,	// (0x0005c189) list_medium_line_x2_t4_g4_g
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t2_g4_g1_ParamLimits
+0x69b8,	// (0x000538df) list_medium_line_x2_t4_g4_t1_ParamLimits
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t2_g4_g1
+0x69b8,	// (0x000538df) list_medium_line_x2_t4_g4_t1
 
-0x0564,	// (0x0004c7a8) list_medium_line_x2_t2_g4_g2_ParamLimits
+0x69d2,	// (0x000538f9) list_medium_line_x2_t4_g4_t2_ParamLimits
 
-0x0564,	// (0x0004c7a8) list_medium_line_x2_t2_g4_g2
+0x69d2,	// (0x000538f9) list_medium_line_x2_t4_g4_t2
 
-0x04fa,	// (0x0004c73e) list_medium_line_x2_t2_g4_g3_ParamLimits
+0x69e8,	// (0x0005390f) list_medium_line_x2_t4_g4_t3_ParamLimits
 
-0x04fa,	// (0x0004c73e) list_medium_line_x2_t2_g4_g3
+0x69e8,	// (0x0005390f) list_medium_line_x2_t4_g4_t3
 
-0x0506,	// (0x0004c74a) list_medium_line_x2_t2_g4_g4_ParamLimits
+0x0294,	// (0x0004d1bb) list_medium_line_x2_t4_g4_t4_ParamLimits
 
-0x0506,	// (0x0004c74a) list_medium_line_x2_t2_g4_g4
+0x0294,	// (0x0004d1bb) list_medium_line_x2_t4_g4_t4
 
 0x0003,
 
-0xf2e1,	// (0x0005b525) list_medium_line_x2_t2_g4_g_ParamLimits
+0xf26b,	// (0x0005c192) list_medium_line_x2_t4_g4_t_ParamLimits
 
-0xf2e1,	// (0x0005b525) list_medium_line_x2_t2_g4_g
+0xf26b,	// (0x0005c192) list_medium_line_x2_t4_g4_t
 
-0x058e,	// (0x0004c7d2) list_medium_line_x2_t2_g4_t1_ParamLimits
+0x0206,	// (0x0004d12d) list_medium_line_x2_t2_g4_g1_ParamLimits
 
-0x058e,	// (0x0004c7d2) list_medium_line_x2_t2_g4_t1
+0x0206,	// (0x0004d12d) list_medium_line_x2_t2_g4_g1
 
-0x0527,	// (0x0004c76b) list_medium_line_x2_t2_g4_t2_ParamLimits
+0x027c,	// (0x0004d1a3) list_medium_line_x2_t2_g4_g2_ParamLimits
 
-0x0527,	// (0x0004c76b) list_medium_line_x2_t2_g4_t2
+0x027c,	// (0x0004d1a3) list_medium_line_x2_t2_g4_g2
+
+0x0212,	// (0x0004d139) list_medium_line_x2_t2_g4_g3_ParamLimits
+
+0x0212,	// (0x0004d139) list_medium_line_x2_t2_g4_g3
+
+0x021e,	// (0x0004d145) list_medium_line_x2_t2_g4_g4_ParamLimits
+
+0x021e,	// (0x0004d145) list_medium_line_x2_t2_g4_g4
+
+0x0003,
+
+0xf2d2,	// (0x0005c1f9) list_medium_line_x2_t2_g4_g_ParamLimits
+
+0xf2d2,	// (0x0005c1f9) list_medium_line_x2_t2_g4_g
+
+0x02a6,	// (0x0004d1cd) list_medium_line_x2_t2_g4_t1_ParamLimits
+
+0x02a6,	// (0x0004d1cd) list_medium_line_x2_t2_g4_t1
+
+0x023f,	// (0x0004d166) list_medium_line_x2_t2_g4_t2_ParamLimits
+
+0x023f,	// (0x0004d166) list_medium_line_x2_t2_g4_t2
 
 0x0001,
 
-0xf2ea,	// (0x0005b52e) list_medium_line_x2_t2_g4_t_ParamLimits
+0xf2db,	// (0x0005c202) list_medium_line_x2_t2_g4_t_ParamLimits
 
-0xf2ea,	// (0x0005b52e) list_medium_line_x2_t2_g4_t
+0xf2db,	// (0x0005c202) list_medium_line_x2_t2_g4_t
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t2_g3_g1_ParamLimits
+0x0206,	// (0x0004d12d) list_medium_line_x2_t2_g3_g1_ParamLimits
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t2_g3_g1
+0x0206,	// (0x0004d12d) list_medium_line_x2_t2_g3_g1
 
-0x04fa,	// (0x0004c73e) list_medium_line_x2_t2_g3_g2_ParamLimits
+0x0212,	// (0x0004d139) list_medium_line_x2_t2_g3_g2_ParamLimits
 
-0x04fa,	// (0x0004c73e) list_medium_line_x2_t2_g3_g2
+0x0212,	// (0x0004d139) list_medium_line_x2_t2_g3_g2
 
-0x0506,	// (0x0004c74a) list_medium_line_x2_t2_g3_g3_ParamLimits
+0x021e,	// (0x0004d145) list_medium_line_x2_t2_g3_g3_ParamLimits
 
-0x0506,	// (0x0004c74a) list_medium_line_x2_t2_g3_g3
+0x021e,	// (0x0004d145) list_medium_line_x2_t2_g3_g3
 
 0x0002,
 
-0xf257,	// (0x0005b49b) list_medium_line_x2_t2_g3_g_ParamLimits
+0xf248,	// (0x0005c16f) list_medium_line_x2_t2_g3_g_ParamLimits
 
-0xf257,	// (0x0005b49b) list_medium_line_x2_t2_g3_g
+0xf248,	// (0x0005c16f) list_medium_line_x2_t2_g3_g
 
-0x05a3,	// (0x0004c7e7) list_medium_line_x2_t2_g3_t1_ParamLimits
+0x02bb,	// (0x0004d1e2) list_medium_line_x2_t2_g3_t1_ParamLimits
 
-0x05a3,	// (0x0004c7e7) list_medium_line_x2_t2_g3_t1
+0x02bb,	// (0x0004d1e2) list_medium_line_x2_t2_g3_t1
 
-0x0527,	// (0x0004c76b) list_medium_line_x2_t2_g3_t2_ParamLimits
+0x023f,	// (0x0004d166) list_medium_line_x2_t2_g3_t2_ParamLimits
 
-0x0527,	// (0x0004c76b) list_medium_line_x2_t2_g3_t2
+0x023f,	// (0x0004d166) list_medium_line_x2_t2_g3_t2
 
 0x0001,
 
-0xf2ef,	// (0x0005b533) list_medium_line_x2_t2_g3_t_ParamLimits
+0xf2e0,	// (0x0005c207) list_medium_line_x2_t2_g3_t_ParamLimits
 
-0xf2ef,	// (0x0005b533) list_medium_line_x2_t2_g3_t
+0xf2e0,	// (0x0005c207) list_medium_line_x2_t2_g3_t
 
-0x7b35,	// (0x00053d79) main_sp_fs_list_pane_ParamLimits
+0x79d3,	// (0x000548fa) main_sp_fs_list_pane_ParamLimits
 
-0x7b35,	// (0x00053d79) main_sp_fs_list_pane
+0x79d3,	// (0x000548fa) main_sp_fs_list_pane
 
-0x7b41,	// (0x00053d85) sp_fs_scroll_pane_ParamLimits
+0x79df,	// (0x00054906) sp_fs_scroll_pane_ParamLimits
 
-0x7b41,	// (0x00053d85) sp_fs_scroll_pane
+0x79df,	// (0x00054906) sp_fs_scroll_pane
 
-0x7b4d,	// (0x00053d91) list_medium_line_x2_t3_t1
+0x79eb,	// (0x00054912) list_medium_line_x2_t3_t1
 
-0x7b5d,	// (0x00053da1) list_medium_line_x2_t3_t2
+0x79fb,	// (0x00054922) list_medium_line_x2_t3_t2
 
-0x05e6,	// (0x0004c82a) list_medium_line_x2_t3_t3
+0x02fe,	// (0x0004d225) list_medium_line_x2_t3_t3
 
 0x0002,
 
-0xf33a,	// (0x0005b57e) list_medium_line_x2_t3_t
+0xf32b,	// (0x0005c252) list_medium_line_x2_t3_t
 
-0x7b6b,	// (0x00053daf) list_medium_line_x3_t4_t1
+0x7a09,	// (0x00054930) list_medium_line_x3_t4_t1
 
-0x7b7b,	// (0x00053dbf) list_medium_line_x3_t4_t2
+0x7a19,	// (0x00054940) list_medium_line_x3_t4_t2
 
-0x05f4,	// (0x0004c838) list_medium_line_x3_t4_t3
+0x030c,	// (0x0004d233) list_medium_line_x3_t4_t3
 
-0x05e6,	// (0x0004c82a) list_medium_line_x3_t4_t4
+0x02fe,	// (0x0004d225) list_medium_line_x3_t4_t4
 
 0x0003,
 
-0xf341,	// (0x0005b585) list_medium_line_x3_t4_t
+0xf332,	// (0x0005c259) list_medium_line_x3_t4_t
 
-0x7b89,	// (0x00053dcd) list_medium_line_x4_t5_t1
+0x7a27,	// (0x0005494e) list_medium_line_x4_t5_t1
 
-0x7b99,	// (0x00053ddd) list_medium_line_x4_t5_t2
+0x7a37,	// (0x0005495e) list_medium_line_x4_t5_t2
 
-0x05f4,	// (0x0004c838) list_medium_line_x4_t5_t3
+0x030c,	// (0x0004d233) list_medium_line_x4_t5_t3
 
-0x0602,	// (0x0004c846) list_medium_line_x4_t5_t4
+0x031a,	// (0x0004d241) list_medium_line_x4_t5_t4
 
-0x05e6,	// (0x0004c82a) list_medium_line_x4_t5_t5
+0x02fe,	// (0x0004d225) list_medium_line_x4_t5_t5
 
 0x0004,
 
-0xf34a,	// (0x0005b58e) list_medium_line_x4_t5_t
+0xf33b,	// (0x0005c262) list_medium_line_x4_t5_t
 
-0x04ee,	// (0x0004c732) list_medium_line_t4_g4_g1_ParamLimits
+0x0206,	// (0x0004d12d) list_medium_line_t4_g4_g1_ParamLimits
 
-0x04ee,	// (0x0004c732) list_medium_line_t4_g4_g1
+0x0206,	// (0x0004d12d) list_medium_line_t4_g4_g1
 
-0x0570,	// (0x0004c7b4) list_medium_line_t4_g4_g2_ParamLimits
+0x0288,	// (0x0004d1af) list_medium_line_t4_g4_g2_ParamLimits
 
-0x0570,	// (0x0004c7b4) list_medium_line_t4_g4_g2
+0x0288,	// (0x0004d1af) list_medium_line_t4_g4_g2
 
-0x0610,	// (0x0004c854) list_medium_line_t4_g4_g3_ParamLimits
+0x0328,	// (0x0004d24f) list_medium_line_t4_g4_g3_ParamLimits
 
-0x0610,	// (0x0004c854) list_medium_line_t4_g4_g3
+0x0328,	// (0x0004d24f) list_medium_line_t4_g4_g3
 
-0x0506,	// (0x0004c74a) list_medium_line_t4_g4_g4_ParamLimits
+0x021e,	// (0x0004d145) list_medium_line_t4_g4_g4_ParamLimits
 
-0x0506,	// (0x0004c74a) list_medium_line_t4_g4_g4
-
-0x0003,
-
-0xf355,	// (0x0005b599) list_medium_line_t4_g4_g_ParamLimits
-
-0xf355,	// (0x0005b599) list_medium_line_t4_g4_g
-
-0x061c,	// (0x0004c860) list_medium_line_t4_g4_t1_ParamLimits
-
-0x061c,	// (0x0004c860) list_medium_line_t4_g4_t1
-
-0x0631,	// (0x0004c875) list_medium_line_t4_g4_t2_ParamLimits
-
-0x0631,	// (0x0004c875) list_medium_line_t4_g4_t2
-
-0x0646,	// (0x0004c88a) list_medium_line_t4_g4_t3_ParamLimits
-
-0x0646,	// (0x0004c88a) list_medium_line_t4_g4_t3
-
-0x0527,	// (0x0004c76b) list_medium_line_t4_g4_t4_ParamLimits
-
-0x0527,	// (0x0004c76b) list_medium_line_t4_g4_t4
+0x021e,	// (0x0004d145) list_medium_line_t4_g4_g4
 
 0x0003,
 
-0xf35e,	// (0x0005b5a2) list_medium_line_t4_g4_t_ParamLimits
+0xf346,	// (0x0005c26d) list_medium_line_t4_g4_g_ParamLimits
 
-0xf35e,	// (0x0005b5a2) list_medium_line_t4_g4_t
+0xf346,	// (0x0005c26d) list_medium_line_t4_g4_g
 
-0x7cb8,	// (0x00053efc) chi_dic_find_pane_g1
+0x0334,	// (0x0004d25b) list_medium_line_t4_g4_t1_ParamLimits
 
-0x8cf4,	// (0x00054f38) main_tport_pane
+0x0334,	// (0x0004d25b) list_medium_line_t4_g4_t1
 
-0x0ba6,	// (0x0004cdea) list_medium_line_plain_t1
+0x0349,	// (0x0004d270) list_medium_line_t4_g4_t2_ParamLimits
 
-0x0bf0,	// (0x0004ce34) list_medium_line_t2_g2_g1_ParamLimits
+0x0349,	// (0x0004d270) list_medium_line_t4_g4_t2
 
-0x0bf0,	// (0x0004ce34) list_medium_line_t2_g2_g1
+0x035e,	// (0x0004d285) list_medium_line_t4_g4_t3_ParamLimits
 
-0x0bfc,	// (0x0004ce40) list_medium_line_t2_g2_g2_ParamLimits
+0x035e,	// (0x0004d285) list_medium_line_t4_g4_t3
 
-0x0bfc,	// (0x0004ce40) list_medium_line_t2_g2_g2
+0x023f,	// (0x0004d166) list_medium_line_t4_g4_t4_ParamLimits
+
+0x023f,	// (0x0004d166) list_medium_line_t4_g4_t4
+
+0x0003,
+
+0xf34f,	// (0x0005c276) list_medium_line_t4_g4_t_ParamLimits
+
+0xf34f,	// (0x0005c276) list_medium_line_t4_g4_t
+
+0x7b56,	// (0x00054a7d) chi_dic_find_pane_g1
+
+0x8ba0,	// (0x00055ac7) main_tport_pane
+
+0x095d,	// (0x0004d884) list_medium_line_plain_t1
+
+0x09a7,	// (0x0004d8ce) list_medium_line_t2_g2_g1_ParamLimits
+
+0x09a7,	// (0x0004d8ce) list_medium_line_t2_g2_g1
+
+0x09b3,	// (0x0004d8da) list_medium_line_t2_g2_g2_ParamLimits
+
+0x09b3,	// (0x0004d8da) list_medium_line_t2_g2_g2
 
 0x0001,
 
-0xfa1a,	// (0x0005bc5e) list_medium_line_t2_g2_g_ParamLimits
+0xfa0b,	// (0x0005c932) list_medium_line_t2_g2_g_ParamLimits
 
-0xfa1a,	// (0x0005bc5e) list_medium_line_t2_g2_g
+0xfa0b,	// (0x0005c932) list_medium_line_t2_g2_g
 
-0xb75c,	// (0x000579a0) list_medium_line_t2_g2_t1_ParamLimits
+0xb640,	// (0x00058567) list_medium_line_t2_g2_t1_ParamLimits
 
-0xb75c,	// (0x000579a0) list_medium_line_t2_g2_t1
+0xb640,	// (0x00058567) list_medium_line_t2_g2_t1
 
-0xb776,	// (0x000579ba) list_medium_line_t2_g2_t2_ParamLimits
+0xb65a,	// (0x00058581) list_medium_line_t2_g2_t2_ParamLimits
 
-0xb776,	// (0x000579ba) list_medium_line_t2_g2_t2
+0xb65a,	// (0x00058581) list_medium_line_t2_g2_t2
 
 0x0001,
 
-0xfa1f,	// (0x0005bc63) list_medium_line_t2_g2_t_ParamLimits
+0xfa10,	// (0x0005c937) list_medium_line_t2_g2_t_ParamLimits
 
-0xfa1f,	// (0x0005bc63) list_medium_line_t2_g2_t
+0xfa10,	// (0x0005c937) list_medium_line_t2_g2_t
 
-0x0d3c,	// (0x0004cf80) aid_sp_fs_list_icon_a_sm
+0x0ad3,	// (0x0004d9fa) aid_sp_fs_list_icon_a_sm
 
-0x0d44,	// (0x0004cf88) aid_sp_fs_list_icon_d
+0x0adb,	// (0x0004da02) aid_sp_fs_list_icon_d
 
-0x0d4c,	// (0x0004cf90) aid_sp_fs_text_primary
+0x0ae3,	// (0x0004da0a) aid_sp_fs_text_primary
 
-0x0d55,	// (0x0004cf99) aid_sp_fs_text_secondary
+0xe2e3,	// (0x0005b20a) aid_sp_fs_text_secondary
 
-0x0d5e,	// (0x0004cfa2) list_medium_line
+0x0aec,	// (0x0004da13) list_medium_line
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_g2
+0x0aec,	// (0x0004da13) list_medium_line_g2
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_g3
+0x0aec,	// (0x0004da13) list_medium_line_g3
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_plain
+0x0aec,	// (0x0004da13) list_medium_line_plain
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_plain_t2
+0x0aec,	// (0x0004da13) list_medium_line_plain_t2
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_plain_t3
+0x0aec,	// (0x0004da13) list_medium_line_plain_t3
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_right_icon
+0x0aec,	// (0x0004da13) list_medium_line_right_icon
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_right_iconx2
+0x0aec,	// (0x0004da13) list_medium_line_right_iconx2
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_t2
+0x0aec,	// (0x0004da13) list_medium_line_t2
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_t2_g2
+0x0aec,	// (0x0004da13) list_medium_line_t2_g2
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_t2_g3
+0x0aec,	// (0x0004da13) list_medium_line_t2_g3
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_t2_right_icon
+0x0aec,	// (0x0004da13) list_medium_line_t2_right_icon
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_t2_right_iconx2
+0x0aec,	// (0x0004da13) list_medium_line_t2_right_iconx2
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_t3
+0x0aec,	// (0x0004da13) list_medium_line_t3
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_t3_g2
+0x0aec,	// (0x0004da13) list_medium_line_t3_g2
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_t3_g3
+0x0aec,	// (0x0004da13) list_medium_line_t3_g3
 
-0x0d5e,	// (0x0004cfa2) list_medium_line_t3_right_iconx2
+0x0aec,	// (0x0004da13) list_medium_line_t3_right_iconx2
 
-0x0d67,	// (0x0004cfab) list_medium_line_t4_g4
+0x0af5,	// (0x0004da1c) list_medium_line_t4_g4
 
-0x0d70,	// (0x0004cfb4) list_medium_line_x2
+0x0afe,	// (0x0004da25) list_medium_line_x2
 
-0x0d70,	// (0x0004cfb4) list_medium_line_x2_t2_g2
+0x0afe,	// (0x0004da25) list_medium_line_x2_t2_g2
 
-0x0d70,	// (0x0004cfb4) list_medium_line_x2_t2_g3
+0x0afe,	// (0x0004da25) list_medium_line_x2_t2_g3
 
-0x0d70,	// (0x0004cfb4) list_medium_line_x2_t2_g4
+0x0afe,	// (0x0004da25) list_medium_line_x2_t2_g4
 
-0x0d70,	// (0x0004cfb4) list_medium_line_x2_t3
+0x0afe,	// (0x0004da25) list_medium_line_x2_t3
 
-0x0d70,	// (0x0004cfb4) list_medium_line_x2_t3_g2
+0x0afe,	// (0x0004da25) list_medium_line_x2_t3_g2
 
-0x0d70,	// (0x0004cfb4) list_medium_line_x2_t3_g3
+0x0afe,	// (0x0004da25) list_medium_line_x2_t3_g3
 
-0x0d70,	// (0x0004cfb4) list_medium_line_x2_t3_g4
+0x0afe,	// (0x0004da25) list_medium_line_x2_t3_g4
 
-0x0d70,	// (0x0004cfb4) list_medium_line_x2_t4_g2
+0x0afe,	// (0x0004da25) list_medium_line_x2_t4_g2
 
-0x0d70,	// (0x0004cfb4) list_medium_line_x2_t4_g4
+0x0afe,	// (0x0004da25) list_medium_line_x2_t4_g4
 
-0x0d79,	// (0x0004cfbd) list_medium_line_x3
+0x0b07,	// (0x0004da2e) list_medium_line_x3
 
-0x0d79,	// (0x0004cfbd) list_medium_line_x3_t4
+0x0b07,	// (0x0004da2e) list_medium_line_x3_t4
 
-0x0d79,	// (0x0004cfbd) list_medium_line_x3_t4_g4
+0x0b07,	// (0x0004da2e) list_medium_line_x3_t4_g4
 
-0x0d67,	// (0x0004cfab) list_medium_line_x4_t4
+0x0af5,	// (0x0004da1c) list_medium_line_x4_t4
 
-0x0d67,	// (0x0004cfab) list_medium_line_x4_t4_g7
+0x0af5,	// (0x0004da1c) list_medium_line_x4_t4_g7
 
-0x0d67,	// (0x0004cfab) list_medium_line_x4_t5
+0x0af5,	// (0x0004da1c) list_medium_line_x4_t5
 
-0x0d82,	// (0x0004cfc6) list_single_fs_dyc_pane_ParamLimits
+0x0b10,	// (0x0004da37) list_single_fs_dyc_pane_ParamLimits
 
-0x0d82,	// (0x0004cfc6) list_single_fs_dyc_pane
+0x0b10,	// (0x0004da37) list_single_fs_dyc_pane
 
-0x04ee,	// (0x0004c732) list_medium_line_x4_t4_g7_g1_ParamLimits
+0x0206,	// (0x0004d12d) list_medium_line_x4_t4_g7_g1_ParamLimits
 
-0x04ee,	// (0x0004c732) list_medium_line_x4_t4_g7_g1
+0x0206,	// (0x0004d12d) list_medium_line_x4_t4_g7_g1
 
-0x0da4,	// (0x0004cfe8) list_medium_line_x4_t4_g7_g2_ParamLimits
+0x0b32,	// (0x0004da59) list_medium_line_x4_t4_g7_g2_ParamLimits
 
-0x0da4,	// (0x0004cfe8) list_medium_line_x4_t4_g7_g2
+0x0b32,	// (0x0004da59) list_medium_line_x4_t4_g7_g2
 
-0x0db0,	// (0x0004cff4) list_medium_line_x4_t4_g7_g3_ParamLimits
+0x0b3e,	// (0x0004da65) list_medium_line_x4_t4_g7_g3_ParamLimits
 
-0x0db0,	// (0x0004cff4) list_medium_line_x4_t4_g7_g3
+0x0b3e,	// (0x0004da65) list_medium_line_x4_t4_g7_g3
 
-0x0dbf,	// (0x0004d003) list_medium_line_x4_t4_g7_g4_ParamLimits
+0x0b4d,	// (0x0004da74) list_medium_line_x4_t4_g7_g4_ParamLimits
 
-0x0dbf,	// (0x0004d003) list_medium_line_x4_t4_g7_g4
+0x0b4d,	// (0x0004da74) list_medium_line_x4_t4_g7_g4
 
-0x0dcb,	// (0x0004d00f) list_medium_line_x4_t4_g7_g5_ParamLimits
+0x0b59,	// (0x0004da80) list_medium_line_x4_t4_g7_g5_ParamLimits
 
-0x0dcb,	// (0x0004d00f) list_medium_line_x4_t4_g7_g5
+0x0b59,	// (0x0004da80) list_medium_line_x4_t4_g7_g5
 
-0x0dda,	// (0x0004d01e) list_medium_line_x4_t4_g7_g6_ParamLimits
+0x0b68,	// (0x0004da8f) list_medium_line_x4_t4_g7_g6_ParamLimits
 
-0x0dda,	// (0x0004d01e) list_medium_line_x4_t4_g7_g6
+0x0b68,	// (0x0004da8f) list_medium_line_x4_t4_g7_g6
 
-0x0de9,	// (0x0004d02d) list_medium_line_x4_t4_g7_g7_ParamLimits
+0x0b77,	// (0x0004da9e) list_medium_line_x4_t4_g7_g7_ParamLimits
 
-0x0de9,	// (0x0004d02d) list_medium_line_x4_t4_g7_g7
+0x0b77,	// (0x0004da9e) list_medium_line_x4_t4_g7_g7
 
 0x0006,
 
-0xfbea,	// (0x0005be2e) list_medium_line_x4_t4_g7_g_ParamLimits
+0xfbdb,	// (0x0005cb02) list_medium_line_x4_t4_g7_g_ParamLimits
 
-0xfbea,	// (0x0005be2e) list_medium_line_x4_t4_g7_g
+0xfbdb,	// (0x0005cb02) list_medium_line_x4_t4_g7_g
 
-0x0df5,	// (0x0004d039) list_medium_line_x4_t4_g7_t1_ParamLimits
+0x0b83,	// (0x0004daaa) list_medium_line_x4_t4_g7_t1_ParamLimits
 
-0x0df5,	// (0x0004d039) list_medium_line_x4_t4_g7_t1
+0x0b83,	// (0x0004daaa) list_medium_line_x4_t4_g7_t1
 
-0x0e0a,	// (0x0004d04e) list_medium_line_x4_t4_g7_t2_ParamLimits
+0x0b98,	// (0x0004dabf) list_medium_line_x4_t4_g7_t2_ParamLimits
 
-0x0e0a,	// (0x0004d04e) list_medium_line_x4_t4_g7_t2
+0x0b98,	// (0x0004dabf) list_medium_line_x4_t4_g7_t2
 
-0x0e1f,	// (0x0004d063) list_medium_line_x4_t4_g7_t3_ParamLimits
+0x0bad,	// (0x0004dad4) list_medium_line_x4_t4_g7_t3_ParamLimits
 
-0x0e1f,	// (0x0004d063) list_medium_line_x4_t4_g7_t3
+0x0bad,	// (0x0004dad4) list_medium_line_x4_t4_g7_t3
 
-0x0e34,	// (0x0004d078) list_medium_line_x4_t4_g7_t4_ParamLimits
+0x0bc2,	// (0x0004dae9) list_medium_line_x4_t4_g7_t4_ParamLimits
 
-0x0e34,	// (0x0004d078) list_medium_line_x4_t4_g7_t4
+0x0bc2,	// (0x0004dae9) list_medium_line_x4_t4_g7_t4
 
-0x0e46,	// (0x0004d08a) list_medium_line_x4_t4_g7_t5_ParamLimits
+0x0bd4,	// (0x0004dafb) list_medium_line_x4_t4_g7_t5_ParamLimits
 
-0x0e46,	// (0x0004d08a) list_medium_line_x4_t4_g7_t5
+0x0bd4,	// (0x0004dafb) list_medium_line_x4_t4_g7_t5
 
 0x0004,
 
-0xfbf9,	// (0x0005be3d) list_medium_line_x4_t4_g7_t_ParamLimits
+0xfbea,	// (0x0005cb11) list_medium_line_x4_t4_g7_t_ParamLimits
 
-0xfbf9,	// (0x0005be3d) list_medium_line_x4_t4_g7_t
+0xfbea,	// (0x0005cb11) list_medium_line_x4_t4_g7_t
 
-0x0e58,	// (0x0004d09c) list_single_dyc_row_pane_ParamLimits
+0x0be6,	// (0x0004db0d) list_single_dyc_row_pane_ParamLimits
 
-0x0e58,	// (0x0004d09c) list_single_dyc_row_pane
+0x0be6,	// (0x0004db0d) list_single_dyc_row_pane
 
-0xcb4a,	// (0x00058d8e) call5_gesture_pane_ParamLimits
+0xca7e,	// (0x000599a5) call5_gesture_pane_ParamLimits
 
-0xcb4a,	// (0x00058d8e) call5_gesture_pane
+0xca7e,	// (0x000599a5) call5_gesture_pane
 
-0xcb7e,	// (0x00058dc2) call5_windows_pane_ParamLimits
+0xcab2,	// (0x000599d9) call5_windows_pane_ParamLimits
 
-0xcb7e,	// (0x00058dc2) call5_windows_pane
+0xcab2,	// (0x000599d9) call5_windows_pane
 
-0xcbf0,	// (0x00058e34) call5_swipe_1_pane_cp_ParamLimits
+0xcb24,	// (0x00059a4b) call5_swipe_1_pane_cp_ParamLimits
 
-0xcbf0,	// (0x00058e34) call5_swipe_1_pane_cp
+0xcb24,	// (0x00059a4b) call5_swipe_1_pane_cp
 
-0xcbfc,	// (0x00058e40) call5_swipe_2_pane_cp_ParamLimits
+0xcb30,	// (0x00059a57) call5_swipe_2_pane_cp_ParamLimits
 
-0xcbfc,	// (0x00058e40) call5_swipe_2_pane_cp
+0xcb30,	// (0x00059a57) call5_swipe_2_pane_cp
 
-0x2d3c,	// (0x0004ef80) call5_image_pane_cp
+0x29be,	// (0x0004f8e5) call5_image_pane_cp
 
-0xcc08,	// (0x00058e4c) popup_call5_audio_first_window_cp_ParamLimits
+0xcb3c,	// (0x00059a63) popup_call5_audio_first_window_cp_ParamLimits
 
-0xcc08,	// (0x00058e4c) popup_call5_audio_first_window_cp
+0xcb3c,	// (0x00059a63) popup_call5_audio_first_window_cp
 
-0xef76,	// (0x0005b1ba) call5_swipe_1_pane_g1_cp_ParamLimits
+0xedd4,	// (0x0005bcfb) call5_swipe_1_pane_g1_cp_ParamLimits
 
-0xef76,	// (0x0005b1ba) call5_swipe_1_pane_g1_cp
+0xedd4,	// (0x0005bcfb) call5_swipe_1_pane_g1_cp
 
-0xefb6,	// (0x0005b1fa) call5_swipe_1_pane_g2_cp
+0xee14,	// (0x0005bd3b) call5_swipe_1_pane_g2_cp
 
-0xef8f,	// (0x0005b1d3) call5_swipe_1_pane_t1_cp_ParamLimits
+0xeded,	// (0x0005bd14) call5_swipe_1_pane_t1_cp_ParamLimits
 
-0xef8f,	// (0x0005b1d3) call5_swipe_1_pane_t1_cp
+0xeded,	// (0x0005bd14) call5_swipe_1_pane_t1_cp
 
-0xef76,	// (0x0005b1ba) call5_swipe_2_pane_g1_cp_ParamLimits
+0xedd4,	// (0x0005bcfb) call5_swipe_2_pane_g1_cp_ParamLimits
 
-0xef76,	// (0x0005b1ba) call5_swipe_2_pane_g1_cp
+0xedd4,	// (0x0005bcfb) call5_swipe_2_pane_g1_cp
 
-0xefbe,	// (0x0005b202) call5_swipe_2_pane_g2_cp
+0xee1c,	// (0x0005bd43) call5_swipe_2_pane_g2_cp
 
-0xefc6,	// (0x0005b20a) call5_swipe_2_pane_t1_cp_ParamLimits
+0xee24,	// (0x0005bd4b) call5_swipe_2_pane_t1_cp_ParamLimits
 
-0xefc6,	// (0x0005b20a) call5_swipe_2_pane_t1_cp
+0xee24,	// (0x0005bd4b) call5_swipe_2_pane_t1_cp
 
-0x334c,	// (0x0004f590) main_sp_fs_email_pane
+0x3810,	// (0x00050737) main_sp_fs_email_pane
 
-0xefdb,	// (0x0005b21f) main_sp_fs_listscroll_pane_te
+0xee39,	// (0x0005bd60) main_sp_fs_listscroll_pane_te
 
-0x0e75,	// (0x0004d0b9) popup_sp_fs_action_menu_pane_ParamLimits
+0x0c03,	// (0x0004db2a) popup_sp_fs_action_menu_pane_ParamLimits
 
-0x0e75,	// (0x0004d0b9) popup_sp_fs_action_menu_pane
+0x0c03,	// (0x0004db2a) popup_sp_fs_action_menu_pane
 
-0x4597,	// (0x000507db) bg_sp_fs_ctrlbar_pane_g1
+0x41eb,	// (0x00051112) bg_sp_fs_ctrlbar_pane_g1
 
-0xefe4,	// (0x0005b228) bg_sp_fs_ctrlbar_ddmenu_pane_g1
+0xee42,	// (0x0005bd69) bg_sp_fs_ctrlbar_ddmenu_pane_g1
 
-0xefed,	// (0x0005b231) bg_sp_fs_ctrlbar_ddmenu_pane_g2
+0xee4b,	// (0x0005bd72) bg_sp_fs_ctrlbar_ddmenu_pane_g2
 
-0xeff6,	// (0x0005b23a) bg_sp_fs_ctrlbar_ddmenu_pane_g3
+0xee54,	// (0x0005bd7b) bg_sp_fs_ctrlbar_ddmenu_pane_g3
 
-0x4597,	// (0x000507db) bg_sp_fs_ctrlbar_ddmenu_pane_g4
+0x41eb,	// (0x00051112) bg_sp_fs_ctrlbar_ddmenu_pane_g4
 
 0x0003,
 
-0xfce2,	// (0x0005bf26) bg_sp_fs_ctrlbar_ddmenu_pane_g
+0xfcd8,	// (0x0005cbff) bg_sp_fs_ctrlbar_ddmenu_pane_g
 
-0x437c,	// (0x000505c0) bg_sp_fs_ctrlbar_ddmenu_pane_ParamLimits
+0x3fbf,	// (0x00050ee6) bg_sp_fs_ctrlbar_ddmenu_pane_ParamLimits
 
-0x437c,	// (0x000505c0) bg_sp_fs_ctrlbar_ddmenu_pane
+0x3fbf,	// (0x00050ee6) bg_sp_fs_ctrlbar_ddmenu_pane
 
-0xefff,	// (0x0005b243) main_sp_fs_ctrlbar_ddmenu_pane_g1_ParamLimits
+0xee5d,	// (0x0005bd84) main_sp_fs_ctrlbar_ddmenu_pane_g1_ParamLimits
 
-0xefff,	// (0x0005b243) main_sp_fs_ctrlbar_ddmenu_pane_g1
+0xee5d,	// (0x0005bd84) main_sp_fs_ctrlbar_ddmenu_pane_g1
 
-0xf00b,	// (0x0005b24f) main_sp_fs_ctrlbar_ddmenu_pane_g2_ParamLimits
+0xee69,	// (0x0005bd90) main_sp_fs_ctrlbar_ddmenu_pane_g2_ParamLimits
 
-0xf00b,	// (0x0005b24f) main_sp_fs_ctrlbar_ddmenu_pane_g2
-
-0x0001,
-
-0xfceb,	// (0x0005bf2f) main_sp_fs_ctrlbar_ddmenu_pane_g_ParamLimits
-
-0xfceb,	// (0x0005bf2f) main_sp_fs_ctrlbar_ddmenu_pane_g
-
-0xf017,	// (0x0005b25b) main_sp_fs_ctrlbar_ddmenu_pane_t1_ParamLimits
-
-0xf017,	// (0x0005b25b) main_sp_fs_ctrlbar_ddmenu_pane_t1
-
-0x0eb9,	// (0x0004d0fd) list_medium_line_t2_right_icon_g1
-
-0xcc16,	// (0x00058e5a) list_medium_line_t2_right_icon_t1
-
-0xcc26,	// (0x00058e6a) list_medium_line_t2_right_icon_t2
+0xee69,	// (0x0005bd90) main_sp_fs_ctrlbar_ddmenu_pane_g2
 
 0x0001,
 
-0xfcf0,	// (0x0005bf34) list_medium_line_t2_right_icon_t
+0xfce1,	// (0x0005cc08) main_sp_fs_ctrlbar_ddmenu_pane_g_ParamLimits
 
-0x4150,	// (0x00050394) bg_sp_fs_ctrlbar_pane_ParamLimits
+0xfce1,	// (0x0005cc08) main_sp_fs_ctrlbar_ddmenu_pane_g
 
-0x4150,	// (0x00050394) bg_sp_fs_ctrlbar_pane
+0xee75,	// (0x0005bd9c) main_sp_fs_ctrlbar_ddmenu_pane_t1_ParamLimits
 
-0xcc8b,	// (0x00058ecf) main_sp_fs_ctrlbar_button_pane_cp01
+0xee75,	// (0x0005bd9c) main_sp_fs_ctrlbar_ddmenu_pane_t1
 
-0xcc93,	// (0x00058ed7) main_sp_fs_ctrlbar_ddmenu_pane
+0x0c47,	// (0x0004db6e) list_medium_line_t2_right_icon_g1
 
-0xf069,	// (0x0005b2ad) main_sp_fs_ctrlbar_pane_g1
+0xcb4a,	// (0x00059a71) list_medium_line_t2_right_icon_t1
 
-0xf075,	// (0x0005b2b9) main_sp_fs_ctrlbar_pane_g2
-
-0x0001,
-
-0xfcf5,	// (0x0005bf39) main_sp_fs_ctrlbar_pane_g
-
-0xf081,	// (0x0005b2c5) main_sp_fs_ctrlbar_pane_t1
-
-0xcc9d,	// (0x00058ee1) main_sp_fs_ctrlbar_pane
-
-0xccb7,	// (0x00058efb) main_sp_fs_listscroll_pane_te_cp01
-
-0xccc8,	// (0x00058f0c) popup_sp_fs_action_menu_pane_cp01_ParamLimits
-
-0xccc8,	// (0x00058f0c) popup_sp_fs_action_menu_pane_cp01
-
-0x334c,	// (0x0004f590) bg_sp_fs_highlight_list_pane_cp01_ParamLimits
-
-0x334c,	// (0x0004f590) bg_sp_fs_highlight_list_pane_cp01
-
-0x0ec1,	// (0x0004d105) sp_fs_action_menu_list_gene_pane_g1_ParamLimits
-
-0x0ec1,	// (0x0004d105) sp_fs_action_menu_list_gene_pane_g1
-
-0xf0a6,	// (0x0005b2ea) sp_fs_action_menu_list_gene_pane_g2_ParamLimits
-
-0xf0a6,	// (0x0005b2ea) sp_fs_action_menu_list_gene_pane_g2
+0xcb5a,	// (0x00059a81) list_medium_line_t2_right_icon_t2
 
 0x0001,
 
-0xfcff,	// (0x0005bf43) sp_fs_action_menu_list_gene_pane_g_ParamLimits
+0xfce6,	// (0x0005cc0d) list_medium_line_t2_right_icon_t
 
-0xfcff,	// (0x0005bf43) sp_fs_action_menu_list_gene_pane_g
+0x3dd2,	// (0x00050cf9) bg_sp_fs_ctrlbar_pane_ParamLimits
 
-0x0ed0,	// (0x0004d114) sp_fs_action_menu_list_gene_pane_t1_ParamLimits
+0x3dd2,	// (0x00050cf9) bg_sp_fs_ctrlbar_pane
 
-0x0ed0,	// (0x0004d114) sp_fs_action_menu_list_gene_pane_t1
+0xcbbf,	// (0x00059ae6) main_sp_fs_ctrlbar_button_pane_cp01
 
-0x0ee8,	// (0x0004d12c) sp_fs_action_menu_list_gene_pane_ParamLimits
+0xcbc7,	// (0x00059aee) main_sp_fs_ctrlbar_ddmenu_pane
 
-0x0ee8,	// (0x0004d12c) sp_fs_action_menu_list_gene_pane
+0xeec7,	// (0x0005bdee) main_sp_fs_ctrlbar_pane_g1
 
-0xf0b3,	// (0x0005b2f7) popup_sp_fs_action_menu_bg_pane_ParamLimits
-
-0xf0b3,	// (0x0005b2f7) popup_sp_fs_action_menu_bg_pane
-
-0x0f07,	// (0x0004d14b) sp_fs_action_menu_list_pane_ParamLimits
-
-0x0f07,	// (0x0004d14b) sp_fs_action_menu_list_pane
-
-0xf0c1,	// (0x0005b305) sp_fs_scroll_pane_cp01_ParamLimits
-
-0xf0c1,	// (0x0005b305) sp_fs_scroll_pane_cp01
-
-0xcce0,	// (0x00058f24) list_medium_line_plain_t2_t1
-
-0xccf0,	// (0x00058f34) list_medium_line_plain_t2_t2
+0xeed3,	// (0x0005bdfa) main_sp_fs_ctrlbar_pane_g2
 
 0x0001,
 
-0xfd04,	// (0x0005bf48) list_medium_line_plain_t2_t
+0xfceb,	// (0x0005cc12) main_sp_fs_ctrlbar_pane_g
 
-0xccfe,	// (0x00058f42) list_medium_line_plain_t3_t1
+0xeedf,	// (0x0005be06) main_sp_fs_ctrlbar_pane_t1
 
-0xcd0e,	// (0x00058f52) list_medium_line_plain_t3_t2
+0xcbd1,	// (0x00059af8) main_sp_fs_ctrlbar_pane
 
-0xcd1c,	// (0x00058f60) list_medium_line_plain_t3_t3
+0xcbeb,	// (0x00059b12) main_sp_fs_listscroll_pane_te_cp01
+
+0xcbfc,	// (0x00059b23) popup_sp_fs_action_menu_pane_cp01_ParamLimits
+
+0xcbfc,	// (0x00059b23) popup_sp_fs_action_menu_pane_cp01
+
+0x3810,	// (0x00050737) bg_sp_fs_highlight_list_pane_cp01_ParamLimits
+
+0x3810,	// (0x00050737) bg_sp_fs_highlight_list_pane_cp01
+
+0x0c4f,	// (0x0004db76) sp_fs_action_menu_list_gene_pane_g1_ParamLimits
+
+0x0c4f,	// (0x0004db76) sp_fs_action_menu_list_gene_pane_g1
+
+0xef04,	// (0x0005be2b) sp_fs_action_menu_list_gene_pane_g2_ParamLimits
+
+0xef04,	// (0x0005be2b) sp_fs_action_menu_list_gene_pane_g2
+
+0x0001,
+
+0xfcf5,	// (0x0005cc1c) sp_fs_action_menu_list_gene_pane_g_ParamLimits
+
+0xfcf5,	// (0x0005cc1c) sp_fs_action_menu_list_gene_pane_g
+
+0x0c5e,	// (0x0004db85) sp_fs_action_menu_list_gene_pane_t1_ParamLimits
+
+0x0c5e,	// (0x0004db85) sp_fs_action_menu_list_gene_pane_t1
+
+0x0c76,	// (0x0004db9d) sp_fs_action_menu_list_gene_pane_ParamLimits
+
+0x0c76,	// (0x0004db9d) sp_fs_action_menu_list_gene_pane
+
+0xef11,	// (0x0005be38) popup_sp_fs_action_menu_bg_pane_ParamLimits
+
+0xef11,	// (0x0005be38) popup_sp_fs_action_menu_bg_pane
+
+0x0c95,	// (0x0004dbbc) sp_fs_action_menu_list_pane_ParamLimits
+
+0x0c95,	// (0x0004dbbc) sp_fs_action_menu_list_pane
+
+0xef1f,	// (0x0005be46) sp_fs_scroll_pane_cp01_ParamLimits
+
+0xef1f,	// (0x0005be46) sp_fs_scroll_pane_cp01
+
+0xcc26,	// (0x00059b4d) list_medium_line_plain_t2_t1
+
+0xcc36,	// (0x00059b5d) list_medium_line_plain_t2_t2
+
+0x0001,
+
+0xfcfa,	// (0x0005cc21) list_medium_line_plain_t2_t
+
+0xcc44,	// (0x00059b6b) list_medium_line_plain_t3_t1
+
+0xcc54,	// (0x00059b7b) list_medium_line_plain_t3_t2
+
+0xcc62,	// (0x00059b89) list_medium_line_plain_t3_t3
 
 0x0002,
 
-0xfd09,	// (0x0005bf4d) list_medium_line_plain_t3_t
+0xfcff,	// (0x0005cc26) list_medium_line_plain_t3_t
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t2_g2_g1_ParamLimits
+0x0206,	// (0x0004d12d) list_medium_line_x2_t2_g2_g1_ParamLimits
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t2_g2_g1
+0x0206,	// (0x0004d12d) list_medium_line_x2_t2_g2_g1
 
-0x0506,	// (0x0004c74a) list_medium_line_x2_t2_g2_g2_ParamLimits
+0x021e,	// (0x0004d145) list_medium_line_x2_t2_g2_g2_ParamLimits
 
-0x0506,	// (0x0004c74a) list_medium_line_x2_t2_g2_g2
-
-0x0001,
-
-0xf265,	// (0x0005b4a9) list_medium_line_x2_t2_g2_g_ParamLimits
-
-0xf265,	// (0x0005b4a9) list_medium_line_x2_t2_g2_g
-
-0x061c,	// (0x0004c860) list_medium_line_x2_t2_g2_t1_ParamLimits
-
-0x061c,	// (0x0004c860) list_medium_line_x2_t2_g2_t1
-
-0x0527,	// (0x0004c76b) list_medium_line_x2_t2_g2_t2_ParamLimits
-
-0x0527,	// (0x0004c76b) list_medium_line_x2_t2_g2_t2
+0x021e,	// (0x0004d145) list_medium_line_x2_t2_g2_g2
 
 0x0001,
 
-0xfd10,	// (0x0005bf54) list_medium_line_x2_t2_g2_t_ParamLimits
+0xf256,	// (0x0005c17d) list_medium_line_x2_t2_g2_g_ParamLimits
 
-0xfd10,	// (0x0005bf54) list_medium_line_x2_t2_g2_t
+0xf256,	// (0x0005c17d) list_medium_line_x2_t2_g2_g
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t4_g2_g1_ParamLimits
+0x0334,	// (0x0004d25b) list_medium_line_x2_t2_g2_t1_ParamLimits
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t4_g2_g1
+0x0334,	// (0x0004d25b) list_medium_line_x2_t2_g2_t1
 
-0x0f27,	// (0x0004d16b) list_medium_line_x2_t4_g2_g2_ParamLimits
+0x023f,	// (0x0004d166) list_medium_line_x2_t2_g2_t2_ParamLimits
 
-0x0f27,	// (0x0004d16b) list_medium_line_x2_t4_g2_g2
+0x023f,	// (0x0004d166) list_medium_line_x2_t2_g2_t2
 
 0x0001,
 
-0xfd15,	// (0x0005bf59) list_medium_line_x2_t4_g2_g_ParamLimits
+0xfd06,	// (0x0005cc2d) list_medium_line_x2_t2_g2_t_ParamLimits
 
-0xfd15,	// (0x0005bf59) list_medium_line_x2_t4_g2_g
+0xfd06,	// (0x0005cc2d) list_medium_line_x2_t2_g2_t
 
-0xcd2a,	// (0x00058f6e) list_medium_line_x2_t4_g2_t1_ParamLimits
+0x0206,	// (0x0004d12d) list_medium_line_x2_t4_g2_g1_ParamLimits
 
-0xcd2a,	// (0x00058f6e) list_medium_line_x2_t4_g2_t1
+0x0206,	// (0x0004d12d) list_medium_line_x2_t4_g2_g1
 
-0xcd44,	// (0x00058f88) list_medium_line_x2_t4_g2_t2_ParamLimits
+0x0cb5,	// (0x0004dbdc) list_medium_line_x2_t4_g2_g2_ParamLimits
 
-0xcd44,	// (0x00058f88) list_medium_line_x2_t4_g2_t2
+0x0cb5,	// (0x0004dbdc) list_medium_line_x2_t4_g2_g2
 
-0xcd59,	// (0x00058f9d) list_medium_line_x2_t4_g2_t3_ParamLimits
+0x0001,
 
-0xcd59,	// (0x00058f9d) list_medium_line_x2_t4_g2_t3
+0xfd0b,	// (0x0005cc32) list_medium_line_x2_t4_g2_g_ParamLimits
 
-0x0527,	// (0x0004c76b) list_medium_line_x2_t4_g2_t4_ParamLimits
+0xfd0b,	// (0x0005cc32) list_medium_line_x2_t4_g2_g
 
-0x0527,	// (0x0004c76b) list_medium_line_x2_t4_g2_t4
+0xcc70,	// (0x00059b97) list_medium_line_x2_t4_g2_t1_ParamLimits
+
+0xcc70,	// (0x00059b97) list_medium_line_x2_t4_g2_t1
+
+0xcc8a,	// (0x00059bb1) list_medium_line_x2_t4_g2_t2_ParamLimits
+
+0xcc8a,	// (0x00059bb1) list_medium_line_x2_t4_g2_t2
+
+0xcc9f,	// (0x00059bc6) list_medium_line_x2_t4_g2_t3_ParamLimits
+
+0xcc9f,	// (0x00059bc6) list_medium_line_x2_t4_g2_t3
+
+0x023f,	// (0x0004d166) list_medium_line_x2_t4_g2_t4_ParamLimits
+
+0x023f,	// (0x0004d166) list_medium_line_x2_t4_g2_t4
 
 0x0003,
 
-0xfd1a,	// (0x0005bf5e) list_medium_line_x2_t4_g2_t_ParamLimits
+0xfd10,	// (0x0005cc37) list_medium_line_x2_t4_g2_t_ParamLimits
 
-0xfd1a,	// (0x0005bf5e) list_medium_line_x2_t4_g2_t
+0xfd10,	// (0x0005cc37) list_medium_line_x2_t4_g2_t
 
-0x0f39,	// (0x0004d17d) list_medium_line_t3_right_iconx2_g1
+0x0cc7,	// (0x0004dbee) list_medium_line_t3_right_iconx2_g1
 
-0x0eb9,	// (0x0004d0fd) list_medium_line_t3_right_iconx2_g2
+0x0c47,	// (0x0004db6e) list_medium_line_t3_right_iconx2_g2
 
-0xcd6e,	// (0x00058fb2) list_medium_line_t3_right_iconx2_g3
+0xccb4,	// (0x00059bdb) list_medium_line_t3_right_iconx2_g3
 
 0x0002,
 
-0xfd23,	// (0x0005bf67) list_medium_line_t3_right_iconx2_g
+0xfd19,	// (0x0005cc40) list_medium_line_t3_right_iconx2_g
 
-0xcd76,	// (0x00058fba) list_medium_line_t3_right_iconx2_t1
+0xccbc,	// (0x00059be3) list_medium_line_t3_right_iconx2_t1
 
-0xcd86,	// (0x00058fca) list_medium_line_t3_right_iconx2_t2
+0xcccc,	// (0x00059bf3) list_medium_line_t3_right_iconx2_t2
 
 0x0001,
 
-0xfd2a,	// (0x0005bf6e) list_medium_line_t3_right_iconx2_t
+0xfd20,	// (0x0005cc47) list_medium_line_t3_right_iconx2_t
 
-0x04ee,	// (0x0004c732) list_medium_line_x3_t4_g4_g1_ParamLimits
+0x0206,	// (0x0004d12d) list_medium_line_x3_t4_g4_g1_ParamLimits
 
-0x04ee,	// (0x0004c732) list_medium_line_x3_t4_g4_g1
+0x0206,	// (0x0004d12d) list_medium_line_x3_t4_g4_g1
 
-0x04fa,	// (0x0004c73e) list_medium_line_x3_t4_g4_g2_ParamLimits
+0x0212,	// (0x0004d139) list_medium_line_x3_t4_g4_g2_ParamLimits
 
-0x04fa,	// (0x0004c73e) list_medium_line_x3_t4_g4_g2
+0x0212,	// (0x0004d139) list_medium_line_x3_t4_g4_g2
 
-0x0570,	// (0x0004c7b4) list_medium_line_x3_t4_g4_g3_ParamLimits
+0x0288,	// (0x0004d1af) list_medium_line_x3_t4_g4_g3_ParamLimits
 
-0x0570,	// (0x0004c7b4) list_medium_line_x3_t4_g4_g3
+0x0288,	// (0x0004d1af) list_medium_line_x3_t4_g4_g3
 
-0x0f41,	// (0x0004d185) list_medium_line_x3_t4_g4_g4_ParamLimits
+0x0ccf,	// (0x0004dbf6) list_medium_line_x3_t4_g4_g4_ParamLimits
 
-0x0f41,	// (0x0004d185) list_medium_line_x3_t4_g4_g4
+0x0ccf,	// (0x0004dbf6) list_medium_line_x3_t4_g4_g4
 
 0x0003,
 
-0xfd2f,	// (0x0005bf73) list_medium_line_x3_t4_g4_g_ParamLimits
+0xfd25,	// (0x0005cc4c) list_medium_line_x3_t4_g4_g_ParamLimits
 
-0xfd2f,	// (0x0005bf73) list_medium_line_x3_t4_g4_g
+0xfd25,	// (0x0005cc4c) list_medium_line_x3_t4_g4_g
 
-0xcd94,	// (0x00058fd8) list_medium_line_x3_t4_g4_t1_ParamLimits
+0xccda,	// (0x00059c01) list_medium_line_x3_t4_g4_t1_ParamLimits
 
-0xcd94,	// (0x00058fd8) list_medium_line_x3_t4_g4_t1
+0xccda,	// (0x00059c01) list_medium_line_x3_t4_g4_t1
 
-0xcdab,	// (0x00058fef) list_medium_line_x3_t4_g4_t2_ParamLimits
+0xccf1,	// (0x00059c18) list_medium_line_x3_t4_g4_t2_ParamLimits
 
-0xcdab,	// (0x00058fef) list_medium_line_x3_t4_g4_t2
+0xccf1,	// (0x00059c18) list_medium_line_x3_t4_g4_t2
 
-0x0631,	// (0x0004c875) list_medium_line_x3_t4_g4_t3_ParamLimits
+0x0349,	// (0x0004d270) list_medium_line_x3_t4_g4_t3_ParamLimits
 
-0x0631,	// (0x0004c875) list_medium_line_x3_t4_g4_t3
+0x0349,	// (0x0004d270) list_medium_line_x3_t4_g4_t3
 
-0x0f4d,	// (0x0004d191) list_medium_line_x3_t4_g4_t4_ParamLimits
+0x0cdb,	// (0x0004dc02) list_medium_line_x3_t4_g4_t4_ParamLimits
 
-0x0f4d,	// (0x0004d191) list_medium_line_x3_t4_g4_t4
-
-0x0003,
-
-0xfd38,	// (0x0005bf7c) list_medium_line_x3_t4_g4_t_ParamLimits
-
-0xfd38,	// (0x0005bf7c) list_medium_line_x3_t4_g4_t
-
-0xcdc0,	// (0x00059004) list_single_dyc_row_text_pane_t1_ParamLimits
-
-0xcdc0,	// (0x00059004) list_single_dyc_row_text_pane_t1
-
-0xcdf7,	// (0x0005903b) list_single_dyc_row_text_pane_t2_ParamLimits
-
-0xcdf7,	// (0x0005903b) list_single_dyc_row_text_pane_t2
-
-0x0f6a,	// (0x0004d1ae) list_single_dyc_row_text_pane_t3_ParamLimits
-
-0x0f6a,	// (0x0004d1ae) list_single_dyc_row_text_pane_t3
-
-0x0002,
-
-0xfd41,	// (0x0005bf85) list_single_dyc_row_text_pane_t_ParamLimits
-
-0xfd41,	// (0x0005bf85) list_single_dyc_row_text_pane_t
-
-0x0f7c,	// (0x0004d1c0) list_single_dyc_row_pane_g1_ParamLimits
-
-0x0f7c,	// (0x0004d1c0) list_single_dyc_row_pane_g1
-
-0x0f88,	// (0x0004d1cc) list_single_dyc_row_pane_g2_ParamLimits
-
-0x0f88,	// (0x0004d1cc) list_single_dyc_row_pane_g2
-
-0x0f94,	// (0x0004d1d8) list_single_dyc_row_pane_g3_ParamLimits
-
-0x0f94,	// (0x0004d1d8) list_single_dyc_row_pane_g3
-
-0x0fa0,	// (0x0004d1e4) list_single_dyc_row_pane_g4_ParamLimits
-
-0x0fa0,	// (0x0004d1e4) list_single_dyc_row_pane_g4
+0x0cdb,	// (0x0004dc02) list_medium_line_x3_t4_g4_t4
 
 0x0003,
 
-0xfd48,	// (0x0005bf8c) list_single_dyc_row_pane_g_ParamLimits
+0xfd2e,	// (0x0005cc55) list_medium_line_x3_t4_g4_t_ParamLimits
 
-0xfd48,	// (0x0005bf8c) list_single_dyc_row_pane_g
+0xfd2e,	// (0x0005cc55) list_medium_line_x3_t4_g4_t
 
-0x0fac,	// (0x0004d1f0) list_single_dyc_row_text_pane_ParamLimits
+0xcd06,	// (0x00059c2d) list_single_dyc_row_text_pane_t1_ParamLimits
 
-0x0fac,	// (0x0004d1f0) list_single_dyc_row_text_pane
+0xcd06,	// (0x00059c2d) list_single_dyc_row_text_pane_t1
 
-0x037e,	// (0x0004c5c2) bg_sp_fs_scroll_pane
+0xcd3d,	// (0x00059c64) list_single_dyc_row_text_pane_t2_ParamLimits
 
-0x0fcb,	// (0x0004d20f) thumb_sp_fs_scroll_pane
+0xcd3d,	// (0x00059c64) list_single_dyc_row_text_pane_t2
 
-0x0bf0,	// (0x0004ce34) list_medium_line_g1_ParamLimits
+0x0cf8,	// (0x0004dc1f) list_single_dyc_row_text_pane_t3_ParamLimits
 
-0x0bf0,	// (0x0004ce34) list_medium_line_g1
-
-0x0fd4,	// (0x0004d218) list_medium_line_t1_ParamLimits
-
-0x0fd4,	// (0x0004d218) list_medium_line_t1
-
-0x04ee,	// (0x0004c732) list_medium_line_x2_g1_ParamLimits
-
-0x04ee,	// (0x0004c732) list_medium_line_x2_g1
-
-0x04fa,	// (0x0004c73e) list_medium_line_x2_g2_ParamLimits
-
-0x04fa,	// (0x0004c73e) list_medium_line_x2_g2
-
-0x0001,
-
-0xfd51,	// (0x0005bf95) list_medium_line_x2_g_ParamLimits
-
-0xfd51,	// (0x0005bf95) list_medium_line_x2_g
-
-0x0fe9,	// (0x0004d22d) list_medium_line_x2_t1_ParamLimits
-
-0x0fe9,	// (0x0004d22d) list_medium_line_x2_t1
-
-0x04ee,	// (0x0004c732) list_medium_line_x3_g1_ParamLimits
-
-0x04ee,	// (0x0004c732) list_medium_line_x3_g1
-
-0x04fa,	// (0x0004c73e) list_medium_line_x3_g2_ParamLimits
-
-0x04fa,	// (0x0004c73e) list_medium_line_x3_g2
-
-0x0001,
-
-0xfd51,	// (0x0005bf95) list_medium_line_x3_g_ParamLimits
-
-0xfd51,	// (0x0005bf95) list_medium_line_x3_g
-
-0x0fe9,	// (0x0004d22d) list_medium_line_x3_t1_ParamLimits
-
-0x0fe9,	// (0x0004d22d) list_medium_line_x3_t1
-
-0x0fff,	// (0x0004d243) thumb_sp_fs_scroll_pane_g1
-
-0x1008,	// (0x0004d24c) thumb_sp_fs_scroll_pane_g2
-
-0x1011,	// (0x0004d255) thumb_sp_fs_scroll_pane_g3
+0x0cf8,	// (0x0004dc1f) list_single_dyc_row_text_pane_t3
 
 0x0002,
 
-0xfd56,	// (0x0005bf9a) thumb_sp_fs_scroll_pane_g
+0xfd37,	// (0x0005cc5e) list_single_dyc_row_text_pane_t_ParamLimits
 
-0x0fff,	// (0x0004d243) bg_sp_fs_scroll_pane_g1
+0xfd37,	// (0x0005cc5e) list_single_dyc_row_text_pane_t
 
-0x1008,	// (0x0004d24c) bg_sp_fs_scroll_pane_g2
+0x0d0a,	// (0x0004dc31) list_single_dyc_row_pane_g1_ParamLimits
 
-0x1011,	// (0x0004d255) bg_sp_fs_scroll_pane_g3
+0x0d0a,	// (0x0004dc31) list_single_dyc_row_pane_g1
 
-0x0002,
+0x0d16,	// (0x0004dc3d) list_single_dyc_row_pane_g2_ParamLimits
 
-0xfd56,	// (0x0005bf9a) bg_sp_fs_scroll_pane_g
+0x0d16,	// (0x0004dc3d) list_single_dyc_row_pane_g2
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t3_g4_g1_ParamLimits
+0x0d22,	// (0x0004dc49) list_single_dyc_row_pane_g3_ParamLimits
 
-0x04ee,	// (0x0004c732) list_medium_line_x2_t3_g4_g1
+0x0d22,	// (0x0004dc49) list_single_dyc_row_pane_g3
 
-0x0564,	// (0x0004c7a8) list_medium_line_x2_t3_g4_g2_ParamLimits
+0x0d2e,	// (0x0004dc55) list_single_dyc_row_pane_g4_ParamLimits
 
-0x0564,	// (0x0004c7a8) list_medium_line_x2_t3_g4_g2
-
-0x04fa,	// (0x0004c73e) list_medium_line_x2_t3_g4_g3_ParamLimits
-
-0x04fa,	// (0x0004c73e) list_medium_line_x2_t3_g4_g3
-
-0x0506,	// (0x0004c74a) list_medium_line_x2_t3_g4_g4_ParamLimits
-
-0x0506,	// (0x0004c74a) list_medium_line_x2_t3_g4_g4
+0x0d2e,	// (0x0004dc55) list_single_dyc_row_pane_g4
 
 0x0003,
 
-0xf2e1,	// (0x0005b525) list_medium_line_x2_t3_g4_g_ParamLimits
+0xfd3e,	// (0x0005cc65) list_single_dyc_row_pane_g_ParamLimits
 
-0xf2e1,	// (0x0005b525) list_medium_line_x2_t3_g4_g
+0xfd3e,	// (0x0005cc65) list_single_dyc_row_pane_g
 
-0xce51,	// (0x00059095) list_medium_line_x2_t3_g4_t1_ParamLimits
+0x0d3a,	// (0x0004dc61) list_single_dyc_row_text_pane_ParamLimits
 
-0xce51,	// (0x00059095) list_medium_line_x2_t3_g4_t1
+0x0d3a,	// (0x0004dc61) list_single_dyc_row_text_pane
 
-0xce67,	// (0x000590ab) list_medium_line_x2_t3_g4_t2_ParamLimits
+0x00f2,	// (0x0004d019) bg_sp_fs_scroll_pane
 
-0xce67,	// (0x000590ab) list_medium_line_x2_t3_g4_t2
+0xef45,	// (0x0005be6c) thumb_sp_fs_scroll_pane
 
-0x0527,	// (0x0004c76b) list_medium_line_x2_t3_g4_t3_ParamLimits
+0x09a7,	// (0x0004d8ce) list_medium_line_g1_ParamLimits
 
-0x0527,	// (0x0004c76b) list_medium_line_x2_t3_g4_t3
+0x09a7,	// (0x0004d8ce) list_medium_line_g1
 
-0x0002,
+0x0d59,	// (0x0004dc80) list_medium_line_t1_ParamLimits
 
-0xfd5d,	// (0x0005bfa1) list_medium_line_x2_t3_g4_t_ParamLimits
+0x0d59,	// (0x0004dc80) list_medium_line_t1
 
-0xfd5d,	// (0x0005bfa1) list_medium_line_x2_t3_g4_t
+0x0206,	// (0x0004d12d) list_medium_line_x2_g1_ParamLimits
 
-0x0bf0,	// (0x0004ce34) list_medium_line_g2_g1_ParamLimits
+0x0206,	// (0x0004d12d) list_medium_line_x2_g1
 
-0x0bf0,	// (0x0004ce34) list_medium_line_g2_g1
+0x0212,	// (0x0004d139) list_medium_line_x2_g2_ParamLimits
 
-0x0bfc,	// (0x0004ce40) list_medium_line_g2_g2_ParamLimits
-
-0x0bfc,	// (0x0004ce40) list_medium_line_g2_g2
+0x0212,	// (0x0004d139) list_medium_line_x2_g2
 
 0x0001,
 
-0xfa1a,	// (0x0005bc5e) list_medium_line_g2_g_ParamLimits
+0xfd47,	// (0x0005cc6e) list_medium_line_x2_g_ParamLimits
 
-0xfa1a,	// (0x0005bc5e) list_medium_line_g2_g
+0xfd47,	// (0x0005cc6e) list_medium_line_x2_g
 
-0x101a,	// (0x0004d25e) list_medium_line_g2_t1_ParamLimits
+0x0d6e,	// (0x0004dc95) list_medium_line_x2_t1_ParamLimits
 
-0x101a,	// (0x0004d25e) list_medium_line_g2_t1
+0x0d6e,	// (0x0004dc95) list_medium_line_x2_t1
 
-0x0bf0,	// (0x0004ce34) list_medium_line_t3_g2_g1_ParamLimits
+0x0206,	// (0x0004d12d) list_medium_line_x3_g1_ParamLimits
 
-0x0bf0,	// (0x0004ce34) list_medium_line_t3_g2_g1
+0x0206,	// (0x0004d12d) list_medium_line_x3_g1
 
-0x0bfc,	// (0x0004ce40) list_medium_line_t3_g2_g2_ParamLimits
+0x0212,	// (0x0004d139) list_medium_line_x3_g2_ParamLimits
 
-0x0bfc,	// (0x0004ce40) list_medium_line_t3_g2_g2
-
-0x0001,
-
-0xfa1a,	// (0x0005bc5e) list_medium_line_t3_g2_g_ParamLimits
-
-0xfa1a,	// (0x0005bc5e) list_medium_line_t3_g2_g
-
-0xce81,	// (0x000590c5) list_medium_line_t3_g2_t1_ParamLimits
-
-0xce81,	// (0x000590c5) list_medium_line_t3_g2_t1
-
-0xce98,	// (0x000590dc) list_medium_line_t3_g2_t2_ParamLimits
-
-0xce98,	// (0x000590dc) list_medium_line_t3_g2_t2
-
-0xcead,	// (0x000590f1) list_medium_line_t3_g2_t3_ParamLimits
-
-0xcead,	// (0x000590f1) list_medium_line_t3_g2_t3
-
-0x0002,
-
-0xfd64,	// (0x0005bfa8) list_medium_line_t3_g2_t_ParamLimits
-
-0xfd64,	// (0x0005bfa8) list_medium_line_t3_g2_t
-
-0x0eb9,	// (0x0004d0fd) list_medium_line_right_icon_g1
-
-0x102f,	// (0x0004d273) list_medium_line_right_icon_t1
-
-0x0bf0,	// (0x0004ce34) list_medium_line_t2_g1_ParamLimits
-
-0x0bf0,	// (0x0004ce34) list_medium_line_t2_g1
-
-0xcec2,	// (0x00059106) list_medium_line_t2_t1_ParamLimits
-
-0xcec2,	// (0x00059106) list_medium_line_t2_t1
-
-0xcedc,	// (0x00059120) list_medium_line_t2_t2_ParamLimits
-
-0xcedc,	// (0x00059120) list_medium_line_t2_t2
+0x0212,	// (0x0004d139) list_medium_line_x3_g2
 
 0x0001,
 
-0xfd6b,	// (0x0005bfaf) list_medium_line_t2_t_ParamLimits
+0xfd47,	// (0x0005cc6e) list_medium_line_x3_g_ParamLimits
 
-0xfd6b,	// (0x0005bfaf) list_medium_line_t2_t
+0xfd47,	// (0x0005cc6e) list_medium_line_x3_g
 
-0x0bf0,	// (0x0004ce34) list_medium_line_t3_g1_ParamLimits
+0x0d6e,	// (0x0004dc95) list_medium_line_x3_t1_ParamLimits
 
-0x0bf0,	// (0x0004ce34) list_medium_line_t3_g1
+0x0d6e,	// (0x0004dc95) list_medium_line_x3_t1
 
-0xcef1,	// (0x00059135) list_medium_line_t3_t1_ParamLimits
+0xef4e,	// (0x0005be75) thumb_sp_fs_scroll_pane_g1
 
-0xcef1,	// (0x00059135) list_medium_line_t3_t1
+0xef57,	// (0x0005be7e) thumb_sp_fs_scroll_pane_g2
 
-0xcf08,	// (0x0005914c) list_medium_line_t3_t2_ParamLimits
-
-0xcf08,	// (0x0005914c) list_medium_line_t3_t2
-
-0xcf1d,	// (0x00059161) list_medium_line_t3_t3_ParamLimits
-
-0xcf1d,	// (0x00059161) list_medium_line_t3_t3
+0xef60,	// (0x0005be87) thumb_sp_fs_scroll_pane_g3
 
 0x0002,
 
-0xfd70,	// (0x0005bfb4) list_medium_line_t3_t_ParamLimits
+0xfd4c,	// (0x0005cc73) thumb_sp_fs_scroll_pane_g
 
-0xfd70,	// (0x0005bfb4) list_medium_line_t3_t
+0xef4e,	// (0x0005be75) bg_sp_fs_scroll_pane_g1
 
-0x0bf0,	// (0x0004ce34) list_medium_line_g3_g1_ParamLimits
+0xef57,	// (0x0005be7e) bg_sp_fs_scroll_pane_g2
 
-0x0bf0,	// (0x0004ce34) list_medium_line_g3_g1
-
-0x103d,	// (0x0004d281) list_medium_line_g3_g2_ParamLimits
-
-0x103d,	// (0x0004d281) list_medium_line_g3_g2
-
-0x0bfc,	// (0x0004ce40) list_medium_line_g3_g3_ParamLimits
-
-0x0bfc,	// (0x0004ce40) list_medium_line_g3_g3
+0xef60,	// (0x0005be87) bg_sp_fs_scroll_pane_g3
 
 0x0002,
 
-0xfd77,	// (0x0005bfbb) list_medium_line_g3_g_ParamLimits
+0xfd4c,	// (0x0005cc73) bg_sp_fs_scroll_pane_g
 
-0xfd77,	// (0x0005bfbb) list_medium_line_g3_g
+0x0206,	// (0x0004d12d) list_medium_line_x2_t3_g4_g1_ParamLimits
 
-0x1049,	// (0x0004d28d) list_medium_line_g3_t1_ParamLimits
+0x0206,	// (0x0004d12d) list_medium_line_x2_t3_g4_g1
 
-0x1049,	// (0x0004d28d) list_medium_line_g3_t1
+0x027c,	// (0x0004d1a3) list_medium_line_x2_t3_g4_g2_ParamLimits
 
-0x0bf0,	// (0x0004ce34) list_medium_line_t2_g3_g1_ParamLimits
+0x027c,	// (0x0004d1a3) list_medium_line_x2_t3_g4_g2
 
-0x0bf0,	// (0x0004ce34) list_medium_line_t2_g3_g1
+0x0212,	// (0x0004d139) list_medium_line_x2_t3_g4_g3_ParamLimits
 
-0x103d,	// (0x0004d281) list_medium_line_t2_g3_g2_ParamLimits
+0x0212,	// (0x0004d139) list_medium_line_x2_t3_g4_g3
 
-0x103d,	// (0x0004d281) list_medium_line_t2_g3_g2
+0x021e,	// (0x0004d145) list_medium_line_x2_t3_g4_g4_ParamLimits
 
-0x0bfc,	// (0x0004ce40) list_medium_line_t2_g3_g3_ParamLimits
-
-0x0bfc,	// (0x0004ce40) list_medium_line_t2_g3_g3
-
-0x0002,
-
-0xfd77,	// (0x0005bfbb) list_medium_line_t2_g3_g_ParamLimits
-
-0xfd77,	// (0x0005bfbb) list_medium_line_t2_g3_g
-
-0xcf2f,	// (0x00059173) list_medium_line_t2_g3_t1_ParamLimits
-
-0xcf2f,	// (0x00059173) list_medium_line_t2_g3_t1
-
-0xcf49,	// (0x0005918d) list_medium_line_t2_g3_t2_ParamLimits
-
-0xcf49,	// (0x0005918d) list_medium_line_t2_g3_t2
-
-0x0001,
-
-0xfd7e,	// (0x0005bfc2) list_medium_line_t2_g3_t_ParamLimits
-
-0xfd7e,	// (0x0005bfc2) list_medium_line_t2_g3_t
-
-0x0bf0,	// (0x0004ce34) list_medium_line_t3_g3_g1_ParamLimits
-
-0x0bf0,	// (0x0004ce34) list_medium_line_t3_g3_g1
-
-0x103d,	// (0x0004d281) list_medium_line_t3_g3_g2_ParamLimits
-
-0x103d,	// (0x0004d281) list_medium_line_t3_g3_g2
-
-0x0bfc,	// (0x0004ce40) list_medium_line_t3_g3_g3_ParamLimits
-
-0x0bfc,	// (0x0004ce40) list_medium_line_t3_g3_g3
-
-0x0002,
-
-0xfd77,	// (0x0005bfbb) list_medium_line_t3_g3_g_ParamLimits
-
-0xfd77,	// (0x0005bfbb) list_medium_line_t3_g3_g
-
-0xcf5e,	// (0x000591a2) list_medium_line_t3_g3_t1_ParamLimits
-
-0xcf5e,	// (0x000591a2) list_medium_line_t3_g3_t1
-
-0xcf72,	// (0x000591b6) list_medium_line_t3_g3_t2_ParamLimits
-
-0xcf72,	// (0x000591b6) list_medium_line_t3_g3_t2
-
-0xcf84,	// (0x000591c8) list_medium_line_t3_g3_t3_ParamLimits
-
-0xcf84,	// (0x000591c8) list_medium_line_t3_g3_t3
-
-0x0002,
-
-0xfd83,	// (0x0005bfc7) list_medium_line_t3_g3_t_ParamLimits
-
-0xfd83,	// (0x0005bfc7) list_medium_line_t3_g3_t
-
-0x0f39,	// (0x0004d17d) list_medium_line_right_iconx2_g1
-
-0x0eb9,	// (0x0004d0fd) list_medium_line_right_iconx2_g2
-
-0x0001,
-
-0xfd8a,	// (0x0005bfce) list_medium_line_right_iconx2_g
-
-0x105e,	// (0x0004d2a2) list_medium_line_right_iconx2_t1
-
-0x0f39,	// (0x0004d17d) list_medium_line_t2_right_iconx2_g1
-
-0x0eb9,	// (0x0004d0fd) list_medium_line_t2_right_iconx2_g2
-
-0x0001,
-
-0xfd8a,	// (0x0005bfce) list_medium_line_t2_right_iconx2_g
-
-0xcf96,	// (0x000591da) list_medium_line_t2_right_iconx2_t1
-
-0xcfa6,	// (0x000591ea) list_medium_line_t2_right_iconx2_t2
-
-0x0001,
-
-0xfd8f,	// (0x0005bfd3) list_medium_line_t2_right_iconx2_t
-
-0x106c,	// (0x0004d2b0) list_medium_line_x4_t4_t1
-
-0xcfb4,	// (0x000591f8) list_medium_line_x4_t4_t2
-
-0xcfc4,	// (0x00059208) list_medium_line_x4_t4_t3
-
-0xcfd4,	// (0x00059218) list_medium_line_x4_t4_t4
+0x021e,	// (0x0004d145) list_medium_line_x2_t3_g4_g4
 
 0x0003,
 
-0xfd94,	// (0x0005bfd8) list_medium_line_x4_t4_t
+0xf2d2,	// (0x0005c1f9) list_medium_line_x2_t3_g4_g_ParamLimits
 
-0xd00d,	// (0x00059251) tport_appsw_pane_ParamLimits
+0xf2d2,	// (0x0005c1f9) list_medium_line_x2_t3_g4_g
 
-0xd00d,	// (0x00059251) tport_appsw_pane
+0xcd97,	// (0x00059cbe) list_medium_line_x2_t3_g4_t1_ParamLimits
 
-0xd019,	// (0x0005925d) tport_contact_pane_ParamLimits
+0xcd97,	// (0x00059cbe) list_medium_line_x2_t3_g4_t1
 
-0xd019,	// (0x0005925d) tport_contact_pane
+0xcdad,	// (0x00059cd4) list_medium_line_x2_t3_g4_t2_ParamLimits
 
-0xd029,	// (0x0005926d) tport_listscroll_pane_ParamLimits
+0xcdad,	// (0x00059cd4) list_medium_line_x2_t3_g4_t2
 
-0xd029,	// (0x0005926d) tport_listscroll_pane
+0x023f,	// (0x0004d166) list_medium_line_x2_t3_g4_t3_ParamLimits
 
-0xd039,	// (0x0005927d) cell_tport_appsw_pane_ParamLimits
-
-0xd039,	// (0x0005927d) cell_tport_appsw_pane
-
-0x4870,	// (0x00050ab4) tport_appsw_pane_g1_ParamLimits
-
-0x4870,	// (0x00050ab4) tport_appsw_pane_g1
-
-0x107a,	// (0x0004d2be) tport_contact_pane_g1
-
-0xea71,	// (0x0005acb5) tport_contact_pane_t1
-
-0x1083,	// (0x0004d2c7) tport_contact_pane_t2
-
-0x0001,
-
-0xfd9d,	// (0x0005bfe1) tport_contact_pane_t
-
-0x1091,	// (0x0004d2d5) list_tport_pane
-
-0x109a,	// (0x0004d2de) scroll_pane_cp_030
-
-0x10ab,	// (0x0004d2ef) cell_tport_appsw_pane_g1
-
-0x10bb,	// (0x0004d2ff) cell_tport_appsw_pane_t1
-
-0x037e,	// (0x0004c5c2) grid_highlight_pane_cp019
-
-0xd064,	// (0x000592a8) list_tport_double_graphic_pane_ParamLimits
-
-0xd064,	// (0x000592a8) list_tport_double_graphic_pane
-
-0x334c,	// (0x0004f590) list_highlight_pane_cp023_ParamLimits
-
-0x334c,	// (0x0004f590) list_highlight_pane_cp023
-
-0xd076,	// (0x000592ba) list_tport_double_graphic_pane_g1_ParamLimits
-
-0xd076,	// (0x000592ba) list_tport_double_graphic_pane_g1
-
-0xd083,	// (0x000592c7) list_tport_double_graphic_pane_t1_ParamLimits
-
-0xd083,	// (0x000592c7) list_tport_double_graphic_pane_t1
-
-0xd098,	// (0x000592dc) list_tport_double_graphic_pane_t2_ParamLimits
-
-0xd098,	// (0x000592dc) list_tport_double_graphic_pane_t2
-
-0x0001,
-
-0xfda9,	// (0x0005bfed) list_tport_double_graphic_pane_t_ParamLimits
-
-0xfda9,	// (0x0005bfed) list_tport_double_graphic_pane_t
-
-0x037e,	// (0x0004c5c2) main_cale_note_pane
-
-0xaf25,	// (0x00057169) cell_vitu2_function_top_wide_pane_cp01_ParamLimits
-
-0xaf25,	// (0x00057169) cell_vitu2_function_top_wide_pane_cp01
-
-0xc838,	// (0x00058a7c) wait_bar_pane_cp05_ParamLimits
-
-0x037e,	// (0x0004c5c2) listscroll_cmail_pane
-
-0x10d1,	// (0x0004d315) list_cmail_pane
-
-0xd0b4,	// (0x000592f8) list_cmail_body_pane
-
-0xd0ce,	// (0x00059312) list_single_cmail_header_caption_pane
-
-0xd0f3,	// (0x00059337) list_single_cmail_header_detail_pane_ParamLimits
-
-0xd0f3,	// (0x00059337) list_single_cmail_header_detail_pane
-
-0xd123,	// (0x00059367) list_single_cmail_header_caption_pane_t1
-
-0xd131,	// (0x00059375) list_single_cmail_header_detail_pane_g1_ParamLimits
-
-0xd131,	// (0x00059375) list_single_cmail_header_detail_pane_g1
-
-0x10f2,	// (0x0004d336) list_single_cmail_header_detail_pane_g2_ParamLimits
-
-0x10f2,	// (0x0004d336) list_single_cmail_header_detail_pane_g2
+0x023f,	// (0x0004d166) list_medium_line_x2_t3_g4_t3
 
 0x0002,
 
-0xfdae,	// (0x0005bff2) list_single_cmail_header_detail_pane_g_ParamLimits
+0xfd53,	// (0x0005cc7a) list_medium_line_x2_t3_g4_t_ParamLimits
 
-0xfdae,	// (0x0005bff2) list_single_cmail_header_detail_pane_g
+0xfd53,	// (0x0005cc7a) list_medium_line_x2_t3_g4_t
 
-0x110b,	// (0x0004d34f) list_single_cmail_header_detail_pane_t1_ParamLimits
+0x09a7,	// (0x0004d8ce) list_medium_line_g2_g1_ParamLimits
 
-0x110b,	// (0x0004d34f) list_single_cmail_header_detail_pane_t1
+0x09a7,	// (0x0004d8ce) list_medium_line_g2_g1
 
-0x1141,	// (0x0004d385) list_single_cmail_header_editor_pane_bg_ParamLimits
+0x09b3,	// (0x0004d8da) list_medium_line_g2_g2_ParamLimits
 
-0x1141,	// (0x0004d385) list_single_cmail_header_editor_pane_bg
-
-0xec12,	// (0x0005ae56) list_cmail_body_pane_g1
-
-0x1153,	// (0x0004d397) list_cmail_body_pane_t1
-
-0xe002,	// (0x0005a246) list_single_cmail_header_editor_pane_bg_g1
-
-0x265f,	// (0x0004e8a3) list_single_cmail_header_editor_pane_bg_g1_copy1
-
-0xe012,	// (0x0005a256) list_single_cmail_header_editor_pane_bg_g1_copy2
-
-0xe00a,	// (0x0005a24e) list_single_cmail_header_editor_pane_bg_g1_copy3
-
-0xe226,	// (0x0005a46a) list_single_cmail_header_editor_pane_bg_g1_copy4
-
-0xe032,	// (0x0005a276) list_single_cmail_header_editor_pane_bg_g1_copy4_copy1
-
-0xe022,	// (0x0005a266) list_single_cmail_header_editor_pane_bg_g1_copy4_copy2
-
-0xe02a,	// (0x0005a26e) list_single_cmail_header_editor_pane_bg_g1_copy4_copy3
-
-0x263f,	// (0x0004e883) list_single_cmail_header_editor_pane_bg_g1_copy4_copy3_copy1
-
-0xd16b,	// (0x000593af) calenote_gesture_pane_ParamLimits
-
-0xd16b,	// (0x000593af) calenote_gesture_pane
-
-0xd185,	// (0x000593c9) calenote_window_pane_ParamLimits
-
-0xd185,	// (0x000593c9) calenote_window_pane
-
-0x1161,	// (0x0004d3a5) popup_note_window_cp01
-
-0xd19d,	// (0x000593e1) calenote_swipe_1_pane_ParamLimits
-
-0xd19d,	// (0x000593e1) calenote_swipe_1_pane
-
-0xcbfc,	// (0x00058e40) calenote_swipe_2_pane_ParamLimits
-
-0xcbfc,	// (0x00058e40) calenote_swipe_2_pane
-
-0xef76,	// (0x0005b1ba) calenote_swipe_1_pane_g1_ParamLimits
-
-0xef76,	// (0x0005b1ba) calenote_swipe_1_pane_g1
-
-0xef83,	// (0x0005b1c7) calenote_swipe_1_pane_g2_ParamLimits
-
-0xef83,	// (0x0005b1c7) calenote_swipe_1_pane_g2
+0x09b3,	// (0x0004d8da) list_medium_line_g2_g2
 
 0x0001,
 
-0xfcd8,	// (0x0005bf1c) calenote_swipe_1_pane_g_ParamLimits
+0xfa0b,	// (0x0005c932) list_medium_line_g2_g_ParamLimits
 
-0xfcd8,	// (0x0005bf1c) calenote_swipe_1_pane_g
+0xfa0b,	// (0x0005c932) list_medium_line_g2_g
 
-0x1173,	// (0x0004d3b7) calenote_swipe_1_pane_t1_ParamLimits
+0x0d84,	// (0x0004dcab) list_medium_line_g2_t1_ParamLimits
 
-0x1173,	// (0x0004d3b7) calenote_swipe_1_pane_t1
+0x0d84,	// (0x0004dcab) list_medium_line_g2_t1
 
-0xef76,	// (0x0005b1ba) calenote_swipe_2_pane_g1_ParamLimits
+0x09a7,	// (0x0004d8ce) list_medium_line_t3_g2_g1_ParamLimits
 
-0xef76,	// (0x0005b1ba) calenote_swipe_2_pane_g1
+0x09a7,	// (0x0004d8ce) list_medium_line_t3_g2_g1
 
-0x1192,	// (0x0004d3d6) calenote_swipe_2_pane_g2_ParamLimits
+0x09b3,	// (0x0004d8da) list_medium_line_t3_g2_g2_ParamLimits
 
-0x1192,	// (0x0004d3d6) calenote_swipe_2_pane_g2
-
-0x0001,
-
-0xfdba,	// (0x0005bffe) calenote_swipe_2_pane_g_ParamLimits
-
-0xfdba,	// (0x0005bffe) calenote_swipe_2_pane_g
-
-0x119e,	// (0x0004d3e2) calenote_swipe_2_pane_t1_ParamLimits
-
-0x119e,	// (0x0004d3e2) calenote_swipe_2_pane_t1
-
-0x037e,	// (0x0004c5c2) main_mup_navstr_pane
-
-0x9ca4,	// (0x00055ee8) main_mup3_pane_t7_ParamLimits
-
-0x9ca4,	// (0x00055ee8) main_mup3_pane_t7
-
-0xa67e,	// (0x000568c2) main_mp4_pane_g6_ParamLimits
-
-0xa67e,	// (0x000568c2) main_mp4_pane_g6
-
-0xa9fe,	// (0x00056c42) main_image3_pane_t4_ParamLimits
-
-0xa9fe,	// (0x00056c42) main_image3_pane_t4
-
-0xd1b0,	// (0x000593f4) popup_navstr_preview_pane_ParamLimits
-
-0xd1b0,	// (0x000593f4) popup_navstr_preview_pane
-
-0xd1bc,	// (0x00059400) scroll_navstr_pane_ParamLimits
-
-0xd1bc,	// (0x00059400) scroll_navstr_pane
-
-0x037e,	// (0x0004c5c2) bg_popup_preview_window_pane_cp04
-
-0x11c5,	// (0x0004d409) popup_navstr_preview_pane_t1
-
-0xd1c8,	// (0x0005940c) scroll_navstr_pane_g1_ParamLimits
-
-0xd1c8,	// (0x0005940c) scroll_navstr_pane_g1
-
-0xd1d5,	// (0x00059419) scroll_navstr_pane_t1_ParamLimits
-
-0xd1d5,	// (0x00059419) scroll_navstr_pane_t1
-
-0x116a,	// (0x0004d3ae) bg_button_pane_cp014
-
-0x116a,	// (0x0004d3ae) bg_button_pane_cp030
-
-0xcaf0,	// (0x00058d34) list_double_fisheye_pane_g4_ParamLimits
-
-0xcaf0,	// (0x00058d34) list_double_fisheye_pane_g4
-
-0xcafc,	// (0x00058d40) list_double_fisheye_pane_g5_ParamLimits
-
-0xcafc,	// (0x00058d40) list_double_fisheye_pane_g5
-
-0x10d9,	// (0x0004d31d) sp_fs_scroll_pane_cp03
-
-0xf069,	// (0x0005b2ad) main_sp_fs_ctrlbar_pane_g1_ParamLimits
-
-0xf075,	// (0x0005b2b9) main_sp_fs_ctrlbar_pane_g2_ParamLimits
-
-0xfcf5,	// (0x0005bf39) main_sp_fs_ctrlbar_pane_g_ParamLimits
-
-0xf081,	// (0x0005b2c5) main_sp_fs_ctrlbar_pane_t1_ParamLimits
-
-0xd0aa,	// (0x000592ee) sp_fs_scroll_pane_cp02
-
-0x236d,	// (0x0004e5b1) popup_sp_fs_calendar_preview_list_single_pane_ParamLimits
-
-0x236d,	// (0x0004e5b1) popup_sp_fs_calendar_preview_list_single_pane
-
-0x037e,	// (0x0004c5c2) main_cam6_pano_pane
-
-0x334c,	// (0x0004f590) main_mup3_pane_ParamLimits
-
-0x037e,	// (0x0004c5c2) main_phacti_pane
-
-0xc70d,	// (0x00058951) bg_button_pane_cp11
-
-0xc725,	// (0x00058969) main_mobtv_info_pane_g2_ParamLimits
-
-0xc725,	// (0x00058969) main_mobtv_info_pane_g2
+0x09b3,	// (0x0004d8da) list_medium_line_t3_g2_g2
 
 0x0001,
 
-0xfc55,	// (0x0005be99) main_mobtv_info_pane_g_ParamLimits
+0xfa0b,	// (0x0005c932) list_medium_line_t3_g2_g_ParamLimits
 
-0xfc55,	// (0x0005be99) main_mobtv_info_pane_g
+0xfa0b,	// (0x0005c932) list_medium_line_t3_g2_g
 
-0xc8d7,	// (0x00058b1b) sc_clock_pane_t5_ParamLimits
+0xcdc7,	// (0x00059cee) list_medium_line_t3_g2_t1_ParamLimits
 
-0xc8d7,	// (0x00058b1b) sc_clock_pane_t5
+0xcdc7,	// (0x00059cee) list_medium_line_t3_g2_t1
 
-0xc97e,	// (0x00058bc2) main_radioblah_pane_g1_ParamLimits
+0xcdde,	// (0x00059d05) list_medium_line_t3_g2_t2_ParamLimits
 
-0xeec2,	// (0x0005b106) main_radioblah_pane_t3_ParamLimits
+0xcdde,	// (0x00059d05) list_medium_line_t3_g2_t2
 
-0xeec2,	// (0x0005b106) main_radioblah_pane_t3
+0xcdf3,	// (0x00059d1a) list_medium_line_t3_g2_t3_ParamLimits
 
-0xeeda,	// (0x0005b11e) main_radioblah_pane_t4_ParamLimits
+0xcdf3,	// (0x00059d1a) list_medium_line_t3_g2_t3
 
-0xeeda,	// (0x0005b11e) main_radioblah_pane_t4
+0x0002,
 
-0xc99c,	// (0x00058be0) main_radioblah_text_pane_ParamLimits
+0xfd5a,	// (0x0005cc81) list_medium_line_t3_g2_t_ParamLimits
 
-0xc99c,	// (0x00058be0) main_radioblah_text_pane
+0xfd5a,	// (0x0005cc81) list_medium_line_t3_g2_t
 
-0xc9a9,	// (0x00058bed) main_radioblah_info_pane_g1_ParamLimits
+0x0c47,	// (0x0004db6e) list_medium_line_right_icon_g1
 
-0xca3e,	// (0x00058c82) main_radioblah_info_pane_t4_ParamLimits
+0x0d99,	// (0x0004dcc0) list_medium_line_right_icon_t1
 
-0xca3e,	// (0x00058c82) main_radioblah_info_pane_t4
+0x09a7,	// (0x0004d8ce) list_medium_line_t2_g1_ParamLimits
 
-0x334c,	// (0x0004f590) main_sp_fs_calendar_pane
+0x09a7,	// (0x0004d8ce) list_medium_line_t2_g1
 
-0xd1e7,	// (0x0005942b) main_phacti_pane_g1
+0xce08,	// (0x00059d2f) list_medium_line_t2_t1_ParamLimits
 
-0xd1ef,	// (0x00059433) phacti_note_pane_ParamLimits
+0xce08,	// (0x00059d2f) list_medium_line_t2_t1
 
-0xd1ef,	// (0x00059433) phacti_note_pane
+0xce22,	// (0x00059d49) list_medium_line_t2_t2_ParamLimits
 
-0x11dc,	// (0x0004d420) phacti_term_pane_ParamLimits
-
-0x11dc,	// (0x0004d420) phacti_term_pane
-
-0x11f1,	// (0x0004d435) phacti_note_pane_t1_ParamLimits
-
-0x11f1,	// (0x0004d435) phacti_note_pane_t1
-
-0x1208,	// (0x0004d44c) phacti_term_pane_g1
-
-0x1210,	// (0x0004d454) phacti_term_pane_t1_ParamLimits
-
-0x1210,	// (0x0004d454) phacti_term_pane_t1
-
-0x123a,	// (0x0004d47e) popup_sp_fs_calendar_preview_list_single_pane_g1
-
-0x2460,	// (0x0004e6a4) popup_sp_fs_calendar_preview_list_single_pane_g2
+0xce22,	// (0x00059d49) list_medium_line_t2_t2
 
 0x0001,
 
-0xfdc4,	// (0x0005c008) popup_sp_fs_calendar_preview_list_single_pane_g
+0xfd61,	// (0x0005cc88) list_medium_line_t2_t_ParamLimits
 
-0x1242,	// (0x0004d486) popup_sp_fs_calendar_preview_list_single_pane_t1_ParamLimits
+0xfd61,	// (0x0005cc88) list_medium_line_t2_t
 
-0x1242,	// (0x0004d486) popup_sp_fs_calendar_preview_list_single_pane_t1
+0x09a7,	// (0x0004d8ce) list_medium_line_t3_g1_ParamLimits
 
-0x1257,	// (0x0004d49b) aid_popup_sp_fs_bg_corner_pane
+0x09a7,	// (0x0004d8ce) list_medium_line_t3_g1
 
-0x4597,	// (0x000507db) popup_sp_fs_calendar_preview_bg_pane_g1
+0xce37,	// (0x00059d5e) list_medium_line_t3_t1_ParamLimits
 
-0x037e,	// (0x0004c5c2) popup_sp_fs_calendar_preview_bg_pane
+0xce37,	// (0x00059d5e) list_medium_line_t3_t1
 
-0x125f,	// (0x0004d4a3) popup_sp_fs_calendar_preview_list_pane
+0xce4e,	// (0x00059d75) list_medium_line_t3_t2_ParamLimits
 
-0x334c,	// (0x0004f590) bg_main_sp_fs_cale_pane_ParamLimits
+0xce4e,	// (0x00059d75) list_medium_line_t3_t2
 
-0x334c,	// (0x0004f590) bg_main_sp_fs_cale_pane
+0xce63,	// (0x00059d8a) list_medium_line_t3_t3_ParamLimits
 
-0x1267,	// (0x0004d4ab) listscroll_cale_mrui_pane_ParamLimits
+0xce63,	// (0x00059d8a) list_medium_line_t3_t3
 
-0x1267,	// (0x0004d4ab) listscroll_cale_mrui_pane
+0x0002,
 
-0x127b,	// (0x0004d4bf) listscroll_sp_fs_schedule_track_pane
+0xfd66,	// (0x0005cc8d) list_medium_line_t3_t_ParamLimits
 
-0x1284,	// (0x0004d4c8) main_sp_fs_ctrlbar_pane_cp01_ParamLimits
+0xfd66,	// (0x0005cc8d) list_medium_line_t3_t
 
-0x1284,	// (0x0004d4c8) main_sp_fs_ctrlbar_pane_cp01
+0x09a7,	// (0x0004d8ce) list_medium_line_g3_g1_ParamLimits
 
-0x1295,	// (0x0004d4d9) main_sp_fs_ribbon_pane
+0x09a7,	// (0x0004d8ce) list_medium_line_g3_g1
 
-0x129d,	// (0x0004d4e1) popup_sp_fs_cale_preview_window
+0x0da7,	// (0x0004dcce) list_medium_line_g3_g2_ParamLimits
 
-0xd232,	// (0x00059476) list_single_sp_fs_schedule_track_pane_ParamLimits
+0x0da7,	// (0x0004dcce) list_medium_line_g3_g2
 
-0xd232,	// (0x00059476) list_single_sp_fs_schedule_track_pane
+0x09b3,	// (0x0004d8da) list_medium_line_g3_g3_ParamLimits
 
-0x0b21,	// (0x0004cd65) bg_sp_fs_highlight_list_pane_cp03_ParamLimits
+0x09b3,	// (0x0004d8da) list_medium_line_g3_g3
 
-0x0b21,	// (0x0004cd65) bg_sp_fs_highlight_list_pane_cp03
+0x0002,
 
-0xd251,	// (0x00059495) list_single_sp_fs_schedule_track_pane_g1_ParamLimits
+0xfd6d,	// (0x0005cc94) list_medium_line_g3_g_ParamLimits
 
-0xd251,	// (0x00059495) list_single_sp_fs_schedule_track_pane_g1
+0xfd6d,	// (0x0005cc94) list_medium_line_g3_g
 
-0xd25d,	// (0x000594a1) list_single_sp_fs_schedule_track_pane_g2_ParamLimits
+0x0db3,	// (0x0004dcda) list_medium_line_g3_t1_ParamLimits
 
-0xd25d,	// (0x000594a1) list_single_sp_fs_schedule_track_pane_g2
+0x0db3,	// (0x0004dcda) list_medium_line_g3_t1
+
+0x09a7,	// (0x0004d8ce) list_medium_line_t2_g3_g1_ParamLimits
+
+0x09a7,	// (0x0004d8ce) list_medium_line_t2_g3_g1
+
+0x0da7,	// (0x0004dcce) list_medium_line_t2_g3_g2_ParamLimits
+
+0x0da7,	// (0x0004dcce) list_medium_line_t2_g3_g2
+
+0x09b3,	// (0x0004d8da) list_medium_line_t2_g3_g3_ParamLimits
+
+0x09b3,	// (0x0004d8da) list_medium_line_t2_g3_g3
+
+0x0002,
+
+0xfd6d,	// (0x0005cc94) list_medium_line_t2_g3_g_ParamLimits
+
+0xfd6d,	// (0x0005cc94) list_medium_line_t2_g3_g
+
+0xce75,	// (0x00059d9c) list_medium_line_t2_g3_t1_ParamLimits
+
+0xce75,	// (0x00059d9c) list_medium_line_t2_g3_t1
+
+0xce8f,	// (0x00059db6) list_medium_line_t2_g3_t2_ParamLimits
+
+0xce8f,	// (0x00059db6) list_medium_line_t2_g3_t2
 
 0x0001,
 
-0xfdc9,	// (0x0005c00d) list_single_sp_fs_schedule_track_pane_g_ParamLimits
+0xfd74,	// (0x0005cc9b) list_medium_line_t2_g3_t_ParamLimits
 
-0xfdc9,	// (0x0005c00d) list_single_sp_fs_schedule_track_pane_g
+0xfd74,	// (0x0005cc9b) list_medium_line_t2_g3_t
 
-0xd269,	// (0x000594ad) list_single_sp_fs_schedule_track_pane_t1_ParamLimits
+0x09a7,	// (0x0004d8ce) list_medium_line_t3_g3_g1_ParamLimits
 
-0xd269,	// (0x000594ad) list_single_sp_fs_schedule_track_pane_t1
+0x09a7,	// (0x0004d8ce) list_medium_line_t3_g3_g1
 
-0xd281,	// (0x000594c5) sp_fs_schedule_track_pane_ParamLimits
+0x0da7,	// (0x0004dcce) list_medium_line_t3_g3_g2_ParamLimits
 
-0xd281,	// (0x000594c5) sp_fs_schedule_track_pane
+0x0da7,	// (0x0004dcce) list_medium_line_t3_g3_g2
 
-0x12af,	// (0x0004d4f3) sp_fs_schedule_track_pane_g1
+0x09b3,	// (0x0004d8da) list_medium_line_t3_g3_g3_ParamLimits
 
-0x12b7,	// (0x0004d4fb) sp_fs_schedule_track_pane_g2
+0x09b3,	// (0x0004d8da) list_medium_line_t3_g3_g3
 
-0x12bf,	// (0x0004d503) sp_fs_schedule_track_pane_g3
+0x0002,
 
-0x12c7,	// (0x0004d50b) sp_fs_schedule_track_pane_g4
+0xfd6d,	// (0x0005cc94) list_medium_line_t3_g3_g_ParamLimits
 
-0x12cf,	// (0x0004d513) sp_fs_schedule_track_pane_g5
+0xfd6d,	// (0x0005cc94) list_medium_line_t3_g3_g
+
+0xcea4,	// (0x00059dcb) list_medium_line_t3_g3_t1_ParamLimits
+
+0xcea4,	// (0x00059dcb) list_medium_line_t3_g3_t1
+
+0xceb8,	// (0x00059ddf) list_medium_line_t3_g3_t2_ParamLimits
+
+0xceb8,	// (0x00059ddf) list_medium_line_t3_g3_t2
+
+0xceca,	// (0x00059df1) list_medium_line_t3_g3_t3_ParamLimits
+
+0xceca,	// (0x00059df1) list_medium_line_t3_g3_t3
+
+0x0002,
+
+0xfd79,	// (0x0005cca0) list_medium_line_t3_g3_t_ParamLimits
+
+0xfd79,	// (0x0005cca0) list_medium_line_t3_g3_t
+
+0x0cc7,	// (0x0004dbee) list_medium_line_right_iconx2_g1
+
+0x0c47,	// (0x0004db6e) list_medium_line_right_iconx2_g2
+
+0x0001,
+
+0xfd80,	// (0x0005cca7) list_medium_line_right_iconx2_g
+
+0x0dc8,	// (0x0004dcef) list_medium_line_right_iconx2_t1
+
+0x0cc7,	// (0x0004dbee) list_medium_line_t2_right_iconx2_g1
+
+0x0c47,	// (0x0004db6e) list_medium_line_t2_right_iconx2_g2
+
+0x0001,
+
+0xfd80,	// (0x0005cca7) list_medium_line_t2_right_iconx2_g
+
+0xcedc,	// (0x00059e03) list_medium_line_t2_right_iconx2_t1
+
+0xceec,	// (0x00059e13) list_medium_line_t2_right_iconx2_t2
+
+0x0001,
+
+0xfd85,	// (0x0005ccac) list_medium_line_t2_right_iconx2_t
+
+0x0dd6,	// (0x0004dcfd) list_medium_line_x4_t4_t1
+
+0xcefa,	// (0x00059e21) list_medium_line_x4_t4_t2
+
+0xcf0a,	// (0x00059e31) list_medium_line_x4_t4_t3
+
+0xcf1a,	// (0x00059e41) list_medium_line_x4_t4_t4
+
+0x0003,
+
+0xfd8a,	// (0x0005ccb1) list_medium_line_x4_t4_t
+
+0xcf53,	// (0x00059e7a) tport_appsw_pane_ParamLimits
+
+0xcf53,	// (0x00059e7a) tport_appsw_pane
+
+0xcf5f,	// (0x00059e86) tport_contact_pane_ParamLimits
+
+0xcf5f,	// (0x00059e86) tport_contact_pane
+
+0xcf6f,	// (0x00059e96) tport_listscroll_pane_ParamLimits
+
+0xcf6f,	// (0x00059e96) tport_listscroll_pane
+
+0xcf7f,	// (0x00059ea6) cell_tport_appsw_pane_ParamLimits
+
+0xcf7f,	// (0x00059ea6) cell_tport_appsw_pane
+
+0x44b3,	// (0x000513da) tport_appsw_pane_g1_ParamLimits
+
+0x44b3,	// (0x000513da) tport_appsw_pane_g1
+
+0xef69,	// (0x0005be90) tport_contact_pane_g1
+
+0xe8e1,	// (0x0005b808) tport_contact_pane_t1
+
+0xef72,	// (0x0005be99) tport_contact_pane_t2
+
+0x0001,
+
+0xfd93,	// (0x0005ccba) tport_contact_pane_t
+
+0xef80,	// (0x0005bea7) list_tport_pane
+
+0xef89,	// (0x0005beb0) scroll_pane_cp_030
+
+0xef9a,	// (0x0005bec1) cell_tport_appsw_pane_g1
+
+0xefaa,	// (0x0005bed1) cell_tport_appsw_pane_t1
+
+0x00f2,	// (0x0004d019) grid_highlight_pane_cp019
+
+0xcfaa,	// (0x00059ed1) list_tport_double_graphic_pane_ParamLimits
+
+0xcfaa,	// (0x00059ed1) list_tport_double_graphic_pane
+
+0x3810,	// (0x00050737) list_highlight_pane_cp023_ParamLimits
+
+0x3810,	// (0x00050737) list_highlight_pane_cp023
+
+0xcfbc,	// (0x00059ee3) list_tport_double_graphic_pane_g1_ParamLimits
+
+0xcfbc,	// (0x00059ee3) list_tport_double_graphic_pane_g1
+
+0xcfc9,	// (0x00059ef0) list_tport_double_graphic_pane_t1_ParamLimits
+
+0xcfc9,	// (0x00059ef0) list_tport_double_graphic_pane_t1
+
+0xcfde,	// (0x00059f05) list_tport_double_graphic_pane_t2_ParamLimits
+
+0xcfde,	// (0x00059f05) list_tport_double_graphic_pane_t2
+
+0x0001,
+
+0xfd9f,	// (0x0005ccc6) list_tport_double_graphic_pane_t_ParamLimits
+
+0xfd9f,	// (0x0005ccc6) list_tport_double_graphic_pane_t
+
+0x00f2,	// (0x0004d019) main_cale_note_pane
+
+0xae17,	// (0x00057d3e) cell_vitu2_function_top_wide_pane_cp01_ParamLimits
+
+0xae17,	// (0x00057d3e) cell_vitu2_function_top_wide_pane_cp01
+
+0xc74f,	// (0x00059676) wait_bar_pane_cp05_ParamLimits
+
+0x00f2,	// (0x0004d019) listscroll_cmail_pane
+
+0xefc0,	// (0x0005bee7) list_cmail_pane
+
+0xcffa,	// (0x00059f21) list_cmail_body_pane
+
+0xd014,	// (0x00059f3b) list_single_cmail_header_caption_pane
+
+0xd039,	// (0x00059f60) list_single_cmail_header_detail_pane_ParamLimits
+
+0xd039,	// (0x00059f60) list_single_cmail_header_detail_pane
+
+0xd069,	// (0x00059f90) list_single_cmail_header_caption_pane_t1
+
+0xd077,	// (0x00059f9e) list_single_cmail_header_detail_pane_g1_ParamLimits
+
+0xd077,	// (0x00059f9e) list_single_cmail_header_detail_pane_g1
+
+0x0de4,	// (0x0004dd0b) list_single_cmail_header_detail_pane_g2_ParamLimits
+
+0x0de4,	// (0x0004dd0b) list_single_cmail_header_detail_pane_g2
+
+0x0002,
+
+0xfda4,	// (0x0005cccb) list_single_cmail_header_detail_pane_g_ParamLimits
+
+0xfda4,	// (0x0005cccb) list_single_cmail_header_detail_pane_g
+
+0x0df0,	// (0x0004dd17) list_single_cmail_header_detail_pane_t1_ParamLimits
+
+0x0df0,	// (0x0004dd17) list_single_cmail_header_detail_pane_t1
+
+0x0e26,	// (0x0004dd4d) list_single_cmail_header_editor_pane_bg_ParamLimits
+
+0x0e26,	// (0x0004dd4d) list_single_cmail_header_editor_pane_bg
+
+0xea82,	// (0x0005b9a9) list_cmail_body_pane_g1
+
+0xefee,	// (0x0005bf15) list_cmail_body_pane_t1
+
+0xde45,	// (0x0005ad6c) list_single_cmail_header_editor_pane_bg_g1
+
+0x22e1,	// (0x0004f208) list_single_cmail_header_editor_pane_bg_g1_copy1
+
+0xde55,	// (0x0005ad7c) list_single_cmail_header_editor_pane_bg_g1_copy2
+
+0xde4d,	// (0x0005ad74) list_single_cmail_header_editor_pane_bg_g1_copy3
+
+0xe069,	// (0x0005af90) list_single_cmail_header_editor_pane_bg_g1_copy4
+
+0xde75,	// (0x0005ad9c) list_single_cmail_header_editor_pane_bg_g1_copy4_copy1
+
+0xde65,	// (0x0005ad8c) list_single_cmail_header_editor_pane_bg_g1_copy4_copy2
+
+0xde6d,	// (0x0005ad94) list_single_cmail_header_editor_pane_bg_g1_copy4_copy3
+
+0x22c1,	// (0x0004f1e8) list_single_cmail_header_editor_pane_bg_g1_copy4_copy3_copy1
+
+0xd0b1,	// (0x00059fd8) calenote_gesture_pane_ParamLimits
+
+0xd0b1,	// (0x00059fd8) calenote_gesture_pane
+
+0xd0cb,	// (0x00059ff2) calenote_window_pane_ParamLimits
+
+0xd0cb,	// (0x00059ff2) calenote_window_pane
+
+0xeffc,	// (0x0005bf23) popup_note_window_cp01
+
+0xd0e3,	// (0x0005a00a) calenote_swipe_1_pane_ParamLimits
+
+0xd0e3,	// (0x0005a00a) calenote_swipe_1_pane
+
+0xcb30,	// (0x00059a57) calenote_swipe_2_pane_ParamLimits
+
+0xcb30,	// (0x00059a57) calenote_swipe_2_pane
+
+0xedd4,	// (0x0005bcfb) calenote_swipe_1_pane_g1_ParamLimits
+
+0xedd4,	// (0x0005bcfb) calenote_swipe_1_pane_g1
+
+0xede1,	// (0x0005bd08) calenote_swipe_1_pane_g2_ParamLimits
+
+0xede1,	// (0x0005bd08) calenote_swipe_1_pane_g2
+
+0x0001,
+
+0xfcce,	// (0x0005cbf5) calenote_swipe_1_pane_g_ParamLimits
+
+0xfcce,	// (0x0005cbf5) calenote_swipe_1_pane_g
+
+0xf00e,	// (0x0005bf35) calenote_swipe_1_pane_t1_ParamLimits
+
+0xf00e,	// (0x0005bf35) calenote_swipe_1_pane_t1
+
+0xedd4,	// (0x0005bcfb) calenote_swipe_2_pane_g1_ParamLimits
+
+0xedd4,	// (0x0005bcfb) calenote_swipe_2_pane_g1
+
+0xf02d,	// (0x0005bf54) calenote_swipe_2_pane_g2_ParamLimits
+
+0xf02d,	// (0x0005bf54) calenote_swipe_2_pane_g2
+
+0x0001,
+
+0xfdb0,	// (0x0005ccd7) calenote_swipe_2_pane_g_ParamLimits
+
+0xfdb0,	// (0x0005ccd7) calenote_swipe_2_pane_g
+
+0xf039,	// (0x0005bf60) calenote_swipe_2_pane_t1_ParamLimits
+
+0xf039,	// (0x0005bf60) calenote_swipe_2_pane_t1
+
+0x00f2,	// (0x0004d019) main_mup_navstr_pane
+
+0x9b8f,	// (0x00056ab6) main_mup3_pane_t7_ParamLimits
+
+0x9b8f,	// (0x00056ab6) main_mup3_pane_t7
+
+0xa577,	// (0x0005749e) main_mp4_pane_g6_ParamLimits
+
+0xa577,	// (0x0005749e) main_mp4_pane_g6
+
+0xa8f7,	// (0x0005781e) main_image3_pane_t4_ParamLimits
+
+0xa8f7,	// (0x0005781e) main_image3_pane_t4
+
+0xd0f6,	// (0x0005a01d) popup_navstr_preview_pane_ParamLimits
+
+0xd0f6,	// (0x0005a01d) popup_navstr_preview_pane
+
+0xd102,	// (0x0005a029) scroll_navstr_pane_ParamLimits
+
+0xd102,	// (0x0005a029) scroll_navstr_pane
+
+0x00f2,	// (0x0004d019) bg_popup_preview_window_pane_cp04
+
+0xf060,	// (0x0005bf87) popup_navstr_preview_pane_t1
+
+0xd10e,	// (0x0005a035) scroll_navstr_pane_g1_ParamLimits
+
+0xd10e,	// (0x0005a035) scroll_navstr_pane_g1
+
+0xd11b,	// (0x0005a042) scroll_navstr_pane_t1_ParamLimits
+
+0xd11b,	// (0x0005a042) scroll_navstr_pane_t1
+
+0xf005,	// (0x0005bf2c) bg_button_pane_cp014
+
+0xf005,	// (0x0005bf2c) bg_button_pane_cp030
+
+0xca24,	// (0x0005994b) list_double_fisheye_pane_g4_ParamLimits
+
+0xca24,	// (0x0005994b) list_double_fisheye_pane_g4
+
+0xca30,	// (0x00059957) list_double_fisheye_pane_g5_ParamLimits
+
+0xca30,	// (0x00059957) list_double_fisheye_pane_g5
+
+0xefc8,	// (0x0005beef) sp_fs_scroll_pane_cp03
+
+0xeec7,	// (0x0005bdee) main_sp_fs_ctrlbar_pane_g1_ParamLimits
+
+0xeed3,	// (0x0005bdfa) main_sp_fs_ctrlbar_pane_g2_ParamLimits
+
+0xfceb,	// (0x0005cc12) main_sp_fs_ctrlbar_pane_g_ParamLimits
+
+0xeedf,	// (0x0005be06) main_sp_fs_ctrlbar_pane_t1_ParamLimits
+
+0xcff0,	// (0x00059f17) sp_fs_scroll_pane_cp02
+
+0x1fef,	// (0x0004ef16) popup_sp_fs_calendar_preview_list_single_pane_ParamLimits
+
+0x1fef,	// (0x0004ef16) popup_sp_fs_calendar_preview_list_single_pane
+
+0x00f2,	// (0x0004d019) main_cam6_pano_pane
+
+0x8b84,	// (0x00055aab) main_mup3_pane_ParamLimits
+
+0x00f2,	// (0x0004d019) main_phacti_pane
+
+0xc624,	// (0x0005954b) bg_button_pane_cp11
+
+0xc63c,	// (0x00059563) main_mobtv_info_pane_g2_ParamLimits
+
+0xc63c,	// (0x00059563) main_mobtv_info_pane_g2
+
+0x0001,
+
+0xfc4b,	// (0x0005cb72) main_mobtv_info_pane_g_ParamLimits
+
+0xfc4b,	// (0x0005cb72) main_mobtv_info_pane_g
+
+0xc7ee,	// (0x00059715) sc_clock_pane_t5_ParamLimits
+
+0xc7ee,	// (0x00059715) sc_clock_pane_t5
+
+0xc895,	// (0x000597bc) main_radioblah_pane_g1_ParamLimits
+
+0xed20,	// (0x0005bc47) main_radioblah_pane_t3_ParamLimits
+
+0xed20,	// (0x0005bc47) main_radioblah_pane_t3
+
+0xed38,	// (0x0005bc5f) main_radioblah_pane_t4_ParamLimits
+
+0xed38,	// (0x0005bc5f) main_radioblah_pane_t4
+
+0xc8b3,	// (0x000597da) main_radioblah_text_pane_ParamLimits
+
+0xc8b3,	// (0x000597da) main_radioblah_text_pane
+
+0xc8c0,	// (0x000597e7) main_radioblah_info_pane_g1_ParamLimits
+
+0xc955,	// (0x0005987c) main_radioblah_info_pane_t4_ParamLimits
+
+0xc955,	// (0x0005987c) main_radioblah_info_pane_t4
+
+0x3810,	// (0x00050737) main_sp_fs_calendar_pane
+
+0xd12d,	// (0x0005a054) main_phacti_pane_g1
+
+0xd135,	// (0x0005a05c) phacti_note_pane_ParamLimits
+
+0xd135,	// (0x0005a05c) phacti_note_pane
+
+0xf077,	// (0x0005bf9e) phacti_term_pane_ParamLimits
+
+0xf077,	// (0x0005bf9e) phacti_term_pane
+
+0xf08c,	// (0x0005bfb3) phacti_note_pane_t1_ParamLimits
+
+0xf08c,	// (0x0005bfb3) phacti_note_pane_t1
+
+0x0e38,	// (0x0004dd5f) phacti_term_pane_g1
+
+0x0e40,	// (0x0004dd67) phacti_term_pane_t1_ParamLimits
+
+0x0e40,	// (0x0004dd67) phacti_term_pane_t1
+
+0xf0a3,	// (0x0005bfca) popup_sp_fs_calendar_preview_list_single_pane_g1
+
+0x20e2,	// (0x0004f009) popup_sp_fs_calendar_preview_list_single_pane_g2
+
+0x0001,
+
+0xfdba,	// (0x0005cce1) popup_sp_fs_calendar_preview_list_single_pane_g
+
+0xf0ab,	// (0x0005bfd2) popup_sp_fs_calendar_preview_list_single_pane_t1_ParamLimits
+
+0xf0ab,	// (0x0005bfd2) popup_sp_fs_calendar_preview_list_single_pane_t1
+
+0xf0c0,	// (0x0005bfe7) aid_popup_sp_fs_bg_corner_pane
+
+0x41eb,	// (0x00051112) popup_sp_fs_calendar_preview_bg_pane_g1
+
+0x00f2,	// (0x0004d019) popup_sp_fs_calendar_preview_bg_pane
+
+0xf0c8,	// (0x0005bfef) popup_sp_fs_calendar_preview_list_pane
+
+0x3810,	// (0x00050737) bg_main_sp_fs_cale_pane_ParamLimits
+
+0x3810,	// (0x00050737) bg_main_sp_fs_cale_pane
+
+0x0e6a,	// (0x0004dd91) listscroll_cale_mrui_pane_ParamLimits
+
+0x0e6a,	// (0x0004dd91) listscroll_cale_mrui_pane
+
+0x0e7e,	// (0x0004dda5) listscroll_sp_fs_schedule_track_pane
+
+0x0e87,	// (0x0004ddae) main_sp_fs_ctrlbar_pane_cp01_ParamLimits
+
+0x0e87,	// (0x0004ddae) main_sp_fs_ctrlbar_pane_cp01
+
+0xf0d0,	// (0x0005bff7) main_sp_fs_ribbon_pane
+
+0x0e98,	// (0x0004ddbf) popup_sp_fs_cale_preview_window
+
+0xd17c,	// (0x0005a0a3) list_single_sp_fs_schedule_track_pane_ParamLimits
+
+0xd17c,	// (0x0005a0a3) list_single_sp_fs_schedule_track_pane
+
+0xa1f5,	// (0x0005711c) bg_sp_fs_highlight_list_pane_cp03_ParamLimits
+
+0xa1f5,	// (0x0005711c) bg_sp_fs_highlight_list_pane_cp03
+
+0xd19b,	// (0x0005a0c2) list_single_sp_fs_schedule_track_pane_g1_ParamLimits
+
+0xd19b,	// (0x0005a0c2) list_single_sp_fs_schedule_track_pane_g1
+
+0xd1a7,	// (0x0005a0ce) list_single_sp_fs_schedule_track_pane_g2_ParamLimits
+
+0xd1a7,	// (0x0005a0ce) list_single_sp_fs_schedule_track_pane_g2
+
+0x0001,
+
+0xfdbf,	// (0x0005cce6) list_single_sp_fs_schedule_track_pane_g_ParamLimits
+
+0xfdbf,	// (0x0005cce6) list_single_sp_fs_schedule_track_pane_g
+
+0xd1b3,	// (0x0005a0da) list_single_sp_fs_schedule_track_pane_t1_ParamLimits
+
+0xd1b3,	// (0x0005a0da) list_single_sp_fs_schedule_track_pane_t1
+
+0xd1cb,	// (0x0005a0f2) sp_fs_schedule_track_pane_ParamLimits
+
+0xd1cb,	// (0x0005a0f2) sp_fs_schedule_track_pane
+
+0x0eaa,	// (0x0004ddd1) sp_fs_schedule_track_pane_g1
+
+0x0eb2,	// (0x0004ddd9) sp_fs_schedule_track_pane_g2
+
+0x0eba,	// (0x0004dde1) sp_fs_schedule_track_pane_g3
+
+0x0ec2,	// (0x0004dde9) sp_fs_schedule_track_pane_g4
+
+0x0eca,	// (0x0004ddf1) sp_fs_schedule_track_pane_g5
 
 0x0004,
 
-0xfdce,	// (0x0005c012) sp_fs_schedule_track_pane_g
+0xfdc4,	// (0x0005cceb) sp_fs_schedule_track_pane_g
 
-0xe002,	// (0x0005a246) bg_sp_fs_schedule_viewer_highlight_g1
+0xde45,	// (0x0005ad6c) bg_sp_fs_schedule_viewer_highlight_g1
 
-0x265f,	// (0x0004e8a3) bg_sp_fs_schedule_viewer_highlight_g2
+0x22e1,	// (0x0004f208) bg_sp_fs_schedule_viewer_highlight_g2
 
-0xe00a,	// (0x0005a24e) bg_sp_fs_schedule_viewer_highlight_g3
+0xde4d,	// (0x0005ad74) bg_sp_fs_schedule_viewer_highlight_g3
 
-0xe012,	// (0x0005a256) bg_sp_fs_schedule_viewer_highlight_g4
+0xde55,	// (0x0005ad7c) bg_sp_fs_schedule_viewer_highlight_g4
 
-0xe226,	// (0x0005a46a) bg_sp_fs_schedule_viewer_highlight_g5
+0xe069,	// (0x0005af90) bg_sp_fs_schedule_viewer_highlight_g5
 
-0xe022,	// (0x0005a266) bg_sp_fs_schedule_viewer_highlight_g6
+0xde65,	// (0x0005ad8c) bg_sp_fs_schedule_viewer_highlight_g6
 
-0xe02a,	// (0x0005a26e) bg_sp_fs_schedule_viewer_highlight_g7
+0xde6d,	// (0x0005ad94) bg_sp_fs_schedule_viewer_highlight_g7
 
-0xe032,	// (0x0005a276) bg_sp_fs_schedule_viewer_highlight_g8
+0xde75,	// (0x0005ad9c) bg_sp_fs_schedule_viewer_highlight_g8
 
-0x263f,	// (0x0004e883) bg_sp_fs_schedule_viewer_highlight_g9
+0x22c1,	// (0x0004f1e8) bg_sp_fs_schedule_viewer_highlight_g9
 
 0x0008,
 
-0xfdd9,	// (0x0005c01d) bg_sp_fs_schedule_viewer_highlight_g
+0xfdcf,	// (0x0005ccf6) bg_sp_fs_schedule_viewer_highlight_g
 
-0x037e,	// (0x0004c5c2) bg_main_sp_fs_ribbon_pane
+0x00f2,	// (0x0004d019) bg_main_sp_fs_ribbon_pane
 
-0xd291,	// (0x000594d5) main_sp_fs_ribbon_pane_g1
+0xd1db,	// (0x0005a102) main_sp_fs_ribbon_pane_g1
 
-0x12d7,	// (0x0004d51b) main_sp_fs_ribbon_pane_t1
+0x0ed2,	// (0x0004ddf9) main_sp_fs_ribbon_pane_t1
 
-0xd29a,	// (0x000594de) main_sp_fs_ribbon_pane_t2
+0xd1e4,	// (0x0005a10b) main_sp_fs_ribbon_pane_t2
 
-0x12e6,	// (0x0004d52a) main_sp_fs_ribbon_pane_t3
-
-0x0002,
-
-0xfdec,	// (0x0005c030) main_sp_fs_ribbon_pane_t
-
-0x12f5,	// (0x0004d539) main_sp_fs_ribbon_scheduler_pane
-
-0x12fd,	// (0x0004d541) bg_main_sp_fs_ribbon_pane_g1
-
-0x1306,	// (0x0004d54a) bg_main_sp_fs_ribbon_pane_g2
-
-0x130f,	// (0x0004d553) bg_main_sp_fs_ribbon_pane_g3
+0x0ee1,	// (0x0004de08) main_sp_fs_ribbon_pane_t3
 
 0x0002,
 
-0xfdf3,	// (0x0005c037) bg_main_sp_fs_ribbon_pane_g
+0xfde2,	// (0x0005cd09) main_sp_fs_ribbon_pane_t
 
-0x1317,	// (0x0004d55b) main_sp_fs_ribbon_scheduler_pane_g1
+0x0ef0,	// (0x0004de17) main_sp_fs_ribbon_scheduler_pane
 
-0x1320,	// (0x0004d564) main_sp_fs_ribbon_scheduler_pane_g2
+0x0ef8,	// (0x0004de1f) bg_main_sp_fs_ribbon_pane_g1
 
-0x1329,	// (0x0004d56d) main_sp_fs_ribbon_scheduler_pane_g3
+0x0f01,	// (0x0004de28) bg_main_sp_fs_ribbon_pane_g2
+
+0x0f0a,	// (0x0004de31) bg_main_sp_fs_ribbon_pane_g3
 
 0x0002,
 
-0xfdfa,	// (0x0005c03e) main_sp_fs_ribbon_scheduler_pane_g
+0xfde9,	// (0x0005cd10) bg_main_sp_fs_ribbon_pane_g
 
-0x1332,	// (0x0004d576) list_cale_mrui_pane
+0x0f12,	// (0x0004de39) main_sp_fs_ribbon_scheduler_pane_g1
 
-0xd2a9,	// (0x000594ed) sp_fs_scroll_pane_cp07_ParamLimits
+0x0f1b,	// (0x0004de42) main_sp_fs_ribbon_scheduler_pane_g2
 
-0xd2a9,	// (0x000594ed) sp_fs_scroll_pane_cp07
+0x0f24,	// (0x0004de4b) main_sp_fs_ribbon_scheduler_pane_g3
 
-0xd2bf,	// (0x00059503) bg_sp_fs_schedule_viewer_highlight_ParamLimits
+0x0002,
 
-0xd2bf,	// (0x00059503) bg_sp_fs_schedule_viewer_highlight
+0xfdf0,	// (0x0005cd17) main_sp_fs_ribbon_scheduler_pane_g
 
-0x133b,	// (0x0004d57f) list_single_sp_fs_schedule_track_pane_cp01
+0x0f2d,	// (0x0004de54) list_cale_mrui_pane
 
-0x1343,	// (0x0004d587) list_sp_fs_schedule_track_pane
+0xd1f3,	// (0x0005a11a) sp_fs_scroll_pane_cp07_ParamLimits
 
-0x134b,	// (0x0004d58f) sp_fs_scroll_pane_cp06_ParamLimits
+0xd1f3,	// (0x0005a11a) sp_fs_scroll_pane_cp07
 
-0x134b,	// (0x0004d58f) sp_fs_scroll_pane_cp06
+0xd209,	// (0x0005a130) bg_sp_fs_schedule_viewer_highlight_ParamLimits
 
-0x4597,	// (0x000507db) bgmain_sp_fs_calendar_pane_g1
+0xd209,	// (0x0005a130) bg_sp_fs_schedule_viewer_highlight
 
-0xd2cc,	// (0x00059510) list_single_cale_mrui_pane_ParamLimits
+0x0f36,	// (0x0004de5d) list_single_sp_fs_schedule_track_pane_cp01
 
-0xd2cc,	// (0x00059510) list_single_cale_mrui_pane
+0x0f3e,	// (0x0004de65) list_sp_fs_schedule_track_pane
 
-0x135d,	// (0x0004d5a1) list_single_cale_mrui_row_pane_ParamLimits
+0x0f46,	// (0x0004de6d) sp_fs_scroll_pane_cp06_ParamLimits
 
-0x135d,	// (0x0004d5a1) list_single_cale_mrui_row_pane
+0x0f46,	// (0x0004de6d) sp_fs_scroll_pane_cp06
 
-0x136a,	// (0x0004d5ae) list_single_cale_mrui_row_pane_g1_ParamLimits
+0x41eb,	// (0x00051112) bgmain_sp_fs_calendar_pane_g1
 
-0x136a,	// (0x0004d5ae) list_single_cale_mrui_row_pane_g1
+0xd216,	// (0x0005a13d) list_single_cale_mrui_pane_ParamLimits
 
-0x13af,	// (0x0004d5f3) list_single_cale_mrui_row_pane_t1_ParamLimits
+0xd216,	// (0x0005a13d) list_single_cale_mrui_pane
 
-0x13af,	// (0x0004d5f3) list_single_cale_mrui_row_pane_t1
+0x0f58,	// (0x0004de7f) list_single_cale_mrui_row_pane_ParamLimits
 
-0xd2f7,	// (0x0005953b) list_single_cale_mrui_row_pane_t2_ParamLimits
+0x0f58,	// (0x0004de7f) list_single_cale_mrui_row_pane
 
-0xd2f7,	// (0x0005953b) list_single_cale_mrui_row_pane_t2
+0x0f65,	// (0x0004de8c) list_single_cale_mrui_row_pane_g1_ParamLimits
 
-0x13c1,	// (0x0004d605) list_single_cale_mrui_row_pane_t3_ParamLimits
+0x0f65,	// (0x0004de8c) list_single_cale_mrui_row_pane_g1
 
-0x13c1,	// (0x0004d605) list_single_cale_mrui_row_pane_t3
+0x0faa,	// (0x0004ded1) list_single_cale_mrui_row_pane_t1_ParamLimits
 
-0x13f0,	// (0x0004d634) list_single_cale_mrui_row_pane_t4_ParamLimits
+0x0faa,	// (0x0004ded1) list_single_cale_mrui_row_pane_t1
 
-0x13f0,	// (0x0004d634) list_single_cale_mrui_row_pane_t4
+0xd241,	// (0x0005a168) list_single_cale_mrui_row_pane_t2_ParamLimits
+
+0xd241,	// (0x0005a168) list_single_cale_mrui_row_pane_t2
+
+0x0fbc,	// (0x0004dee3) list_single_cale_mrui_row_pane_t3_ParamLimits
+
+0x0fbc,	// (0x0004dee3) list_single_cale_mrui_row_pane_t3
+
+0x0feb,	// (0x0004df12) list_single_cale_mrui_row_pane_t4_ParamLimits
+
+0x0feb,	// (0x0004df12) list_single_cale_mrui_row_pane_t4
 
 0x0003,
 
-0xfe08,	// (0x0005c04c) list_single_cale_mrui_row_pane_t_ParamLimits
+0xfdfe,	// (0x0005cd25) list_single_cale_mrui_row_pane_t_ParamLimits
 
-0xfe08,	// (0x0005c04c) list_single_cale_mrui_row_pane_t
+0xfdfe,	// (0x0005cd25) list_single_cale_mrui_row_pane_t
 
-0xd35d,	// (0x000595a1) list_single_cmail_header_editor_pane_bg_cp01_ParamLimits
+0xd2a7,	// (0x0005a1ce) list_single_cmail_header_editor_pane_bg_cp01_ParamLimits
 
-0xd35d,	// (0x000595a1) list_single_cmail_header_editor_pane_bg_cp01
+0xd2a7,	// (0x0005a1ce) list_single_cmail_header_editor_pane_bg_cp01
 
-0xd37d,	// (0x000595c1) list_single_cmail_header_editor_pane_bg_cp02_ParamLimits
+0xd2c7,	// (0x0005a1ee) list_single_cmail_header_editor_pane_bg_cp02_ParamLimits
 
-0xd37d,	// (0x000595c1) list_single_cmail_header_editor_pane_bg_cp02
+0xd2c7,	// (0x0005a1ee) list_single_cmail_header_editor_pane_bg_cp02
 
-0xd399,	// (0x000595dd) main_radioblah_text_pane_t1_ParamLimits
+0xd2e3,	// (0x0005a20a) main_radioblah_text_pane_t1_ParamLimits
 
-0xd399,	// (0x000595dd) main_radioblah_text_pane_t1
+0xd2e3,	// (0x0005a20a) main_radioblah_text_pane_t1
 
-0x141f,	// (0x0004d663) cam6_indi_pane_cp01
+0x101a,	// (0x0004df41) cam6_indi_pane_cp01
 
-0x1427,	// (0x0004d66b) cam6_mode_pane_cp01
+0x1022,	// (0x0004df49) cam6_mode_pane_cp01
 
-0x142f,	// (0x0004d673) cam6_pano_pane
+0x102a,	// (0x0004df51) cam6_pano_pane
 
-0x1438,	// (0x0004d67c) cam6_zoom_pane_cp01
+0x1033,	// (0x0004df5a) cam6_zoom_pane_cp01
 
-0x1440,	// (0x0004d684) cam6_pano_image_pane
+0x103b,	// (0x0004df62) cam6_pano_image_pane
 
-0x144b,	// (0x0004d68f) cam6_pano_pane_g1
+0x1046,	// (0x0004df6d) cam6_pano_pane_g1
 
-0xec12,	// (0x0005ae56) cam6_pano_pane_g2
+0xea82,	// (0x0005b9a9) cam6_pano_pane_g2
 
-0x1454,	// (0x0004d698) cam6_pano_pane_g3
+0x104f,	// (0x0004df76) cam6_pano_pane_g3
 
-0x145d,	// (0x0004d6a1) cam6_pano_pane_g4
+0x1058,	// (0x0004df7f) cam6_pano_pane_g4
 
-0x4b41,	// (0x00050d85) cam6_pano_pane_g5
+0x4784,	// (0x000516ab) cam6_pano_pane_g5
 
-0x1466,	// (0x0004d6aa) cam6_pano_pane_g6
+0x1061,	// (0x0004df88) cam6_pano_pane_g6
 
-0x1470,	// (0x0004d6b4) cam6_pano_pane_g7
+0x106b,	// (0x0004df92) cam6_pano_pane_g7
 
-0x1478,	// (0x0004d6bc) cam6_pano_pane_g8
+0x1073,	// (0x0004df9a) cam6_pano_pane_g8
 
-0x1481,	// (0x0004d6c5) cam6_pano_pane_g9
+0x107c,	// (0x0004dfa3) cam6_pano_pane_g9
 
 0x0008,
 
-0xfe11,	// (0x0005c055) cam6_pano_pane_g
+0xfe07,	// (0x0005cd2e) cam6_pano_pane_g
 
-0x037e,	// (0x0004c5c2) main_browser_tag_pane
+0x00f2,	// (0x0004d019) main_browser_tag_pane
 
-0x11bd,	// (0x0004d401) grid_navstr_albumart_pane
+0xf058,	// (0x0005bf7f) grid_navstr_albumart_pane
 
-0x148c,	// (0x0004d6d0) cell_navstr_albumart_pane_ParamLimits
+0x1087,	// (0x0004dfae) cell_navstr_albumart_pane_ParamLimits
 
-0x148c,	// (0x0004d6d0) cell_navstr_albumart_pane
+0x1087,	// (0x0004dfae) cell_navstr_albumart_pane
 
-0x14af,	// (0x0004d6f3) cell_navstr_albumart_pane_g1
+0x10aa,	// (0x0004dfd1) cell_navstr_albumart_pane_g1
 
-0x3f6d,	// (0x000501b1) cell_navstr_albumart_pane_g2
+0x3bef,	// (0x00050b16) cell_navstr_albumart_pane_g2
 
-0x3f7d,	// (0x000501c1) cell_navstr_albumart_pane_g3
+0x3bff,	// (0x00050b26) cell_navstr_albumart_pane_g3
 
-0x3f75,	// (0x000501b9) cell_navstr_albumart_pane_g4
+0x3bf7,	// (0x00050b1e) cell_navstr_albumart_pane_g4
 
 0x0003,
 
-0xfe24,	// (0x0005c068) cell_navstr_albumart_pane_g
+0xfe1a,	// (0x0005cd41) cell_navstr_albumart_pane_g
 
-0xd3b4,	// (0x000595f8) bt_list_pane_ParamLimits
+0xd2fe,	// (0x0005a225) bt_list_pane_ParamLimits
 
-0xd3b4,	// (0x000595f8) bt_list_pane
+0xd2fe,	// (0x0005a225) bt_list_pane
 
-0xd3d4,	// (0x00059618) bt_list_pane_t1
+0xd31e,	// (0x0005a245) bt_list_pane_t1
 
-0xd3e3,	// (0x00059627) bt_list_pane_t2
-
-0x0001,
-
-0xfe2d,	// (0x0005c071) bt_list_pane_t
-
-0x037e,	// (0x0004c5c2) main_cale_prevew_pane
-
-0xd3f2,	// (0x00059636) popup_cale_preview_window_ParamLimits
-
-0xd3f2,	// (0x00059636) popup_cale_preview_window
-
-0x334c,	// (0x0004f590) bg_popup_preview_window_pane_cp05_ParamLimits
-
-0x334c,	// (0x0004f590) bg_popup_preview_window_pane_cp05
-
-0x14b7,	// (0x0004d6fb) list_cale_preview_pane_ParamLimits
-
-0x14b7,	// (0x0004d6fb) list_cale_preview_pane
-
-0x182b,	// (0x0004da6f) list_double_cale_preview_pane_ParamLimits
-
-0x182b,	// (0x0004da6f) list_double_cale_preview_pane
-
-0xd40b,	// (0x0005964f) list_single_cale_preview_pane_ParamLimits
-
-0xd40b,	// (0x0005964f) list_single_cale_preview_pane
-
-0xd421,	// (0x00059665) list_single_cale_preview_pane_g1
-
-0xd429,	// (0x0005966d) list_single_cale_preview_pane_t1_ParamLimits
-
-0xd429,	// (0x0005966d) list_single_cale_preview_pane_t1
-
-0xd43e,	// (0x00059682) list_double_cale_preview_pane_g1
-
-0xd446,	// (0x0005968a) list_double_cale_preview_pane_t1_ParamLimits
-
-0xd446,	// (0x0005968a) list_double_cale_preview_pane_t1
-
-0xd45b,	// (0x0005969f) list_double_cale_preview_pane_t2_ParamLimits
-
-0xd45b,	// (0x0005969f) list_double_cale_preview_pane_t2
+0xd32d,	// (0x0005a254) bt_list_pane_t2
 
 0x0001,
 
-0xfe32,	// (0x0005c076) list_double_cale_preview_pane_t_ParamLimits
+0xfe23,	// (0x0005cd4a) bt_list_pane_t
 
-0xfe32,	// (0x0005c076) list_double_cale_preview_pane_t
+0x00f2,	// (0x0004d019) main_cale_prevew_pane
 
-0x037e,	// (0x0004c5c2) main_ezdial_pane
+0xd33c,	// (0x0005a263) popup_cale_preview_window_ParamLimits
 
-0x334c,	// (0x0004f590) main_sp_fs_email_pane_ParamLimits
+0xd33c,	// (0x0005a263) popup_cale_preview_window
 
-0xcc34,	// (0x00058e78) cmail_ddmenu_btn01_pane_ParamLimits
+0x3810,	// (0x00050737) bg_popup_preview_window_pane_cp05_ParamLimits
 
-0xcc34,	// (0x00058e78) cmail_ddmenu_btn01_pane
+0x3810,	// (0x00050737) bg_popup_preview_window_pane_cp05
 
-0xcc51,	// (0x00058e95) cmail_ddmenu_btn02_pane_ParamLimits
+0x10b2,	// (0x0004dfd9) list_cale_preview_pane_ParamLimits
 
-0xcc51,	// (0x00058e95) cmail_ddmenu_btn02_pane
+0x10b2,	// (0x0004dfd9) list_cale_preview_pane
 
-0xcc6f,	// (0x00058eb3) cmail_ddmenu_btn03_pane_ParamLimits
+0xd355,	// (0x0005a27c) list_double_cale_preview_pane_ParamLimits
 
-0xcc6f,	// (0x00058eb3) cmail_ddmenu_btn03_pane
+0xd355,	// (0x0005a27c) list_double_cale_preview_pane
 
-0xcc9d,	// (0x00058ee1) main_sp_fs_ctrlbar_pane_ParamLimits
+0xd367,	// (0x0005a28e) list_single_cale_preview_pane_ParamLimits
 
-0xccb7,	// (0x00058efb) main_sp_fs_listscroll_pane_te_cp01_ParamLimits
+0xd367,	// (0x0005a28e) list_single_cale_preview_pane
 
-0xd0b4,	// (0x000592f8) list_cmail_body_pane_ParamLimits
+0xd37d,	// (0x0005a2a4) list_single_cale_preview_pane_g1
 
-0x10e9,	// (0x0004d32d) bg_button_pane_cp12
+0xd385,	// (0x0005a2ac) list_single_cale_preview_pane_t1_ParamLimits
 
-0x10fe,	// (0x0004d342) list_single_cmail_header_detail_pane_g3_ParamLimits
+0xd385,	// (0x0005a2ac) list_single_cale_preview_pane_t1
 
-0x10fe,	// (0x0004d342) list_single_cmail_header_detail_pane_g3
+0xd39a,	// (0x0005a2c1) list_double_cale_preview_pane_g1
 
-0xd147,	// (0x0005938b) list_single_cmail_header_detail_pane_t2_ParamLimits
+0xd3a2,	// (0x0005a2c9) list_double_cale_preview_pane_t1_ParamLimits
 
-0xd147,	// (0x0005938b) list_single_cmail_header_detail_pane_t2
+0xd3a2,	// (0x0005a2c9) list_double_cale_preview_pane_t1
 
-0x0001,
+0xd3b7,	// (0x0005a2de) list_double_cale_preview_pane_t2_ParamLimits
 
-0xfdb5,	// (0x0005bff9) list_single_cmail_header_detail_pane_t_ParamLimits
-
-0xfdb5,	// (0x0005bff9) list_single_cmail_header_detail_pane_t
-
-0x1225,	// (0x0004d469) phacti_term_pane_t2_ParamLimits
-
-0x1225,	// (0x0004d469) phacti_term_pane_t2
+0xd3b7,	// (0x0005a2de) list_double_cale_preview_pane_t2
 
 0x0001,
 
-0xfdbf,	// (0x0005c003) phacti_term_pane_t_ParamLimits
+0xfe28,	// (0x0005cd4f) list_double_cale_preview_pane_t_ParamLimits
 
-0xfdbf,	// (0x0005c003) phacti_term_pane_t
+0xfe28,	// (0x0005cd4f) list_double_cale_preview_pane_t
 
-0x14c3,	// (0x0004d707) aid_size_list_single_double
+0x00f2,	// (0x0004d019) main_ezdial_pane
 
-0xd473,	// (0x000596b7) popup_ezdial_listscroll_window
+0x3810,	// (0x00050737) main_sp_fs_email_pane_ParamLimits
 
-0xd494,	// (0x000596d8) popup_number_entry_window_cp01
+0xcb68,	// (0x00059a8f) cmail_ddmenu_btn01_pane_ParamLimits
 
-0x2d3c,	// (0x0004ef80) bg_popup_call_pane_cp09
+0xcb68,	// (0x00059a8f) cmail_ddmenu_btn01_pane
 
-0x14cf,	// (0x0004d713) ezdial_list_pane
+0xcb85,	// (0x00059aac) cmail_ddmenu_btn02_pane_ParamLimits
 
-0x14d7,	// (0x0004d71b) scroll_pane_cp23
+0xcb85,	// (0x00059aac) cmail_ddmenu_btn02_pane
 
-0x437c,	// (0x000505c0) bg_button_pane_cp028_ParamLimits
+0xcba3,	// (0x00059aca) cmail_ddmenu_btn03_pane_ParamLimits
 
-0x437c,	// (0x000505c0) bg_button_pane_cp028
+0xcba3,	// (0x00059aca) cmail_ddmenu_btn03_pane
 
-0xd4a2,	// (0x000596e6) cmail_ddmenu_btn01_pane_g1_ParamLimits
+0xcbd1,	// (0x00059af8) main_sp_fs_ctrlbar_pane_ParamLimits
 
-0xd4a2,	// (0x000596e6) cmail_ddmenu_btn01_pane_g1
+0xcbeb,	// (0x00059b12) main_sp_fs_listscroll_pane_te_cp01_ParamLimits
 
-0xd4b4,	// (0x000596f8) cmail_ddmenu_btn01_pane_g2_ParamLimits
+0xcffa,	// (0x00059f21) list_cmail_body_pane_ParamLimits
 
-0xd4b4,	// (0x000596f8) cmail_ddmenu_btn01_pane_g2
+0xefd8,	// (0x0005beff) bg_button_pane_cp12
+
+0xefe1,	// (0x0005bf08) list_single_cmail_header_detail_pane_g3_ParamLimits
+
+0xefe1,	// (0x0005bf08) list_single_cmail_header_detail_pane_g3
+
+0xd08d,	// (0x00059fb4) list_single_cmail_header_detail_pane_t2_ParamLimits
+
+0xd08d,	// (0x00059fb4) list_single_cmail_header_detail_pane_t2
 
 0x0001,
 
-0xfe37,	// (0x0005c07b) cmail_ddmenu_btn01_pane_g_ParamLimits
+0xfdab,	// (0x0005ccd2) list_single_cmail_header_detail_pane_t_ParamLimits
 
-0xfe37,	// (0x0005c07b) cmail_ddmenu_btn01_pane_g
+0xfdab,	// (0x0005ccd2) list_single_cmail_header_detail_pane_t
 
-0x14df,	// (0x0004d723) cmail_ddmenu_btn01_pane_t1_ParamLimits
+0x0e55,	// (0x0004dd7c) phacti_term_pane_t2_ParamLimits
 
-0x14df,	// (0x0004d723) cmail_ddmenu_btn01_pane_t1
+0x0e55,	// (0x0004dd7c) phacti_term_pane_t2
 
-0x4150,	// (0x00050394) bg_button_pane_cp029_ParamLimits
+0x0001,
 
-0x4150,	// (0x00050394) bg_button_pane_cp029
+0xfdb5,	// (0x0005ccdc) phacti_term_pane_t_ParamLimits
 
-0xd4b4,	// (0x000596f8) cmail_ddmenu_btn02_pane_g1_ParamLimits
+0xfdb5,	// (0x0005ccdc) phacti_term_pane_t
 
-0xd4b4,	// (0x000596f8) cmail_ddmenu_btn02_pane_g1
+0x10be,	// (0x0004dfe5) aid_size_list_single_double
 
-0xd4cc,	// (0x00059710) cmail_ddmenu_btn02_pane_t1_ParamLimits
+0xd3cf,	// (0x0005a2f6) popup_ezdial_listscroll_window
 
-0xd4cc,	// (0x00059710) cmail_ddmenu_btn02_pane_t1
+0xd3f0,	// (0x0005a317) popup_number_entry_window_cp01
 
-0x0b21,	// (0x0004cd65) bg_button_pane_cp031_ParamLimits
+0x29be,	// (0x0004f8e5) bg_popup_call_pane_cp09
 
-0x0b21,	// (0x0004cd65) bg_button_pane_cp031
+0x10ca,	// (0x0004dff1) ezdial_list_pane
 
-0xd4b4,	// (0x000596f8) cmail_ddmenu_btn03_pane_g1_ParamLimits
+0x10d2,	// (0x0004dff9) scroll_pane_cp23
 
-0xd4b4,	// (0x000596f8) cmail_ddmenu_btn03_pane_g1
+0x3fbf,	// (0x00050ee6) bg_button_pane_cp028_ParamLimits
 
-0xd4cc,	// (0x00059710) cmail_ddmenu_btn03_pane_t1_ParamLimits
+0x3fbf,	// (0x00050ee6) bg_button_pane_cp028
 
-0xd4cc,	// (0x00059710) cmail_ddmenu_btn03_pane_t1
+0xd3fe,	// (0x0005a325) cmail_ddmenu_btn01_pane_g1_ParamLimits
 
-0xa89b,	// (0x00056adf) cell_dialer2_keypad_pane_t1_ParamLimits
+0xd3fe,	// (0x0005a325) cmail_ddmenu_btn01_pane_g1
 
-0xa8b5,	// (0x00056af9) cell_dialer2_keypad_pane_t1_copy1_ParamLimits
+0xd410,	// (0x0005a337) cmail_ddmenu_btn01_pane_g2_ParamLimits
 
-0xa8b5,	// (0x00056af9) cell_dialer2_keypad_pane_t1_copy1
+0xd410,	// (0x0005a337) cmail_ddmenu_btn01_pane_g2
 
-0xc5ad,	// (0x000587f1) ncimui_group_button_pane
+0x0001,
 
-0x334c,	// (0x0004f590) main_sp_fs_calendar_pane_ParamLimits
+0xfe2d,	// (0x0005cd54) cmail_ddmenu_btn01_pane_g_ParamLimits
 
-0xd0ce,	// (0x00059312) list_single_cmail_header_caption_pane_ParamLimits
+0xfe2d,	// (0x0005cd54) cmail_ddmenu_btn01_pane_g
 
-0x0d55,	// (0x0004cf99) aid_recal_txt_sm_pane
+0x10da,	// (0x0004e001) cmail_ddmenu_btn01_pane_t1_ParamLimits
 
-0x037e,	// (0x0004c5c2) mian_recal_day_pane
+0x10da,	// (0x0004e001) cmail_ddmenu_btn01_pane_t1
 
-0x129d,	// (0x0004d4e1) popup_sp_fs_cale_preview_window_ParamLimits
+0x3dd2,	// (0x00050cf9) bg_button_pane_cp029_ParamLimits
 
-0x037e,	// (0x0004c5c2) list_recal_day_pane
+0x3dd2,	// (0x00050cf9) bg_button_pane_cp029
 
-0x150e,	// (0x0004d752) list_single_recal_day_pane_ParamLimits
+0xd410,	// (0x0005a337) cmail_ddmenu_btn02_pane_g1_ParamLimits
 
-0x150e,	// (0x0004d752) list_single_recal_day_pane
+0xd410,	// (0x0005a337) cmail_ddmenu_btn02_pane_g1
 
-0x1520,	// (0x0004d764) list_single_recal_day_pane_g1_ParamLimits
+0xd428,	// (0x0005a34f) cmail_ddmenu_btn02_pane_t1_ParamLimits
 
-0x1520,	// (0x0004d764) list_single_recal_day_pane_g1
+0xd428,	// (0x0005a34f) cmail_ddmenu_btn02_pane_t1
 
-0x152c,	// (0x0004d770) list_single_recal_day_pane_g2_ParamLimits
+0xa1f5,	// (0x0005711c) bg_button_pane_cp031_ParamLimits
 
-0x152c,	// (0x0004d770) list_single_recal_day_pane_g2
+0xa1f5,	// (0x0005711c) bg_button_pane_cp031
 
-0x153c,	// (0x0004d780) list_single_recal_day_pane_g3_ParamLimits
+0xd410,	// (0x0005a337) cmail_ddmenu_btn03_pane_g1_ParamLimits
 
-0x153c,	// (0x0004d780) list_single_recal_day_pane_g3
+0xd410,	// (0x0005a337) cmail_ddmenu_btn03_pane_g1
 
-0xd4f0,	// (0x00059734) list_single_recal_day_pane_g4_ParamLimits
+0xd428,	// (0x0005a34f) cmail_ddmenu_btn03_pane_t1_ParamLimits
 
-0xd4f0,	// (0x00059734) list_single_recal_day_pane_g4
+0xd428,	// (0x0005a34f) cmail_ddmenu_btn03_pane_t1
 
-0x1548,	// (0x0004d78c) list_single_recal_day_pane_g5_ParamLimits
+0xa794,	// (0x000576bb) cell_dialer2_keypad_pane_t1_ParamLimits
 
-0x1548,	// (0x0004d78c) list_single_recal_day_pane_g5
+0xa7ae,	// (0x000576d5) cell_dialer2_keypad_pane_t1_copy1_ParamLimits
 
-0x1558,	// (0x0004d79c) list_single_recal_day_pane_g6_ParamLimits
+0xa7ae,	// (0x000576d5) cell_dialer2_keypad_pane_t1_copy1
 
-0x1558,	// (0x0004d79c) list_single_recal_day_pane_g6
+0xc4a9,	// (0x000593d0) ncimui_group_button_pane
+
+0x3810,	// (0x00050737) main_sp_fs_calendar_pane_ParamLimits
+
+0xd014,	// (0x00059f3b) list_single_cmail_header_caption_pane_ParamLimits
+
+0xe2e3,	// (0x0005b20a) aid_recal_txt_sm_pane
+
+0x00f2,	// (0x0004d019) mian_recal_day_pane
+
+0x0e98,	// (0x0004ddbf) popup_sp_fs_cale_preview_window_ParamLimits
+
+0x00f2,	// (0x0004d019) list_recal_day_pane
+
+0x1109,	// (0x0004e030) list_single_recal_day_pane_ParamLimits
+
+0x1109,	// (0x0004e030) list_single_recal_day_pane
+
+0x111b,	// (0x0004e042) list_single_recal_day_pane_g1_ParamLimits
+
+0x111b,	// (0x0004e042) list_single_recal_day_pane_g1
+
+0x1127,	// (0x0004e04e) list_single_recal_day_pane_g2_ParamLimits
+
+0x1127,	// (0x0004e04e) list_single_recal_day_pane_g2
+
+0x1137,	// (0x0004e05e) list_single_recal_day_pane_g3_ParamLimits
+
+0x1137,	// (0x0004e05e) list_single_recal_day_pane_g3
+
+0xd44c,	// (0x0005a373) list_single_recal_day_pane_g4_ParamLimits
+
+0xd44c,	// (0x0005a373) list_single_recal_day_pane_g4
+
+0x1143,	// (0x0004e06a) list_single_recal_day_pane_g5_ParamLimits
+
+0x1143,	// (0x0004e06a) list_single_recal_day_pane_g5
+
+0x1153,	// (0x0004e07a) list_single_recal_day_pane_g6_ParamLimits
+
+0x1153,	// (0x0004e07a) list_single_recal_day_pane_g6
 
 0x0004,
 
-0xfe46,	// (0x0005c08a) list_single_recal_day_pane_g_ParamLimits
+0xfe3c,	// (0x0005cd63) list_single_recal_day_pane_g_ParamLimits
 
-0xfe46,	// (0x0005c08a) list_single_recal_day_pane_g
+0xfe3c,	// (0x0005cd63) list_single_recal_day_pane_g
 
-0x156f,	// (0x0004d7b3) list_single_recal_day_pane_t1
+0x116a,	// (0x0004e091) list_single_recal_day_pane_t1
 
-0x1581,	// (0x0004d7c5) list_single_recal_day_pane_t2
-
-0x0001,
-
-0xfe51,	// (0x0005c095) list_single_recal_day_pane_t
-
-0xd510,	// (0x00059754) ncimui_query_button_pane_ParamLimits
-
-0xd510,	// (0x00059754) ncimui_query_button_pane
-
-0xd520,	// (0x00059764) ncimui_query_button_pane_t1_ParamLimits
-
-0xd520,	// (0x00059764) ncimui_query_button_pane_t1
-
-0x1596,	// (0x0004d7da) ncimui_query_button_pane_t2_ParamLimits
-
-0x1596,	// (0x0004d7da) ncimui_query_button_pane_t2
+0x117c,	// (0x0004e0a3) list_single_recal_day_pane_t2
 
 0x0001,
 
-0xfe56,	// (0x0005c09a) ncimui_query_button_pane_t_ParamLimits
+0xfe47,	// (0x0005cd6e) list_single_recal_day_pane_t
 
-0xfe56,	// (0x0005c09a) ncimui_query_button_pane_t
+0xd46c,	// (0x0005a393) ncimui_query_button_pane_ParamLimits
 
-0xd533,	// (0x00059777) query_button_pane_ParamLimits
+0xd46c,	// (0x0005a393) ncimui_query_button_pane
 
-0xd533,	// (0x00059777) query_button_pane
+0xd47c,	// (0x0005a3a3) ncimui_query_button_pane_t1_ParamLimits
 
-0x037e,	// (0x0004c5c2) bg_button_pane_cp0028
+0xd47c,	// (0x0005a3a3) ncimui_query_button_pane_t1
 
-0x15a9,	// (0x0004d7ed) query_button_pane_t1
+0x1191,	// (0x0004e0b8) ncimui_query_button_pane_t2_ParamLimits
 
-0x8cf4,	// (0x00054f38) main_tport_pane_ParamLimits
+0x1191,	// (0x0004e0b8) ncimui_query_button_pane_t2
 
-0xcfe4,	// (0x00059228) bg_popup_window_pane_cp01_ParamLimits
+0x0001,
 
-0xcfe4,	// (0x00059228) bg_popup_window_pane_cp01
+0xfe4c,	// (0x0005cd73) ncimui_query_button_pane_t_ParamLimits
 
-0xcff1,	// (0x00059235) heading_pane_cp08_ParamLimits
+0xfe4c,	// (0x0005cd73) ncimui_query_button_pane_t
 
-0xcff1,	// (0x00059235) heading_pane_cp08
+0xd48f,	// (0x0005a3b6) query_button_pane_ParamLimits
 
-0xcfff,	// (0x00059243) heading_pane_cp07_ParamLimits
+0xd48f,	// (0x0005a3b6) query_button_pane
 
-0xcfff,	// (0x00059243) heading_pane_cp07
+0x00f2,	// (0x0004d019) bg_button_pane_cp0028
 
-0x10ab,	// (0x0004d2ef) cell_tport_appsw_pane_g2
+0x11a4,	// (0x0004e0cb) query_button_pane_t1
+
+0x8ba0,	// (0x00055ac7) main_tport_pane_ParamLimits
+
+0xcf2a,	// (0x00059e51) bg_popup_window_pane_cp01_ParamLimits
+
+0xcf2a,	// (0x00059e51) bg_popup_window_pane_cp01
+
+0xcf37,	// (0x00059e5e) heading_pane_cp08_ParamLimits
+
+0xcf37,	// (0x00059e5e) heading_pane_cp08
+
+0xcf45,	// (0x00059e6c) heading_pane_cp07_ParamLimits
+
+0xcf45,	// (0x00059e6c) heading_pane_cp07
+
+0xef9a,	// (0x0005bec1) cell_tport_appsw_pane_g2
 
 0x0002,
 
-0xfda2,	// (0x0005bfe6) cell_tport_appsw_pane_g
+0xfd98,	// (0x0005ccbf) cell_tport_appsw_pane_g
 
-0x840b,	// (0x0005464f) input_candi_list_open_g1
+0x82a9,	// (0x000551d0) input_candi_list_open_g1
 
-0x2806,	// (0x0004ea4a) list_cale_time_pane_g6_ParamLimits
+0x2488,	// (0x0004f3af) list_cale_time_pane_g6_ParamLimits
 
-0x2806,	// (0x0004ea4a) list_cale_time_pane_g6
+0x2488,	// (0x0004f3af) list_cale_time_pane_g6
 
-0x972d,	// (0x00055971) aid_size_touch_calib_1_ParamLimits
+0x9618,	// (0x0005653f) aid_size_touch_calib_1_ParamLimits
 
-0x972d,	// (0x00055971) aid_size_touch_calib_1
+0x9618,	// (0x0005653f) aid_size_touch_calib_1
 
-0x9739,	// (0x0005597d) aid_size_touch_calib_2_ParamLimits
+0x9624,	// (0x0005654b) aid_size_touch_calib_2_ParamLimits
 
-0x9739,	// (0x0005597d) aid_size_touch_calib_2
+0x9624,	// (0x0005654b) aid_size_touch_calib_2
 
-0x9747,	// (0x0005598b) aid_size_touch_calib_3_ParamLimits
+0x9632,	// (0x00056559) aid_size_touch_calib_3_ParamLimits
 
-0x9747,	// (0x0005598b) aid_size_touch_calib_3
+0x9632,	// (0x00056559) aid_size_touch_calib_3
 
-0x9757,	// (0x0005599b) aid_size_touch_calib_4_ParamLimits
+0x9642,	// (0x00056569) aid_size_touch_calib_4_ParamLimits
 
-0x9757,	// (0x0005599b) aid_size_touch_calib_4
+0x9642,	// (0x00056569) aid_size_touch_calib_4
 
-0x9765,	// (0x000559a9) main_touch_calib_button_group_pane_ParamLimits
+0x9650,	// (0x00056577) main_touch_calib_button_group_pane_ParamLimits
 
-0x9765,	// (0x000559a9) main_touch_calib_button_group_pane
+0x9650,	// (0x00056577) main_touch_calib_button_group_pane
 
-0x9773,	// (0x000559b7) main_touch_calib_pane_g1_ParamLimits
+0x965e,	// (0x00056585) main_touch_calib_pane_g1_ParamLimits
 
-0x977f,	// (0x000559c3) main_touch_calib_pane_g2_ParamLimits
+0x966a,	// (0x00056591) main_touch_calib_pane_g2_ParamLimits
 
-0x978b,	// (0x000559cf) main_touch_calib_pane_g3_ParamLimits
+0x9676,	// (0x0005659d) main_touch_calib_pane_g3_ParamLimits
 
-0x9797,	// (0x000559db) main_touch_calib_pane_g4_ParamLimits
+0x9682,	// (0x000565a9) main_touch_calib_pane_g4_ParamLimits
 
-0xf770,	// (0x0005b9b4) main_touch_calib_pane_g_ParamLimits
+0xf761,	// (0x0005c688) main_touch_calib_pane_g_ParamLimits
 
-0x97a3,	// (0x000559e7) main_touch_calib_pane_t1_ParamLimits
+0x968e,	// (0x000565b5) main_touch_calib_pane_t1_ParamLimits
 
-0x97ba,	// (0x000559fe) main_touch_calib_pane_t2_ParamLimits
+0x96a5,	// (0x000565cc) main_touch_calib_pane_t2_ParamLimits
 
-0x97d1,	// (0x00055a15) main_touch_calib_pane_t3_ParamLimits
+0x96bc,	// (0x000565e3) main_touch_calib_pane_t3_ParamLimits
 
-0x97e5,	// (0x00055a29) main_touch_calib_pane_t4_ParamLimits
+0x96d0,	// (0x000565f7) main_touch_calib_pane_t4_ParamLimits
 
-0x97f9,	// (0x00055a3d) main_touch_calib_pane_t5_ParamLimits
+0x96e4,	// (0x0005660b) main_touch_calib_pane_t5_ParamLimits
 
-0xf779,	// (0x0005b9bd) main_touch_calib_pane_t_ParamLimits
+0xf76a,	// (0x0005c691) main_touch_calib_pane_t_ParamLimits
 
-0x4917,	// (0x00050b5b) list_single_fp_cale_pane_g3_ParamLimits
+0x455a,	// (0x00051481) list_single_fp_cale_pane_g3_ParamLimits
 
-0x4917,	// (0x00050b5b) list_single_fp_cale_pane_g3
+0x455a,	// (0x00051481) list_single_fp_cale_pane_g3
 
-0xacfb,	// (0x00056f3f) bg_button_pane_cp012_ParamLimits
+0x8b84,	// (0x00055aab) bg_button_pane_cp012_ParamLimits
 
-0xacfb,	// (0x00056f3f) bg_vkb2_func_pane_cp03_ParamLimits
+0x8b84,	// (0x00055aab) bg_vkb2_func_pane_cp03_ParamLimits
 
-0xb6d3,	// (0x00057917) cell_vitu2_function_top_pane_g1_ParamLimits
+0xb5c5,	// (0x000584ec) cell_vitu2_function_top_pane_g1_ParamLimits
 
-0xacfb,	// (0x00056f3f) bg_vkb2_func_pane_cp04_ParamLimits
+0x8b84,	// (0x00055aab) bg_vkb2_func_pane_cp04_ParamLimits
 
-0xc54b,	// (0x0005878f) main_ncimui_button_group_pane_ParamLimits
+0xc431,	// (0x00059358) main_ncimui_button_group_pane_ParamLimits
 
-0xc54b,	// (0x0005878f) main_ncimui_button_group_pane
+0xc431,	// (0x00059358) main_ncimui_button_group_pane
 
-0xc59b,	// (0x000587df) main_ncimui_pane_t3_ParamLimits
+0xc497,	// (0x000593be) main_ncimui_pane_t3_ParamLimits
 
-0xc59b,	// (0x000587df) main_ncimui_pane_t3
+0xc497,	// (0x000593be) main_ncimui_pane_t3
 
-0x11d3,	// (0x0004d417) phacti_button_group_pane
+0xf06e,	// (0x0005bf95) phacti_button_group_pane
 
-0x14c3,	// (0x0004d707) aid_size_list_single_double_ParamLimits
+0x10be,	// (0x0004dfe5) aid_size_list_single_double_ParamLimits
 
-0xd473,	// (0x000596b7) popup_ezdial_listscroll_window_ParamLimits
+0xd3cf,	// (0x0005a2f6) popup_ezdial_listscroll_window_ParamLimits
 
-0xd494,	// (0x000596d8) popup_number_entry_window_cp01_ParamLimits
+0xd3f0,	// (0x0005a317) popup_number_entry_window_cp01_ParamLimits
 
-0xd540,	// (0x00059784) phacti_button_pane_ParamLimits
+0xd49c,	// (0x0005a3c3) phacti_button_pane_ParamLimits
 
-0xd540,	// (0x00059784) phacti_button_pane
+0xd49c,	// (0x0005a3c3) phacti_button_pane
 
-0x037e,	// (0x0004c5c2) bg_button_pane_cp14
+0x00f2,	// (0x0004d019) bg_button_pane_cp14
 
-0x15b7,	// (0x0004d7fb) phacti_button_pane_t1
+0x11b2,	// (0x0004e0d9) phacti_button_pane_t1
 
-0xd551,	// (0x00059795) main_touch_calib_button_pane_ParamLimits
+0xd4ad,	// (0x0005a3d4) main_touch_calib_button_pane_ParamLimits
 
-0xd551,	// (0x00059795) main_touch_calib_button_pane
+0xd4ad,	// (0x0005a3d4) main_touch_calib_button_pane
 
-0x2269,	// (0x0004e4ad) bg_button_pane_cp18_ParamLimits
+0x1eeb,	// (0x0004ee12) bg_button_pane_cp18_ParamLimits
 
-0x2269,	// (0x0004e4ad) bg_button_pane_cp18
+0x1eeb,	// (0x0004ee12) bg_button_pane_cp18
 
-0x15c5,	// (0x0004d809) main_touch_calib_button_pane_t1_ParamLimits
+0x11c0,	// (0x0004e0e7) main_touch_calib_button_pane_t1_ParamLimits
 
-0x15c5,	// (0x0004d809) main_touch_calib_button_pane_t1
+0x11c0,	// (0x0004e0e7) main_touch_calib_button_pane_t1
 
-0x15db,	// (0x0004d81f) main_touch_calib_button_pane_t2_ParamLimits
+0x11d6,	// (0x0004e0fd) main_touch_calib_button_pane_t2_ParamLimits
 
-0x15db,	// (0x0004d81f) main_touch_calib_button_pane_t2
+0x11d6,	// (0x0004e0fd) main_touch_calib_button_pane_t2
 
 0x0001,
 
-0xfe5b,	// (0x0005c09f) main_touch_calib_button_pane_t_ParamLimits
+0xfe51,	// (0x0005cd78) main_touch_calib_button_pane_t_ParamLimits
 
-0xfe5b,	// (0x0005c09f) main_touch_calib_button_pane_t
+0xfe51,	// (0x0005cd78) main_touch_calib_button_pane_t
 
-0x037e,	// (0x0004c5c2) cell_ncimui_button_pane
+0x00f2,	// (0x0004d019) cell_ncimui_button_pane
 
-0x037e,	// (0x0004c5c2) bg_button_pane_cp032
+0x00f2,	// (0x0004d019) bg_button_pane_cp032
 
-0x15f9,	// (0x0004d83d) cell_ncimui_button_pane_t1
+0x11f4,	// (0x0004e11b) cell_ncimui_button_pane_t1
 
-0xa911,	// (0x00056b55) image3_infobar_pane_ParamLimits
+0xa80a,	// (0x00057731) image3_infobar_pane_ParamLimits
 
-0xa911,	// (0x00056b55) image3_infobar_pane
+0xa80a,	// (0x00057731) image3_infobar_pane
 
-0xc8f9,	// (0x00058b3d) fs_bigclock_status_pane_ParamLimits
+0xc810,	// (0x00059737) fs_bigclock_status_pane_ParamLimits
 
-0xc8f9,	// (0x00058b3d) fs_bigclock_status_pane
+0xc810,	// (0x00059737) fs_bigclock_status_pane
 
-0xc906,	// (0x00058b4a) main_fs_bigclock_clock_pane_ParamLimits
+0xc81d,	// (0x00059744) main_fs_bigclock_clock_pane_ParamLimits
 
-0xc906,	// (0x00058b4a) main_fs_bigclock_clock_pane
+0xc81d,	// (0x00059744) main_fs_bigclock_clock_pane
 
-0xc91c,	// (0x00058b60) main_fs_bigclock_indi_pane_ParamLimits
+0xc833,	// (0x0005975a) main_fs_bigclock_indi_pane_ParamLimits
 
-0xc91c,	// (0x00058b60) main_fs_bigclock_indi_pane
+0xc833,	// (0x0005975a) main_fs_bigclock_indi_pane
 
-0xc94c,	// (0x00058b90) main_fs_bigclock_swipe_pane_ParamLimits
+0xc863,	// (0x0005978a) main_fs_bigclock_swipe_pane_ParamLimits
 
-0xc94c,	// (0x00058b90) main_fs_bigclock_swipe_pane
+0xc863,	// (0x0005978a) main_fs_bigclock_swipe_pane
 
-0x037e,	// (0x0004c5c2) main_fs_clock_dumped_data
+0x00f2,	// (0x0004d019) main_fs_clock_dumped_data
 
-0xed31,	// (0x0005af75) list_single_fs_bigclock_indicator_pane_g1_ParamLimits
+0xeb8f,	// (0x0005bab6) list_single_fs_bigclock_indicator_pane_g1_ParamLimits
 
-0xed31,	// (0x0005af75) list_single_fs_bigclock_indicator_pane_g1
+0xeb8f,	// (0x0005bab6) list_single_fs_bigclock_indicator_pane_g1
 
-0xed57,	// (0x0005af9b) list_single_fs_bigclock_indicator_pane_g2_ParamLimits
+0xebb5,	// (0x0005badc) list_single_fs_bigclock_indicator_pane_g2_ParamLimits
 
-0xed57,	// (0x0005af9b) list_single_fs_bigclock_indicator_pane_g2
+0xebb5,	// (0x0005badc) list_single_fs_bigclock_indicator_pane_g2
 
-0xed71,	// (0x0005afb5) list_single_fs_bigclock_indicator_pane_g3_ParamLimits
+0xebcf,	// (0x0005baf6) list_single_fs_bigclock_indicator_pane_g3_ParamLimits
 
-0xed71,	// (0x0005afb5) list_single_fs_bigclock_indicator_pane_g3
+0xebcf,	// (0x0005baf6) list_single_fs_bigclock_indicator_pane_g3
 
-0xed8b,	// (0x0005afcf) list_single_fs_bigclock_indicator_pane_g4_ParamLimits
+0xebe9,	// (0x0005bb10) list_single_fs_bigclock_indicator_pane_g4_ParamLimits
 
-0xed8b,	// (0x0005afcf) list_single_fs_bigclock_indicator_pane_g4
+0xebe9,	// (0x0005bb10) list_single_fs_bigclock_indicator_pane_g4
 
 0x0004,
 
-0xfc89,	// (0x0005becd) list_single_fs_bigclock_indicator_pane_g_ParamLimits
+0xfc7f,	// (0x0005cba6) list_single_fs_bigclock_indicator_pane_g_ParamLimits
 
-0xfc89,	// (0x0005becd) list_single_fs_bigclock_indicator_pane_g
+0xfc7f,	// (0x0005cba6) list_single_fs_bigclock_indicator_pane_g
 
-0xedb4,	// (0x0005aff8) list_single_fs_bigclock_indicator_pane_t1_ParamLimits
+0xec12,	// (0x0005bb39) list_single_fs_bigclock_indicator_pane_t1_ParamLimits
 
-0xedb4,	// (0x0005aff8) list_single_fs_bigclock_indicator_pane_t1
+0xec12,	// (0x0005bb39) list_single_fs_bigclock_indicator_pane_t1
 
-0xeddc,	// (0x0005b020) list_single_fs_bigclock_indicator_pane_t2_ParamLimits
+0xec3a,	// (0x0005bb61) list_single_fs_bigclock_indicator_pane_t2_ParamLimits
 
-0xeddc,	// (0x0005b020) list_single_fs_bigclock_indicator_pane_t2
+0xec3a,	// (0x0005bb61) list_single_fs_bigclock_indicator_pane_t2
 
-0xee04,	// (0x0005b048) list_single_fs_bigclock_indicator_pane_t3_ParamLimits
+0xec62,	// (0x0005bb89) list_single_fs_bigclock_indicator_pane_t3_ParamLimits
 
-0xee04,	// (0x0005b048) list_single_fs_bigclock_indicator_pane_t3
+0xec62,	// (0x0005bb89) list_single_fs_bigclock_indicator_pane_t3
 
-0xee2c,	// (0x0005b070) list_single_fs_bigclock_indicator_pane_t4_ParamLimits
+0xec8a,	// (0x0005bbb1) list_single_fs_bigclock_indicator_pane_t4_ParamLimits
 
-0xee2c,	// (0x0005b070) list_single_fs_bigclock_indicator_pane_t4
+0xec8a,	// (0x0005bbb1) list_single_fs_bigclock_indicator_pane_t4
 
 0x0004,
 
-0xfc94,	// (0x0005bed8) list_single_fs_bigclock_indicator_pane_t_ParamLimits
+0xfc8a,	// (0x0005cbb1) list_single_fs_bigclock_indicator_pane_t_ParamLimits
 
-0xfc94,	// (0x0005bed8) list_single_fs_bigclock_indicator_pane_t
+0xfc8a,	// (0x0005cbb1) list_single_fs_bigclock_indicator_pane_t
 
-0x1607,	// (0x0004d84b) image3_infobar_fav_pane_ParamLimits
+0x1202,	// (0x0004e129) image3_infobar_fav_pane_ParamLimits
 
-0x1607,	// (0x0004d84b) image3_infobar_fav_pane
+0x1202,	// (0x0004e129) image3_infobar_fav_pane
 
-0x1617,	// (0x0004d85b) image3_infobar_loc_pane_ParamLimits
+0x1212,	// (0x0004e139) image3_infobar_loc_pane_ParamLimits
 
-0x1617,	// (0x0004d85b) image3_infobar_loc_pane
+0x1212,	// (0x0004e139) image3_infobar_loc_pane
 
-0x162b,	// (0x0004d86f) image3_infobar_time_pane_ParamLimits
+0x1226,	// (0x0004e14d) image3_infobar_time_pane_ParamLimits
 
-0x162b,	// (0x0004d86f) image3_infobar_time_pane
+0x1226,	// (0x0004e14d) image3_infobar_time_pane
 
-0x4597,	// (0x000507db) image3_infobar_time_pane_g1
+0x41eb,	// (0x00051112) image3_infobar_time_pane_g1
 
-0x163b,	// (0x0004d87f) image3_infobar_time_pane_t1
+0x1236,	// (0x0004e15d) image3_infobar_time_pane_t1
 
-0x4597,	// (0x000507db) image3_infobar_loc_pane_g1
+0x41eb,	// (0x00051112) image3_infobar_loc_pane_g1
 
-0x1649,	// (0x0004d88d) image3_infobar_loc_pane_g2
-
-0x0001,
-
-0xfe60,	// (0x0005c0a4) image3_infobar_loc_pane_g
-
-0x1651,	// (0x0004d895) image3_infobar_loc_pane_t1
-
-0x4597,	// (0x000507db) image3_infobar_fav_pane_g1
-
-0x165f,	// (0x0004d8a3) image3_infobar_fav_pane_g2
+0x1244,	// (0x0004e16b) image3_infobar_loc_pane_g2
 
 0x0001,
 
-0xfe65,	// (0x0005c0a9) image3_infobar_fav_pane_g
+0xfe56,	// (0x0005cd7d) image3_infobar_loc_pane_g
 
-0x1667,	// (0x0004d8ab) fs_bigclock_status_battery_pane
+0x124c,	// (0x0004e173) image3_infobar_loc_pane_t1
 
-0x1670,	// (0x0004d8b4) fs_bigclock_status_signal_pane
+0x41eb,	// (0x00051112) image3_infobar_fav_pane_g1
 
-0x1679,	// (0x0004d8bd) fs_bigclock_status_title_pane
-
-0x1682,	// (0x0004d8c6) fs_bigclock_status_signal_pane_g1
-
-0x168b,	// (0x0004d8cf) fs_bigclock_status_signal_pane_g2
+0x125a,	// (0x0004e181) image3_infobar_fav_pane_g2
 
 0x0001,
 
-0xfe6a,	// (0x0005c0ae) fs_bigclock_status_signal_pane_g
+0xfe5b,	// (0x0005cd82) image3_infobar_fav_pane_g
 
-0x1693,	// (0x0004d8d7) fs_bigclock_status_battery_pane_g1
+0x1262,	// (0x0004e189) fs_bigclock_status_battery_pane
 
-0x169c,	// (0x0004d8e0) fs_bigclock_status_battery_pane_g2
+0x126b,	// (0x0004e192) fs_bigclock_status_signal_pane
+
+0x1274,	// (0x0004e19b) fs_bigclock_status_title_pane
+
+0x127d,	// (0x0004e1a4) fs_bigclock_status_signal_pane_g1
+
+0x1286,	// (0x0004e1ad) fs_bigclock_status_signal_pane_g2
 
 0x0001,
 
-0xfe6f,	// (0x0005c0b3) fs_bigclock_status_battery_pane_g
+0xfe60,	// (0x0005cd87) fs_bigclock_status_signal_pane_g
 
-0x16a4,	// (0x0004d8e8) fs_bigclock_status_title_pane_t1
+0x128e,	// (0x0004e1b5) fs_bigclock_status_battery_pane_g1
 
-0x4597,	// (0x000507db) main_fs_bigclock_clock_pane_g1
+0x1297,	// (0x0004e1be) fs_bigclock_status_battery_pane_g2
 
-0x16b2,	// (0x0004d8f6) main_fs_bigclock_clock_pane_g2
+0x0001,
 
-0x16b2,	// (0x0004d8f6) main_fs_bigclock_clock_pane_g3
+0xfe65,	// (0x0005cd8c) fs_bigclock_status_battery_pane_g
 
-0x16b2,	// (0x0004d8f6) main_fs_bigclock_clock_pane_g4
+0x129f,	// (0x0004e1c6) fs_bigclock_status_title_pane_t1
+
+0x41eb,	// (0x00051112) main_fs_bigclock_clock_pane_g1
+
+0x12ad,	// (0x0004e1d4) main_fs_bigclock_clock_pane_g2
+
+0x12ad,	// (0x0004e1d4) main_fs_bigclock_clock_pane_g3
+
+0x12ad,	// (0x0004e1d4) main_fs_bigclock_clock_pane_g4
 
 0x0003,
 
-0xfe74,	// (0x0005c0b8) main_fs_bigclock_clock_pane_g
+0xfe6a,	// (0x0005cd91) main_fs_bigclock_clock_pane_g
 
-0x16ba,	// (0x0004d8fe) main_fs_bigclock_clock_pane_t1
+0x12b5,	// (0x0004e1dc) main_fs_bigclock_clock_pane_t1
 
-0x16c8,	// (0x0004d90c) main_fs_bigclock_clock_pane_t2
-
-0x0001,
-
-0xfe7d,	// (0x0005c0c1) main_fs_bigclock_clock_pane_t
-
-0x16d7,	// (0x0004d91b) list_single_fs_bigclock_indicator_pane_ParamLimits
-
-0x16d7,	// (0x0004d91b) list_single_fs_bigclock_indicator_pane
-
-0xd563,	// (0x000597a7) list_single_fs_bigclock_pane_ParamLimits
-
-0xd563,	// (0x000597a7) list_single_fs_bigclock_pane
-
-0x16f1,	// (0x0004d935) main_fs_bigclock_indicator_pane_t1
-
-0x1700,	// (0x0004d944) list_single_fs_bigclock_pane_g1
-
-0x1708,	// (0x0004d94c) list_single_fs_bigclock_pane_t1
-
-0x4597,	// (0x000507db) main_fs_bigclock_swipe_pane_g1
-
-0x174b,	// (0x0004d98f) main_fs_bigclock_swipe_pane_g2
+0x12c3,	// (0x0004e1ea) main_fs_bigclock_clock_pane_t2
 
 0x0001,
 
-0xfe8e,	// (0x0005c0d2) main_fs_bigclock_swipe_pane_g
+0xfe73,	// (0x0005cd9a) main_fs_bigclock_clock_pane_t
 
-0x1753,	// (0x0004d997) main_fs_bigclock_swipe_pane_t1_ParamLimits
+0x12d2,	// (0x0004e1f9) list_single_fs_bigclock_indicator_pane_ParamLimits
 
-0x1753,	// (0x0004d997) main_fs_bigclock_swipe_pane_t1
+0x12d2,	// (0x0004e1f9) list_single_fs_bigclock_indicator_pane
 
-0x7ba7,	// (0x00053deb) call_type_pane_ParamLimits
+0xd4bf,	// (0x0005a3e6) list_single_fs_bigclock_pane_ParamLimits
 
-0x037e,	// (0x0004c5c2) main_btmg_pane
+0xd4bf,	// (0x0005a3e6) list_single_fs_bigclock_pane
 
-0x1396,	// (0x0004d5da) list_single_cale_mrui_row_pane_g2_ParamLimits
+0x12ec,	// (0x0004e213) main_fs_bigclock_indicator_pane_t1
 
-0x1396,	// (0x0004d5da) list_single_cale_mrui_row_pane_g2
+0x12fb,	// (0x0004e222) list_single_fs_bigclock_pane_g1
+
+0x1303,	// (0x0004e22a) list_single_fs_bigclock_pane_t1
+
+0x41eb,	// (0x00051112) main_fs_bigclock_swipe_pane_g1
+
+0x1346,	// (0x0004e26d) main_fs_bigclock_swipe_pane_g2
+
+0x0001,
+
+0xfe84,	// (0x0005cdab) main_fs_bigclock_swipe_pane_g
+
+0x134e,	// (0x0004e275) main_fs_bigclock_swipe_pane_t1_ParamLimits
+
+0x134e,	// (0x0004e275) main_fs_bigclock_swipe_pane_t1
+
+0x7a45,	// (0x0005496c) call_type_pane_ParamLimits
+
+0x00f2,	// (0x0004d019) main_btmg_pane
+
+0x0f91,	// (0x0004deb8) list_single_cale_mrui_row_pane_g2_ParamLimits
+
+0x0f91,	// (0x0004deb8) list_single_cale_mrui_row_pane_g2
 
 0x0002,
 
-0xfe01,	// (0x0005c045) list_single_cale_mrui_row_pane_g_ParamLimits
+0xfdf7,	// (0x0005cd1e) list_single_cale_mrui_row_pane_g_ParamLimits
 
-0xfe01,	// (0x0005c045) list_single_cale_mrui_row_pane_g
+0xfdf7,	// (0x0005cd1e) list_single_cale_mrui_row_pane_g
 
-0x14fe,	// (0x0004d742) list_recal_vselct_arw_lo_pane
+0x10f9,	// (0x0004e020) list_recal_vselct_arw_lo_pane
 
-0x1506,	// (0x0004d74a) list_recal_vselct_arw_up_pane
+0x1101,	// (0x0004e028) list_recal_vselct_arw_up_pane
 
-0x0d4c,	// (0x0004cf90) list_recal_vselct_pane
+0x0ae3,	// (0x0004da0a) list_recal_vselct_pane
 
-0x1770,	// (0x0004d9b4) btmg_button_pane
+0xd520,	// (0x0005a447) btmg_button_pane
 
-0xd5c4,	// (0x00059808) main_btmg_pane_g1
+0xd52c,	// (0x0005a453) main_btmg_pane_g1
 
-0x037e,	// (0x0004c5c2) bg_button_pane_cp044
+0x00f2,	// (0x0004d019) bg_button_pane_cp044
 
-0x177a,	// (0x0004d9be) btmg_button_pane_t1
+0x136b,	// (0x0004e292) btmg_button_pane_t1
 
-0x4148,	// (0x0005038c) aid_listscroll_gen
+0x3dca,	// (0x00050cf1) aid_listscroll_gen
 
-0x334c,	// (0x0004f590) main_cntbar_detail_pane
+0x3810,	// (0x00050737) main_cntbar_detail_pane
 
-0x10c9,	// (0x0004d30d) list_cmail_folder_pane
+0xefb8,	// (0x0005bedf) list_cmail_folder_pane
 
-0x10d9,	// (0x0004d31d) sp_fs_scroll_pane_cp03_ParamLimits
+0xefc8,	// (0x0005beef) sp_fs_scroll_pane_cp03_ParamLimits
 
-0xd5cc,	// (0x00059810) list_single_fs_dyc_pane_cp01_ParamLimits
+0xd534,	// (0x0005a45b) list_single_fs_dyc_pane_cp01_ParamLimits
 
-0xd5cc,	// (0x00059810) list_single_fs_dyc_pane_cp01
+0xd534,	// (0x0005a45b) list_single_fs_dyc_pane_cp01
 
-0x1788,	// (0x0004d9cc) aid_size_cmail_indent
+0x1379,	// (0x0004e2a0) aid_size_cmail_indent
 
-0x1791,	// (0x0004d9d5) list_single_dyc_row_pane_cp01
+0x1382,	// (0x0004e2a9) list_single_dyc_row_pane_cp01
 
-0xd612,	// (0x00059856) cntbar_detail_list_pane_ParamLimits
+0xd57a,	// (0x0005a4a1) cntbar_detail_list_pane_ParamLimits
 
-0xd612,	// (0x00059856) cntbar_detail_list_pane
+0xd57a,	// (0x0005a4a1) cntbar_detail_list_pane
 
-0xd64c,	// (0x00059890) main_cntbar_detail_cont_pane_ParamLimits
+0xd5b4,	// (0x0005a4db) main_cntbar_detail_cont_pane_ParamLimits
 
-0xd64c,	// (0x00059890) main_cntbar_detail_cont_pane
+0xd5b4,	// (0x0005a4db) main_cntbar_detail_cont_pane
 
-0x7b41,	// (0x00053d85) scroll_pane_cp032_ParamLimits
+0x79df,	// (0x00054906) scroll_pane_cp032_ParamLimits
 
-0x7b41,	// (0x00053d85) scroll_pane_cp032
+0x79df,	// (0x00054906) scroll_pane_cp032
 
-0xd658,	// (0x0005989c) cntbar_detail_list_event_pane_ParamLimits
+0xd5c0,	// (0x0005a4e7) cntbar_detail_list_event_pane_ParamLimits
 
-0xd658,	// (0x0005989c) cntbar_detail_list_event_pane
+0xd5c0,	// (0x0005a4e7) cntbar_detail_list_event_pane
 
-0xd61e,	// (0x00059862) cntbar_detail_list_shct_pane
+0xd586,	// (0x0005a4ad) cntbar_detail_list_shct_pane
 
-0x26ad,	// (0x0004e8f1) aid_list_gen
+0x232f,	// (0x0004f256) aid_list_gen
 
-0x179a,	// (0x0004d9de) aid_scroll
+0x138b,	// (0x0004e2b2) aid_scroll
 
-0x17a3,	// (0x0004d9e7) aid_size_touch_scroll_bar
+0x1394,	// (0x0004e2bb) aid_size_touch_scroll_bar
 
-0xd66c,	// (0x000598b0) aid_list_double
+0xd5d4,	// (0x0005a4fb) aid_list_double
 
-0x17ac,	// (0x0004d9f0) aid_list_single
+0x139d,	// (0x0004e2c4) aid_list_single
 
-0xd675,	// (0x000598b9) aid_list_single_lg
+0xd5dd,	// (0x0005a504) aid_list_single_lg
 
-0x17b5,	// (0x0004d9f9) aid_list_z_g_a_sm
+0x13a6,	// (0x0004e2cd) aid_list_z_g_a_sm
 
-0x17bd,	// (0x0004da01) aid_list_z_g_d
+0x13ae,	// (0x0004e2d5) aid_list_z_g_d
 
-0x17c5,	// (0x0004da09) aid_txt_z_prm
+0x13b6,	// (0x0004e2dd) aid_txt_z_prm
 
-0xd67e,	// (0x000598c2) aid_txt_z_prm_cp01
+0xd5e6,	// (0x0005a50d) aid_txt_z_prm_cp01
 
-0xd68c,	// (0x000598d0) aid_txt_z_sec
+0xd5f4,	// (0x0005a51b) aid_txt_z_sec
 
-0xd69a,	// (0x000598de) main_cntbar_detail_cont_pane_g1_ParamLimits
+0xd602,	// (0x0005a529) main_cntbar_detail_cont_pane_g1_ParamLimits
 
-0xd69a,	// (0x000598de) main_cntbar_detail_cont_pane_g1
+0xd602,	// (0x0005a529) main_cntbar_detail_cont_pane_g1
 
-0xd6a7,	// (0x000598eb) main_cntbar_detail_cont_pane_g2_ParamLimits
+0xd60f,	// (0x0005a536) main_cntbar_detail_cont_pane_g2_ParamLimits
 
-0xd6a7,	// (0x000598eb) main_cntbar_detail_cont_pane_g2
+0xd60f,	// (0x0005a536) main_cntbar_detail_cont_pane_g2
 
 0x0001,
 
-0xfe93,	// (0x0005c0d7) main_cntbar_detail_cont_pane_g_ParamLimits
+0xfe89,	// (0x0005cdb0) main_cntbar_detail_cont_pane_g_ParamLimits
 
-0xfe93,	// (0x0005c0d7) main_cntbar_detail_cont_pane_g
+0xfe89,	// (0x0005cdb0) main_cntbar_detail_cont_pane_g
 
-0x17d3,	// (0x0004da17) main_cntbar_detail_cont_pane_t1
+0x13c4,	// (0x0004e2eb) main_cntbar_detail_cont_pane_t1
 
-0x17e1,	// (0x0004da25) main_cntbar_detail_cont_pane_t2
+0x13d2,	// (0x0004e2f9) main_cntbar_detail_cont_pane_t2
 
-0x17ef,	// (0x0004da33) main_cntbar_detail_cont_pane_t3
+0x13e0,	// (0x0004e307) main_cntbar_detail_cont_pane_t3
 
 0x0002,
 
-0xfe98,	// (0x0005c0dc) main_cntbar_detail_cont_pane_t
+0xfe8e,	// (0x0005cdb5) main_cntbar_detail_cont_pane_t
 
-0xd6b3,	// (0x000598f7) cell_cntbar_detail_list_shct_pane_ParamLimits
+0xd61b,	// (0x0005a542) cell_cntbar_detail_list_shct_pane_ParamLimits
 
-0xd6b3,	// (0x000598f7) cell_cntbar_detail_list_shct_pane
+0xd61b,	// (0x0005a542) cell_cntbar_detail_list_shct_pane
 
-0x17fd,	// (0x0004da41) cntbar_detail_list_shct_pane_g1
+0x13ee,	// (0x0004e315) cntbar_detail_list_shct_pane_g1
 
-0x1806,	// (0x0004da4a) cntbar_detail_list_shct_pane_g2
+0x13f7,	// (0x0004e31e) cntbar_detail_list_shct_pane_g2
 
 0x0001,
 
-0xfe9f,	// (0x0005c0e3) cntbar_detail_list_shct_pane_g
+0xfe95,	// (0x0005cdbc) cntbar_detail_list_shct_pane_g
 
-0xd6c7,	// (0x0005990b) cntbar_detail_list_event_pane_g1_ParamLimits
+0xd62f,	// (0x0005a556) cntbar_detail_list_event_pane_g1_ParamLimits
 
-0xd6c7,	// (0x0005990b) cntbar_detail_list_event_pane_g1
+0xd62f,	// (0x0005a556) cntbar_detail_list_event_pane_g1
 
-0xd6d3,	// (0x00059917) cntbar_detail_list_event_pane_g2_ParamLimits
+0xd63b,	// (0x0005a562) cntbar_detail_list_event_pane_g2_ParamLimits
 
-0xd6d3,	// (0x00059917) cntbar_detail_list_event_pane_g2
+0xd63b,	// (0x0005a562) cntbar_detail_list_event_pane_g2
 
 0x0005,
 
-0xfea4,	// (0x0005c0e8) cntbar_detail_list_event_pane_g_ParamLimits
+0xfe9a,	// (0x0005cdc1) cntbar_detail_list_event_pane_g_ParamLimits
 
-0xfea4,	// (0x0005c0e8) cntbar_detail_list_event_pane_g
+0xfe9a,	// (0x0005cdc1) cntbar_detail_list_event_pane_g
 
-0xd73f,	// (0x00059983) cntbar_detail_list_event_pane_t1_ParamLimits
+0xd6a7,	// (0x0005a5ce) cntbar_detail_list_event_pane_t1_ParamLimits
 
-0xd73f,	// (0x00059983) cntbar_detail_list_event_pane_t1
+0xd6a7,	// (0x0005a5ce) cntbar_detail_list_event_pane_t1
 
-0xd754,	// (0x00059998) cntbar_detail_list_event_pane_t2_ParamLimits
+0xd6bc,	// (0x0005a5e3) cntbar_detail_list_event_pane_t2_ParamLimits
 
-0xd754,	// (0x00059998) cntbar_detail_list_event_pane_t2
-
-0x0002,
-
-0xfeb1,	// (0x0005c0f5) cntbar_detail_list_event_pane_t_ParamLimits
-
-0xfeb1,	// (0x0005c0f5) cntbar_detail_list_event_pane_t
-
-0x4597,	// (0x000507db) cell_cntbar_detail_list_shct_pane_g1
-
-0x7f57,	// (0x0005419b) navi_pane_mv_g3
-
-0x334c,	// (0x0004f590) main_cntbar_detail_pane_ParamLimits
-
-0x037e,	// (0x0004c5c2) main_notif_wgt_pane
-
-0xa5c5,	// (0x00056809) aid_tch_main_mp4_pane_g4
-
-0xa7fa,	// (0x00056a3e) popup_slider_window_cp02
-
-0x14f4,	// (0x0004d738) list_recal_day_event_pane
-
-0xd5f2,	// (0x00059836) cntbar_detail_btn_pane_ParamLimits
-
-0xd5f2,	// (0x00059836) cntbar_detail_btn_pane
-
-0xd602,	// (0x00059846) cntbar_detail_btn_pane_cp01_ParamLimits
-
-0xd602,	// (0x00059846) cntbar_detail_btn_pane_cp01
-
-0xd61e,	// (0x00059862) cntbar_detail_list_shct_pane_ParamLimits
-
-0xd62a,	// (0x0005986e) cntbar_detail_pane_g1_ParamLimits
-
-0xd62a,	// (0x0005986e) cntbar_detail_pane_g1
-
-0xd636,	// (0x0005987a) cntbar_detail_pane_t1_ParamLimits
-
-0xd636,	// (0x0005987a) cntbar_detail_pane_t1
-
-0xd6df,	// (0x00059923) cntbar_detail_list_event_pane_g3_ParamLimits
-
-0xd6df,	// (0x00059923) cntbar_detail_list_event_pane_g3
-
-0xd6f7,	// (0x0005993b) cntbar_detail_list_event_pane_g4_ParamLimits
-
-0xd6f7,	// (0x0005993b) cntbar_detail_list_event_pane_g4
-
-0xd70f,	// (0x00059953) cntbar_detail_list_event_pane_g5_ParamLimits
-
-0xd70f,	// (0x00059953) cntbar_detail_list_event_pane_g5
-
-0xd727,	// (0x0005996b) cntbar_detail_list_event_pane_g6_ParamLimits
-
-0xd727,	// (0x0005996b) cntbar_detail_list_event_pane_g6
-
-0xd769,	// (0x000599ad) cntbar_detail_list_event_pane_t3_ParamLimits
-
-0xd769,	// (0x000599ad) cntbar_detail_list_event_pane_t3
-
-0xd77b,	// (0x000599bf) popup_notif_wgt_window_ParamLimits
-
-0xd77b,	// (0x000599bf) popup_notif_wgt_window
-
-0xd78b,	// (0x000599cf) popup_submenu_window_cp01_ParamLimits
-
-0xd78b,	// (0x000599cf) popup_submenu_window_cp01
-
-0x2d3c,	// (0x0004ef80) bg_popup_window_pane_cp10
-
-0x180f,	// (0x0004da53) listscroll_notif_wgt_pane
-
-0x1819,	// (0x0004da5d) list_notif_wgt_window
-
-0x1822,	// (0x0004da66) scroll_pane_cp033
-
-0x182b,	// (0x0004da6f) list_notif_wgt_row_pane_ParamLimits
-
-0x182b,	// (0x0004da6f) list_notif_wgt_row_pane
-
-0x183d,	// (0x0004da81) aid_size_list_notif_wgt_del
-
-0x1846,	// (0x0004da8a) list_notif_wgt_row_pane_g1
-
-0x184e,	// (0x0004da92) list_notif_wgt_row_pane_g2
-
-0x1856,	// (0x0004da9a) list_notif_wgt_row_pane_g3
+0xd6bc,	// (0x0005a5e3) cntbar_detail_list_event_pane_t2
 
 0x0002,
 
-0xfeb8,	// (0x0005c0fc) list_notif_wgt_row_pane_g
+0xfea7,	// (0x0005cdce) cntbar_detail_list_event_pane_t_ParamLimits
 
-0x185f,	// (0x0004daa3) list_notif_wgt_row_pane_t1
+0xfea7,	// (0x0005cdce) cntbar_detail_list_event_pane_t
 
-0x186d,	// (0x0004dab1) list_notif_wgt_row_pane_t2
+0x41eb,	// (0x00051112) cell_cntbar_detail_list_shct_pane_g1
 
-0x187b,	// (0x0004dabf) list_notif_wgt_row_pane_t3
+0x7df5,	// (0x00054d1c) navi_pane_mv_g3
+
+0x3810,	// (0x00050737) main_cntbar_detail_pane_ParamLimits
+
+0x00f2,	// (0x0004d019) main_notif_wgt_pane
+
+0xa4be,	// (0x000573e5) aid_tch_main_mp4_pane_g4
+
+0xa6f3,	// (0x0005761a) popup_slider_window_cp02
+
+0x10ef,	// (0x0004e016) list_recal_day_event_pane
+
+0xd55a,	// (0x0005a481) cntbar_detail_btn_pane_ParamLimits
+
+0xd55a,	// (0x0005a481) cntbar_detail_btn_pane
+
+0xd56a,	// (0x0005a491) cntbar_detail_btn_pane_cp01_ParamLimits
+
+0xd56a,	// (0x0005a491) cntbar_detail_btn_pane_cp01
+
+0xd586,	// (0x0005a4ad) cntbar_detail_list_shct_pane_ParamLimits
+
+0xd592,	// (0x0005a4b9) cntbar_detail_pane_g1_ParamLimits
+
+0xd592,	// (0x0005a4b9) cntbar_detail_pane_g1
+
+0xd59e,	// (0x0005a4c5) cntbar_detail_pane_t1_ParamLimits
+
+0xd59e,	// (0x0005a4c5) cntbar_detail_pane_t1
+
+0xd647,	// (0x0005a56e) cntbar_detail_list_event_pane_g3_ParamLimits
+
+0xd647,	// (0x0005a56e) cntbar_detail_list_event_pane_g3
+
+0xd65f,	// (0x0005a586) cntbar_detail_list_event_pane_g4_ParamLimits
+
+0xd65f,	// (0x0005a586) cntbar_detail_list_event_pane_g4
+
+0xd677,	// (0x0005a59e) cntbar_detail_list_event_pane_g5_ParamLimits
+
+0xd677,	// (0x0005a59e) cntbar_detail_list_event_pane_g5
+
+0xd68f,	// (0x0005a5b6) cntbar_detail_list_event_pane_g6_ParamLimits
+
+0xd68f,	// (0x0005a5b6) cntbar_detail_list_event_pane_g6
+
+0xd6d1,	// (0x0005a5f8) cntbar_detail_list_event_pane_t3_ParamLimits
+
+0xd6d1,	// (0x0005a5f8) cntbar_detail_list_event_pane_t3
+
+0xd6e3,	// (0x0005a60a) popup_notif_wgt_window_ParamLimits
+
+0xd6e3,	// (0x0005a60a) popup_notif_wgt_window
+
+0xd6f3,	// (0x0005a61a) popup_submenu_window_cp01_ParamLimits
+
+0xd6f3,	// (0x0005a61a) popup_submenu_window_cp01
+
+0x29be,	// (0x0004f8e5) bg_popup_window_pane_cp10
+
+0x1400,	// (0x0004e327) listscroll_notif_wgt_pane
+
+0x1411,	// (0x0004e338) list_notif_wgt_window
+
+0x141a,	// (0x0004e341) scroll_pane_cp033
+
+0xd355,	// (0x0005a27c) list_notif_wgt_row_pane_ParamLimits
+
+0xd355,	// (0x0005a27c) list_notif_wgt_row_pane
+
+0x1423,	// (0x0004e34a) aid_size_list_notif_wgt_del
+
+0x1430,	// (0x0004e357) list_notif_wgt_row_pane_g1
+
+0x143c,	// (0x0004e363) list_notif_wgt_row_pane_g2
+
+0x1448,	// (0x0004e36f) list_notif_wgt_row_pane_g3
 
 0x0002,
 
-0xfebf,	// (0x0005c103) list_notif_wgt_row_pane_t
+0xfeae,	// (0x0005cdd5) list_notif_wgt_row_pane_g
 
-0xe240,	// (0x0005a484) list_recal_day_event_pane_g1
+0x1455,	// (0x0004e37c) list_notif_wgt_row_pane_t1
 
-0x1889,	// (0x0004dacd) list_recal_day_event_pane_t1
+0x146a,	// (0x0004e391) list_notif_wgt_row_pane_t2
 
-0x037e,	// (0x0004c5c2) bg_button_pane_cp045
+0x147c,	// (0x0004e3a3) list_notif_wgt_row_pane_t3
 
-0x1898,	// (0x0004dadc) cntbar_detail_btn_pane_t1
+0x0002,
 
-0x4150,	// (0x00050394) main_callh_pane_ParamLimits
+0xfeb5,	// (0x0005cddc) list_notif_wgt_row_pane_t
 
-0x4150,	// (0x00050394) main_callh_pane
+0xe083,	// (0x0005afaa) list_recal_day_event_pane_g1
 
-0x037e,	// (0x0004c5c2) main_coverflow0_pane
+0x148e,	// (0x0004e3b5) list_recal_day_event_pane_t1
 
-0x037e,	// (0x0004c5c2) main_wgtman_pane
+0x00f2,	// (0x0004d019) bg_button_pane_cp045
 
-0xc964,	// (0x00058ba8) main_fs_bigclock_unlock_btn_pane_ParamLimits
+0x149d,	// (0x0004e3c4) cntbar_detail_btn_pane_t1
 
-0xc964,	// (0x00058ba8) main_fs_bigclock_unlock_btn_pane
+0x3dd2,	// (0x00050cf9) main_callh_pane_ParamLimits
 
-0x10a3,	// (0x0004d2e7) bg_button_pane_cp16
+0x3dd2,	// (0x00050cf9) main_callh_pane
 
-0x10b3,	// (0x0004d2f7) cell_tport_appsw_pane_g3
+0x00f2,	// (0x0004d019) main_coverflow0_pane
 
-0xd799,	// (0x000599dd) cf0_flow_pane_ParamLimits
+0x00f2,	// (0x0004d019) main_wgtman_pane
 
-0xd799,	// (0x000599dd) cf0_flow_pane
+0xc87b,	// (0x000597a2) main_fs_bigclock_unlock_btn_pane_ParamLimits
 
-0x18a6,	// (0x0004daea) listscroll_cf0_pane
+0xc87b,	// (0x000597a2) main_fs_bigclock_unlock_btn_pane
 
-0x18af,	// (0x0004daf3) main_cf0_pane_g1
+0xef92,	// (0x0005beb9) bg_button_pane_cp16
 
-0xd7a8,	// (0x000599ec) main_cf0_pane_t1_ParamLimits
+0xefa2,	// (0x0005bec9) cell_tport_appsw_pane_g3
 
-0xd7a8,	// (0x000599ec) main_cf0_pane_t1
+0xd701,	// (0x0005a628) cf0_flow_pane_ParamLimits
 
-0xd7bc,	// (0x00059a00) main_cf0_pane_t2_ParamLimits
+0xd701,	// (0x0005a628) cf0_flow_pane
 
-0xd7bc,	// (0x00059a00) main_cf0_pane_t2
+0x14ab,	// (0x0004e3d2) listscroll_cf0_pane
+
+0x14b6,	// (0x0004e3dd) main_cf0_pane_g1
+
+0xd710,	// (0x0005a637) main_cf0_pane_t1_ParamLimits
+
+0xd710,	// (0x0005a637) main_cf0_pane_t1
+
+0xd724,	// (0x0005a64b) main_cf0_pane_t2_ParamLimits
+
+0xd724,	// (0x0005a64b) main_cf0_pane_t2
 
 0x0001,
 
-0xfec6,	// (0x0005c10a) main_cf0_pane_t_ParamLimits
+0xfebc,	// (0x0005cde3) main_cf0_pane_t_ParamLimits
 
-0xfec6,	// (0x0005c10a) main_cf0_pane_t
+0xfebc,	// (0x0005cde3) main_cf0_pane_t
 
-0x18b9,	// (0x0004dafd) scroll_pane_cp11
+0x14c0,	// (0x0004e3e7) scroll_pane_cp11
 
-0xd7d0,	// (0x00059a14) cf0_flow_pane_g1
+0xd738,	// (0x0005a65f) cf0_flow_pane_g1
 
-0xd7d8,	// (0x00059a1c) cf0_flow_pane_g2
-
-0x0001,
-
-0xfecb,	// (0x0005c10f) cf0_flow_pane_g
-
-0xd7e0,	// (0x00059a24) cf0_flow_pane_t1
-
-0x037e,	// (0x0004c5c2) main_call6_pane
-
-0x037e,	// (0x0004c5c2) main_calllock_pane
-
-0xd7ee,	// (0x00059a32) call6_btn_grp_pane_ParamLimits
-
-0xd7ee,	// (0x00059a32) call6_btn_grp_pane
-
-0xd7fd,	// (0x00059a41) call6_pane_g1_ParamLimits
-
-0xd7fd,	// (0x00059a41) call6_pane_g1
-
-0xd80c,	// (0x00059a50) popup_call6_1st_window_ParamLimits
-
-0xd80c,	// (0x00059a50) popup_call6_1st_window
-
-0xd81a,	// (0x00059a5e) popup_call6_2nd_window_ParamLimits
-
-0xd81a,	// (0x00059a5e) popup_call6_2nd_window
-
-0xd828,	// (0x00059a6c) cell_call6_btn_pane_ParamLimits
-
-0xd828,	// (0x00059a6c) cell_call6_btn_pane
-
-0x2d3c,	// (0x0004ef80) bg_popup_call2_in_pane_cp03
-
-0x18c4,	// (0x0004db08) popup_call6_1st_window_g1
-
-0x18cc,	// (0x0004db10) popup_call6_1st_window_g2
-
-0x18d4,	// (0x0004db18) popup_call6_1st_window_g3
-
-0x0002,
-
-0xfed0,	// (0x0005c114) popup_call6_1st_window_g
-
-0x18dc,	// (0x0004db20) popup_call6_1st_window_t1
-
-0x18eb,	// (0x0004db2f) popup_call6_1st_window_t2
-
-0x18fb,	// (0x0004db3f) popup_call6_1st_window_t3
-
-0x0002,
-
-0xfed7,	// (0x0005c11b) popup_call6_1st_window_t
-
-0x2d3c,	// (0x0004ef80) bg_popup_call2_in_pane_cp04
-
-0x18c4,	// (0x0004db08) popup_call6_2nd_window_g1
-
-0x18cc,	// (0x0004db10) popup_call6_2nd_window_g2
-
-0x18d4,	// (0x0004db18) popup_call6_2nd_window_g3
-
-0x0002,
-
-0xfed0,	// (0x0005c114) popup_call6_2nd_window_g
-
-0x18dc,	// (0x0004db20) popup_call6_2nd_window_t1
-
-0x037e,	// (0x0004c5c2) bg_button_pane_cp15
-
-0x190b,	// (0x0004db4f) cell_call6_btn_pane_g1
-
-0x1914,	// (0x0004db58) cell_call6_btn_pane_t1
-
-0xd837,	// (0x00059a7b) listscroll_wgtman_pane_ParamLimits
-
-0xd837,	// (0x00059a7b) listscroll_wgtman_pane
-
-0xd855,	// (0x00059a99) wgtman_btn_pane_ParamLimits
-
-0xd855,	// (0x00059a99) wgtman_btn_pane
-
-0x2bf3,	// (0x0004ee37) aid_scroll_copy1
-
-0x1923,	// (0x0004db67) list_wgtman_pane
-
-0xd88a,	// (0x00059ace) wgtman_btn_pane_g1_ParamLimits
-
-0xd88a,	// (0x00059ace) wgtman_btn_pane_g1
-
-0xd8b2,	// (0x00059af6) wgtman_btn_pane_t1_ParamLimits
-
-0xd8b2,	// (0x00059af6) wgtman_btn_pane_t1
-
-0x192d,	// (0x0004db71) wgtman_btn_pane_t2_ParamLimits
-
-0x192d,	// (0x0004db71) wgtman_btn_pane_t2
+0xd740,	// (0x0005a667) cf0_flow_pane_g2
 
 0x0001,
 
-0xfede,	// (0x0005c122) wgtman_btn_pane_t_ParamLimits
+0xfec1,	// (0x0005cde8) cf0_flow_pane_g
 
-0xfede,	// (0x0005c122) wgtman_btn_pane_t
+0xd748,	// (0x0005a66f) cf0_flow_pane_t1
 
-0xd8e9,	// (0x00059b2d) listrow_wgtman_pane_ParamLimits
+0x00f2,	// (0x0004d019) main_call6_pane
 
-0xd8e9,	// (0x00059b2d) listrow_wgtman_pane
+0x00f2,	// (0x0004d019) main_calllock_pane
 
-0xd904,	// (0x00059b48) listrow_wgtman_pane_g1
+0xd756,	// (0x0005a67d) call6_btn_grp_pane_ParamLimits
 
-0xd90d,	// (0x00059b51) listrow_wgtman_pane_g2
+0xd756,	// (0x0005a67d) call6_btn_grp_pane
 
-0x0001,
+0xd765,	// (0x0005a68c) call6_pane_g1_ParamLimits
 
-0xfee3,	// (0x0005c127) listrow_wgtman_pane_g
+0xd765,	// (0x0005a68c) call6_pane_g1
 
-0xd917,	// (0x00059b5b) listrow_wgtman_pane_t1
+0xd774,	// (0x0005a69b) popup_call6_1st_window_ParamLimits
 
-0xd925,	// (0x00059b69) listrow_wgtman_pane_t2
+0xd774,	// (0x0005a69b) popup_call6_1st_window
 
-0x0001,
+0xd782,	// (0x0005a6a9) popup_call6_2nd_window_ParamLimits
 
-0xfee8,	// (0x0005c12c) listrow_wgtman_pane_t
+0xd782,	// (0x0005a6a9) popup_call6_2nd_window
 
-0xd933,	// (0x00059b77) wait_bar_pane_cp09
+0xd790,	// (0x0005a6b7) cell_call6_btn_pane_ParamLimits
 
-0x1944,	// (0x0004db88) main_calllock_btn_pane
+0xd790,	// (0x0005a6b7) cell_call6_btn_pane
 
-0x194e,	// (0x0004db92) main_calllock_pane_g1
+0x29be,	// (0x0004f8e5) bg_popup_call2_in_pane_cp03
 
-0x037e,	// (0x0004c5c2) bg_button_pane_cp17
+0x14cb,	// (0x0004e3f2) popup_call6_1st_window_g1
 
-0x195a,	// (0x0004db9e) main_calllock_btn_pane_g1
+0x14d3,	// (0x0004e3fa) popup_call6_1st_window_g2
 
-0x1963,	// (0x0004dba7) main_calllock_btn_pane_t1
-
-0x037e,	// (0x0004c5c2) main_dialer3_pane
-
-0x037e,	// (0x0004c5c2) main_fmrd2_pane
-
-0x4597,	// (0x000507db) main_fs_bigclock_unlock_btn_pane_g1
-
-0x197a,	// (0x0004dbbe) main_fs_bigclock_unlock_btn_pane_t1
-
-0xd93b,	// (0x00059b7f) area_fmrd2_info_pane_ParamLimits
-
-0xd93b,	// (0x00059b7f) area_fmrd2_info_pane
-
-0xd949,	// (0x00059b8d) area_fmrd2_visual_pane_ParamLimits
-
-0xd949,	// (0x00059b8d) area_fmrd2_visual_pane
-
-0xd957,	// (0x00059b9b) fmrd2_indi_pane_ParamLimits
-
-0xd957,	// (0x00059b9b) fmrd2_indi_pane
-
-0xd964,	// (0x00059ba8) area_fmrd2_visual_pane_g1
-
-0xd96c,	// (0x00059bb0) area_fmrd2_visual_pane_t1
-
-0xd97c,	// (0x00059bc0) area_fmrd2_visual_pane_t2
-
-0xd98c,	// (0x00059bd0) area_fmrd2_visual_pane_t3
+0x14db,	// (0x0004e402) popup_call6_1st_window_g3
 
 0x0002,
 
-0xfef2,	// (0x0005c136) area_fmrd2_visual_pane_t
+0xfec6,	// (0x0005cded) popup_call6_1st_window_g
 
-0xd99c,	// (0x00059be0) area_fmrd2_info_pane_g1
+0x14e3,	// (0x0004e40a) popup_call6_1st_window_t1
 
-0xd9a4,	// (0x00059be8) area_fmrd2_info_pane_t1
+0x14f2,	// (0x0004e419) popup_call6_1st_window_t2
 
-0xd9b4,	// (0x00059bf8) area_fmrd2_info_pane_t2
+0x1502,	// (0x0004e429) popup_call6_1st_window_t3
 
-0xd9c4,	// (0x00059c08) area_fmrd2_info_pane_t3
+0x0002,
 
-0xd9d4,	// (0x00059c18) area_fmrd2_info_pane_t4
+0xfecd,	// (0x0005cdf4) popup_call6_1st_window_t
+
+0x29be,	// (0x0004f8e5) bg_popup_call2_in_pane_cp04
+
+0x14cb,	// (0x0004e3f2) popup_call6_2nd_window_g1
+
+0x14d3,	// (0x0004e3fa) popup_call6_2nd_window_g2
+
+0x14db,	// (0x0004e402) popup_call6_2nd_window_g3
+
+0x0002,
+
+0xfec6,	// (0x0005cded) popup_call6_2nd_window_g
+
+0x14e3,	// (0x0004e40a) popup_call6_2nd_window_t1
+
+0x00f2,	// (0x0004d019) bg_button_pane_cp15
+
+0x1512,	// (0x0004e439) cell_call6_btn_pane_g1
+
+0x151b,	// (0x0004e442) cell_call6_btn_pane_t1
+
+0xd79f,	// (0x0005a6c6) listscroll_wgtman_pane_ParamLimits
+
+0xd79f,	// (0x0005a6c6) listscroll_wgtman_pane
+
+0xd7bd,	// (0x0005a6e4) wgtman_btn_pane_ParamLimits
+
+0xd7bd,	// (0x0005a6e4) wgtman_btn_pane
+
+0x2875,	// (0x0004f79c) aid_scroll_copy1
+
+0x152a,	// (0x0004e451) list_wgtman_pane
+
+0xd7f2,	// (0x0005a719) wgtman_btn_pane_g1_ParamLimits
+
+0xd7f2,	// (0x0005a719) wgtman_btn_pane_g1
+
+0xd81a,	// (0x0005a741) wgtman_btn_pane_t1_ParamLimits
+
+0xd81a,	// (0x0005a741) wgtman_btn_pane_t1
+
+0x1534,	// (0x0004e45b) wgtman_btn_pane_t2_ParamLimits
+
+0x1534,	// (0x0004e45b) wgtman_btn_pane_t2
+
+0x0001,
+
+0xfed4,	// (0x0005cdfb) wgtman_btn_pane_t_ParamLimits
+
+0xfed4,	// (0x0005cdfb) wgtman_btn_pane_t
+
+0xd851,	// (0x0005a778) listrow_wgtman_pane_ParamLimits
+
+0xd851,	// (0x0005a778) listrow_wgtman_pane
+
+0xd86c,	// (0x0005a793) listrow_wgtman_pane_g1
+
+0xd879,	// (0x0005a7a0) listrow_wgtman_pane_g2
+
+0x0001,
+
+0xfed9,	// (0x0005ce00) listrow_wgtman_pane_g
+
+0xd897,	// (0x0005a7be) listrow_wgtman_pane_t1
+
+0xd8af,	// (0x0005a7d6) listrow_wgtman_pane_t2
+
+0x0001,
+
+0xfede,	// (0x0005ce05) listrow_wgtman_pane_t
+
+0xd8d5,	// (0x0005a7fc) wait_bar_pane_cp09
+
+0x154b,	// (0x0004e472) main_calllock_btn_pane
+
+0x1555,	// (0x0004e47c) main_calllock_pane_g1
+
+0x00f2,	// (0x0004d019) bg_button_pane_cp17
+
+0x1561,	// (0x0004e488) main_calllock_btn_pane_g1
+
+0x156a,	// (0x0004e491) main_calllock_btn_pane_t1
+
+0x00f2,	// (0x0004d019) main_dialer3_pane
+
+0x00f2,	// (0x0004d019) main_fmrd2_pane
+
+0x41eb,	// (0x00051112) main_fs_bigclock_unlock_btn_pane_g1
+
+0x1581,	// (0x0004e4a8) main_fs_bigclock_unlock_btn_pane_t1
+
+0xd8e7,	// (0x0005a80e) area_fmrd2_info_pane_ParamLimits
+
+0xd8e7,	// (0x0005a80e) area_fmrd2_info_pane
+
+0xd8f5,	// (0x0005a81c) area_fmrd2_visual_pane_ParamLimits
+
+0xd8f5,	// (0x0005a81c) area_fmrd2_visual_pane
+
+0xd903,	// (0x0005a82a) fmrd2_indi_pane_ParamLimits
+
+0xd903,	// (0x0005a82a) fmrd2_indi_pane
+
+0xd910,	// (0x0005a837) area_fmrd2_visual_pane_g1
+
+0xd918,	// (0x0005a83f) area_fmrd2_visual_pane_t1
+
+0xd928,	// (0x0005a84f) area_fmrd2_visual_pane_t2
+
+0xd938,	// (0x0005a85f) area_fmrd2_visual_pane_t3
+
+0x0002,
+
+0xfee8,	// (0x0005ce0f) area_fmrd2_visual_pane_t
+
+0xd948,	// (0x0005a86f) area_fmrd2_info_pane_g1
+
+0xd950,	// (0x0005a877) area_fmrd2_info_pane_t1
+
+0xd960,	// (0x0005a887) area_fmrd2_info_pane_t2
+
+0xd970,	// (0x0005a897) area_fmrd2_info_pane_t3
+
+0xd980,	// (0x0005a8a7) area_fmrd2_info_pane_t4
 
 0x0003,
 
-0xfef9,	// (0x0005c13d) area_fmrd2_info_pane_t
+0xfeef,	// (0x0005ce16) area_fmrd2_info_pane_t
 
-0xd9e2,	// (0x00059c26) fmrd2_indi_pane_t1
+0xd98e,	// (0x0005a8b5) fmrd2_indi_pane_t1
 
-0xd9f2,	// (0x00059c36) fmrd2_indi_pane_t2
+0xd99e,	// (0x0005a8c5) fmrd2_indi_pane_t2
 
-0xda02,	// (0x00059c46) fmrd2_indi_pane_t3
+0xd9ae,	// (0x0005a8d5) fmrd2_indi_pane_t3
 
 0x0002,
 
-0xff02,	// (0x0005c146) fmrd2_indi_pane_t
+0xfef8,	// (0x0005ce1f) fmrd2_indi_pane_t
 
-0xed9a,	// (0x0005afde) list_single_fs_bigclock_indicator_pane_g5_ParamLimits
+0xebf8,	// (0x0005bb1f) list_single_fs_bigclock_indicator_pane_g5_ParamLimits
 
-0xed9a,	// (0x0005afde) list_single_fs_bigclock_indicator_pane_g5
+0xebf8,	// (0x0005bb1f) list_single_fs_bigclock_indicator_pane_g5
 
-0xee41,	// (0x0005b085) list_single_fs_bigclock_indicator_pane_t5_ParamLimits
+0xec9f,	// (0x0005bbc6) list_single_fs_bigclock_indicator_pane_t5_ParamLimits
 
-0xee41,	// (0x0005b085) list_single_fs_bigclock_indicator_pane_t5
+0xec9f,	// (0x0005bbc6) list_single_fs_bigclock_indicator_pane_t5
 
-0xd205,	// (0x00059449) aid_cell_bcale_month_pane_ParamLimits
+0xd14b,	// (0x0005a072) aid_cell_bcale_month_pane_ParamLimits
 
-0xd205,	// (0x00059449) aid_cell_bcale_month_pane
+0xd14b,	// (0x0005a072) aid_cell_bcale_month_pane
 
-0xd211,	// (0x00059455) bcale_month_pane_ParamLimits
+0xd15b,	// (0x0005a082) bcale_month_pane_ParamLimits
 
-0xd211,	// (0x00059455) bcale_month_pane
+0xd15b,	// (0x0005a082) bcale_month_pane
 
-0xd221,	// (0x00059465) bcale_preview_pane_ParamLimits
+0xd16b,	// (0x0005a092) bcale_preview_pane_ParamLimits
 
-0xd221,	// (0x00059465) bcale_preview_pane
+0xd16b,	// (0x0005a092) bcale_preview_pane
 
-0x1708,	// (0x0004d94c) list_single_fs_bigclock_pane_t1_ParamLimits
+0x1303,	// (0x0004e22a) list_single_fs_bigclock_pane_t1_ParamLimits
 
-0x1727,	// (0x0004d96b) list_single_fs_bigclock_pane_t2_ParamLimits
+0x1322,	// (0x0004e249) list_single_fs_bigclock_pane_t2_ParamLimits
 
-0x1727,	// (0x0004d96b) list_single_fs_bigclock_pane_t2
-
-0x0001,
-
-0xfe89,	// (0x0005c0cd) list_single_fs_bigclock_pane_t_ParamLimits
-
-0xfe89,	// (0x0005c0cd) list_single_fs_bigclock_pane_t
-
-0x1972,	// (0x0004dbb6) main_fs_bigclock_unlock_btn_pane_g2
+0x1322,	// (0x0004e249) list_single_fs_bigclock_pane_t2
 
 0x0001,
 
-0xfeed,	// (0x0005c131) main_fs_bigclock_unlock_btn_pane_g
+0xfe7f,	// (0x0005cda6) list_single_fs_bigclock_pane_t_ParamLimits
 
-0xda10,	// (0x00059c54) aid_dia3_key_size_ParamLimits
+0xfe7f,	// (0x0005cda6) list_single_fs_bigclock_pane_t
 
-0xda10,	// (0x00059c54) aid_dia3_key_size
+0x1579,	// (0x0004e4a0) main_fs_bigclock_unlock_btn_pane_g2
 
-0xda1c,	// (0x00059c60) aid_dia3_listrow_size_ParamLimits
+0x0001,
 
-0xda1c,	// (0x00059c60) aid_dia3_listrow_size
+0xfee3,	// (0x0005ce0a) main_fs_bigclock_unlock_btn_pane_g
 
-0xda2c,	// (0x00059c70) dia3_keypad_fun_pane_ParamLimits
+0xd9bc,	// (0x0005a8e3) aid_dia3_key_size_ParamLimits
 
-0xda2c,	// (0x00059c70) dia3_keypad_fun_pane
+0xd9bc,	// (0x0005a8e3) aid_dia3_key_size
 
-0xda3e,	// (0x00059c82) dia3_keypad_num_pane_ParamLimits
+0xd9c8,	// (0x0005a8ef) aid_dia3_listrow_size_ParamLimits
 
-0xda3e,	// (0x00059c82) dia3_keypad_num_pane
+0xd9c8,	// (0x0005a8ef) aid_dia3_listrow_size
 
-0xda50,	// (0x00059c94) dia3_listscroll_pane_ParamLimits
+0xd9d8,	// (0x0005a8ff) dia3_keypad_fun_pane_ParamLimits
 
-0xda50,	// (0x00059c94) dia3_listscroll_pane
+0xd9d8,	// (0x0005a8ff) dia3_keypad_fun_pane
 
-0xda5e,	// (0x00059ca2) dia3_numentry_pane_ParamLimits
+0xd9ea,	// (0x0005a911) dia3_keypad_num_pane_ParamLimits
 
-0xda5e,	// (0x00059ca2) dia3_numentry_pane
+0xd9ea,	// (0x0005a911) dia3_keypad_num_pane
 
-0x1988,	// (0x0004dbcc) dia3_list_pane
+0xd9fc,	// (0x0005a923) dia3_listscroll_pane_ParamLimits
 
-0x1993,	// (0x0004dbd7) scroll_pane_cp12
+0xd9fc,	// (0x0005a923) dia3_listscroll_pane
 
-0x037e,	// (0x0004c5c2) bg_dia3_numentry_pane
+0xda0a,	// (0x0005a931) dia3_numentry_pane_ParamLimits
 
-0xda6c,	// (0x00059cb0) dia3_numentry_pane_t1
+0xda0a,	// (0x0005a931) dia3_numentry_pane
 
-0xda7b,	// (0x00059cbf) cell_dia3_key_num_pane
+0x158f,	// (0x0004e4b6) dia3_list_pane
 
-0xda83,	// (0x00059cc7) cell_dia3_key0_fun_pane_ParamLimits
+0x159a,	// (0x0004e4c1) scroll_pane_cp12
 
-0xda83,	// (0x00059cc7) cell_dia3_key0_fun_pane
+0x00f2,	// (0x0004d019) bg_dia3_numentry_pane
 
-0xda90,	// (0x00059cd4) cell_dia3_key1_fun_pane_ParamLimits
+0xda18,	// (0x0005a93f) dia3_numentry_pane_t1
 
-0xda90,	// (0x00059cd4) cell_dia3_key1_fun_pane
+0xda27,	// (0x0005a94e) cell_dia3_key_num_pane
 
-0xda9d,	// (0x00059ce1) dia3_listrow_pane
+0xda2f,	// (0x0005a956) cell_dia3_key0_fun_pane_ParamLimits
 
-0xea8c,	// (0x0005acd0) bg_dia3_numentry_pane_g1
+0xda2f,	// (0x0005a956) cell_dia3_key0_fun_pane
 
-0x037e,	// (0x0004c5c2) bg_button_pane_cp21
+0xda3c,	// (0x0005a963) cell_dia3_key1_fun_pane_ParamLimits
 
-0x199e,	// (0x0004dbe2) cell_dia3_key_num_pane_t1
+0xda3c,	// (0x0005a963) cell_dia3_key1_fun_pane
 
-0x19ac,	// (0x0004dbf0) cell_dia3_key_num_pane_t2
+0xda49,	// (0x0005a970) dia3_listrow_pane
 
-0x19bb,	// (0x0004dbff) cell_dia3_key_num_pane_t3
+0xe8fc,	// (0x0005b823) bg_dia3_numentry_pane_g1
 
-0x19ca,	// (0x0004dc0e) cell_dia3_key_num_pane_t4
+0x00f2,	// (0x0004d019) bg_button_pane_cp21
+
+0x15a5,	// (0x0004e4cc) cell_dia3_key_num_pane_t1
+
+0x15b3,	// (0x0004e4da) cell_dia3_key_num_pane_t2
+
+0x15c2,	// (0x0004e4e9) cell_dia3_key_num_pane_t3
+
+0x15d1,	// (0x0004e4f8) cell_dia3_key_num_pane_t4
 
 0x0003,
 
-0xff09,	// (0x0005c14d) cell_dia3_key_num_pane_t
+0xfeff,	// (0x0005ce26) cell_dia3_key_num_pane_t
 
-0x037e,	// (0x0004c5c2) bg_button_pane_cp19
+0x00f2,	// (0x0004d019) bg_button_pane_cp19
 
-0xdaaa,	// (0x00059cee) cell_dia3_key0_fun_pane_g1
+0xda56,	// (0x0005a97d) cell_dia3_key0_fun_pane_g1
 
-0x037e,	// (0x0004c5c2) bg_button_pane_cp20
+0x00f2,	// (0x0004d019) bg_button_pane_cp20
 
-0xdab2,	// (0x00059cf6) cell_dia3_key1_fun_pane_g1
+0xda5e,	// (0x0005a985) cell_dia3_key1_fun_pane_g1
 
-0xdaba,	// (0x00059cfe) area_left_week_number_pane
+0xda66,	// (0x0005a98d) area_left_week_number_pane
 
-0xdac3,	// (0x00059d07) area_top_day_name_pane
+0xda70,	// (0x0005a997) area_top_day_name_pane
 
-0xdacc,	// (0x00059d10) frame_month_view_pane
+0xda7c,	// (0x0005a9a3) frame_month_view_pane
 
-0xdad6,	// (0x00059d1a) grid_month_view_pane
+0xda86,	// (0x0005a9ad) grid_month_view_pane
 
-0xdae0,	// (0x00059d24) cell_top_day_name_pane_ParamLimits
+0x15e0,	// (0x0004e507) cell_top_day_name_pane_ParamLimits
 
-0xdae0,	// (0x00059d24) cell_top_day_name_pane
+0x15e0,	// (0x0004e507) cell_top_day_name_pane
 
-0xdafa,	// (0x00059d3e) cell_area_left_week_number_pane_ParamLimits
+0xda90,	// (0x0005a9b7) cell_area_left_week_number_pane_ParamLimits
 
-0xdafa,	// (0x00059d3e) cell_area_left_week_number_pane
+0xda90,	// (0x0005a9b7) cell_area_left_week_number_pane
 
-0xdb0e,	// (0x00059d52) cell_month_view_pane_ParamLimits
+0xdaa4,	// (0x0005a9cb) cell_month_view_pane_ParamLimits
 
-0xdb0e,	// (0x00059d52) cell_month_view_pane
+0xdaa4,	// (0x0005a9cb) cell_month_view_pane
 
-0x19d9,	// (0x0004dc1d) frm_month_g1
+0x15fa,	// (0x0004e521) frm_month_g1
 
-0xdb2b,	// (0x00059d6f) frm_month_g2
+0xdac1,	// (0x0005a9e8) frm_month_g2
 
-0xdb35,	// (0x00059d79) frm_month_g3
+0xdacb,	// (0x0005a9f2) frm_month_g3
 
-0xdb3f,	// (0x00059d83) frm_month_g4
+0xdad5,	// (0x0005a9fc) frm_month_g4
 
-0xdb49,	// (0x00059d8d) frm_month_g5
+0xdadf,	// (0x0005aa06) frm_month_g5
 
-0xdb53,	// (0x00059d97) frm_month_g6
+0xdae9,	// (0x0005aa10) frm_month_g6
 
-0xdb5d,	// (0x00059da1) frm_month_g7
+0xdaf3,	// (0x0005aa1a) frm_month_g7
 
-0x19e2,	// (0x0004dc26) frm_month_g8
+0x1603,	// (0x0004e52a) frm_month_g8
 
-0xdb67,	// (0x00059dab) frm_month_g9
+0x160c,	// (0x0004e533) frm_month_g9
 
-0xdb70,	// (0x00059db4) frm_month_g10
+0x1615,	// (0x0004e53c) frm_month_g10
 
-0xdb79,	// (0x00059dbd) frm_month_g11
+0x161e,	// (0x0004e545) frm_month_g11
 
-0xdb82,	// (0x00059dc6) frm_month_g12
+0x1627,	// (0x0004e54e) frm_month_g12
 
-0xdb8b,	// (0x00059dcf) frm_month_g13
+0x1630,	// (0x0004e557) frm_month_g13
 
-0xdb94,	// (0x00059dd8) frm_month_g14
+0x1639,	// (0x0004e560) frm_month_g14
 
-0xdb9d,	// (0x00059de1) frm_month_g15
+0x1644,	// (0x0004e56b) frm_month_g15
 
-0xdba8,	// (0x00059dec) frm_month_g16
+0x164f,	// (0x0004e576) frm_month_g16
 
 0x000f,
 
-0xff12,	// (0x0005c156) frm_month_g
+0xff08,	// (0x0005ce2f) frm_month_g
 
-0xdbb3,	// (0x00059df7) cell_top_day_name_pane_t1
+0xdafd,	// (0x0005aa24) cell_top_day_name_pane_t1
 
-0xdbc2,	// (0x00059e06) cell_area_left_week_number_pane_g1
+0xdb0c,	// (0x0005aa33) cell_area_left_week_number_pane_g1
 
-0xdbb3,	// (0x00059df7) cell_area_left_week_number_pane_t1
+0xdb14,	// (0x0005aa3b) cell_area_left_week_number_pane_t1
 
-0x4597,	// (0x000507db) cell_month_view_pane_g1
+0x41eb,	// (0x00051112) cell_month_view_pane_g1
 
-0xdbca,	// (0x00059e0e) cell_month_view_pane_t1
+0xdb23,	// (0x0005aa4a) cell_month_view_pane_t1
 
-0x037e,	// (0x0004c5c2) main_fps_pane
+0x00f2,	// (0x0004d019) main_fps_pane
 
-0xf031,	// (0x0005b275) cmail_ddmenu_btn02_pane_cp1_ParamLimits
+0xee8f,	// (0x0005bdb6) cmail_ddmenu_btn02_pane_cp1_ParamLimits
 
-0xf031,	// (0x0005b275) cmail_ddmenu_btn02_pane_cp1
+0xee8f,	// (0x0005bdb6) cmail_ddmenu_btn02_pane_cp1
 
-0xf04d,	// (0x0005b291) cmail_ddmenu_btn02_pane_cp2_ParamLimits
+0xeeab,	// (0x0005bdd2) cmail_ddmenu_btn02_pane_cp2_ParamLimits
 
-0xf04d,	// (0x0005b291) cmail_ddmenu_btn02_pane_cp2
+0xeeab,	// (0x0005bdd2) cmail_ddmenu_btn02_pane_cp2
 
-0xd4c0,	// (0x00059704) cmail_ddmenu_btn02_pane_g2_ParamLimits
+0xd41c,	// (0x0005a343) cmail_ddmenu_btn02_pane_g2_ParamLimits
 
-0xd4c0,	// (0x00059704) cmail_ddmenu_btn02_pane_g2
-
-0x0001,
-
-0xfe3c,	// (0x0005c080) cmail_ddmenu_btn02_pane_g_ParamLimits
-
-0xfe3c,	// (0x0005c080) cmail_ddmenu_btn02_pane_g
-
-0xd4de,	// (0x00059722) cmail_ddmenu_btn02_pane_t2_ParamLimits
-
-0xd4de,	// (0x00059722) cmail_ddmenu_btn02_pane_t2
+0xd41c,	// (0x0005a343) cmail_ddmenu_btn02_pane_g2
 
 0x0001,
 
-0xfe41,	// (0x0005c085) cmail_ddmenu_btn02_pane_t_ParamLimits
+0xfe32,	// (0x0005cd59) cmail_ddmenu_btn02_pane_g_ParamLimits
 
-0xfe41,	// (0x0005c085) cmail_ddmenu_btn02_pane_t
+0xfe32,	// (0x0005cd59) cmail_ddmenu_btn02_pane_g
 
-0xdbd9,	// (0x00059e1d) fps_text_pane_ParamLimits
+0xd43a,	// (0x0005a361) cmail_ddmenu_btn02_pane_t2_ParamLimits
 
-0xdbd9,	// (0x00059e1d) fps_text_pane
+0xd43a,	// (0x0005a361) cmail_ddmenu_btn02_pane_t2
 
-0xdbe6,	// (0x00059e2a) main_fps_pane_g1_ParamLimits
+0x0001,
 
-0xdbe6,	// (0x00059e2a) main_fps_pane_g1
+0xfe37,	// (0x0005cd5e) cmail_ddmenu_btn02_pane_t_ParamLimits
 
-0xdbf4,	// (0x00059e38) wait_bar_pane_cp010_ParamLimits
+0xfe37,	// (0x0005cd5e) cmail_ddmenu_btn02_pane_t
 
-0xdbf4,	// (0x00059e38) wait_bar_pane_cp010
+0xdb32,	// (0x0005aa59) fps_text_pane_ParamLimits
 
-0xdc00,	// (0x00059e44) fps_text_pane_t1_ParamLimits
+0xdb32,	// (0x0005aa59) fps_text_pane
 
-0xdc00,	// (0x00059e44) fps_text_pane_t1
+0xdb3f,	// (0x0005aa66) main_fps_pane_g1_ParamLimits
 
-0xabea,	// (0x00056e2e) cam4_image_uncrop_pane_g1
+0xdb3f,	// (0x0005aa66) main_fps_pane_g1
 
-0xabf3,	// (0x00056e37) cam4_image_uncrop_pane_g2
+0xdb4d,	// (0x0005aa74) wait_bar_pane_cp010_ParamLimits
 
-0xabfc,	// (0x00056e40) cam4_image_uncrop_pane_g3
+0xdb4d,	// (0x0005aa74) wait_bar_pane_cp010
 
-0xac05,	// (0x00056e49) cam4_image_uncrop_pane_g4
+0xdb59,	// (0x0005aa80) fps_text_pane_t1_ParamLimits
+
+0xdb59,	// (0x0005aa80) fps_text_pane_t1
+
+0xaae3,	// (0x00057a0a) cam4_image_uncrop_pane_g1
+
+0xaaec,	// (0x00057a13) cam4_image_uncrop_pane_g2
+
+0xaaf5,	// (0x00057a1c) cam4_image_uncrop_pane_g3
+
+0xaafe,	// (0x00057a25) cam4_image_uncrop_pane_g4
 
 0x0003,
 
-0xf908,	// (0x0005bb4c) cam4_image_uncrop_pane_g
+0xf8f9,	// (0x0005c820) cam4_image_uncrop_pane_g
 
-0xda9d,	// (0x00059ce1) dia3_listrow_pane_ParamLimits
+0xda49,	// (0x0005a970) dia3_listrow_pane_ParamLimits
 
-0x037e,	// (0x0004c5c2) main_phob2_pane
+0x00f2,	// (0x0004d019) main_phob2_pane
 
-0xd046,	// (0x0005928a) cell_tport_appsw_pane_cp02_ParamLimits
+0xcf8c,	// (0x00059eb3) cell_tport_appsw_pane_cp02_ParamLimits
 
-0xd046,	// (0x0005928a) cell_tport_appsw_pane_cp02
+0xcf8c,	// (0x00059eb3) cell_tport_appsw_pane_cp02
 
-0xd055,	// (0x00059299) cell_tport_appsw_pane_cp03_ParamLimits
+0xcf9b,	// (0x00059ec2) cell_tport_appsw_pane_cp03_ParamLimits
 
-0xd055,	// (0x00059299) cell_tport_appsw_pane_cp03
+0xcf9b,	// (0x00059ec2) cell_tport_appsw_pane_cp03
 
-0x037e,	// (0x0004c5c2) phob2_contact_card_pane
+0x00f2,	// (0x0004d019) phob2_contact_card_pane
 
-0x037e,	// (0x0004c5c2) phob2_listscroll_pane
+0x00f2,	// (0x0004d019) phob2_listscroll_pane
 
-0x19eb,	// (0x0004dc2f) phob2_list_pane
+0x165a,	// (0x0004e581) phob2_list_pane
 
-0x19f3,	// (0x0004dc37) scroll_pane_cp034
+0x1662,	// (0x0004e589) scroll_pane_cp034
 
-0xdc19,	// (0x00059e5d) phob2_cc_data_pane_ParamLimits
+0xdb72,	// (0x0005aa99) phob2_cc_data_pane_ParamLimits
 
-0xdc19,	// (0x00059e5d) phob2_cc_data_pane
+0xdb72,	// (0x0005aa99) phob2_cc_data_pane
 
-0xdc33,	// (0x00059e77) phob2_cc_listscroll_pane_ParamLimits
+0xdb8c,	// (0x0005aab3) phob2_cc_listscroll_pane_ParamLimits
 
-0xdc33,	// (0x00059e77) phob2_cc_listscroll_pane
+0xdb8c,	// (0x0005aab3) phob2_cc_listscroll_pane
 
-0xdc4d,	// (0x00059e91) list_double_large_graphic_phob2_pane_ParamLimits
+0xdba6,	// (0x0005aacd) list_double_large_graphic_phob2_pane_ParamLimits
 
-0xdc4d,	// (0x00059e91) list_double_large_graphic_phob2_pane
+0xdba6,	// (0x0005aacd) list_double_large_graphic_phob2_pane
 
-0xdc6b,	// (0x00059eaf) list_double_large_graphic_phob2_pane_g1_ParamLimits
+0xdbc4,	// (0x0005aaeb) list_double_large_graphic_phob2_pane_g1_ParamLimits
 
-0xdc6b,	// (0x00059eaf) list_double_large_graphic_phob2_pane_g1
+0xdbc4,	// (0x0005aaeb) list_double_large_graphic_phob2_pane_g1
 
-0xdc78,	// (0x00059ebc) list_double_large_graphic_phob2_pane_g2_ParamLimits
+0xdbd1,	// (0x0005aaf8) list_double_large_graphic_phob2_pane_g2_ParamLimits
 
-0xdc78,	// (0x00059ebc) list_double_large_graphic_phob2_pane_g2
-
-0x0001,
-
-0xff33,	// (0x0005c177) list_double_large_graphic_phob2_pane_g_ParamLimits
-
-0xff33,	// (0x0005c177) list_double_large_graphic_phob2_pane_g
-
-0xdc84,	// (0x00059ec8) list_double_large_graphic_phob2_pane_t1_ParamLimits
-
-0xdc84,	// (0x00059ec8) list_double_large_graphic_phob2_pane_t1
-
-0xdc99,	// (0x00059edd) list_double_large_graphic_phob2_pane_t2_ParamLimits
-
-0xdc99,	// (0x00059edd) list_double_large_graphic_phob2_pane_t2
+0xdbd1,	// (0x0005aaf8) list_double_large_graphic_phob2_pane_g2
 
 0x0001,
 
-0xff38,	// (0x0005c17c) list_double_large_graphic_phob2_pane_t_ParamLimits
+0xff29,	// (0x0005ce50) list_double_large_graphic_phob2_pane_g_ParamLimits
 
-0xff38,	// (0x0005c17c) list_double_large_graphic_phob2_pane_t
+0xff29,	// (0x0005ce50) list_double_large_graphic_phob2_pane_g
 
-0x037e,	// (0x0004c5c2) list_highlight_pane_cp024
+0xdbdd,	// (0x0005ab04) list_double_large_graphic_phob2_pane_t1_ParamLimits
 
-0x19fb,	// (0x0004dc3f) phob2_cc_button_pane
+0xdbdd,	// (0x0005ab04) list_double_large_graphic_phob2_pane_t1
 
-0xdcab,	// (0x00059eef) phob2_cc_data_pane_g1_ParamLimits
+0xdbf2,	// (0x0005ab19) list_double_large_graphic_phob2_pane_t2_ParamLimits
 
-0xdcab,	// (0x00059eef) phob2_cc_data_pane_g1
-
-0xdcb7,	// (0x00059efb) phob2_cc_data_pane_g2_ParamLimits
-
-0xdcb7,	// (0x00059efb) phob2_cc_data_pane_g2
+0xdbf2,	// (0x0005ab19) list_double_large_graphic_phob2_pane_t2
 
 0x0001,
 
-0xff3d,	// (0x0005c181) phob2_cc_data_pane_g_ParamLimits
+0xff2e,	// (0x0005ce55) list_double_large_graphic_phob2_pane_t_ParamLimits
 
-0xff3d,	// (0x0005c181) phob2_cc_data_pane_g
+0xff2e,	// (0x0005ce55) list_double_large_graphic_phob2_pane_t
 
-0xdcc3,	// (0x00059f07) phob2_cc_data_pane_t1_ParamLimits
+0x00f2,	// (0x0004d019) list_highlight_pane_cp024
 
-0xdcc3,	// (0x00059f07) phob2_cc_data_pane_t1
+0x166a,	// (0x0004e591) phob2_cc_button_pane
 
-0xdcd5,	// (0x00059f19) phob2_cc_data_pane_t2_ParamLimits
+0xdc04,	// (0x0005ab2b) phob2_cc_data_pane_g1_ParamLimits
 
-0xdcd5,	// (0x00059f19) phob2_cc_data_pane_t2
+0xdc04,	// (0x0005ab2b) phob2_cc_data_pane_g1
 
-0xdce7,	// (0x00059f2b) phob2_cc_data_pane_t3_ParamLimits
+0xdc10,	// (0x0005ab37) phob2_cc_data_pane_g2_ParamLimits
 
-0xdce7,	// (0x00059f2b) phob2_cc_data_pane_t3
+0xdc10,	// (0x0005ab37) phob2_cc_data_pane_g2
+
+0x0001,
+
+0xff33,	// (0x0005ce5a) phob2_cc_data_pane_g_ParamLimits
+
+0xff33,	// (0x0005ce5a) phob2_cc_data_pane_g
+
+0xdc1c,	// (0x0005ab43) phob2_cc_data_pane_t1_ParamLimits
+
+0xdc1c,	// (0x0005ab43) phob2_cc_data_pane_t1
+
+0xdc2e,	// (0x0005ab55) phob2_cc_data_pane_t2_ParamLimits
+
+0xdc2e,	// (0x0005ab55) phob2_cc_data_pane_t2
+
+0xdc40,	// (0x0005ab67) phob2_cc_data_pane_t3_ParamLimits
+
+0xdc40,	// (0x0005ab67) phob2_cc_data_pane_t3
 
 0x0002,
 
-0xff42,	// (0x0005c186) phob2_cc_data_pane_t_ParamLimits
+0xff38,	// (0x0005ce5f) phob2_cc_data_pane_t_ParamLimits
 
-0xff42,	// (0x0005c186) phob2_cc_data_pane_t
+0xff38,	// (0x0005ce5f) phob2_cc_data_pane_t
 
-0x1a03,	// (0x0004dc47) phob2_cc_list_pane_ParamLimits
+0x1672,	// (0x0004e599) phob2_cc_list_pane_ParamLimits
 
-0x1a03,	// (0x0004dc47) phob2_cc_list_pane
+0x1672,	// (0x0004e599) phob2_cc_list_pane
 
-0xe9af,	// (0x0005abf3) scroll_pane_cp035_ParamLimits
+0xe81f,	// (0x0005b746) scroll_pane_cp035_ParamLimits
 
-0xe9af,	// (0x0005abf3) scroll_pane_cp035
+0xe81f,	// (0x0005b746) scroll_pane_cp035
 
-0x334c,	// (0x0004f590) bg_button_pane_cp033
+0x3810,	// (0x00050737) bg_button_pane_cp033
 
-0x1a0f,	// (0x0004dc53) phob2_cc_button_pane_g1
+0x167e,	// (0x0004e5a5) phob2_cc_button_pane_g1
 
-0x1a1b,	// (0x0004dc5f) phob2_cc_button_pane_t1
+0x168a,	// (0x0004e5b1) phob2_cc_button_pane_t1
 
-0x1a30,	// (0x0004dc74) phob2_cc_button_pane_t2
+0x169f,	// (0x0004e5c6) phob2_cc_button_pane_t2
 
 0x0001,
 
-0xff49,	// (0x0005c18d) phob2_cc_button_pane_t
+0xff3f,	// (0x0005ce66) phob2_cc_button_pane_t
 
-0xdcf9,	// (0x00059f3d) list_double_large_graphic_phob2_cc_pane_ParamLimits
+0xdc52,	// (0x0005ab79) list_double_large_graphic_phob2_cc_pane_ParamLimits
 
-0xdcf9,	// (0x00059f3d) list_double_large_graphic_phob2_cc_pane
+0xdc52,	// (0x0005ab79) list_double_large_graphic_phob2_cc_pane
 
-0xdd20,	// (0x00059f64) list_double_large_graphic_phob2_cc_pane_g1_ParamLimits
+0xdc79,	// (0x0005aba0) list_double_large_graphic_phob2_cc_pane_g1_ParamLimits
 
-0xdd20,	// (0x00059f64) list_double_large_graphic_phob2_cc_pane_g1
+0xdc79,	// (0x0005aba0) list_double_large_graphic_phob2_cc_pane_g1
 
-0xdd31,	// (0x00059f75) list_double_large_graphic_phob2_cc_pane_g2_ParamLimits
+0xdc8a,	// (0x0005abb1) list_double_large_graphic_phob2_cc_pane_g2_ParamLimits
 
-0xdd31,	// (0x00059f75) list_double_large_graphic_phob2_cc_pane_g2
+0xdc8a,	// (0x0005abb1) list_double_large_graphic_phob2_cc_pane_g2
 
-0xdd40,	// (0x00059f84) list_double_large_graphic_phob2_cc_pane_g3_ParamLimits
+0xdc99,	// (0x0005abc0) list_double_large_graphic_phob2_cc_pane_g3_ParamLimits
 
-0xdd40,	// (0x00059f84) list_double_large_graphic_phob2_cc_pane_g3
+0xdc99,	// (0x0005abc0) list_double_large_graphic_phob2_cc_pane_g3
 
-0xdd4f,	// (0x00059f93) list_double_large_graphic_phob2_cc_pane_g4_ParamLimits
+0xdca8,	// (0x0005abcf) list_double_large_graphic_phob2_cc_pane_g4_ParamLimits
 
-0xdd4f,	// (0x00059f93) list_double_large_graphic_phob2_cc_pane_g4
+0xdca8,	// (0x0005abcf) list_double_large_graphic_phob2_cc_pane_g4
 
-0xdd60,	// (0x00059fa4) list_double_large_graphic_phob2_cc_pane_g5_ParamLimits
+0xdcb9,	// (0x0005abe0) list_double_large_graphic_phob2_cc_pane_g5_ParamLimits
 
-0xdd60,	// (0x00059fa4) list_double_large_graphic_phob2_cc_pane_g5
+0xdcb9,	// (0x0005abe0) list_double_large_graphic_phob2_cc_pane_g5
 
 0x0004,
 
-0xff4e,	// (0x0005c192) list_double_large_graphic_phob2_cc_pane_g_ParamLimits
+0xff44,	// (0x0005ce6b) list_double_large_graphic_phob2_cc_pane_g_ParamLimits
 
-0xff4e,	// (0x0005c192) list_double_large_graphic_phob2_cc_pane_g
+0xff44,	// (0x0005ce6b) list_double_large_graphic_phob2_cc_pane_g
 
-0xdd6f,	// (0x00059fb3) list_double_large_graphic_phob2_cc_pane_t1_ParamLimits
+0xdcc8,	// (0x0005abef) list_double_large_graphic_phob2_cc_pane_t1_ParamLimits
 
-0xdd6f,	// (0x00059fb3) list_double_large_graphic_phob2_cc_pane_t1
+0xdcc8,	// (0x0005abef) list_double_large_graphic_phob2_cc_pane_t1
 
-0xdd98,	// (0x00059fdc) list_double_large_graphic_phob2_cc_pane_t2_ParamLimits
+0xdcf1,	// (0x0005ac18) list_double_large_graphic_phob2_cc_pane_t2_ParamLimits
 
-0xdd98,	// (0x00059fdc) list_double_large_graphic_phob2_cc_pane_t2
+0xdcf1,	// (0x0005ac18) list_double_large_graphic_phob2_cc_pane_t2
 
 0x0001,
 
-0xff59,	// (0x0005c19d) list_double_large_graphic_phob2_cc_pane_t_ParamLimits
+0xff4f,	// (0x0005ce76) list_double_large_graphic_phob2_cc_pane_t_ParamLimits
 
-0xff59,	// (0x0005c19d) list_double_large_graphic_phob2_cc_pane_t
+0xff4f,	// (0x0005ce76) list_double_large_graphic_phob2_cc_pane_t
 
-0x1a42,	// (0x0004dc86) list_highlight_pane_cp025_ParamLimits
+0x16b1,	// (0x0004e5d8) list_highlight_pane_cp025_ParamLimits
 
-0x1a42,	// (0x0004dc86) list_highlight_pane_cp025
+0x16b1,	// (0x0004e5d8) list_highlight_pane_cp025
 
-0x334c,	// (0x0004f590) bg_button_pane_cp033_ParamLimits
+0x3810,	// (0x00050737) bg_button_pane_cp033_ParamLimits
 
-0x1a0f,	// (0x0004dc53) phob2_cc_button_pane_g1_ParamLimits
+0x167e,	// (0x0004e5a5) phob2_cc_button_pane_g1_ParamLimits
 
-0x1a1b,	// (0x0004dc5f) phob2_cc_button_pane_t1_ParamLimits
+0x168a,	// (0x0004e5b1) phob2_cc_button_pane_t1_ParamLimits
 
-0x1a30,	// (0x0004dc74) phob2_cc_button_pane_t2_ParamLimits
+0x169f,	// (0x0004e5c6) phob2_cc_button_pane_t2_ParamLimits
 
-0xff49,	// (0x0005c18d) phob2_cc_button_pane_t_ParamLimits
+0xff3f,	// (0x0005ce66) phob2_cc_button_pane_t_ParamLimits
 
-0x5e5c,	// (0x000520a0) popup_wgtman_window
+0x5cf8,	// (0x00052c1f) popup_wgtman_window
 
-0xe11c,	// (0x0005a360) scroll_pane_cp038
+0xdf5f,	// (0x0005ae86) scroll_pane_cp038
 
-0xd872,	// (0x00059ab6) wgtman_btn_pane_cp_01_ParamLimits
+0xd7da,	// (0x0005a701) wgtman_btn_pane_cp_01_ParamLimits
 
-0xd872,	// (0x00059ab6) wgtman_btn_pane_cp_01
+0xd7da,	// (0x0005a701) wgtman_btn_pane_cp_01
 
-0x1a50,	// (0x0004dc94) wgtman_content_pane
+0x16bf,	// (0x0004e5e6) wgtman_content_pane
 
-0x1a59,	// (0x0004dc9d) wgtman_heading_pane
+0x16c8,	// (0x0004e5ef) wgtman_heading_pane
 
-0x037e,	// (0x0004c5c2) bg_heading_pane_cp02
+0x00f2,	// (0x0004d019) bg_heading_pane_cp02
 
-0x1a62,	// (0x0004dca6) wgtman_heading_pane_g1
+0x16d1,	// (0x0004e5f8) wgtman_heading_pane_g1
 
-0x1a6a,	// (0x0004dcae) wgtman_heading_pane_t1
+0x16d9,	// (0x0004e600) wgtman_heading_pane_t1
 
-0x1a78,	// (0x0004dcbc) scroll_pane_cp036
+0x16e7,	// (0x0004e60e) scroll_pane_cp036
 
-0x1a80,	// (0x0004dcc4) wgtman_list_pane
+0x16ef,	// (0x0004e616) wgtman_list_pane
 
-0x1a88,	// (0x0004dccc) wgtman_list_pane_t1_ParamLimits
+0x16f7,	// (0x0004e61e) wgtman_list_pane_t1_ParamLimits
 
-0x1a88,	// (0x0004dccc) wgtman_list_pane_t1
+0x16f7,	// (0x0004e61e) wgtman_list_pane_t1
 
-0xab49,	// (0x00056d8d) cam4_grid_pane
+0xaa42,	// (0x00057969) cam4_grid_pane
 
-0xb892,	// (0x00057ad6) bg_button_pane_cp015_ParamLimits
+0xb776,	// (0x0005869d) bg_button_pane_cp015_ParamLimits
 
-0xb8a4,	// (0x00057ae8) bg_button_pane_cp016_ParamLimits
+0xb788,	// (0x000586af) bg_button_pane_cp016_ParamLimits
 
-0xb8b7,	// (0x00057afb) bg_button_pane_cp017_ParamLimits
+0xb79b,	// (0x000586c2) bg_button_pane_cp017_ParamLimits
 
-0xb90d,	// (0x00057b51) popup_vitu2_query_window_g3_ParamLimits
+0xb7f1,	// (0x00058718) popup_vitu2_query_window_g3_ParamLimits
 
-0xb90d,	// (0x00057b51) popup_vitu2_query_window_g3
+0xb7f1,	// (0x00058718) popup_vitu2_query_window_g3
 
-0xb9c8,	// (0x00057c0c) popup_vitu2_query_window_t6_ParamLimits
+0xb8ac,	// (0x000587d3) popup_vitu2_query_window_t6_ParamLimits
 
-0xb9c8,	// (0x00057c0c) popup_vitu2_query_window_t6
+0xb8ac,	// (0x000587d3) popup_vitu2_query_window_t6
 
-0xb9f3,	// (0x00057c37) popup_vitu2_query_window_t7_ParamLimits
+0xb8d7,	// (0x000587fe) popup_vitu2_query_window_t7_ParamLimits
 
-0xb9f3,	// (0x00057c37) popup_vitu2_query_window_t7
+0xb8d7,	// (0x000587fe) popup_vitu2_query_window_t7
 
-0xec79,	// (0x0005aebd) cam4_grid_pane_g1
+0x4bef,	// (0x00051b16) cam4_grid_pane_g1
 
-0xec82,	// (0x0005aec6) cam4_grid_pane_g2
+0x4bf8,	// (0x00051b1f) cam4_grid_pane_g2
 
-0x1aa5,	// (0x0004dce9) cam4_grid_pane_g3
+0x1711,	// (0x0004e638) cam4_grid_pane_g3
 
-0x1aae,	// (0x0004dcf2) cam4_grid_pane_g4
+0x171a,	// (0x0004e641) cam4_grid_pane_g4
 
 0x0003,
 
-0xff5e,	// (0x0005c1a2) cam4_grid_pane_g
+0xff54,	// (0x0005ce7b) cam4_grid_pane_g
 
-0x6bd5,	// (0x00052e19) aid_placing_vt_slider_lsc_ParamLimits
+0x6a73,	// (0x0005399a) aid_placing_vt_slider_lsc_ParamLimits
 
-0x6f21,	// (0x00053165) vidtel_button_pane_ParamLimits
+0x6dbf,	// (0x00053ce6) vidtel_button_pane_ParamLimits
 
-0x6f21,	// (0x00053165) vidtel_button_pane
+0x6dbf,	// (0x00053ce6) vidtel_button_pane
 
-0x1ab9,	// (0x0004dcfd) bg_button_pane_cp034
+0x1725,	// (0x0004e64c) bg_button_pane_cp034
 
-0xddc1,	// (0x0005a005) vidtel_button_pane_g1
+0xdd1a,	// (0x0005ac41) vidtel_button_pane_g1
 
-0x1ac3,	// (0x0004dd07) vidtel_button_pane_t1
+0x172f,	// (0x0004e656) vidtel_button_pane_t1
 
-0xe21e,	// (0x0005a462) aid_size_vtel_slider_touch
+0xe061,	// (0x0005af88) aid_size_vtel_slider_touch
 
-0xe9af,	// (0x0005abf3) scroll_pane_cp039
+0xe81f,	// (0x0005b746) scroll_pane_cp039
 
-0xeaca,	// (0x0005ad0e) ncim_query_button_pane_cp01_ParamLimits
+0xe93a,	// (0x0005b861) ncim_query_button_pane_cp01_ParamLimits
 
-0xeae9,	// (0x0005ad2d) ncimui_query_pane_g1_ParamLimits
+0xe959,	// (0x0005b880) ncimui_query_pane_g1_ParamLimits
 
-0x334c,	// (0x0004f590) input_focus_pane_cp012_ParamLimits
+0x3810,	// (0x00050737) input_focus_pane_cp012_ParamLimits
 
-0xeb0e,	// (0x0005ad52) ncim_query_entry_pane_t1_ParamLimits
+0xe97e,	// (0x0005b8a5) ncim_query_entry_pane_t1_ParamLimits
 
-0xe9af,	// (0x0005abf3) scroll_pane_cp039_ParamLimits
+0xe81f,	// (0x0005b746) scroll_pane_cp039_ParamLimits
 
-0x7ec9,	// (0x0005410d) navi_pane_bcale_mc_g1
+0x7d67,	// (0x00054c8e) navi_pane_bcale_mc_g1
 
-0x7ed1,	// (0x00054115) navi_pane_bcale_mc_t1
+0x7d6f,	// (0x00054c96) navi_pane_bcale_mc_t1
 
-0xf096,	// (0x0005b2da) main_sp_fs_email_pane_g1
+0xeef4,	// (0x0005be1b) main_sp_fs_email_pane_g1
 
-0xf09e,	// (0x0005b2e2) main_sp_fs_email_pane_g2
+0xeefc,	// (0x0005be23) main_sp_fs_email_pane_g2
 
 0x0001,
 
-0xfcfa,	// (0x0005bf3e) main_sp_fs_email_pane_g
+0xfcf0,	// (0x0005cc17) main_sp_fs_email_pane_g
 
-0x13a2,	// (0x0004d5e6) list_single_cale_mrui_row_pane_g3_ParamLimits
+0x0f9d,	// (0x0004dec4) list_single_cale_mrui_row_pane_g3_ParamLimits
 
-0x13a2,	// (0x0004d5e6) list_single_cale_mrui_row_pane_g3
+0x0f9d,	// (0x0004dec4) list_single_cale_mrui_row_pane_g3
 
-0xd506,	// (0x0005974a) list_single_recal_day_pane_g5_event_pane
+0xd462,	// (0x0005a389) list_single_recal_day_pane_g5_event_pane
 
-0x1567,	// (0x0004d7ab) list_single_recal_day_pane_g7
+0x1162,	// (0x0004e089) list_single_recal_day_pane_g7
 
-0x1ad1,	// (0x0004dd15) list_recal_day_event_pane_cp01
+0x173d,	// (0x0004e664) list_recal_day_event_pane_cp01
 
-0x1ada,	// (0x0004dd1e) list_recal_vselct_arw_lo_pane_cp01
+0x1746,	// (0x0004e66d) list_recal_vselct_arw_lo_pane_cp01
 
-0x1ae2,	// (0x0004dd26) list_recal_vselct_arw_up_pane_cp01
+0x174e,	// (0x0004e675) list_recal_vselct_arw_up_pane_cp01
 
-0x1aea,	// (0x0004dd2e) list_recal_vselct_pane_cp01
+0x1756,	// (0x0004e67d) list_recal_vselct_pane_cp01
 
-0xe240,	// (0x0005a484) list_recal_day_event_pane_cp01_g1
+0xe083,	// (0x0005afaa) list_recal_day_event_pane_cp01_g1
 
-0x1af4,	// (0x0004dd38) list_recal_day_event_pane_cp01_t1
+0x1760,	// (0x0004e687) list_recal_day_event_pane_cp01_t1
 
-0x156f,	// (0x0004d7b3) list_single_recal_day_pane_t1_ParamLimits
+0x116a,	// (0x0004e091) list_single_recal_day_pane_t1_ParamLimits
 
-0x1581,	// (0x0004d7c5) list_single_recal_day_pane_t2_ParamLimits
+0x117c,	// (0x0004e0a3) list_single_recal_day_pane_t2_ParamLimits
 
-0xfe51,	// (0x0005c095) list_single_recal_day_pane_t_ParamLimits
+0xfe47,	// (0x0005cd6e) list_single_recal_day_pane_t_ParamLimits
 
-0x2239,	// (0x0004e47d) bg_notes_pane_ParamLimits
+0x1ebb,	// (0x0004ede2) bg_notes_pane_ParamLimits
 
-0x2247,	// (0x0004e48b) list_notes_pane_ParamLimits
+0x1ec9,	// (0x0004edf0) list_notes_pane_ParamLimits
 
-0x61ba,	// (0x000523fe) scroll_pane_cp06_ParamLimits
+0x6060,	// (0x00052f87) scroll_pane_cp06_ParamLimits
 
-0x2269,	// (0x0004e4ad) main_notes_pane_ParamLimits
+0x1eeb,	// (0x0004ee12) main_notes_pane_ParamLimits
 
-0x037e,	// (0x0004c5c2) main_welc_pane
+0x00f2,	// (0x0004d019) main_welc_pane
 
-0xddc9,	// (0x0005a00d) main_welc_body_pane_ParamLimits
+0xdd22,	// (0x0005ac49) main_welc_body_pane_ParamLimits
 
-0xddc9,	// (0x0005a00d) main_welc_body_pane
+0xdd22,	// (0x0005ac49) main_welc_body_pane
 
-0xddd8,	// (0x0005a01c) main_welc_opti_pane_ParamLimits
+0xdd3c,	// (0x0005ac63) main_welc_opti_pane_ParamLimits
 
-0xddd8,	// (0x0005a01c) main_welc_opti_pane
+0xdd3c,	// (0x0005ac63) main_welc_opti_pane
 
-0xdde7,	// (0x0005a02b) main_welc_pane_t1_ParamLimits
+0xdd6f,	// (0x0005ac96) main_welc_pane_t1_ParamLimits
 
-0xdde7,	// (0x0005a02b) main_welc_pane_t1
+0xdd6f,	// (0x0005ac96) main_welc_pane_t1
 
-0xddf9,	// (0x0005a03d) main_welc_body_row_pane_ParamLimits
+0xd014,	// (0x00059f3b) main_welc_body_row_pane_ParamLimits
 
-0xddf9,	// (0x0005a03d) main_welc_body_row_pane
+0xd014,	// (0x00059f3b) main_welc_body_row_pane
 
-0xde21,	// (0x0005a065) main_welc_opti_row_pane_ParamLimits
+0xdd89,	// (0x0005acb0) main_welc_opti_row_pane_ParamLimits
 
-0xde21,	// (0x0005a065) main_welc_opti_row_pane
+0xdd89,	// (0x0005acb0) main_welc_opti_row_pane
 
-0x1b02,	// (0x0004dd46) main_welc_opti_row_pane_g1
+0x176e,	// (0x0004e695) main_welc_opti_row_pane_g1
 
-0x1b0a,	// (0x0004dd4e) main_welc_opti_row_pane_t1
+0x1776,	// (0x0004e69d) main_welc_opti_row_pane_t1
 
-0x1b19,	// (0x0004dd5d) main_welc_body_row_pane_t1
+0x1785,	// (0x0004e6ac) main_welc_body_row_pane_t1
+
+0x1409,	// (0x0004e330) popup_notif_wgt_heading_pane
+
+0x1423,	// (0x0004e34a) aid_size_list_notif_wgt_del_ParamLimits
+
+0x1430,	// (0x0004e357) list_notif_wgt_row_pane_g1_ParamLimits
+
+0x143c,	// (0x0004e363) list_notif_wgt_row_pane_g2_ParamLimits
+
+0x1448,	// (0x0004e36f) list_notif_wgt_row_pane_g3_ParamLimits
+
+0xfeae,	// (0x0005cdd5) list_notif_wgt_row_pane_g_ParamLimits
+
+0x1455,	// (0x0004e37c) list_notif_wgt_row_pane_t1_ParamLimits
+
+0x146a,	// (0x0004e391) list_notif_wgt_row_pane_t2_ParamLimits
+
+0x147c,	// (0x0004e3a3) list_notif_wgt_row_pane_t3_ParamLimits
+
+0xfeb5,	// (0x0005cddc) list_notif_wgt_row_pane_t_ParamLimits
+
+0xd86c,	// (0x0005a793) listrow_wgtman_pane_g1_ParamLimits
+
+0xd879,	// (0x0005a7a0) listrow_wgtman_pane_g2_ParamLimits
+
+0xfed9,	// (0x0005ce00) listrow_wgtman_pane_g_ParamLimits
+
+0xd897,	// (0x0005a7be) listrow_wgtman_pane_t1_ParamLimits
+
+0xd8af,	// (0x0005a7d6) listrow_wgtman_pane_t2_ParamLimits
+
+0xfede,	// (0x0005ce05) listrow_wgtman_pane_t_ParamLimits
+
+0xd8d5,	// (0x0005a7fc) wait_bar_pane_cp09_ParamLimits
+
+0x00f2,	// (0x0004d019) bg_popup_heading_pane_cp02
+
+0x1794,	// (0x0004e6bb) popup_notif_wgt_heading_pane_g1
+
+0x179c,	// (0x0004e6c3) popup_notif_wgt_heading_pane_t1
+
+0x00f2,	// (0x0004d019) main_vids_pane
+
+0x00f2,	// (0x0004d019) vids_listscroll_pane
+
+0xdd9a,	// (0x0005acc1) scroll_pane_cp040
+
+0x00f2,	// (0x0004d019) vids_list_pane
+
+0xdda5,	// (0x0005accc) vids_list_double_pane_ParamLimits
+
+0xdda5,	// (0x0005accc) vids_list_double_pane
+
+0xddbf,	// (0x0005ace6) vids_list_double_pane_g1
+
+0xddc8,	// (0x0005acef) vids_list_double_pane_t1
+
+0xddd8,	// (0x0005acff) vids_list_double_pane_t2
+
+0x0001,
+
+0xff62,	// (0x0005ce89) vids_list_double_pane_t
+
+0x8b84,	// (0x00055aab) main_ncimui_pane_ParamLimits
+
+0xc449,	// (0x00059370) main_ncimui_pane_g1_ParamLimits
+
+0xc455,	// (0x0005937c) main_ncimui_pane_g2_ParamLimits
+
+0xc455,	// (0x0005937c) main_ncimui_pane_g2
+
+0x0001,
+
+0xfbf5,	// (0x0005cb1c) main_ncimui_pane_g_ParamLimits
+
+0xfbf5,	// (0x0005cb1c) main_ncimui_pane_g
+
+0xdd55,	// (0x0005ac7c) main_welc_pane_g1_ParamLimits
+
+0xdd55,	// (0x0005ac7c) main_welc_pane_g1
+
+0xdd61,	// (0x0005ac88) main_welc_pane_g2_ParamLimits
+
+0xdd61,	// (0x0005ac88) main_welc_pane_g2
+
+0x0001,
+
+0xff5d,	// (0x0005ce84) main_welc_pane_g_ParamLimits
+
+0xff5d,	// (0x0005ce84) main_welc_pane_g
 };
 
 
@@ -19286,6 +19376,51 @@ const AknLayoutScalable_Apps::SCdlImpl KCdlImpl =
 	&WindowLineVCR,
 	&TextLineVCR,
 	&TextLineVCR,
+	&WindowLineVCR,
+	&ParameterLimitsV,
+	&ParameterLimitsV,
+	&ParameterLimitsV,
+	&ParameterLimitsV,
+	&ParameterLimitsTableLV,
+	&ParameterLimitsV,
+	&ParameterLimitsV,
+	&ParameterLimitsV,
+	&ParameterLimitsTableLV,
+	&ParameterLimitsV,
+	&ParameterLimitsV,
+	&ParameterLimitsTableLV,
+	&ParameterLimitsV,
+	&ParameterLimitsV,
+	&ParameterLimitsTableLV,
+	&ParameterLimitsV,
+	&WindowLineVCR,
+	&WindowLineVCR,
+	&TextLineVCR,
+	&WindowLineVCR,
+	&WindowLineVCR,
+	&WindowLineVCR,
+	&WindowLineVCR,
+	&ParameterLimitsV,
+	&WindowLineVCR,
+	&WindowLineVCR,
+	&TextLineVCR,
+	&TextLineVCR,
+	&Limits,
+	&TextTableLVCR,
+	&ParameterLimitsV,
+	&ParameterLimitsV,
+	&ParameterLimitsV,
+	&WindowLineVCR,
+	&Limits,
+	&ParameterLimitsTableLV,
+	&WindowTableLVCR,
+	&ParameterLimitsV,
+	&WindowLineVCR,
+	&ParameterLimitsV,
+	&WindowLineVCR,
+	&Limits,
+	&ParameterLimitsTableLV,
+	&WindowTableLVCR,
 	};
 
 } // end of namespace AknLayoutScalable_Abrw_php_apps_qhd_prt_tch_Small

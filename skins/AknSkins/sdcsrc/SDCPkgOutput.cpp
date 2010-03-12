@@ -20,6 +20,7 @@
 #include "SDCException.h"
 #include "SDCInput.h"
 #include "AknsConstants.hrh"
+#include "SDCCompat.h"
 
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction
@@ -173,16 +174,16 @@ void CSDCPkgOutput::Output( CSDCData* aData, const char* aSkinName,
 
 
     vector<wchar_t*> soundFiles;
-    int i;
+    unsigned int i;
     for( i=0; i<aData->iStringDefVector.size(); i++ )
         {
         TSDCStringDef* entry = aData->iStringDefVector[i];
         if( entry->iIID.iMajor == EAknsMajorSound )
             {
             bool alreadyAppended = false;
-            for( int a=0; a<soundFiles.size(); a++ )
+            for( unsigned int a=0; a<soundFiles.size(); a++ )
                 {
-                if( !wcsicmp( entry->iString, soundFiles[a] ) )
+                if( ! sd_wcscasecmp( entry->iString, soundFiles[a] ) )
                     {
                     alreadyAppended = true;
                     }

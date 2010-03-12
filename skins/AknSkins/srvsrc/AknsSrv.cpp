@@ -516,9 +516,8 @@ void CAknsSrv::NotifyDRMChangeL()
                 else
                     {
                     RestoreDefaultIdleWP();
-                    // Merge and broadcast
                     iContentChanged = ETrue;
-                    MergeAndBroadcast();
+                    BroadcastUpdate();
                     // Also notify potential package list update
                     ForceNotifySessions(EAknsSCHNPackageListUpdate);
                     }

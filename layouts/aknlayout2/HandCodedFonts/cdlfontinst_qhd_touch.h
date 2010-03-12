@@ -21,7 +21,7 @@
 
 #ifndef CDLFONTINST_QHD_TOUCH_H
 #define CDLFONTINST_QHD_TOUCH_H
-#include "cdlfont.cdl.custom.h"
+#include "CdlFont.cdl.custom.h"
 #include "cdlfontinst_qhd_touch.hrh"
 
 namespace CdlFontInst_qhd_touch

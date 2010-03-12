@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2009-12-29 15:29:45.777" LayoutName="hnp4_c_nhd4_prt_tch" LayoutSetId="32" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.5336077897690271" MasterName="m_hcc_tch_92n_bsk" ppi="229.0" ppiUnit="Inches" resolutionHeight="640" resolutionWidth="360" VariantId="2" variant_abbreviation="ah" variant_name="arabic_hebrew">
+<Layout createdOn="2010-02-07 15:37:54.002" LayoutName="hnp4_c_nhd4_prt_tch" LayoutSetId="32" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.5336077897690271" MasterName="m_hcc_tch_92n_bsk" ppi="229.0" ppiUnit="Inches" resolutionHeight="640" resolutionWidth="360" VariantId="2" variant_abbreviation="ah" variant_name="arabic_hebrew">
     <Component drawingorder="0" id="1" mirror="true" name="Screen" type="Screen"/>
     <Component drawingorder="0" id="3" maxVariety="0" mirror="true" name="application_window" type="Pane"/>
     <Component drawingorder="0" id="4" maxVariety="5" mirror="true" name="area_top_pane" type="Pane"/>
