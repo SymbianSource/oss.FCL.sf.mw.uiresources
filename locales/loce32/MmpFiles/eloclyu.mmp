@@ -35,7 +35,7 @@ MW_LAYER_SYSTEMINCLUDE
 SYSTEMINCLUDE   ../../../inc
 SYSTEMINCLUDE   ../../inc
 SYSTEMINCLUDE   ../src
-SYSTEMINCLUDE   /epoc32/include/kernel
+SYMBIAN_BASE_SYSTEMINCLUDE(kernel)
 
 #if defined(ARMCC)
 DEFFILE         /epoc32/include/def/eabi/elocl.def

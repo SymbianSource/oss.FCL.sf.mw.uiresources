@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LayoutAttributes createdOn="2010-01-12 18:24:22.133" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.9220666716318745">
+<LayoutAttributes createdOn="2010-02-01 00:42:43.319" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.9220666716318745">
   <attributeset compId="1" name="D">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -23,7 +23,7 @@
       <calc value="7"/>
     </attribute>
     <attribute id="199" name="List margin middle">
-      <calc value="10"/>
+      <calc value="5"/>
     </attribute>
     <attribute id="200" name="List margin top">
       <calc value="3"/>
@@ -1589,6 +1589,20 @@
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="false"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="1151" name="D">
+    <attribute id="24" name="list type">
+      <calc value="Forced"/>
+    </attribute>
+    <attribute id="25" name="gap">
+      <calc value="0"/>
+    </attribute>
+    <attribute id="203" name="Height list single list pane">
+      <calc value="50"/>
+    </attribute>
+    <attribute id="205" name="Height list double">
+      <calc value="74"/>
     </attribute>
   </attributeset>
   <attributeset compId="1178" name="a0">
@@ -4154,7 +4168,7 @@
       <calc value="centered"/>
     </attribute>
     <attribute id="199" name="List margin middle">
-      <calc value="10"/>
+      <calc value="5"/>
     </attribute>
     <attribute id="200" name="List margin top">
       <calc value="5"/>
@@ -5041,7 +5055,7 @@
       <calc value="false"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="7"/>
+      <calc value="6"/>
     </attribute>
     <attribute id="50" name="Hz Align">
       <calc value="left"/>
@@ -5229,13 +5243,18 @@
       <calc value="false"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="6"/>
+      <calc value="5"/>
     </attribute>
     <attribute id="50" name="Hz Align">
       <calc value="left"/>
     </attribute>
     <attribute id="51" name="Vt Align">
       <calc value="top"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="4305" name="D">
+    <attribute id="203" name="Height list single list pane">
+      <calc value="50"/>
     </attribute>
   </attributeset>
   <attributeset compId="4306" name="a0">
@@ -7682,7 +7701,7 @@
       <calc value="false"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="4"/>
+      <calc value="7"/>
     </attribute>
     <attribute id="50" name="Hz Align">
       <calc value="centered"/>

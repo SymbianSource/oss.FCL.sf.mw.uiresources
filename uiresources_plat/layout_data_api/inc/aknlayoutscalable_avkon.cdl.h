@@ -12448,6 +12448,15 @@ inline TAknTextComponentLayout cell_graphic2_pane_t(TInt aLineIndex, TInt aVarie
 // LAF Table : cell_graphic2_control_pane
 inline TAknTextComponentLayout cell_graphic2_control_pane_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tcell_graphic2_control_pane_t1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_cell_graphic2_control_pane_t1)))(aVariety, aCol, aRow); }
 
+// LAF Table : signal_pane
+inline TAknLayoutScalableParameterLimits signal_pane_g3_ParamLimits(TInt aVariety)		{ return (*(Tsignal_pane_g3_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_signal_pane_g3_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout signal_pane_g3(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tsignal_pane_g3_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_signal_pane_g3)))(aVariety, aCol, aRow); }
+
+inline TAknLayoutScalableParameterLimits signal_pane_g4_ParamLimits(TInt aVariety)		{ return (*(Tsignal_pane_g4_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_signal_pane_g4_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout signal_pane_g4(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tsignal_pane_g4_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_signal_pane_g4)))(aVariety, aCol, aRow); }
+
 #ifdef __VC32__
 #pragma component(mintypeinfo, on)
 #endif
@@ -24873,6 +24882,15 @@ public:
 
 	// LAF Table : cell_graphic2_control_pane
 	inline TAknTextComponentLayout cell_graphic2_control_pane_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tcell_graphic2_control_pane_t1_sig*)(GetFunction(EApiId_cell_graphic2_control_pane_t1)))(aVariety, aCol, aRow); }
+
+	// LAF Table : signal_pane
+	inline TAknLayoutScalableParameterLimits signal_pane_g3_ParamLimits(TInt aVariety) const		{ return (*(Tsignal_pane_g3_ParamLimits_sig*)(GetFunction(EApiId_signal_pane_g3_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout signal_pane_g3(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tsignal_pane_g3_sig*)(GetFunction(EApiId_signal_pane_g3)))(aVariety, aCol, aRow); }
+
+	inline TAknLayoutScalableParameterLimits signal_pane_g4_ParamLimits(TInt aVariety) const		{ return (*(Tsignal_pane_g4_ParamLimits_sig*)(GetFunction(EApiId_signal_pane_g4_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout signal_pane_g4(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tsignal_pane_g4_sig*)(GetFunction(EApiId_signal_pane_g4)))(aVariety, aCol, aRow); }
 
 private:
 	CInstance();

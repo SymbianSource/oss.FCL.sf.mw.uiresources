@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2010-01-12 18:43:55.412" LayoutName="pvl4_avk_vga4_lsc_tch" LayoutSetId="267" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.7512846128761481" MasterName="m_avk_tch_92v_bsk" ppi="333.33" ppiUnit="Inches" resolutionHeight="480" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
+<Layout createdOn="2010-02-01 01:34:41.133" LayoutName="pvl4_avk_vga4_lsc_tch" LayoutSetId="267" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.7512846128761481" MasterName="m_avk_tch_92v_bsk" ppi="333.33" ppiUnit="Inches" resolutionHeight="480" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
     <Component drawingorder="3" id="0.005041552600666077" maxVariety="0" mirror="true" name="text_secondary" type="Text"/>
     <Component drawingorder="1" id="0.112689209815522" maxVariety="0" mirror="true" name="text_primary" type="Text"/>
     <Component drawingorder="0" id="0.3077307233172313" maxVariety="0" mirror="true" name="text_title" type="Text"/>
@@ -410,7 +410,7 @@
     <Component drawingorder="0" id="1730" maxVariety="3" mirror="true" name="indicator_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="1731" maxVariety="2" mirror="true" name="listscroll_menu_pane" type="Pane"/>
     <Component drawingorder="0" id="1732" maxVariety="3" mirror="true" name="scroll_pane_cp25" type="Pane"/>
-    <Component drawingorder="1" id="1733" maxVariety="3" mirror="true" name="list_menu_pane" type="Pane"/>
+    <Component drawingorder="1" id="1733" maxVariety="4" mirror="true" name="list_menu_pane" type="Pane"/>
     <Component drawingorder="1" id="1862" maxVariety="15" mirror="true" name="signal_pane" type="Pane"/>
     <Component drawingorder="3" id="1883" maxVariety="2" mirror="true" name="popup_side_volume_key_window" type="Pane"/>
     <Component drawingorder="0" id="1884" maxVariety="2" mirror="false" name="bg_popup_sub_pane_cp22" type="Pane"/>
@@ -2790,14 +2790,14 @@
     <Component drawingorder="8" id="8167" maxVariety="0" mirror="true" name="set_opt_bg_pane_g9_copy2" type="Graphic"/>
     <Component drawingorder="1" id="8168" maxVariety="1" mirror="true" name="setting_slider_pane_t1_copy1" type="Text"/>
     <Component drawingorder="2" id="8169" maxVariety="1" mirror="true" name="slider_set_pane_copy1" type="Pane"/>
-    <Component drawingorder="0" id="8170" maxVariety="0" mirror="true" name="slider_set_pane_g1_copy1" type="Graphic"/>
-    <Component drawingorder="1" id="8171" maxVariety="0" mirror="true" name="slider_set_pane_g2_copy1" type="Graphic"/>
-    <Component drawingorder="2" id="8172" maxVariety="1" mirror="true" name="slider_set_pane_g3_copy1" type="Graphic"/>
-    <Component drawingorder="3" id="8173" maxVariety="1" mirror="true" name="slider_set_pane_g4_copy1" type="Graphic"/>
-    <Component drawingorder="4" id="8174" maxVariety="1" mirror="true" name="slider_set_pane_g5_copy1" type="Graphic"/>
-    <Component drawingorder="5" id="8175" maxVariety="1" mirror="true" name="slider_set_pane_g6_copy1" type="Graphic"/>
-    <Component drawingorder="6" id="8176" maxVariety="1" mirror="true" name="slider_set_pane_g7_copy1" type="Graphic"/>
-    <Component drawingorder="7" id="8177" maxVariety="1" mirror="true" name="aid_size_touch_slider_mark_copy1" type="Pane"/>
+    <Component drawingorder="0" id="8170" maxVariety="0" mirror="false" name="slider_set_pane_g1_copy1" type="Graphic"/>
+    <Component drawingorder="1" id="8171" maxVariety="0" mirror="false" name="slider_set_pane_g2_copy1" type="Graphic"/>
+    <Component drawingorder="2" id="8172" maxVariety="1" mirror="false" name="slider_set_pane_g3_copy1" type="Graphic"/>
+    <Component drawingorder="3" id="8173" maxVariety="1" mirror="false" name="slider_set_pane_g4_copy1" type="Graphic"/>
+    <Component drawingorder="4" id="8174" maxVariety="1" mirror="false" name="slider_set_pane_g5_copy1" type="Graphic"/>
+    <Component drawingorder="5" id="8175" maxVariety="1" mirror="false" name="slider_set_pane_g6_copy1" type="Graphic"/>
+    <Component drawingorder="6" id="8176" maxVariety="1" mirror="false" name="slider_set_pane_g7_copy1" type="Graphic"/>
+    <Component drawingorder="7" id="8177" maxVariety="1" mirror="false" name="aid_size_touch_slider_mark_copy1" type="Pane"/>
     <Component drawingorder="3" id="8178" maxVariety="1" mirror="true" name="setting_slider_pane_t2_copy1" type="Text"/>
     <Component drawingorder="4" id="8179" maxVariety="1" mirror="true" name="setting_slider_pane_t3_copy1" type="Text"/>
     <Component drawingorder="5" id="8180" maxVariety="0" mirror="true" name="setting_slider_graphic_pane_copy1" type="Pane"/>
@@ -2902,4 +2902,6 @@
     <Component drawingorder="5" id="8316" maxVariety="0" mirror="true" name="indicator_nsta_pane_cp_g6" type="Graphic"/>
     <Component drawingorder="7" id="8317" maxVariety="1" mirror="true" name="cell_graphic2_pane_t2" type="Text"/>
     <Component drawingorder="2" id="8318" maxVariety="0" mirror="true" name="cell_graphic2_control_pane_t1" type="Text"/>
+    <Component drawingorder="3" id="8320" maxVariety="2" mirror="true" name="signal_pane_g3" type="Graphic"/>
+    <Component drawingorder="4" id="8321" maxVariety="2" mirror="true" name="signal_pane_g4" type="Graphic"/>
 </Layout>

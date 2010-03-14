@@ -21,7 +21,6 @@
 #include <kernel/ls_std.h>
 #include <complocl.h>
 #include "unicodeconv.h"
-#include <shiftjis.h>
 #include <languages.hrh>
 
 
