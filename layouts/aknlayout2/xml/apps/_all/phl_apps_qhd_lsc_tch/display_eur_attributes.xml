@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LayoutAttributes createdOn="2010-02-11 20:57:16.086" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.6900747253135928">
+<LayoutAttributes createdOn="2010-03-04 09:58:21.075" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.6900747253135928">
   <attributeset compId="1" name="D">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -732,7 +732,7 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="3"/>
+      <calc value="4"/>
     </attribute>
     <attribute id="49" name="Number of columns">
       <calc value="1"/>
@@ -3808,23 +3808,6 @@
       <calc value="true"/>
     </attribute>
   </attributeset>
-  <attributeset compId="4012" name="a0">
-    <attribute id="8" name="style 1">
-      <calc value="plain"/>
-    </attribute>
-    <attribute id="9" name="style 2">
-      <calc value="regular"/>
-    </attribute>
-    <attribute id="10" name="style 3">
-      <calc value="none"/>
-    </attribute>
-    <attribute id="12" name="shadow colour">
-      <calc value="215"/>
-    </attribute>
-    <attribute id="1059" name="Concatenated rows">
-      <calc value="false"/>
-    </attribute>
-  </attributeset>
   <attributeset compId="4012" name="a1">
     <attribute id="8" name="style 1">
       <calc value="plain"/>
@@ -6637,6 +6620,9 @@
     <attribute id="48" name="Number of rows">
       <calc value="4"/>
     </attribute>
+    <attribute id="51" name="Vt Align">
+      <calc value="centered"/>
+    </attribute>
   </attributeset>
   <attributeset compId="5170" name="a0">
     <attribute id="8" name="style 1">
@@ -7190,7 +7176,7 @@
       <calc value="true"/>
     </attribute>
     <attribute id="49" name="Number of columns">
-      <calc value="9"/>
+      <calc value="7"/>
     </attribute>
     <attribute id="50" name="Hz Align">
       <calc value="centered"/>
@@ -7924,7 +7910,7 @@
       <calc value="Forced"/>
     </attribute>
     <attribute id="25" name="gap">
-      <calc value="25"/>
+      <calc value="20"/>
     </attribute>
     <attribute id="46" name="Multi Row">
       <calc value="false"/>
@@ -7947,7 +7933,7 @@
       <calc value="Forced"/>
     </attribute>
     <attribute id="25" name="gap">
-      <calc value="25"/>
+      <calc value="20"/>
     </attribute>
     <attribute id="46" name="Multi Row">
       <calc value="false"/>
@@ -8112,10 +8098,10 @@
       <calc value="Forced"/>
     </attribute>
     <attribute id="25" name="gap">
-      <calc value="20"/>
+      <calc value="0"/>
     </attribute>
     <attribute id="44" name="Top Margin">
-      <calc value="10"/>
+      <calc value="3"/>
     </attribute>
     <attribute id="46" name="Multi Row">
       <calc value="true"/>
@@ -8322,7 +8308,7 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="4"/>
+      <calc value="5"/>
     </attribute>
   </attributeset>
   <attributeset compId="6553" name="a0">
@@ -8344,7 +8330,7 @@
   </attributeset>
   <attributeset compId="6946" name="a0">
     <attribute id="24" name="list type">
-      <calc value="Forced"/>
+      <calc value="forced"/>
     </attribute>
     <attribute id="25" name="gap">
       <calc value="0"/>
@@ -8352,11 +8338,17 @@
     <attribute id="46" name="Multi Row">
       <calc value="true"/>
     </attribute>
+    <attribute id="47" name="Multi Column">
+      <calc value="true"/>
+    </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="3" zoom="+3 zoom"/>
-      <calc value="5" zoom="-3 zoom"/>
-      <calc value="5" zoom="-2 zoom"/>
-      <calc value="4"/>
+      <calc value="4" zoom="+3 zoom"/>
+      <calc value="6" zoom="-3 zoom"/>
+      <calc value="6" zoom="-2 zoom"/>
+      <calc value="5"/>
+    </attribute>
+    <attribute id="49" name="Number of columns">
+      <calc value="1"/>
     </attribute>
   </attributeset>
   <attributeset compId="6950" name="a0">
@@ -8424,7 +8416,7 @@
       <calc value="3"/>
     </attribute>
     <attribute id="49" name="Number of columns">
-      <calc value="8"/>
+      <calc value="7"/>
     </attribute>
   </attributeset>
   <attributeset compId="6987" name="a0">
@@ -8556,6 +8548,23 @@
     </attribute>
   </attributeset>
   <attributeset compId="7012" name="a0">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="false"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="7029" name="a0">
     <attribute id="8" name="style 1">
       <calc value="plain"/>
     </attribute>
@@ -8970,7 +8979,7 @@
       <calc value="7" zoom="+1 zoom"/>
       <calc value="7" zoom="+2 zoom"/>
       <calc value="6" zoom="+3 zoom"/>
-      <calc value="10" zoom="-3 zoom"/>
+      <calc value="11" zoom="-3 zoom"/>
       <calc value="9" zoom="-2 zoom"/>
       <calc value="8"/>
     </attribute>
@@ -9840,7 +9849,7 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="2"/>
+      <calc value="1"/>
     </attribute>
   </attributeset>
   <attributeset compId="8077" name="a0">
@@ -9889,6 +9898,23 @@
     </attribute>
     <attribute id="48" name="Number of rows">
       <calc value="3"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="8098" name="a0">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="false"/>
     </attribute>
   </attributeset>
 </LayoutAttributes>

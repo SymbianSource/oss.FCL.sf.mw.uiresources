@@ -369,7 +369,7 @@ void CAknNGAFormatHandler::SupportedDisplayMode(
     {
     // Modes currently supported by SVG engine are:
     // EGray2, EColor4K, EColor64K, EColor16M
-    if ( aMode != EGray2 )
+//    if ( aMode != EGray2 ) EASK-824CMD:VGISymbianCopyToBitmap fails for bitmaps with EGray2 display modes.Modifying to create bitmaps with supported displaymodes
         {
         aMode = aPreferredMode;
         }

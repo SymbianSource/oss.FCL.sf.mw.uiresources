@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2010-02-11 20:58:12.003" LayoutName="phl_apps_qhd_lsc_tch" LayoutSetId="267" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.6900747253135928" MasterName="m_app_tch_92n_bsk" ppi="229.0" ppiUnit="Inches" resolutionHeight="360" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
+<Layout createdOn="2010-03-04 09:59:17.708" LayoutName="phl_apps_qhd_lsc_tch" LayoutSetId="267" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.6900747253135928" MasterName="m_app_tch_92n_bsk" ppi="229.0" ppiUnit="Inches" resolutionHeight="360" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
     <Component drawingorder="0" id="1" mirror="true" name="Screen" type="Screen"/>
     <Component drawingorder="0" id="2" maxVariety="0" mirror="true" name="application_window" type="Container"/>
     <Component drawingorder="16" id="11" maxVariety="3" mirror="true" name="navi_pane_mv_g2" type="Graphic"/>
@@ -54,7 +54,7 @@
     <Component drawingorder="2" id="66" maxVariety="0" mirror="false" name="main_clock_pane" type="Pane"/>
     <Component drawingorder="3" id="68" maxVariety="0" mirror="false" name="main_help_pane" type="Pane"/>
     <Component drawingorder="4" id="70" maxVariety="0" mirror="false" name="main_qdial_pane" type="Pane"/>
-    <Component drawingorder="5" id="72" maxVariety="0" mirror="false" name="main_messa_pane" type="Pane"/>
+    <Component drawingorder="5" id="72" maxVariety="1" mirror="false" name="main_messa_pane" type="Pane"/>
     <Component drawingorder="17" id="73" maxVariety="1" mirror="false" name="main_notes_pane" type="Pane"/>
     <Component drawingorder="0" id="80" maxVariety="3" mirror="false" name="calc_paper_pane" type="Pane"/>
     <Component drawingorder="1" id="81" maxVariety="3" mirror="false" name="calc_display_pane" type="Pane"/>
@@ -133,49 +133,49 @@
     <Component drawingorder="6" id="165" maxVariety="0" mirror="false" name="notes_bg_pane_g9" type="Graphic"/>
     <Component drawingorder="1" id="166" maxVariety="0" mirror="true" name="aid_popup_sp_fs_bg_corner_pane" type="Pane"/>
     <Component drawingorder="1" id="167" maxVariety="0" mirror="true" name="popup_sp_fs_calendar_preview_list_pane" type="Pane"/>
-    <Component drawingorder="18" id="168" maxVariety="0" mirror="false" name="main_cale_week_pane" type="Pane"/>
+    <Component drawingorder="18" id="168" maxVariety="2" mirror="false" name="main_cale_week_pane" type="Pane"/>
     <Component drawingorder="0" id="169" maxVariety="1" mirror="true" name="popup_sp_fs_calendar_preview_list_single_pane_t1" type="Text"/>
     <Component drawingorder="1" id="170" maxVariety="0" mirror="true" name="popup_sp_fs_calendar_preview_list_single_pane_g1" type="Graphic"/>
     <Component drawingorder="2" id="171" maxVariety="0" mirror="true" name="popup_sp_fs_calendar_preview_list_single_pane_g2" type="Graphic"/>
-    <Component drawingorder="0" id="196" maxVariety="1" mirror="true" name="listscroll_cale_week_pane" type="Pane"/>
-    <Component drawingorder="0" id="197" maxVariety="3" mirror="true" name="scroll_pane_cp08" type="Pane"/>
-    <Component drawingorder="1" id="198" maxVariety="3" mirror="true" name="bg_cale_pane_cp01" type="Pane"/>
-    <Component drawingorder="2" id="199" maxVariety="3" mirror="true" name="grid_cale_week_pane" type="Pane"/>
-    <Component drawingorder="3" id="200" maxVariety="3" mirror="true" name="cale_week_day_heading_pane" type="Pane"/>
-    <Component drawingorder="4" id="201" maxVariety="3" mirror="true" name="cale_week_time_pane" type="Pane"/>
-    <Component drawingorder="5" id="202" maxVariety="3" mirror="true" name="cale_week_corner_pane" type="Pane"/>
-    <Component drawingorder="6" id="203" maxVariety="3" mirror="true" name="cale_week_scroll_pane_g1" type="Graphic"/>
-    <Component drawingorder="7" id="204" maxVariety="3" mirror="true" name="cale_week_scroll_pane_g2" type="Graphic"/>
-    <Component drawingorder="0" id="218" maxVariety="3" mirror="true" name="cale_week_day_heading_pane_t1" type="Text"/>
-    <Component drawingorder="1" id="219" maxVariety="3" mirror="true" name="cale_week_day_heading_pane_t2" type="Text"/>
-    <Component drawingorder="2" id="220" maxVariety="3" mirror="true" name="cale_week_day_heading_pane_t3" type="Text"/>
-    <Component drawingorder="3" id="221" maxVariety="3" mirror="true" name="cale_week_day_heading_pane_t4" type="Text"/>
-    <Component drawingorder="4" id="222" maxVariety="3" mirror="true" name="cale_week_day_heading_pane_t5" type="Text"/>
-    <Component drawingorder="5" id="223" maxVariety="3" mirror="true" name="cale_week_day_heading_pane_t6" type="Text"/>
-    <Component drawingorder="6" id="224" maxVariety="3" mirror="true" name="cale_week_day_heading_pane_t7" type="Text"/>
-    <Component drawingorder="7" id="225" maxVariety="3" mirror="false" name="cale_week_time_pane_t1" type="Text"/>
-    <Component drawingorder="0" id="226" maxVariety="3" mirror="false" name="cale_week_time_pane_t2" type="Text"/>
-    <Component drawingorder="1" id="227" maxVariety="3" mirror="false" name="cale_week_time_pane_t3" type="Text"/>
-    <Component drawingorder="2" id="228" maxVariety="3" mirror="false" name="cale_week_time_pane_t4" type="Text"/>
-    <Component drawingorder="3" id="229" maxVariety="3" mirror="false" name="cale_week_time_pane_t5" type="Text"/>
-    <Component drawingorder="4" id="230" maxVariety="3" mirror="false" name="cale_week_time_pane_t6" type="Text"/>
-    <Component drawingorder="5" id="231" maxVariety="3" mirror="false" name="cale_week_time_pane_t7" type="Text"/>
-    <Component drawingorder="6" id="232" maxVariety="3" mirror="false" name="cale_week_time_pane_t8" type="Text"/>
-    <Component drawingorder="0" id="233" maxVariety="3" mirror="true" name="cell_cale_week_pane" type="Pane"/>
+    <Component drawingorder="0" id="196" maxVariety="2" mirror="true" name="listscroll_cale_week_pane" type="Pane"/>
+    <Component drawingorder="0" id="197" maxVariety="5" mirror="true" name="scroll_pane_cp08" type="Pane"/>
+    <Component drawingorder="1" id="198" maxVariety="5" mirror="true" name="bg_cale_pane_cp01" type="Pane"/>
+    <Component drawingorder="2" id="199" maxVariety="5" mirror="true" name="grid_cale_week_pane" type="Pane"/>
+    <Component drawingorder="3" id="200" maxVariety="5" mirror="true" name="cale_week_day_heading_pane" type="Pane"/>
+    <Component drawingorder="4" id="201" maxVariety="5" mirror="true" name="cale_week_time_pane" type="Pane"/>
+    <Component drawingorder="5" id="202" maxVariety="5" mirror="true" name="cale_week_corner_pane" type="Pane"/>
+    <Component drawingorder="6" id="203" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g1" type="Graphic"/>
+    <Component drawingorder="7" id="204" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g2" type="Graphic"/>
+    <Component drawingorder="0" id="218" maxVariety="5" mirror="true" name="cale_week_day_heading_pane_t1" type="Text"/>
+    <Component drawingorder="1" id="219" maxVariety="5" mirror="true" name="cale_week_day_heading_pane_t2" type="Text"/>
+    <Component drawingorder="2" id="220" maxVariety="5" mirror="true" name="cale_week_day_heading_pane_t3" type="Text"/>
+    <Component drawingorder="3" id="221" maxVariety="5" mirror="true" name="cale_week_day_heading_pane_t4" type="Text"/>
+    <Component drawingorder="4" id="222" maxVariety="5" mirror="true" name="cale_week_day_heading_pane_t5" type="Text"/>
+    <Component drawingorder="5" id="223" maxVariety="5" mirror="true" name="cale_week_day_heading_pane_t6" type="Text"/>
+    <Component drawingorder="6" id="224" maxVariety="5" mirror="true" name="cale_week_day_heading_pane_t7" type="Text"/>
+    <Component drawingorder="7" id="225" maxVariety="5" mirror="false" name="cale_week_time_pane_t1" type="Text"/>
+    <Component drawingorder="0" id="226" maxVariety="5" mirror="false" name="cale_week_time_pane_t2" type="Text"/>
+    <Component drawingorder="1" id="227" maxVariety="5" mirror="false" name="cale_week_time_pane_t3" type="Text"/>
+    <Component drawingorder="2" id="228" maxVariety="5" mirror="false" name="cale_week_time_pane_t4" type="Text"/>
+    <Component drawingorder="3" id="229" maxVariety="5" mirror="false" name="cale_week_time_pane_t5" type="Text"/>
+    <Component drawingorder="4" id="230" maxVariety="5" mirror="false" name="cale_week_time_pane_t6" type="Text"/>
+    <Component drawingorder="5" id="231" maxVariety="5" mirror="false" name="cale_week_time_pane_t7" type="Text"/>
+    <Component drawingorder="6" id="232" maxVariety="5" mirror="false" name="cale_week_time_pane_t8" type="Text"/>
+    <Component drawingorder="0" id="233" maxVariety="5" mirror="true" name="cell_cale_week_pane" type="Pane"/>
     <Component drawingorder="0" id="249" maxVariety="0" mirror="true" name="grid_highlight_pane_cp07" type="Pane"/>
-    <Component drawingorder="8" id="250" maxVariety="3" mirror="true" name="cale_week_scroll_pane_g3" type="Graphic"/>
-    <Component drawingorder="9" id="251" maxVariety="3" mirror="true" name="cale_week_scroll_pane_g4" type="Graphic"/>
-    <Component drawingorder="10" id="252" maxVariety="3" mirror="true" name="cale_week_scroll_pane_g5" type="Graphic"/>
-    <Component drawingorder="11" id="253" maxVariety="3" mirror="true" name="cale_week_scroll_pane_g6" type="Graphic"/>
-    <Component drawingorder="12" id="254" maxVariety="3" mirror="true" name="cale_week_scroll_pane_g7" type="Graphic"/>
-    <Component drawingorder="13" id="255" maxVariety="3" mirror="true" name="cale_week_scroll_pane_g8" type="Graphic"/>
-    <Component drawingorder="14" id="256" maxVariety="3" mirror="true" name="cale_week_scroll_pane_g9" type="Graphic"/>
-    <Component drawingorder="15" id="257" maxVariety="3" mirror="true" name="cale_week_scroll_pane_g10" type="Graphic"/>
-    <Component drawingorder="16" id="258" maxVariety="3" mirror="true" name="cale_week_scroll_pane_g11" type="Graphic"/>
-    <Component drawingorder="17" id="259" maxVariety="3" mirror="true" name="cale_week_scroll_pane_g12" type="Graphic"/>
-    <Component drawingorder="18" id="260" maxVariety="3" mirror="true" name="cale_week_scroll_pane_g13" type="Graphic"/>
-    <Component drawingorder="19" id="261" maxVariety="3" mirror="true" name="cale_week_scroll_pane_g14" type="Graphic"/>
-    <Component drawingorder="20" id="262" maxVariety="3" mirror="true" name="cale_week_scroll_pane_g15" type="Graphic"/>
+    <Component drawingorder="8" id="250" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g3" type="Graphic"/>
+    <Component drawingorder="9" id="251" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g4" type="Graphic"/>
+    <Component drawingorder="10" id="252" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g5" type="Graphic"/>
+    <Component drawingorder="11" id="253" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g6" type="Graphic"/>
+    <Component drawingorder="12" id="254" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g7" type="Graphic"/>
+    <Component drawingorder="13" id="255" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g8" type="Graphic"/>
+    <Component drawingorder="14" id="256" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g9" type="Graphic"/>
+    <Component drawingorder="15" id="257" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g10" type="Graphic"/>
+    <Component drawingorder="16" id="258" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g11" type="Graphic"/>
+    <Component drawingorder="17" id="259" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g12" type="Graphic"/>
+    <Component drawingorder="18" id="260" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g13" type="Graphic"/>
+    <Component drawingorder="19" id="261" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g14" type="Graphic"/>
+    <Component drawingorder="20" id="262" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g15" type="Graphic"/>
     <Component drawingorder="24" id="263" maxVariety="0" mirror="false" name="main_graph_messa_pane" type="Pane"/>
     <Component drawingorder="0" id="265" maxVariety="0" mirror="true" name="listscroll_gms_pane" type="Pane"/>
     <Component drawingorder="0" id="266" maxVariety="0" mirror="true" name="scroll_pane_cp010" type="Pane"/>
@@ -277,7 +277,7 @@
     <Component drawingorder="8" id="419" maxVariety="0" mirror="true" name="wml_button_bg_pane_g9" type="Graphic"/>
     <Component drawingorder="1" id="420" maxVariety="0" mirror="true" name="wml_button_pane_g1" type="Graphic"/>
     <Component drawingorder="2" id="421" maxVariety="0" mirror="true" name="wml_button_pane_t1" type="Text"/>
-    <Component drawingorder="0" id="422" maxVariety="0" mirror="true" name="listscroll_mce_pane" type="Pane"/>
+    <Component drawingorder="0" id="422" maxVariety="1" mirror="true" name="listscroll_mce_pane" type="Pane"/>
     <Component drawingorder="0" id="423" maxVariety="0" mirror="true" name="bg_list_pane_cp02" type="Pane"/>
     <Component drawingorder="1" id="424" maxVariety="1" mirror="true" name="mce_header_pane" type="Pane"/>
     <Component drawingorder="2" id="425" maxVariety="1" mirror="true" name="mce_text_pane" type="Pane"/>
@@ -290,43 +290,43 @@
     <Component drawingorder="0" id="433" maxVariety="0" mirror="true" name="list_single_mce_message_pane" type="Pane"/>
     <Component drawingorder="0" id="434" maxVariety="0" mirror="true" name="list_single_mce_message_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="435" maxVariety="0" mirror="true" name="list_single_mce_message_pane_t1" type="Text"/>
-    <Component drawingorder="20" id="436" maxVariety="1" mirror="false" name="main_cale_month_pane" type="Pane"/>
-    <Component drawingorder="0" id="437" maxVariety="7" mirror="true" name="bg_cale_pane_cp02" type="Pane"/>
-    <Component drawingorder="1" id="438" maxVariety="3" mirror="true" name="cale_month_corner_pane" type="Pane"/>
-    <Component drawingorder="2" id="439" maxVariety="7" mirror="true" name="cale_month_day_heading_pane" type="Pane"/>
-    <Component drawingorder="3" id="440" maxVariety="3" mirror="true" name="cale_month_week_pane" type="Pane"/>
-    <Component drawingorder="4" id="441" maxVariety="7" mirror="true" name="grid_cale_month_pane" type="Pane"/>
-    <Component drawingorder="5" id="442" maxVariety="7" mirror="true" name="cale_month_pane_g1" type="Graphic"/>
+    <Component drawingorder="20" id="436" maxVariety="2" mirror="false" name="main_cale_month_pane" type="Pane"/>
+    <Component drawingorder="0" id="437" maxVariety="11" mirror="true" name="bg_cale_pane_cp02" type="Pane"/>
+    <Component drawingorder="1" id="438" maxVariety="5" mirror="true" name="cale_month_corner_pane" type="Pane"/>
+    <Component drawingorder="2" id="439" maxVariety="11" mirror="true" name="cale_month_day_heading_pane" type="Pane"/>
+    <Component drawingorder="3" id="440" maxVariety="5" mirror="true" name="cale_month_week_pane" type="Pane"/>
+    <Component drawingorder="4" id="441" maxVariety="11" mirror="true" name="grid_cale_month_pane" type="Pane"/>
+    <Component drawingorder="5" id="442" maxVariety="11" mirror="true" name="cale_month_pane_g1" type="Graphic"/>
     <Component drawingorder="25" id="444" maxVariety="0" mirror="true" name="list_medium_line_x2_t2_g4" type="Pane"/>
     <Component drawingorder="26" id="447" maxVariety="0" mirror="true" name="list_medium_line_x2_t2_g3" type="Pane"/>
-    <Component drawingorder="0" id="448" maxVariety="7" mirror="true" name="cale_month_day_heading_pane_t1" type="Text"/>
-    <Component drawingorder="1" id="449" maxVariety="7" mirror="true" name="cale_month_day_heading_pane_t2" type="Text"/>
-    <Component drawingorder="2" id="450" maxVariety="7" mirror="true" name="cale_month_day_heading_pane_t3" type="Text"/>
-    <Component drawingorder="3" id="451" maxVariety="7" mirror="true" name="cale_month_day_heading_pane_t4" type="Text"/>
-    <Component drawingorder="4" id="452" maxVariety="7" mirror="true" name="cale_month_day_heading_pane_t5" type="Text"/>
-    <Component drawingorder="5" id="453" maxVariety="7" mirror="true" name="cale_month_day_heading_pane_t6" type="Text"/>
-    <Component drawingorder="6" id="454" maxVariety="7" mirror="true" name="cale_month_day_heading_pane_t7" type="Text"/>
-    <Component drawingorder="0" id="456" maxVariety="3" mirror="true" name="cale_month_week_pane_t1" type="Text"/>
-    <Component drawingorder="1" id="458" maxVariety="3" mirror="true" name="cale_month_week_pane_t2" type="Text"/>
-    <Component drawingorder="2" id="459" maxVariety="3" mirror="true" name="cale_month_week_pane_t3" type="Text"/>
-    <Component drawingorder="3" id="460" maxVariety="3" mirror="true" name="cale_month_week_pane_t4" type="Text"/>
-    <Component drawingorder="4" id="461" maxVariety="3" mirror="true" name="cale_month_week_pane_t5" type="Text"/>
-    <Component drawingorder="5" id="462" maxVariety="3" mirror="true" name="cale_month_week_pane_t6" type="Text"/>
-    <Component drawingorder="0" id="463" maxVariety="7" mirror="true" name="cell_cale_month_pane" type="Pane"/>
-    <Component drawingorder="2" id="464" maxVariety="8" mirror="false" name="cell_cale_month_pane_t1" type="Text"/>
+    <Component drawingorder="0" id="448" maxVariety="11" mirror="true" name="cale_month_day_heading_pane_t1" type="Text"/>
+    <Component drawingorder="1" id="449" maxVariety="11" mirror="true" name="cale_month_day_heading_pane_t2" type="Text"/>
+    <Component drawingorder="2" id="450" maxVariety="11" mirror="true" name="cale_month_day_heading_pane_t3" type="Text"/>
+    <Component drawingorder="3" id="451" maxVariety="11" mirror="true" name="cale_month_day_heading_pane_t4" type="Text"/>
+    <Component drawingorder="4" id="452" maxVariety="11" mirror="true" name="cale_month_day_heading_pane_t5" type="Text"/>
+    <Component drawingorder="5" id="453" maxVariety="11" mirror="true" name="cale_month_day_heading_pane_t6" type="Text"/>
+    <Component drawingorder="6" id="454" maxVariety="11" mirror="true" name="cale_month_day_heading_pane_t7" type="Text"/>
+    <Component drawingorder="0" id="456" maxVariety="5" mirror="true" name="cale_month_week_pane_t1" type="Text"/>
+    <Component drawingorder="1" id="458" maxVariety="5" mirror="true" name="cale_month_week_pane_t2" type="Text"/>
+    <Component drawingorder="2" id="459" maxVariety="5" mirror="true" name="cale_month_week_pane_t3" type="Text"/>
+    <Component drawingorder="3" id="460" maxVariety="5" mirror="true" name="cale_month_week_pane_t4" type="Text"/>
+    <Component drawingorder="4" id="461" maxVariety="5" mirror="true" name="cale_month_week_pane_t5" type="Text"/>
+    <Component drawingorder="5" id="462" maxVariety="5" mirror="true" name="cale_month_week_pane_t6" type="Text"/>
+    <Component drawingorder="0" id="463" maxVariety="11" mirror="true" name="cell_cale_month_pane" type="Pane"/>
+    <Component drawingorder="2" id="464" maxVariety="12" mirror="false" name="cell_cale_month_pane_t1" type="Text"/>
     <Component drawingorder="0" id="466" maxVariety="0" mirror="false" name="grid_highlight_pane_cp08" type="Pane"/>
-    <Component drawingorder="1" id="467" maxVariety="7" mirror="false" name="cell_cale_month_pane_g1" type="Graphic"/>
-    <Component drawingorder="6" id="473" maxVariety="7" mirror="true" name="cale_month_pane_g3" type="Graphic"/>
-    <Component drawingorder="7" id="474" maxVariety="7" mirror="true" name="cale_month_pane_g4" type="Graphic"/>
-    <Component drawingorder="8" id="475" maxVariety="7" mirror="true" name="cale_month_pane_g5" type="Graphic"/>
-    <Component drawingorder="9" id="476" maxVariety="7" mirror="true" name="cale_month_pane_g6" type="Graphic"/>
-    <Component drawingorder="10" id="477" maxVariety="7" mirror="true" name="cale_month_pane_g7" type="Graphic"/>
-    <Component drawingorder="11" id="478" maxVariety="7" mirror="true" name="cale_month_pane_g8" type="Graphic"/>
-    <Component drawingorder="12" id="479" maxVariety="7" mirror="true" name="cale_month_pane_g9" type="Graphic"/>
-    <Component drawingorder="13" id="480" maxVariety="7" mirror="true" name="cale_month_pane_g10" type="Graphic"/>
-    <Component drawingorder="14" id="481" maxVariety="7" mirror="true" name="cale_month_pane_g11" type="Graphic"/>
-    <Component drawingorder="15" id="482" maxVariety="7" mirror="true" name="cale_month_pane_g12" type="Graphic"/>
-    <Component drawingorder="16" id="483" maxVariety="7" mirror="true" name="cale_month_pane_g13" type="Graphic"/>
+    <Component drawingorder="1" id="467" maxVariety="11" mirror="false" name="cell_cale_month_pane_g1" type="Graphic"/>
+    <Component drawingorder="6" id="473" maxVariety="11" mirror="true" name="cale_month_pane_g3" type="Graphic"/>
+    <Component drawingorder="7" id="474" maxVariety="11" mirror="true" name="cale_month_pane_g4" type="Graphic"/>
+    <Component drawingorder="8" id="475" maxVariety="11" mirror="true" name="cale_month_pane_g5" type="Graphic"/>
+    <Component drawingorder="9" id="476" maxVariety="11" mirror="true" name="cale_month_pane_g6" type="Graphic"/>
+    <Component drawingorder="10" id="477" maxVariety="11" mirror="true" name="cale_month_pane_g7" type="Graphic"/>
+    <Component drawingorder="11" id="478" maxVariety="11" mirror="true" name="cale_month_pane_g8" type="Graphic"/>
+    <Component drawingorder="12" id="479" maxVariety="11" mirror="true" name="cale_month_pane_g9" type="Graphic"/>
+    <Component drawingorder="13" id="480" maxVariety="11" mirror="true" name="cale_month_pane_g10" type="Graphic"/>
+    <Component drawingorder="14" id="481" maxVariety="11" mirror="true" name="cale_month_pane_g11" type="Graphic"/>
+    <Component drawingorder="15" id="482" maxVariety="11" mirror="true" name="cale_month_pane_g12" type="Graphic"/>
+    <Component drawingorder="16" id="483" maxVariety="11" mirror="true" name="cale_month_pane_g13" type="Graphic"/>
     <Component drawingorder="1" id="486" maxVariety="2" mirror="true" name="image_cif_pane" type="Pane"/>
     <Component drawingorder="3" id="487" maxVariety="5" mirror="true" name="main_video_pane_g1" type="Graphic"/>
     <Component drawingorder="4" id="488" maxVariety="5" mirror="true" name="main_video_pane_t1" type="Text"/>
@@ -353,8 +353,8 @@
     <Component drawingorder="0" id="559" maxVariety="0" mirror="true" name="smil_status_pane_t1" type="Text"/>
     <Component drawingorder="0" id="560" maxVariety="0" mirror="false" name="smil_volume_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="561" maxVariety="0" mirror="false" name="smil_volume_pane_g2" type="Graphic"/>
-    <Component drawingorder="19" id="562" maxVariety="0" mirror="false" name="main_cale_day_pane" type="Pane"/>
-    <Component drawingorder="0" id="563" maxVariety="1" mirror="true" name="listscroll_cale_day_pane" type="Pane"/>
+    <Component drawingorder="19" id="562" maxVariety="2" mirror="false" name="main_cale_day_pane" type="Pane"/>
+    <Component drawingorder="0" id="563" maxVariety="2" mirror="true" name="listscroll_cale_day_pane" type="Pane"/>
     <Component drawingorder="0" id="564" maxVariety="3" mirror="true" name="scroll_pane_cp09" type="Pane"/>
     <Component drawingorder="1" id="565" maxVariety="3" mirror="true" name="bg_cale_pane" type="Pane"/>
     <Component drawingorder="0" id="566" maxVariety="0" mirror="true" name="cale_bg_pane_g1" type="Graphic"/>
@@ -507,7 +507,7 @@
     <Component drawingorder="3" id="1999" maxVariety="0" mirror="true" name="mce_image_pane_g4" type="Graphic"/>
     <Component drawingorder="3" id="2131" maxVariety="0" mirror="true" name="stacon_top_pane" type="Pane"/>
     <Component drawingorder="1" id="2132" maxVariety="0" mirror="true" name="stacon_bottom_pane" type="Pane"/>
-    <Component drawingorder="1" id="2133" maxVariety="3" mirror="true" name="cell_cale_week_pane_g2" type="Graphic"/>
+    <Component drawingorder="1" id="2133" maxVariety="5" mirror="true" name="cell_cale_week_pane_g2" type="Graphic"/>
     <Component drawingorder="2" id="2134" maxVariety="5" mirror="true" name="cell_cale_week_pane_g3" type="Graphic"/>
     <Component drawingorder="12" id="2145" maxVariety="0" mirror="false" name="main_chi_dic_pane" type="Pane"/>
     <Component drawingorder="0" id="2146" maxVariety="0" mirror="true" name="bg_popup_sub_pane_cp03" type="Pane"/>
@@ -562,7 +562,7 @@
     <Component drawingorder="4" id="2197" maxVariety="0" mirror="true" name="cell_gms_pane_g4" type="Graphic"/>
     <Component drawingorder="2" id="2198" maxVariety="0" mirror="true" name="listscroll_gms_pane_g1" type="Graphic"/>
     <Component drawingorder="3" id="2199" maxVariety="0" mirror="true" name="listscroll_gms_pane_g2" type="Graphic"/>
-    <Component drawingorder="21" id="2267" maxVariety="3" mirror="true" name="bg_cale_heading_pane" type="Pane"/>
+    <Component drawingorder="21" id="2267" maxVariety="5" mirror="true" name="bg_cale_heading_pane" type="Pane"/>
     <Component drawingorder="0" id="2268" maxVariety="0" mirror="true" name="bg_cale_heading_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="2269" maxVariety="0" mirror="true" name="bg_cale_heading_pane_g2" type="Graphic"/>
     <Component drawingorder="2" id="2270" maxVariety="0" mirror="true" name="bg_cale_heading_pane_g3" type="Graphic"/>
@@ -572,7 +572,7 @@
     <Component drawingorder="6" id="2274" maxVariety="0" mirror="true" name="bg_cale_heading_pane_g7" type="Graphic"/>
     <Component drawingorder="7" id="2275" maxVariety="0" mirror="true" name="bg_cale_heading_pane_g8" type="Graphic"/>
     <Component drawingorder="8" id="2276" maxVariety="0" mirror="true" name="bg_cale_heading_pane_g9" type="Graphic"/>
-    <Component drawingorder="8" id="2277" maxVariety="3" mirror="false" name="bg_cale_side_pane" type="Pane"/>
+    <Component drawingorder="8" id="2277" maxVariety="5" mirror="false" name="bg_cale_side_pane" type="Pane"/>
     <Component drawingorder="0" id="2278" maxVariety="0" mirror="true" name="bg_cale_side_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="2279" maxVariety="0" mirror="true" name="bg_cale_side_pane_g2" type="Graphic"/>
     <Component drawingorder="2" id="2280" maxVariety="0" mirror="true" name="bg_cale_side_pane_g3" type="Graphic"/>
@@ -582,8 +582,8 @@
     <Component drawingorder="6" id="2284" maxVariety="0" mirror="true" name="bg_cale_side_pane_g7" type="Graphic"/>
     <Component drawingorder="7" id="2285" maxVariety="0" mirror="true" name="bg_cale_side_pane_g8" type="Graphic"/>
     <Component drawingorder="8" id="2286" maxVariety="0" mirror="true" name="bg_cale_side_pane_g9" type="Graphic"/>
-    <Component drawingorder="17" id="2287" maxVariety="7" mirror="true" name="bg_cale_heading_pane_cp01" type="Pane"/>
-    <Component drawingorder="6" id="2288" maxVariety="3" mirror="true" name="bg_cale_side_pane_cp01" type="Pane"/>
+    <Component drawingorder="17" id="2287" maxVariety="11" mirror="true" name="bg_cale_heading_pane_cp01" type="Pane"/>
+    <Component drawingorder="6" id="2288" maxVariety="5" mirror="true" name="bg_cale_side_pane_cp01" type="Pane"/>
     <Component drawingorder="0" id="2307" maxVariety="0" mirror="true" name="bg_popup_call_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="2325" maxVariety="12" mirror="false" name="area_top_pane" type="Pane"/>
     <Component drawingorder="2" id="2326" maxVariety="14" mirror="false" name="area_bottom_pane" type="Pane"/>
@@ -735,7 +735,7 @@
     <Component drawingorder="1" id="2666" maxVariety="10" mirror="true" name="smil2_text_pane" type="Pane"/>
     <Component drawingorder="2" id="2667" maxVariety="4" mirror="true" name="smil2_image_pane" type="Pane"/>
     <Component drawingorder="9" id="2668" maxVariety="2" mirror="true" name="qrid_highlight_pane_cp011" type="Pane"/>
-    <Component drawingorder="18" id="2669" maxVariety="3" mirror="true" name="cale_month_pane_g2" type="Graphic"/>
+    <Component drawingorder="18" id="2669" maxVariety="5" mirror="true" name="cale_month_pane_g2" type="Graphic"/>
     <Component drawingorder="37" id="2670" maxVariety="0" mirror="false" name="main_fmradio_pane" type="Pane"/>
     <Component drawingorder="0" id="2671" maxVariety="0" mirror="true" name="bg_list_pane_cp06" type="Pane"/>
     <Component drawingorder="1" id="2672" maxVariety="0" mirror="true" name="grid_radio_pane" type="Pane"/>
@@ -855,8 +855,8 @@
     <Component drawingorder="6" id="2829" maxVariety="0" mirror="true" name="compass_pane_t5" type="Text"/>
     <Component drawingorder="7" id="2830" maxVariety="0" mirror="true" name="compass_pane_t6" type="Text"/>
     <Component drawingorder="8" id="2831" maxVariety="0" mirror="true" name="compass_pane_t7" type="Text"/>
-    <Component drawingorder="19" id="2834" maxVariety="7" mirror="true" name="aid_cale_month_size_cell_pane" type="Pane"/>
-    <Component drawingorder="22" id="2835" maxVariety="3" mirror="true" name="aid_cale_week_size_cell_pane" type="Pane"/>
+    <Component drawingorder="19" id="2834" maxVariety="11" mirror="true" name="aid_cale_month_size_cell_pane" type="Pane"/>
+    <Component drawingorder="22" id="2835" maxVariety="5" mirror="true" name="aid_cale_week_size_cell_pane" type="Pane"/>
     <Component drawingorder="7" id="2836" maxVariety="2" mirror="true" name="call_video_pane_t1" type="Text"/>
     <Component drawingorder="8" id="2837" maxVariety="2" mirror="true" name="call_video_pane_t2" type="Text"/>
     <Component drawingorder="8" id="2838" maxVariety="1" mirror="true" name="cell_qdial_pane_g4" type="Graphic"/>
@@ -960,7 +960,7 @@
     <Component drawingorder="9" id="2996" maxVariety="3" mirror="true" name="call3_video_qcif_uncrop_pane" type="Pane"/>
     <Component drawingorder="10" id="2997" maxVariety="3" mirror="true" name="call3_video_subqcif_uncrop_pane" type="Pane"/>
     <Component drawingorder="7" id="3000" maxVariety="0" mirror="false" name="aid_zoom_text_primary_cp" type="Pane"/>
-    <Component drawingorder="23" id="3004" maxVariety="1" mirror="true" name="listscroll_cale_week_pane_t1" type="Text"/>
+    <Component drawingorder="23" id="3004" maxVariety="2" mirror="true" name="listscroll_cale_week_pane_t1" type="Text"/>
     <Component drawingorder="3" id="3005" maxVariety="0" mirror="true" name="msg_header_pane_g1" type="Graphic"/>
     <Component drawingorder="9" id="3007" maxVariety="1" mirror="true" name="postcard_message2_pane" type="Pane"/>
     <Component drawingorder="10" id="3008" maxVariety="1" mirror="true" name="postcard_address2_pane" type="Pane"/>
@@ -977,7 +977,7 @@
     <Component drawingorder="1" id="3664" maxVariety="0" mirror="true" name="rss_list_single_pane_t2" type="Text"/>
     <Component drawingorder="0" id="3665" maxVariety="0" mirror="true" name="rss_list_single_pane_t1" type="Text"/>
     <Component drawingorder="0" id="3666" maxVariety="0" mirror="true" name="rss_list_single_pane" type="Pane"/>
-    <Component drawingorder="20" id="3667" maxVariety="3" mirror="true" name="cale_month_pane_t1" type="Text"/>
+    <Component drawingorder="20" id="3667" maxVariety="5" mirror="true" name="cale_month_pane_t1" type="Text"/>
     <Component drawingorder="11" id="3668" maxVariety="3" mirror="true" name="call3_video_qcif_pane" type="Pane"/>
     <Component drawingorder="1" id="3669" maxVariety="0" mirror="true" name="mup_osc_middle_pane" type="Pane"/>
     <Component drawingorder="1" id="3670" maxVariety="0" mirror="true" name="mup_spec_bar_pane_g2" type="Graphic"/>
@@ -2513,7 +2513,7 @@
     <Component drawingorder="2" id="5356" maxVariety="0" mirror="true" name="main_radioblah_info_pane_t3" type="Text"/>
     <Component drawingorder="3" id="5357" maxVariety="7" mirror="true" name="main_radioblah_info_pane_g1" type="Graphic"/>
     <Component drawingorder="5" id="5358" maxVariety="2" mirror="true" name="scroll_pane_cp0031" type="Pane"/>
-    <Component drawingorder="1" id="5359" maxVariety="7" mirror="true" name="highlight_cell_cale_month_pane" type="Pane"/>
+    <Component drawingorder="1" id="5359" maxVariety="11" mirror="true" name="highlight_cell_cale_month_pane" type="Pane"/>
     <Component drawingorder="0" id="5361" maxVariety="0" mirror="true" name="highlight_cell_cale_month_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="5362" maxVariety="0" mirror="true" name="highlight_cell_cale_month_pane_t1" type="Text"/>
     <Component drawingorder="115" id="5363" maxVariety="0" mirror="false" name="main_phob_fisheye_pane" type="Pane"/>
@@ -2560,7 +2560,7 @@
     <Component drawingorder="1" id="5404" maxVariety="1" mirror="true" name="call5_swipe_2_pane_t1_cp" type="Text"/>
     <Component drawingorder="2" id="5405" maxVariety="0" mirror="true" name="call5_swipe_2_pane_g2_cp" type="Graphic"/>
     <Component drawingorder="1" id="5406" maxVariety="1" mirror="true" name="popup_call5_audio_first_window_cp" type="Pane"/>
-    <Component drawingorder="21" id="5408" maxVariety="2" mirror="false" name="main2_pane" type="Pane"/>
+    <Component drawingorder="21" id="5408" maxVariety="5" mirror="false" name="main2_pane" type="Pane"/>
     <Component drawingorder="2" id="5409" maxVariety="1" mirror="true" name="main_sp_fs_ctrlbar_ddmenu_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="5410" maxVariety="3" mirror="true" name="main_sp_fs_ctrlbar_ddmenu_pane_t1" type="Text"/>
     <Component drawingorder="3" id="5411" maxVariety="0" mirror="true" name="bg_sp_fs_ctrlbar_ddmenu_pane_g4" type="Graphic"/>
@@ -2767,15 +2767,15 @@
     <Component drawingorder="1" id="6210" maxVariety="1" mirror="true" name="list_tport_double_graphic_pane_g1" type="Graphic"/>
     <Component drawingorder="2" id="6211" maxVariety="1" mirror="true" name="list_tport_double_graphic_pane_t1" type="Text"/>
     <Component drawingorder="3" id="6212" maxVariety="0" mirror="true" name="list_tport_double_graphic_pane_t2" type="Text"/>
-    <Component drawingorder="3" id="6213" maxVariety="0" mirror="true" name="listscroll_cmail_pane" type="Pane"/>
+    <Component drawingorder="3" id="6213" maxVariety="1" mirror="true" name="listscroll_cmail_pane" type="Pane"/>
     <Component drawingorder="0" id="6214" maxVariety="0" mirror="true" name="list_cmail_pane" type="Pane"/>
     <Component drawingorder="0" id="6219" maxVariety="0" mirror="true" name="list_single_cmail_header_caption_pane" type="Pane"/>
     <Component drawingorder="1" id="6220" maxVariety="6" mirror="true" name="list_single_cmail_header_detail_pane" type="Pane"/>
     <Component drawingorder="2" id="6221" maxVariety="0" mirror="true" name="list_cmail_body_pane" type="Pane"/>
     <Component drawingorder="0" id="6222" maxVariety="0" mirror="true" name="list_single_cmail_header_caption_pane_t1" type="Text"/>
     <Component drawingorder="0" id="6223" maxVariety="4" mirror="true" name="list_single_cmail_header_detail_pane_g1" type="Graphic"/>
-    <Component drawingorder="1" id="6224" maxVariety="4" mirror="true" name="list_single_cmail_header_detail_pane_t1" type="Text"/>
-    <Component drawingorder="2" id="6225" maxVariety="3" mirror="true" name="list_single_cmail_header_editor_pane_bg" type="Pane"/>
+    <Component drawingorder="1" id="6224" maxVariety="5" mirror="true" name="list_single_cmail_header_detail_pane_t1" type="Text"/>
+    <Component drawingorder="2" id="6225" maxVariety="4" mirror="true" name="list_single_cmail_header_editor_pane_bg" type="Pane"/>
     <Component drawingorder="0" id="6226" maxVariety="0" mirror="true" name="list_single_cmail_header_editor_pane_bg_g1" type="Graphic"/>
     <Component drawingorder="1" id="6227" maxVariety="0" mirror="true" name="list_single_cmail_header_editor_pane_bg_g1_copy1" type="Graphic"/>
     <Component drawingorder="2" id="6228" maxVariety="0" mirror="true" name="list_single_cmail_header_editor_pane_bg_g1_copy2" type="Graphic"/>
@@ -2867,14 +2867,14 @@
     <Component drawingorder="0" id="6563" maxVariety="0" mirror="true" name="main_sp_fs_ribbon_scheduler_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="6564" maxVariety="0" mirror="true" name="main_sp_fs_ribbon_scheduler_pane_g2" type="Graphic"/>
     <Component drawingorder="2" id="6565" maxVariety="0" mirror="true" name="main_sp_fs_ribbon_scheduler_pane_g3" type="Graphic"/>
-    <Component drawingorder="0" id="6566" maxVariety="1" mirror="true" name="main_sp_fs_ctrlbar_pane_cp01" type="Pane"/>
-    <Component drawingorder="1" id="6567" maxVariety="1" mirror="true" name="listscroll_cale_mrui_pane" type="Pane"/>
+    <Component drawingorder="0" id="6566" maxVariety="2" mirror="true" name="main_sp_fs_ctrlbar_pane_cp01" type="Pane"/>
+    <Component drawingorder="1" id="6567" maxVariety="2" mirror="true" name="listscroll_cale_mrui_pane" type="Pane"/>
     <Component drawingorder="2" id="6568" maxVariety="1" mirror="true" name="sp_fs_scroll_pane_cp06" type="Pane"/>
     <Component drawingorder="2" id="6569" maxVariety="0" mirror="true" name="listscroll_sp_fs_schedule_track_pane" type="Pane"/>
     <Component drawingorder="0" id="6854" maxVariety="0" mirror="true" name="bgmain_sp_fs_calendar_pane_g1" type="Graphic"/>
-    <Component drawingorder="4" id="6855" maxVariety="1" mirror="true" name="bg_main_sp_fs_cale_pane" type="Pane"/>
-    <Component drawingorder="0" id="6946" maxVariety="0" mirror="true" name="list_cale_mrui_pane" type="Pane"/>
-    <Component drawingorder="1" id="6948" maxVariety="1" mirror="true" name="sp_fs_scroll_pane_cp07" type="Pane"/>
+    <Component drawingorder="4" id="6855" maxVariety="2" mirror="true" name="bg_main_sp_fs_cale_pane" type="Pane"/>
+    <Component drawingorder="0" id="6946" maxVariety="1" mirror="true" name="list_cale_mrui_pane" type="Pane"/>
+    <Component drawingorder="1" id="6948" maxVariety="2" mirror="true" name="sp_fs_scroll_pane_cp07" type="Pane"/>
     <Component drawingorder="0" id="6949" maxVariety="4" mirror="true" name="list_single_cale_mrui_pane" type="Pane"/>
     <Component drawingorder="0" id="6950" maxVariety="4" mirror="true" name="list_single_cale_mrui_row_pane" type="Pane"/>
     <Component drawingorder="0" id="6952" maxVariety="0" mirror="true" name="list_single_cale_mrui_row_pane_t1" type="Text"/>
@@ -2951,7 +2951,7 @@
     <Component drawingorder="6" id="7027" maxVariety="0" mirror="true" name="list_single_cmail_header_detail_pane_g3" type="Graphic"/>
     <Component drawingorder="4" id="7028" maxVariety="1" mirror="true" name="cell_dialer2_keypad_pane_t1_copy1" type="Text"/>
     <Component drawingorder="6" id="7029" maxVariety="0" mirror="true" name="mian_recal_day_pane" type="Pane"/>
-    <Component drawingorder="0" id="7030" maxVariety="0" mirror="true" name="list_recal_day_pane" type="Pane"/>
+    <Component drawingorder="0" id="7030" maxVariety="1" mirror="true" name="list_recal_day_pane" type="Pane"/>
     <Component drawingorder="0" id="7031" maxVariety="1" mirror="true" name="list_single_recal_day_pane" type="Pane"/>
     <Component drawingorder="7" id="7032" maxVariety="0" mirror="true" name="aid_recal_txt_sm_pane" type="Pane"/>
     <Component drawingorder="0" id="7033" maxVariety="0" mirror="true" name="list_single_recal_day_pane_t1" type="Text"/>
@@ -3204,37 +3204,37 @@
     <Component drawingorder="2" id="7942" maxVariety="0" mirror="true" name="cell_dia3_key_num_pane_t2" type="Text"/>
     <Component drawingorder="3" id="7944" maxVariety="0" mirror="true" name="cell_dia3_key_num_pane_t3" type="Text"/>
     <Component drawingorder="4" id="7945" maxVariety="0" mirror="true" name="cell_dia3_key_num_pane_t4" type="Text"/>
-    <Component drawingorder="8" id="7946" maxVariety="1" mirror="true" name="aid_cell_bcale_month_pane" type="Pane"/>
-    <Component drawingorder="9" id="7947" maxVariety="1" mirror="true" name="bcale_month_pane" type="Pane"/>
+    <Component drawingorder="8" id="7946" maxVariety="2" mirror="true" name="aid_cell_bcale_month_pane" type="Pane"/>
+    <Component drawingorder="9" id="7947" maxVariety="2" mirror="true" name="bcale_month_pane" type="Pane"/>
     <Component drawingorder="10" id="7948" maxVariety="1" mirror="true" name="bcale_preview_pane" type="Pane"/>
-    <Component drawingorder="0" id="7949" maxVariety="0" mirror="true" name="area_top_day_name_pane" type="Pane"/>
-    <Component drawingorder="1" id="7950" maxVariety="0" mirror="true" name="area_left_week_number_pane" type="Pane"/>
-    <Component drawingorder="2" id="7951" maxVariety="0" mirror="true" name="grid_month_view_pane" type="Pane"/>
-    <Component drawingorder="3" id="7952" maxVariety="0" mirror="true" name="frame_month_view_pane" type="Pane"/>
-    <Component drawingorder="0" id="7953" maxVariety="0" mirror="true" name="cell_top_day_name_pane" type="Pane"/>
-    <Component drawingorder="0" id="7954" maxVariety="0" mirror="true" name="cell_top_day_name_pane_t1" type="Text"/>
-    <Component drawingorder="0" id="7955" maxVariety="0" mirror="true" name="cell_area_left_week_number_pane" type="Pane"/>
-    <Component drawingorder="0" id="7956" maxVariety="0" mirror="true" name="cell_area_left_week_number_pane_t1" type="Text"/>
-    <Component drawingorder="1" id="7957" maxVariety="0" mirror="true" name="cell_area_left_week_number_pane_g1" type="Graphic"/>
-    <Component drawingorder="0" id="7958" maxVariety="0" mirror="true" name="cell_month_view_pane" type="Pane"/>
-    <Component drawingorder="0" id="7959" maxVariety="0" mirror="true" name="cell_month_view_pane_t1" type="Text"/>
-    <Component drawingorder="1" id="7960" maxVariety="0" mirror="true" name="cell_month_view_pane_g1" type="Graphic"/>
-    <Component drawingorder="0" id="7961" maxVariety="0" mirror="true" name="frm_month_g1" type="Graphic"/>
-    <Component drawingorder="1" id="7962" maxVariety="0" mirror="true" name="frm_month_g2" type="Graphic"/>
-    <Component drawingorder="2" id="7963" maxVariety="0" mirror="true" name="frm_month_g3" type="Graphic"/>
-    <Component drawingorder="3" id="7964" maxVariety="0" mirror="true" name="frm_month_g4" type="Graphic"/>
-    <Component drawingorder="4" id="7965" maxVariety="0" mirror="true" name="frm_month_g5" type="Graphic"/>
-    <Component drawingorder="5" id="7966" maxVariety="0" mirror="true" name="frm_month_g6" type="Graphic"/>
-    <Component drawingorder="6" id="7967" maxVariety="0" mirror="true" name="frm_month_g7" type="Graphic"/>
-    <Component drawingorder="7" id="7968" maxVariety="0" mirror="true" name="frm_month_g8" type="Graphic"/>
-    <Component drawingorder="8" id="7969" maxVariety="0" mirror="true" name="frm_month_g9" type="Graphic"/>
-    <Component drawingorder="9" id="7970" maxVariety="0" mirror="true" name="frm_month_g10" type="Graphic"/>
-    <Component drawingorder="10" id="7971" maxVariety="0" mirror="true" name="frm_month_g11" type="Graphic"/>
-    <Component drawingorder="11" id="7972" maxVariety="0" mirror="true" name="frm_month_g12" type="Graphic"/>
-    <Component drawingorder="12" id="7973" maxVariety="0" mirror="true" name="frm_month_g13" type="Graphic"/>
-    <Component drawingorder="13" id="7974" maxVariety="0" mirror="true" name="frm_month_g14" type="Graphic"/>
-    <Component drawingorder="14" id="7975" maxVariety="0" mirror="true" name="frm_month_g15" type="Graphic"/>
-    <Component drawingorder="15" id="7976" maxVariety="0" mirror="true" name="frm_month_g16" type="Graphic"/>
+    <Component drawingorder="0" id="7949" maxVariety="1" mirror="true" name="area_top_day_name_pane" type="Pane"/>
+    <Component drawingorder="1" id="7950" maxVariety="1" mirror="true" name="area_left_week_number_pane" type="Pane"/>
+    <Component drawingorder="2" id="7951" maxVariety="1" mirror="true" name="grid_month_view_pane" type="Pane"/>
+    <Component drawingorder="3" id="7952" maxVariety="1" mirror="true" name="frame_month_view_pane" type="Pane"/>
+    <Component drawingorder="0" id="7953" maxVariety="1" mirror="true" name="cell_top_day_name_pane" type="Pane"/>
+    <Component drawingorder="0" id="7954" maxVariety="1" mirror="true" name="cell_top_day_name_pane_t1" type="Text"/>
+    <Component drawingorder="0" id="7955" maxVariety="1" mirror="true" name="cell_area_left_week_number_pane" type="Pane"/>
+    <Component drawingorder="0" id="7956" maxVariety="1" mirror="true" name="cell_area_left_week_number_pane_t1" type="Text"/>
+    <Component drawingorder="1" id="7957" maxVariety="1" mirror="true" name="cell_area_left_week_number_pane_g1" type="Graphic"/>
+    <Component drawingorder="0" id="7958" maxVariety="1" mirror="true" name="cell_month_view_pane" type="Pane"/>
+    <Component drawingorder="0" id="7959" maxVariety="1" mirror="true" name="cell_month_view_pane_t1" type="Text"/>
+    <Component drawingorder="1" id="7960" maxVariety="1" mirror="true" name="cell_month_view_pane_g1" type="Graphic"/>
+    <Component drawingorder="0" id="7961" maxVariety="1" mirror="true" name="frm_month_g1" type="Graphic"/>
+    <Component drawingorder="1" id="7962" maxVariety="1" mirror="true" name="frm_month_g2" type="Graphic"/>
+    <Component drawingorder="2" id="7963" maxVariety="1" mirror="true" name="frm_month_g3" type="Graphic"/>
+    <Component drawingorder="3" id="7964" maxVariety="1" mirror="true" name="frm_month_g4" type="Graphic"/>
+    <Component drawingorder="4" id="7965" maxVariety="1" mirror="true" name="frm_month_g5" type="Graphic"/>
+    <Component drawingorder="5" id="7966" maxVariety="1" mirror="true" name="frm_month_g6" type="Graphic"/>
+    <Component drawingorder="6" id="7967" maxVariety="1" mirror="true" name="frm_month_g7" type="Graphic"/>
+    <Component drawingorder="7" id="7968" maxVariety="1" mirror="true" name="frm_month_g8" type="Graphic"/>
+    <Component drawingorder="8" id="7969" maxVariety="1" mirror="true" name="frm_month_g9" type="Graphic"/>
+    <Component drawingorder="9" id="7970" maxVariety="1" mirror="true" name="frm_month_g10" type="Graphic"/>
+    <Component drawingorder="10" id="7971" maxVariety="1" mirror="true" name="frm_month_g11" type="Graphic"/>
+    <Component drawingorder="11" id="7972" maxVariety="1" mirror="true" name="frm_month_g12" type="Graphic"/>
+    <Component drawingorder="12" id="7973" maxVariety="1" mirror="true" name="frm_month_g13" type="Graphic"/>
+    <Component drawingorder="13" id="7974" maxVariety="1" mirror="true" name="frm_month_g14" type="Graphic"/>
+    <Component drawingorder="14" id="7975" maxVariety="1" mirror="true" name="frm_month_g15" type="Graphic"/>
+    <Component drawingorder="15" id="7976" maxVariety="1" mirror="true" name="frm_month_g16" type="Graphic"/>
     <Component drawingorder="2" id="7977" maxVariety="2" mirror="true" name="list_single_fs_bigclock_pane_t2" type="Text"/>
     <Component drawingorder="8" id="7978" maxVariety="2" mirror="true" name="list_single_fs_bigclock_indicator_pane_t5" type="Text"/>
     <Component drawingorder="9" id="7979" maxVariety="2" mirror="true" name="list_single_fs_bigclock_indicator_pane_g5" type="Graphic"/>
@@ -3313,8 +3313,8 @@
     <Component drawingorder="2" id="8055" maxVariety="0" mirror="true" name="vidtel_button_pane_g1" type="Graphic"/>
     <Component drawingorder="9" id="8056" maxVariety="1" mirror="true" name="scroll_pane_cp039" type="Pane"/>
     <Component drawingorder="9" id="8058" maxVariety="0" mirror="true" name="list_single_recal_day_pane_g7" type="Graphic"/>
-    <Component drawingorder="4" id="8059" maxVariety="0" mirror="true" name="main_sp_fs_email_pane_g1" type="Graphic"/>
-    <Component drawingorder="5" id="8060" maxVariety="0" mirror="true" name="main_sp_fs_email_pane_g2" type="Graphic"/>
+    <Component drawingorder="4" id="8059" maxVariety="1" mirror="true" name="main_sp_fs_email_pane_g1" type="Graphic"/>
+    <Component drawingorder="5" id="8060" maxVariety="1" mirror="true" name="main_sp_fs_email_pane_g2" type="Graphic"/>
     <Component drawingorder="8" id="8062" maxVariety="0" mirror="true" name="list_single_recal_day_pane_g5_event_pane" type="Pane"/>
     <Component drawingorder="0" id="8063" maxVariety="0" mirror="true" name="list_recal_vselct_pane_cp01" type="Pane"/>
     <Component drawingorder="1" id="8064" maxVariety="0" mirror="true" name="list_recal_day_event_pane_cp01" type="Pane"/>
@@ -3347,6 +3347,13 @@
     <Component drawingorder="1" id="8092" maxVariety="0" mirror="true" name="vids_list_double_pane_t1" type="Text"/>
     <Component drawingorder="2" id="8093" maxVariety="0" mirror="true" name="vids_list_double_pane_t2" type="Text"/>
     <Component drawingorder="3" id="8094" maxVariety="1" mirror="true" name="main_welc_pane_g1" type="Graphic"/>
-    <Component drawingorder="1" id="8095" maxVariety="1" mirror="true" name="main_welc_pane_g2" type="Graphic"/>
+    <Component drawingorder="4" id="8095" maxVariety="1" mirror="true" name="main_welc_pane_g2" type="Graphic"/>
     <Component drawingorder="10" id="8096" maxVariety="2" mirror="true" name="main_ncimui_pane_g2" type="Graphic"/>
+    <Component drawingorder="6" id="8097" maxVariety="0" mirror="true" name="main_cf0_pane_g2" type="Graphic"/>
+    <Component drawingorder="12" id="8098" maxVariety="1" mirror="true" name="main_clock2_btn_pane" type="Pane"/>
+    <Component drawingorder="28" id="8099" maxVariety="0" mirror="true" name="wait_bar_pane_cp10" type="Pane"/>
+    <Component drawingorder="13" id="8100" maxVariety="1" mirror="true" name="main_clock2_btn_pane_cp01" type="Pane"/>
+    <Component drawingorder="0" id="8101" maxVariety="0" mirror="true" name="main_clock2_btn_pane_t1" type="Text"/>
+    <Component drawingorder="1" id="8102" maxVariety="0" mirror="true" name="main_clock2_btn_pane_g1" type="Graphic"/>
+    <Component drawingorder="1" id="8103" maxVariety="0" mirror="true" name="mian_recal_day_pane_t1" type="Text"/>
 </Layout>

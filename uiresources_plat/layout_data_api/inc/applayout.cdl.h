@@ -22,7 +22,7 @@
 #define APPLAYOUT_CDL
 
 #include <CdlEngine.h>
-#include <AppLayout.cdl.common.h>
+#include <applayout.cdl.common.h>
 
 namespace AppLayout
 {

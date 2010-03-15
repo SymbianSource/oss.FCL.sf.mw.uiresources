@@ -7643,8 +7643,40 @@ enum TAknsMinorGenericValue
     EAknsMinorGenericQgnPropCmccCustomermanage = 0x25c6,
     EAknsMinorGenericQgnPropModesProfiles = 0x25c7,
     EAknsMinorGenericQgnPropModesThemes = 0x25c8,
-    // SCMMARKER_INSERTIONPOINT [9673]
-    EAknsMinorGenericInternalCurrentLastItem = 0x25c9
+    EAknsMinorGenericQgnHomeWidgetOffline = 0x25c9,
+    EAknsMinorGenericQgnHomeWidgetOffline1 = 0x25ca,
+    EAknsMinorGenericQgnIndiBack = 0x25cb,
+    EAknsMinorGenericQgnIndiCdrActionArrowDownSelected = 0x25cc,
+    EAknsMinorGenericQgnIndiCdrActionArrowUpSelected = 0x25cd,
+    EAknsMinorGenericQgnIndiConviewMessageAdd = 0x25ce,
+    EAknsMinorGenericQgnIndiGotomusic = 0x25cf,
+    EAknsMinorGenericQgnIndiTsButtonClose = 0x25d0,
+    EAknsMinorGenericQgnIndiTsButtonClosePressed = 0x25d1,
+    EAknsMinorGenericQgnMenuCallconnect = 0x25d2,
+    EAknsMinorGenericQgnMenuHswidgetNotification = 0x25d3,
+    EAknsMinorGenericQgnMenuMobileDictionary = 0x25d4,
+    EAknsMinorGenericQgnMenuMynokia = 0x25d5,
+    EAknsMinorGenericQgnMenuOvistore = 0x25d6,
+    EAknsMinorGenericQgnPropAddFriend = 0x25d7,
+    EAknsMinorGenericQgnPropAlbumartLarge = 0x25d8,
+    EAknsMinorGenericQgnPropCapturedThumbnailVideo = 0x25d9,
+    EAknsMinorGenericQgnPropDownloadThumbnailVideo = 0x25da,
+    EAknsMinorGenericQgnPropFusionplayerTbNext = 0x25db,
+    EAknsMinorGenericQgnPropFusionplayerTbNextDimmed = 0x25dc,
+    EAknsMinorGenericQgnPropFusionplayerTbNextFocused = 0x25dd,
+    EAknsMinorGenericQgnPropFusionplayerTbPrev = 0x25de,
+    EAknsMinorGenericQgnPropFusionplayerTbPrevDimmed = 0x25df,
+    EAknsMinorGenericQgnPropFusionplayerTbPrevFocused = 0x25e0,
+    EAknsMinorGenericQgnPropOviThumbnailVideo = 0x25e1,
+    EAknsMinorGenericQgnPropRecentThumbnailVideo = 0x25e2,
+    EAknsMinorGenericQgnPropServiceThumbnailVideo = 0x25e3,
+    EAknsMinorGenericQgnGrafSetwizSlide1 = 0x25e4,
+    EAknsMinorGenericQgnGrafSetwizSlide2 = 0x25e5,
+    EAknsMinorGenericQgnGrafSetwizSlide3 = 0x25e6,
+    EAknsMinorGenericQgnGrafSetwizSlide4 = 0x25e7,
+    EAknsMinorGenericQgnGrafSetwizSlide5 = 0x25e8,
+    // SCMMARKER_INSERTIONPOINT [9705]
+    EAknsMinorGenericInternalCurrentLastItem = 0x25e9
     };
 
 // ----------------------------------------------------------------------------

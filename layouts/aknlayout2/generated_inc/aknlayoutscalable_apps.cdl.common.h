@@ -6496,6 +6496,53 @@ enum TApiId
 	EApiId_main_welc_pane_g_Limits,
 	EApiId_main_welc_pane_g_ParamLimits,
 	EApiId_main_welc_pane_g,
+	EApiId_listscroll_mce_pane_ParamLimits,
+	EApiId_wait_bar_pane_cp10,
+	EApiId_main_cale_day_pane_ParamLimits,
+	EApiId_main_cale_week_pane_ParamLimits,
+	EApiId_main_messa_pane_ParamLimits,
+	EApiId_main_clock2_btn_pane_ParamLimits,
+	EApiId_main_clock2_btn_pane,
+	EApiId_main_clock2_btn_pane_cp01_ParamLimits,
+	EApiId_main_clock2_btn_pane_cp01,
+	EApiId_list_cale_mrui_pane_ParamLimits,
+	EApiId_main_cf0_pane_g2,
+	EApiId_main_cf0_pane_g_Limits,
+	EApiId_main_cf0_pane_g,
+	EApiId_area_left_week_number_pane_ParamLimits,
+	EApiId_area_top_day_name_pane_ParamLimits,
+	EApiId_frame_month_view_pane_ParamLimits,
+	EApiId_grid_month_view_pane_ParamLimits,
+	EApiId_frm_month_g1_ParamLimits,
+	EApiId_frm_month_g2_ParamLimits,
+	EApiId_frm_month_g3_ParamLimits,
+	EApiId_frm_month_g4_ParamLimits,
+	EApiId_frm_month_g5_ParamLimits,
+	EApiId_frm_month_g6_ParamLimits,
+	EApiId_frm_month_g7_ParamLimits,
+	EApiId_frm_month_g8_ParamLimits,
+	EApiId_frm_month_g9_ParamLimits,
+	EApiId_frm_month_g10_ParamLimits,
+	EApiId_frm_month_g11_ParamLimits,
+	EApiId_frm_month_g12_ParamLimits,
+	EApiId_frm_month_g13_ParamLimits,
+	EApiId_frm_month_g14_ParamLimits,
+	EApiId_frm_month_g15_ParamLimits,
+	EApiId_frm_month_g16_ParamLimits,
+	EApiId_frm_month_g_ParamLimits,
+	EApiId_cell_top_day_name_pane_t1_ParamLimits,
+	EApiId_cell_area_left_week_number_pane_g1_ParamLimits,
+	EApiId_cell_area_left_week_number_pane_t1_ParamLimits,
+	EApiId_cell_month_view_pane_g1_ParamLimits,
+	EApiId_cell_month_view_pane_t1_ParamLimits,
+	EApiId_main_clock2_btn_pane_g1,
+	EApiId_main_clock2_btn_pane_t1,
+	EApiId_listscroll_cmail_pane_ParamLimits,
+	EApiId_main_sp_fs_email_pane_g1_ParamLimits,
+	EApiId_main_sp_fs_email_pane_g2_ParamLimits,
+	EApiId_main_sp_fs_email_pane_g_ParamLimits,
+	EApiId_list_recal_day_pane_ParamLimits,
+	EApiId_mian_recal_day_pane_t1,
 	E_TApiId_TableSize
 	};
 
@@ -12969,6 +13016,53 @@ typedef TAknWindowComponentLayout (Tmain_welc_pane_g2_sig)(TInt, TInt, TInt);
 typedef TAknLayoutScalableTableLimits (Tmain_welc_pane_g_Limits_sig)();
 typedef TAknLayoutScalableParameterLimits (Tmain_welc_pane_g_ParamLimits_sig)(TInt, TInt);
 typedef TAknWindowComponentLayout (Tmain_welc_pane_g_sig)(TInt, TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tlistscroll_mce_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Twait_bar_pane_cp10_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_cale_day_pane_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_cale_week_pane_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_messa_pane_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_clock2_btn_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tmain_clock2_btn_pane_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_clock2_btn_pane_cp01_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tmain_clock2_btn_pane_cp01_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tlist_cale_mrui_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tmain_cf0_pane_g2_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableTableLimits (Tmain_cf0_pane_g_Limits_sig)();
+typedef TAknWindowComponentLayout (Tmain_cf0_pane_g_sig)(TInt, TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tarea_left_week_number_pane_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tarea_top_day_name_pane_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tframe_month_view_pane_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tgrid_month_view_pane_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g1_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g2_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g3_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g4_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g5_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g6_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g7_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g8_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g9_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g10_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g11_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g12_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g13_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g14_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g15_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g16_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tfrm_month_g_ParamLimits_sig)(TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_top_day_name_pane_t1_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_area_left_week_number_pane_g1_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_area_left_week_number_pane_t1_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_month_view_pane_g1_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_month_view_pane_t1_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tmain_clock2_btn_pane_g1_sig)(TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tmain_clock2_btn_pane_t1_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tlistscroll_cmail_pane_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_sp_fs_email_pane_g1_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_sp_fs_email_pane_g2_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_sp_fs_email_pane_g_ParamLimits_sig)(TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tlist_recal_day_pane_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmian_recal_day_pane_t1_sig)(TInt, TInt, TInt);
 
 } // end of namespace AknLayoutScalable_Apps
 
