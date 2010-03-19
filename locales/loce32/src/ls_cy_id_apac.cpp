@@ -29,7 +29,7 @@
 //  LOCAL CONSTANTS AND MACROS
 
 // The configuration data
-const TLanguage LLocaleData::Language = (enum TLanguage)KLangApacIndonesian;
+const TLanguage LLocaleData::Language = (const enum TLanguage)KLangApacIndonesian;
 const TInt LLocaleData::CountryCode = 62;
 const TInt LLocaleData::UniversalTimeOffset = 25200; //+7 GMT, -28800 for +8 GMT
 const TDateFormat LLocaleData::DateFormat = EDateEuropean;

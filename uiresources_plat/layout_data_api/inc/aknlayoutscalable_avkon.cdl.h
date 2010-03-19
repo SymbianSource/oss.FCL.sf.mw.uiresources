@@ -21,8 +21,8 @@
 #ifndef AKNLAYOUTSCALABLE_AVKON_CDL
 #define AKNLAYOUTSCALABLE_AVKON_CDL
 
-#include <CdlEngine.h>
-#include <AknLayoutScalable_Avkon.cdl.common.h>
+#include <cdlengine.h>
+#include <aknlayoutscalable_avkon.cdl.common.h>
 
 namespace AknLayoutScalable_Avkon
 {
@@ -12444,9 +12444,6 @@ inline TAknLayoutScalableTableLimits cell_graphic2_pane_t_Limits()		{ return (*(
 inline TAknLayoutScalableParameterLimits cell_graphic2_pane_t_ParamLimits(TInt aLineIndex, TInt aVariety)		{ return (*(Tcell_graphic2_pane_t_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_cell_graphic2_pane_t_ParamLimits)))(aLineIndex, aVariety); }
 
 inline TAknTextComponentLayout cell_graphic2_pane_t(TInt aLineIndex, TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tcell_graphic2_pane_t_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_cell_graphic2_pane_t)))(aLineIndex, aVariety, aCol, aRow); }
-
-// LAF Table : cell_graphic2_control_pane
-inline TAknTextComponentLayout cell_graphic2_control_pane_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tcell_graphic2_control_pane_t1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_cell_graphic2_control_pane_t1)))(aVariety, aCol, aRow); }
 
 #ifdef __VC32__
 #pragma component(mintypeinfo, on)
@@ -24870,9 +24867,6 @@ public:
 	inline TAknLayoutScalableParameterLimits cell_graphic2_pane_t_ParamLimits(TInt aLineIndex, TInt aVariety) const		{ return (*(Tcell_graphic2_pane_t_ParamLimits_sig*)(GetFunction(EApiId_cell_graphic2_pane_t_ParamLimits)))(aLineIndex, aVariety); }
 
 	inline TAknTextComponentLayout cell_graphic2_pane_t(TInt aLineIndex, TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tcell_graphic2_pane_t_sig*)(GetFunction(EApiId_cell_graphic2_pane_t)))(aLineIndex, aVariety, aCol, aRow); }
-
-	// LAF Table : cell_graphic2_control_pane
-	inline TAknTextComponentLayout cell_graphic2_control_pane_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tcell_graphic2_control_pane_t1_sig*)(GetFunction(EApiId_cell_graphic2_control_pane_t1)))(aVariety, aCol, aRow); }
 
 private:
 	CInstance();

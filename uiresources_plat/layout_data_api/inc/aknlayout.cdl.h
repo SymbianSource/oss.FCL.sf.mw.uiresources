@@ -22,7 +22,7 @@
 #define AKNLAYOUT_CDL
 
 #include <CdlEngine.h>
-#include <aknlayout.cdl.common.h>
+#include <AknLayout.cdl.common.h>
 
 namespace AknLayout
 {

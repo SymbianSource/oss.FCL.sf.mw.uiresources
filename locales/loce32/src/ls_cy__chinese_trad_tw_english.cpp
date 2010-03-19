@@ -78,7 +78,7 @@ const TFatUtilityFunctions big5FatUtilityFunctions=
 
 // The configuration data
 
-const TLanguage LLocaleData::Language = (enum TLanguage)KLangTaiwanEnglish;
+const TLanguage LLocaleData::Language = (const enum TLanguage)KLangTaiwanEnglish;
 const TInt LLocaleData::CountryCode = 886;
 const TInt LLocaleData::UniversalTimeOffset = 8*3600;
 const TDateFormat LLocaleData::DateFormat = EDateEuropean;

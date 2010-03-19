@@ -28,7 +28,7 @@
 //  LOCAL CONSTANTS AND MACROS
 
 // The configuration data
-const TLanguage LLocaleData::Language = (enum TLanguage)KLangApacMalay;
+const TLanguage LLocaleData::Language = (const enum TLanguage)KLangApacMalay;
 const TInt LLocaleData::CountryCode = 60;
 const TInt LLocaleData::UniversalTimeOffset = 28800;
 const TDateFormat LLocaleData::DateFormat = EDateEuropean;

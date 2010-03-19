@@ -28,7 +28,7 @@
 //  LOCAL CONSTANTS AND MACROS
 
 // The configuration data
-const TLanguage LLocaleData::Language = (enum TLanguage)KLangGalician;
+const TLanguage LLocaleData::Language = (const enum TLanguage)KLangGalician;
 const TInt LLocaleData::CountryCode = 34;
 const TInt LLocaleData::UniversalTimeOffset = 3600;
 const TDateFormat LLocaleData::DateFormat = EDateEuropean;

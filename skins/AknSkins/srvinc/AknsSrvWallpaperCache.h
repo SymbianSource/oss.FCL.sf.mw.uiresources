@@ -38,7 +38,7 @@ const TInt KAknsWallpaperCacheSize = 6;
 
 // CLASS DECLARATION
 
-class CAknsSrvWallpaperCache
+NONSHARABLE_CLASS( CAknsSrvWallpaperCache )
     {
 public:
     /**

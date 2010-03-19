@@ -21,8 +21,8 @@
 #ifndef AKNLAYOUTSCALABLE_APPS_CDL
 #define AKNLAYOUTSCALABLE_APPS_CDL
 
-#include <CdlEngine.h>
-#include <AknLayoutScalable_Apps.cdl.common.h>
+#include <cdlengine.h>
+#include <aknlayoutscalable_apps.cdl.common.h>
 
 namespace AknLayoutScalable_Apps
 {

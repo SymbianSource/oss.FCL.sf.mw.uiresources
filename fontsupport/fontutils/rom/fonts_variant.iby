@@ -28,11 +28,6 @@ ECOM_PLUGIN(ityperast.dll, ityperast.RSC)
 
 // Include proper font set based on configuration
 #ifdef __CHINESE
- #ifdef FF_LINKED_FONTS_CHINESE
- data=ABI_DIR\BUILD_DIR\s60snr.ttf                                                   resource\Fonts\s60snr.ttf
- data=ABI_DIR\BUILD_DIR\s60ssb.ttf                                                   resource\Fonts\s60ssb.ttf
- data=ABI_DIR\BUILD_DIR\s60tsb.ttf                                                   resource\Fonts\s60tsb.ttf
- #endif
 
  #ifdef __CHINESE_PRC_FONTS
 
@@ -100,6 +95,11 @@ ECOM_PLUGIN(ityperast.dll, ityperast.RSC)
 
 #endif //__CHINESE
 
+ #ifdef FF_LINKED_FONTS_CHINESE
+ data=ABI_DIR\BUILD_DIR\s60snr.ttf                                                   resource\Fonts\s60snr.ttf
+ data=ABI_DIR\BUILD_DIR\s60ssb.ttf                                                   resource\Fonts\s60ssb.ttf
+ data=ABI_DIR\BUILD_DIR\s60tsb.ttf                                                   resource\Fonts\s60tsb.ttf
+ #endif
 // Digi font available in all variants
 data=ABI_DIR\BUILD_DIR\S60ZDIGI.ttf                                                  resource\Fonts\S60ZDIGI.ttf
 

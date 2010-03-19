@@ -21,8 +21,8 @@
 #ifndef APPLAYOUT_CDL
 #define APPLAYOUT_CDL
 
-#include <CdlEngine.h>
-#include <AppLayout.cdl.common.h>
+#include <cdlengine.h>
+#include <applayout.cdl.common.h>
 
 namespace AppLayout
 {

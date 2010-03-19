@@ -35,7 +35,6 @@
 #include <pslninternalcrkeys.h>                 // KThemesWallpaperSlideSetType
 
 //PubSub keys.
-#include <ScreensaverInternalPSKeys.h>
 #include <UsbWatcherInternalPSKeys.h>           // KPSUidUsbWatcher
 #include <usbpersonalityids.h>                  // KUsbPersonalityIdMS
 
@@ -617,8 +616,6 @@ void CAknsSrvSettings::InstallAdditionalWatchersL()
         TCallBack(ThemesRepositoryCallBack, this),
         iThemesRepository);
 
-    User::LeaveIfError(
-        iScreensaverActivationProperty.Attach( KPSUidScreenSaver, KScreenSaverOn ) );
     iScreensaverActivationSubscriber = new (ELeave) CAknsPropertySubscriber(
         TCallBack(SSCallBack, this), iScreensaverActivationProperty );
 
@@ -743,15 +740,7 @@ void CAknsSrvSettings::StopScreenSaverListen()
 //
 TInt CAknsSrvSettings::ScreensaverState() const
     {
-    TInt retValue = KErrNotFound;
-    if ( iScreensaverActivationSubscriber )
-        {
-        iScreensaverActivationProperty.Get(
-            KPSUidScreenSaver,
-            KScreenSaverOn,
-            retValue );
-        }
-    return retValue;
+    return KErrNotFound;
     }
 
 // -----------------------------------------------------------------------------

@@ -79,7 +79,7 @@ const TFatUtilityFunctions gbkFatUtilityFunctions=
 
 // The configuration data
 
-const TLanguage LLocaleData::Language = (enum TLanguage)KLangPrcEnglish;
+const TLanguage LLocaleData::Language = (const enum TLanguage)KLangPrcEnglish;
 const TInt LLocaleData::CountryCode = 86;
 const TInt LLocaleData::UniversalTimeOffset = 8*3600;
 const TDateFormat LLocaleData::DateFormat = EDateEuropean;

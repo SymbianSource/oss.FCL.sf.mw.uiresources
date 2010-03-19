@@ -32,7 +32,7 @@ MAKMAKE :
 
 BLD : do_nothing
 
-CLEAN : 
+CLEAN :
 	-$(call remove,$(EPOCROOT)epoc32/include/platform/mw/MifHeader.cdl.h)	
 	-$(call remove,$(EPOCROOT)epoc32/include/platform/mw/MifHeader.cdl.common.h)	
 	-$(call remove,$(EPOCROOT)epoc32/include/platform/mw/MifHeader.cdl.common.hrh)	
