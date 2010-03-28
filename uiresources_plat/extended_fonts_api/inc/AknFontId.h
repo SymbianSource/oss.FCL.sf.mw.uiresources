@@ -51,7 +51,7 @@ class TAknFontId
     *
     * @return   Encoded Avkon font id
     */
-    IMPORT_C static TInt TAknFontId::FontIdForStartupNormalFont();
+    IMPORT_C static TInt FontIdForStartupNormalFont();
     };
 
 #endif // AKNFONTID_H

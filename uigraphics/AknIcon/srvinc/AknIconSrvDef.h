@@ -80,7 +80,7 @@ struct TAknIconParams
         EFlagDisableCompression  = 0x0008  // disable bitmap compression
         };
         
-    TAknIconParams::TAknIconParams():iFlags(0)
+    TAknIconParams():iFlags(0)
         {        
         }
 

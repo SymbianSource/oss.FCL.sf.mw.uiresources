@@ -14,7 +14,7 @@
 * Description:
 *
 */
-// This file was automatically generated from \epoc32\include\oem\mifheader.cdl.
+
 // It contains common definitions for the client and customisation API.
 // It should not be modified manually.
 
