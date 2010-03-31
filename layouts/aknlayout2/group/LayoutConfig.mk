@@ -15,9 +15,9 @@
 #
 # LayoutConfig.mk is no longer used for selecting layouts.
 # Instead, select the appropriate iby file(s) from
-# aknlayout2\rom to configure the correct layouts for a product.
+# aknlayout2/rom to configure the correct layouts for a product.
 
-gen_dir = ..\generated
+gen_dir = ../generated
 
-make_gen_dir :
-	@-md $(gen_dir) > nul 2>&1
+make_gen_dir:
+	@python -c "import os,os.path; os.path.exists('$(gen_dir)') or os.mkdir('$(gen_dir)')"

@@ -52,6 +52,7 @@ PRJ_EXPORTS
 ../rom/AknLayout2_UiAccel_low.iby 					CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_low.iby)
 ../rom/AknLayout2_UiAccel_qvga_touch.iby 		CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_qvga_touch.iby)
 ../rom/AknLayout2_UiAccel_vga_touch.iby 		CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_vga_touch.iby)
+../rom/AknLayout2_UiAccel_nhd4_touch.iby 		CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_nhd4_touch.iby)
 ../rom/AknLayout2_UiAccel_vga4_touch.iby 		CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_vga4_touch.iby)
 
 ../binary_temp/winscw_udeb/CdlEngine.lib /epoc32/release/winscw/udeb/aknlayout.lib
@@ -63,18 +64,18 @@ PRJ_EXPORTS
 
 // Quick workaround for exporting needed headers that are currently generated and exported
 // only when gencode.cmd is run.
-../generated_inc/layoutpack.cdl.h                        MW_LAYER_PLATFORM_EXPORT_PATH(LayoutPack.cdl.h)
-../generated_inc/layoutpack.cdl.common.h                 MW_LAYER_PLATFORM_EXPORT_PATH(LayoutPack.cdl.common.h)
-../generated_inc/aknlayout.cdl.common.h                  MW_LAYER_PLATFORM_EXPORT_PATH(AknLayout.cdl.common.h)
-../generated_inc/aknapaclayout.cdl.common.h              MW_LAYER_PLATFORM_EXPORT_PATH(AknApacLayout.cdl.common.h)
-../generated_inc/applayout.cdl.common.h                  MW_LAYER_PLATFORM_EXPORT_PATH(AppLayout.cdl.common.h)
-../generated_inc/appapaclayout.cdl.common.h              MW_LAYER_PLATFORM_EXPORT_PATH(AppApacLayout.cdl.common.h)
-../generated_inc/skinlayout.cdl.common.h                 MW_LAYER_PLATFORM_EXPORT_PATH(SkinLayout.cdl.common.h)
-../generated_inc/aknlayoutscalable_avkon.cdl.common.h    MW_LAYER_PLATFORM_EXPORT_PATH(AknLayoutScalable_Avkon.cdl.common.h)
-../generated_inc/aknlayoutscalable_apps.cdl.common.h     MW_LAYER_PLATFORM_EXPORT_PATH(AknLayoutScalable_Apps.cdl.common.h)
-../generated_inc/aknlayoutscalable_uiaccel.cdl.common.h  MW_LAYER_PLATFORM_EXPORT_PATH(AknLayoutScalable_uiaccel.cdl.common.h)
-../generated_inc/cdlfont.cdl.common.h                    MW_LAYER_PLATFORM_EXPORT_PATH(CdlFont.cdl.common.h)
-../generated_inc/layoutmetadata.cdl.common.h             MW_LAYER_PLATFORM_EXPORT_PATH(LayoutMetaData.cdl.common.h)
+../generated_inc/layoutpack.cdl.h                        MW_LAYER_PLATFORM_EXPORT_PATH(layoutpack.cdl.h)
+../generated_inc/layoutpack.cdl.common.h                 MW_LAYER_PLATFORM_EXPORT_PATH(layoutpack.cdl.common.h)
+../generated_inc/aknlayout.cdl.common.h                  MW_LAYER_PLATFORM_EXPORT_PATH(aknlayout.cdl.common.h)
+../generated_inc/aknapaclayout.cdl.common.h              MW_LAYER_PLATFORM_EXPORT_PATH(aknapaclayout.cdl.common.h)
+../generated_inc/applayout.cdl.common.h                  MW_LAYER_PLATFORM_EXPORT_PATH(applayout.cdl.common.h)
+../generated_inc/appapaclayout.cdl.common.h              MW_LAYER_PLATFORM_EXPORT_PATH(appapaclayout.cdl.common.h)
+../generated_inc/skinlayout.cdl.common.h                 MW_LAYER_PLATFORM_EXPORT_PATH(skinlayout.cdl.common.h)
+../generated_inc/aknlayoutscalable_avkon.cdl.common.h    MW_LAYER_PLATFORM_EXPORT_PATH(aknlayoutscalable_avkon.cdl.common.h)
+../generated_inc/aknlayoutscalable_apps.cdl.common.h     MW_LAYER_PLATFORM_EXPORT_PATH(aknlayoutscalable_apps.cdl.common.h)
+../generated_inc/aknlayoutscalable_uiaccel.cdl.common.h  MW_LAYER_PLATFORM_EXPORT_PATH(aknlayoutscalable_uiaccel.cdl.common.h)
+../generated_inc/cdlfont.cdl.common.h                    MW_LAYER_PLATFORM_EXPORT_PATH(cdlfont.cdl.common.h)
+../generated_inc/layoutmetadata.cdl.common.h             MW_LAYER_PLATFORM_EXPORT_PATH(layoutmetadata.cdl.common.h)
 ../generated_inc/displaylayoutmetrics.cdl.h              MW_LAYER_PLATFORM_EXPORT_PATH(displaylayoutmetrics.cdl.h)
 ../generated_inc/displaylayoutmetrics.cdl.common.h       MW_LAYER_PLATFORM_EXPORT_PATH(displaylayoutmetrics.cdl.common.h)
 ../generated_inc/aknapaclayout.cdl.common.hrh              MW_LAYER_PLATFORM_EXPORT_PATH(aknapaclayout.cdl.common.hrh)

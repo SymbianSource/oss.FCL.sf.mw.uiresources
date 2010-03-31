@@ -953,7 +953,22 @@ enum TAknsMinorSkinValue
     EAknsMinorQgnHomeWmButtonPressedR         = 0x27aa,
     EAknsMinorQgnHomeWmButtonPressedCenter    = 0x27ab,
 
-    
+    // Qgn Fr Input Icf Bg
+    EAknsMinorQgnFrInputIcfBg               = 0x27ac,
+    EAknsMinorQgnFrInputIcfBgTl             = 0x27ad,
+    EAknsMinorQgnFrInputIcfBgTr             = 0x27ae,
+    EAknsMinorQgnFrInputIcfBgBl             = 0x27af,
+    EAknsMinorQgnFrInputIcfBgBr             = 0x27b0,
+    EAknsMinorQgnFrInputIcfBgT              = 0x27b1,
+    EAknsMinorQgnFrInputIcfBgB              = 0x27b2,
+    EAknsMinorQgnFrInputIcfBgL              = 0x27b3,
+    EAknsMinorQgnFrInputIcfBgR              = 0x27b4,
+    EAknsMinorQgnFrInputIcfBgCenter         = 0x27b5,
+
+/**
+Frame End
+**/
+
     // Colours
     /**
     * Component colour groups color table item.
@@ -7675,8 +7690,15 @@ enum TAknsMinorGenericValue
     EAknsMinorGenericQgnGrafSetwizSlide3 = 0x25e6,
     EAknsMinorGenericQgnGrafSetwizSlide4 = 0x25e7,
     EAknsMinorGenericQgnGrafSetwizSlide5 = 0x25e8,
-    // SCMMARKER_INSERTIONPOINT [9705]
-    EAknsMinorGenericInternalCurrentLastItem = 0x25e9
+    EAknsMinorGenericQgnIndiNaviColor = 0x25e9,
+    EAknsMinorGenericQgnAppsShopmusicList = 0x25ea,
+    EAknsMinorGenericQgnIndiMpttvTbMark = 0x25eb,
+    EAknsMinorGenericQgnIndiUsbMemc = 0x25ec,
+    EAknsMinorGenericQgnMenuAttMusic = 0x25ed,
+    EAknsMinorGenericQgnMenuGroupWebapps = 0x25ee,
+    EAknsMinorGenericQgnMenuRss = 0x25ef,
+    // SCMMARKER_INSERTIONPOINT [9712]
+    EAknsMinorGenericInternalCurrentLastItem = 0x25f0
     };
 
 // ----------------------------------------------------------------------------

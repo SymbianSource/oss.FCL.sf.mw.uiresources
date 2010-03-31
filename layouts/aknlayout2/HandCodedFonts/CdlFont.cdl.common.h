@@ -22,12 +22,12 @@
 #define CDLFONT_CDL_COMMON_H
 
 
-#include <CdlFont.h>
+#include <cdlfont.h>
 
 
 namespace CDL_Font
 {
-#include "CdlFont.cdl.common.hrh"
+#include "cdlfont.cdl.common.hrh"
 
 // These constants are defined by the CDL interface: CDL Font
 _LIT(KCdlName, "CDL Font");

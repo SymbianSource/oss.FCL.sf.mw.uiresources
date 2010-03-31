@@ -101,7 +101,7 @@ static TAny* MainExport()
 
 const TImplementationProxy ImplementationTable[] =
 	{
-		{{0x000007d1}, ::MainExport}
+		{{0x2001e2b1}, ::MainExport}
 	};
 
 EXPORT_C const TImplementationProxy* ImplementationGroupProxy(TInt& aTableCount)

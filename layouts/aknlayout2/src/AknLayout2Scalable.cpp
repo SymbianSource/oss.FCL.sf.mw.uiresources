@@ -17,7 +17,7 @@
 
 
 #include "AknLayout2ScalableDataDef.h"
-#include "AknLayout2ScalableDef.h"
+#include "aknlayout2scalabledef.h"
 #include <layoutmetadata.cdl.h>
 #include <CdlEngine.h>
 

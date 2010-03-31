@@ -19,7 +19,7 @@
 #  Name        : skingenerator.xml
 #  Part of     : skins
 #  Description : 
-#  Version     : %version: be1nfmx1#3 %
+#  Version     : %version: 4 %
 # ============================================================================
 -->
 
@@ -37,6 +37,7 @@
 		  <param name='AKNSSKINUID' default=""/>
 		  <param name='AKNSSRCDIR' default=""/>
 		  <param name='AKNSGENDIR' default=""/>
+		  <param name='INPUTBMPS' default='yes'/>
 
 		  <param name='SKINDEBUG' default='1'/>
 		  

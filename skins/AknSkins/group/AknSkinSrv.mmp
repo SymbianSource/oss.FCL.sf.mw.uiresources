@@ -26,7 +26,7 @@ CAPABILITY      CAP_GENERAL_DLL
 VENDORID        VID_DEFAULT
 
 #ifdef __VFP_HW_SUPPORT
-OPTION ARMCC --fpu vfpv2 --fpmode fast
+ARMFPU vfpv2
 #endif
 
 USERINCLUDE     . ../srvinc 

@@ -18,7 +18,7 @@
 // cdlcompiler instance \S60\FontProvider\CdlFont\CdlFont.cdl CdlFontInst_legacy
 // This customisation implements the interface defined in CdlFont.cdl
 
-#include "CdlFontInst_legacy.h"
+#include "cdlfontinst_legacy.h"
 #include <gdi.h>
 #include <fontids.hrh>
 #include <avkon.hrh>

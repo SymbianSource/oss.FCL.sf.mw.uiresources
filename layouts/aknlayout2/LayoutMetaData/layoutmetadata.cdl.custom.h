@@ -21,8 +21,8 @@
 #ifndef LAYOUTMETADATA_CDL_CUSTOM_H
 #define LAYOUTMETADATA_CDL_CUSTOM_H
 
-#include <cdlengdef.h>
-#include "LayoutMetaData.cdl.common.h"
+#include <CdlEngDef.h>
+#include "layoutmetadata.cdl.common.h"
 
 namespace Layout_Meta_Data
 {

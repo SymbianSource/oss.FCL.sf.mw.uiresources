@@ -22,7 +22,7 @@
 #define APPLAYOUT_CDL_COMMON_H
 
 
-#include <AknLayout2Def.h>
+#include <aknlayout2def.h>
 
 
 namespace AppLayout

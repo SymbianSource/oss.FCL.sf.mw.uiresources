@@ -447,6 +447,29 @@ CDL_ARRAY_START( SHeightRequest, chnlinkedFontHeightRequestArray)
     }
 CDL_ARRAY_END(SHeightRequest, chnlinkedFontHeightRequestArray);
 
+CDL_ARRAY_START( SHeightRequest, chnHrLftHeightRequestArray)
+    {
+        {  2,  2 }, 
+        { 10,  8 }, 
+        { 11,  9 }, 
+        { 13, 11 }, 
+        { 14, 12 }, 
+        { 14, 13 }, 
+        { 16, 14 }, 
+        { 18, 15 }, 
+        { 19, 16 }, 
+        { 24, 21 }, 
+        { 25, 22 }, 
+        { 26, 24 }, 
+        { 27, 25 }, 
+        { 28, 26 }, 
+        { 29, 26 }, 
+        { 30, 27 }, 
+        { 79, 72 }, 
+        { 218, 200 }, 
+    }
+CDL_ARRAY_END(SHeightRequest, chnHrLftHeightRequestArray);
+
 // Typeface Aliasing
 
 // Minimum length for alias substring matching
@@ -649,19 +672,19 @@ static const SAknProductFontTableLine productFontTable[] = {
     { EAknFontCategoryAny,          12,   21,   EAny, 0,    EAny, ENotBold, ENotAntialiase, EChineseLangsTaiwanHKLF, LIT_AS_DESC_PTR(KS60TCHKSANSRLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, &chnlinkedFontHeightRequestArray, NULL },
     { EAknFontCategoryAny,          EAny, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKLF, LIT_AS_DESC_PTR(KS60TCHKSANSRLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, &chnlinkedFontHeightRequestArray, NULL },
 
-    { EAknFontCategorySecondary,    0, EAny, EStrokeWeightNormal, EAny, EAny, ENotBold, EAntialiase, EChineseLangsPRCHiResLF, LIT_AS_DESC_PTR(KS60SCHRSANSRLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL },    
-    { EAknFontCategorySecondary,    0, EAny, EStrokeWeightBold, EAny, EAny, ENotBold, EAntialiase, EChineseLangsPRCHiResLF, LIT_AS_DESC_PTR(KS60SCHRSANSSBLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL },
-    { EAknFontCategoryPrimarySmall, 0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsPRCHiResLF, LIT_AS_DESC_PTR(KS60SCHRSANSSBLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL },
-    { EAknFontCategoryPrimary,      0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsPRCHiResLF, LIT_AS_DESC_PTR(KS60SCHRSANSSBLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL },
-    { EAknFontCategoryTitle,        0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsPRCHiResLF, LIT_AS_DESC_PTR(KS60SCHRSANSTTLSMBLDLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL },
-    { EAknFontCategoryAny,          0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsPRCHiResLF, LIT_AS_DESC_PTR(KS60SCHRSANSRLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL },
+    { EAknFontCategorySecondary,    0, EAny, EStrokeWeightNormal, EAny, EAny, ENotBold, EAntialiase, EChineseLangsPRCHiResLF, LIT_AS_DESC_PTR(KS60SCHRSANSRLF), LIT_AS_DESC_PTR(KS60Group), NULL, &chnHrLftHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },    
+    { EAknFontCategorySecondary,    0, EAny, EStrokeWeightBold, EAny, EAny, ENotBold, EAntialiase, EChineseLangsPRCHiResLF, LIT_AS_DESC_PTR(KS60SCHRSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &chnHrLftHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryPrimarySmall, 0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsPRCHiResLF, LIT_AS_DESC_PTR(KS60SCHRSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &chnHrLftHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryPrimary,      0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsPRCHiResLF, LIT_AS_DESC_PTR(KS60SCHRSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &chnHrLftHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryTitle,        0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsPRCHiResLF, LIT_AS_DESC_PTR(KS60SCHRSANSTTLSMBLDLF), LIT_AS_DESC_PTR(KS60Group), NULL, &chnHrLftHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryAny,          0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsPRCHiResLF, LIT_AS_DESC_PTR(KS60SCHRSANSRLF), LIT_AS_DESC_PTR(KS60Group), NULL, &chnHrLftHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
 
-    { EAknFontCategorySecondary,    0, EAny, EStrokeWeightNormal, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSRLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL }, 
-    { EAknFontCategorySecondary,    0, EAny, EStrokeWeightBold, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSSBLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL },
-    { EAknFontCategoryPrimarySmall, 0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSSBLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL },
-    { EAknFontCategoryPrimary,      0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSSBLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL },
-    { EAknFontCategoryTitle,        0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSTTLSMBLDLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL },
-    { EAknFontCategoryAny,          0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSRLF), LIT_AS_DESC_PTR(KS60Group), &apacVectorFontBaselineArray, NULL, NULL }
+    { EAknFontCategorySecondary,    0, EAny, EStrokeWeightNormal, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSRLF), LIT_AS_DESC_PTR(KS60Group), NULL, &chnHrLftHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) }, 
+    { EAknFontCategorySecondary,    0, EAny, EStrokeWeightBold, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &chnHrLftHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryPrimarySmall, 0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &chnHrLftHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryPrimary,      0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &chnHrLftHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryTitle,        0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSTTLSMBLDLF), LIT_AS_DESC_PTR(KS60Group), NULL, &chnHrLftHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryAny,          0, EAny, EAny, EAny, EAny, ENotBold, EAntialiase, EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSRLF), LIT_AS_DESC_PTR(KS60Group), NULL, &chnHrLftHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) }
 //end
     };
 // ============================ GLOBAL FUNCTIONS ========================================

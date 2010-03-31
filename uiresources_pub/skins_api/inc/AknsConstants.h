@@ -17368,7 +17368,41 @@ static const TAknsItemID KAknsIIDQgnHomeWmButtonPressedR =
 static const TAknsItemID KAknsIIDQgnHomeWmButtonPressedCenter =
     { EAknsMajorSkin, EAknsMinorQgnHomeWmButtonPressedCenter}; 
     
+
+    // Qgn Graf Input Icf Bg
+static const TAknsItemID KAknsIIDQgnFrInputIcfBg =
+    { EAknsMajorSkin, EAknsMinorQgnFrInputIcfBg};
+
+static const TAknsItemID KAknsIIDQgnFrInputIcfBgTl =
+    { EAknsMajorSkin, EAknsMinorQgnFrInputIcfBgTl};
     
+static const TAknsItemID KAknsIIDQgnFrInputIcfBgTr =
+    { EAknsMajorSkin, EAknsMinorQgnFrInputIcfBgTr};
+    
+static const TAknsItemID KAknsIIDQgnFrInputIcfBgBl =
+    { EAknsMajorSkin, EAknsMinorQgnFrInputIcfBgBl};
+    
+static const TAknsItemID KAknsIIDQgnFrInputIcfBgBr =
+    { EAknsMajorSkin, EAknsMinorQgnFrInputIcfBgBr};   
+   
+static const TAknsItemID KAknsIIDQgnFrInputIcfBgT =
+    { EAknsMajorSkin, EAknsMinorQgnFrInputIcfBgT};   
+    
+static const TAknsItemID KAknsIIDQgnFrInputIcfBgB =
+    { EAknsMajorSkin, EAknsMinorQgnFrInputIcfBgB}; 
+
+static const TAknsItemID KAknsIIDQgnFrInputIcfBgL =
+    { EAknsMajorSkin, EAknsMinorQgnFrInputIcfBgL};  
+
+static const TAknsItemID KAknsIIDQgnFrInputIcfBgR =
+    { EAknsMajorSkin, EAknsMinorQgnFrInputIcfBgR};  
+
+static const TAknsItemID KAknsIIDQgnFrInputIcfBgCenter =
+    { EAknsMajorSkin, EAknsMinorQgnFrInputIcfBgCenter}; 
+
+/*
+Frame End
+*/
 
 static const TAknsItemID KAknsIIDQgnGrafBlidFlag =
     { EAknsMajorGeneric, EAknsMinorGenericQgnGrafBlidFlag };
@@ -22001,6 +22035,27 @@ static const TAknsItemID KAknsIIDQgnGrafSetwizSlide4 =
 
 static const TAknsItemID KAknsIIDQgnGrafSetwizSlide5 =
     { EAknsMajorGeneric, EAknsMinorGenericQgnGrafSetwizSlide5 };
+
+static const TAknsItemID KAknsIIDQgnIndiNaviColor =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiNaviColor };
+
+static const TAknsItemID KAknsIIDQgnAppsShopmusicList =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnAppsShopmusicList };
+
+static const TAknsItemID KAknsIIDQgnIndiMpttvTbMark =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiMpttvTbMark };
+
+static const TAknsItemID KAknsIIDQgnIndiUsbMemc =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiUsbMemc };
+
+static const TAknsItemID KAknsIIDQgnMenuAttMusic =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuAttMusic };
+
+static const TAknsItemID KAknsIIDQgnMenuGroupWebapps =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuGroupWebapps };
+
+static const TAknsItemID KAknsIIDQgnMenuRss =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuRss };
 
 // SCMMARKER_INSERTIONPOINT
 

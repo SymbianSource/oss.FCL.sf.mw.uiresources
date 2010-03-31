@@ -40,7 +40,7 @@ sourcepath	..
 
 source src/AknLayout2Scalable.cpp
 
-library EUSER.LIB
+library euser.lib
 library CdlEngine.LIB
 
 START WINS

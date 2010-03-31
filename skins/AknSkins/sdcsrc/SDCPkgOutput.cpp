@@ -115,8 +115,6 @@ void CSDCPkgOutput::Output( CSDCData* aData, const char* aSkinName,
 
     char trgPath[256];
 
-    fprintf( file, "IF package(0x102032be) ; Check for S60 3.1 stub sis\n");
-//-------- New 3.1 compatible install directory
     if( storagePid.iPID2 == 0 )
         {
         sprintf( trgPath, "!:\\resource\\skins\\%08x", storagePid.iPID1 );
@@ -132,8 +130,6 @@ void CSDCPkgOutput::Output( CSDCData* aData, const char* aSkinName,
         fprintf( file, "\"%s.mif\" - \"%s\\%s.mif\"\n", aSkinName, trgPath, aSkinName );
         }
 
-    fprintf( file, "ELSE\n");
-//-------- 3.0 compatible install directory
     if( storagePid.iPID2 == 0 )
         {
         sprintf( trgPath, "!:\\private\\10207114\\import\\%08x", storagePid.iPID1 );
@@ -143,13 +139,6 @@ void CSDCPkgOutput::Output( CSDCData* aData, const char* aSkinName,
         sprintf( trgPath, "!:\\private\\10207114\\import\\%08x%08x", storagePid.iPID1, storagePid.iPID2 );
         }
 
-    fprintf( file, "\"%s.mbm\" - \"%s\\%s.mbm\"\n", aSkinName, trgPath, aSkinName );
-    if( aData->IsScalable() )
-        {
-        fprintf( file, "\"%s.mif\" - \"%s\\%s.mif\"\n", aSkinName, trgPath, aSkinName );
-        }
-    fprintf( file, "ENDIF\n") ;
-// ------- ENDIF
     if( drm )
         {
         fprintf( file, ";SKN file %s.skn moved to DRM definition file\n", aSkinName );

@@ -25,4 +25,3 @@ style_name = NHD4
 touch = _tch
 msk = no
 touchpane = no
-liststretching = yes

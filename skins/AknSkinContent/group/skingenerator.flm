@@ -26,6 +26,7 @@
 # AKNSSKINNAME
 # AKNSSKINREALNAME
 # AKNSSKINUID
+# INPUTBMPS (to be specified in the bld.inf as 'no' if it doesn't has bmps as input); by default assumes that it uses bmps as input
 
 CREATABLEPATHS:=
 CLEANTARGETS:=
@@ -84,19 +85,26 @@ SKNMIFGUARD:=$(call sanitise,TARGET_$(TARGETMIF))
 
 define generatesknandmif
 $(SKNMIFGUARD):=1
-RELEASEABLES:=$(TARGETSKN) $(TARGETMIF) $(basename $(TARGETMIF)).mbm
+RELEASEABLES:=$(TARGETSKN) $(TARGETMIF)
+ifeq ($(INPUTBMPS),yes)
+RELEASEABLES:=$(RELEASEABLES) $(basename $(TARGETMIF)).mbm
+endif
 
 BITMAP:: $(TARGETMIF)
 
 $(TARGETMIF) : $(AKNSDATAGENDIR)/$(AKNSSKINREALNAME).mif
-	$(call startrule,mifmbmcopy,FORCESUCCESS) \
+	$(call startrule,mifskncopy,FORCESUCCESS) \
 	$(GNUCP) $$< $$@ && \
 	$(GNUCHMOD) a+rw "$$@" && \
-	$(GNUCP) $$(basename $$<).mbm $$(basename $$@).mbm && \
-	$(GNUCHMOD) a+rw "$$(basename $$@).mbm" && \
 	$(GNUCP) $$(basename $$<).skn $(TARGETSKN) && \
 	$(GNUCHMOD) a+rw "$(TARGETSKN)" \
-	$(call endrule,mifmbmcopy)
+	$(call endrule,mifskncopy)
+ifeq ($(INPUTBMPS),yes)
+	$(call startrule,mbmcopy,FORCESUCCESS) \
+	$(GNUCP) $$(basename $$<).mbm $$(basename $$@).mbm && \
+	$(GNUCHMOD) a+rw "$$(basename $$@).mbm" \
+	$(call endrule,mbmcopy)
+endif
 
 $(AKNSDATAGENDIR)/$(AKNSSKINREALNAME).skn : $(SKINCOMPILER) $(AKNSSRCDIR)/$(AKNSSKINNAME).txt
 	$(call startrule,generateskn,FORCESUCCESS) \
@@ -110,11 +118,20 @@ $(AKNSDATAGENDIR)/$(AKNSSKINREALNAME).mif : $(MIFTOOL) $(AKNSDATAGENDIR)/$(AKNSS
 	$(call startrule,generatemif,FORCESUCCESS)\
 	cd $(AKNSSRCDIR) && \
 	$(MIFTOOL) $(AKNSSKINREALNAME).mif -F$(AKNSDATAGENDIR)/$(AKNSSKINREALNAME)_MIFList.txt && \
-	$(GNUCP) $(AKNSSKINREALNAME).mif $(AKNSDATAGENDIR)/$(AKNSSKINREALNAME).mif && \
-	$(GNUCP) $(AKNSSKINREALNAME).mbm $(AKNSDATAGENDIR)/$(AKNSSKINREALNAME).mbm \
+	$(GNUCP) $(AKNSSKINREALNAME).mif $(AKNSDATAGENDIR)/$(AKNSSKINREALNAME).mif \
 	$(call endrule,generatemif)
+ifeq ($(INPUTBMPS),yes)
+	$(call startrule,copymbm2generatedfolder,FORCESUCCESS)\
+	cd $(AKNSSRCDIR) && \
+	$(GNUCP) $(AKNSSKINREALNAME).mbm $(AKNSDATAGENDIR)/$(AKNSSKINREALNAME).mbm \
+	$(call endrule,copymbm2generatedfolder)
+endif	
+	
 
-CLEANTARGETS:=$$(CLEANTARGETS) $$(RELEASEABLES) $(addprefix $(AKNSDATAGENDIR)/,$(addprefix $(AKNSSKINREALNAME).,mif mbm))
+CLEANTARGETS:=$$(CLEANTARGETS) $$(RELEASEABLES) $(AKNSDATAGENDIR)/$(AKNSSKINREALNAME).mif
+ifeq ($(INPUTBMPS),yes)
+CLEANTARGETS:=$$(CLEANTARGETS) $(AKNSDATAGENDIR)/$(AKNSSKINREALNAME).mbm
+endif
 endef
 
 ifeq ($($(SKNMIFGUARD)),)

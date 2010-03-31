@@ -17,4 +17,4 @@
 uid = 0x10283389
 
 include configure_qhd_touch.mk
-include layoutDllCommon.mk
+include LayoutDllCommon.mk

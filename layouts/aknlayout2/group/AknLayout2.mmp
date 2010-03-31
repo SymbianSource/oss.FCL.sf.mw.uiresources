@@ -36,11 +36,11 @@ SYSTEMINCLUDE   .
 
 SOURCEPATH      ..
 
-SOURCE          src/AknLayout2.cpp
+SOURCE          src/Aknlayout2.cpp
 
 LIBRARY         euser.lib
-LIBRARY         cdlengine.LIB
-LIBRARY         aknlayout2scalable.lib
+LIBRARY         CdlEngine.lib
+LIBRARY         AknLayout2Scalable.lib
 START WINS
 BASEADDRESS     0x7e010000
 END

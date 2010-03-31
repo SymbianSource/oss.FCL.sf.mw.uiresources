@@ -61,6 +61,12 @@ CAknsSrvWallpaperCache::~CAknsSrvWallpaperCache( )
 TAknsSrvWallpaper* CAknsSrvWallpaperCache::AddL( RFs& aRFs, const TDesC& aFileName, 
         const TSize aTrgSize, const TSize aMaxSize )
     {
+    
+    if ( aFileName.Length() == 0 )
+        {
+        return NULL;
+        }
+    	
     if ( aTrgSize ==  TSize(-1, -1) )
         {
         TryDecodeImageL( aRFs,aFileName );
@@ -73,8 +79,9 @@ TAknsSrvWallpaper* CAknsSrvWallpaperCache::AddL( RFs& aRFs, const TDesC& aFileNa
     wp = CachedImage( aFileName );
     if ( !wp )
         {
-        wp = new TAknsSrvWallpaper;
+        wp = new ( ELeave ) TAknsSrvWallpaper;
         ZeroItem ( *wp );
+        CleanupStack::PushL( wp );
         }
     else
         {
@@ -158,6 +165,7 @@ TAknsSrvWallpaper* CAknsSrvWallpaperCache::AddL( RFs& aRFs, const TDesC& aFileNa
         {
         RemoveOldestItem();        
         iCache.Append( wp );
+        CleanupStack::Pop( wp ); 
         }
     return wp;
     }

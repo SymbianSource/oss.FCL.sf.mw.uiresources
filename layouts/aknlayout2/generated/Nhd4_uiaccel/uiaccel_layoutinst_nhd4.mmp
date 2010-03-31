@@ -19,9 +19,9 @@
 // It may be modified manually.
 #include <platform_paths.hrh>
 
-target           000007d1.dll
+target           2001e2b1.dll
 targettype		 PLUGIN
-UID 			 0x10009D8D 0x000007d1
+UID 			 0x10009D8D 0x2001e2b1
 CAPABILITY       CAP_ECOM_PLUGIN
 VENDORID         VID_DEFAULT
 
@@ -66,10 +66,10 @@ library          euser.lib
 library          aknlayout2scalable.lib
 library          cdlengine.lib
 
-START RESOURCE	 000007d1.rss
-TARGET       000007d1.rsc
+START RESOURCE	 2001e2b1.rss
+TARGET       2001e2b1.rsc
 END
-START RESOURCE   000007d1_cdl_detail.rss
+START RESOURCE   2001e2b1_cdl_detail.rss
 TARGETPATH       resource/cdl
 END
 

@@ -16,8 +16,8 @@
 */
 #ifndef ADAPTATION_LAYER_AKNLAYOUT_ELAF_HRH
 #define ADAPTATION_LAYER_AKNLAYOUT_ELAF_HRH
-#include "AknLayout.cdl.common.hrh"
-#include "DllInstances.hrh"
+#include "aknlayout.cdl.common.hrh"
+#include "dllinstances.hrh"
 
 #define _CDL_Adaptation_Layer_AknLayout_Elaf_KCdlInstanceInterfaceUidValue _CDL_AknLayout_KCdlInterfaceUidValue
 #define _CDL_Adaptation_Layer_AknLayout_Elaf_KCdlInstanceId KDllInst_Adaptation_Layer_AknLayout_Elaf

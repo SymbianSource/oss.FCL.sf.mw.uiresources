@@ -21,8 +21,8 @@
 
 #ifndef CDLFONTINST_QVGA2_H
 #define CDLFONTINST_QVGA2_H
-#include "CdlFont.cdl.custom.h"
-#include "CdlFontInst_QVGA2.hrh"
+#include "cdlfont.cdl.custom.h"
+#include "cdlfontinst_qvga2.hrh"
 
 namespace CdlFontInst_QVGA2
 {
