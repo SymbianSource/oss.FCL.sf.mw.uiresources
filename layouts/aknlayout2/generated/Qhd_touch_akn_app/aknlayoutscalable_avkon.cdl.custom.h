@@ -5736,6 +5736,12 @@ struct SCdlImpl5
 	Tfshwr2_func_candi_pane_ParamLimits_sig* fshwr2_func_candi_pane_ParamLimits;
 	Tfshwr2_hwr_syb_pane_ParamLimits_sig* fshwr2_hwr_syb_pane_ParamLimits;
 	Tfshwr2_icf_pane_ParamLimits_sig* fshwr2_icf_pane_ParamLimits;
+	Tlist_double_graphic_pane_vc_g4_ParamLimits_sig* list_double_graphic_pane_vc_g4_ParamLimits;
+	Tlist_double_graphic_pane_vc_g4_sig* list_double_graphic_pane_vc_g4;
+	Tcell_ituss_key_pane_g3_ParamLimits_sig* cell_ituss_key_pane_g3_ParamLimits;
+	Tcell_ituss_key_pane_g3_sig* cell_ituss_key_pane_g3;
+	Tcell_ituss_key_t5_ParamLimits_sig* cell_ituss_key_t5_ParamLimits;
+	Tcell_ituss_key_t5_sig* cell_ituss_key_t5;
 	};
 #ifdef __WINS__
 struct SCdlImpl

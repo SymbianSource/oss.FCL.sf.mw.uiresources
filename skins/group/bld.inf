@@ -15,5 +15,13 @@
 *
 */
 
+#ifdef TOOLS2
+
+#include "../AknSkins/group/bld.inf"
+
+#else
+
 #include "../AknSkinContent/group/bld.inf"
 #include "../AknSkins/group/bld.inf"
+
+#endif

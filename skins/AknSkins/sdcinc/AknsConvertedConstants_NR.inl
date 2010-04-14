@@ -7037,3 +7037,7 @@
 {L"KAknsIIDQgnMenuAttMusic",  EAknsMajorGeneric, EAknsMinorGenericQgnMenuAttMusic },
 {L"KAknsIIDQgnMenuGroupWebapps",  EAknsMajorGeneric, EAknsMinorGenericQgnMenuGroupWebapps },
 {L"KAknsIIDQgnMenuRss",  EAknsMajorGeneric, EAknsMinorGenericQgnMenuRss },
+{L"KAknsIIDQgnMenuShortcutAdd",  EAknsMajorGeneric, EAknsMinorGenericQgnMenuShortcutAdd },
+{L"KAknsIIDQgnIndiBrowserTbDownloads",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiBrowserTbDownloads },
+{L"KAknsIIDQgnIndiFebAsterisk",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiFebAsterisk },
+{L"KAknsIIDQsnBigclockAnalogueFaceScreensaver",  EAknsMajorGeneric, EAknsMinorGenericQsnBigclockAnalogueFaceScreensaver },

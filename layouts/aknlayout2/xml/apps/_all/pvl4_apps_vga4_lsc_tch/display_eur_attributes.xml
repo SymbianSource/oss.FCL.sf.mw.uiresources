@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LayoutAttributes createdOn="2010-03-14 14:19:19.493" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.34869552777557455">
+<LayoutAttributes createdOn="2010-03-29 17:19:38.535" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.34869552777557455">
   <attributeset compId="1" name="D">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -5125,17 +5125,16 @@
       <calc value="5"/>
     </attribute>
     <attribute id="44" name="Top Margin">
-      <calc value="44"/>
+      <calc value="18"/>
     </attribute>
     <attribute id="46" name="Multi Row">
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="3" zoom="+2 zoom"/>
-      <calc value="3" zoom="+3 zoom"/>
-      <calc value="5" zoom="-3 zoom"/>
-      <calc value="5" zoom="-2 zoom"/>
+      <calc value="6" zoom="-3 zoom"/>
+      <calc value="6" zoom="-2 zoom"/>
       <calc value="4"/>
+      <calc value="5" zoom="-1 zoom"/>
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="true"/>
@@ -7180,7 +7179,24 @@
       <calc value="9"/>
     </attribute>
     <attribute id="50" name="Hz Align">
-      <calc value="centered"/>
+      <calc value="left"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="false"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="5322" name="a2">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="false"/>

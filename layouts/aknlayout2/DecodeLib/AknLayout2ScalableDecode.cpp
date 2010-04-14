@@ -16,7 +16,7 @@
 */
 
 
-#include "aknlayout2scalabledecode.h"
+#include "AknLayout2ScalableDecode.h"
 #include <CdlEngine.h>
 
 // These functions are supplied as a library linked into LayoutInst.dll. They are

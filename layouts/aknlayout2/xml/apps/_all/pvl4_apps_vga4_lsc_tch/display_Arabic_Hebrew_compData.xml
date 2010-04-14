@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2010-03-14 14:20:28.765" LayoutName="pvl4_apps_vga4_lsc_tch" LayoutSetId="281" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.34869552777557455" MasterName="m_app_tch_92v_bsk" ppi="300.0" ppiUnit="Inches" resolutionHeight="480" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
+<Layout createdOn="2010-03-29 17:20:36.796" LayoutName="pvl4_apps_vga4_lsc_tch" LayoutSetId="281" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.34869552777557455" MasterName="m_app_tch_92v_bsk" ppi="300.0" ppiUnit="Inches" resolutionHeight="480" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
     <Component drawingorder="0" id="1" mirror="true" name="Screen" type="Screen"/>
     <Component drawingorder="0" id="2" maxVariety="0" mirror="true" name="application_window" type="Container"/>
     <Component drawingorder="16" id="11" maxVariety="3" mirror="true" name="navi_pane_mv_g2" type="Graphic"/>
@@ -2473,7 +2473,7 @@
     <Component drawingorder="2" id="5315" maxVariety="1" mirror="true" name="sc_clock_pane_g1" type="Graphic"/>
     <Component drawingorder="3" id="5316" maxVariety="1" mirror="true" name="sc_clock_pane_t3" type="Text"/>
     <Component drawingorder="113" id="5317" maxVariety="0" mirror="true" name="main_fs_bigclock_pane" type="Pane"/>
-    <Component drawingorder="1" id="5318" maxVariety="1" mirror="true" name="main_fs_bigclock_pane_g1" type="Graphic"/>
+    <Component drawingorder="1" id="5318" maxVariety="3" mirror="true" name="main_fs_bigclock_pane_g1" type="Graphic"/>
     <Component drawingorder="2" id="5319" maxVariety="1" mirror="true" name="main_fs_bigclock_pane_t1" type="Text"/>
     <Component drawingorder="0" id="5320" maxVariety="1" mirror="true" name="main_fs_bigclock_pane_t2" type="Text"/>
     <Component drawingorder="1" id="5321" maxVariety="1" mirror="true" name="main_fs_bigclock_pane_t3" type="Text"/>
@@ -3005,7 +3005,7 @@
     <Component drawingorder="1" id="7096" maxVariety="0" mirror="true" name="image3_infobar_loc_pane_g2" type="Graphic"/>
     <Component drawingorder="2" id="7097" maxVariety="0" mirror="true" name="image3_infobar_loc_pane_t1" type="Text"/>
     <Component drawingorder="0" id="7098" maxVariety="2" mirror="true" name="list_single_fs_bigclock_indicator_pane_t1" type="Text"/>
-    <Component drawingorder="0" id="7099" maxVariety="1" mirror="true" name="fs_bigclock_status_pane" type="Pane"/>
+    <Component drawingorder="0" id="7099" maxVariety="3" mirror="true" name="fs_bigclock_status_pane" type="Pane"/>
     <Component drawingorder="0" id="7103" maxVariety="0" mirror="true" name="fs_bigclock_status_signal_pane" type="Pane"/>
     <Component drawingorder="0" id="7105" maxVariety="0" mirror="true" name="fs_bigclock_status_signal_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="7106" maxVariety="0" mirror="true" name="fs_bigclock_status_signal_pane_g2" type="Graphic"/>
@@ -3014,8 +3014,8 @@
     <Component drawingorder="0" id="7110" maxVariety="0" mirror="true" name="fs_bigclock_status_title_pane_t1" type="Text"/>
     <Component drawingorder="0" id="7111" maxVariety="0" mirror="true" name="fs_bigclock_status_battery_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="7112" maxVariety="0" mirror="true" name="fs_bigclock_status_battery_pane_g2" type="Graphic"/>
-    <Component drawingorder="5" id="7113" maxVariety="1" mirror="true" name="main_fs_bigclock_clock_pane" type="Pane"/>
-    <Component drawingorder="4" id="7114" maxVariety="1" mirror="true" name="main_fs_bigclock_indi_pane" type="Pane"/>
+    <Component drawingorder="5" id="7113" maxVariety="3" mirror="true" name="main_fs_bigclock_clock_pane" type="Pane"/>
+    <Component drawingorder="4" id="7114" maxVariety="3" mirror="true" name="main_fs_bigclock_indi_pane" type="Pane"/>
     <Component drawingorder="0" id="7115" maxVariety="0" mirror="true" name="main_fs_bigclock_clock_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="7116" maxVariety="0" mirror="true" name="main_fs_bigclock_clock_pane_g2" type="Graphic"/>
     <Component drawingorder="2" id="7117" maxVariety="0" mirror="true" name="main_fs_bigclock_clock_pane_g3" type="Graphic"/>
@@ -3035,7 +3035,7 @@
     <Component drawingorder="1" id="7135" maxVariety="3" mirror="true" name="list_single_fs_bigclock_pane_t1" type="Text"/>
     <Component drawingorder="7" id="7136" maxVariety="1" mirror="true" name="list_single_fs_bigclock_indicator_pane_g4" type="Graphic"/>
     <Component drawingorder="6" id="7138" maxVariety="1" mirror="true" name="list_single_fs_bigclock_indicator_pane_t4" type="Text"/>
-    <Component drawingorder="3" id="7139" maxVariety="1" mirror="true" name="main_fs_bigclock_swipe_pane" type="Pane"/>
+    <Component drawingorder="3" id="7139" maxVariety="3" mirror="true" name="main_fs_bigclock_swipe_pane" type="Pane"/>
     <Component drawingorder="0" id="7140" maxVariety="0" mirror="true" name="main_fs_bigclock_swipe_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="7141" maxVariety="1" mirror="true" name="main_fs_bigclock_swipe_pane_t1" type="Text"/>
     <Component drawingorder="2" id="7142" maxVariety="0" mirror="true" name="main_fs_bigclock_swipe_pane_g2" type="Graphic"/>
@@ -3160,7 +3160,7 @@
     <Component drawingorder="3" id="7888" maxVariety="0" mirror="true" name="cell_tport_appsw_pane_g3" type="Graphic"/>
     <Component drawingorder="4" id="7889" maxVariety="0" mirror="true" name="bg_button_pane_cp16" type="Pane"/>
     <Component drawingorder="1" id="7890" maxVariety="0" mirror="true" name="main_calllock_pane" type="Pane"/>
-    <Component drawingorder="6" id="7896" maxVariety="1" mirror="true" name="main_fs_bigclock_unlock_btn_pane" type="Pane"/>
+    <Component drawingorder="6" id="7896" maxVariety="3" mirror="true" name="main_fs_bigclock_unlock_btn_pane" type="Pane"/>
     <Component drawingorder="1" id="7897" maxVariety="0" mirror="true" name="main_fs_bigclock_unlock_btn_pane_t1" type="Text"/>
     <Component drawingorder="0" id="7898" maxVariety="0" mirror="true" name="main_fs_bigclock_unlock_btn_pane_g1" type="Graphic"/>
     <Component drawingorder="134" id="7899" maxVariety="0" mirror="true" name="main_fmrd2_pane" type="Pane"/>
@@ -3360,4 +3360,7 @@
     <Component drawingorder="4" id="8106" maxVariety="26" mirror="true" name="list_single_dyc_row_text_pane_t5" type="Text"/>
     <Component drawingorder="5" id="8107" maxVariety="8" mirror="true" name="list_single_dyc_row_text_pane_t6" type="Text"/>
     <Component drawingorder="1" id="8108" maxVariety="0" mirror="true" name="aid_mgn_list_cale_time_pane" type="Pane"/>
+    <Component drawingorder="16" id="8110" maxVariety="0" mirror="true" name="main_clock2_pane_cp01_t1" type="Text"/>
+    <Component drawingorder="17" id="8111" maxVariety="0" mirror="true" name="main_clock2_pane_cp01_t3" type="Text"/>
+    <Component drawingorder="21" id="8112" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g16" type="Graphic"/>
 </Layout>

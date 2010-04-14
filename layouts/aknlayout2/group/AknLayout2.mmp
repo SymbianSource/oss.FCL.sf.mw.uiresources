@@ -36,7 +36,7 @@ SYSTEMINCLUDE   .
 
 SOURCEPATH      ..
 
-SOURCE          src/Aknlayout2.cpp
+SOURCE          src/AknLayout2.cpp
 
 LIBRARY         euser.lib
 LIBRARY         CdlEngine.lib

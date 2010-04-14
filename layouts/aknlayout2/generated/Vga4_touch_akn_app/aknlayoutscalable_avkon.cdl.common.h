@@ -5709,6 +5709,12 @@ enum TApiId
 	EApiId_fshwr2_func_candi_pane_ParamLimits,
 	EApiId_fshwr2_hwr_syb_pane_ParamLimits,
 	EApiId_fshwr2_icf_pane_ParamLimits,
+	EApiId_list_double_graphic_pane_vc_g4_ParamLimits,
+	EApiId_list_double_graphic_pane_vc_g4,
+	EApiId_cell_ituss_key_pane_g3_ParamLimits,
+	EApiId_cell_ituss_key_pane_g3,
+	EApiId_cell_ituss_key_t5_ParamLimits,
+	EApiId_cell_ituss_key_t5,
 	E_TApiId_TableSize
 	};
 
@@ -11395,6 +11401,12 @@ typedef TAknLayoutScalableParameterLimits (Tfshwr2_bg_pane_ParamLimits_sig)(TInt
 typedef TAknLayoutScalableParameterLimits (Tfshwr2_func_candi_pane_ParamLimits_sig)(TInt);
 typedef TAknLayoutScalableParameterLimits (Tfshwr2_hwr_syb_pane_ParamLimits_sig)(TInt);
 typedef TAknLayoutScalableParameterLimits (Tfshwr2_icf_pane_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tlist_double_graphic_pane_vc_g4_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tlist_double_graphic_pane_vc_g4_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_ituss_key_pane_g3_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tcell_ituss_key_pane_g3_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_ituss_key_t5_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tcell_ituss_key_t5_sig)(TInt, TInt, TInt);
 
 } // end of namespace AknLayoutScalable_Avkon
 

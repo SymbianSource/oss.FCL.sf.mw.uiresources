@@ -551,7 +551,7 @@ TSize CSvgtFbsRasterizer::ApplyMarginL(VGImage aVgImage, TSize aSize)
     TReal R = 1.0;
     TInt HaN = Ha;
     
-    const TInt lastColumn = aSize.iHeight - 1;
+    const TInt lastColumn = aSize.iWidth - 1;
     for ( TInt curRow = 0; curRow < validMargin; curRow++ )
         {
         const TInt y = (aSize.iHeight - 1) - curRow; // h - 1 is the last line

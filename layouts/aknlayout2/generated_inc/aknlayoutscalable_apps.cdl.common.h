@@ -6551,6 +6551,12 @@ enum TApiId
 	EApiId_list_single_dyc_row_text_pane_t6,
 	EApiId_aid_mgn_list_cale_time_pane,
 	EApiId_main_gallery2_pane_ParamLimits,
+	EApiId_main_clock2_pane_cp01_t1,
+	EApiId_main_clock2_pane_cp01_t3,
+	EApiId_main_clock2_pane_cp01_t_Limits,
+	EApiId_main_clock2_pane_cp01_t,
+	EApiId_cale_week_scroll_pane_g16_ParamLimits,
+	EApiId_cale_week_scroll_pane_g16,
 	E_TApiId_TableSize
 	};
 
@@ -13079,6 +13085,12 @@ typedef TAknLayoutScalableParameterLimits (Tlist_single_dyc_row_text_pane_t6_Par
 typedef TAknTextComponentLayout (Tlist_single_dyc_row_text_pane_t6_sig)(TInt, TInt, TInt);
 typedef TAknWindowComponentLayout (Taid_mgn_list_cale_time_pane_sig)(TInt, TInt, TInt);
 typedef TAknLayoutScalableParameterLimits (Tmain_gallery2_pane_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_clock2_pane_cp01_t1_sig)(TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tmain_clock2_pane_cp01_t3_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableTableLimits (Tmain_clock2_pane_cp01_t_Limits_sig)();
+typedef TAknTextComponentLayout (Tmain_clock2_pane_cp01_t_sig)(TInt, TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tcale_week_scroll_pane_g16_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tcale_week_scroll_pane_g16_sig)(TInt, TInt, TInt);
 
 } // end of namespace AknLayoutScalable_Apps
 

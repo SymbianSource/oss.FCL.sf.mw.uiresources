@@ -20,8 +20,8 @@ f.close()
 
 
 filelist=glob.glob("./buildtemp/*.*")
-for file in filelist:
-    shutil.copy(file, "../../../uiresources_plat/layout_data_api/inc")
+# for file in filelist:
+#     shutil.copy(file, "../../../uiresources_plat/layout_data_api/inc")
 
 for file in filelist:
     shutil.copy(file, "../generated_inc")

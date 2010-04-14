@@ -14290,6 +14290,20 @@ inline TAknWindowComponentLayout aid_mgn_list_cale_time_pane(TInt aVariety = 0, 
 // LAF Table : main_pane
 inline TAknLayoutScalableParameterLimits main_gallery2_pane_ParamLimits(TInt aVariety)		{ return (*(Tmain_gallery2_pane_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_gallery2_pane_ParamLimits)))(aVariety); }
 
+// LAF Table : main_clock2_pane
+inline TAknTextComponentLayout main_clock2_pane_cp01_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tmain_clock2_pane_cp01_t1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_clock2_pane_cp01_t1)))(aVariety, aCol, aRow); }
+
+inline TAknTextComponentLayout main_clock2_pane_cp01_t3(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tmain_clock2_pane_cp01_t3_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_clock2_pane_cp01_t3)))(aVariety, aCol, aRow); }
+
+inline TAknLayoutScalableTableLimits main_clock2_pane_cp01_t_Limits()		{ return (*(Tmain_clock2_pane_cp01_t_Limits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_clock2_pane_cp01_t_Limits)))(); }
+
+inline TAknTextComponentLayout main_clock2_pane_cp01_t(TInt aLineIndex, TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tmain_clock2_pane_cp01_t_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_clock2_pane_cp01_t)))(aLineIndex, aVariety, aCol, aRow); }
+
+// LAF Table : listscroll_cale_week_pane
+inline TAknLayoutScalableParameterLimits cale_week_scroll_pane_g16_ParamLimits(TInt aVariety)		{ return (*(Tcale_week_scroll_pane_g16_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_cale_week_scroll_pane_g16_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout cale_week_scroll_pane_g16(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tcale_week_scroll_pane_g16_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_cale_week_scroll_pane_g16)))(aVariety, aCol, aRow); }
+
 #ifdef __VC32__
 #pragma component(mintypeinfo, on)
 #endif
@@ -28557,6 +28571,20 @@ public:
 
 	// LAF Table : main_pane
 	inline TAknLayoutScalableParameterLimits main_gallery2_pane_ParamLimits(TInt aVariety) const		{ return (*(Tmain_gallery2_pane_ParamLimits_sig*)(GetFunction(EApiId_main_gallery2_pane_ParamLimits)))(aVariety); }
+
+	// LAF Table : main_clock2_pane
+	inline TAknTextComponentLayout main_clock2_pane_cp01_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tmain_clock2_pane_cp01_t1_sig*)(GetFunction(EApiId_main_clock2_pane_cp01_t1)))(aVariety, aCol, aRow); }
+
+	inline TAknTextComponentLayout main_clock2_pane_cp01_t3(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tmain_clock2_pane_cp01_t3_sig*)(GetFunction(EApiId_main_clock2_pane_cp01_t3)))(aVariety, aCol, aRow); }
+
+	inline TAknLayoutScalableTableLimits main_clock2_pane_cp01_t_Limits() const		{ return (*(Tmain_clock2_pane_cp01_t_Limits_sig*)(GetFunction(EApiId_main_clock2_pane_cp01_t_Limits)))(); }
+
+	inline TAknTextComponentLayout main_clock2_pane_cp01_t(TInt aLineIndex, TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tmain_clock2_pane_cp01_t_sig*)(GetFunction(EApiId_main_clock2_pane_cp01_t)))(aLineIndex, aVariety, aCol, aRow); }
+
+	// LAF Table : listscroll_cale_week_pane
+	inline TAknLayoutScalableParameterLimits cale_week_scroll_pane_g16_ParamLimits(TInt aVariety) const		{ return (*(Tcale_week_scroll_pane_g16_ParamLimits_sig*)(GetFunction(EApiId_cale_week_scroll_pane_g16_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout cale_week_scroll_pane_g16(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tcale_week_scroll_pane_g16_sig*)(GetFunction(EApiId_cale_week_scroll_pane_g16)))(aVariety, aCol, aRow); }
 
 private:
 	CInstance();

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LayoutAttributes createdOn="2010-03-14 15:04:11.958" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.6900747253135928">
+<LayoutAttributes createdOn="2010-03-29 18:02:12.202" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.6900747253135928">
   <attributeset compId="1" name="D">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -5123,18 +5123,16 @@
       <calc value="3"/>
     </attribute>
     <attribute id="44" name="Top Margin">
-      <calc value="28"/>
+      <calc value="12"/>
     </attribute>
     <attribute id="46" name="Multi Row">
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="4" zoom="+1 zoom"/>
-      <calc value="4" zoom="+2 zoom"/>
-      <calc value="4" zoom="+3 zoom"/>
-      <calc value="7" zoom="-3 zoom"/>
-      <calc value="6" zoom="-2 zoom"/>
+      <calc value="8" zoom="-3 zoom"/>
+      <calc value="7" zoom="-2 zoom"/>
       <calc value="5"/>
+      <calc value="6" zoom="-1 zoom"/>
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="true"/>
@@ -7176,10 +7174,27 @@
       <calc value="true"/>
     </attribute>
     <attribute id="49" name="Number of columns">
-      <calc value="8"/>
+      <calc value="9"/>
     </attribute>
     <attribute id="50" name="Hz Align">
-      <calc value="centered"/>
+      <calc value="left"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="false"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="5322" name="a2">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="false"/>
@@ -8888,7 +8903,7 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="4"/>
+      <calc value="2"/>
     </attribute>
     <attribute id="50" name="Hz Align">
       <calc value="left"/>
@@ -9785,7 +9800,7 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="9"/>
+      <calc value="8"/>
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="true"/>

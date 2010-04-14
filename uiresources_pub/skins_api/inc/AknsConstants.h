@@ -17368,8 +17368,8 @@ static const TAknsItemID KAknsIIDQgnHomeWmButtonPressedR =
 static const TAknsItemID KAknsIIDQgnHomeWmButtonPressedCenter =
     { EAknsMajorSkin, EAknsMinorQgnHomeWmButtonPressedCenter}; 
     
-
-    // Qgn Graf Input Icf Bg
+    
+    // Qgn Fr Input Icf Bg
 static const TAknsItemID KAknsIIDQgnFrInputIcfBg =
     { EAknsMajorSkin, EAknsMinorQgnFrInputIcfBg};
 
@@ -22056,6 +22056,18 @@ static const TAknsItemID KAknsIIDQgnMenuGroupWebapps =
 
 static const TAknsItemID KAknsIIDQgnMenuRss =
     { EAknsMajorGeneric, EAknsMinorGenericQgnMenuRss };
+
+static const TAknsItemID KAknsIIDQgnMenuShortcutAdd =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuShortcutAdd };
+
+static const TAknsItemID KAknsIIDQgnIndiBrowserTbDownloads =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiBrowserTbDownloads };
+
+static const TAknsItemID KAknsIIDQgnIndiFebAsterisk =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiFebAsterisk };
+
+static const TAknsItemID KAknsIIDQsnBigclockAnalogueFaceScreensaver =
+    { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockAnalogueFaceScreensaver };
 
 // SCMMARKER_INSERTIONPOINT
 

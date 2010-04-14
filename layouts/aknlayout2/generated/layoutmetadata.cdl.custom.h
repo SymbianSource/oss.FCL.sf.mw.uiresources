@@ -22,7 +22,7 @@
 #define LAYOUTMETADATA_CDL_CUSTOM_H
 
 #include <CdlEngDef.h>
-#include "layoutmetaData.cdl.common.h"
+#include "layoutmetadata.cdl.common.h"
 
 namespace Layout_Meta_Data
 {

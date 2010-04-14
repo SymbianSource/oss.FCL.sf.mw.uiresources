@@ -20,6 +20,7 @@
 
 #ifndef AKN_INTERNAL_ICON_UTILS_H
 #define AKN_INTERNAL_ICON_UTILS_H
+class CFbsBitmap;
 
 class AknInternalIconUtils
     {

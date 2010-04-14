@@ -7697,8 +7697,12 @@ enum TAknsMinorGenericValue
     EAknsMinorGenericQgnMenuAttMusic = 0x25ed,
     EAknsMinorGenericQgnMenuGroupWebapps = 0x25ee,
     EAknsMinorGenericQgnMenuRss = 0x25ef,
-    // SCMMARKER_INSERTIONPOINT [9712]
-    EAknsMinorGenericInternalCurrentLastItem = 0x25f0
+    EAknsMinorGenericQgnMenuShortcutAdd = 0x25f0,
+    EAknsMinorGenericQgnIndiBrowserTbDownloads = 0x25f1,
+    EAknsMinorGenericQgnIndiFebAsterisk = 0x25f2,
+    EAknsMinorGenericQsnBigclockAnalogueFaceScreensaver = 0x25f3,
+    // SCMMARKER_INSERTIONPOINT [9716]
+    EAknsMinorGenericInternalCurrentLastItem = 0x25f4
     };
 
 // ----------------------------------------------------------------------------

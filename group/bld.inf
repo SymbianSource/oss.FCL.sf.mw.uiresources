@@ -15,8 +15,13 @@
 *
 */
 
-#include "../uiresources_plat/group/bld.inf"
 #include "../uiresources_pub/group/bld.inf"
+
+#ifdef TOOLS2
+#include "../skins/group/bld.inf"
+
+#else
+#include "../uiresources_plat/group/bld.inf"
 #include "../uigraphics/group/bld.inf"
 #include "../layouts/group/bld.inf"
 #include "../skins/group/bld.inf"
@@ -25,3 +30,5 @@
 #include "../uiconfig/group/bld.inf"
 #include "../fontsupport/group/bld.inf"
 #include "../helpthemes/group/bld.inf"
+
+#endif

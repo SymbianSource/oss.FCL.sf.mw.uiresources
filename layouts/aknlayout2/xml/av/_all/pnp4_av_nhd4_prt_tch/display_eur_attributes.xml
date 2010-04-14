@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LayoutAttributes createdOn="2010-03-14 14:40:35.139" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.9220666716318745">
+<LayoutAttributes createdOn="2010-03-29 17:40:35.892" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.9220666716318745">
   <attributeset compId="1" name="D">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -4166,7 +4166,7 @@
       <calc value="centered"/>
     </attribute>
     <attribute id="199" name="List margin middle">
-      <calc value="4"/>
+      <calc value="3"/>
     </attribute>
     <attribute id="200" name="List margin top">
       <calc value="4"/>
@@ -4697,7 +4697,7 @@
       <calc value="Forced"/>
     </attribute>
     <attribute id="25" name="gap">
-      <calc value="1"/>
+      <calc value="auto"/>
     </attribute>
     <attribute id="46" name="Multi Row">
       <calc value="false"/>
@@ -4720,7 +4720,7 @@
       <calc value="Forced"/>
     </attribute>
     <attribute id="25" name="gap">
-      <calc value="1"/>
+      <calc value="auto"/>
     </attribute>
     <attribute id="46" name="Multi Row">
       <calc value="true"/>
@@ -8019,7 +8019,7 @@
       <calc value="Forced"/>
     </attribute>
     <attribute id="25" name="gap">
-      <calc value="6"/>
+      <calc value="0"/>
     </attribute>
     <attribute id="44" name="Top Margin">
       <calc value="0"/>
@@ -8395,11 +8395,13 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="6" zoom="+3 zoom"/>
+      <calc value="7" zoom="+1 zoom"/>
+      <calc value="7" zoom="+2 zoom"/>
+      <calc value="7" zoom="+3 zoom"/>
       <calc value="11" zoom="-3 zoom"/>
       <calc value="10" zoom="-2 zoom"/>
-      <calc value="7"/>
-      <calc value="8" zoom="-1 zoom"/>
+      <calc value="8"/>
+      <calc value="9" zoom="-1 zoom"/>
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="true"/>
@@ -8433,7 +8435,7 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="5"/>
+      <calc value="6"/>
     </attribute>
   </attributeset>
   <attributeset compId="8224" name="a0">
@@ -8509,7 +8511,7 @@
       <calc value="Forced"/>
     </attribute>
     <attribute id="25" name="gap">
-      <calc value="7"/>
+      <calc value="0"/>
     </attribute>
     <attribute id="46" name="Multi Row">
       <calc value="true"/>
@@ -8526,7 +8528,7 @@
       <calc value="Forced"/>
     </attribute>
     <attribute id="25" name="gap">
-      <calc value="1"/>
+      <calc value="0"/>
     </attribute>
     <attribute id="46" name="Multi Row">
       <calc value="true"/>

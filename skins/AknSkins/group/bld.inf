@@ -23,7 +23,7 @@
 // ============================================================================
 //
 PRJ_PLATFORMS
-DEFAULT TOOLS CWTOOLS
+DEFAULT TOOLS CWTOOLS TOOLS2
 
 // ============================================================================
 // Exports
@@ -90,7 +90,7 @@ backup_registration.xml z:/private/10207114/backup_registration.xml
 //
 PRJ_MMPFILES
 
-#if defined(TOOLS) || defined(CWTOOLS)
+#if defined(TOOLS) || defined(CWTOOLS) || defined(TOOLS2)
 // Skin descriptor compiler (TOOLS target only)
 //
 /*
@@ -100,9 +100,11 @@ PRJ_MMPFILES
  * uncomment below line, run build tools. New Compiler will be in /epoc32/tools/
  *
  */
-//AknSkinDescCompiler.mmp
-//AknSkinDescCompiler_NR.mmp
 
+#if defined(TOOLS2)
+AknSkinDescCompiler.mmp
+AknSkinDescCompiler_NR.mmp
+#endif
 
 #else
 //

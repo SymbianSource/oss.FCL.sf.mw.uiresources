@@ -6584,6 +6584,12 @@ struct SCdlImpl6
 	Tlist_single_dyc_row_text_pane_t6_sig* list_single_dyc_row_text_pane_t6;
 	Taid_mgn_list_cale_time_pane_sig* aid_mgn_list_cale_time_pane;
 	Tmain_gallery2_pane_ParamLimits_sig* main_gallery2_pane_ParamLimits;
+	Tmain_clock2_pane_cp01_t1_sig* main_clock2_pane_cp01_t1;
+	Tmain_clock2_pane_cp01_t3_sig* main_clock2_pane_cp01_t3;
+	Tmain_clock2_pane_cp01_t_Limits_sig* main_clock2_pane_cp01_t_Limits;
+	Tmain_clock2_pane_cp01_t_sig* main_clock2_pane_cp01_t;
+	Tcale_week_scroll_pane_g16_ParamLimits_sig* cale_week_scroll_pane_g16_ParamLimits;
+	Tcale_week_scroll_pane_g16_sig* cale_week_scroll_pane_g16;
 	};
 #ifdef __WINS__
 struct SCdlImpl
