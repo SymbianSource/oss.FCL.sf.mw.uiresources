@@ -67,7 +67,7 @@ TARGETMBM:=$(subst //,/,$(patsubst %, %/$(notdir $(AKNSSKINREALNAME).mbm),$(AKNS
 CREATABLEPATHS:=$(CREATABLEPATHS) $(AKNSGENDIR) $(AKNSDATAGENDIR)
 
 ifeq ($(SKINDEBUG),0)
-$(info <AKNSSKINREALNAME aknsskinrealname=$(AKNSSKINREALNAME)'/>)
+$(info <AKNSSKINREALNAME aknsskinrealname='$(AKNSSKINREALNAME)'/>)
 $(info <TARGETSKN targetskn='$(TARGETSKN)'/>)
 $(info <TARGETMIF targetmif='$(TARGETMIF)'/>)
 $(info <AKNSSRCDIR aknssrcdir='$(AKNSSRCDIR)'/>)
@@ -84,7 +84,7 @@ ifeq ($(INPUTBMPS),yes)
 RELEASEABLES:=$(RELEASEABLES) $(TARGETMBM)
 endif
 
-BITMAP:: $(RELEASEABLES)
+BITMAP:: $$(RELEASEABLES)
 
 $(TARGETMIF) : $(AKNSDATAGENDIR)/$(AKNSSKINREALNAME).mif
 	$(call startrule,mifcopy,FORCESUCCESS) \
