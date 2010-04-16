@@ -22,7 +22,7 @@
 #define AKNAPACLAYOUT_CDL_CUSTOM_H
 
 #include <CdlEngDef.h>
-#include "aknapaclayout.cdl.common.h"
+#include "AknApacLayout.cdl.common.h"
 
 namespace AknApacLayout
 {

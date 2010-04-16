@@ -22,7 +22,7 @@
 #define APPAPACLAYOUT_CDL_CUSTOM_H
 
 #include <CdlEngDef.h>
-#include "appapaclayout.cdl.common.h"
+#include "AppApacLayout.cdl.common.h"
 
 namespace AppApacLayout
 {

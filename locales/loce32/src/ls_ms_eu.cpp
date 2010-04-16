@@ -11,7 +11,7 @@
 *
 * Contributors:
 *
-* Description:   Default locale messages for Basque, Epoc code 401
+* Description:   Default locale messages for Basque, Epoc code 102
 *
 */
 
@@ -27,14 +27,14 @@
 const TText * const LMessages::MsgTable[ELocaleMessages_LastMsg] =
          {
 // Fileserver
-         _S("Reintentar"),                                     // Button 1
-         _S("Detener"),                                        // Button 2
-         _S("Vuelva a introducir el disco"),                   // Put the card back - line1
-         _S("o se perder\x00e1n los datos"),                   // Put the card back - line2
-         _S("Carga de la bater\x00ed"L"a demasiado baja"),     // Low power - line1
-         _S("Imposible terminar escritura en el disco"),       // Low power - line2
-         _S("Error de disco - imposible terminar escritura"),  // Disk error - line1
-         _S("Reint\x00e9ntelo o se perder\x00e1n los datos"),  // Disk error - line2
+         _S("Saiatu berriz"),                             // Button 1
+         _S("Gelditu"),                                   // Button 2
+         _S("Sartu berriz diskoa"),                       // Put the card back - line1
+         _S("edo datuak galduko dira"),                   // Put the card back - line2
+         _S("Bateria baxuegi"),                           // Low power - line1
+         _S("Ezin da diskoan idazketa osatu"),            // Low power - line2
+         _S("Diskoaren akatsa - ezin da idazketa osatu"), // Disk error - line1
+         _S("Saiatu berriz edo datuak galduko dira"),     // Disk error - line2
 // SoundDriver
          _S("Carill\x00f3n"),                                  // Chimes
          _S("Rings"),                                          // Rings

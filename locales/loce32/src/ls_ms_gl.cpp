@@ -11,7 +11,7 @@
 *
 * Contributors:
 *
-* Description:   Default locale messages for Galician, Epoc code 402
+* Description:   Default locale messages for Galician, Epoc code 103
 *
 */
 
@@ -27,14 +27,14 @@
 const TText * const LMessages::MsgTable[ELocaleMessages_LastMsg] =
          {
 // Fileserver
-         _S("Reintentar"),                                     // Button 1
-         _S("Detener"),                                        // Button 2
-         _S("Vuelva a introducir el disco"),                   // Put the card back - line1
-         _S("o se perder\x00e1n los datos"),                   // Put the card back - line2
-         _S("Carga de la bater\x00ed"L"a demasiado baja"),     // Low power - line1
-         _S("Imposible terminar escritura en el disco"),       // Low power - line2
-         _S("Error de disco - imposible terminar escritura"),  // Disk error - line1
-         _S("Reint\x00e9ntelo o se perder\x00e1n los datos"),  // Disk error - line2
+         _S("Reintentar"),                                        // Button 1
+         _S("Deter"),                                             // Button 2
+         _S("Volva po\x00f1"L"er o disco"),                       // Put the card back - line1
+         _S("ou perderanse os datos"),                            // Put the card back - line2
+         _S("Bater\x00ed"L"a demasiado baixa"),                   // Low power - line1
+         _S("Non se pode finalizar a escritura do disco"),        // Low power - line2
+         _S("Erro no disco - non se pode finalizar a escritura"), // Disk error - line1
+         _S("Reint\x00e9"L"nteo ou perderanse os datos"),         // Disk error - line2
 // SoundDriver
          _S("Carill\x00f3n"),                                  // Chimes
          _S("Rings"),                                          // Rings

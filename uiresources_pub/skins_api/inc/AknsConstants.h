@@ -21906,6 +21906,102 @@ static const TAknsItemID KAknsIIDQgnPropModesProfiles =
 static const TAknsItemID KAknsIIDQgnPropModesThemes =
     { EAknsMajorGeneric, EAknsMinorGenericQgnPropModesThemes };
 
+static const TAknsItemID KAknsIIDQgnHomeWidgetOffline =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnHomeWidgetOffline };
+
+static const TAknsItemID KAknsIIDQgnHomeWidgetOffline1 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnHomeWidgetOffline1 };
+
+static const TAknsItemID KAknsIIDQgnIndiBack =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiBack };
+
+static const TAknsItemID KAknsIIDQgnIndiCdrActionArrowDownSelected =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCdrActionArrowDownSelected };
+
+static const TAknsItemID KAknsIIDQgnIndiCdrActionArrowUpSelected =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCdrActionArrowUpSelected };
+
+static const TAknsItemID KAknsIIDQgnIndiConviewMessageAdd =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiConviewMessageAdd };
+
+static const TAknsItemID KAknsIIDQgnIndiGotomusic =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiGotomusic };
+
+static const TAknsItemID KAknsIIDQgnIndiTsButtonClose =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTsButtonClose };
+
+static const TAknsItemID KAknsIIDQgnIndiTsButtonClosePressed =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTsButtonClosePressed };
+
+static const TAknsItemID KAknsIIDQgnMenuCallconnect =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuCallconnect };
+
+static const TAknsItemID KAknsIIDQgnMenuHswidgetNotification =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuHswidgetNotification };
+
+static const TAknsItemID KAknsIIDQgnMenuMobileDictionary =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuMobileDictionary };
+
+static const TAknsItemID KAknsIIDQgnMenuMynokia =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuMynokia };
+
+static const TAknsItemID KAknsIIDQgnMenuOvistore =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuOvistore };
+
+static const TAknsItemID KAknsIIDQgnPropAddFriend =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropAddFriend };
+
+static const TAknsItemID KAknsIIDQgnPropAlbumartLarge =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropAlbumartLarge };
+
+static const TAknsItemID KAknsIIDQgnPropCapturedThumbnailVideo =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCapturedThumbnailVideo };
+
+static const TAknsItemID KAknsIIDQgnPropDownloadThumbnailVideo =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropDownloadThumbnailVideo };
+
+static const TAknsItemID KAknsIIDQgnPropFusionplayerTbNext =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropFusionplayerTbNext };
+
+static const TAknsItemID KAknsIIDQgnPropFusionplayerTbNextDimmed =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropFusionplayerTbNextDimmed };
+
+static const TAknsItemID KAknsIIDQgnPropFusionplayerTbNextFocused =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropFusionplayerTbNextFocused };
+
+static const TAknsItemID KAknsIIDQgnPropFusionplayerTbPrev =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropFusionplayerTbPrev };
+
+static const TAknsItemID KAknsIIDQgnPropFusionplayerTbPrevDimmed =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropFusionplayerTbPrevDimmed };
+
+static const TAknsItemID KAknsIIDQgnPropFusionplayerTbPrevFocused =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropFusionplayerTbPrevFocused };
+
+static const TAknsItemID KAknsIIDQgnPropOviThumbnailVideo =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropOviThumbnailVideo };
+
+static const TAknsItemID KAknsIIDQgnPropRecentThumbnailVideo =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropRecentThumbnailVideo };
+
+static const TAknsItemID KAknsIIDQgnPropServiceThumbnailVideo =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropServiceThumbnailVideo };
+
+static const TAknsItemID KAknsIIDQgnGrafSetwizSlide1 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnGrafSetwizSlide1 };
+
+static const TAknsItemID KAknsIIDQgnGrafSetwizSlide2 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnGrafSetwizSlide2 };
+
+static const TAknsItemID KAknsIIDQgnGrafSetwizSlide3 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnGrafSetwizSlide3 };
+
+static const TAknsItemID KAknsIIDQgnGrafSetwizSlide4 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnGrafSetwizSlide4 };
+
+static const TAknsItemID KAknsIIDQgnGrafSetwizSlide5 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnGrafSetwizSlide5 };
+
 // SCMMARKER_INSERTIONPOINT
 
 // SCCMARKER_END

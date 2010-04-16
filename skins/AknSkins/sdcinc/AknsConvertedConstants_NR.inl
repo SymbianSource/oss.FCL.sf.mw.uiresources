@@ -1,3 +1,20 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description: 
+*
+*/
+
 {L"KAknsIIDNone",  EAknsMajorNone, EAknsMinorNone },
 {L"KAknsIIDDefault",  EAknsMajorDefault, EAknsMinorDefault },
 {L"KAknsIIDQsnBgScreen",  EAknsMajorSkin, EAknsMinorQsnBgScreen },
@@ -6988,3 +7005,35 @@
 {L"KAknsIIDQgnPropCmccCustomermanage",  EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccCustomermanage },
 {L"KAknsIIDQgnPropModesProfiles",  EAknsMajorGeneric, EAknsMinorGenericQgnPropModesProfiles },
 {L"KAknsIIDQgnPropModesThemes",  EAknsMajorGeneric, EAknsMinorGenericQgnPropModesThemes },
+{L"KAknsIIDQgnHomeWidgetOffline",  EAknsMajorGeneric, EAknsMinorGenericQgnHomeWidgetOffline },
+{L"KAknsIIDQgnHomeWidgetOffline1",  EAknsMajorGeneric, EAknsMinorGenericQgnHomeWidgetOffline1 },
+{L"KAknsIIDQgnIndiBack",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiBack },
+{L"KAknsIIDQgnIndiCdrActionArrowDownSelected",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiCdrActionArrowDownSelected },
+{L"KAknsIIDQgnIndiCdrActionArrowUpSelected",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiCdrActionArrowUpSelected },
+{L"KAknsIIDQgnIndiConviewMessageAdd",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiConviewMessageAdd },
+{L"KAknsIIDQgnIndiGotomusic",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiGotomusic },
+{L"KAknsIIDQgnIndiTsButtonClose",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiTsButtonClose },
+{L"KAknsIIDQgnIndiTsButtonClosePressed",  EAknsMajorGeneric, EAknsMinorGenericQgnIndiTsButtonClosePressed },
+{L"KAknsIIDQgnMenuCallconnect",  EAknsMajorGeneric, EAknsMinorGenericQgnMenuCallconnect },
+{L"KAknsIIDQgnMenuHswidgetNotification",  EAknsMajorGeneric, EAknsMinorGenericQgnMenuHswidgetNotification },
+{L"KAknsIIDQgnMenuMobileDictionary",  EAknsMajorGeneric, EAknsMinorGenericQgnMenuMobileDictionary },
+{L"KAknsIIDQgnMenuMynokia",  EAknsMajorGeneric, EAknsMinorGenericQgnMenuMynokia },
+{L"KAknsIIDQgnMenuOvistore",  EAknsMajorGeneric, EAknsMinorGenericQgnMenuOvistore },
+{L"KAknsIIDQgnPropAddFriend",  EAknsMajorGeneric, EAknsMinorGenericQgnPropAddFriend },
+{L"KAknsIIDQgnPropAlbumartLarge",  EAknsMajorGeneric, EAknsMinorGenericQgnPropAlbumartLarge },
+{L"KAknsIIDQgnPropCapturedThumbnailVideo",  EAknsMajorGeneric, EAknsMinorGenericQgnPropCapturedThumbnailVideo },
+{L"KAknsIIDQgnPropDownloadThumbnailVideo",  EAknsMajorGeneric, EAknsMinorGenericQgnPropDownloadThumbnailVideo },
+{L"KAknsIIDQgnPropFusionplayerTbNext",  EAknsMajorGeneric, EAknsMinorGenericQgnPropFusionplayerTbNext },
+{L"KAknsIIDQgnPropFusionplayerTbNextDimmed",  EAknsMajorGeneric, EAknsMinorGenericQgnPropFusionplayerTbNextDimmed },
+{L"KAknsIIDQgnPropFusionplayerTbNextFocused",  EAknsMajorGeneric, EAknsMinorGenericQgnPropFusionplayerTbNextFocused },
+{L"KAknsIIDQgnPropFusionplayerTbPrev",  EAknsMajorGeneric, EAknsMinorGenericQgnPropFusionplayerTbPrev },
+{L"KAknsIIDQgnPropFusionplayerTbPrevDimmed",  EAknsMajorGeneric, EAknsMinorGenericQgnPropFusionplayerTbPrevDimmed },
+{L"KAknsIIDQgnPropFusionplayerTbPrevFocused",  EAknsMajorGeneric, EAknsMinorGenericQgnPropFusionplayerTbPrevFocused },
+{L"KAknsIIDQgnPropOviThumbnailVideo",  EAknsMajorGeneric, EAknsMinorGenericQgnPropOviThumbnailVideo },
+{L"KAknsIIDQgnPropRecentThumbnailVideo",  EAknsMajorGeneric, EAknsMinorGenericQgnPropRecentThumbnailVideo },
+{L"KAknsIIDQgnPropServiceThumbnailVideo",  EAknsMajorGeneric, EAknsMinorGenericQgnPropServiceThumbnailVideo },
+{L"KAknsIIDQgnGrafSetwizSlide1",  EAknsMajorGeneric, EAknsMinorGenericQgnGrafSetwizSlide1 },
+{L"KAknsIIDQgnGrafSetwizSlide2",  EAknsMajorGeneric, EAknsMinorGenericQgnGrafSetwizSlide2 },
+{L"KAknsIIDQgnGrafSetwizSlide3",  EAknsMajorGeneric, EAknsMinorGenericQgnGrafSetwizSlide3 },
+{L"KAknsIIDQgnGrafSetwizSlide4",  EAknsMajorGeneric, EAknsMinorGenericQgnGrafSetwizSlide4 },
+{L"KAknsIIDQgnGrafSetwizSlide5",  EAknsMajorGeneric, EAknsMinorGenericQgnGrafSetwizSlide5 },
