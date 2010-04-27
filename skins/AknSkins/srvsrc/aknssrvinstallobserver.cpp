@@ -161,7 +161,7 @@ void CAknsSrvFileObserver::RunL()
             }
         else // the file has been deleted / renamed
             {
-            //iObserver->WallpaperLost();
+            //iObserver->WallpaperLostL();
             }
         }
     else

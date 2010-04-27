@@ -54,11 +54,11 @@ NONSHARABLE_CLASS(CTFxEffect) : public CBase
         TInt MinTime();
         TInt CachePriority();
         TInt PathIndex();
-        void SetName(const TDesC8& aName);
-        void SetFilename(const TDesC8& aFilename);
-        void SetWantedTime(const TDesC8& aTime);
-        void SetMinTime(const TDesC8& aTime);
-        void SetCachePriority(const TDesC8& aPriority);
+        void SetNameL(const TDesC8& aName);
+        void SetFilenameL(const TDesC8& aFilename);
+        void SetWantedTimeL(const TDesC8& aTime);
+        void SetMinTimeL(const TDesC8& aTime);
+        void SetCachePriorityL(const TDesC8& aPriority);
         void SetPathIndex(TInt aIndex);
         void SetMaxCacheSize(TInt aSize);
         void SetMaxTransCacheSize(TInt aSize);
@@ -84,11 +84,11 @@ NONSHARABLE_CLASS(CTFxTransition) : public CBase
         const TDesC& EffectName();
         const TUid Uid();
         TInt Type();
-        void SetUid(const TDesC8& aUid);
-        void SetContextId(const TDesC8& iId);
+        void SetUidL(const TDesC8& aUid);
+        void SetContextIdL(const TDesC8& iId);
         void SetEffectNameL(const TDesC8& aEffect);
         void SetEffect(CTFxEffect* aEffect);
-        void SetType(const TDesC8& aType );
+        void SetTypeL(const TDesC8& aType );
         CTFxEffect* Effect();
     private:
         TInt iContextId;

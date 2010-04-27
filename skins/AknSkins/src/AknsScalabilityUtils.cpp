@@ -110,7 +110,7 @@ void DestroyPreservedIcon( TAny* aBitmap )
 // (commented in the header).
 // -----------------------------------------------------------------------------
 //
-TBool AknsScalabilityUtils::DrawPartialCachedImage(
+TBool AknsScalabilityUtils::DrawPartialCachedImageL(
     MAknsSkinInstance* /*aSkin*/, CBitmapContext& aGc, const TRect& aTrgLayoutRect,
     const TRect& aTrgDrawRect, CAknsImageItemData* aImgData,
     const TAknsItemID& /*aIID*/, const TAknsImageAttributeData* aAttr,
@@ -863,7 +863,7 @@ CAknsEffectQueueItemData *GetEffectQueueItemData(MAknsSkinInstance* aInstance, c
     return static_cast<CAknsEffectQueueItemData *>(itemData);
     }
 
-CFbsBitmap *AknsScalabilityUtils::LoadBitmapFromSkinId(MAknsSkinInstance* aInstance, const TAknsItemID &aID, const TSize &size)
+CFbsBitmap *AknsScalabilityUtils::LoadBitmapFromSkinIdL(MAknsSkinInstance* aInstance, const TAknsItemID &aID, const TSize &size)
     {
     CAknsAppSkinInstance* appSkinInstance =
         static_cast<CAknsAppSkinInstance*>(aInstance);
@@ -1050,7 +1050,7 @@ CAknsImageItemData* AknsScalabilityUtils::RecursiveCacheRenderL(
             attributes.iAttributes = EAknsImageAttributeNBC;
             data->SetAttributesL(attributes);
 
-            CFbsBitmap *bmp = LoadBitmapFromSkinId(aSkin, thisIid, aLayoutSize);
+            CFbsBitmap *bmp = LoadBitmapFromSkinIdL(aSkin, thisIid, aLayoutSize);
             data->SetBitmap( bmp );
             data->SetMask(NULL);
 

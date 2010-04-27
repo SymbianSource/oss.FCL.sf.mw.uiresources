@@ -64,16 +64,16 @@ class CAknsSrvDriveMaster;
 class MAknsSrvSettingObserver
     {
     public:
-        virtual void NotifyBackupOperationEnd() =0;
+        virtual void NotifyBackupOperationEndL() =0;
         virtual void NotifyLayoutChange(TBool aClearScalable = EFalse) =0;
         virtual void NofifySkinChange() =0;
         virtual void NotifyIdleBackgroundChange() =0;
         virtual void NotifyDRMChange() =0;
         virtual void NotifyUSBAttach() = 0;
-        virtual void NotifyUSBRemoval() = 0;
+        virtual void NotifyUSBRemovalL() = 0;
         virtual void NotifySlideSetTimeoutChange() = 0;
         virtual void NotifySlideSetTypeChange() = 0;
-        virtual void NotifyWallpaperTypeChange() = 0;
+        virtual void NotifyWallpaperTypeChangeL() = 0;
         // Observer interface for screensaver state changes.
         virtual void NotifyScreenSaverChange() = 0;
         virtual void NotifyTransitionFxChange() = 0;
@@ -94,14 +94,14 @@ NONSHARABLE_CLASS(CAknsSrvSettings) : public CBase,
 
 
     public: // CenRep callbacks
-        static TInt LayoutCallBack(TAny* aPtr);
-        static TInt SkinsRepositoryCallBack(TAny* aPtr);
-        static TInt DRMRepositoryCallBack(TAny* aPtr);
+        static TInt LayoutCallBackL(TAny* aPtr);
+        static TInt SkinsRepositoryCallBackL(TAny* aPtr);
+        static TInt DRMRepositoryCallBackL(TAny* aPtr);
         static TInt LayoutSwitchCallBack(TAny* aPtr);
-        static TInt USBCallBack(TAny* aPtr);
-        static TInt ThemesRepositoryCallBack(TAny* aPtr);
+        static TInt USBCallBackL(TAny* aPtr);
+        static TInt ThemesRepositoryCallBackL(TAny* aPtr);
         // Callback for screensaver state changes.
-        static TInt SSCallBack( TAny* aPtr );
+        static TInt SSCallBackL( TAny* aPtr );
 
     public: // From MBackupOperationObserver
         void HandleBackupOperationEventL(
@@ -171,7 +171,7 @@ NONSHARABLE_CLASS(CAknsSrvSettings) : public CBase,
         CAknsSrvDriveMaster* GetDriveMaster();
 
     protected: // New methods
-        void HandlePropertyChange( const TAknsSrvSettingsProperty aProperty );
+        void HandlePropertyChangeL( const TAknsSrvSettingsProperty aProperty );
 
     private:
 

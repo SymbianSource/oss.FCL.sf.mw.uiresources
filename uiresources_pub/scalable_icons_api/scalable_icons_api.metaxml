@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <api id="50ba4fd3c4c588f11d01bfead8725867" dataversion="2.0">
   <name>Scalable Icons API</name>
-  <description></description>
+  <description>Provides a framework to create the scalable icons</description>
   <type>c++</type>
   <collection>domain</collection>
   <libs>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2010-03-29 17:16:39.098" LayoutName="pvp4_apps_vga4_prt_tch" LayoutSetId="279" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.34869552777557455" MasterName="m_app_tch_92v_bsk" ppi="300.0" ppiUnit="Inches" resolutionHeight="640" resolutionWidth="480" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
+<Layout createdOn="2010-04-12 19:05:39.026" LayoutName="pvp4_apps_vga4_prt_tch" LayoutSetId="279" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.34869552777557455" MasterName="m_app_tch_92v_bsk" ppi="300.0" ppiUnit="Inches" resolutionHeight="640" resolutionWidth="480" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
     <Component drawingorder="0" id="1" mirror="true" name="Screen" type="Screen"/>
     <Component drawingorder="0" id="2" maxVariety="0" mirror="true" name="application_window" type="Container"/>
     <Component drawingorder="13" id="10" maxVariety="0" mirror="true" name="navi_pane_g1" type="Graphic"/>
@@ -186,15 +186,12 @@
     <Component drawingorder="1" id="277" maxVariety="0" mirror="true" name="cell_gms_pane_g1" type="Graphic"/>
     <Component drawingorder="2" id="278" maxVariety="0" mirror="true" name="cell_gms_pane_g2" type="Graphic"/>
     <Component drawingorder="9" id="287" maxVariety="0" mirror="true" name="main_vorec_pane" type="Pane"/>
-    <Component drawingorder="1" id="288" maxVariety="0" mirror="false" name="grid_vorec_pane" type="Pane"/>
-    <Component drawingorder="2" id="289" maxVariety="0" mirror="false" name="wait_bar_pane_cp01" type="Pane"/>
-    <Component drawingorder="0" id="290" maxVariety="0" mirror="false" name="bg_list_pane_cp05" type="Pane"/>
-    <Component drawingorder="10" id="291" maxVariety="0" mirror="false" name="vorec_t1" type="Text"/>
-    <Component drawingorder="3" id="293" maxVariety="0" mirror="false" name="vorec_t2" type="Text"/>
-    <Component drawingorder="4" id="294" maxVariety="0" mirror="false" name="vorec_t3" type="Text"/>
-    <Component drawingorder="5" id="295" maxVariety="0" mirror="false" name="vorec_t4" type="Text"/>
-    <Component drawingorder="6" id="296" maxVariety="0" mirror="false" name="vorec_t5" type="Text"/>
-    <Component drawingorder="7" id="297" maxVariety="0" mirror="false" name="vorec_t6" type="Text"/>
+    <Component drawingorder="1" id="288" maxVariety="0" mirror="true" name="grid_vorec_pane" type="Pane"/>
+    <Component drawingorder="0" id="290" maxVariety="0" mirror="true" name="bg_list_pane_cp05" type="Pane"/>
+    <Component drawingorder="10" id="291" maxVariety="0" mirror="true" name="vorec_t1" type="Text"/>
+    <Component drawingorder="3" id="293" maxVariety="0" mirror="true" name="vorec_t2" type="Text"/>
+    <Component drawingorder="4" id="294" maxVariety="0" mirror="true" name="vorec_t3" type="Text"/>
+    <Component drawingorder="5" id="295" maxVariety="0" mirror="true" name="vorec_t4" type="Text"/>
     <Component drawingorder="0" id="301" maxVariety="0" mirror="false" name="cell_vorec_pane" type="Pane"/>
     <Component drawingorder="0" id="302" maxVariety="0" mirror="false" name="grid_highlight_pane_cp05" type="Pane"/>
     <Component drawingorder="1" id="303" maxVariety="0" mirror="false" name="cell_vorec_pane_g1" type="Graphic"/>
@@ -1011,7 +1008,7 @@
     <Component drawingorder="3" id="3015" maxVariety="0" mirror="false" name="aid_call2_pane" type="Pane"/>
     <Component drawingorder="46" id="3016" maxVariety="0" mirror="true" name="main_rss_pane" type="Pane"/>
     <Component drawingorder="0" id="3662" maxVariety="0" mirror="true" name="call2_cli_visual_pane_t1" type="Text"/>
-    <Component drawingorder="8" id="3663" maxVariety="0" mirror="false" name="aid_size_cell_vorec" type="Pane"/>
+    <Component drawingorder="8" id="3663" maxVariety="0" mirror="true" name="aid_size_cell_vorec" type="Pane"/>
     <Component drawingorder="1" id="3664" maxVariety="0" mirror="true" name="rss_list_single_pane_t2" type="Text"/>
     <Component drawingorder="0" id="3665" maxVariety="0" mirror="true" name="rss_list_single_pane_t1" type="Text"/>
     <Component drawingorder="0" id="3666" maxVariety="0" mirror="true" name="rss_list_single_pane" type="Pane"/>
@@ -1364,7 +1361,7 @@
     <Component drawingorder="6" id="4044" maxVariety="0" mirror="true" name="main_touch_calib_pane_t3" type="Text"/>
     <Component drawingorder="7" id="4045" maxVariety="0" mirror="true" name="main_touch_calib_pane_t4" type="Text"/>
     <Component drawingorder="8" id="4046" maxVariety="0" mirror="true" name="main_touch_calib_pane_t5" type="Text"/>
-    <Component drawingorder="9" id="4047" maxVariety="0" mirror="false" name="vorec_t7" type="Text"/>
+    <Component drawingorder="9" id="4047" maxVariety="0" mirror="true" name="vorec_t7" type="Text"/>
     <Component drawingorder="9" id="4049" maxVariety="0" mirror="true" name="aid_zoom_text_msg_primary" type="Pane"/>
     <Component drawingorder="10" id="4050" maxVariety="0" mirror="true" name="aid_popup3_width_pane" type="Pane"/>
     <Component drawingorder="11" id="4051" maxVariety="0" mirror="true" name="aid_cell_size_toolbar2" type="Pane"/>
@@ -3282,4 +3279,8 @@
     <Component drawingorder="5" id="8107" maxVariety="8" mirror="true" name="list_single_dyc_row_text_pane_t6" type="Text"/>
     <Component drawingorder="1" id="8108" maxVariety="0" mirror="true" name="aid_mgn_list_cale_time_pane" type="Pane"/>
     <Component drawingorder="21" id="8112" maxVariety="5" mirror="true" name="cale_week_scroll_pane_g16" type="Graphic"/>
+    <Component drawingorder="6" id="8114" maxVariety="0" mirror="true" name="vorec_slider_pane" type="Pane"/>
+    <Component drawingorder="0" id="8116" maxVariety="0" mirror="false" name="wait_bar_pane_cp01" type="Pane"/>
+    <Component drawingorder="1" id="8117" maxVariety="0" mirror="false" name="vorec_t6" type="Text"/>
+    <Component drawingorder="2" id="8118" maxVariety="0" mirror="false" name="vorec_t5" type="Text"/>
 </Layout>

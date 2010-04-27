@@ -22069,6 +22069,57 @@ static const TAknsItemID KAknsIIDQgnIndiFebAsterisk =
 static const TAknsItemID KAknsIIDQsnBigclockAnalogueFaceScreensaver =
     { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockAnalogueFaceScreensaver };
 
+static const TAknsItemID KAknsIIDQgnHsNfcOff =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnHsNfcOff };
+
+static const TAknsItemID KAknsIIDQgnHsNfcOn =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnHsNfcOn };
+
+static const TAknsItemID KAknsIIDQgnIndiCam4Auto =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCam4Auto };
+
+static const TAknsItemID KAknsIIDQgnIndiNsliderLevelMuted =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiNsliderLevelMuted };
+
+static const TAknsItemID KAknsIIDQgnIndiNsliderLevelUnmuted =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiNsliderLevelUnmuted };
+
+static const TAknsItemID KAknsIIDQgnMenuFriendster =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuFriendster };
+
+static const TAknsItemID KAknsIIDQgnMenuLinkedin =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuLinkedin };
+
+static const TAknsItemID KAknsIIDQgnMenuOrkut =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuOrkut };
+
+static const TAknsItemID KAknsIIDQgnMenuPicasa =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuPicasa };
+
+static const TAknsItemID KAknsIIDQgnMenuZipManager =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuZipManager };
+
+static const TAknsItemID KAknsIIDQgnPropFolderSubUnsub =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropFolderSubUnsub };
+
+static const TAknsItemID KAknsIIDQgnPropSwitchFetch =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropSwitchFetch };
+
+static const TAknsItemID KAknsIIDQgnPropSwitchFetchUp =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropSwitchFetchUp };
+
+static const TAknsItemID KAknsIIDQgnPropSwitchStore =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropSwitchStore };
+
+static const TAknsItemID KAknsIIDQgnPropSwitchStoreUp =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropSwitchStoreUp };
+
+static const TAknsItemID KAknsIIDQgnPropSwitchSynchronise =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropSwitchSynchronise };
+
+static const TAknsItemID KAknsIIDQgnPropSwitchSynchroniseUp =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropSwitchSynchroniseUp };
+
 // SCMMARKER_INSERTIONPOINT
 
 // SCCMARKER_END

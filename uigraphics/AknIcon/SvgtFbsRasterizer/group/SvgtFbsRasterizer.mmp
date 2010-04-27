@@ -40,6 +40,7 @@ SOURCEPATH ../src
 SOURCE SvgtFbsRasterizer.cpp
 SOURCE svgtregisteredbitmap.cpp 
 SOURCE svgtgraphicsinterface.cpp
+SOURCE SvgtRasterizerOOMPropertyMonitor.cpp
 
 #ifdef _EGL_SUPPORT_ENABLED_
 SOURCE eglgraphicsinterface.cpp

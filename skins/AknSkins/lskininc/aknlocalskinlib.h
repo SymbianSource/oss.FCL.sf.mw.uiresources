@@ -93,7 +93,7 @@ private:
    /**
     * Read arabic/hebrew mirroring state.
     */
-    void RetrieveAHMirroringState();
+    void RetrieveAHMirroringStateL();
     
     /**
     * Check skin item override state.

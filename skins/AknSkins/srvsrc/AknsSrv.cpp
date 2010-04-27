@@ -344,12 +344,12 @@ EXPORT_C TInt CAknsSrv::ThreadStart()
     }
 
 // -----------------------------------------------------------------------------
-// CAknsSrv::NotifyBackupOperationEnd
+// CAknsSrv::NotifyBackupOperationEndL
 // -----------------------------------------------------------------------------
 //
-void CAknsSrv::NotifyBackupOperationEnd()
+void CAknsSrv::NotifyBackupOperationEndL()
     {
-    RestoreOldSkin();
+    RestoreOldSkinL();
     }
 
 // -----------------------------------------------------------------------------
@@ -579,10 +579,10 @@ void CAknsSrv::NotifySlideSetTypeChange()
     }
 
 // -----------------------------------------------------------------------------
-// CAknsSrv::NotifyWallpaperTypeChange
+// CAknsSrv::NotifyWallpaperTypeChangeL
 // -----------------------------------------------------------------------------
 //
-void CAknsSrv::NotifyWallpaperTypeChange()
+void CAknsSrv::NotifyWallpaperTypeChangeL()
     {
     if ( iSlideSetObserver )
         {
@@ -598,7 +598,7 @@ void CAknsSrv::NotifyWallpaperTypeChange()
         // none
         if ( newtype == KAknsSkinSrvNoWallpaper )
             {
-            WallpaperLost();
+            WallpaperLostL();
             }
         // normal
         else if ( newtype == KAknsSkinSrvImageWallpaper )
@@ -815,7 +815,7 @@ void CAknsSrv::NotifyDriveChange( const TInt& aDrive, const TBool& aMediaNotPres
             if ( !AknsSrvUtils::IsFile( iFsSession, *iWPFilename ) )
                 {
                 iWPOnRemovableDrive = EFalse;
-                WallpaperLost();
+                WallpaperLostL();
                 }
             }*/
         }
@@ -847,10 +847,10 @@ void CAknsSrv::NotifyUSBAttach()
     }
 
 // -----------------------------------------------------------------------------
-// CAknsSrv::NotifyUSBRemoval
+// CAknsSrv::NotifyUSBRemovalL
 // -----------------------------------------------------------------------------
 //
-void CAknsSrv::NotifyUSBRemoval()
+void CAknsSrv::NotifyUSBRemovalL()
     {
     if (!iUSBAttached)
         {
@@ -858,7 +858,7 @@ void CAknsSrv::NotifyUSBRemoval()
         }
     iUSBAttached = EFalse;
     
-    RestoreOldSkin();
+    RestoreOldSkinL();
     }
 
 // -----------------------------------------------------------------------------
@@ -890,10 +890,10 @@ void CAknsSrv::NewSkinPackagesInstalled()
     }
 
 // -----------------------------------------------------------------------------
-// CAknsSrv::WallpaperLost
+// CAknsSrv::WallpaperLostL
 // -----------------------------------------------------------------------------
 //
-void CAknsSrv::WallpaperLost()
+void CAknsSrv::WallpaperLostL()
     {
     if ( iUSBAttached && iWPOnRemovableDrive )
         {
@@ -1369,13 +1369,6 @@ HBufC* CAknsSrv::ActiveSkinAnimBgParamL( )
 // -----------------------------------------------------------------------------
 void CAknsSrv::StartAnimBackgroundL()
     {
-    if ( iSettings->TransitionFxState() == KMaxTInt )
-        {
-        //Stop anim effects
-        iSettings->SetAnimBackgroundState( KMaxTInt );
-        return;
-        }
-    
     const TUid KCRUidThemesVariation = { 0x102818EB };
     const TUint32 KThemesLocalVariation  = 0x00000001;
     
@@ -1396,13 +1389,21 @@ void CAknsSrv::StartAnimBackgroundL()
          ActiveSkinAnimBgSupportL()
          )
         {
-        //Start anim effects
-        iSettings->SetAnimBackgroundState( 0 );
+        if ( iAnimBgToBeRestored )
+            {
+            //Restore anim effects
+            iSettings->SetAnimBackgroundState( 0 );
+            iAnimBgToBeRestored = EFalse;
+            }
         }
     else
         {
         //Stop anim effects
-        iSettings->SetAnimBackgroundState( KMaxTInt );
+        if ( iSettings->AnimBackgroundState() == KErrNone )
+            {
+            iAnimBgToBeRestored = ETrue;
+            iSettings->SetAnimBackgroundState( KMaxTInt );
+            }
         }
     }
 
@@ -2358,10 +2359,10 @@ void CAknsSrv::CacheWallpaperImageL( const RMessage2 aMessage)
     return;    
     }
 // -----------------------------------------------------------------------------
-// CAknsSrv::FreeDecodedWallpaper
+// CAknsSrv::FreeDecodedWallpaperL
 // -----------------------------------------------------------------------------
 //
-void CAknsSrv::FreeDecodedWallpaper( const RMessage2 aMessage )
+void CAknsSrv::FreeDecodedWallpaperL( const RMessage2 aMessage )
     {
     TFileName filename;
     aMessage.ReadL( 0, filename );
@@ -2775,7 +2776,7 @@ void CAknsSrv::BackupAndActiveDefaultSkin()
 // Reactive backup skin.
 // -----------------------------------------------------------------------------
 //
-void CAknsSrv::RestoreOldSkin()
+void CAknsSrv::RestoreOldSkinL()
     {
     if (iOldSkin != KAknsNullPkgID)
         {
@@ -2808,7 +2809,7 @@ void CAknsSrv::RestoreOldSkin()
         else
             {
             iWPOnRemovableDrive = EFalse;
-            WallpaperLost();
+            WallpaperLostL();
             }
         }
     }

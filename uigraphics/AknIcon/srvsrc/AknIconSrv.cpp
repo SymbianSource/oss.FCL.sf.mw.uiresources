@@ -53,6 +53,8 @@
 #include <AvkonInternalCRKeys.h>    // KAknQwertyInputModeActive
 #include <avkondomainpskeys.h>      // KAknPowerMenuStatus
 #include <bitdev.h>
+
+#include "SvgtRasterizerKeyDefs.hrh"
 // CONSTANTS
 
 const TUid KZiUdbProterty = {0x101F8614};
@@ -114,6 +116,10 @@ void CAknIconServer::ConstructL()
     TInt err10 = RProperty::Define(KPSUidAvkonDomain, KAknPowerMenuStatus,       RProperty::EInt, KPassReadPolicy, KWriteDDPolicy);
     TInt err11 = RProperty::Define(KPSUidAvkonDomain, KAknEndKeyEvent,           RProperty::EInt, KPassReadPolicy, KWriteDDPolicy);         
 
+    TInt err12 = RProperty::Define(KSvgtPropertyCategory, ESvgtPropertyBool,     RProperty::EInt);         
+    
+    RProperty::Set( KSvgtPropertyCategory, ESvgtPropertyBool, ETrue );
+    
 #ifdef _DEBUG
     RDebug::Print(_L("xxxx KAknQwertyInputModeActive err=%d"), err1);
     RDebug::Print(_L("xxxx KUikLayoutState           err=%d"), err2);
@@ -126,6 +132,8 @@ void CAknIconServer::ConstructL()
     RDebug::Print(_L("xxxx KT9UdbProterty            err=%d"), err9);
     RDebug::Print(_L("xxxx KAknPowerMenuStatus       err=%d"), err10);
     RDebug::Print(_L("xxxx KAknEndKeyEvent           err=%d"), err11);
+
+    RDebug::Print(_L("xxxx ESvgtPropertyBool         err=%d"), err12);
 #endif
     
     CRepository* repository = NULL;
@@ -1163,6 +1171,9 @@ void CAknIconServer::EnableCache(TBool aEnable)
 	
     iCurrentIndex = -1;
 	iCache->EnableCache(aEnable);
+	
+    RProperty::Set(KSvgtPropertyCategory, ESvgtPropertyBool, aEnable );
+
 	}
 
 // -----------------------------------------------------------------------------

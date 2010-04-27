@@ -28,7 +28,6 @@
 #include "../pictographs/group/bld.inf"
 #include "../locales/group/bld.inf"
 #include "../uiconfig/group/bld.inf"
-#include "../fontsupport/group/bld.inf"
 #include "../helpthemes/group/bld.inf"
 
 #endif

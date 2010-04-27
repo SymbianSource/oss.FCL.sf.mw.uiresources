@@ -6557,6 +6557,7 @@ enum TApiId
 	EApiId_main_clock2_pane_cp01_t,
 	EApiId_cale_week_scroll_pane_g16_ParamLimits,
 	EApiId_cale_week_scroll_pane_g16,
+	EApiId_vorec_slider_pane,
 	E_TApiId_TableSize
 	};
 
@@ -13091,6 +13092,7 @@ typedef TAknLayoutScalableTableLimits (Tmain_clock2_pane_cp01_t_Limits_sig)();
 typedef TAknTextComponentLayout (Tmain_clock2_pane_cp01_t_sig)(TInt, TInt, TInt, TInt);
 typedef TAknLayoutScalableParameterLimits (Tcale_week_scroll_pane_g16_ParamLimits_sig)(TInt);
 typedef TAknWindowComponentLayout (Tcale_week_scroll_pane_g16_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tvorec_slider_pane_sig)(TInt, TInt, TInt);
 
 } // end of namespace AknLayoutScalable_Apps
 

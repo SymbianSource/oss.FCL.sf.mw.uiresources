@@ -118,7 +118,7 @@ NONSHARABLE_CLASS(CAknIconLoader) : public CBase
         CAknIconLocationInfo* LoadIconLocationInfoL( const TDesC& aFileName );
         
 #ifdef _NGATESTING        
-        TInt32 GetDerivedIconTypeL(TInt32 aType, const TDesC & aMifFileName);
+        TInt32 GetDerivedIconTypeL(TInt32 aType);
         void SetIconTypeConfig(TInt32 aConfigIconType, const TDesC & aNGATestDirectory);
 #endif
         

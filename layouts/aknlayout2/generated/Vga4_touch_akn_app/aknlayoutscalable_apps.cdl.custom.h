@@ -6590,6 +6590,7 @@ struct SCdlImpl6
 	Tmain_clock2_pane_cp01_t_sig* main_clock2_pane_cp01_t;
 	Tcale_week_scroll_pane_g16_ParamLimits_sig* cale_week_scroll_pane_g16_ParamLimits;
 	Tcale_week_scroll_pane_g16_sig* cale_week_scroll_pane_g16;
+	Tvorec_slider_pane_sig* vorec_slider_pane;
 	};
 #ifdef __WINS__
 struct SCdlImpl

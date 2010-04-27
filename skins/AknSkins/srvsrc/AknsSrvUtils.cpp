@@ -933,7 +933,10 @@ void AknsSrvUtils::SkinHasMifFileL( TBool& aHasMifFile,
         TInt bsLoc = path.LocateReverse( backslash );
 
         // Append skin PID to the directory.
-        bufferPtr.Append( fileName.Path().Mid( bsLoc ) );
+        if ( KErrNotFound != bsLoc )
+            {
+            bufferPtr.Append( fileName.Path().Mid( bsLoc ) );
+            }
 
         if ( fileName.ExtPresent() )
             {

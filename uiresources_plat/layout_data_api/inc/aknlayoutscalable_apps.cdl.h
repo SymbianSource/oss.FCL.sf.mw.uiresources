@@ -985,14 +985,17 @@ inline TAknTextComponentLayout vorec_t3(TInt aVariety = 0, TInt aCol = 0, TInt a
 
 inline TAknTextComponentLayout vorec_t4(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tvorec_t4_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_vorec_t4)))(aVariety, aCol, aRow); }
 
+// LAF Table : vorec_slider_pane
 inline TAknTextComponentLayout vorec_t5(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tvorec_t5_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_vorec_t5)))(aVariety, aCol, aRow); }
 
 inline TAknTextComponentLayout vorec_t6(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tvorec_t6_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_vorec_t6)))(aVariety, aCol, aRow); }
 
+// LAF Table : main_vorec_pane
 inline TAknLayoutScalableTableLimits vorec_t_Limits()		{ return (*(Tvorec_t_Limits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_vorec_t_Limits)))(); }
 
 inline TAknTextComponentLayout vorec_t(TInt aLineIndex, TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tvorec_t_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_vorec_t)))(aLineIndex, aVariety, aCol, aRow); }
 
+// LAF Table : vorec_slider_pane
 inline TAknWindowComponentLayout wait_bar_pane_cp01(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Twait_bar_pane_cp01_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_wait_bar_pane_cp01)))(aVariety, aCol, aRow); }
 
 // LAF Table : grid_vorec_pane
@@ -14304,6 +14307,9 @@ inline TAknLayoutScalableParameterLimits cale_week_scroll_pane_g16_ParamLimits(T
 
 inline TAknWindowComponentLayout cale_week_scroll_pane_g16(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tcale_week_scroll_pane_g16_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_cale_week_scroll_pane_g16)))(aVariety, aCol, aRow); }
 
+// LAF Table : main_vorec_pane
+inline TAknWindowComponentLayout vorec_slider_pane(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tvorec_slider_pane_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_vorec_slider_pane)))(aVariety, aCol, aRow); }
+
 #ifdef __VC32__
 #pragma component(mintypeinfo, on)
 #endif
@@ -15267,14 +15273,17 @@ public:
 
 	inline TAknTextComponentLayout vorec_t4(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tvorec_t4_sig*)(GetFunction(EApiId_vorec_t4)))(aVariety, aCol, aRow); }
 
+	// LAF Table : vorec_slider_pane
 	inline TAknTextComponentLayout vorec_t5(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tvorec_t5_sig*)(GetFunction(EApiId_vorec_t5)))(aVariety, aCol, aRow); }
 
 	inline TAknTextComponentLayout vorec_t6(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tvorec_t6_sig*)(GetFunction(EApiId_vorec_t6)))(aVariety, aCol, aRow); }
 
+	// LAF Table : main_vorec_pane
 	inline TAknLayoutScalableTableLimits vorec_t_Limits() const		{ return (*(Tvorec_t_Limits_sig*)(GetFunction(EApiId_vorec_t_Limits)))(); }
 
 	inline TAknTextComponentLayout vorec_t(TInt aLineIndex, TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tvorec_t_sig*)(GetFunction(EApiId_vorec_t)))(aLineIndex, aVariety, aCol, aRow); }
 
+	// LAF Table : vorec_slider_pane
 	inline TAknWindowComponentLayout wait_bar_pane_cp01(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Twait_bar_pane_cp01_sig*)(GetFunction(EApiId_wait_bar_pane_cp01)))(aVariety, aCol, aRow); }
 
 	// LAF Table : grid_vorec_pane
@@ -28585,6 +28594,9 @@ public:
 	inline TAknLayoutScalableParameterLimits cale_week_scroll_pane_g16_ParamLimits(TInt aVariety) const		{ return (*(Tcale_week_scroll_pane_g16_ParamLimits_sig*)(GetFunction(EApiId_cale_week_scroll_pane_g16_ParamLimits)))(aVariety); }
 
 	inline TAknWindowComponentLayout cale_week_scroll_pane_g16(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tcale_week_scroll_pane_g16_sig*)(GetFunction(EApiId_cale_week_scroll_pane_g16)))(aVariety, aCol, aRow); }
+
+	// LAF Table : main_vorec_pane
+	inline TAknWindowComponentLayout vorec_slider_pane(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tvorec_slider_pane_sig*)(GetFunction(EApiId_vorec_slider_pane)))(aVariety, aCol, aRow); }
 
 private:
 	CInstance();

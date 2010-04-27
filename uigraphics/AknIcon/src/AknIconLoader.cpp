@@ -339,26 +339,12 @@ void CAknIconLoader::SetIconTypeConfig(TInt32 aConfigIconType, const TDesC & aNG
     iNGADirectory.Copy(aNGATestDirectory);
     }
 
-TInt32 CAknIconLoader::GetDerivedIconTypeL(TInt32 aType, const TDesC & aMifFileName)
+TInt32 CAknIconLoader::GetDerivedIconTypeL(TInt32 aType)
     {
     if (aType != EIconFormatBMP &&
         aType != EIconFormatNVG)
         {
-        if (iConfigIconType != -1)
-            {
-            aType = iConfigIconType;
-            }
-
-        if (aType != EIconFormatNGA)
-            {
-            TInt NGADirectoryLength = iNGADirectory.Length();
-            if ( NGADirectoryLength > 0 && 
-                 NGADirectoryLength < aMifFileName.Length() && 
-                 aMifFileName.Left(NGADirectoryLength).CompareF(iNGADirectory) == 0 )
-                {
                 aType = EIconFormatNGA;
-                }
-            }
         }
     
     return aType;

@@ -18,19 +18,18 @@
 
 #include <kernel/ls_std.h>
 #include <collate.h>
-#include <unicode.h>
 
 const TUint KUidColturCollationMethod = 0x100059DD;
 
 static const TUint32 TheColturKey[] = 
 	{
-	0x7540109,0x7540121,0x78d0121,0x8060109,0x8060121,0x85e0109,0x85e0121,0x88e0109,
-	0x88e0121,0x78d0109,
+	0x7540109,0x7540121,0x78e0121,0x8060109,0x8060121,0x85e0109,0x85e0121,0x88e0109,
+	0x88e0121,0x78e0109,0x78d0121,0x78d0109,
 	};
 
 static const TUint32 TheColturIndex[] = 
 	{
-	0x490002,0x690009,0x1310009,
+	0x49000a,0x69000b,0x1310009,
 	};
 
 static const TUint16 TheColturStringElement[] = 
@@ -72,27 +71,9 @@ static const TCollationDataSet TheCollationDataSet =
 	2
 	};
 
-static const TUnicodeData TheUnicodeTurkishData[] =	// property table
-	{
-	{ 0, 0, 0, 0, 232, 1 }	// character properties. See the definition of TUnicodeData in /include/unicode.h.
-	};
-static const TUnicodeDataRange TheUnicodeTurkishDataRange[] =	// character range table
-	{
-// This table defines only one character 0x49.
-	{ 0x0, -1 },	// characters 0x0-0x48 has index=-1 into above property table (-1 means not defined)
-	{ 0x49, 0 },	// characters 0x49-0x49 has index=0 into above property table, that is, 0x49 has property {0,0,0,0,232,1}
-	{ 0x4A, -1 }	// characters 0x4A-0x10FFFF has index=-1 into above property table (-1 means not defined)
-	};
-const TUnicodeDataSet TheUnicodeTurkishDataSet =	
-	{
-	TheUnicodeTurkishData, 						// address of above property table
-	TheUnicodeTurkishDataRange, 					// character range table
-	sizeof(TheUnicodeTurkishDataRange)/sizeof(TUnicodeDataRange) 	// character range table size (should be 3 in this case)
-	};
-
 // The one and only locale character set object.
 const LCharSet TheCharSet =
 	{
-	&TheUnicodeTurkishDataSet,
+	NULL,
 	&TheCollationDataSet
 	};

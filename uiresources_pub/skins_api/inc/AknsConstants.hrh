@@ -7701,8 +7701,25 @@ enum TAknsMinorGenericValue
     EAknsMinorGenericQgnIndiBrowserTbDownloads = 0x25f1,
     EAknsMinorGenericQgnIndiFebAsterisk = 0x25f2,
     EAknsMinorGenericQsnBigclockAnalogueFaceScreensaver = 0x25f3,
-    // SCMMARKER_INSERTIONPOINT [9716]
-    EAknsMinorGenericInternalCurrentLastItem = 0x25f4
+    EAknsMinorGenericQgnHsNfcOff = 0x25f4,
+    EAknsMinorGenericQgnHsNfcOn = 0x25f5,
+    EAknsMinorGenericQgnIndiCam4Auto = 0x25f6,
+    EAknsMinorGenericQgnIndiNsliderLevelMuted = 0x25f7,
+    EAknsMinorGenericQgnIndiNsliderLevelUnmuted = 0x25f8,
+    EAknsMinorGenericQgnMenuFriendster = 0x25f9,
+    EAknsMinorGenericQgnMenuLinkedin = 0x25fa,
+    EAknsMinorGenericQgnMenuOrkut = 0x25fb,
+    EAknsMinorGenericQgnMenuPicasa = 0x25fc,
+    EAknsMinorGenericQgnMenuZipManager = 0x25fd,
+    EAknsMinorGenericQgnPropFolderSubUnsub = 0x25fe,
+    EAknsMinorGenericQgnPropSwitchFetch = 0x25ff,
+    EAknsMinorGenericQgnPropSwitchFetchUp = 0x2600,
+    EAknsMinorGenericQgnPropSwitchStore = 0x2601,
+    EAknsMinorGenericQgnPropSwitchStoreUp = 0x2602,
+    EAknsMinorGenericQgnPropSwitchSynchronise = 0x2603,
+    EAknsMinorGenericQgnPropSwitchSynchroniseUp = 0x2604,
+    // SCMMARKER_INSERTIONPOINT [9733]
+    EAknsMinorGenericInternalCurrentLastItem = 0x2605
     };
 
 // ----------------------------------------------------------------------------
