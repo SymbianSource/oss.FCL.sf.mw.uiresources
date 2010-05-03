@@ -63,7 +63,7 @@ public:
     bool iUnicode;
     bool iFirstInLine;
 
-    wint_t iNextChar;
+    wchar_t iNextChar;
     wchar_t iToken[512];
     int iHash;
 };

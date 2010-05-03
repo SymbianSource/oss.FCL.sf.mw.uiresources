@@ -23,7 +23,7 @@
 #pragma once
 #endif // _MSC_VER > 1000
 
-#include "AknsConstants.hrh"
+#include <AknsConstants.hrh>
 
 #include <string.h>
 #include <vector>

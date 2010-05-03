@@ -51,7 +51,7 @@ void CSDCMBMOutput::Output( CSDCData* aData, const char* aBaseName, const char* 
         fprintf( file, "%s.mbm\n", aBaseName );
         }
 
-    for( int i=0; i<aData->iMbmVector.size(); i++ )
+    for( unsigned int i=0; i<aData->iMbmVector.size(); i++ )
         {
         TSDCMBMEntry* entry = aData->iMbmVector[i];
         if( (entry->iIndex>=16384) && (!aData->IsScalable()) )

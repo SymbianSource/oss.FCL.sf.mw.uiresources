@@ -17,8 +17,10 @@
 
 
 #include <string.h>
+#include <wchar.h>
 #include "SDCGlobals.h"
 #include "SDCInput.h"
+#include "SDCCompat.h"
 
 // Make std namespace available for compatibility
 namespace std {}
@@ -101,7 +103,9 @@ bool CSDCInput::NextStringToken()
     ReadNextChar();
     while( iNextChar != L'\"' )
         {
-        if( (iNextChar==L'\n') || (iNextChar==L'\r') || (iNextChar==WEOF) ) throw CSDCException( ESDCParseError, "Unterminated string" );
+        if( (iNextChar==L'\n') || (iNextChar==L'\r') || (iNextChar==WEOF) )
+            throw CSDCException( ESDCParseError, "Unterminated string" );
+
         if( escaped )
             {
             if( iNextChar == L'>' )
@@ -196,7 +200,7 @@ int CSDCInput::NextRawToken()
 int CSDCInput::ConvertToNumber( const wchar_t* aToken )
     {
     bool hexadecimal = false;
-    if( _wcsnicmp( aToken, L"0x", 2 ) == 0 ) hexadecimal = true;
+    if( sd_wcsncasecmp( aToken, L"0x", 2 ) == 0 ) hexadecimal = true;
 
     int result = 0;
     const wchar_t *p = aToken;
@@ -273,22 +277,22 @@ void CSDCInput::ConvertToAsciiWithCPPEscapes( char* aTarget, const wchar_t* aSou
 
 TSDCColorDepth CSDCInput::ConvertToColorDepth( const wchar_t* aToken )
     {
-    if( _wcsicmp( aToken, L"1" ) == 0) return ESDCColorDepth1;
-    else if( _wcsicmp( aToken, L"2" ) == 0) return ESDCColorDepth2;
-    else if( _wcsicmp( aToken, L"4" ) == 0) return ESDCColorDepth4;
-    else if( _wcsicmp( aToken, L"8" ) == 0) return ESDCColorDepth8;
-    else if( _wcsicmp( aToken, L"c4" ) == 0) return ESDCColorDepthC4;
-    else if( _wcsicmp( aToken, L"c8" ) == 0) return ESDCColorDepthC8;
-    else if( _wcsicmp( aToken, L"c12" ) == 0) return ESDCColorDepthC12;
-    else if( _wcsicmp( aToken, L"c16" ) == 0) return ESDCColorDepthC16;
-    else if( _wcsicmp( aToken, L"c24" ) == 0) return ESDCColorDepthC24;
-    else if( _wcsicmp( aToken, L"c32" ) == 0) return ESDCColorDepthC32;
+    if( sd_wcscasecmp( aToken, L"1" ) == 0) return ESDCColorDepth1;
+    else if( sd_wcscasecmp( aToken, L"2" ) == 0) return ESDCColorDepth2;
+    else if( sd_wcscasecmp( aToken, L"4" ) == 0) return ESDCColorDepth4;
+    else if( sd_wcscasecmp( aToken, L"8" ) == 0) return ESDCColorDepth8;
+    else if( sd_wcscasecmp( aToken, L"c4" ) == 0) return ESDCColorDepthC4;
+    else if( sd_wcscasecmp( aToken, L"c8" ) == 0) return ESDCColorDepthC8;
+    else if( sd_wcscasecmp( aToken, L"c12" ) == 0) return ESDCColorDepthC12;
+    else if( sd_wcscasecmp( aToken, L"c16" ) == 0) return ESDCColorDepthC16;
+    else if( sd_wcscasecmp( aToken, L"c24" ) == 0) return ESDCColorDepthC24;
+    else if( sd_wcscasecmp( aToken, L"c32" ) == 0) return ESDCColorDepthC32;
     throw CSDCException( ESDCParseError, "Unknown color depth parameter" );
     }
 
 int CSDCInput::ConvertToLayer( const wchar_t* aToken )
     {
-    if( _wcsicmp( aToken, L"none" ) == 0 ) return 0x0001;
+    if( sd_wcscasecmp( aToken, L"none" ) == 0 ) return 0x0001;
 
     wchar_t buf[512];
     wcscpy( buf, aToken );
@@ -299,15 +303,15 @@ int CSDCInput::ConvertToLayer( const wchar_t* aToken )
     p = p+1;
 
     int layer = ConvertToNumber( buf ) << 8;
-    if( _wcsicmp( p, L"RGB" ) == 0 )
+    if( sd_wcscasecmp( p, L"RGB" ) == 0 )
         {
         layer |= 0x02;
         }
-    else if( _wcsicmp( p, L"A" ) == 0 )
+    else if( sd_wcscasecmp( p, L"A" ) == 0 )
         {
         layer |= 0x04;
         }
-    else if( _wcsicmp( p, L"RGBA" ) == 0 )
+    else if( sd_wcscasecmp( p, L"RGBA" ) == 0 )
         {
         layer |= 0x08;
         }
@@ -325,7 +329,7 @@ bool CSDCInput::IsSvgFile( const wchar_t* aFilename )
     if( len<4 ) return false;
 
     const wchar_t* p = aFilename + len - 4;
-    if( _wcsicmp( p, L".svg" ) == 0 )
+    if( sd_wcscasecmp( p, L".svg" ) == 0 )
         {
         return true;
         }

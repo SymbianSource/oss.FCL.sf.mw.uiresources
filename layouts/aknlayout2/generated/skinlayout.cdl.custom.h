@@ -22,7 +22,7 @@
 #define SKINLAYOUT_CDL_CUSTOM_H
 
 #include <CdlEngDef.h>
-#include "SkinLayout.cdl.common.h"
+#include "skinlayout.cdl.common.h"
 
 namespace SkinLayout
 {

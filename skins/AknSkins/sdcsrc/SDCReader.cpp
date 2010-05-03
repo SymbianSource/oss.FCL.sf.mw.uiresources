@@ -19,6 +19,7 @@
 #include "SDCReader.h"
 #include "SDCIIDConstants.h"
 #include "SDCException.h"
+#include "SDCCompat.h"
 
 // Make std namespace available for compatibility
 namespace std {}
@@ -44,16 +45,16 @@ CSDCReader::~CSDCReader()
 void CSDCReader::Parse()
     {
     gInput.NextTokenAllowLF();
-    if( _wcsicmp( gInput.iToken, L"SKINTYPE" ) != 0 ) UnexpectedTokenError( gInput.iToken, L"SKINTYPE" );
+    if( sd_wcscasecmp( gInput.iToken, L"SKINTYPE" ) != 0 ) UnexpectedTokenError( gInput.iToken, L"SKINTYPE" );
     ParseSkintype();
 
     gInput.NextTokenAllowLF();
-    if( _wcsicmp( gInput.iToken, L"UID" ) == 0 )
+    if( sd_wcscasecmp( gInput.iToken, L"UID" ) == 0 )
         {
         ParseUID();
         gInput.NextTokenAllowLF();
         }
-    else if( _wcsicmp( gInput.iToken, L"PID" ) == 0 )
+    else if( sd_wcscasecmp( gInput.iToken, L"PID" ) == 0 )
         {
         ParsePID();
         gInput.NextTokenAllowLF();
@@ -63,87 +64,87 @@ void CSDCReader::Parse()
         GeneratePID();
         }
 
-    if( _wcsicmp( gInput.iToken, L"NAME" ) != 0 ) UnexpectedTokenError( gInput.iToken, L"NAME" );
+    if( sd_wcscasecmp( gInput.iToken, L"NAME" ) != 0 ) UnexpectedTokenError( gInput.iToken, L"NAME" );
     ParseName();
 
     while( gInput.NextTokenAllowLF() )
         {
-        if( _wcsicmp( gInput.iToken, L"NAME" ) == 0 )
+        if( sd_wcscasecmp( gInput.iToken, L"NAME" ) == 0 )
             {
             ParseName();
             }
-        else if( _wcsicmp( gInput.iToken, L"LANGUAGEOVERRIDE" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"LANGUAGEOVERRIDE" ) == 0 )
             {
             ParseLanguageOverride();
             }
-        else if( _wcsicmp( gInput.iToken, L"LANGUAGEPARENT" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"LANGUAGEPARENT" ) == 0 )
             {
             ParseParentUID();
             }
-        else if( _wcsicmp( gInput.iToken, L"PROTECT" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"PROTECT" ) == 0 )
             {
             ParseProtect();
             }
-        else if( _wcsicmp( gInput.iToken, L"AUTHOR" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"AUTHOR" ) == 0 )
             {
             ParseAuthor();
             }
-        else if( _wcsicmp( gInput.iToken, L"COPYRIGHT" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"COPYRIGHT" ) == 0 )
             {
             ParseCopyright();
             }
-        else if( _wcsicmp( gInput.iToken, L"TARGETDEVICE" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"TARGETDEVICE" ) == 0 )
             {
             ParseTargetDevice();
             }
-        else if( _wcsicmp( gInput.iToken, L"TOOL" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"TOOL" ) == 0 )
             {
             ParseTool();
             }
-        else if( _wcsicmp( gInput.iToken, L"BITMAP" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"BITMAP" ) == 0 )
             {
             ParseBitmap();
             }
-        else if( _wcsicmp( gInput.iToken, L"COLORTABLE" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"COLORTABLE" ) == 0 )
             {
             ParseColorTable();
             }
-        else if( _wcsicmp( gInput.iToken, L"FRAME" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"FRAME" ) == 0 )
             {
             ParseFrame();
             }
-        else if( _wcsicmp( gInput.iToken, L"BMPANIM" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"BMPANIM" ) == 0 )
             {
             ParseBmpAnim();
             }
-        else if( _wcsicmp( gInput.iToken, L"APPICON" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"APPICON" ) == 0 )
             {
             ParseAppIcon();
             }
-        else if( _wcsicmp( gInput.iToken, L"PALETTE" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"PALETTE" ) == 0 )
             {
             ParsePalette();
             }
-        else if( (_wcsicmp( gInput.iToken, L"SOUND" ) == 0)
-            || (_wcsicmp( gInput.iToken, L"STRING" ) == 0) )
+        else if( (sd_wcscasecmp( gInput.iToken, L"SOUND" ) == 0)
+            || (sd_wcscasecmp( gInput.iToken, L"STRING" ) == 0) )
             {
             ParseString();
             }
-        else if( _wcsicmp( gInput.iToken, L"SCALABLEITEM" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"SCALABLEITEM" ) == 0 )
             {
             if( !iData->IsScalable() ) throw CSDCException( ESDCContentError, "SCALABLEITEM can only be included in scalable skins" );
             ParseScalableItem();
             }
-        else if( _wcsicmp( gInput.iToken, L"ANIMATION" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"ANIMATION" ) == 0 )
             {
             if( !iData->IsScalable() ) throw CSDCException( ESDCContentError, "ANIMATION can only be included in scalable skins" );
             ParseAnimation();
             }
-        else if( _wcsicmp( gInput.iToken, L"BITMAPPATH" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"BITMAPPATH" ) == 0 )
             {
             ParseBitmapPath();
             }
-        else if( _wcsicmp( gInput.iToken, L"RESTRICTION" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"RESTRICTION" ) == 0 )
             {
             ParseRestriction();
             }
@@ -159,15 +160,15 @@ void CSDCReader::ParseSkintype()
     {
     gInput.NextToken();
 
-    if( _wcsicmp( gInput.iToken, L"normal" ) == 0 )
+    if( sd_wcscasecmp( gInput.iToken, L"normal" ) == 0 )
         {
         iData->iSkinType = 0x0;
         }
-    else if( _wcsicmp( gInput.iToken, L"system" ) == 0 )
+    else if( sd_wcscasecmp( gInput.iToken, L"system" ) == 0 )
         {
         iData->iSkinType = 0x1;
         }
-    else if( _wcsicmp( gInput.iToken, L"scalable" ) == 0 )
+    else if( sd_wcscasecmp( gInput.iToken, L"scalable" ) == 0 )
         {
 #if !defined( RD_ENHANCED_SKINNING )
         throw CSDCException( ESDCNotSupportedError, "Scalable skins not supported" );
@@ -182,7 +183,7 @@ void CSDCReader::ParseSkintype()
 
     if( gInput.NextToken() )
         {
-        if( _wcsicmp( gInput.iToken, L"language=AH" ) == 0 )
+        if( sd_wcscasecmp( gInput.iToken, L"language=AH" ) == 0 )
             {
             iData->iSkinType |= 0x102;
             }
@@ -235,7 +236,7 @@ void CSDCReader::ParseLanguageOverride()
         throw CSDCException( ESDCParseError, "Language override can not be used with scalable skins" );
 
     gInput.NextToken();
-    if( _wcsicmp( gInput.iToken, L"AH" ) != 0 )
+    if( sd_wcscasecmp( gInput.iToken, L"AH" ) != 0 )
         {
         throw CSDCException( ESDCParseError, "Unknown or missing parameter for LANGUAGEOVERRIDE" );
         }
@@ -276,7 +277,7 @@ void CSDCReader::ParseParentUID()
 void CSDCReader::ParseProtect()
     {
     gInput.NextToken();
-    if( _wcsicmp( gInput.iToken, L"disablecopy" ) != 0 )
+    if( sd_wcscasecmp( gInput.iToken, L"disablecopy" ) != 0 )
         {
         throw CSDCException( ESDCParseError, "Unknown or missing parameter for PROTECT" );
         }
@@ -313,7 +314,7 @@ void CSDCReader::ParseBitmap()
     gInput.NextToken();
 
     bool appIcon = false;
-    if( _wcsicmp( gInput.iToken, L"CLASS=appicon" ) == 0 )
+    if( sd_wcscasecmp( gInput.iToken, L"CLASS=appicon" ) == 0 )
         {
         appIcon = true;
         gInput.NextToken();
@@ -321,7 +322,7 @@ void CSDCReader::ParseBitmap()
 
     int restriction( iData->iCurrentRestriction );
     const TSDCIIDEntry* iid = NULL;
-    if( _wcsnicmp( gInput.iToken, L"IID=", 4 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"IID=", 4 ) == 0 )
         {
         wchar_t iidBuf[512];
         wcscpy( iidBuf, gInput.iToken+4 );
@@ -361,7 +362,7 @@ void CSDCReader::ParseBitmap()
 
     while( gInput.NextToken() )
         {
-        if( _wcsnicmp( gInput.iToken, L"MASK=", 5 ) == 0 )
+        if( sd_wcsncasecmp( gInput.iToken, L"MASK=", 5 ) == 0 )
             {
             if( svg ) throw CSDCException( ESDCParseError, "SVG icon can not have a named mask" );
             if( mbmEntry->iMaskColorDepth!=ESDCColorDepthNone )
@@ -376,7 +377,7 @@ void CSDCReader::ParseBitmap()
                 }
             maskIndex = mbmIndex+1;
             }
-        else if( _wcsnicmp( gInput.iToken, L"SOFTMASK=", 9 ) == 0 )
+        else if( sd_wcsncasecmp( gInput.iToken, L"SOFTMASK=", 9 ) == 0 )
             {
             if( svg ) throw CSDCException( ESDCParseError, "SVG icon can not have a named mask" );
             if( mbmEntry->iMaskColorDepth!=ESDCColorDepthNone )
@@ -391,13 +392,13 @@ void CSDCReader::ParseBitmap()
                 }
             maskIndex = mbmIndex+1;
             }
-        else if( _wcsicmp( gInput.iToken, L"MASK" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"MASK" ) == 0 )
             {
             if( !svg ) throw CSDCException( ESDCParseError, "Non-SVG icon can not have an unnamed mask" );
             mbmEntry->iMaskColorDepth = ESDCColorDepth1;
             maskIndex = mbmIndex+1;
             }
-        else if( _wcsicmp( gInput.iToken, L"SOFTMASK" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"SOFTMASK" ) == 0 )
             {
             if( !svg ) throw CSDCException( ESDCParseError, "Non-SVG icon can not have an unnamed mask" );
             mbmEntry->iMaskColorDepth = ESDCColorDepth8;
@@ -421,7 +422,7 @@ void CSDCReader::ParseColorTable()
 
     TSDCIID realIid;
     int restriction( iData->iCurrentRestriction );
-    if( _wcsnicmp( gInput.iToken, L"IID=", 4 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"IID=", 4 ) == 0 )
         {
         wchar_t iidBuf[512];
         wcscpy( iidBuf, gInput.iToken+4 );
@@ -440,19 +441,19 @@ void CSDCReader::ParseColorTable()
 
     while( gInput.NextTokenAllowLF() )
         {
-        if( _wcsicmp( gInput.iToken, L"END" ) == 0 )
+        if( sd_wcscasecmp( gInput.iToken, L"END" ) == 0 )
             {
             iData->CreateColorTableDef( realIid, colors, restriction );
             return;
             }
-        else if( _wcsnicmp( gInput.iToken, L"IDX=", 4 ) == 0 )
+        else if( sd_wcsncasecmp( gInput.iToken, L"IDX=", 4 ) == 0 )
             {
             TSDCColorTableEntry entry;
             entry.iIndex = gInput.ConvertToNumber( gInput.iToken+4 );
             entry.iRgb = 0;
             colors.push_back( entry );
             }
-        else if( _wcsnicmp( gInput.iToken, L"RGB=", 4 ) == 0 )
+        else if( sd_wcsncasecmp( gInput.iToken, L"RGB=", 4 ) == 0 )
             {
             TSDCColorTableEntry entry;
             entry.iIndex = -1;
@@ -474,7 +475,7 @@ void CSDCReader::ParseFrame()
 
     TSDCIID realIid;
     int restriction( iData->iCurrentRestriction );
-    if( _wcsnicmp( gInput.iToken, L"IID=", 4 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"IID=", 4 ) == 0 )
         {
         wchar_t iidBuf[512];
         wcscpy( iidBuf, gInput.iToken+4 );
@@ -493,7 +494,7 @@ void CSDCReader::ParseFrame()
 
     while( gInput.NextTokenAllowLF() )
         {
-        if( _wcsicmp( gInput.iToken, L"END" ) == 0)
+        if( sd_wcscasecmp( gInput.iToken, L"END" ) == 0)
             {
             iData->CreateFrameDef( realIid, elements, restriction );
             return;
@@ -513,7 +514,7 @@ void CSDCReader::ParseBmpAnim()
 
     TSDCIID realIid;
     int restriction( iData->iCurrentRestriction );
-    if( _wcsnicmp( gInput.iToken, L"IID=", 4 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"IID=", 4 ) == 0 )
         {
         wchar_t iidBuf[512];
         wcscpy( iidBuf, gInput.iToken+4 );
@@ -535,28 +536,28 @@ void CSDCReader::ParseBmpAnim()
 
     while( gInput.NextToken() )
         {
-        if( _wcsnicmp( gInput.iToken, L"INTERVAL=", 9 ) == 0 )
+        if( sd_wcsncasecmp( gInput.iToken, L"INTERVAL=", 9 ) == 0 )
             {
             interval = gInput.ConvertToNumber( gInput.iToken+9 );
             }
-        else if( _wcsicmp( gInput.iToken, L"MODE=play" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"MODE=play" ) == 0 )
             {
             playMode = 0;
             }
-        else if( _wcsicmp( gInput.iToken, L"MODE=cycle" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"MODE=cycle" ) == 0 )
             {
             playMode = 1;
             }
-        else if( _wcsicmp( gInput.iToken, L"MODE=bounce" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"MODE=bounce" ) == 0 )
             {
             playMode = 2;
             }
-        else if( _wcsicmp( gInput.iToken, L"MODE=svganim" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"MODE=svganim" ) == 0 )
             {
             playMode = 255;
             svganim = true;
             }
-        else if( _wcsicmp( gInput.iToken, L"FLASH" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"FLASH" ) == 0 )
             {
             flash = 1;
             }
@@ -573,11 +574,11 @@ void CSDCReader::ParseBmpAnim()
     int posy = 0;
     while( gInput.NextTokenAllowLF() )
         {
-        if( _wcsnicmp( gInput.iToken, L"TIME=", 5 ) == 0 )
+        if( sd_wcsncasecmp( gInput.iToken, L"TIME=", 5 ) == 0 )
             {
             time = gInput.ConvertToNumber( gInput.iToken+5 );
             }
-        else if( _wcsnicmp( gInput.iToken, L"POS=", 4 ) == 0 )
+        else if( sd_wcsncasecmp( gInput.iToken, L"POS=", 4 ) == 0 )
             {
             wchar_t buf[512];
             wcscpy( buf, gInput.iToken+4 );
@@ -587,7 +588,7 @@ void CSDCReader::ParseBmpAnim()
             posx = gInput.ConvertToNumber( buf );
             posy = gInput.ConvertToNumber( p+1 );
             }
-        else if( _wcsicmp( gInput.iToken, L"END" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"END" ) == 0 )
             {
             iData->CreateBmpAnimDef( realIid, interval, playMode, flash, frames, restriction );
             return;
@@ -615,7 +616,7 @@ void CSDCReader::ParseAppIcon()
     {
     gInput.NextToken();
     int uid;
-    if( _wcsnicmp( gInput.iToken, L"UID=", 4 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"UID=", 4 ) == 0 )
         {
         uid = gInput.ConvertToNumber( gInput.iToken+4 );
         }
@@ -629,7 +630,7 @@ void CSDCReader::ParseAppIcon()
     vector<TSDCIID> iconBitmaps;
     while( gInput.NextTokenAllowLF() )
         {
-        if( _wcsicmp( gInput.iToken, L"END" ) == 0)
+        if( sd_wcscasecmp( gInput.iToken, L"END" ) == 0)
             {
             TSDCIID realIid;
             realIid.iMajor = EAknsMajorAppIcon;
@@ -659,7 +660,7 @@ void CSDCReader::ParseAppIcon()
 void CSDCReader::ParsePalette()
     {
     gInput.NextToken();
-    if( _wcsnicmp( gInput.iToken, L"SCHEME=", 7 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"SCHEME=", 7 ) == 0 )
         {
         iData->iPalettePid.iPID2 = 0;
         iData->iPalettePid.iPID1 = gInput.ConvertToNumber( gInput.iToken+7 );
@@ -675,7 +676,7 @@ void CSDCReader::ParseString()
     gInput.NextToken();
     TSDCIID realIid;
     int restriction( iData->iCurrentRestriction );
-    if( _wcsnicmp( gInput.iToken, L"IID=", 4 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"IID=", 4 ) == 0 )
         {
         wchar_t iidBuf[512];
         wcscpy( iidBuf, gInput.iToken+4 );
@@ -699,7 +700,7 @@ void CSDCReader::ParseScalableItem()
     gInput.NextToken();
     TSDCIID realIid;
     int restriction( iData->iCurrentRestriction );
-    if( _wcsnicmp( gInput.iToken, L"IID=", 4 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"IID=", 4 ) == 0 )
         {
         wchar_t iidBuf[512];
         wcscpy( iidBuf, gInput.iToken+4 );
@@ -716,11 +717,11 @@ void CSDCReader::ParseScalableItem()
 
     gInput.NextToken();
     int input = 0;
-    if( _wcsnicmp( gInput.iToken, L"INPUT=", 6 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"INPUT=", 6 ) == 0 )
         {
         input = CSDCInput::ConvertToLayer( gInput.iToken+6 );
         }
-    else if( _wcsnicmp( gInput.iToken, L"REFIID=", 7 ) == 0 )
+    else if( sd_wcsncasecmp( gInput.iToken, L"REFIID=", 7 ) == 0 )
         {
         // Reference only
         TSDCIID refIid;
@@ -748,7 +749,7 @@ void CSDCReader::ParseScalableItem()
 
     gInput.NextToken();
     int output = 0;
-    if( _wcsnicmp( gInput.iToken, L"OUTPUT=", 7 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"OUTPUT=", 7 ) == 0 )
         {
         output = CSDCInput::ConvertToLayer( gInput.iToken+7 );
         }
@@ -760,12 +761,12 @@ void CSDCReader::ParseScalableItem()
     vector<TSDCEffectCommand> commands;
     while( gInput.NextTokenAllowLF() )
         {
-        if( _wcsicmp( gInput.iToken, L"END" ) == 0)
+        if( sd_wcscasecmp( gInput.iToken, L"END" ) == 0)
             {
             iData->CreateScalableItemDef( realIid, input, output, commands, restriction );
             return;
             }
-        else if( _wcsicmp( gInput.iToken, L"EFFECT" ) == 0)
+        else if( sd_wcscasecmp( gInput.iToken, L"EFFECT" ) == 0)
             {
             TSDCEffectCommand command;
             ParseEffectCommand( command );
@@ -785,7 +786,7 @@ void CSDCReader::ParseAnimation()
     gInput.NextToken();
     TSDCIID realIid;
     int restriction( iData->iCurrentRestriction );
-    if( _wcsnicmp( gInput.iToken, L"IID=", 4 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"IID=", 4 ) == 0 )
         {
         wchar_t iidBuf[512];
         wcscpy( iidBuf, gInput.iToken+4 );
@@ -802,7 +803,7 @@ void CSDCReader::ParseAnimation()
 
     gInput.NextToken();
     int input = 0;
-    if( _wcsnicmp( gInput.iToken, L"INPUT=", 6 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"INPUT=", 6 ) == 0 )
         {
         input = CSDCInput::ConvertToLayer( gInput.iToken+6 );
         }
@@ -813,7 +814,7 @@ void CSDCReader::ParseAnimation()
 
     gInput.NextToken();
     int output = 0;
-    if( _wcsnicmp( gInput.iToken, L"OUTPUT=", 7 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"OUTPUT=", 7 ) == 0 )
         {
         output = CSDCInput::ConvertToLayer( gInput.iToken+7 );
         }
@@ -824,7 +825,7 @@ void CSDCReader::ParseAnimation()
 
     gInput.NextToken();
     int mininterval = 0;
-    if( _wcsnicmp( gInput.iToken, L"MININTERVAL=", 12 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"MININTERVAL=", 12 ) == 0 )
         {
         mininterval = CSDCInput::ConvertToNumber( gInput.iToken+12 );
         }
@@ -836,7 +837,7 @@ void CSDCReader::ParseAnimation()
     gInput.NextTokenAllowLF();
 
     bool morphing = false;
-    if( _wcsicmp( gInput.iToken, L"MORPHING" ) == 0 )
+    if( sd_wcscasecmp( gInput.iToken, L"MORPHING" ) == 0 )
         {
         morphing = true;
 
@@ -844,17 +845,17 @@ void CSDCReader::ParseAnimation()
         }
 
     vector<TSDCEffectCommand> preprocessCommands;
-    if( _wcsicmp( gInput.iToken, L"PREPROCESS" ) == 0 )
+    if( sd_wcscasecmp( gInput.iToken, L"PREPROCESS" ) == 0 )
         {
         bool terminated( false );
         while( gInput.NextTokenAllowLF() )
             {
-            if( _wcsicmp( gInput.iToken, L"END" ) == 0)
+            if( sd_wcscasecmp( gInput.iToken, L"END" ) == 0)
                 {
                 terminated = true;
                 break;
                 }
-            else if( _wcsicmp( gInput.iToken, L"EFFECT" ) == 0)
+            else if( sd_wcscasecmp( gInput.iToken, L"EFFECT" ) == 0)
                 {
                 TSDCEffectCommand command;
                 ParseEffectCommand( command );
@@ -878,32 +879,32 @@ void CSDCReader::ParseAnimation()
     bool terminated( false );
     do
         {
-        if( _wcsicmp( gInput.iToken, L"END" ) == 0)
+        if( sd_wcscasecmp( gInput.iToken, L"END" ) == 0)
             {
             terminated = true;
             break;
             }
-        else if( _wcsicmp( gInput.iToken, L"COMMAND" ) == 0)
+        else if( sd_wcscasecmp( gInput.iToken, L"COMMAND" ) == 0)
             {
             TSDCEffectCommand command;
             ParseEffectCommand( command );
             animCommands.push_back( command );
             }
-        else if( _wcsicmp( gInput.iToken, L"VALUE" ) == 0)
+        else if( sd_wcscasecmp( gInput.iToken, L"VALUE" ) == 0)
             {
             gInput.NextToken();
-            if( _wcsnicmp( gInput.iToken, L"UID=", 4 ) )
+            if( sd_wcsncasecmp( gInput.iToken, L"UID=", 4 ) )
                 throw new CSDCException( ESDCParseError, "UID parameter expected for VALUE" );
             int uid = CSDCInput::ConvertToNumber( gInput.iToken+4 );
 
             gInput.NextToken();
-            if( _wcsnicmp( gInput.iToken, L"TIMINGID=", 9 ) )
+            if( sd_wcsncasecmp( gInput.iToken, L"TIMINGID=", 9 ) )
                 throw new CSDCException( ESDCParseError, "TIMINGID parameter expected for VALUE" );
             int timingId = CSDCInput::ConvertToNumber( gInput.iToken+9 );
 
             TSDCAnimParamGroup paramGroup;
 
-            while( gInput.NextTokenAllowLF() && _wcsicmp( gInput.iToken, L"END" ) )
+            while( gInput.NextTokenAllowLF() && sd_wcscasecmp( gInput.iToken, L"END" ) )
                 {
                 TSDCEffectParameter parameter;
                 ParseEffectParameter( parameter );
@@ -914,16 +915,16 @@ void CSDCReader::ParseAnimation()
             paramGroup.iValueB = timingId;
             values.push_back( paramGroup );
             }
-        else if( _wcsicmp( gInput.iToken, L"TIMINGMODEL" ) == 0)
+        else if( sd_wcscasecmp( gInput.iToken, L"TIMINGMODEL" ) == 0)
             {
             gInput.NextToken();
-            if( _wcsnicmp( gInput.iToken, L"UID=", 4 ) )
+            if( sd_wcsncasecmp( gInput.iToken, L"UID=", 4 ) )
                 throw new CSDCException( ESDCParseError, "UID parameter expected for TIMINGMODEL" );
             int uid = CSDCInput::ConvertToNumber( gInput.iToken+4 );
 
             TSDCAnimParamGroup paramGroup;
 
-            while( gInput.NextTokenAllowLF() && _wcsicmp( gInput.iToken, L"END" ) )
+            while( gInput.NextTokenAllowLF() && sd_wcscasecmp( gInput.iToken, L"END" ) )
                 {
                 TSDCEffectParameter parameter;
                 ParseEffectParameter( parameter );
@@ -934,7 +935,7 @@ void CSDCReader::ParseAnimation()
             paramGroup.iValueB = 0;
             timingModels.push_back( paramGroup );
             }
-        else if( _wcsicmp( gInput.iToken, L"SIZEBOUNDPARAM" ) == 0)
+        else if( sd_wcscasecmp( gInput.iToken, L"SIZEBOUNDPARAM" ) == 0)
             {
             gInput.NextToken();
             TSDCEffectParameter parameter;
@@ -943,21 +944,21 @@ void CSDCReader::ParseAnimation()
             parameter.iNumber = 0;
 
             gInput.NextToken();
-            if( _wcsnicmp( gInput.iToken, L"VALUEID=", 8 ) )
+            if( sd_wcsncasecmp( gInput.iToken, L"VALUEID=", 8 ) )
                 throw new CSDCException( ESDCParseError, "VALUEID parameter expected for SIZEBOUNDPARAM" );
             int valueId = CSDCInput::ConvertToNumber( gInput.iToken+8 );
 
             gInput.NextToken();
             int flags = 0;
-            if( _wcsicmp( gInput.iToken, L"FLAGS=W" ) == 0 )
+            if( sd_wcscasecmp( gInput.iToken, L"FLAGS=W" ) == 0 )
                 {
                 flags = 1;
                 }
-            else if( _wcsicmp( gInput.iToken, L"FLAGS=H" ) == 0 )
+            else if( sd_wcscasecmp( gInput.iToken, L"FLAGS=H" ) == 0 )
                 {
                 flags = 2;
                 }
-            else if( _wcsicmp( gInput.iToken, L"FLAGS=W_AND_H" ) == 0 )
+            else if( sd_wcscasecmp( gInput.iToken, L"FLAGS=W_AND_H" ) == 0 )
                 {
                 flags = 3;
                 }
@@ -986,7 +987,7 @@ void CSDCReader::ParseBitmapPath()
     if( gInput.NextToken() )
         {
         bool changed( true );
-        if( _wcsicmp( gInput.iToken, iData->iBmpPath ) == 0 ) changed = false;
+        if( sd_wcscasecmp( gInput.iToken, iData->iBmpPath ) == 0 ) changed = false;
         iData->SetBmpPath( gInput.iToken );
         char buf[512];
         CSDCInput::ConvertToAscii( buf, gInput.iToken );
@@ -1006,59 +1007,59 @@ void CSDCReader::ParseRestriction()
         printf( "WARNING: RESTRICTION elements is only allowed in scalable skins, layout types will not work with this skin (line %i)\n", gInput.iLineNumber );
 
     gInput.NextToken();
-    if( _wcsicmp( gInput.iToken, L"S60_2_6" ) == 0 )
+    if( sd_wcscasecmp( gInput.iToken, L"S60_2_6" ) == 0 )
         {
         iData->iCurrentRestriction = 0x0206;
         printf("NOTE: Current restriction set to 2.6\n");
         }
-    else if( _wcsicmp( gInput.iToken, L"S60_2_7" ) == 0 )
+    else if( sd_wcscasecmp( gInput.iToken, L"S60_2_7" ) == 0 )
         {
         iData->iCurrentRestriction = 0x0207;
         printf("NOTE: Current restriction set to 2.7\n");
         }
-    else if( _wcsicmp( gInput.iToken, L"S60_2_8" ) == 0 )
+    else if( sd_wcscasecmp( gInput.iToken, L"S60_2_8" ) == 0 )
         {
         iData->iCurrentRestriction = 0x0208;
         printf("NOTE: Current restriction set to 2.8\n");
         }
-    else if( _wcsicmp( gInput.iToken, L"S60_3_0" ) == 0 )
+    else if( sd_wcscasecmp( gInput.iToken, L"S60_3_0" ) == 0 )
         {
         iData->iCurrentRestriction = 0x0300;
         printf("NOTE: Current restriction set to 3.0\n");
         }
-    else if( _wcsicmp( gInput.iToken, L"S60_3_1" ) == 0 )
+    else if( sd_wcscasecmp( gInput.iToken, L"S60_3_1" ) == 0 )
         {
         iData->iCurrentRestriction = 0x0301;
         printf("NOTE: Current restriction set to 3.1\n");
         }
-    else if( _wcsicmp( gInput.iToken, L"S60_3_2" ) == 0 )
+    else if( sd_wcscasecmp( gInput.iToken, L"S60_3_2" ) == 0 )
         {
         iData->iCurrentRestriction = 0x0302;
         printf("NOTE: Current restriction set to 3.2\n");
         }
-    else if( _wcsicmp( gInput.iToken, L"S60_5_0" ) == 0 )
+    else if( sd_wcscasecmp( gInput.iToken, L"S60_5_0" ) == 0 )
         {
         iData->iCurrentRestriction = 0x0500;
         printf("NOTE: Current restriction set to 5.0\n");
         }
-    else if( _wcsicmp( gInput.iToken, L"LAY_W" ) == 0 )
+    else if( sd_wcscasecmp( gInput.iToken, L"LAY_W" ) == 0 )
         {
         iData->iCurrentRestriction = 0x00010000;
         printf("NOTE: Current restriction set to Layout/Non-Mirrored\n");
         }
-    else if( _wcsicmp( gInput.iToken, L"LAY_AH" ) == 0 )
+    else if( sd_wcscasecmp( gInput.iToken, L"LAY_AH" ) == 0 )
         {
         iData->iCurrentRestriction = 0x00020000;
         printf("NOTE: Current restriction set to Layout/Mirrored\n");
         }
-    else if( _wcsnicmp( gInput.iToken, L"LANG=", 5 ) == 0 )
+    else if( sd_wcsncasecmp( gInput.iToken, L"LANG=", 5 ) == 0 )
         {
         int language = (CSDCInput::ConvertToNumber( gInput.iToken+5 ))&0xffff;
         printf("NOTE: Current restriction set to Language/langcode:%d\n", language);
         iData->iCurrentRestriction = language|0x00030000;
         iData->iLanguageVector.push_back(language|0x00030000);
         }
-    else if( _wcsicmp( gInput.iToken, L"NONE" ) == 0 )
+    else if( sd_wcscasecmp( gInput.iToken, L"NONE" ) == 0 )
         {
         iData->iCurrentRestriction = 0;
         printf("NOTE: Current restriction cleared\n");
@@ -1072,7 +1073,7 @@ void CSDCReader::ParseRestriction()
 TSDCIID CSDCReader::ParseBitmapSource( const bool aAppIcon, const int aRestriction, const bool aSvgAnim )
     {
     int restriction( iData->iCurrentRestriction );
-    if( _wcsnicmp( gInput.iToken, L"IID=", 4 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"IID=", 4 ) == 0 )
         {
         wchar_t iidBuf[512];
         wcscpy( iidBuf, gInput.iToken+4 );
@@ -1154,7 +1155,7 @@ TSDCIID CSDCReader::ParseBitmapSource( const bool aAppIcon, const int aRestricti
 
     while( gInput.NextToken() )
         {
-        if( _wcsnicmp( gInput.iToken, L"MASK=", 5 ) == 0 )
+        if( sd_wcsncasecmp( gInput.iToken, L"MASK=", 5 ) == 0 )
             {
             if( svg ) throw CSDCException( ESDCParseError, "SVG icon can not have a named mask" );
             if( mbmEntry->iMaskColorDepth!=ESDCColorDepthNone )
@@ -1169,7 +1170,7 @@ TSDCIID CSDCReader::ParseBitmapSource( const bool aAppIcon, const int aRestricti
                 }
             maskIndex = mbmIndex+1;
             }
-        else if( _wcsnicmp( gInput.iToken, L"SOFTMASK=", 9 ) == 0 )
+        else if( sd_wcsncasecmp( gInput.iToken, L"SOFTMASK=", 9 ) == 0 )
             {
             if( svg ) throw CSDCException( ESDCParseError, "SVG icon can not have a named mask" );
             if( mbmEntry->iMaskColorDepth!=ESDCColorDepthNone )
@@ -1184,13 +1185,13 @@ TSDCIID CSDCReader::ParseBitmapSource( const bool aAppIcon, const int aRestricti
                 }
             maskIndex = mbmIndex+1;
             }
-        else if( _wcsicmp( gInput.iToken, L"MASK" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"MASK" ) == 0 )
             {
             if( !svg ) throw CSDCException( ESDCParseError, "Non-SVG icon can not have an unnamed mask" );
             mbmEntry->iMaskColorDepth = ESDCColorDepth1;
             maskIndex = mbmIndex+1;
             }
-        else if( _wcsicmp( gInput.iToken, L"SOFTMASK" ) == 0 )
+        else if( sd_wcscasecmp( gInput.iToken, L"SOFTMASK" ) == 0 )
             {
             if( !svg ) throw CSDCException( ESDCParseError, "Non-SVG icon can not have an unnamed mask" );
             mbmEntry->iMaskColorDepth = ESDCColorDepth8;
@@ -1216,7 +1217,7 @@ void CSDCReader::ProcessAttribute( TSDCImageAttributes& aAttributes, wchar_t* aS
     wchar_t buf[512];
     wcscpy( buf, aSource );
 
-    if( _wcsnicmp( buf, L"COORDS=", 7 ) == 0 )
+    if( sd_wcsncasecmp( buf, L"COORDS=", 7 ) == 0 )
         {
         wchar_t* p = wcsstr( buf, L"," );
         if( !p ) throw CSDCException( ESDCParseError, "No comma in image attribute COORDS" );
@@ -1225,7 +1226,7 @@ void CSDCReader::ProcessAttribute( TSDCImageAttributes& aAttributes, wchar_t* aS
         aAttributes.iCoordX = gInput.ConvertToNumber( buf+7 );
         aAttributes.iCoordY = gInput.ConvertToNumber( p+1 );
         }
-    else if( _wcsnicmp( buf, L"SIZE=", 5 ) == 0 )
+    else if( sd_wcsncasecmp( buf, L"SIZE=", 5 ) == 0 )
         {
         wchar_t* p = wcsstr( buf, L"," );
         if( !p ) throw CSDCException( ESDCParseError, "No comma in image attribute SIZE" );
@@ -1234,33 +1235,33 @@ void CSDCReader::ProcessAttribute( TSDCImageAttributes& aAttributes, wchar_t* aS
         aAttributes.iSizeW = gInput.ConvertToNumber( buf+5 );
         aAttributes.iSizeH  = gInput.ConvertToNumber( p+1 );
         }
-    else if( _wcsicmp( buf, L"STRETCH" ) == 0 )
+    else if( sd_wcscasecmp( buf, L"STRETCH" ) == 0 )
         {
         aAttributes.iAttributeFlags |= ESDCImageAttributeStretch;
         }
-    else if( _wcsicmp( buf, L"TILE" ) == 0 )
+    else if( sd_wcscasecmp( buf, L"TILE" ) == 0 )
         {
         aAttributes.iAttributeFlags |= ESDCImageAttributeTile;
         }
-    else if( _wcsicmp( buf, L"TILEX" ) == 0 )
+    else if( sd_wcscasecmp( buf, L"TILEX" ) == 0 )
         {
         aAttributes.iAttributeFlags |= ESDCImageAttributeTileX;
         }
-    else if( _wcsicmp( buf, L"TILEY" ) == 0 )
+    else if( sd_wcscasecmp( buf, L"TILEY" ) == 0 )
         {
         aAttributes.iAttributeFlags |= ESDCImageAttributeTileY;
         }
-    else if( _wcsnicmp( buf, L"ALIGN=", 6 ) == 0 )
+    else if( sd_wcsncasecmp( buf, L"ALIGN=", 6 ) == 0 )
         {
-        if( _wcsicmp( buf+6, L"TL" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignTL;
-        else if( _wcsicmp( buf+6, L"TC" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignTC;
-        else if( _wcsicmp( buf+6, L"TR" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignTR;
-        else if( _wcsicmp( buf+6, L"CL" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignCL;
-        else if( _wcsicmp( buf+6, L"CC" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignCC;
-        else if( _wcsicmp( buf+6, L"CR" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignCR;
-        else if( _wcsicmp( buf+6, L"BL" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignBL;
-        else if( _wcsicmp( buf+6, L"BC" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignBC;
-        else if( _wcsicmp( buf+6, L"BR" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignBR;
+        if( sd_wcscasecmp( buf+6, L"TL" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignTL;
+        else if( sd_wcscasecmp( buf+6, L"TC" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignTC;
+        else if( sd_wcscasecmp( buf+6, L"TR" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignTR;
+        else if( sd_wcscasecmp( buf+6, L"CL" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignCL;
+        else if( sd_wcscasecmp( buf+6, L"CC" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignCC;
+        else if( sd_wcscasecmp( buf+6, L"CR" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignCR;
+        else if( sd_wcscasecmp( buf+6, L"BL" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignBL;
+        else if( sd_wcscasecmp( buf+6, L"BC" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignBC;
+        else if( sd_wcscasecmp( buf+6, L"BR" ) == 0 ) aAttributes.iAlignmentFlags = ESDCImageAlignBR;
         else throw CSDCException( ESDCParseError, "Unknown parameter for image attribute ALIGN" );
 
         aAttributes.iAttributeFlags |= ESDCImageAttributeAlign;
@@ -1271,7 +1272,7 @@ void CSDCReader::ProcessAttribute( TSDCImageAttributes& aAttributes, wchar_t* aS
 void CSDCReader::ParseEffectCommand( TSDCEffectCommand& aCommand )
     {
     gInput.NextToken();
-    if( _wcsnicmp( gInput.iToken, L"UID=", 4 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"UID=", 4 ) == 0 )
         {
         aCommand.iUid = CSDCInput::ConvertToNumber( gInput.iToken+4 );
         }
@@ -1281,7 +1282,7 @@ void CSDCReader::ParseEffectCommand( TSDCEffectCommand& aCommand )
         }
 
     gInput.NextToken();
-    if( _wcsnicmp( gInput.iToken, L"INPUTA=", 7 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"INPUTA=", 7 ) == 0 )
         {
         aCommand.iInputA = CSDCInput::ConvertToLayer( gInput.iToken+7 );
         }
@@ -1291,7 +1292,7 @@ void CSDCReader::ParseEffectCommand( TSDCEffectCommand& aCommand )
         }
 
     gInput.NextToken();
-    if( _wcsnicmp( gInput.iToken, L"INPUTB=", 7 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"INPUTB=", 7 ) == 0 )
         {
         aCommand.iInputB = CSDCInput::ConvertToLayer( gInput.iToken+7 );
         }
@@ -1301,7 +1302,7 @@ void CSDCReader::ParseEffectCommand( TSDCEffectCommand& aCommand )
         }
 
     gInput.NextToken();
-    if( _wcsnicmp( gInput.iToken, L"OUTPUT=", 7 ) == 0 )
+    if( sd_wcsncasecmp( gInput.iToken, L"OUTPUT=", 7 ) == 0 )
         {
         aCommand.iOutput = CSDCInput::ConvertToLayer( gInput.iToken+7 );
         }
@@ -1312,7 +1313,7 @@ void CSDCReader::ParseEffectCommand( TSDCEffectCommand& aCommand )
 
     while( gInput.NextTokenAllowLF() )
         {
-        if( _wcsicmp( gInput.iToken, L"END" ) == 0)
+        if( sd_wcscasecmp( gInput.iToken, L"END" ) == 0)
             {
             // Just return, everything should be in the struct by now
             return;
@@ -1330,23 +1331,23 @@ void CSDCReader::ParseEffectCommand( TSDCEffectCommand& aCommand )
 
 void CSDCReader::ParseEffectParameter( TSDCEffectParameter& aParameter )
     {
-    if( _wcsicmp( gInput.iToken, L"INT" ) == 0)
+    if( sd_wcscasecmp( gInput.iToken, L"INT" ) == 0)
         {
         aParameter.iType = 0;
         }
-    else if( _wcsicmp( gInput.iToken, L"STR" ) == 0)
+    else if( sd_wcscasecmp( gInput.iToken, L"STR" ) == 0)
         {
         aParameter.iType = 1;
         }
-    else if( _wcsicmp( gInput.iToken, L"BMP" ) == 0)
+    else if( sd_wcscasecmp( gInput.iToken, L"BMP" ) == 0)
         {
         aParameter.iType = 2;
         }
-    else if( _wcsicmp( gInput.iToken, L"NAMEDREF" ) == 0)
+    else if( sd_wcscasecmp( gInput.iToken, L"NAMEDREF" ) == 0)
         {
         aParameter.iType = 3;
         }
-    else if( _wcsicmp( gInput.iToken, L"RAW" ) == 0)
+    else if( sd_wcscasecmp( gInput.iToken, L"RAW" ) == 0)
         {
         aParameter.iType = 4;
         }
@@ -1384,7 +1385,7 @@ void CSDCReader::ParseEffectParameter( TSDCEffectParameter& aParameter )
         aParameter.iMaskIndex = -1;
         if( gInput.NextToken() )
             {
-            if( _wcsnicmp( gInput.iToken, L"MASK=", 5 ) == 0 )
+            if( sd_wcsncasecmp( gInput.iToken, L"MASK=", 5 ) == 0 )
                 {
                 if( svg ) throw CSDCException( ESDCParseError, "SVG icon can not have a named mask" );
                 if( mbmEntry->iMaskColorDepth!=ESDCColorDepthNone )
@@ -1399,7 +1400,7 @@ void CSDCReader::ParseEffectParameter( TSDCEffectParameter& aParameter )
                     }
                 aParameter.iMaskIndex = aParameter.iBmpIndex+1;
                 }
-            else if( _wcsnicmp( gInput.iToken, L"SOFTMASK=", 9 ) == 0 )
+            else if( sd_wcsncasecmp( gInput.iToken, L"SOFTMASK=", 9 ) == 0 )
                 {
                 if( svg ) throw CSDCException( ESDCParseError, "SVG icon can not have a named mask" );
                 if( mbmEntry->iMaskColorDepth!=ESDCColorDepthNone )
@@ -1414,13 +1415,13 @@ void CSDCReader::ParseEffectParameter( TSDCEffectParameter& aParameter )
                     }
                 aParameter.iMaskIndex = aParameter.iBmpIndex+1;
                 }
-            else if( _wcsicmp( gInput.iToken, L"MASK" ) == 0 )
+            else if( sd_wcscasecmp( gInput.iToken, L"MASK" ) == 0 )
                 {
                 if( !svg ) throw CSDCException( ESDCParseError, "Non-SVG icon can not have an unnamed mask" );
                 mbmEntry->iMaskColorDepth = ESDCColorDepth1;
                 aParameter.iMaskIndex = aParameter.iBmpIndex+1;
                 }
-            else if( _wcsicmp( gInput.iToken, L"SOFTMASK" ) == 0 )
+            else if( sd_wcscasecmp( gInput.iToken, L"SOFTMASK" ) == 0 )
                 {
                 if( !svg ) throw CSDCException( ESDCParseError, "Non-SVG icon can not have an unnamed mask" );
                 mbmEntry->iMaskColorDepth = ESDCColorDepth8;
@@ -1435,7 +1436,7 @@ void CSDCReader::ParseEffectParameter( TSDCEffectParameter& aParameter )
     else if( aParameter.iType == 3 )
         {
         gInput.NextToken();
-        if( _wcsnicmp( gInput.iToken, L"VALUEID=", 8 ) == 0 )
+        if( sd_wcsncasecmp( gInput.iToken, L"VALUEID=", 8 ) == 0 )
             {
             aParameter.iNumber = CSDCInput::ConvertToNumber( gInput.iToken+8 );
             }
@@ -1495,39 +1496,39 @@ void CSDCReader::StripIIDPrefix( wchar_t* aIID, int& aRestriction )
     wcscpy( buf, delimiter+1 );
 
     *delimiter = 0;
-    if( _wcsicmp( aIID, L"S60_2_6" ) == 0 )
+    if( sd_wcscasecmp( aIID, L"S60_2_6" ) == 0 )
         {
         aRestriction = 0x0206;
         }
-    else if( _wcsicmp( aIID, L"S60_2_7" ) == 0 )
+    else if( sd_wcscasecmp( aIID, L"S60_2_7" ) == 0 )
         {
         aRestriction = 0x0207;
         }
-    else if( _wcsicmp( aIID, L"S60_2_8" ) == 0 )
+    else if( sd_wcscasecmp( aIID, L"S60_2_8" ) == 0 )
         {
         aRestriction = 0x0208;
         }
-    else if( _wcsicmp( aIID, L"S60_3_0" ) == 0 )
+    else if( sd_wcscasecmp( aIID, L"S60_3_0" ) == 0 )
         {
         aRestriction = 0x0300;
         }
-    else if( _wcsicmp( aIID, L"S60_3_1" ) == 0 )
+    else if( sd_wcscasecmp( aIID, L"S60_3_1" ) == 0 )
         {
         aRestriction = 0x0301;
         }
-    else if( _wcsicmp( aIID, L"S60_3_2" ) == 0 )
+    else if( sd_wcscasecmp( aIID, L"S60_3_2" ) == 0 )
         {
         aRestriction = 0x0302;
         }
-    else if( _wcsicmp( aIID, L"S60_5_0" ) == 0 )
+    else if( sd_wcscasecmp( aIID, L"S60_5_0" ) == 0 )
         {
         aRestriction = 0x0500;
         }
-    else if( _wcsicmp( aIID, L"LAY_W" ) == 0 )
+    else if( sd_wcscasecmp( aIID, L"LAY_W" ) == 0 )
         {
         aRestriction = 0x00010000;
         }
-    else if( _wcsicmp( aIID, L"LAY_AH" ) == 0 )
+    else if( sd_wcscasecmp( aIID, L"LAY_AH" ) == 0 )
         {
         aRestriction = 0x00020000;
         }

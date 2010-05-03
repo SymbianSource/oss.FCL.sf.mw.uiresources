@@ -15,12 +15,17 @@
 *
 */
 
-#include <windows.h>
+#include <wchar.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <cstdlib>
+#include <string>
 
 #include "SDCGlobals.h"
 #include "SDCBinOutput.h"
 #include "AknsConstants.hrh"
 #include "SDCException.h"
+#include "SDCCompat.h"
 
 // Make std namespace available for compatibility
 namespace std {}
@@ -81,11 +86,11 @@ void CSDCBinOutput::Output( CSDCData* aData, const char* aBaseName, const char* 
 
     PrepareSkinDescriptor( aStubOnly );
 
-    if( iOutputPos != iOutputVector.size() ) throw CSDCException( ESDCUnknownError, "Internal binary output size does not match" );
+    if( iOutputPos != static_cast<int>( iOutputVector.size() ) ) throw CSDCException( ESDCUnknownError, "Internal binary output size does not match" );
 
     FILE* file = fopen( aBinFilename, "wb" );
     if( !file ) throw CSDCException( ESDCFileOpenError, "Can not open target binary file for writing" );
-    int i;
+    unsigned int i;
     for( i=0; i<iOutputVector.size(); i++ )
         {
         fputc( iOutputVector[i], file );
@@ -141,7 +146,7 @@ void CSDCBinOutput::PrepareSkinDescriptor( const bool aStubOnly )
     PrepareInformation();
     chunksN++;
 
-    int i;
+    unsigned int i;
 
     for( i=0; i<iData->iTargetDeviceVector.size(); i++ )
         {
@@ -234,7 +239,7 @@ void CSDCBinOutput::PrepareSkinDescriptor( const bool aStubOnly )
         PrepareEncapsulatedNormalClass( 0x00020000 );
         chunksN++;
 
-        for (int count = 0;count < iData->iLanguageVector.size(); count++)
+        for (unsigned int count = 0;count < iData->iLanguageVector.size(); count++)
             {
             // Language
             PrepareEncapsulatedNormalClass( iData->iLanguageVector[count] );
@@ -266,7 +271,7 @@ void CSDCBinOutput::PrepareTargetDevice( const wchar_t* aDeviceName )
     AppendBytes( 1*2 );
     WriteUint16( wcslen( aDeviceName ) );
 
-    for( int i=0; i<wcslen( aDeviceName ); i++ )
+    for( unsigned int i=0; i<wcslen( aDeviceName ); i++ )
         {
         AppendBytes( 2 );
         WriteUint16( aDeviceName[i] );
@@ -293,7 +298,7 @@ void CSDCBinOutput::PrepareName( const short int aLanguage, const wchar_t* aName
     WriteInt16( aLanguage );
     WriteUint16( wcslen( aName ) );
 
-    for( int i=0; i<wcslen( aName ); i++ )
+    for( unsigned int i=0; i<wcslen( aName ); i++ )
         {
         AppendBytes( 2 );
         WriteUint16( aName[i] );
@@ -310,7 +315,7 @@ void CSDCBinOutput::PrepareName( const short int aLanguage, const wchar_t* aName
 void CSDCBinOutput::PrepareInformation()
     {
     TPos startPos( this );
-    int i;
+    unsigned int i;
 
     AppendBytes( 1*4 + 2*2 );
     WriteUint( 0 );             // Length
@@ -318,12 +323,19 @@ void CSDCBinOutput::PrepareInformation()
     WriteUint16( 2 );           // Version
 
     AppendBytes( 2*4 );
-    SYSTEMTIME sysTime;
-    GetSystemTime( &sysTime );
-    FILETIME fileTime;
-    SystemTimeToFileTime( &sysTime, &fileTime );
-    WriteInt( fileTime.dwHighDateTime );
-    WriteInt( fileTime.dwLowDateTime );
+
+	struct timeval sysTime;
+	gettimeofday( &sysTime, NULL);
+	// 100-nanosecond
+	unsigned long long currentTime;
+	// get the 100-nanosecond number at time of UTC
+	currentTime = ( sysTime.tv_usec + mktime(gmtime(&sysTime.tv_sec)) * SEC_TO_USEC ) * USEC_TO_100NANOSEC;
+
+	unsigned int highPart = static_cast<unsigned int>((currentTime >> 32) );
+	unsigned int lowPart = static_cast<unsigned int>( currentTime );
+
+    WriteInt( highPart );
+    WriteInt( lowPart );
 
     AppendBytes( 2*4 );
     WriteInt( (gVersionMajor<<16) | gVersionMinor );
@@ -404,7 +416,7 @@ void CSDCBinOutput::PrepareWallpaper( const unsigned char aWpType, const TSDCBit
     WriteByte( aWpType );
     WriteUint16( strlen( buf ) );
 
-    for( int i=0; i<strlen( buf ); i++ )
+    for( unsigned int i=0; i<strlen( buf ); i++ )
         {
         AppendBytes( 2 );
         WriteUint16( (short int)buf[i] );
@@ -434,7 +446,7 @@ void CSDCBinOutput::PrepareFilename( const int aId, const char* aFilename )
     WriteInt( aId );
     WriteUint16( strlen( aFilename ) );
 
-    for( int i=0; i<strlen( aFilename ); i++ )
+    for( unsigned int i=0; i<strlen( aFilename ); i++ )
         {
         AppendBytes( 2 );
         WriteUint16( (short int)aFilename[i] );
@@ -535,7 +547,7 @@ void CSDCBinOutput::PrepareNormalClass( const int aRestriction )
     TPos chunksNPos( this );
     WriteInt( 0 );              // ChunksN
 
-    int i;
+    unsigned int i;
     for( i=0; i<iData->iBitmapDefVector.size(); i++ )
         {
         if( iData->iBitmapDefVector[i]->iRestriction != aRestriction ) continue;
@@ -650,7 +662,7 @@ void CSDCBinOutput::PrepareAppIconClass()
     TPos chunksNPos( this );
     WriteInt( 0 );              // ChunksN
 
-    int i;
+    unsigned int i;
     for( i=0; i<iData->iBitmapDefVector.size(); i++ )
         {
         if( iData->iBitmapDefVector[i]->iAppIconBitmap == true )
@@ -736,7 +748,7 @@ void CSDCBinOutput::PrepareColorTable( const TSDCColorTableDef* aColorTableDef )
     WriteInt( aColorTableDef->iIID.iMinor );
     WriteByte( aColorTableDef->iColors.size() );
 
-    for( int i=0; i<aColorTableDef->iColors.size(); i++ )
+    for( unsigned int i=0; i<aColorTableDef->iColors.size(); i++ )
         {
         AppendBytes( 1*2 + 1*4 );
         WriteInt16( (short int)aColorTableDef->iColors[i].iIndex );
@@ -780,7 +792,7 @@ void CSDCBinOutput::PrepareBmpAnim( const TSDCBmpAnimDef* aBmpAnimDef, const TSD
     WriteByte( (unsigned char)aBmpAnimDef->iFlash );
     WriteByte( (unsigned char)aBmpAnimDef->iFrames.size() );
 
-    for( int i=0; i<aBmpAnimDef->iFrames.size(); i++ )
+    for( unsigned int i=0; i<aBmpAnimDef->iFrames.size(); i++ )
         {
         AppendBytes( 2*4 + 3*2 );
         WriteInt( aBmpAnimDef->iFrames[i].iIID.iMajor );
@@ -814,7 +826,7 @@ void CSDCBinOutput::PrepareString( const TSDCStringDef* aStringDef )
     WriteInt( aStringDef->iIID.iMinor );
     WriteUint16( wcslen( aStringDef->iString ) );
 
-    for( int i=0; i<wcslen( aStringDef->iString ); i++ )
+    for( unsigned int i=0; i<wcslen( aStringDef->iString ); i++ )
         {
         AppendBytes( 2 );
         WriteUint16( aStringDef->iString[i] );
@@ -859,7 +871,7 @@ void CSDCBinOutput::PrepareScalableItem( const TSDCScalableItemDef* aItemDef )
     AppendBytes( 1*2 );
     WriteUint16( aItemDef->iCommands.size() );
 
-    for( int i=0; i<aItemDef->iCommands.size(); i++ )
+    for( unsigned int i=0; i<aItemDef->iCommands.size(); i++ )
         {
         PrepareEffectCommand( aItemDef->iCommands[i] );
         }
@@ -911,7 +923,7 @@ void CSDCBinOutput::PrepareAnimation( const TSDCAnimationDef* aItemDef )
 
     AppendBytes( 1*2 );
     WriteUint16( aItemDef->iPreprocessCommands.size() );
-    int i;
+    unsigned int i;
     for( i=0; i<aItemDef->iPreprocessCommands.size(); i++ )
         {
         PrepareEffectCommand( aItemDef->iPreprocessCommands[i] );
@@ -967,7 +979,7 @@ void CSDCBinOutput::PrepareImageTable( const TSDCIID& aIID, const vector<TSDCIID
     WriteInt( aIID.iMinor );
     WriteByte( (unsigned char)aImages.size() );
 
-    for( int i=0; i<aImages.size(); i++ )
+    for( unsigned int i=0; i<aImages.size(); i++ )
         {
         AppendBytes( 2*4 );
         WriteInt( aImages[i].iMajor );
@@ -1015,7 +1027,7 @@ void CSDCBinOutput::PrepareAttributes( const TSDCImageAttributes& aAttributes )
 
 void CSDCBinOutput::PrepareParamVector( const vector<TSDCEffectParameter>& aParameters )
     {
-    for( int i=0; i<aParameters.size(); i++ )
+    for( unsigned int i=0; i<aParameters.size(); i++ )
         {
         int type = aParameters[i].iType;
 
@@ -1048,7 +1060,7 @@ void CSDCBinOutput::PrepareParamVector( const vector<TSDCEffectParameter>& aPara
         AppendBytes( 1*2 );
         WriteUint16( wcslen(aParameters[i].iName) ); // ParamNameLen
 
-        for( int b=0; b<wcslen(aParameters[i].iName); b++ )
+        for( unsigned int b=0; b<wcslen(aParameters[i].iName); b++ )
             {
             AppendBytes( 1*2 );
             WriteUint16( aParameters[i].iName[b] );
@@ -1064,7 +1076,7 @@ void CSDCBinOutput::PrepareParamVector( const vector<TSDCEffectParameter>& aPara
             AppendBytes( 1*2 );
             WriteUint16( wcslen(aParameters[i].iString) );
 
-            for( int a=0; a<wcslen(aParameters[i].iString); a++ )
+            for( unsigned int a=0; a<wcslen(aParameters[i].iString); a++ )
                 {
                 AppendBytes( 1*2 );
                 WriteUint16( aParameters[i].iString[a] );

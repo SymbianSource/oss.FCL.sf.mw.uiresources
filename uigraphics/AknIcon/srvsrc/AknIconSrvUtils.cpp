@@ -53,7 +53,7 @@ TPtrC8 AknIconSrvUtils::InitIconDataAndHandlerLC(
     TInt type = aLoader->IconTypeL( aParams.iBitmapId );
     
 #ifdef _NGATESTING        
-    type = aLoader->GetDerivedIconTypeL(type, aParams.iFileName);
+    type = aLoader->GetDerivedIconTypeL(type);
 #endif
     
     // Check if handler is already present, if so then return with same pointer
@@ -91,7 +91,9 @@ TPtrC8 AknIconSrvUtils::InitIconDataAndHandlerLC(
         }
 
     TInt type = aLoader->IconTypeL( aIconId );
-
+#ifdef _NGATESTING        
+    type = aLoader->GetDerivedIconTypeL(type);
+#endif
     if ( !aHandler )
         {
         aHandler = AknIconFormatHandlerFactory::NewIconFormatHandlerL( type );

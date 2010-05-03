@@ -18,11 +18,13 @@
 
 #include <string.h>
 #include <sys/stat.h>
+#include <wchar.h>
 
 #include "SDCGlobals.h"
 #include "SDCData.h"
 #include "SDCException.h"
 #include "SDCInput.h"
+#include "SDCCompat.h"
 
 // Make std namespace available for compatibility
 namespace std {}
@@ -126,7 +128,7 @@ bool CSDCData::IsScalable()
 
 bool CSDCData::IsDefined( const TSDCIID aIID )
     {
-    int i;
+    unsigned int i;
     for( i=0; i<iBitmapDefVector.size(); i++ )
         {
         TSDCBitmapDef* entry = iBitmapDefVector[i];
@@ -172,7 +174,7 @@ bool CSDCData::IsDefined( const TSDCIID aIID )
 
 bool CSDCData::IsDefined( const TSDCIID aIID, const int aRestriction )
     {
-    int i;
+    unsigned int i;
     for( i=0; i<iBitmapDefVector.size(); i++ )
         {
         TSDCBitmapDef* entry = iBitmapDefVector[i];
@@ -218,7 +220,7 @@ bool CSDCData::IsDefined( const TSDCIID aIID, const int aRestriction )
 
 void CSDCData::AppendNameEntry( const int aLanguageID, const wchar_t* aName )
     {
-    for( int i=0; i<iNameVector.size(); i++ )
+    for( unsigned int i=0; i<iNameVector.size(); i++ )
         {
         TSDCNameEntry* entry = iNameVector[i];
         if( entry->iLanguageID == aLanguageID ) throw CSDCException( ESDCContentError, "Name for the language ID has already been specified" );
@@ -244,12 +246,12 @@ bool CSDCData::HasMbmEntry( const TSDCColorDepth aColorDepth, const wchar_t* aFi
 
 TSDCMBMEntry* CSDCData::FindMbmEntry( const TSDCColorDepth aColorDepth, const wchar_t* aFilename )
     {
-    for( int i=0; i<iMbmVector.size(); i++ )
+    for( unsigned int i=0; i<iMbmVector.size(); i++ )
         {
         TSDCMBMEntry* entry = iMbmVector[i];
-        if( (_wcsicmp(entry->iSourcePath,iBmpPath)==0) &&
+        if( (sd_wcscasecmp(entry->iSourcePath,iBmpPath)==0) &&
             (entry->iColorDepth==aColorDepth) &&
-            (_wcsicmp(entry->iSourceFilename,aFilename)==0) ) return entry;
+            (sd_wcscasecmp(entry->iSourceFilename,aFilename)==0) ) return entry;
         }
     return NULL;
     }
@@ -323,7 +325,7 @@ void CSDCData::CreateBitmapDef( const TSDCIID aIID, const int aIndex, const int 
 
 TSDCBitmapDef* CSDCData::GetBitmapDef( const TSDCIID aIID )
     {
-    for( int i=0; i<iBitmapDefVector.size(); i++ )
+    for( unsigned int i=0; i<iBitmapDefVector.size(); i++ )
         {
         TSDCBitmapDef* entry = iBitmapDefVector[i];
         if( (entry->iIID.iMajor==aIID.iMajor) && (entry->iIID.iMinor==aIID.iMinor) ) return entry;
@@ -450,8 +452,8 @@ bool CSDCData::CheckFile( const wchar_t* aPath , const wchar_t* aFileName )
 		
 		strcat(asciiPatch,asciiFileName);
 
-    struct _stat buf;
-    int result = _stat( asciiPatch, &buf );
+    struct stat buf;
+    int result = stat( asciiPatch, &buf );
     if(result == -1)
 		    {
 		    return false;
