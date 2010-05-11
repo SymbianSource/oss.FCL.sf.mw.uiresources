@@ -742,6 +742,7 @@ TInt CAknIconServer::RetrieveIcon( const TAknIconParams& aInfo )
 CAknIconSrvIconItem* CAknIconServer::CreateIconL(
     const TAknIconParams& aInfo )
     {
+    const TInt KMaxIconDataLimit = 0xFA000;
     CFbsBitmap* bitmap = new (ELeave) CFbsBitmap;
     CleanupStack::PushL( bitmap );
 
@@ -765,6 +766,11 @@ CAknIconSrvIconItem* CAknIconServer::CreateIconL(
 
     TPtrC8 iconData = InitIconDataAndHandlerLC(aInfo, loader, handler);        
 
+    if(iconData.Size()>KMaxIconDataLimit)
+        {
+        User::Leave(KErrTooBig);
+        }
+    
     bitmapDepth = (TDisplayMode)loader->IconDepthL( aInfo.iBitmapId );    
 
     handler->PrepareIconL( iconData, handle );

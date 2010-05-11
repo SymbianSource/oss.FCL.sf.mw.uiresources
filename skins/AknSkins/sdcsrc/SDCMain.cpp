@@ -92,7 +92,7 @@ void AppendBackslash( char* aBuf )
     {
     if( strlen( aBuf ) > 0 )
         {
-        if( aBuf[ strlen(aBuf)-1 ] != '\\' ) strcat( aBuf, "\\" );
+        if( aBuf[ strlen(aBuf)-1 ] != '/' ) strcat( aBuf, "/" );
         }
     }
 
@@ -259,7 +259,7 @@ int main( int argc, char** argv )
         printf("  Opening source file %s ...\n", sourceFile );
         gInput.Open( sourceFile );
         printf("  Parsing file ...\n");
-        data->SetBmpPath( L".\\" );
+        data->SetBmpPath( L"./" );
         CSDCReader reader( data );
         reader.Parse();
         printf("  Completed.\n");

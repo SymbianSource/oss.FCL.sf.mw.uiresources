@@ -14310,6 +14310,9 @@ inline TAknWindowComponentLayout cale_week_scroll_pane_g16(TInt aVariety, TInt a
 // LAF Table : main_vorec_pane
 inline TAknWindowComponentLayout vorec_slider_pane(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tvorec_slider_pane_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_vorec_slider_pane)))(aVariety, aCol, aRow); }
 
+// LAF Table : vidtel_button_pane
+inline TAknLayoutScalableParameterLimits vidtel_button_pane_t1_ParamLimits(TInt aVariety)		{ return (*(Tvidtel_button_pane_t1_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_vidtel_button_pane_t1_ParamLimits)))(aVariety); }
+
 #ifdef __VC32__
 #pragma component(mintypeinfo, on)
 #endif
@@ -28597,6 +28600,9 @@ public:
 
 	// LAF Table : main_vorec_pane
 	inline TAknWindowComponentLayout vorec_slider_pane(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tvorec_slider_pane_sig*)(GetFunction(EApiId_vorec_slider_pane)))(aVariety, aCol, aRow); }
+
+	// LAF Table : vidtel_button_pane
+	inline TAknLayoutScalableParameterLimits vidtel_button_pane_t1_ParamLimits(TInt aVariety) const		{ return (*(Tvidtel_button_pane_t1_ParamLimits_sig*)(GetFunction(EApiId_vidtel_button_pane_t1_ParamLimits)))(aVariety); }
 
 private:
 	CInstance();

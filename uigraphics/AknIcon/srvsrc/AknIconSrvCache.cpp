@@ -24,7 +24,7 @@
 #include <barsc.h>
 // Skin server client
 #include <AknsSrvClient.h>
-#include <AknIconSrv.rsg>
+#include <akniconsrv.rsg>
 #include <mifconvdefs.h>
 #include <mifconvdefs.h>
 

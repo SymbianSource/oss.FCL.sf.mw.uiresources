@@ -112,7 +112,7 @@ $(AKNSDATAGENDIR)/$(AKNSSKINREALNAME).skn : $(SKINCOMPILER) $(AKNSSRCDIR)/$(AKNS
 	$(call endrule,generateskn)
 
 #Add the temporary files to the cleanlist
-CLEANTARGETS:=$$(CLEANTARGETS) $(addprefix $(AKNSDATAGENDIR)/,$(addprefix $(AKNSSKINREALNAME),.skn .pkg _MIFlist.txt))
+CLEANTARGETS:=$$(CLEANTARGETS) $(addprefix $(AKNSDATAGENDIR)/,$(addprefix $(AKNSSKINREALNAME),.skn .pkg _MIFList.txt))
 
 $(AKNSDATAGENDIR)/$(AKNSSKINREALNAME).mif : $(MIFTOOL) $(AKNSDATAGENDIR)/$(AKNSSKINREALNAME).skn
 	$(call startrule,generatemif,FORCESUCCESS)\

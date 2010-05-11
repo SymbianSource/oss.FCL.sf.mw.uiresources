@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2010-04-12 19:36:36.027" LayoutName="pnl4_av_nhd4_lsc_tch" LayoutSetId="269" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.9220666716318745" MasterName="m_avk_tch_92n_bsk" ppi="229.0" ppiUnit="Inches" resolutionHeight="360" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
+<Layout createdOn="2010-04-19 10:38:57.08" LayoutName="pnl4_av_nhd4_lsc_tch" LayoutSetId="280" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.09312171444836848" MasterName="m_avk_tch_92n4" ppi="229.0" ppiUnit="Inches" resolutionHeight="360" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
     <Component drawingorder="3" id="0.005041552600666077" maxVariety="0" mirror="true" name="text_secondary" type="Text"/>
     <Component drawingorder="1" id="0.112689209815522" maxVariety="0" mirror="true" name="text_primary" type="Text"/>
     <Component drawingorder="0" id="0.3077307233172313" maxVariety="0" mirror="true" name="text_title" type="Text"/>
@@ -2732,12 +2732,12 @@
     <Component drawingorder="1" id="5978" maxVariety="0" mirror="false" name="fshwr2_icf_pane_t1" type="Text"/>
     <Component drawingorder="0" id="5980" maxVariety="0" mirror="false" name="fshwr2_icf_bg_pane" type="Pane"/>
     <Component drawingorder="0" id="5981" maxVariety="0" mirror="false" name="bg_popup_call_pane_cp01" type="Pane"/>
-    <Component drawingorder="1" id="5982" maxVariety="1" mirror="false" name="fshwr2_func_candi_row_pane" type="Pane"/>
-    <Component drawingorder="0" id="5983" maxVariety="4" mirror="false" name="fshwr2_func_candi_cell_pane" type="Pane"/>
-    <Component drawingorder="0" id="5984" maxVariety="4" mirror="false" name="fshwr2_func_candi_cell_bg_pane" type="Pane"/>
+    <Component drawingorder="1" id="5982" maxVariety="2" mirror="false" name="fshwr2_func_candi_row_pane" type="Pane"/>
+    <Component drawingorder="0" id="5983" maxVariety="6" mirror="false" name="fshwr2_func_candi_cell_pane" type="Pane"/>
+    <Component drawingorder="0" id="5984" maxVariety="6" mirror="false" name="fshwr2_func_candi_cell_bg_pane" type="Pane"/>
     <Component drawingorder="0" id="5985" maxVariety="0" mirror="false" name="bg_button_pane_cp08" type="Pane"/>
-    <Component drawingorder="1" id="5986" maxVariety="4" mirror="false" name="fshwr2_func_candi_cell_pane_g1" type="Graphic"/>
-    <Component drawingorder="2" id="5987" maxVariety="4" mirror="false" name="fshwr2_func_candi_cell_pane_t1" type="Text"/>
+    <Component drawingorder="1" id="5986" maxVariety="6" mirror="false" name="fshwr2_func_candi_cell_pane_g1" type="Graphic"/>
+    <Component drawingorder="2" id="5987" maxVariety="6" mirror="false" name="fshwr2_func_candi_cell_pane_t1" type="Text"/>
     <Component drawingorder="0" id="5988" maxVariety="0" mirror="false" name="fshwr2_func_candi_pane_g1" type="Graphic"/>
     <Component drawingorder="0" id="5989" maxVariety="0" mirror="false" name="cell_fshwr2_syb_pane" type="Pane"/>
     <Component drawingorder="1" id="5990" maxVariety="1" mirror="false" name="fshwr2_hwr_syb_pane_g1" type="Graphic"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LayoutAttributes createdOn="2010-04-12 19:24:16.866" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.9220666716318745">
+<LayoutAttributes createdOn="2010-04-19 10:18:04.69" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.22372991921917196">
   <attributeset compId="1" name="D">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -5229,29 +5229,6 @@
       <calc value="false"/>
     </attribute>
   </attributeset>
-  <attributeset compId="4305" name="a0">
-    <attribute id="24" name="list type">
-      <calc value="Forced"/>
-    </attribute>
-    <attribute id="25" name="gap">
-      <calc value="0"/>
-    </attribute>
-    <attribute id="46" name="Multi Row">
-      <calc value="true"/>
-    </attribute>
-    <attribute id="47" name="Multi Column">
-      <calc value="false"/>
-    </attribute>
-    <attribute id="48" name="Number of rows">
-      <calc value="5"/>
-    </attribute>
-    <attribute id="50" name="Hz Align">
-      <calc value="left"/>
-    </attribute>
-    <attribute id="51" name="Vt Align">
-      <calc value="top"/>
-    </attribute>
-  </attributeset>
   <attributeset compId="4305" name="D">
     <attribute id="203" name="Height list single list pane">
       <calc value="50"/>
@@ -7974,7 +7951,7 @@
       <calc value="3"/>
     </attribute>
     <attribute id="44" name="Top Margin">
-      <calc value="25"/>
+      <calc value="30"/>
     </attribute>
     <attribute id="46" name="Multi Row">
       <calc value="true"/>
@@ -8009,7 +7986,7 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="3"/>
+      <calc value="auto"/>
     </attribute>
   </attributeset>
   <attributeset compId="5975" name="a0">
@@ -8082,32 +8059,6 @@
     </attribute>
     <attribute id="49" name="Number of columns">
       <calc value="6"/>
-    </attribute>
-  </attributeset>
-  <attributeset compId="5982" name="a2">
-    <attribute id="1" name="MarginLeft">
-      <calc value="0"/>
-    </attribute>
-    <attribute id="2" name="MarginRight">
-      <calc value="0"/>
-    </attribute>
-    <attribute id="24" name="list type">
-      <calc value="Forced"/>
-    </attribute>
-    <attribute id="25" name="gap">
-      <calc value="0"/>
-    </attribute>
-    <attribute id="44" name="Top Margin">
-      <calc value="0"/>
-    </attribute>
-    <attribute id="45" name="Bottom Margin">
-      <calc value="0"/>
-    </attribute>
-    <attribute id="47" name="Multi Column">
-      <calc value="true"/>
-    </attribute>
-    <attribute id="49" name="Number of columns">
-      <calc value="4"/>
     </attribute>
   </attributeset>
   <attributeset compId="5983" name="a0">
@@ -8683,7 +8634,7 @@
       <calc value="3"/>
     </attribute>
     <attribute id="44" name="Top Margin">
-      <calc value="27"/>
+      <calc value="30"/>
     </attribute>
     <attribute id="46" name="Multi Row">
       <calc value="true"/>

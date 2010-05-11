@@ -25,8 +25,8 @@
 #include <stiftestmodule.h>
 #include <testclassassert.h>
 #include <aknfontid.h>
-#include <aknfontprovider.h>
-#include <aknfontprovidersuppliedmetrics.h>
+#include <AknFontProvider.h>
+#include <AknFontProviderSuppliedMetrics.h>
 
 // MACROS
 #define TEST_CLASS_VERSION_MAJOR 0

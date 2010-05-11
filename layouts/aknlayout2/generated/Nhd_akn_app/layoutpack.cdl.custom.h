@@ -22,7 +22,7 @@
 #ifndef LAYOUTPACK_CDL_CUSTOM_H
 #define LAYOUTPACK_CDL_CUSTOM_H
 
-#include <cdlengdef.h>
+#include <CdlEngDef.h>
 #include "layoutpack.cdl.common.h"
 
 namespace LayoutPack

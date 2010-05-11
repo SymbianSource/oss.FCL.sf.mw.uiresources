@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2010-04-12 19:48:25.33" LayoutName="phl_apps_qhd_lsc_tch" LayoutSetId="267" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.6900747253135928" MasterName="m_app_tch_92n_bsk" ppi="229.0" ppiUnit="Inches" resolutionHeight="360" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
+<Layout createdOn="2010-04-19 15:45:38.963" LayoutName="phl_apps_qhd_lsc_tch" LayoutSetId="282" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.835518512136936" MasterName="m_app_tch_92" ppi="229.0" ppiUnit="Inches" resolutionHeight="360" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
     <Component drawingorder="0" id="1" mirror="true" name="Screen" type="Screen"/>
     <Component drawingorder="0" id="2" maxVariety="0" mirror="true" name="application_window" type="Container"/>
     <Component drawingorder="16" id="11" maxVariety="3" mirror="true" name="navi_pane_mv_g2" type="Graphic"/>
@@ -3306,7 +3306,7 @@
     <Component drawingorder="18" id="8051" maxVariety="0" mirror="true" name="popup_vitu2_query_window_g3" type="Graphic"/>
     <Component drawingorder="16" id="8052" maxVariety="1" mirror="true" name="vidtel_button_pane" type="Pane"/>
     <Component drawingorder="0" id="8053" maxVariety="0" mirror="true" name="bg_button_pane_cp034" type="Pane"/>
-    <Component drawingorder="1" id="8054" maxVariety="0" mirror="true" name="vidtel_button_pane_t1" type="Text"/>
+    <Component drawingorder="1" id="8054" maxVariety="1" mirror="true" name="vidtel_button_pane_t1" type="Text"/>
     <Component drawingorder="2" id="8055" maxVariety="0" mirror="true" name="vidtel_button_pane_g1" type="Graphic"/>
     <Component drawingorder="9" id="8056" maxVariety="1" mirror="true" name="scroll_pane_cp039" type="Pane"/>
     <Component drawingorder="9" id="8058" maxVariety="0" mirror="true" name="list_single_recal_day_pane_g7" type="Graphic"/>

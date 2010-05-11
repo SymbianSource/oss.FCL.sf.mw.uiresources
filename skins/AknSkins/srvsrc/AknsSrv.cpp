@@ -1464,13 +1464,13 @@ void CAknsSrv::SetWallpaperL( const TDesC& aFilename,
                 {
                 User::LeaveIfError( err );
                 }
-            }
-        
-        isprotected = AknsSrvUtils::IsDrmProtectedL(aFilename);
-        if (!BaflUtils::FileExists(iFsSession, aFilename))
-            {
-            iSettings->WriteIdleBackgroundToDefault();
-            return;
+            
+            isprotected = AknsSrvUtils::IsDrmProtectedL(aFilename);
+            if (!BaflUtils::FileExists(iFsSession, aFilename))
+                {
+                iSettings->WriteIdleBackgroundToDefault();
+                return;
+                }
             }
         }
     if (isprotected)

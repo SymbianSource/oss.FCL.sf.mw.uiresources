@@ -7058,3 +7058,6 @@
 {L"KAknsIIDQgnPropSwitchStoreUp",  EAknsMajorGeneric, EAknsMinorGenericQgnPropSwitchStoreUp },
 {L"KAknsIIDQgnPropSwitchSynchronise",  EAknsMajorGeneric, EAknsMinorGenericQgnPropSwitchSynchronise },
 {L"KAknsIIDQgnPropSwitchSynchroniseUp",  EAknsMajorGeneric, EAknsMinorGenericQgnPropSwitchSynchroniseUp },
+{L"KAknsIIDQgnMenuShareOnline",  EAknsMajorGeneric, EAknsMinorGenericQgnMenuShareOnline },
+{L"KAknsIIDQgnPropSetCamTab2",  EAknsMajorGeneric, EAknsMinorGenericQgnPropSetCamTab2 },
+{L"KAknsIIDQtgIndiSquareGrid",  EAknsMajorGeneric, EAknsMinorGenericQtgIndiSquareGrid },

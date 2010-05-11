@@ -21,7 +21,7 @@
 #include <stifparser.h>
 #include <stiftestinterface.h>
 #include <aknfontid.h>
-#include <aknfontprovidersuppliedmetrics.h>
+#include <AknFontProviderSuppliedMetrics.h>
 
 #include "testdomextedfonts.h"
 

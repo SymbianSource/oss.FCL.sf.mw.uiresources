@@ -6591,6 +6591,7 @@ struct SCdlImpl6
 	Tcale_week_scroll_pane_g16_ParamLimits_sig* cale_week_scroll_pane_g16_ParamLimits;
 	Tcale_week_scroll_pane_g16_sig* cale_week_scroll_pane_g16;
 	Tvorec_slider_pane_sig* vorec_slider_pane;
+	Tvidtel_button_pane_t1_ParamLimits_sig* vidtel_button_pane_t1_ParamLimits;
 	};
 #ifdef __WINS__
 struct SCdlImpl

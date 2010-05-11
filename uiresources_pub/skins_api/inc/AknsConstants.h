@@ -1593,7 +1593,9 @@ enum TAknsQsnOtherColorsIndex
     // Other #21 Main pane, Coverflow gradient colour. #f0f7f7
     EAknsCIQsnOtherColorsCG21   = 20,
     // Other #22 Email, Email header background. #f2f6f6
-    EAknsCIQsnOtherColorsCG22   = 21
+    EAknsCIQsnOtherColorsCG22   = 21,
+    // Other #23 Wallpaper mask, Homescreen status area mask #e9eef2
+    EAknsCIQsnOtherColorsCG23   = 22
     };
 
 /**
@@ -22119,6 +22121,15 @@ static const TAknsItemID KAknsIIDQgnPropSwitchSynchronise =
 
 static const TAknsItemID KAknsIIDQgnPropSwitchSynchroniseUp =
     { EAknsMajorGeneric, EAknsMinorGenericQgnPropSwitchSynchroniseUp };
+
+static const TAknsItemID KAknsIIDQgnMenuShareOnline =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuShareOnline };
+
+static const TAknsItemID KAknsIIDQgnPropSetCamTab2 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropSetCamTab2 };
+
+static const TAknsItemID KAknsIIDQtgIndiSquareGrid =
+    { EAknsMajorGeneric, EAknsMinorGenericQtgIndiSquareGrid };
 
 // SCMMARKER_INSERTIONPOINT
 

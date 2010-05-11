@@ -7718,8 +7718,11 @@ enum TAknsMinorGenericValue
     EAknsMinorGenericQgnPropSwitchStoreUp = 0x2602,
     EAknsMinorGenericQgnPropSwitchSynchronise = 0x2603,
     EAknsMinorGenericQgnPropSwitchSynchroniseUp = 0x2604,
-    // SCMMARKER_INSERTIONPOINT [9733]
-    EAknsMinorGenericInternalCurrentLastItem = 0x2605
+    EAknsMinorGenericQgnMenuShareOnline = 0x2605,
+    EAknsMinorGenericQgnPropSetCamTab2 = 0x2606,
+    EAknsMinorGenericQtgIndiSquareGrid = 0x2607,
+    // SCMMARKER_INSERTIONPOINT [9736]
+    EAknsMinorGenericInternalCurrentLastItem = 0x2608
     };
 
 // ----------------------------------------------------------------------------

@@ -22,7 +22,7 @@
 #define AKNLAYOUTSCALABLE_APPS_CDL_COMMON_H
 
 
-#include <aknlayout2scalabledef.h>
+#include <AknLayout2ScalableDef.h>
 
 
 namespace AknLayoutScalable_Apps
@@ -6558,6 +6558,7 @@ enum TApiId
 	EApiId_cale_week_scroll_pane_g16_ParamLimits,
 	EApiId_cale_week_scroll_pane_g16,
 	EApiId_vorec_slider_pane,
+	EApiId_vidtel_button_pane_t1_ParamLimits,
 	E_TApiId_TableSize
 	};
 
@@ -13093,6 +13094,7 @@ typedef TAknTextComponentLayout (Tmain_clock2_pane_cp01_t_sig)(TInt, TInt, TInt,
 typedef TAknLayoutScalableParameterLimits (Tcale_week_scroll_pane_g16_ParamLimits_sig)(TInt);
 typedef TAknWindowComponentLayout (Tcale_week_scroll_pane_g16_sig)(TInt, TInt, TInt);
 typedef TAknWindowComponentLayout (Tvorec_slider_pane_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tvidtel_button_pane_t1_ParamLimits_sig)(TInt);
 
 } // end of namespace AknLayoutScalable_Apps
 

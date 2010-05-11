@@ -22,7 +22,7 @@
 
 // INCLUDES
 #include <e32base.h>
-#include <mifheader.cdl.h>
+#include <MifHeader.cdl.h>
 
 // FORWARD DECLARATIONS
 

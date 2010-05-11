@@ -10,7 +10,7 @@ UID: 0x10203850
 
 %% C++
 
-#include <aknlayout2scalabledef.h>
+#include <AknLayout2ScalableDef.h>
 
 %% Translation
 

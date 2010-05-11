@@ -25,7 +25,7 @@
 #include <e32std.h>
 #include <f32file.h>
 #include <fbs.h>
-#include <mifheader.cdl.h>
+#include <MifHeader.cdl.h>
 
 // CONSTANTS
 
