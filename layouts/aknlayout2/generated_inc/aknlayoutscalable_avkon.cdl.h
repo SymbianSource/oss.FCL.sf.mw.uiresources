@@ -21,7 +21,7 @@
 #ifndef AKNLAYOUTSCALABLE_AVKON_CDL
 #define AKNLAYOUTSCALABLE_AVKON_CDL
 
-#include <cdlengine.h>
+#include <CdlEngine.h>
 #include <aknlayoutscalable_avkon.cdl.common.h>
 
 namespace AknLayoutScalable_Avkon

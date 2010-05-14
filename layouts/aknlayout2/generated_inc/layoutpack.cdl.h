@@ -21,7 +21,7 @@
 #ifndef LAYOUTPACK_CDL
 #define LAYOUTPACK_CDL
 
-#include <cdlengine.h>
+#include <CdlEngine.h>
 #include <layoutpack.cdl.common.h>
 
 namespace LayoutPack

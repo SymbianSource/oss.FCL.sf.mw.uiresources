@@ -99,6 +99,42 @@ FONT_SRC_DIR(S60TSB.ttf)                          /epoc32/release/armv5/urel/S60
 ../Vectorfonts/Series60Korean.ttf                        /epoc32/release/armv5/udeb/Series60Korean.ttf
 ../Vectorfonts/Series60Korean.ttf                        /epoc32/release/armv5/urel/Series60Korean.ttf
 
+// Export typeface xml files
+typefaces_s60_English.xml                    /epoc32/release/winscw/udeb/z/resource/Fonts/typefaces.xml
+typefaces_s60_English.xml                    /epoc32/release/winscw/urel/z/resource/Fonts/typefaces.xml
+
+typefaces_s60_English.xml                    /epoc32/release/winscw/udeb/z/resource/Fonts/typefaces_s60_English.xml
+typefaces_s60_English.xml                    /epoc32/release/winscw/urel/z/resource/Fonts/typefaces_s60_English.xml
+typefaces_s60_English.xml                    /epoc32/release/armv5/udeb/typefaces_s60_English.xml
+typefaces_s60_English.xml                    /epoc32/release/armv5/urel/typefaces_s60_English.xml
+
+typefaces_s60_Japanese.xml                    /epoc32/release/winscw/udeb/z/resource/Fonts/typefaces_s60_Japanese.xml
+typefaces_s60_Japanese.xml                    /epoc32/release/winscw/urel/z/resource/Fonts/typefaces_s60_Japanese.xml
+typefaces_s60_Japanese.xml                    /epoc32/release/armv5/udeb/typefaces_s60_Japanese.xml
+typefaces_s60_Japanese.xml                    /epoc32/release/armv5/urel/typefaces_s60_Japanese.xml
+
+typefaces_s60_Korean.xml                    /epoc32/release/winscw/udeb/z/resource/Fonts/typefaces_s60_Korean.xml
+typefaces_s60_Korean.xml                    /epoc32/release/winscw/urel/z/resource/Fonts/typefaces_s60_Korean.xml
+typefaces_s60_Korean.xml                    /epoc32/release/armv5/udeb/typefaces_s60_Korean.xml
+typefaces_s60_Korean.xml                    /epoc32/release/armv5/urel/typefaces_s60_Korean.xml
+
+typefaces_s60_Simplified_Chinese.xml                    /epoc32/release/winscw/udeb/z/resource/Fonts/typefaces_s60_Simplified_Chinese.xml
+typefaces_s60_Simplified_Chinese.xml                    /epoc32/release/winscw/urel/z/resource/Fonts/typefaces_s60_Simplified_Chinese.xml
+typefaces_s60_Simplified_Chinese.xml                    /epoc32/release/armv5/udeb/typefaces_s60_Simplified_Chinese.xml
+typefaces_s60_Simplified_Chinese.xml                    /epoc32/release/armv5/urel/typefaces_s60_Simplified_Chinese.xml
+
+typefaces_s60_Simplified_Traditional.xml                    /epoc32/release/winscw/udeb/z/resource/Fonts/typefaces_s60_Simplified_Traditional.xml
+typefaces_s60_Simplified_Traditional.xml                    /epoc32/release/winscw/urel/z/resource/Fonts/typefaces_s60_Simplified_Traditional.xml
+typefaces_s60_Simplified_Traditional.xml                    /epoc32/release/armv5/udeb/typefaces_s60_Simplified_Traditional.xml
+typefaces_s60_Simplified_Traditional.xml                    /epoc32/release/armv5/urel/typefaces_s60_Simplified_Traditional.xml
+
+typefaces_s60_Traditional_Chinese.xml                    /epoc32/release/winscw/udeb/z/resource/Fonts/typefaces_s60_Traditional_Chinese.xml
+typefaces_s60_Traditional_Chinese.xml                    /epoc32/release/winscw/urel/z/resource/Fonts/typefaces_s60_Traditional_Chinese.xml
+typefaces_s60_Traditional_Chinese.xml                    /epoc32/release/armv5/udeb/typefaces_s60_Traditional_Chinese.xml
+typefaces_s60_Traditional_Chinese.xml                    /epoc32/release/armv5/urel/typefaces_s60_Traditional_Chinese.xml
+		
+
+
 // Export IBY files
 ../rom/FontUtils.iby                              CORE_MW_LAYER_IBY_EXPORT_PATH(FontUtils.iby)
 ../rom/fonts_variant.iby                          CUSTOMER_MW_LAYER_IBY_EXPORT_PATH(fonts_variant.iby)

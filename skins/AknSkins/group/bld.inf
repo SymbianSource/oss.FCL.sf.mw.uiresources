@@ -84,6 +84,11 @@ backup_registration.xml z:/private/10207114/backup_registration.xml
 ../conf/aknskins_101F876F.crml           APP_LAYER_CRML(aknskins_101F876F.crml)
 ../conf/aknskins_10282CB2.crml           APP_LAYER_CRML(aknskins_10282CB2.crml)
 
+// Psln cenrep settings preserved
+../conf/themes.confml                APP_LAYER_CONFML(themes.confml)
+../conf/themes_102818E8.crml         APP_LAYER_CRML(themes_102818E8.crml)
+../conf/themes_102818EB.crml         APP_LAYER_CRML(themes_102818EB.crml)
+
 // ============================================================================
 // MMP Files
 // ============================================================================

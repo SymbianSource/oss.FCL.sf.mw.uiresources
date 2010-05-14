@@ -21,7 +21,355 @@
 #define __ELOCL_IBY__
 
 #ifdef EKA2
-file=ABI_DIR\BUILD_DIR\Elocl.dll                SHARED_LIB_DIR\Elocl.loc
+
+#if defined __LOCALES_01_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.001			SHARED_LIB_DIR\elocl_lan.001
+file=ABI_DIR\BUILD_DIR\elocl_reg.826			SHARED_LIB_DIR\elocl_reg.826
+file=ABI_DIR\BUILD_DIR\elocl_col.001			SHARED_LIB_DIR\elocl_col.001
+#endif // __LOCALES_01_IBY__
+
+#if defined __LOCALES_02_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.002			SHARED_LIB_DIR\elocl_lan.002
+file=ABI_DIR\BUILD_DIR\elocl_reg.250			SHARED_LIB_DIR\elocl_reg.250
+file=ABI_DIR\BUILD_DIR\elocl_col.002			SHARED_LIB_DIR\elocl_col.002
+#endif // __LOCALES_02_IBY__
+
+#if defined __LOCALES_03_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.003			SHARED_LIB_DIR\elocl_lan.003
+file=ABI_DIR\BUILD_DIR\elocl_reg.276			SHARED_LIB_DIR\elocl_reg.276
+file=ABI_DIR\BUILD_DIR\elocl_col.003			SHARED_LIB_DIR\elocl_col.003
+#endif // __LOCALES_03_IBY__
+
+#if defined __LOCALES_04_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.004			SHARED_LIB_DIR\elocl_lan.004
+file=ABI_DIR\BUILD_DIR\elocl_reg.724			SHARED_LIB_DIR\elocl_reg.724
+file=ABI_DIR\BUILD_DIR\elocl_col.004			SHARED_LIB_DIR\elocl_col.004
+#endif // __LOCALES_04_IBY__
+
+#if defined __LOCALES_05_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.005			SHARED_LIB_DIR\elocl_lan.005
+file=ABI_DIR\BUILD_DIR\elocl_reg.380			SHARED_LIB_DIR\elocl_reg.380
+file=ABI_DIR\BUILD_DIR\elocl_col.005			SHARED_LIB_DIR\elocl_col.005
+#endif // __LOCALES_05_IBY__
+
+#if defined __LOCALES_06_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.006			SHARED_LIB_DIR\elocl_lan.006
+file=ABI_DIR\BUILD_DIR\elocl_reg.752			SHARED_LIB_DIR\elocl_reg.752
+file=ABI_DIR\BUILD_DIR\elocl_col.006			SHARED_LIB_DIR\elocl_col.006
+#endif // __LOCALES_06_IBY__
+
+#if defined __LOCALES_07_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.007			SHARED_LIB_DIR\elocl_lan.007
+file=ABI_DIR\BUILD_DIR\elocl_reg.208			SHARED_LIB_DIR\elocl_reg.208
+file=ABI_DIR\BUILD_DIR\elocl_col.007			SHARED_LIB_DIR\elocl_col.007
+#endif // __LOCALES_07_IBY__
+
+#if defined __LOCALES_08_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.008			SHARED_LIB_DIR\elocl_lan.008
+file=ABI_DIR\BUILD_DIR\elocl_reg.578			SHARED_LIB_DIR\elocl_reg.578
+file=ABI_DIR\BUILD_DIR\elocl_col.008			SHARED_LIB_DIR\elocl_col.008
+#endif // __LOCALES_08_IBY__
+
+#if defined __LOCALES_09_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.009			SHARED_LIB_DIR\elocl_lan.009
+file=ABI_DIR\BUILD_DIR\elocl_reg.246			SHARED_LIB_DIR\elocl_reg.246
+file=ABI_DIR\BUILD_DIR\elocl_col.009			SHARED_LIB_DIR\elocl_col.009
+#endif // __LOCALES_09_IBY__
+
+#if defined __LOCALES_10_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.010			SHARED_LIB_DIR\elocl_lan.010
+file=ABI_DIR\BUILD_DIR\elocl_reg.840			SHARED_LIB_DIR\elocl_reg.840
+file=ABI_DIR\BUILD_DIR\elocl_col.010			SHARED_LIB_DIR\elocl_col.010
+#endif // __LOCALES_10_IBY__
+
+#if defined __LOCALES_13_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.013			SHARED_LIB_DIR\elocl_lan.013
+file=ABI_DIR\BUILD_DIR\elocl_reg.620			SHARED_LIB_DIR\elocl_reg.620
+file=ABI_DIR\BUILD_DIR\elocl_col.013			SHARED_LIB_DIR\elocl_col.013
+#endif // __LOCALES_13_IBY__
+
+#if defined __LOCALES_14_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.014			SHARED_LIB_DIR\elocl_lan.014
+file=ABI_DIR\BUILD_DIR\elocl_reg.792			SHARED_LIB_DIR\elocl_reg.792
+file=ABI_DIR\BUILD_DIR\elocl_col.014			SHARED_LIB_DIR\elocl_col.014
+#endif // __LOCALES_14_IBY__
+
+#if defined __LOCALES_15_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.015			SHARED_LIB_DIR\elocl_lan.015
+file=ABI_DIR\BUILD_DIR\elocl_reg.352			SHARED_LIB_DIR\elocl_reg.352
+file=ABI_DIR\BUILD_DIR\elocl_col.015			SHARED_LIB_DIR\elocl_col.015
+#endif // __LOCALES_15_IBY__
+
+#if defined __LOCALES_16_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.016			SHARED_LIB_DIR\elocl_lan.016
+file=ABI_DIR\BUILD_DIR\elocl_reg.643    		SHARED_LIB_DIR\elocl_reg.643
+file=ABI_DIR\BUILD_DIR\elocl_col.016			SHARED_LIB_DIR\elocl_col.016
+#endif // __LOCALES_16_IBY__
+
+#if defined __LOCALES_17_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.017			SHARED_LIB_DIR\elocl_lan.017
+file=ABI_DIR\BUILD_DIR\elocl_reg.348			SHARED_LIB_DIR\elocl_reg.348
+file=ABI_DIR\BUILD_DIR\elocl_col.017			SHARED_LIB_DIR\elocl_col.017
+#endif // __LOCALES_17_IBY__
+
+#if defined __LOCALES_18_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.018			SHARED_LIB_DIR\elocl_lan.018
+file=ABI_DIR\BUILD_DIR\elocl_reg.528			SHARED_LIB_DIR\elocl_reg.528
+file=ABI_DIR\BUILD_DIR\elocl_col.018			SHARED_LIB_DIR\elocl_col.018
+#endif // __LOCALES_18_IBY__
+
+#if defined __LOCALES_25_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.025			SHARED_LIB_DIR\elocl_lan.025
+file=ABI_DIR\BUILD_DIR\elocl_reg.203			SHARED_LIB_DIR\elocl_reg.203
+file=ABI_DIR\BUILD_DIR\elocl_col.025			SHARED_LIB_DIR\elocl_col.025
+#endif // __LOCALES_25_IBY__
+
+#if defined __LOCALES_26_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.026			SHARED_LIB_DIR\elocl_lan.026
+file=ABI_DIR\BUILD_DIR\elocl_reg.703			SHARED_LIB_DIR\elocl_reg.703
+file=ABI_DIR\BUILD_DIR\elocl_col.026			SHARED_LIB_DIR\elocl_col.026 
+#endif // __LOCALES_26_IBY__
+
+#if defined __LOCALES_27_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.027			SHARED_LIB_DIR\elocl_lan.027
+file=ABI_DIR\BUILD_DIR\elocl_reg.616			SHARED_LIB_DIR\elocl_reg.616
+file=ABI_DIR\BUILD_DIR\elocl_col.027			SHARED_LIB_DIR\elocl_col.027 
+#endif // __LOCALES_27_IBY__
+
+#if defined __LOCALES_28_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.028			SHARED_LIB_DIR\elocl_lan.028
+file=ABI_DIR\BUILD_DIR\elocl_reg.705			SHARED_LIB_DIR\elocl_reg.705
+file=ABI_DIR\BUILD_DIR\elocl_col.028			SHARED_LIB_DIR\elocl_col.028 
+#endif // __LOCALES_28_IBY__
+
+#if defined __LOCALES_29_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.029			SHARED_LIB_DIR\elocl_lan.029
+file=ABI_DIR\BUILD_DIR\elocl_reg.158			SHARED_LIB_DIR\elocl_reg.158
+file=ABI_DIR\BUILD_DIR\elocl_col.029			SHARED_LIB_DIR\elocl_col.029 
+#endif // __LOCALES_29_IBY__
+
+#if defined __LOCALES_30_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.030			SHARED_LIB_DIR\elocl_lan.030
+file=ABI_DIR\BUILD_DIR\elocl_reg.344			SHARED_LIB_DIR\elocl_reg.344
+file=ABI_DIR\BUILD_DIR\elocl_col.030			SHARED_LIB_DIR\elocl_col.030 
+#endif // __LOCALES_30_IBY__
+
+#if defined __LOCALES_31_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.031			SHARED_LIB_DIR\elocl_lan.031
+file=ABI_DIR\BUILD_DIR\elocl_reg.156            SHARED_LIB_DIR\elocl_reg.156
+file=ABI_DIR\BUILD_DIR\elocl_col.031			SHARED_LIB_DIR\elocl_col.031 
+#endif // __LOCALES_31_IBY__
+
+#if defined __LOCALES_32_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.032			SHARED_LIB_DIR\elocl_lan.032
+file=ABI_DIR\BUILD_DIR\elocl_reg.392			SHARED_LIB_DIR\elocl_reg.392
+file=ABI_DIR\BUILD_DIR\elocl_col.032			SHARED_LIB_DIR\elocl_col.032 
+#endif // __LOCALES_32_IBY__
+
+#if defined __LOCALES_33_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.033			SHARED_LIB_DIR\elocl_lan.033
+file=ABI_DIR\BUILD_DIR\elocl_reg.764			SHARED_LIB_DIR\elocl_reg.764
+file=ABI_DIR\BUILD_DIR\elocl_col.033			SHARED_LIB_DIR\elocl_col.033 
+#endif // __LOCALES_33_IBY__
+
+#if defined __LOCALES_37_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.037			SHARED_LIB_DIR\elocl_lan.037
+file=ABI_DIR\BUILD_DIR\elocl_reg.682			SHARED_LIB_DIR\elocl_reg.682
+file=ABI_DIR\BUILD_DIR\elocl_col.037			SHARED_LIB_DIR\elocl_col.037 
+#endif // __LOCALES_37_IBY__
+
+#if defined __LOCALES_39_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.039			SHARED_LIB_DIR\elocl_lan.039
+file=ABI_DIR\BUILD_DIR\elocl_reg.608			SHARED_LIB_DIR\elocl_reg.608
+file=ABI_DIR\BUILD_DIR\elocl_col.039			SHARED_LIB_DIR\elocl_col.039 
+#endif // __LOCALES_39_IBY__
+
+#if defined __LOCALES_42_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.042			SHARED_LIB_DIR\elocl_lan.042
+file=ABI_DIR\BUILD_DIR\elocl_reg.100			SHARED_LIB_DIR\elocl_reg.100
+file=ABI_DIR\BUILD_DIR\elocl_col.042			SHARED_LIB_DIR\elocl_col.042 
+#endif // __LOCALES_42_IBY__
+
+#if defined __LOCALES_44_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.044			SHARED_LIB_DIR\elocl_lan.044
+file=ABI_DIR\BUILD_DIR\elocl_reg.724			SHARED_LIB_DIR\elocl_reg.724
+file=ABI_DIR\BUILD_DIR\elocl_col.044			SHARED_LIB_DIR\elocl_col.044 
+#endif // __LOCALES_44_IBY__
+
+#if defined __LOCALES_45_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.045			SHARED_LIB_DIR\elocl_lan.045
+file=ABI_DIR\BUILD_DIR\elocl_reg.191			SHARED_LIB_DIR\elocl_reg.191
+file=ABI_DIR\BUILD_DIR\elocl_col.045			SHARED_LIB_DIR\elocl_col.045 
+#endif // __LOCALES_45_IBY__
+
+#if defined __LOCALES_49_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.049			SHARED_LIB_DIR\elocl_lan.049
+file=ABI_DIR\BUILD_DIR\elocl_reg.233			SHARED_LIB_DIR\elocl_reg.233
+file=ABI_DIR\BUILD_DIR\elocl_col.049			SHARED_LIB_DIR\elocl_col.049 
+#endif // __LOCALES_49_IBY__
+
+#if defined __LOCALES_50_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.050			SHARED_LIB_DIR\elocl_lan.050
+file=ABI_DIR\BUILD_DIR\elocl_reg.364			SHARED_LIB_DIR\elocl_reg.364
+file=ABI_DIR\BUILD_DIR\elocl_col.050			SHARED_LIB_DIR\elocl_col.050 
+#endif // __LOCALES_50_IBY__
+
+#if defined __LOCALES_51_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.051			SHARED_LIB_DIR\elocl_lan.051
+file=ABI_DIR\BUILD_DIR\elocl_reg.124			SHARED_LIB_DIR\elocl_reg.124
+file=ABI_DIR\BUILD_DIR\elocl_col.051			SHARED_LIB_DIR\elocl_col.051 
+#endif // __LOCALES_51_IBY__
+
+#if defined __LOCALES_54_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.054			SHARED_LIB_DIR\elocl_lan.054
+file=ABI_DIR\BUILD_DIR\elocl_reg.300			SHARED_LIB_DIR\elocl_reg.300
+file=ABI_DIR\BUILD_DIR\elocl_col.054			SHARED_LIB_DIR\elocl_col.054 
+#endif // __LOCALES_54_IBY__
+
+#if defined __LOCALES_57_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.057			SHARED_LIB_DIR\elocl_lan.057
+file=ABI_DIR\BUILD_DIR\elocl_reg.376			SHARED_LIB_DIR\elocl_reg.376
+file=ABI_DIR\BUILD_DIR\elocl_col.057			SHARED_LIB_DIR\elocl_col.057 
+#endif // __LOCALES_57_IBY__
+
+#if defined __LOCALES_58_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.058			SHARED_LIB_DIR\elocl_lan.058
+file=ABI_DIR\BUILD_DIR\elocl_reg.356			SHARED_LIB_DIR\elocl_reg.356
+file=ABI_DIR\BUILD_DIR\elocl_col.058			SHARED_LIB_DIR\elocl_col.058 
+#endif // __LOCALES_58_IBY__
+
+#if defined __LOCALES_59_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.059			SHARED_LIB_DIR\elocl_lan.059
+file=ABI_DIR\BUILD_DIR\elocl_reg.360            SHARED_LIB_DIR\elocl_reg.360
+file=ABI_DIR\BUILD_DIR\elocl_col.059			SHARED_LIB_DIR\elocl_col.059 
+#endif // __LOCALES_59_IBY__
+
+#if defined __LOCALES_65_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.065			SHARED_LIB_DIR\elocl_lan.065
+file=ABI_DIR\BUILD_DIR\elocl_reg.410			SHARED_LIB_DIR\elocl_reg.410
+file=ABI_DIR\BUILD_DIR\elocl_col.065			SHARED_LIB_DIR\elocl_col.065 
+#endif // __LOCALES_65_IBY__
+
+#if defined __LOCALES_67_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.067			SHARED_LIB_DIR\elocl_lan.067
+file=ABI_DIR\BUILD_DIR\elocl_reg.428			SHARED_LIB_DIR\elocl_reg.428
+file=ABI_DIR\BUILD_DIR\elocl_col.067			SHARED_LIB_DIR\elocl_col.067 
+#endif // __LOCALES_67_IBY__
+
+#if defined __LOCALES_68_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.068			SHARED_LIB_DIR\elocl_lan.068
+file=ABI_DIR\BUILD_DIR\elocl_reg.440    		SHARED_LIB_DIR\elocl_reg.440
+file=ABI_DIR\BUILD_DIR\elocl_col.068			SHARED_LIB_DIR\elocl_col.068 
+#endif // __LOCALES_68_IBY__
+
+#if defined __LOCALES_70_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.070			SHARED_LIB_DIR\elocl_lan.070
+file=ABI_DIR\BUILD_DIR\elocl_reg.458			SHARED_LIB_DIR\elocl_reg.458
+file=ABI_DIR\BUILD_DIR\elocl_col.070			SHARED_LIB_DIR\elocl_col.070 
+#endif // __LOCALES_70_IBY__
+
+#if defined __LOCALES_76_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.076			SHARED_LIB_DIR\elocl_lan.076
+file=ABI_DIR\BUILD_DIR\elocl_reg.076			SHARED_LIB_DIR\elocl_reg.076
+file=ABI_DIR\BUILD_DIR\elocl_col.076			SHARED_LIB_DIR\elocl_col.076 
+#endif // __LOCALES_76_IBY__
+
+#if defined __LOCALES_78_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.078			SHARED_LIB_DIR\elocl_lan.078
+file=ABI_DIR\BUILD_DIR\elocl_reg.642			SHARED_LIB_DIR\elocl_reg.642
+file=ABI_DIR\BUILD_DIR\elocl_col.078			SHARED_LIB_DIR\elocl_col.078 
+#endif // __LOCALES_78_IBY__
+
+#if defined __LOCALES_79_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.079			SHARED_LIB_DIR\elocl_lan.079
+file=ABI_DIR\BUILD_DIR\elocl_reg.891			SHARED_LIB_DIR\elocl_reg.891
+file=ABI_DIR\BUILD_DIR\elocl_col.079			SHARED_LIB_DIR\elocl_col.079 
+#endif // __LOCALES_79_IBY__
+
+#if defined __LOCALES_83_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.083			SHARED_LIB_DIR\elocl_lan.083
+file=ABI_DIR\BUILD_DIR\elocl_reg.484    		SHARED_LIB_DIR\elocl_reg.484
+file=ABI_DIR\BUILD_DIR\elocl_col.083			SHARED_LIB_DIR\elocl_col.083 
+#endif // __LOCALES_83_IBY__
+
+#if defined __LOCALES_93_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.093			SHARED_LIB_DIR\elocl_lan.093
+file=ABI_DIR\BUILD_DIR\elocl_reg.804			SHARED_LIB_DIR\elocl_reg.804
+file=ABI_DIR\BUILD_DIR\elocl_col.093			SHARED_LIB_DIR\elocl_col.093 
+#endif // __LOCALES_93_IBY__
+
+#if defined __LOCALES_94_IBY__  
+file=ABI_DIR\BUILD_DIR\elocl_lan.094			SHARED_LIB_DIR\elocl_lan.094
+file=ABI_DIR\BUILD_DIR\elocl_reg.526			SHARED_LIB_DIR\elocl_reg.526
+file=ABI_DIR\BUILD_DIR\elocl_col.094			SHARED_LIB_DIR\elocl_col.094 
+#endif // __LOCALES_94_IBY__
+
+#if defined __LOCALES_96_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.096			SHARED_LIB_DIR\elocl_lan.096
+file=ABI_DIR\BUILD_DIR\elocl_reg.704			SHARED_LIB_DIR\elocl_reg.704
+file=ABI_DIR\BUILD_DIR\elocl_col.096			SHARED_LIB_DIR\elocl_col.096 
+#endif // __LOCALES_96_IBY__
+
+#if defined __LOCALES_129_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.129			SHARED_LIB_DIR\elocl_lan.129
+file=ABI_DIR\BUILD_DIR\elocl_reg.826			SHARED_LIB_DIR\elocl_reg.826
+file=ABI_DIR\BUILD_DIR\elocl_col.129			SHARED_LIB_DIR\elocl_col.129 
+#endif // __LOCALES_129_IBY__
+
+#if defined __LOCALES_157_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.157			SHARED_LIB_DIR\elocl_lan.157
+file=ABI_DIR\BUILD_DIR\elocl_reg.158			SHARED_LIB_DIR\elocl_reg.158
+file=ABI_DIR\BUILD_DIR\elocl_col.157			SHARED_LIB_DIR\elocl_col.157 
+#endif // __LOCALES_157_IBY__
+
+#if defined __LOCALES_158_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.158			SHARED_LIB_DIR\elocl_lan.158
+file=ABI_DIR\BUILD_DIR\elocl_reg.344			SHARED_LIB_DIR\elocl_reg.344
+file=ABI_DIR\BUILD_DIR\elocl_col.158			SHARED_LIB_DIR\elocl_col.158 
+#endif // __LOCALES_158_IBY__
+
+#if defined __LOCALES_159_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.159			SHARED_LIB_DIR\elocl_lan.159
+file=ABI_DIR\BUILD_DIR\elocl_reg.156			SHARED_LIB_DIR\elocl_reg.156
+file=ABI_DIR\BUILD_DIR\elocl_col.159			SHARED_LIB_DIR\elocl_col.159 
+#endif // __LOCALES_159_IBY__
+
+#if defined __LOCALES_160_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.160			SHARED_LIB_DIR\elocl_lan.160
+file=ABI_DIR\BUILD_DIR\elocl_reg.392			SHARED_LIB_DIR\elocl_reg.392
+file=ABI_DIR\BUILD_DIR\elocl_col.160			SHARED_LIB_DIR\elocl_col.160 
+#endif // __LOCALES_160_IBY__
+
+#if defined __LOCALES_161_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.161            SHARED_LIB_DIR\elocl_lan.161
+file=ABI_DIR\BUILD_DIR\elocl_reg.764			SHARED_LIB_DIR\elocl_reg.764
+file=ABI_DIR\BUILD_DIR\elocl_col.161			SHARED_LIB_DIR\elocl_col.161 
+#endif // __LOCALES_161_IBY__
+
+#if defined __LOCALES_326_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.326			SHARED_LIB_DIR\elocl_lan.326
+file=ABI_DIR\BUILD_DIR\elocl_reg.458			SHARED_LIB_DIR\elocl_reg.458
+file=ABI_DIR\BUILD_DIR\elocl_col.326			SHARED_LIB_DIR\elocl_col.326 
+#endif // __LOCALES_326_IBY__
+
+#if defined __LOCALES_327_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.327			SHARED_LIB_DIR\elocl_lan.327
+file=ABI_DIR\BUILD_DIR\elocl_reg.360			SHARED_LIB_DIR\elocl_reg.360
+file=ABI_DIR\BUILD_DIR\elocl_col.327			SHARED_LIB_DIR\elocl_col.327 
+#endif // __LOCALES_327_IBY__
+
+#if defined __LOCALES_401_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.401			SHARED_LIB_DIR\elocl_lan.401
+file=ABI_DIR\BUILD_DIR\elocl_reg.724			SHARED_LIB_DIR\elocl_reg.724
+file=ABI_DIR\BUILD_DIR\elocl_col.401			SHARED_LIB_DIR\elocl_col.401 
+#endif // __LOCALES_401_IBY__
+
+#if defined __LOCALES_402_IBY__
+file=ABI_DIR\BUILD_DIR\elocl_lan.402			SHARED_LIB_DIR\elocl_lan.402
+file=ABI_DIR\BUILD_DIR\elocl_reg.727    		SHARED_LIB_DIR\elocl_reg.724
+file=ABI_DIR\BUILD_DIR\elocl_col.402			SHARED_LIB_DIR\elocl_col.420 
+#endif // __LOCALES_402_IBY__
+
 #else
 file=\epoc32\release\armi\DEBUG_DIR\Elocl.dll   System\libs\Elocl.loc
 #endif	//EKA2

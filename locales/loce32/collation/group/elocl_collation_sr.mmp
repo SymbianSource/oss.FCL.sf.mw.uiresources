@@ -1,0 +1,52 @@
+/*
+* Copyright (c) 1994-2010 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:  Serbian langauge collation  dll
+*
+*/
+
+TARGET			elocl_col.079
+TARGETTYPE		dll
+
+CAPABILITY		All
+VENDORID        VID_DEFAULT
+
+//NOEXPORTLIBRARY
+
+SOURCEPATH      ../src
+SOURCE collation.cpp
+SOURCE latin.cpp
+SOURCE collation_sr.cpp
+
+// This is a SYSTEMINCLUDE macro containing the middleware
+// layer specific include directories
+MW_LAYER_SYSTEMINCLUDE
+
+SYSTEMINCLUDE   ../../../inc
+SYSTEMINCLUDE   ../../inc
+SYSTEMINCLUDE   ../inc
+SYMBIAN_BASE_SYSTEMINCLUDE(kernel)
+
+#if defined(WINS)
+DEFFILE			../def/collation_wins.def
+#elif defined(GCC32) && !defined(X86GCC)
+DEFFILE			../def/collation_gcce.def
+#else
+DEFFILE			../def/collation_arm.def
+#endif
+
+START WINS
+BASEADDRESS		0x58000000
+END
+
+UID 0x100039e6 0x100065f3

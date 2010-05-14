@@ -103,4 +103,44 @@ ECOM_PLUGIN(ityperast.dll, ityperast.RSC)
 // Digi font available in all variants
 data=ABI_DIR\BUILD_DIR\S60ZDIGI.ttf                                                  resource\Fonts\S60ZDIGI.ttf
 
+
+// Export typeface xml files
+#ifdef FF_LINKED_FONTS_CHINESE		// Now this is a global font linking macro
+#ifdef __CHINESE
+
+#if defined(__CHINESE_PRC_FONTS) && defined(__CHINESE_TAIWAN_HK_FONTS)
+
+
+data=ABI_DIR\BUILD_DIR\typefaces_s60_Simplified_Traditional.xml         		resource\Fonts\typefaces.xml           
+
+#elif defined(__CHINESE_PRC_FONTS)
+
+data=ABI_DIR\BUILD_DIR\typefaces_s60_Simplified_Chinese.xml   				resource\Fonts\typefaces.xml           
+
+#elif defined(__CHINESE_TAIWAN_HK_FONTS)
+
+data=ABI_DIR\BUILD_DIR\typefaces_s60_Traditional_Chinese.xml        			resource\Fonts\typefaces.xml            
+
+#endif //defined(__CHINESE_PRC_FONTS) && defined(__CHINESE_TAIWAN_HK_FONTS)
+
+#elif defined(__JAPANESE)
+
+data=ABI_DIR\BUILD_DIR\typefaces_s60_Japanese.xml  					resource\Fonts\typefaces.xml   
+
+#elif defined(__LOCALES_65_IBY__)
+
+data=ABI_DIR\BUILD_DIR\typefaces_s60_Korean.xml                    			resource\Fonts\typefaces.xml   
+
+#else  // Must be western
+
+data=ABI_DIR\BUILD_DIR\typefaces_s60_English.xml                    			resource\Fonts\typefaces.xml   
+
+#endif //__CHINESE
+
+#else  // Must be western
+
+data=ABI_DIR\BUILD_DIR\typefaces_s60_English.xml                    			resource\Fonts\typefaces.xml   
+
+#endif //FF_LINKED_FONTS_CHINESE
+
 #endif // FONTS_VARIANT_IBY

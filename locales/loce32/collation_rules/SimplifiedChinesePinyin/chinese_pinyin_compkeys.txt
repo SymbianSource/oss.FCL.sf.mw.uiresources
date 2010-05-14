@@ -1,0 +1,4 @@
+// There is no data for composite keys,
+// but the file is needed for coltab to run
+// without any warning or errors. 
+

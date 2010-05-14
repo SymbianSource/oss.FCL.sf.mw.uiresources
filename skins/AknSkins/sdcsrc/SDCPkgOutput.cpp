@@ -19,7 +19,7 @@
 #include "SDCPkgOutput.h"
 #include "SDCException.h"
 #include "SDCInput.h"
-#include "AknsConstants.hrh"
+#include "aknsconstants.hrh"
 #include "SDCCompat.h"
 
 //////////////////////////////////////////////////////////////////////

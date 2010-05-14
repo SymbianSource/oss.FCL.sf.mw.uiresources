@@ -73,8 +73,8 @@
 
 _LIT(KS60TCAndHK,"Sans MT  UniT_HKSCS_S60");
 _LIT(KS60SC,"Sans MT 936_S60");
-_LIT(KS60TCAndHKHiRes,"MHeiC-Medium-Big5HKSCS-S60");
-_LIT(KS60SCHiRes,"MHeiGB18030C-Medium-S60");
+_LIT(KS60TCAndHKHiRes,"MHeiM-C-B5HK-S60");
+_LIT(KS60SCHiRes,"MHeiM-C-GB18030-S60");
 _LIT(KJapaneseHensei,"Heisei Kaku Gothic S60");
 _LIT(KS60Digital, "Series 60 ZDigi");
 _LIT(KS60Sans, "Series 60 Sans");

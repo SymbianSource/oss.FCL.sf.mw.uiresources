@@ -267,12 +267,12 @@ TSDCMBMEntry* CSDCData::AppendMbmEntry( const bool aSvg,
     
     //check file
    	if( !CheckFile( iBmpPath , aFilename ) )
-		   	{
-			  char filename[512];
-			  CSDCInput::ConvertToAscii( filename, aFilename );
-		    printf("NOTE: item %s not add beacuse file not exist!!\n",filename);
-		    return entry;
-		   	}
+        {
+        char filename[512];
+        CSDCInput::ConvertToAscii( filename, aFilename );
+        printf("NOTE: item %s not add beacuse file not exist!!\n",filename);
+        return entry;
+        }
 
     entry->iIndex = iNextIconIndex;
     iNextIconIndex += 2;
@@ -301,9 +301,9 @@ void CSDCData::SetBmpPath( const wchar_t* aPath )
         {
         wcscpy( iBmpPath, aPath );
         if( wcslen( iBmpPath ) &&
-            wcscmp( iBmpPath+wcslen(iBmpPath)-1, L"\\" ) )
+            wcscmp( iBmpPath+wcslen(iBmpPath)-1, L"/" ) )
             {
-            wcscat( iBmpPath, L"\\" );
+            wcscat( iBmpPath, L"/" );
             printf("NOTE: Trailing backslash appended to bitmap path\n");
             }
         }
@@ -444,22 +444,22 @@ void CSDCData::CreateAnimationDef( const TSDCIID aIID, const int aInput, const i
     
     
 bool CSDCData::CheckFile( const wchar_t* aPath , const wchar_t* aFileName )
-		{
-		char asciiPatch[512];
-		CSDCInput::ConvertToAscii( asciiPatch, aPath );
-		char asciiFileName[512];
-		CSDCInput::ConvertToAscii( asciiFileName, aFileName );
+    {
+    char asciiPatch[512];
+    CSDCInput::ConvertToAscii( asciiPatch, aPath );
+    char asciiFileName[512];
+    CSDCInput::ConvertToAscii( asciiFileName, aFileName );
 		
-		strcat(asciiPatch,asciiFileName);
+    strcat(asciiPatch,asciiFileName);
 
     struct stat buf;
     int result = stat( asciiPatch, &buf );
     if(result == -1)
-		    {
-		    return false;
-		    }
+        {
+        return false;
+        }
     return true;
     
-		}
+    }
 
 // End of file

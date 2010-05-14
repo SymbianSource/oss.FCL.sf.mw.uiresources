@@ -340,7 +340,15 @@ void CSDCInput::RawRead()
     {
     if( iUnicode )
         {
+#if (defined(__MSVCRT__) || defined(_MSC_VER))
         iNextChar = fgetwc( iFile );
+#else
+        /* to make it work under linux */
+        char c1 = fgetc(iFile);
+        char c2 = fgetc(iFile);
+        
+        iNextChar = c1 | (c2 << 8);
+#endif
         }
     else
         {

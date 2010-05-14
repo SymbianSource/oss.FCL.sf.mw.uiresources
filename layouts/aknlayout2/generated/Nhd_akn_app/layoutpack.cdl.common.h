@@ -22,8 +22,8 @@
 #define LAYOUTPACK_CDL_COMMON_H
 
 
-#include <aknlayoutdef.h>
-#include <akndef.hrh>
+#include <AknLayoutDef.h>
+#include <AknDef.hrh>
 
 
 namespace LayoutPack
