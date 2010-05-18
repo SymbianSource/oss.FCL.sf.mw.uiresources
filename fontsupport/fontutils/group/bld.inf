@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2002-2008 Nokia Corporation and/or its subsidiary(-ies).
+* Copyright (c) 1999-2010 Nokia Corporation and/or its subsidiary(-ies).
 * All rights reserved.
 * This component and the accompanying materials are made available
 * under the terms of "Eclipse Public License v1.0"
@@ -15,14 +15,6 @@
 *
 */
 
-
-
-// BLD.INF
-//
-// Copyright (c) 1999 Symbian Ltd.  All rights reserved.
-//
-
-#include <platform_paths.hrh>
 
 PRJ_EXPORTS
 
@@ -133,12 +125,6 @@ typefaces_s60_Traditional_Chinese.xml                    /epoc32/release/winscw/
 typefaces_s60_Traditional_Chinese.xml                    /epoc32/release/armv5/udeb/typefaces_s60_Traditional_Chinese.xml
 typefaces_s60_Traditional_Chinese.xml                    /epoc32/release/armv5/urel/typefaces_s60_Traditional_Chinese.xml
 		
-
-
-// Export IBY files
-../rom/FontUtils.iby                              CORE_MW_LAYER_IBY_EXPORT_PATH(FontUtils.iby)
-../rom/fonts_variant.iby                          CUSTOMER_MW_LAYER_IBY_EXPORT_PATH(fonts_variant.iby)
-
 ./removegtfiles.meta                             /epoc32/tools/makefile_templates/s60/removegtfiles.meta
 ./removegtfiles.flm                              /epoc32/tools/makefile_templates/s60/removegtfiles.flm
 
@@ -150,8 +136,6 @@ end
 
 PRJ_MMPFILES
 #ifndef TOOLS
-    ../FontUtils/group/FontUtils.mmp
-
     // Remove Symbian fonts
     #ifndef SBSV2
       gnumakefile removegtfiles.mk
