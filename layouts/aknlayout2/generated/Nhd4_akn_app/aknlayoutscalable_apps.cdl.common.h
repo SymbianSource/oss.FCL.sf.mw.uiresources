@@ -6559,6 +6559,14 @@ enum TApiId
 	EApiId_cale_week_scroll_pane_g16,
 	EApiId_vorec_slider_pane,
 	EApiId_vidtel_button_pane_t1_ParamLimits,
+	EApiId_main_fs_bigclock_clock_pane_g1_ParamLimits,
+	EApiId_main_fs_bigclock_clock_pane_g2_ParamLimits,
+	EApiId_main_fs_bigclock_clock_pane_g3_ParamLimits,
+	EApiId_main_fs_bigclock_clock_pane_g4_ParamLimits,
+	EApiId_main_fs_bigclock_clock_pane_g_ParamLimits,
+	EApiId_main_fs_bigclock_clock_pane_t1_ParamLimits,
+	EApiId_main_fs_bigclock_clock_pane_t2_ParamLimits,
+	EApiId_main_fs_bigclock_clock_pane_t_ParamLimits,
 	E_TApiId_TableSize
 	};
 
@@ -13095,6 +13103,14 @@ typedef TAknLayoutScalableParameterLimits (Tcale_week_scroll_pane_g16_ParamLimit
 typedef TAknWindowComponentLayout (Tcale_week_scroll_pane_g16_sig)(TInt, TInt, TInt);
 typedef TAknWindowComponentLayout (Tvorec_slider_pane_sig)(TInt, TInt, TInt);
 typedef TAknLayoutScalableParameterLimits (Tvidtel_button_pane_t1_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_fs_bigclock_clock_pane_g1_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_fs_bigclock_clock_pane_g2_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_fs_bigclock_clock_pane_g3_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_fs_bigclock_clock_pane_g4_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_fs_bigclock_clock_pane_g_ParamLimits_sig)(TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_fs_bigclock_clock_pane_t1_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_fs_bigclock_clock_pane_t2_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_fs_bigclock_clock_pane_t_ParamLimits_sig)(TInt, TInt);
 
 } // end of namespace AknLayoutScalable_Apps
 

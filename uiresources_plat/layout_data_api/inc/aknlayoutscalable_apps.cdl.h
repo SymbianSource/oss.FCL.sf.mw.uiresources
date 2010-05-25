@@ -14313,6 +14313,23 @@ inline TAknWindowComponentLayout vorec_slider_pane(TInt aVariety = 0, TInt aCol 
 // LAF Table : vidtel_button_pane
 inline TAknLayoutScalableParameterLimits vidtel_button_pane_t1_ParamLimits(TInt aVariety)		{ return (*(Tvidtel_button_pane_t1_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_vidtel_button_pane_t1_ParamLimits)))(aVariety); }
 
+// LAF Table : main_fs_bigclock_clock_pane
+inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_g1_ParamLimits(TInt aVariety)		{ return (*(Tmain_fs_bigclock_clock_pane_g1_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_fs_bigclock_clock_pane_g1_ParamLimits)))(aVariety); }
+
+inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_g2_ParamLimits(TInt aVariety)		{ return (*(Tmain_fs_bigclock_clock_pane_g2_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_fs_bigclock_clock_pane_g2_ParamLimits)))(aVariety); }
+
+inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_g3_ParamLimits(TInt aVariety)		{ return (*(Tmain_fs_bigclock_clock_pane_g3_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_fs_bigclock_clock_pane_g3_ParamLimits)))(aVariety); }
+
+inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_g4_ParamLimits(TInt aVariety)		{ return (*(Tmain_fs_bigclock_clock_pane_g4_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_fs_bigclock_clock_pane_g4_ParamLimits)))(aVariety); }
+
+inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_g_ParamLimits(TInt aLineIndex, TInt aVariety)		{ return (*(Tmain_fs_bigclock_clock_pane_g_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_fs_bigclock_clock_pane_g_ParamLimits)))(aLineIndex, aVariety); }
+
+inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_t1_ParamLimits(TInt aVariety)		{ return (*(Tmain_fs_bigclock_clock_pane_t1_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_fs_bigclock_clock_pane_t1_ParamLimits)))(aVariety); }
+
+inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_t2_ParamLimits(TInt aVariety)		{ return (*(Tmain_fs_bigclock_clock_pane_t2_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_fs_bigclock_clock_pane_t2_ParamLimits)))(aVariety); }
+
+inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_t_ParamLimits(TInt aLineIndex, TInt aVariety)		{ return (*(Tmain_fs_bigclock_clock_pane_t_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_fs_bigclock_clock_pane_t_ParamLimits)))(aLineIndex, aVariety); }
+
 #ifdef __VC32__
 #pragma component(mintypeinfo, on)
 #endif
@@ -28603,6 +28620,23 @@ public:
 
 	// LAF Table : vidtel_button_pane
 	inline TAknLayoutScalableParameterLimits vidtel_button_pane_t1_ParamLimits(TInt aVariety) const		{ return (*(Tvidtel_button_pane_t1_ParamLimits_sig*)(GetFunction(EApiId_vidtel_button_pane_t1_ParamLimits)))(aVariety); }
+
+	// LAF Table : main_fs_bigclock_clock_pane
+	inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_g1_ParamLimits(TInt aVariety) const		{ return (*(Tmain_fs_bigclock_clock_pane_g1_ParamLimits_sig*)(GetFunction(EApiId_main_fs_bigclock_clock_pane_g1_ParamLimits)))(aVariety); }
+
+	inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_g2_ParamLimits(TInt aVariety) const		{ return (*(Tmain_fs_bigclock_clock_pane_g2_ParamLimits_sig*)(GetFunction(EApiId_main_fs_bigclock_clock_pane_g2_ParamLimits)))(aVariety); }
+
+	inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_g3_ParamLimits(TInt aVariety) const		{ return (*(Tmain_fs_bigclock_clock_pane_g3_ParamLimits_sig*)(GetFunction(EApiId_main_fs_bigclock_clock_pane_g3_ParamLimits)))(aVariety); }
+
+	inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_g4_ParamLimits(TInt aVariety) const		{ return (*(Tmain_fs_bigclock_clock_pane_g4_ParamLimits_sig*)(GetFunction(EApiId_main_fs_bigclock_clock_pane_g4_ParamLimits)))(aVariety); }
+
+	inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_g_ParamLimits(TInt aLineIndex, TInt aVariety) const		{ return (*(Tmain_fs_bigclock_clock_pane_g_ParamLimits_sig*)(GetFunction(EApiId_main_fs_bigclock_clock_pane_g_ParamLimits)))(aLineIndex, aVariety); }
+
+	inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_t1_ParamLimits(TInt aVariety) const		{ return (*(Tmain_fs_bigclock_clock_pane_t1_ParamLimits_sig*)(GetFunction(EApiId_main_fs_bigclock_clock_pane_t1_ParamLimits)))(aVariety); }
+
+	inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_t2_ParamLimits(TInt aVariety) const		{ return (*(Tmain_fs_bigclock_clock_pane_t2_ParamLimits_sig*)(GetFunction(EApiId_main_fs_bigclock_clock_pane_t2_ParamLimits)))(aVariety); }
+
+	inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_t_ParamLimits(TInt aLineIndex, TInt aVariety) const		{ return (*(Tmain_fs_bigclock_clock_pane_t_ParamLimits_sig*)(GetFunction(EApiId_main_fs_bigclock_clock_pane_t_ParamLimits)))(aLineIndex, aVariety); }
 
 private:
 	CInstance();

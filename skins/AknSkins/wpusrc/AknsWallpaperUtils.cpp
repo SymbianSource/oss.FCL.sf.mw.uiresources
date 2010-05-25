@@ -30,14 +30,6 @@
 #include <AknWaitNoteWrapper.h>
 #include <babitflags.h>
 
-// CONSTANTS
-#if defined(RD_SLIDESHOW_WALLPAPER)
-// No wallpaper defined.
-const TInt KAknsWpNone = 0;
-// Image type wallpaper defined.
-const TInt KAknsWpImage = 1;
-#endif //RD_SLIDESHOW_WALLPAPER
-
 
 _LIT( KAknsSkinSrvSvgFileExt, ".svg" );
 
@@ -283,7 +275,6 @@ void DoSetIdleWallpaperL(const TDesC& aFilename, CCoeEnv* aCoeEnv, TInt aWaitNot
         {
         if (!QueryAndSetAutomatedL(aFilename, aCoeEnv))
             {
-            CleanupStack::PopAndDestroy(2);
             User::Leave(KErrCancel);
             }
         }

@@ -172,4 +172,6 @@ EXPORTS
 	?SetLayerImage@CAknsMaskedLayerBackgroundControlContext@@QAEXHABVTAknsItemID@@@Z @ 171 NONAME ; void CAknsMaskedLayerBackgroundControlContext::SetLayerImage(int, class TAknsItemID const &)
 	?SetLayerMaskAndSizeL@CAknsMaskedLayerBackgroundControlContext@@QAEXABVTAknsItemID@@ABVTRect@@@Z @ 172 NONAME ; void CAknsMaskedLayerBackgroundControlContext::SetLayerMaskAndSizeL(class TAknsItemID const &, class TRect const &)
 	?SetLayerRect@CAknsMaskedLayerBackgroundControlContext@@QAEXHABVTRect@@@Z @ 173 NONAME ; void CAknsMaskedLayerBackgroundControlContext::SetLayerRect(int, class TRect const &)
+	?AnimationBackgroundDisabled@AknsUtils@@SAHXZ @ 174 NONAME ; int AknsUtils::AnimationBackgroundDisabled(void)
+	?SetAnimationBackgroundDisabledL@AknsUtils@@SAXH@Z @ 175 NONAME ; void AknsUtils::SetAnimationBackgroundDisabledL(int)
 

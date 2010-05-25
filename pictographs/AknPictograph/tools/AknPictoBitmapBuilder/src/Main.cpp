@@ -84,11 +84,12 @@ TInt E32Main()
         FbsStartup();
 
         RFbsSession session;    
-        session.Connect();
-
-        // trap harness
-        TRAP( ret, ExecuteL() );
-        session.Disconnect();
+        if( session.Connect() == KErrNone )
+            {
+            // trap harness
+            TRAP( ret, ExecuteL() );
+            session.Disconnect();
+            }
         }
     delete trap;
     return ret;

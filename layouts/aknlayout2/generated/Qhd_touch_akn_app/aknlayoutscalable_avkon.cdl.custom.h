@@ -5742,6 +5742,7 @@ struct SCdlImpl5
 	Tcell_ituss_key_pane_g3_sig* cell_ituss_key_pane_g3;
 	Tcell_ituss_key_t5_ParamLimits_sig* cell_ituss_key_t5_ParamLimits;
 	Tcell_ituss_key_t5_sig* cell_ituss_key_t5;
+	Tpopup_fep_vkbss_window_ParamLimits_sig* popup_fep_vkbss_window_ParamLimits;
 	};
 #ifdef __WINS__
 struct SCdlImpl

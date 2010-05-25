@@ -5715,6 +5715,7 @@ enum TApiId
 	EApiId_cell_ituss_key_pane_g3,
 	EApiId_cell_ituss_key_t5_ParamLimits,
 	EApiId_cell_ituss_key_t5,
+	EApiId_popup_fep_vkbss_window_ParamLimits,
 	E_TApiId_TableSize
 	};
 
@@ -11407,6 +11408,7 @@ typedef TAknLayoutScalableParameterLimits (Tcell_ituss_key_pane_g3_ParamLimits_s
 typedef TAknWindowComponentLayout (Tcell_ituss_key_pane_g3_sig)(TInt, TInt, TInt);
 typedef TAknLayoutScalableParameterLimits (Tcell_ituss_key_t5_ParamLimits_sig)(TInt);
 typedef TAknTextComponentLayout (Tcell_ituss_key_t5_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tpopup_fep_vkbss_window_ParamLimits_sig)(TInt);
 
 } // end of namespace AknLayoutScalable_Avkon
 

@@ -512,6 +512,23 @@ NONSHARABLE_CLASS(CAknsAppSkinInstance) :
         * @return if wallpaper defined.
         */       
         TBool WallpaperDefined( ) const;
+        
+        /**
+         * Sets the flag indicating whether animation background should be used
+         * in the scope of the current AppUi.
+         * 
+         * @param Value of the flag as TBool.
+         */
+        void SetAnimationBackgroundDisabledL( TBool aDisabled );
+        
+        /**
+         * Queries whether animation background should be used for newly created
+         * current AppUi.
+         *
+         * @return ETrue if animation background is disabled, EFalse
+         *         otherwise. The default value is EFalse.
+         */        
+        TBool AnimationBackgroundDisabled() const;
 
     private: // Private ConstructL
 
@@ -627,6 +644,17 @@ NONSHARABLE_CLASS(CAknsAppSkinInstance) :
         * Wallpaper Type
         */
         TBool iWallpaperDefined;
+        
+        /**
+         * Flag indicating whether default skin parameters should be used
+         * for newly created Avkon controls.
+         */
+        TBool iAnimationBackgroundDisabled;
+        
+        /**
+        * Application UID
+        */
+        TUid iAppUid;
 
     private: // Data
 

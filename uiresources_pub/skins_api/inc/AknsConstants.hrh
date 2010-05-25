@@ -7721,8 +7721,25 @@ enum TAknsMinorGenericValue
     EAknsMinorGenericQgnMenuShareOnline = 0x2605,
     EAknsMinorGenericQgnPropSetCamTab2 = 0x2606,
     EAknsMinorGenericQtgIndiSquareGrid = 0x2607,
-    // SCMMARKER_INSERTIONPOINT [9736]
-    EAknsMinorGenericInternalCurrentLastItem = 0x2608
+    EAknsMinorGenericQgnHereAndNowApp = 0x2608,
+    EAknsMinorGenericQgnIndiInputQwertyPage11Ah = 0x2609,
+    EAknsMinorGenericQgnIndiInputQwertyPage12Ah = 0x260a,
+    EAknsMinorGenericQgnIndiInputQwertyPage22Ah = 0x260b,
+    EAknsMinorGenericQgnIndiTbOviMusic = 0x260c,
+    EAknsMinorGenericQgnMenuGroupMyapps = 0x260d,
+    EAknsMinorGenericQgnMenuOtasyncLst = 0x260e,
+    EAknsMinorGenericQgnNoteOtasyncCreatebu = 0x260f,
+    EAknsMinorGenericQgnNoteOtasyncRetrievebu = 0x2610,
+    EAknsMinorGenericQgnNoteOtasyncSync = 0x2611,
+    EAknsMinorGenericQgnPropOtasyncLog = 0x2612,
+    EAknsMinorGenericQgnPropOtasyncSync = 0x2613,
+    EAknsMinorGenericQgnPropPslnAudioThemeSub = 0x2614,
+    EAknsMinorGenericQgnGrafCamSplash = 0x2615,
+    EAknsMinorGenericQgnGrafTaskswitcherCamcoder = 0x2616,
+    EAknsMinorGenericQgnGrafTaskswitcherCamera = 0x2617,
+    EAknsMinorGenericQgnPropSocialCommunities = 0x2618,
+    // SCMMARKER_INSERTIONPOINT [9753]
+    EAknsMinorGenericInternalCurrentLastItem = 0x2619
     };
 
 // ----------------------------------------------------------------------------

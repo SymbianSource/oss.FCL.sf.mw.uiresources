@@ -263,6 +263,13 @@ CAknsSrv::~CAknsSrv()
     iWallpaperCache->ResetAndDestory( );
     
     iSlidesetEnableAppUidArray.Close();
+
+    if ( iPackageArray )
+        {
+        iPackageArray->ResetAndDestroy();
+        delete iPackageArray;
+        iPackageArray = NULL;
+        }
     }
 
 // -----------------------------------------------------------------------------
@@ -1465,14 +1472,16 @@ void CAknsSrv::SetWallpaperL( const TDesC& aFilename,
                 User::LeaveIfError( err );
                 }
             
-            isprotected = AknsSrvUtils::IsDrmProtectedL(aFilename);
             if (!BaflUtils::FileExists(iFsSession, aFilename))
                 {
                 iSettings->WriteIdleBackgroundToDefault();
                 return;
                 }
             }
+
+        isprotected = AknsSrvUtils::IsDrmProtectedL(aFilename);
         }
+
     if (isprotected)
         {
         CheckAndCreateDRMHelper();
@@ -2281,12 +2290,6 @@ void CAknsSrv::ReceivePackages( const RMessage2 aMessage )
             sizeof(TAknsSrvSkinInfoPkg),sizeof(TAknsSrvSkinInfoPkg));
         aMessage.Write(1,pkgptr,count*sizeof(TAknsSrvSkinInfoPkg));
         }
-    if ( iPackageArray )
-        {
-        iPackageArray->ResetAndDestroy();
-        }
-    delete iPackageArray;
-    iPackageArray = NULL;
     }
 
 // -----------------------------------------------------------------------------

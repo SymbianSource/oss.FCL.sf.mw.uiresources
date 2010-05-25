@@ -12535,6 +12535,9 @@ inline TAknLayoutScalableParameterLimits cell_ituss_key_t5_ParamLimits(TInt aVar
 
 inline TAknTextComponentLayout cell_ituss_key_t5(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tcell_ituss_key_t5_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_cell_ituss_key_t5)))(aVariety, aCol, aRow); }
 
+// LAF Table : main_fep_vtchi_ss_pane
+inline TAknLayoutScalableParameterLimits popup_fep_vkbss_window_ParamLimits(TInt aVariety)		{ return (*(Tpopup_fep_vkbss_window_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_popup_fep_vkbss_window_ParamLimits)))(aVariety); }
+
 #ifdef __VC32__
 #pragma component(mintypeinfo, on)
 #endif
@@ -25047,6 +25050,9 @@ public:
 	inline TAknLayoutScalableParameterLimits cell_ituss_key_t5_ParamLimits(TInt aVariety) const		{ return (*(Tcell_ituss_key_t5_ParamLimits_sig*)(GetFunction(EApiId_cell_ituss_key_t5_ParamLimits)))(aVariety); }
 
 	inline TAknTextComponentLayout cell_ituss_key_t5(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tcell_ituss_key_t5_sig*)(GetFunction(EApiId_cell_ituss_key_t5)))(aVariety, aCol, aRow); }
+
+	// LAF Table : main_fep_vtchi_ss_pane
+	inline TAknLayoutScalableParameterLimits popup_fep_vkbss_window_ParamLimits(TInt aVariety) const		{ return (*(Tpopup_fep_vkbss_window_ParamLimits_sig*)(GetFunction(EApiId_popup_fep_vkbss_window_ParamLimits)))(aVariety); }
 
 private:
 	CInstance();

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2010-04-19 15:37:11.51" LayoutName="pnl4_apps_nhd4_lsc_tch" LayoutSetId="288" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.848015945809247" MasterName="m_app_tch_92n4" ppi="229.0" ppiUnit="Inches" resolutionHeight="360" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
+<Layout createdOn="2010-05-10 16:51:40.482" LayoutName="pnl4_apps_nhd4_lsc_tch" LayoutSetId="288" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.848015945809247" MasterName="m_app_tch_92n4" ppi="229.0" ppiUnit="Inches" resolutionHeight="360" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
     <Component drawingorder="0" id="1" mirror="true" name="Screen" type="Screen"/>
     <Component drawingorder="0" id="2" maxVariety="0" mirror="true" name="application_window" type="Container"/>
     <Component drawingorder="16" id="11" maxVariety="3" mirror="true" name="navi_pane_mv_g2" type="Graphic"/>
@@ -671,7 +671,7 @@
     <Component drawingorder="5" id="2559" maxVariety="0" mirror="true" name="msg_data_pane_g6" type="Graphic"/>
     <Component drawingorder="6" id="2560" maxVariety="0" mirror="true" name="msg_data_pane_g7" type="Graphic"/>
     <Component drawingorder="1" id="2561" maxVariety="0" mirror="true" name="scroll_pane_cp017" type="Pane"/>
-    <Component drawingorder="7" id="2562" maxVariety="1" mirror="true" name="msg_text_pane" type="Pane"/>
+    <Component drawingorder="7" id="2562" maxVariety="2" mirror="true" name="msg_text_pane" type="Pane"/>
     <Component drawingorder="0" id="2563" maxVariety="0" mirror="true" name="msg_header_pane" type="Pane"/>
     <Component drawingorder="1" id="2564" maxVariety="0" mirror="true" name="msg_body_pane" type="Pane"/>
     <Component drawingorder="0" id="2565" maxVariety="0" mirror="true" name="input_focus_pane_cp07" type="Pane"/>
@@ -2470,7 +2470,7 @@
     <Component drawingorder="2" id="5315" maxVariety="1" mirror="true" name="sc_clock_pane_g1" type="Graphic"/>
     <Component drawingorder="3" id="5316" maxVariety="1" mirror="true" name="sc_clock_pane_t3" type="Text"/>
     <Component drawingorder="113" id="5317" maxVariety="0" mirror="false" name="main_fs_bigclock_pane" type="Pane"/>
-    <Component drawingorder="0" id="5318" maxVariety="3" mirror="true" name="main_fs_bigclock_pane_g1" type="Graphic"/>
+    <Component drawingorder="0" id="5318" maxVariety="4" mirror="true" name="main_fs_bigclock_pane_g1" type="Graphic"/>
     <Component drawingorder="0" id="5319" maxVariety="1" mirror="true" name="main_fs_bigclock_pane_t1" type="Text"/>
     <Component drawingorder="1" id="5320" maxVariety="1" mirror="true" name="main_fs_bigclock_pane_t2" type="Text"/>
     <Component drawingorder="2" id="5321" maxVariety="1" mirror="true" name="main_fs_bigclock_pane_t3" type="Text"/>
@@ -3011,15 +3011,15 @@
     <Component drawingorder="0" id="7110" maxVariety="0" mirror="true" name="fs_bigclock_status_title_pane_t1" type="Text"/>
     <Component drawingorder="0" id="7111" maxVariety="0" mirror="true" name="fs_bigclock_status_battery_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="7112" maxVariety="0" mirror="true" name="fs_bigclock_status_battery_pane_g2" type="Graphic"/>
-    <Component drawingorder="6" id="7113" maxVariety="3" mirror="true" name="main_fs_bigclock_clock_pane" type="Pane"/>
-    <Component drawingorder="7" id="7114" maxVariety="3" mirror="true" name="main_fs_bigclock_indi_pane" type="Pane"/>
-    <Component drawingorder="0" id="7115" maxVariety="0" mirror="true" name="main_fs_bigclock_clock_pane_g1" type="Graphic"/>
-    <Component drawingorder="1" id="7116" maxVariety="0" mirror="true" name="main_fs_bigclock_clock_pane_g2" type="Graphic"/>
-    <Component drawingorder="2" id="7117" maxVariety="0" mirror="true" name="main_fs_bigclock_clock_pane_g3" type="Graphic"/>
-    <Component drawingorder="3" id="7118" maxVariety="0" mirror="true" name="main_fs_bigclock_clock_pane_g4" type="Graphic"/>
+    <Component drawingorder="6" id="7113" maxVariety="4" mirror="true" name="main_fs_bigclock_clock_pane" type="Pane"/>
+    <Component drawingorder="7" id="7114" maxVariety="4" mirror="true" name="main_fs_bigclock_indi_pane" type="Pane"/>
+    <Component drawingorder="0" id="7115" maxVariety="1" mirror="true" name="main_fs_bigclock_clock_pane_g1" type="Graphic"/>
+    <Component drawingorder="1" id="7116" maxVariety="1" mirror="true" name="main_fs_bigclock_clock_pane_g2" type="Graphic"/>
+    <Component drawingorder="2" id="7117" maxVariety="1" mirror="true" name="main_fs_bigclock_clock_pane_g3" type="Graphic"/>
+    <Component drawingorder="3" id="7118" maxVariety="1" mirror="true" name="main_fs_bigclock_clock_pane_g4" type="Graphic"/>
     <Component drawingorder="8" id="7119" maxVariety="0" mirror="true" name="main_fs_clock_dumped_data" type="Pane"/>
-    <Component drawingorder="4" id="7121" maxVariety="0" mirror="true" name="main_fs_bigclock_clock_pane_t1" type="Text"/>
-    <Component drawingorder="5" id="7122" maxVariety="0" mirror="true" name="main_fs_bigclock_clock_pane_t2" type="Text"/>
+    <Component drawingorder="4" id="7121" maxVariety="1" mirror="true" name="main_fs_bigclock_clock_pane_t1" type="Text"/>
+    <Component drawingorder="5" id="7122" maxVariety="1" mirror="true" name="main_fs_bigclock_clock_pane_t2" type="Text"/>
     <Component drawingorder="3" id="7124" maxVariety="1" mirror="true" name="main_fs_bigclock_indicator_pane" type="Pane"/>
     <Component drawingorder="5" id="7125" maxVariety="1" mirror="true" name="list_single_fs_bigclock_pane" type="Pane"/>
     <Component drawingorder="0" id="7127" maxVariety="0" mirror="true" name="main_fs_bigclock_indicator_pane_g1" type="Graphic"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LayoutAttributes createdOn="2010-04-19 15:32:16.508" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.848015945809247">
+<LayoutAttributes createdOn="2010-05-10 16:46:58.205" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.848015945809247">
   <attributeset compId="1" name="D">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -105,6 +105,18 @@
     </attribute>
     <attribute id="236" name="Height window maximum landscape">
       <calc value="226"/>
+    </attribute>
+    <attribute id="1094" name="SP List Margin left">
+      <calc value="8"/>
+    </attribute>
+    <attribute id="1095" name="SP List Margin right">
+      <calc value="4"/>
+    </attribute>
+    <attribute id="1098" name="SP List Column Gap A">
+      <calc value="6"/>
+    </attribute>
+    <attribute id="1099" name="SP List Column Gap general">
+      <calc value="5"/>
     </attribute>
   </attributeset>
   <attributeset compId="14" name="a0">
@@ -2296,10 +2308,10 @@
       <calc value="false"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="14" zoom="-3 zoom"/>
-      <calc value="13" zoom="-2 zoom"/>
-      <calc value="10"/>
-      <calc value="12" zoom="-1 zoom"/>
+      <calc value="12" zoom="-3 zoom"/>
+      <calc value="12" zoom="-2 zoom"/>
+      <calc value="9"/>
+      <calc value="10" zoom="-1 zoom"/>
     </attribute>
     <attribute id="50" name="Hz Align">
       <calc value="left"/>
@@ -6710,7 +6722,7 @@
       <calc value="Forced"/>
     </attribute>
     <attribute id="25" name="gap">
-      <calc value="3"/>
+      <calc value="2"/>
     </attribute>
     <attribute id="46" name="Multi Row">
       <calc value="true"/>
@@ -7888,7 +7900,7 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="11"/>
+      <calc value="14"/>
     </attribute>
   </attributeset>
   <attributeset compId="6219" name="a0">

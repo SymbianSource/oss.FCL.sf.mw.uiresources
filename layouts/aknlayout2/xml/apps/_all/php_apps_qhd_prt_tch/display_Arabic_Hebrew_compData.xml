@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2010-04-19 15:41:49.85" LayoutName="php_apps_qhd_prt_tch" LayoutSetId="285" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.835518512136936" MasterName="m_app_tch_92" ppi="229.0" ppiUnit="Inches" resolutionHeight="640" resolutionWidth="360" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
+<Layout createdOn="2010-05-10 17:03:57.174" LayoutName="php_apps_qhd_prt_tch" LayoutSetId="285" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.835518512136936" MasterName="m_app_tch_92" ppi="229.0" ppiUnit="Inches" resolutionHeight="640" resolutionWidth="360" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
     <Component drawingorder="0" id="1" mirror="true" name="Screen" type="Screen"/>
     <Component drawingorder="0" id="2" maxVariety="0" mirror="true" name="application_window" type="Container"/>
     <Component drawingorder="13" id="10" maxVariety="0" mirror="true" name="navi_pane_g1" type="Graphic"/>
@@ -703,7 +703,7 @@
     <Component drawingorder="5" id="2559" maxVariety="0" mirror="true" name="msg_data_pane_g6" type="Graphic"/>
     <Component drawingorder="6" id="2560" maxVariety="0" mirror="true" name="msg_data_pane_g7" type="Graphic"/>
     <Component drawingorder="1" id="2561" maxVariety="0" mirror="true" name="scroll_pane_cp017" type="Pane"/>
-    <Component drawingorder="7" id="2562" maxVariety="1" mirror="true" name="msg_text_pane" type="Pane"/>
+    <Component drawingorder="7" id="2562" maxVariety="2" mirror="true" name="msg_text_pane" type="Pane"/>
     <Component drawingorder="0" id="2563" maxVariety="0" mirror="true" name="msg_header_pane" type="Pane"/>
     <Component drawingorder="1" id="2564" maxVariety="0" mirror="true" name="msg_body_pane" type="Pane"/>
     <Component drawingorder="0" id="2565" maxVariety="0" mirror="true" name="input_focus_pane_cp07" type="Pane"/>

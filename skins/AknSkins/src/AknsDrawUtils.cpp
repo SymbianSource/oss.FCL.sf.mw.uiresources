@@ -382,9 +382,10 @@ inline static TBool BlitL(
     {
     CAknsAppSkinInstance* appInstance = 
         static_cast<CAknsAppSkinInstance*>(aSkin);
-        
+
     if ( IsBackgroundItem( aIID,appInstance ) && 
-            appInstance && appInstance->AnimBackgroundState() )
+            appInstance && appInstance->AnimBackgroundState() &&
+            !appInstance->AnimationBackgroundDisabled() )
         {
         if( (aDrawParam&KAknsDrawParamPrepareOnly) )
             {

@@ -1485,7 +1485,9 @@ enum TAknsQsnTextColorsIndex
     //Text#82  Call handling, Answer-button text. #ffffff
     EAknsCIQsnTextColorsCG82   = 81,
     //Text#83  Call handling, Reject-button text. #ffffff
-    EAknsCIQsnTextColorsCG83   = 82
+    EAknsCIQsnTextColorsCG83   = 82,
+    //Text#84  AVKON Buttons, AVKON button pressed state default texts. #445a72
+    EAknsCIQsnTextColorsCG84   = 83
     };
 
 /**
@@ -22130,6 +22132,57 @@ static const TAknsItemID KAknsIIDQgnPropSetCamTab2 =
 
 static const TAknsItemID KAknsIIDQtgIndiSquareGrid =
     { EAknsMajorGeneric, EAknsMinorGenericQtgIndiSquareGrid };
+
+static const TAknsItemID KAknsIIDQgnHereAndNowApp =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnHereAndNowApp };
+
+static const TAknsItemID KAknsIIDQgnIndiInputQwertyPage11Ah =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputQwertyPage11Ah };
+
+static const TAknsItemID KAknsIIDQgnIndiInputQwertyPage12Ah =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputQwertyPage12Ah };
+
+static const TAknsItemID KAknsIIDQgnIndiInputQwertyPage22Ah =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputQwertyPage22Ah };
+
+static const TAknsItemID KAknsIIDQgnIndiTbOviMusic =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbOviMusic };
+
+static const TAknsItemID KAknsIIDQgnMenuGroupMyapps =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuGroupMyapps };
+
+static const TAknsItemID KAknsIIDQgnMenuOtasyncLst =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuOtasyncLst };
+
+static const TAknsItemID KAknsIIDQgnNoteOtasyncCreatebu =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnNoteOtasyncCreatebu };
+
+static const TAknsItemID KAknsIIDQgnNoteOtasyncRetrievebu =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnNoteOtasyncRetrievebu };
+
+static const TAknsItemID KAknsIIDQgnNoteOtasyncSync =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnNoteOtasyncSync };
+
+static const TAknsItemID KAknsIIDQgnPropOtasyncLog =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropOtasyncLog };
+
+static const TAknsItemID KAknsIIDQgnPropOtasyncSync =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropOtasyncSync };
+
+static const TAknsItemID KAknsIIDQgnPropPslnAudioThemeSub =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropPslnAudioThemeSub };
+
+static const TAknsItemID KAknsIIDQgnGrafCamSplash =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnGrafCamSplash };
+
+static const TAknsItemID KAknsIIDQgnGrafTaskswitcherCamcoder =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnGrafTaskswitcherCamcoder };
+
+static const TAknsItemID KAknsIIDQgnGrafTaskswitcherCamera =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnGrafTaskswitcherCamera };
+
+static const TAknsItemID KAknsIIDQgnPropSocialCommunities =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropSocialCommunities };
 
 // SCMMARKER_INSERTIONPOINT
 
