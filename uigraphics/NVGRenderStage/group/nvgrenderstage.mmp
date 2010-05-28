@@ -1,0 +1,53 @@
+// Copyright (c) 2008-2010 Nokia Corporation and/or its subsidiary(-ies).
+// All rights reserved.
+// This component and the accompanying materials are made available
+// under the terms of "Eclipse Public License v1.0"
+// which accompanies this distribution, and is available
+// at the URL "http://www.eclipse.org/legal/epl-v10.html".
+//
+// Initial Contributors:
+// Nokia Corporation - initial contribution.
+//
+// Contributors:
+// Symbian Foundation Ltd - conversion from nvgrenderstage
+//
+// Description:
+// Render Stage which converts NVG Icon extended bitmaps into simple bitmaps
+// using nvgdecoder.dll
+//
+
+TARGET		nvgrenderstage.dll
+TARGETTYPE	PLUGIN
+UID		0x10009D8D 0x1028653A
+CAPABILITY      PowerMgmt ReadDeviceData WriteDeviceData ProtServ
+VENDORID	0x70000001
+
+MACRO		SYMBIAN_GRAPHICS_GCE
+
+USERINCLUDE	../src
+MW_LAYER_SYSTEMINCLUDE
+SYSTEMINCLUDE /epoc32/include/platform/vg
+
+SOURCEPATH	../src
+SOURCE	nvgrenderstage.cpp
+SOURCE	nvgrenderstagefactory.cpp
+SOURCE	nvgrenderstageplugin.cpp
+SOURCE	vgigraphicsinterface.cpp
+
+SOURCEPATH	../res
+RESOURCE	nvgrenderstage.rss
+
+LIBRARY	ecom.lib
+LIBRARY	estor.lib
+LIBRARY	fbscli.lib
+LIBRARY	euser.lib
+LIBRARY	gdi.lib
+LIBRARY	bitgdi.lib
+LIBRARY	wsgraphicdrawer.lib
+LIBRARY	graphicsresource.lib
+LIBRARY	ws32.lib // for RWsGraphicMsgBuf 
+LIBRARY nvgdecoder_sw.lib // for CNvgEngine
+LIBRARY libVGI.lib
+LIBRARY libOpenVG_sw.lib
+
+SMPSAFE

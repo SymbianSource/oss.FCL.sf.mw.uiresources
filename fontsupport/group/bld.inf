@@ -17,4 +17,4 @@
 
 
 #include "../fontprovider/Group/bld.inf"
-#include "../fontutils/group/bld.inf"
+#include "../fontutils/FontUtils/group/bld.inf"
