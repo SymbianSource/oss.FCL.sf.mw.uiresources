@@ -758,7 +758,6 @@ CAknsAppSkinInstanceCacheEntry* CAknsAppSkinInstance::LookupCreateAndCacheL(
             {
             // Do not create an entry for typed miss, otherwise we might hide
             // a real item
-            delete itemData;
             return NULL;
             }
         }

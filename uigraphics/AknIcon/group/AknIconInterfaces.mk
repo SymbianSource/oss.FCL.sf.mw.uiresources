@@ -33,9 +33,9 @@ MAKMAKE :
 BLD : do_nothing
 
 CLEAN :
-	-$(call remove,$(EPOCROOT)epoc32/include/platform/mw/MifHeader.cdl.h)	
-	-$(call remove,$(EPOCROOT)epoc32/include/platform/mw/MifHeader.cdl.common.h)	
-	-$(call remove,$(EPOCROOT)epoc32/include/platform/mw/MifHeader.cdl.common.hrh)	
+	-$(call remove,$(EPOCROOT)epoc32/include/platform/mw/mifheader.cdl.h)	
+	-$(call remove,$(EPOCROOT)epoc32/include/platform/mw/mifheader.cdl.common.h)	
+	-$(call remove,$(EPOCROOT)epoc32/include/platform/mw/mifheader.cdl.common.hrh)	
 
 LIB : do_nothing
 
@@ -48,8 +48,8 @@ FREEZE : do_nothing
 SAVESPACE : do_nothing
 
 RELEASABLES :
-	@echo $(EPOCROOT)epoc32/include/platform/mw/MifHeader.cdl.h
-	@echo $(EPOCROOT)epoc32/include/platform/mw/MifHeader.cdl.common.h
-	@echo $(EPOCROOT)epoc32/include/platform/mw/MifHeader.cdl.common.hrh
+	@echo $(EPOCROOT)epoc32/include/platform/mw/mifheader.cdl.h
+	@echo $(EPOCROOT)epoc32/include/platform/mw/mifheader.cdl.common.h
+	@echo $(EPOCROOT)epoc32/include/platform/mw/mifheader.cdl.common.hrh
 
 FINAL : do_nothing

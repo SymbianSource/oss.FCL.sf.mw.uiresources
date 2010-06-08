@@ -32,3 +32,4 @@ PRJ_EXPORTS
 ../inc/AknInternalIconUtils.h     MW_LAYER_PUBLIC_EXPORT_PATH(AknInternalIconUtils.h)
 ../inc/AknIconHeader.h         MW_LAYER_PUBLIC_EXPORT_PATH(AknIconHeader.h)
 ../inc/AknIconHeader.inl         MW_LAYER_PUBLIC_EXPORT_PATH(AknIconHeader.inl)
+../inc/SvgtRasterizerKeyDefs.hrh MW_LAYER_PUBLIC_EXPORT_PATH(SvgtRasterizerKeyDefs.hrh)

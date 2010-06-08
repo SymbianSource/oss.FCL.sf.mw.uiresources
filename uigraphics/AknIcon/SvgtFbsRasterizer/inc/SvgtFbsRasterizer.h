@@ -21,6 +21,9 @@
 #include "SvgtRegisteredBitmap.h"
 #include "svgtgraphicsinterface.h"
 #include <graphics/fbsrasterizer.h>
+#include <graphics/fbsrasterizerclearcache.h>
+#include "SvgtRasterizerCacheLimitHandler.h"
+
 #include <e32base.h>
 #include <VG/openvg.h>
 
@@ -36,11 +39,14 @@ class TAknIconHeader;
 
 TBool operator==(const CFbsRasterizer::TBitmapDesc& aBitmapDesc1, const CFbsRasterizer::TBitmapDesc& aBitmapDesc2);
 
+class CSvgtRasterizerOOMPropertyMonitor;
 
 /** Example implementation of a rasterizer that is used to generate pixel
 data for extended bitmaps of example type KUidExtendedBitmapExample. 
  */
-NONSHARABLE_CLASS (CSvgtFbsRasterizer) : public CFbsRasterizer
+NONSHARABLE_CLASS (CSvgtFbsRasterizer) : public CFbsRasterizer, 
+                                            public MFbsRasterizerClearCache,
+                                            public MSvgtRasterizerCacheLimitHandler
     {
 public:
     IMPORT_C static CFbsRasterizer* New();
@@ -100,6 +106,13 @@ private:
      * Returns cache limit (if) specific to process
      */
     TInt GetCacheLimit(TUid aProcessUID) const;
+
+    //From MFbsRasterizerClearCache
+    virtual void ClearCache();
+    
+    //from MSvgtRasterizerCacheLimitHandler
+    virtual void ChangeCacheLimit( TBool aChangeCacheLimit );
+
 private: //Data members
     /** List of currently registered extended bitmaps, the key is the bitmap id.
      */
@@ -114,6 +127,7 @@ private: //Data members
      */
     
     CSvgtGraphicsInterface * iGraphicsInterface;
+    CSvgtRasterizerOOMPropertyMonitor* iMonitor;
          
     TBool iIsRasterizerValidState;
     TBool iMatricesUpdated;

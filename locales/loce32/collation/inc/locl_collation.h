@@ -20,7 +20,7 @@
 #define __LOCL_COLLATION_H_
 
 #if !defined(__E32STD_H__)
-#include <E32std.h>
+#include <e32std.h>
 #endif
 
 #ifdef _UNICODE

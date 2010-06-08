@@ -26,15 +26,6 @@
 
 PRJ_EXPORTS
 
-// Copy font rasterizer
-../iTypeRaster/winscw/ityperast.dll                 /epoc32/release/winscw/udeb/iTypeRast.dll
-../iTypeRaster/winscw/ityperast.dll                 /epoc32/release/winscw/urel/iTypeRast.dll
-../iTypeRaster/winscw/ityperast.RSC                 /epoc32/release/winscw/udeb/z/resource/plugins/iTypeRast.rsc
-../iTypeRaster/winscw/ityperast.RSC                 /epoc32/release/winscw/urel/z/resource/plugins/iTypeRast.rsc
-
-../iTypeRaster/armv5/ityperast.dll                  /epoc32/release/armv5/udeb/iTypeRast.dll
-../iTypeRaster/armv5/ityperast.dll                  /epoc32/release/armv5/urel/iTypeRast.dll
-../iTypeRaster/armv5/ityperast.RSC                  /epoc32/data/z/resource/plugins/iTypeRast.RSC
 
 // Select correct font source directory
 #ifndef RD_KANNADA_FONTS

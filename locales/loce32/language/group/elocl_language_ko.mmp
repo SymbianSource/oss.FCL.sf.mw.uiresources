@@ -29,7 +29,7 @@ SOURCEPATH	../src
 SOURCE	language.cpp
 SOURCE	language_ko.cpp
 SOURCE  unicodeconv.cpp
-SOURCE  CP949.cpp
+SOURCE  Cp949.cpp
 
 // This is a SYSTEMINCLUDE macro containing the middleware
 // layer specific include directories

@@ -24,7 +24,7 @@
 #include <DRMRights.h>
 
 #include <DRMHelper.h>
-#include <caf/caf.h>
+#include <caf/cafplatform.h>
 #include <caf/rightsinfo.h>
 
 #include "AknsSrvUtils.h"

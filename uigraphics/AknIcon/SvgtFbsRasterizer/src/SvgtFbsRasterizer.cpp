@@ -28,6 +28,8 @@
 #include <bitstd.h>
 #include <bitdev.h>
 
+#include "SvgtRasterizerOOMPropertyMonitor.h"
+
 TBool operator==(const CFbsRasterizer::TBitmapDesc& aBitmapDesc1, 
 				 const CFbsRasterizer::TBitmapDesc& aBitmapDesc2)
 	{
@@ -64,11 +66,10 @@ EXPORT_C CFbsRasterizer* CSvgtFbsRasterizer::New()
 
 /** Constructor */
 CSvgtFbsRasterizer::CSvgtFbsRasterizer()
-    :iRegisteredBmps(_FOFF(CSvgtRegisteredBitmap, iLink)), iRecentBmps(_FOFF(CSvgtRegisteredBitmap, iLink))
-	{
-	    RProcess currentProcess;
-	    iCacheLimit = GetCacheLimit(currentProcess.SecureId());
-	    }
+:iRegisteredBmps(_FOFF(CSvgtRegisteredBitmap, iLink)), iRecentBmps(_FOFF(CSvgtRegisteredBitmap, iLink))
+	            {
+
+	            }
 
 CSvgtFbsRasterizer::~CSvgtFbsRasterizer()
     {
@@ -86,6 +87,18 @@ CSvgtFbsRasterizer::~CSvgtFbsRasterizer()
     if ( iMatricesUpdated )
         {
         RestoreMatrices();
+        }
+    delete iMonitor;//OOM
+    }
+
+void CSvgtFbsRasterizer::ChangeCacheLimit( TBool aChangeCacheLimit )//OOM
+    {
+    iCacheLimit = KMaxRecentBmpCacheSize;
+
+    if(aChangeCacheLimit)
+        {
+        RProcess currentProcess;
+        iCacheLimit = GetCacheLimit(currentProcess.SecureId());
         }
     }
 
@@ -206,11 +219,28 @@ const TUint32* CSvgtFbsRasterizer::ScanLine(TInt64 aBitmapId, const TPoint& aPix
 /**  No extension interaces are available, KErrNotSupported for all aInterfaceId passed.
 @see CFbsRasterizer::GetInterface()
  */
-TInt CSvgtFbsRasterizer::GetInterface(TUid /*aInterfaceId*/, TAny*& aInterface)
-	{
-	aInterface = NULL;
-	return KErrExtensionNotSupported;
-	}
+TInt CSvgtFbsRasterizer::GetInterface(TUid aInterfaceId, TAny*& aInterface)
+    {
+    aInterface = NULL;
+    TInt err = KErrNone;
+
+    switch (aInterfaceId.iUid)
+        {
+        case KUidFbsRasterizerClearCache:
+            aInterface = static_cast<MFbsRasterizerClearCache*>(this);
+            break;
+        case KUidEnableSvgtRasterizer:
+            aInterface = static_cast<MSvgtRasterizerCacheLimitHandler*>(this);
+            break;
+        default:
+            err = KErrExtensionNotSupported;                        
+            break;
+        }
+
+    return err;
+
+
+    }
 
 
 /** Gets a bitmap that has been registered with this rasterizer.
@@ -253,6 +283,16 @@ CSvgtRegisteredBitmap* CSvgtFbsRasterizer::RecentBitmap(TInt64 aBitmapId)
 
 void CSvgtFbsRasterizer::InitializeRasterizer()
     {
+    TBool cacheEnabled=TRUE;
+    RProperty::Get(KSvgtPropertyCategory, ESvgtPropertyBool, cacheEnabled);
+    iCacheLimit = KMaxRecentBmpCacheSize;
+    if(cacheEnabled)
+        {
+        RProcess currentProcess;
+        iCacheLimit = GetCacheLimit(currentProcess.SecureId());
+        }
+    TRAPD(err, iMonitor = CSvgtRasterizerOOMPropertyMonitor::NewL());
+    iIsRasterizerValidState = ( err == KErrNone);
     }
 
 void CSvgtFbsRasterizer::RenderBitmapL(CSvgtRegisteredBitmap& aPixMap, CFbsBitmap * aMask, 
@@ -639,11 +679,11 @@ TInt CSvgtFbsRasterizer::MapOpenVgErrorCodeToSymbian(TInt aErrorCode)
     }
 
 TInt CSvgtFbsRasterizer::GetCacheLimit(TUid aProcessUID) const
-    {
+{
     TInt cacheLimit = KMaxRecentBmpCacheSize;
-
+    
     RProcess currentProcess;
-   
+    
     if(aProcessUID == TUid::Uid(0x10003B20)) // Alf 
         {
         cacheLimit = 0x600000; 
@@ -654,4 +694,17 @@ TInt CSvgtFbsRasterizer::GetCacheLimit(TUid aProcessUID) const
         }
     
     return cacheLimit;
+}
+void CSvgtFbsRasterizer::ClearCache()//OOM 
+    {
+    CSvgtRegisteredBitmap* regBmp=NULL;
+    if(iCacheLimit>KMaxRecentBmpCacheSize)
+        { 
+        while (!iRecentBmps.IsEmpty()&&(iTotalRecentBmpSize > KMaxRecentBmpCacheSize))
+            {
+            regBmp = iRecentBmps.Last();
+            iTotalRecentBmpSize -= regBmp->DataSize();
+            delete regBmp;
+            }
+        }
     }

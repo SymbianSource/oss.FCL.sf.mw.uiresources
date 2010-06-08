@@ -21,7 +21,7 @@
 #ifndef SKINLAYOUT_CDL
 #define SKINLAYOUT_CDL
 
-#include <cdlengine.h>
+#include <CdlEngine.h>
 #include <skinlayout.cdl.common.h>
 
 namespace SkinLayout

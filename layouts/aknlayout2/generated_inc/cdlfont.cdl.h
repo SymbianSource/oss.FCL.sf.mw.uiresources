@@ -21,7 +21,7 @@
 #ifndef CDLFONT_CDL
 #define CDLFONT_CDL
 
-#include <cdlengine.h>
+#include <CdlEngine.h>
 #include <cdlfont.cdl.common.h>
 
 namespace CDL_Font
