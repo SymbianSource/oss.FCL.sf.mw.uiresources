@@ -6600,6 +6600,10 @@ struct SCdlImpl6
 	Tmain_fs_bigclock_clock_pane_t1_ParamLimits_sig* main_fs_bigclock_clock_pane_t1_ParamLimits;
 	Tmain_fs_bigclock_clock_pane_t2_ParamLimits_sig* main_fs_bigclock_clock_pane_t2_ParamLimits;
 	Tmain_fs_bigclock_clock_pane_t_ParamLimits_sig* main_fs_bigclock_clock_pane_t_ParamLimits;
+	Tmain_mup3_lyrics_pane_ParamLimits_sig* main_mup3_lyrics_pane_ParamLimits;
+	Tmain_mup3_lyrics_pane_sig* main_mup3_lyrics_pane;
+	Tmain_mup3_lyrics_pane_t1_ParamLimits_sig* main_mup3_lyrics_pane_t1_ParamLimits;
+	Tmain_mup3_lyrics_pane_t1_sig* main_mup3_lyrics_pane_t1;
 	};
 #ifdef __WINS__
 struct SCdlImpl

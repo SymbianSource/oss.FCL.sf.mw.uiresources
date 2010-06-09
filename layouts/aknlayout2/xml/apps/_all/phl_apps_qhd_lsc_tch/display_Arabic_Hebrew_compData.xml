@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2010-05-10 17:07:37.466" LayoutName="phl_apps_qhd_lsc_tch" LayoutSetId="282" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.835518512136936" MasterName="m_app_tch_92" ppi="229.0" ppiUnit="Inches" resolutionHeight="360" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
+<Layout createdOn="2010-05-20 18:25:45.662" LayoutName="phl_apps_qhd_lsc_tch" LayoutSetId="282" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.835518512136936" MasterName="m_app_tch_92" ppi="229.0" ppiUnit="Inches" resolutionHeight="360" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
     <Component drawingorder="0" id="1" mirror="true" name="Screen" type="Screen"/>
     <Component drawingorder="0" id="2" maxVariety="0" mirror="true" name="application_window" type="Container"/>
     <Component drawingorder="16" id="11" maxVariety="3" mirror="true" name="navi_pane_mv_g2" type="Graphic"/>
@@ -1627,13 +1627,13 @@
     <Component drawingorder="11" id="4407" maxVariety="5" mirror="true" name="aid_placing_vt_set_title" type="Pane"/>
     <Component drawingorder="12" id="4408" maxVariety="5" mirror="true" name="aid_placing_vt_set_content" type="Pane"/>
     <Component drawingorder="86" id="4409" maxVariety="0" mirror="false" name="main_call4_pane" type="Pane"/>
-    <Component drawingorder="0" id="4410" maxVariety="3" mirror="true" name="call4_windows_pane" type="Pane"/>
-    <Component drawingorder="1" id="4411" maxVariety="3" mirror="true" name="grid_call4_button_pane" type="Pane"/>
-    <Component drawingorder="2" id="4412" maxVariety="3" mirror="true" name="aid_size_button_call4" type="Pane"/>
-    <Component drawingorder="0" id="4413" maxVariety="3" mirror="true" name="cell_call4_button_pane" type="Pane"/>
-    <Component drawingorder="0" id="4414" maxVariety="4" mirror="true" name="bg_button_pane_cp09" type="Pane"/>
-    <Component drawingorder="1" id="4415" maxVariety="4" mirror="true" name="cell_call4_button_pane_g1" type="Graphic"/>
-    <Component drawingorder="2" id="4416" maxVariety="4" mirror="true" name="cell_call4_button_pane_t1" type="Text"/>
+    <Component drawingorder="0" id="4410" maxVariety="3" mirror="false" name="call4_windows_pane" type="Pane"/>
+    <Component drawingorder="1" id="4411" maxVariety="3" mirror="false" name="grid_call4_button_pane" type="Pane"/>
+    <Component drawingorder="2" id="4412" maxVariety="3" mirror="false" name="aid_size_button_call4" type="Pane"/>
+    <Component drawingorder="0" id="4413" maxVariety="3" mirror="false" name="cell_call4_button_pane" type="Pane"/>
+    <Component drawingorder="0" id="4414" maxVariety="4" mirror="false" name="bg_button_pane_cp09" type="Pane"/>
+    <Component drawingorder="1" id="4415" maxVariety="4" mirror="false" name="cell_call4_button_pane_g1" type="Graphic"/>
+    <Component drawingorder="2" id="4416" maxVariety="4" mirror="false" name="cell_call4_button_pane_t1" type="Text"/>
     <Component drawingorder="0" id="4417" maxVariety="4" mirror="true" name="popup_call4_audio_first_window" type="Pane"/>
     <Component drawingorder="1" id="4418" maxVariety="1" mirror="true" name="popup_call4_audio_second_window" type="Pane"/>
     <Component drawingorder="2" id="4420" maxVariety="1" mirror="true" name="popup_call4_audio_wait_window" type="Pane"/>
@@ -1812,7 +1812,7 @@
     <Component drawingorder="1" id="4603" maxVariety="0" mirror="false" name="cam4_zoom_cont_pane_g2" type="Graphic"/>
     <Component drawingorder="2" id="4604" maxVariety="0" mirror="false" name="cam4_zoom_cont_pane_g3" type="Graphic"/>
     <Component drawingorder="4" id="4605" maxVariety="4" mirror="true" name="popup_call4_audio_in_window" type="Pane"/>
-    <Component drawingorder="3" id="4606" maxVariety="1" mirror="true" name="call4_image_pane" type="Pane"/>
+    <Component drawingorder="3" id="4606" maxVariety="1" mirror="false" name="call4_image_pane" type="Pane"/>
     <Component drawingorder="0" id="4607" maxVariety="0" mirror="true" name="call4_image_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="4608" maxVariety="0" mirror="true" name="call4_image_pane_g2" type="Graphic"/>
     <Component drawingorder="1" id="4609" maxVariety="0" mirror="true" name="bg_popup_call2_act_pane_cp02" type="Pane"/>
@@ -2493,7 +2493,7 @@
     <Component drawingorder="5" id="5339" maxVariety="0" mirror="true" name="main_radioblah_rocker_ctrl_pane_g6" type="Graphic"/>
     <Component drawingorder="0" id="5340" maxVariety="5" mirror="true" name="main_radioblah_info_pane_t1" type="Text"/>
     <Component drawingorder="1" id="5341" maxVariety="6" mirror="true" name="main_radioblah_info_pane_t2" type="Text"/>
-    <Component drawingorder="3" id="5342" maxVariety="4" mirror="true" name="cell_call4_button_pane_t1_copy1" type="Text"/>
+    <Component drawingorder="3" id="5342" maxVariety="4" mirror="false" name="cell_call4_button_pane_t1_copy1" type="Text"/>
     <Component drawingorder="4" id="5343" maxVariety="6" mirror="true" name="main_ncimui_pane_t1" type="Text"/>
     <Component drawingorder="5" id="5344" maxVariety="6" mirror="true" name="main_ncimui_pane_t2" type="Text"/>
     <Component drawingorder="1" id="5345" maxVariety="0" mirror="true" name="bg_popup_preview_window_pane_cp03" type="Pane"/>
@@ -2543,8 +2543,8 @@
     <Component drawingorder="0" id="5390" maxVariety="1" mirror="true" name="cell_cmail_l_pane" type="Pane"/>
     <Component drawingorder="0" id="5391" maxVariety="1" mirror="true" name="grid_highlight_pane_cp018" type="Pane"/>
     <Component drawingorder="1" id="5392" maxVariety="1" mirror="true" name="cell_cmail_l_pane_g1" type="Graphic"/>
-    <Component drawingorder="2" id="5393" maxVariety="0" mirror="true" name="cell_cmail_l_pane_t2" type="Text"/>
-    <Component drawingorder="3" id="5394" maxVariety="1" mirror="true" name="cell_cmail_l_pane_t1" type="Text"/>
+    <Component drawingorder="3" id="5393" maxVariety="1" mirror="true" name="cell_cmail_l_pane_t2" type="Text"/>
+    <Component drawingorder="2" id="5394" maxVariety="1" mirror="true" name="cell_cmail_l_pane_t1" type="Text"/>
     <Component drawingorder="2" id="5395" maxVariety="0" mirror="true" name="chi_dic_find_pane_g1" type="Graphic"/>
     <Component drawingorder="4" id="5396" maxVariety="1" mirror="true" name="call5_gesture_pane" type="Pane"/>
     <Component drawingorder="5" id="5397" maxVariety="1" mirror="true" name="call5_windows_pane" type="Pane"/>
@@ -3120,9 +3120,9 @@
     <Component drawingorder="2" id="7233" maxVariety="0" mirror="true" name="cf0_flow_pane_t1" type="Text"/>
     <Component drawingorder="138" id="7848" maxVariety="2" mirror="true" name="main_callh_pane" type="Pane"/>
     <Component drawingorder="0" id="7849" maxVariety="0" mirror="true" name="main_call6_pane" type="Pane"/>
-    <Component drawingorder="0" id="7850" maxVariety="1" mirror="true" name="call6_btn_grp_pane" type="Pane"/>
-    <Component drawingorder="1" id="7851" maxVariety="1" mirror="true" name="call6_pane_g1" type="Graphic"/>
-    <Component drawingorder="2" id="7852" maxVariety="1" mirror="true" name="popup_call6_1st_window" type="Pane"/>
+    <Component drawingorder="0" id="7850" maxVariety="1" mirror="false" name="call6_btn_grp_pane" type="Pane"/>
+    <Component drawingorder="1" id="7851" maxVariety="1" mirror="false" name="call6_pane_g1" type="Graphic"/>
+    <Component drawingorder="2" id="7852" maxVariety="1" mirror="false" name="popup_call6_1st_window" type="Pane"/>
     <Component drawingorder="0" id="7854" maxVariety="0" mirror="true" name="bg_popup_call2_in_pane_cp03" type="Pane"/>
     <Component drawingorder="1" id="7855" maxVariety="0" mirror="true" name="popup_call6_1st_window_g1" type="Graphic"/>
     <Component drawingorder="2" id="7856" maxVariety="0" mirror="true" name="popup_call6_1st_window_g2" type="Graphic"/>
@@ -3130,16 +3130,16 @@
     <Component drawingorder="4" id="7858" maxVariety="0" mirror="true" name="popup_call6_1st_window_t1" type="Text"/>
     <Component drawingorder="5" id="7859" maxVariety="0" mirror="true" name="popup_call6_1st_window_t2" type="Text"/>
     <Component drawingorder="6" id="7860" maxVariety="0" mirror="true" name="popup_call6_1st_window_t3" type="Text"/>
-    <Component drawingorder="3" id="7861" maxVariety="1" mirror="true" name="popup_call6_2nd_window" type="Pane"/>
+    <Component drawingorder="3" id="7861" maxVariety="1" mirror="false" name="popup_call6_2nd_window" type="Pane"/>
     <Component drawingorder="0" id="7862" maxVariety="0" mirror="true" name="bg_popup_call2_in_pane_cp04" type="Pane"/>
     <Component drawingorder="1" id="7864" maxVariety="0" mirror="true" name="popup_call6_2nd_window_g1" type="Graphic"/>
     <Component drawingorder="2" id="7865" maxVariety="0" mirror="true" name="popup_call6_2nd_window_g2" type="Graphic"/>
     <Component drawingorder="3" id="7866" maxVariety="0" mirror="true" name="popup_call6_2nd_window_g3" type="Graphic"/>
     <Component drawingorder="4" id="7867" maxVariety="0" mirror="true" name="popup_call6_2nd_window_t1" type="Text"/>
-    <Component drawingorder="0" id="7868" maxVariety="1" mirror="true" name="cell_call6_btn_pane" type="Pane"/>
-    <Component drawingorder="0" id="7869" maxVariety="0" mirror="true" name="bg_button_pane_cp15" type="Pane"/>
-    <Component drawingorder="1" id="7870" maxVariety="0" mirror="true" name="cell_call6_btn_pane_t1" type="Text"/>
-    <Component drawingorder="2" id="7871" maxVariety="0" mirror="true" name="cell_call6_btn_pane_g1" type="Graphic"/>
+    <Component drawingorder="0" id="7868" maxVariety="1" mirror="false" name="cell_call6_btn_pane" type="Pane"/>
+    <Component drawingorder="0" id="7869" maxVariety="0" mirror="false" name="bg_button_pane_cp15" type="Pane"/>
+    <Component drawingorder="1" id="7870" maxVariety="0" mirror="false" name="cell_call6_btn_pane_t1" type="Text"/>
+    <Component drawingorder="2" id="7871" maxVariety="0" mirror="false" name="cell_call6_btn_pane_g1" type="Graphic"/>
     <Component drawingorder="139" id="7873" maxVariety="0" mirror="true" name="main_wgtman_pane" type="Pane"/>
     <Component drawingorder="0" id="7874" maxVariety="3" mirror="true" name="listscroll_wgtman_pane" type="Pane"/>
     <Component drawingorder="1" id="7875" maxVariety="3" mirror="true" name="wgtman_btn_pane" type="Pane"/>
@@ -3364,4 +3364,6 @@
     <Component drawingorder="0" id="8116" maxVariety="0" mirror="false" name="wait_bar_pane_cp01" type="Pane"/>
     <Component drawingorder="1" id="8117" maxVariety="0" mirror="false" name="vorec_t6" type="Text"/>
     <Component drawingorder="2" id="8118" maxVariety="0" mirror="false" name="vorec_t5" type="Text"/>
+    <Component drawingorder="20" id="8122" maxVariety="3" mirror="true" name="main_mup3_lyrics_pane" type="Pane"/>
+    <Component drawingorder="0" id="8123" maxVariety="1" mirror="true" name="main_mup3_lyrics_pane_t1" type="Text"/>
 </Layout>

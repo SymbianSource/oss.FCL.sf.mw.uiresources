@@ -14330,6 +14330,16 @@ inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_t2_ParamLim
 
 inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_t_ParamLimits(TInt aLineIndex, TInt aVariety)		{ return (*(Tmain_fs_bigclock_clock_pane_t_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_fs_bigclock_clock_pane_t_ParamLimits)))(aLineIndex, aVariety); }
 
+// LAF Table : main_mup3_pane
+inline TAknLayoutScalableParameterLimits main_mup3_lyrics_pane_ParamLimits(TInt aVariety)		{ return (*(Tmain_mup3_lyrics_pane_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_mup3_lyrics_pane_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout main_mup3_lyrics_pane(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tmain_mup3_lyrics_pane_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_mup3_lyrics_pane)))(aVariety, aCol, aRow); }
+
+// LAF Table : main_mup3_lyrics_pane
+inline TAknLayoutScalableParameterLimits main_mup3_lyrics_pane_t1_ParamLimits(TInt aVariety)		{ return (*(Tmain_mup3_lyrics_pane_t1_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_mup3_lyrics_pane_t1_ParamLimits)))(aVariety); }
+
+inline TAknTextComponentLayout main_mup3_lyrics_pane_t1(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tmain_mup3_lyrics_pane_t1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_mup3_lyrics_pane_t1)))(aVariety, aCol, aRow); }
+
 #ifdef __VC32__
 #pragma component(mintypeinfo, on)
 #endif
@@ -28637,6 +28647,16 @@ public:
 	inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_t2_ParamLimits(TInt aVariety) const		{ return (*(Tmain_fs_bigclock_clock_pane_t2_ParamLimits_sig*)(GetFunction(EApiId_main_fs_bigclock_clock_pane_t2_ParamLimits)))(aVariety); }
 
 	inline TAknLayoutScalableParameterLimits main_fs_bigclock_clock_pane_t_ParamLimits(TInt aLineIndex, TInt aVariety) const		{ return (*(Tmain_fs_bigclock_clock_pane_t_ParamLimits_sig*)(GetFunction(EApiId_main_fs_bigclock_clock_pane_t_ParamLimits)))(aLineIndex, aVariety); }
+
+	// LAF Table : main_mup3_pane
+	inline TAknLayoutScalableParameterLimits main_mup3_lyrics_pane_ParamLimits(TInt aVariety) const		{ return (*(Tmain_mup3_lyrics_pane_ParamLimits_sig*)(GetFunction(EApiId_main_mup3_lyrics_pane_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout main_mup3_lyrics_pane(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tmain_mup3_lyrics_pane_sig*)(GetFunction(EApiId_main_mup3_lyrics_pane)))(aVariety, aCol, aRow); }
+
+	// LAF Table : main_mup3_lyrics_pane
+	inline TAknLayoutScalableParameterLimits main_mup3_lyrics_pane_t1_ParamLimits(TInt aVariety) const		{ return (*(Tmain_mup3_lyrics_pane_t1_ParamLimits_sig*)(GetFunction(EApiId_main_mup3_lyrics_pane_t1_ParamLimits)))(aVariety); }
+
+	inline TAknTextComponentLayout main_mup3_lyrics_pane_t1(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tmain_mup3_lyrics_pane_t1_sig*)(GetFunction(EApiId_main_mup3_lyrics_pane_t1)))(aVariety, aCol, aRow); }
 
 private:
 	CInstance();

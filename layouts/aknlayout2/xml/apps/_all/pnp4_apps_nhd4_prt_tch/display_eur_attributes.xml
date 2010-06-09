@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LayoutAttributes createdOn="2010-05-10 16:46:58.205" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.848015945809247">
+<LayoutAttributes createdOn="2010-05-20 18:02:11.308" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.848015945809247">
   <attributeset compId="1" name="D">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -5579,7 +5579,7 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="5"/>
+      <calc value="6"/>
     </attribute>
     <attribute id="49" name="Number of columns">
       <calc value="3"/>
@@ -7234,10 +7234,10 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="3"/>
+      <calc value="6"/>
     </attribute>
     <attribute id="49" name="Number of columns">
-      <calc value="3"/>
+      <calc value="1"/>
     </attribute>
     <attribute id="50" name="Hz Align">
       <calc value="left"/>
@@ -9084,7 +9084,7 @@
       <calc value="Forced"/>
     </attribute>
     <attribute id="25" name="gap">
-      <calc value="13"/>
+      <calc value="19"/>
     </attribute>
     <attribute id="47" name="Multi Column">
       <calc value="true"/>
@@ -9844,6 +9844,37 @@
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="false"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="8122" name="a0">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="false"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="8122" name="a1">
+    <attribute id="24" name="list type">
+      <calc value="Forced"/>
+    </attribute>
+    <attribute id="25" name="gap">
+      <calc value="1"/>
+    </attribute>
+    <attribute id="46" name="Multi Row">
+      <calc value="true"/>
+    </attribute>
+    <attribute id="48" name="Number of rows">
+      <calc value="17"/>
     </attribute>
   </attributeset>
 </LayoutAttributes>

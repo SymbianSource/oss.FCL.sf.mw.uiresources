@@ -6567,6 +6567,10 @@ enum TApiId
 	EApiId_main_fs_bigclock_clock_pane_t1_ParamLimits,
 	EApiId_main_fs_bigclock_clock_pane_t2_ParamLimits,
 	EApiId_main_fs_bigclock_clock_pane_t_ParamLimits,
+	EApiId_main_mup3_lyrics_pane_ParamLimits,
+	EApiId_main_mup3_lyrics_pane,
+	EApiId_main_mup3_lyrics_pane_t1_ParamLimits,
+	EApiId_main_mup3_lyrics_pane_t1,
 	E_TApiId_TableSize
 	};
 
@@ -13111,6 +13115,10 @@ typedef TAknLayoutScalableParameterLimits (Tmain_fs_bigclock_clock_pane_g_ParamL
 typedef TAknLayoutScalableParameterLimits (Tmain_fs_bigclock_clock_pane_t1_ParamLimits_sig)(TInt);
 typedef TAknLayoutScalableParameterLimits (Tmain_fs_bigclock_clock_pane_t2_ParamLimits_sig)(TInt);
 typedef TAknLayoutScalableParameterLimits (Tmain_fs_bigclock_clock_pane_t_ParamLimits_sig)(TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_mup3_lyrics_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tmain_mup3_lyrics_pane_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_mup3_lyrics_pane_t1_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_mup3_lyrics_pane_t1_sig)(TInt, TInt, TInt);
 
 } // end of namespace AknLayoutScalable_Apps
 

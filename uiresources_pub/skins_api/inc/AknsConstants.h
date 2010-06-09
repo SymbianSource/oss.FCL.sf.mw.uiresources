@@ -1487,7 +1487,9 @@ enum TAknsQsnTextColorsIndex
     //Text#83  Call handling, Reject-button text. #ffffff
     EAknsCIQsnTextColorsCG83   = 82,
     //Text#84  AVKON Buttons, AVKON button pressed state default texts. #445a72
-    EAknsCIQsnTextColorsCG84   = 83
+    EAknsCIQsnTextColorsCG84   = 83,
+    //Text#85  Calendar, Today number with underline. #334876
+    EAknsCIQsnTextColorsCG85   = 84
     };
 
 /**
@@ -1597,7 +1599,9 @@ enum TAknsQsnOtherColorsIndex
     // Other #22 Email, Email header background. #f2f6f6
     EAknsCIQsnOtherColorsCG22   = 21,
     // Other #23 Wallpaper mask, Homescreen status area mask #e9eef2
-    EAknsCIQsnOtherColorsCG23   = 22
+    EAknsCIQsnOtherColorsCG23   = 22,
+    // Other #24 Calendar, Background colour of today number #8a94ae
+    EAknsCIQsnOtherColorsCG24   = 23
     };
 
 /**
@@ -3037,6 +3041,12 @@ static const TAknsItemID KAknsIIDQgnGrafBarWaitAnim =
 
 static const TAknsItemID KAknsIIDQgnGrafFpsSwipeAnim =
     { EAknsMajorAvkon, EAknsMinorQgnGrafFpsSwipeAnim };
+
+static const TAknsItemID KAknsIIDQgnGrafVideoPluginAnimVideoPlaying =
+    { EAknsMajorAvkon, EAknsMinorQgnGrafVideoPluginAnimVideoPlaying };
+
+static const TAknsItemID KAknsIIDQgnNoteKeyguardTounlockAnimLeft =
+    { EAknsMajorAvkon, EAknsMinorQgnNoteKeyguardTounlockAnimLeft };
 
 // Browser animations
 
@@ -22183,6 +22193,36 @@ static const TAknsItemID KAknsIIDQgnGrafTaskswitcherCamera =
 
 static const TAknsItemID KAknsIIDQgnPropSocialCommunities =
     { EAknsMajorGeneric, EAknsMinorGenericQgnPropSocialCommunities };
+
+static const TAknsItemID KAknsIIDQgnIndiVid4TbCamera =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiVid4TbCamera };
+
+static const TAknsItemID KAknsIIDQgnNoteSwitchPlugin =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnNoteSwitchPlugin };
+
+static const TAknsItemID KAknsIIDQgnPropAttach =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropAttach };
+
+static const TAknsItemID KAknsIIDQgnPropNewMessage =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropNewMessage };
+
+static const TAknsItemID KAknsIIDQgnPropOutbox =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropOutbox };
+
+static const TAknsItemID KAknsIIDQgnIndiInputCaseNumeric2 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputCaseNumeric2 };
+
+static const TAknsItemID KAknsIIDQgnMenuIntrovideo =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuIntrovideo };
+
+static const TAknsItemID KAknsIIDQgnPropCmccSmsbusinesshall =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccSmsbusinesshall };
+
+static const TAknsItemID KAknsIIDQsnBigclockAnaloguePointerHoursScreensaver =
+    { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockAnaloguePointerHoursScreensaver };
+
+static const TAknsItemID KAknsIIDQsnBigclockAnaloguePointerMinutesScreensaver =
+    { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockAnaloguePointerMinutesScreensaver };
 
 // SCMMARKER_INSERTIONPOINT
 

@@ -13086,6 +13086,30 @@ const TUint16 KDataLookup[AknLayoutScalable_Apps::E_TApiId_TableSize] =
 0x9f1c,	// (0x00019748) vorec_slider_pane
 
 0x93fd,	// (0x00018c29) vidtel_button_pane_t1_ParamLimits
+
+0xc2c7,	// (0x0001baf3) main_fs_bigclock_clock_pane_g1_ParamLimits
+
+0xec05,	// (0x0001e431) main_fs_bigclock_clock_pane_g2_ParamLimits
+
+0xec10,	// (0x0001e43c) main_fs_bigclock_clock_pane_g3_ParamLimits
+
+0xec10,	// (0x0001e43c) main_fs_bigclock_clock_pane_g4_ParamLimits
+
+0xfe60,	// (0x0001f68c) main_fs_bigclock_clock_pane_g_ParamLimits
+
+0xec1c,	// (0x0001e448) main_fs_bigclock_clock_pane_t1_ParamLimits
+
+0x897b,	// (0x000181a7) main_fs_bigclock_clock_pane_t2_ParamLimits
+
+0xfe69,	// (0x0001f695) main_fs_bigclock_clock_pane_t_ParamLimits
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
 };
 
 
@@ -19610,6 +19634,18 @@ const AknLayoutScalable_Apps::SCdlImpl KCdlImpl =
 	&WindowLineVCR,
 	&WindowLineVCR,
 	&ParameterLimitsV,
+	0, // AknLayoutScalable_Apps::Tmain_fs_bigclock_clock_pane_g1_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tmain_fs_bigclock_clock_pane_g2_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tmain_fs_bigclock_clock_pane_g3_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tmain_fs_bigclock_clock_pane_g4_ParamLimits_sig*,
+	&ParameterLimitsTableLV,
+	0, // AknLayoutScalable_Apps::Tmain_fs_bigclock_clock_pane_t1_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tmain_fs_bigclock_clock_pane_t2_ParamLimits_sig*,
+	&ParameterLimitsTableLV,
+	0, // AknLayoutScalable_Apps::Tmain_mup3_lyrics_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tmain_mup3_lyrics_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tmain_mup3_lyrics_pane_t1_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tmain_mup3_lyrics_pane_t1_sig*,
 	};
 
 } // end of namespace AknLayoutScalable_Elaf_pvl4_apps_vga4_lsc_tch_Normal
