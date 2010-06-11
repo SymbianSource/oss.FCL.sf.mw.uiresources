@@ -25,7 +25,7 @@
 #include <e32std.h>
 #include <coeccntx.h>
 #include <aknappui.h>
-#include <cdlengine.h>
+#include <CdlEngine.h>
 #include <cdlrefs.h>
 
 // FORWARD DECLARATIONS

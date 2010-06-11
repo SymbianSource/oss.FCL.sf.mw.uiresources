@@ -25,7 +25,7 @@
 #include <testscripterinternal.h>
 #include <stiftestmodule.h>
 #include <testclassassert.h>
-#include <cdlengine.h>
+#include <CdlEngine.h>
 #include <e32des8.h>
 #include <coemain.h>
 #include <e32cmn.h>

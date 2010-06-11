@@ -21,7 +21,7 @@
 
 class MCdlChangeObserver;
 
-#include <cdlengine.h>
+#include <CdlEngine.h>
 #include <cdlexplorer.h>
 #include <cdluserpackageexplorer.h>
 

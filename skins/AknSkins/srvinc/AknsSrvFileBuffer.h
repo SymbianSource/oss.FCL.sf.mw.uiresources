@@ -24,6 +24,7 @@
 #include <e32std.h>
 #include <f32file.h>
 #include <caf/caf.h>
+#include <caf/cafplatform.h>
 // CLASS DECLARATION
 
 /**

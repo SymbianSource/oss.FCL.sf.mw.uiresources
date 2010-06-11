@@ -22,7 +22,7 @@
 #ifndef AKNLAYOUTSCALABLE_APPS_CDL_CUSTOM_H
 #define AKNLAYOUTSCALABLE_APPS_CDL_CUSTOM_H
 
-#include <cdlengdef.h>
+#include <CdlEngDef.h>
 #include "aknlayoutscalable_apps.cdl.common.h"
 
 namespace AknLayoutScalable_Apps

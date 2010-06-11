@@ -21,7 +21,7 @@
 #ifndef LAYOUTMETADATA_CDL
 #define LAYOUTMETADATA_CDL
 
-#include <cdlengine.h>
+#include <CdlEngine.h>
 #include <layoutmetadata.cdl.common.h>
 
 namespace Layout_Meta_Data

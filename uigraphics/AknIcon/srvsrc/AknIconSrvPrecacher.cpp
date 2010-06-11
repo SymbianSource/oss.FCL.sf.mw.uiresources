@@ -23,7 +23,7 @@
 #include <barsc.h>
 #include "AknIconSrvPrecacher.h"
 #include "AknIconSrv.h"
-#include <AknIconSrv.rsg>
+#include <akniconsrv.rsg>
 #include "AknIconTraces.h"
 
 #include "AknIconSrv.h"

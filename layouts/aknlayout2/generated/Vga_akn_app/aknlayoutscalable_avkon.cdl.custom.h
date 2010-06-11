@@ -22,7 +22,7 @@
 #ifndef AKNLAYOUTSCALABLE_AVKON_CDL_CUSTOM_H
 #define AKNLAYOUTSCALABLE_AVKON_CDL_CUSTOM_H
 
-#include <cdlengdef.h>
+#include <CdlEngDef.h>
 #include "aknlayoutscalable_avkon.cdl.common.h"
 
 namespace AknLayoutScalable_Avkon
