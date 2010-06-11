@@ -23,8 +23,8 @@
  #include <iculayoutengine.iby>
 #endif
 
-// include ityperast.iby
-#include <ityperast.iby>
+// Rasteriser always included
+ECOM_PLUGIN(ityperast.dll, ityperast.RSC)
 
 // Include proper font set based on configuration
 #ifdef __CHINESE
