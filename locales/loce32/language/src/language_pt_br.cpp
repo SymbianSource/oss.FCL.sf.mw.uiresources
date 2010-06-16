@@ -40,13 +40,13 @@ const TText * const LanguageAspect::MsgTable[ELocaleMessages_LastMsg] =
     _S("Tentar de novo"),								// Button 1
     _S("Parar"),								// Button 2
     _S("Volte a colocar o disco"),						// Put the card back - line1
-    _S("ou haver· perda de dados"),						// Put the card back - line2
+    _S("ou haver√° perda de dados"),						// Put the card back - line2
     _S("Bateria muito fraca"),						// Low power - line1
     _S("Incapaz de concluir a escrita em disco"),					// Low power - line2
     _S("Erro no disco - incapaz de concluir a escrita"),				// Disk error - line1
-    _S("Tentar de novo ou haver· perda de dados"),		                        // Disk error - line2
+    _S("Tentar de novo ou haver√° perda de dados"),		                        // Disk error - line2
 // SoundDriver
-    _S("Carrilhıes"),								// Chimes
+    _S("Carrilh√µes"),								// Chimes
     _S("Toques"),								// Rings
     _S("Sinal"),								// Signal
 // MediaDriver diskname (max 16 chars)
@@ -82,11 +82,11 @@ const TText * const LanguageAspect::DateSuffixTable[KMaxSuffixes] =
 const TText * const LanguageAspect::DayTable[KMaxDays] =
     {
     _S("Segunda-feira"),
-    _S("TerÁa-feira"),
+    _S("Ter√ßa-feira"),
     _S("Quarta-feira"),
     _S("Quinta-feira"),
     _S("Sexta-feira"),
-    _S("S·bado"),
+    _S("S√°bado"),
     _S("Domingo")
     };
 // The abbreviated day names
@@ -97,7 +97,7 @@ const TText * const LanguageAspect::DayAbbTable[KMaxDays] =
     _S("Qua"),
     _S("Qui"),
     _S("Sex"),
-    _S("S·b"),
+    _S("S√°b"),
     _S("Dom")
     };
 // The month names
@@ -105,7 +105,7 @@ const TText * const LanguageAspect::MonthTable[KMaxMonths] =
     {
     _S("Janeiro"),
     _S("Fevereiro"),
-    _S("MarÁo"),
+    _S("Mar√ßo"),
     _S("Abril"),
     _S("Maio"),
     _S("Junho"),

@@ -38,17 +38,17 @@ const TText * const LanguageAspect::MsgTable[ELocaleMessages_LastMsg] =
      {
 // Fileserver
     _S("Reyna aftur"),								// Button 1
-    _S("Hætta"),								// Button 2
-    _S("Láta diskinn aftur á sinn stağ,"),						// Put the card back - line1
-    _S("annars er hætta á ağ tapa gögnum"),						// Put the card back - line2
-    _S("Of lítil orka í rafhlöğunni"),						// Low power - line1
-    _S("Ekki hægt ağ skrifa á diskinn"),					// Low power - line2
-    _S("Diskvilla - ekki hægt ağ klára vistun"),				// Disk error - line1
-    _S("Reyna aftur eğa gögn munu tapast"),		                        // Disk error - line2
+    _S("HÃ¦tta"),								// Button 2
+    _S("LÃ¡ta diskinn aftur Ã¡ sinn staÃ°,"),						// Put the card back - line1
+    _S("annars er hÃ¦tta Ã¡ aÃ° tapa gÃ¶gnum"),						// Put the card back - line2
+    _S("Of lÃ­til orka Ã­ rafhlÃ¶Ã°unni"),						// Low power - line1
+    _S("Ekki hÃ¦gt aÃ° skrifa Ã¡ diskinn"),					// Low power - line2
+    _S("Diskvilla - ekki hÃ¦gt aÃ° klÃ¡ra vistun"),				// Disk error - line1
+    _S("Reyna aftur eÃ°a gÃ¶gn munu tapast"),		                        // Disk error - line2
 // SoundDriver
-    _S("Bjölluhljóğ"),								// Chimes
+    _S("BjÃ¶lluhljÃ³Ã°"),								// Chimes
     _S("Hringingar"),								// Rings
-    _S("Hljóğmerki"),								// Signal
+    _S("HljÃ³Ã°merki"),								// Signal
 // MediaDriver diskname (max 16 chars)
     _S("Internal"),								// Internal
     _S("External(01)"),							// External(01)
@@ -80,39 +80,39 @@ const TText * const LanguageAspect::DateSuffixTable[KMaxSuffixes] =
 // The day names
 const TText * const LanguageAspect::DayTable[KMaxDays] =
     {
-    _S("Mánudagur"),
-    _S("Şriğjudagur"),
-    _S("Miğvikudagur"),
+    _S("MÃ¡nudagur"),
+    _S("ÃriÃ°judagur"),
+    _S("MiÃ°vikudagur"),
     _S("Fimmtudagur"),
-    _S("Föstudagur"),
+    _S("FÃ¶studagur"),
     _S("Laugardagur"),
     _S("Sunnudagur")
     };
 // The abbreviated day names
 const TText * const LanguageAspect::DayAbbTable[KMaxDays] =
     {
-    _S("Mán."),
-    _S("Şri."),
-    _S("Miğ."),
+    _S("MÃ¡n."),
+    _S("Ãri."),
+    _S("MiÃ°."),
     _S("Fim."),
-    _S("Fös."),
+    _S("FÃ¶s."),
     _S("Lau"),
     _S("Sun.")
     };
 // The month names
 const TText * const LanguageAspect::MonthTable[KMaxMonths] =
     {
-    _S("Janúar"),
-    _S("Febrúar"),
+    _S("JanÃºar"),
+    _S("FebrÃºar"),
     _S("Mars"),
-    _S("Apríl"),
-    _S("Maí"),
-    _S("Júní"),
-    _S("Júlí"),
-    _S("Ágúst"),
+    _S("AprÃ­l"),
+    _S("MaÃ­"),
+    _S("JÃºnÃ­"),
+    _S("JÃºlÃ­"),
+    _S("ÃgÃºst"),
     _S("September"),
-    _S("Október"),
-    _S("Nóvember"),
+    _S("OktÃ³ber"),
+    _S("NÃ³vember"),
     _S("Desember")
     };
 // The abbreviated month names
@@ -122,13 +122,13 @@ const TText * const LanguageAspect::MonthAbbTable[KMaxMonths] =
     _S("Feb."),
     _S("Mar."),
     _S("Apr."),
-    _S("Maí."),
-    _S("Jún."),
-    _S("Júl."),
-    _S("Ágú."),
+    _S("MaÃ­."),
+    _S("JÃºn."),
+    _S("JÃºl."),
+    _S("ÃgÃº."),
     _S("Sep."),
     _S("Okt."),
-    _S("Nóv."),
+    _S("NÃ³v."),
     _S("Des.")
     };
 // The am/pm strings

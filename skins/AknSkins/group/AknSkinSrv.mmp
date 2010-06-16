@@ -108,7 +108,7 @@ SOURCE          AknsSrvWallpaperCache.cpp
 // Target-specific DEF files
 // ============================================================================
 
-#if defined(ARMCC)
+#if defined(EABI)
 deffile ../EABI/ 
 #elif defined(WINSCW)
 deffile ../BWINSCW/ 

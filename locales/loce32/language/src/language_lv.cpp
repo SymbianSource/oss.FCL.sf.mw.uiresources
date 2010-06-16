@@ -42,7 +42,7 @@ const TText * const LanguageAspect::MsgTable[ELocaleMessages_LastMsg] =
     _S("Ievietojiet atpaka\x013C" L" disku"),						// Put the card back - line1
     _S("vai tiks zaud\x0113" L"ti dati"),						// Put the card back - line2
     _S("P\x0101r\x0101" L"k zems akumulatora l\x012Bmenis"),						// Low power - line1
-    _S("Nevar pabeigt rakst\x012B" L"šanu disk\x0101"),					// Low power - line2
+    _S("Nevar pabeigt rakst\x012B" L"Âšanu disk\x0101"),					// Low power - line2
   _S("Diska k\x013C\x016B"L"da - nevar pabeigt rakst\x012B\x0161"L"anu"),	// escape sequences cut with "" to prevent next character
                                                                                     // to be interpreted as part of the escape (a,b,c,d,e,f are also hex)
                                                                                     // Compiler gives warning from this therefore pragma used.
@@ -84,7 +84,7 @@ const TText * const LanguageAspect::DayTable[KMaxDays] =
     {
     _S("pirmdiena"),
     _S("otrdiena"),
-    _S("trešdiena"),
+    _S("treÂšdiena"),
     _S("ceturtdiena"),
     _S("piektdiena"),
     _S("sestdiena"),

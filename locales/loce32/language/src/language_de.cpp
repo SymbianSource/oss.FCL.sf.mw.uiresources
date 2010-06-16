@@ -104,7 +104,7 @@ const TText * const LanguageAspect::MonthTable[KMaxMonths] =
     {
     _S("Januar"),
     _S("Februar"),
-    _S("März"),
+    _S("MÃ¤rz"),
     _S("April"),
     _S("Mai"),
     _S("Juni"),

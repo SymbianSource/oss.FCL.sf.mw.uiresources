@@ -40,15 +40,15 @@ const TText * const LanguageAspect::MsgTable[ELocaleMessages_LastMsg] =
 	_S("Opakovat"),								// Button 1
 	_S("Stop"),								// Button 2
 	_S("Vlo\x017e" L"te disk zp\x011B" L"t"),						// Put the card back - line1
-	_S("nebo dojde ke ztrát\x011B" L" dat"),						// Put the card back - line2
-	_S("Baterie jsou tém\x011B\x0159" L" vybité"),						// Low power - line1
-	_S("Nelze dokon\x010D" L"it zápis na disk"),					// Low power - line2
-	_S("Chyba disku - nelze dokon\x010D" L"it zápis"),				// Disk error - line1
-	_S("Opakujte nebo dojde ke ztrát\x011B" L" dat"),		                        // Disk error - line2
+	_S("nebo dojde ke ztrÃ¡t\x011B" L" dat"),						// Put the card back - line2
+	_S("Baterie jsou tÃ©m\x011B\x0159" L" vybitÃ©"),						// Low power - line1
+	_S("Nelze dokon\x010D" L"it zÃ¡pis na disk"),					// Low power - line2
+	_S("Chyba disku - nelze dokon\x010D" L"it zÃ¡pis"),				// Disk error - line1
+	_S("Opakujte nebo dojde ke ztrÃ¡t\x011B" L" dat"),		                        // Disk error - line2
 // SoundDriver
-	_S("Odbíjení"),								// Chimes
-	_S("Vyzván\x011B" L"ní"),								// Rings
-	_S("Signál"),								// Signal
+	_S("OdbÃ­jenÃ­"),								// Chimes
+	_S("VyzvÃ¡n\x011B" L"nÃ­"),								// Rings
+	_S("SignÃ¡l"),								// Signal
 // MediaDriver diskname (max 16 chars)
 	_S("Internal"),								// Internal
 	_S("External(01)"),							// External(01)
@@ -80,11 +80,11 @@ const TText * const LanguageAspect::DateSuffixTable[KMaxSuffixes] =
 // The day names
 const TText * const LanguageAspect::DayTable[KMaxDays] =
 	{
-	_S("Pond\x011B" L"lí"),
-	_S("Úterý"),
+	_S("Pond\x011B" L"lÃ­"),
+	_S("ÃšterÃ½"),
 	_S("St\x0159"L"eda"),
 	_S("\x010Ctvrtek"),
-	_S("Pátek"),
+	_S("PÃ¡tek"),
 	_S("Sobota"),
 	_S("Ned\x011B" L"le")
 	};
@@ -92,10 +92,10 @@ const TText * const LanguageAspect::DayTable[KMaxDays] =
 const TText * const LanguageAspect::DayAbbTable[KMaxDays] =
 	{
 	_S("Po"),
-	_S("Út"),
+	_S("Ãšt"),
 	_S("St"),
 	_S("\x010C" L"t"),
-	_S("Pá"),
+	_S("PÃ¡"),
 	_S("So"),
 	_S("Ne")
 	};
@@ -103,15 +103,15 @@ const TText * const LanguageAspect::DayAbbTable[KMaxDays] =
 const TText * const LanguageAspect::MonthTable[KMaxMonths] =
 	{
 	_S("leden"),
-	_S("únor"),
+	_S("Ãºnor"),
 	_S("b\x0159"L"ezen"),
 	_S("duben"),
 	_S("kv\x011B" L"ten"),
 	_S("\x010D"L"erven"),
 	_S("\x010D"L"ervenec"),
 	_S("srpen"),
-	_S("zá\x0159" L"í"),
-	_S("\x0159" L"íjen"),
+	_S("zÃ¡\x0159" L"Ã­"),
+	_S("\x0159" L"Ã­jen"),
 	_S("listopad"),
 	_S("prosinec")
 	};
@@ -119,15 +119,15 @@ const TText * const LanguageAspect::MonthTable[KMaxMonths] =
 const TText * const LanguageAspect::MonthAbbTable[KMaxMonths] =
 	{
 	_S("led"),
-	_S("úno"),
+	_S("Ãºno"),
 	_S("b\x0159" L"e"),
 	_S("dub"),
 	_S("kv\x011b"),
 	_S("\x010d" L"er"),
 	_S("\x010d" L"vc"),
 	_S("srp"),
-	_S("zá\x0159"),
-	_S("\x0159" L"íj"),
+	_S("zÃ¡\x0159"),
+	_S("\x0159" L"Ã­j"),
 	_S("lis"),
 	_S("pro")
 	};

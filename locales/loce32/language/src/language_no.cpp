@@ -37,14 +37,14 @@ const TFatUtilityFunctions* const LanguageAspect::FatUtilityFunctions = NULL;
 const TText * const LanguageAspect::MsgTable[ELocaleMessages_LastMsg] =
     {
 // Fileserver
-    _S("Prøv på nytt"),								// Button 1
+    _S("PrÃ¸v pÃ¥ nytt"),								// Button 1
     _S("Stopp"),								// Button 2
     _S("Sett disken tilbake"),						// Put the card back - line1
-    _S("eller data kan gå tapt"),						// Put the card back - line2
-    _S("Lavt batterinivå"),						// Low power - line1
-    _S("Kan ikke fullføre skriving til disk"),					// Low power - line2
-    _S("Diskfeil - kan ikke fullføre skriving"),				// Disk error - line1
-    _S("Prøv på nytt, eller data vil gå tapt"),		                        // Disk error - line2
+    _S("eller data kan gÃ¥ tapt"),						// Put the card back - line2
+    _S("Lavt batterinivÃ¥"),						// Low power - line1
+    _S("Kan ikke fullfÃ¸re skriving til disk"),					// Low power - line2
+    _S("Diskfeil - kan ikke fullfÃ¸re skriving"),				// Disk error - line1
+    _S("PrÃ¸v pÃ¥ nytt, eller data vil gÃ¥ tapt"),		                        // Disk error - line2
 // SoundDriver
     _S("Klokkespill"),								// Chimes
     _S("Ringetone"),								// Rings
@@ -85,8 +85,8 @@ const TText * const LanguageAspect::DayTable[KMaxDays] =
     _S("onsdag"),
     _S("torsdag"),
     _S("fredag"),
-    _S("lørdag"),
-    _S("søndag")
+    _S("lÃ¸rdag"),
+    _S("sÃ¸ndag")
     };
 // The abbreviated day names
 const TText * const LanguageAspect::DayAbbTable[KMaxDays] =
@@ -96,8 +96,8 @@ const TText * const LanguageAspect::DayAbbTable[KMaxDays] =
     _S("Ons"),
     _S("Tor"),
     _S("Fre"),
-    _S("Lør"),
-    _S("Søn")
+    _S("LÃ¸r"),
+    _S("SÃ¸n")
     };
 // The month names
 const TText * const LanguageAspect::MonthTable[KMaxMonths] =

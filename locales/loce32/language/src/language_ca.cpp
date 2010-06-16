@@ -36,13 +36,13 @@ const TText * const LanguageAspect::MsgTable[ELocaleMessages_LastMsg] =
     {
 // Fileserver
     _S("Ressayer"),					                       // Button 1
-    _S("Arrêter"),					        	       // Button 2
-    _S("Réinsérer le disque"),			                       // Put the card back - line1
-    _S("ou des données vont être perdues"),			                       // Put the card back - line2
+    _S("ArrÃªter"),					        	       // Button 2
+    _S("RÃ©insÃ©rer le disque"),			                       // Put the card back - line1
+    _S("ou des donnÃ©es vont Ãªtre perdues"),			                       // Put the card back - line2
     _S("Batterie trop faible"),			                       // Low power - line1
-    _S("Impossible de terminer l'écriture sur disque"),		                       // Low power - line2
-    _S("Erreur de disque - impossible de terminer l'écriture"),	                       // Disk error - line1
-    _S("Ressayer ou des données seront perdues"),		                       // Disk error - line2
+    _S("Impossible de terminer l'Ã©criture sur disque"),		                       // Low power - line2
+    _S("Erreur de disque - impossible de terminer l'Ã©criture"),	                       // Disk error - line1
+    _S("Ressayer ou des donnÃ©es seront perdues"),		                       // Disk error - line2
 // SoundDriver
     _S("Carillon"),								// Chimes
     _S("Sonneries"),								// Rings

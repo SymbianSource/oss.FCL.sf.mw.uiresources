@@ -80,11 +80,11 @@ const TText * const LanguageAspect::DateSuffixTable[KMaxSuffixes] =
 // The day names
 const TText * const LanguageAspect::DayTable[KMaxDays] =
     {
-    _S("lunedì"),
-    _S("martedì"),
-    _S("mercoledì"),
-    _S("giovedì"),
-    _S("venerdì"),
+    _S("lunedÃ¬"),
+    _S("martedÃ¬"),
+    _S("mercoledÃ¬"),
+    _S("giovedÃ¬"),
+    _S("venerdÃ¬"),
     _S("sabato"),
     _S("domenica")
     };

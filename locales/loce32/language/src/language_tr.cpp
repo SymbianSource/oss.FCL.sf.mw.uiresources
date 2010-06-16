@@ -41,12 +41,12 @@ const TText * const LanguageAspect::MsgTable[ELocaleMessages_LastMsg] =
     _S("Durdur"),								// Button 2
     _S("Diski yeniden tak\x0131" L"n"),						// Put the card back - line1
     _S("yoksa veriler kaybolacakt\x0131r."),						// Put the card back - line2
-    _S("Batarya çok zay\x0131"L"f"),						// Low power - line1
+    _S("Batarya Ã§ok zay\x0131"L"f"),						// Low power - line1
     _S("Diske yazma tamamlanam\x0131yor"),					// Low power - line2
     _S("Disk hatas\x0131 - yazma tamamlanam\x0131" L"yor"),				// Disk error - line1
     _S("Tekrar deneyin, yoksa veriler kaybolacakt\x0131" L"r"),		                        // Disk error - line2
 // SoundDriver
-    _S("Ç\x0131" L"ng\x0131" L"rak"),								// Chimes
+    _S("Ã‡\x0131" L"ng\x0131" L"rak"),								// Chimes
     _S("Zil"),								// Rings
     _S("Sinyal"),								// Signal
 // MediaDriver diskname (max 16 chars)
@@ -82,7 +82,7 @@ const TText * const LanguageAspect::DayTable[KMaxDays] =
     {
     _S("Pazartesi"),
     _S("Sal\x0131"),
-    _S("Çar\x015F"L"amba"),
+    _S("Ã‡ar\x015F"L"amba"),
     _S("Per\x015F"L"embe"),
     _S("Cuma"),
     _S("Cumartesi"),
@@ -93,7 +93,7 @@ const TText * const LanguageAspect::DayAbbTable[KMaxDays] =
     {
     _S("Pt"),
     _S("Sa"),
-    _S("Ça"),
+    _S("Ã‡a"),
     _S("Pe"),
     _S("Cu"),
     _S("Ct"),
@@ -110,7 +110,7 @@ const TText * const LanguageAspect::MonthTable[KMaxMonths] =
     _S("Haziran"),
     _S("Temmuz"),
     _S("A\x011F" L"ustos"),
-    _S("Eylül"),
+    _S("EylÃ¼l"),
     _S("Ekim"),
     _S("Kas\x0131" L"m"),
     _S("Aral\x0131" L"k")
@@ -132,7 +132,7 @@ const TText * const LanguageAspect::MonthAbbTable[KMaxMonths] =
     _S("Ara")
     };
 // The am/pm strings
-const TText * const LanguageAspect::AmPmTable[KMaxAmPms] = {_S("ÖÖ"),_S("ÖS")};
+const TText * const LanguageAspect::AmPmTable[KMaxAmPms] = {_S("Ã–Ã–"),_S("Ã–S")};
 
 
 
