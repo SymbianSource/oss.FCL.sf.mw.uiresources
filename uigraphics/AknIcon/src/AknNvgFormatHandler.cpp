@@ -170,6 +170,8 @@ void CAknNvgFormatHandler::RenderPreparedIconL(CFbsBitmap* aBitmap,
         CFbsBitmap* aMask, TSize Bitmapsize, TDisplayMode Bitmapdepth,
         TDisplayMode Maskdepth, TRgb aColor, TBool aMarginFlag)
     {
+    if(!iData)
+        User::Leave(KErrNotFound);
     FormCommonHeader(aBitmap, EFalse, aColor, aMarginFlag);
     aBitmap->CreateExtendedBitmap(Bitmapsize, Bitmapdepth,
             KUidNvgProprietaryFormat, iData->Ptr(), iData->Length());

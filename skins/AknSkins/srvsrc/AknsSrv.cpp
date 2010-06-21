@@ -522,6 +522,7 @@ void CAknsSrv::NotifyDRMChangeL()
                     }
                 else
                     {
+                    iChunkMaintainer->SetWallpaper( KAknsIIDWallpaper, KNullDesC, 0);
                     RestoreDefaultIdleWP();
                     iContentChanged = ETrue;
                     BroadcastUpdate();

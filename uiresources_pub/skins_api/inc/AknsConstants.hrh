@@ -7751,8 +7751,24 @@ enum TAknsMinorGenericValue
     EAknsMinorGenericQgnPropCmccSmsbusinesshall = 0x2620,
     EAknsMinorGenericQsnBigclockAnaloguePointerHoursScreensaver = 0x2621,
     EAknsMinorGenericQsnBigclockAnaloguePointerMinutesScreensaver = 0x2622,
-    // SCMMARKER_INSERTIONPOINT [9763]
-    EAknsMinorGenericInternalCurrentLastItem = 0x2623
+    EAknsMinorGenericQgnIndiCam4BatteryStrength0 = 0x2623,
+    EAknsMinorGenericQgnIndiCam4BatteryStrength1 = 0x2624,
+    EAknsMinorGenericQgnIndiCam4BatteryStrength2 = 0x2625,
+    EAknsMinorGenericQgnIndiCam4BatteryStrength3 = 0x2626,
+    EAknsMinorGenericQgnIndiCam4BatteryStrength4 = 0x2627,
+    EAknsMinorGenericQgnIndiCam4BatteryStrength5 = 0x2628,
+    EAknsMinorGenericQgnIndiCam4BatteryStrength6 = 0x2629,
+    EAknsMinorGenericQgnIndiCam4BatteryStrength7 = 0x262a,
+    EAknsMinorGenericQgnIndiCam4CaptureImage = 0x262b,
+    EAknsMinorGenericQgnIndiCam4CaptureImagePressed = 0x262c,
+    EAknsMinorGenericQgnIndiCam4CaptureVideo = 0x262d,
+    EAknsMinorGenericQgnIndiCam4CaptureVideoPressed = 0x262e,
+    EAknsMinorGenericQgnIndiTbAddToFavourites = 0x262f,
+    EAknsMinorGenericQgnMenuSocialNetworks = 0x2630,
+    EAknsMinorGenericQgnPropInternetRadioStation = 0x2631,
+    EAknsMinorGenericQgnWelcomePluginSync = 0x2632,
+    // SCMMARKER_INSERTIONPOINT [9779]
+    EAknsMinorGenericInternalCurrentLastItem = 0x2633
     };
 
 // ----------------------------------------------------------------------------

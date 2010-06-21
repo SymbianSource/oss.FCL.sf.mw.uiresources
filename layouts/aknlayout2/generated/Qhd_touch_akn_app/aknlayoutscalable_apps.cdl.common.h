@@ -6571,6 +6571,17 @@ enum TApiId
 	EApiId_main_mup3_lyrics_pane,
 	EApiId_main_mup3_lyrics_pane_t1_ParamLimits,
 	EApiId_main_mup3_lyrics_pane_t1,
+	EApiId_aid_main_mp4_pane_t1_area,
+	EApiId_aid_main_mp4_pane_t2_area,
+	EApiId_main_mp4_pane_g7_ParamLimits,
+	EApiId_main_mp4_pane_g7,
+	EApiId_main_mp4_pane_g8_ParamLimits,
+	EApiId_main_mp4_pane_g8,
+	EApiId_aid_call6_pane_g1_size,
+	EApiId_list_double_large_graphic_phob2_other_pane_ParamLimits,
+	EApiId_list_double_large_graphic_phob2_other_pane,
+	EApiId_list_double_large_graphic_phob2_other_pane_g1,
+	EApiId_list_highlight_pane_cp026,
 	E_TApiId_TableSize
 	};
 
@@ -13119,6 +13130,17 @@ typedef TAknLayoutScalableParameterLimits (Tmain_mup3_lyrics_pane_ParamLimits_si
 typedef TAknWindowComponentLayout (Tmain_mup3_lyrics_pane_sig)(TInt, TInt, TInt);
 typedef TAknLayoutScalableParameterLimits (Tmain_mup3_lyrics_pane_t1_ParamLimits_sig)(TInt);
 typedef TAknTextComponentLayout (Tmain_mup3_lyrics_pane_t1_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Taid_main_mp4_pane_t1_area_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Taid_main_mp4_pane_t2_area_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_mp4_pane_g7_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tmain_mp4_pane_g7_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_mp4_pane_g8_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tmain_mp4_pane_g8_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Taid_call6_pane_g1_size_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tlist_double_large_graphic_phob2_other_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tlist_double_large_graphic_phob2_other_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tlist_double_large_graphic_phob2_other_pane_g1_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tlist_highlight_pane_cp026_sig)(TInt, TInt, TInt);
 
 } // end of namespace AknLayoutScalable_Apps
 

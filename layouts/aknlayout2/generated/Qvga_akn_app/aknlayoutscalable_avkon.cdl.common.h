@@ -5716,6 +5716,16 @@ enum TApiId
 	EApiId_cell_ituss_key_t5_ParamLimits,
 	EApiId_cell_ituss_key_t5,
 	EApiId_popup_fep_vkbss_window_ParamLimits,
+	EApiId_aid_cell_ai5_quarter,
+	EApiId_icf_edit_indi_pane_t1_ParamLimits,
+	EApiId_aid_tch_indicator_popup_pane_cp2_ParamLimits,
+	EApiId_aid_tch_indicator_popup_pane_cp2,
+	EApiId_aid_tch_query_popup_data_pane_cp2_ParamLimits,
+	EApiId_aid_tch_query_popup_data_pane_cp2,
+	EApiId_aid_tch_query_popup_pane_ParamLimits,
+	EApiId_aid_tch_query_popup_pane,
+	EApiId_aid_tch_query_popup_data_pane_cp1_ParamLimits,
+	EApiId_aid_tch_query_popup_data_pane_cp1,
 	E_TApiId_TableSize
 	};
 
@@ -11409,6 +11419,16 @@ typedef TAknWindowComponentLayout (Tcell_ituss_key_pane_g3_sig)(TInt, TInt, TInt
 typedef TAknLayoutScalableParameterLimits (Tcell_ituss_key_t5_ParamLimits_sig)(TInt);
 typedef TAknTextComponentLayout (Tcell_ituss_key_t5_sig)(TInt, TInt, TInt);
 typedef TAknLayoutScalableParameterLimits (Tpopup_fep_vkbss_window_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Taid_cell_ai5_quarter_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Ticf_edit_indi_pane_t1_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Taid_tch_indicator_popup_pane_cp2_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Taid_tch_indicator_popup_pane_cp2_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Taid_tch_query_popup_data_pane_cp2_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Taid_tch_query_popup_data_pane_cp2_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Taid_tch_query_popup_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Taid_tch_query_popup_pane_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Taid_tch_query_popup_data_pane_cp1_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Taid_tch_query_popup_data_pane_cp1_sig)(TInt, TInt, TInt);
 
 } // end of namespace AknLayoutScalable_Avkon
 

@@ -14340,6 +14340,32 @@ inline TAknLayoutScalableParameterLimits main_mup3_lyrics_pane_t1_ParamLimits(TI
 
 inline TAknTextComponentLayout main_mup3_lyrics_pane_t1(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tmain_mup3_lyrics_pane_t1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_mup3_lyrics_pane_t1)))(aVariety, aCol, aRow); }
 
+// LAF Table : main_mp4_pane
+inline TAknWindowComponentLayout aid_main_mp4_pane_t1_area(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Taid_main_mp4_pane_t1_area_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_aid_main_mp4_pane_t1_area)))(aVariety, aCol, aRow); }
+
+inline TAknWindowComponentLayout aid_main_mp4_pane_t2_area(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Taid_main_mp4_pane_t2_area_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_aid_main_mp4_pane_t2_area)))(aVariety, aCol, aRow); }
+
+inline TAknLayoutScalableParameterLimits main_mp4_pane_g7_ParamLimits(TInt aVariety)		{ return (*(Tmain_mp4_pane_g7_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_mp4_pane_g7_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout main_mp4_pane_g7(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tmain_mp4_pane_g7_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_mp4_pane_g7)))(aVariety, aCol, aRow); }
+
+inline TAknLayoutScalableParameterLimits main_mp4_pane_g8_ParamLimits(TInt aVariety)		{ return (*(Tmain_mp4_pane_g8_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_mp4_pane_g8_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout main_mp4_pane_g8(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tmain_mp4_pane_g8_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_mp4_pane_g8)))(aVariety, aCol, aRow); }
+
+// LAF Table : call4_windows_pane
+inline TAknWindowComponentLayout aid_call6_pane_g1_size(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Taid_call6_pane_g1_size_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_aid_call6_pane_g1_size)))(aVariety, aCol, aRow); }
+
+// LAF Table : phob2_cc_list_pane
+inline TAknLayoutScalableParameterLimits list_double_large_graphic_phob2_other_pane_ParamLimits(TInt aVariety)		{ return (*(Tlist_double_large_graphic_phob2_other_pane_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_list_double_large_graphic_phob2_other_pane_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout list_double_large_graphic_phob2_other_pane(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tlist_double_large_graphic_phob2_other_pane_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_list_double_large_graphic_phob2_other_pane)))(aVariety, aCol, aRow); }
+
+// LAF Table : list_double_large_graphic_phob2_other_pane
+inline TAknWindowComponentLayout list_double_large_graphic_phob2_other_pane_g1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tlist_double_large_graphic_phob2_other_pane_g1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_list_double_large_graphic_phob2_other_pane_g1)))(aVariety, aCol, aRow); }
+
+inline TAknWindowComponentLayout list_highlight_pane_cp026(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tlist_highlight_pane_cp026_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_list_highlight_pane_cp026)))(aVariety, aCol, aRow); }
+
 #ifdef __VC32__
 #pragma component(mintypeinfo, on)
 #endif
@@ -28657,6 +28683,32 @@ public:
 	inline TAknLayoutScalableParameterLimits main_mup3_lyrics_pane_t1_ParamLimits(TInt aVariety) const		{ return (*(Tmain_mup3_lyrics_pane_t1_ParamLimits_sig*)(GetFunction(EApiId_main_mup3_lyrics_pane_t1_ParamLimits)))(aVariety); }
 
 	inline TAknTextComponentLayout main_mup3_lyrics_pane_t1(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tmain_mup3_lyrics_pane_t1_sig*)(GetFunction(EApiId_main_mup3_lyrics_pane_t1)))(aVariety, aCol, aRow); }
+
+	// LAF Table : main_mp4_pane
+	inline TAknWindowComponentLayout aid_main_mp4_pane_t1_area(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Taid_main_mp4_pane_t1_area_sig*)(GetFunction(EApiId_aid_main_mp4_pane_t1_area)))(aVariety, aCol, aRow); }
+
+	inline TAknWindowComponentLayout aid_main_mp4_pane_t2_area(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Taid_main_mp4_pane_t2_area_sig*)(GetFunction(EApiId_aid_main_mp4_pane_t2_area)))(aVariety, aCol, aRow); }
+
+	inline TAknLayoutScalableParameterLimits main_mp4_pane_g7_ParamLimits(TInt aVariety) const		{ return (*(Tmain_mp4_pane_g7_ParamLimits_sig*)(GetFunction(EApiId_main_mp4_pane_g7_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout main_mp4_pane_g7(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tmain_mp4_pane_g7_sig*)(GetFunction(EApiId_main_mp4_pane_g7)))(aVariety, aCol, aRow); }
+
+	inline TAknLayoutScalableParameterLimits main_mp4_pane_g8_ParamLimits(TInt aVariety) const		{ return (*(Tmain_mp4_pane_g8_ParamLimits_sig*)(GetFunction(EApiId_main_mp4_pane_g8_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout main_mp4_pane_g8(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tmain_mp4_pane_g8_sig*)(GetFunction(EApiId_main_mp4_pane_g8)))(aVariety, aCol, aRow); }
+
+	// LAF Table : call4_windows_pane
+	inline TAknWindowComponentLayout aid_call6_pane_g1_size(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Taid_call6_pane_g1_size_sig*)(GetFunction(EApiId_aid_call6_pane_g1_size)))(aVariety, aCol, aRow); }
+
+	// LAF Table : phob2_cc_list_pane
+	inline TAknLayoutScalableParameterLimits list_double_large_graphic_phob2_other_pane_ParamLimits(TInt aVariety) const		{ return (*(Tlist_double_large_graphic_phob2_other_pane_ParamLimits_sig*)(GetFunction(EApiId_list_double_large_graphic_phob2_other_pane_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout list_double_large_graphic_phob2_other_pane(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tlist_double_large_graphic_phob2_other_pane_sig*)(GetFunction(EApiId_list_double_large_graphic_phob2_other_pane)))(aVariety, aCol, aRow); }
+
+	// LAF Table : list_double_large_graphic_phob2_other_pane
+	inline TAknWindowComponentLayout list_double_large_graphic_phob2_other_pane_g1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tlist_double_large_graphic_phob2_other_pane_g1_sig*)(GetFunction(EApiId_list_double_large_graphic_phob2_other_pane_g1)))(aVariety, aCol, aRow); }
+
+	inline TAknWindowComponentLayout list_highlight_pane_cp026(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tlist_highlight_pane_cp026_sig*)(GetFunction(EApiId_list_highlight_pane_cp026)))(aVariety, aCol, aRow); }
 
 private:
 	CInstance();

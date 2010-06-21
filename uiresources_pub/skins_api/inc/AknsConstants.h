@@ -22224,6 +22224,54 @@ static const TAknsItemID KAknsIIDQsnBigclockAnaloguePointerHoursScreensaver =
 static const TAknsItemID KAknsIIDQsnBigclockAnaloguePointerMinutesScreensaver =
     { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockAnaloguePointerMinutesScreensaver };
 
+static const TAknsItemID KAknsIIDQgnIndiCam4BatteryStrength0 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCam4BatteryStrength0 };
+
+static const TAknsItemID KAknsIIDQgnIndiCam4BatteryStrength1 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCam4BatteryStrength1 };
+
+static const TAknsItemID KAknsIIDQgnIndiCam4BatteryStrength2 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCam4BatteryStrength2 };
+
+static const TAknsItemID KAknsIIDQgnIndiCam4BatteryStrength3 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCam4BatteryStrength3 };
+
+static const TAknsItemID KAknsIIDQgnIndiCam4BatteryStrength4 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCam4BatteryStrength4 };
+
+static const TAknsItemID KAknsIIDQgnIndiCam4BatteryStrength5 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCam4BatteryStrength5 };
+
+static const TAknsItemID KAknsIIDQgnIndiCam4BatteryStrength6 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCam4BatteryStrength6 };
+
+static const TAknsItemID KAknsIIDQgnIndiCam4BatteryStrength7 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCam4BatteryStrength7 };
+
+static const TAknsItemID KAknsIIDQgnIndiCam4CaptureImage =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCam4CaptureImage };
+
+static const TAknsItemID KAknsIIDQgnIndiCam4CaptureImagePressed =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCam4CaptureImagePressed };
+
+static const TAknsItemID KAknsIIDQgnIndiCam4CaptureVideo =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCam4CaptureVideo };
+
+static const TAknsItemID KAknsIIDQgnIndiCam4CaptureVideoPressed =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCam4CaptureVideoPressed };
+
+static const TAknsItemID KAknsIIDQgnIndiTbAddToFavourites =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbAddToFavourites };
+
+static const TAknsItemID KAknsIIDQgnMenuSocialNetworks =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMenuSocialNetworks };
+
+static const TAknsItemID KAknsIIDQgnPropInternetRadioStation =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropInternetRadioStation };
+
+static const TAknsItemID KAknsIIDQgnWelcomePluginSync =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnWelcomePluginSync };
+
 // SCMMARKER_INSERTIONPOINT
 
 // SCCMARKER_END

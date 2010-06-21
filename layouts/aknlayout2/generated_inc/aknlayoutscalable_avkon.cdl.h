@@ -12538,6 +12538,31 @@ inline TAknTextComponentLayout cell_ituss_key_t5(TInt aVariety, TInt aCol = 0, T
 // LAF Table : main_fep_vtchi_ss_pane
 inline TAknLayoutScalableParameterLimits popup_fep_vkbss_window_ParamLimits(TInt aVariety)		{ return (*(Tpopup_fep_vkbss_window_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_popup_fep_vkbss_window_ParamLimits)))(aVariety); }
 
+// LAF Table : cell_ai5_widget_pane
+inline TAknWindowComponentLayout aid_cell_ai5_quarter(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Taid_cell_ai5_quarter_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_aid_cell_ai5_quarter)))(aVariety, aCol, aRow); }
+
+// LAF Table : icf_edit_indi_pane
+inline TAknLayoutScalableParameterLimits icf_edit_indi_pane_t1_ParamLimits(TInt aVariety)		{ return (*(Ticf_edit_indi_pane_t1_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_icf_edit_indi_pane_t1_ParamLimits)))(aVariety); }
+
+// LAF Table : popup_query_data_code_window
+inline TAknLayoutScalableParameterLimits aid_tch_indicator_popup_pane_cp2_ParamLimits(TInt aVariety)		{ return (*(Taid_tch_indicator_popup_pane_cp2_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_aid_tch_indicator_popup_pane_cp2_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout aid_tch_indicator_popup_pane_cp2(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Taid_tch_indicator_popup_pane_cp2_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_aid_tch_indicator_popup_pane_cp2)))(aVariety, aCol, aRow); }
+
+inline TAknLayoutScalableParameterLimits aid_tch_query_popup_data_pane_cp2_ParamLimits(TInt aVariety)		{ return (*(Taid_tch_query_popup_data_pane_cp2_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_aid_tch_query_popup_data_pane_cp2_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout aid_tch_query_popup_data_pane_cp2(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Taid_tch_query_popup_data_pane_cp2_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_aid_tch_query_popup_data_pane_cp2)))(aVariety, aCol, aRow); }
+
+// LAF Table : popup_query_code_window
+inline TAknLayoutScalableParameterLimits aid_tch_query_popup_pane_ParamLimits(TInt aVariety)		{ return (*(Taid_tch_query_popup_pane_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_aid_tch_query_popup_pane_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout aid_tch_query_popup_pane(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Taid_tch_query_popup_pane_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_aid_tch_query_popup_pane)))(aVariety, aCol, aRow); }
+
+// LAF Table : popup_query_data_window
+inline TAknLayoutScalableParameterLimits aid_tch_query_popup_data_pane_cp1_ParamLimits(TInt aVariety)		{ return (*(Taid_tch_query_popup_data_pane_cp1_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_aid_tch_query_popup_data_pane_cp1_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout aid_tch_query_popup_data_pane_cp1(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Taid_tch_query_popup_data_pane_cp1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_aid_tch_query_popup_data_pane_cp1)))(aVariety, aCol, aRow); }
+
 #ifdef __VC32__
 #pragma component(mintypeinfo, on)
 #endif
@@ -25053,6 +25078,31 @@ public:
 
 	// LAF Table : main_fep_vtchi_ss_pane
 	inline TAknLayoutScalableParameterLimits popup_fep_vkbss_window_ParamLimits(TInt aVariety) const		{ return (*(Tpopup_fep_vkbss_window_ParamLimits_sig*)(GetFunction(EApiId_popup_fep_vkbss_window_ParamLimits)))(aVariety); }
+
+	// LAF Table : cell_ai5_widget_pane
+	inline TAknWindowComponentLayout aid_cell_ai5_quarter(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Taid_cell_ai5_quarter_sig*)(GetFunction(EApiId_aid_cell_ai5_quarter)))(aVariety, aCol, aRow); }
+
+	// LAF Table : icf_edit_indi_pane
+	inline TAknLayoutScalableParameterLimits icf_edit_indi_pane_t1_ParamLimits(TInt aVariety) const		{ return (*(Ticf_edit_indi_pane_t1_ParamLimits_sig*)(GetFunction(EApiId_icf_edit_indi_pane_t1_ParamLimits)))(aVariety); }
+
+	// LAF Table : popup_query_data_code_window
+	inline TAknLayoutScalableParameterLimits aid_tch_indicator_popup_pane_cp2_ParamLimits(TInt aVariety) const		{ return (*(Taid_tch_indicator_popup_pane_cp2_ParamLimits_sig*)(GetFunction(EApiId_aid_tch_indicator_popup_pane_cp2_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout aid_tch_indicator_popup_pane_cp2(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Taid_tch_indicator_popup_pane_cp2_sig*)(GetFunction(EApiId_aid_tch_indicator_popup_pane_cp2)))(aVariety, aCol, aRow); }
+
+	inline TAknLayoutScalableParameterLimits aid_tch_query_popup_data_pane_cp2_ParamLimits(TInt aVariety) const		{ return (*(Taid_tch_query_popup_data_pane_cp2_ParamLimits_sig*)(GetFunction(EApiId_aid_tch_query_popup_data_pane_cp2_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout aid_tch_query_popup_data_pane_cp2(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Taid_tch_query_popup_data_pane_cp2_sig*)(GetFunction(EApiId_aid_tch_query_popup_data_pane_cp2)))(aVariety, aCol, aRow); }
+
+	// LAF Table : popup_query_code_window
+	inline TAknLayoutScalableParameterLimits aid_tch_query_popup_pane_ParamLimits(TInt aVariety) const		{ return (*(Taid_tch_query_popup_pane_ParamLimits_sig*)(GetFunction(EApiId_aid_tch_query_popup_pane_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout aid_tch_query_popup_pane(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Taid_tch_query_popup_pane_sig*)(GetFunction(EApiId_aid_tch_query_popup_pane)))(aVariety, aCol, aRow); }
+
+	// LAF Table : popup_query_data_window
+	inline TAknLayoutScalableParameterLimits aid_tch_query_popup_data_pane_cp1_ParamLimits(TInt aVariety) const		{ return (*(Taid_tch_query_popup_data_pane_cp1_ParamLimits_sig*)(GetFunction(EApiId_aid_tch_query_popup_data_pane_cp1_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout aid_tch_query_popup_data_pane_cp1(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Taid_tch_query_popup_data_pane_cp1_sig*)(GetFunction(EApiId_aid_tch_query_popup_data_pane_cp1)))(aVariety, aCol, aRow); }
 
 private:
 	CInstance();

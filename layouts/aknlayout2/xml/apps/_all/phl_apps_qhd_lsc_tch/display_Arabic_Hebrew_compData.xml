@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2010-05-20 18:25:45.662" LayoutName="phl_apps_qhd_lsc_tch" LayoutSetId="282" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.835518512136936" MasterName="m_app_tch_92" ppi="229.0" ppiUnit="Inches" resolutionHeight="360" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
+<Layout createdOn="2010-06-07 17:09:51.843" LayoutName="phl_apps_qhd_lsc_tch" LayoutSetId="282" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.835518512136936" MasterName="m_app_tch_92" ppi="229.0" ppiUnit="Inches" resolutionHeight="360" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
     <Component drawingorder="0" id="1" mirror="true" name="Screen" type="Screen"/>
     <Component drawingorder="0" id="2" maxVariety="0" mirror="true" name="application_window" type="Container"/>
     <Component drawingorder="16" id="11" maxVariety="3" mirror="true" name="navi_pane_mv_g2" type="Graphic"/>
@@ -3274,15 +3274,15 @@
     <Component drawingorder="3" id="8018" maxVariety="0" mirror="true" name="phob2_cc_button_pane_t2" type="Text"/>
     <Component drawingorder="0" id="8019" maxVariety="1" mirror="true" name="phob2_cc_list_pane" type="Pane"/>
     <Component drawingorder="1" id="8020" maxVariety="1" mirror="true" name="scroll_pane_cp035" type="Pane"/>
-    <Component drawingorder="0" id="8021" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_cc_pane" type="Pane"/>
+    <Component drawingorder="0" id="8021" maxVariety="3" mirror="true" name="list_double_large_graphic_phob2_cc_pane" type="Pane"/>
     <Component drawingorder="0" id="8023" maxVariety="7" mirror="true" name="list_highlight_pane_cp025" type="Pane"/>
-    <Component drawingorder="1" id="8024" maxVariety="3" mirror="true" name="list_double_large_graphic_phob2_cc_pane_g1" type="Graphic"/>
-    <Component drawingorder="2" id="8025" maxVariety="7" mirror="true" name="list_double_large_graphic_phob2_cc_pane_t1" type="Text"/>
-    <Component drawingorder="3" id="8026" maxVariety="7" mirror="true" name="list_double_large_graphic_phob2_cc_pane_t2" type="Text"/>
-    <Component drawingorder="4" id="8027" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_cc_pane_g2" type="Graphic"/>
-    <Component drawingorder="5" id="8028" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_cc_pane_g3" type="Graphic"/>
-    <Component drawingorder="6" id="8029" maxVariety="3" mirror="true" name="list_double_large_graphic_phob2_cc_pane_g4" type="Graphic"/>
-    <Component drawingorder="7" id="8030" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_cc_pane_g5" type="Graphic"/>
+    <Component drawingorder="7" id="8024" maxVariety="3" mirror="true" name="list_double_large_graphic_phob2_cc_pane_g1" type="Graphic"/>
+    <Component drawingorder="1" id="8025" maxVariety="7" mirror="true" name="list_double_large_graphic_phob2_cc_pane_t1" type="Text"/>
+    <Component drawingorder="2" id="8026" maxVariety="7" mirror="true" name="list_double_large_graphic_phob2_cc_pane_t2" type="Text"/>
+    <Component drawingorder="3" id="8027" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_cc_pane_g2" type="Graphic"/>
+    <Component drawingorder="4" id="8028" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_cc_pane_g3" type="Graphic"/>
+    <Component drawingorder="5" id="8029" maxVariety="3" mirror="true" name="list_double_large_graphic_phob2_cc_pane_g4" type="Graphic"/>
+    <Component drawingorder="6" id="8030" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_cc_pane_g5" type="Graphic"/>
     <Component drawingorder="2" id="8031" maxVariety="1" mirror="true" name="cell_tport_appsw_pane_cp02" type="Pane"/>
     <Component drawingorder="3" id="8032" maxVariety="2" mirror="true" name="cell_tport_appsw_pane_cp03" type="Pane"/>
     <Component drawingorder="22" id="8033" maxVariety="0" mirror="true" name="popup_wgtman_window" type="Pane"/>
@@ -3366,4 +3366,12 @@
     <Component drawingorder="2" id="8118" maxVariety="0" mirror="false" name="vorec_t5" type="Text"/>
     <Component drawingorder="20" id="8122" maxVariety="3" mirror="true" name="main_mup3_lyrics_pane" type="Pane"/>
     <Component drawingorder="0" id="8123" maxVariety="1" mirror="true" name="main_mup3_lyrics_pane_t1" type="Text"/>
+    <Component drawingorder="5" id="8125" maxVariety="0" mirror="true" name="aid_call6_pane_g1_size" type="Pane"/>
+    <Component drawingorder="15" id="8126" maxVariety="0" mirror="false" name="main_mp4_pane_g7" type="Graphic"/>
+    <Component drawingorder="16" id="8127" maxVariety="0" mirror="false" name="main_mp4_pane_g8" type="Graphic"/>
+    <Component drawingorder="17" id="8128" maxVariety="0" mirror="false" name="aid_main_mp4_pane_t1_area" type="Pane"/>
+    <Component drawingorder="18" id="8129" maxVariety="0" mirror="false" name="aid_main_mp4_pane_t2_area" type="Pane"/>
+    <Component drawingorder="1" id="8131" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_other_pane" type="Pane"/>
+    <Component drawingorder="0" id="8132" maxVariety="0" mirror="true" name="list_double_large_graphic_phob2_other_pane_g1" type="Graphic"/>
+    <Component drawingorder="1" id="8133" maxVariety="0" mirror="true" name="list_highlight_pane_cp026" type="Pane"/>
 </Layout>
