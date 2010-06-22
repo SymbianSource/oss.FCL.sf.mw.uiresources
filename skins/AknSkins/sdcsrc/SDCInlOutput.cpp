@@ -291,8 +291,9 @@ void CSDCInlOutput::Output( CSDCData* aData, const char* aSkinName, const char* 
     fprintf( file, "\nCAPABILITY CAP_GENERAL_DLL\n" );
 
     fprintf( file, "\nUSERINCLUDE \\s60\\AknSkins\\srvinc\n" );
-    fprintf( file, "SYSTEMINCLUDE \\epoc32\\include \\epoc32\\include\\oem\n" );
-
+    fprintf( file, "#include <platform_paths.hrh>\nMW_LAYER_SYSTEMINCLUDE\n" );
+		fprintf( file, "SYSTEMINCLUDE \\epoc32\\include\\oem\n" );
+		
     fprintf( file, "\nLIBRARY euser.lib\n" );
 
     fprintf( file, "\nSOURCE %s_ContentDLL.cpp\n", aSkinName );

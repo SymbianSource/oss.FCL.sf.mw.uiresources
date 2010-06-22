@@ -21,8 +21,8 @@
 
 PRJ_EXPORTS
 
-// IBY-files
-rom/elocl.iby LANGUAGE_MW_LAYER_IBY_EXPORT_PATH(elocl.iby)
+// languages.confml export
+rom/languages.confml    /epoc32/rom/config/global/confml/languages.confml
 
 PRJ_MMPFILES    // List of MMP files 
 

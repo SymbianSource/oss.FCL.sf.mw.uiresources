@@ -20,4 +20,4 @@ TARGETTYPE      exe
 CAPABILITY      CAP_APPLICATION
 SOURCEPATH      ../src
 SOURCE          coltab.cpp
-//SYSTEMINCLUDE /epoc32/include
+
