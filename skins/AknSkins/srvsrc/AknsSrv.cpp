@@ -100,25 +100,24 @@ CAknsSrv* CAknsSrv::New( TBool &aStartFailed )
 	aStartFailed = EFalse;
 	
     CAknsSrv* server = new CAknsSrv();
-    server->iMergeType = (TAknsSkinSrvMergeType)(
-        EAknsSkinSrvSkin | EAknsSkinSrvIdleWp );
-    server->iBootFinished = EFalse;
-    if ( server )
-        {
-        if ( server->Start( KAknSkinSrvName ) != KErrNone )
-            {
-            AKNS_TRACE_ERROR("CAknsSrv::New START FAILED!");
-
-           	aStartFailed = ETrue;
-            delete server;
-            return NULL;
-            }
-        }
-    else
+    if ( !server )
         {
         AKNS_TRACE_ERROR("CAknsSrv::New SERVER ALLOCATION FAILED!");
         return NULL;
         }
+
+    server->iMergeType = (TAknsSkinSrvMergeType)(
+        EAknsSkinSrvSkin | EAknsSkinSrvIdleWp );
+    server->iBootFinished = EFalse;
+    if (server->Start(KAknSkinSrvName) != KErrNone)
+        {
+        AKNS_TRACE_ERROR("CAknsSrv::New START FAILED!");
+
+        aStartFailed = ETrue;
+        delete server;
+        return NULL;
+        }
+
     server->iBitmapStore = new CAknsSrvBitmapStore;
     if( !server->iBitmapStore )
         {
