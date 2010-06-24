@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="102px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 102 112" height="112px" x="0px" y="0px">
+    <g>
+        <g>
+            <g>
+                <path d="M 1.0 50.0 C 1.0 86.4 29.8 100.0 48.0 100.0 C 61.3 100.0 73.9 94.8 83.3 85.3 C 92.8 75.9 98.0 63.3 98.0 50.0 C 98.0 31.8 84.4 3.0 48.0 3.0 C 22.1 3.0 1.0 24.1 1.0 50.0 z " fill-opacity="0.02" display="none"/>
+                <path d="M 2.0 50.0 C 2.0 85.7 30.2 99.0 48.0 99.0 C 61.1 99.0 73.4 93.9 82.6 84.6 C 91.9 75.4 97.0 63.1 97.0 50.0 C 97.0 32.2 83.7 4.0 48.0 4.0 C 22.6 4.0 2.0 24.6 2.0 50.0 z " fill-opacity="0.03" display="none"/>
+                <path d="M 3.0 50.0 C 3.0 85.0 30.6 98.0 48.0 98.0 C 74.5 98.0 96.0 76.5 96.0 50.0 C 96.0 32.6 83.0 5.0 48.0 5.0 C 23.2 5.0 3.0 25.2 3.0 50.0 z " fill-opacity="0.07" display="none"/>
+                <path d="M 4.0 50.0 C 4.0 84.2 31.0 97.0 48.0 97.0 C 73.9 97.0 95.0 75.9 95.0 50.0 C 95.0 33.0 82.2 6.0 48.0 6.0 C 23.7 6.0 4.0 25.7 4.0 50.0 z " fill-opacity="0.08" display="none"/>
+                <path d="M 5.0 50.0 C 5.0 83.5 31.4 96.0 48.0 96.0 C 73.4 96.0 94.0 75.4 94.0 50.0 C 94.0 33.4 81.5 7.0 48.0 7.0 C 24.3 7.0 5.0 26.3 5.0 50.0 z " fill-opacity="0.12" display="none"/>
+                <path d="M 6.0 50.0 C 6.0 81.0 29.9 95.0 48.0 95.0 C 72.9 95.0 93.0 74.9 93.0 50.0 C 93.0 32.0 79.0 8.0 48.0 8.0 C 24.9 8.0 6.0 26.9 6.0 50.0 z " fill-opacity="0.15" display="none"/>
+            </g>
+        </g>
+    </g>
+    <g>
+        <g>
+            <g>
+                <g>
+                    <path d="M 48.5 43.1 C 52.6 43.1 55.8 46.399998 55.8 50.5 C 55.8 54.600002 52.5 57.9 48.5 57.9 C 44.4 57.9 41.2 54.600002 41.2 50.5 C 41.2 46.399998 44.5 43.1 48.5 43.1 z " fill-opacity="0.15"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g>
+        <g>
+            <g>
+                <linearGradient x1="257.3281" gradientTransform="matrix(1 0 0 1 -208.8281 -5593.3906)" y1="5637.1904" x2="257.3281" gradientUnits="userSpaceOnUse" y2="5650.6094" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+                    <stop stop-color="#282828" offset="0"/>
+                    <stop stop-color="#1e1e1e" offset="1"/>
+                </linearGradient>
+                <path fill="url(#SVGID_1_)" d="M 48.5 43.8 C 52.2 43.8 55.2 46.8 55.2 50.5 C 55.2 54.2 52.2 57.2 48.5 57.2 C 44.8 57.2 41.8 54.2 41.8 50.5 C 41.9 46.8 44.9 43.8 48.5 43.8 z "/>
+            </g>
+        </g>
+    </g>
+    <g>
+        <g>
+            <g>
+                <g>
+                    <path fill="none" d="M 41.9 50.5 C 41.9 46.8 44.9 43.8 48.600002 43.8 C 52.300003 43.8 55.300003 46.8 55.300003 50.5 " stroke-width="0.5" stroke-opacity="0.15" stroke="#282828"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="3px" preserveAspectRatio="xMidYMid meet" viewBox="37 38 3 2" height="2px" x="0px" y="0px">
+    <path d="M 0.0 38.05 C 0.0 39.127 0.896 40.0 2.0 40.0 L 38.0 40.0 C 39.104 40.0 40.0 39.127 40.0 38.05 L 40.0 2.95 C 40.0 1.873 39.104 1.0 38.0 1.0 L 2.0 1.0 C 0.896 1.0 0.0 1.873 0.0 2.95 L 0.0 38.05 z "/>
+    <path d="M 0.0 37.55 C 0.0 38.627 0.896 39.5 2.0 39.5 L 38.0 39.5 C 39.104 39.5 40.0 38.627 40.0 37.55 L 40.0 2.45 C 40.0 1.373 39.104 0.5 38.0 0.5 L 2.0 0.5 C 0.896 0.5 0.0 1.373 0.0 2.45 L 0.0 37.55 z "/>
+    <linearGradient x1="20.0005" y1="38.6318" x2="20.0005" gradientUnits="userSpaceOnUse" y2="0.9034" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+        <stop stop-color="#505050" offset="0"/>
+        <stop stop-color="#505050" offset="1"/>
+    </linearGradient>
+    <path fill="url(#SVGID_1_)" d="M 0.0 37.05 C 0.0 38.127 0.896 39.0 2.0 39.0 L 38.0 39.0 C 39.104 39.0 40.0 38.127 40.0 37.05 L 40.0 1.95 C 40.0 0.873 39.104 0.0 38.0 0.0 L 2.0 0.0 C 0.896 0.0 0.0 0.873 0.0 1.95 L 0.0 37.05 z "/>
+    <rect x="1.973" width="36.003" fill="none" y="37.963" height="2.037"/>
+    <rect x="37.976" width="2.024" fill="none" y="37.963" height="2.037"/>
+</svg>
