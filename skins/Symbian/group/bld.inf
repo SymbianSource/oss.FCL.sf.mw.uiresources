@@ -23,7 +23,7 @@ start extension skins/skingenerator
 	option AKNSSKINNAME themepackage
 	option AKNSSKINREALNAME Symbian
 	option AKNSSKINUID 200259E6
-	option AKNSSRCDIR $(EXTENSION_ROOT)/../srcdata
+	option AKNSSRCDIR $(EXTENSION_ROOT)/../../Symbian/srcdata
 end
 
 #endif
