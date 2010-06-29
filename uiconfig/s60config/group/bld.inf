@@ -63,7 +63,8 @@ PRJ_EXPORTS
 ../src/wsini_iti.ini        /epoc32/release/winscw/udeb/z/system/data/wsini.icl
 ../src/wsini_iti.ini        /epoc32/release/winscw/urel/z/system/data/wsini.icl
 #else
-../src/hw_wsini_qhd.ini       /epoc32/data/wsini.ini  
+//Workaround for Bug 3124
+//../src/hw_wsini_qhd.ini       /epoc32/data/wsini.ini  
 ../src/wsini_tactile.ini      /epoc32/release/winscw/udeb/z/system/data/wsini.ini
 ../src/wsini_tactile.ini      /epoc32/release/winscw/urel/z/system/data/wsini.ini
 ../src/wsini_tactile.ini      /epoc32/release/winscw/udeb/z/system/data/wsini.icl
