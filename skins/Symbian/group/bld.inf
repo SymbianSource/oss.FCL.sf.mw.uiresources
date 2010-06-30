@@ -14,6 +14,9 @@
 * Description:  
 * Build the Symbian Theme
 */
+
+#include <platform_paths.hrh>
+
 PRJ_EXPORTS
 // Export confml to ensure this is the default skin
 ../confml/symbianskin.confml                  APP_LAYER_CONFML(symbianskin.confml)
