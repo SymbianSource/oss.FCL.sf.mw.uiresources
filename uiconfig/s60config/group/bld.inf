@@ -57,7 +57,8 @@ PRJ_EXPORTS
 
 #ifdef RD_TACTILE_FEEDBACK
 #ifdef RD_INTELLIGENT_TEXT_INPUT
-../src/hw_wsini.ini     		/epoc32/data/wsini.ini  
+//Workaround for Bug 3124
+//../src/hw_wsini.ini     		/epoc32/data/wsini.ini  
 ../src/wsini_iti.ini        /epoc32/release/winscw/udeb/z/system/data/wsini.ini
 ../src/wsini_iti.ini        /epoc32/release/winscw/urel/z/system/data/wsini.ini
 ../src/wsini_iti.ini        /epoc32/release/winscw/udeb/z/system/data/wsini.icl
