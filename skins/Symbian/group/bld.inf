@@ -31,7 +31,7 @@ start extension skins/skingenerator
 	option AKNSSKINUID 200259E6
 	// Workaround for Bug 3126
 	// option AKNSSRCDIR $(EXTENSION_ROOT)/../../Symbian/srcdata
-	option AKNSSRCDIR /sf/mw/uiresources/skins/Symbian/srcdata
+	option AKNSSRCDIR $(EPOCROOT)/sf/mw/uiresources/skins/Symbian/srcdata
 end
 
 #endif
