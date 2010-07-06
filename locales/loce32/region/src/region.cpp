@@ -45,8 +45,8 @@ EXPORT_C void LoclRegion::LocaleData(SLocaleRegion *aLocale)
 	aLocale->iStartOfWeek=RegionAspect::StartOfWeek;
 	aLocale->iClockFormat=RegionAspect::ClockFormat;
 	aLocale->iUnitsGeneral=RegionAspect::UnitsGeneral;
-	aLocale->iUnitsDistanceLong=RegionAspect::UnitsGeneral;
-	aLocale->iUnitsDistanceShort=RegionAspect::UnitsGeneral;
+	aLocale->iUnitsDistanceLong=RegionAspect::UnitsDistanceLong;
+	aLocale->iUnitsDistanceShort=RegionAspect::UnitsDistanceShort;
 	aLocale->iExtraNegativeCurrencyFormatFlags=RegionAspect::ExtraNegativeCurrencyFormatFlags;
 	aLocale->iDeviceTimeState = EDeviceUserTime;
 	}
