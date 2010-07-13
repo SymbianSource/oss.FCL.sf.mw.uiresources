@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="90px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 90 40" height="40px" x="0px" y="0px">
+    <g>
+        <rect x="0.001" width="89.999" fill="#a5b344" y="38.806" height="1.194"/>
+        <rect x="0.001" width="89.999" fill="#a5b344" height="1.192"/>
+        <rect x="0.001" y="1.192" fill-opacity="0.9" fill="url(#SVGID_1_)" width="89.999" height="37.613" stroke-opacity="0.9"/>
+        <rect width="89.969" fill="none" y="6.087" height="27.826"/>
+        <defs>
+            <linearGradient x1="45.0005" y1="43.0791" x2="45.0005" gradientUnits="userSpaceOnUse" y2="-3.5174" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+                <stop stop-color="#a5b344" offset="0"/>
+                <stop stop-color="#cddd54" offset="1"/>
+            </linearGradient>
+        </defs>
+    </g>
+</svg>

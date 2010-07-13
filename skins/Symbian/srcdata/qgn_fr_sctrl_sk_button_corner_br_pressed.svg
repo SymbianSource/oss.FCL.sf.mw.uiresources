@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="4px" preserveAspectRatio="xMidYMid meet" viewBox="36 36 4 4" height="4px" x="0px" y="0px">
+    <linearGradient x1="545.3203" gradientTransform="matrix(1 0 0 1 -525.3203 -868.9199)" y1="868.9199" x2="545.3203" gradientUnits="userSpaceOnUse" y2="908.9199" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+        <stop stop-color="#505050" offset="0"/>
+        <stop stop-color="#000000" offset="1"/>
+    </linearGradient>
+    <rect width="40" fill="url(#SVGID_1_)" height="40"/>
+    <rect x="39.5" width="0.5" fill="#505050" height="40"/>
+    <rect width="40" y="39" height="1"/>
+    <rect x="36" width="4" fill="none" y="35.994" height="4.006"/>
+</svg>
