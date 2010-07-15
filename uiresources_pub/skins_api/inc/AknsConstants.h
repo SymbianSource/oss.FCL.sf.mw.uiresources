@@ -1601,7 +1601,9 @@ enum TAknsQsnOtherColorsIndex
     // Other #23 Wallpaper mask, Homescreen status area mask #e9eef2
     EAknsCIQsnOtherColorsCG23   = 22,
     // Other #24 Calendar, Background colour of today number #8a94ae
-    EAknsCIQsnOtherColorsCG24   = 23
+    EAknsCIQsnOtherColorsCG24   = 23,
+    // Other #25 Navipane / tabs, Pressed tab indication #9c3958
+    EAknsCIQsnOtherColorsCG25   = 24
     };
 
 /**
@@ -22271,6 +22273,51 @@ static const TAknsItemID KAknsIIDQgnPropInternetRadioStation =
 
 static const TAknsItemID KAknsIIDQgnWelcomePluginSync =
     { EAknsMajorGeneric, EAknsMinorGenericQgnWelcomePluginSync };
+
+static const TAknsItemID KAknsIIDQgnCustomisedPrivacy32x32px =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnCustomisedPrivacy32x32px };
+
+static const TAknsItemID KAknsIIDQgnCustomisedPrivacy50x50px =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnCustomisedPrivacy50x50px };
+
+static const TAknsItemID KAknsIIDQgnGrafJavaLogo =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnGrafJavaLogo };
+
+static const TAknsItemID KAknsIIDQgnMaximumPrivacy32x32px =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMaximumPrivacy32x32px };
+
+static const TAknsItemID KAknsIIDQgnMaximumPrivacy50x50px =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMaximumPrivacy50x50px };
+
+static const TAknsItemID KAknsIIDQgnMediumPrivacy32x32px =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMediumPrivacy32x32px };
+
+static const TAknsItemID KAknsIIDQgnMediumPrivacy50x50px =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMediumPrivacy50x50px };
+
+static const TAknsItemID KAknsIIDQgnMinimumPrivacy32x32px =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMinimumPrivacy32x32px };
+
+static const TAknsItemID KAknsIIDQgnMinimumPrivacy50x50px =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnMinimumPrivacy50x50px };
+
+static const TAknsItemID KAknsIIDQgnPropCmccDtmf =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccDtmf };
+
+static const TAknsItemID KAknsIIDQgnPropCmccDtmfUnsync =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccDtmfUnsync };
+
+static const TAknsItemID KAknsIIDQgnPropCmccMap =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccMap };
+
+static const TAknsItemID KAknsIIDQgnPropCmccMapUnsync =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccMapUnsync };
+
+static const TAknsItemID KAknsIIDQgnPropCmccRingtone =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccRingtone };
+
+static const TAknsItemID KAknsIIDQgnPropCmccRingtoneUnsync =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccRingtoneUnsync };
 
 // SCMMARKER_INSERTIONPOINT
 

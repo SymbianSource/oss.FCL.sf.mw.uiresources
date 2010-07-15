@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LayoutAttributes createdOn="2010-06-07 17:05:19.935" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.835518512136936">
+<LayoutAttributes createdOn="2010-06-10 17:21:29.191" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.835518512136936">
   <attributeset compId="1" name="D">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -2308,18 +2308,18 @@
       <calc value="false"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="8" zoom="+1 zoom"/>
-      <calc value="8" zoom="+2 zoom"/>
-      <calc value="8" zoom="+3 zoom"/>
-      <calc value="11" zoom="-3 zoom"/>
-      <calc value="10" zoom="-2 zoom"/>
-      <calc value="9"/>
+      <calc value="7" zoom="+2 zoom"/>
+      <calc value="7" zoom="+3 zoom"/>
+      <calc value="10" zoom="-3 zoom"/>
+      <calc value="9" zoom="-2 zoom"/>
+      <calc value="8"/>
+      <calc value="9" zoom="-1 zoom"/>
     </attribute>
     <attribute id="50" name="Hz Align">
       <calc value="left"/>
     </attribute>
     <attribute id="51" name="Vt Align">
-      <calc value="bottom"/>
+      <calc value="top"/>
     </attribute>
   </attributeset>
   <attributeset compId="2563" name="a0">
@@ -9718,6 +9718,40 @@
       <calc value="false"/>
     </attribute>
   </attributeset>
+  <attributeset compId="8073" name="a1">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="false"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="8073" name="a2">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="false"/>
+    </attribute>
+  </attributeset>
   <attributeset compId="8074" name="a0">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -9874,6 +9908,43 @@
     </attribute>
     <attribute id="48" name="Number of rows">
       <calc value="15"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="8135" name="a0">
+    <attribute id="24" name="list type">
+      <calc value="Forced"/>
+    </attribute>
+    <attribute id="25" name="gap">
+      <calc value="0"/>
+    </attribute>
+    <attribute id="46" name="Multi Row">
+      <calc value="true"/>
+    </attribute>
+    <attribute id="48" name="Number of rows">
+      <calc value="3"/>
+    </attribute>
+    <attribute id="50" name="Hz Align">
+      <calc value="left"/>
+    </attribute>
+    <attribute id="51" name="Vt Align">
+      <calc value="top"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="8142" name="a0">
+    <attribute id="8" name="style 1">
+      <calc value="plain"/>
+    </attribute>
+    <attribute id="9" name="style 2">
+      <calc value="regular"/>
+    </attribute>
+    <attribute id="10" name="style 3">
+      <calc value="none"/>
+    </attribute>
+    <attribute id="12" name="shadow colour">
+      <calc value="215"/>
+    </attribute>
+    <attribute id="1059" name="Concatenated rows">
+      <calc value="false"/>
     </attribute>
   </attributeset>
 </LayoutAttributes>

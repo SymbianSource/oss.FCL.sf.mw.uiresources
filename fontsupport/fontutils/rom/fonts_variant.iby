@@ -47,7 +47,8 @@ ECOM_PLUGIN(ityperast.dll, ityperast.RSC)
    || defined(__LAYOUT_480_320) || defined(__LAYOUT_480_320_TOUCH) \
    || defined(__LAYOUT_480_640) || defined(__LAYOUT_480_640_TOUCH) \
    || defined(__LAYOUT_640_480) || defined(__LAYOUT_640_480_TOUCH) \
-   || defined (FF_LAYOUT_480_640_VGA3) || defined (FF_LAYOUT_640_480_VGA3)
+   || defined (FF_LAYOUT_480_640_VGA3) || defined (FF_LAYOUT_640_480_VGA3) \
+   || defined (FF_LAYOUT_480_640_TOUCH_VGA4) || defined (FF_LAYOUT_640_480_TOUCH_VGA4)
 
     // Reso OK, include HiRes font
     data=ABI_DIR\BUILD_DIR\S60SC_C.ttf        resource\Fonts\S60SC_C.ttf
@@ -72,7 +73,8 @@ ECOM_PLUGIN(ityperast.dll, ityperast.RSC)
     || defined(__LAYOUT_480_320) || defined(__LAYOUT_480_320_TOUCH) \
     || defined(__LAYOUT_480_640) || defined(__LAYOUT_480_640_TOUCH) \
     || defined(__LAYOUT_640_480) || defined(__LAYOUT_640_480_TOUCH) \
-    || defined (FF_LAYOUT_480_640_VGA3) || defined (FF_LAYOUT_640_480_VGA3)
+    || defined (FF_LAYOUT_480_640_VGA3) || defined (FF_LAYOUT_640_480_VGA3) \
+    || defined (FF_LAYOUT_480_640_TOUCH_VGA4) || defined (FF_LAYOUT_640_480_TOUCH_VGA4)
 
     // Reso OK, include HiRes font
     data=ABI_DIR\BUILD_DIR\S60TCHK_C.ttf      resource\Fonts\S60TCHK_C.ttf

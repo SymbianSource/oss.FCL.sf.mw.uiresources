@@ -7767,8 +7767,23 @@ enum TAknsMinorGenericValue
     EAknsMinorGenericQgnMenuSocialNetworks = 0x2630,
     EAknsMinorGenericQgnPropInternetRadioStation = 0x2631,
     EAknsMinorGenericQgnWelcomePluginSync = 0x2632,
-    // SCMMARKER_INSERTIONPOINT [9779]
-    EAknsMinorGenericInternalCurrentLastItem = 0x2633
+    EAknsMinorGenericQgnCustomisedPrivacy32x32px = 0x2633,
+    EAknsMinorGenericQgnCustomisedPrivacy50x50px = 0x2634,
+    EAknsMinorGenericQgnGrafJavaLogo = 0x2635,
+    EAknsMinorGenericQgnMaximumPrivacy32x32px = 0x2636,
+    EAknsMinorGenericQgnMaximumPrivacy50x50px = 0x2637,
+    EAknsMinorGenericQgnMediumPrivacy32x32px = 0x2638,
+    EAknsMinorGenericQgnMediumPrivacy50x50px = 0x2639,
+    EAknsMinorGenericQgnMinimumPrivacy32x32px = 0x263a,
+    EAknsMinorGenericQgnMinimumPrivacy50x50px = 0x263b,
+    EAknsMinorGenericQgnPropCmccDtmf = 0x263c,
+    EAknsMinorGenericQgnPropCmccDtmfUnsync = 0x263d,
+    EAknsMinorGenericQgnPropCmccMap = 0x263e,
+    EAknsMinorGenericQgnPropCmccMapUnsync = 0x263f,
+    EAknsMinorGenericQgnPropCmccRingtone = 0x2640,
+    EAknsMinorGenericQgnPropCmccRingtoneUnsync = 0x2641,
+    // SCMMARKER_INSERTIONPOINT [9794]
+    EAknsMinorGenericInternalCurrentLastItem = 0x2642
     };
 
 // ----------------------------------------------------------------------------

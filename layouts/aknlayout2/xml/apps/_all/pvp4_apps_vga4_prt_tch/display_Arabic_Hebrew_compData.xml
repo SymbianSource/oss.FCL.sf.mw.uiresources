@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2010-06-07 17:15:11.592" LayoutName="pvp4_apps_vga4_prt_tch" LayoutSetId="290" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.9457593300398335" MasterName="m_app_tch_92v" ppi="300.0" ppiUnit="Inches" resolutionHeight="640" resolutionWidth="480" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
+<Layout createdOn="2010-06-10 17:31:28.559" LayoutName="pvp4_apps_vga4_prt_tch" LayoutSetId="290" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.9457593300398335" MasterName="m_app_tch_92v" ppi="300.0" ppiUnit="Inches" resolutionHeight="640" resolutionWidth="480" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
     <Component drawingorder="0" id="1" mirror="true" name="Screen" type="Screen"/>
     <Component drawingorder="0" id="2" maxVariety="0" mirror="true" name="application_window" type="Container"/>
     <Component drawingorder="13" id="10" maxVariety="0" mirror="true" name="navi_pane_g1" type="Graphic"/>
@@ -2516,7 +2516,7 @@
     <Component drawingorder="2" id="5418" maxVariety="0" mirror="true" name="main_sp_fs_ctrlbar_button_pane_cp01" type="Pane"/>
     <Component drawingorder="3" id="5419" maxVariety="0" mirror="true" name="main_sp_fs_ctrlbar_pane_g2" type="Graphic"/>
     <Component drawingorder="1" id="5420" maxVariety="0" mirror="true" name="main_sp_fs_ctrlbar_ddmenu_pane" type="Pane"/>
-    <Component drawingorder="0" id="5421" maxVariety="1" mirror="true" name="main_sp_fs_ctrlbar_pane_g1" type="Graphic"/>
+    <Component drawingorder="0" id="5421" maxVariety="2" mirror="true" name="main_sp_fs_ctrlbar_pane_g1" type="Graphic"/>
     <Component drawingorder="0" id="5422" maxVariety="0" mirror="true" name="list_medium_line_t2_right_icon_t1" type="Text"/>
     <Component drawingorder="20" id="5427" maxVariety="0" mirror="true" name="list_medium_line_t2_right_icon" type="Pane"/>
     <Component drawingorder="0" id="5429" maxVariety="2" mirror="true" name="main_sp_fs_ctrlbar_pane" type="Pane"/>
@@ -2535,7 +2535,7 @@
     <Component drawingorder="1" id="5604" maxVariety="6" mirror="true" name="sp_fs_action_menu_list_pane" type="Pane"/>
     <Component drawingorder="2" id="5605" maxVariety="6" mirror="true" name="sp_fs_scroll_pane_cp01" type="Pane"/>
     <Component drawingorder="1" id="5606" maxVariety="8" mirror="true" name="popup_sp_fs_action_menu_pane" type="Pane"/>
-    <Component drawingorder="5" id="5610" maxVariety="1" mirror="true" name="main_sp_fs_ctrlbar_pane_t1" type="Text"/>
+    <Component drawingorder="5" id="5610" maxVariety="2" mirror="true" name="main_sp_fs_ctrlbar_pane_t1" type="Text"/>
     <Component drawingorder="2" id="5611" maxVariety="4" mirror="true" name="popup_sp_fs_action_menu_pane_cp01" type="Pane"/>
     <Component drawingorder="2" id="5632" maxVariety="1" mirror="true" name="list_medium_line_x2_t2_g2_g2" type="Graphic"/>
     <Component drawingorder="1" id="5634" maxVariety="1" mirror="true" name="list_medium_line_x2_t2_g2_t1" type="Text"/>
@@ -3245,7 +3245,7 @@
     <Component drawingorder="8" id="8069" maxVariety="0" mirror="true" name="list_single_cale_mrui_row_pane_g3" type="Graphic"/>
     <Component drawingorder="26" id="8070" maxVariety="0" mirror="true" name="navi_pane_bcale_mc_g1" type="Graphic"/>
     <Component drawingorder="27" id="8071" maxVariety="0" mirror="true" name="navi_pane_bcale_mc_t1" type="Text"/>
-    <Component drawingorder="144" id="8073" maxVariety="0" mirror="true" name="main_welc_pane" type="Pane"/>
+    <Component drawingorder="144" id="8073" maxVariety="1" mirror="true" name="main_welc_pane" type="Pane"/>
     <Component drawingorder="0" id="8074" maxVariety="2" mirror="true" name="main_welc_body_pane" type="Pane"/>
     <Component drawingorder="1" id="8075" maxVariety="2" mirror="true" name="main_welc_opti_pane" type="Pane"/>
     <Component drawingorder="2" id="8076" maxVariety="2" mirror="true" name="main_welc_pane_t1" type="Text"/>
@@ -3290,4 +3290,23 @@
     <Component drawingorder="1" id="8131" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_other_pane" type="Pane"/>
     <Component drawingorder="0" id="8132" maxVariety="0" mirror="true" name="list_double_large_graphic_phob2_other_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="8133" maxVariety="0" mirror="true" name="list_highlight_pane_cp026" type="Pane"/>
+    <Component drawingorder="5" id="8134" maxVariety="0" mirror="true" name="main_welc_pane_g3" type="Graphic"/>
+    <Component drawingorder="6" id="8135" maxVariety="0" mirror="true" name="list_welc_entry_pane" type="Pane"/>
+    <Component drawingorder="7" id="8136" maxVariety="0" mirror="true" name="main_welc_pane_t2" type="Text"/>
+    <Component drawingorder="0" id="8137" maxVariety="0" mirror="true" name="list_single_welc_entry_pane" type="Pane"/>
+    <Component drawingorder="0" id="8138" maxVariety="0" mirror="true" name="list_single_welc_entry_pane_g1" type="Graphic"/>
+    <Component drawingorder="1" id="8139" maxVariety="0" mirror="true" name="list_single_welc_entry_pane_t1" type="Text"/>
+    <Component drawingorder="2" id="8140" maxVariety="0" mirror="true" name="list_single_welc_entry_pane_t2" type="Text"/>
+    <Component drawingorder="8" id="8141" maxVariety="0" mirror="true" name="main_welc_pane_t3" type="Text"/>
+    <Component drawingorder="9" id="8142" maxVariety="0" mirror="true" name="welc_button_pane" type="Pane"/>
+    <Component drawingorder="0" id="8143" maxVariety="0" mirror="true" name="welc_button_pane_t1" type="Text"/>
+    <Component drawingorder="1" id="8144" maxVariety="0" mirror="true" name="bg_button_pane_cp035" type="Pane"/>
+    <Component drawingorder="10" id="8145" maxVariety="0" mirror="true" name="welc_service_logo_pane" type="Pane"/>
+    <Component drawingorder="0" id="8146" maxVariety="0" mirror="true" name="welc_service_logo_pane_g1" type="Graphic"/>
+    <Component drawingorder="1" id="8147" maxVariety="0" mirror="true" name="welc_service_logo_pane_g2" type="Graphic"/>
+    <Component drawingorder="11" id="8148" maxVariety="2" mirror="true" name="main_sp_fs_ctrlbar_pane_g3" type="Graphic"/>
+    <Component drawingorder="12" id="8149" maxVariety="2" mirror="true" name="main_sp_fs_ctrlbar_pane_g4" type="Graphic"/>
+    <Component drawingorder="13" id="8150" maxVariety="0" mirror="true" name="toolbar2_fixed_button_pane_cp01" type="Pane"/>
+    <Component drawingorder="14" id="8151" maxVariety="0" mirror="true" name="toolbar2_fixed_button_pane_cp02" type="Pane"/>
+    <Component drawingorder="15" id="8152" maxVariety="0" mirror="true" name="toolbar2_fixed_button_pane_cp03" type="Pane"/>
 </Layout>

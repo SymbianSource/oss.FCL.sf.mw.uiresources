@@ -48,17 +48,17 @@ TAknTextComponentLayout GetTextComponentById(TInt aComponentId, TInt aVariety, T
 
 const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 	{
-0xa9a8,	// (0x0000a9a8) Screen
+0xa9e7,	// (0x0000a9e7) Screen
 
-0xa9b2,	// (0x0000a9b2) application_window_ParamLimits
+0xa9f1,	// (0x0000a9f1) application_window_ParamLimits
 
-0xa9b2,	// (0x0000a9b2) application_window
+0xa9f1,	// (0x0000a9f1) application_window
 
 0x002a,	// (0x0000002a) screen_g1
 
-0xa9e0,	// (0x0000a9e0) area_bottom_pane_ParamLimits
+0xaa1f,	// (0x0000aa1f) area_bottom_pane_ParamLimits
 
-0xa9e0,	// (0x0000a9e0) area_bottom_pane
+0xaa1f,	// (0x0000aa1f) area_bottom_pane
 
 0x011d,	// (0x0000011d) area_top_pane_ParamLimits
 
@@ -70,9 +70,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x024e,	// (0x0000024e) misc_graphics
 
-0xbfc3,	// (0x0000bfc3) battery_pane_ParamLimits
+0xc002,	// (0x0000c002) battery_pane_ParamLimits
 
-0xbfc3,	// (0x0000bfc3) battery_pane
+0xc002,	// (0x0000c002) battery_pane
 
 0x3c02,	// (0x00003c02) bg_status_flat_pane_g8
 
@@ -82,25 +82,25 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x2e63,	// (0x00002e63) context_pane
 
-0xc11d,	// (0x0000c11d) navi_pane_ParamLimits
+0xc15c,	// (0x0000c15c) navi_pane_ParamLimits
 
-0xc11d,	// (0x0000c11d) navi_pane
+0xc15c,	// (0x0000c15c) navi_pane
 
-0xc192,	// (0x0000c192) signal_pane_ParamLimits
+0xc1d1,	// (0x0000c1d1) signal_pane_ParamLimits
 
-0xc192,	// (0x0000c192) signal_pane
+0xc1d1,	// (0x0000c1d1) signal_pane
 
 0x0008,
 
-0xa31d,	// (0x0000a31d) bg_status_flat_pane_g
+0xa35c,	// (0x0000a35c) bg_status_flat_pane_g
 
-0xc21e,	// (0x0000c21e) status_pane_g1_ParamLimits
+0xc25d,	// (0x0000c25d) status_pane_g1_ParamLimits
 
-0xc21e,	// (0x0000c21e) status_pane_g1
+0xc25d,	// (0x0000c25d) status_pane_g1
 
-0xc22a,	// (0x0000c22a) status_pane_g2_ParamLimits
+0xc269,	// (0x0000c269) status_pane_g2_ParamLimits
 
-0xc22a,	// (0x0000c22a) status_pane_g2
+0xc269,	// (0x0000c269) status_pane_g2
 
 0x3078,	// (0x00003078) status_pane_g3_ParamLimits
 
@@ -108,37 +108,37 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xe83b,	// (0x0000e83b) status_pane_g_ParamLimits
+0xe8cb,	// (0x0000e8cb) status_pane_g_ParamLimits
 
-0xe83b,	// (0x0000e83b) status_pane_g
+0xe8cb,	// (0x0000e8cb) status_pane_g
 
-0xc236,	// (0x0000c236) title_pane_ParamLimits
+0xc275,	// (0x0000c275) title_pane_ParamLimits
 
-0xc236,	// (0x0000c236) title_pane
+0xc275,	// (0x0000c275) title_pane
 
-0xc291,	// (0x0000c291) uni_indicator_pane_ParamLimits
+0xc2d0,	// (0x0000c2d0) uni_indicator_pane_ParamLimits
 
-0xc291,	// (0x0000c291) uni_indicator_pane
+0xc2d0,	// (0x0000c2d0) uni_indicator_pane
 
 0x2830,	// (0x00002830) bg_list_pane_ParamLimits
 
 0x2830,	// (0x00002830) bg_list_pane
 
-0xb987,	// (0x0000b987) find_pane
+0xb9c6,	// (0x0000b9c6) find_pane
 
-0xb98f,	// (0x0000b98f) listscroll_app_pane_ParamLimits
+0xb9ce,	// (0x0000b9ce) listscroll_app_pane_ParamLimits
 
-0xb98f,	// (0x0000b98f) listscroll_app_pane
+0xb9ce,	// (0x0000b9ce) listscroll_app_pane
 
 0x2864,	// (0x00002864) listscroll_form_pane
 
-0xb99f,	// (0x0000b99f) listscroll_gen_pane_ParamLimits
+0xb9de,	// (0x0000b9de) listscroll_gen_pane_ParamLimits
 
-0xb99f,	// (0x0000b99f) listscroll_gen_pane
+0xb9de,	// (0x0000b9de) listscroll_gen_pane
 
 0x2881,	// (0x00002881) listscroll_set_pane
 
-0xb9b4,	// (0x0000b9b4) main_idle_act_pane
+0xb9f3,	// (0x0000b9f3) main_idle_act_pane
 
 0x232f,	// (0x0000232f) main_idle_trad_pane
 
@@ -150,13 +150,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x28a7,	// (0x000028a7) main_pane_g1
 
-0xb9c7,	// (0x0000b9c7) popup_ai_message_window_ParamLimits
+0xba06,	// (0x0000ba06) popup_ai_message_window_ParamLimits
 
-0xb9c7,	// (0x0000b9c7) popup_ai_message_window
+0xba06,	// (0x0000ba06) popup_ai_message_window
 
-0xba4b,	// (0x0000ba4b) popup_fep_china_uni_window_ParamLimits
+0xba8a,	// (0x0000ba8a) popup_fep_china_uni_window_ParamLimits
 
-0xba4b,	// (0x0000ba4b) popup_fep_china_uni_window
+0xba8a,	// (0x0000ba8a) popup_fep_china_uni_window
 
 0x2991,	// (0x00002991) popup_fep_japan_candidate_window_ParamLimits
 
@@ -166,51 +166,51 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x29af,	// (0x000029af) popup_fep_japan_predictive_window
 
-0xba89,	// (0x0000ba89) popup_find_window
+0xbac8,	// (0x0000bac8) popup_find_window
 
-0xbaa2,	// (0x0000baa2) popup_grid_graphic_window_ParamLimits
+0xbae1,	// (0x0000bae1) popup_grid_graphic_window_ParamLimits
 
-0xbaa2,	// (0x0000baa2) popup_grid_graphic_window
+0xbae1,	// (0x0000bae1) popup_grid_graphic_window
 
 0x2a06,	// (0x00002a06) popup_large_graphic_colour_window
 
-0xbb1e,	// (0x0000bb1e) popup_menu_window_ParamLimits
+0xbb5d,	// (0x0000bb5d) popup_menu_window_ParamLimits
 
-0xbb1e,	// (0x0000bb1e) popup_menu_window
+0xbb5d,	// (0x0000bb5d) popup_menu_window
 
-0xbc7c,	// (0x0000bc7c) popup_note_image_window
+0xbcbb,	// (0x0000bcbb) popup_note_image_window
 
-0xbc44,	// (0x0000bc44) popup_note_wait_window_ParamLimits
+0xbc83,	// (0x0000bc83) popup_note_wait_window_ParamLimits
 
-0xbc44,	// (0x0000bc44) popup_note_wait_window
+0xbc83,	// (0x0000bc83) popup_note_wait_window
 
-0xbc92,	// (0x0000bc92) popup_note_window_ParamLimits
+0xbcd1,	// (0x0000bcd1) popup_note_window_ParamLimits
 
-0xbc92,	// (0x0000bc92) popup_note_window
+0xbcd1,	// (0x0000bcd1) popup_note_window
 
-0xbd26,	// (0x0000bd26) popup_query_code_window_ParamLimits
+0xbd65,	// (0x0000bd65) popup_query_code_window_ParamLimits
 
-0xbd26,	// (0x0000bd26) popup_query_code_window
+0xbd65,	// (0x0000bd65) popup_query_code_window
 
 0x2bc3,	// (0x00002bc3) popup_query_data_code_window_ParamLimits
 
 0x2bc3,	// (0x00002bc3) popup_query_data_code_window
 
-0xbd5e,	// (0x0000bd5e) popup_query_data_window_ParamLimits
+0xbd9d,	// (0x0000bd9d) popup_query_data_window_ParamLimits
 
-0xbd5e,	// (0x0000bd5e) popup_query_data_window
+0xbd9d,	// (0x0000bd9d) popup_query_data_window
 
-0xbdd2,	// (0x0000bdd2) popup_query_sat_info_window_ParamLimits
+0xbe11,	// (0x0000be11) popup_query_sat_info_window_ParamLimits
 
-0xbdd2,	// (0x0000bdd2) popup_query_sat_info_window
+0xbe11,	// (0x0000be11) popup_query_sat_info_window
 
-0xbe5f,	// (0x0000be5f) popup_snote_single_graphic_window_ParamLimits
+0xbe9e,	// (0x0000be9e) popup_snote_single_graphic_window_ParamLimits
 
-0xbe5f,	// (0x0000be5f) popup_snote_single_graphic_window
+0xbe9e,	// (0x0000be9e) popup_snote_single_graphic_window
 
-0xbe5f,	// (0x0000be5f) popup_snote_single_text_window_ParamLimits
+0xbe9e,	// (0x0000be9e) popup_snote_single_text_window_ParamLimits
 
-0xbe5f,	// (0x0000be5f) popup_snote_single_text_window
+0xbe9e,	// (0x0000be9e) popup_snote_single_text_window
 
 0x2c32,	// (0x00002c32) popup_sub_window_general
 
@@ -220,9 +220,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x2d49,	// (0x00002d49) power_save_pane
 
-0xb831,	// (0x0000b831) control_pane_g1_ParamLimits
+0xb870,	// (0x0000b870) control_pane_g1_ParamLimits
 
-0xb831,	// (0x0000b831) control_pane_g1
+0xb870,	// (0x0000b870) control_pane_g1
 
 0x26b0,	// (0x000026b0) control_pane_g2_ParamLimits
 
@@ -234,23 +234,23 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0007,
 
-0xe823,	// (0x0000e823) control_pane_g_ParamLimits
+0xe8b3,	// (0x0000e8b3) control_pane_g_ParamLimits
 
-0xe823,	// (0x0000e823) control_pane_g
+0xe8b3,	// (0x0000e8b3) control_pane_g
 
-0xb88d,	// (0x0000b88d) control_pane_t1_ParamLimits
+0xb8cc,	// (0x0000b8cc) control_pane_t1_ParamLimits
 
-0xb88d,	// (0x0000b88d) control_pane_t1
+0xb8cc,	// (0x0000b8cc) control_pane_t1
 
-0xb8e9,	// (0x0000b8e9) control_pane_t2_ParamLimits
+0xb928,	// (0x0000b928) control_pane_t2_ParamLimits
 
-0xb8e9,	// (0x0000b8e9) control_pane_t2
+0xb928,	// (0x0000b928) control_pane_t2
 
 0x0002,
 
-0xe834,	// (0x0000e834) control_pane_t_ParamLimits
+0xe8c4,	// (0x0000e8c4) control_pane_t_ParamLimits
 
-0xe834,	// (0x0000e834) control_pane_t
+0xe8c4,	// (0x0000e8c4) control_pane_t
 
 0x25b6,	// (0x000025b6) navi_navi_volume_pane_cp1
 
@@ -260,21 +260,21 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x25c6,	// (0x000025c6) status_small_pane_g1
 
-0xb7b0,	// (0x0000b7b0) status_small_pane_g2_ParamLimits
+0xb7ef,	// (0x0000b7ef) status_small_pane_g2_ParamLimits
 
-0xb7b0,	// (0x0000b7b0) status_small_pane_g2
+0xb7ef,	// (0x0000b7ef) status_small_pane_g2
 
-0xb7bc,	// (0x0000b7bc) status_small_pane_g3_ParamLimits
+0xb7fb,	// (0x0000b7fb) status_small_pane_g3_ParamLimits
 
-0xb7bc,	// (0x0000b7bc) status_small_pane_g3
+0xb7fb,	// (0x0000b7fb) status_small_pane_g3
 
-0xb7c8,	// (0x0000b7c8) status_small_pane_g4_ParamLimits
+0xb807,	// (0x0000b807) status_small_pane_g4_ParamLimits
 
-0xb7c8,	// (0x0000b7c8) status_small_pane_g4
+0xb807,	// (0x0000b807) status_small_pane_g4
 
-0xb7d4,	// (0x0000b7d4) status_small_pane_g5_ParamLimits
+0xb813,	// (0x0000b813) status_small_pane_g5_ParamLimits
 
-0xb7d4,	// (0x0000b7d4) status_small_pane_g5
+0xb813,	// (0x0000b813) status_small_pane_g5
 
 0x262a,	// (0x0000262a) status_small_pane_g6_ParamLimits
 
@@ -282,39 +282,39 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0007,
 
-0xe812,	// (0x0000e812) status_small_pane_g_ParamLimits
+0xe8a2,	// (0x0000e8a2) status_small_pane_g_ParamLimits
 
-0xe812,	// (0x0000e812) status_small_pane_g
+0xe8a2,	// (0x0000e8a2) status_small_pane_g
 
-0xb803,	// (0x0000b803) status_small_pane_t1
+0xb842,	// (0x0000b842) status_small_pane_t1
 
-0xb81d,	// (0x0000b81d) status_small_wait_pane_ParamLimits
+0xb85c,	// (0x0000b85c) status_small_wait_pane_ParamLimits
 
-0xb81d,	// (0x0000b81d) status_small_wait_pane
+0xb85c,	// (0x0000b85c) status_small_wait_pane
 
-0xb5b8,	// (0x0000b5b8) aid_levels_signal_ParamLimits
+0xb5f7,	// (0x0000b5f7) aid_levels_signal_ParamLimits
 
-0xb5b8,	// (0x0000b5b8) aid_levels_signal
+0xb5f7,	// (0x0000b5f7) aid_levels_signal
 
-0xb5cc,	// (0x0000b5cc) signal_pane_g1_ParamLimits
+0xb60b,	// (0x0000b60b) signal_pane_g1_ParamLimits
 
-0xb5cc,	// (0x0000b5cc) signal_pane_g1
+0xb60b,	// (0x0000b60b) signal_pane_g1
 
-0xb5e6,	// (0x0000b5e6) signal_pane_g2_ParamLimits
+0xb625,	// (0x0000b625) signal_pane_g2_ParamLimits
 
-0xb5e6,	// (0x0000b5e6) signal_pane_g2
+0xb625,	// (0x0000b625) signal_pane_g2
 
 0x0003,
 
-0xe7f2,	// (0x0000e7f2) signal_pane_g_ParamLimits
+0xe882,	// (0x0000e882) signal_pane_g_ParamLimits
 
-0xe7f2,	// (0x0000e7f2) signal_pane_g
+0xe882,	// (0x0000e882) signal_pane_g
 
 0x1c78,	// (0x00001c78) context_pane_g1
 
-0xab77,	// (0x0000ab77) title_pane_g1
+0xabb6,	// (0x0000abb6) title_pane_g1
 
-0xabb9,	// (0x0000abb9) title_pane_t1
+0xabf8,	// (0x0000abf8) title_pane_t1
 
 0x043c,	// (0x0000043c) title_pane_t2
 
@@ -322,35 +322,35 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xe724,	// (0x0000e724) title_pane_t
+0xe7b4,	// (0x0000e7b4) title_pane_t
 
-0xc2b7,	// (0x0000c2b7) aid_levels_battery_ParamLimits
+0xc2f6,	// (0x0000c2f6) aid_levels_battery_ParamLimits
 
-0xc2b7,	// (0x0000c2b7) aid_levels_battery
+0xc2f6,	// (0x0000c2f6) aid_levels_battery
 
-0xc2cf,	// (0x0000c2cf) battery_pane_g1_ParamLimits
+0xc30e,	// (0x0000c30e) battery_pane_g1_ParamLimits
 
-0xc2cf,	// (0x0000c2cf) battery_pane_g1
+0xc30e,	// (0x0000c30e) battery_pane_g1
 
-0xc2ea,	// (0x0000c2ea) battery_pane_g2_ParamLimits
+0xc329,	// (0x0000c329) battery_pane_g2_ParamLimits
 
-0xc2ea,	// (0x0000c2ea) battery_pane_g2
+0xc329,	// (0x0000c329) battery_pane_g2
 
 0x0001,
 
-0xe846,	// (0x0000e846) battery_pane_g_ParamLimits
+0xe8d6,	// (0x0000e8d6) battery_pane_g_ParamLimits
 
-0xe846,	// (0x0000e846) battery_pane_g
+0xe8d6,	// (0x0000e8d6) battery_pane_g
 
-0xc608,	// (0x0000c608) uni_indicator_pane_g1
+0xc647,	// (0x0000c647) uni_indicator_pane_g1
 
-0xc61e,	// (0x0000c61e) uni_indicator_pane_g2
+0xc65d,	// (0x0000c65d) uni_indicator_pane_g2
 
-0xc634,	// (0x0000c634) uni_indicator_pane_g3
+0xc673,	// (0x0000c673) uni_indicator_pane_g3
 
 0x0005,
 
-0xe882,	// (0x0000e882) uni_indicator_pane_g
+0xe912,	// (0x0000e912) uni_indicator_pane_g
 
 0x1423,	// (0x00001423) navi_icon_pane_ParamLimits
 
@@ -370,29 +370,29 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa3c0,	// (0x0000a3c0) status_small_wait_pane_g
+0xa3ff,	// (0x0000a3ff) status_small_wait_pane_g
 
-0xc5ae,	// (0x0000c5ae) navi_navi_icon_text_pane
+0xc5ed,	// (0x0000c5ed) navi_navi_icon_text_pane
 
-0xc5b6,	// (0x0000c5b6) navi_navi_pane_g1_ParamLimits
+0xc5f5,	// (0x0000c5f5) navi_navi_pane_g1_ParamLimits
 
-0xc5b6,	// (0x0000c5b6) navi_navi_pane_g1
+0xc5f5,	// (0x0000c5f5) navi_navi_pane_g1
 
-0xc5c8,	// (0x0000c5c8) navi_navi_pane_g2_ParamLimits
+0xc607,	// (0x0000c607) navi_navi_pane_g2_ParamLimits
 
-0xc5c8,	// (0x0000c5c8) navi_navi_pane_g2
+0xc607,	// (0x0000c607) navi_navi_pane_g2
 
 0x0001,
 
-0xe87d,	// (0x0000e87d) navi_navi_pane_g_ParamLimits
+0xe90d,	// (0x0000e90d) navi_navi_pane_g_ParamLimits
 
-0xe87d,	// (0x0000e87d) navi_navi_pane_g
+0xe90d,	// (0x0000e90d) navi_navi_pane_g
 
-0xc5da,	// (0x0000c5da) navi_navi_tabs_pane
+0xc619,	// (0x0000c619) navi_navi_tabs_pane
 
-0xc5ae,	// (0x0000c5ae) navi_navi_text_pane
+0xc5ed,	// (0x0000c5ed) navi_navi_text_pane
 
-0xc5ae,	// (0x0000c5ae) navi_navi_volume_pane
+0xc5ed,	// (0x0000c5ed) navi_navi_volume_pane
 
 0x4344,	// (0x00004344) navi_text_pane_t1
 
@@ -402,11 +402,11 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x427b,	// (0x0000427b) navi_navi_volume_pane_g1
 
-0xc5a5,	// (0x0000c5a5) volume_small_pane
+0xc5e4,	// (0x0000c5e4) volume_small_pane
 
-0xc501,	// (0x0000c501) navi_navi_icon_text_pane_g1
+0xc540,	// (0x0000c540) navi_navi_icon_text_pane_g1
 
-0xc509,	// (0x0000c509) navi_navi_icon_text_pane_t1
+0xc548,	// (0x0000c548) navi_navi_icon_text_pane_t1
 
 0x3c62,	// (0x00003c62) navi_tabs_2_long_pane
 
@@ -418,61 +418,61 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x3c62,	// (0x00003c62) navi_tabs_4_pane
 
-0xc4e1,	// (0x0000c4e1) tabs_2_active_pane_ParamLimits
+0xc520,	// (0x0000c520) tabs_2_active_pane_ParamLimits
 
-0xc4e1,	// (0x0000c4e1) tabs_2_active_pane
+0xc520,	// (0x0000c520) tabs_2_active_pane
 
-0xc4f1,	// (0x0000c4f1) tabs_2_passive_pane_ParamLimits
+0xc530,	// (0x0000c530) tabs_2_passive_pane_ParamLimits
 
-0xc4f1,	// (0x0000c4f1) tabs_2_passive_pane
+0xc530,	// (0x0000c530) tabs_2_passive_pane
 
-0xc4af,	// (0x0000c4af) tabs_3_active_pane_ParamLimits
+0xc4ee,	// (0x0000c4ee) tabs_3_active_pane_ParamLimits
 
-0xc4af,	// (0x0000c4af) tabs_3_active_pane
+0xc4ee,	// (0x0000c4ee) tabs_3_active_pane
 
-0xc4bf,	// (0x0000c4bf) tabs_3_passive_pane_ParamLimits
+0xc4fe,	// (0x0000c4fe) tabs_3_passive_pane_ParamLimits
 
-0xc4bf,	// (0x0000c4bf) tabs_3_passive_pane
+0xc4fe,	// (0x0000c4fe) tabs_3_passive_pane
 
-0xc4d0,	// (0x0000c4d0) tabs_3_passive_pane_cp_ParamLimits
+0xc50f,	// (0x0000c50f) tabs_3_passive_pane_cp_ParamLimits
 
-0xc4d0,	// (0x0000c4d0) tabs_3_passive_pane_cp
+0xc50f,	// (0x0000c50f) tabs_3_passive_pane_cp
 
-0xc46b,	// (0x0000c46b) tabs_4_active_pane_ParamLimits
+0xc4aa,	// (0x0000c4aa) tabs_4_active_pane_ParamLimits
 
-0xc46b,	// (0x0000c46b) tabs_4_active_pane
+0xc4aa,	// (0x0000c4aa) tabs_4_active_pane
 
-0xc47c,	// (0x0000c47c) tabs_4_passive_pane_ParamLimits
+0xc4bb,	// (0x0000c4bb) tabs_4_passive_pane_ParamLimits
 
-0xc47c,	// (0x0000c47c) tabs_4_passive_pane
+0xc4bb,	// (0x0000c4bb) tabs_4_passive_pane
 
-0xc48d,	// (0x0000c48d) tabs_4_passive_pane_cp_ParamLimits
+0xc4cc,	// (0x0000c4cc) tabs_4_passive_pane_cp_ParamLimits
 
-0xc48d,	// (0x0000c48d) tabs_4_passive_pane_cp
+0xc4cc,	// (0x0000c4cc) tabs_4_passive_pane_cp
 
-0xc49e,	// (0x0000c49e) tabs_4_passive_pane_cp2_ParamLimits
+0xc4dd,	// (0x0000c4dd) tabs_4_passive_pane_cp2_ParamLimits
 
-0xc49e,	// (0x0000c49e) tabs_4_passive_pane_cp2
+0xc4dd,	// (0x0000c4dd) tabs_4_passive_pane_cp2
 
-0xc44b,	// (0x0000c44b) tabs_2_long_active_pane_ParamLimits
+0xc48a,	// (0x0000c48a) tabs_2_long_active_pane_ParamLimits
 
-0xc44b,	// (0x0000c44b) tabs_2_long_active_pane
+0xc48a,	// (0x0000c48a) tabs_2_long_active_pane
 
-0xc45b,	// (0x0000c45b) tabs_2_long_passive_pane_ParamLimits
+0xc49a,	// (0x0000c49a) tabs_2_long_passive_pane_ParamLimits
 
-0xc45b,	// (0x0000c45b) tabs_2_long_passive_pane
+0xc49a,	// (0x0000c49a) tabs_2_long_passive_pane
 
-0xc414,	// (0x0000c414) tabs_3_long_active_pane_ParamLimits
+0xc453,	// (0x0000c453) tabs_3_long_active_pane_ParamLimits
 
-0xc414,	// (0x0000c414) tabs_3_long_active_pane
+0xc453,	// (0x0000c453) tabs_3_long_active_pane
 
-0xc427,	// (0x0000c427) tabs_3_long_passive_pane_ParamLimits
+0xc466,	// (0x0000c466) tabs_3_long_passive_pane_ParamLimits
 
-0xc427,	// (0x0000c427) tabs_3_long_passive_pane
+0xc466,	// (0x0000c466) tabs_3_long_passive_pane
 
-0xc438,	// (0x0000c438) tabs_3_long_passive_pane_cp_ParamLimits
+0xc477,	// (0x0000c477) tabs_3_long_passive_pane_cp_ParamLimits
 
-0xc438,	// (0x0000c438) tabs_3_long_passive_pane_cp
+0xc477,	// (0x0000c477) tabs_3_long_passive_pane_cp
 
 0x401f,	// (0x0000401f) volume_small_pane_g1
 
@@ -496,7 +496,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0009,
 
-0xa35a,	// (0x0000a35a) volume_small_pane_g
+0xa399,	// (0x0000a399) volume_small_pane_g
 
 0x0797,	// (0x00000797) bg_active_tab_pane_cp2_ParamLimits
 
@@ -504,7 +504,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0482,	// (0x00000482) tabs_3_active_pane_g1
 
-0xac46,	// (0x0000ac46) tabs_3_active_pane_t1
+0xac85,	// (0x0000ac85) tabs_3_active_pane_t1
 
 0x0797,	// (0x00000797) bg_passive_tab_pane_cp2_ParamLimits
 
@@ -512,7 +512,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0482,	// (0x00000482) tabs_3_passive_pane_g1
 
-0xac46,	// (0x0000ac46) tabs_3_passive_pane_t1
+0xac85,	// (0x0000ac85) tabs_3_passive_pane_t1
 
 0x0797,	// (0x00000797) bg_active_tab_pane_cp3_ParamLimits
 
@@ -520,7 +520,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4c2a,	// (0x00004c2a) tabs_4_active_pane_g1
 
-0xac5c,	// (0x0000ac5c) tabs_4_active_pane_t1
+0xac9b,	// (0x0000ac9b) tabs_4_active_pane_t1
 
 0x0797,	// (0x00000797) bg_passive_tab_pane_cp3_ParamLimits
 
@@ -528,59 +528,59 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4c2a,	// (0x00004c2a) tabs_4_1_passive_pane_g1
 
-0xac5c,	// (0x0000ac5c) tabs_4_1_passive_pane_t1
+0xac9b,	// (0x0000ac9b) tabs_4_1_passive_pane_t1
 
 0x289b,	// (0x0000289b) list_highlight_pane_cp2
 
-0xc701,	// (0x0000c701) list_set_pane_ParamLimits
+0xc740,	// (0x0000c740) list_set_pane_ParamLimits
 
-0xc701,	// (0x0000c701) list_set_pane
+0xc740,	// (0x0000c740) list_set_pane
 
-0xc78f,	// (0x0000c78f) main_pane_set_t1_ParamLimits
+0xc7ce,	// (0x0000c7ce) main_pane_set_t1_ParamLimits
 
-0xc78f,	// (0x0000c78f) main_pane_set_t1
+0xc7ce,	// (0x0000c7ce) main_pane_set_t1
 
-0xc7af,	// (0x0000c7af) main_pane_set_t2_ParamLimits
+0xc7ee,	// (0x0000c7ee) main_pane_set_t2_ParamLimits
 
-0xc7af,	// (0x0000c7af) main_pane_set_t2
+0xc7ee,	// (0x0000c7ee) main_pane_set_t2
 
-0xc7c3,	// (0x0000c7c3) main_pane_set_t3_ParamLimits
+0xc802,	// (0x0000c802) main_pane_set_t3_ParamLimits
 
-0xc7c3,	// (0x0000c7c3) main_pane_set_t3
+0xc802,	// (0x0000c802) main_pane_set_t3
 
-0xc7d5,	// (0x0000c7d5) main_pane_set_t4_ParamLimits
+0xc814,	// (0x0000c814) main_pane_set_t4_ParamLimits
 
-0xc7d5,	// (0x0000c7d5) main_pane_set_t4
+0xc814,	// (0x0000c814) main_pane_set_t4
 
 0x0003,
 
-0xe8cb,	// (0x0000e8cb) main_pane_set_t_ParamLimits
+0xe95b,	// (0x0000e95b) main_pane_set_t_ParamLimits
 
-0xe8cb,	// (0x0000e8cb) main_pane_set_t
+0xe95b,	// (0x0000e95b) main_pane_set_t
 
-0xc7e7,	// (0x0000c7e7) setting_code_pane
+0xc826,	// (0x0000c826) setting_code_pane
 
-0xc7ef,	// (0x0000c7ef) setting_slider_graphic_pane
+0xc82e,	// (0x0000c82e) setting_slider_graphic_pane
 
-0xc7ef,	// (0x0000c7ef) setting_slider_pane
+0xc82e,	// (0x0000c82e) setting_slider_pane
 
-0xc7ef,	// (0x0000c7ef) setting_text_pane
+0xc82e,	// (0x0000c82e) setting_text_pane
 
-0xc7ef,	// (0x0000c7ef) setting_volume_pane
+0xc82e,	// (0x0000c82e) setting_volume_pane
 
-0xac72,	// (0x0000ac72) volume_set_pane
+0xacb1,	// (0x0000acb1) volume_set_pane
 
 0x0474,	// (0x00000474) bg_set_opt_pane_cp
 
 0x04be,	// (0x000004be) setting_slider_pane_t1
 
-0xac7a,	// (0x0000ac7a) setting_slider_pane_t2
+0xacb9,	// (0x0000acb9) setting_slider_pane_t2
 
-0xac93,	// (0x0000ac93) setting_slider_pane_t3
+0xacd2,	// (0x0000acd2) setting_slider_pane_t3
 
 0x0002,
 
-0xe72b,	// (0x0000e72b) setting_slider_pane_t
+0xe7bb,	// (0x0000e7bb) setting_slider_pane_t
 
 0x0504,	// (0x00000504) slider_set_pane
 
@@ -588,15 +588,15 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x051a,	// (0x0000051a) setting_slider_graphic_pane_g1
 
-0xacaa,	// (0x0000acaa) setting_slider_graphic_pane_t1
+0xace9,	// (0x0000ace9) setting_slider_graphic_pane_t1
 
-0xacb9,	// (0x0000acb9) setting_slider_graphic_pane_t2
+0xacf8,	// (0x0000acf8) setting_slider_graphic_pane_t2
 
 0x0001,
 
-0xe732,	// (0x0000e732) setting_slider_graphic_pane_t
+0xe7c2,	// (0x0000e7c2) setting_slider_graphic_pane_t
 
-0xacc8,	// (0x0000acc8) slider_set_pane_cp
+0xad07,	// (0x0000ad07) slider_set_pane_cp
 
 0x024e,	// (0x0000024e) input_focus_pane_cp1
 
@@ -610,15 +610,15 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0549,	// (0x00000549) setting_code_pane_t1
 
-0x9b41,	// (0x00009b41) set_text_pane_t1_ParamLimits
+0x9b84,	// (0x00009b84) set_text_pane_t1_ParamLimits
 
-0x9b41,	// (0x00009b41) set_text_pane_t1
+0x9b84,	// (0x00009b84) set_text_pane_t1
 
 0x1331,	// (0x00001331) set_opt_bg_pane_g1
 
 0x1339,	// (0x00001339) set_opt_bg_pane_g2
 
-0xc6c1,	// (0x0000c6c1) set_opt_bg_pane_g3
+0xc700,	// (0x0000c700) set_opt_bg_pane_g3
 
 0x1349,	// (0x00001349) set_opt_bg_pane_g4
 
@@ -626,15 +626,15 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x1359,	// (0x00001359) set_opt_bg_pane_g6
 
-0xc6c9,	// (0x0000c6c9) set_opt_bg_pane_g7
+0xc708,	// (0x0000c708) set_opt_bg_pane_g7
 
-0xc6d1,	// (0x0000c6d1) set_opt_bg_pane_g8
+0xc710,	// (0x0000c710) set_opt_bg_pane_g8
 
-0xc6d9,	// (0x0000c6d9) set_opt_bg_pane_g9
+0xc718,	// (0x0000c718) set_opt_bg_pane_g9
 
 0x0008,
 
-0xe8b8,	// (0x0000e8b8) set_opt_bg_pane_g
+0xe948,	// (0x0000e948) set_opt_bg_pane_g
 
 0x4884,	// (0x00004884) slider_set_pane_g1
 
@@ -642,61 +642,61 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0006,
 
-0xe8a9,	// (0x0000e8a9) slider_set_pane_g
+0xe939,	// (0x0000e939) slider_set_pane_g
 
-0xc649,	// (0x0000c649) volume_set_pane_g1
+0xc688,	// (0x0000c688) volume_set_pane_g1
 
-0xc651,	// (0x0000c651) volume_set_pane_g2
+0xc690,	// (0x0000c690) volume_set_pane_g2
 
-0xc659,	// (0x0000c659) volume_set_pane_g3
+0xc698,	// (0x0000c698) volume_set_pane_g3
 
-0xc661,	// (0x0000c661) volume_set_pane_g4
+0xc6a0,	// (0x0000c6a0) volume_set_pane_g4
 
-0xc669,	// (0x0000c669) volume_set_pane_g5
+0xc6a8,	// (0x0000c6a8) volume_set_pane_g5
 
-0xc671,	// (0x0000c671) volume_set_pane_g6
+0xc6b0,	// (0x0000c6b0) volume_set_pane_g6
 
-0xc679,	// (0x0000c679) volume_set_pane_g7
+0xc6b8,	// (0x0000c6b8) volume_set_pane_g7
 
-0xc681,	// (0x0000c681) volume_set_pane_g8
+0xc6c0,	// (0x0000c6c0) volume_set_pane_g8
 
-0xc689,	// (0x0000c689) volume_set_pane_g9
+0xc6c8,	// (0x0000c6c8) volume_set_pane_g9
 
-0xc691,	// (0x0000c691) volume_set_pane_g10
+0xc6d0,	// (0x0000c6d0) volume_set_pane_g10
 
 0x0009,
 
-0xe88f,	// (0x0000e88f) volume_set_pane_g
+0xe91f,	// (0x0000e91f) volume_set_pane_g
 
-0xacd0,	// (0x0000acd0) indicator_pane_ParamLimits
+0xad0f,	// (0x0000ad0f) indicator_pane_ParamLimits
 
-0xacd0,	// (0x0000acd0) indicator_pane
+0xad0f,	// (0x0000ad0f) indicator_pane
 
-0xacf8,	// (0x0000acf8) main_idle_pane_g2_ParamLimits
+0xad37,	// (0x0000ad37) main_idle_pane_g2_ParamLimits
 
-0xacf8,	// (0x0000acf8) main_idle_pane_g2
+0xad37,	// (0x0000ad37) main_idle_pane_g2
 
-0xad28,	// (0x0000ad28) main_pane_idle_g1_ParamLimits
+0xad67,	// (0x0000ad67) main_pane_idle_g1_ParamLimits
 
-0xad28,	// (0x0000ad28) main_pane_idle_g1
+0xad67,	// (0x0000ad67) main_pane_idle_g1
 
 0x05af,	// (0x000005af) popup_clock_digital_analogue_window_ParamLimits
 
 0x05af,	// (0x000005af) popup_clock_digital_analogue_window
 
-0xad4d,	// (0x0000ad4d) soft_indicator_pane_ParamLimits
+0xad8c,	// (0x0000ad8c) soft_indicator_pane_ParamLimits
 
-0xad4d,	// (0x0000ad4d) soft_indicator_pane
+0xad8c,	// (0x0000ad8c) soft_indicator_pane
 
-0xad67,	// (0x0000ad67) wallpaper_pane_ParamLimits
+0xada6,	// (0x0000ada6) wallpaper_pane_ParamLimits
 
-0xad67,	// (0x0000ad67) wallpaper_pane
+0xada6,	// (0x0000ada6) wallpaper_pane
 
 0x002a,	// (0x0000002a) wallpaper_pane_g1
 
-0xad79,	// (0x0000ad79) indicator_pane_g1_ParamLimits
+0xadb8,	// (0x0000adb8) indicator_pane_g1_ParamLimits
 
-0xad79,	// (0x0000ad79) indicator_pane_g1
+0xadb8,	// (0x0000adb8) indicator_pane_g1
 
 0x4dc2,	// (0x00004dc2) navi_navi_icon_text_pane_srt_g1
 
@@ -704,7 +704,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x061b,	// (0x0000061b) aid_ps_area_pane
 
-0xad92,	// (0x0000ad92) aid_ps_clock_pane
+0xadd1,	// (0x0000add1) aid_ps_clock_pane
 
 0x0638,	// (0x00000638) aid_ps_indicator_pane
 
@@ -726,15 +726,15 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa01f,	// (0x0000a01f) power_save_pane_g_ParamLimits
+0xa05e,	// (0x0000a05e) power_save_pane_g_ParamLimits
 
-0xa01f,	// (0x0000a01f) power_save_pane_g
+0xa05e,	// (0x0000a05e) power_save_pane_g
 
 0x066d,	// (0x0000066d) power_save_pane_t1_ParamLimits
 
 0x066d,	// (0x0000066d) power_save_pane_t1
 
-0xad92,	// (0x0000ad92) aid_ps_clock_pane_ParamLimits
+0xadd1,	// (0x0000add1) aid_ps_clock_pane_ParamLimits
 
 0x0638,	// (0x00000638) aid_ps_indicator_pane_ParamLimits
 
@@ -744,9 +744,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa024,	// (0x0000a024) power_save_pane_t_ParamLimits
+0xa063,	// (0x0000a063) power_save_pane_t_ParamLimits
 
-0xa024,	// (0x0000a024) power_save_pane_t
+0xa063,	// (0x0000a063) power_save_pane_t
 
 0x06a9,	// (0x000006a9) power_save_t3_ParamLimits
 
@@ -758,41 +758,41 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x06be,	// (0x000006be) indicator_ps_pane_g1
 
-0xad9e,	// (0x0000ad9e) ai_gene_pane_ParamLimits
+0xaddd,	// (0x0000addd) ai_gene_pane_ParamLimits
 
-0xad9e,	// (0x0000ad9e) ai_gene_pane
+0xaddd,	// (0x0000addd) ai_gene_pane
 
-0xadb5,	// (0x0000adb5) ai_links_pane_ParamLimits
+0xadf4,	// (0x0000adf4) ai_links_pane_ParamLimits
 
-0xadb5,	// (0x0000adb5) ai_links_pane
+0xadf4,	// (0x0000adf4) ai_links_pane
 
-0xadc7,	// (0x0000adc7) indicator_pane_cp1_ParamLimits
+0xae06,	// (0x0000ae06) indicator_pane_cp1_ParamLimits
 
-0xadc7,	// (0x0000adc7) indicator_pane_cp1
+0xae06,	// (0x0000ae06) indicator_pane_cp1
 
-0xadd6,	// (0x0000add6) main_pane_idle_g1_cp_ParamLimits
+0xae15,	// (0x0000ae15) main_pane_idle_g1_cp_ParamLimits
 
-0xadd6,	// (0x0000add6) main_pane_idle_g1_cp
+0xae15,	// (0x0000ae15) main_pane_idle_g1_cp
 
 0x06f7,	// (0x000006f7) popup_ai_links_title_window
 
-0xadee,	// (0x0000adee) soft_indicator_pane_cp1_ParamLimits
+0xae2d,	// (0x0000ae2d) soft_indicator_pane_cp1_ParamLimits
 
-0xadee,	// (0x0000adee) soft_indicator_pane_cp1
+0xae2d,	// (0x0000ae2d) soft_indicator_pane_cp1
 
 0x4623,	// (0x00004623) ai_links_pane_g1
 
 0x462c,	// (0x0000462c) grid_ai_links_pane
 
-0xc5ff,	// (0x0000c5ff) ai_gene_pane_1
+0xc63e,	// (0x0000c63e) ai_gene_pane_1
 
 0x4611,	// (0x00004611) ai_gene_pane_2
 
 0x461a,	// (0x0000461a) list_highlight_pane_cp4
 
-0xc5e3,	// (0x0000c5e3) cell_ai_link_pane_ParamLimits
+0xc622,	// (0x0000c622) cell_ai_link_pane_ParamLimits
 
-0xc5e3,	// (0x0000c5e3) cell_ai_link_pane
+0xc622,	// (0x0000c622) cell_ai_link_pane
 
 0x45e4,	// (0x000045e4) cell_ai_link_pane_g1
 
@@ -800,7 +800,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa3bb,	// (0x0000a3bb) cell_ai_link_pane_g
+0xa3fa,	// (0x0000a3fa) cell_ai_link_pane_g
 
 0x024e,	// (0x0000024e) grid_highlight_cp2
 
@@ -818,9 +818,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa3b1,	// (0x0000a3b1) ai_gene_pane_1_g_ParamLimits
+0xa3f0,	// (0x0000a3f0) ai_gene_pane_1_g_ParamLimits
 
-0xa3b1,	// (0x0000a3b1) ai_gene_pane_1_g
+0xa3f0,	// (0x0000a3f0) ai_gene_pane_1_g
 
 0x454f,	// (0x0000454f) ai_gene_pane_1_t1_ParamLimits
 
@@ -832,31 +832,31 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4521,	// (0x00004521) ai_gene_pane_2_t1
 
-0xae02,	// (0x0000ae02) main_pane_empty_t1_ParamLimits
+0xae41,	// (0x0000ae41) main_pane_empty_t1_ParamLimits
 
-0xae02,	// (0x0000ae02) main_pane_empty_t1
+0xae41,	// (0x0000ae41) main_pane_empty_t1
 
-0xae1f,	// (0x0000ae1f) main_pane_empty_t2_ParamLimits
+0xae5e,	// (0x0000ae5e) main_pane_empty_t2_ParamLimits
 
-0xae1f,	// (0x0000ae1f) main_pane_empty_t2
+0xae5e,	// (0x0000ae5e) main_pane_empty_t2
 
-0xae37,	// (0x0000ae37) main_pane_empty_t3_ParamLimits
+0xae76,	// (0x0000ae76) main_pane_empty_t3_ParamLimits
 
-0xae37,	// (0x0000ae37) main_pane_empty_t3
+0xae76,	// (0x0000ae76) main_pane_empty_t3
 
-0xae4a,	// (0x0000ae4a) main_pane_empty_t4_ParamLimits
+0xae89,	// (0x0000ae89) main_pane_empty_t4_ParamLimits
 
-0xae4a,	// (0x0000ae4a) main_pane_empty_t4
+0xae89,	// (0x0000ae89) main_pane_empty_t4
 
-0xae5d,	// (0x0000ae5d) main_pane_empty_t5_ParamLimits
+0xae9c,	// (0x0000ae9c) main_pane_empty_t5_ParamLimits
 
-0xae5d,	// (0x0000ae5d) main_pane_empty_t5
+0xae9c,	// (0x0000ae9c) main_pane_empty_t5
 
 0x0004,
 
-0xe737,	// (0x0000e737) main_pane_empty_t_ParamLimits
+0xe7c7,	// (0x0000e7c7) main_pane_empty_t_ParamLimits
 
-0xe737,	// (0x0000e737) main_pane_empty_t
+0xe7c7,	// (0x0000e7c7) main_pane_empty_t
 
 0x1423,	// (0x00001423) bg_popup_window_pane_ParamLimits
 
@@ -872,41 +872,41 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x024e,	// (0x0000024e) bg_popup_sub_pane
 
-0xc526,	// (0x0000c526) bg_popup_window_pane_g1_ParamLimits
+0xc565,	// (0x0000c565) bg_popup_window_pane_g1_ParamLimits
 
-0xc526,	// (0x0000c526) bg_popup_window_pane_g1
+0xc565,	// (0x0000c565) bg_popup_window_pane_g1
 
-0xc535,	// (0x0000c535) bg_popup_window_pane_g2_ParamLimits
+0xc574,	// (0x0000c574) bg_popup_window_pane_g2_ParamLimits
 
-0xc535,	// (0x0000c535) bg_popup_window_pane_g2
+0xc574,	// (0x0000c574) bg_popup_window_pane_g2
 
-0xc541,	// (0x0000c541) bg_popup_window_pane_g3_ParamLimits
+0xc580,	// (0x0000c580) bg_popup_window_pane_g3_ParamLimits
 
-0xc541,	// (0x0000c541) bg_popup_window_pane_g3
+0xc580,	// (0x0000c580) bg_popup_window_pane_g3
 
-0xc54d,	// (0x0000c54d) bg_popup_window_pane_g4_ParamLimits
+0xc58c,	// (0x0000c58c) bg_popup_window_pane_g4_ParamLimits
 
-0xc54d,	// (0x0000c54d) bg_popup_window_pane_g4
+0xc58c,	// (0x0000c58c) bg_popup_window_pane_g4
 
-0xc55c,	// (0x0000c55c) bg_popup_window_pane_g5_ParamLimits
+0xc59b,	// (0x0000c59b) bg_popup_window_pane_g5_ParamLimits
 
-0xc55c,	// (0x0000c55c) bg_popup_window_pane_g5
+0xc59b,	// (0x0000c59b) bg_popup_window_pane_g5
 
-0xc56c,	// (0x0000c56c) bg_popup_window_pane_g6_ParamLimits
+0xc5ab,	// (0x0000c5ab) bg_popup_window_pane_g6_ParamLimits
 
-0xc56c,	// (0x0000c56c) bg_popup_window_pane_g6
+0xc5ab,	// (0x0000c5ab) bg_popup_window_pane_g6
 
-0xc578,	// (0x0000c578) bg_popup_window_pane_g7_ParamLimits
+0xc5b7,	// (0x0000c5b7) bg_popup_window_pane_g7_ParamLimits
 
-0xc578,	// (0x0000c578) bg_popup_window_pane_g7
+0xc5b7,	// (0x0000c5b7) bg_popup_window_pane_g7
 
-0xc587,	// (0x0000c587) bg_popup_window_pane_g8_ParamLimits
+0xc5c6,	// (0x0000c5c6) bg_popup_window_pane_g8_ParamLimits
 
-0xc587,	// (0x0000c587) bg_popup_window_pane_g8
+0xc5c6,	// (0x0000c5c6) bg_popup_window_pane_g8
 
-0xc596,	// (0x0000c596) bg_popup_window_pane_g9_ParamLimits
+0xc5d5,	// (0x0000c5d5) bg_popup_window_pane_g9_ParamLimits
 
-0xc596,	// (0x0000c596) bg_popup_window_pane_g9
+0xc5d5,	// (0x0000c5d5) bg_popup_window_pane_g9
 
 0x426f,	// (0x0000426f) bg_popup_window_pane_g10_ParamLimits
 
@@ -914,9 +914,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0009,
 
-0xe868,	// (0x0000e868) bg_popup_window_pane_g_ParamLimits
+0xe8f8,	// (0x0000e8f8) bg_popup_window_pane_g_ParamLimits
 
-0xe868,	// (0x0000e868) bg_popup_window_pane_g
+0xe8f8,	// (0x0000e8f8) bg_popup_window_pane_g
 
 0x4198,	// (0x00004198) bg_popup_heading_pane_ParamLimits
 
@@ -946,9 +946,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa374,	// (0x0000a374) heading_pane_t_ParamLimits
+0xa3b3,	// (0x0000a3b3) heading_pane_t_ParamLimits
 
-0xa374,	// (0x0000a374) heading_pane_t
+0xa3b3,	// (0x0000a3b3) heading_pane_t
 
 0x3bca,	// (0x00003bca) bg_popup_heading_pane_g1
 
@@ -970,7 +970,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0008,
 
-0xa330,	// (0x0000a330) bg_popup_heading_pane_g
+0xa36f,	// (0x0000a36f) bg_popup_heading_pane_g
 
 0x3269,	// (0x00003269) bg_popup_sub_pane_g1
 
@@ -992,7 +992,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0008,
 
-0xa30a,	// (0x0000a30a) bg_popup_sub_pane_g
+0xa349,	// (0x0000a349) bg_popup_sub_pane_g
 
 0x0797,	// (0x00000797) bg_popup_window_pane_cp5_ParamLimits
 
@@ -1024,9 +1024,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xa034,	// (0x0000a034) popup_note_window_t_ParamLimits
+0xa073,	// (0x0000a073) popup_note_window_t_ParamLimits
 
-0xa034,	// (0x0000a034) popup_note_window_t
+0xa073,	// (0x0000a073) popup_note_window_t
 
 0x0873,	// (0x00000873) bg_popup_window_pane_cp6_ParamLimits
 
@@ -1042,9 +1042,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa2fe,	// (0x0000a2fe) popup_note_image_window_g_ParamLimits
+0xa33d,	// (0x0000a33d) popup_note_image_window_g_ParamLimits
 
-0xa2fe,	// (0x0000a2fe) popup_note_image_window_g
+0xa33d,	// (0x0000a33d) popup_note_image_window_g
 
 0x3b6b,	// (0x00003b6b) popup_note_image_window_t1_ParamLimits
 
@@ -1060,9 +1060,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa303,	// (0x0000a303) popup_note_image_window_t_ParamLimits
+0xa342,	// (0x0000a342) popup_note_image_window_t_ParamLimits
 
-0xa303,	// (0x0000a303) popup_note_image_window_t
+0xa342,	// (0x0000a342) popup_note_image_window_t
 
 0x3a15,	// (0x00003a15) bg_popup_window_pane_cp7_ParamLimits
 
@@ -1078,9 +1078,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa2ec,	// (0x0000a2ec) popup_note_wait_window_g_ParamLimits
+0xa32b,	// (0x0000a32b) popup_note_wait_window_g_ParamLimits
 
-0xa2ec,	// (0x0000a2ec) popup_note_wait_window_g
+0xa32b,	// (0x0000a32b) popup_note_wait_window_g
 
 0x3a69,	// (0x00003a69) popup_note_wait_window_t1_ParamLimits
 
@@ -1100,9 +1100,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xa2f3,	// (0x0000a2f3) popup_note_wait_window_t_ParamLimits
+0xa332,	// (0x0000a332) popup_note_wait_window_t_ParamLimits
 
-0xa2f3,	// (0x0000a2f3) popup_note_wait_window_t
+0xa332,	// (0x0000a332) popup_note_wait_window_t
 
 0x3ae5,	// (0x00003ae5) wait_bar_pane_ParamLimits
 
@@ -1118,7 +1118,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa1b3,	// (0x0000a1b3) wait_anim_pane_g
+0xa1f2,	// (0x0000a1f2) wait_anim_pane_g
 
 0x39c5,	// (0x000039c5) wait_border_pane_g1
 
@@ -1128,7 +1128,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa2e5,	// (0x0000a2e5) wait_border_pane_g
+0xa324,	// (0x0000a324) wait_border_pane_g
 
 0x3835,	// (0x00003835) bg_popup_window_pane_cp16_ParamLimits
 
@@ -1152,9 +1152,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa2de,	// (0x0000a2de) popup_query_data_window_t_ParamLimits
+0xa31d,	// (0x0000a31d) popup_query_data_window_t_ParamLimits
 
-0xa2de,	// (0x0000a2de) popup_query_data_window_t
+0xa31d,	// (0x0000a31d) popup_query_data_window_t
 
 0x398e,	// (0x0000398e) query_popup_data_pane_ParamLimits
 
@@ -1186,9 +1186,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa2d7,	// (0x0000a2d7) popup_query_code_window_t_ParamLimits
+0xa316,	// (0x0000a316) popup_query_code_window_t_ParamLimits
 
-0xa2d7,	// (0x0000a2d7) popup_query_code_window_t
+0xa316,	// (0x0000a316) popup_query_code_window_t
 
 0x391b,	// (0x0000391b) query_popup_pane_ParamLimits
 
@@ -1228,9 +1228,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa03f,	// (0x0000a03f) popup_query_data_code_window_t_ParamLimits
+0xa07e,	// (0x0000a07e) popup_query_data_code_window_t_ParamLimits
 
-0xa03f,	// (0x0000a03f) popup_query_data_code_window_t
+0xa07e,	// (0x0000a07e) popup_query_data_code_window_t
 
 0x21b0,	// (0x000021b0) list_single_midp_graphic_pane_g3
 
@@ -1268,9 +1268,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa048,	// (0x0000a048) popup_info_list_pane_t_ParamLimits
+0xa087,	// (0x0000a087) popup_info_list_pane_t_ParamLimits
 
-0xa048,	// (0x0000a048) popup_info_list_pane_t
+0xa087,	// (0x0000a087) popup_info_list_pane_t
 
 0x024e,	// (0x0000024e) bg_popup_window_pane_cp12
 
@@ -1284,7 +1284,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x024e,	// (0x0000024e) bg_popup_window_pane_cp4
 
-0xaec0,	// (0x0000aec0) heading_pane_cp4
+0xaeff,	// (0x0000aeff) heading_pane_cp4
 
 0x0a13,	// (0x00000a13) listscroll_popup_colour_pane
 
@@ -1292,39 +1292,39 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0a1b,	// (0x00000a1b) cell_large_graphic_colour_none_popup_pane
 
-0xaec8,	// (0x0000aec8) grid_large_graphic_colour_popup_pane_ParamLimits
+0xaf07,	// (0x0000af07) grid_large_graphic_colour_popup_pane_ParamLimits
 
-0xaec8,	// (0x0000aec8) grid_large_graphic_colour_popup_pane
+0xaf07,	// (0x0000af07) grid_large_graphic_colour_popup_pane
 
-0xaee4,	// (0x0000aee4) listscroll_popup_colour_pane_g1_ParamLimits
+0xaf23,	// (0x0000af23) listscroll_popup_colour_pane_g1_ParamLimits
 
-0xaee4,	// (0x0000aee4) listscroll_popup_colour_pane_g1
+0xaf23,	// (0x0000af23) listscroll_popup_colour_pane_g1
 
-0xaefb,	// (0x0000aefb) listscroll_popup_colour_pane_g2_ParamLimits
+0xaf3a,	// (0x0000af3a) listscroll_popup_colour_pane_g2_ParamLimits
 
-0xaefb,	// (0x0000aefb) listscroll_popup_colour_pane_g2
+0xaf3a,	// (0x0000af3a) listscroll_popup_colour_pane_g2
 
 0x0a72,	// (0x00000a72) listscroll_popup_colour_pane_g3_ParamLimits
 
 0x0a72,	// (0x00000a72) listscroll_popup_colour_pane_g3
 
-0xaf0f,	// (0x0000af0f) listscroll_popup_colour_pane_g4_ParamLimits
+0xaf4e,	// (0x0000af4e) listscroll_popup_colour_pane_g4_ParamLimits
 
-0xaf0f,	// (0x0000af0f) listscroll_popup_colour_pane_g4
+0xaf4e,	// (0x0000af4e) listscroll_popup_colour_pane_g4
 
 0x0003,
 
-0xe742,	// (0x0000e742) listscroll_popup_colour_pane_g_ParamLimits
+0xe7d2,	// (0x0000e7d2) listscroll_popup_colour_pane_g_ParamLimits
 
-0xe742,	// (0x0000e742) listscroll_popup_colour_pane_g
+0xe7d2,	// (0x0000e7d2) listscroll_popup_colour_pane_g
 
 0x0a91,	// (0x00000a91) scroll_pane_cp6_ParamLimits
 
 0x0a91,	// (0x00000a91) scroll_pane_cp6
 
-0xaf1e,	// (0x0000af1e) cell_large_graphic_colour_popup_pane_ParamLimits
+0xaf5d,	// (0x0000af5d) cell_large_graphic_colour_popup_pane_ParamLimits
 
-0xaf1e,	// (0x0000af1e) cell_large_graphic_colour_popup_pane
+0xaf5d,	// (0x0000af5d) cell_large_graphic_colour_popup_pane
 
 0x0ac2,	// (0x00000ac2) cell_large_graphic_colour_none_popup_pane_t1
 
@@ -1336,7 +1336,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa056,	// (0x0000a056) cell_large_graphic_colour_popup_pane_g
+0xa095,	// (0x0000a095) cell_large_graphic_colour_popup_pane_g
 
 0x0ae1,	// (0x00000ae1) cell_large_graphic_colour_popup_pane_g2_copy1
 
@@ -1372,9 +1372,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xa05b,	// (0x0000a05b) popup_snote_single_text_window_t_ParamLimits
+0xa09a,	// (0x0000a09a) popup_snote_single_text_window_t_ParamLimits
 
-0xa05b,	// (0x0000a05b) popup_snote_single_text_window_t
+0xa09a,	// (0x0000a09a) popup_snote_single_text_window_t
 
 0x0be1,	// (0x00000be1) bg_popup_window_pane_cp9_ParamLimits
 
@@ -1390,9 +1390,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa066,	// (0x0000a066) popup_snote_single_graphic_window_g_ParamLimits
+0xa0a5,	// (0x0000a0a5) popup_snote_single_graphic_window_g_ParamLimits
 
-0xa066,	// (0x0000a066) popup_snote_single_graphic_window_g
+0xa0a5,	// (0x0000a0a5) popup_snote_single_graphic_window_g
 
 0x0bfb,	// (0x00000bfb) popup_snote_single_graphic_window_t1_ParamLimits
 
@@ -1416,33 +1416,33 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xa06b,	// (0x0000a06b) popup_snote_single_graphic_window_t_ParamLimits
+0xa0aa,	// (0x0000a0aa) popup_snote_single_graphic_window_t_ParamLimits
 
-0xa06b,	// (0x0000a06b) popup_snote_single_graphic_window_t
+0xa0aa,	// (0x0000a0aa) popup_snote_single_graphic_window_t
 
-0xc917,	// (0x0000c917) grid_graphic_popup_pane_ParamLimits
+0xc956,	// (0x0000c956) grid_graphic_popup_pane_ParamLimits
 
-0xc917,	// (0x0000c917) grid_graphic_popup_pane
+0xc956,	// (0x0000c956) grid_graphic_popup_pane
 
-0xc93a,	// (0x0000c93a) listscroll_popup_graphic_pane_g1_ParamLimits
+0xc979,	// (0x0000c979) listscroll_popup_graphic_pane_g1_ParamLimits
 
-0xc93a,	// (0x0000c93a) listscroll_popup_graphic_pane_g1
+0xc979,	// (0x0000c979) listscroll_popup_graphic_pane_g1
 
-0xc94e,	// (0x0000c94e) listscroll_popup_graphic_pane_g2_ParamLimits
+0xc98d,	// (0x0000c98d) listscroll_popup_graphic_pane_g2_ParamLimits
 
-0xc94e,	// (0x0000c94e) listscroll_popup_graphic_pane_g2
+0xc98d,	// (0x0000c98d) listscroll_popup_graphic_pane_g2
 
 0x0001,
 
-0xe8ee,	// (0x0000e8ee) listscroll_popup_graphic_pane_g_ParamLimits
+0xe97e,	// (0x0000e97e) listscroll_popup_graphic_pane_g_ParamLimits
 
-0xe8ee,	// (0x0000e8ee) listscroll_popup_graphic_pane_g
+0xe97e,	// (0x0000e97e) listscroll_popup_graphic_pane_g
 
 0x4cf9,	// (0x00004cf9) scroll_pane_cp5
 
-0xc8d2,	// (0x0000c8d2) cell_graphic_popup_pane_ParamLimits
+0xc911,	// (0x0000c911) cell_graphic_popup_pane_ParamLimits
 
-0xc8d2,	// (0x0000c8d2) cell_graphic_popup_pane
+0xc911,	// (0x0000c911) cell_graphic_popup_pane
 
 0x4c32,	// (0x00004c32) cell_graphic_popup_pane_g1
 
@@ -1452,7 +1452,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa44d,	// (0x0000a44d) cell_graphic_popup_pane_g
+0xa48c,	// (0x0000a48c) cell_graphic_popup_pane_g
 
 0x4c43,	// (0x00004c43) cell_graphic_popup_pane_t2
 
@@ -1464,9 +1464,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0c64,	// (0x00000c64) scroll_pane
 
-0xc8a5,	// (0x0000c8a5) bg_list_pane_g1_ParamLimits
+0xc8e4,	// (0x0000c8e4) bg_list_pane_g1_ParamLimits
 
-0xc8a5,	// (0x0000c8a5) bg_list_pane_g1
+0xc8e4,	// (0x0000c8e4) bg_list_pane_g1
 
 0x4bc9,	// (0x00004bc9) bg_list_pane_g2_ParamLimits
 
@@ -1480,99 +1480,99 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4bee,	// (0x00004bee) bg_list_pane_g4
 
-0xc8c0,	// (0x0000c8c0) bg_list_pane_g5_ParamLimits
+0xc8ff,	// (0x0000c8ff) bg_list_pane_g5_ParamLimits
 
-0xc8c0,	// (0x0000c8c0) bg_list_pane_g5
+0xc8ff,	// (0x0000c8ff) bg_list_pane_g5
 
 0x0004,
 
-0xe8e3,	// (0x0000e8e3) bg_list_pane_g_ParamLimits
+0xe973,	// (0x0000e973) bg_list_pane_g_ParamLimits
 
-0xe8e3,	// (0x0000e8e3) bg_list_pane_g
+0xe973,	// (0x0000e973) bg_list_pane_g
 
-0xc835,	// (0x0000c835) list_double2_graphic_large_graphic_pane_ParamLimits
+0xc874,	// (0x0000c874) list_double2_graphic_large_graphic_pane_ParamLimits
 
-0xc835,	// (0x0000c835) list_double2_graphic_large_graphic_pane
+0xc874,	// (0x0000c874) list_double2_graphic_large_graphic_pane
 
-0xc835,	// (0x0000c835) list_double2_graphic_pane_ParamLimits
+0xc874,	// (0x0000c874) list_double2_graphic_pane_ParamLimits
 
-0xc835,	// (0x0000c835) list_double2_graphic_pane
+0xc874,	// (0x0000c874) list_double2_graphic_pane
 
-0xc835,	// (0x0000c835) list_double2_large_graphic_pane_ParamLimits
+0xc874,	// (0x0000c874) list_double2_large_graphic_pane_ParamLimits
 
-0xc835,	// (0x0000c835) list_double2_large_graphic_pane
+0xc874,	// (0x0000c874) list_double2_large_graphic_pane
 
-0xc835,	// (0x0000c835) list_double2_pane_ParamLimits
+0xc874,	// (0x0000c874) list_double2_pane_ParamLimits
 
-0xc835,	// (0x0000c835) list_double2_pane
+0xc874,	// (0x0000c874) list_double2_pane
 
-0xc835,	// (0x0000c835) list_double_graphic_heading_pane_ParamLimits
+0xc874,	// (0x0000c874) list_double_graphic_heading_pane_ParamLimits
 
-0xc835,	// (0x0000c835) list_double_graphic_heading_pane
+0xc874,	// (0x0000c874) list_double_graphic_heading_pane
 
-0xc835,	// (0x0000c835) list_double_graphic_pane_ParamLimits
+0xc874,	// (0x0000c874) list_double_graphic_pane_ParamLimits
 
-0xc835,	// (0x0000c835) list_double_graphic_pane
+0xc874,	// (0x0000c874) list_double_graphic_pane
 
-0xc835,	// (0x0000c835) list_double_heading_pane_ParamLimits
+0xc874,	// (0x0000c874) list_double_heading_pane_ParamLimits
 
-0xc835,	// (0x0000c835) list_double_heading_pane
+0xc874,	// (0x0000c874) list_double_heading_pane
 
-0xc835,	// (0x0000c835) list_double_large_graphic_pane_ParamLimits
+0xc874,	// (0x0000c874) list_double_large_graphic_pane_ParamLimits
 
-0xc835,	// (0x0000c835) list_double_large_graphic_pane
+0xc874,	// (0x0000c874) list_double_large_graphic_pane
 
-0xc835,	// (0x0000c835) list_double_number_pane_ParamLimits
+0xc874,	// (0x0000c874) list_double_number_pane_ParamLimits
 
-0xc835,	// (0x0000c835) list_double_number_pane
+0xc874,	// (0x0000c874) list_double_number_pane
 
-0xc835,	// (0x0000c835) list_double_pane_ParamLimits
+0xc874,	// (0x0000c874) list_double_pane_ParamLimits
 
-0xc835,	// (0x0000c835) list_double_pane
+0xc874,	// (0x0000c874) list_double_pane
 
-0xc835,	// (0x0000c835) list_double_time_pane_ParamLimits
+0xc874,	// (0x0000c874) list_double_time_pane_ParamLimits
 
-0xc835,	// (0x0000c835) list_double_time_pane
+0xc874,	// (0x0000c874) list_double_time_pane
 
-0xc835,	// (0x0000c835) list_setting_number_pane_ParamLimits
+0xc874,	// (0x0000c874) list_setting_number_pane_ParamLimits
 
-0xc835,	// (0x0000c835) list_setting_number_pane
+0xc874,	// (0x0000c874) list_setting_number_pane
 
-0xc835,	// (0x0000c835) list_setting_pane_ParamLimits
+0xc874,	// (0x0000c874) list_setting_pane_ParamLimits
 
-0xc835,	// (0x0000c835) list_setting_pane
+0xc874,	// (0x0000c874) list_setting_pane
 
-0xc846,	// (0x0000c846) list_single_2graphic_pane_ParamLimits
+0xc885,	// (0x0000c885) list_single_2graphic_pane_ParamLimits
 
-0xc846,	// (0x0000c846) list_single_2graphic_pane
+0xc885,	// (0x0000c885) list_single_2graphic_pane
 
-0xc846,	// (0x0000c846) list_single_graphic_heading_pane_ParamLimits
+0xc885,	// (0x0000c885) list_single_graphic_heading_pane_ParamLimits
 
-0xc846,	// (0x0000c846) list_single_graphic_heading_pane
+0xc885,	// (0x0000c885) list_single_graphic_heading_pane
 
-0xc846,	// (0x0000c846) list_single_graphic_pane_ParamLimits
+0xc885,	// (0x0000c885) list_single_graphic_pane_ParamLimits
 
-0xc846,	// (0x0000c846) list_single_graphic_pane
+0xc885,	// (0x0000c885) list_single_graphic_pane
 
-0xc846,	// (0x0000c846) list_single_heading_pane_ParamLimits
+0xc885,	// (0x0000c885) list_single_heading_pane_ParamLimits
 
-0xc846,	// (0x0000c846) list_single_heading_pane
+0xc885,	// (0x0000c885) list_single_heading_pane
 
-0xc893,	// (0x0000c893) list_single_large_graphic_pane_ParamLimits
+0xc8d2,	// (0x0000c8d2) list_single_large_graphic_pane_ParamLimits
 
-0xc893,	// (0x0000c893) list_single_large_graphic_pane
+0xc8d2,	// (0x0000c8d2) list_single_large_graphic_pane
 
-0xc846,	// (0x0000c846) list_single_number_heading_pane_ParamLimits
+0xc885,	// (0x0000c885) list_single_number_heading_pane_ParamLimits
 
-0xc846,	// (0x0000c846) list_single_number_heading_pane
+0xc885,	// (0x0000c885) list_single_number_heading_pane
 
-0xc846,	// (0x0000c846) list_single_number_pane_ParamLimits
+0xc885,	// (0x0000c885) list_single_number_pane_ParamLimits
 
-0xc846,	// (0x0000c846) list_single_number_pane
+0xc885,	// (0x0000c885) list_single_number_pane
 
-0xc846,	// (0x0000c846) list_single_pane_ParamLimits
+0xc885,	// (0x0000c885) list_single_pane_ParamLimits
 
-0xc846,	// (0x0000c846) list_single_pane
+0xc885,	// (0x0000c885) list_single_pane
 
 0x024e,	// (0x0000024e) list_highlight_pane_cp1
 
@@ -1586,9 +1586,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa116,	// (0x0000a116) list_single_pane_g_ParamLimits
+0xa155,	// (0x0000a155) list_single_pane_g_ParamLimits
 
-0xa116,	// (0x0000a116) list_single_pane_g
+0xa155,	// (0x0000a155) list_single_pane_g
 
 0x0ddd,	// (0x00000ddd) list_single_pane_t1_ParamLimits
 
@@ -1604,23 +1604,23 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa116,	// (0x0000a116) list_single_number_pane_g_ParamLimits
+0xa155,	// (0x0000a155) list_single_number_pane_g_ParamLimits
 
-0xa116,	// (0x0000a116) list_single_number_pane_g
+0xa155,	// (0x0000a155) list_single_number_pane_g
 
 0x0eb2,	// (0x00000eb2) list_single_number_pane_t1_ParamLimits
 
 0x0eb2,	// (0x00000eb2) list_single_number_pane_t1
 
-0xc699,	// (0x0000c699) list_single_number_pane_t2_ParamLimits
+0xc6d8,	// (0x0000c6d8) list_single_number_pane_t2_ParamLimits
 
-0xc699,	// (0x0000c699) list_single_number_pane_t2
+0xc6d8,	// (0x0000c6d8) list_single_number_pane_t2
 
 0x0001,
 
-0xe8a4,	// (0x0000e8a4) list_single_number_pane_t_ParamLimits
+0xe934,	// (0x0000e934) list_single_number_pane_t_ParamLimits
 
-0xe8a4,	// (0x0000e8a4) list_single_number_pane_t
+0xe934,	// (0x0000e934) list_single_number_pane_t
 
 0x0e9a,	// (0x00000e9a) list_single_graphic_pane_g1_ParamLimits
 
@@ -1636,9 +1636,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa0ca,	// (0x0000a0ca) list_single_graphic_pane_g_ParamLimits
+0xa109,	// (0x0000a109) list_single_graphic_pane_g_ParamLimits
 
-0xa0ca,	// (0x0000a0ca) list_single_graphic_pane_g
+0xa109,	// (0x0000a109) list_single_graphic_pane_g
 
 0x0eb2,	// (0x00000eb2) list_single_graphic_pane_t1_ParamLimits
 
@@ -1654,23 +1654,23 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa116,	// (0x0000a116) list_single_heading_pane_g_ParamLimits
+0xa155,	// (0x0000a155) list_single_heading_pane_g_ParamLimits
 
-0xa116,	// (0x0000a116) list_single_heading_pane_g
+0xa155,	// (0x0000a155) list_single_heading_pane_g
 
 0x0f6f,	// (0x00000f6f) list_single_heading_pane_t1_ParamLimits
 
 0x0f6f,	// (0x00000f6f) list_single_heading_pane_t1
 
-0xaf45,	// (0x0000af45) list_single_heading_pane_t2_ParamLimits
+0xaf84,	// (0x0000af84) list_single_heading_pane_t2_ParamLimits
 
-0xaf45,	// (0x0000af45) list_single_heading_pane_t2
+0xaf84,	// (0x0000af84) list_single_heading_pane_t2
 
 0x0001,
 
-0xe74b,	// (0x0000e74b) list_single_heading_pane_t_ParamLimits
+0xe7db,	// (0x0000e7db) list_single_heading_pane_t_ParamLimits
 
-0xe74b,	// (0x0000e74b) list_single_heading_pane_t
+0xe7db,	// (0x0000e7db) list_single_heading_pane_t
 
 0x0ea6,	// (0x00000ea6) list_single_number_heading_pane_g1_ParamLimits
 
@@ -1682,17 +1682,17 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa116,	// (0x0000a116) list_single_number_heading_pane_g_ParamLimits
+0xa155,	// (0x0000a155) list_single_number_heading_pane_g_ParamLimits
 
-0xa116,	// (0x0000a116) list_single_number_heading_pane_g
+0xa155,	// (0x0000a155) list_single_number_heading_pane_g
 
 0x0f6f,	// (0x00000f6f) list_single_number_heading_pane_t1_ParamLimits
 
 0x0f6f,	// (0x00000f6f) list_single_number_heading_pane_t1
 
-0xaf57,	// (0x0000af57) list_single_number_heading_pane_t2_ParamLimits
+0xaf96,	// (0x0000af96) list_single_number_heading_pane_t2_ParamLimits
 
-0xaf57,	// (0x0000af57) list_single_number_heading_pane_t2
+0xaf96,	// (0x0000af96) list_single_number_heading_pane_t2
 
 0x5393,	// (0x00005393) list_single_number_heading_pane_t3_ParamLimits
 
@@ -1700,17 +1700,17 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xe750,	// (0x0000e750) list_single_number_heading_pane_t_ParamLimits
+0xe7e0,	// (0x0000e7e0) list_single_number_heading_pane_t_ParamLimits
 
-0xe750,	// (0x0000e750) list_single_number_heading_pane_t
+0xe7e0,	// (0x0000e7e0) list_single_number_heading_pane_t
 
 0x0e9a,	// (0x00000e9a) list_single_graphic_heading_pane_g1_ParamLimits
 
 0x0e9a,	// (0x00000e9a) list_single_graphic_heading_pane_g1
 
-0xaf69,	// (0x0000af69) list_single_graphic_heading_pane_g4_ParamLimits
+0xafa8,	// (0x0000afa8) list_single_graphic_heading_pane_g4_ParamLimits
 
-0xaf69,	// (0x0000af69) list_single_graphic_heading_pane_g4
+0xafa8,	// (0x0000afa8) list_single_graphic_heading_pane_g4
 
 0x0dd1,	// (0x00000dd1) list_single_graphic_heading_pane_g5_ParamLimits
 
@@ -1718,23 +1718,23 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xe757,	// (0x0000e757) list_single_graphic_heading_pane_g_ParamLimits
+0xe7e7,	// (0x0000e7e7) list_single_graphic_heading_pane_g_ParamLimits
 
-0xe757,	// (0x0000e757) list_single_graphic_heading_pane_g
+0xe7e7,	// (0x0000e7e7) list_single_graphic_heading_pane_g
 
 0x0f6f,	// (0x00000f6f) list_single_graphic_heading_pane_t1_ParamLimits
 
 0x0f6f,	// (0x00000f6f) list_single_graphic_heading_pane_t1
 
-0xaf7a,	// (0x0000af7a) list_single_graphic_heading_pane_t2_ParamLimits
+0xafb9,	// (0x0000afb9) list_single_graphic_heading_pane_t2_ParamLimits
 
-0xaf7a,	// (0x0000af7a) list_single_graphic_heading_pane_t2
+0xafb9,	// (0x0000afb9) list_single_graphic_heading_pane_t2
 
 0x0001,
 
-0xe75e,	// (0x0000e75e) list_single_graphic_heading_pane_t_ParamLimits
+0xe7ee,	// (0x0000e7ee) list_single_graphic_heading_pane_t_ParamLimits
 
-0xe75e,	// (0x0000e75e) list_single_graphic_heading_pane_t
+0xe7ee,	// (0x0000e7ee) list_single_graphic_heading_pane_t
 
 0x0d40,	// (0x00000d40) list_single_large_graphic_pane_g1_ParamLimits
 
@@ -1750,9 +1750,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa09a,	// (0x0000a09a) list_single_large_graphic_pane_g_ParamLimits
+0xa0d9,	// (0x0000a0d9) list_single_large_graphic_pane_g_ParamLimits
 
-0xa09a,	// (0x0000a09a) list_single_large_graphic_pane_g
+0xa0d9,	// (0x0000a0d9) list_single_large_graphic_pane_g
 
 0x39ce,	// (0x000039ce) wait_border_pane_g2_copy1
 
@@ -1762,229 +1762,229 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0d6c,	// (0x00000d6c) list_single_large_graphic_pane_t1
 
-0xaf8c,	// (0x0000af8c) list_double_pane_g1_ParamLimits
+0xafcb,	// (0x0000afcb) list_double_pane_g1_ParamLimits
 
-0xaf8c,	// (0x0000af8c) list_double_pane_g1
+0xafcb,	// (0x0000afcb) list_double_pane_g1
 
-0xaf98,	// (0x0000af98) list_double_pane_g2_ParamLimits
+0xafd7,	// (0x0000afd7) list_double_pane_g2_ParamLimits
 
-0xaf98,	// (0x0000af98) list_double_pane_g2
-
-0x0001,
-
-0xe763,	// (0x0000e763) list_double_pane_g_ParamLimits
-
-0xe763,	// (0x0000e763) list_double_pane_g
-
-0xafa4,	// (0x0000afa4) list_double_pane_t1_ParamLimits
-
-0xafa4,	// (0x0000afa4) list_double_pane_t1
-
-0xafba,	// (0x0000afba) list_double_pane_t2_ParamLimits
-
-0xafba,	// (0x0000afba) list_double_pane_t2
+0xafd7,	// (0x0000afd7) list_double_pane_g2
 
 0x0001,
 
-0xe768,	// (0x0000e768) list_double_pane_t_ParamLimits
+0xe7f3,	// (0x0000e7f3) list_double_pane_g_ParamLimits
 
-0xe768,	// (0x0000e768) list_double_pane_t
+0xe7f3,	// (0x0000e7f3) list_double_pane_g
 
-0xafcc,	// (0x0000afcc) list_double2_pane_g1_ParamLimits
+0xafe3,	// (0x0000afe3) list_double_pane_t1_ParamLimits
 
-0xafcc,	// (0x0000afcc) list_double2_pane_g1
+0xafe3,	// (0x0000afe3) list_double_pane_t1
 
-0xaf98,	// (0x0000af98) list_double2_pane_g2_ParamLimits
+0xaff9,	// (0x0000aff9) list_double_pane_t2_ParamLimits
 
-0xaf98,	// (0x0000af98) list_double2_pane_g2
-
-0x0001,
-
-0xe76d,	// (0x0000e76d) list_double2_pane_g_ParamLimits
-
-0xe76d,	// (0x0000e76d) list_double2_pane_g
-
-0xafa4,	// (0x0000afa4) list_double2_pane_t1_ParamLimits
-
-0xafa4,	// (0x0000afa4) list_double2_pane_t1
-
-0xafdd,	// (0x0000afdd) list_double2_pane_t2_ParamLimits
-
-0xafdd,	// (0x0000afdd) list_double2_pane_t2
+0xaff9,	// (0x0000aff9) list_double_pane_t2
 
 0x0001,
 
-0xe772,	// (0x0000e772) list_double2_pane_t_ParamLimits
+0xe7f8,	// (0x0000e7f8) list_double_pane_t_ParamLimits
 
-0xe772,	// (0x0000e772) list_double2_pane_t
+0xe7f8,	// (0x0000e7f8) list_double_pane_t
 
-0xaf8c,	// (0x0000af8c) list_double_number_pane_g1_ParamLimits
+0xb00b,	// (0x0000b00b) list_double2_pane_g1_ParamLimits
 
-0xaf8c,	// (0x0000af8c) list_double_number_pane_g1
+0xb00b,	// (0x0000b00b) list_double2_pane_g1
 
-0xaf98,	// (0x0000af98) list_double_number_pane_g2_ParamLimits
+0xafd7,	// (0x0000afd7) list_double2_pane_g2_ParamLimits
 
-0xaf98,	// (0x0000af98) list_double_number_pane_g2
+0xafd7,	// (0x0000afd7) list_double2_pane_g2
 
 0x0001,
 
-0xe763,	// (0x0000e763) list_double_number_pane_g_ParamLimits
+0xe7fd,	// (0x0000e7fd) list_double2_pane_g_ParamLimits
 
-0xe763,	// (0x0000e763) list_double_number_pane_g
+0xe7fd,	// (0x0000e7fd) list_double2_pane_g
 
-0xafef,	// (0x0000afef) list_double_number_pane_t1_ParamLimits
+0xafe3,	// (0x0000afe3) list_double2_pane_t1_ParamLimits
 
-0xafef,	// (0x0000afef) list_double_number_pane_t1
+0xafe3,	// (0x0000afe3) list_double2_pane_t1
 
-0xb001,	// (0x0000b001) list_double_number_pane_t2_ParamLimits
+0xb01c,	// (0x0000b01c) list_double2_pane_t2_ParamLimits
 
-0xb001,	// (0x0000b001) list_double_number_pane_t2
+0xb01c,	// (0x0000b01c) list_double2_pane_t2
 
-0xb017,	// (0x0000b017) list_double_number_pane_t3_ParamLimits
+0x0001,
 
-0xb017,	// (0x0000b017) list_double_number_pane_t3
+0xe802,	// (0x0000e802) list_double2_pane_t_ParamLimits
+
+0xe802,	// (0x0000e802) list_double2_pane_t
+
+0xafcb,	// (0x0000afcb) list_double_number_pane_g1_ParamLimits
+
+0xafcb,	// (0x0000afcb) list_double_number_pane_g1
+
+0xafd7,	// (0x0000afd7) list_double_number_pane_g2_ParamLimits
+
+0xafd7,	// (0x0000afd7) list_double_number_pane_g2
+
+0x0001,
+
+0xe7f3,	// (0x0000e7f3) list_double_number_pane_g_ParamLimits
+
+0xe7f3,	// (0x0000e7f3) list_double_number_pane_g
+
+0xb02e,	// (0x0000b02e) list_double_number_pane_t1_ParamLimits
+
+0xb02e,	// (0x0000b02e) list_double_number_pane_t1
+
+0xb040,	// (0x0000b040) list_double_number_pane_t2_ParamLimits
+
+0xb040,	// (0x0000b040) list_double_number_pane_t2
+
+0xb056,	// (0x0000b056) list_double_number_pane_t3_ParamLimits
+
+0xb056,	// (0x0000b056) list_double_number_pane_t3
 
 0x0002,
 
-0xe777,	// (0x0000e777) list_double_number_pane_t_ParamLimits
+0xe807,	// (0x0000e807) list_double_number_pane_t_ParamLimits
 
-0xe777,	// (0x0000e777) list_double_number_pane_t
+0xe807,	// (0x0000e807) list_double_number_pane_t
 
-0xb029,	// (0x0000b029) list_double_graphic_pane_g1_ParamLimits
+0xb068,	// (0x0000b068) list_double_graphic_pane_g1_ParamLimits
 
-0xb029,	// (0x0000b029) list_double_graphic_pane_g1
+0xb068,	// (0x0000b068) list_double_graphic_pane_g1
 
-0xb035,	// (0x0000b035) list_double_graphic_pane_g2_ParamLimits
+0xb074,	// (0x0000b074) list_double_graphic_pane_g2_ParamLimits
 
-0xb035,	// (0x0000b035) list_double_graphic_pane_g2
+0xb074,	// (0x0000b074) list_double_graphic_pane_g2
 
-0xb044,	// (0x0000b044) list_double_graphic_pane_g3_ParamLimits
+0xb083,	// (0x0000b083) list_double_graphic_pane_g3_ParamLimits
 
-0xb044,	// (0x0000b044) list_double_graphic_pane_g3
+0xb083,	// (0x0000b083) list_double_graphic_pane_g3
 
 0x0003,
 
-0xe77e,	// (0x0000e77e) list_double_graphic_pane_g_ParamLimits
+0xe80e,	// (0x0000e80e) list_double_graphic_pane_g_ParamLimits
 
-0xe77e,	// (0x0000e77e) list_double_graphic_pane_g
+0xe80e,	// (0x0000e80e) list_double_graphic_pane_g
 
-0xb05c,	// (0x0000b05c) list_double_graphic_pane_t1_ParamLimits
+0xb09b,	// (0x0000b09b) list_double_graphic_pane_t1_ParamLimits
 
-0xb05c,	// (0x0000b05c) list_double_graphic_pane_t1
+0xb09b,	// (0x0000b09b) list_double_graphic_pane_t1
 
-0xb072,	// (0x0000b072) list_double_graphic_pane_t2_ParamLimits
+0xb0b1,	// (0x0000b0b1) list_double_graphic_pane_t2_ParamLimits
 
-0xb072,	// (0x0000b072) list_double_graphic_pane_t2
+0xb0b1,	// (0x0000b0b1) list_double_graphic_pane_t2
 
 0x0001,
 
-0xe787,	// (0x0000e787) list_double_graphic_pane_t_ParamLimits
+0xe817,	// (0x0000e817) list_double_graphic_pane_t_ParamLimits
 
-0xe787,	// (0x0000e787) list_double_graphic_pane_t
+0xe817,	// (0x0000e817) list_double_graphic_pane_t
 
-0xb029,	// (0x0000b029) list_double2_graphic_pane_g1_ParamLimits
+0xb068,	// (0x0000b068) list_double2_graphic_pane_g1_ParamLimits
 
-0xb029,	// (0x0000b029) list_double2_graphic_pane_g1
+0xb068,	// (0x0000b068) list_double2_graphic_pane_g1
 
-0xaf8c,	// (0x0000af8c) list_double2_graphic_pane_g2_ParamLimits
+0xafcb,	// (0x0000afcb) list_double2_graphic_pane_g2_ParamLimits
 
-0xaf8c,	// (0x0000af8c) list_double2_graphic_pane_g2
+0xafcb,	// (0x0000afcb) list_double2_graphic_pane_g2
 
-0xaf98,	// (0x0000af98) list_double2_graphic_pane_g3_ParamLimits
+0xafd7,	// (0x0000afd7) list_double2_graphic_pane_g3_ParamLimits
 
-0xaf98,	// (0x0000af98) list_double2_graphic_pane_g3
+0xafd7,	// (0x0000afd7) list_double2_graphic_pane_g3
 
 0x0002,
 
-0xe78c,	// (0x0000e78c) list_double2_graphic_pane_g_ParamLimits
+0xe81c,	// (0x0000e81c) list_double2_graphic_pane_g_ParamLimits
 
-0xe78c,	// (0x0000e78c) list_double2_graphic_pane_g
+0xe81c,	// (0x0000e81c) list_double2_graphic_pane_g
 
-0xb001,	// (0x0000b001) list_double2_graphic_pane_t1_ParamLimits
+0xb040,	// (0x0000b040) list_double2_graphic_pane_t1_ParamLimits
 
-0xb001,	// (0x0000b001) list_double2_graphic_pane_t1
+0xb040,	// (0x0000b040) list_double2_graphic_pane_t1
 
-0xb084,	// (0x0000b084) list_double2_graphic_pane_t2_ParamLimits
+0xb0c3,	// (0x0000b0c3) list_double2_graphic_pane_t2_ParamLimits
 
-0xb084,	// (0x0000b084) list_double2_graphic_pane_t2
+0xb0c3,	// (0x0000b0c3) list_double2_graphic_pane_t2
 
 0x0001,
 
-0xe793,	// (0x0000e793) list_double2_graphic_pane_t_ParamLimits
+0xe823,	// (0x0000e823) list_double2_graphic_pane_t_ParamLimits
 
-0xe793,	// (0x0000e793) list_double2_graphic_pane_t
+0xe823,	// (0x0000e823) list_double2_graphic_pane_t
 
-0xb096,	// (0x0000b096) list_double_large_graphic_pane_g1_ParamLimits
+0xb0d5,	// (0x0000b0d5) list_double_large_graphic_pane_g1_ParamLimits
 
-0xb096,	// (0x0000b096) list_double_large_graphic_pane_g1
+0xb0d5,	// (0x0000b0d5) list_double_large_graphic_pane_g1
 
-0xafcc,	// (0x0000afcc) list_double_large_graphic_pane_g2_ParamLimits
+0xb00b,	// (0x0000b00b) list_double_large_graphic_pane_g2_ParamLimits
 
-0xafcc,	// (0x0000afcc) list_double_large_graphic_pane_g2
+0xb00b,	// (0x0000b00b) list_double_large_graphic_pane_g2
 
-0xaf98,	// (0x0000af98) list_double_large_graphic_pane_g3_ParamLimits
+0xafd7,	// (0x0000afd7) list_double_large_graphic_pane_g3_ParamLimits
 
-0xaf98,	// (0x0000af98) list_double_large_graphic_pane_g3
+0xafd7,	// (0x0000afd7) list_double_large_graphic_pane_g3
 
-0xb0bf,	// (0x0000b0bf) list_double_large_graphic_pane_g4_ParamLimits
+0xb0fe,	// (0x0000b0fe) list_double_large_graphic_pane_g4_ParamLimits
 
-0xb0bf,	// (0x0000b0bf) list_double_large_graphic_pane_g4
+0xb0fe,	// (0x0000b0fe) list_double_large_graphic_pane_g4
 
 0x0004,
 
-0xe798,	// (0x0000e798) list_double_large_graphic_pane_g_ParamLimits
+0xe828,	// (0x0000e828) list_double_large_graphic_pane_g_ParamLimits
 
-0xe798,	// (0x0000e798) list_double_large_graphic_pane_g
+0xe828,	// (0x0000e828) list_double_large_graphic_pane_g
 
-0xb0d0,	// (0x0000b0d0) list_double_large_graphic_pane_t1_ParamLimits
+0xb10f,	// (0x0000b10f) list_double_large_graphic_pane_t1_ParamLimits
 
-0xb0d0,	// (0x0000b0d0) list_double_large_graphic_pane_t1
+0xb10f,	// (0x0000b10f) list_double_large_graphic_pane_t1
 
-0xb0e9,	// (0x0000b0e9) list_double_large_graphic_pane_t2_ParamLimits
+0xb128,	// (0x0000b128) list_double_large_graphic_pane_t2_ParamLimits
 
-0xb0e9,	// (0x0000b0e9) list_double_large_graphic_pane_t2
+0xb128,	// (0x0000b128) list_double_large_graphic_pane_t2
 
 0x0001,
 
-0xe7a3,	// (0x0000e7a3) list_double_large_graphic_pane_t_ParamLimits
+0xe833,	// (0x0000e833) list_double_large_graphic_pane_t_ParamLimits
 
-0xe7a3,	// (0x0000e7a3) list_double_large_graphic_pane_t
+0xe833,	// (0x0000e833) list_double_large_graphic_pane_t
 
-0xb0fb,	// (0x0000b0fb) list_double2_large_graphic_pane_g1_ParamLimits
+0xb13a,	// (0x0000b13a) list_double2_large_graphic_pane_g1_ParamLimits
 
-0xb0fb,	// (0x0000b0fb) list_double2_large_graphic_pane_g1
+0xb13a,	// (0x0000b13a) list_double2_large_graphic_pane_g1
 
-0xafcc,	// (0x0000afcc) list_double2_large_graphic_pane_g2_ParamLimits
+0xb00b,	// (0x0000b00b) list_double2_large_graphic_pane_g2_ParamLimits
 
-0xafcc,	// (0x0000afcc) list_double2_large_graphic_pane_g2
+0xb00b,	// (0x0000b00b) list_double2_large_graphic_pane_g2
 
-0xaf98,	// (0x0000af98) list_double2_large_graphic_pane_g3_ParamLimits
+0xafd7,	// (0x0000afd7) list_double2_large_graphic_pane_g3_ParamLimits
 
-0xaf98,	// (0x0000af98) list_double2_large_graphic_pane_g3
+0xafd7,	// (0x0000afd7) list_double2_large_graphic_pane_g3
 
 0x0002,
 
-0xe7a8,	// (0x0000e7a8) list_double2_large_graphic_pane_g_ParamLimits
+0xe838,	// (0x0000e838) list_double2_large_graphic_pane_g_ParamLimits
 
-0xe7a8,	// (0x0000e7a8) list_double2_large_graphic_pane_g
+0xe838,	// (0x0000e838) list_double2_large_graphic_pane_g
 
-0xb107,	// (0x0000b107) list_double2_large_graphic_pane_t1_ParamLimits
+0xb146,	// (0x0000b146) list_double2_large_graphic_pane_t1_ParamLimits
 
-0xb107,	// (0x0000b107) list_double2_large_graphic_pane_t1
+0xb146,	// (0x0000b146) list_double2_large_graphic_pane_t1
 
-0xb11d,	// (0x0000b11d) list_double2_large_graphic_pane_t2_ParamLimits
+0xb15c,	// (0x0000b15c) list_double2_large_graphic_pane_t2_ParamLimits
 
-0xb11d,	// (0x0000b11d) list_double2_large_graphic_pane_t2
+0xb15c,	// (0x0000b15c) list_double2_large_graphic_pane_t2
 
 0x0001,
 
-0xe7af,	// (0x0000e7af) list_double2_large_graphic_pane_t_ParamLimits
+0xe83f,	// (0x0000e83f) list_double2_large_graphic_pane_t_ParamLimits
 
-0xe7af,	// (0x0000e7af) list_double2_large_graphic_pane_t
+0xe83f,	// (0x0000e83f) list_double2_large_graphic_pane_t
 
-0xb12f,	// (0x0000b12f) list_double_heading_pane_g1_ParamLimits
+0xb16e,	// (0x0000b16e) list_double_heading_pane_g1_ParamLimits
 
-0xb12f,	// (0x0000b12f) list_double_heading_pane_g1
+0xb16e,	// (0x0000b16e) list_double_heading_pane_g1
 
 0x0cb1,	// (0x00000cb1) list_double_heading_pane_g2_ParamLimits
 
@@ -1992,31 +1992,31 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xe7b4,	// (0x0000e7b4) list_double_heading_pane_g_ParamLimits
+0xe844,	// (0x0000e844) list_double_heading_pane_g_ParamLimits
 
-0xe7b4,	// (0x0000e7b4) list_double_heading_pane_g
+0xe844,	// (0x0000e844) list_double_heading_pane_g
 
-0xb140,	// (0x0000b140) list_double_heading_pane_t1_ParamLimits
+0xb17f,	// (0x0000b17f) list_double_heading_pane_t1_ParamLimits
 
-0xb140,	// (0x0000b140) list_double_heading_pane_t1
+0xb17f,	// (0x0000b17f) list_double_heading_pane_t1
 
-0xb156,	// (0x0000b156) list_double_heading_pane_t2_ParamLimits
+0xb195,	// (0x0000b195) list_double_heading_pane_t2_ParamLimits
 
-0xb156,	// (0x0000b156) list_double_heading_pane_t2
+0xb195,	// (0x0000b195) list_double_heading_pane_t2
 
 0x0001,
 
-0xe7b9,	// (0x0000e7b9) list_double_heading_pane_t_ParamLimits
+0xe849,	// (0x0000e849) list_double_heading_pane_t_ParamLimits
 
-0xe7b9,	// (0x0000e7b9) list_double_heading_pane_t
+0xe849,	// (0x0000e849) list_double_heading_pane_t
 
 0x0e3f,	// (0x00000e3f) list_double_graphic_heading_pane_g1_ParamLimits
 
 0x0e3f,	// (0x00000e3f) list_double_graphic_heading_pane_g1
 
-0xb12f,	// (0x0000b12f) list_double_graphic_heading_pane_g2_ParamLimits
+0xb16e,	// (0x0000b16e) list_double_graphic_heading_pane_g2_ParamLimits
 
-0xb12f,	// (0x0000b12f) list_double_graphic_heading_pane_g2
+0xb16e,	// (0x0000b16e) list_double_graphic_heading_pane_g2
 
 0x0cb1,	// (0x00000cb1) list_double_graphic_heading_pane_g3_ParamLimits
 
@@ -2024,127 +2024,127 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xe7be,	// (0x0000e7be) list_double_graphic_heading_pane_g_ParamLimits
+0xe84e,	// (0x0000e84e) list_double_graphic_heading_pane_g_ParamLimits
 
-0xe7be,	// (0x0000e7be) list_double_graphic_heading_pane_g
+0xe84e,	// (0x0000e84e) list_double_graphic_heading_pane_g
 
-0xb168,	// (0x0000b168) list_double_graphic_heading_pane_t1_ParamLimits
+0xb1a7,	// (0x0000b1a7) list_double_graphic_heading_pane_t1_ParamLimits
 
-0xb168,	// (0x0000b168) list_double_graphic_heading_pane_t1
+0xb1a7,	// (0x0000b1a7) list_double_graphic_heading_pane_t1
 
-0xb17e,	// (0x0000b17e) list_double_graphic_heading_pane_t2_ParamLimits
+0xb1bd,	// (0x0000b1bd) list_double_graphic_heading_pane_t2_ParamLimits
 
-0xb17e,	// (0x0000b17e) list_double_graphic_heading_pane_t2
-
-0x0001,
-
-0xe7c5,	// (0x0000e7c5) list_double_graphic_heading_pane_t_ParamLimits
-
-0xe7c5,	// (0x0000e7c5) list_double_graphic_heading_pane_t
-
-0xafcc,	// (0x0000afcc) list_double_time_pane_g1_ParamLimits
-
-0xafcc,	// (0x0000afcc) list_double_time_pane_g1
-
-0xaf98,	// (0x0000af98) list_double_time_pane_g2_ParamLimits
-
-0xaf98,	// (0x0000af98) list_double_time_pane_g2
+0xb1bd,	// (0x0000b1bd) list_double_graphic_heading_pane_t2
 
 0x0001,
 
-0xe76d,	// (0x0000e76d) list_double_time_pane_g_ParamLimits
+0xe855,	// (0x0000e855) list_double_graphic_heading_pane_t_ParamLimits
 
-0xe76d,	// (0x0000e76d) list_double_time_pane_g
+0xe855,	// (0x0000e855) list_double_graphic_heading_pane_t
 
-0xb107,	// (0x0000b107) list_double_time_pane_t1_ParamLimits
+0xb00b,	// (0x0000b00b) list_double_time_pane_g1_ParamLimits
 
-0xb107,	// (0x0000b107) list_double_time_pane_t1
+0xb00b,	// (0x0000b00b) list_double_time_pane_g1
 
-0xb190,	// (0x0000b190) list_double_time_pane_t2_ParamLimits
+0xafd7,	// (0x0000afd7) list_double_time_pane_g2_ParamLimits
 
-0xb190,	// (0x0000b190) list_double_time_pane_t2
+0xafd7,	// (0x0000afd7) list_double_time_pane_g2
 
-0xb1a2,	// (0x0000b1a2) list_double_time_pane_t3_ParamLimits
+0x0001,
 
-0xb1a2,	// (0x0000b1a2) list_double_time_pane_t3
+0xe7fd,	// (0x0000e7fd) list_double_time_pane_g_ParamLimits
 
-0xb1b4,	// (0x0000b1b4) list_double_time_pane_t4_ParamLimits
+0xe7fd,	// (0x0000e7fd) list_double_time_pane_g
 
-0xb1b4,	// (0x0000b1b4) list_double_time_pane_t4
+0xb146,	// (0x0000b146) list_double_time_pane_t1_ParamLimits
+
+0xb146,	// (0x0000b146) list_double_time_pane_t1
+
+0xb1cf,	// (0x0000b1cf) list_double_time_pane_t2_ParamLimits
+
+0xb1cf,	// (0x0000b1cf) list_double_time_pane_t2
+
+0xb1e1,	// (0x0000b1e1) list_double_time_pane_t3_ParamLimits
+
+0xb1e1,	// (0x0000b1e1) list_double_time_pane_t3
+
+0xb1f3,	// (0x0000b1f3) list_double_time_pane_t4_ParamLimits
+
+0xb1f3,	// (0x0000b1f3) list_double_time_pane_t4
 
 0x0003,
 
-0xe7ca,	// (0x0000e7ca) list_double_time_pane_t_ParamLimits
+0xe85a,	// (0x0000e85a) list_double_time_pane_t_ParamLimits
 
-0xe7ca,	// (0x0000e7ca) list_double_time_pane_t
+0xe85a,	// (0x0000e85a) list_double_time_pane_t
 
-0xaf8c,	// (0x0000af8c) list_setting_pane_g1_ParamLimits
+0xafcb,	// (0x0000afcb) list_setting_pane_g1_ParamLimits
 
-0xaf8c,	// (0x0000af8c) list_setting_pane_g1
+0xafcb,	// (0x0000afcb) list_setting_pane_g1
 
-0xaf98,	// (0x0000af98) list_setting_pane_g2_ParamLimits
+0xafd7,	// (0x0000afd7) list_setting_pane_g2_ParamLimits
 
-0xaf98,	// (0x0000af98) list_setting_pane_g2
+0xafd7,	// (0x0000afd7) list_setting_pane_g2
 
 0x0001,
 
-0xe763,	// (0x0000e763) list_setting_pane_g_ParamLimits
+0xe7f3,	// (0x0000e7f3) list_setting_pane_g_ParamLimits
 
-0xe763,	// (0x0000e763) list_setting_pane_g
+0xe7f3,	// (0x0000e7f3) list_setting_pane_g
 
-0xb1c6,	// (0x0000b1c6) list_setting_pane_t1_ParamLimits
+0xb205,	// (0x0000b205) list_setting_pane_t1_ParamLimits
 
-0xb1c6,	// (0x0000b1c6) list_setting_pane_t1
+0xb205,	// (0x0000b205) list_setting_pane_t1
 
-0xb1e0,	// (0x0000b1e0) list_setting_pane_t2_ParamLimits
+0xb21f,	// (0x0000b21f) list_setting_pane_t2_ParamLimits
 
-0xb1e0,	// (0x0000b1e0) list_setting_pane_t2
+0xb21f,	// (0x0000b21f) list_setting_pane_t2
 
 0x0002,
 
-0xe7d3,	// (0x0000e7d3) list_setting_pane_t_ParamLimits
+0xe863,	// (0x0000e863) list_setting_pane_t_ParamLimits
 
-0xe7d3,	// (0x0000e7d3) list_setting_pane_t
+0xe863,	// (0x0000e863) list_setting_pane_t
 
-0xb21d,	// (0x0000b21d) set_value_pane_cp_ParamLimits
+0xb25c,	// (0x0000b25c) set_value_pane_cp_ParamLimits
 
-0xb21d,	// (0x0000b21d) set_value_pane_cp
+0xb25c,	// (0x0000b25c) set_value_pane_cp
 
-0xaf8c,	// (0x0000af8c) list_setting_number_pane_g1_ParamLimits
+0xafcb,	// (0x0000afcb) list_setting_number_pane_g1_ParamLimits
 
-0xaf8c,	// (0x0000af8c) list_setting_number_pane_g1
+0xafcb,	// (0x0000afcb) list_setting_number_pane_g1
 
-0xaf98,	// (0x0000af98) list_setting_number_pane_g2_ParamLimits
+0xafd7,	// (0x0000afd7) list_setting_number_pane_g2_ParamLimits
 
-0xaf98,	// (0x0000af98) list_setting_number_pane_g2
+0xafd7,	// (0x0000afd7) list_setting_number_pane_g2
 
 0x0001,
 
-0xe763,	// (0x0000e763) list_setting_number_pane_g_ParamLimits
+0xe7f3,	// (0x0000e7f3) list_setting_number_pane_g_ParamLimits
 
-0xe763,	// (0x0000e763) list_setting_number_pane_g
+0xe7f3,	// (0x0000e7f3) list_setting_number_pane_g
 
-0xb229,	// (0x0000b229) list_setting_number_pane_t1_ParamLimits
+0xb268,	// (0x0000b268) list_setting_number_pane_t1_ParamLimits
 
-0xb229,	// (0x0000b229) list_setting_number_pane_t1
+0xb268,	// (0x0000b268) list_setting_number_pane_t1
 
-0xb242,	// (0x0000b242) list_setting_number_pane_t2_ParamLimits
+0xb281,	// (0x0000b281) list_setting_number_pane_t2_ParamLimits
 
-0xb242,	// (0x0000b242) list_setting_number_pane_t2
+0xb281,	// (0x0000b281) list_setting_number_pane_t2
 
-0xb25c,	// (0x0000b25c) list_setting_number_pane_t3_ParamLimits
+0xb29b,	// (0x0000b29b) list_setting_number_pane_t3_ParamLimits
 
-0xb25c,	// (0x0000b25c) list_setting_number_pane_t3
+0xb29b,	// (0x0000b29b) list_setting_number_pane_t3
 
 0x0003,
 
-0xe7da,	// (0x0000e7da) list_setting_number_pane_t_ParamLimits
+0xe86a,	// (0x0000e86a) list_setting_number_pane_t_ParamLimits
 
-0xe7da,	// (0x0000e7da) list_setting_number_pane_t
+0xe86a,	// (0x0000e86a) list_setting_number_pane_t
 
-0xb21d,	// (0x0000b21d) set_value_pane_ParamLimits
+0xb25c,	// (0x0000b25c) set_value_pane_ParamLimits
 
-0xb21d,	// (0x0000b21d) set_value_pane
+0xb25c,	// (0x0000b25c) set_value_pane
 
 0x10f4,	// (0x000010f4) bg_set_opt_pane_ParamLimits
 
@@ -2164,17 +2164,17 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x576a,	// (0x0000576a) form_field_data_pane
 
-0xb29f,	// (0x0000b29f) form_field_data_wide_pane_ParamLimits
+0xb2de,	// (0x0000b2de) form_field_data_wide_pane_ParamLimits
 
-0xb29f,	// (0x0000b29f) form_field_data_wide_pane
+0xb2de,	// (0x0000b2de) form_field_data_wide_pane
 
-0xb2bf,	// (0x0000b2bf) form_field_popup_pane_ParamLimits
+0xb2fe,	// (0x0000b2fe) form_field_popup_pane_ParamLimits
 
-0xb2bf,	// (0x0000b2bf) form_field_popup_pane
+0xb2fe,	// (0x0000b2fe) form_field_popup_pane
 
-0xb2d7,	// (0x0000b2d7) form_field_popup_wide_pane_ParamLimits
+0xb316,	// (0x0000b316) form_field_popup_wide_pane_ParamLimits
 
-0xb2d7,	// (0x0000b2d7) form_field_popup_wide_pane
+0xb316,	// (0x0000b316) form_field_popup_wide_pane
 
 0x11bc,	// (0x000011bc) form_field_slider_pane_ParamLimits
 
@@ -2186,7 +2186,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x11e2,	// (0x000011e2) data_form_pane
 
-0xb2f8,	// (0x0000b2f8) form_field_data_pane_t1
+0xb337,	// (0x0000b337) form_field_data_pane_t1
 
 0x120e,	// (0x0000120e) input_focus_pane
 
@@ -2196,7 +2196,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0aff,	// (0x00000aff) input_focus_pane_cp6
 
-0xb310,	// (0x0000b310) form_field_popup_pane_t1
+0xb34f,	// (0x0000b34f) form_field_popup_pane_t1
 
 0x120e,	// (0x0000120e) input_focus_pane_cp7
 
@@ -2208,27 +2208,27 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x129c,	// (0x0000129c) list_form_wide_pane
 
-0xb330,	// (0x0000b330) form_field_slider_pane_t1_ParamLimits
+0xb36f,	// (0x0000b36f) form_field_slider_pane_t1_ParamLimits
 
-0xb330,	// (0x0000b330) form_field_slider_pane_t1
+0xb36f,	// (0x0000b36f) form_field_slider_pane_t1
 
-0xb346,	// (0x0000b346) form_field_slider_pane_t2_ParamLimits
+0xb385,	// (0x0000b385) form_field_slider_pane_t2_ParamLimits
 
-0xb346,	// (0x0000b346) form_field_slider_pane_t2
+0xb385,	// (0x0000b385) form_field_slider_pane_t2
 
 0x0001,
 
-0xe7e3,	// (0x0000e7e3) form_field_slider_pane_t_ParamLimits
+0xe873,	// (0x0000e873) form_field_slider_pane_t_ParamLimits
 
-0xe7e3,	// (0x0000e7e3) form_field_slider_pane_t
+0xe873,	// (0x0000e873) form_field_slider_pane_t
 
 0x0797,	// (0x00000797) input_focus_pane_cp9_ParamLimits
 
 0x0797,	// (0x00000797) input_focus_pane_cp9
 
-0xb35b,	// (0x0000b35b) slider_cont_pane_ParamLimits
+0xb39a,	// (0x0000b39a) slider_cont_pane_ParamLimits
 
-0xb35b,	// (0x0000b35b) slider_cont_pane
+0xb39a,	// (0x0000b39a) slider_cont_pane
 
 0x12ef,	// (0x000012ef) form_field_slider_wide_pane_t1_ParamLimits
 
@@ -2240,19 +2240,19 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa137,	// (0x0000a137) form_field_slider_wide_pane_t_ParamLimits
+0xa176,	// (0x0000a176) form_field_slider_wide_pane_t_ParamLimits
 
-0xa137,	// (0x0000a137) form_field_slider_wide_pane_t
+0xa176,	// (0x0000a176) form_field_slider_wide_pane_t
 
 0x0797,	// (0x00000797) input_focus_pane_cp10_ParamLimits
 
 0x0797,	// (0x00000797) input_focus_pane_cp10
 
-0xb36f,	// (0x0000b36f) slider_cont_pane_cp1_ParamLimits
+0xb3ae,	// (0x0000b3ae) slider_cont_pane_cp1_ParamLimits
 
-0xb36f,	// (0x0000b36f) slider_cont_pane_cp1
+0xb3ae,	// (0x0000b3ae) slider_cont_pane_cp1
 
-0xb385,	// (0x0000b385) slider_form_pane_cp
+0xb3c4,	// (0x0000b3c4) slider_form_pane_cp
 
 0x1331,	// (0x00001331) input_focus_pane_g1
 
@@ -2276,15 +2276,15 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0009,
 
-0xa13c,	// (0x0000a13c) input_focus_pane_g
+0xa17b,	// (0x0000a17b) input_focus_pane_g
 
 0x39d7,	// (0x000039d7) wait_border_pane_g3_copy1
 
-0xb38d,	// (0x0000b38d) data_form_pane_t1
+0xb3cc,	// (0x0000b3cc) data_form_pane_t1
 
 0x002a,	// (0x0000002a) wait_anim_pane_g1_copy1
 
-0xc81c,	// (0x0000c81c) data_form_wide_pane_t1
+0xc85b,	// (0x0000c85b) data_form_wide_pane_t1
 
 0x514d,	// (0x0000514d) list_form_graphic_pane_cp_ParamLimits
 
@@ -2296,7 +2296,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0006,
 
-0xe8d4,	// (0x0000e8d4) slider_form_pane_g
+0xe964,	// (0x0000e964) slider_form_pane_g
 
 0x1393,	// (0x00001393) list_form_graphic_pane_ParamLimits
 
@@ -2312,27 +2312,27 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0474,	// (0x00000474) list_highlight_pane_cp5
 
-0xb3a6,	// (0x0000b3a6) find_pane_g1
+0xb3e5,	// (0x0000b3e5) find_pane_g1
 
 0x13e4,	// (0x000013e4) input_find_pane
 
-0xb3b1,	// (0x0000b3b1) input_find_pane_g1_ParamLimits
+0xb3f0,	// (0x0000b3f0) input_find_pane_g1_ParamLimits
 
-0xb3b1,	// (0x0000b3b1) input_find_pane_g1
+0xb3f0,	// (0x0000b3f0) input_find_pane_g1
 
-0xb3bd,	// (0x0000b3bd) input_find_pane_t1_ParamLimits
+0xb3fc,	// (0x0000b3fc) input_find_pane_t1_ParamLimits
 
-0xb3bd,	// (0x0000b3bd) input_find_pane_t1
+0xb3fc,	// (0x0000b3fc) input_find_pane_t1
 
-0xb3d2,	// (0x0000b3d2) input_find_pane_t2_ParamLimits
+0xb411,	// (0x0000b411) input_find_pane_t2_ParamLimits
 
-0xb3d2,	// (0x0000b3d2) input_find_pane_t2
+0xb411,	// (0x0000b411) input_find_pane_t2
 
 0x0001,
 
-0xe7e8,	// (0x0000e7e8) input_find_pane_t_ParamLimits
+0xe878,	// (0x0000e878) input_find_pane_t_ParamLimits
 
-0xe7e8,	// (0x0000e7e8) input_find_pane_t
+0xe878,	// (0x0000e878) input_find_pane_t
 
 0x1423,	// (0x00001423) input_focus_pane_cp5_ParamLimits
 
@@ -2388,7 +2388,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4d9a,	// (0x00004d9a) tabs_2_active_pane_g1
 
-0xb3f3,	// (0x0000b3f3) tabs_2_active_pane_t1
+0xb432,	// (0x0000b432) tabs_2_active_pane_t1
 
 0x0797,	// (0x00000797) bg_passive_tab_pane_cp1_ParamLimits
 
@@ -2396,11 +2396,11 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4d9a,	// (0x00004d9a) tabs_2_passive_pane_g1
 
-0xb3f3,	// (0x0000b3f3) tabs_2_passive_pane_t1
+0xb432,	// (0x0000b432) tabs_2_passive_pane_t1
 
 0x0474,	// (0x00000474) bg_active_tab_pane_cp4
 
-0xb409,	// (0x0000b409) tabs_2_long_active_pane_t1
+0xb448,	// (0x0000b448) tabs_2_long_active_pane_t1
 
 0x289b,	// (0x0000289b) bg_passive_tab_pane_cp4
 
@@ -2408,7 +2408,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0474,	// (0x00000474) bg_active_tab_pane_cp5
 
-0xb420,	// (0x0000b420) tabs_3_long_active_pane_t1
+0xb45f,	// (0x0000b45f) tabs_3_long_active_pane_t1
 
 0x289b,	// (0x0000289b) bg_passive_tab_pane_cp5
 
@@ -2460,9 +2460,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xa156,	// (0x0000a156) query_popup_data_pane_t_ParamLimits
+0xa195,	// (0x0000a195) query_popup_data_pane_t_ParamLimits
 
-0xa156,	// (0x0000a156) query_popup_data_pane_t
+0xa195,	// (0x0000a195) query_popup_data_pane_t
 
 0x1331,	// (0x00001331) bg_set_opt_pane_g1
 
@@ -2484,7 +2484,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0008,
 
-0xa161,	// (0x0000a161) bg_set_opt_pane_g
+0xa1a0,	// (0x0000a1a0) bg_set_opt_pane_g
 
 0x1f0c,	// (0x00001f0c) control_top_pane_stacon_ParamLimits
 
@@ -2536,9 +2536,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa174,	// (0x0000a174) signal_pane_stacon_g_ParamLimits
+0xa1b3,	// (0x0000a1b3) signal_pane_stacon_g_ParamLimits
 
-0xa174,	// (0x0000a174) signal_pane_stacon_g
+0xa1b3,	// (0x0000a1b3) signal_pane_stacon_g
 
 0x1725,	// (0x00001725) title_pane_stacon_t1_ParamLimits
 
@@ -2554,7 +2554,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa180,	// (0x0000a180) uni_indicator_pane_stacon_g
+0xa1bf,	// (0x0000a1bf) uni_indicator_pane_stacon_g
 
 0x1772,	// (0x00001772) control_top_pane_stacon_g1
 
@@ -2576,9 +2576,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa189,	// (0x0000a189) battery_pane_stacon_g_ParamLimits
+0xa1c8,	// (0x0000a1c8) battery_pane_stacon_g_ParamLimits
 
-0xa189,	// (0x0000a189) battery_pane_stacon_g
+0xa1c8,	// (0x0000a1c8) battery_pane_stacon_g
 
 0x17f4,	// (0x000017f4) navi_icon_pane_stacon
 
@@ -2592,21 +2592,21 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x1814,	// (0x00001814) control_bottom_pane_stacon_t1
 
-0xb436,	// (0x0000b436) grid_app_pane_ParamLimits
+0xb475,	// (0x0000b475) grid_app_pane_ParamLimits
 
-0xb436,	// (0x0000b436) grid_app_pane
+0xb475,	// (0x0000b475) grid_app_pane
 
-0xb464,	// (0x0000b464) scroll_pane_cp15_ParamLimits
+0xb4a3,	// (0x0000b4a3) scroll_pane_cp15_ParamLimits
 
-0xb464,	// (0x0000b464) scroll_pane_cp15
+0xb4a3,	// (0x0000b4a3) scroll_pane_cp15
 
-0xb477,	// (0x0000b477) cell_app_pane_ParamLimits
+0xb4b6,	// (0x0000b4b6) cell_app_pane_ParamLimits
 
-0xb477,	// (0x0000b477) cell_app_pane
+0xb4b6,	// (0x0000b4b6) cell_app_pane
 
-0xb4b4,	// (0x0000b4b4) cell_app_pane_g1_ParamLimits
+0xb4f3,	// (0x0000b4f3) cell_app_pane_g1_ParamLimits
 
-0xb4b4,	// (0x0000b4b4) cell_app_pane_g1
+0xb4f3,	// (0x0000b4f3) cell_app_pane_g1
 
 0x18d4,	// (0x000018d4) cell_app_pane_g2_ParamLimits
 
@@ -2614,13 +2614,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xe7ed,	// (0x0000e7ed) cell_app_pane_g_ParamLimits
+0xe87d,	// (0x0000e87d) cell_app_pane_g_ParamLimits
 
-0xe7ed,	// (0x0000e7ed) cell_app_pane_g
+0xe87d,	// (0x0000e87d) cell_app_pane_g
 
-0xb4d8,	// (0x0000b4d8) cell_app_pane_t1_ParamLimits
+0xb517,	// (0x0000b517) cell_app_pane_t1_ParamLimits
 
-0xb4d8,	// (0x0000b4d8) cell_app_pane_t1
+0xb517,	// (0x0000b517) cell_app_pane_t1
 
 0x18f7,	// (0x000018f7) grid_highlight_pane_ParamLimits
 
@@ -2648,7 +2648,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0009,
 
-0xa13c,	// (0x0000a13c) cell_highlight_pane_g
+0xa17b,	// (0x0000a17b) cell_highlight_pane_g
 
 0x191b,	// (0x0000191b) bg_scroll_pane
 
@@ -2662,7 +2662,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa193,	// (0x0000a193) scroll_bg_pane_g
+0xa1d2,	// (0x0000a1d2) scroll_bg_pane_g
 
 0x19cd,	// (0x000019cd) scroll_handle_focus_pane_ParamLimits
 
@@ -2676,7 +2676,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa19a,	// (0x0000a19a) scroll_handle_pane_g
+0xa1d9,	// (0x0000a1d9) scroll_handle_pane_g
 
 0x1423,	// (0x00001423) bg_popup_sub_pane_cp21_ParamLimits
 
@@ -2696,9 +2696,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa1a1,	// (0x0000a1a1) popup_fep_japan_predictive_window_t_ParamLimits
+0xa1e0,	// (0x0000a1e0) popup_fep_japan_predictive_window_t_ParamLimits
 
-0xa1a1,	// (0x0000a1a1) popup_fep_japan_predictive_window_t
+0xa1e0,	// (0x0000a1e0) popup_fep_japan_predictive_window_t
 
 0x024e,	// (0x0000024e) bg_popup_sub_pane_cp23
 
@@ -2720,33 +2720,33 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x1ab5,	// (0x00001ab5) list_single_popup_jap_candidate_pane_t1
 
-0xb4f8,	// (0x0000b4f8) level_1_signal
+0xb537,	// (0x0000b537) level_1_signal
 
-0xb50a,	// (0x0000b50a) level_2_signal
+0xb549,	// (0x0000b549) level_2_signal
 
-0xb51d,	// (0x0000b51d) level_3_signal
+0xb55c,	// (0x0000b55c) level_3_signal
 
-0xb530,	// (0x0000b530) level_4_signal
+0xb56f,	// (0x0000b56f) level_4_signal
 
-0xb543,	// (0x0000b543) level_5_signal
+0xb582,	// (0x0000b582) level_5_signal
 
-0xb556,	// (0x0000b556) level_6_signal
+0xb595,	// (0x0000b595) level_6_signal
 
-0xb569,	// (0x0000b569) level_7_signal
+0xb5a8,	// (0x0000b5a8) level_7_signal
 
-0xb4f8,	// (0x0000b4f8) level_1_battery
+0xb537,	// (0x0000b537) level_1_battery
 
-0xb50a,	// (0x0000b50a) level_2_battery
+0xb549,	// (0x0000b549) level_2_battery
 
-0xb51d,	// (0x0000b51d) level_3_battery
+0xb55c,	// (0x0000b55c) level_3_battery
 
-0xb530,	// (0x0000b530) level_4_battery
+0xb56f,	// (0x0000b56f) level_4_battery
 
-0xb543,	// (0x0000b543) level_5_battery
+0xb582,	// (0x0000b582) level_5_battery
 
-0xb556,	// (0x0000b556) level_6_battery
+0xb595,	// (0x0000b595) level_6_battery
 
-0xb569,	// (0x0000b569) level_7_battery
+0xb5a8,	// (0x0000b5a8) level_7_battery
 
 0x1b56,	// (0x00001b56) list_menu_pane_ParamLimits
 
@@ -2756,65 +2756,65 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x1b6c,	// (0x00001b6c) scroll_pane_cp25
 
-0xb57c,	// (0x0000b57c) list_double2_graphic_pane_cp2_ParamLimits
+0xb5bb,	// (0x0000b5bb) list_double2_graphic_pane_cp2_ParamLimits
 
-0xb57c,	// (0x0000b57c) list_double2_graphic_pane_cp2
+0xb5bb,	// (0x0000b5bb) list_double2_graphic_pane_cp2
 
-0xb57c,	// (0x0000b57c) list_double2_large_graphic_pane_cp2_ParamLimits
+0xb5bb,	// (0x0000b5bb) list_double2_large_graphic_pane_cp2_ParamLimits
 
-0xb57c,	// (0x0000b57c) list_double2_large_graphic_pane_cp2
+0xb5bb,	// (0x0000b5bb) list_double2_large_graphic_pane_cp2
 
-0xb57c,	// (0x0000b57c) list_double2_pane_cp2_ParamLimits
+0xb5bb,	// (0x0000b5bb) list_double2_pane_cp2_ParamLimits
 
-0xb57c,	// (0x0000b57c) list_double2_pane_cp2
+0xb5bb,	// (0x0000b5bb) list_double2_pane_cp2
 
-0xb57c,	// (0x0000b57c) list_double_graphic_pane_cp2_ParamLimits
+0xb5bb,	// (0x0000b5bb) list_double_graphic_pane_cp2_ParamLimits
 
-0xb57c,	// (0x0000b57c) list_double_graphic_pane_cp2
+0xb5bb,	// (0x0000b5bb) list_double_graphic_pane_cp2
 
-0xb57c,	// (0x0000b57c) list_double_large_graphic_pane_cp2_ParamLimits
+0xb5bb,	// (0x0000b5bb) list_double_large_graphic_pane_cp2_ParamLimits
 
-0xb57c,	// (0x0000b57c) list_double_large_graphic_pane_cp2
+0xb5bb,	// (0x0000b5bb) list_double_large_graphic_pane_cp2
 
-0xb57c,	// (0x0000b57c) list_double_number_pane_cp2_ParamLimits
+0xb5bb,	// (0x0000b5bb) list_double_number_pane_cp2_ParamLimits
 
-0xb57c,	// (0x0000b57c) list_double_number_pane_cp2
+0xb5bb,	// (0x0000b5bb) list_double_number_pane_cp2
 
-0xb57c,	// (0x0000b57c) list_double_pane_cp2_ParamLimits
+0xb5bb,	// (0x0000b5bb) list_double_pane_cp2_ParamLimits
 
-0xb57c,	// (0x0000b57c) list_double_pane_cp2
+0xb5bb,	// (0x0000b5bb) list_double_pane_cp2
 
-0xb597,	// (0x0000b597) list_single_2graphic_pane_cp2_ParamLimits
+0xb5d6,	// (0x0000b5d6) list_single_2graphic_pane_cp2_ParamLimits
 
-0xb597,	// (0x0000b597) list_single_2graphic_pane_cp2
+0xb5d6,	// (0x0000b5d6) list_single_2graphic_pane_cp2
 
-0xb597,	// (0x0000b597) list_single_graphic_heading_pane_cp2_ParamLimits
+0xb5d6,	// (0x0000b5d6) list_single_graphic_heading_pane_cp2_ParamLimits
 
-0xb597,	// (0x0000b597) list_single_graphic_heading_pane_cp2
+0xb5d6,	// (0x0000b5d6) list_single_graphic_heading_pane_cp2
 
-0xb597,	// (0x0000b597) list_single_graphic_pane_cp2_ParamLimits
+0xb5d6,	// (0x0000b5d6) list_single_graphic_pane_cp2_ParamLimits
 
-0xb597,	// (0x0000b597) list_single_graphic_pane_cp2
+0xb5d6,	// (0x0000b5d6) list_single_graphic_pane_cp2
 
-0xb597,	// (0x0000b597) list_single_heading_pane_cp2_ParamLimits
+0xb5d6,	// (0x0000b5d6) list_single_heading_pane_cp2_ParamLimits
 
-0xb597,	// (0x0000b597) list_single_heading_pane_cp2
+0xb5d6,	// (0x0000b5d6) list_single_heading_pane_cp2
 
-0xb5a8,	// (0x0000b5a8) list_single_large_graphic_pane_cp2_ParamLimits
+0xb5e7,	// (0x0000b5e7) list_single_large_graphic_pane_cp2_ParamLimits
 
-0xb5a8,	// (0x0000b5a8) list_single_large_graphic_pane_cp2
+0xb5e7,	// (0x0000b5e7) list_single_large_graphic_pane_cp2
 
-0xb597,	// (0x0000b597) list_single_number_heading_pane_cp2_ParamLimits
+0xb5d6,	// (0x0000b5d6) list_single_number_heading_pane_cp2_ParamLimits
 
-0xb597,	// (0x0000b597) list_single_number_heading_pane_cp2
+0xb5d6,	// (0x0000b5d6) list_single_number_heading_pane_cp2
 
-0xb597,	// (0x0000b597) list_single_number_pane_cp2_ParamLimits
+0xb5d6,	// (0x0000b5d6) list_single_number_pane_cp2_ParamLimits
 
-0xb597,	// (0x0000b597) list_single_number_pane_cp2
+0xb5d6,	// (0x0000b5d6) list_single_number_pane_cp2
 
-0xb597,	// (0x0000b597) list_single_pane_cp2_ParamLimits
+0xb5d6,	// (0x0000b5d6) list_single_pane_cp2_ParamLimits
 
-0xb597,	// (0x0000b597) list_single_pane_cp2
+0xb5d6,	// (0x0000b5d6) list_single_pane_cp2
 
 0x1c81,	// (0x00001c81) bg_popup_sub_pane_cp22
 
@@ -2842,7 +2842,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa1d2,	// (0x0000a1d2) fep_china_uni_entry_pane_g
+0xa211,	// (0x0000a211) fep_china_uni_entry_pane_g
 
 0x1d3b,	// (0x00001d3b) fep_entry_item_pane
 
@@ -2858,7 +2858,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa1d7,	// (0x0000a1d7) fep_china_uni_candidate_pane_g
+0xa216,	// (0x0000a216) fep_china_uni_candidate_pane_g
 
 0x002a,	// (0x0000002a) fep_entry_item_pane_g1
 
@@ -2876,9 +2876,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa1e0,	// (0x0000a1e0) fep_candidate_item_pane_t_ParamLimits
+0xa21f,	// (0x0000a21f) fep_candidate_item_pane_t_ParamLimits
 
-0xa1e0,	// (0x0000a1e0) fep_candidate_item_pane_t
+0xa21f,	// (0x0000a21f) fep_candidate_item_pane_t
 
 0x0474,	// (0x00000474) list_highlight_pane_cp31_ParamLimits
 
@@ -2920,69 +2920,69 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa1e5,	// (0x0000a1e5) scroll_handle_focus_pane_g
+0xa224,	// (0x0000a224) scroll_handle_focus_pane_g
 
-0xb62d,	// (0x0000b62d) list_single_2graphic_pane_g1_ParamLimits
+0xb66c,	// (0x0000b66c) list_single_2graphic_pane_g1_ParamLimits
 
-0xb62d,	// (0x0000b62d) list_single_2graphic_pane_g1
+0xb66c,	// (0x0000b66c) list_single_2graphic_pane_g1
 
-0xaf69,	// (0x0000af69) list_single_2graphic_pane_g2_ParamLimits
+0xafa8,	// (0x0000afa8) list_single_2graphic_pane_g2_ParamLimits
 
-0xaf69,	// (0x0000af69) list_single_2graphic_pane_g2
+0xafa8,	// (0x0000afa8) list_single_2graphic_pane_g2
 
 0x0dd1,	// (0x00000dd1) list_single_2graphic_pane_g3_ParamLimits
 
 0x0dd1,	// (0x00000dd1) list_single_2graphic_pane_g3
 
-0xb639,	// (0x0000b639) list_single_2graphic_pane_g4_ParamLimits
+0xb678,	// (0x0000b678) list_single_2graphic_pane_g4_ParamLimits
 
-0xb639,	// (0x0000b639) list_single_2graphic_pane_g4
-
-0x0003,
-
-0xe7fb,	// (0x0000e7fb) list_single_2graphic_pane_g_ParamLimits
-
-0xe7fb,	// (0x0000e7fb) list_single_2graphic_pane_g
-
-0xb645,	// (0x0000b645) list_single_2graphic_pane_t1_ParamLimits
-
-0xb645,	// (0x0000b645) list_single_2graphic_pane_t1
-
-0xb673,	// (0x0000b673) list_double2_graphic_large_graphic_pane_g1_ParamLimits
-
-0xb673,	// (0x0000b673) list_double2_graphic_large_graphic_pane_g1
-
-0xafcc,	// (0x0000afcc) list_double2_graphic_large_graphic_pane_g2_ParamLimits
-
-0xafcc,	// (0x0000afcc) list_double2_graphic_large_graphic_pane_g2
-
-0xaf98,	// (0x0000af98) list_double2_graphic_large_graphic_pane_g3_ParamLimits
-
-0xaf98,	// (0x0000af98) list_double2_graphic_large_graphic_pane_g3
-
-0xb683,	// (0x0000b683) list_double2_graphic_large_graphic_pane_g4_ParamLimits
-
-0xb683,	// (0x0000b683) list_double2_graphic_large_graphic_pane_g4
+0xb678,	// (0x0000b678) list_single_2graphic_pane_g4
 
 0x0003,
 
-0xe804,	// (0x0000e804) list_double2_graphic_large_graphic_pane_g_ParamLimits
+0xe88b,	// (0x0000e88b) list_single_2graphic_pane_g_ParamLimits
 
-0xe804,	// (0x0000e804) list_double2_graphic_large_graphic_pane_g
+0xe88b,	// (0x0000e88b) list_single_2graphic_pane_g
 
-0xb68f,	// (0x0000b68f) list_double2_graphic_large_graphic_pane_t1_ParamLimits
+0xb684,	// (0x0000b684) list_single_2graphic_pane_t1_ParamLimits
 
-0xb68f,	// (0x0000b68f) list_double2_graphic_large_graphic_pane_t1
+0xb684,	// (0x0000b684) list_single_2graphic_pane_t1
 
-0xb6a5,	// (0x0000b6a5) list_double2_graphic_large_graphic_pane_t2_ParamLimits
+0xb6b2,	// (0x0000b6b2) list_double2_graphic_large_graphic_pane_g1_ParamLimits
 
-0xb6a5,	// (0x0000b6a5) list_double2_graphic_large_graphic_pane_t2
+0xb6b2,	// (0x0000b6b2) list_double2_graphic_large_graphic_pane_g1
+
+0xb00b,	// (0x0000b00b) list_double2_graphic_large_graphic_pane_g2_ParamLimits
+
+0xb00b,	// (0x0000b00b) list_double2_graphic_large_graphic_pane_g2
+
+0xafd7,	// (0x0000afd7) list_double2_graphic_large_graphic_pane_g3_ParamLimits
+
+0xafd7,	// (0x0000afd7) list_double2_graphic_large_graphic_pane_g3
+
+0xb6c2,	// (0x0000b6c2) list_double2_graphic_large_graphic_pane_g4_ParamLimits
+
+0xb6c2,	// (0x0000b6c2) list_double2_graphic_large_graphic_pane_g4
+
+0x0003,
+
+0xe894,	// (0x0000e894) list_double2_graphic_large_graphic_pane_g_ParamLimits
+
+0xe894,	// (0x0000e894) list_double2_graphic_large_graphic_pane_g
+
+0xb6ce,	// (0x0000b6ce) list_double2_graphic_large_graphic_pane_t1_ParamLimits
+
+0xb6ce,	// (0x0000b6ce) list_double2_graphic_large_graphic_pane_t1
+
+0xb6e4,	// (0x0000b6e4) list_double2_graphic_large_graphic_pane_t2_ParamLimits
+
+0xb6e4,	// (0x0000b6e4) list_double2_graphic_large_graphic_pane_t2
 
 0x0001,
 
-0xe80d,	// (0x0000e80d) list_double2_graphic_large_graphic_pane_t_ParamLimits
+0xe89d,	// (0x0000e89d) list_double2_graphic_large_graphic_pane_t_ParamLimits
 
-0xe80d,	// (0x0000e80d) list_double2_graphic_large_graphic_pane_t
+0xe89d,	// (0x0000e89d) list_double2_graphic_large_graphic_pane_t
 
 0x2102,	// (0x00002102) popup_fast_swap_window_ParamLimits
 
@@ -2996,7 +2996,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x2142,	// (0x00002142) status_pane
 
-0xb701,	// (0x0000b701) status_small_pane
+0xb740,	// (0x0000b740) status_small_pane
 
 0x024e,	// (0x0000024e) control_pane
 
@@ -3018,41 +3018,41 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4d91,	// (0x00004d91) bg_passive_tab_pane_g3_cp1
 
-0xb6b7,	// (0x0000b6b7) bg_active_tab_pane_g1_cp2
+0xb6f6,	// (0x0000b6f6) bg_active_tab_pane_g1_cp2
 
 0x1ec4,	// (0x00001ec4) bg_active_tab_pane_g2_cp2
 
-0xb6c0,	// (0x0000b6c0) bg_active_tab_pane_g3_cp2
+0xb6ff,	// (0x0000b6ff) bg_active_tab_pane_g3_cp2
 
-0xb6b7,	// (0x0000b6b7) bg_passive_tab_pane_g1_cp2
+0xb6f6,	// (0x0000b6f6) bg_passive_tab_pane_g1_cp2
 
 0x1ec4,	// (0x00001ec4) bg_passive_tab_pane_g2_cp2
 
-0xb6c0,	// (0x0000b6c0) bg_passive_tab_pane_g3_cp2
+0xb6ff,	// (0x0000b6ff) bg_passive_tab_pane_g3_cp2
 
-0xb6c9,	// (0x0000b6c9) bg_active_tab_pane_g1_cp3
+0xb708,	// (0x0000b708) bg_active_tab_pane_g1_cp3
 
 0x1ec4,	// (0x00001ec4) bg_active_tab_pane_g2_cp3
 
-0xb6d2,	// (0x0000b6d2) bg_active_tab_pane_g3_cp3
+0xb711,	// (0x0000b711) bg_active_tab_pane_g3_cp3
 
-0xb6c9,	// (0x0000b6c9) bg_passive_tab_pane_g1_cp3
+0xb708,	// (0x0000b708) bg_passive_tab_pane_g1_cp3
 
 0x1ec4,	// (0x00001ec4) bg_passive_tab_pane_g2_cp3
 
-0xb6d2,	// (0x0000b6d2) bg_passive_tab_pane_g3_cp3
+0xb711,	// (0x0000b711) bg_passive_tab_pane_g3_cp3
 
-0xb6db,	// (0x0000b6db) bg_active_tab_pane_g1_cp4
+0xb71a,	// (0x0000b71a) bg_active_tab_pane_g1_cp4
 
 0x1ec4,	// (0x00001ec4) bg_active_tab_pane_g2_cp4
 
-0xb6e4,	// (0x0000b6e4) bg_active_tab_pane_g3_cp4
+0xb723,	// (0x0000b723) bg_active_tab_pane_g3_cp4
 
-0xb6db,	// (0x0000b6db) bg_passive_tab_pane_g1_cp4
+0xb71a,	// (0x0000b71a) bg_passive_tab_pane_g1_cp4
 
 0x1ec4,	// (0x00001ec4) bg_passive_tab_pane_g2_cp4
 
-0xb6e4,	// (0x0000b6e4) bg_passive_tab_pane_g3_cp4
+0xb723,	// (0x0000b723) bg_passive_tab_pane_g3_cp4
 
 0x2077,	// (0x00002077) bg_active_tab_pane_g1_cp5
 
@@ -3066,9 +3066,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x2080,	// (0x00002080) bg_passive_tab_pane_g3_cp5
 
-0xb6ed,	// (0x0000b6ed) list_set_graphic_pane_ParamLimits
+0xb72c,	// (0x0000b72c) list_set_graphic_pane_ParamLimits
 
-0xb6ed,	// (0x0000b6ed) list_set_graphic_pane
+0xb72c,	// (0x0000b72c) list_set_graphic_pane
 
 0x024e,	// (0x0000024e) bg_set_opt_pane_cp4
 
@@ -3082,13 +3082,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa203,	// (0x0000a203) list_set_graphic_pane_g_ParamLimits
+0xa242,	// (0x0000a242) list_set_graphic_pane_g_ParamLimits
 
-0xa203,	// (0x0000a203) list_set_graphic_pane_g
+0xa242,	// (0x0000a242) list_set_graphic_pane_g
 
 0x0009,
 
-0xa575,	// (0x0000a575) volume_small_pane_cp_g
+0xa5b4,	// (0x0000a5b4) volume_small_pane_cp_g
 
 0x20b7,	// (0x000020b7) list_double2_large_graphic_pane_g1_cp2_ParamLimits
 
@@ -3356,9 +3356,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x3c0a,	// (0x00003c0a) list_highlight_pane_g9_cp1
 
-0xc3da,	// (0x0000c3da) form_field_slider_pane_t3
+0xc419,	// (0x0000c419) form_field_slider_pane_t3
 
-0xc3e8,	// (0x0000c3e8) form_field_slider_pane_t4
+0xc427,	// (0x0000c427) form_field_slider_pane_t4
 
 0x3b14,	// (0x00003b14) slider_form_pane_ParamLimits
 
@@ -3384,7 +3384,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x024e,	// (0x0000024e) intro_purpose
 
-0xa393,	// (0x0000a393) bg_popup_preview_window_pane_g
+0xa3d2,	// (0x0000a3d2) bg_popup_preview_window_pane_g
 
 0x024e,	// (0x0000024e) texts_category
 
@@ -3412,9 +3412,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4c2a,	// (0x00004c2a) tabs_4_active_pane_srt_g1
 
-0xac5c,	// (0x0000ac5c) tabs_4_active_pane_srt_t1_ParamLimits
+0xac9b,	// (0x0000ac9b) tabs_4_active_pane_srt_t1_ParamLimits
 
-0xac5c,	// (0x0000ac5c) tabs_4_active_pane_srt_t1
+0xac9b,	// (0x0000ac9b) tabs_4_active_pane_srt_t1
 
 0x4c18,	// (0x00004c18) bg_active_tab_pane_g1_cp3_copy1
 
@@ -3444,9 +3444,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0474,	// (0x00000474) bg_active_tab_pane_cp4_srt
 
-0xb409,	// (0x0000b409) tabs_2_long_active_pane_srt_t1_ParamLimits
+0xb448,	// (0x0000b448) tabs_2_long_active_pane_srt_t1_ParamLimits
 
-0xb409,	// (0x0000b409) tabs_2_long_active_pane_srt_t1
+0xb448,	// (0x0000b448) tabs_2_long_active_pane_srt_t1
 
 0x485e,	// (0x0000485e) bg_active_tab_pane_g1_cp4_srt
 
@@ -3480,9 +3480,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0474,	// (0x00000474) bg_active_tab_pane_cp5_srt
 
-0xb420,	// (0x0000b420) tabs_3_long_active_pane_srt_t1_ParamLimits
+0xb45f,	// (0x0000b45f) tabs_3_long_active_pane_srt_t1_ParamLimits
 
-0xb420,	// (0x0000b420) tabs_3_long_active_pane_srt_t1
+0xb45f,	// (0x0000b45f) tabs_3_long_active_pane_srt_t1
 
 0x2077,	// (0x00002077) bg_active_tab_pane_g1_cp5_srt
 
@@ -3504,15 +3504,15 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa222,	// (0x0000a222) midp_ticker_pane_srt_g
+0xa261,	// (0x0000a261) midp_ticker_pane_srt_g
 
 0x25a8,	// (0x000025a8) midp_ticker_pane_srt_t1
 
 0x4839,	// (0x00004839) midp_editing_number_pane_t1_copy1
 
-0xb70a,	// (0x0000b70a) listscroll_midp_pane
+0xb749,	// (0x0000b749) listscroll_midp_pane
 
-0xb70a,	// (0x0000b70a) midp_form_pane
+0xb749,	// (0x0000b749) midp_form_pane
 
 0x239f,	// (0x0000239f) midp_info_popup_window_ParamLimits
 
@@ -3532,7 +3532,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x3809,	// (0x00003809) scroll_bar_cp050
 
-0xc3ce,	// (0x0000c3ce) list_midp_pane
+0xc40d,	// (0x0000c40d) list_midp_pane
 
 0x592f,	// (0x0000592f) signal_pane_g2_cp
 
@@ -3554,9 +3554,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa2ce,	// (0x0000a2ce) listscroll_midp_info_pane_t_ParamLimits
+0xa30d,	// (0x0000a30d) listscroll_midp_info_pane_t_ParamLimits
 
-0xa2ce,	// (0x0000a2ce) listscroll_midp_info_pane_t
+0xa30d,	// (0x0000a30d) listscroll_midp_info_pane_t
 
 0x14d2,	// (0x000014d2) scroll_pane_cp21
 
@@ -3572,9 +3572,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x024e,	// (0x0000024e) form_midp_image_pane
 
-0xc3b8,	// (0x0000c3b8) list_single_midp_pane_ParamLimits
+0xc3f7,	// (0x0000c3f7) list_single_midp_pane_ParamLimits
 
-0xc3b8,	// (0x0000c3b8) list_single_midp_pane
+0xc3f7,	// (0x0000c3f7) list_single_midp_pane
 
 0x3674,	// (0x00003674) form_midp_field_text_pane_t1
 
@@ -3600,7 +3600,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x2449,	// (0x00002449) aid_navinavi_width_2_pane
 
-0xa2c9,	// (0x0000a2c9) form_midp_field_time_pane_t
+0xa308,	// (0x0000a308) form_midp_field_time_pane_t
 
 0x024e,	// (0x0000024e) input_focus_pane_cp052
 
@@ -3610,13 +3610,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x35f5,	// (0x000035f5) form_midp_gauge_slider_pane_t2
 
-0xc39c,	// (0x0000c39c) form_midp_gauge_slider_pane_t3
+0xc3db,	// (0x0000c3db) form_midp_gauge_slider_pane_t3
 
-0xc3aa,	// (0x0000c3aa) form_midp_gauge_slider_pane_t4
+0xc3e9,	// (0x0000c3e9) form_midp_gauge_slider_pane_t4
 
 0x0003,
 
-0xe85f,	// (0x0000e85f) form_midp_gauge_slider_pane_t
+0xe8ef,	// (0x0000e8ef) form_midp_gauge_slider_pane_t
 
 0x361f,	// (0x0000361f) form_midp_slider_pane
 
@@ -3634,9 +3634,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa2bb,	// (0x0000a2bb) form_midp_gauge_wait_pane_t_ParamLimits
+0xa2fa,	// (0x0000a2fa) form_midp_gauge_wait_pane_t_ParamLimits
 
-0xa2bb,	// (0x0000a2bb) form_midp_gauge_wait_pane_t
+0xa2fa,	// (0x0000a2fa) form_midp_gauge_wait_pane_t
 
 0x35db,	// (0x000035db) form_midp_wait_pane_ParamLimits
 
@@ -3652,7 +3652,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa2b4,	// (0x0000a2b4) form_midp_image_pane_t
+0xa2f3,	// (0x0000a2f3) form_midp_image_pane_t
 
 0x3569,	// (0x00003569) list_single_midp_pane_g1
 
@@ -3670,7 +3670,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa208,	// (0x0000a208) midp_ticker_pane_g
+0xa247,	// (0x0000a247) midp_ticker_pane_g
 
 0x2418,	// (0x00002418) midp_ticker_pane_t1
 
@@ -3704,9 +3704,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa3f5,	// (0x0000a3f5) ai_message_heading_pane_g_ParamLimits
+0xa434,	// (0x0000a434) ai_message_heading_pane_g_ParamLimits
 
-0xa3f5,	// (0x0000a3f5) ai_message_heading_pane_g
+0xa434,	// (0x0000a434) ai_message_heading_pane_g
 
 0x47d1,	// (0x000047d1) ai_message_heading_pane_t1_ParamLimits
 
@@ -3718,9 +3718,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa3fe,	// (0x0000a3fe) ai_message_heading_pane_t_ParamLimits
+0xa43d,	// (0x0000a43d) ai_message_heading_pane_t_ParamLimits
 
-0xa3fe,	// (0x0000a3fe) ai_message_heading_pane_t
+0xa43d,	// (0x0000a43d) ai_message_heading_pane_t
 
 0x47fd,	// (0x000047fd) bg_popup_heading_pane_cp1_ParamLimits
 
@@ -3738,7 +3738,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa3d2,	// (0x0000a3d2) list_ai_message_pane_g
+0xa411,	// (0x0000a411) list_ai_message_pane_g
 
 0x46eb,	// (0x000046eb) list_ai_message_pane_t1_ParamLimits
 
@@ -3758,9 +3758,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa3d7,	// (0x0000a3d7) list_ai_message_pane_t_ParamLimits
+0xa416,	// (0x0000a416) list_ai_message_pane_t_ParamLimits
 
-0xa3d7,	// (0x0000a3d7) list_ai_message_pane_t
+0xa416,	// (0x0000a416) list_ai_message_pane_t
 
 0x46c9,	// (0x000046c9) cell_ai_soft_ind_pane_ParamLimits
 
@@ -3788,9 +3788,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x46b6,	// (0x000046b6) example_parent_pane_t1
 
-0xbcc2,	// (0x0000bcc2) popup_preview_text_window_ParamLimits
+0xbd01,	// (0x0000bd01) popup_preview_text_window_ParamLimits
 
-0xbcc2,	// (0x0000bcc2) popup_preview_text_window
+0xbd01,	// (0x0000bd01) popup_preview_text_window
 
 0x2274,	// (0x00002274) list_single_pane_cp2_g4
 
@@ -3816,9 +3816,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xa3a6,	// (0x0000a3a6) popup_preview_text_window_t_ParamLimits
+0xa3e5,	// (0x0000a3e5) popup_preview_text_window_t_ParamLimits
 
-0xa3a6,	// (0x0000a3a6) popup_preview_text_window_t
+0xa3e5,	// (0x0000a3e5) popup_preview_text_window_t
 
 0x4519,	// (0x00004519) scroll_pane_cp11
 
@@ -3840,15 +3840,15 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x003c,	// (0x0000003c) aid_popup_width_pane
 
-0xbc44,	// (0x0000bc44) popup_midp_note_alarm_window_ParamLimits
+0xbc83,	// (0x0000bc83) popup_midp_note_alarm_window_ParamLimits
 
-0xbc44,	// (0x0000bc44) popup_midp_note_alarm_window
+0xbc83,	// (0x0000bc83) popup_midp_note_alarm_window
 
 0x11e2,	// (0x000011e2) data_form_pane_ParamLimits
 
-0xb2ee,	// (0x0000b2ee) form_field_data_pane_g1
+0xb32d,	// (0x0000b32d) form_field_data_pane_g1
 
-0xb2f8,	// (0x0000b2f8) form_field_data_pane_t1_ParamLimits
+0xb337,	// (0x0000b337) form_field_data_pane_t1_ParamLimits
 
 0x120e,	// (0x0000120e) input_focus_pane_ParamLimits
 
@@ -3860,9 +3860,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0aff,	// (0x00000aff) input_focus_pane_cp6_ParamLimits
 
-0xb3e7,	// (0x0000b3e7) input_popup_find_pane_g1_ParamLimits
+0xb426,	// (0x0000b426) input_popup_find_pane_g1_ParamLimits
 
-0xb3e7,	// (0x0000b3e7) input_popup_find_pane_g1
+0xb426,	// (0x0000b426) input_popup_find_pane_g1
 
 0x17d5,	// (0x000017d5) aid_navi_side_left_pane
 
@@ -3898,9 +3898,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x000a,
 
-0xa343,	// (0x0000a343) popup_midp_note_alarm_window_t_ParamLimits
+0xa382,	// (0x0000a382) popup_midp_note_alarm_window_t_ParamLimits
 
-0xa343,	// (0x0000a343) popup_midp_note_alarm_window_t
+0xa382,	// (0x0000a382) popup_midp_note_alarm_window_t
 
 0x3fa0,	// (0x00003fa0) wait_bar_pane_cp1_ParamLimits
 
@@ -3914,7 +3914,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x125f,	// (0x0000125f) form_field_popup_pane_g1
 
-0xb310,	// (0x0000b310) form_field_popup_pane_t1_ParamLimits
+0xb34f,	// (0x0000b34f) form_field_popup_pane_t1_ParamLimits
 
 0x120e,	// (0x0000120e) input_focus_pane_cp7_ParamLimits
 
@@ -3930,47 +3930,47 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4c98,	// (0x00004c98) aid_size_cell_graphic_pane
 
-0xb38d,	// (0x0000b38d) data_form_pane_t1_ParamLimits
+0xb3cc,	// (0x0000b3cc) data_form_pane_t1_ParamLimits
 
-0xc81c,	// (0x0000c81c) data_form_wide_pane_t1_ParamLimits
+0xc85b,	// (0x0000c85b) data_form_wide_pane_t1_ParamLimits
 
-0xc020,	// (0x0000c020) bg_status_flat_pane
+0xc05f,	// (0x0000c05f) bg_status_flat_pane
 
-0xabb9,	// (0x0000abb9) title_pane_t1_ParamLimits
+0xabf8,	// (0x0000abf8) title_pane_t1_ParamLimits
 
 0x043c,	// (0x0000043c) title_pane_t2_ParamLimits
 
 0x0462,	// (0x00000462) title_pane_t3_ParamLimits
 
-0xe724,	// (0x0000e724) title_pane_t_ParamLimits
+0xe7b4,	// (0x0000e7b4) title_pane_t_ParamLimits
 
-0xb4f8,	// (0x0000b4f8) level_1_signal_ParamLimits
+0xb537,	// (0x0000b537) level_1_signal_ParamLimits
 
-0xb50a,	// (0x0000b50a) level_2_signal_ParamLimits
+0xb549,	// (0x0000b549) level_2_signal_ParamLimits
 
-0xb51d,	// (0x0000b51d) level_3_signal_ParamLimits
+0xb55c,	// (0x0000b55c) level_3_signal_ParamLimits
 
-0xb530,	// (0x0000b530) level_4_signal_ParamLimits
+0xb56f,	// (0x0000b56f) level_4_signal_ParamLimits
 
-0xb543,	// (0x0000b543) level_5_signal_ParamLimits
+0xb582,	// (0x0000b582) level_5_signal_ParamLimits
 
-0xb556,	// (0x0000b556) level_6_signal_ParamLimits
+0xb595,	// (0x0000b595) level_6_signal_ParamLimits
 
-0xb569,	// (0x0000b569) level_7_signal_ParamLimits
+0xb5a8,	// (0x0000b5a8) level_7_signal_ParamLimits
 
-0xb4f8,	// (0x0000b4f8) level_1_battery_ParamLimits
+0xb537,	// (0x0000b537) level_1_battery_ParamLimits
 
-0xb50a,	// (0x0000b50a) level_2_battery_ParamLimits
+0xb549,	// (0x0000b549) level_2_battery_ParamLimits
 
-0xb51d,	// (0x0000b51d) level_3_battery_ParamLimits
+0xb55c,	// (0x0000b55c) level_3_battery_ParamLimits
 
-0xb530,	// (0x0000b530) level_4_battery_ParamLimits
+0xb56f,	// (0x0000b56f) level_4_battery_ParamLimits
 
-0xb543,	// (0x0000b543) level_5_battery_ParamLimits
+0xb582,	// (0x0000b582) level_5_battery_ParamLimits
 
-0xb556,	// (0x0000b556) level_6_battery_ParamLimits
+0xb595,	// (0x0000b595) level_6_battery_ParamLimits
 
-0xb569,	// (0x0000b569) level_7_battery_ParamLimits
+0xb5a8,	// (0x0000b5a8) level_7_battery_ParamLimits
 
 0x3bca,	// (0x00003bca) bg_status_flat_pane_g1
 
@@ -3986,21 +3986,21 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x3bfa,	// (0x00003bfa) bg_status_flat_pane_g7
 
-0xac46,	// (0x0000ac46) tabs_3_active_pane_t1_ParamLimits
+0xac85,	// (0x0000ac85) tabs_3_active_pane_t1_ParamLimits
 
-0xac46,	// (0x0000ac46) tabs_3_passive_pane_t1_ParamLimits
+0xac85,	// (0x0000ac85) tabs_3_passive_pane_t1_ParamLimits
 
-0xac5c,	// (0x0000ac5c) tabs_4_active_pane_t1_ParamLimits
+0xac9b,	// (0x0000ac9b) tabs_4_active_pane_t1_ParamLimits
 
-0xac5c,	// (0x0000ac5c) tabs_4_1_passive_pane_t1_ParamLimits
+0xac9b,	// (0x0000ac9b) tabs_4_1_passive_pane_t1_ParamLimits
 
-0xb3f3,	// (0x0000b3f3) tabs_2_active_pane_t1_ParamLimits
+0xb432,	// (0x0000b432) tabs_2_active_pane_t1_ParamLimits
 
-0xb3f3,	// (0x0000b3f3) tabs_2_passive_pane_t1_ParamLimits
+0xb432,	// (0x0000b432) tabs_2_passive_pane_t1_ParamLimits
 
 0x0474,	// (0x00000474) bg_active_tab_pane_cp4_ParamLimits
 
-0xb409,	// (0x0000b409) tabs_2_long_active_pane_t1_ParamLimits
+0xb448,	// (0x0000b448) tabs_2_long_active_pane_t1_ParamLimits
 
 0x289b,	// (0x0000289b) bg_passive_tab_pane_cp4_ParamLimits
 
@@ -4008,21 +4008,21 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0474,	// (0x00000474) bg_active_tab_pane_cp5_ParamLimits
 
-0xb420,	// (0x0000b420) tabs_3_long_active_pane_t1_ParamLimits
+0xb45f,	// (0x0000b45f) tabs_3_long_active_pane_t1_ParamLimits
 
 0x289b,	// (0x0000289b) bg_passive_tab_pane_cp5_ParamLimits
 
 0x3322,	// (0x00003322) list_single_midp_graphic_pane_t1
 
-0xc020,	// (0x0000c020) bg_status_flat_pane_ParamLimits
+0xc05f,	// (0x0000c05f) bg_status_flat_pane_ParamLimits
 
 0x2ea6,	// (0x00002ea6) indicator_pane_cp2_ParamLimits
 
 0x2ea6,	// (0x00002ea6) indicator_pane_cp2
 
-0xc186,	// (0x0000c186) navi_pane_srt_ParamLimits
+0xc1c5,	// (0x0000c1c5) navi_pane_srt_ParamLimits
 
-0xc186,	// (0x0000c186) navi_pane_srt
+0xc1c5,	// (0x0000c1c5) navi_pane_srt
 
 0x2fee,	// (0x00002fee) popup_clock_digital_analogue_window_cp1
 
@@ -4080,23 +4080,23 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x2451,	// (0x00002451) graphic_text_title_pane
 
-0xb7a6,	// (0x0000b7a6) cursor_primary_pane_g1
+0xb7e5,	// (0x0000b7e5) cursor_primary_pane_g1
 
 0x3c54,	// (0x00003c54) cursor_text_primary_t1
 
-0xc40a,	// (0x0000c40a) cursor_primary_small_pane_g1
+0xc449,	// (0x0000c449) cursor_primary_small_pane_g1
 
 0x3c46,	// (0x00003c46) cursor_text_primary_small_t1
 
-0xc400,	// (0x0000c400) cursor_primary_small_pane_g1_copy1
+0xc43f,	// (0x0000c43f) cursor_primary_small_pane_g1_copy1
 
 0x3c30,	// (0x00003c30) cursor_text_primary_small_t1_copy1
 
 0x3c12,	// (0x00003c12) cursor_text_title_t1
 
-0xc3f6,	// (0x0000c3f6) cursor_title_pane_g1
+0xc435,	// (0x0000c435) cursor_title_pane_g1
 
-0xb7a6,	// (0x0000b7a6) cursor_digital_pane_g1
+0xb7e5,	// (0x0000b7e5) cursor_digital_pane_g1
 
 0x2482,	// (0x00002482) cursor_text_digital_t1
 
@@ -4148,7 +4148,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa46d,	// (0x0000a46d) graphic_text_primary_pane_t
+0xa4ac,	// (0x0000a4ac) graphic_text_primary_pane_t
 
 0x4e7c,	// (0x00004e7c) graphic_text_primary_small_pane_g1
 
@@ -4158,7 +4158,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa468,	// (0x0000a468) graphic_text_primary_small_pane_t
+0xa4a7,	// (0x0000a4a7) graphic_text_primary_small_pane_t
 
 0x4e58,	// (0x00004e58) graphic_text_secondary_pane_g1
 
@@ -4168,7 +4168,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa463,	// (0x0000a463) graphic_text_secondary_pane_t
+0xa4a2,	// (0x0000a4a2) graphic_text_secondary_pane_t
 
 0x4e34,	// (0x00004e34) graphic_text_title_pane_g1
 
@@ -4178,7 +4178,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa45e,	// (0x0000a45e) graphic_text_title_pane_t
+0xa49d,	// (0x0000a49d) graphic_text_title_pane_t
 
 0x4e10,	// (0x00004e10) graphic_text_digital_pane_g1
 
@@ -4188,7 +4188,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa459,	// (0x0000a459) graphic_text_digital_pane_t
+0xa498,	// (0x0000a498) graphic_text_digital_pane_t
 
 0x0474,	// (0x00000474) navi_icon_pane_srt_ParamLimits
 
@@ -4214,9 +4214,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa38e,	// (0x0000a38e) navi_navi_pane_srt_g_ParamLimits
+0xa3cd,	// (0x0000a3cd) navi_navi_pane_srt_g_ParamLimits
 
-0xa38e,	// (0x0000a38e) navi_navi_pane_srt_g
+0xa3cd,	// (0x0000a3cd) navi_navi_pane_srt_g
 
 0x4394,	// (0x00004394) navi_navi_tabs_pane_srt
 
@@ -4274,9 +4274,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0009,
 
-0xa20d,	// (0x0000a20d) volume_small_pane_srt_g_ParamLimits
+0xa24c,	// (0x0000a24c) volume_small_pane_srt_g_ParamLimits
 
-0xa20d,	// (0x0000a20d) volume_small_pane_srt_g
+0xa24c,	// (0x0000a24c) volume_small_pane_srt_g
 
 0x091c,	// (0x0000091c) query_popup_data_pane_cp2
 
@@ -4318,9 +4318,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4d9a,	// (0x00004d9a) tabs_2_active_pane_srt_g1
 
-0xb3f3,	// (0x0000b3f3) tabs_2_active_pane_srt_t1_ParamLimits
+0xb432,	// (0x0000b432) tabs_2_active_pane_srt_t1_ParamLimits
 
-0xb3f3,	// (0x0000b3f3) tabs_2_active_pane_srt_t1
+0xb432,	// (0x0000b432) tabs_2_active_pane_srt_t1
 
 0x4d88,	// (0x00004d88) bg_active_tab_pane_g1_cp1_srt
 
@@ -4356,9 +4356,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4d4d,	// (0x00004d4d) tabs_3_active_pane_srt_g1
 
-0xac46,	// (0x0000ac46) tabs_3_active_pane_srt_t1_ParamLimits
+0xac85,	// (0x0000ac85) tabs_3_active_pane_srt_t1_ParamLimits
 
-0xac46,	// (0x0000ac46) tabs_3_active_pane_srt_t1
+0xac85,	// (0x0000ac85) tabs_3_active_pane_srt_t1
 
 0x257e,	// (0x0000257e) bg_active_tab_pane_g1_cp2_srt
 
@@ -4376,13 +4376,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x2818,	// (0x00002818) aid_size_cell_toolbar
 
-0xb9b4,	// (0x0000b9b4) main_idle_act_pane_ParamLimits
+0xb9f3,	// (0x0000b9f3) main_idle_act_pane_ParamLimits
 
 0x2a06,	// (0x00002a06) popup_large_graphic_colour_window_ParamLimits
 
-0xbf12,	// (0x0000bf12) popup_toolbar_window_ParamLimits
+0xbf51,	// (0x0000bf51) popup_toolbar_window_ParamLimits
 
-0xbf12,	// (0x0000bf12) popup_toolbar_window
+0xbf51,	// (0x0000bf51) popup_toolbar_window
 
 0x4af3,	// (0x00004af3) list_single_graphic_2heading_pane_ParamLimits
 
@@ -4428,9 +4428,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa260,	// (0x0000a260) list_single_graphic_2heading_pane_g_ParamLimits
+0xa29f,	// (0x0000a29f) list_single_graphic_2heading_pane_g_ParamLimits
 
-0xa260,	// (0x0000a260) list_single_graphic_2heading_pane_g
+0xa29f,	// (0x0000a29f) list_single_graphic_2heading_pane_g
 
 0x3146,	// (0x00003146) list_single_graphic_2heading_pane_t1_ParamLimits
 
@@ -4446,9 +4446,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa267,	// (0x0000a267) list_single_graphic_2heading_pane_t_ParamLimits
+0xa2a6,	// (0x0000a2a6) list_single_graphic_2heading_pane_t_ParamLimits
 
-0xa267,	// (0x0000a267) list_single_graphic_2heading_pane_t
+0xa2a6,	// (0x0000a2a6) list_single_graphic_2heading_pane_t
 
 0x318c,	// (0x0000318c) bg_popup_sub_pane_cp2
 
@@ -4468,9 +4468,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa26e,	// (0x0000a26e) cell_toolbar_pane_g_ParamLimits
+0xa2ad,	// (0x0000a2ad) cell_toolbar_pane_g_ParamLimits
 
-0xa26e,	// (0x0000a26e) cell_toolbar_pane_g
+0xa2ad,	// (0x0000a2ad) cell_toolbar_pane_g
 
 0x3243,	// (0x00003243) grid_highlight_pane_cp2_ParamLimits
 
@@ -4498,15 +4498,15 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0009,
 
-0xa273,	// (0x0000a273) toolbar_button_pane_g
+0xa2b2,	// (0x0000a2b2) toolbar_button_pane_g
 
 0x32b9,	// (0x000032b9) list_single_2graphic_pane_g1_cp3_ParamLimits
 
 0x32b9,	// (0x000032b9) list_single_2graphic_pane_g1_cp3
 
-0xc304,	// (0x0000c304) list_single_2graphic_pane_g2_cp3_ParamLimits
+0xc343,	// (0x0000c343) list_single_2graphic_pane_g2_cp3_ParamLimits
 
-0xc304,	// (0x0000c304) list_single_2graphic_pane_g2_cp3
+0xc343,	// (0x0000c343) list_single_2graphic_pane_g2_cp3
 
 0x21b0,	// (0x000021b0) list_single_2graphic_pane_g3_cp3
 
@@ -4526,33 +4526,33 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x2828,	// (0x00002828) aid_zoom_text_secondary
 
-0xb7e0,	// (0x0000b7e0) status_small_pane_g7_ParamLimits
+0xb81f,	// (0x0000b81f) status_small_pane_g7_ParamLimits
 
-0xb7e0,	// (0x0000b7e0) status_small_pane_g7
+0xb81f,	// (0x0000b81f) status_small_pane_g7
 
-0xb803,	// (0x0000b803) status_small_pane_t1_ParamLimits
+0xb842,	// (0x0000b842) status_small_pane_t1_ParamLimits
 
-0xab8e,	// (0x0000ab8e) title_pane_g2
+0xabcd,	// (0x0000abcd) title_pane_g2
 
 0x0003,
 
-0xe71b,	// (0x0000e71b) title_pane_g
+0xe7ab,	// (0x0000e7ab) title_pane_g
 
-0xae70,	// (0x0000ae70) aid_size_cell_colour_1_pane_ParamLimits
+0xaeaf,	// (0x0000aeaf) aid_size_cell_colour_1_pane_ParamLimits
 
-0xae70,	// (0x0000ae70) aid_size_cell_colour_1_pane
+0xaeaf,	// (0x0000aeaf) aid_size_cell_colour_1_pane
 
-0xae84,	// (0x0000ae84) aid_size_cell_colour_2_pane_ParamLimits
+0xaec3,	// (0x0000aec3) aid_size_cell_colour_2_pane_ParamLimits
 
-0xae84,	// (0x0000ae84) aid_size_cell_colour_2_pane
+0xaec3,	// (0x0000aec3) aid_size_cell_colour_2_pane
 
-0xae98,	// (0x0000ae98) aid_size_cell_colour_3_pane_ParamLimits
+0xaed7,	// (0x0000aed7) aid_size_cell_colour_3_pane_ParamLimits
 
-0xae98,	// (0x0000ae98) aid_size_cell_colour_3_pane
+0xaed7,	// (0x0000aed7) aid_size_cell_colour_3_pane
 
-0xaeac,	// (0x0000aeac) aid_size_cell_colour_4_pane_ParamLimits
+0xaeeb,	// (0x0000aeeb) aid_size_cell_colour_4_pane_ParamLimits
 
-0xaeac,	// (0x0000aeac) aid_size_cell_colour_4_pane
+0xaeeb,	// (0x0000aeeb) aid_size_cell_colour_4_pane
 
 0x16f4,	// (0x000016f4) title_pane_stacon_g1_ParamLimits
 
@@ -4568,37 +4568,37 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x024e,	// (0x0000024e) main_feb_china_hwr_fs_writing_pane
 
-0xba15,	// (0x0000ba15) popup_feb_china_hwr_fs_window_ParamLimits
+0xba54,	// (0x0000ba54) popup_feb_china_hwr_fs_window_ParamLimits
 
-0xba15,	// (0x0000ba15) popup_feb_china_hwr_fs_window
+0xba54,	// (0x0000ba54) popup_feb_china_hwr_fs_window
 
-0xc315,	// (0x0000c315) aid_size_cell_hwr_fs_ParamLimits
+0xc354,	// (0x0000c354) aid_size_cell_hwr_fs_ParamLimits
 
-0xc315,	// (0x0000c315) aid_size_cell_hwr_fs
+0xc354,	// (0x0000c354) aid_size_cell_hwr_fs
 
 0x33f3,	// (0x000033f3) bg_popup_sub_pane_cp3_ParamLimits
 
 0x33f3,	// (0x000033f3) bg_popup_sub_pane_cp3
 
-0xc32a,	// (0x0000c32a) grid_hwr_fs_pane_ParamLimits
+0xc369,	// (0x0000c369) grid_hwr_fs_pane_ParamLimits
 
-0xc32a,	// (0x0000c32a) grid_hwr_fs_pane
+0xc369,	// (0x0000c369) grid_hwr_fs_pane
 
 0x3413,	// (0x00003413) linegrid_hwr_fs_pane_ParamLimits
 
 0x3413,	// (0x00003413) linegrid_hwr_fs_pane
 
-0xc342,	// (0x0000c342) cell_hwr_fs_pane_ParamLimits
+0xc381,	// (0x0000c381) cell_hwr_fs_pane_ParamLimits
 
-0xc342,	// (0x0000c342) cell_hwr_fs_pane
+0xc381,	// (0x0000c381) cell_hwr_fs_pane
 
 0x3441,	// (0x00003441) linegrid_hwr_fs_pane_g1_ParamLimits
 
 0x3441,	// (0x00003441) linegrid_hwr_fs_pane_g1
 
-0xc362,	// (0x0000c362) linegrid_hwr_fs_pane_g2_ParamLimits
+0xc3a1,	// (0x0000c3a1) linegrid_hwr_fs_pane_g2_ParamLimits
 
-0xc362,	// (0x0000c362) linegrid_hwr_fs_pane_g2
+0xc3a1,	// (0x0000c3a1) linegrid_hwr_fs_pane_g2
 
 0x345f,	// (0x0000345f) linegrid_hwr_fs_pane_g3_ParamLimits
 
@@ -4614,9 +4614,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xe84b,	// (0x0000e84b) linegrid_hwr_fs_pane_g_ParamLimits
+0xe8db,	// (0x0000e8db) linegrid_hwr_fs_pane_g_ParamLimits
 
-0xe84b,	// (0x0000e84b) linegrid_hwr_fs_pane_g
+0xe8db,	// (0x0000e8db) linegrid_hwr_fs_pane_g
 
 0x349b,	// (0x0000349b) cell_hwr_fs_pane_g1_ParamLimits
 
@@ -4626,21 +4626,21 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x3078,	// (0x00003078) cell_hwr_fs_pane_g2
 
-0xc374,	// (0x0000c374) cell_hwr_fs_pane_g3_ParamLimits
+0xc3b3,	// (0x0000c3b3) cell_hwr_fs_pane_g3_ParamLimits
 
-0xc374,	// (0x0000c374) cell_hwr_fs_pane_g3
+0xc3b3,	// (0x0000c3b3) cell_hwr_fs_pane_g3
 
-0xc381,	// (0x0000c381) cell_hwr_fs_pane_g4_ParamLimits
+0xc3c0,	// (0x0000c3c0) cell_hwr_fs_pane_g4_ParamLimits
 
-0xc381,	// (0x0000c381) cell_hwr_fs_pane_g4
+0xc3c0,	// (0x0000c3c0) cell_hwr_fs_pane_g4
 
 0x0003,
 
-0xe856,	// (0x0000e856) cell_hwr_fs_pane_g_ParamLimits
+0xe8e6,	// (0x0000e8e6) cell_hwr_fs_pane_g_ParamLimits
 
-0xe856,	// (0x0000e856) cell_hwr_fs_pane_g
+0xe8e6,	// (0x0000e8e6) cell_hwr_fs_pane_g
 
-0xc38e,	// (0x0000c38e) cell_hwr_fs_pane_t1
+0xc3cd,	// (0x0000c3cd) cell_hwr_fs_pane_t1
 
 0x024e,	// (0x0000024e) grid_highlight_pane_cp6
 
@@ -4648,9 +4648,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x14b9,	// (0x000014b9) aid_inside_area_popup_secondary
 
-0xc517,	// (0x0000c517) aid_inside_area_window_primary_ParamLimits
+0xc556,	// (0x0000c556) aid_inside_area_window_primary_ParamLimits
 
-0xc517,	// (0x0000c517) aid_inside_area_window_primary
+0xc556,	// (0x0000c556) aid_inside_area_window_primary
 
 0x4ecb,	// (0x00004ecb) ai2_news_ticker_pane
 
@@ -4658,9 +4658,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4ed3,	// (0x00004ed3) aid_size_cell_ai1_link
 
-0xc962,	// (0x0000c962) popup_ai2_data_window_ParamLimits
+0xc9a1,	// (0x0000c9a1) popup_ai2_data_window_ParamLimits
 
-0xc962,	// (0x0000c962) popup_ai2_data_window
+0xc9a1,	// (0x0000c9a1) popup_ai2_data_window
 
 0x4f01,	// (0x00004f01) popup_ai2_link_window_ParamLimits
 
@@ -4684,9 +4684,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa472,	// (0x0000a472) popup_ai2_link_window_g_ParamLimits
+0xa4b1,	// (0x0000a4b1) popup_ai2_link_window_g_ParamLimits
 
-0xa472,	// (0x0000a472) popup_ai2_link_window_g
+0xa4b1,	// (0x0000a4b1) popup_ai2_link_window_g
 
 0x4f47,	// (0x00004f47) ai2_mp_button_pane
 
@@ -4716,13 +4716,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x5091,	// (0x00005091) ai2_mp_volume_pane_g2
 
-0xc98c,	// (0x0000c98c) list_ai2_gene_pane_t1
+0xc9cb,	// (0x0000c9cb) list_ai2_gene_pane_t1
 
 0x5099,	// (0x00005099) ai2_mp_volume_pane_g3
 
 0x0002,
 
-0xa48b,	// (0x0000a48b) ai2_mp_volume_pane_g
+0xa4ca,	// (0x0000a4ca) ai2_mp_volume_pane_g
 
 0x50a1,	// (0x000050a1) volume_small_pane_cp3
 
@@ -4742,9 +4742,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x5049,	// (0x00005049) ai2_gene_pane_t1
 
-0xb97f,	// (0x0000b97f) aid_height_parent_landscape
+0xb9be,	// (0x0000b9be) aid_height_parent_landscape
 
-0xc6e1,	// (0x0000c6e1) aid_height_set_list
+0xc720,	// (0x0000c720) aid_height_set_list
 
 0x4929,	// (0x00004929) aid_size_parent
 
@@ -4760,7 +4760,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa477,	// (0x0000a477) ai2_news_ticker_pane_g
+0xa4b6,	// (0x0000a4b6) ai2_news_ticker_pane_g
 
 0x4f8f,	// (0x00004f8f) ai2_news_ticker_pane_t1
 
@@ -4768,7 +4768,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa47c,	// (0x0000a47c) ai2_news_ticker_pane_t
+0xa4bb,	// (0x0000a4bb) ai2_news_ticker_pane_t
 
 0x4c32,	// (0x00004c32) heading_ai2_gene_pane_g1
 
@@ -4778,15 +4778,15 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4fdf,	// (0x00004fdf) list_highlight_pane_cp6
 
-0xc976,	// (0x0000c976) ai2_gene_pane_ParamLimits
+0xc9b5,	// (0x0000c9b5) ai2_gene_pane_ParamLimits
 
-0xc976,	// (0x0000c976) ai2_gene_pane
+0xc9b5,	// (0x0000c9b5) ai2_gene_pane
 
-0xc99a,	// (0x0000c99a) list_ai2_gene_pane_t2
+0xc9d9,	// (0x0000c9d9) list_ai2_gene_pane_t2
 
 0x0001,
 
-0xe8f3,	// (0x0000e8f3) list_ai2_gene_pane_t
+0xe983,	// (0x0000e983) list_ai2_gene_pane_t
 
 0x501a,	// (0x0000501a) list_highlight_pane_cp8_ParamLimits
 
@@ -4802,23 +4802,23 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa486,	// (0x0000a486) ai2_gene_pane_g_ParamLimits
+0xa4c5,	// (0x0000a4c5) ai2_gene_pane_g_ParamLimits
 
-0xa486,	// (0x0000a486) ai2_gene_pane_g
+0xa4c5,	// (0x0000a4c5) ai2_gene_pane_g
 
 0x0c88,	// (0x00000c88) scroll_pane_cp12
 
-0xb93e,	// (0x0000b93e) control_pane_t3_ParamLimits
+0xb97d,	// (0x0000b97d) control_pane_t3_ParamLimits
 
-0xb93e,	// (0x0000b93e) control_pane_t3
+0xb97d,	// (0x0000b97d) control_pane_t3
 
-0xb7f4,	// (0x0000b7f4) status_small_pane_g8_ParamLimits
+0xb833,	// (0x0000b833) status_small_pane_g8_ParamLimits
 
-0xb7f4,	// (0x0000b7f4) status_small_pane_g8
+0xb833,	// (0x0000b833) status_small_pane_g8
 
-0xba89,	// (0x0000ba89) popup_find_window_ParamLimits
+0xbac8,	// (0x0000bac8) popup_find_window_ParamLimits
 
-0xbc7c,	// (0x0000bc7c) popup_note_image_window_ParamLimits
+0xbcbb,	// (0x0000bcbb) popup_note_image_window_ParamLimits
 
 0x0e9a,	// (0x00000e9a) list_double2_graphic_pane_vc_g1_ParamLimits
 
@@ -4834,9 +4834,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa0ca,	// (0x0000a0ca) list_double2_graphic_pane_vc_g_ParamLimits
+0xa109,	// (0x0000a109) list_double2_graphic_pane_vc_g_ParamLimits
 
-0xa0ca,	// (0x0000a0ca) list_double2_graphic_pane_vc_g
+0xa109,	// (0x0000a109) list_double2_graphic_pane_vc_g
 
 0x0eb2,	// (0x00000eb2) list_double2_graphic_pane_vc_t1_ParamLimits
 
@@ -4852,9 +4852,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa116,	// (0x0000a116) list_single_heading_pane_vc_g_ParamLimits
+0xa155,	// (0x0000a155) list_single_heading_pane_vc_g_ParamLimits
 
-0xa116,	// (0x0000a116) list_single_heading_pane_vc_g
+0xa155,	// (0x0000a155) list_single_heading_pane_vc_g
 
 0x32fa,	// (0x000032fa) list_single_heading_pane_vc_t1_ParamLimits
 
@@ -4866,9 +4866,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa288,	// (0x0000a288) list_single_heading_pane_vc_t_ParamLimits
+0xa2c7,	// (0x0000a2c7) list_single_heading_pane_vc_t_ParamLimits
 
-0xa288,	// (0x0000a288) list_single_heading_pane_vc_t
+0xa2c7,	// (0x0000a2c7) list_single_heading_pane_vc_t
 
 0x3338,	// (0x00003338) list_setting_number_pane_vc_g1_ParamLimits
 
@@ -4880,9 +4880,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa28d,	// (0x0000a28d) list_setting_number_pane_vc_g_ParamLimits
+0xa2cc,	// (0x0000a2cc) list_setting_number_pane_vc_g_ParamLimits
 
-0xa28d,	// (0x0000a28d) list_setting_number_pane_vc_g
+0xa2cc,	// (0x0000a2cc) list_setting_number_pane_vc_g
 
 0x3350,	// (0x00003350) list_setting_number_pane_vc_t1_ParamLimits
 
@@ -4898,9 +4898,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa292,	// (0x0000a292) list_setting_number_pane_vc_t_ParamLimits
+0xa2d1,	// (0x0000a2d1) list_setting_number_pane_vc_t_ParamLimits
 
-0xa292,	// (0x0000a292) list_setting_number_pane_vc_t
+0xa2d1,	// (0x0000a2d1) list_setting_number_pane_vc_t
 
 0x33a6,	// (0x000033a6) set_value_pane_vc_ParamLimits
 
@@ -4980,9 +4980,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa0ca,	// (0x0000a0ca) list_double_graphic_heading_pane_vc_g_ParamLimits
+0xa109,	// (0x0000a109) list_double_graphic_heading_pane_vc_g_ParamLimits
 
-0xa0ca,	// (0x0000a0ca) list_double_graphic_heading_pane_vc_g
+0xa109,	// (0x0000a109) list_double_graphic_heading_pane_vc_g
 
 0x50ef,	// (0x000050ef) list_double_graphic_heading_pane_vc_t1_ParamLimits
 
@@ -4994,9 +4994,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa492,	// (0x0000a492) list_double_graphic_heading_pane_vc_t_ParamLimits
+0xa4d1,	// (0x0000a4d1) list_double_graphic_heading_pane_vc_t_ParamLimits
 
-0xa492,	// (0x0000a492) list_double_graphic_heading_pane_vc_t
+0xa4d1,	// (0x0000a4d1) list_double_graphic_heading_pane_vc_t
 
 0x3338,	// (0x00003338) list_setting_pane_vc_g1_ParamLimits
 
@@ -5008,9 +5008,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa28d,	// (0x0000a28d) list_setting_pane_vc_g_ParamLimits
+0xa2cc,	// (0x0000a2cc) list_setting_pane_vc_g_ParamLimits
 
-0xa28d,	// (0x0000a28d) list_setting_pane_vc_g
+0xa2cc,	// (0x0000a2cc) list_setting_pane_vc_g
 
 0x534b,	// (0x0000534b) list_setting_pane_vc_t1_ParamLimits
 
@@ -5022,9 +5022,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa4d5,	// (0x0000a4d5) list_setting_pane_vc_t_ParamLimits
+0xa514,	// (0x0000a514) list_setting_pane_vc_t_ParamLimits
 
-0xa4d5,	// (0x0000a4d5) list_setting_pane_vc_t
+0xa514,	// (0x0000a514) list_setting_pane_vc_t
 
 0x33a6,	// (0x000033a6) set_value_pane_cp_vc_ParamLimits
 
@@ -5040,9 +5040,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa116,	// (0x0000a116) list_single_number_heading_pane_vc_g_ParamLimits
+0xa155,	// (0x0000a155) list_single_number_heading_pane_vc_g_ParamLimits
 
-0xa116,	// (0x0000a116) list_single_number_heading_pane_vc_g
+0xa155,	// (0x0000a155) list_single_number_heading_pane_vc_g
 
 0x32fa,	// (0x000032fa) list_single_number_heading_pane_vc_t1_ParamLimits
 
@@ -5058,9 +5058,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa4da,	// (0x0000a4da) list_single_number_heading_pane_vc_t_ParamLimits
+0xa519,	// (0x0000a519) list_single_number_heading_pane_vc_t_ParamLimits
 
-0xa4da,	// (0x0000a4da) list_single_number_heading_pane_vc_t
+0xa519,	// (0x0000a519) list_single_number_heading_pane_vc_t
 
 0x0e9a,	// (0x00000e9a) list_single_graphic_heading_pane_vc_g1_ParamLimits
 
@@ -5076,9 +5076,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa0ca,	// (0x0000a0ca) list_single_graphic_heading_pane_vc_g_ParamLimits
+0xa109,	// (0x0000a109) list_single_graphic_heading_pane_vc_g_ParamLimits
 
-0xa0ca,	// (0x0000a0ca) list_single_graphic_heading_pane_vc_g
+0xa109,	// (0x0000a109) list_single_graphic_heading_pane_vc_g
 
 0x32fa,	// (0x000032fa) list_single_graphic_heading_pane_vc_t1_ParamLimits
 
@@ -5090,9 +5090,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa4e1,	// (0x0000a4e1) list_single_graphic_heading_pane_vc_t_ParamLimits
+0xa520,	// (0x0000a520) list_single_graphic_heading_pane_vc_t_ParamLimits
 
-0xa4e1,	// (0x0000a4e1) list_single_graphic_heading_pane_vc_t
+0xa520,	// (0x0000a520) list_single_graphic_heading_pane_vc_t
 
 0x0ea6,	// (0x00000ea6) list_double2_pane_vc_g1_ParamLimits
 
@@ -5104,9 +5104,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa116,	// (0x0000a116) list_double2_pane_vc_g_ParamLimits
+0xa155,	// (0x0000a155) list_double2_pane_vc_g_ParamLimits
 
-0xa116,	// (0x0000a116) list_double2_pane_vc_g
+0xa155,	// (0x0000a155) list_double2_pane_vc_g
 
 0x0ddd,	// (0x00000ddd) list_double2_pane_vc_t1_ParamLimits
 
@@ -5126,9 +5126,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa09a,	// (0x0000a09a) list_double2_large_graphic_pane_vc_g_ParamLimits
+0xa0d9,	// (0x0000a0d9) list_double2_large_graphic_pane_vc_g_ParamLimits
 
-0xa09a,	// (0x0000a09a) list_double2_large_graphic_pane_vc_g
+0xa0d9,	// (0x0000a0d9) list_double2_large_graphic_pane_vc_g
 
 0x0d6c,	// (0x00000d6c) list_double2_large_graphic_pane_vc_t1_ParamLimits
 
@@ -5144,9 +5144,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa4e6,	// (0x0000a4e6) list_double_time_pane_vc_g_ParamLimits
+0xa525,	// (0x0000a525) list_double_time_pane_vc_g_ParamLimits
 
-0xa4e6,	// (0x0000a4e6) list_double_time_pane_vc_g
+0xa525,	// (0x0000a525) list_double_time_pane_vc_g
 
 0x53cf,	// (0x000053cf) list_double_time_pane_vc_t1_ParamLimits
 
@@ -5166,9 +5166,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa4eb,	// (0x0000a4eb) list_double_time_pane_vc_t_ParamLimits
+0xa52a,	// (0x0000a52a) list_double_time_pane_vc_t_ParamLimits
 
-0xa4eb,	// (0x0000a4eb) list_double_time_pane_vc_t
+0xa52a,	// (0x0000a52a) list_double_time_pane_vc_t
 
 0x0ea6,	// (0x00000ea6) list_double_pane_vc_g1_ParamLimits
 
@@ -5180,9 +5180,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa116,	// (0x0000a116) list_double_pane_vc_g_ParamLimits
+0xa155,	// (0x0000a155) list_double_pane_vc_g_ParamLimits
 
-0xa116,	// (0x0000a116) list_double_pane_vc_g
+0xa155,	// (0x0000a155) list_double_pane_vc_g
 
 0x5435,	// (0x00005435) list_double_pane_vc_t1_ParamLimits
 
@@ -5194,9 +5194,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa4f4,	// (0x0000a4f4) list_double_pane_vc_t_ParamLimits
+0xa533,	// (0x0000a533) list_double_pane_vc_t_ParamLimits
 
-0xa4f4,	// (0x0000a4f4) list_double_pane_vc_t
+0xa533,	// (0x0000a533) list_double_pane_vc_t
 
 0x0ea6,	// (0x00000ea6) list_double_number_pane_vc_g1_ParamLimits
 
@@ -5208,9 +5208,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa116,	// (0x0000a116) list_double_number_pane_vc_g_ParamLimits
+0xa155,	// (0x0000a155) list_double_number_pane_vc_g_ParamLimits
 
-0xa116,	// (0x0000a116) list_double_number_pane_vc_g
+0xa155,	// (0x0000a155) list_double_number_pane_vc_g
 
 0x545d,	// (0x0000545d) list_double_number_pane_vc_t1_ParamLimits
 
@@ -5226,9 +5226,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa4f9,	// (0x0000a4f9) list_double_number_pane_vc_t_ParamLimits
+0xa538,	// (0x0000a538) list_double_number_pane_vc_t_ParamLimits
 
-0xa4f9,	// (0x0000a4f9) list_double_number_pane_vc_t
+0xa538,	// (0x0000a538) list_double_number_pane_vc_t
 
 0x5499,	// (0x00005499) list_double_large_graphic_pane_vc_g1_ParamLimits
 
@@ -5248,9 +5248,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa500,	// (0x0000a500) list_double_large_graphic_pane_vc_g_ParamLimits
+0xa53f,	// (0x0000a53f) list_double_large_graphic_pane_vc_g_ParamLimits
 
-0xa500,	// (0x0000a500) list_double_large_graphic_pane_vc_g
+0xa53f,	// (0x0000a53f) list_double_large_graphic_pane_vc_g
 
 0x54f4,	// (0x000054f4) list_double_large_graphic_pane_vc_t1_ParamLimits
 
@@ -5262,9 +5262,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa509,	// (0x0000a509) list_double_large_graphic_pane_vc_t_ParamLimits
+0xa548,	// (0x0000a548) list_double_large_graphic_pane_vc_t_ParamLimits
 
-0xa509,	// (0x0000a509) list_double_large_graphic_pane_vc_t
+0xa548,	// (0x0000a548) list_double_large_graphic_pane_vc_t
 
 0x0ea6,	// (0x00000ea6) list_double_heading_pane_vc_g1_ParamLimits
 
@@ -5276,9 +5276,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa116,	// (0x0000a116) list_double_heading_pane_vc_g_ParamLimits
+0xa155,	// (0x0000a155) list_double_heading_pane_vc_g_ParamLimits
 
-0xa116,	// (0x0000a116) list_double_heading_pane_vc_g
+0xa155,	// (0x0000a155) list_double_heading_pane_vc_g
 
 0x552e,	// (0x0000552e) list_double_heading_pane_vc_t1_ParamLimits
 
@@ -5290,9 +5290,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa50e,	// (0x0000a50e) list_double_heading_pane_vc_t_ParamLimits
+0xa54d,	// (0x0000a54d) list_double_heading_pane_vc_t_ParamLimits
 
-0xa50e,	// (0x0000a50e) list_double_heading_pane_vc_t
+0xa54d,	// (0x0000a54d) list_double_heading_pane_vc_t
 
 0x5540,	// (0x00005540) list_double_graphic_pane_vc_g1_ParamLimits
 
@@ -5308,9 +5308,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa513,	// (0x0000a513) list_double_graphic_pane_vc_g_ParamLimits
+0xa552,	// (0x0000a552) list_double_graphic_pane_vc_g_ParamLimits
 
-0xa513,	// (0x0000a513) list_double_graphic_pane_vc_g
+0xa552,	// (0x0000a552) list_double_graphic_pane_vc_g
 
 0x5569,	// (0x00005569) list_double_graphic_pane_vc_t1_ParamLimits
 
@@ -5322,23 +5322,23 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa51c,	// (0x0000a51c) list_double_graphic_pane_vc_t_ParamLimits
+0xa55b,	// (0x0000a55b) list_double_graphic_pane_vc_t_ParamLimits
 
-0xa51c,	// (0x0000a51c) list_double_graphic_pane_vc_t
+0xa55b,	// (0x0000a55b) list_double_graphic_pane_vc_t
 
 0x0044,	// (0x00000044) aid_size_cell_fastswap
 
-0xa9c0,	// (0x0000a9c0) aid_size_cell_touch_ParamLimits
+0xa9ff,	// (0x0000a9ff) aid_size_cell_touch_ParamLimits
 
-0xa9c0,	// (0x0000a9c0) aid_size_cell_touch
+0xa9ff,	// (0x0000a9ff) aid_size_cell_touch
 
 0x0278,	// (0x00000278) popup_fast_swap_wide_window_ParamLimits
 
 0x0278,	// (0x00000278) popup_fast_swap_wide_window
 
-0xab21,	// (0x0000ab21) touch_pane_ParamLimits
+0xab60,	// (0x0000ab60) touch_pane_ParamLimits
 
-0xab21,	// (0x0000ab21) touch_pane
+0xab60,	// (0x0000ab60) touch_pane
 
 0x113e,	// (0x0000113e) button_value_adjust_pane_cp2
 
@@ -5346,7 +5346,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x1166,	// (0x00001166) form_field_data_pane_cp2
 
-0xb2b5,	// (0x0000b2b5) form_field_data_wide_pane_cp2
+0xb2f4,	// (0x0000b2f4) form_field_data_wide_pane_cp2
 
 0x191b,	// (0x0000191b) bg_scroll_pane_ParamLimits
 
@@ -5360,17 +5360,17 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x1975,	// (0x00001975) scroll_sc2_up_pane
 
-0xcab0,	// (0x0000cab0) grid_wheel_folder_pane_g1_ParamLimits
+0xcaef,	// (0x0000caef) grid_wheel_folder_pane_g1_ParamLimits
 
-0xcab0,	// (0x0000cab0) grid_wheel_folder_pane_g1
+0xcaef,	// (0x0000caef) grid_wheel_folder_pane_g1
 
 0x1fff,	// (0x00001fff) clock_nsta_pane_cp2_ParamLimits
 
 0x1fff,	// (0x00001fff) clock_nsta_pane_cp2
 
-0xb70a,	// (0x0000b70a) listscroll_midp_pane_ParamLimits
+0xb749,	// (0x0000b749) listscroll_midp_pane_ParamLimits
 
-0xb719,	// (0x0000b719) midp_canvas_pane
+0xb758,	// (0x0000b758) midp_canvas_pane
 
 0x2806,	// (0x00002806) nsta_clock_indic_pane
 
@@ -5380,9 +5380,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x2889,	// (0x00002889) listscroll_set_pane_vc
 
-0xc048,	// (0x0000c048) clock_nsta_pane
+0xc087,	// (0x0000c087) clock_nsta_pane
 
-0xc06b,	// (0x0000c06b) indicator_nsta_pane
+0xc0aa,	// (0x0000c0aa) indicator_nsta_pane
 
 0x318c,	// (0x0000318c) bg_popup_sub_pane_cp2_ParamLimits
 
@@ -5414,7 +5414,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x120e,	// (0x0000120e) input_focus_pane_cp6_vc
 
-0xc3ce,	// (0x0000c3ce) list_midp_pane_ParamLimits
+0xc40d,	// (0x0000c40d) list_midp_pane_ParamLimits
 
 0x4cf9,	// (0x00004cf9) scroll_pane_cp16_ParamLimits
 
@@ -5424,13 +5424,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x3843,	// (0x00003843) button_value_adjust_pane
 
-0xc6ed,	// (0x0000c6ed) button_value_adjust_pane_cp6_ParamLimits
+0xc72c,	// (0x0000c72c) button_value_adjust_pane_cp6_ParamLimits
 
-0xc6ed,	// (0x0000c6ed) button_value_adjust_pane_cp6
+0xc72c,	// (0x0000c72c) button_value_adjust_pane_cp6
 
-0xc7f7,	// (0x0000c7f7) settings_code_pane_cp_ParamLimits
+0xc836,	// (0x0000c836) settings_code_pane_cp_ParamLimits
 
-0xc7f7,	// (0x0000c7f7) settings_code_pane_cp
+0xc836,	// (0x0000c836) settings_code_pane_cp
 
 0x002a,	// (0x0000002a) cell_touch_pane_g1
 
@@ -5438,15 +5438,15 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa1b3,	// (0x0000a1b3) cell_touch_pane_g
+0xa1f2,	// (0x0000a1f2) cell_touch_pane_g
 
-0xc9a8,	// (0x0000c9a8) cell_touch_pane_cp_ParamLimits
+0xc9e7,	// (0x0000c9e7) cell_touch_pane_cp_ParamLimits
 
-0xc9a8,	// (0x0000c9a8) cell_touch_pane_cp
+0xc9e7,	// (0x0000c9e7) cell_touch_pane_cp
 
-0xc9c4,	// (0x0000c9c4) cell_touch_pane_ParamLimits
+0xca03,	// (0x0000ca03) cell_touch_pane_ParamLimits
 
-0xc9c4,	// (0x0000c9c4) cell_touch_pane
+0xca03,	// (0x0000ca03) cell_touch_pane
 
 0x002a,	// (0x0000002a) scroll_sc2_down_pane_g1
 
@@ -5464,9 +5464,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa497,	// (0x0000a497) list_set_graphic_pane_vc_g_ParamLimits
+0xa4d6,	// (0x0000a4d6) list_set_graphic_pane_vc_g_ParamLimits
 
-0xa497,	// (0x0000a497) list_set_graphic_pane_vc_g
+0xa4d6,	// (0x0000a4d6) list_set_graphic_pane_vc_g
 
 0x5135,	// (0x00005135) text_primary_small_cp13_vc_ParamLimits
 
@@ -5502,7 +5502,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa49c,	// (0x0000a49c) setting_slider_graphic_pane_vc_t
+0xa4db,	// (0x0000a4db) setting_slider_graphic_pane_vc_t
 
 0x51b7,	// (0x000051b7) slider_set_pane_cp_vc
 
@@ -5512,7 +5512,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0006,
 
-0xa4a1,	// (0x0000a4a1) slider_set_pane_vc_g
+0xa4e0,	// (0x0000a4e0) slider_set_pane_vc_g
 
 0x1331,	// (0x00001331) set_opt_bg_pane_g1_copy1
 
@@ -5542,7 +5542,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa4b0,	// (0x0000a4b0) setting_slider_pane_vc_t
+0xa4ef,	// (0x0000a4ef) setting_slider_pane_vc_t
 
 0x51b7,	// (0x000051b7) slider_set_pane_vc
 
@@ -5568,7 +5568,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0009,
 
-0xa4b7,	// (0x0000a4b7) volume_set_pane_vc_g
+0xa4f6,	// (0x0000a4f6) volume_set_pane_vc_g
 
 0x5274,	// (0x00005274) volume_set_pane_vc
 
@@ -5598,9 +5598,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa4cc,	// (0x0000a4cc) main_pane_set_vc_t_ParamLimits
+0xa50b,	// (0x0000a50b) main_pane_set_vc_t_ParamLimits
 
-0xa4cc,	// (0x0000a4cc) main_pane_set_vc_t
+0xa50b,	// (0x0000a50b) main_pane_set_vc_t
 
 0x532c,	// (0x0000532c) setting_code_pane_vc_ParamLimits
 
@@ -5624,7 +5624,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa521,	// (0x0000a521) button_value_adjust_pane_g
+0xa560,	// (0x0000a560) button_value_adjust_pane_g
 
 0x55b7,	// (0x000055b7) form_field_slider_wide_pane_vc_t1_ParamLimits
 
@@ -5636,9 +5636,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa526,	// (0x0000a526) form_field_slider_wide_pane_vc_t_ParamLimits
+0xa565,	// (0x0000a565) form_field_slider_wide_pane_vc_t_ParamLimits
 
-0xa526,	// (0x0000a526) form_field_slider_wide_pane_vc_t
+0xa565,	// (0x0000a565) form_field_slider_wide_pane_vc_t
 
 0x0797,	// (0x00000797) input_focus_pane_cp10_vc_ParamLimits
 
@@ -5670,9 +5670,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa538,	// (0x0000a538) form_field_slider_pane_vc_t_ParamLimits
+0xa577,	// (0x0000a577) form_field_slider_pane_vc_t_ParamLimits
 
-0xa538,	// (0x0000a538) form_field_slider_pane_vc_t
+0xa577,	// (0x0000a577) form_field_slider_pane_vc_t
 
 0x0797,	// (0x00000797) input_focus_pane_cp9_vc_ParamLimits
 
@@ -5754,7 +5754,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0009,
 
-0xa13c,	// (0x0000a13c) input_focus_pane_vc_g
+0xa17b,	// (0x0000a17b) input_focus_pane_vc_g
 
 0x34d9,	// (0x000034d9) data_form_pane_vc_ParamLimits
 
@@ -5802,13 +5802,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x57df,	// (0x000057df) form_field_slider_wide_pane_vc
 
-0xc9e2,	// (0x0000c9e2) grid_touch_1_pane_ParamLimits
+0xca21,	// (0x0000ca21) grid_touch_1_pane_ParamLimits
 
-0xc9e2,	// (0x0000c9e2) grid_touch_1_pane
+0xca21,	// (0x0000ca21) grid_touch_1_pane
 
-0xc9f6,	// (0x0000c9f6) grid_touch_2_pane_ParamLimits
+0xca35,	// (0x0000ca35) grid_touch_2_pane_ParamLimits
 
-0xc9f6,	// (0x0000c9f6) grid_touch_2_pane
+0xca35,	// (0x0000ca35) grid_touch_2_pane
 
 0x58ac,	// (0x000058ac) touch_pane_g1_ParamLimits
 
@@ -5836,17 +5836,17 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x585f,	// (0x0000585f) clock_nsta_pane_t1
 
-0xca20,	// (0x0000ca20) cell_indicator_nsta_pane_ParamLimits
+0xca5f,	// (0x0000ca5f) cell_indicator_nsta_pane_ParamLimits
 
-0xca20,	// (0x0000ca20) cell_indicator_nsta_pane
+0xca5f,	// (0x0000ca5f) cell_indicator_nsta_pane
 
 0x58ac,	// (0x000058ac) cell_indicator_nsta_pane_g1
 
-0xca37,	// (0x0000ca37) cell_indicator_nsta_pane_g2
+0xca76,	// (0x0000ca76) cell_indicator_nsta_pane_g2
 
 0x0001,
 
-0xe8f8,	// (0x0000e8f8) cell_indicator_nsta_pane_g
+0xe988,	// (0x0000e988) cell_indicator_nsta_pane_g
 
 0x58c7,	// (0x000058c7) clock_nsta_pane_cp
 
@@ -5874,49 +5874,49 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x5957,	// (0x00005957) cell_indicator_pane_g1
 
-0xca44,	// (0x0000ca44) grid_wheel_folder_pane_ParamLimits
+0xca83,	// (0x0000ca83) grid_wheel_folder_pane_ParamLimits
 
-0xca44,	// (0x0000ca44) grid_wheel_folder_pane
+0xca83,	// (0x0000ca83) grid_wheel_folder_pane
 
-0xca52,	// (0x0000ca52) list_wheel_apps_pane_ParamLimits
+0xca91,	// (0x0000ca91) list_wheel_apps_pane_ParamLimits
 
-0xca52,	// (0x0000ca52) list_wheel_apps_pane
+0xca91,	// (0x0000ca91) list_wheel_apps_pane
 
-0xca5e,	// (0x0000ca5e) main_apps_wheel_pane_g1_ParamLimits
+0xca9d,	// (0x0000ca9d) main_apps_wheel_pane_g1_ParamLimits
 
-0xca5e,	// (0x0000ca5e) main_apps_wheel_pane_g1
+0xca9d,	// (0x0000ca9d) main_apps_wheel_pane_g1
 
-0xca6a,	// (0x0000ca6a) main_apps_wheel_pane_g2_ParamLimits
+0xcaa9,	// (0x0000caa9) main_apps_wheel_pane_g2_ParamLimits
 
-0xca6a,	// (0x0000ca6a) main_apps_wheel_pane_g2
+0xcaa9,	// (0x0000caa9) main_apps_wheel_pane_g2
 
 0x0001,
 
-0xe8fd,	// (0x0000e8fd) main_apps_wheel_pane_g_ParamLimits
+0xe98d,	// (0x0000e98d) main_apps_wheel_pane_g_ParamLimits
 
-0xe8fd,	// (0x0000e8fd) main_apps_wheel_pane_g
+0xe98d,	// (0x0000e98d) main_apps_wheel_pane_g
 
-0xca76,	// (0x0000ca76) main_apps_wheel_pane_t1_ParamLimits
+0xcab5,	// (0x0000cab5) main_apps_wheel_pane_t1_ParamLimits
 
-0xca76,	// (0x0000ca76) main_apps_wheel_pane_t1
+0xcab5,	// (0x0000cab5) main_apps_wheel_pane_t1
 
-0xca88,	// (0x0000ca88) list_wheel_apps_pane_g1
+0xcac7,	// (0x0000cac7) list_wheel_apps_pane_g1
 
-0xca90,	// (0x0000ca90) list_wheel_apps_pane_g2
+0xcacf,	// (0x0000cacf) list_wheel_apps_pane_g2
 
-0xca98,	// (0x0000ca98) list_wheel_apps_pane_g3
+0xcad7,	// (0x0000cad7) list_wheel_apps_pane_g3
 
-0xcaa0,	// (0x0000caa0) list_wheel_apps_pane_g4
+0xcadf,	// (0x0000cadf) list_wheel_apps_pane_g4
 
-0xcaa8,	// (0x0000caa8) list_wheel_apps_pane_g5
+0xcae7,	// (0x0000cae7) list_wheel_apps_pane_g5
 
 0x0004,
 
-0xe902,	// (0x0000e902) list_wheel_apps_pane_g
+0xe992,	// (0x0000e992) list_wheel_apps_pane_g
 
 0x0474,	// (0x00000474) navi_icon_text_pane
 
-0xbf54,	// (0x0000bf54) aid_fill_nsta
+0xbf93,	// (0x0000bf93) aid_fill_nsta
 
 0x5a08,	// (0x00005a08) navi_icon_text_pane_g1
 
@@ -5978,11 +5978,11 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x240c,	// (0x0000240c) midp_ticker_pane_g2_ParamLimits
 
-0xa208,	// (0x0000a208) midp_ticker_pane_g_ParamLimits
+0xa247,	// (0x0000a247) midp_ticker_pane_g_ParamLimits
 
 0x2418,	// (0x00002418) midp_ticker_pane_t1_ParamLimits
 
-0xbf6a,	// (0x0000bf6a) aid_fill_nsta_2
+0xbfa9,	// (0x0000bfa9) aid_fill_nsta_2
 
 0x37f5,	// (0x000037f5) list_form2_midp_pane
 
@@ -6014,7 +6014,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa58f,	// (0x0000a58f) form2_midp_field_pane_g
+0xa5ce,	// (0x0000a5ce) form2_midp_field_pane_g
 
 0x5b06,	// (0x00005b06) form2_midp_gauge_slider_pane
 
@@ -6028,9 +6028,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x5b31,	// (0x00005b31) form2_midp_label_pane
 
-0xcadd,	// (0x0000cadd) form2_midp_label_pane_cp_ParamLimits
+0xcb1c,	// (0x0000cb1c) form2_midp_label_pane_cp_ParamLimits
 
-0xcadd,	// (0x0000cadd) form2_midp_label_pane_cp
+0xcb1c,	// (0x0000cb1c) form2_midp_label_pane_cp
 
 0x5b69,	// (0x00005b69) form2_midp_string_pane_ParamLimits
 
@@ -6058,13 +6058,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x5c17,	// (0x00005c17) form2_midp_gauge_slider_pane_t1
 
-0xcafc,	// (0x0000cafc) form2_midp_gauge_slider_pane_t2
+0xcb3b,	// (0x0000cb3b) form2_midp_gauge_slider_pane_t2
 
-0xcb0e,	// (0x0000cb0e) form2_midp_gauge_slider_pane_t3
+0xcb4d,	// (0x0000cb4d) form2_midp_gauge_slider_pane_t3
 
 0x0002,
 
-0xe912,	// (0x0000e912) form2_midp_gauge_slider_pane_t
+0xe9a2,	// (0x0000e9a2) form2_midp_gauge_slider_pane_t
 
 0x5c4d,	// (0x00005c4d) form2_midp_slider_pane
 
@@ -6108,13 +6108,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0f23,	// (0x00000f23) list_double_large_graphic_pane_g5
 
-0xb70a,	// (0x0000b70a) midp_form_pane_ParamLimits
+0xb749,	// (0x0000b749) midp_form_pane_ParamLimits
 
 0x0474,	// (0x00000474) main_apps_wheel_pane_ParamLimits
 
-0xbcf6,	// (0x0000bcf6) popup_preview_window_ParamLimits
+0xbd35,	// (0x0000bd35) popup_preview_window_ParamLimits
 
-0xbcf6,	// (0x0000bcf6) popup_preview_window
+0xbd35,	// (0x0000bd35) popup_preview_window
 
 0x2cfc,	// (0x00002cfc) popup_touch_info_window_ParamLimits
 
@@ -6154,7 +6154,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa5a6,	// (0x0000a5a6) list_single_touch_info_pane_t
+0xa5e5,	// (0x0000a5e5) list_single_touch_info_pane_t
 
 0x232f,	// (0x0000232f) bg_popup_heading_pane_cp
 
@@ -6184,7 +6184,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa5ab,	// (0x0000a5ab) list_single_preview_pane_t
+0xa5ea,	// (0x0000a5ea) list_single_preview_pane_t
 
 0x5df2,	// (0x00005df2) bg_popup_heading_pane_cp2_ParamLimits
 
@@ -6210,7 +6210,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x19b8,	// (0x000019b8) scroll_bg_pane_g3_ParamLimits
 
-0xa193,	// (0x0000a193) scroll_bg_pane_g_ParamLimits
+0xa1d2,	// (0x0000a1d2) scroll_bg_pane_g_ParamLimits
 
 0x198b,	// (0x0000198b) scroll_handle_pane_g1_ParamLimits
 
@@ -6218,7 +6218,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x19b8,	// (0x000019b8) scroll_handle_pane_g3_ParamLimits
 
-0xa19a,	// (0x0000a19a) scroll_handle_pane_g_ParamLimits
+0xa1d9,	// (0x0000a1d9) scroll_handle_pane_g_ParamLimits
 
 0x28c9,	// (0x000028c9) popup_choice_list_window_ParamLimits
 
@@ -6236,9 +6236,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa3b6,	// (0x0000a3b6) ai_gene_pane_1_t_ParamLimits
+0xa3f5,	// (0x0000a3f5) ai_gene_pane_1_t_ParamLimits
 
-0xa3b6,	// (0x0000a3b6) ai_gene_pane_1_t
+0xa3f5,	// (0x0000a3f5) ai_gene_pane_1_t
 
 0x5e2d,	// (0x00005e2d) scroll_sc2_left_pane_g1
 
@@ -6270,15 +6270,15 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa179,	// (0x0000a179) title_pane_stacon_g_ParamLimits
+0xa1b8,	// (0x0000a1b8) title_pane_stacon_g_ParamLimits
 
-0xa179,	// (0x0000a179) title_pane_stacon_g
+0xa1b8,	// (0x0000a1b8) title_pane_stacon_g
 
 0x232f,	// (0x0000232f) cursor_press_pane
 
-0xba5d,	// (0x0000ba5d) popup_fep_hwr_window_ParamLimits
+0xba9c,	// (0x0000ba9c) popup_fep_hwr_window_ParamLimits
 
-0xba5d,	// (0x0000ba5d) popup_fep_hwr_window
+0xba9c,	// (0x0000ba9c) popup_fep_hwr_window
 
 0x29c1,	// (0x000029c1) popup_fep_vkb_window_ParamLimits
 
@@ -6288,7 +6288,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xe926,	// (0x0000e926) fep_vkb_side_pane_g_ParamLimits
+0xe9b6,	// (0x0000e9b6) fep_vkb_side_pane_g_ParamLimits
 
 0x5ebb,	// (0x00005ebb) fep_hwr_candidate_pane_ParamLimits
 
@@ -6306,7 +6306,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x5f1b,	// (0x00005f1b) fep_hwr_write_pane
 
-0xe926,	// (0x0000e926) fep_vkb_side_pane_g
+0xe9b6,	// (0x0000e9b6) fep_vkb_side_pane_g
 
 0x5f55,	// (0x00005f55) fep_hwr_top_pane_g1
 
@@ -6316,7 +6316,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa5b0,	// (0x0000a5b0) fep_hwr_top_pane_g
+0xa5ef,	// (0x0000a5ef) fep_hwr_top_pane_g
 
 0x5f8e,	// (0x00005f8e) fep_hwr_top_text_pane
 
@@ -6340,15 +6340,15 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa5db,	// (0x0000a5db) fep_vkb_bottom_pane_g_ParamLimits
+0xa61a,	// (0x0000a61a) fep_vkb_bottom_pane_g_ParamLimits
 
-0xa5db,	// (0x0000a5db) fep_vkb_bottom_pane_g
+0xa61a,	// (0x0000a61a) fep_vkb_bottom_pane_g
 
 0x5e2d,	// (0x00005e2d) cell_vkb_side_pane_g2
 
 0x0001,
 
-0xa5e5,	// (0x0000a5e5) cell_vkb_side_pane_g
+0xa624,	// (0x0000a624) cell_vkb_side_pane_g
 
 0x6400,	// (0x00006400) cell_vkb_side_pane_t1
 
@@ -6400,17 +6400,17 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa5cb,	// (0x0000a5cb) fep_vkb_top_pane_g_ParamLimits
+0xa60a,	// (0x0000a60a) fep_vkb_top_pane_g_ParamLimits
 
-0xa5cb,	// (0x0000a5cb) fep_vkb_top_pane_g
+0xa60a,	// (0x0000a60a) fep_vkb_top_pane_g
 
 0x6279,	// (0x00006279) fep_vkb_top_text_pane_ParamLimits
 
 0x6279,	// (0x00006279) fep_vkb_top_text_pane
 
-0xcb7d,	// (0x0000cb7d) fep_vkb_side_pane_g1_ParamLimits
+0xcbbc,	// (0x0000cbbc) fep_vkb_side_pane_g1_ParamLimits
 
-0xcb7d,	// (0x0000cb7d) fep_vkb_side_pane_g1
+0xcbbc,	// (0x0000cbbc) fep_vkb_side_pane_g1
 
 0x62d3,	// (0x000062d3) grid_vkb_side_pane_ParamLimits
 
@@ -6452,11 +6452,11 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x63ad,	// (0x000063ad) fep_vkb_top_text_pane_g1
 
-0xcbc4,	// (0x0000cbc4) fep_vkb_top_text_pane_t1
+0xcc03,	// (0x0000cc03) fep_vkb_top_text_pane_t1
 
-0xcbd6,	// (0x0000cbd6) cell_vkb_side_pane_ParamLimits
+0xcc15,	// (0x0000cc15) cell_vkb_side_pane_ParamLimits
 
-0xcbd6,	// (0x0000cbd6) cell_vkb_side_pane
+0xcc15,	// (0x0000cc15) cell_vkb_side_pane
 
 0x5e2d,	// (0x00005e2d) cell_vkb_side_pane_g1
 
@@ -6468,7 +6468,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0008,
 
-0xa5f8,	// (0x0000a5f8) bg_popup_fep_shadow_pane_g
+0xa637,	// (0x0000a637) bg_popup_fep_shadow_pane_g
 
 0x5e2d,	// (0x00005e2d) cell_hwr_side_pane_g1
 
@@ -6476,13 +6476,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x6493,	// (0x00006493) cell_vkb_keypad_pane_t1
 
-0xcbec,	// (0x0000cbec) cell_vkb_keypad_bottom_left_pane_ParamLimits
+0xcc2b,	// (0x0000cc2b) cell_vkb_keypad_bottom_left_pane_ParamLimits
 
-0xcbec,	// (0x0000cbec) cell_vkb_keypad_bottom_left_pane
+0xcc2b,	// (0x0000cc2b) cell_vkb_keypad_bottom_left_pane
 
-0xcc01,	// (0x0000cc01) cell_vkb_keypad_bottom_right_pane_ParamLimits
+0xcc40,	// (0x0000cc40) cell_vkb_keypad_bottom_right_pane_ParamLimits
 
-0xcc01,	// (0x0000cc01) cell_vkb_keypad_bottom_right_pane
+0xcc40,	// (0x0000cc40) cell_vkb_keypad_bottom_right_pane
 
 0x5e2d,	// (0x00005e2d) cell_vkb_keypad_bottom_left_pane_g1
 
@@ -6500,7 +6500,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa5ea,	// (0x0000a5ea) cell_vkb_keypad_number_pane_g
+0xa629,	// (0x0000a629) cell_vkb_keypad_number_pane_g
 
 0x6493,	// (0x00006493) cell_vkb_keypad_number_pane_t1
 
@@ -6508,7 +6508,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa5e5,	// (0x0000a5e5) cell_hwr_side_pane_g
+0xa624,	// (0x0000a624) cell_hwr_side_pane_g
 
 0x65a6,	// (0x000065a6) cell_hwr_side_pane_t1
 
@@ -6532,9 +6532,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x5fa3,	// (0x00005fa3) bg_hwr_side_pane_g1
 
-0xcb38,	// (0x0000cb38) cell_hwr_side_pane_ParamLimits
+0xcb77,	// (0x0000cb77) cell_hwr_side_pane_ParamLimits
 
-0xcb38,	// (0x0000cb38) cell_hwr_side_pane
+0xcb77,	// (0x0000cb77) cell_hwr_side_pane
 
 0x6011,	// (0x00006011) fep_hwr_write_pane_g1_ParamLimits
 
@@ -6548,15 +6548,15 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x602b,	// (0x0000602b) fep_hwr_write_pane_g3
 
-0xcb58,	// (0x0000cb58) fep_hwr_write_pane_g4_ParamLimits
+0xcb97,	// (0x0000cb97) fep_hwr_write_pane_g4_ParamLimits
 
-0xcb58,	// (0x0000cb58) fep_hwr_write_pane_g4
+0xcb97,	// (0x0000cb97) fep_hwr_write_pane_g4
 
 0x0005,
 
-0xe919,	// (0x0000e919) fep_hwr_write_pane_g_ParamLimits
+0xe9a9,	// (0x0000e9a9) fep_hwr_write_pane_g_ParamLimits
 
-0xe919,	// (0x0000e919) fep_hwr_write_pane_g
+0xe9a9,	// (0x0000e9a9) fep_hwr_write_pane_g
 
 0x5f35,	// (0x00005f35) bg_fep_hwr_candidate_pane_g2_ParamLimits
 
@@ -6580,17 +6580,17 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x62b1,	// (0x000062b1) fep_vkb_side_pane_g2
 
-0xb1f2,	// (0x0000b1f2) list_setting_pane_t4_ParamLimits
+0xb231,	// (0x0000b231) list_setting_pane_t4_ParamLimits
 
-0xb1f2,	// (0x0000b1f2) list_setting_pane_t4
+0xb231,	// (0x0000b231) list_setting_pane_t4
 
-0xb274,	// (0x0000b274) list_setting_number_pane_t5_ParamLimits
+0xb2b3,	// (0x0000b2b3) list_setting_number_pane_t5_ParamLimits
 
-0xb274,	// (0x0000b274) list_setting_number_pane_t5
+0xb2b3,	// (0x0000b2b3) list_setting_number_pane_t5
 
-0xb58b,	// (0x0000b58b) list_double_heading_pane_cp2_ParamLimits
+0xb5ca,	// (0x0000b5ca) list_double_heading_pane_cp2_ParamLimits
 
-0xb58b,	// (0x0000b58b) list_double_heading_pane_cp2
+0xb5ca,	// (0x0000b5ca) list_double_heading_pane_cp2
 
 0x21a4,	// (0x000021a4) list_double_heading_pane_g1_cp2_ParamLimits
 
@@ -6658,9 +6658,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa619,	// (0x0000a619) list_single_pane_fp_g_ParamLimits
+0xa658,	// (0x0000a658) list_single_pane_fp_g_ParamLimits
 
-0xa619,	// (0x0000a619) list_single_pane_fp_g
+0xa658,	// (0x0000a658) list_single_pane_fp_g
 
 0x6727,	// (0x00006727) list_single_pane_fp_t1_ParamLimits
 
@@ -6688,9 +6688,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xa622,	// (0x0000a622) list_single_graphic_pane_fp_g_ParamLimits
+0xa661,	// (0x0000a661) list_single_graphic_pane_fp_g_ParamLimits
 
-0xa622,	// (0x0000a622) list_single_graphic_pane_fp_g
+0xa661,	// (0x0000a661) list_single_graphic_pane_fp_g
 
 0x674a,	// (0x0000674a) list_single_graphic_pane_fp_t1_ParamLimits
 
@@ -6718,9 +6718,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xa622,	// (0x0000a622) list_single_graphic_heading_pane_fp_g_ParamLimits
+0xa661,	// (0x0000a661) list_single_graphic_heading_pane_fp_g_ParamLimits
 
-0xa622,	// (0x0000a622) list_single_graphic_heading_pane_fp_g
+0xa661,	// (0x0000a661) list_single_graphic_heading_pane_fp_g
 
 0x6760,	// (0x00006760) list_single_graphic_heading_pane_fp_t1_ParamLimits
 
@@ -6732,9 +6732,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa62d,	// (0x0000a62d) list_single_graphic_heading_pane_fp_t_ParamLimits
+0xa66c,	// (0x0000a66c) list_single_graphic_heading_pane_fp_t_ParamLimits
 
-0xa62d,	// (0x0000a62d) list_single_graphic_heading_pane_fp_t
+0xa66c,	// (0x0000a66c) list_single_graphic_heading_pane_fp_t
 
 0x6788,	// (0x00006788) list_single_cale_day_pane_fp_g1_ParamLimits
 
@@ -6758,9 +6758,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xa632,	// (0x0000a632) list_single_cale_day_pane_fp_g_ParamLimits
+0xa671,	// (0x0000a671) list_single_cale_day_pane_fp_g_ParamLimits
 
-0xa632,	// (0x0000a632) list_single_cale_day_pane_fp_g
+0xa671,	// (0x0000a671) list_single_cale_day_pane_fp_g
 
 0x683c,	// (0x0000683c) list_single_cale_day_pane_fp_t1_ParamLimits
 
@@ -6776,9 +6776,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa63d,	// (0x0000a63d) list_single_cale_day_pane_fp_t_ParamLimits
+0xa67c,	// (0x0000a67c) list_single_cale_day_pane_fp_t_ParamLimits
 
-0xa63d,	// (0x0000a63d) list_single_cale_day_pane_fp_t
+0xa67c,	// (0x0000a67c) list_single_cale_day_pane_fp_t
 
 0x66fb,	// (0x000066fb) list_empty_pane_fp_g1_ParamLimits
 
@@ -6790,7 +6790,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa644,	// (0x0000a644) list_empty_pane_fp_t
+0xa683,	// (0x0000a683) list_empty_pane_fp_t
 
 0x66fb,	// (0x000066fb) list_single_heading_pane_fp_g1_ParamLimits
 
@@ -6806,9 +6806,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa649,	// (0x0000a649) list_single_heading_pane_fp_g_ParamLimits
+0xa688,	// (0x0000a688) list_single_heading_pane_fp_g_ParamLimits
 
-0xa649,	// (0x0000a649) list_single_heading_pane_fp_g
+0xa688,	// (0x0000a688) list_single_heading_pane_fp_g
 
 0x68b0,	// (0x000068b0) list_single_heading_pane_fp_t1_ParamLimits
 
@@ -6820,9 +6820,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa650,	// (0x0000a650) list_single_heading_pane_fp_t_ParamLimits
+0xa68f,	// (0x0000a68f) list_single_heading_pane_fp_t_ParamLimits
 
-0xa650,	// (0x0000a650) list_single_heading_pane_fp_t
+0xa68f,	// (0x0000a68f) list_single_heading_pane_fp_t
 
 0x1562,	// (0x00001562) aid_size_cell_fast
 
@@ -6844,9 +6844,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa5c4,	// (0x0000a5c4) fep_hwr_candidate_pane_g_ParamLimits
+0xa603,	// (0x0000a603) fep_hwr_candidate_pane_g_ParamLimits
 
-0xa5c4,	// (0x0000a5c4) fep_hwr_candidate_pane_g
+0xa603,	// (0x0000a603) fep_hwr_candidate_pane_g
 
 0x6184,	// (0x00006184) fep_vkb_candidate_drop_down_list_pane_ParamLimits
 
@@ -6858,7 +6858,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa5f1,	// (0x0000a5f1) fep_vkb_candidate_pane_g
+0xa630,	// (0x0000a630) fep_vkb_candidate_pane_g
 
 0x626b,	// (0x0000626b) cell_hwr_candidate_pane_g1_ParamLimits
 
@@ -6872,9 +6872,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa60b,	// (0x0000a60b) cell_hwr_candidate_pane_g_ParamLimits
+0xa64a,	// (0x0000a64a) cell_hwr_candidate_pane_g_ParamLimits
 
-0xa60b,	// (0x0000a60b) cell_hwr_candidate_pane_g
+0xa64a,	// (0x0000a64a) cell_hwr_candidate_pane_g
 
 0x6621,	// (0x00006621) cell_vkb_candidate_pane_g3_ParamLimits
 
@@ -6894,9 +6894,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa655,	// (0x0000a655) cell_app_pane_cp2_g_ParamLimits
+0xa694,	// (0x0000a694) cell_app_pane_cp2_g_ParamLimits
 
-0xa655,	// (0x0000a655) cell_app_pane_cp2_g
+0xa694,	// (0x0000a694) cell_app_pane_cp2_g
 
 0x6902,	// (0x00006902) cell_app_pane_cp2_t1_ParamLimits
 
@@ -6918,7 +6918,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa65a,	// (0x0000a65a) fep_hwr_candidate_drop_down_list_pane_g
+0xa699,	// (0x0000a699) fep_hwr_candidate_drop_down_list_pane_g
 
 0x694c,	// (0x0000694c) fep_hwr_candidate_drop_down_list_scroll_pane
 
@@ -6956,13 +6956,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0007,
 
-0xa661,	// (0x0000a661) fep_hwr_candidate_drop_down_list_scroll_pane_g_ParamLimits
+0xa6a0,	// (0x0000a6a0) fep_hwr_candidate_drop_down_list_scroll_pane_g_ParamLimits
 
-0xa661,	// (0x0000a661) fep_hwr_candidate_drop_down_list_scroll_pane_g
+0xa6a0,	// (0x0000a6a0) fep_hwr_candidate_drop_down_list_scroll_pane_g
 
-0xcc1c,	// (0x0000cc1c) cell_vkb_candidate_pane_cp1_ParamLimits
+0xcc5b,	// (0x0000cc5b) cell_vkb_candidate_pane_cp1_ParamLimits
 
-0xcc1c,	// (0x0000cc1c) cell_vkb_candidate_pane_cp1
+0xcc5b,	// (0x0000cc5b) cell_vkb_candidate_pane_cp1
 
 0x626b,	// (0x0000626b) fep_vkb_candidate_drop_down_list_pane_g1_ParamLimits
 
@@ -6978,9 +6978,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa65a,	// (0x0000a65a) fep_vkb_candidate_drop_down_list_pane_g_ParamLimits
+0xa699,	// (0x0000a699) fep_vkb_candidate_drop_down_list_pane_g_ParamLimits
 
-0xa65a,	// (0x0000a65a) fep_vkb_candidate_drop_down_list_pane_g
+0xa699,	// (0x0000a699) fep_vkb_candidate_drop_down_list_pane_g
 
 0x69f0,	// (0x000069f0) fep_vkb_candidate_drop_down_list_scroll_pane_ParamLimits
 
@@ -7020,15 +7020,15 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0007,
 
-0xa672,	// (0x0000a672) fep_vkb_candidate_drop_down_list_scroll_pane_g_ParamLimits
+0xa6b1,	// (0x0000a6b1) fep_vkb_candidate_drop_down_list_scroll_pane_g_ParamLimits
 
-0xa672,	// (0x0000a672) fep_vkb_candidate_drop_down_list_scroll_pane_g
+0xa6b1,	// (0x0000a6b1) fep_vkb_candidate_drop_down_list_scroll_pane_g
 
-0xab77,	// (0x0000ab77) title_pane_g1_ParamLimits
+0xabb6,	// (0x0000abb6) title_pane_g1_ParamLimits
 
-0xab8e,	// (0x0000ab8e) title_pane_g2_ParamLimits
+0xabcd,	// (0x0000abcd) title_pane_g2_ParamLimits
 
-0xe71b,	// (0x0000e71b) title_pane_g_ParamLimits
+0xe7ab,	// (0x0000e7ab) title_pane_g_ParamLimits
 
 0x1b1f,	// (0x00001b1f) aid_call2_pane
 
@@ -7046,7 +7046,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xa1a8,	// (0x0000a1a8) popup_clock_analogue_window_g
+0xa1e7,	// (0x0000a1e7) popup_clock_analogue_window_g
 
 0x1b48,	// (0x00001b48) popup_clock_analogue_window_t1
 
@@ -7080,7 +7080,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa1b3,	// (0x0000a1b3) clock_digital_number_pane_g
+0xa1f2,	// (0x0000a1f2) clock_digital_number_pane_g
 
 0x002a,	// (0x0000002a) clock_digital_separator_pane_g1
 
@@ -7088,11 +7088,11 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa1b3,	// (0x0000a1b3) clock_digital_separator_pane_g
+0xa1f2,	// (0x0000a1f2) clock_digital_separator_pane_g
 
-0xbf54,	// (0x0000bf54) aid_fill_nsta_ParamLimits
+0xbf93,	// (0x0000bf93) aid_fill_nsta_ParamLimits
 
-0xc06b,	// (0x0000c06b) indicator_nsta_pane_ParamLimits
+0xc0aa,	// (0x0000c0aa) indicator_nsta_pane_ParamLimits
 
 0x2fe6,	// (0x00002fe6) popup_clock_analogue_window
 
@@ -7104,11 +7104,11 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa544,	// (0x0000a544) clock_nsta_pane_t
+0xa583,	// (0x0000a583) clock_nsta_pane_t
 
 0x1908,	// (0x00001908) aid_size_max_handle
 
-0xb4ef,	// (0x0000b4ef) aid_size_min_handle
+0xb52e,	// (0x0000b52e) aid_size_min_handle
 
 0x232f,	// (0x0000232f) editor_scroll_pane
 
@@ -7120,13 +7120,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x1b7d,	// (0x00001b7d) scroll_pane_cp36
 
-0xb597,	// (0x0000b597) list_single_graphic_hl_pane_cp2_ParamLimits
+0xb5d6,	// (0x0000b5d6) list_single_graphic_hl_pane_cp2_ParamLimits
 
-0xb597,	// (0x0000b597) list_single_graphic_hl_pane_cp2
+0xb5d6,	// (0x0000b5d6) list_single_graphic_hl_pane_cp2
 
-0xc86f,	// (0x0000c86f) list_single_graphic_hl_pane_ParamLimits
+0xc8ae,	// (0x0000c8ae) list_single_graphic_hl_pane_ParamLimits
 
-0xc86f,	// (0x0000c86f) list_single_graphic_hl_pane
+0xc8ae,	// (0x0000c8ae) list_single_graphic_hl_pane
 
 0x6a87,	// (0x00006a87) aid_size_min_hl_cp1
 
@@ -7138,13 +7138,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x6aa1,	// (0x00006aa1) list_single_graphic_hl_pane_g1
 
-0xcc3c,	// (0x0000cc3c) list_single_graphic_hl_pane_g2_ParamLimits
+0xcc7b,	// (0x0000cc7b) list_single_graphic_hl_pane_g2_ParamLimits
 
-0xcc3c,	// (0x0000cc3c) list_single_graphic_hl_pane_g2
+0xcc7b,	// (0x0000cc7b) list_single_graphic_hl_pane_g2
 
-0xcc3c,	// (0x0000cc3c) list_single_graphic_hl_pane_g3_ParamLimits
+0xcc7b,	// (0x0000cc7b) list_single_graphic_hl_pane_g3_ParamLimits
 
-0xcc3c,	// (0x0000cc3c) list_single_graphic_hl_pane_g3
+0xcc7b,	// (0x0000cc7b) list_single_graphic_hl_pane_g3
 
 0x0ca5,	// (0x00000ca5) list_single_graphic_hl_pane_g4_ParamLimits
 
@@ -7156,13 +7156,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xe932,	// (0x0000e932) list_single_graphic_hl_pane_g_ParamLimits
+0xe9c2,	// (0x0000e9c2) list_single_graphic_hl_pane_g_ParamLimits
 
-0xe932,	// (0x0000e932) list_single_graphic_hl_pane_g
+0xe9c2,	// (0x0000e9c2) list_single_graphic_hl_pane_g
 
-0xcc48,	// (0x0000cc48) list_single_graphic_hl_pane_t1_ParamLimits
+0xcc87,	// (0x0000cc87) list_single_graphic_hl_pane_t1_ParamLimits
 
-0xcc48,	// (0x0000cc48) list_single_graphic_hl_pane_t1
+0xcc87,	// (0x0000cc87) list_single_graphic_hl_pane_t1
 
 0x6ad0,	// (0x00006ad0) aid_size_min_hl_cp2
 
@@ -7190,9 +7190,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x6665,	// (0x00006665) list_single_graphic_hl_pane_g5_cp2
 
-0xb852,	// (0x0000b852) control_pane_g4_ParamLimits
+0xb891,	// (0x0000b891) control_pane_g4_ParamLimits
 
-0xb852,	// (0x0000b852) control_pane_g4
+0xb891,	// (0x0000b891) control_pane_g4
 
 0x289b,	// (0x0000289b) bg_popup_sub_pane_cp10_ParamLimits
 
@@ -7218,9 +7218,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa612,	// (0x0000a612) popup_preview_fixed_window_g_ParamLimits
+0xa651,	// (0x0000a651) popup_preview_fixed_window_g_ParamLimits
 
-0xa612,	// (0x0000a612) popup_preview_fixed_window_g
+0xa651,	// (0x0000a651) popup_preview_fixed_window_g
 
 0x17d5,	// (0x000017d5) aid_navi_side_left_pane_ParamLimits
 
@@ -7244,13 +7244,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x6b2b,	// (0x00006b2b) scroll_pane_cp24
 
-0xcc5e,	// (0x0000cc5e) list_text_info_pane_t1_ParamLimits
+0xcc9d,	// (0x0000cc9d) list_text_info_pane_t1_ParamLimits
 
-0xcc5e,	// (0x0000cc5e) list_text_info_pane_t1
+0xcc9d,	// (0x0000cc9d) list_text_info_pane_t1
 
-0xb9dd,	// (0x0000b9dd) popup_fast_swap2_window_ParamLimits
+0xba1c,	// (0x0000ba1c) popup_fast_swap2_window_ParamLimits
 
-0xb9dd,	// (0x0000b9dd) popup_fast_swap2_window
+0xba1c,	// (0x0000ba1c) popup_fast_swap2_window
 
 0x6b66,	// (0x00006b66) aid_size_cell_fast2
 
@@ -7268,7 +7268,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa68e,	// (0x0000a68e) listscroll_fast2_pane_g
+0xa6cd,	// (0x0000a6cd) listscroll_fast2_pane_g
 
 0x14d2,	// (0x000014d2) scroll_pane_cp26
 
@@ -7284,7 +7284,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa693,	// (0x0000a693) cell_fast2_pane_g
+0xa6d2,	// (0x0000a6d2) cell_fast2_pane_g
 
 0x0aea,	// (0x00000aea) grid_highlight_pane_cp9
 
@@ -7334,9 +7334,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa69a,	// (0x0000a69a) eswt_control_pane_g_ParamLimits
+0xa6d9,	// (0x0000a6d9) eswt_control_pane_g_ParamLimits
 
-0xa69a,	// (0x0000a69a) eswt_control_pane_g
+0xa6d9,	// (0x0000a6d9) eswt_control_pane_g
 
 0x120e,	// (0x0000120e) bg_button_pane_ParamLimits
 
@@ -7360,9 +7360,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa6a3,	// (0x0000a6a3) control_button_pane_g_ParamLimits
+0xa6e2,	// (0x0000a6e2) control_button_pane_g_ParamLimits
 
-0xa6a3,	// (0x0000a6a3) control_button_pane_g
+0xa6e2,	// (0x0000a6e2) control_button_pane_g
 
 0x6c5d,	// (0x00006c5d) control_button_pane_t1
 
@@ -7370,7 +7370,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa6aa,	// (0x0000a6aa) control_button_pane_t
+0xa6e9,	// (0x0000a6e9) control_button_pane_t
 
 0x3269,	// (0x00003269) bg_button_pane_g1
 
@@ -7392,7 +7392,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0008,
 
-0xa30a,	// (0x0000a30a) bg_button_pane_g
+0xa349,	// (0x0000a349) bg_button_pane_g
 
 0x5df2,	// (0x00005df2) common_borders_pane_ParamLimits
 
@@ -7454,7 +7454,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa6af,	// (0x0000a6af) separator_horizontal_pane_g
+0xa6ee,	// (0x0000a6ee) separator_horizontal_pane_g
 
 0x6bfd,	// (0x00006bfd) eswt_control_pane_g1_copy3_ParamLimits
 
@@ -7482,7 +7482,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa6b6,	// (0x0000a6b6) separator_vertical_pane_g
+0xa6f5,	// (0x0000a6f5) separator_vertical_pane_g
 
 0x6bfd,	// (0x00006bfd) eswt_control_pane_g1_copy4_ParamLimits
 
@@ -7500,13 +7500,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x6c24,	// (0x00006c24) eswt_control_pane_g4_copy4
 
-0xcc79,	// (0x0000cc79) eswt_ctrl_combo_button_pane
+0xccb8,	// (0x0000ccb8) eswt_ctrl_combo_button_pane
 
-0xcc81,	// (0x0000cc81) eswt_ctrl_input_pane
+0xccc0,	// (0x0000ccc0) eswt_ctrl_input_pane
 
-0xcc89,	// (0x0000cc89) popup_choice_list_window_cp70
+0xccc8,	// (0x0000ccc8) popup_choice_list_window_cp70
 
-0xcc91,	// (0x0000cc91) eswt_ctrl_input_pane_t1
+0xccd0,	// (0x0000ccd0) eswt_ctrl_input_pane_t1
 
 0x0020,	// (0x00000020) input_focus_pane_cp70
 
@@ -7514,7 +7514,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x5df2,	// (0x00005df2) bg_button_pane_cp70
 
-0xcc9f,	// (0x0000cc9f) eswt_ctrl_combo_button_pane_g1
+0xccde,	// (0x0000ccde) eswt_ctrl_combo_button_pane_g1
 
 0x6ce5,	// (0x00006ce5) wait_bar_pane_cp70
 
@@ -7532,27 +7532,27 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x196c,	// (0x0000196c) scroll_pane_cp70
 
-0xcca7,	// (0x0000cca7) cell_eswt_app_pane_ParamLimits
+0xcce6,	// (0x0000cce6) cell_eswt_app_pane_ParamLimits
 
-0xcca7,	// (0x0000cca7) cell_eswt_app_pane
+0xcce6,	// (0x0000cce6) cell_eswt_app_pane
 
-0xcccf,	// (0x0000cccf) cell_eswt_app_pane_g1_ParamLimits
+0xcd0e,	// (0x0000cd0e) cell_eswt_app_pane_g1_ParamLimits
 
-0xcccf,	// (0x0000cccf) cell_eswt_app_pane_g1
+0xcd0e,	// (0x0000cd0e) cell_eswt_app_pane_g1
 
-0xccfe,	// (0x0000ccfe) cell_eswt_app_pane_g2_ParamLimits
+0xcd3d,	// (0x0000cd3d) cell_eswt_app_pane_g2_ParamLimits
 
-0xccfe,	// (0x0000ccfe) cell_eswt_app_pane_g2
+0xcd3d,	// (0x0000cd3d) cell_eswt_app_pane_g2
 
 0x0001,
 
-0xe93d,	// (0x0000e93d) cell_eswt_app_pane_g_ParamLimits
+0xe9cd,	// (0x0000e9cd) cell_eswt_app_pane_g_ParamLimits
 
-0xe93d,	// (0x0000e93d) cell_eswt_app_pane_g
+0xe9cd,	// (0x0000e9cd) cell_eswt_app_pane_g
 
-0xcd27,	// (0x0000cd27) cell_eswt_app_pane_t1_ParamLimits
+0xcd66,	// (0x0000cd66) cell_eswt_app_pane_t1_ParamLimits
 
-0xcd27,	// (0x0000cd27) cell_eswt_app_pane_t1
+0xcd66,	// (0x0000cd66) cell_eswt_app_pane_t1
 
 0x6dca,	// (0x00006dca) grid_highlight_pane_cp70_ParamLimits
 
@@ -7588,19 +7588,19 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0009,
 
-0xa6c2,	// (0x0000a6c2) volume_small2_pane_g
+0xa701,	// (0x0000a701) volume_small2_pane_g
 
 0x63ad,	// (0x000063ad) fep_vkb_top_text_pane_g1_ParamLimits
 
-0xcbc4,	// (0x0000cbc4) fep_vkb_top_text_pane_t1_ParamLimits
+0xcc03,	// (0x0000cc03) fep_vkb_top_text_pane_t1_ParamLimits
 
 0x66db,	// (0x000066db) popup_preview_fixed_window_g3_ParamLimits
 
 0x66db,	// (0x000066db) popup_preview_fixed_window_g3
 
-0xbefd,	// (0x0000befd) popup_toolbar_trans_pane
+0xbf3c,	// (0x0000bf3c) popup_toolbar_trans_pane
 
-0xc6e1,	// (0x0000c6e1) aid_height_set_list_ParamLimits
+0xc720,	// (0x0000c720) aid_height_set_list_ParamLimits
 
 0x4929,	// (0x00004929) aid_size_parent_ParamLimits
 
@@ -7608,17 +7608,17 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0ca5,	// (0x00000ca5) set_content_pane_g1_ParamLimits
 
-0xc882,	// (0x0000c882) list_single_image_pane_ParamLimits
+0xc8c1,	// (0x0000c8c1) list_single_image_pane_ParamLimits
 
-0xc882,	// (0x0000c882) list_single_image_pane
+0xc8c1,	// (0x0000c8c1) list_single_image_pane
 
-0xcd59,	// (0x0000cd59) aid_size_cell_image_ParamLimits
+0xcd98,	// (0x0000cd98) aid_size_cell_image_ParamLimits
 
-0xcd59,	// (0x0000cd59) aid_size_cell_image
+0xcd98,	// (0x0000cd98) aid_size_cell_image
 
-0xcd66,	// (0x0000cd66) grid_single_image_pane_ParamLimits
+0xcda5,	// (0x0000cda5) grid_single_image_pane_ParamLimits
 
-0xcd66,	// (0x0000cd66) grid_single_image_pane
+0xcda5,	// (0x0000cda5) grid_single_image_pane
 
 0x0ca5,	// (0x00000ca5) list_single_image_pane_g1_ParamLimits
 
@@ -7630,25 +7630,25 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa6d7,	// (0x0000a6d7) list_single_image_pane_g_ParamLimits
+0xa716,	// (0x0000a716) list_single_image_pane_g_ParamLimits
 
-0xa6d7,	// (0x0000a6d7) list_single_image_pane_g
+0xa716,	// (0x0000a716) list_single_image_pane_g
 
 0x4aac,	// (0x00004aac) list_single_image_pane_t1_ParamLimits
 
 0x4aac,	// (0x00004aac) list_single_image_pane_t1
 
-0xcd72,	// (0x0000cd72) cell_image_list_pane_ParamLimits
+0xcdb1,	// (0x0000cdb1) cell_image_list_pane_ParamLimits
 
-0xcd72,	// (0x0000cd72) cell_image_list_pane
+0xcdb1,	// (0x0000cdb1) cell_image_list_pane
 
-0xcd86,	// (0x0000cd86) cell_image_list_pane_g1
+0xcdc5,	// (0x0000cdc5) cell_image_list_pane_g1
 
-0xcd8f,	// (0x0000cd8f) cell_image_list_pane_g2
+0xcdce,	// (0x0000cdce) cell_image_list_pane_g2
 
 0x0001,
 
-0xe942,	// (0x0000e942) cell_image_list_pane_g
+0xe9d2,	// (0x0000e9d2) cell_image_list_pane_g
 
 0x6e7f,	// (0x00006e7f) aid_size_cell_tb_trans_pane
 
@@ -7676,7 +7676,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0008,
 
-0xa6e1,	// (0x0000a6e1) bg_tb_trans_pane_g
+0xa720,	// (0x0000a720) bg_tb_trans_pane_g
 
 0x6ea5,	// (0x00006ea5) cell_toolbar_trans_pane_ParamLimits
 
@@ -7684,13 +7684,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x5e2d,	// (0x00005e2d) cell_toolbar_trans_pane_g1
 
-0xcac1,	// (0x0000cac1) list_form2_midp_pane_t1
+0xcb00,	// (0x0000cb00) list_form2_midp_pane_t1
 
-0xcacf,	// (0x0000cacf) list_form2_midp_pane_t2
+0xcb0e,	// (0x0000cb0e) list_form2_midp_pane_t2
 
 0x0001,
 
-0xe90d,	// (0x0000e90d) list_form2_midp_pane_t
+0xe99d,	// (0x0000e99d) list_form2_midp_pane_t
 
 0x5a92,	// (0x00005a92) scroll_pane_cp51_ParamLimits
 
@@ -7702,7 +7702,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa59f,	// (0x0000a59f) form2_midp_wait_pane_g
+0xa5de,	// (0x0000a5de) form2_midp_wait_pane_g
 
 0x0474,	// (0x00000474) list_highlight_pane_cp21_ParamLimits
 
@@ -7714,27 +7714,27 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4af3,	// (0x00004af3) list_single_2graphic_im_pane
 
-0xcd98,	// (0x0000cd98) list_single_2graphic_im_pane_g1_ParamLimits
+0xcdd7,	// (0x0000cdd7) list_single_2graphic_im_pane_g1_ParamLimits
 
-0xcd98,	// (0x0000cd98) list_single_2graphic_im_pane_g1
+0xcdd7,	// (0x0000cdd7) list_single_2graphic_im_pane_g1
 
-0xcda9,	// (0x0000cda9) list_single_2graphic_im_pane_g2_ParamLimits
+0xcde8,	// (0x0000cde8) list_single_2graphic_im_pane_g2_ParamLimits
 
-0xcda9,	// (0x0000cda9) list_single_2graphic_im_pane_g2
+0xcde8,	// (0x0000cde8) list_single_2graphic_im_pane_g2
 
-0xcdb5,	// (0x0000cdb5) list_single_2graphic_im_pane_g3_ParamLimits
+0xcdf4,	// (0x0000cdf4) list_single_2graphic_im_pane_g3_ParamLimits
 
-0xcdb5,	// (0x0000cdb5) list_single_2graphic_im_pane_g3
+0xcdf4,	// (0x0000cdf4) list_single_2graphic_im_pane_g3
 
 0x0003,
 
-0xe947,	// (0x0000e947) list_single_2graphic_im_pane_g_ParamLimits
+0xe9d7,	// (0x0000e9d7) list_single_2graphic_im_pane_g_ParamLimits
 
-0xe947,	// (0x0000e947) list_single_2graphic_im_pane_g
+0xe9d7,	// (0x0000e9d7) list_single_2graphic_im_pane_g
 
-0xcdc9,	// (0x0000cdc9) list_single_2graphic_im_pane_t1_ParamLimits
+0xce08,	// (0x0000ce08) list_single_2graphic_im_pane_t1_ParamLimits
 
-0xcdc9,	// (0x0000cdc9) list_single_2graphic_im_pane_t1
+0xce08,	// (0x0000ce08) list_single_2graphic_im_pane_t1
 
 0x66e7,	// (0x000066e7) list_single_graphic_2heading_pane_fp_ParamLimits
 
@@ -7762,9 +7762,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xa622,	// (0x0000a622) list_single_graphic_2heading_pane_fp_g_ParamLimits
+0xa661,	// (0x0000a661) list_single_graphic_2heading_pane_fp_g_ParamLimits
 
-0xa622,	// (0x0000a622) list_single_graphic_2heading_pane_fp_g
+0xa661,	// (0x0000a661) list_single_graphic_2heading_pane_fp_g
 
 0x6f39,	// (0x00006f39) list_single_graphic_2heading_pane_fp_t1_ParamLimits
 
@@ -7780,9 +7780,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa6fd,	// (0x0000a6fd) list_single_graphic_2heading_pane_fp_t_ParamLimits
+0xa73c,	// (0x0000a73c) list_single_graphic_2heading_pane_fp_t_ParamLimits
 
-0xa6fd,	// (0x0000a6fd) list_single_graphic_2heading_pane_fp_t
+0xa73c,	// (0x0000a73c) list_single_graphic_2heading_pane_fp_t
 
 0x604e,	// (0x0000604e) fep_hwr_write_pane_g5_ParamLimits
 
@@ -7800,17 +7800,17 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x6ced,	// (0x00006ced) popup_eswt_tasktip_window_t1_ParamLimits
 
-0xbf98,	// (0x0000bf98) aid_touch_tab_arrow_left
+0xbfd7,	// (0x0000bfd7) aid_touch_tab_arrow_left
 
-0xbfac,	// (0x0000bfac) aid_touch_tab_arrow_right
+0xbfeb,	// (0x0000bfeb) aid_touch_tab_arrow_right
 
-0xabad,	// (0x0000abad) title_pane_g3_ParamLimits
+0xabec,	// (0x0000abec) title_pane_g3_ParamLimits
 
-0xabad,	// (0x0000abad) title_pane_g3
+0xabec,	// (0x0000abec) title_pane_g3
 
 0x110c,	// (0x0000110c) set_value_pane_g1
 
-0xbefd,	// (0x0000befd) popup_toolbar_trans_pane_ParamLimits
+0xbf3c,	// (0x0000bf3c) popup_toolbar_trans_pane_ParamLimits
 
 0x6e7f,	// (0x00006e7f) aid_size_cell_tb_trans_pane_ParamLimits
 
@@ -7864,9 +7864,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xa709,	// (0x0000a709) popup_note2_window_t_ParamLimits
+0xa748,	// (0x0000a748) popup_note2_window_t_ParamLimits
 
-0xa709,	// (0x0000a709) popup_note2_window_t
+0xa748,	// (0x0000a748) popup_note2_window_t
 
 0x7094,	// (0x00007094) popup_note2_image_window_g1_ParamLimits
 
@@ -7878,9 +7878,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa714,	// (0x0000a714) popup_note2_image_window_g_ParamLimits
+0xa753,	// (0x0000a753) popup_note2_image_window_g_ParamLimits
 
-0xa714,	// (0x0000a714) popup_note2_image_window_g
+0xa753,	// (0x0000a753) popup_note2_image_window_g
 
 0x70b2,	// (0x000070b2) popup_note2_image_window_t1_ParamLimits
 
@@ -7896,9 +7896,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa719,	// (0x0000a719) popup_note2_image_window_t_ParamLimits
+0xa758,	// (0x0000a758) popup_note2_image_window_t_ParamLimits
 
-0xa719,	// (0x0000a719) popup_note2_image_window_t
+0xa758,	// (0x0000a758) popup_note2_image_window_t
 
 0x3a45,	// (0x00003a45) popup_note2_wait_window_g1_ParamLimits
 
@@ -7914,9 +7914,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa2ec,	// (0x0000a2ec) popup_note2_wait_window_g_ParamLimits
+0xa32b,	// (0x0000a32b) popup_note2_wait_window_g_ParamLimits
 
-0xa2ec,	// (0x0000a2ec) popup_note2_wait_window_g
+0xa32b,	// (0x0000a32b) popup_note2_wait_window_g
 
 0x70fe,	// (0x000070fe) popup_note2_wait_window_t1_ParamLimits
 
@@ -7936,9 +7936,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa720,	// (0x0000a720) popup_note2_wait_window_t_ParamLimits
+0xa75f,	// (0x0000a75f) popup_note2_wait_window_t_ParamLimits
 
-0xa720,	// (0x0000a720) popup_note2_wait_window_t
+0xa75f,	// (0x0000a75f) popup_note2_wait_window_t
 
 0x715e,	// (0x0000715e) wait_bar2_pane_ParamLimits
 
@@ -7970,9 +7970,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xa729,	// (0x0000a729) popup_snote2_single_text_window_t_ParamLimits
+0xa768,	// (0x0000a768) popup_snote2_single_text_window_t_ParamLimits
 
-0xa729,	// (0x0000a729) popup_snote2_single_text_window_t
+0xa768,	// (0x0000a768) popup_snote2_single_text_window_t
 
 0x72d8,	// (0x000072d8) popup_snote2_single_graphic_window_g1_ParamLimits
 
@@ -7984,9 +7984,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa734,	// (0x0000a734) popup_snote2_single_graphic_window_g_ParamLimits
+0xa773,	// (0x0000a773) popup_snote2_single_graphic_window_g_ParamLimits
 
-0xa734,	// (0x0000a734) popup_snote2_single_graphic_window_g
+0xa773,	// (0x0000a773) popup_snote2_single_graphic_window_g
 
 0x7328,	// (0x00007328) popup_snote2_single_graphic_window_t1_ParamLimits
 
@@ -8010,9 +8010,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xa739,	// (0x0000a739) popup_snote2_single_graphic_window_t_ParamLimits
+0xa778,	// (0x0000a778) popup_snote2_single_graphic_window_t_ParamLimits
 
-0xa739,	// (0x0000a739) popup_snote2_single_graphic_window_t
+0xa778,	// (0x0000a778) popup_snote2_single_graphic_window_t
 
 0x5920,	// (0x00005920) clock_nsta_pane_cp2_t1
 
@@ -8020,7 +8020,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa560,	// (0x0000a560) clock_nsta_pane_cp2_t
+0xa59f,	// (0x0000a59f) clock_nsta_pane_cp2_t
 
 0x1228,	// (0x00001228) form_field_data_wide_pane_g1_ParamLimits
 
@@ -8034,17 +8034,17 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa12b,	// (0x0000a12b) form_field_data_wide_pane_g_ParamLimits
+0xa16a,	// (0x0000a16a) form_field_data_wide_pane_g_ParamLimits
 
-0xa12b,	// (0x0000a12b) form_field_data_wide_pane_g
+0xa16a,	// (0x0000a16a) form_field_data_wide_pane_g
 
-0xca0a,	// (0x0000ca0a) grid_touch_3_pane_ParamLimits
+0xca49,	// (0x0000ca49) grid_touch_3_pane_ParamLimits
 
-0xca0a,	// (0x0000ca0a) grid_touch_3_pane
+0xca49,	// (0x0000ca49) grid_touch_3_pane
 
-0xcdfa,	// (0x0000cdfa) cell_touch_3_pane_ParamLimits
+0xce39,	// (0x0000ce39) cell_touch_3_pane_ParamLimits
 
-0xcdfa,	// (0x0000cdfa) cell_touch_3_pane
+0xce39,	// (0x0000ce39) cell_touch_3_pane
 
 0x5e2d,	// (0x00005e2d) cell_touch_3_pane_g1
 
@@ -8052,7 +8052,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa5e5,	// (0x0000a5e5) cell_touch_3_pane_g
+0xa624,	// (0x0000a624) cell_touch_3_pane_g
 
 0x0881,	// (0x00000881) cont_query_data_pane
 
@@ -8072,35 +8072,35 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa1c1,	// (0x0000a1c1) popup_side_volume_key_window_g
+0xa200,	// (0x0000a200) popup_side_volume_key_window_g
 
 0x1cd5,	// (0x00001cd5) popup_side_volume_key_window_t2
 
 0x0001,
 
-0xa1c8,	// (0x0000a1c8) popup_side_volume_key_window_t
+0xa207,	// (0x0000a207) popup_side_volume_key_window_t
 
 0x211e,	// (0x0000211e) popup_side_volume_key_window_ParamLimits
 
-0xb050,	// (0x0000b050) list_double_graphic_pane_g4_ParamLimits
+0xb08f,	// (0x0000b08f) list_double_graphic_pane_g4_ParamLimits
 
-0xb050,	// (0x0000b050) list_double_graphic_pane_g4
+0xb08f,	// (0x0000b08f) list_double_graphic_pane_g4
 
-0xc85a,	// (0x0000c85a) list_single_2heading_msg_pane_ParamLimits
+0xc899,	// (0x0000c899) list_single_2heading_msg_pane_ParamLimits
 
-0xc85a,	// (0x0000c85a) list_single_2heading_msg_pane
+0xc899,	// (0x0000c899) list_single_2heading_msg_pane
 
-0xce41,	// (0x0000ce41) list_single_2heading_msg_pane_g1_ParamLimits
+0xce80,	// (0x0000ce80) list_single_2heading_msg_pane_g1_ParamLimits
 
-0xce41,	// (0x0000ce41) list_single_2heading_msg_pane_g1
+0xce80,	// (0x0000ce80) list_single_2heading_msg_pane_g1
 
-0xce4d,	// (0x0000ce4d) list_single_2heading_msg_pane_g2_ParamLimits
+0xce8c,	// (0x0000ce8c) list_single_2heading_msg_pane_g2_ParamLimits
 
-0xce4d,	// (0x0000ce4d) list_single_2heading_msg_pane_g2
+0xce8c,	// (0x0000ce8c) list_single_2heading_msg_pane_g2
 
-0xce60,	// (0x0000ce60) list_single_2heading_msg_pane_g3_ParamLimits
+0xce9f,	// (0x0000ce9f) list_single_2heading_msg_pane_g3_ParamLimits
 
-0xce60,	// (0x0000ce60) list_single_2heading_msg_pane_g3
+0xce9f,	// (0x0000ce9f) list_single_2heading_msg_pane_g3
 
 0x7446,	// (0x00007446) list_single_2heading_msg_pane_g4_ParamLimits
 
@@ -8108,21 +8108,21 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xe950,	// (0x0000e950) list_single_2heading_msg_pane_g_ParamLimits
+0xe9e0,	// (0x0000e9e0) list_single_2heading_msg_pane_g_ParamLimits
 
-0xe950,	// (0x0000e950) list_single_2heading_msg_pane_g
+0xe9e0,	// (0x0000e9e0) list_single_2heading_msg_pane_g
 
-0xce6c,	// (0x0000ce6c) list_single_2heading_msg_pane_t1_ParamLimits
+0xceab,	// (0x0000ceab) list_single_2heading_msg_pane_t1_ParamLimits
 
-0xce6c,	// (0x0000ce6c) list_single_2heading_msg_pane_t1
+0xceab,	// (0x0000ceab) list_single_2heading_msg_pane_t1
 
-0xce94,	// (0x0000ce94) list_single_2heading_msg_pane_t2_ParamLimits
+0xced3,	// (0x0000ced3) list_single_2heading_msg_pane_t2_ParamLimits
 
-0xce94,	// (0x0000ce94) list_single_2heading_msg_pane_t2
+0xced3,	// (0x0000ced3) list_single_2heading_msg_pane_t2
 
-0xceff,	// (0x0000ceff) list_single_2heading_msg_pane_t3_ParamLimits
+0xcf3e,	// (0x0000cf3e) list_single_2heading_msg_pane_t3_ParamLimits
 
-0xceff,	// (0x0000ceff) list_single_2heading_msg_pane_t3
+0xcf3e,	// (0x0000cf3e) list_single_2heading_msg_pane_t3
 
 0x74ee,	// (0x000074ee) list_single_2heading_msg_pane_t4_ParamLimits
 
@@ -8130,9 +8130,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xe959,	// (0x0000e959) list_single_2heading_msg_pane_t_ParamLimits
+0xe9e9,	// (0x0000e9e9) list_single_2heading_msg_pane_t_ParamLimits
 
-0xe959,	// (0x0000e959) list_single_2heading_msg_pane_t
+0xe9e9,	// (0x0000e9e9) list_single_2heading_msg_pane_t
 
 0x03c8,	// (0x000003c8) title_pane_g4_ParamLimits
 
@@ -8152,7 +8152,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x32b1,	// (0x000032b1) toolbar_button_pane_g10
 
-0xaf3d,	// (0x0000af3d) popup_toolbar_window_cp1
+0xaf7c,	// (0x0000af7c) popup_toolbar_window_cp1
 
 0x5911,	// (0x00005911) clock_nsta_pane_cp_t1
 
@@ -8160,7 +8160,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa55b,	// (0x0000a55b) clock_nsta_pane_cp_t
+0xa59a,	// (0x0000a59a) clock_nsta_pane_cp_t
 
 0x1c97,	// (0x00001c97) navi_navi_volume_pane_cp2_ParamLimits
 
@@ -8170,7 +8170,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x1cbb,	// (0x00001cbb) popup_side_volume_key_window_g3_ParamLimits
 
-0xa1c1,	// (0x0000a1c1) popup_side_volume_key_window_g_ParamLimits
+0xa200,	// (0x0000a200) popup_side_volume_key_window_g_ParamLimits
 
 0x5e94,	// (0x00005e94) fep_hwr_aid_pane
 
@@ -8182,7 +8182,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x5f79,	// (0x00005f79) fep_hwr_top_pane_g3_ParamLimits
 
-0xa5b0,	// (0x0000a5b0) fep_hwr_top_pane_g_ParamLimits
+0xa5ef,	// (0x0000a5ef) fep_hwr_top_pane_g_ParamLimits
 
 0x5f8e,	// (0x00005f8e) fep_hwr_top_text_pane_ParamLimits
 
@@ -8196,9 +8196,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x61dd,	// (0x000061dd) fep_vkb_prediction_pane
 
-0xcba4,	// (0x0000cba4) fep_vkb_side_pane_g3_ParamLimits
+0xcbe3,	// (0x0000cbe3) fep_vkb_side_pane_g3_ParamLimits
 
-0xcba4,	// (0x0000cba4) fep_vkb_side_pane_g3
+0xcbe3,	// (0x0000cbe3) fep_vkb_side_pane_g3
 
 0x626b,	// (0x0000626b) fep_hwr_candidate_drop_down_list_pane_g1_ParamLimits
 
@@ -8206,7 +8206,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x693f,	// (0x0000693f) fep_hwr_candidate_drop_down_list_pane_g3_ParamLimits
 
-0xa65a,	// (0x0000a65a) fep_hwr_candidate_drop_down_list_pane_g_ParamLimits
+0xa699,	// (0x0000a699) fep_hwr_candidate_drop_down_list_pane_g_ParamLimits
 
 0x7513,	// (0x00007513) fep_hwr_prediction_pane_g1
 
@@ -8218,7 +8218,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa756,	// (0x0000a756) fep_hwr_prediction_pane_g
+0xa795,	// (0x0000a795) fep_hwr_prediction_pane_g
 
 0x7513,	// (0x00007513) fep_vkb_prediction_pane_g1
 
@@ -8230,7 +8230,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa75f,	// (0x0000a75f) fep_vkb_prediction_pane_g
+0xa79e,	// (0x0000a79e) fep_vkb_prediction_pane_g
 
 0x489d,	// (0x0000489d) slider_set_pane_g3
 
@@ -8240,7 +8240,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x489d,	// (0x0000489d) slider_set_pane_g6
 
-0xc6ab,	// (0x0000c6ab) slider_set_pane_g7
+0xc6ea,	// (0x0000c6ea) slider_set_pane_g7
 
 0x4a70,	// (0x00004a70) slider_form_pane_g3
 
@@ -8250,7 +8250,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4a70,	// (0x00004a70) slider_form_pane_g6
 
-0xc813,	// (0x0000c813) slider_form_pane_g7
+0xc852,	// (0x0000c852) slider_form_pane_g7
 
 0x51d0,	// (0x000051d0) slider_set_pane_vc_g3
 
@@ -8274,21 +8274,21 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0004,
 
-0xa52d,	// (0x0000a52d) slider_form_pane_vc_g
+0xa56c,	// (0x0000a56c) slider_form_pane_vc_g
 
 0x0020,	// (0x00000020) main_idle_act3_pane
 
 0x754d,	// (0x0000754d) ai3_links_pane
 
-0xcf6d,	// (0x0000cf6d) popup_ai3_data_window_ParamLimits
+0xcfac,	// (0x0000cfac) popup_ai3_data_window_ParamLimits
 
-0xcf6d,	// (0x0000cf6d) popup_ai3_data_window
+0xcfac,	// (0x0000cfac) popup_ai3_data_window
 
 0x0020,	// (0x00000020) grid_ai3_links_pane
 
-0xcf85,	// (0x0000cf85) cell_ai3_links_pane_ParamLimits
+0xcfc4,	// (0x0000cfc4) cell_ai3_links_pane_ParamLimits
 
-0xcf85,	// (0x0000cf85) cell_ai3_links_pane
+0xcfc4,	// (0x0000cfc4) cell_ai3_links_pane
 
 0x7582,	// (0x00007582) bg_popup_sub_pane_cp11
 
@@ -8328,7 +8328,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa768,	// (0x0000a768) list_single_ai3_gene_pane_g
+0xa7a7,	// (0x0000a7a7) list_single_ai3_gene_pane_g
 
 0x7628,	// (0x00007628) list_double_ai3_gene_pane_g1_ParamLimits
 
@@ -8348,9 +8348,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa76d,	// (0x0000a76d) list_double_ai3_gene_pane_t_ParamLimits
+0xa7ac,	// (0x0000a7ac) list_double_ai3_gene_pane_t_ParamLimits
 
-0xa76d,	// (0x0000a76d) list_double_ai3_gene_pane_t
+0xa7ac,	// (0x0000a7ac) list_double_ai3_gene_pane_t
 
 0x0000,
 
@@ -8362,19 +8362,19 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x7406,	// (0x00007406) aid_size_min_col_2
 
-0xce2d,	// (0x0000ce2d) aid_size_min_msg_ParamLimits
+0xce6c,	// (0x0000ce6c) aid_size_min_msg_ParamLimits
 
-0xce2d,	// (0x0000ce2d) aid_size_min_msg
+0xce6c,	// (0x0000ce6c) aid_size_min_msg
 
-0xcbb8,	// (0x0000cbb8) fep_vkb_top_text_pane_g2_ParamLimits
+0xcbf7,	// (0x0000cbf7) fep_vkb_top_text_pane_g2_ParamLimits
 
-0xcbb8,	// (0x0000cbb8) fep_vkb_top_text_pane_g2
+0xcbf7,	// (0x0000cbf7) fep_vkb_top_text_pane_g2
 
 0x0001,
 
-0xe92d,	// (0x0000e92d) fep_vkb_top_text_pane_g_ParamLimits
+0xe9bd,	// (0x0000e9bd) fep_vkb_top_text_pane_g_ParamLimits
 
-0xe92d,	// (0x0000e92d) fep_vkb_top_text_pane_g
+0xe9bd,	// (0x0000e9bd) fep_vkb_top_text_pane_g
 
 0x0020,	// (0x00000020) main_hc_apps_shell_pane
 
@@ -8388,13 +8388,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x7699,	// (0x00007699) scroll_pane_cp37
 
-0xcf9b,	// (0x0000cf9b) cell_hc_apps_pane_ParamLimits
+0xcfda,	// (0x0000cfda) cell_hc_apps_pane_ParamLimits
 
-0xcf9b,	// (0x0000cf9b) cell_hc_apps_pane
+0xcfda,	// (0x0000cfda) cell_hc_apps_pane
 
-0xd035,	// (0x0000d035) cell_hc_apps_pane_g1_ParamLimits
+0xd074,	// (0x0000d074) cell_hc_apps_pane_g1_ParamLimits
 
-0xd035,	// (0x0000d035) cell_hc_apps_pane_g1
+0xd074,	// (0x0000d074) cell_hc_apps_pane_g1
 
 0x7760,	// (0x00007760) cell_hc_apps_pane_g2_ParamLimits
 
@@ -8406,43 +8406,43 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xe962,	// (0x0000e962) cell_hc_apps_pane_g_ParamLimits
+0xe9f2,	// (0x0000e9f2) cell_hc_apps_pane_g_ParamLimits
 
-0xe962,	// (0x0000e962) cell_hc_apps_pane_g
+0xe9f2,	// (0x0000e9f2) cell_hc_apps_pane_g
 
-0xd062,	// (0x0000d062) cell_hc_apps_pane_t1_ParamLimits
+0xd0a1,	// (0x0000d0a1) cell_hc_apps_pane_t1_ParamLimits
 
-0xd062,	// (0x0000d062) cell_hc_apps_pane_t1
+0xd0a1,	// (0x0000d0a1) cell_hc_apps_pane_t1
 
 0x07a5,	// (0x000007a5) grid_highlight_pane_cp10_ParamLimits
 
 0x07a5,	// (0x000007a5) grid_highlight_pane_cp10
 
-0xd0a0,	// (0x0000d0a0) list_single_hc_apps_pane_ParamLimits
+0xd0df,	// (0x0000d0df) list_single_hc_apps_pane_ParamLimits
 
-0xd0a0,	// (0x0000d0a0) list_single_hc_apps_pane
+0xd0df,	// (0x0000d0df) list_single_hc_apps_pane
 
-0xd0cc,	// (0x0000d0cc) list_single_hc_apps_pane_g1
+0xd10b,	// (0x0000d10b) list_single_hc_apps_pane_g1
 
-0xd0e5,	// (0x0000d0e5) list_single_hc_apps_pane_g2
+0xd124,	// (0x0000d124) list_single_hc_apps_pane_g2
 
 0x0001,
 
-0xe969,	// (0x0000e969) list_single_hc_apps_pane_g
+0xe9f9,	// (0x0000e9f9) list_single_hc_apps_pane_g
 
-0xd0fe,	// (0x0000d0fe) list_single_hc_apps_pane_g2_copy1
+0xd13d,	// (0x0000d13d) list_single_hc_apps_pane_g2_copy1
 
-0xd11a,	// (0x0000d11a) list_single_hc_apps_pane_t1
+0xd159,	// (0x0000d159) list_single_hc_apps_pane_t1
 
 0x0474,	// (0x00000474) bg_set_opt_pane_cp_ParamLimits
 
 0x04be,	// (0x000004be) setting_slider_pane_t1_ParamLimits
 
-0xac7a,	// (0x0000ac7a) setting_slider_pane_t2_ParamLimits
+0xacb9,	// (0x0000acb9) setting_slider_pane_t2_ParamLimits
 
-0xac93,	// (0x0000ac93) setting_slider_pane_t3_ParamLimits
+0xacd2,	// (0x0000acd2) setting_slider_pane_t3_ParamLimits
 
-0xe72b,	// (0x0000e72b) setting_slider_pane_t_ParamLimits
+0xe7bb,	// (0x0000e7bb) setting_slider_pane_t_ParamLimits
 
 0x0504,	// (0x00000504) slider_set_pane_ParamLimits
 
@@ -8462,19 +8462,19 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x489d,	// (0x0000489d) slider_set_pane_g6_ParamLimits
 
-0xc6ab,	// (0x0000c6ab) slider_set_pane_g7_ParamLimits
+0xc6ea,	// (0x0000c6ea) slider_set_pane_g7_ParamLimits
 
-0xe8a9,	// (0x0000e8a9) slider_set_pane_g_ParamLimits
+0xe939,	// (0x0000e939) slider_set_pane_g_ParamLimits
 
 0x0474,	// (0x00000474) navi_icon_text_pane_ParamLimits
 
-0xbf6a,	// (0x0000bf6a) aid_fill_nsta_2_ParamLimits
+0xbfa9,	// (0x0000bfa9) aid_fill_nsta_2_ParamLimits
 
-0xbf98,	// (0x0000bf98) aid_touch_tab_arrow_left_ParamLimits
+0xbfd7,	// (0x0000bfd7) aid_touch_tab_arrow_left_ParamLimits
 
-0xbfac,	// (0x0000bfac) aid_touch_tab_arrow_right_ParamLimits
+0xbfeb,	// (0x0000bfeb) aid_touch_tab_arrow_right_ParamLimits
 
-0xc048,	// (0x0000c048) clock_nsta_pane_ParamLimits
+0xc087,	// (0x0000c087) clock_nsta_pane_ParamLimits
 
 0x4338,	// (0x00004338) navi_icon_pane_g1_ParamLimits
 
@@ -8484,21 +8484,21 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x5a14,	// (0x00005a14) navi_icon_text_pane_t1_ParamLimits
 
-0xd0cc,	// (0x0000d0cc) list_single_hc_apps_pane_g1_ParamLimits
+0xd10b,	// (0x0000d10b) list_single_hc_apps_pane_g1_ParamLimits
 
-0xd0e5,	// (0x0000d0e5) list_single_hc_apps_pane_g2_ParamLimits
+0xd124,	// (0x0000d124) list_single_hc_apps_pane_g2_ParamLimits
 
-0xe969,	// (0x0000e969) list_single_hc_apps_pane_g_ParamLimits
+0xe9f9,	// (0x0000e9f9) list_single_hc_apps_pane_g_ParamLimits
 
-0xd0fe,	// (0x0000d0fe) list_single_hc_apps_pane_g2_copy1_ParamLimits
+0xd13d,	// (0x0000d13d) list_single_hc_apps_pane_g2_copy1_ParamLimits
 
-0xd11a,	// (0x0000d11a) list_single_hc_apps_pane_t1_ParamLimits
+0xd159,	// (0x0000d159) list_single_hc_apps_pane_t1_ParamLimits
 
-0xaac5,	// (0x0000aac5) popup_toolbar2_fixed_window_ParamLimits
+0xab04,	// (0x0000ab04) popup_toolbar2_fixed_window_ParamLimits
 
-0xaac5,	// (0x0000aac5) popup_toolbar2_fixed_window
+0xab04,	// (0x0000ab04) popup_toolbar2_fixed_window
 
-0xbef5,	// (0x0000bef5) popup_toolbar2_float_window
+0xbf34,	// (0x0000bf34) popup_toolbar2_float_window
 
 0x0020,	// (0x00000020) bg_popup_sub_pane_cp27
 
@@ -8508,11 +8508,11 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x7888,	// (0x00007888) grid_toolbar2_fixed_pane
 
-0xd148,	// (0x0000d148) cell_toolbar2_fixed_pane_ParamLimits
+0xd187,	// (0x0000d187) cell_toolbar2_fixed_pane_ParamLimits
 
-0xd148,	// (0x0000d148) cell_toolbar2_fixed_pane
+0xd187,	// (0x0000d187) cell_toolbar2_fixed_pane
 
-0xd163,	// (0x0000d163) cell_toolbar2_fixed_pane_g1
+0xd1a2,	// (0x0000d1a2) cell_toolbar2_fixed_pane_g1
 
 0x78aa,	// (0x000078aa) toolbar2_fixed_button_pane
 
@@ -8536,7 +8536,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0008,
 
-0xa30a,	// (0x0000a30a) toolbar2_fixed_button_pane_g
+0xa349,	// (0x0000a349) toolbar2_fixed_button_pane_g
 
 0x78b2,	// (0x000078b2) cell_toolbar2_float_pane_ParamLimits
 
@@ -8546,9 +8546,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x78aa,	// (0x000078aa) toolbar2_fixed_button_pane_cp
 
-0xcb6d,	// (0x0000cb6d) fep_vkb_accented_list_pane_ParamLimits
+0xcbac,	// (0x0000cbac) fep_vkb_accented_list_pane_ParamLimits
 
-0xcb6d,	// (0x0000cb6d) fep_vkb_accented_list_pane
+0xcbac,	// (0x0000cbac) fep_vkb_accented_list_pane
 
 0x659e,	// (0x0000659e) bg_popup_fep_shadow_pane_g9
 
@@ -8564,13 +8564,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x78dd,	// (0x000078dd) list_single_accented_list_pane_t1
 
-0xbe37,	// (0x0000be37) popup_slider_window_ParamLimits
+0xbe76,	// (0x0000be76) popup_slider_window_ParamLimits
 
-0xbe37,	// (0x0000be37) popup_slider_window
+0xbe76,	// (0x0000be76) popup_slider_window
 
 0x73fd,	// (0x000073fd) aid_indentation_list_msg
 
-0xd242,	// (0x0000d242) bg_popup_window_pane_cp19
+0xd281,	// (0x0000d281) bg_popup_window_pane_cp19
 
 0x79e1,	// (0x000079e1) popup_slider_window_g1
 
@@ -8580,7 +8580,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0005,
 
-0xe96e,	// (0x0000e96e) popup_slider_window_g
+0xe9fe,	// (0x0000e9fe) popup_slider_window_g
 
 0x7a75,	// (0x00007a75) popup_slider_window_t1
 
@@ -8594,19 +8594,19 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa792,	// (0x0000a792) small_volume_slider_vertical_pane_g
+0xa7d1,	// (0x0000a7d1) small_volume_slider_vertical_pane_g
 
-0xaa49,	// (0x0000aa49) area_side_right_pane_ParamLimits
+0xaa88,	// (0x0000aa88) area_side_right_pane_ParamLimits
 
-0xaa49,	// (0x0000aa49) area_side_right_pane
+0xaa88,	// (0x0000aa88) area_side_right_pane
 
-0xd2fa,	// (0x0000d2fa) aid_size_side_button_ParamLimits
+0xd339,	// (0x0000d339) aid_size_side_button_ParamLimits
 
-0xd2fa,	// (0x0000d2fa) aid_size_side_button
+0xd339,	// (0x0000d339) aid_size_side_button
 
-0xd313,	// (0x0000d313) grid_sctrl_middle_pane_ParamLimits
+0xd352,	// (0x0000d352) grid_sctrl_middle_pane_ParamLimits
 
-0xd313,	// (0x0000d313) grid_sctrl_middle_pane
+0xd352,	// (0x0000d352) grid_sctrl_middle_pane
 
 0x7b3c,	// (0x00007b3c) sctrl_sk_bottom_pane
 
@@ -8632,31 +8632,31 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x7b79,	// (0x00007b79) sctrl_sk_bottom_pane_t1
 
-0xd329,	// (0x0000d329) cell_sctrl_middle_pane_ParamLimits
+0xd368,	// (0x0000d368) cell_sctrl_middle_pane_ParamLimits
 
-0xd329,	// (0x0000d329) cell_sctrl_middle_pane
+0xd368,	// (0x0000d368) cell_sctrl_middle_pane
 
-0xd33a,	// (0x0000d33a) aid_touch_sctrl_middle_ParamLimits
+0xd379,	// (0x0000d379) aid_touch_sctrl_middle_ParamLimits
 
-0xd33a,	// (0x0000d33a) aid_touch_sctrl_middle
+0xd379,	// (0x0000d379) aid_touch_sctrl_middle
 
-0xd347,	// (0x0000d347) bg_sctrl_middle_pane_ParamLimits
+0xd386,	// (0x0000d386) bg_sctrl_middle_pane_ParamLimits
 
-0xd347,	// (0x0000d347) bg_sctrl_middle_pane
+0xd386,	// (0x0000d386) bg_sctrl_middle_pane
 
 0x7c5b,	// (0x00007c5b) cell_sctrl_middle_pane_g1_ParamLimits
 
 0x7c5b,	// (0x00007c5b) cell_sctrl_middle_pane_g1
 
-0xd355,	// (0x0000d355) cell_sctrl_middle_pane_g2_ParamLimits
+0xd394,	// (0x0000d394) cell_sctrl_middle_pane_g2_ParamLimits
 
-0xd355,	// (0x0000d355) cell_sctrl_middle_pane_g2
+0xd394,	// (0x0000d394) cell_sctrl_middle_pane_g2
 
 0x0001,
 
-0xe97b,	// (0x0000e97b) cell_sctrl_middle_pane_g_ParamLimits
+0xea0b,	// (0x0000ea0b) cell_sctrl_middle_pane_g_ParamLimits
 
-0xe97b,	// (0x0000e97b) cell_sctrl_middle_pane_g
+0xea0b,	// (0x0000ea0b) cell_sctrl_middle_pane_g
 
 0x3269,	// (0x00003269) bg_sctrl_middle_pane_g1
 
@@ -8676,7 +8676,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0007,
 
-0xa7a3,	// (0x0000a7a3) bg_sctrl_middle_pane_g
+0xa7e2,	// (0x0000a7e2) bg_sctrl_middle_pane_g
 
 0x32a9,	// (0x000032a9) bg_sctrl_middle_pane_g8_copy1
 
@@ -8688,7 +8688,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0008,
 
-0xa30a,	// (0x0000a30a) bg_sctrl_sk_pane_g
+0xa349,	// (0x0000a349) bg_sctrl_sk_pane_g
 
 0x0c21,	// (0x00000c21) aid_size_touch_scroll_bar
 
@@ -8706,33 +8706,33 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x2939,	// (0x00002939) popup_fep_china_hwr2_fs_candidate_window
 
-0xba32,	// (0x0000ba32) popup_fep_china_hwr2_fs_control_window_ParamLimits
+0xba71,	// (0x0000ba71) popup_fep_china_hwr2_fs_control_window_ParamLimits
 
-0xba32,	// (0x0000ba32) popup_fep_china_hwr2_fs_control_window
+0xba71,	// (0x0000ba71) popup_fep_china_hwr2_fs_control_window
 
 0x626b,	// (0x0000626b) sctrl_sk_top_pane_g2
 
 0x0001,
 
-0xa799,	// (0x0000a799) sctrl_sk_top_pane_g
+0xa7d8,	// (0x0000a7d8) sctrl_sk_top_pane_g
 
-0xd362,	// (0x0000d362) aid_fep_china_hwr2_fs_cell_ParamLimits
+0xd3a1,	// (0x0000d3a1) aid_fep_china_hwr2_fs_cell_ParamLimits
 
-0xd362,	// (0x0000d362) aid_fep_china_hwr2_fs_cell
+0xd3a1,	// (0x0000d3a1) aid_fep_china_hwr2_fs_cell
 
-0xd376,	// (0x0000d376) bg_popup_fep_shadow_pane_cp4_ParamLimits
+0xd3b5,	// (0x0000d3b5) bg_popup_fep_shadow_pane_cp4_ParamLimits
 
-0xd376,	// (0x0000d376) bg_popup_fep_shadow_pane_cp4
+0xd3b5,	// (0x0000d3b5) bg_popup_fep_shadow_pane_cp4
 
-0xd38d,	// (0x0000d38d) bg_popup_fep_shadow_pane_cp5_ParamLimits
+0xd3cc,	// (0x0000d3cc) bg_popup_fep_shadow_pane_cp5_ParamLimits
 
-0xd38d,	// (0x0000d38d) bg_popup_fep_shadow_pane_cp5
+0xd3cc,	// (0x0000d3cc) bg_popup_fep_shadow_pane_cp5
 
-0xd39f,	// (0x0000d39f) popup_fep_china_hwr2_fs_control_bar_grid_ParamLimits
+0xd3de,	// (0x0000d3de) popup_fep_china_hwr2_fs_control_bar_grid_ParamLimits
 
-0xd39f,	// (0x0000d39f) popup_fep_china_hwr2_fs_control_bar_grid
+0xd3de,	// (0x0000d3de) popup_fep_china_hwr2_fs_control_bar_grid
 
-0xd3b3,	// (0x0000d3b3) popup_fep_china_hwr2_fs_control_funtion_grid
+0xd3f2,	// (0x0000d3f2) popup_fep_china_hwr2_fs_control_funtion_grid
 
 0x7c31,	// (0x00007c31) aid_fep_china_hwr2_fs_candi_cell
 
@@ -8740,9 +8740,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x7c3b,	// (0x00007c3b) popup_fep_china_hwr2_fs_candidate_grid
 
-0xd3bb,	// (0x0000d3bb) cell_fep_china_hwr2_fs_funtion_grid_ParamLimits
+0xd3fa,	// (0x0000d3fa) cell_fep_china_hwr2_fs_funtion_grid_ParamLimits
 
-0xd3bb,	// (0x0000d3bb) cell_fep_china_hwr2_fs_funtion_grid
+0xd3fa,	// (0x0000d3fa) cell_fep_china_hwr2_fs_funtion_grid
 
 0x5e2d,	// (0x00005e2d) popup_fep_china_hwr2_fs_control_funtion_grid_g1
 
@@ -8756,23 +8756,23 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa7b4,	// (0x0000a7b4) cell_fep_china_hwr2_fs_funtion_grid_g_ParamLimits
+0xa7f3,	// (0x0000a7f3) cell_fep_china_hwr2_fs_funtion_grid_g_ParamLimits
 
-0xa7b4,	// (0x0000a7b4) cell_fep_china_hwr2_fs_funtion_grid_g
+0xa7f3,	// (0x0000a7f3) cell_fep_china_hwr2_fs_funtion_grid_g
 
-0xd3d3,	// (0x0000d3d3) cell_fep_china_hwr2_fs_funtion_grid_t1_ParamLimits
+0xd412,	// (0x0000d412) cell_fep_china_hwr2_fs_funtion_grid_t1_ParamLimits
 
-0xd3d3,	// (0x0000d3d3) cell_fep_china_hwr2_fs_funtion_grid_t1
+0xd412,	// (0x0000d412) cell_fep_china_hwr2_fs_funtion_grid_t1
 
-0xd3e8,	// (0x0000d3e8) cell_fep_china_hwr2_fs_funtion_grid_t2_ParamLimits
+0xd427,	// (0x0000d427) cell_fep_china_hwr2_fs_funtion_grid_t2_ParamLimits
 
-0xd3e8,	// (0x0000d3e8) cell_fep_china_hwr2_fs_funtion_grid_t2
+0xd427,	// (0x0000d427) cell_fep_china_hwr2_fs_funtion_grid_t2
 
 0x0001,
 
-0xe980,	// (0x0000e980) cell_fep_china_hwr2_fs_funtion_grid_t_ParamLimits
+0xea10,	// (0x0000ea10) cell_fep_china_hwr2_fs_funtion_grid_t_ParamLimits
 
-0xe980,	// (0x0000e980) cell_fep_china_hwr2_fs_funtion_grid_t
+0xea10,	// (0x0000ea10) cell_fep_china_hwr2_fs_funtion_grid_t
 
 0x7cb0,	// (0x00007cb0) popup_fep_china_hwr2_fs_control_bar_grid_g1
 
@@ -8782,7 +8782,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa7be,	// (0x0000a7be) popup_fep_china_hwr2_fs_control_bar_grid_g
+0xa7fd,	// (0x0000a7fd) popup_fep_china_hwr2_fs_control_bar_grid_g
 
 0x7cc8,	// (0x00007cc8) cell_fep_china_hwr2_fs_candidate_grid_ParamLimits
 
@@ -8798,7 +8798,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa5e5,	// (0x0000a5e5) cell_fep_china_hwr2_fs_candidate_grid_g
+0xa624,	// (0x0000a624) cell_fep_china_hwr2_fs_candidate_grid_g
 
 0x7cf1,	// (0x00007cf1) cell_fep_china_hwr2_fs_candidate_grid_t1
 
@@ -8814,9 +8814,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa36f,	// (0x0000a36f) heading_pane_g
+0xa3ae,	// (0x0000a3ae) heading_pane_g
 
-0xc932,	// (0x0000c932) grid_sct_catagory_button_pane
+0xc971,	// (0x0000c971) grid_sct_catagory_button_pane
 
 0x4cf9,	// (0x00004cf9) scroll_pane_cp5_ParamLimits
 
@@ -8836,27 +8836,27 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x5e2d,	// (0x00005e2d) cell_sct_catagory_button_pane_g1
 
-0xbea6,	// (0x0000bea6) popup_tb_extension_window
+0xbee5,	// (0x0000bee5) popup_tb_extension_window
 
-0xd404,	// (0x0000d404) aid_size_cell_ext_ParamLimits
+0xd443,	// (0x0000d443) aid_size_cell_ext_ParamLimits
 
-0xd404,	// (0x0000d404) aid_size_cell_ext
+0xd443,	// (0x0000d443) aid_size_cell_ext
 
 0x0aff,	// (0x00000aff) bg_tb_trans_pane_cp1_ParamLimits
 
 0x0aff,	// (0x00000aff) bg_tb_trans_pane_cp1
 
-0xd42a,	// (0x0000d42a) grid_tb_ext_pane_ParamLimits
+0xd469,	// (0x0000d469) grid_tb_ext_pane_ParamLimits
 
-0xd42a,	// (0x0000d42a) grid_tb_ext_pane
+0xd469,	// (0x0000d469) grid_tb_ext_pane
 
-0xd460,	// (0x0000d460) cell_tb_ext_pane_ParamLimits
+0xd49f,	// (0x0000d49f) cell_tb_ext_pane_ParamLimits
 
-0xd460,	// (0x0000d460) cell_tb_ext_pane
+0xd49f,	// (0x0000d49f) cell_tb_ext_pane
 
-0xd484,	// (0x0000d484) cell_tb_ext_pane_g1_ParamLimits
+0xd4c3,	// (0x0000d4c3) cell_tb_ext_pane_g1_ParamLimits
 
-0xd484,	// (0x0000d484) cell_tb_ext_pane_g1
+0xd4c3,	// (0x0000d4c3) cell_tb_ext_pane_g1
 
 0x7d89,	// (0x00007d89) cell_tb_ext_pane_t1
 
@@ -8864,9 +8864,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x07a5,	// (0x000007a5) list_highlight_pane_cp11
 
-0xaada,	// (0x0000aada) popup_uni_indicator_window_ParamLimits
+0xab19,	// (0x0000ab19) popup_uni_indicator_window_ParamLimits
 
-0xaada,	// (0x0000aada) popup_uni_indicator_window
+0xab19,	// (0x0000ab19) popup_uni_indicator_window
 
 0x120e,	// (0x0000120e) bg_popup_sub_pane_cp14
 
@@ -8882,7 +8882,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa7c5,	// (0x0000a7c5) uniindi_top_pane_g
+0xa804,	// (0x0000a804) uniindi_top_pane_g
 
 0x7e0f,	// (0x00007e0f) uniindi_top_pane_t1
 
@@ -8908,13 +8908,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa7ce,	// (0x0000a7ce) control_bg_pane_g
+0xa80d,	// (0x0000a80d) control_bg_pane_g
 
 0x58ac,	// (0x000058ac) cell_indicator_nsta_pane_g1_ParamLimits
 
-0xca37,	// (0x0000ca37) cell_indicator_nsta_pane_g2_ParamLimits
+0xca76,	// (0x0000ca76) cell_indicator_nsta_pane_g2_ParamLimits
 
-0xe8f8,	// (0x0000e8f8) cell_indicator_nsta_pane_g_ParamLimits
+0xe988,	// (0x0000e988) cell_indicator_nsta_pane_g_ParamLimits
 
 0x5bfc,	// (0x00005bfc) form2_midp_time_pane_t1_ParamLimits
 
@@ -8922,11 +8922,11 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x5e86,	// (0x00005e86) main_idle_act4_pane
 
-0xbea6,	// (0x0000bea6) popup_tb_extension_window_ParamLimits
+0xbee5,	// (0x0000bee5) popup_tb_extension_window_ParamLimits
 
-0xd44a,	// (0x0000d44a) tb_ext_find_pane_ParamLimits
+0xd489,	// (0x0000d489) tb_ext_find_pane_ParamLimits
 
-0xd44a,	// (0x0000d44a) tb_ext_find_pane
+0xd489,	// (0x0000d489) tb_ext_find_pane
 
 0x7ea7,	// (0x00007ea7) ai_gene_pane_1_cp1
 
@@ -8938,27 +8938,27 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x7ec1,	// (0x00007ec1) list_single_idle_plugin_player_pane
 
-0xd4a1,	// (0x0000d4a1) list_single_idle_plugin_shortcut_pane_ParamLimits
+0xd4e0,	// (0x0000d4e0) list_single_idle_plugin_shortcut_pane_ParamLimits
 
-0xd4a1,	// (0x0000d4a1) list_single_idle_plugin_shortcut_pane
+0xd4e0,	// (0x0000d4e0) list_single_idle_plugin_shortcut_pane
 
-0xd4c9,	// (0x0000d4c9) main_idle_act4_pane_t1
+0xd508,	// (0x0000d508) main_idle_act4_pane_t1
 
-0xd4df,	// (0x0000d4df) main_idle_act4_pane_t2
+0xd51e,	// (0x0000d51e) main_idle_act4_pane_t2
 
 0x0001,
 
-0xe985,	// (0x0000e985) main_idle_act4_pane_t
+0xea15,	// (0x0000ea15) main_idle_act4_pane_t
 
-0xd4f5,	// (0x0000d4f5) middle_sk_idle_act4_pane_ParamLimits
+0xd534,	// (0x0000d534) middle_sk_idle_act4_pane_ParamLimits
 
-0xd4f5,	// (0x0000d4f5) middle_sk_idle_act4_pane
+0xd534,	// (0x0000d534) middle_sk_idle_act4_pane
 
-0xd511,	// (0x0000d511) popup_clock_digital_analogue_window_cp2
+0xd550,	// (0x0000d550) popup_clock_digital_analogue_window_cp2
 
-0xd537,	// (0x0000d537) shortcut_wheel_idle_act4_pane_ParamLimits
+0xd576,	// (0x0000d576) shortcut_wheel_idle_act4_pane_ParamLimits
 
-0xd537,	// (0x0000d537) shortcut_wheel_idle_act4_pane
+0xd576,	// (0x0000d576) shortcut_wheel_idle_act4_pane
 
 0x5e2d,	// (0x00005e2d) shortcut_wheel_idle_act4_pane_g1
 
@@ -8980,59 +8980,59 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0008,
 
-0xa7d8,	// (0x0000a7d8) shortcut_wheel_idle_act4_pane_g
+0xa817,	// (0x0000a817) shortcut_wheel_idle_act4_pane_g
 
 0x5f35,	// (0x00005f35) middle_sk_idle_act4_pane_g1_ParamLimits
 
 0x5f35,	// (0x00005f35) middle_sk_idle_act4_pane_g1
 
-0xd5b2,	// (0x0000d5b2) middle_sk_idle_act4_pane_g2_ParamLimits
+0xd5f1,	// (0x0000d5f1) middle_sk_idle_act4_pane_g2_ParamLimits
 
-0xd5b2,	// (0x0000d5b2) middle_sk_idle_act4_pane_g2
+0xd5f1,	// (0x0000d5f1) middle_sk_idle_act4_pane_g2
 
 0x0001,
 
-0xe99a,	// (0x0000e99a) middle_sk_idle_act4_pane_g_ParamLimits
+0xea2a,	// (0x0000ea2a) middle_sk_idle_act4_pane_g_ParamLimits
 
-0xe99a,	// (0x0000e99a) middle_sk_idle_act4_pane_g
+0xea2a,	// (0x0000ea2a) middle_sk_idle_act4_pane_g
 
-0xd5ca,	// (0x0000d5ca) middle_sk_idle_act4_pane_t1_ParamLimits
+0xd609,	// (0x0000d609) middle_sk_idle_act4_pane_t1_ParamLimits
 
-0xd5ca,	// (0x0000d5ca) middle_sk_idle_act4_pane_t1
+0xd609,	// (0x0000d609) middle_sk_idle_act4_pane_t1
 
-0xd5f9,	// (0x0000d5f9) grid_ai_shortcut_pane_ParamLimits
+0xd638,	// (0x0000d638) grid_ai_shortcut_pane_ParamLimits
 
-0xd5f9,	// (0x0000d5f9) grid_ai_shortcut_pane
+0xd638,	// (0x0000d638) grid_ai_shortcut_pane
 
-0xd616,	// (0x0000d616) list_highlight_pane_cp16_ParamLimits
+0xd655,	// (0x0000d655) list_highlight_pane_cp16_ParamLimits
 
-0xd616,	// (0x0000d616) list_highlight_pane_cp16
+0xd655,	// (0x0000d655) list_highlight_pane_cp16
 
-0xd623,	// (0x0000d623) list_single_idle_plugin_shortcut_pane_g1_ParamLimits
+0xd662,	// (0x0000d662) list_single_idle_plugin_shortcut_pane_g1_ParamLimits
 
-0xd623,	// (0x0000d623) list_single_idle_plugin_shortcut_pane_g1
+0xd662,	// (0x0000d662) list_single_idle_plugin_shortcut_pane_g1
 
-0xd62f,	// (0x0000d62f) list_single_idle_plugin_shortcut_pane_g2_ParamLimits
+0xd66e,	// (0x0000d66e) list_single_idle_plugin_shortcut_pane_g2_ParamLimits
 
-0xd62f,	// (0x0000d62f) list_single_idle_plugin_shortcut_pane_g2
+0xd66e,	// (0x0000d66e) list_single_idle_plugin_shortcut_pane_g2
 
-0xd64b,	// (0x0000d64b) list_single_idle_plugin_shortcut_pane_g3_ParamLimits
+0xd68a,	// (0x0000d68a) list_single_idle_plugin_shortcut_pane_g3_ParamLimits
 
-0xd64b,	// (0x0000d64b) list_single_idle_plugin_shortcut_pane_g3
+0xd68a,	// (0x0000d68a) list_single_idle_plugin_shortcut_pane_g3
 
 0x0002,
 
-0xe99f,	// (0x0000e99f) list_single_idle_plugin_shortcut_pane_g_ParamLimits
+0xea2f,	// (0x0000ea2f) list_single_idle_plugin_shortcut_pane_g_ParamLimits
 
-0xe99f,	// (0x0000e99f) list_single_idle_plugin_shortcut_pane_g
+0xea2f,	// (0x0000ea2f) list_single_idle_plugin_shortcut_pane_g
 
-0xd660,	// (0x0000d660) cell_ai_shortcut_pane_ParamLimits
+0xd69f,	// (0x0000d69f) cell_ai_shortcut_pane_ParamLimits
 
-0xd660,	// (0x0000d660) cell_ai_shortcut_pane
+0xd69f,	// (0x0000d69f) cell_ai_shortcut_pane
 
-0xd676,	// (0x0000d676) cell_ai_shortcut_pane_g1_ParamLimits
+0xd6b5,	// (0x0000d6b5) cell_ai_shortcut_pane_g1_ParamLimits
 
-0xd676,	// (0x0000d676) cell_ai_shortcut_pane_g1
+0xd6b5,	// (0x0000d6b5) cell_ai_shortcut_pane_g1
 
 0x7ea7,	// (0x00007ea7) ai_gene_pane_1_cp2
 
@@ -9052,7 +9052,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa807,	// (0x0000a807) list_single_idle_plugin_player_pane_g
+0xa846,	// (0x0000a846) list_single_idle_plugin_player_pane_g
 
 0x80c2,	// (0x000080c2) list_single_idle_plugin_player_pane_t1
 
@@ -9064,7 +9064,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa80c,	// (0x0000a80c) list_single_idle_plugin_player_pane_t
+0xa84b,	// (0x0000a84b) list_single_idle_plugin_player_pane_t
 
 0x80fa,	// (0x000080fa) wait_bar_pane_cp15
 
@@ -9072,19 +9072,19 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4f7f,	// (0x00004f7f) list_single_idle_plugin_notification_pane_g1
 
-0xd698,	// (0x0000d698) cell_ai_notification_pane_ParamLimits
+0xd6d7,	// (0x0000d6d7) cell_ai_notification_pane_ParamLimits
 
-0xd698,	// (0x0000d698) cell_ai_notification_pane
+0xd6d7,	// (0x0000d6d7) cell_ai_notification_pane
 
 0x8118,	// (0x00008118) cell_ai_notification_pane_g1
 
 0x8120,	// (0x00008120) cell_ai_notification_pane_t1
 
-0xd6a5,	// (0x0000d6a5) tb_ext_find_button_pane
+0xd6e4,	// (0x0000d6e4) tb_ext_find_button_pane
 
-0xd6ad,	// (0x0000d6ad) tb_ext_find_pane_g1
+0xd6ec,	// (0x0000d6ec) tb_ext_find_pane_g1
 
-0xd6b5,	// (0x0000d6b5) tb_ext_find_pane_t1
+0xd6f4,	// (0x0000d6f4) tb_ext_find_pane_t1
 
 0x1b2f,	// (0x00001b2f) tb_ext_find_button_pane_g1
 
@@ -9092,41 +9092,41 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa815,	// (0x0000a815) tb_ext_find_button_pane_g
+0xa854,	// (0x0000a854) tb_ext_find_button_pane_g
 
-0xd4c9,	// (0x0000d4c9) main_idle_act4_pane_t1_ParamLimits
+0xd508,	// (0x0000d508) main_idle_act4_pane_t1_ParamLimits
 
-0xd4df,	// (0x0000d4df) main_idle_act4_pane_t2_ParamLimits
+0xd51e,	// (0x0000d51e) main_idle_act4_pane_t2_ParamLimits
 
-0xe985,	// (0x0000e985) main_idle_act4_pane_t_ParamLimits
+0xea15,	// (0x0000ea15) main_idle_act4_pane_t_ParamLimits
 
-0xd511,	// (0x0000d511) popup_clock_digital_analogue_window_cp2_ParamLimits
+0xd550,	// (0x0000d550) popup_clock_digital_analogue_window_cp2_ParamLimits
 
-0xd527,	// (0x0000d527) sat_plugin_idle_act4_pane_ParamLimits
+0xd566,	// (0x0000d566) sat_plugin_idle_act4_pane_ParamLimits
 
-0xd527,	// (0x0000d527) sat_plugin_idle_act4_pane
+0xd566,	// (0x0000d566) sat_plugin_idle_act4_pane
 
-0xd6c3,	// (0x0000d6c3) sat_plugin_idle_act4_pane_t1_ParamLimits
+0xd702,	// (0x0000d702) sat_plugin_idle_act4_pane_t1_ParamLimits
 
-0xd6c3,	// (0x0000d6c3) sat_plugin_idle_act4_pane_t1
+0xd702,	// (0x0000d702) sat_plugin_idle_act4_pane_t1
 
-0xd6db,	// (0x0000d6db) sat_plugin_idle_act4_pane_t2_ParamLimits
+0xd71a,	// (0x0000d71a) sat_plugin_idle_act4_pane_t2_ParamLimits
 
-0xd6db,	// (0x0000d6db) sat_plugin_idle_act4_pane_t2
+0xd71a,	// (0x0000d71a) sat_plugin_idle_act4_pane_t2
 
-0xd6f3,	// (0x0000d6f3) sat_plugin_idle_act4_pane_t3_ParamLimits
+0xd732,	// (0x0000d732) sat_plugin_idle_act4_pane_t3_ParamLimits
 
-0xd6f3,	// (0x0000d6f3) sat_plugin_idle_act4_pane_t3
+0xd732,	// (0x0000d732) sat_plugin_idle_act4_pane_t3
 
-0xd70b,	// (0x0000d70b) sat_plugin_idle_act4_pane_t4_ParamLimits
+0xd74a,	// (0x0000d74a) sat_plugin_idle_act4_pane_t4_ParamLimits
 
-0xd70b,	// (0x0000d70b) sat_plugin_idle_act4_pane_t4
+0xd74a,	// (0x0000d74a) sat_plugin_idle_act4_pane_t4
 
 0x0003,
 
-0xe9a6,	// (0x0000e9a6) sat_plugin_idle_act4_pane_t_ParamLimits
+0xea36,	// (0x0000ea36) sat_plugin_idle_act4_pane_t_ParamLimits
 
-0xe9a6,	// (0x0000e9a6) sat_plugin_idle_act4_pane_t
+0xea36,	// (0x0000ea36) sat_plugin_idle_act4_pane_t
 
 0x0258,	// (0x00000258) popup_battery_window_ParamLimits
 
@@ -9150,131 +9150,131 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa823,	// (0x0000a823) popup_battery_window_t_ParamLimits
+0xa862,	// (0x0000a862) popup_battery_window_t_ParamLimits
 
-0xa823,	// (0x0000a823) popup_battery_window_t
+0xa862,	// (0x0000a862) popup_battery_window_t
 
-0xb719,	// (0x0000b719) midp_canvas_pane_ParamLimits
+0xb758,	// (0x0000b758) midp_canvas_pane_ParamLimits
 
-0xb76e,	// (0x0000b76e) midp_keypad_pane_ParamLimits
+0xb7ad,	// (0x0000b7ad) midp_keypad_pane_ParamLimits
 
-0xb76e,	// (0x0000b76e) midp_keypad_pane
+0xb7ad,	// (0x0000b7ad) midp_keypad_pane
 
 0x289b,	// (0x0000289b) main_midp_pane_ParamLimits
 
 0x592f,	// (0x0000592f) signal_pane_g2_cp_ParamLimits
 
-0xd723,	// (0x0000d723) aid_size_cell_midp_keypad_ParamLimits
+0xd762,	// (0x0000d762) aid_size_cell_midp_keypad_ParamLimits
 
-0xd723,	// (0x0000d723) aid_size_cell_midp_keypad
+0xd762,	// (0x0000d762) aid_size_cell_midp_keypad
 
-0xd741,	// (0x0000d741) midp_keyp_game_grid_pane_ParamLimits
+0xd780,	// (0x0000d780) midp_keyp_game_grid_pane_ParamLimits
 
-0xd741,	// (0x0000d741) midp_keyp_game_grid_pane
+0xd780,	// (0x0000d780) midp_keyp_game_grid_pane
 
-0xd760,	// (0x0000d760) midp_keyp_rocker_pane_ParamLimits
+0xd79f,	// (0x0000d79f) midp_keyp_rocker_pane_ParamLimits
 
-0xd760,	// (0x0000d760) midp_keyp_rocker_pane
+0xd79f,	// (0x0000d79f) midp_keyp_rocker_pane
 
-0xd7a1,	// (0x0000d7a1) midp_keyp_sk_left_pane_ParamLimits
+0xd7e0,	// (0x0000d7e0) midp_keyp_sk_left_pane_ParamLimits
 
-0xd7a1,	// (0x0000d7a1) midp_keyp_sk_left_pane
+0xd7e0,	// (0x0000d7e0) midp_keyp_sk_left_pane
 
-0xd7f3,	// (0x0000d7f3) midp_keyp_sk_right_pane_ParamLimits
+0xd832,	// (0x0000d832) midp_keyp_sk_right_pane_ParamLimits
 
-0xd7f3,	// (0x0000d7f3) midp_keyp_sk_right_pane
+0xd832,	// (0x0000d832) midp_keyp_sk_right_pane
 
 0x0020,	// (0x00000020) bg_button_pane_cp03
 
-0xd83f,	// (0x0000d83f) midp_keyp_sk_left_pane_g1
+0xd87e,	// (0x0000d87e) midp_keyp_sk_left_pane_g1
 
 0x0020,	// (0x00000020) bg_button_pane_cp04
 
-0xd83f,	// (0x0000d83f) midp_keyp_sk_right_pane_g1
+0xd87e,	// (0x0000d87e) midp_keyp_sk_right_pane_g1
 
 0x5e2d,	// (0x00005e2d) midp_keyp_rocker_pane_g1
 
-0xd848,	// (0x0000d848) keyp_game_cell_pane_ParamLimits
+0xd887,	// (0x0000d887) keyp_game_cell_pane_ParamLimits
 
-0xd848,	// (0x0000d848) keyp_game_cell_pane
+0xd887,	// (0x0000d887) keyp_game_cell_pane
 
 0x0020,	// (0x00000020) bg_button_pane_cp02
 
-0xd86a,	// (0x0000d86a) keyp_game_cell_pane_g1
+0xd8a9,	// (0x0000d8a9) keyp_game_cell_pane_g1
 
-0xaa8b,	// (0x0000aa8b) popup_fep_vkb2_window_ParamLimits
+0xaaca,	// (0x0000aaca) popup_fep_vkb2_window_ParamLimits
 
-0xaa8b,	// (0x0000aa8b) popup_fep_vkb2_window
+0xaaca,	// (0x0000aaca) popup_fep_vkb2_window
 
-0xd873,	// (0x0000d873) aid_size_cell_vkb2_ParamLimits
+0xd8b2,	// (0x0000d8b2) aid_size_cell_vkb2_ParamLimits
 
-0xd873,	// (0x0000d873) aid_size_cell_vkb2
+0xd8b2,	// (0x0000d8b2) aid_size_cell_vkb2
 
-0xd8a9,	// (0x0000d8a9) popup_fep_vkb2_window_g1_ParamLimits
+0xd8e8,	// (0x0000d8e8) popup_fep_vkb2_window_g1_ParamLimits
 
-0xd8a9,	// (0x0000d8a9) popup_fep_vkb2_window_g1
+0xd8e8,	// (0x0000d8e8) popup_fep_vkb2_window_g1
 
-0xd8f9,	// (0x0000d8f9) vkb2_area_bottom_pane_ParamLimits
+0xd938,	// (0x0000d938) vkb2_area_bottom_pane_ParamLimits
 
-0xd8f9,	// (0x0000d8f9) vkb2_area_bottom_pane
+0xd938,	// (0x0000d938) vkb2_area_bottom_pane
 
-0xd937,	// (0x0000d937) vkb2_area_keypad_pane_ParamLimits
+0xd976,	// (0x0000d976) vkb2_area_keypad_pane_ParamLimits
 
-0xd937,	// (0x0000d937) vkb2_area_keypad_pane
+0xd976,	// (0x0000d976) vkb2_area_keypad_pane
 
-0xd975,	// (0x0000d975) vkb2_area_top_pane_ParamLimits
+0xd9b4,	// (0x0000d9b4) vkb2_area_top_pane_ParamLimits
 
-0xd975,	// (0x0000d975) vkb2_area_top_pane
+0xd9b4,	// (0x0000d9b4) vkb2_area_top_pane
 
-0xd9f1,	// (0x0000d9f1) vkb2_top_entry_pane_ParamLimits
+0xda30,	// (0x0000da30) vkb2_top_entry_pane_ParamLimits
 
-0xd9f1,	// (0x0000d9f1) vkb2_top_entry_pane
+0xda30,	// (0x0000da30) vkb2_top_entry_pane
 
-0xda1e,	// (0x0000da1e) vkb2_top_grid_left_pane_ParamLimits
+0xda5d,	// (0x0000da5d) vkb2_top_grid_left_pane_ParamLimits
 
-0xda1e,	// (0x0000da1e) vkb2_top_grid_left_pane
+0xda5d,	// (0x0000da5d) vkb2_top_grid_left_pane
 
-0xda3e,	// (0x0000da3e) vkb2_top_grid_right_pane_ParamLimits
+0xda7d,	// (0x0000da7d) vkb2_top_grid_right_pane_ParamLimits
 
-0xda3e,	// (0x0000da3e) vkb2_top_grid_right_pane
+0xda7d,	// (0x0000da7d) vkb2_top_grid_right_pane
 
 0x84fa,	// (0x000084fa) vkb2_cell_keypad_pane_ParamLimits
 
 0x84fa,	// (0x000084fa) vkb2_cell_keypad_pane
 
-0xda84,	// (0x0000da84) vkb2_area_bottom_grid_pane_ParamLimits
+0xdac3,	// (0x0000dac3) vkb2_area_bottom_grid_pane_ParamLimits
 
-0xda84,	// (0x0000da84) vkb2_area_bottom_grid_pane
+0xdac3,	// (0x0000dac3) vkb2_area_bottom_grid_pane
 
-0xdaaa,	// (0x0000daaa) vkb2_area_bottom_pane_g1_ParamLimits
+0xdae9,	// (0x0000dae9) vkb2_area_bottom_pane_g1_ParamLimits
 
-0xdaaa,	// (0x0000daaa) vkb2_area_bottom_pane_g1
+0xdae9,	// (0x0000dae9) vkb2_area_bottom_pane_g1
 
-0xdad0,	// (0x0000dad0) vkb2_area_bottom_pane_g2_ParamLimits
+0xdb0f,	// (0x0000db0f) vkb2_area_bottom_pane_g2_ParamLimits
 
-0xdad0,	// (0x0000dad0) vkb2_area_bottom_pane_g2
+0xdb0f,	// (0x0000db0f) vkb2_area_bottom_pane_g2
 
-0xdb01,	// (0x0000db01) vkb2_area_bottom_pane_g3_ParamLimits
+0xdb40,	// (0x0000db40) vkb2_area_bottom_pane_g3_ParamLimits
 
-0xdb01,	// (0x0000db01) vkb2_area_bottom_pane_g3
+0xdb40,	// (0x0000db40) vkb2_area_bottom_pane_g3
 
 0x0002,
 
-0xe9af,	// (0x0000e9af) vkb2_area_bottom_pane_g_ParamLimits
+0xea3f,	// (0x0000ea3f) vkb2_area_bottom_pane_g_ParamLimits
 
-0xe9af,	// (0x0000e9af) vkb2_area_bottom_pane_g
+0xea3f,	// (0x0000ea3f) vkb2_area_bottom_pane_g
 
 0x8672,	// (0x00008672) vkb2_top_cell_left_pane_ParamLimits
 
 0x8672,	// (0x00008672) vkb2_top_cell_left_pane
 
-0xdb57,	// (0x0000db57) vkb2_top_entry_pane_g1_ParamLimits
+0xdb96,	// (0x0000db96) vkb2_top_entry_pane_g1_ParamLimits
 
-0xdb57,	// (0x0000db57) vkb2_top_entry_pane_g1
+0xdb96,	// (0x0000db96) vkb2_top_entry_pane_g1
 
-0xdb65,	// (0x0000db65) vkb2_top_entry_pane_t1_ParamLimits
+0xdba4,	// (0x0000dba4) vkb2_top_entry_pane_t1_ParamLimits
 
-0xdb65,	// (0x0000db65) vkb2_top_entry_pane_t1
+0xdba4,	// (0x0000dba4) vkb2_top_entry_pane_t1
 
 0x86da,	// (0x000086da) vkb2_top_entry_pane_t2_ParamLimits
 
@@ -9286,13 +9286,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xe9b6,	// (0x0000e9b6) vkb2_top_entry_pane_t_ParamLimits
+0xea46,	// (0x0000ea46) vkb2_top_entry_pane_t_ParamLimits
 
-0xe9b6,	// (0x0000e9b6) vkb2_top_entry_pane_t
+0xea46,	// (0x0000ea46) vkb2_top_entry_pane_t
 
-0xdb9e,	// (0x0000db9e) vkb2_top_grid_right_pane_g1_ParamLimits
+0xdbdd,	// (0x0000dbdd) vkb2_top_grid_right_pane_g1_ParamLimits
 
-0xdb9e,	// (0x0000db9e) vkb2_top_grid_right_pane_g1
+0xdbdd,	// (0x0000dbdd) vkb2_top_grid_right_pane_g1
 
 0x8765,	// (0x00008765) vkb2_top_grid_right_pane_g2_ParamLimits
 
@@ -9302,15 +9302,15 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x877d,	// (0x0000877d) vkb2_top_grid_right_pane_g3
 
-0xdbb4,	// (0x0000dbb4) vkb2_top_grid_right_pane_g4_ParamLimits
+0xdbf3,	// (0x0000dbf3) vkb2_top_grid_right_pane_g4_ParamLimits
 
-0xdbb4,	// (0x0000dbb4) vkb2_top_grid_right_pane_g4
+0xdbf3,	// (0x0000dbf3) vkb2_top_grid_right_pane_g4
 
 0x0003,
 
-0xe9bd,	// (0x0000e9bd) vkb2_top_grid_right_pane_g_ParamLimits
+0xea4d,	// (0x0000ea4d) vkb2_top_grid_right_pane_g_ParamLimits
 
-0xe9bd,	// (0x0000e9bd) vkb2_top_grid_right_pane_g
+0xea4d,	// (0x0000ea4d) vkb2_top_grid_right_pane_g
 
 0x87ab,	// (0x000087ab) vkb2_top_cell_left_pane_g1
 
@@ -9328,41 +9328,41 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x8820,	// (0x00008820) vkb2_cell_bottom_grid_pane_g1
 
-0xd556,	// (0x0000d556) aid_call2_pane_cp02
+0xd595,	// (0x0000d595) aid_call2_pane_cp02
 
-0xd55e,	// (0x0000d55e) aid_call_pane_cp02
+0xd59d,	// (0x0000d59d) aid_call_pane_cp02
 
-0xd566,	// (0x0000d566) clock_digital_number_pane_cp10
+0xd5a5,	// (0x0000d5a5) clock_digital_number_pane_cp10
 
-0xd56e,	// (0x0000d56e) clock_digital_number_pane_cp11
+0xd5ad,	// (0x0000d5ad) clock_digital_number_pane_cp11
 
-0xd576,	// (0x0000d576) clock_digital_number_pane_cp12
+0xd5b5,	// (0x0000d5b5) clock_digital_number_pane_cp12
 
-0xd57e,	// (0x0000d57e) clock_digital_number_pane_cp13
+0xd5bd,	// (0x0000d5bd) clock_digital_number_pane_cp13
 
-0xd586,	// (0x0000d586) clock_digital_separator_pane_cp10
+0xd5c5,	// (0x0000d5c5) clock_digital_separator_pane_cp10
 
 0x1b2f,	// (0x00001b2f) popup_clock_digital_analogue_window_cp2_g1
 
 0x1b2f,	// (0x00001b2f) popup_clock_digital_analogue_window_cp2_g2
 
-0xd58e,	// (0x0000d58e) popup_clock_digital_analogue_window_cp2_g3
+0xd5cd,	// (0x0000d5cd) popup_clock_digital_analogue_window_cp2_g3
 
 0x1b2f,	// (0x00001b2f) popup_clock_digital_analogue_window_cp2_g4
 
-0xd58e,	// (0x0000d58e) popup_clock_digital_analogue_window_cp2_g5
+0xd5cd,	// (0x0000d5cd) popup_clock_digital_analogue_window_cp2_g5
 
 0x0004,
 
-0xe98a,	// (0x0000e98a) popup_clock_digital_analogue_window_cp2_g
+0xea1a,	// (0x0000ea1a) popup_clock_digital_analogue_window_cp2_g
 
-0xd596,	// (0x0000d596) popup_clock_digital_analogue_window_cp2_t1
+0xd5d5,	// (0x0000d5d5) popup_clock_digital_analogue_window_cp2_t1
 
-0xd5a4,	// (0x0000d5a4) popup_clock_digital_analogue_window_cp2_t2
+0xd5e3,	// (0x0000d5e3) popup_clock_digital_analogue_window_cp2_t2
 
 0x0001,
 
-0xe995,	// (0x0000e995) popup_clock_digital_analogue_window_cp2_t
+0xea25,	// (0x0000ea25) popup_clock_digital_analogue_window_cp2_t
 
 0x5e2d,	// (0x00005e2d) clock_digital_number_pane_cp10_g1
 
@@ -9370,7 +9370,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa5e5,	// (0x0000a5e5) clock_digital_number_pane_cp10_g
+0xa624,	// (0x0000a624) clock_digital_number_pane_cp10_g
 
 0x5e2d,	// (0x00005e2d) clock_digital_separator_pane_cp10_g1
 
@@ -9378,7 +9378,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa5e5,	// (0x0000a5e5) clock_digital_separator_pane_cp10_g
+0xa624,	// (0x0000a624) clock_digital_separator_pane_cp10_g
 
 0x7df1,	// (0x00007df1) uniindi_top_pane_g3
 
@@ -9438,33 +9438,33 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0020,	// (0x00000020) popup_grid_graphic2_window
 
-0xdbca,	// (0x0000dbca) aid_size_cell_graphic2_ParamLimits
+0xdc09,	// (0x0000dc09) aid_size_cell_graphic2_ParamLimits
 
-0xdbca,	// (0x0000dbca) aid_size_cell_graphic2
+0xdc09,	// (0x0000dc09) aid_size_cell_graphic2
 
-0xdc08,	// (0x0000dc08) bg_popup_window_pane_cp21_ParamLimits
+0xdc47,	// (0x0000dc47) bg_popup_window_pane_cp21_ParamLimits
 
-0xdc08,	// (0x0000dc08) bg_popup_window_pane_cp21
+0xdc47,	// (0x0000dc47) bg_popup_window_pane_cp21
 
-0xdc16,	// (0x0000dc16) graphic2_pages_pane_ParamLimits
+0xdc55,	// (0x0000dc55) graphic2_pages_pane_ParamLimits
 
-0xdc16,	// (0x0000dc16) graphic2_pages_pane
+0xdc55,	// (0x0000dc55) graphic2_pages_pane
 
-0xdc5f,	// (0x0000dc5f) grid_graphic2_control_pane_ParamLimits
+0xdc9e,	// (0x0000dc9e) grid_graphic2_control_pane_ParamLimits
 
-0xdc5f,	// (0x0000dc5f) grid_graphic2_control_pane
+0xdc9e,	// (0x0000dc9e) grid_graphic2_control_pane
 
-0xdc9d,	// (0x0000dc9d) grid_graphic2_pane_ParamLimits
+0xdcdc,	// (0x0000dcdc) grid_graphic2_pane_ParamLimits
 
-0xdc9d,	// (0x0000dc9d) grid_graphic2_pane
+0xdcdc,	// (0x0000dcdc) grid_graphic2_pane
 
-0xdd0c,	// (0x0000dd0c) cell_graphic2_pane
+0xdd4b,	// (0x0000dd4b) cell_graphic2_pane
 
 0x0020,	// (0x00000020) main_comp_mode_pane
 
 0x75bc,	// (0x000075bc) list_ai3_gene_pane_ParamLimits
 
-0xd242,	// (0x0000d242) bg_popup_window_pane_cp19_ParamLimits
+0xd281,	// (0x0000d281) bg_popup_window_pane_cp19_ParamLimits
 
 0x7989,	// (0x00007989) bg_touch_area_indi_pane_ParamLimits
 
@@ -9488,73 +9488,73 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x7a19,	// (0x00007a19) popup_slider_window_g3_ParamLimits
 
-0xe96e,	// (0x0000e96e) popup_slider_window_g_ParamLimits
+0xe9fe,	// (0x0000e9fe) popup_slider_window_g_ParamLimits
 
 0x7a75,	// (0x00007a75) popup_slider_window_t1_ParamLimits
 
 0x7ae7,	// (0x00007ae7) small_volume_slider_vertical_pane_ParamLimits
 
-0xdd0c,	// (0x0000dd0c) cell_graphic2_pane_ParamLimits
+0xdd4b,	// (0x0000dd4b) cell_graphic2_pane_ParamLimits
 
-0xdd57,	// (0x0000dd57) bg_button_pane_cp10_ParamLimits
+0xdd96,	// (0x0000dd96) bg_button_pane_cp10_ParamLimits
 
-0xdd57,	// (0x0000dd57) bg_button_pane_cp10
+0xdd96,	// (0x0000dd96) bg_button_pane_cp10
 
-0xdd68,	// (0x0000dd68) bg_button_pane_cp11_ParamLimits
+0xdda7,	// (0x0000dda7) bg_button_pane_cp11_ParamLimits
 
-0xdd68,	// (0x0000dd68) bg_button_pane_cp11
+0xdda7,	// (0x0000dda7) bg_button_pane_cp11
 
-0xdd79,	// (0x0000dd79) graphic2_pages_pane_g1_ParamLimits
+0xddb8,	// (0x0000ddb8) graphic2_pages_pane_g1_ParamLimits
 
-0xdd79,	// (0x0000dd79) graphic2_pages_pane_g1
+0xddb8,	// (0x0000ddb8) graphic2_pages_pane_g1
 
-0xdd94,	// (0x0000dd94) graphic2_pages_pane_g2_ParamLimits
+0xddd3,	// (0x0000ddd3) graphic2_pages_pane_g2_ParamLimits
 
-0xdd94,	// (0x0000dd94) graphic2_pages_pane_g2
+0xddd3,	// (0x0000ddd3) graphic2_pages_pane_g2
 
 0x0001,
 
-0xe9cb,	// (0x0000e9cb) graphic2_pages_pane_g_ParamLimits
+0xea5b,	// (0x0000ea5b) graphic2_pages_pane_g_ParamLimits
 
-0xe9cb,	// (0x0000e9cb) graphic2_pages_pane_g
+0xea5b,	// (0x0000ea5b) graphic2_pages_pane_g
 
-0xddac,	// (0x0000ddac) graphic2_pages_pane_t1_ParamLimits
+0xddeb,	// (0x0000ddeb) graphic2_pages_pane_t1_ParamLimits
 
-0xddac,	// (0x0000ddac) graphic2_pages_pane_t1
+0xddeb,	// (0x0000ddeb) graphic2_pages_pane_t1
 
-0xddc4,	// (0x0000ddc4) cell_graphic2_control_pane_ParamLimits
+0xde03,	// (0x0000de03) cell_graphic2_control_pane_ParamLimits
 
-0xddc4,	// (0x0000ddc4) cell_graphic2_control_pane
+0xde03,	// (0x0000de03) cell_graphic2_control_pane
 
-0xddee,	// (0x0000ddee) cell_graphic2_pane_g1_ParamLimits
+0xde2d,	// (0x0000de2d) cell_graphic2_pane_g1_ParamLimits
 
-0xddee,	// (0x0000ddee) cell_graphic2_pane_g1
+0xde2d,	// (0x0000de2d) cell_graphic2_pane_g1
 
 0x60c8,	// (0x000060c8) cell_graphic2_pane_g2_ParamLimits
 
 0x60c8,	// (0x000060c8) cell_graphic2_pane_g2
 
-0xddfb,	// (0x0000ddfb) cell_graphic2_pane_g3_ParamLimits
+0xde3a,	// (0x0000de3a) cell_graphic2_pane_g3_ParamLimits
 
-0xddfb,	// (0x0000ddfb) cell_graphic2_pane_g3
+0xde3a,	// (0x0000de3a) cell_graphic2_pane_g3
 
 0x60d5,	// (0x000060d5) cell_graphic2_pane_g4_ParamLimits
 
 0x60d5,	// (0x000060d5) cell_graphic2_pane_g4
 
-0xde08,	// (0x0000de08) cell_graphic2_pane_g5_ParamLimits
+0xde47,	// (0x0000de47) cell_graphic2_pane_g5_ParamLimits
 
-0xde08,	// (0x0000de08) cell_graphic2_pane_g5
+0xde47,	// (0x0000de47) cell_graphic2_pane_g5
 
 0x0004,
 
-0xe9d0,	// (0x0000e9d0) cell_graphic2_pane_g_ParamLimits
+0xea60,	// (0x0000ea60) cell_graphic2_pane_g_ParamLimits
 
-0xe9d0,	// (0x0000e9d0) cell_graphic2_pane_g
+0xea60,	// (0x0000ea60) cell_graphic2_pane_g
 
-0xde28,	// (0x0000de28) cell_graphic2_pane_t1_ParamLimits
+0xde67,	// (0x0000de67) cell_graphic2_pane_t1_ParamLimits
 
-0xde28,	// (0x0000de28) cell_graphic2_pane_t1
+0xde67,	// (0x0000de67) cell_graphic2_pane_t1
 
 0x4198,	// (0x00004198) grid_highlight_pane_cp11_ParamLimits
 
@@ -9562,7 +9562,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x07a5,	// (0x000007a5) bg_button_pane_cp05
 
-0xde5d,	// (0x0000de5d) cell_graphic2_control_pane_g1
+0xde9c,	// (0x0000de9c) cell_graphic2_control_pane_g1
 
 0x5e2d,	// (0x00005e2d) bg_touch_area_indi_pane_g1
 
@@ -9598,9 +9598,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa859,	// (0x0000a859) cell_cmode_rocker_pane_g_ParamLimits
+0xa898,	// (0x0000a898) cell_cmode_rocker_pane_g_ParamLimits
 
-0xa859,	// (0x0000a859) cell_cmode_rocker_pane_g
+0xa898,	// (0x0000a898) cell_cmode_rocker_pane_g
 
 0x0020,	// (0x00000020) bg_button_pane_cp07
 
@@ -9612,7 +9612,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa85e,	// (0x0000a85e) cell_cmode_itu_pane_t
+0xa89d,	// (0x0000a89d) cell_cmode_itu_pane_t
 
 0x7e73,	// (0x00007e73) aid_touch_ctrl_left
 
@@ -9620,9 +9620,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0020,	// (0x00000020) compa_mode_pane
 
-0xde85,	// (0x0000de85) aid_cmod_rocker_key_size_cp
+0xdec4,	// (0x0000dec4) aid_cmod_rocker_key_size_cp
 
-0xde8f,	// (0x0000de8f) aid_cmode_itu_key_size_cp
+0xdece,	// (0x0000dece) aid_cmode_itu_key_size_cp
 
 0x8c01,	// (0x00008c01) compa_mode_pane_g1
 
@@ -9632,19 +9632,19 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa863,	// (0x0000a863) compa_mode_pane_g
+0xa8a2,	// (0x0000a8a2) compa_mode_pane_g
 
-0xde99,	// (0x0000de99) main_comp_mode_itu_pane_cp
+0xded8,	// (0x0000ded8) main_comp_mode_itu_pane_cp
 
-0xdea3,	// (0x0000dea3) main_comp_mode_rocker_pane_cp
+0xdee2,	// (0x0000dee2) main_comp_mode_rocker_pane_cp
 
-0xdead,	// (0x0000dead) cell_cmode_itu_pane_cp_ParamLimits
+0xdeec,	// (0x0000deec) cell_cmode_itu_pane_cp_ParamLimits
 
-0xdead,	// (0x0000dead) cell_cmode_itu_pane_cp
+0xdeec,	// (0x0000deec) cell_cmode_itu_pane_cp
 
-0xdec2,	// (0x0000dec2) cell_cmode_rocker_pane_cp_ParamLimits
+0xdf01,	// (0x0000df01) cell_cmode_rocker_pane_cp_ParamLimits
 
-0xdec2,	// (0x0000dec2) cell_cmode_rocker_pane_cp
+0xdf01,	// (0x0000df01) cell_cmode_rocker_pane_cp
 
 0x120e,	// (0x0000120e) bg_button_pane_cp06_cp_ParamLimits
 
@@ -9658,13 +9658,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0020,	// (0x00000020) bg_button_pane_cp07_cp
 
-0xded4,	// (0x0000ded4) cell_cmode_itu_pane_g1_cp
+0xdf13,	// (0x0000df13) cell_cmode_itu_pane_g1_cp
 
-0xdedd,	// (0x0000dedd) cell_cmode_itu_pane_t1_cp
+0xdf1c,	// (0x0000df1c) cell_cmode_itu_pane_t1_cp
 
-0xdeeb,	// (0x0000deeb) cell_cmode_itu_pane_t2_cp
+0xdf2a,	// (0x0000df2a) cell_cmode_itu_pane_t2_cp
 
-0xc80b,	// (0x0000c80b) settings_code_pane_cp2
+0xc84a,	// (0x0000c84a) settings_code_pane_cp2
 
 0x0474,	// (0x00000474) bg_popup_window_pane_cp3_ParamLimits
 
@@ -9680,7 +9680,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x626b,	// (0x0000626b) sctrl_sk_top_pane_g2_ParamLimits
 
-0xa799,	// (0x0000a799) sctrl_sk_top_pane_g_ParamLimits
+0xa7d8,	// (0x0000a7d8) sctrl_sk_top_pane_g_ParamLimits
 
 0x7b79,	// (0x00007b79) sctrl_sk_top_pane_t1_ParamLimits
 
@@ -9690,13 +9690,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x7dbd,	// (0x00007dbd) aid_area_touch_clock
 
-0xd9b3,	// (0x0000d9b3) aid_vkb2_area_top_pane_cell_ParamLimits
+0xd9f2,	// (0x0000d9f2) aid_vkb2_area_top_pane_cell_ParamLimits
 
-0xd9b3,	// (0x0000d9b3) aid_vkb2_area_top_pane_cell
+0xd9f2,	// (0x0000d9f2) aid_vkb2_area_top_pane_cell
 
-0xda5e,	// (0x0000da5e) aid_vkb2_area_bottom_pane_cell_ParamLimits
+0xda9d,	// (0x0000da9d) aid_vkb2_area_bottom_pane_cell_ParamLimits
 
-0xda5e,	// (0x0000da5e) aid_vkb2_area_bottom_pane_cell
+0xda9d,	// (0x0000da9d) aid_vkb2_area_bottom_pane_cell
 
 0x8692,	// (0x00008692) popup_char_count_window
 
@@ -9708,7 +9708,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa86a,	// (0x0000a86a) popup_char_count_window_g
+0xa8a9,	// (0x0000a8a9) popup_char_count_window_g
 
 0x8c90,	// (0x00008c90) popup_char_count_window_t1
 
@@ -9716,13 +9716,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x834a,	// (0x0000834a) popup_fep_char_preview_window
 
-0xd9d3,	// (0x0000d9d3) vkb2_top_candi_pane_ParamLimits
+0xda12,	// (0x0000da12) vkb2_top_candi_pane_ParamLimits
 
-0xd9d3,	// (0x0000d9d3) vkb2_top_candi_pane
+0xda12,	// (0x0000da12) vkb2_top_candi_pane
 
-0xdef9,	// (0x0000def9) cell_vkb2_top_candi_pane_ParamLimits
+0xdf38,	// (0x0000df38) cell_vkb2_top_candi_pane_ParamLimits
 
-0xdef9,	// (0x0000def9) cell_vkb2_top_candi_pane
+0xdf38,	// (0x0000df38) cell_vkb2_top_candi_pane
 
 0x3a37,	// (0x00003a37) bg_popup_fep_char_preview_window_ParamLimits
 
@@ -9752,7 +9752,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0008,
 
-0xa871,	// (0x0000a871) bg_popup_fep_char_preview_window_g
+0xa8b0,	// (0x0000a8b0) bg_popup_fep_char_preview_window_g
 
 0x626b,	// (0x0000626b) cell_vkb2_top_candi_pane_g1_ParamLimits
 
@@ -9780,9 +9780,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0005,
 
-0xa884,	// (0x0000a884) cell_vkb2_top_candi_pane_g_ParamLimits
+0xa8c3,	// (0x0000a8c3) cell_vkb2_top_candi_pane_g_ParamLimits
 
-0xa884,	// (0x0000a884) cell_vkb2_top_candi_pane_g
+0xa8c3,	// (0x0000a8c3) cell_vkb2_top_candi_pane_g
 
 0x8d9b,	// (0x00008d9b) cell_vkb2_top_candi_pane_t1
 
@@ -9790,27 +9790,27 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x4870,	// (0x00004870) aid_size_touch_slider_mark
 
-0xdc4a,	// (0x0000dc4a) grid_graphic2_catg_pane_ParamLimits
+0xdc89,	// (0x0000dc89) grid_graphic2_catg_pane_ParamLimits
 
-0xdc4a,	// (0x0000dc4a) grid_graphic2_catg_pane
+0xdc89,	// (0x0000dc89) grid_graphic2_catg_pane
 
-0xdce1,	// (0x0000dce1) popup_grid_graphic2_window_t1_ParamLimits
+0xdd20,	// (0x0000dd20) popup_grid_graphic2_window_t1_ParamLimits
 
-0xdce1,	// (0x0000dce1) popup_grid_graphic2_window_t1
+0xdd20,	// (0x0000dd20) popup_grid_graphic2_window_t1
 
-0xdcf6,	// (0x0000dcf6) popup_grid_graphic2_window_t2_ParamLimits
+0xdd35,	// (0x0000dd35) popup_grid_graphic2_window_t2_ParamLimits
 
-0xdcf6,	// (0x0000dcf6) popup_grid_graphic2_window_t2
+0xdd35,	// (0x0000dd35) popup_grid_graphic2_window_t2
 
 0x0001,
 
-0xe9c6,	// (0x0000e9c6) popup_grid_graphic2_window_t_ParamLimits
+0xea56,	// (0x0000ea56) popup_grid_graphic2_window_t_ParamLimits
 
-0xe9c6,	// (0x0000e9c6) popup_grid_graphic2_window_t
+0xea56,	// (0x0000ea56) popup_grid_graphic2_window_t
 
 0x07a5,	// (0x000007a5) bg_button_pane_cp05_ParamLimits
 
-0xde5d,	// (0x0000de5d) cell_graphic2_control_pane_g1_ParamLimits
+0xde9c,	// (0x0000de9c) cell_graphic2_control_pane_g1_ParamLimits
 
 0x7e39,	// (0x00007e39) cell_graphic2_catg_pane_ParamLimits
 
@@ -9818,7 +9818,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0020,	// (0x00000020) bg_button_pane_cp12
 
-0xdf43,	// (0x0000df43) cell_graphic2_catg_pane_g1
+0xdf82,	// (0x0000df82) cell_graphic2_catg_pane_g1
 
 0x7d89,	// (0x00007d89) cell_tb_ext_pane_t1_ParamLimits
 
@@ -9862,7 +9862,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0008,
 
-0xa891,	// (0x0000a891) bg_vkb2_func_pane_g
+0xa8d0,	// (0x0000a8d0) bg_vkb2_func_pane_g
 
 0x5e86,	// (0x00005e86) bg_vkb2_fuc_pane_cp01_ParamLimits
 
@@ -9880,33 +9880,33 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x8820,	// (0x00008820) vkb2_top_cell_right_narrow_pane_g1
 
-0xd190,	// (0x0000d190) aid_touch_area_decrease_ParamLimits
+0xd1cf,	// (0x0000d1cf) aid_touch_area_decrease_ParamLimits
 
-0xd190,	// (0x0000d190) aid_touch_area_decrease
+0xd1cf,	// (0x0000d1cf) aid_touch_area_decrease
 
-0xd1be,	// (0x0000d1be) aid_touch_area_increase_ParamLimits
+0xd1fd,	// (0x0000d1fd) aid_touch_area_increase_ParamLimits
 
-0xd1be,	// (0x0000d1be) aid_touch_area_increase
+0xd1fd,	// (0x0000d1fd) aid_touch_area_increase
 
-0xd1e6,	// (0x0000d1e6) aid_touch_area_mute_ParamLimits
+0xd225,	// (0x0000d225) aid_touch_area_mute_ParamLimits
 
-0xd1e6,	// (0x0000d1e6) aid_touch_area_mute
+0xd225,	// (0x0000d225) aid_touch_area_mute
 
-0xd20e,	// (0x0000d20e) aid_touch_area_slider_ParamLimits
+0xd24d,	// (0x0000d24d) aid_touch_area_slider_ParamLimits
 
-0xd20e,	// (0x0000d20e) aid_touch_area_slider
+0xd24d,	// (0x0000d24d) aid_touch_area_slider
 
-0xd24e,	// (0x0000d24e) popup_slider_window_g4_ParamLimits
+0xd28d,	// (0x0000d28d) popup_slider_window_g4_ParamLimits
 
-0xd24e,	// (0x0000d24e) popup_slider_window_g4
+0xd28d,	// (0x0000d28d) popup_slider_window_g4
 
-0xd276,	// (0x0000d276) popup_slider_window_g5_ParamLimits
+0xd2b5,	// (0x0000d2b5) popup_slider_window_g5_ParamLimits
 
-0xd276,	// (0x0000d276) popup_slider_window_g5
+0xd2b5,	// (0x0000d2b5) popup_slider_window_g5
 
-0xd2aa,	// (0x0000d2aa) popup_slider_window_g6_ParamLimits
+0xd2e9,	// (0x0000d2e9) popup_slider_window_g6_ParamLimits
 
-0xd2aa,	// (0x0000d2aa) popup_slider_window_g6
+0xd2e9,	// (0x0000d2e9) popup_slider_window_g6
 
 0x7aa1,	// (0x00007aa1) popup_slider_window_t2_ParamLimits
 
@@ -9914,13 +9914,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa78d,	// (0x0000a78d) popup_slider_window_t_ParamLimits
+0xa7cc,	// (0x0000a7cc) popup_slider_window_t_ParamLimits
 
-0xa78d,	// (0x0000a78d) popup_slider_window_t
+0xa7cc,	// (0x0000a7cc) popup_slider_window_t
 
-0xd2c6,	// (0x0000d2c6) slider_pane_ParamLimits
+0xd305,	// (0x0000d305) slider_pane_ParamLimits
 
-0xd2c6,	// (0x0000d2c6) slider_pane
+0xd305,	// (0x0000d305) slider_pane
 
 0x8dcc,	// (0x00008dcc) slider_pane_g1_ParamLimits
 
@@ -9936,13 +9936,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa8a4,	// (0x0000a8a4) slider_pane_g_ParamLimits
+0xa8e3,	// (0x0000a8e3) slider_pane_g_ParamLimits
 
-0xa8a4,	// (0x0000a8a4) slider_pane_g
+0xa8e3,	// (0x0000a8e3) slider_pane_g
 
-0xbee2,	// (0x0000bee2) popup_tb_float_extension_window_ParamLimits
+0xbf21,	// (0x0000bf21) popup_tb_float_extension_window_ParamLimits
 
-0xbee2,	// (0x0000bee2) popup_tb_float_extension_window
+0xbf21,	// (0x0000bf21) popup_tb_float_extension_window
 
 0x8e22,	// (0x00008e22) aid_size_cell_tb_float_ext
 
@@ -9958,9 +9958,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x8e56,	// (0x00008e56) grid_highlight_pane_cp12
 
-0xcb4b,	// (0x0000cb4b) cell_last_hwr_side_pane_ParamLimits
+0xcb8a,	// (0x0000cb8a) cell_last_hwr_side_pane_ParamLimits
 
-0xcb4b,	// (0x0000cb4b) cell_last_hwr_side_pane
+0xcb8a,	// (0x0000cb8a) cell_last_hwr_side_pane
 
 0x5e2d,	// (0x00005e2d) cell_last_hwr_side_pane_g1
 
@@ -9968,11 +9968,11 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa8ad,	// (0x0000a8ad) cell_last_hwr_side_pane_g
+0xa8ec,	// (0x0000a8ec) cell_last_hwr_side_pane_g
 
-0xdb32,	// (0x0000db32) vkb2_area_bottom_space_btn_pane_ParamLimits
+0xdb71,	// (0x0000db71) vkb2_area_bottom_space_btn_pane_ParamLimits
 
-0xdb32,	// (0x0000db32) vkb2_area_bottom_space_btn_pane
+0xdb71,	// (0x0000db71) vkb2_area_bottom_space_btn_pane
 
 0x626b,	// (0x0000626b) vkb2_cell_t_keypad_pane_g1_ParamLimits
 
@@ -9994,17 +9994,17 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa8b2,	// (0x0000a8b2) vkb2_area_bottom_space_btn_pane_g_ParamLimits
+0xa8f1,	// (0x0000a8f1) vkb2_area_bottom_space_btn_pane_g_ParamLimits
 
-0xa8b2,	// (0x0000a8b2) vkb2_area_bottom_space_btn_pane_g
+0xa8f1,	// (0x0000a8f1) vkb2_area_bottom_space_btn_pane_g
 
 0x5f43,	// (0x00005f43) cel_fep_hwr_func_pane_ParamLimits
 
 0x5f43,	// (0x00005f43) cel_fep_hwr_func_pane
 
-0xcb20,	// (0x0000cb20) cell_hwr_side_button_pane_ParamLimits
+0xcb5f,	// (0x0000cb5f) cell_hwr_side_button_pane_ParamLimits
 
-0xcb20,	// (0x0000cb20) cell_hwr_side_button_pane
+0xcb5f,	// (0x0000cb5f) cell_hwr_side_button_pane
 
 0x7dbd,	// (0x00007dbd) aid_area_touch_clock_ParamLimits
 
@@ -10018,7 +10018,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x7e02,	// (0x00007e02) uniindi_top_pane_g4_ParamLimits
 
-0xa7c5,	// (0x0000a7c5) uniindi_top_pane_g_ParamLimits
+0xa804,	// (0x0000a804) uniindi_top_pane_g_ParamLimits
 
 0x7e0f,	// (0x00007e0f) uniindi_top_pane_t1_ParamLimits
 
@@ -10048,11 +10048,11 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x5c17,	// (0x00005c17) form2_midp_gauge_slider_pane_t1_ParamLimits
 
-0xcafc,	// (0x0000cafc) form2_midp_gauge_slider_pane_t2_ParamLimits
+0xcb3b,	// (0x0000cb3b) form2_midp_gauge_slider_pane_t2_ParamLimits
 
-0xcb0e,	// (0x0000cb0e) form2_midp_gauge_slider_pane_t3_ParamLimits
+0xcb4d,	// (0x0000cb4d) form2_midp_gauge_slider_pane_t3_ParamLimits
 
-0xe912,	// (0x0000e912) form2_midp_gauge_slider_pane_t_ParamLimits
+0xe9a2,	// (0x0000e9a2) form2_midp_gauge_slider_pane_t_ParamLimits
 
 0x5c4d,	// (0x00005c4d) form2_midp_slider_pane_ParamLimits
 
@@ -10064,11 +10064,11 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x8e0e,	// (0x00008e0e) slider_pane_g4
 
-0xdf4c,	// (0x0000df4c) form2_midp_gauge_slider_pane_t2_cp01
+0xdf8b,	// (0x0000df8b) form2_midp_gauge_slider_pane_t2_cp01
 
-0xdf5a,	// (0x0000df5a) form2_midp_gauge_slider_pane_t3_cp01_ParamLimits
+0xdf99,	// (0x0000df99) form2_midp_gauge_slider_pane_t3_cp01_ParamLimits
 
-0xdf5a,	// (0x0000df5a) form2_midp_gauge_slider_pane_t3_cp01
+0xdf99,	// (0x0000df99) form2_midp_gauge_slider_pane_t3_cp01
 
 0x8f53,	// (0x00008f53) form2_midp_slider_pane_cp01
 
@@ -10086,27 +10086,27 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x8f5c,	// (0x00008f5c) form2_midp_slider_pane_g4
 
-0xdf77,	// (0x0000df77) form2_midp_slider_pane_g5
+0xdfb6,	// (0x0000dfb6) form2_midp_slider_pane_g5
 
 0x0004,
 
-0xe9e0,	// (0x0000e9e0) form2_midp_slider_pane_g
+0xea70,	// (0x0000ea70) form2_midp_slider_pane_g
 
 0x8f0a,	// (0x00008f0a) vkb2_area_bottom_space_btn_pane_g4_ParamLimits
 
 0x8f0a,	// (0x00008f0a) vkb2_area_bottom_space_btn_pane_g4
 
-0xc084,	// (0x0000c084) lc0_navi_pane_ParamLimits
+0xc0c3,	// (0x0000c0c3) lc0_navi_pane_ParamLimits
 
-0xc084,	// (0x0000c084) lc0_navi_pane
+0xc0c3,	// (0x0000c0c3) lc0_navi_pane
 
-0xc0ee,	// (0x0000c0ee) lc0_stat_indi_pane_ParamLimits
+0xc12d,	// (0x0000c12d) lc0_stat_indi_pane_ParamLimits
 
-0xc0ee,	// (0x0000c0ee) lc0_stat_indi_pane
+0xc12d,	// (0x0000c12d) lc0_stat_indi_pane
 
-0xc103,	// (0x0000c103) ls0_title_pane_ParamLimits
+0xc142,	// (0x0000c142) ls0_title_pane_ParamLimits
 
-0xc103,	// (0x0000c103) ls0_title_pane
+0xc142,	// (0x0000c142) ls0_title_pane
 
 0x120e,	// (0x0000120e) bg_popup_sub_pane_cp14_ParamLimits
 
@@ -10118,39 +10118,39 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x7e5e,	// (0x00007e5e) list_single_uniindi_pane_t1_ParamLimits
 
-0xdf80,	// (0x0000df80) lc0_stat_clock_pane_ParamLimits
+0xdfbf,	// (0x0000dfbf) lc0_stat_clock_pane_ParamLimits
 
-0xdf80,	// (0x0000df80) lc0_stat_clock_pane
+0xdfbf,	// (0x0000dfbf) lc0_stat_clock_pane
 
-0xdf8d,	// (0x0000df8d) lc0_stat_indi_pane_g1_ParamLimits
+0xdfcc,	// (0x0000dfcc) lc0_stat_indi_pane_g1_ParamLimits
 
-0xdf8d,	// (0x0000df8d) lc0_stat_indi_pane_g1
+0xdfcc,	// (0x0000dfcc) lc0_stat_indi_pane_g1
 
-0xdf9a,	// (0x0000df9a) lc0_stat_indi_pane_g2_ParamLimits
+0xdfd9,	// (0x0000dfd9) lc0_stat_indi_pane_g2_ParamLimits
 
-0xdf9a,	// (0x0000df9a) lc0_stat_indi_pane_g2
+0xdfd9,	// (0x0000dfd9) lc0_stat_indi_pane_g2
 
 0x0001,
 
-0xe9eb,	// (0x0000e9eb) lc0_stat_indi_pane_g_ParamLimits
+0xea7b,	// (0x0000ea7b) lc0_stat_indi_pane_g_ParamLimits
 
-0xe9eb,	// (0x0000e9eb) lc0_stat_indi_pane_g
+0xea7b,	// (0x0000ea7b) lc0_stat_indi_pane_g
 
-0xdfa7,	// (0x0000dfa7) lc0_uni_indicator_pane_ParamLimits
+0xdfe6,	// (0x0000dfe6) lc0_uni_indicator_pane_ParamLimits
 
-0xdfa7,	// (0x0000dfa7) lc0_uni_indicator_pane
+0xdfe6,	// (0x0000dfe6) lc0_uni_indicator_pane
 
 0x8fd1,	// (0x00008fd1) ls0_title_pane_g1_ParamLimits
 
 0x8fd1,	// (0x00008fd1) ls0_title_pane_g1
 
-0xdfb4,	// (0x0000dfb4) ls0_title_pane_t1_ParamLimits
+0xdff3,	// (0x0000dff3) ls0_title_pane_t1_ParamLimits
 
-0xdfb4,	// (0x0000dfb4) ls0_title_pane_t1
+0xdff3,	// (0x0000dff3) ls0_title_pane_t1
 
-0xdfe2,	// (0x0000dfe2) lc0_uni_indicator_pane_g1_ParamLimits
+0xe021,	// (0x0000e021) lc0_uni_indicator_pane_g1_ParamLimits
 
-0xdfe2,	// (0x0000dfe2) lc0_uni_indicator_pane_g1
+0xe021,	// (0x0000e021) lc0_uni_indicator_pane_g1
 
 0x902d,	// (0x0000902d) lc0_stat_clock_pane_t1
 
@@ -10160,9 +10160,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x903b,	// (0x0000903b) ai5_sk_pane
 
-0xdff7,	// (0x0000dff7) cell_ai5_widget_pane_ParamLimits
+0xe036,	// (0x0000e036) cell_ai5_widget_pane_ParamLimits
 
-0xdff7,	// (0x0000dff7) cell_ai5_widget_pane
+0xe036,	// (0x0000e036) cell_ai5_widget_pane
 
 0x90be,	// (0x000090be) aid_size_cell_widget_grid
 
@@ -10170,37 +10170,37 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x90cb,	// (0x000090cb) bg_ai5_widget_pane
 
-0xe084,	// (0x0000e084) cell_ai5_widget_pane_g2
+0xe0c3,	// (0x0000e0c3) cell_ai5_widget_pane_g2
 
-0xe098,	// (0x0000e098) cell_ai5_widget_pane_g3
+0xe0d7,	// (0x0000e0d7) cell_ai5_widget_pane_g3
 
-0xe0b2,	// (0x0000e0b2) cell_ai5_widget_pane_g4
+0xe0f1,	// (0x0000e0f1) cell_ai5_widget_pane_g4
 
-0xe0c2,	// (0x0000e0c2) cell_ai5_widget_pane_g5
+0xe101,	// (0x0000e101) cell_ai5_widget_pane_g5
 
-0xe0d2,	// (0x0000e0d2) cell_ai5_widget_pane_g6
+0xe111,	// (0x0000e111) cell_ai5_widget_pane_g6
 
-0xe0de,	// (0x0000e0de) cell_ai5_widget_pane_g7
+0xe11d,	// (0x0000e11d) cell_ai5_widget_pane_g7
 
-0xe126,	// (0x0000e126) cell_ai5_widget_pane_t1_ParamLimits
+0xe165,	// (0x0000e165) cell_ai5_widget_pane_t1_ParamLimits
 
-0xe126,	// (0x0000e126) cell_ai5_widget_pane_t1
+0xe165,	// (0x0000e165) cell_ai5_widget_pane_t1
 
-0xe143,	// (0x0000e143) cell_ai5_widget_pane_t2_ParamLimits
+0xe182,	// (0x0000e182) cell_ai5_widget_pane_t2_ParamLimits
 
-0xe143,	// (0x0000e143) cell_ai5_widget_pane_t2
+0xe182,	// (0x0000e182) cell_ai5_widget_pane_t2
 
-0xe15b,	// (0x0000e15b) cell_ai5_widget_pane_t3_ParamLimits
+0xe19a,	// (0x0000e19a) cell_ai5_widget_pane_t3_ParamLimits
 
-0xe15b,	// (0x0000e15b) cell_ai5_widget_pane_t3
+0xe19a,	// (0x0000e19a) cell_ai5_widget_pane_t3
 
-0xe173,	// (0x0000e173) cell_ai5_widget_pane_t4_ParamLimits
+0xe1b2,	// (0x0000e1b2) cell_ai5_widget_pane_t4_ParamLimits
 
-0xe173,	// (0x0000e173) cell_ai5_widget_pane_t4
+0xe1b2,	// (0x0000e1b2) cell_ai5_widget_pane_t4
 
-0xe199,	// (0x0000e199) cell_ai5_widget_pane_t5_ParamLimits
+0xe1d8,	// (0x0000e1d8) cell_ai5_widget_pane_t5_ParamLimits
 
-0xe199,	// (0x0000e199) cell_ai5_widget_pane_t5
+0xe1d8,	// (0x0000e1d8) cell_ai5_widget_pane_t5
 
 0x9254,	// (0x00009254) cell_ai5_widget_pane_t6_ParamLimits
 
@@ -10210,27 +10210,27 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x9266,	// (0x00009266) cell_ai5_widget_pane_t7
 
-0xe1b8,	// (0x0000e1b8) cell_ai5_widget_pane_t8_ParamLimits
+0xe1f7,	// (0x0000e1f7) cell_ai5_widget_pane_t8_ParamLimits
 
-0xe1b8,	// (0x0000e1b8) cell_ai5_widget_pane_t8
+0xe1f7,	// (0x0000e1f7) cell_ai5_widget_pane_t8
 
 0x0009,
 
-0xea05,	// (0x0000ea05) cell_ai5_widget_pane_t_ParamLimits
+0xea95,	// (0x0000ea95) cell_ai5_widget_pane_t_ParamLimits
 
-0xea05,	// (0x0000ea05) cell_ai5_widget_pane_t
+0xea95,	// (0x0000ea95) cell_ai5_widget_pane_t
 
-0xe217,	// (0x0000e217) grid_ai5_widget_pane
+0xe256,	// (0x0000e256) grid_ai5_widget_pane
 
 0x120e,	// (0x0000120e) highlight_cell_ai5_widget_pane_ParamLimits
 
 0x120e,	// (0x0000120e) highlight_cell_ai5_widget_pane
 
-0xe223,	// (0x0000e223) ai5_sk_left_pane
+0xe262,	// (0x0000e262) ai5_sk_left_pane
 
-0xe22d,	// (0x0000e22d) ai5_sk_middle_pane
+0xe26c,	// (0x0000e26c) ai5_sk_middle_pane
 
-0xe237,	// (0x0000e237) ai5_sk_right_pane
+0xe276,	// (0x0000e276) ai5_sk_right_pane
 
 0x9308,	// (0x00009308) bg_ai5_widget_pane_g1_ParamLimits
 
@@ -10270,9 +10270,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0008,
 
-0xa8f5,	// (0x0000a8f5) bg_ai5_widget_pane_g_ParamLimits
+0xa934,	// (0x0000a934) bg_ai5_widget_pane_g_ParamLimits
 
-0xa8f5,	// (0x0000a8f5) bg_ai5_widget_pane_g
+0xa934,	// (0x0000a934) bg_ai5_widget_pane_g
 
 0x9398,	// (0x00009398) cell_shortcut_ai5_widget_pane_ParamLimits
 
@@ -10294,7 +10294,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa908,	// (0x0000a908) ai5_sk_left_pane_g
+0xa947,	// (0x0000a947) ai5_sk_left_pane_g
 
 0x93c9,	// (0x000093c9) ai5_sk_left_pane_t1
 
@@ -10308,7 +10308,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0003,
 
-0xa911,	// (0x0000a911) ai5_sk_right_pane_g
+0xa950,	// (0x0000a950) ai5_sk_right_pane_g
 
 0x93ef,	// (0x000093ef) ai5_sk_right_pane_t1
 
@@ -10324,85 +10324,85 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x93fd,	// (0x000093fd) ai5_sk_middle_pane_g6
 
-0xe241,	// (0x0000e241) ai5_sk_middle_pane_g7
+0xe280,	// (0x0000e280) ai5_sk_middle_pane_g7
 
 0x0006,
 
-0xea1a,	// (0x0000ea1a) ai5_sk_middle_pane_g
+0xeaaa,	// (0x0000eaaa) ai5_sk_middle_pane_g
 
-0xbf82,	// (0x0000bf82) aid_touch_area_size_lc0_ParamLimits
+0xbfc1,	// (0x0000bfc1) aid_touch_area_size_lc0_ParamLimits
 
-0xbf82,	// (0x0000bf82) aid_touch_area_size_lc0
+0xbfc1,	// (0x0000bfc1) aid_touch_area_size_lc0
 
 0x6604,	// (0x00006604) cell_hwr_candidate_pane_t1_ParamLimits
 
 0x2d87,	// (0x00002d87) aid_touch_navi_pane
 
-0xc1ef,	// (0x0000c1ef) status_dt_navi_pane_ParamLimits
+0xc22e,	// (0x0000c22e) status_dt_navi_pane_ParamLimits
 
-0xc1ef,	// (0x0000c1ef) status_dt_navi_pane
+0xc22e,	// (0x0000c22e) status_dt_navi_pane
 
-0xc207,	// (0x0000c207) status_dt_sta_pane_ParamLimits
+0xc246,	// (0x0000c246) status_dt_sta_pane_ParamLimits
 
-0xc207,	// (0x0000c207) status_dt_sta_pane
+0xc246,	// (0x0000c246) status_dt_sta_pane
 
-0xe249,	// (0x0000e249) dt_sta_controll_pane
+0xe288,	// (0x0000e288) dt_sta_controll_pane
 
-0xe256,	// (0x0000e256) dt_sta_indi_pane
+0xe295,	// (0x0000e295) dt_sta_indi_pane
 
-0xe263,	// (0x0000e263) dt_sta_title_pane
+0xe2a2,	// (0x0000e2a2) dt_sta_title_pane
 
 0x07a5,	// (0x000007a5) bg_dt_sta_indi_pane_ParamLimits
 
 0x07a5,	// (0x000007a5) bg_dt_sta_indi_pane
 
-0xe275,	// (0x0000e275) dt_sta_battery_pane
+0xe2b4,	// (0x0000e2b4) dt_sta_battery_pane
 
-0xe27d,	// (0x0000e27d) dt_sta_indi_pane_g1
+0xe2bc,	// (0x0000e2bc) dt_sta_indi_pane_g1
 
-0xe286,	// (0x0000e286) dt_sta_indi_pane_g2
+0xe2c5,	// (0x0000e2c5) dt_sta_indi_pane_g2
 
-0xe28f,	// (0x0000e28f) dt_sta_indi_pane_g3
+0xe2ce,	// (0x0000e2ce) dt_sta_indi_pane_g3
 
 0x0002,
 
-0xea29,	// (0x0000ea29) dt_sta_indi_pane_g
+0xeab9,	// (0x0000eab9) dt_sta_indi_pane_g
 
-0xe298,	// (0x0000e298) dt_sta_signal_pane
+0xe2d7,	// (0x0000e2d7) dt_sta_signal_pane
 
 0x120e,	// (0x0000120e) bg_dt_sta_title_pane_ParamLimits
 
 0x120e,	// (0x0000120e) bg_dt_sta_title_pane
 
-0xe2a1,	// (0x0000e2a1) dt_sta_title_pane_g1
+0xe2e0,	// (0x0000e2e0) dt_sta_title_pane_g1
 
-0xe2a9,	// (0x0000e2a9) dt_sta_title_pane_t1_ParamLimits
+0xe2e8,	// (0x0000e2e8) dt_sta_title_pane_t1_ParamLimits
 
-0xe2a9,	// (0x0000e2a9) dt_sta_title_pane_t1
+0xe2e8,	// (0x0000e2e8) dt_sta_title_pane_t1
 
 0x0020,	// (0x00000020) bg_dt_sta_control_pane
 
-0xe2be,	// (0x0000e2be) dt_sta_controll_pane_g1
+0xe2fd,	// (0x0000e2fd) dt_sta_controll_pane_g1
 
-0xe2c7,	// (0x0000e2c7) bg_dt_sta_title_pane_g1
+0xe306,	// (0x0000e306) bg_dt_sta_title_pane_g1
 
-0xe2d0,	// (0x0000e2d0) bg_dt_sta_title_pane_g2
+0xe30f,	// (0x0000e30f) bg_dt_sta_title_pane_g2
 
-0xe2d9,	// (0x0000e2d9) bg_dt_sta_title_pane_g3
+0xe318,	// (0x0000e318) bg_dt_sta_title_pane_g3
 
 0x0002,
 
-0xea30,	// (0x0000ea30) bg_dt_sta_title_pane_g
+0xeac0,	// (0x0000eac0) bg_dt_sta_title_pane_g
 
 0x5e2d,	// (0x00005e2d) bg_dt_sta_indi_pane_g1
 
-0xe2e2,	// (0x0000e2e2) dt_sta_signal_pane_g1
+0xe321,	// (0x0000e321) dt_sta_signal_pane_g1
 
-0xe2ea,	// (0x0000e2ea) dt_sta_signal_pane_g2
+0xe329,	// (0x0000e329) dt_sta_signal_pane_g2
 
 0x0001,
 
-0xea37,	// (0x0000ea37) dt_sta_signal_pane_g
+0xeac7,	// (0x0000eac7) dt_sta_signal_pane_g
 
 0x94bb,	// (0x000094bb) dt_sta_battery_pane_g1
 
@@ -10422,9 +10422,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa1cd,	// (0x0000a1cd) popup_fep_china_uni_window_g_ParamLimits
+0xa20c,	// (0x0000a20c) popup_fep_china_uni_window_g_ParamLimits
 
-0xa1cd,	// (0x0000a1cd) popup_fep_china_uni_window_g
+0xa20c,	// (0x0000a20c) popup_fep_china_uni_window_g
 
 0x94d3,	// (0x000094d3) fep_china_uni_eep_pane_g1
 
@@ -10438,27 +10438,27 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x3090,	// (0x00003090) status_pane_g5
 
-0xbb16,	// (0x0000bb16) popup_keymap_window
+0xbb55,	// (0x0000bb55) popup_keymap_window
 
 0x3058,	// (0x00003058) status_icon_pane
 
-0xe098,	// (0x0000e098) cell_ai5_widget_pane_g3_ParamLimits
+0xe0d7,	// (0x0000e0d7) cell_ai5_widget_pane_g3_ParamLimits
 
-0xe0b2,	// (0x0000e0b2) cell_ai5_widget_pane_g4_ParamLimits
+0xe0f1,	// (0x0000e0f1) cell_ai5_widget_pane_g4_ParamLimits
 
-0xe0c2,	// (0x0000e0c2) cell_ai5_widget_pane_g5_ParamLimits
+0xe101,	// (0x0000e101) cell_ai5_widget_pane_g5_ParamLimits
 
-0xe0ea,	// (0x0000e0ea) cell_ai5_widget_pane_g8_ParamLimits
+0xe129,	// (0x0000e129) cell_ai5_widget_pane_g8_ParamLimits
 
-0xe0ea,	// (0x0000e0ea) cell_ai5_widget_pane_g8
+0xe129,	// (0x0000e129) cell_ai5_widget_pane_g8
 
-0xe0fe,	// (0x0000e0fe) cell_ai5_widget_pane_g9_ParamLimits
+0xe13d,	// (0x0000e13d) cell_ai5_widget_pane_g9_ParamLimits
 
-0xe0fe,	// (0x0000e0fe) cell_ai5_widget_pane_g9
+0xe13d,	// (0x0000e13d) cell_ai5_widget_pane_g9
 
-0xe112,	// (0x0000e112) cell_ai5_widget_pane_g10_ParamLimits
+0xe151,	// (0x0000e151) cell_ai5_widget_pane_g10_ParamLimits
 
-0xe112,	// (0x0000e112) cell_ai5_widget_pane_g10
+0xe151,	// (0x0000e151) cell_ai5_widget_pane_g10
 
 0x94ea,	// (0x000094ea) status_icon_pane_g1
 
@@ -10466,23 +10466,23 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x94f2,	// (0x000094f2) popup_keymap_window_t1
 
-0xb866,	// (0x0000b866) control_pane_g6_ParamLimits
+0xb8a5,	// (0x0000b8a5) control_pane_g6_ParamLimits
 
-0xb866,	// (0x0000b866) control_pane_g6
+0xb8a5,	// (0x0000b8a5) control_pane_g6
 
-0xb873,	// (0x0000b873) control_pane_g7_ParamLimits
+0xb8b2,	// (0x0000b8b2) control_pane_g7_ParamLimits
 
-0xb873,	// (0x0000b873) control_pane_g7
+0xb8b2,	// (0x0000b8b2) control_pane_g7
 
-0xb880,	// (0x0000b880) control_pane_g8_ParamLimits
+0xb8bf,	// (0x0000b8bf) control_pane_g8_ParamLimits
 
-0xb880,	// (0x0000b880) control_pane_g8
+0xb8bf,	// (0x0000b8bf) control_pane_g8
 
-0xe249,	// (0x0000e249) dt_sta_controll_pane_ParamLimits
+0xe288,	// (0x0000e288) dt_sta_controll_pane_ParamLimits
 
-0xe256,	// (0x0000e256) dt_sta_indi_pane_ParamLimits
+0xe295,	// (0x0000e295) dt_sta_indi_pane_ParamLimits
 
-0xe263,	// (0x0000e263) dt_sta_title_pane_ParamLimits
+0xe2a2,	// (0x0000e2a2) dt_sta_title_pane_ParamLimits
 
 0x0c2a,	// (0x00000c2a) aid_size_touch_scroll_bar_cale
 
@@ -10490,7 +10490,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x026c,	// (0x0000026c) popup_discreet_window
 
-0xaabd,	// (0x0000aabd) popup_sk_window
+0xaafc,	// (0x0000aafc) popup_sk_window
 
 0x3a37,	// (0x00003a37) bg_popup_sub_pane_cp28_ParamLimits
 
@@ -10510,9 +10510,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa93c,	// (0x0000a93c) popup_discreet_window_t_ParamLimits
+0xa97b,	// (0x0000a97b) popup_discreet_window_t_ParamLimits
 
-0xa93c,	// (0x0000a93c) popup_discreet_window_t
+0xa97b,	// (0x0000a97b) popup_discreet_window_t
 
 0x9590,	// (0x00009590) popup_sk_window_g1
 
@@ -10520,85 +10520,85 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa943,	// (0x0000a943) popup_sk_window_g
+0xa982,	// (0x0000a982) popup_sk_window_g
 
 0x95a2,	// (0x000095a2) popup_sk_window_t1
 
 0x95b0,	// (0x000095b0) popup_sk_window_t1_copy1
 
-0xe084,	// (0x0000e084) cell_ai5_widget_pane_g2_ParamLimits
+0xe0c3,	// (0x0000e0c3) cell_ai5_widget_pane_g2_ParamLimits
 
-0xe1ca,	// (0x0000e1ca) cell_ai5_widget_pane_t9_ParamLimits
+0xe209,	// (0x0000e209) cell_ai5_widget_pane_t9_ParamLimits
 
-0xe1ca,	// (0x0000e1ca) cell_ai5_widget_pane_t9
+0xe209,	// (0x0000e209) cell_ai5_widget_pane_t9
 
 0x0020,	// (0x00000020) main_fep_fshwr2_pane
 
-0xe2f2,	// (0x0000e2f2) aid_fshwr2_btn_pane
+0xe331,	// (0x0000e331) aid_fshwr2_btn_pane
 
-0xe303,	// (0x0000e303) aid_fshwr2_syb_pane
+0xe345,	// (0x0000e345) aid_fshwr2_syb_pane
 
-0xe314,	// (0x0000e314) aid_fshwr2_txt_pane
+0xe359,	// (0x0000e359) aid_fshwr2_txt_pane
 
-0xe320,	// (0x0000e320) fshwr2_func_candi_pane
+0xe369,	// (0x0000e369) fshwr2_func_candi_pane
 
-0xe33a,	// (0x0000e33a) fshwr2_hwr_syb_pane
+0xe381,	// (0x0000e381) fshwr2_hwr_syb_pane
 
-0xe34f,	// (0x0000e34f) fshwr2_icf_pane
+0xe399,	// (0x0000e399) fshwr2_icf_pane
 
 0x0020,	// (0x00000020) fshwr2_icf_bg_pane
 
-0xe375,	// (0x0000e375) fshwr2_icf_pane_t1_ParamLimits
+0xe3c3,	// (0x0000e3c3) fshwr2_icf_pane_t1_ParamLimits
 
-0xe375,	// (0x0000e375) fshwr2_icf_pane_t1
+0xe3c3,	// (0x0000e3c3) fshwr2_icf_pane_t1
 
 0x1b2f,	// (0x00001b2f) fshwr2_func_candi_pane_g1
 
-0xe38c,	// (0x0000e38c) fshwr2_func_candi_row_pane_ParamLimits
+0xe3da,	// (0x0000e3da) fshwr2_func_candi_row_pane_ParamLimits
 
-0xe38c,	// (0x0000e38c) fshwr2_func_candi_row_pane
+0xe3da,	// (0x0000e3da) fshwr2_func_candi_row_pane
 
-0xe3af,	// (0x0000e3af) cell_fshwr2_syb_pane_ParamLimits
+0xe3fd,	// (0x0000e3fd) cell_fshwr2_syb_pane_ParamLimits
 
-0xe3af,	// (0x0000e3af) cell_fshwr2_syb_pane
+0xe3fd,	// (0x0000e3fd) cell_fshwr2_syb_pane
 
-0x626b,	// (0x0000626b) fshwr2_hwr_syb_pane_g1_ParamLimits
+0x8f1a,	// (0x00008f1a) fshwr2_hwr_syb_pane_g1_ParamLimits
 
-0x626b,	// (0x0000626b) fshwr2_hwr_syb_pane_g1
+0x8f1a,	// (0x00008f1a) fshwr2_hwr_syb_pane_g1
 
 0x0020,	// (0x00000020) bg_popup_call_pane_cp01
 
-0xe3c3,	// (0x0000e3c3) fshwr2_func_candi_cell_pane_ParamLimits
+0xe41f,	// (0x0000e41f) fshwr2_func_candi_cell_pane_ParamLimits
 
-0xe3c3,	// (0x0000e3c3) fshwr2_func_candi_cell_pane
+0xe41f,	// (0x0000e41f) fshwr2_func_candi_cell_pane
 
 0x3829,	// (0x00003829) fshwr2_func_candi_cell_bg_pane_ParamLimits
 
 0x3829,	// (0x00003829) fshwr2_func_candi_cell_bg_pane
 
-0xe402,	// (0x0000e402) fshwr2_func_candi_cell_pane_g1_ParamLimits
+0xe45e,	// (0x0000e45e) fshwr2_func_candi_cell_pane_g1_ParamLimits
 
-0xe402,	// (0x0000e402) fshwr2_func_candi_cell_pane_g1
+0xe45e,	// (0x0000e45e) fshwr2_func_candi_cell_pane_g1
 
-0xe439,	// (0x0000e439) fshwr2_func_candi_cell_pane_t1_ParamLimits
+0xe495,	// (0x0000e495) fshwr2_func_candi_cell_pane_t1_ParamLimits
 
-0xe439,	// (0x0000e439) fshwr2_func_candi_cell_pane_t1
+0xe495,	// (0x0000e495) fshwr2_func_candi_cell_pane_t1
 
 0x0020,	// (0x00000020) bg_button_pane_cp08
 
-0x232f,	// (0x0000232f) cell_fshwr2_syb_bg_pane
+0x289b,	// (0x0000289b) cell_fshwr2_syb_bg_pane
 
-0xe454,	// (0x0000e454) cell_fshwr2_syb_bg_pane_g1
+0xe4b0,	// (0x0000e4b0) cell_fshwr2_syb_bg_pane_g1
 
-0xe45c,	// (0x0000e45c) cell_fshwr2_syb_bg_pane_t1
+0xe4c0,	// (0x0000e4c0) cell_fshwr2_syb_bg_pane_t1
 
 0x120e,	// (0x0000120e) main_tmo_pane
 
-0xc608,	// (0x0000c608) uni_indicator_pane_g1_ParamLimits
+0xc647,	// (0x0000c647) uni_indicator_pane_g1_ParamLimits
 
-0xc61e,	// (0x0000c61e) uni_indicator_pane_g2_ParamLimits
+0xc65d,	// (0x0000c65d) uni_indicator_pane_g2_ParamLimits
 
-0xc634,	// (0x0000c634) uni_indicator_pane_g3_ParamLimits
+0xc673,	// (0x0000c673) uni_indicator_pane_g3_ParamLimits
 
 0x4676,	// (0x00004676) uni_indicator_pane_g4_ParamLimits
 
@@ -10612,85 +10612,85 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x468a,	// (0x0000468a) uni_indicator_pane_g6
 
-0xe882,	// (0x0000e882) uni_indicator_pane_g_ParamLimits
+0xe912,	// (0x0000e912) uni_indicator_pane_g_ParamLimits
 
-0xd174,	// (0x0000d174) popup_tmo_note_window_ParamLimits
+0xd1b3,	// (0x0000d1b3) popup_tmo_note_window_ParamLimits
 
-0xd174,	// (0x0000d174) popup_tmo_note_window
+0xd1b3,	// (0x0000d1b3) popup_tmo_note_window
 
 0x120e,	// (0x0000120e) fshwr2_bg_pane
 
-0xe42a,	// (0x0000e42a) fshwr2_func_candi_cell_pane_g2_ParamLimits
+0xe486,	// (0x0000e486) fshwr2_func_candi_cell_pane_g2_ParamLimits
 
-0xe42a,	// (0x0000e42a) fshwr2_func_candi_cell_pane_g2
+0xe486,	// (0x0000e486) fshwr2_func_candi_cell_pane_g2
 
 0x0001,
 
-0xea3c,	// (0x0000ea3c) fshwr2_func_candi_cell_pane_g_ParamLimits
+0xeacc,	// (0x0000eacc) fshwr2_func_candi_cell_pane_g_ParamLimits
 
-0xea3c,	// (0x0000ea3c) fshwr2_func_candi_cell_pane_g
+0xeacc,	// (0x0000eacc) fshwr2_func_candi_cell_pane_g
 
 0x5e2d,	// (0x00005e2d) bg_popup_window_pane_cp01
 
-0x96e9,	// (0x000096e9) bg_popup_window_pane_g1_cp01
+0x972c,	// (0x0000972c) bg_popup_window_pane_g1_cp01
 
-0x96f2,	// (0x000096f2) bg_popup_window_pane_cp22_ParamLimits
+0x9735,	// (0x00009735) bg_popup_window_pane_cp22_ParamLimits
 
-0x96f2,	// (0x000096f2) bg_popup_window_pane_cp22
+0x9735,	// (0x00009735) bg_popup_window_pane_cp22
 
-0x9700,	// (0x00009700) listscroll_tmo_link_pane_ParamLimits
+0x9743,	// (0x00009743) listscroll_tmo_link_pane_ParamLimits
 
-0x9700,	// (0x00009700) listscroll_tmo_link_pane
+0x9743,	// (0x00009743) listscroll_tmo_link_pane
 
-0x9740,	// (0x00009740) popup_tmo_note_window_g1_ParamLimits
+0x9783,	// (0x00009783) popup_tmo_note_window_g1_ParamLimits
 
-0x9740,	// (0x00009740) popup_tmo_note_window_g1
+0x9783,	// (0x00009783) popup_tmo_note_window_g1
 
-0x974d,	// (0x0000974d) tmo_note_info_pane_ParamLimits
+0x9790,	// (0x00009790) tmo_note_info_pane_ParamLimits
 
-0x974d,	// (0x0000974d) tmo_note_info_pane
+0x9790,	// (0x00009790) tmo_note_info_pane
 
-0xe46b,	// (0x0000e46b) list_tmo_note_info_pane_g1_ParamLimits
+0xe4d6,	// (0x0000e4d6) list_tmo_note_info_pane_g1_ParamLimits
 
-0xe46b,	// (0x0000e46b) list_tmo_note_info_pane_g1
+0xe4d6,	// (0x0000e4d6) list_tmo_note_info_pane_g1
 
-0x977e,	// (0x0000977e) list_tmo_note_info_pane_g2_ParamLimits
+0x97c1,	// (0x000097c1) list_tmo_note_info_pane_g2_ParamLimits
 
-0x977e,	// (0x0000977e) list_tmo_note_info_pane_g2
+0x97c1,	// (0x000097c1) list_tmo_note_info_pane_g2
 
 0x0001,
 
-0xea41,	// (0x0000ea41) list_tmo_note_info_pane_g_ParamLimits
+0xead1,	// (0x0000ead1) list_tmo_note_info_pane_g_ParamLimits
 
-0xea41,	// (0x0000ea41) list_tmo_note_info_pane_g
+0xead1,	// (0x0000ead1) list_tmo_note_info_pane_g
 
-0x979a,	// (0x0000979a) list_tmo_note_info_text_pane_ParamLimits
+0x97dd,	// (0x000097dd) list_tmo_note_info_text_pane_ParamLimits
 
-0x979a,	// (0x0000979a) list_tmo_note_info_text_pane
+0x97dd,	// (0x000097dd) list_tmo_note_info_text_pane
 
-0x981b,	// (0x0000981b) list_tmo_link_pane
+0x985e,	// (0x0000985e) list_tmo_link_pane
 
-0x9828,	// (0x00009828) scroll_pane_cp20
+0x986b,	// (0x0000986b) scroll_pane_cp20
 
-0x9835,	// (0x00009835) list_single_tmo_link_pane_ParamLimits
+0x9878,	// (0x00009878) list_single_tmo_link_pane_ParamLimits
 
-0x9835,	// (0x00009835) list_single_tmo_link_pane
+0x9878,	// (0x00009878) list_single_tmo_link_pane
 
-0x9845,	// (0x00009845) list_single_tmo_link_pane_t1
+0x9888,	// (0x00009888) list_single_tmo_link_pane_t1
 
-0x9853,	// (0x00009853) list_tmo_note_info_text_pane_t1_ParamLimits
+0x9896,	// (0x00009896) list_tmo_note_info_text_pane_t1_ParamLimits
 
-0x9853,	// (0x00009853) list_tmo_note_info_text_pane_t1
+0x9896,	// (0x00009896) list_tmo_note_info_text_pane_t1
 
 0x1431,	// (0x00001431) aid_size_touch_scroll_bar_cp01_ParamLimits
 
 0x1431,	// (0x00001431) aid_size_touch_scroll_bar_cp01
 
-0xb328,	// (0x0000b328) aid_size_touch_slider_marker
+0xb367,	// (0x0000b367) aid_size_touch_slider_marker
 
-0xaab1,	// (0x0000aab1) popup_settings_window_ParamLimits
+0xaaf0,	// (0x0000aaf0) popup_settings_window_ParamLimits
 
-0xaab1,	// (0x0000aab1) popup_settings_window
+0xaaf0,	// (0x0000aaf0) popup_settings_window
 
 0x28c1,	// (0x000028c1) popup_candi_list_indi_window
 
@@ -10706,25 +10706,25 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x90be,	// (0x000090be) aid_size_cell_widget_grid_ParamLimits
 
-0xe070,	// (0x0000e070) cell_ai5_widget_pane_g1_ParamLimits
+0xe0af,	// (0x0000e0af) cell_ai5_widget_pane_g1_ParamLimits
 
-0xe070,	// (0x0000e070) cell_ai5_widget_pane_g1
+0xe0af,	// (0x0000e0af) cell_ai5_widget_pane_g1
 
-0xe0d2,	// (0x0000e0d2) cell_ai5_widget_pane_g6_ParamLimits
+0xe111,	// (0x0000e111) cell_ai5_widget_pane_g6_ParamLimits
 
-0xe0de,	// (0x0000e0de) cell_ai5_widget_pane_g7_ParamLimits
+0xe11d,	// (0x0000e11d) cell_ai5_widget_pane_g7_ParamLimits
 
 0x0009,
 
-0xe9f0,	// (0x0000e9f0) cell_ai5_widget_pane_g_ParamLimits
+0xea80,	// (0x0000ea80) cell_ai5_widget_pane_g_ParamLimits
 
-0xe9f0,	// (0x0000e9f0) cell_ai5_widget_pane_g
+0xea80,	// (0x0000ea80) cell_ai5_widget_pane_g
 
-0xe1f9,	// (0x0000e1f9) cell_ai5_widget_pane_t10_ParamLimits
+0xe238,	// (0x0000e238) cell_ai5_widget_pane_t10_ParamLimits
 
-0xe1f9,	// (0x0000e1f9) cell_ai5_widget_pane_t10
+0xe238,	// (0x0000e238) cell_ai5_widget_pane_t10
 
-0xe217,	// (0x0000e217) grid_ai5_widget_pane_ParamLimits
+0xe256,	// (0x0000e256) grid_ai5_widget_pane_ParamLimits
 
 0x9374,	// (0x00009374) cell_contacts_ai5_widget_pane_ParamLimits
 
@@ -10734,131 +10734,131 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x9553,	// (0x00009553) popup_discreet_window_t3
 
-0xe363,	// (0x0000e363) popup_fshwr2_char_preview_window_ParamLimits
+0xe3b1,	// (0x0000e3b1) popup_fshwr2_char_preview_window_ParamLimits
 
-0xe363,	// (0x0000e363) popup_fshwr2_char_preview_window
+0xe3b1,	// (0x0000e3b1) popup_fshwr2_char_preview_window
 
-0xe482,	// (0x0000e482) tmo_note_info_pane_t1
+0xe4ed,	// (0x0000e4ed) tmo_note_info_pane_t1
 
-0xe497,	// (0x0000e497) tmo_note_info_pane_t2
+0xe502,	// (0x0000e502) tmo_note_info_pane_t2
 
-0xe4ac,	// (0x0000e4ac) tmo_note_info_pane_t3
+0xe517,	// (0x0000e517) tmo_note_info_pane_t3
 
-0x97f7,	// (0x000097f7) tmo_note_info_pane_t4
+0x983a,	// (0x0000983a) tmo_note_info_pane_t4
 
-0x9809,	// (0x00009809) tmo_note_info_pane_t5
+0x984c,	// (0x0000984c) tmo_note_info_pane_t5
 
 0x0004,
 
-0xea46,	// (0x0000ea46) tmo_note_info_pane_t
+0xead6,	// (0x0000ead6) tmo_note_info_pane_t
 
-0x981b,	// (0x0000981b) list_tmo_link_pane_ParamLimits
+0x985e,	// (0x0000985e) list_tmo_link_pane_ParamLimits
 
-0x9828,	// (0x00009828) scroll_pane_cp20_ParamLimits
+0x986b,	// (0x0000986b) scroll_pane_cp20_ParamLimits
 
 0x0020,	// (0x00000020) bg_popup_fep_char_preview_window_cp01
 
-0x986c,	// (0x0000986c) popup_fshwr2_char_preview_window_t1
+0x98af,	// (0x000098af) popup_fshwr2_char_preview_window_t1
 
-0x987a,	// (0x0000987a) popup_candi_list_indi_window_g1
+0x98bd,	// (0x000098bd) popup_candi_list_indi_window_g1
 
-0x9883,	// (0x00009883) bg_cell_contacts_ai5_widget_pane
+0x98c6,	// (0x000098c6) bg_cell_contacts_ai5_widget_pane
 
-0x988f,	// (0x0000988f) cell_contacts_ai5_widget_pane_g1
+0x98d2,	// (0x000098d2) cell_contacts_ai5_widget_pane_g1
 
-0x98a4,	// (0x000098a4) cell_contacts_ai5_widget_pane_g2
+0x98e7,	// (0x000098e7) cell_contacts_ai5_widget_pane_g2
 
-0x98b0,	// (0x000098b0) cell_contacts_ai5_widget_pane_g3
+0x98f3,	// (0x000098f3) cell_contacts_ai5_widget_pane_g3
 
 0x0002,
 
-0xa95d,	// (0x0000a95d) cell_contacts_ai5_widget_pane_g
+0xa99c,	// (0x0000a99c) cell_contacts_ai5_widget_pane_g
 
-0x98bc,	// (0x000098bc) cell_contacts_ai5_widget_pane_t1
+0x98ff,	// (0x000098ff) cell_contacts_ai5_widget_pane_t1
 
 0x120e,	// (0x0000120e) highlight_cell_shortcut_ai5_widget_pane_cp01
 
-0xe524,	// (0x0000e524) settings_container_pane
+0xe58f,	// (0x0000e58f) settings_container_pane
 
 0x232f,	// (0x0000232f) listscroll_set_pane_copy1
 
 0x5343,	// (0x00005343) scroll_pane_cp121_copy1
 
-0x993d,	// (0x0000993d) set_content_pane_copy1
+0x9980,	// (0x00009980) set_content_pane_copy1
 
-0x9945,	// (0x00009945) aid_height_set_list_copy1_ParamLimits
+0x9988,	// (0x00009988) aid_height_set_list_copy1_ParamLimits
 
-0x9945,	// (0x00009945) aid_height_set_list_copy1
+0x9988,	// (0x00009988) aid_height_set_list_copy1
 
 0x4929,	// (0x00004929) aid_size_parent_copy1_ParamLimits
 
 0x4929,	// (0x00004929) aid_size_parent_copy1
 
-0x9951,	// (0x00009951) button_value_adjust_pane_cp6_copy1_ParamLimits
+0x9994,	// (0x00009994) button_value_adjust_pane_cp6_copy1_ParamLimits
 
-0x9951,	// (0x00009951) button_value_adjust_pane_cp6_copy1
+0x9994,	// (0x00009994) button_value_adjust_pane_cp6_copy1
 
 0x289b,	// (0x0000289b) list_highlight_pane_cp2_copy1_ParamLimits
 
 0x289b,	// (0x0000289b) list_highlight_pane_cp2_copy1
 
-0xe530,	// (0x0000e530) list_set_pane_copy1_ParamLimits
+0xe59b,	// (0x0000e59b) list_set_pane_copy1_ParamLimits
 
-0xe530,	// (0x0000e530) list_set_pane_copy1
+0xe59b,	// (0x0000e59b) list_set_pane_copy1
 
-0xe4c1,	// (0x0000e4c1) main_pane_set_t1_copy1_ParamLimits
+0xe52c,	// (0x0000e52c) main_pane_set_t1_copy1_ParamLimits
 
-0xe4c1,	// (0x0000e4c1) main_pane_set_t1_copy1
+0xe52c,	// (0x0000e52c) main_pane_set_t1_copy1
 
-0xe4fb,	// (0x0000e4fb) main_pane_set_t2_copy1_ParamLimits
+0xe566,	// (0x0000e566) main_pane_set_t2_copy1_ParamLimits
 
-0xe4fb,	// (0x0000e4fb) main_pane_set_t2_copy1
+0xe566,	// (0x0000e566) main_pane_set_t2_copy1
 
-0x99f3,	// (0x000099f3) main_pane_set_t3_copy1
+0x9a36,	// (0x00009a36) main_pane_set_t3_copy1
 
-0x9a01,	// (0x00009a01) main_pane_set_t4_copy1
+0x9a44,	// (0x00009a44) main_pane_set_t4_copy1
 
-0xe518,	// (0x0000e518) set_content_pane_g1_copy1_ParamLimits
+0xe583,	// (0x0000e583) set_content_pane_g1_copy1_ParamLimits
 
-0xe518,	// (0x0000e518) set_content_pane_g1_copy1
+0xe583,	// (0x0000e583) set_content_pane_g1_copy1
 
-0x9a0f,	// (0x00009a0f) setting_code_pane_copy1
+0x9a52,	// (0x00009a52) setting_code_pane_copy1
 
-0x9a17,	// (0x00009a17) setting_slider_graphic_pane_copy1
+0x9a5a,	// (0x00009a5a) setting_slider_graphic_pane_copy1
 
-0x9a17,	// (0x00009a17) setting_slider_pane_copy1
+0x9a5a,	// (0x00009a5a) setting_slider_pane_copy1
 
-0x9a17,	// (0x00009a17) setting_text_pane_copy1
+0x9a5a,	// (0x00009a5a) setting_text_pane_copy1
 
-0x9a17,	// (0x00009a17) setting_volume_pane_copy1
+0x9a5a,	// (0x00009a5a) setting_volume_pane_copy1
 
-0x9a1f,	// (0x00009a1f) settings_code_pane_cp2_copy1
+0x9a62,	// (0x00009a62) settings_code_pane_cp2_copy1
 
-0x9a27,	// (0x00009a27) settings_code_pane_cp_copy1_ParamLimits
+0x9a6a,	// (0x00009a6a) settings_code_pane_cp_copy1_ParamLimits
 
-0x9a27,	// (0x00009a27) settings_code_pane_cp_copy1
+0x9a6a,	// (0x00009a6a) settings_code_pane_cp_copy1
 
-0xe5be,	// (0x0000e5be) volume_set_pane_copy1
+0xe629,	// (0x0000e629) volume_set_pane_copy1
 
-0xe5c6,	// (0x0000e5c6) volume_set_pane_g10_copy1
+0xe631,	// (0x0000e631) volume_set_pane_g10_copy1
 
-0xe5ce,	// (0x0000e5ce) volume_set_pane_g1_copy1
+0xe639,	// (0x0000e639) volume_set_pane_g1_copy1
 
-0xe5d6,	// (0x0000e5d6) volume_set_pane_g2_copy1
+0xe641,	// (0x0000e641) volume_set_pane_g2_copy1
 
-0xe5de,	// (0x0000e5de) volume_set_pane_g3_copy1
+0xe649,	// (0x0000e649) volume_set_pane_g3_copy1
 
-0xe5e6,	// (0x0000e5e6) volume_set_pane_g4_copy1
+0xe651,	// (0x0000e651) volume_set_pane_g4_copy1
 
-0xe5ee,	// (0x0000e5ee) volume_set_pane_g5_copy1
+0xe659,	// (0x0000e659) volume_set_pane_g5_copy1
 
-0xe5f6,	// (0x0000e5f6) volume_set_pane_g6_copy1
+0xe661,	// (0x0000e661) volume_set_pane_g6_copy1
 
-0xe5fe,	// (0x0000e5fe) volume_set_pane_g7_copy1
+0xe669,	// (0x0000e669) volume_set_pane_g7_copy1
 
-0xe606,	// (0x0000e606) volume_set_pane_g8_copy1
+0xe671,	// (0x0000e671) volume_set_pane_g8_copy1
 
-0xe60e,	// (0x0000e60e) volume_set_pane_g9_copy1
+0xe679,	// (0x0000e679) volume_set_pane_g9_copy1
 
 0x0474,	// (0x00000474) bg_set_opt_pane_cp_copy1_ParamLimits
 
@@ -10868,13 +10868,13 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x04be,	// (0x000004be) setting_slider_pane_t1_copy1
 
-0x9a93,	// (0x00009a93) setting_slider_pane_t2_copy1_ParamLimits
+0x9ad6,	// (0x00009ad6) setting_slider_pane_t2_copy1_ParamLimits
 
-0x9a93,	// (0x00009a93) setting_slider_pane_t2_copy1
+0x9ad6,	// (0x00009ad6) setting_slider_pane_t2_copy1
 
-0x9aac,	// (0x00009aac) setting_slider_pane_t3_copy1_ParamLimits
+0x9aef,	// (0x00009aef) setting_slider_pane_t3_copy1_ParamLimits
 
-0x9aac,	// (0x00009aac) setting_slider_pane_t3_copy1
+0x9aef,	// (0x00009aef) setting_slider_pane_t3_copy1
 
 0x0504,	// (0x00000504) slider_set_pane_copy1_ParamLimits
 
@@ -10884,7 +10884,7 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x1339,	// (0x00001339) set_opt_bg_pane_g2_copy2
 
-0x9ac3,	// (0x00009ac3) set_opt_bg_pane_g3_copy2
+0x9b06,	// (0x00009b06) set_opt_bg_pane_g3_copy2
 
 0x1349,	// (0x00001349) set_opt_bg_pane_g4_copy2
 
@@ -10892,11 +10892,11 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x1359,	// (0x00001359) set_opt_bg_pane_g6_copy2
 
-0xe616,	// (0x0000e616) set_opt_bg_pane_g7_copy2
+0xe681,	// (0x0000e681) set_opt_bg_pane_g7_copy2
 
-0x9ad3,	// (0x00009ad3) set_opt_bg_pane_g8_copy2
+0x9b16,	// (0x00009b16) set_opt_bg_pane_g8_copy2
 
-0x9adb,	// (0x00009adb) set_opt_bg_pane_g9_copy2
+0x9b1e,	// (0x00009b1e) set_opt_bg_pane_g9_copy2
 
 0x4870,	// (0x00004870) aid_size_touch_slider_mark_copy1_ParamLimits
 
@@ -10922,43 +10922,43 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x489d,	// (0x0000489d) slider_set_pane_g6_copy1
 
-0xe61e,	// (0x0000e61e) slider_set_pane_g7_copy1_ParamLimits
+0xe689,	// (0x0000e689) slider_set_pane_g7_copy1_ParamLimits
 
-0xe61e,	// (0x0000e61e) slider_set_pane_g7_copy1
+0xe689,	// (0x0000e689) slider_set_pane_g7_copy1
 
 0x024e,	// (0x0000024e) bg_set_opt_pane_cp2_copy1
 
 0x051a,	// (0x0000051a) setting_slider_graphic_pane_g1_copy1
 
-0xe634,	// (0x0000e634) setting_slider_graphic_pane_t1_copy1
+0xe69f,	// (0x0000e69f) setting_slider_graphic_pane_t1_copy1
 
-0xe643,	// (0x0000e643) setting_slider_graphic_pane_t2_copy1
+0xe6ae,	// (0x0000e6ae) setting_slider_graphic_pane_t2_copy1
 
-0xe652,	// (0x0000e652) slider_set_pane_cp_copy1
+0xe6bd,	// (0x0000e6bd) slider_set_pane_cp_copy1
 
-0x9b27,	// (0x00009b27) input_focus_pane_cp1_copy1
+0x9b6a,	// (0x00009b6a) input_focus_pane_cp1_copy1
 
-0x9b30,	// (0x00009b30) list_set_text_pane_copy1
+0x9b73,	// (0x00009b73) list_set_text_pane_copy1
 
-0x9b38,	// (0x00009b38) setting_text_pane_g1_copy1
+0x9b7b,	// (0x00009b7b) setting_text_pane_g1_copy1
 
-0x9b41,	// (0x00009b41) set_text_pane_t1_copy1
+0x9b84,	// (0x00009b84) set_text_pane_t1_copy1
 
-0x9b27,	// (0x00009b27) input_focus_pane_cp2_copy1
+0x9b6a,	// (0x00009b6a) input_focus_pane_cp2_copy1
 
-0x9b38,	// (0x00009b38) setting_code_pane_g1_copy1
+0x9b7b,	// (0x00009b7b) setting_code_pane_g1_copy1
 
-0x9b5a,	// (0x00009b5a) setting_code_pane_t1_copy1
+0x9b9d,	// (0x00009b9d) setting_code_pane_t1_copy1
 
-0xb6ed,	// (0x0000b6ed) list_set_graphic_pane_copy1
+0xb72c,	// (0x0000b72c) list_set_graphic_pane_copy1
 
 0x024e,	// (0x0000024e) bg_set_opt_pane_cp4_copy1
 
-0x9b7c,	// (0x00009b7c) list_set_graphic_pane_g1_copy1_ParamLimits
+0x9bbf,	// (0x00009bbf) list_set_graphic_pane_g1_copy1_ParamLimits
 
-0x9b7c,	// (0x00009b7c) list_set_graphic_pane_g1_copy1
+0x9bbf,	// (0x00009bbf) list_set_graphic_pane_g1_copy1
 
-0x9b88,	// (0x00009b88) list_set_graphic_pane_g2_copy1
+0x9bcb,	// (0x00009bcb) list_set_graphic_pane_g2_copy1
 
 0x20a1,	// (0x000020a1) list_set_graphic_pane_t1_copy1_ParamLimits
 
@@ -10966,23 +10966,23 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x5e2d,	// (0x00005e2d) rs_clock_indi_pane_g1
 
-0x9b90,	// (0x00009b90) rs_clock_indi_pane_t1
+0x9bd3,	// (0x00009bd3) rs_clock_indi_pane_t1
 
-0x9b9e,	// (0x00009b9e) rs_indi_pane
+0x9be1,	// (0x00009be1) rs_indi_pane
 
-0x9ba6,	// (0x00009ba6) rs_indi_pane_g1
+0x9be9,	// (0x00009be9) rs_indi_pane_g1
 
-0x9baf,	// (0x00009baf) rs_indi_pane_g2
+0x9bf2,	// (0x00009bf2) rs_indi_pane_g2
 
-0x987a,	// (0x0000987a) rs_indi_pane_g3
+0x98bd,	// (0x000098bd) rs_indi_pane_g3
 
 0x0002,
 
-0xa964,	// (0x0000a964) rs_indi_pane_g
+0xa9a3,	// (0x0000a9a3) rs_indi_pane_g
 
 0x232f,	// (0x0000232f) bg_popup_preview_window_pane_cp03
 
-0x9bb8,	// (0x00009bb8) popup_fep_tooltip_window_t1
+0x9bfb,	// (0x00009bfb) popup_fep_tooltip_window_t1
 
 0x6f89,	// (0x00006f89) popup_note2_window_g2_ParamLimits
 
@@ -10990,9 +10990,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0001,
 
-0xa704,	// (0x0000a704) popup_note2_window_g_ParamLimits
+0xa743,	// (0x0000a743) popup_note2_window_g_ParamLimits
 
-0xa704,	// (0x0000a704) popup_note2_window_g
+0xa743,	// (0x0000a743) popup_note2_window_g
 
 0x7582,	// (0x00007582) bg_popup_sub_pane_cp11_ParamLimits
 
@@ -11000,19 +11000,19 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x75a6,	// (0x000075a6) cell_ai3_links_pane_t1
 
-0x9b41,	// (0x00009b41) set_text_pane_t1_copy1_ParamLimits
+0x9b84,	// (0x00009b84) set_text_pane_t1_copy1_ParamLimits
 
 0x2256,	// (0x00002256) cell_graphic_popup_pane_cp2_ParamLimits
 
 0x2256,	// (0x00002256) cell_graphic_popup_pane_cp2
 
-0x9bc6,	// (0x00009bc6) cell_graphic_popup_pane_g1_cp2
+0x9c09,	// (0x00009c09) cell_graphic_popup_pane_g1_cp2
 
 0x0ad9,	// (0x00000ad9) cell_graphic_popup_pane_g2_cp2
 
-0x9bce,	// (0x00009bce) cell_graphic_popup_pane_g3_cp2
+0x9c11,	// (0x00009c11) cell_graphic_popup_pane_g3_cp2
 
-0x9bd6,	// (0x00009bd6) cell_graphic_popup_pane_t2_cp2
+0x9c19,	// (0x00009c19) cell_graphic_popup_pane_t2_cp2
 
 0x0aea,	// (0x00000aea) grid_highlight_pane_cp3_cp2
 
@@ -11020,281 +11020,281 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x120e,	// (0x0000120e) main_tmo_pane_ParamLimits
 
-0xd16c,	// (0x0000d16c) popup_tmo_big_image_note_window
+0xd1ab,	// (0x0000d1ab) popup_tmo_big_image_note_window
 
 0x90fb,	// (0x000090fb) cell_ai5_widget_list_pane
 
-0xe067,	// (0x0000e067) cell_ai5_widget_lrg_icon_pane
+0xe0a6,	// (0x0000e0a6) cell_ai5_widget_lrg_icon_pane
 
-0xe482,	// (0x0000e482) tmo_note_info_pane_t1_ParamLimits
+0xe4ed,	// (0x0000e4ed) tmo_note_info_pane_t1_ParamLimits
 
-0xe497,	// (0x0000e497) tmo_note_info_pane_t2_ParamLimits
+0xe502,	// (0x0000e502) tmo_note_info_pane_t2_ParamLimits
 
-0xe4ac,	// (0x0000e4ac) tmo_note_info_pane_t3_ParamLimits
+0xe517,	// (0x0000e517) tmo_note_info_pane_t3_ParamLimits
 
-0x97f7,	// (0x000097f7) tmo_note_info_pane_t4_ParamLimits
+0x983a,	// (0x0000983a) tmo_note_info_pane_t4_ParamLimits
 
-0x9809,	// (0x00009809) tmo_note_info_pane_t5_ParamLimits
+0x984c,	// (0x0000984c) tmo_note_info_pane_t5_ParamLimits
 
-0xea46,	// (0x0000ea46) tmo_note_info_pane_t_ParamLimits
+0xead6,	// (0x0000ead6) tmo_note_info_pane_t_ParamLimits
 
-0xe524,	// (0x0000e524) settings_container_pane_ParamLimits
+0xe58f,	// (0x0000e58f) settings_container_pane_ParamLimits
 
-0x9b1f,	// (0x00009b1f) indicator_popup_pane_cp5
+0x9b62,	// (0x00009b62) indicator_popup_pane_cp5
 
-0x9b1f,	// (0x00009b1f) indicator_popup_pane_cp6
+0x9b62,	// (0x00009b62) indicator_popup_pane_cp6
 
-0xb6ed,	// (0x0000b6ed) list_set_graphic_pane_copy1_ParamLimits
+0xb72c,	// (0x0000b72c) list_set_graphic_pane_copy1_ParamLimits
 
 0x0020,	// (0x00000020) bg_popup_window_pane_cp23
 
-0x9be4,	// (0x00009be4) popup_tmo_big_image_note_window_g1
+0x9c27,	// (0x00009c27) popup_tmo_big_image_note_window_g1
 
-0x9bed,	// (0x00009bed) popup_tmo_big_image_note_window_t1
+0x9c30,	// (0x00009c30) popup_tmo_big_image_note_window_t1
 
-0x9bfb,	// (0x00009bfb) popup_tmo_big_image_note_window_t2
+0x9c3e,	// (0x00009c3e) popup_tmo_big_image_note_window_t2
 
-0x9c09,	// (0x00009c09) popup_tmo_big_image_note_window_t3
+0x9c4c,	// (0x00009c4c) popup_tmo_big_image_note_window_t3
 
 0x0002,
 
-0xa96b,	// (0x0000a96b) popup_tmo_big_image_note_window_t
+0xa9aa,	// (0x0000a9aa) popup_tmo_big_image_note_window_t
 
 0x5e2d,	// (0x00005e2d) cell_ai5_widget_lrg_icon_pane_g1
 
-0x9c17,	// (0x00009c17) cell_ai5_widget_lrg_icon_pane_t1
+0x9c5a,	// (0x00009c5a) cell_ai5_widget_lrg_icon_pane_t1
 
-0xe65a,	// (0x0000e65a) cell_ai5_widget_list_row_pane_ParamLimits
+0xe6c5,	// (0x0000e6c5) cell_ai5_widget_list_row_pane_ParamLimits
 
-0xe65a,	// (0x0000e65a) cell_ai5_widget_list_row_pane
+0xe6c5,	// (0x0000e6c5) cell_ai5_widget_list_row_pane
 
-0xe671,	// (0x0000e671) cell_ai5_widget_list_row_pane_g1_ParamLimits
+0xe6dc,	// (0x0000e6dc) cell_ai5_widget_list_row_pane_g1_ParamLimits
 
-0xe671,	// (0x0000e671) cell_ai5_widget_list_row_pane_g1
+0xe6dc,	// (0x0000e6dc) cell_ai5_widget_list_row_pane_g1
 
-0xe67e,	// (0x0000e67e) cell_ai5_widget_list_row_pane_t1_ParamLimits
+0xe6e9,	// (0x0000e6e9) cell_ai5_widget_list_row_pane_t1_ParamLimits
 
-0xe67e,	// (0x0000e67e) cell_ai5_widget_list_row_pane_t1
+0xe6e9,	// (0x0000e6e9) cell_ai5_widget_list_row_pane_t1
 
-0xe6af,	// (0x0000e6af) cell_ai5_widget_list_row_pane_t2_ParamLimits
+0xe71a,	// (0x0000e71a) cell_ai5_widget_list_row_pane_t2_ParamLimits
 
-0xe6af,	// (0x0000e6af) cell_ai5_widget_list_row_pane_t2
+0xe71a,	// (0x0000e71a) cell_ai5_widget_list_row_pane_t2
 
 0x0002,
 
-0xea51,	// (0x0000ea51) cell_ai5_widget_list_row_pane_t_ParamLimits
+0xeae1,	// (0x0000eae1) cell_ai5_widget_list_row_pane_t_ParamLimits
 
-0xea51,	// (0x0000ea51) cell_ai5_widget_list_row_pane_t
+0xeae1,	// (0x0000eae1) cell_ai5_widget_list_row_pane_t
 
 0x0020,	// (0x00000020) main_fep_vtchi_ss_pane
 
-0x9cbf,	// (0x00009cbf) popup_fep_char_pre_window
+0x9d02,	// (0x00009d02) popup_fep_char_pre_window
 
-0x9cc7,	// (0x00009cc7) popup_fep_ituss_window
+0x9d0a,	// (0x00009d0a) popup_fep_ituss_window
 
-0xe6d7,	// (0x0000e6d7) popup_fep_vkbss_window
+0xe751,	// (0x0000e751) popup_fep_vkbss_window
 
-0x9d0c,	// (0x00009d0c) grid_vkbss_keypad_pane_ParamLimits
+0x9d4e,	// (0x00009d4e) grid_vkbss_keypad_pane_ParamLimits
 
-0x9d0c,	// (0x00009d0c) grid_vkbss_keypad_pane
+0x9d4e,	// (0x00009d4e) grid_vkbss_keypad_pane
 
-0x9d1c,	// (0x00009d1c) ituss_keypad_pane
+0x9d5e,	// (0x00009d5e) ituss_keypad_pane
 
-0x9d35,	// (0x00009d35) aid_vkbss_key_offset_ParamLimits
+0x9d77,	// (0x00009d77) aid_vkbss_key_offset_ParamLimits
 
-0x9d35,	// (0x00009d35) aid_vkbss_key_offset
+0x9d77,	// (0x00009d77) aid_vkbss_key_offset
 
-0x9d41,	// (0x00009d41) cell_vkbss_key_pane_ParamLimits
+0x9d83,	// (0x00009d83) cell_vkbss_key_pane_ParamLimits
 
-0x9d41,	// (0x00009d41) cell_vkbss_key_pane
+0x9d83,	// (0x00009d83) cell_vkbss_key_pane
 
 0x306c,	// (0x0000306c) bg_cell_vkbss_key_g1_ParamLimits
 
 0x306c,	// (0x0000306c) bg_cell_vkbss_key_g1
 
-0x9d57,	// (0x00009d57) cell_vkbss_key_3p_pane_ParamLimits
+0x9d99,	// (0x00009d99) cell_vkbss_key_3p_pane_ParamLimits
 
-0x9d57,	// (0x00009d57) cell_vkbss_key_3p_pane
+0x9d99,	// (0x00009d99) cell_vkbss_key_3p_pane
 
-0x9d71,	// (0x00009d71) cell_vkbss_key_g1_ParamLimits
+0x9db3,	// (0x00009db3) cell_vkbss_key_g1_ParamLimits
 
-0x9d71,	// (0x00009d71) cell_vkbss_key_g1
+0x9db3,	// (0x00009db3) cell_vkbss_key_g1
 
-0x9d8b,	// (0x00009d8b) cell_vkbss_key_t1_ParamLimits
+0x9dcd,	// (0x00009dcd) cell_vkbss_key_t1_ParamLimits
 
-0x9d8b,	// (0x00009d8b) cell_vkbss_key_t1
+0x9dcd,	// (0x00009dcd) cell_vkbss_key_t1
 
-0x9db6,	// (0x00009db6) cell_ituss_key_pane_ParamLimits
+0x9df8,	// (0x00009df8) cell_ituss_key_pane_ParamLimits
 
-0x9db6,	// (0x00009db6) cell_ituss_key_pane
+0x9df8,	// (0x00009df8) cell_ituss_key_pane
 
-0x9dc7,	// (0x00009dc7) bg_cell_ituss_key_g1_ParamLimits
+0x9e09,	// (0x00009e09) bg_cell_ituss_key_g1_ParamLimits
 
-0x9dc7,	// (0x00009dc7) bg_cell_ituss_key_g1
+0x9e09,	// (0x00009e09) bg_cell_ituss_key_g1
 
-0x9dd3,	// (0x00009dd3) cell_ituss_key_pane_g1_ParamLimits
+0x9e15,	// (0x00009e15) cell_ituss_key_pane_g1_ParamLimits
 
-0x9dd3,	// (0x00009dd3) cell_ituss_key_pane_g1
+0x9e15,	// (0x00009e15) cell_ituss_key_pane_g1
 
-0x9de7,	// (0x00009de7) cell_ituss_key_pane_g2_ParamLimits
+0x9e29,	// (0x00009e29) cell_ituss_key_pane_g2_ParamLimits
 
-0x9de7,	// (0x00009de7) cell_ituss_key_pane_g2
+0x9e29,	// (0x00009e29) cell_ituss_key_pane_g2
 
 0x0002,
 
-0xa979,	// (0x0000a979) cell_ituss_key_pane_g_ParamLimits
+0xa9b8,	// (0x0000a9b8) cell_ituss_key_pane_g_ParamLimits
 
-0xa979,	// (0x0000a979) cell_ituss_key_pane_g
+0xa9b8,	// (0x0000a9b8) cell_ituss_key_pane_g
 
-0x9e21,	// (0x00009e21) cell_ituss_key_t1_ParamLimits
+0x9e67,	// (0x00009e67) cell_ituss_key_t1_ParamLimits
 
-0x9e21,	// (0x00009e21) cell_ituss_key_t1
+0x9e67,	// (0x00009e67) cell_ituss_key_t1
 
-0x9e5b,	// (0x00009e5b) cell_ituss_key_t2_ParamLimits
+0x9e9d,	// (0x00009e9d) cell_ituss_key_t2_ParamLimits
 
-0x9e5b,	// (0x00009e5b) cell_ituss_key_t2
+0x9e9d,	// (0x00009e9d) cell_ituss_key_t2
 
-0x9e8c,	// (0x00009e8c) cell_ituss_key_t3_ParamLimits
+0x9ece,	// (0x00009ece) cell_ituss_key_t3_ParamLimits
 
-0x9e8c,	// (0x00009e8c) cell_ituss_key_t3
+0x9ece,	// (0x00009ece) cell_ituss_key_t3
 
-0x9e5b,	// (0x00009e5b) cell_ituss_key_t4_ParamLimits
+0x9e9d,	// (0x00009e9d) cell_ituss_key_t4_ParamLimits
 
-0x9e5b,	// (0x00009e5b) cell_ituss_key_t4
+0x9e9d,	// (0x00009e9d) cell_ituss_key_t4
 
 0x0004,
 
-0xa980,	// (0x0000a980) cell_ituss_key_t_ParamLimits
+0xa9bf,	// (0x0000a9bf) cell_ituss_key_t_ParamLimits
 
-0xa980,	// (0x0000a980) cell_ituss_key_t
+0xa9bf,	// (0x0000a9bf) cell_ituss_key_t
 
-0x9ecf,	// (0x00009ecf) cell_vkbss_key_3p_pane_g1
+0x9f11,	// (0x00009f11) cell_vkbss_key_3p_pane_g1
 
-0x9ed7,	// (0x00009ed7) cell_vkbss_key_3p_pane_g2
+0x9f19,	// (0x00009f19) cell_vkbss_key_3p_pane_g2
 
-0x9edf,	// (0x00009edf) cell_vkbss_key_3p_pane_g3
+0x9f21,	// (0x00009f21) cell_vkbss_key_3p_pane_g3
 
 0x0002,
 
-0xa98b,	// (0x0000a98b) cell_vkbss_key_3p_pane_g
+0xa9ca,	// (0x0000a9ca) cell_vkbss_key_3p_pane_g
 
 0x232f,	// (0x0000232f) bg_popup_fep_char_preview_window_cp02
 
-0x9ee7,	// (0x00009ee7) popup_fep_char_pre_window_t1
+0x9f29,	// (0x00009f29) popup_fep_char_pre_window_t1
 
-0xe054,	// (0x0000e054) main_ai5_sk_pane
+0xe093,	// (0x0000e093) main_ai5_sk_pane
 
-0x9883,	// (0x00009883) bg_cell_contacts_ai5_widget_pane_ParamLimits
+0x98c6,	// (0x000098c6) bg_cell_contacts_ai5_widget_pane_ParamLimits
 
-0x988f,	// (0x0000988f) cell_contacts_ai5_widget_pane_g1_ParamLimits
+0x98d2,	// (0x000098d2) cell_contacts_ai5_widget_pane_g1_ParamLimits
 
-0x98a4,	// (0x000098a4) cell_contacts_ai5_widget_pane_g2_ParamLimits
+0x98e7,	// (0x000098e7) cell_contacts_ai5_widget_pane_g2_ParamLimits
 
-0x98b0,	// (0x000098b0) cell_contacts_ai5_widget_pane_g3_ParamLimits
+0x98f3,	// (0x000098f3) cell_contacts_ai5_widget_pane_g3_ParamLimits
 
-0xa95d,	// (0x0000a95d) cell_contacts_ai5_widget_pane_g_ParamLimits
+0xa99c,	// (0x0000a99c) cell_contacts_ai5_widget_pane_g_ParamLimits
 
-0x98bc,	// (0x000098bc) cell_contacts_ai5_widget_pane_t1_ParamLimits
+0x98ff,	// (0x000098ff) cell_contacts_ai5_widget_pane_t1_ParamLimits
 
 0x120e,	// (0x0000120e) highlight_cell_shortcut_ai5_widget_pane_cp01_ParamLimits
 
-0xe6e4,	// (0x0000e6e4) main_ai5_sk_pane_g1
+0xe75e,	// (0x0000e75e) main_ai5_sk_pane_g1
 
 0x3881,	// (0x00003881) popup_query_code_window_g1
 
-0x9cd9,	// (0x00009cd9) popup_fep_vkb_icf_pane
+0xe742,	// (0x0000e742) popup_fep_vkb_icf_pane
 
-0x9cf6,	// (0x00009cf6) popup_fep_vtchi_icf_pane
+0x9d38,	// (0x00009d38) popup_fep_vtchi_icf_pane
 
-0x9efe,	// (0x00009efe) bg_icf_pane
+0x9f40,	// (0x00009f40) bg_icf_pane
 
-0x9f0a,	// (0x00009f0a) list_vkb_icf_pane
+0x9f4c,	// (0x00009f4c) list_vkb_icf_pane
 
-0x9f16,	// (0x00009f16) bg_icf_pane_cp01
+0x9f58,	// (0x00009f58) bg_icf_pane_cp01
 
-0x9f29,	// (0x00009f29) vtchi_icf_list_pane
+0x9f6b,	// (0x00009f6b) vtchi_icf_list_pane
 
-0x9f39,	// (0x00009f39) list_vkb_icf_pane_t1_ParamLimits
+0xe767,	// (0x0000e767) list_vkb_icf_pane_t1_ParamLimits
 
-0x9f39,	// (0x00009f39) list_vkb_icf_pane_t1
+0xe767,	// (0x0000e767) list_vkb_icf_pane_t1
 
-0x9f4e,	// (0x00009f4e) vtchi_icf_list_pane_t1_ParamLimits
+0x9f8d,	// (0x00009f8d) vtchi_icf_list_pane_t1_ParamLimits
 
-0x9f4e,	// (0x00009f4e) vtchi_icf_list_pane_t1
+0x9f8d,	// (0x00009f8d) vtchi_icf_list_pane_t1
 
-0x9cc7,	// (0x00009cc7) popup_fep_ituss_window_ParamLimits
+0x9d0a,	// (0x00009d0a) popup_fep_ituss_window_ParamLimits
 
-0x9cf6,	// (0x00009cf6) popup_fep_vtchi_icf_pane_ParamLimits
+0x9d38,	// (0x00009d38) popup_fep_vtchi_icf_pane_ParamLimits
 
-0x9d1c,	// (0x00009d1c) ituss_keypad_pane_ParamLimits
+0x9d5e,	// (0x00009d5e) ituss_keypad_pane_ParamLimits
 
-0x9d2b,	// (0x00009d2b) ituss_sks_pane
+0x9d6d,	// (0x00009d6d) ituss_sks_pane
 
-0x9efe,	// (0x00009efe) bg_icf_pane_ParamLimits
+0x9f40,	// (0x00009f40) bg_icf_pane_ParamLimits
 
-0x9c9f,	// (0x00009c9f) icf_edit_indi_pane_ParamLimits
+0x9ce2,	// (0x00009ce2) icf_edit_indi_pane_ParamLimits
 
-0x9c9f,	// (0x00009c9f) icf_edit_indi_pane
+0x9ce2,	// (0x00009ce2) icf_edit_indi_pane
 
-0x9f0a,	// (0x00009f0a) list_vkb_icf_pane_ParamLimits
+0x9f4c,	// (0x00009f4c) list_vkb_icf_pane_ParamLimits
 
-0x9f16,	// (0x00009f16) bg_icf_pane_cp01_ParamLimits
+0x9f58,	// (0x00009f58) bg_icf_pane_cp01_ParamLimits
 
-0x9cb2,	// (0x00009cb2) icf_edit_indi_pane_cp01_ParamLimits
+0x9cf5,	// (0x00009cf5) icf_edit_indi_pane_cp01_ParamLimits
 
-0x9cb2,	// (0x00009cb2) icf_edit_indi_pane_cp01
+0x9cf5,	// (0x00009cf5) icf_edit_indi_pane_cp01
 
-0x9f31,	// (0x00009f31) vtchi_query_pane
+0x9f73,	// (0x00009f73) vtchi_query_pane
 
 0x8f1a,	// (0x00008f1a) icf_edit_indi_pane_g1_ParamLimits
 
 0x8f1a,	// (0x00008f1a) icf_edit_indi_pane_g1
 
-0xe6ed,	// (0x0000e6ed) icf_edit_indi_pane_g2_ParamLimits
+0xe77d,	// (0x0000e77d) icf_edit_indi_pane_g2_ParamLimits
 
-0xe6ed,	// (0x0000e6ed) icf_edit_indi_pane_g2
+0xe77d,	// (0x0000e77d) icf_edit_indi_pane_g2
 
 0x0001,
 
-0xea58,	// (0x0000ea58) icf_edit_indi_pane_g_ParamLimits
+0xeae8,	// (0x0000eae8) icf_edit_indi_pane_g_ParamLimits
 
-0xea58,	// (0x0000ea58) icf_edit_indi_pane_g
+0xeae8,	// (0x0000eae8) icf_edit_indi_pane_g
 
-0xe6fd,	// (0x0000e6fd) icf_edit_indi_pane_t1
+0xe78d,	// (0x0000e78d) icf_edit_indi_pane_t1
 
-0x9f65,	// (0x00009f65) bg_input_focus_pane_cp042
+0x9fa4,	// (0x00009fa4) bg_input_focus_pane_cp042
 
-0x9f6e,	// (0x00009f6e) vtchi_button_pane
+0x9fad,	// (0x00009fad) vtchi_button_pane
 
-0x9f77,	// (0x00009f77) vtchi_query_pane_t1
+0x9fb6,	// (0x00009fb6) vtchi_query_pane_t1
 
-0x9f85,	// (0x00009f85) vtchi_query_pane_t2
+0x9fc4,	// (0x00009fc4) vtchi_query_pane_t2
 
-0x9f93,	// (0x00009f93) vtchi_query_pane_t3
+0x9fd2,	// (0x00009fd2) vtchi_query_pane_t3
 
 0x0002,
 
-0xa992,	// (0x0000a992) vtchi_query_pane_t
+0xa9d1,	// (0x0000a9d1) vtchi_query_pane_t
 
 0x0020,	// (0x00000020) bg_button_pane_cp13
 
-0x9fa1,	// (0x00009fa1) vtchi_button_pane_g1
+0x9fe0,	// (0x00009fe0) vtchi_button_pane_g1
 
-0x9fa9,	// (0x00009fa9) ituss_sks_pane_g1
+0x9fe8,	// (0x00009fe8) ituss_sks_pane_g1
 
-0x9fb2,	// (0x00009fb2) ituss_sks_pane_g2
-
-0x0001,
-
-0xa999,	// (0x0000a999) ituss_sks_pane_g
-
-0x9fbb,	// (0x00009fbb) ituss_sks_pane_t1
-
-0x9fc9,	// (0x00009fc9) ituss_sks_pane_t2
+0x9ff1,	// (0x00009ff1) ituss_sks_pane_g2
 
 0x0001,
 
-0xa99e,	// (0x0000a99e) ituss_sks_pane_t
+0xa9d8,	// (0x0000a9d8) ituss_sks_pane_g
+
+0x9ffa,	// (0x00009ffa) ituss_sks_pane_t1
+
+0xa008,	// (0x0000a008) ituss_sks_pane_t2
+
+0x0001,
+
+0xa9dd,	// (0x0000a9dd) ituss_sks_pane_t
 
 0x58e0,	// (0x000058e0) indicator_nsta_pane_cp_g1
 
@@ -11310,35 +11310,35 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0005,
 
-0xa54e,	// (0x0000a54e) indicator_nsta_pane_cp_g
+0xa58d,	// (0x0000a58d) indicator_nsta_pane_cp_g
 
-0xde3f,	// (0x0000de3f) cell_graphic2_pane_t2_ParamLimits
+0xde7e,	// (0x0000de7e) cell_graphic2_pane_t2_ParamLimits
 
-0xde3f,	// (0x0000de3f) cell_graphic2_pane_t2
+0xde7e,	// (0x0000de7e) cell_graphic2_pane_t2
 
 0x0001,
 
-0xe9db,	// (0x0000e9db) cell_graphic2_pane_t_ParamLimits
+0xea6b,	// (0x0000ea6b) cell_graphic2_pane_t_ParamLimits
 
-0xe9db,	// (0x0000e9db) cell_graphic2_pane_t
+0xea6b,	// (0x0000ea6b) cell_graphic2_pane_t
 
-0xde77,	// (0x0000de77) cell_graphic2_control_pane_t1
+0xdeb6,	// (0x0000deb6) cell_graphic2_control_pane_t1
 
-0xb601,	// (0x0000b601) signal_pane_g3_ParamLimits
+0xb640,	// (0x0000b640) signal_pane_g3_ParamLimits
 
-0xb601,	// (0x0000b601) signal_pane_g3
+0xb640,	// (0x0000b640) signal_pane_g3
 
-0xb615,	// (0x0000b615) signal_pane_g4_ParamLimits
+0xb654,	// (0x0000b654) signal_pane_g4_ParamLimits
 
-0xb615,	// (0x0000b615) signal_pane_g4
+0xb654,	// (0x0000b654) signal_pane_g4
 
-0xe6c1,	// (0x0000e6c1) cell_ai5_widget_list_row_pane_t3_ParamLimits
+0xe72c,	// (0x0000e72c) cell_ai5_widget_list_row_pane_t3_ParamLimits
 
-0xe6c1,	// (0x0000e6c1) cell_ai5_widget_list_row_pane_t3
+0xe72c,	// (0x0000e72c) cell_ai5_widget_list_row_pane_t3
 
-0x9e0f,	// (0x00009e0f) cell_ituss_key_pane_t1_ParamLimits
+0x9e55,	// (0x00009e55) cell_ituss_key_pane_t1_ParamLimits
 
-0x9e0f,	// (0x00009e0f) cell_ituss_key_pane_t1
+0x9e55,	// (0x00009e55) cell_ituss_key_pane_t1
 
 0x34ff,	// (0x000034ff) form_field_data_wide_pane_vc_t2_ParamLimits
 
@@ -11350,9 +11350,9 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa2ad,	// (0x0000a2ad) form_field_data_wide_pane_vc_t_ParamLimits
+0xa2ec,	// (0x0000a2ec) form_field_data_wide_pane_vc_t_ParamLimits
 
-0xa2ad,	// (0x0000a2ad) form_field_data_wide_pane_vc_t
+0xa2ec,	// (0x0000a2ec) form_field_data_wide_pane_vc_t
 
 0x55e2,	// (0x000055e2) form_field_slider_wide_pane_vc_t3_ParamLimits
 
@@ -11368,41 +11368,41 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 
 0x0002,
 
-0xa53d,	// (0x0000a53d) form_field_popup_wide_pane_vc_t_ParamLimits
+0xa57c,	// (0x0000a57c) form_field_popup_wide_pane_vc_t_ParamLimits
 
-0xa53d,	// (0x0000a53d) form_field_popup_wide_pane_vc_t
+0xa57c,	// (0x0000a57c) form_field_popup_wide_pane_vc_t
 
-0xe2f2,	// (0x0000e2f2) aid_fshwr2_btn_pane_ParamLimits
+0xe331,	// (0x0000e331) aid_fshwr2_btn_pane_ParamLimits
 
-0xe303,	// (0x0000e303) aid_fshwr2_syb_pane_ParamLimits
+0xe345,	// (0x0000e345) aid_fshwr2_syb_pane_ParamLimits
 
-0xe314,	// (0x0000e314) aid_fshwr2_txt_pane_ParamLimits
+0xe359,	// (0x0000e359) aid_fshwr2_txt_pane_ParamLimits
 
 0x120e,	// (0x0000120e) fshwr2_bg_pane_ParamLimits
 
-0xe320,	// (0x0000e320) fshwr2_func_candi_pane_ParamLimits
+0xe369,	// (0x0000e369) fshwr2_func_candi_pane_ParamLimits
 
-0xe33a,	// (0x0000e33a) fshwr2_hwr_syb_pane_ParamLimits
+0xe381,	// (0x0000e381) fshwr2_hwr_syb_pane_ParamLimits
 
-0xe34f,	// (0x0000e34f) fshwr2_icf_pane_ParamLimits
+0xe399,	// (0x0000e399) fshwr2_icf_pane_ParamLimits
 
 0x555d,	// (0x0000555d) list_double_graphic_pane_vc_g4_ParamLimits
 
 0x555d,	// (0x0000555d) list_double_graphic_pane_vc_g4
 
-0x9e03,	// (0x00009e03) cell_ituss_key_pane_g3_ParamLimits
+0x9e49,	// (0x00009e49) cell_ituss_key_pane_g3_ParamLimits
 
-0x9e03,	// (0x00009e03) cell_ituss_key_pane_g3
+0x9e49,	// (0x00009e49) cell_ituss_key_pane_g3
 
-0x9ebd,	// (0x00009ebd) cell_ituss_key_t5_ParamLimits
+0x9eff,	// (0x00009eff) cell_ituss_key_t5_ParamLimits
 
-0x9ebd,	// (0x00009ebd) cell_ituss_key_t5
+0x9eff,	// (0x00009eff) cell_ituss_key_t5
 
-0xe6d7,	// (0x0000e6d7) popup_fep_vkbss_window_ParamLimits
+0xe751,	// (0x0000e751) popup_fep_vkbss_window_ParamLimits
 
-0xe05e,	// (0x0000e05e) aid_cell_ai5_quarter
+0xe09d,	// (0x0000e09d) aid_cell_ai5_quarter
 
-0xe6fd,	// (0x0000e6fd) icf_edit_indi_pane_t1_ParamLimits
+0xe78d,	// (0x0000e78d) icf_edit_indi_pane_t1_ParamLimits
 
 0x084d,	// (0x0000084d) aid_tch_indicator_popup_pane_cp2_ParamLimits
 
@@ -11419,6 +11419,14 @@ const TUint16 KDataLookup[AknLayoutScalable_Avkon::E_TApiId_TableSize] =
 0x3829,	// (0x00003829) aid_tch_query_popup_data_pane_cp1_ParamLimits
 
 0x3829,	// (0x00003829) aid_tch_query_popup_data_pane_cp1
+
+0x289b,	// (0x0000289b) cell_fshwr2_syb_bg_pane_ParamLimits
+
+0xe4b0,	// (0x0000e4b0) cell_fshwr2_syb_bg_pane_g1_ParamLimits
+
+0xe4c0,	// (0x0000e4c0) cell_fshwr2_syb_bg_pane_t1_ParamLimits
+
+0xe742,	// (0x0000e742) popup_fep_vkb_icf_pane_ParamLimits
 };
 
 
@@ -17110,6 +17118,10 @@ const AknLayoutScalable_Avkon::SCdlImpl KCdlImpl =
 	&WindowLineVCR,
 	&ParameterLimitsV,
 	&WindowLineVCR,
+	&ParameterLimitsV,
+	&ParameterLimitsV,
+	&ParameterLimitsV,
+	&ParameterLimitsV,
 	};
 
 } // end of namespace AknLayoutScalable_Elaf_pql_av_qvga_lsc_Normal

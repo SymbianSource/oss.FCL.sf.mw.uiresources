@@ -5753,6 +5753,10 @@ struct SCdlImpl5
 	Taid_tch_query_popup_pane_sig* aid_tch_query_popup_pane;
 	Taid_tch_query_popup_data_pane_cp1_ParamLimits_sig* aid_tch_query_popup_data_pane_cp1_ParamLimits;
 	Taid_tch_query_popup_data_pane_cp1_sig* aid_tch_query_popup_data_pane_cp1;
+	Tcell_fshwr2_syb_bg_pane_ParamLimits_sig* cell_fshwr2_syb_bg_pane_ParamLimits;
+	Tcell_fshwr2_syb_bg_pane_g1_ParamLimits_sig* cell_fshwr2_syb_bg_pane_g1_ParamLimits;
+	Tcell_fshwr2_syb_bg_pane_t1_ParamLimits_sig* cell_fshwr2_syb_bg_pane_t1_ParamLimits;
+	Tpopup_fep_vkb_icf_pane_ParamLimits_sig* popup_fep_vkb_icf_pane_ParamLimits;
 	};
 #ifdef __WINS__
 struct SCdlImpl
