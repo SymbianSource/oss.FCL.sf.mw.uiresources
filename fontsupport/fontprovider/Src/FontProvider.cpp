@@ -234,6 +234,12 @@ _LIT(KWesternFontMaxExtentText, "\x00C1\x00C7" );
 //end                                    
 
 
+#define EElafLFLoReLangs   (  EElafLangs \
+                               | EChineseLangsPRCLF)
+
+
+#define EElafLFHiReLangs   (  EElafLangs \
+                               | EChineseLangsPRCHiResLF)
 // Wildcard value for langs (font is to be used for all languages)
 #define EAnyLangs           0xffffffff
 const TInt KAknFontStylesSupported(3);
@@ -334,6 +340,28 @@ CDL_ARRAY_START( SHeightRequest, latinHeightRequestArray)
     }
 CDL_ARRAY_END(SHeightRequest, latinHeightRequestArray);
 
+CDL_ARRAY_START( SHeightRequest, latinLFHeightRequestArray)
+    {
+        {  2,  2 }, 
+        { 10,  8 }, 
+        { 11,  9 }, 
+        { 13, 11 }, 
+        { 14, 12 }, 
+        { 14, 13 }, 
+        { 16, 14 }, 
+        { 18, 15 }, 
+        { 19, 16 }, 
+        { 24, 21 }, 
+        { 25, 22 }, 
+        { 26, 24 }, 
+        { 27, 25 }, 
+        { 28, 26 }, 
+        { 29, 26 }, 
+        { 30, 27 }, 
+        { 79, 72 }, 
+        { 218, 200 }, 
+    }
+CDL_ARRAY_END(SHeightRequest, latinLFHeightRequestArray);
 
 CDL_ARRAY_START( SHeightRequest, agfaDigitalHeightRequestArray)
     {
@@ -580,7 +608,9 @@ CDL_ARRAY_START( SAknLanguagesAndTypefaceTableLine, languagesAndTypefaceTable)
         { EChineseLangsTaiwanHKHiResLF, LIT_AS_DESC_PTR(KS60TCHKHRSANSRLF) },
         { EJapaneseLFLangs, LIT_AS_DESC_PTR(KS60JAPSANSRLF) },
         { EKoreanLFLangs, LIT_AS_DESC_PTR(KS60KORSANSRLF) },
-        //end
+        { EElafLFHiReLangs, LIT_AS_DESC_PTR(KS60SCHRSANSRLF) },
+        { EElafLFLoReLangs, LIT_AS_DESC_PTR(KS60SCSANSRLF) },
+        //end        
         { EAnyLangs, LIT_AS_DESC_PTR(KS60Sans) } // Ultimate fallback
     }
 CDL_ARRAY_END(SAknLanguagesAndTypefaceTableLine, languagesAndTypefaceTable);
@@ -764,6 +794,38 @@ static const SAknProductFontTableLine productFontTable[] = {
     { EAknFontCategoryTitle,        EAny, EAny, EAny, EAny, EAny, ENotBold, EAntialiase,    EKoreanLFLangs, LIT_AS_DESC_PTR(KS60KORSANSTTLSMBLDLF), LIT_AS_DESC_PTR(KS60Group), &koreanVectorFontBaselineArray, &koreanLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
     { EAknFontCategoryAny,          8, 17,      EAny, EAny, EAny, ENotBold, ENotAntialiase, EKoreanLFLangs, LIT_AS_DESC_PTR(KS60Korean), LIT_AS_DESC_PTR(KS60Group), &koreanVectorFontBaselineArray, &koreanLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
     { EAknFontCategoryAny,          EAny, EAny, EAny, EAny, EAny, ENotBold, EAntialiase,    EKoreanLFLangs, LIT_AS_DESC_PTR(KS60Korean), LIT_AS_DESC_PTR(KS60Group), &koreanVectorFontBaselineArray, &koreanLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+//western SC link
+    //stroke font
+    { EAknFontCategorySecondary,    10,   15,   EStrokeWeightNormal, 0,    EAny, ENotBold, ENotAntialiase, EElafLFLoReLangs, LIT_AS_DESC_PTR(KS60SCSANSRLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategorySecondary,    EAny, EAny, EStrokeWeightNormal, EAny, EAny, ENotBold, EAntialiase,    EElafLFLoReLangs, LIT_AS_DESC_PTR(KS60SCSANSRLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategorySecondary,    10,   15,   EStrokeWeightBold,   0,    EAny, ENotBold,    ENotAntialiase, EElafLFLoReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategorySecondary,    EAny, EAny, EStrokeWeightBold,   EAny, EAny, ENotBold,    EAntialiase,    EElafLFLoReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryPrimarySmall, 10,   15,   EAny,                0,    EAny, ENotBold,    ENotAntialiase, EElafLFLoReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryPrimarySmall, EAny, EAny, EAny,                EAny, EAny, ENotBold,    EAntialiase,    EElafLFLoReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryPrimary,      10,   15,   EAny,                0,    EAny, ENotBold,    ENotAntialiase, EElafLFLoReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryPrimary,      EAny, EAny, EAny,                EAny, EAny, ENotBold,    EAntialiase,    EElafLFLoReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryTitle,        10,   17,   EAny,                0,    EAny, ENotBold, ENotAntialiase, EElafLFLoReLangs, LIT_AS_DESC_PTR(KS60SCSANSTTLSMBLDLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryTitle,        EAny, EAny, EAny,                EAny, EAny, ENotBold, EAntialiase,  EElafLFLoReLangs, LIT_AS_DESC_PTR(KS60SCSANSTTLSMBLDLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryAny,          10,   15,   EStrokeWeightNormal, 0,    EAny, ENotBold, ENotAntialiase, EElafLFLoReLangs, LIT_AS_DESC_PTR(KS60SCSANSRLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryAny,          EAny, EAny, EStrokeWeightNormal, EAny, EAny, ENotBold, EAntialiase, EElafLFLoReLangs, LIT_AS_DESC_PTR(KS60SCSANSRLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryAny,          10,   15,   EStrokeWeightBold,   0,    EAny, ENotBold,    ENotAntialiase, EElafLFLoReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryAny,          EAny, EAny, EStrokeWeightBold,   EAny, EAny, ENotBold,    EAntialiase, EElafLFLoReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+
+    //hi-res fonts
+    { EAknFontCategorySecondary,    10,   15,   EStrokeWeightNormal, 0,    EAny, ENotBold, ENotAntialiase, EElafLFHiReLangs, LIT_AS_DESC_PTR(KS60SCSANSRLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategorySecondary,    EAny, EAny, EStrokeWeightNormal, EAny, EAny, ENotBold, EAntialiase,    EElafLFHiReLangs, LIT_AS_DESC_PTR(KS60SCSANSRLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategorySecondary,    10,   15,   EStrokeWeightBold,   0,    EAny, ENotBold,    ENotAntialiase, EElafLFHiReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategorySecondary,    EAny, EAny, EStrokeWeightBold,   EAny, EAny, ENotBold,    EAntialiase,    EElafLFHiReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryPrimarySmall, 10,   15,   EAny,                0,    EAny, ENotBold,    ENotAntialiase, EElafLFHiReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryPrimarySmall, EAny, EAny, EAny,                EAny, EAny, ENotBold,    EAntialiase,    EElafLFHiReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryPrimary,      10,   15,   EAny,                0,    EAny, ENotBold,    ENotAntialiase, EElafLFHiReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryPrimary,      EAny, EAny, EAny,                EAny, EAny, ENotBold,    EAntialiase,    EElafLFHiReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryTitle,        10,   17,   EAny,                0,    EAny, ENotBold, ENotAntialiase, EElafLFHiReLangs, LIT_AS_DESC_PTR(KS60SCSANSTTLSMBLDLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryTitle,        EAny, EAny, EAny,                EAny, EAny, ENotBold, EAntialiase,  EElafLFHiReLangs, LIT_AS_DESC_PTR(KS60SCSANSTTLSMBLDLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryAny,          10,   15,   EStrokeWeightNormal, 0,    EAny, ENotBold, ENotAntialiase, EElafLFHiReLangs, LIT_AS_DESC_PTR(KS60SCSANSRLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryAny,          EAny, EAny, EStrokeWeightNormal, EAny, EAny, ENotBold, EAntialiase, EElafLFHiReLangs, LIT_AS_DESC_PTR(KS60SCSANSRLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryAny,          10,   15,   EStrokeWeightBold,   0,    EAny, ENotBold,    ENotAntialiase, EElafLFHiReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
+    { EAknFontCategoryAny,          EAny, EAny, EStrokeWeightBold,   EAny, EAny, ENotBold,    EAntialiase, EElafLFHiReLangs, LIT_AS_DESC_PTR(KS60SCSANSSBLF), LIT_AS_DESC_PTR(KS60Group), NULL, &latinLFHeightRequestArray, LIT_AS_DESC_PTR(KWesternFontMaxExtentText) },
 //end
     };
 // ============================ GLOBAL FUNCTIONS ========================================
@@ -925,7 +987,18 @@ LOCAL_C TUint FontProviderRequiredLangs()
         }
     else
         {
-        requiredLangs |= EElafLangs;    
+        if(fLinkedFonts && fHiResFonts)
+            {
+            requiredLangs |= EElafLFHiReLangs;
+            }
+        else if(fLinkedFonts)
+            {
+            requiredLangs |= EElafLFLoReLangs;
+            }
+        else
+            {
+            requiredLangs |= EElafLangs;
+            }
         }
 
     return requiredLangs;
@@ -2236,6 +2309,10 @@ TInt IntializeLinkedFontL()
     _LIT(KJAPStop, "[JAP_LINK_STOP]");
     _LIT(KKORStart, "[KOR_LINK_START]");
     _LIT(KKORStop, "[KOR_LINK_STOP]");
+    _LIT(KWESTLINKLRStart, "[WESTERN_LINKLR_START]");
+    _LIT(KWESTLINKLRStop, "[WESTERN_LINKLR_STOP]");
+    _LIT(KWESTLINKHRStart, "[WESTERN_LINKHR_START]");
+    _LIT(KWESTLINKHRStop, "[WESTERN_LINKHR_STOP]");    
 
     TInt ret = KErrNone;
     RPointerArray<SLinkedFontDetails> fontfiles;
@@ -2309,7 +2386,23 @@ TInt IntializeLinkedFontL()
             tfile.Seek(ESeekStart);
             ret = DoPopulateAndCreateLinkFontsL(tfile, startTok, stopTok);
             }			
-        
+        if((!fChinese) && (!fKorean) && (!fJapanese) )//western linked fonts
+            {
+            if(fHiResFonts)
+                {
+                startTok.Copy(KWESTLINKHRStart);
+                stopTok.Copy(KWESTLINKHRStop);
+                tfile.Seek(ESeekStart);
+                ret = DoPopulateAndCreateLinkFontsL(tfile, startTok, stopTok);
+                }
+            else
+                {
+                startTok.Copy(KWESTLINKLRStart);
+                stopTok.Copy(KWESTLINKLRStop);
+                tfile.Seek(ESeekStart);
+                ret = DoPopulateAndCreateLinkFontsL(tfile, startTok, stopTok);                            
+                }
+            }        
         }
         
 
@@ -2364,6 +2457,8 @@ TBool LinkTypefacesInstalled(TAknLinkedFontTypes aFonttype)
             ref +=KAknFontStylesSupported;
         if(fKorean)
             ref +=KAknFontStylesSupported;
+        if((!fChinese) && (!fKorean) && (!fJapanese))
+            ref +=KAknFontStylesSupported;//western linked fonts
         }
     for (TInt i = 0; i < noOfTypefaces; i++)
         {
@@ -2431,6 +2526,25 @@ TBool LinkTypefacesInstalled(TAknLinkedFontTypes aFonttype)
                     }
 
                 }
+          if (!fChinese && !fJapanese && !fKorean && fHiResFonts)
+              {
+            if (typefaceInfo.iTypeface.iName.Compare(KS60SCHRSANSRLF)==0||
+                typefaceInfo.iTypeface.iName.Compare(KS60SCHRSANSSBLF)==0||
+                typefaceInfo.iTypeface.iName.Compare(KS60SCHRSANSTTLSMBLDLF)==0)
+                  {
+                  files++;
+                  }
+
+              }
+          else if (!fChinese && !fJapanese && !fKorean)
+              {
+            if (typefaceInfo.iTypeface.iName.Compare(KS60SCSANSRLF)==0||
+                typefaceInfo.iTypeface.iName.Compare(KS60SCSANSSBLF)==0||
+                typefaceInfo.iTypeface.iName.Compare(KS60SCSANSTTLSMBLDLF)==0)
+                  {
+                  files++;
+                 }
+              }                          
             }
         }
     if (files && (ref == files) )

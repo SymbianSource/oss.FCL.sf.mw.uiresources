@@ -21,7 +21,7 @@
 #ifndef AKNAPACLAYOUT_CDL
 #define AKNAPACLAYOUT_CDL
 
-#include <cdlengine.h>
+#include <CdlEngine.h>
 #include <aknapaclayout.cdl.common.h>
 
 namespace AknApacLayout

@@ -21,7 +21,7 @@
 #define __COMPLOCL_H__
 
 #if !defined(__E32STD_H__)
-#include <E32std.h>
+#include <e32std.h>
 #endif
 
 class LLocaleData

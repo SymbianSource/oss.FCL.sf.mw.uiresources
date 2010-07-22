@@ -989,7 +989,7 @@ void StartSrvAndRegisterTransitionsL(const TDesC& aSkinExtensionFilename,
             {
             CTFxTransition* transition = transitionarray->operator[](count);
             CTFxEffect* effect = transition->Effect();
-            if (transition && effect && effect->PathIndex() >=0)
+            if ( effect && effect->PathIndex() >=0 )
                 {
                 err = aTransSrv->RegisterFullscreenKml(transition->ContextId(),
                     transition->Uid(),
@@ -1014,7 +1014,7 @@ void StartSrvAndRegisterTransitionsL(const TDesC& aSkinExtensionFilename,
             {
             CTFxCtrlTransition* ctrltransition = ctrltransitionarray->operator[](count);
             CTFxEffect* effect = ctrltransition->Effect();
-            if (ctrltransition && effect && effect->PathIndex() >=0)
+            if ( effect && effect->PathIndex() >=0)
                 {
                 if (!ctrltransition->KmlRegistrationStatus())
                     {

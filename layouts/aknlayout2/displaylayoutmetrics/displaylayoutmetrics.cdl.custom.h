@@ -21,7 +21,7 @@
 #ifndef DISPLAYLAYOUTMETRICS_CDL_CUSTOM_H
 #define DISPLAYLAYOUTMETRICS_CDL_CUSTOM_H
 
-#include <cdlengdef.h>
+#include <CdlEngDef.h>
 #include "displaylayoutmetrics.cdl.common.h"
 
 namespace Display_Layout_Metrics

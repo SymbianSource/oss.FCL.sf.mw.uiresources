@@ -279,7 +279,7 @@ void CAknsSrvChunkMaintainer::SetWallpaper( const TAknsItemID& aIID,
     TAknsSrvEffectQueueDef applyGfxEffectQueue;
     applyGfxEffectQueue.iEffectQueueSize = sizeof(TAknsSrvEffectQueueDef)
         + 2*sizeof(TAknsSrvEffectDef) + 3*sizeof(TAknsSrvEffectParameterDef)
-        + 11*sizeof(TInt32);
+        + 8*sizeof(TInt32);
     applyGfxEffectQueue.iInputLayerIndex =0;
     applyGfxEffectQueue.iInputLayerMode = 2; //RGB
     applyGfxEffectQueue.iOutputLayerIndex = 2;

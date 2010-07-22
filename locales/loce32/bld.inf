@@ -21,8 +21,8 @@
 
 PRJ_EXPORTS
 
-// IBY-files
-rom/elocl.iby LANGUAGE_MW_LAYER_IBY_EXPORT_PATH(elocl.iby)
+// languages.confml export
+rom/languages.confml    /epoc32/rom/config/global/confml/languages.confml
 
 PRJ_MMPFILES    // List of MMP files 
 
@@ -48,7 +48,7 @@ language/group/elocl_language_cs.mmp
 language/group/elocl_language_sk.mmp
 language/group/elocl_language_pl.mmp
 language/group/elocl_language_sl.mmp
-language/group/elocl_language_zh_tw.mmp
+language/group/elocl_language_zh_TW.mmp
 language/group/elocl_language_zh_hk.mmp
 language/group/elocl_language_zh_cn.mmp
 language/group/elocl_language_ja.mmp

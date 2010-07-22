@@ -36,7 +36,7 @@ SOURCE         SDCGlobals.cpp
 SOURCE         SDCIIDConstants.cpp
 SOURCE         SDCInlOutput.cpp
 SOURCE         SDCInput.cpp
-SOURCE         SDCMbmOutput.cpp
+SOURCE         SDCMBMOutput.cpp
 SOURCE         SDCPkgOutput.cpp
 SOURCE         SDCReader.cpp
 

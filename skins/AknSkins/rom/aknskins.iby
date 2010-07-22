@@ -30,9 +30,9 @@ ECOM_PLUGIN(aknswallpaperplugin.dll,102750ca.rsc)
 
 // Series 60 Default System Skin
 
-AUTO-BITMAP=DATAZ_\RESOURCE_FILES_DIR\skins\101f84b9\Series60Skin.mbm  RESOURCE_FILES_DIR\skins\101f84b9\Series60Skin.mbm
-data=DATAZ_\SKINS_DIR\import\101f84b9\Series60Skin.skn         SKINS_DIR\import\101f84b9\Series60Skin.skn
-data=DATAZ_\RESOURCE_FILES_DIR\skins\101f84b9\Series60Skin.mif         RESOURCE_FILES_DIR\skins\101f84b9\Series60Skin.mif
+AUTO-BITMAP=DATAZ_\RESOURCE_FILES_DIR\skins\101f84b9\series60skin.mbm  RESOURCE_FILES_DIR\skins\101f84b9\series60skin.mbm
+data=DATAZ_\SKINS_DIR\import\101f84b9\series60skin.skn         SKINS_DIR\import\101f84b9\series60skin.skn
+data=DATAZ_\RESOURCE_FILES_DIR\skins\101f84b9\series60skin.mif         RESOURCE_FILES_DIR\skins\101f84b9\series60skin.mif
 
 // Series 60 Default System Skin MIF CDL header
 ECOM_PLUGIN(101f84b9.dll,101f84b9.rsc)
@@ -40,17 +40,17 @@ data=DATAZ_\resource\cdl\101f84b9_cdl_detail.rsc		Resource\Cdl\101f84b9_cdl_deta
 
 // "Haze" ROM skin
 #if defined(FF_THEME_HAZE)
-AUTO-BITMAP=DATAZ_\RESOURCE_FILES_DIR\skins\2000B12D\Haze.mbm  RESOURCE_FILES_DIR\skins\2000B12D\Haze.mbm
-data=DATAZ_\SKINS_DIR\import\2000B12D\Haze.skn         SKINS_DIR\import\2000B12D\Haze.skn
-data=DATAZ_\RESOURCE_FILES_DIR\skins\2000B12D\Haze.mif         RESOURCE_FILES_DIR\skins\2000B12D\Haze.mif
+AUTO-BITMAP=DATAZ_\RESOURCE_FILES_DIR\skins\2000B12D\haze.mbm  RESOURCE_FILES_DIR\skins\2000B12D\haze.mbm
+data=DATAZ_\SKINS_DIR\import\2000B12D\haze.skn         SKINS_DIR\import\2000B12D\haze.skn
+data=DATAZ_\RESOURCE_FILES_DIR\skins\2000B12D\haze.mif         RESOURCE_FILES_DIR\skins\2000B12D\haze.mif
 #endif
 
 // "JingMask" ROM Mask
 #if defined(FF_THEME_JINGMASK)
 // (zero-length, must be excluded to make bmconv work in ROM image creation)
-//AUTO-BITMAP=DATAZ_\RESOURCE_FILES_DIR\skins\2000B12E\Jing.mbm  RESOURCE_FILES_DIR\skins\2000B12E\Jing.mbm
-data=DATAZ_\SKINS_DIR\import\2000B12E\Jing.skn         SKINS_DIR\import\2000B12E\Jing.skn
-data=DATAZ_\RESOURCE_FILES_DIR\skins\2000B12E\Jing.mif         RESOURCE_FILES_DIR\skins\2000B12E\Jing.mif
+//AUTO-BITMAP=DATAZ_\RESOURCE_FILES_DIR\skins\2000B12E\jing.mbm  RESOURCE_FILES_DIR\skins\2000B12E\jing.mbm
+data=DATAZ_\SKINS_DIR\import\2000B12E\jing.skn         SKINS_DIR\import\2000B12E\jing.skn
+data=DATAZ_\RESOURCE_FILES_DIR\skins\2000B12E\jing.mif         RESOURCE_FILES_DIR\skins\2000B12E\jing.mif
 #endif
 
 

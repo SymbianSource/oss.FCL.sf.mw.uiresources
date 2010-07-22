@@ -21,7 +21,7 @@
 #ifndef AKNLAYOUT_CDL
 #define AKNLAYOUT_CDL
 
-#include <cdlengine.h>
+#include <CdlEngine.h>
 #include <aknlayout.cdl.common.h>
 
 namespace AknLayout
