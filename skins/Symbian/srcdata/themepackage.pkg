@@ -1,4 +1,4 @@
-; File created with SkinCompiler v0.0.153
+; File created with SkinCompiler v0.0.158
 ;
 ;
 ; Installation file for themepackage skin
@@ -7,15 +7,7 @@
 ;
 ; Package header
 ;
-#{"Symbian^3 beta2-6"},(0xA00000EB),1,0,0,TYPE=SP
-;
-; Supports Series 60 v3.x
-; This line indicates that this installation is for the Series 60 platform v3.x
-; This line must appear _exactly_ as shown below in the sis file
-; If this line is missing or incorrect,the sis file will not be able
-; to be installed on Series 60 v3.x platforms
-;
-[0x101f7961],0,0,0,{"Series60v3.0"}
+#{"fresh_beta_2-11"},(0xA00000EB),1,0,0,TYPE=SP
 ;
 ; Supports Series 60 v5.x
 ; This line indicates that this installation is for the Series 60 platform v5.x
@@ -43,11 +35,11 @@
 ;
 ; Files to install
 ;
-"themepackage.mbm" - "!:\resource\skins\4ed2c0308605ee56\themepackage.mbm"
-"themepackage.mif" - "!:\resource\skins\4ed2c0308605ee56\themepackage.mif"
-"themepackage.skn" - "!:\private\10207114\import\4ed2c0308605ee56\themepackage.skn"
+"themepackage.mbm" - "!:\resource\skins\011fe14e87d4f21f\themepackage.mbm"
+"themepackage.mif" - "!:\resource\skins\011fe14e87d4f21f\themepackage.mif"
+"themepackage.skn" - "!:\private\10207114\import\011fe14e87d4f21f\themepackage.skn"
 ;Dummy entry for the possible skin .ini file,so that it gets removed on uninstall
-"" - "!:\private\10207114\import\4ed2c0308605ee56\4ed2c0308605ee56.ini",FN
+"" - "!:\private\10207114\import\011fe14e87d4f21f\011fe14e87d4f21f.ini",FN
 ;
 ; End of file
 ;
