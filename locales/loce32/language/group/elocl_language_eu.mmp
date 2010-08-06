@@ -19,7 +19,7 @@
 
 #include <platform_paths.hrh>
 
-TARGET          elocl_lan.401
+TARGET          elocl_lan.102
 CAPABILITY      ALL
 TARGETTYPE      dll
 

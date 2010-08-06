@@ -128,7 +128,9 @@ typefaces_s60_Traditional_Chinese.xml                    /epoc32/release/armv5/u
 
 // Export IBY files
 ../rom/FontUtils.iby                              CORE_MW_LAYER_IBY_EXPORT_PATH(FontUtils.iby)
+#ifndef FF_PRODUCT_FONTS
 ../rom/fonts_variant.iby                          CUSTOMER_MW_LAYER_IBY_EXPORT_PATH(fonts_variant.iby)
+#endif
 
 ./removegtfiles.meta                             /epoc32/tools/makefile_templates/s60/removegtfiles.meta
 ./removegtfiles.flm                              /epoc32/tools/makefile_templates/s60/removegtfiles.flm
