@@ -37,14 +37,14 @@ const TFatUtilityFunctions* const LanguageAspect::FatUtilityFunctions = NULL;
 const TText * const LanguageAspect::MsgTable[ELocaleMessages_LastMsg] =
     {
 // Fileserver
-    _S("Pokušajte ponovo"),							    	// Button 1
+    _S("PokuÂšajte ponovo"),							    	// Button 1
     _S("Stani"),								            // Button 2
     _S("Stavite natrag disk"),						        // Put the card back - line1
     _S("ili \x0107"L"e se podaci izgubiti"),			    // Put the card back - line2
     _S("Akumulator preslab"),						        // Low power - line1
-    _S("Ne mogu završiti upis na disk"),					// Low power - line2
-    _S("Greška diska - ne mogu završiti upis"),				// Disk error - line1
-    _S("Pokušajte ponovo ili \x0107"L"e se podaci izgubiti"),  // Disk error - line2
+    _S("Ne mogu zavrÂšiti upis na disk"),					// Low power - line2
+    _S("GreÂška diska - ne mogu zavrÂšiti upis"),				// Disk error - line1
+    _S("PokuÂšajte ponovo ili \x0107"L"e se podaci izgubiti"),  // Disk error - line2
 // SoundDriver
     _S("Zvono sata"),								// Chimes
     _S("Telefonsko zvono"),								// Rings
@@ -104,7 +104,7 @@ const TText * const LanguageAspect::MonthTable[KMaxMonths] =
     {
     _S("sije\x010D"L"anj"),
     _S("velja\x010D"L"a"),
-    _S("ožujak"),
+    _S("oÂžujak"),
     _S("travanj"),
     _S("svibanj"),
     _S("lipanj"),
@@ -120,7 +120,7 @@ const TText * const LanguageAspect::MonthAbbTable[KMaxMonths] =
     {
     _S("sij"),
     _S("velj"),
-    _S("ožu"),
+    _S("oÂžu"),
     _S("tra"),
     _S("svi"),
     _S("lip"),

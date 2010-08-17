@@ -41,9 +41,9 @@ const TText * const LanguageAspect::MsgTable[ELocaleMessages_LastMsg] =
     _S("Sustabdykite"),								// Button 2
     _S("V\x0117l" L" \x012Fd\x0117" L"kite disk\x0105"),						// Put the card back - line1
     _S("arba duomenys bus prarasti"),						// Put the card back - line2
-    _S("Baterija baigia išsikrauti"),						// Low power - line1
-    _S("Ne\x012F" L"manoma \x012F" L"rašyti vis\x0173" L" duomen\x0173" L" \x012F" L" disk\x0105"),					// Low power - line2
-    _S("Disko klaida - ne\x012F" L"manoma \x012F" L"rašyti vis\x0173" L" duomen\x0173"),				// Disk error - line1
+    _S("Baterija baigia iÂšsikrauti"),						// Low power - line1
+    _S("Ne\x012F" L"manoma \x012F" L"raÂšyti vis\x0173" L" duomen\x0173" L" \x012F" L" disk\x0105"),					// Low power - line2
+    _S("Disko klaida - ne\x012F" L"manoma \x012F" L"raÂšyti vis\x0173" L" duomen\x0173"),				// Disk error - line1
     _S("Pabandykite dar kart\x0105" L", arba duomenys bus prarasti"),		                        // Disk error - line2
 // SoundDriver
     _S("Varpai"),								// Chimes
@@ -85,7 +85,7 @@ const TText * const LanguageAspect::DayTable[KMaxDays] =
     _S("tre\x010D" L"iadienis"),
     _S("ketvirtadienis"),
     _S("penktadienis"),
-    _S("šeštadienis"),
+    _S("ÂšeÂštadienis"),
     _S("sekmadienis")
     };
 // The abbreviated day names
@@ -96,7 +96,7 @@ const TText * const LanguageAspect::DayAbbTable[KMaxDays] =
     _S("Tr"),
     _S("Kt"),
     _S("Pn"),
-    _S("Št"),
+    _S("ÂŠt"),
     _S("Sk")
     };
 // The month names
@@ -106,8 +106,8 @@ const TText * const LanguageAspect::MonthTable[KMaxMonths] =
     _S("vasaris"),
     _S("kovas"),
     _S("balandis"),
-    _S("geguž\x0117"),
-    _S("birželis"),
+    _S("geguÂž\x0117"),
+    _S("birÂželis"),
     _S("liepa"),
     _S("rugpj\x016Bt" L"is"),
     _S("rugs\x0117" L"jis"),

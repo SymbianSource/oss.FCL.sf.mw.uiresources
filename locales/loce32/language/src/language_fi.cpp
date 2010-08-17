@@ -37,17 +37,17 @@ const TFatUtilityFunctions* const LanguageAspect::FatUtilityFunctions = NULL;
 const TText * const LanguageAspect::MsgTable[ELocaleMessages_LastMsg] =
     {
 // Fileserver
-    _S("Yrit‰ uudelleen."),								// Button 1
+    _S("Yrit√§ uudelleen."),								// Button 1
     _S("Lopeta"),								// Button 2
     _S("Aseta levyke takaisin asemaan"),						// Put the card back - line1
-    _S("tai tiedot saattavat h‰vit‰"),						// Put the card back - line2
-    _S("Akun virta ei riit‰"),						// Low power - line1
+    _S("tai tiedot saattavat h√§vit√§"),						// Put the card back - line2
+    _S("Akun virta ei riit√§"),						// Low power - line1
     _S("Levylle kirjoittamista ei voi suorittaa loppuun"),					// Low power - line2
     _S("Levyvirhe - kirjoittamista ei voi suorittaa loppuun"),				// Disk error - line1
-    _S("Yrit‰ uudelleen tai tiedot h‰vi‰v‰t"),		                        // Disk error - line2
+    _S("Yrit√§ uudelleen tai tiedot h√§vi√§v√§t"),		                        // Disk error - line2
 // SoundDriver
-    _S("ƒ‰ni 1"),								// Chimes
-    _S("ƒ‰ni 2"),								// Rings
+    _S("√Ñ√§ni 1"),								// Chimes
+    _S("√Ñ√§ni 2"),								// Rings
     _S("Signaali"),								// Signal
 // MediaDriver diskname (max 16 chars)
     _S("Internal"),								// Internal
@@ -107,8 +107,8 @@ const TText * const LanguageAspect::MonthTable[KMaxMonths] =
     _S("maaliskuu"),
     _S("huhtikuu"),
     _S("toukokuu"),
-    _S("kes‰kuu"),
-    _S("hein‰kuu"),
+    _S("kes√§kuu"),
+    _S("hein√§kuu"),
     _S("elokuu"),
     _S("syyskuu"),
     _S("lokakuu"),
@@ -123,8 +123,8 @@ const TText * const LanguageAspect::MonthAbbTable[KMaxMonths] =
     _S("maalis"),
     _S("huhti"),
     _S("touko"),
-    _S("kes‰"),
-    _S("hein‰"),
+    _S("kes√§"),
+    _S("hein√§"),
     _S("elo"),
     _S("syys"),
     _S("loka"),

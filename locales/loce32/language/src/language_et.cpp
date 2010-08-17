@@ -41,9 +41,9 @@ const TText * const LanguageAspect::MsgTable[ELocaleMessages_LastMsg] =
     _S("Stopp"),								    // Button 2
     _S("Pane ketas tagasi,"),						// Put the card back - line1
     _S("muidu andmed kaovad"),						// Put the card back - line2
-    _S("Aku liiga t¸hi"),						    // Low power - line1
-    _S("Ei suuda kettale kirjutamist lıpuni viia"),			     // Low power - line2
-    _S("Kettatırge - ei suuda kirjutamist lıpuni viia"),	     // Disk error - line1
+    _S("Aku liiga t√ºhi"),						    // Low power - line1
+    _S("Ei suuda kettale kirjutamist l√µpuni viia"),			     // Low power - line2
+    _S("Kettat√µrge - ei suuda kirjutamist l√µpuni viia"),	     // Disk error - line1
     _S("Proovi uuesti, muidu andmed kaovad"),		             // Disk error - line2
 // SoundDriver
     _S("Kellahelin"),								// Chimes
@@ -80,13 +80,13 @@ const TText * const LanguageAspect::DateSuffixTable[KMaxSuffixes] =
 // The day names
 const TText * const LanguageAspect::DayTable[KMaxDays] =
     {
-    _S("Esmasp‰ev"),
-    _S("Teisip‰ev"),
-    _S("Kolmap‰ev"),
-    _S("Neljap‰ev"),
+    _S("Esmasp√§ev"),
+    _S("Teisip√§ev"),
+    _S("Kolmap√§ev"),
+    _S("Neljap√§ev"),
     _S("Reede"),
-    _S("Laup‰ev"),
-    _S("P¸hap‰ev")
+    _S("Laup√§ev"),
+    _S("P√ºhap√§ev")
     };
 // The abbreviated day names
 const TText * const LanguageAspect::DayAbbTable[KMaxDays] =
@@ -104,7 +104,7 @@ const TText * const LanguageAspect::MonthTable[KMaxMonths] =
     {
     _S("jaanuar"),
     _S("veebruar"),
-    _S("m‰rts"),
+    _S("m√§rts"),
     _S("aprill"),
     _S("mai"),
     _S("juuni"),
@@ -120,7 +120,7 @@ const TText * const LanguageAspect::MonthAbbTable[KMaxMonths] =
     {
     _S("jaan"),
     _S("veebr"),
-    _S("m‰rts"),
+    _S("m√§rts"),
     _S("apr"),
     _S("mai"),
     _S("juuni"),

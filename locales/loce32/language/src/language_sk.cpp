@@ -103,16 +103,16 @@ const TText * const LanguageAspect::DayAbbTable[KMaxDays] =
 // The month names
 const TText * const LanguageAspect::MonthTable[KMaxMonths] =
     {
-    _S("január"),
-    _S("február"),
+    _S("januÃ¡r"),
+    _S("februÃ¡r"),
     _S("marec"),
-    _S("apríl"),
-    _S("máj"),
-    _S("jún"),
-    _S("júl"),
+    _S("aprÃ­l"),
+    _S("mÃ¡j"),
+    _S("jÃºn"),
+    _S("jÃºl"),
     _S("august"),
     _S("september"),
-    _S("október"),
+    _S("oktÃ³ber"),
     _S("november"),
     _S("december")
     };
@@ -123,9 +123,9 @@ const TText * const LanguageAspect::MonthAbbTable[KMaxMonths] =
     _S("feb."),
     _S("mar."),
     _S("apr."),
-    _S("máj"),
-    _S("jún"),
-    _S("júl"),
+    _S("mÃ¡j"),
+    _S("jÃºn"),
+    _S("jÃºl"),
     _S("aug."),
     _S("sep."),
     _S("okt."),

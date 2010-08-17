@@ -37,18 +37,18 @@ const TFatUtilityFunctions* const LanguageAspect::FatUtilityFunctions = NULL;
 const TText * const LanguageAspect::MsgTable[ELocaleMessages_LastMsg] =
      {
     // Fileserver
-    _S("IsmÈt"),								// Button 1
-    _S("Le·llÌt"),								// Button 2
+    _S("Ism√©t"),								// Button 1
+    _S("Le√°ll√≠t"),								// Button 2
     _S("Tegye vissza a lemezt"),						// Put the card back - line1
     _S("vagy elvesznek az adatok"),						// Put the card back - line2
-    _S("Akkumul·tor tˆltÈse t˙l alacsony"),						// Low power - line1
-    _S("Lemezre Ìr·s nem lehetsÈges"),					// Low power - line2
-    _S("Lemezhiba. Õr·s nem lehetsÈges"),				// Disk error - line1
-    _S("IsmÈt, vagy elvesznek az adatok"),		            // Disk error - line2
+    _S("Akkumul√°tor t√∂lt√©se t√∫l alacsony"),						// Low power - line1
+    _S("Lemezre √≠r√°s nem lehets√©ges"),					// Low power - line2
+    _S("Lemezhiba. √çr√°s nem lehets√©ges"),				// Disk error - line1
+    _S("Ism√©t, vagy elvesznek az adatok"),		            // Disk error - line2
 // SoundDriver
-    _S("HarangszÛ"),								// Chimes
-    _S("CsengetÈs"),								// Rings
-    _S("JelzÈs"),								// Signal
+    _S("Harangsz√≥"),								// Chimes
+    _S("Csenget√©s"),								// Rings
+    _S("Jelz√©s"),								// Signal
 // MediaDriver diskname (max 16 chars)
     _S("Internal"),								// Internal
     _S("External(01)"),							// External(01)
@@ -80,13 +80,13 @@ const TText * const LanguageAspect::DateSuffixTable[KMaxSuffixes] =
 // The day names
 const TText * const LanguageAspect::DayTable[KMaxDays] =
     {
-    _S("hÈtf\x0151"),
+    _S("h√©tf\x0151"),
     _S("kedd"),
     _S("szerda"),
-    _S("cs¸tˆrtˆk"),
-    _S("pÈntek"),
+    _S("cs√ºt√∂rt√∂k"),
+    _S("p√©ntek"),
     _S("szombat"),
-    _S("vas·rnap")
+    _S("vas√°rnap")
     };
 // The abbreviated day names
 const TText * const LanguageAspect::DayAbbTable[KMaxDays] =
@@ -102,16 +102,16 @@ const TText * const LanguageAspect::DayAbbTable[KMaxDays] =
 // The month names
 const TText * const LanguageAspect::MonthTable[KMaxMonths] =
     {
-    _S("janu·r"),
-    _S("febru·r"),
-    _S("m·rcius"),
-    _S("·prilis"),
-    _S("m·jus"),
-    _S("j˙nius"),
-    _S("j˙lius"),
+    _S("janu√°r"),
+    _S("febru√°r"),
+    _S("m√°rcius"),
+    _S("√°prilis"),
+    _S("m√°jus"),
+    _S("j√∫nius"),
+    _S("j√∫lius"),
     _S("augusztus"),
     _S("szeptember"),
-    _S("oktÛber"),
+    _S("okt√≥ber"),
     _S("november"),
     _S("december")
     };
@@ -120,11 +120,11 @@ const TText * const LanguageAspect::MonthAbbTable[KMaxMonths] =
     {
     _S("jan."),
     _S("febr."),
-    _S("m·rc."),
-    _S("·pr."),
-    _S("m·j."),
-    _S("j˙n."),
-    _S("j˙l."),
+    _S("m√°rc."),
+    _S("√°pr."),
+    _S("m√°j."),
+    _S("j√∫n."),
+    _S("j√∫l."),
     _S("aug."),
     _S("szept."),
     _S("okt."),

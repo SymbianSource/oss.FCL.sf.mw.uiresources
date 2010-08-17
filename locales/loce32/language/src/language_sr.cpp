@@ -41,9 +41,9 @@ const TText * const LanguageAspect::MsgTable[ELocaleMessages_LastMsg] =
     _S("Stop"),								// Button 2
     _S("Stavi disk nazad"),						// Put the card back - line1
     _S("ili \x0107"L"e podaci biti izgubljeni"),						// Put the card back - line2
-    _S("Baterija je suvi쉋 prazna"),						// Low power - line1
-    _S("Ne mogu zavr쉏ti upis na disk"),					// Low power - line2
-    _S("Gre쉓a na disku - ne mogu zavr쉏ti upis"),				// Disk error - line1
+    _S("Baterija je suvi혳e prazna"),						// Low power - line1
+    _S("Ne mogu zavr혳iti upis na disk"),					// Low power - line2
+    _S("Gre혳ka na disku - ne mogu zavr혳iti upis"),				// Disk error - line1
     _S("Ponovi ili \x0107"L"e podaci biti izgubljeni"),		                        // Disk error - line2
 // SoundDriver
     _S("Muzika"),								// Chimes

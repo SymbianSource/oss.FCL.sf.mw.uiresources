@@ -37,14 +37,14 @@ const TFatUtilityFunctions* const LanguageAspect::FatUtilityFunctions = NULL;
 const TText * const LanguageAspect::MsgTable[ELocaleMessages_LastMsg] =
     {
 // Fileserver
-    _S("Încerca\x0163" L"i din nou"),								// Button 1
+    _S("ÃŽncerca\x0163" L"i din nou"),								// Button 1
     _S("Stop"),								// Button 2
     _S("Dac\x0103" L" nu pune\x0163" L"i discul la loc"),						// Put the card back - line1
     _S("se vor pierde date"),						// Put the card back - line2
     _S("Bateria este prea desc\x0103rcat\x0103"),						// Low power - line1
-    _S("Înregistrarea pe disc nu poate fi terminat\x0103"),					// Low power - line2
-    _S("Eroare de disc - înregistrarea nu poate fi terminat\x0103"),				// Disk error - line1
-    _S("Dac\x0103" L" nu încerca\x0163" L"i din nou se vor pierde date"),		                        // Disk error - line2
+    _S("ÃŽnregistrarea pe disc nu poate fi terminat\x0103"),					// Low power - line2
+    _S("Eroare de disc - Ã®nregistrarea nu poate fi terminat\x0103"),				// Disk error - line1
+    _S("Dac\x0103" L" nu Ã®ncerca\x0163" L"i din nou se vor pierde date"),		                        // Disk error - line2
 // SoundDriver
     _S("Sun\x0103" L" ca ceasul"),								// Chimes
     _S("Sun\x0103" L" ca telefonul"),								// Rings
@@ -85,7 +85,7 @@ const TText * const LanguageAspect::DayTable[KMaxDays] =
     _S("Miercuri"),
     _S("Joi"),
     _S("Vineri"),
-    _S("Sâmb\x0103" L"t\x0103"),
+    _S("SÃ¢mb\x0103" L"t\x0103"),
     _S("Duminic\x0103")
     };
 // The abbreviated day names
@@ -96,7 +96,7 @@ const TText * const LanguageAspect::DayAbbTable[KMaxDays] =
     _S("Mi"),
     _S("Jo"),
     _S("Vi"),
-    _S("Sâ"),
+    _S("SÃ¢"),
     _S("Du")
     };
 // The month names

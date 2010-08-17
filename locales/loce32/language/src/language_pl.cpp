@@ -37,16 +37,16 @@ const TFatUtilityFunctions* const LanguageAspect::FatUtilityFunctions = NULL;
 const TText * const LanguageAspect::MsgTable[ELocaleMessages_LastMsg] =
     {
 // Fileserver
-    _S("Pon體 pr骲\x0119"),								// Button 1
+    _S("Pon贸w pr贸b\x0119"),								// Button 1
     _S("Stop"),								// Button 2
-    _S("W\x0142骪x017C" L" dysk z powrotem"),						// Put the card back - line1
+    _S("W\x0142贸\x017C" L" dysk z powrotem"),						// Put the card back - line1
     _S("lub dane zostan\x0105" L" utracone"),						// Put the card back - line2
     _S("Bateria jest zbyt s\x0142" L"aba"),						// Low power - line1
         _S("Nie mo\x017Cna doko\x0144" L"czy\x0107" L" zapisywania na dysku"),	       // Low power - line2
     _S("B\x0142\x0105" L"d dysku - nie mo\x017C" L"na doko\x0144" L"czy\x0107" L" zapisywania"),	   // escape sequences cut with "" to prevent next character
                                                                                                // to be interpreted as part of the escape (a,b,c,d,e,f are also hex)
                                                                                                // pragma used to surpress compiler warnings for these
-    _S("Pon體 pr骲\x0119" L", inaczej utracisz dane"),		                        // Disk error - line2
+    _S("Pon贸w pr贸b\x0119" L", inaczej utracisz dane"),		                        // Disk error - line2
 // SoundDriver
     _S("Kuranty"),								// Chimes
     _S("Dzwonki"),								// Rings
