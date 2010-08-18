@@ -26,15 +26,6 @@
 
 PRJ_EXPORTS
 
-// Copy font rasterizer
-../iTypeRaster/winscw/ityperast.dll                 /epoc32/release/winscw/udeb/iTypeRast.dll
-../iTypeRaster/winscw/ityperast.dll                 /epoc32/release/winscw/urel/iTypeRast.dll
-../iTypeRaster/winscw/ityperast.RSC                 /epoc32/release/winscw/udeb/z/resource/plugins/iTypeRast.rsc
-../iTypeRaster/winscw/ityperast.RSC                 /epoc32/release/winscw/urel/z/resource/plugins/iTypeRast.rsc
-
-../iTypeRaster/armv5/ityperast.dll                  /epoc32/release/armv5/udeb/iTypeRast.dll
-../iTypeRaster/armv5/ityperast.dll                  /epoc32/release/armv5/urel/iTypeRast.dll
-../iTypeRaster/armv5/ityperast.RSC                  /epoc32/data/z/resource/plugins/iTypeRast.RSC
 
 // Select correct font source directory
 #ifndef RD_KANNADA_FONTS
@@ -137,7 +128,9 @@ typefaces_s60_Traditional_Chinese.xml                    /epoc32/release/armv5/u
 
 // Export IBY files
 ../rom/FontUtils.iby                              CORE_MW_LAYER_IBY_EXPORT_PATH(FontUtils.iby)
+#ifndef FF_PRODUCT_FONTS
 ../rom/fonts_variant.iby                          CUSTOMER_MW_LAYER_IBY_EXPORT_PATH(fonts_variant.iby)
+#endif
 
 ./removegtfiles.meta                             /epoc32/tools/makefile_templates/s60/removegtfiles.meta
 ./removegtfiles.flm                              /epoc32/tools/makefile_templates/s60/removegtfiles.flm

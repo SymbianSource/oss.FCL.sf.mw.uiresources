@@ -107,7 +107,17 @@ int DoMain(int argc, char* argv[])
 	mif.Modify(dllUid);
 	mif.Write(mifName);
 
-	DllCreator dll;
+// START: Raptor chnages for linux
+	const char* epocRoot = getenv("EPOCROOT");
+	if(NULL == epocRoot)
+	    {
+	    throw MainArgsErr();
+	    }
+	std::string epocRootStr(epocRoot); 
+	std::string finalStr = epocRootStr + "epoc32//include//platform//mw//MifHeader.cdl";
+
+	DllCreator dll(finalStr);
+//  END
 	dll.SetNameAndUid(dllName, dllUid);
 	dll.SetIndex(index);
 	dll.WriteSource();

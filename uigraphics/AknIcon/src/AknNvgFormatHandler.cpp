@@ -170,6 +170,8 @@ void CAknNvgFormatHandler::RenderPreparedIconL(CFbsBitmap* aBitmap,
         CFbsBitmap* aMask, TSize Bitmapsize, TDisplayMode Bitmapdepth,
         TDisplayMode Maskdepth, TRgb aColor, TBool aMarginFlag)
     {
+    if(!iData)
+        User::Leave(KErrNotFound);
     FormCommonHeader(aBitmap, EFalse, aColor, aMarginFlag);
     aBitmap->CreateExtendedBitmap(Bitmapsize, Bitmapdepth,
             KUidNvgProprietaryFormat, iData->Ptr(), iData->Length());
@@ -238,7 +240,7 @@ void CAknNvgFormatHandler::SupportedDisplayMode(
     {
     // Modes currently supported by SVG engine are:
     // EGray2, EColor4K, EColor64K, EColor16M
-    if ( aMode != EGray2 )
+//    if ( aMode != EGray2 ) EASK-824CMD:VGISymbianCopyToBitmap fails for bitmaps with EGray2 display modes.Modifying to create bitmaps with supported displaymodes
         {
         aMode = aPreferredMode;
         }

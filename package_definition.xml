@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemDefinition schema="3.0.0">
+ <package id="uiresources" name="UI Resources" levels="compile plugin framework server generic data">
+   <!-- are the custom filters below needed? -->
+  <collection id="uiresources_pub" name="UI Resources Public Interfaces" level="data">
+   <component id="pictograph_api" name="Pictograph API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_pub/pictograph_api/pictograph_api.metaxml"/>
+    <unit bldFile="uiresources_pub/pictograph_api/group" filter="!test"/>
+    <unit bldFile="uiresources_pub/pictograph_api/tsrc/group" filter="test,api_test,pictograph_api"/>
+   </component>
+   <component id="skins_api" name="Skins API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_pub/skins_api/skins_api.metaxml"/>
+    <unit bldFile="uiresources_pub/skins_api/group" filter="!test"/>
+    <unit bldFile="uiresources_pub/skins_api/tsrc/group" filter="test,api_test,skins_api"/>
+   </component>
+   <component id="font_definition_api" name="Font Definition API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_pub/font_definition_api/font_definition_api.metaxml"/>
+    <unit bldFile="uiresources_pub/font_definition_api/group" filter="!test"/>
+    <unit bldFile="uiresources_pub/font_definition_api/tsrc/group" filter="test,api_test,font_definition_api"/>
+   </component>
+   <component id="graphics_api" name="Graphics API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_pub/graphics_api/graphics_api.metaxml"/>
+    <unit bldFile="uiresources_pub/graphics_api/group" filter="!test"/>
+    <unit bldFile="uiresources_pub/graphics_api/tsrc/group" filter="test,api_test,graphics_api"/>
+   </component>
+   <component id="scalable_icons_api" name="Scalable Icons API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_pub/scalable_icons_api/scalable_icons_api.metaxml"/>
+    <unit bldFile="uiresources_pub/scalable_icons_api/group"/>
+   </component>
+   <component id="layout_id_definitions_api" name="Layout ID Definitions API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_pub/layout_id_definitions_api/layout_id_definitions_api.metaxml"/>
+    <unit bldFile="uiresources_pub/layout_id_definitions_api/group"/>
+   </component>
+  </collection>
+  <collection id="uiresources_plat" name="UI Resources Platform Interfaces" level="data">
+   <component id="layout_system_private_api" name="Layout System Private API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/layout_system_private_api/layout_system_private_api.metaxml"/>
+    <unit bldFile="uiresources_plat/layout_system_private_api/group" filter="!test"/>
+    <unit bldFile="uiresources_plat/layout_system_private_api/tsrc/group" filter="test,api_test,layout_system_private_api"/>
+   </component>
+   <component id="layout_data_api" name="Layout Data API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/layout_data_api/layout_data_api.metaxml"/>
+    <unit bldFile="uiresources_plat/layout_data_api/group" filter="!test"/>
+    <unit bldFile="uiresources_plat/layout_data_api/tsrc/group" filter="test,api_test,layout_data_api"/>
+   </component>
+   <component id="cdl_api" name="CDL API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/cdl_api/cdl_api.metaxml"/>
+    <unit bldFile="uiresources_plat/cdl_api/group" filter="!test"/>
+    <unit bldFile="uiresources_plat/cdl_api/tsrc/group" filter="test,api_test,cdl_api"/>
+   </component>
+   <component id="extended_skins_api" name="Extended Skins API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/extended_skins_api/extended_skins_api.metaxml"/>
+    <unit bldFile="uiresources_plat/extended_skins_api/group" filter="!test"/>
+    <unit bldFile="uiresources_plat/extended_skins_api/tsrc/group" filter="test,api_test,extended_skins_api"/>
+   </component>
+   <component id="tfx_server_controller_plugin_api" name="TFX Server Controller Plug-in API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/tfx_server_controller_plugin_api/tfx_server_controller_plugin_api.metaxml"/>
+    <unit bldFile="uiresources_plat/tfx_server_controller_plugin_api/group"/>
+   </component>
+   <component id="extended_fonts_api" name="Extended Fonts API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/extended_fonts_api/extended_fonts_api.metaxml"/>
+    <unit bldFile="uiresources_plat/extended_fonts_api/group" filter="!test"/>
+    <unit bldFile="uiresources_plat/extended_fonts_api/tsrc/group" filter="test,api_test,extended_fonts_api"/>
+   </component>
+   <component id="graphic_configuration_api" name="Graphic Configuration API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/graphic_configuration_api/graphic_configuration_api.metaxml"/>
+    <unit bldFile="uiresources_plat/graphic_configuration_api/group" filter="!test"/>
+    <unit bldFile="uiresources_plat/graphic_configuration_api/tsrc/group" filter="test,api_test,graphic_configuration_api"/>
+   </component>
+   <component id="mif_header_cdl_api" name="MIF Header CDL API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/mif_header_cdl_api/mif_header_cdl_api.metaxml"/>
+    <unit bldFile="uiresources_plat/mif_header_cdl_api/group"/>
+   </component>
+   <component id="personalisation_and_skins_settings_api" name="Personalisation and Skins Settings API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/personalisation_and_skins_settings_api/personalisation_and_skins_settings_api.metaxml"/>
+    <unit bldFile="uiresources_plat/personalisation_and_skins_settings_api/group"/>
+   </component>
+   <component id="tfx_effect_setup_plugin_api" name="TFX Effect Setup Plug-in API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/tfx_effect_setup_plugin_api/tfx_effect_setup_plugin_api.metaxml"/>
+    <unit bldFile="uiresources_plat/tfx_effect_setup_plugin_api/group"/>
+   </component>
+   <component id="mifconv_definitions_api" name="Mifconv Definitions API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/mifconv_definitions_api/mifconv_definitions_api.metaxml"/>
+    <unit bldFile="uiresources_plat/mifconv_definitions_api/group"/>
+   </component>
+   <component id="wallpaper_configuration_api" name="Wallpaper Configuration API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/wallpaper_configuration_api/wallpaper_configuration_api.metaxml"/>
+    <unit bldFile="uiresources_plat/wallpaper_configuration_api/group"/>
+   </component>
+   <component id="language_code_definitions_api" name="Language Code Definitions API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/language_code_definitions_api/language_code_definitions_api.metaxml"/>
+    <unit bldFile="uiresources_plat/language_code_definitions_api/group"/>
+   </component>
+   <component id="skins_image_attributes_api" name="Skins Image Attributes API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/skins_image_attributes_api/skins_image_attributes_api.metaxml"/>
+    <unit bldFile="uiresources_plat/skins_image_attributes_api/group" filter="!test"/>
+    <unit bldFile="uiresources_plat/skins_image_attributes_api/tsrc/group" filter="test,api_test,skins_image_attributes_api"/>
+   </component>
+   <component id="private_user_area_code_definitions_api" name="Private User Area Code Definitions API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/private_user_area_code_definitions_api/private_user_area_code_definitions_api.metaxml"/>
+    <unit bldFile="uiresources_plat/private_user_area_code_definitions_api/group"/>
+   </component>
+   <component id="tfx_server_plugin_ids_api" name="TFX Server Plug-in IDs API" class="api" filter="s60">
+    <meta rel="Api" href="uiresources_plat/tfx_server_plugin_ids_api/tfx_server_plugin_ids_api.metaxml"/>
+    <unit bldFile="uiresources_plat/tfx_server_plugin_ids_api/group"/>
+   </component>
+  </collection>
+  <collection id="uiresources_info" name="UI Resources Info" level="data">
+   <component id="uiresources_test" filter="s60,test,api_test" name="UI Resources Tests" purpose="development">
+    <unit bldFile="tsrc/group" filter="uiresources_api_all"/>
+   </component>
+  </collection>
+  <collection id="uigraphics" name="UI Graphics" level="generic">
+   <component id="bitmaps2" filter="s60" name="Bitmaps 2" class="config">
+    <unit bldFile="uigraphics/bitmaps2/group"/>
+   </component>
+   <component id="icons" filter="s60" class="config" name="Icons">
+    <unit bldFile="uigraphics/icons/group"/>
+   </component>
+   <component id="variatedbitmaps" filter="s60" name="Variated Bitmaps" class="config">
+    <unit bldFile="uigraphics/variatedbitmaps/group"/>
+   </component>
+   <component id="aknicon" filter="s60" name="Avkon Icon Framework">
+    <unit bldFile="uigraphics/aknicon/group"/>
+   </component>
+   <component id="nvgrenderstage" filter="sf_build" name="NVG Render Stage">
+    <unit bldFile="uigraphics/nvgrenderstage/group"/>
+   </component>
+  </collection>
+  <collection id="layouts" name="Layouts" level="plugin">
+   <component id="cdl" filter="s60" name="Customization Definition Language">
+    <!-- can only have one unit. Need to #include them or split into multiple components -->
+    <unit bldFile="layouts/cdl/cdlengine/group"/>
+    <unit bldFile="layouts/cdl/cdlserver/group"/>
+   </component>
+   <component id="aknlayout2" filter="s60" name="Avkon Layout 2">
+    <unit bldFile="layouts/aknlayout2/group"/>
+   </component>
+  </collection>
+  <collection id="skins" name="Skins" level="data">
+   <component id="aknskincontent" filter="s60" name="Avkon Skin Content" class="config">
+    <unit bldFile="skins/aknskincontent/group"/>
+   </component>
+   <component id="aknskins" filter="s60" name="Avkon Skin Compiler">
+    <unit bldFile="skins/aknskins/group"/>
+   </component>
+  </collection>
+  <collection id="pictographs" name="Pictographs" level="data">
+   <component id="aknpictograph" filter="s60" name="Avkon Pictograph">
+    <unit bldFile="pictographs/aknpictograph/group"/>
+   </component>
+  </collection>
+  <collection id="locales" name="Locales" level="framework">
+   <component id="locales_build" filter="s60" name="Locales Build">
+    <unit bldFile="locales/loce32"/>
+   </component>
+  </collection>
+  <collection id="uiconfig" name="UI Config" level="server">
+   <component id="s60config" filter="s60" name="S60 UI Config">
+    <unit bldFile="uiconfig/s60config/group"/>
+   </component>
+  </collection>
+  <collection id="fontsupport" name="Font Support" level="generic">
+   <component id="fontprovider" filter="s60" name="Font Provider">
+    <meta rel="config">
+       <not-defined condition="FF_PRODUCT_FONTS"/>
+    </meta>
+    <unit bldFile="fontsupport/fontprovider/group"/>
+   </component>
+   <component id="fontutils" name="Font Utils" filter="s60">
+    <unit bldFile="fontsupport/fontutils/FontUtils/group"/>
+   </component>
+  </collection>
+  <collection id="helpthemes" name="Help Themes" level="data">
+   <!-- collection is really a component. Need to move down a directory -->
+   <component id="helpthemes_build" filter="s60" name="Help Themes Build" class="config">
+    <unit bldFile="helpthemes/group"/>
+   </component>
+  </collection>
+ </package>
+</SystemDefinition>
