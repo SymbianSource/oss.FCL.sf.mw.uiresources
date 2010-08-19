@@ -41,7 +41,7 @@ END
 
 SOURCE 			AknIconOomPlugin.cpp
 
-LIBRARY 		ECOM.LIB
+LIBRARY 		ecom.lib
 LIBRARY         euser.lib
 LIBRARY         oommonitor.lib
-LIBRARY         AknIcon.lib
+LIBRARY         aknicon.lib

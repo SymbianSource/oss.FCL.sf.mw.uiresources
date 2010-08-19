@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LayoutAttributes createdOn="2010-06-10 17:13:35.654" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.09312171444836848">
+<LayoutAttributes createdOn="2010-07-29 23:01:20.285" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.09312171444836848">
   <attributeset compId="1" name="D">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -102,6 +102,12 @@
     </attribute>
     <attribute id="233" name="Height text secondary">
       <calc value="19"/>
+    </attribute>
+    <attribute id="1107" name="Text Primary height  0">
+      <calc value="25"/>
+    </attribute>
+    <attribute id="1108" name="Text Secondary height 0">
+      <calc value="22"/>
     </attribute>
   </attributeset>
   <attributeset compId="9" name="a0">
@@ -4154,10 +4160,9 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="9" zoom="+2 zoom"/>
       <calc value="9" zoom="+3 zoom"/>
       <calc value="12" zoom="-3 zoom"/>
-      <calc value="11" zoom="-2 zoom"/>
+      <calc value="12" zoom="-2 zoom"/>
       <calc value="10"/>
       <calc value="11" zoom="-1 zoom"/>
     </attribute>
@@ -4258,7 +4263,7 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="6"/>
+      <calc value="7"/>
     </attribute>
     <attribute id="49" name="Number of columns">
       <calc value="4"/>
@@ -4711,7 +4716,7 @@
       <calc value="3"/>
     </attribute>
     <attribute id="50" name="Hz Align">
-      <calc value="left"/>
+      <calc value="right"/>
     </attribute>
     <attribute id="51" name="Vt Align">
       <calc value="top"/>
@@ -4737,7 +4742,7 @@
       <calc value="3"/>
     </attribute>
     <attribute id="50" name="Hz Align">
-      <calc value="left"/>
+      <calc value="right"/>
     </attribute>
     <attribute id="51" name="Vt Align">
       <calc value="top"/>
@@ -6845,7 +6850,7 @@
       <calc value="false"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="4"/>
+      <calc value="5"/>
     </attribute>
     <attribute id="50" name="Hz Align">
       <calc value="left"/>
@@ -7707,7 +7712,7 @@
       <calc value="centered"/>
     </attribute>
     <attribute id="51" name="Vt Align">
-      <calc value="top"/>
+      <calc value="centered"/>
     </attribute>
   </attributeset>
   <attributeset compId="5849" name="a0">
@@ -8697,16 +8702,16 @@
       <calc value="Forced"/>
     </attribute>
     <attribute id="25" name="gap">
-      <calc value="3"/>
+      <calc value="2"/>
     </attribute>
     <attribute id="44" name="Top Margin">
-      <calc value="28"/>
+      <calc value="25"/>
     </attribute>
     <attribute id="46" name="Multi Row">
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="10"/>
+      <calc value="11"/>
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="true"/>
@@ -8729,16 +8734,16 @@
       <calc value="Forced"/>
     </attribute>
     <attribute id="25" name="gap">
-      <calc value="3"/>
+      <calc value="2"/>
     </attribute>
     <attribute id="44" name="Top Margin">
-      <calc value="28"/>
+      <calc value="25"/>
     </attribute>
     <attribute id="46" name="Multi Row">
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="9"/>
+      <calc value="10"/>
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="true"/>

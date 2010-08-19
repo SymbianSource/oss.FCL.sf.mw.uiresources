@@ -41,7 +41,7 @@ sourcepath	..
 source src/AknLayout2Scalable.cpp
 
 library euser.lib
-library CdlEngine.LIB
+library CdlEngine.lib
 
 START WINS
 	baseaddress     0x7e010000

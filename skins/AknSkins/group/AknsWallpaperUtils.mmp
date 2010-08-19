@@ -36,11 +36,11 @@ SYSTEMINCLUDE   ../../../inc
 SYSTEMINCLUDE   ../../inc
 
 LIBRARY         euser.lib
-LIBRARY         AKNSKINSRV.lib
-LIBRARY         CentralRepository.lib
-LIBRARY         drmhelper.lib 
+LIBRARY         aknskinsrv.lib
+LIBRARY         centralrepository.lib
+LIBRARY         DrmHelper.lib
 LIBRARY         avkon.lib
-LIBRARY         commonengine.lib
+LIBRARY         CommonEngine.lib
 LIBRARY         efsrv.lib 
 LIBRARY         caf.lib
 

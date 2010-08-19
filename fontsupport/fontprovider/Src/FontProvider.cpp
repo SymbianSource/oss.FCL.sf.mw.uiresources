@@ -458,7 +458,7 @@ CDL_ARRAY_START( SHeightRequest, chnHrLftHeightRequestArray)
         { 16, 16 }, 
         { 18, 18 }, 
         { 19, 18 }, 
-        { 24, 24 }, 
+        { 24, 23 }, 
         { 25, 25 }, 
         { 26, 26 }, 
         { 27, 27 }, 
@@ -1881,7 +1881,7 @@ EXPORT_C void AknFontProvider::InitializeSystemL ( const CEikonEnv& aEnv )
             }
  
         }
-        
+    store->SetFontNameAliasL(_L("Series 60 Sans"),_L("Nokia Sans S60"));     
     CleanupStack::PopAndDestroy( store );   
     
     return;

@@ -51,10 +51,10 @@ SOURCE          testdomlayoutdatablocksdef.cpp
 SOURCE          testdomlayoutdatablockscalabledef.cpp
 
 LIBRARY         euser.lib
-LIBRARY         stiftestinterface.lib
+LIBRARY         StifTestInterface.lib
 LIBRARY         stiftestengine.lib
 LIBRARY         aknlayout2.lib
-LIBRARY         aknlayout2scalable.lib
+LIBRARY         AknLayout2Scalable.lib
 
 LANG            SC
 

@@ -5730,6 +5730,60 @@ enum TApiId
 	EApiId_cell_fshwr2_syb_bg_pane_g1_ParamLimits,
 	EApiId_cell_fshwr2_syb_bg_pane_t1_ParamLimits,
 	EApiId_popup_fep_vkb_icf_pane_ParamLimits,
+	EApiId_bg_popup_fep_char_preview_window_g10,
+	EApiId_cell_ai5_widget_pane_g11_ParamLimits,
+	EApiId_cell_ai5_widget_pane_g11,
+	EApiId_cell_ai5_widget_pane_g12_ParamLimits,
+	EApiId_cell_ai5_widget_pane_g12,
+	EApiId_cell_ai5_widget_pane_g13_ParamLimits,
+	EApiId_cell_ai5_widget_pane_g13,
+	EApiId_cell_ai5_widget_pane_t11_ParamLimits,
+	EApiId_cell_ai5_widget_pane_t11,
+	EApiId_cell_ai5_widget_pane_t12_ParamLimits,
+	EApiId_cell_ai5_widget_pane_t12,
+	EApiId_cell_ituss_key_pane_g4_ParamLimits,
+	EApiId_cell_ituss_key_pane_g4,
+	EApiId_cell_ituss_key_pane_g5_ParamLimits,
+	EApiId_cell_ituss_key_pane_g5,
+	EApiId_cell_ituss_key_pane_g6_ParamLimits,
+	EApiId_cell_ituss_key_pane_g6,
+	EApiId_bg_icf_pane_g1,
+	EApiId_bg_icf_pane_g2,
+	EApiId_bg_icf_pane_g3,
+	EApiId_bg_icf_pane_g4,
+	EApiId_bg_icf_pane_g5,
+	EApiId_bg_icf_pane_g6,
+	EApiId_bg_icf_pane_g7,
+	EApiId_bg_icf_pane_g8,
+	EApiId_bg_icf_pane_g9,
+	EApiId_bg_icf_pane_g_Limits,
+	EApiId_bg_icf_pane_g,
+	EApiId_popup_hyb_candi_window_ParamLimits,
+	EApiId_popup_hyb_candi_window,
+	EApiId_bg_popup_sub_pane_cp01_ParamLimits,
+	EApiId_bg_popup_sub_pane_cp01,
+	EApiId_entry_hyb_candi_pane_ParamLimits,
+	EApiId_entry_hyb_candi_pane,
+	EApiId_grid_hyb_candi_pane_ParamLimits,
+	EApiId_grid_hyb_candi_pane,
+	EApiId_grid_hyb_phrase_pane_ParamLimits,
+	EApiId_grid_hyb_phrase_pane,
+	EApiId_cell_hyb_candi_pane_ParamLimits,
+	EApiId_cell_hyb_candi_pane,
+	EApiId_cell_hyb_candi_scroll_pane,
+	EApiId_cell_hyb_candi_pane_g1,
+	EApiId_cell_hyb_candi_pane_t1,
+	EApiId_cell_hyb_phrase_pane,
+	EApiId_cell_hyb_phrase_pane_g1,
+	EApiId_cell_hyb_phrase_pane_t1,
+	EApiId_entry_hyb_candi_pane_t1,
+	EApiId_input_focus_pane_cp06,
+	EApiId_cell_hyb_candi_scroll_pane_g1,
+	EApiId_cell_hyb_candi_scroll_pane_g1_aid,
+	EApiId_cell_hyb_candi_scroll_pane_g2,
+	EApiId_cell_hyb_candi_scroll_pane_g2_aid,
+	EApiId_cell_hyb_candi_scroll_pane_g3,
+	EApiId_cell_hyb_candi_scroll_pane_g4,
 	E_TApiId_TableSize
 	};
 
@@ -11437,6 +11491,60 @@ typedef TAknLayoutScalableParameterLimits (Tcell_fshwr2_syb_bg_pane_ParamLimits_
 typedef TAknLayoutScalableParameterLimits (Tcell_fshwr2_syb_bg_pane_g1_ParamLimits_sig)(TInt);
 typedef TAknLayoutScalableParameterLimits (Tcell_fshwr2_syb_bg_pane_t1_ParamLimits_sig)(TInt);
 typedef TAknLayoutScalableParameterLimits (Tpopup_fep_vkb_icf_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tbg_popup_fep_char_preview_window_g10_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_ai5_widget_pane_g11_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tcell_ai5_widget_pane_g11_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_ai5_widget_pane_g12_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tcell_ai5_widget_pane_g12_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_ai5_widget_pane_g13_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tcell_ai5_widget_pane_g13_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_ai5_widget_pane_t11_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tcell_ai5_widget_pane_t11_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_ai5_widget_pane_t12_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tcell_ai5_widget_pane_t12_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_ituss_key_pane_g4_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tcell_ituss_key_pane_g4_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_ituss_key_pane_g5_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tcell_ituss_key_pane_g5_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_ituss_key_pane_g6_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tcell_ituss_key_pane_g6_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbg_icf_pane_g1_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbg_icf_pane_g2_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbg_icf_pane_g3_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbg_icf_pane_g4_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbg_icf_pane_g5_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbg_icf_pane_g6_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbg_icf_pane_g7_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbg_icf_pane_g8_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbg_icf_pane_g9_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableTableLimits (Tbg_icf_pane_g_Limits_sig)();
+typedef TAknWindowComponentLayout (Tbg_icf_pane_g_sig)(TInt, TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tpopup_hyb_candi_window_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tpopup_hyb_candi_window_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tbg_popup_sub_pane_cp01_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tbg_popup_sub_pane_cp01_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tentry_hyb_candi_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tentry_hyb_candi_pane_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tgrid_hyb_candi_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tgrid_hyb_candi_pane_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tgrid_hyb_phrase_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tgrid_hyb_phrase_pane_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tcell_hyb_candi_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tcell_hyb_candi_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcell_hyb_candi_scroll_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcell_hyb_candi_pane_g1_sig)(TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tcell_hyb_candi_pane_t1_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcell_hyb_phrase_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcell_hyb_phrase_pane_g1_sig)(TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tcell_hyb_phrase_pane_t1_sig)(TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tentry_hyb_candi_pane_t1_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tinput_focus_pane_cp06_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcell_hyb_candi_scroll_pane_g1_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcell_hyb_candi_scroll_pane_g1_aid_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcell_hyb_candi_scroll_pane_g2_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcell_hyb_candi_scroll_pane_g2_aid_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcell_hyb_candi_scroll_pane_g3_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcell_hyb_candi_scroll_pane_g4_sig)(TInt, TInt, TInt);
 
 } // end of namespace AknLayoutScalable_Avkon
 

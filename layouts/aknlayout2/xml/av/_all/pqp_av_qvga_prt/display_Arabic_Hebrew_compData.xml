@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2010-06-10 17:57:00.281" LayoutName="pqp_av_qvga_prt" LayoutSetId="287" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.4922643146365765" MasterName="m_avk_tch_92_loc" ppi="174.0" ppiUnit="Inches" resolutionHeight="320" resolutionWidth="240" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
+<Layout createdOn="2010-07-15 16:34:20.129" LayoutName="pqp_av_qvga_prt" LayoutSetId="287" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.4922643146365765" MasterName="m_avk_tch_92_loc" ppi="174.0" ppiUnit="Inches" resolutionHeight="320" resolutionWidth="240" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
     <Component drawingorder="3" id="0.005041552600666077" maxVariety="0" mirror="true" name="text_secondary" type="Text"/>
     <Component drawingorder="1" id="0.112689209815522" maxVariety="0" mirror="true" name="text_primary" type="Text"/>
     <Component drawingorder="0" id="0.3077307233172313" maxVariety="0" mirror="true" name="text_title" type="Text"/>
@@ -2302,7 +2302,7 @@
     <Component drawingorder="66" id="5848" maxVariety="0" mirror="false" name="main_ai5_pane" type="Pane"/>
     <Component drawingorder="0" id="5849" maxVariety="8" mirror="true" name="cell_ai5_widget_pane" type="Pane"/>
     <Component drawingorder="1" id="5850" maxVariety="8" mirror="true" name="ai5_sk_pane" type="Pane"/>
-    <Component drawingorder="1" id="5852" maxVariety="17" mirror="true" name="bg_ai5_widget_pane" type="Pane"/>
+    <Component drawingorder="1" id="5852" maxVariety="18" mirror="true" name="bg_ai5_widget_pane" type="Pane"/>
     <Component drawingorder="0" id="5853" maxVariety="1" mirror="true" name="bg_ai5_widget_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="5854" maxVariety="1" mirror="true" name="bg_ai5_widget_pane_g2" type="Graphic"/>
     <Component drawingorder="2" id="5855" maxVariety="1" mirror="true" name="bg_ai5_widget_pane_g3" type="Graphic"/>
@@ -2572,7 +2572,7 @@
     <Component drawingorder="0" id="8252" maxVariety="1" mirror="true" name="cell_ai5_widget_list_row_pane_g1" type="Graphic"/>
     <Component drawingorder="2" id="8253" maxVariety="0" mirror="true" name="cell_ai5_widget_list_row_pane_t2" type="Text"/>
     <Component drawingorder="23" id="8254" maxVariety="0" mirror="false" name="main_fep_vtchi_ss_pane" type="Pane"/>
-    <Component drawingorder="0" id="8255" maxVariety="1" mirror="true" name="popup_fep_vkbss_window" type="Pane"/>
+    <Component drawingorder="0" id="8255" maxVariety="2" mirror="true" name="popup_fep_vkbss_window" type="Pane"/>
     <Component drawingorder="1" id="8256" maxVariety="1" mirror="true" name="popup_fep_ituss_window" type="Pane"/>
     <Component drawingorder="0" id="8263" maxVariety="1" mirror="false" name="ituss_keypad_pane" type="Pane"/>
     <Component drawingorder="0" id="8264" maxVariety="3" mirror="false" name="cell_ituss_key_pane" type="Pane"/>
@@ -2628,4 +2628,22 @@
     <Component drawingorder="8" id="8343" maxVariety="6" mirror="true" name="aid_tch_query_popup_pane" type="Pane"/>
     <Component drawingorder="12" id="8344" maxVariety="5" mirror="true" name="aid_tch_query_popup_data_pane_cp2" type="Pane"/>
     <Component drawingorder="13" id="8345" maxVariety="5" mirror="true" name="aid_tch_indicator_popup_pane_cp2" type="Pane"/>
+    <Component drawingorder="10" id="8346" maxVariety="3" mirror="false" name="cell_ituss_key_pane_g4" type="Graphic"/>
+    <Component drawingorder="11" id="8347" maxVariety="3" mirror="false" name="cell_ituss_key_pane_g5" type="Graphic"/>
+    <Component drawingorder="12" id="8348" maxVariety="4" mirror="false" name="cell_ituss_key_pane_g6" type="Graphic"/>
+    <Component drawingorder="0" id="8349" maxVariety="0" mirror="true" name="bg_icf_pane_g1" type="Graphic"/>
+    <Component drawingorder="1" id="8350" maxVariety="0" mirror="true" name="bg_icf_pane_g2" type="Graphic"/>
+    <Component drawingorder="2" id="8351" maxVariety="0" mirror="true" name="bg_icf_pane_g3" type="Graphic"/>
+    <Component drawingorder="3" id="8352" maxVariety="0" mirror="true" name="bg_icf_pane_g4" type="Graphic"/>
+    <Component drawingorder="4" id="8353" maxVariety="0" mirror="true" name="bg_icf_pane_g5" type="Graphic"/>
+    <Component drawingorder="5" id="8354" maxVariety="0" mirror="true" name="bg_icf_pane_g6" type="Graphic"/>
+    <Component drawingorder="6" id="8355" maxVariety="0" mirror="true" name="bg_icf_pane_g7" type="Graphic"/>
+    <Component drawingorder="7" id="8356" maxVariety="0" mirror="true" name="bg_icf_pane_g8" type="Graphic"/>
+    <Component drawingorder="8" id="8357" maxVariety="0" mirror="true" name="bg_icf_pane_g9" type="Graphic"/>
+    <Component drawingorder="9" id="8358" maxVariety="0" mirror="false" name="bg_popup_fep_char_preview_window_g10" type="Graphic"/>
+    <Component drawingorder="28" id="8359" maxVariety="0" mirror="true" name="cell_ai5_widget_pane_t11" type="Text"/>
+    <Component drawingorder="29" id="8360" maxVariety="0" mirror="true" name="cell_ai5_widget_pane_t12" type="Text"/>
+    <Component drawingorder="23" id="8361" maxVariety="0" mirror="true" name="cell_ai5_widget_pane_g11" type="Graphic"/>
+    <Component drawingorder="31" id="8362" maxVariety="0" mirror="true" name="cell_ai5_widget_pane_g12" type="Graphic"/>
+    <Component drawingorder="30" id="8363" maxVariety="0" mirror="true" name="cell_ai5_widget_pane_g13" type="Graphic"/>
 </Layout>

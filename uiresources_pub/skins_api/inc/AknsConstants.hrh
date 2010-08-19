@@ -7782,8 +7782,15 @@ enum TAknsMinorGenericValue
     EAknsMinorGenericQgnPropCmccMapUnsync = 0x263f,
     EAknsMinorGenericQgnPropCmccRingtone = 0x2640,
     EAknsMinorGenericQgnPropCmccRingtoneUnsync = 0x2641,
-    // SCMMARKER_INSERTIONPOINT [9794]
-    EAknsMinorGenericInternalCurrentLastItem = 0x2642
+    EAknsMinorGenericQgnIndiInputPage = 0x2642,
+    EAknsMinorGenericQgnIndiInputPage1 = 0x2643,
+    EAknsMinorGenericQgnIndiInputPage2 = 0x2644,
+    EAknsMinorGenericQtgGrafTaskswitcherVideoPlayer = 0x2645,
+    EAknsMinorGenericQsnBigclockAnalogueFaceScreensaverStrokeLandscape = 0x2646,
+    EAknsMinorGenericQgnPropCmccSync = 0x2647,
+    EAknsMinorGenericQgnPropCmccUnsync = 0x2648,
+    // SCMMARKER_INSERTIONPOINT [9801]
+    EAknsMinorGenericInternalCurrentLastItem = 0x2649
     };
 
 // ----------------------------------------------------------------------------

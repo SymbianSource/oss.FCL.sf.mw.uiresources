@@ -45,11 +45,11 @@ LIBRARY         euser.lib
 LIBRARY         bafl.lib
 LIBRARY         efsrv.lib
 LIBRARY         fbscli.lib 
-LIBRARY         drmhelper.lib
-LIBRARY         ImageConversion.lib
-LIBRARY         BitmapTransforms.lib
+LIBRARY         DrmHelper.lib
+LIBRARY         imageconversion.lib
+LIBRARY         bitmaptransforms.lib
 LIBRARY         bitgdi.lib
-LIBRARY         SvgEngine.lib
+LIBRARY         svgengine.lib
 LIBRARY         gdi.lib
 LIBRARY         hal.lib
 
@@ -58,8 +58,8 @@ LIBRARY         DrmRights.lib
 LIBRARY         caf.lib
 LIBRARY         cafutils.lib
 
-LIBRARY         CentralRepository.lib
-LIBRARY         CenRepNotifHandler.lib
+LIBRARY         centralrepository.lib
+LIBRARY         cenrepnotifhandler.lib
 
 LIBRARY         xmlframework.lib
 LIBRARY         ws32.lib
@@ -67,14 +67,14 @@ LIBRARY         ecom.lib
 
 LIBRARY         abclient.lib 
 LIBRARY         sbeclient.lib
-LIBRARY         PlatformEnv.lib
+LIBRARY         platformenv.lib
 LIBRARY         disknotifyhandler.lib
 LIBRARY         platformver.lib
 
 LIBRARY         apgrfx.lib
 LIBRARY         IclExtJpegApi.lib
 LIBRARY         avkon.lib
-LIBRARY         AknIcon.lib
+LIBRARY         aknicon.lib
 
 SOURCEPATH      ../srvsrc
 SOURCE          AknsSrvClient.cpp

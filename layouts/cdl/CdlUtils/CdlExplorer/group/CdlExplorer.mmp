@@ -64,5 +64,5 @@ LIBRARY         cone.lib
 LIBRARY         eikcore.lib
 LIBRARY         eikcoctl.lib
 LIBRARY         avkon.lib
-LIBRARY         cdlengine.lib
+LIBRARY         CdlEngine.lib
 LIBRARY			efsrv.lib

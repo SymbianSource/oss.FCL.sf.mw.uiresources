@@ -22319,6 +22319,27 @@ static const TAknsItemID KAknsIIDQgnPropCmccRingtone =
 static const TAknsItemID KAknsIIDQgnPropCmccRingtoneUnsync =
     { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccRingtoneUnsync };
 
+static const TAknsItemID KAknsIIDQgnIndiInputPage =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputPage };
+
+static const TAknsItemID KAknsIIDQgnIndiInputPage1 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputPage1 };
+
+static const TAknsItemID KAknsIIDQgnIndiInputPage2 =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiInputPage2 };
+
+static const TAknsItemID KAknsIIDQtgGrafTaskswitcherVideoPlayer =
+    { EAknsMajorGeneric, EAknsMinorGenericQtgGrafTaskswitcherVideoPlayer };
+
+static const TAknsItemID KAknsIIDQsnBigclockAnalogueFaceScreensaverStrokeLandscape =
+    { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockAnalogueFaceScreensaverStrokeLandscape };
+
+static const TAknsItemID KAknsIIDQgnPropCmccSync =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccSync };
+
+static const TAknsItemID KAknsIIDQgnPropCmccUnsync =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccUnsync };
+
 // SCMMARKER_INSERTIONPOINT
 
 // SCCMARKER_END

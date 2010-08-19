@@ -36,12 +36,12 @@ SYSTEMINCLUDE   ../../inc
 SYSTEMINCLUDE   ../srvinc
 
 LIBRARY         euser.lib
-LIBRARY         AKNSKINSRV.lib
-LIBRARY         AknSkins.lib
+LIBRARY         aknskinsrv.lib
+LIBRARY         aknskins.lib
 LIBRARY         efsrv.lib 
 LIBRARY         caf.lib
-LIBRARY         drmhelper.lib
-LIBRARY         CentralRepository.lib
+LIBRARY         DrmHelper.lib
+LIBRARY         centralrepository.lib
 LIBRARY         platformver.lib
 
 SOURCEPATH      ../lskinsrc

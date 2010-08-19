@@ -56,6 +56,10 @@ or NULL if no memory is available.
  */
 EXPORT_C CFbsRasterizer* CSvgtFbsRasterizer::New()
 	{
+    if(!User::TrapHandler())
+        {
+        return NULL;
+        }
 	CSvgtFbsRasterizer* self = new CSvgtFbsRasterizer;
 	if ( self )
 	    {

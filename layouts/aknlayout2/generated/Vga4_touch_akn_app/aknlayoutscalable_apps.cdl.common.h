@@ -6618,6 +6618,85 @@ enum TApiId
 	EApiId_welc_service_logo_pane_g2,
 	EApiId_welc_service_logo_pane_g_Limits,
 	EApiId_welc_service_logo_pane_g,
+	EApiId_main_int_radio_pane,
+	EApiId_list_single_fs_dyc_pane_g1,
+	EApiId_list_double_large_graphic_phob2_pane_g3_ParamLimits,
+	EApiId_list_double_large_graphic_phob2_pane_g3,
+	EApiId_list_double_large_graphic_phob2_pane_g4_ParamLimits,
+	EApiId_list_double_large_graphic_phob2_pane_g4,
+	EApiId_main_int_radio1_pane_ParamLimits,
+	EApiId_main_int_radio1_pane,
+	EApiId_find_pane_cp02,
+	EApiId_input_focus_pane_cp12_ParamLimits,
+	EApiId_input_focus_pane_cp12,
+	EApiId_input_focus_pane_cp13_ParamLimits,
+	EApiId_input_focus_pane_cp13,
+	EApiId_input_focus_pane_cp14_ParamLimits,
+	EApiId_input_focus_pane_cp14,
+	EApiId_int_radio1_listscroll_pane,
+	EApiId_main_int_radio1_pane_g1_ParamLimits,
+	EApiId_main_int_radio1_pane_g1,
+	EApiId_main_int_radio1_pane_t1_ParamLimits,
+	EApiId_main_int_radio1_pane_t1,
+	EApiId_main_int_radio1_pane_t2_ParamLimits,
+	EApiId_main_int_radio1_pane_t2,
+	EApiId_main_int_radio1_pane_t3_ParamLimits,
+	EApiId_main_int_radio1_pane_t3,
+	EApiId_main_int_radio1_pane_t4_ParamLimits,
+	EApiId_main_int_radio1_pane_t4,
+	EApiId_main_int_radio1_pane_t5_ParamLimits,
+	EApiId_main_int_radio1_pane_t5,
+	EApiId_main_int_radio1_pane_t6_ParamLimits,
+	EApiId_main_int_radio1_pane_t6,
+	EApiId_main_int_radio1_pane_t7_ParamLimits,
+	EApiId_main_int_radio1_pane_t7,
+	EApiId_main_int_radio1_pane_t8_ParamLimits,
+	EApiId_main_int_radio1_pane_t8,
+	EApiId_main_int_radio1_pane_t9_ParamLimits,
+	EApiId_main_int_radio1_pane_t9,
+	EApiId_main_int_radio1_pane_t10_ParamLimits,
+	EApiId_main_int_radio1_pane_t10,
+	EApiId_main_int_radio1_pane_t11_ParamLimits,
+	EApiId_main_int_radio1_pane_t11,
+	EApiId_main_int_radio1_pane_t12_ParamLimits,
+	EApiId_main_int_radio1_pane_t12,
+	EApiId_main_int_radio1_pane_t_Limits,
+	EApiId_main_int_radio1_pane_t_ParamLimits,
+	EApiId_main_int_radio1_pane_t,
+	EApiId_int_radio_list_pane,
+	EApiId_scroll_pane_cp037,
+	EApiId_list_double_large_graphic_int_radio_pane_ParamLimits,
+	EApiId_list_double_large_graphic_int_radio_pane,
+	EApiId_list_double_large_graphic_int_radio_pane_g1,
+	EApiId_list_double_large_graphic_int_radio_pane_t1,
+	EApiId_list_double_large_graphic_int_radio_pane_t2,
+	EApiId_list_double_large_graphic_int_radio_pane_t_Limits,
+	EApiId_list_double_large_graphic_int_radio_pane_t,
+	EApiId_list_highlight_pane_cp027,
+	EApiId_main_button_pane_4,
+	EApiId_main_welc_pane_g4_ParamLimits,
+	EApiId_main_welc_pane_g4,
+	EApiId_main_welc_pane_t4_ParamLimits,
+	EApiId_main_welc_pane_t4,
+	EApiId_main_welc_pane_t5_ParamLimits,
+	EApiId_main_welc_pane_t5,
+	EApiId_main_welc_pane_t6_ParamLimits,
+	EApiId_main_welc_pane_t6,
+	EApiId_welc_button_pane_2_ParamLimits,
+	EApiId_welc_button_pane_2,
+	EApiId_welc_button_pane_3_ParamLimits,
+	EApiId_welc_button_pane_3,
+	EApiId_welc_button_pane_4,
+	EApiId_welc_button_pane_5_ParamLimits,
+	EApiId_welc_button_pane_5,
+	EApiId_main_popup_welc_pane,
+	EApiId_main_welc_sk_g3,
+	EApiId_main_welc_sk_g4,
+	EApiId_main_welc_sk_t3,
+	EApiId_main_welc_sk_t4,
+	EApiId_popup_welc_pane_t4,
+	EApiId_popup_welc_pane_t5,
+	EApiId_popup_welc_pane_t6,
 	E_TApiId_TableSize
 	};
 
@@ -13213,6 +13292,85 @@ typedef TAknWindowComponentLayout (Twelc_service_logo_pane_g1_sig)(TInt, TInt, T
 typedef TAknWindowComponentLayout (Twelc_service_logo_pane_g2_sig)(TInt, TInt, TInt);
 typedef TAknLayoutScalableTableLimits (Twelc_service_logo_pane_g_Limits_sig)();
 typedef TAknWindowComponentLayout (Twelc_service_logo_pane_g_sig)(TInt, TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tmain_int_radio_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tlist_single_fs_dyc_pane_g1_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tlist_double_large_graphic_phob2_pane_g3_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tlist_double_large_graphic_phob2_pane_g3_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tlist_double_large_graphic_phob2_pane_g4_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tlist_double_large_graphic_phob2_pane_g4_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_int_radio1_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tmain_int_radio1_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tfind_pane_cp02_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tinput_focus_pane_cp12_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tinput_focus_pane_cp12_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tinput_focus_pane_cp13_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tinput_focus_pane_cp13_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tinput_focus_pane_cp14_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tinput_focus_pane_cp14_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tint_radio1_listscroll_pane_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_int_radio1_pane_g1_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tmain_int_radio1_pane_g1_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_int_radio1_pane_t1_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_int_radio1_pane_t1_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_int_radio1_pane_t2_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_int_radio1_pane_t2_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_int_radio1_pane_t3_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_int_radio1_pane_t3_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_int_radio1_pane_t4_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_int_radio1_pane_t4_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_int_radio1_pane_t5_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_int_radio1_pane_t5_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_int_radio1_pane_t6_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_int_radio1_pane_t6_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_int_radio1_pane_t7_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_int_radio1_pane_t7_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_int_radio1_pane_t8_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_int_radio1_pane_t8_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_int_radio1_pane_t9_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_int_radio1_pane_t9_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_int_radio1_pane_t10_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_int_radio1_pane_t10_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_int_radio1_pane_t11_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_int_radio1_pane_t11_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_int_radio1_pane_t12_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_int_radio1_pane_t12_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableTableLimits (Tmain_int_radio1_pane_t_Limits_sig)();
+typedef TAknLayoutScalableParameterLimits (Tmain_int_radio1_pane_t_ParamLimits_sig)(TInt, TInt);
+typedef TAknTextComponentLayout (Tmain_int_radio1_pane_t_sig)(TInt, TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tint_radio_list_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tscroll_pane_cp037_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tlist_double_large_graphic_int_radio_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tlist_double_large_graphic_int_radio_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tlist_double_large_graphic_int_radio_pane_g1_sig)(TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tlist_double_large_graphic_int_radio_pane_t1_sig)(TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tlist_double_large_graphic_int_radio_pane_t2_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableTableLimits (Tlist_double_large_graphic_int_radio_pane_t_Limits_sig)();
+typedef TAknTextComponentLayout (Tlist_double_large_graphic_int_radio_pane_t_sig)(TInt, TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tlist_highlight_pane_cp027_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tmain_button_pane_4_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_welc_pane_g4_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tmain_welc_pane_g4_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_welc_pane_t4_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_welc_pane_t4_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_welc_pane_t5_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_welc_pane_t5_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_welc_pane_t6_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tmain_welc_pane_t6_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Twelc_button_pane_2_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Twelc_button_pane_2_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Twelc_button_pane_3_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Twelc_button_pane_3_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Twelc_button_pane_4_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Twelc_button_pane_5_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Twelc_button_pane_5_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tmain_popup_welc_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tmain_welc_sk_g3_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tmain_welc_sk_g4_sig)(TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tmain_welc_sk_t3_sig)(TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tmain_welc_sk_t4_sig)(TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tpopup_welc_pane_t4_sig)(TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tpopup_welc_pane_t5_sig)(TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tpopup_welc_pane_t6_sig)(TInt, TInt, TInt);
 
 } // end of namespace AknLayoutScalable_Apps
 

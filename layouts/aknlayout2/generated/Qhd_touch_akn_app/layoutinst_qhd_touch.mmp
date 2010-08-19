@@ -77,8 +77,8 @@ source           apac_qhd_touch_land_small_pack.cpp
 source           apac_qhd_touch_land_large_pack.cpp
 
 library          euser.lib
-library          aknlayout2scalable.lib
-library          cdlengine.lib
+library          AknLayout2Scalable.lib
+library          CdlEngine.lib
 
 START RESOURCE	 10283389.rss
 TARGET       10283389.rsc

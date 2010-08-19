@@ -2793,9 +2793,11 @@ void CAknsSrv::RestoreOldSkinL()
             }
             
         SetActiveSkinContent( iOldSkin  );
-        iSettings->WriteSkinSettings(iOldSkin, ETrue);
+        if ( MergeAndBroadcast() == KErrNone )
+            {
+            iSettings->WriteSkinSettings(iOldSkin, ETrue);
+            }
         iOldSkin = KAknsNullPkgID;
-        MergeAndBroadcast();
         return; // if skin was on mmc, the wallpaper is handled aswell
         }
     // skin was not on mmc, but wp was
