@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="60" viewBox="-11.479 0.993 120 60">
+<g>
+<rect x="-11.479" y="0.993" fill="#656B6B" fill-opacity="0.01" width="120" height="60"/>
+<rect x="-11.479" y="1.993" fill="#656B6B" fill-opacity="0.02" width="120" height="59"/>
+<rect x="-11.479" y="2.993" fill="#656B6B" fill-opacity="0.03" width="120" height="58"/>
+<rect x="-11.479" y="3.993" fill="#656B6B" fill-opacity="0.05" width="120" height="57"/>
+<rect x="-11.479" y="4.993" fill="#656B6B" fill-opacity="0.06" width="120" height="56"/>
+<rect x="-11.479" y="5.993" fill="#656B6B" fill-opacity="0.1" width="120" height="55"/>
+<rect x="-11.479" y="6.993" fill="#656B6B" fill-opacity="0.1" width="120" height="54"/>
+<path fill="#656B6B" fill-opacity="0.1" d="M108.521,7.993v53h-120V7.991C21.388,7.99,91.147,7.992,108.521,7.993z"/>
+<rect x="-11.479" y="4.993" fill="#FFFFFF" fill-opacity="0.8" width="120" height="56"/>
+<rect x="-11.479" y="0.993" fill="none" width="120" height="60"/>
+</g>
+</svg>

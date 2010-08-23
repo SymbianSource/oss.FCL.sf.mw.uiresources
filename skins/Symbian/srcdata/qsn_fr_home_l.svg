@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="9px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 9 73" height="73px" x="0px" y="0px">
+    <rect width="9" fill="none" height="73"/>
+    <rect width="6" fill="#cddd54" height="73.002" fill-opacity="0.08" stroke-opacity="0.08"/>
+    <rect x="0.5" fill-opacity="0.12" fill="#cddd54" width="5.001" height="73.002" stroke-opacity="0.12"/>
+    <rect x="1" fill-opacity="0.16" fill="#cddd54" width="4" height="73.002" stroke-opacity="0.16"/>
+    <rect x="1.5" width="3" fill="#cddd54" height="73.002"/>
+</svg>

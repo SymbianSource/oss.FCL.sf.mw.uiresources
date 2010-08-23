@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="32" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 32 16" height="16" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <switch>
+        <foreignObject x="0" y="0" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" content="structured text" height="1"/>
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <path fill="#969696" d="M 3.645 10.238 C 3.645 11.753 4.223 13.173 5.275 14.247 C 6.327 15.316 7.726 15.901999 9.213 15.901999 L 15.2960005 15.901999 C 18.369 15.901999 24.102001 10.736 24.102001 8.006 C 24.102001 5.2569995 18.371002 0.09599972 15.296001 0.09599972 L 9.212 0.09599972 C 7.725 0.09599972 6.3269997 0.6879997 5.274 1.7549998 C 4.222 2.8259997 3.644 4.2499995 3.644 5.7629995 L 3.645 10.238 L 3.645 10.238 z " fill-opacity="0.75" stroke-opacity="0.75"/>
+                        </g>
+                        <linearGradient x1="-281.3257" gradientTransform="matrix(1 0 0 -1 290.5 403.5)" y1="395.499" x2="-281.3257" gradientUnits="userSpaceOnUse" y2="401.5127" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_37_" xlink:show="other">
+                            <stop stop-color="#ffffff" offset="0"/>
+                            <stop stop-color="#d4d4d4" offset="1"/>
+                        </linearGradient>
+                        <path fill="url(#XMLID_37_)" d="M 12.848 1.987 L 9.212 1.987 C 8.22 1.987 7.288 2.381 6.587 3.092 C 5.884 3.804 5.501 4.757 5.501 5.764 L 5.501 8.000999 L 12.848 8.000999 L 12.848 1.987 z "/>
+                        <linearGradient x1="-273.1377" gradientTransform="matrix(1 0 0 -1 290.5 403.5)" y1="395.8438" x2="-273.1377" gradientUnits="userSpaceOnUse" y2="401.0208" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_38_" xlink:show="other">
+                            <stop stop-color="#ffffff" offset="0"/>
+                            <stop stop-color="#d4d4d4" offset="1"/>
+                        </linearGradient>
+                        <path fill="url(#XMLID_38_)" d="M 12.791 1.987 L 15.295 1.987 C 17.121 1.987 21.934 5.988 21.934 8.000999 L 12.791 8.000999 L 12.791 1.987 z "/>
+                        <path fill="#ffffff" d="M 21.934 8.001 C 21.934 10.236 17.121 14.014 15.295 14.014 L 12.791 14.014 L 12.791 8.001 L 21.934 8.001 z "/>
+                        <path fill="#ffffff" d="M 12.887 14.014 L 9.212 14.014 C 7.165 14.014 5.501 12.323 5.501 10.239 L 5.501 8.001 L 12.887 8.001 L 12.887 14.014 z "/>
+                        <path fill="#696969" d="M 15.295 3.875 C 16.321 3.875 19.506 6.649 19.506 8.007999 C 19.506 9.353999 16.321001 12.125999 15.295 12.125999 L 9.212 12.125999 C 8.189 12.125999 7.356 11.28 7.356 10.237999 L 7.356 5.764 C 7.356 4.72 8.189 3.875 9.212 3.875 L 15.295 3.875 z "/>
+                    </g>
+                    <rect width="32" fill="none" height="16"/>
+                </g>
+            </g>
+        </g>
+    </switch>
+</svg>

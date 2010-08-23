@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="156" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 156 200" height="200" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <g stroke-opacity="0.8" fill-opacity="0.8">
+        <linearGradient x1="172.98" y1="98.5" x2="-3.33" gradientUnits="userSpaceOnUse" y2="98.5" xlink:type="simple" xlink:actuate="onLoad" id="_7" xlink:show="other">
+            <stop stop-color="#c8ff00" offset="0"/>
+            <stop stop-color="#96c800" offset="0.5"/>
+            <stop stop-color="#5a9600" offset="1"/>
+        </linearGradient>
+        <polygon fill="url(#_7)" points="1,161 1,170 155,170 155,27 "/>
+    </g>
+    <linearGradient x1="78" y1="48.65" x2="78" gradientUnits="userSpaceOnUse" y2="180.01" xlink:type="simple" xlink:actuate="onLoad" id="_8" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#000000" offset="0.92"/>
+        <stop stop-color="#000000" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#_8)" fill-opacity="0.35" points="1,161 1,170 155,170 155,27 "/>
+    <linearGradient x1="8.04" y1="168.5" x2="165.75" gradientUnits="userSpaceOnUse" y2="168.5" xlink:type="simple" xlink:actuate="onLoad" id="_9" xlink:show="other">
+        <stop stop-color="#001266" offset="0"/>
+        <stop stop-color="#526e8c" offset="1"/>
+    </linearGradient>
+    <rect x="1" y="168" fill-opacity="0.5" fill="url(#_9)" width="154" height="1"/>
+    <linearGradient x1="166.65" y1="169.5" x2="13.1" gradientUnits="userSpaceOnUse" y2="169.5" xlink:type="simple" xlink:actuate="onLoad" id="_10" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#a2c2dd" offset="1"/>
+    </linearGradient>
+    <rect x="1" y="169" fill-opacity="0.3" fill="url(#_10)" width="154" height="1"/>
+    <linearGradient x1="177.93" y1="80.5" x2="-2.88" gradientUnits="userSpaceOnUse" y2="107.64" xlink:type="simple" xlink:actuate="onLoad" id="_11" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#a2c2dd" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#_11)" fill-opacity="0.5" points="1,162 1,163 155,29 155,28 "/>
+    <linearGradient x1="177.93" y1="79.5" x2="-2.88" gradientUnits="userSpaceOnUse" y2="106.64" xlink:type="simple" xlink:actuate="onLoad" id="_12" xlink:show="other">
+        <stop stop-color="#e1ebf4" offset="0"/>
+        <stop stop-color="#a2c2dd" offset="0.5"/>
+        <stop stop-color="#496da2" offset="1"/>
+    </linearGradient>
+    <polygon fill="url(#_12)" fill-opacity="0.6" points="1,161 1,162 155,28 155,27 "/>
+</svg>

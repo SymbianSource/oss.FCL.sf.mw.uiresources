@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="34" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 34 85.998" height="85.998" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <switch>
+        <foreignObject x="0" y="0" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" content="structured text" height="1"/>
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <rect width="34" height="85.998"/>
+                    </g>
+                    <path fill="#000000" d="M 9.25 67.944 L 9.25 18.054 C 9.25 14.435001 11.662 12.624001 16.487999 12.624001 C 21.995998 12.624001 24.75 14.435 24.75 18.054 L 24.75 67.945 C 24.75 71.566 22.053 73.375 16.66 73.375 C 11.719 73.374 9.25 71.565 9.25 67.944 z M 16.957 67.499 C 17.984 67.386 18.5 66.735 18.5 65.544 L 18.5 20.493 C 18.5 19.247 18.014 18.624 17.043 18.624 C 16.014 18.624 15.499999 19.22 15.499999 20.409 L 15.499999 65.97 C 15.5 66.989 15.984 67.499 16.957 67.499 z "/>
+                </g>
+            </g>
+        </g>
+    </switch>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="34" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 34 85.998" height="85.998" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <switch>
+        <foreignObject x="0" y="0" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" content="structured text" height="1"/>
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <rect width="34" height="85.998"/>
+                    </g>
+                    <path fill="#000000" d="M 9.25 67.937 L 9.25 17.978 C 9.25 14.410001 11.861 12.624001 17.086 12.624001 C 19.754 12.624001 21.571 12.88 22.536 13.39 C 24.013 14.185 24.751 15.716001 24.751 17.984 L 24.751 33.125 L 18.5 33.125 C 18.5 33.182 18.5 31.736 18.5 28.787 C 18.533 25.951 18.533 23.91 18.5 22.662 C 18.389 20.055 17.861 18.75 16.916 18.75 C 15.971001 18.75 15.5 19.288 15.5 20.366 L 15.5 40.108 C 16.07 38.069 17.67 37.049004 20.297 37.049004 C 23.266 37.049004 24.75 38.945004 24.75 42.735004 L 24.75 67.942 C 24.75 71.563 21.996 73.374 16.487999 73.374 C 11.662 73.374 9.25 71.562 9.25 67.937 z M 16.871 67.499 C 17.957 67.499 18.5 66.763 18.5 65.286 L 18.5 46.146 C 18.5 44.841 17.957 44.189 16.871 44.189 C 15.957001 44.189 15.5 44.785 15.5 45.976 L 15.5 65.458 C 15.5 66.819 15.957 67.499 16.871 67.499 z "/>
+                </g>
+            </g>
+        </g>
+    </switch>
+</svg>
