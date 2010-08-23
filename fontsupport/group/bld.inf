@@ -18,4 +18,4 @@
 #ifndef FF_PRODUCT_FONTS
 #include "../fontprovider/Group/bld.inf"
 #endif
-#include "../fontutils/group/bld.inf"
+#include "../fontutils/FontUtils/group/bld.inf"
