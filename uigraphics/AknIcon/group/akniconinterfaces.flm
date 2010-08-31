@@ -31,7 +31,7 @@ MAKEFILE:: $(TARGETS)
 
 $(TARGETS) : $(CDLCOMPILER) $(TARGETDIR)/$(FILENAME).cdl
 	$(call startrule,generatecdlheaders,FORCESUCCESS) \
-	$(CDLCOMPILER) client -p$(subst /,\\\\,$(TARGETDIR)) $(subst /,\\\\,$(TARGETDIR)/)$(FILENAME).cdl \
+	$(CDLCOMPILER) client -p$(TARGETDIR) $(TARGETDIR)/$(FILENAME).cdl \
 	$(call endrule,generatecdlheaders)
 
 CLEANTARGETS:=$(TARGETS)

@@ -18,10 +18,8 @@
 
 #include "AknLayout2DataDef.h"
 #include "AknLayout2Def.h"
-          
 #include <CdlEngine.h>
 #include "AknLayout2ScalableDef.h"
-          
 #define AKNLAYOUT_DEFINE_BYTECODE(name,byte) const TUint8 name = byte;
 #include "AknLayoutByteCodes.h"
 

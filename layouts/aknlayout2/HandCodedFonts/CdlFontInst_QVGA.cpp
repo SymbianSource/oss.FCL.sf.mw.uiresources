@@ -18,7 +18,7 @@
 // cdlcompiler instance \S60\FontProvider\CdlFont\CdlFont.cdl CdlFontInst_QVGA
 // This customisation implements the interface defined in CdlFont.cdl
 
-#include "cdlfontinst_qvga.h"
+#include "CdlFontInst_QVGA.h"
 #include <gdi.h>
 #include <fontids.hrh>
 #include <avkon.hrh>

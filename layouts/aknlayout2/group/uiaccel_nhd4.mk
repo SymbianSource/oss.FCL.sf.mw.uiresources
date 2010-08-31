@@ -14,7 +14,7 @@
 # Description:
 #
 
-uid = 0x2001E2B1
+uid = 2001E2B1
 
 include configure_nhd4.mk
-include LayoutDllUiAccel.mk
+include layoutDllUiAccel.mk

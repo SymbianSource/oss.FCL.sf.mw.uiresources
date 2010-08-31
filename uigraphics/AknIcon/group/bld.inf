@@ -20,7 +20,7 @@
 #include <platform_paths.hrh>
 
 PRJ_PLATFORMS 
-DEFAULT TOOLS 
+DEFAULT TOOLS2 TOOLS
 
 PRJ_EXPORTS
 
@@ -36,7 +36,7 @@ PRJ_EXPORTS
 ./s60extensions.xml      /epoc32/tools/makefile_templates/s60/s60extensions.xml
 
 PRJ_EXTENSIONS
-#if defined(SBSV2) && !defined(TOOLS)
+#if defined(SBSV2) && !defined(TOOLS) && !defined(TOOLS2)
 start extension s60/akniconinterfaces
 option FILENAME MifHeader
 end
@@ -44,7 +44,7 @@ end
 
 
 PRJ_MMPFILES
-#if defined(TOOLS)
+#if defined(TOOLS) || defined(TOOLS2)
 MifToCdlIndex.mmp
 #else
   

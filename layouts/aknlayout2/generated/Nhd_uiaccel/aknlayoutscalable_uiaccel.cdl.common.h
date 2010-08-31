@@ -22,7 +22,7 @@
 #define AKNLAYOUTSCALABLE_UIACCEL_CDL_COMMON_H
 
 
-#include <AknLayout2ScalableDef.h>
+#include <aknlayout2scalabledef.h>
 
 
 namespace AknLayoutScalable_UiAccel

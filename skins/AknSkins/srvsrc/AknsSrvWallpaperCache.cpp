@@ -61,69 +61,104 @@ CAknsSrvWallpaperCache::~CAknsSrvWallpaperCache( )
 TAknsSrvWallpaper* CAknsSrvWallpaperCache::AddL( RFs& aRFs, const TDesC& aFileName, 
         const TSize aTrgSize, const TSize aMaxSize )
     {
-    if ( aFileName.Length() == 0 )
-        {
-        return NULL;
-        }
-    	
     if ( aTrgSize ==  TSize(-1, -1) )
         {
         TryDecodeImageL( aRFs,aFileName );
         return NULL;
         }
     
+    TBool cached = EFalse;
     TAknsSrvWallpaper* wp = NULL;
+    
     wp = CachedImage( aFileName );
-    if ( wp )
+    if ( !wp )
         {
-        return wp;
+        wp = new TAknsSrvWallpaper;
+        ZeroItem ( *wp );
         }
-
-    wp = new ( ELeave ) TAknsSrvWallpaper;
-    ZeroItem ( *wp );
-    CleanupStack::PushL( wp );
+    else
+        {
+        cached = ETrue;
+        }
 
     
     _LIT( KSvgFileExt, ".svg" );
     TBool isSvgFormat = aFileName.Right(4).CompareF( KSvgFileExt ) == 0;
     
-    TSize prtSize, lscSize;
+    TBool needDecodePortrait = EFalse;
+    TBool needDecodeLandscape = EFalse;    
 
     if( aTrgSize.iHeight >= aTrgSize.iWidth ) //Portait
         {
-        prtSize = aTrgSize;
-        lscSize = TSize( aTrgSize.iHeight, aTrgSize.iWidth );
+        if ( aTrgSize != iPrtSize || ( !wp->iPortrait && !wp->iPortraitMask) )
+            {
+            needDecodePortrait = ETrue;
+            iPrtSize = aTrgSize;
+            }
         }
     else //Landscape
         {
-        prtSize = TSize( aTrgSize.iHeight, aTrgSize.iWidth );
-        lscSize = aTrgSize;
+        if ( aTrgSize != iLscSize || ( !wp->iLandscape && !wp->iLandscapeMask ) )
+            {
+            needDecodeLandscape = ETrue;
+            iLscSize = aTrgSize;
+            }
         }
     
     if( isSvgFormat )   
         {
-        CAknsSrvSVGImageDecoder* svgdecoder = CAknsSrvSVGImageDecoder::NewL();
-        CleanupStack::PushL( svgdecoder );
-        svgdecoder->DecodeImageL( aFileName, prtSize, wp->iPortrait,
-            wp->iPortraitMask );
-        svgdecoder->DecodeImageL( aFileName, lscSize, wp->iLandscape,
-            wp->iLandscapeMask );
-        CleanupStack::PopAndDestroy( svgdecoder );
+        if( needDecodePortrait )
+            {
+            CAknsSrvSVGImageDecoder* svgdecoder = CAknsSrvSVGImageDecoder::NewL();
+            CleanupStack::PushL( svgdecoder );
+            svgdecoder->DecodeImageL(
+                aFileName,
+                aTrgSize,
+                wp->iPortrait,
+                wp->iPortraitMask );
+            CleanupStack::PopAndDestroy( svgdecoder );
+            }
+        if( needDecodeLandscape )
+            {
+            CAknsSrvSVGImageDecoder* svgdecoder = CAknsSrvSVGImageDecoder::NewL();
+            CleanupStack::PushL( svgdecoder );
+            svgdecoder->DecodeImageL(
+                aFileName,
+                aTrgSize,
+                wp->iLandscape,
+                wp->iLandscapeMask );
+            CleanupStack::PopAndDestroy( svgdecoder );
+            }
         }
     else
         {
-        CAknsSrvImageConverter::DecodeImageL( aRFs, aFileName, prtSize,
-            wp->iPortrait, wp->iPortraitMask, aMaxSize );
-        CAknsSrvImageConverter::DecodeImageL( aRFs, aFileName, lscSize,
-            wp->iLandscape, wp->iLandscapeMask, aMaxSize );
+        if( needDecodePortrait )
+            {
+            CAknsSrvImageConverter::DecodeImageL(
+                aRFs,
+                aFileName,
+                aTrgSize,
+                wp->iPortrait,
+                wp->iPortraitMask,
+                aMaxSize );
+            }
+        if( needDecodeLandscape )
+            {
+            CAknsSrvImageConverter::DecodeImageL(
+                aRFs,
+                aFileName,
+                aTrgSize,
+                wp->iLandscape,
+                wp->iLandscapeMask,
+                aMaxSize );
+            }
         }
-
     wp->iName.Copy( aFileName );
-
-    RemoveOldestItem();
-    iCache.Append( wp );
-    CleanupStack::Pop( wp ); 
-
+    if ( !cached )
+        {
+        RemoveOldestItem();        
+        iCache.Append( wp );
+        }
     return wp;
     }
 

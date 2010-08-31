@@ -30,6 +30,14 @@
 #include <AknWaitNoteWrapper.h>
 #include <babitflags.h>
 
+// CONSTANTS
+#if defined(RD_SLIDESHOW_WALLPAPER)
+// No wallpaper defined.
+const TInt KAknsWpNone = 0;
+// Image type wallpaper defined.
+const TInt KAknsWpImage = 1;
+#endif //RD_SLIDESHOW_WALLPAPER
+
 
 _LIT( KAknsSkinSrvSvgFileExt, ".svg" );
 
@@ -39,8 +47,10 @@ class CAknsWPUTask : public CBase, public MAknBackgroundProcess
     {
     public: // Construction
         CAknsWPUTask(RAknsSrvSession* aSkinSrvSession,
+                     CRepository* aSkinsRepository,
                      const TDesC& aFilename)
             : iSkinSrvSession(aSkinSrvSession),
+            iSkinsRepository(aSkinsRepository),
             iWPUErr( KErrNone )
             {
             iInternalState.ClearAll();
@@ -73,6 +83,20 @@ class CAknsWPUTask : public CBase, public MAknBackgroundProcess
             else if ( iInternalState.IsClear( EAknsWpuSetWallpaper ) )
                 {
                 iWPUErr = iSkinSrvSession->SetIdleWallpaper(iFilename);
+                if (!iWPUErr)
+                    {
+                    iWPUErr = iSkinsRepository->Set(KPslnIdleBackgroundImagePath, iFilename);
+#if defined(RD_SLIDESHOW_WALLPAPER)
+                    if (iFilename.Length() > 0)
+                        {
+                        iWPUErr = iSkinsRepository->Set(KPslnWallpaperType, KAknsWpImage );
+                        }
+                    else
+                        {
+                        iWPUErr = iSkinsRepository->Set(KPslnWallpaperType, KAknsWpNone );
+                        }
+#endif //RD_SLIDESHOW_WALLPAPER
+                    }
                 iInternalState.Set( EAknsWpuSetWallpaper );
                 }
             }
@@ -124,6 +148,9 @@ class CAknsWPUTask : public CBase, public MAknBackgroundProcess
 
         // Skin server session.
         RAknsSrvSession* iSkinSrvSession;
+
+        // Repository where to store wallpaper settings.
+        CRepository* iSkinsRepository;
 
     public: // Public data
 
@@ -270,18 +297,20 @@ void DoSetIdleWallpaperL(const TDesC& aFilename, CCoeEnv* aCoeEnv, TInt aWaitNot
     RAknsSrvSession skinsrv;
     User::LeaveIfError(skinsrv.Connect());
     CleanupClosePushL(skinsrv);
-    
+    CRepository* skinsrep = CRepository::NewL(KCRUidPersonalisation);
+    CleanupStack::PushL(skinsrep);
     if (aFilename.Length()>0 && IsDRMProtectedL(aFilename))
         {
         if (!QueryAndSetAutomatedL(aFilename, aCoeEnv))
             {
+            CleanupStack::PopAndDestroy(2);
             User::Leave(KErrCancel);
             }
         }
     if (aCoeEnv && (aWaitNoteTextResourceID && aWaitNoteResourceID))
         {
         HBufC* noteText = StringLoader::LoadLC( aWaitNoteTextResourceID);
-        CAknsWPUTask* wputask = new (ELeave) CAknsWPUTask(&skinsrv, aFilename);
+        CAknsWPUTask* wputask = new (ELeave) CAknsWPUTask(&skinsrv, skinsrep, aFilename);
         CleanupStack::PushL(wputask);
         CAknWaitNoteWrapper* wrapper = CAknWaitNoteWrapper::NewL();
         CleanupDeletePushL(wrapper);
@@ -299,9 +328,20 @@ void DoSetIdleWallpaperL(const TDesC& aFilename, CCoeEnv* aCoeEnv, TInt aWaitNot
         {
         // no "opening" note as no coeenv is given
         User::LeaveIfError(skinsrv.SetIdleWallpaper(aFilename));
+        User::LeaveIfError(skinsrep->Set(KPslnIdleBackgroundImagePath, aFilename));
+#if defined(RD_SLIDESHOW_WALLPAPER)
+        if (aFilename.Length() > 0)
+            {
+            User::LeaveIfError(skinsrep->Set(KPslnWallpaperType, KAknsWpImage));
+            }
+        else
+            {
+            User::LeaveIfError(skinsrep->Set(KPslnWallpaperType, KAknsWpNone));
+            }
+#endif // RD_SLIDESHOW_WALLPAPER
         }
 
-    CleanupStack::PopAndDestroy(); // skinsrv
+    CleanupStack::PopAndDestroy(2); // skinsrv, skinsrep
     }
 
 // -----------------------------------------------------------------------------
@@ -344,8 +384,14 @@ void DoSetSlidesetWallpaperL(CDesCArray& aSelectedFiles, CCoeEnv* aCoeEnv, TInt 
     RAknsSrvSession skinsrv;
     User::LeaveIfError(skinsrv.Connect());
     CleanupClosePushL(skinsrv);
+    CRepository* skinsrep = CRepository::NewL(KCRUidPersonalisation);
+    CleanupStack::PushL(skinsrep);
     User::LeaveIfError(skinsrv.SetSlideSetWallpaper(aSelectedFiles));
-    CleanupStack::PopAndDestroy();
+    if (count != 1)
+        {
+        User::LeaveIfError(skinsrep->Set(KPslnWallpaperType, 2));
+        }
+    CleanupStack::PopAndDestroy(2); // skinsrep, skinsrv
 
     }
 #endif //RD_SLIDESHOW_WALLPAPER
@@ -354,10 +400,15 @@ void DoSetSlidesetWallpaperL(CDesCArray& aSelectedFiles, CCoeEnv* aCoeEnv, TInt 
 // Public API for setting slide set wallpaper.
 // -----------------------------------------------------------------------------
 //
-EXPORT_C TInt AknsWallpaperUtils::SetSlidesetWallpaper(CDesCArray& /*aSelectedFiles*/, CCoeEnv* /*aCoeEnv*/, TInt /*aWaitNoteTextResourceID*/, TInt /*aWaitNoteResourceID*/)
+EXPORT_C TInt AknsWallpaperUtils::SetSlidesetWallpaper(CDesCArray& aSelectedFiles, CCoeEnv* aCoeEnv, TInt aWaitNoteTextResourceID, TInt aWaitNoteResourceID)
     {
-    //deprecated for 9.2 page specific wallpaper
+#if !defined(RD_SLIDESHOW_WALLPAPER)
     return KErrNotSupported;
+#else
+    TInt err(KErrNone);
+    TRAP(err, DoSetSlidesetWallpaperL(aSelectedFiles, aCoeEnv, aWaitNoteTextResourceID, aWaitNoteResourceID));
+    return err;
+#endif //RD_SLIDESHOW_WALLPAPER
     }
     
 // End of file

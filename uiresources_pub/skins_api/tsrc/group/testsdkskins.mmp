@@ -69,10 +69,10 @@ SOURCE          testsdkskinsblocksu.cpp
 
 LIBRARY         euser.lib
 LIBRARY         cone.lib
-LIBRARY         StifTestInterface.lib
+LIBRARY         stiftestinterface.lib
 LIBRARY         stiftestengine.lib
-LIBRARY         aknskins.lib
-LIBRARY         aknskinsrv.lib
+LIBRARY         aknskins.lib 
+LIBRARY         aknskinsrv.lib 
 LIBRARY         aknswallpaperutils.lib
 LIBRARY         eikcore.lib
 LIBRARY         fbscli.lib

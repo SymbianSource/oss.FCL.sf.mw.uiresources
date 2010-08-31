@@ -150,7 +150,7 @@ private:
 	void DoSetLocalStateL(const CCdlRefs& aState, CCdlUids& aChangedUids);
 	CCdlCustomisationStack* LookupOrCreateL(TUid aCdlUid);
 	const CCdlInstance* LastAccessedInstance(TUid aCdlUid) const;
-	void AddLocalStateToRefsL(TUid aUid, CCdlRefs* aState) const;
+	void AddLocalStateToRefs(TUid aUid, CCdlRefs* aState) const;
 
 private:
 	friend class CdlEngine;	// for optimised GetFunction()

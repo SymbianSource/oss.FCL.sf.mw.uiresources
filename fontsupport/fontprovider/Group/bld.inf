@@ -20,6 +20,8 @@
 
 #include <platform_paths.hrh>
 
+#ifndef FF_PRODUCT_FONTS
+
 PRJ_EXPORTS
 ../data/link.ini                       /epoc32/data/z/private/1020509C/link.ini
 ../data/link.ini                       /epoc32/RELEASE/WINSCW/udeb/Z/private/1020509C/link.ini
@@ -33,5 +35,5 @@ PRJ_MMPFILES
 #ifndef TOOLS
 FontProvider.mmp 
 #endif
-
+#endif
 // End of file

@@ -33,7 +33,7 @@ using namespace CdlCompilerToolkit;
 class DllCreator
 	{
 public:
-	DllCreator();
+	DllCreator( const std::string& aFileName );
 	void SetNameAndUid(const string& aDllName, const string& dllUid);
 	void SetIndex(const MifIndex& index);
 	void WriteSource();

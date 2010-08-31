@@ -19,10 +19,10 @@
 // This file may be manually modified.
 // This customisation implements the interface defined in AknLayout.cdl
 
-#include "adaptation_layer_aknlayout_elaf.h"
+#include "Adaptation_Layer_AknLayout_Elaf.h"
 #include "AknLayout2AdaptationDecode.h"
-#include "aknlayoutscalable_avkon.cdl.h"
-#include "layoutmetadata.cdl.h"
+#include "AknLayoutScalable_Avkon.cdl.h"
+#include "LayoutMetaData.cdl.h"
 
 enum TAdaptation_Layer_AknLayout_Elaf_Panic
 	{

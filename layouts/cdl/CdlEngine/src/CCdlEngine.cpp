@@ -325,12 +325,12 @@ CCdlRefs* CCdlEngine::LocalStateLC(const CCdlUids& aCdlUids) const
 	for (TInt ii=0; ii<count; ii++)
 		{
 		TUid uid = aCdlUids[ii];
-		AddLocalStateToRefsL(uid, state);
+		AddLocalStateToRefs(uid, state);
 		}
 	return state;
 	}
 
-void CCdlEngine::AddLocalStateToRefsL(TUid aUid, CCdlRefs* aState) const
+void CCdlEngine::AddLocalStateToRefs(TUid aUid, CCdlRefs* aState) const
 	{
 	CCdlCustomisationStack* stack = Lookup(aUid);
 	if (stack)

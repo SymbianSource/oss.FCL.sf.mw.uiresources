@@ -100,25 +100,24 @@ CAknsSrv* CAknsSrv::New( TBool &aStartFailed )
 	aStartFailed = EFalse;
 	
     CAknsSrv* server = new CAknsSrv();
-    server->iMergeType = (TAknsSkinSrvMergeType)(
-        EAknsSkinSrvSkin | EAknsSkinSrvIdleWp );
-    server->iBootFinished = EFalse;
-    if ( server )
-        {
-        if ( server->Start( KAknSkinSrvName ) != KErrNone )
-            {
-            AKNS_TRACE_ERROR("CAknsSrv::New START FAILED!");
-
-           	aStartFailed = ETrue;
-            delete server;
-            return NULL;
-            }
-        }
-    else
+    if ( !server )
         {
         AKNS_TRACE_ERROR("CAknsSrv::New SERVER ALLOCATION FAILED!");
         return NULL;
         }
+
+    server->iMergeType = (TAknsSkinSrvMergeType)(
+        EAknsSkinSrvSkin | EAknsSkinSrvIdleWp );
+    server->iBootFinished = EFalse;
+    if (server->Start(KAknSkinSrvName) != KErrNone)
+        {
+        AKNS_TRACE_ERROR("CAknsSrv::New START FAILED!");
+
+        aStartFailed = ETrue;
+        delete server;
+        return NULL;
+        }
+
     server->iBitmapStore = new CAknsSrvBitmapStore;
     if( !server->iBitmapStore )
         {
@@ -263,13 +262,6 @@ CAknsSrv::~CAknsSrv()
     iWallpaperCache->ResetAndDestory( );
     
     iSlidesetEnableAppUidArray.Close();
-
-    if ( iPackageArray )
-        {
-        iPackageArray->ResetAndDestroy();
-        delete iPackageArray;
-        iPackageArray = NULL;
-        }
     }
 
 // -----------------------------------------------------------------------------
@@ -351,12 +343,12 @@ EXPORT_C TInt CAknsSrv::ThreadStart()
     }
 
 // -----------------------------------------------------------------------------
-// CAknsSrv::NotifyBackupOperationEndL
+// CAknsSrv::NotifyBackupOperationEnd
 // -----------------------------------------------------------------------------
 //
-void CAknsSrv::NotifyBackupOperationEndL()
+void CAknsSrv::NotifyBackupOperationEnd()
     {
-    RestoreOldSkinL();
+    RestoreOldSkin();
     }
 
 // -----------------------------------------------------------------------------
@@ -522,10 +514,10 @@ void CAknsSrv::NotifyDRMChangeL()
                     }
                 else
                     {
-                    iChunkMaintainer->SetWallpaper( KAknsIIDWallpaper, KNullDesC, 0);
                     RestoreDefaultIdleWP();
+                    // Merge and broadcast
                     iContentChanged = ETrue;
-                    BroadcastUpdate();
+                    MergeAndBroadcast();
                     // Also notify potential package list update
                     ForceNotifySessions(EAknsSCHNPackageListUpdate);
                     }
@@ -587,10 +579,10 @@ void CAknsSrv::NotifySlideSetTypeChange()
     }
 
 // -----------------------------------------------------------------------------
-// CAknsSrv::NotifyWallpaperTypeChangeL
+// CAknsSrv::NotifyWallpaperTypeChange
 // -----------------------------------------------------------------------------
 //
-void CAknsSrv::NotifyWallpaperTypeChangeL()
+void CAknsSrv::NotifyWallpaperTypeChange()
     {
     if ( iSlideSetObserver )
         {
@@ -606,7 +598,7 @@ void CAknsSrv::NotifyWallpaperTypeChangeL()
         // none
         if ( newtype == KAknsSkinSrvNoWallpaper )
             {
-            WallpaperLostL();
+            WallpaperLost();
             }
         // normal
         else if ( newtype == KAknsSkinSrvImageWallpaper )
@@ -818,14 +810,14 @@ void CAknsSrv::NotifyDriveChange( const TInt& aDrive, const TBool& aMediaNotPres
             iOldSkin = KAknsNullPkgID;
             }
         // Wallpaper was on removable drive and it is no longer accessible.
-        /*if ( iWPOnRemovableDrive && iWPFilename )
+        if ( iWPOnRemovableDrive && iWPFilename )
             {
             if ( !AknsSrvUtils::IsFile( iFsSession, *iWPFilename ) )
                 {
                 iWPOnRemovableDrive = EFalse;
-                WallpaperLostL();
+                WallpaperLost();
                 }
-            }*/
+            }
         }
     }
 
@@ -855,10 +847,10 @@ void CAknsSrv::NotifyUSBAttach()
     }
 
 // -----------------------------------------------------------------------------
-// CAknsSrv::NotifyUSBRemovalL
+// CAknsSrv::NotifyUSBRemoval
 // -----------------------------------------------------------------------------
 //
-void CAknsSrv::NotifyUSBRemovalL()
+void CAknsSrv::NotifyUSBRemoval()
     {
     if (!iUSBAttached)
         {
@@ -866,7 +858,7 @@ void CAknsSrv::NotifyUSBRemovalL()
         }
     iUSBAttached = EFalse;
     
-    RestoreOldSkinL();
+    RestoreOldSkin();
     }
 
 // -----------------------------------------------------------------------------
@@ -898,10 +890,10 @@ void CAknsSrv::NewSkinPackagesInstalled()
     }
 
 // -----------------------------------------------------------------------------
-// CAknsSrv::WallpaperLostL
+// CAknsSrv::WallpaperLost
 // -----------------------------------------------------------------------------
 //
-void CAknsSrv::WallpaperLostL()
+void CAknsSrv::WallpaperLost()
     {
     if ( iUSBAttached && iWPOnRemovableDrive )
         {
@@ -1377,6 +1369,13 @@ HBufC* CAknsSrv::ActiveSkinAnimBgParamL( )
 // -----------------------------------------------------------------------------
 void CAknsSrv::StartAnimBackgroundL()
     {
+    if ( iSettings->TransitionFxState() == KMaxTInt )
+        {
+        //Stop anim effects
+        iSettings->SetAnimBackgroundState( KMaxTInt );
+        return;
+        }
+    
     const TUid KCRUidThemesVariation = { 0x102818EB };
     const TUint32 KThemesLocalVariation  = 0x00000001;
     
@@ -1397,21 +1396,13 @@ void CAknsSrv::StartAnimBackgroundL()
          ActiveSkinAnimBgSupportL()
          )
         {
-        if ( iAnimBgToBeRestored )
-            {
-            //Restore anim effects
-            iSettings->SetAnimBackgroundState( 0 );
-            iAnimBgToBeRestored = EFalse;
-            }
+        //Start anim effects
+        iSettings->SetAnimBackgroundState( 0 );
         }
     else
         {
         //Stop anim effects
-        if ( iSettings->AnimBackgroundState() == KErrNone )
-            {
-            iAnimBgToBeRestored = ETrue;
-            iSettings->SetAnimBackgroundState( KMaxTInt );
-            }
+        iSettings->SetAnimBackgroundState( KMaxTInt );
         }
     }
 
@@ -1429,7 +1420,7 @@ void CAknsSrv::SetWallpaperL( const TDesC& aFilename,
         iCurrentSlide = 0;
         WallpaperTimerL()->Stop();
         }
-    if (!aIsSlide && iSlideSetNameArray)
+   if (!aIsSlide && iSlideSetNameArray)
         {
         delete iSlideSetNameArray;
         iSlideSetNameArray = NULL;
@@ -1472,17 +1463,15 @@ void CAknsSrv::SetWallpaperL( const TDesC& aFilename,
                 {
                 User::LeaveIfError( err );
                 }
-            
-            if (!BaflUtils::FileExists(iFsSession, aFilename))
-                {
-                iSettings->WriteIdleBackgroundToDefault();
-                return;
-                }
             }
-
+        
         isprotected = AknsSrvUtils::IsDrmProtectedL(aFilename);
+        if (!BaflUtils::FileExists(iFsSession, aFilename))
+            {
+            iSettings->WriteIdleBackgroundToDefault();
+            return;
+            }
         }
-
     if (isprotected)
         {
         CheckAndCreateDRMHelper();
@@ -1536,20 +1525,14 @@ void CAknsSrv::SetWallpaperL( const TDesC& aFilename,
 
     iChunkMaintainer->SetWallpaper( aIID, aFilename, 0);
 
-    // Set the wallpaper type as correct.
-    if ( !aIsSlide )
+// Set the wallpaper type as correct.
+    if ( aFilename != KNullDesC && !aIsSlide )
         {
-        if ( aFilename != KNullDesC )
-            {
-            iWallpaperType = KAknsSkinSrvImageWallpaper;
-            }
-        else
-            {
-            iWallpaperType = KAknsSkinSrvNoWallpaper;
-            }
-
-        iSettings->WriteWallpaperType( iWallpaperType );
-        iSettings->WriteWallpaperPath( aFilename );
+        iWallpaperType = KAknsSkinSrvImageWallpaper;
+        }
+    else if ( aFilename == KNullDesC && !aIsSlide )
+        {
+        iWallpaperType = KAknsSkinSrvNoWallpaper;
         }
 
     iContentChanged = ETrue;
@@ -1767,10 +1750,13 @@ void CAknsSrv::WallpaperTimerTimeoutL( TBool aForceChange )
             }
         }
     
+    CRepository* skinsrep = CRepository::NewL(KCRUidPersonalisation);
+    CleanupStack::PushL(skinsrep);
+    
     if ( slideCount > 1 )
         {
         SetWallpaperL( iSlideSetNameArray->MdcaPoint(iCurrentSlide),KAknsIIDWallpaper, ETrue );
-        iSettings->WriteWallpaperPath( iSlideSetNameArray->MdcaPoint(iCurrentSlide) );
+        skinsrep->Set(KPslnIdleBackgroundImagePath, iSlideSetNameArray->MdcaPoint(iCurrentSlide));
         iMergeType = (TAknsSkinSrvMergeType)(iMergeType | EAknsSkinSrvIdleWp);
         iContentChanged = ETrue;
         BroadcastUpdate();
@@ -1796,8 +1782,8 @@ void CAknsSrv::WallpaperTimerTimeoutL( TBool aForceChange )
             {
             SetWallpaperL( fname,KAknsIIDWallpaper );
             iWallpaperType = KAknsSkinSrvImageWallpaper;
-            iSettings->WriteWallpaperPath( fname );
-            iSettings->WriteWallpaperType( iWallpaperType );
+            User::LeaveIfError(skinsrep->Set(KPslnIdleBackgroundImagePath, fname));
+            User::LeaveIfError(skinsrep->Set(KPslnWallpaperType, iWallpaperType));
             }
         else
             {
@@ -1816,6 +1802,7 @@ void CAknsSrv::WallpaperTimerTimeoutL( TBool aForceChange )
         iContentChanged = ETrue;
         BroadcastUpdate();
         }
+    CleanupStack::PopAndDestroy( skinsrep );
     }
 
 // -----------------------------------------------------------------------------
@@ -1827,7 +1814,6 @@ void CAknsSrv::SetSlidesetWallpaperL( )
     ReadSlideSetImageFilesL();
 
     iWallpaperType = KAknsSkinSrvSlidesetWallpaper;
-    iSettings->WriteWallpaperType( iWallpaperType );
 
     SetSlideSetTimerActiveL();
 
@@ -2291,6 +2277,12 @@ void CAknsSrv::ReceivePackages( const RMessage2 aMessage )
             sizeof(TAknsSrvSkinInfoPkg),sizeof(TAknsSrvSkinInfoPkg));
         aMessage.Write(1,pkgptr,count*sizeof(TAknsSrvSkinInfoPkg));
         }
+    if ( iPackageArray )
+        {
+        iPackageArray->ResetAndDestroy();
+        }
+    delete iPackageArray;
+    iPackageArray = NULL;
     }
 
 // -----------------------------------------------------------------------------
@@ -2363,10 +2355,10 @@ void CAknsSrv::CacheWallpaperImageL( const RMessage2 aMessage)
     return;    
     }
 // -----------------------------------------------------------------------------
-// CAknsSrv::FreeDecodedWallpaperL
+// CAknsSrv::FreeDecodedWallpaper
 // -----------------------------------------------------------------------------
 //
-void CAknsSrv::FreeDecodedWallpaperL( const RMessage2 aMessage )
+void CAknsSrv::FreeDecodedWallpaper( const RMessage2 aMessage )
     {
     TFileName filename;
     aMessage.ReadL( 0, filename );
@@ -2780,7 +2772,7 @@ void CAknsSrv::BackupAndActiveDefaultSkin()
 // Reactive backup skin.
 // -----------------------------------------------------------------------------
 //
-void CAknsSrv::RestoreOldSkinL()
+void CAknsSrv::RestoreOldSkin()
     {
     if (iOldSkin != KAknsNullPkgID)
         {
@@ -2793,11 +2785,9 @@ void CAknsSrv::RestoreOldSkinL()
             }
             
         SetActiveSkinContent( iOldSkin  );
-        if ( MergeAndBroadcast() == KErrNone )
-            {
-            iSettings->WriteSkinSettings(iOldSkin, ETrue);
-            }
+        iSettings->WriteSkinSettings(iOldSkin, ETrue);
         iOldSkin = KAknsNullPkgID;
+        MergeAndBroadcast();
         return; // if skin was on mmc, the wallpaper is handled aswell
         }
     // skin was not on mmc, but wp was
@@ -2815,7 +2805,7 @@ void CAknsSrv::RestoreOldSkinL()
         else
             {
             iWPOnRemovableDrive = EFalse;
-            WallpaperLostL();
+            WallpaperLost();
             }
         }
     }

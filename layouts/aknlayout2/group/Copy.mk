@@ -16,7 +16,7 @@
 #  directory.
 #
 
-include LayoutConfig.mk
+include layoutconfig.mk
 
 $($(wildcard ../adaptationlayer/adaptation_layer_*))
 

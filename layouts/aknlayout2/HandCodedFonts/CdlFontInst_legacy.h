@@ -21,8 +21,8 @@
 
 #ifndef CDLFONTINST_LEGACY_H
 #define CDLFONTINST_LEGACY_H
-#include "cdlfont.cdl.custom.h"
-#include "cdlfontinst_legacy.hrh"
+#include "CdlFont.cdl.custom.h"
+#include "CdlFontInst_legacy.hrh"
 
 namespace CdlFontInst_legacy
 {

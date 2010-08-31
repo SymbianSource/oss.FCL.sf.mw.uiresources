@@ -2,7 +2,6 @@
 <backup_registration>
     <passive_backup>
       <include_directory name = "import" />
-      <include_file name = "SSSS.ini" />
       <include_file name = "SSWP.ini" />
     </passive_backup>
     <active_backup process_name = "AknSkinSrv.exe"

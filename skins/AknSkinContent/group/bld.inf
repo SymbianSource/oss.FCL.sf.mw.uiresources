@@ -24,31 +24,9 @@ DEFAULT
 #undef OLD_PLATFORM_SKINS
 
 PRJ_EXPORTS
-//../srcdata/scalableseries60skin/101f84b9.sel /epoc32/release/winscw/udeb/z/resource/skins/101f84b9/101f84b9.sel
-
-// Using only default skin
-//../srcdata/haze/2000B12D.sel                  /epoc32/release/winscw/udeb/z/resource/skins/2000B12D/2000B12D.sel
-//../srcdata/jing/2000B12E.sel                  /epoc32/release/winscw/udeb/z/resource/skins/2000B12E/2000B12E.sel
-#ifdef OLD_PLATFORM_SKINS
-../srcdata/armi/1020711F.sel                 /epoc32/release/winscw/udeb/z/resource/skins/1020711F/1020711F.sel
-../srcdata/city/10207120.sel                 /epoc32/release/winscw/udeb/z/resource/skins/10207120/10207120.sel
-#endif
-
-//../srcdata/scalableseries60skin/101f84b9.sel /epoc32/release/winscw/urel/z/resource/skins/101f84b9/101f84b9.sel
-//../srcdata/haze/2000B12D.sel                  /epoc32/release/winscw/urel/z/resource/skins/2000B12D/2000B12D.sel
-//../srcdata/jing/2000B12E.sel                  /epoc32/release/winscw/urel/z/resource/skins/2000B12E/2000B12E.sel
-#ifdef OLD_PLATFORM_SKINS
-../srcdata/armi/1020711F.sel                 /epoc32/release/winscw/urel/z/resource/skins/1020711F/1020711F.sel
-../srcdata/city/10207120.sel                 /epoc32/release/winscw/urel/z/resource/skins/10207120/10207120.sel
-#endif
-
-//../srcdata/scalableseries60skin/101f84b9.sel /epoc32/data/z/resource/skins/101f84b9/101f84b9.sel
-//../srcdata/haze/2000B12D.sel                  /epoc32/data/z/resource/skins/2000B12D/2000B12D.sel
-//../srcdata/jing/2000B12E.sel                  /epoc32/data/z/resource/skins/2000B12E/2000B12E.sel
-#ifdef OLD_PLATFORM_SKINS
-../srcdata/armi/1020711F.sel                 /epoc32/data/z/resource/skins/1020711F/1020711F.sel
-../srcdata/city/10207120.sel                 /epoc32/data/z/resource/skins/10207120/10207120.sel
-#endif
+../srcdata/scalableseries60skin/101f84b9.sel /epoc32/release/winscw/udeb/z/resource/skins/101f84b9/101f84b9.sel
+../srcdata/scalableseries60skin/101f84b9.sel /epoc32/release/winscw/urel/z/resource/skins/101f84b9/101f84b9.sel
+../srcdata/scalableseries60skin/101f84b9.sel /epoc32/data/z/resource/skins/101f84b9/101f84b9.sel
 
 #ifdef SBSV2
   ./skingenerator.flm                       /epoc32/tools/makefile_templates/skins/skingenerator.flm
@@ -111,13 +89,5 @@ PRJ_MMPFILES
 #endif  //SBSV2
     
   ../srcdata/scalableseries60skin/MifIndexDll/series60skinindexdll.mmp
-
-#ifdef OLD_PLATFORM_SKINS
-// Scalable (ROM) skin "Armi"
-gnumakefile armi.mk
-
-// Scalable (ROM) skin "City"
-gnumakefile city.mk
-#endif
 #endif
 // End of File

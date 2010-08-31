@@ -7,7 +7,7 @@ Flag: KCdlFlagRomOnly
 
 %% C++
 
-#include <CdlFont.h>
+#include <cdlfont.h>
 
 %% API
 

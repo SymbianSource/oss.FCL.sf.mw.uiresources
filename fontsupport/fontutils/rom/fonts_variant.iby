@@ -23,19 +23,11 @@
  #include <iculayoutengine.iby>
 #endif
 
-// Rasteriser always included
-ECOM_PLUGIN(ityperast.dll, ityperast.RSC)
+// include ityperast.iby
+#include <ityperast.iby>
 
 // Include proper font set based on configuration
 #ifdef __CHINESE
- #ifdef FF_LINKED_FONTS_CHINESE
-  // Do not include S60 fonts if product fonts flag is set
-  #ifndef FF_PRODUCT_FONTS
-   data=ABI_DIR\BUILD_DIR\s60snr.ttf          resource\Fonts\s60snr.ttf
-   data=ABI_DIR\BUILD_DIR\s60ssb.ttf          resource\Fonts\s60ssb.ttf
-   data=ABI_DIR\BUILD_DIR\s60tsb.ttf          resource\Fonts\s60tsb.ttf
-  #endif
- #endif
 
  #ifdef __CHINESE_PRC_FONTS
 
@@ -47,18 +39,17 @@ ECOM_PLUGIN(ityperast.dll, ityperast.RSC)
    || defined(__LAYOUT_480_320) || defined(__LAYOUT_480_320_TOUCH) \
    || defined(__LAYOUT_480_640) || defined(__LAYOUT_480_640_TOUCH) \
    || defined(__LAYOUT_640_480) || defined(__LAYOUT_640_480_TOUCH) \
-   || defined (FF_LAYOUT_480_640_VGA3) || defined (FF_LAYOUT_640_480_VGA3) \
-   || defined (FF_LAYOUT_480_640_TOUCH_VGA4) || defined (FF_LAYOUT_640_480_TOUCH_VGA4)
+   || defined (FF_LAYOUT_480_640_VGA3) || defined (FF_LAYOUT_640_480_VGA3)
 
     // Reso OK, include HiRes font
-    data=ABI_DIR\BUILD_DIR\S60SC_C.ttf        resource\Fonts\S60SC_C.ttf
+    data=ABI_DIR\BUILD_DIR\S60SC_C.ttf                                               resource\Fonts\S60SC_C.ttf
    #else
     // Invalid configuration: HiRes fonts enabled in low or unknown resolution device
     #error "Feature configuration error: Chinese HiRes fonts not supported in this resolution!"
    #endif
 
   #else  // Not FF_CHINESE_FONTS_HIRES - use regular stroke
-    data=ABI_DIR\BUILD_DIR\S60SC.ccc          resource\Fonts\S60SC.ccc
+    data=ABI_DIR\BUILD_DIR\S60SC.ccc                                                 resource\Fonts\S60SC.ccc
   #endif
 
  #endif //__CHINESE_PRC_FONTS
@@ -73,41 +64,104 @@ ECOM_PLUGIN(ityperast.dll, ityperast.RSC)
     || defined(__LAYOUT_480_320) || defined(__LAYOUT_480_320_TOUCH) \
     || defined(__LAYOUT_480_640) || defined(__LAYOUT_480_640_TOUCH) \
     || defined(__LAYOUT_640_480) || defined(__LAYOUT_640_480_TOUCH) \
-    || defined (FF_LAYOUT_480_640_VGA3) || defined (FF_LAYOUT_640_480_VGA3) \
-    || defined (FF_LAYOUT_480_640_TOUCH_VGA4) || defined (FF_LAYOUT_640_480_TOUCH_VGA4)
+    || defined (FF_LAYOUT_480_640_VGA3) || defined (FF_LAYOUT_640_480_VGA3)
 
     // Reso OK, include HiRes font
-    data=ABI_DIR\BUILD_DIR\S60TCHK_C.ttf      resource\Fonts\S60TCHK_C.ttf
+    data=ABI_DIR\BUILD_DIR\S60TCHK_C.ttf                                             resource\Fonts\S60TCHK_C.ttf
    #else
     // Invalid configuration: HiRes fonts enabled in low or unknown resolution device
     #error "Feature configuration error: Chinese HiRes fonts not supported in this resolution!"
    #endif
 
   #else  // Not FF_CHINESE_FONTS_HIRES - use regular stroke
-    data=ABI_DIR\BUILD_DIR\S60TCHK.ccc        resource\Fonts\S60TCHK.ccc
+    data=ABI_DIR\BUILD_DIR\S60TCHK.ccc                                               resource\Fonts\S60TCHK.ccc
   #endif
 
  #endif //__CHINESE_TAIWAN_HK_FONTS
 
 #elif defined(__JAPANESE)
 
- data=ABI_DIR\BUILD_DIR\HeiseiGothS60.ttf     resource\Fonts\HeiseiGothS60.ttf
+ data=ABI_DIR\BUILD_DIR\HeiseiGothS60.ttf                                            resource\Fonts\HeiseiGothS60.ttf
 	
 #elif defined(__LOCALES_65_IBY__)
 
- data=ABI_DIR\BUILD_DIR\Series60Korean.ttf    resource\Fonts\Series60Korean.ttf
+ data=ABI_DIR\BUILD_DIR\Series60Korean.ttf                                                   resource\Fonts\Series60Korean.ttf
 
 #else  // Must be western
- // Do not include S60 fonts if product fonts flag is set
- #ifndef FF_PRODUCT_FONTS
-  data=ABI_DIR\BUILD_DIR\s60snr.ttf           resource\Fonts\s60snr.ttf
-  data=ABI_DIR\BUILD_DIR\s60ssb.ttf           resource\Fonts\s60ssb.ttf
-  data=ABI_DIR\BUILD_DIR\s60tsb.ttf           resource\Fonts\s60tsb.ttf
+#ifndef FF_LINKED_FONTS_CHINESE
+ data=ABI_DIR\BUILD_DIR\s60snr.ttf                                                   resource\Fonts\s60snr.ttf
+ data=ABI_DIR\BUILD_DIR\s60ssb.ttf                                                   resource\Fonts\s60ssb.ttf
+ data=ABI_DIR\BUILD_DIR\s60tsb.ttf                                                   resource\Fonts\s60tsb.ttf
+#else
+  #ifdef FF_CHINESE_FONTS_HIRES
+
+   // HiRes fonts only used in high resolutions
+   #if defined(__LAYOUT_360_640_TOUCH) || defined(__LAYOUT_640_360_TOUCH) \
+    || defined(__LAYOUT_320_480) || defined(__LAYOUT_320_480_TOUCH) \
+    || defined(__LAYOUT_480_320) || defined(__LAYOUT_480_320_TOUCH) \
+    || defined(__LAYOUT_480_640) || defined(__LAYOUT_480_640_TOUCH) \
+    || defined(__LAYOUT_640_480) || defined(__LAYOUT_640_480_TOUCH) \
+    || defined (FF_LAYOUT_480_640_VGA3) || defined (FF_LAYOUT_640_480_VGA3)
+
+    // Reso OK, include HiRes font
+    data=ABI_DIR\BUILD_DIR\S60SC_C.ttf                                           resource\Fonts\S60SC_C.ttf
+   #else
+    // Invalid configuration: HiRes fonts enabled in low or unknown resolution device
+    #error "Feature configuration error: Chinese HiRes fonts not supported in this resolution!"
+   #endif
+
+  #else  // Not FF_CHINESE_FONTS_HIRES - use regular stroke
+    data=ABI_DIR\BUILD_DIR\S60SC.ccc                                            resource\Fonts\S60SC.ccc
+  #endif
+#endif
+#endif //__CHINESE
+
+ #ifdef FF_LINKED_FONTS_CHINESE
+ data=ABI_DIR\BUILD_DIR\s60snr.ttf                                                   resource\Fonts\s60snr.ttf
+ data=ABI_DIR\BUILD_DIR\s60ssb.ttf                                                   resource\Fonts\s60ssb.ttf
+ data=ABI_DIR\BUILD_DIR\s60tsb.ttf                                                   resource\Fonts\s60tsb.ttf
  #endif
+// Digi font available in all variants
+data=ABI_DIR\BUILD_DIR\S60ZDIGI.ttf                                                  resource\Fonts\S60ZDIGI.ttf
+
+
+// Export typeface xml files
+#ifdef FF_LINKED_FONTS_CHINESE		// Now this is a global font linking macro
+#ifdef __CHINESE
+
+#if defined(__CHINESE_PRC_FONTS) && defined(__CHINESE_TAIWAN_HK_FONTS)
+
+
+data=ABI_DIR\BUILD_DIR\typefaces_s60_Simplified_Traditional.xml         		resource\Fonts\typefaces.xml           
+
+#elif defined(__CHINESE_PRC_FONTS)
+
+data=ABI_DIR\BUILD_DIR\typefaces_s60_Simplified_Chinese.xml   				resource\Fonts\typefaces.xml           
+
+#elif defined(__CHINESE_TAIWAN_HK_FONTS)
+
+data=ABI_DIR\BUILD_DIR\typefaces_s60_Traditional_Chinese.xml        			resource\Fonts\typefaces.xml            
+
+#endif //defined(__CHINESE_PRC_FONTS) && defined(__CHINESE_TAIWAN_HK_FONTS)
+
+#elif defined(__JAPANESE)
+
+data=ABI_DIR\BUILD_DIR\typefaces_s60_Japanese.xml  					resource\Fonts\typefaces.xml   
+
+#elif defined(__LOCALES_65_IBY__)
+
+data=ABI_DIR\BUILD_DIR\typefaces_s60_Korean.xml                    			resource\Fonts\typefaces.xml   
+
+#else  // Must be western
+
+data=ABI_DIR\BUILD_DIR\typefaces_s60_Simplified_Chinese.xml   				resource\Fonts\typefaces.xml           
 
 #endif //__CHINESE
 
-// Digi font available in all variants
-data=ABI_DIR\BUILD_DIR\S60ZDIGI.ttf           resource\Fonts\S60ZDIGI.ttf
+#else  // Must be western
+
+data=ABI_DIR\BUILD_DIR\typefaces_s60_English.xml                    			resource\Fonts\typefaces.xml   
+
+#endif //FF_LINKED_FONTS_CHINESE
 
 #endif // FONTS_VARIANT_IBY

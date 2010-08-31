@@ -52,7 +52,6 @@ PRJ_EXPORTS
 ../rom/AknLayout2_UiAccel_low.iby 					CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_low.iby)
 ../rom/AknLayout2_UiAccel_qvga_touch.iby 		CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_qvga_touch.iby)
 ../rom/AknLayout2_UiAccel_vga_touch.iby 		CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_vga_touch.iby)
-../rom/AknLayout2_UiAccel_nhd4_touch.iby 		CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_nhd4_touch.iby)
 ../rom/AknLayout2_UiAccel_vga4_touch.iby 		CORE_MW_LAYER_IBY_EXPORT_PATH(AknLayout2_UiAccel_vga4_touch.iby)
 
 ../binary_temp/winscw_udeb/CdlEngine.lib /epoc32/release/winscw/udeb/aknlayout.lib
@@ -101,11 +100,13 @@ AknLayout2Adaptation.mmp
 aknlayout2hierarchy.mmp
 
 LayoutInstRedir.mmp
+LayoutInstRedir_akn_app_qvga1.mmp
 LayoutInstRedir_akn_app_qhd_touch.mmp
 LayoutInstRedir_akn_app_nhd4.mmp
 LayoutInstRedir_akn_app_vga4_touch.mmp
 
 #if defined(FF_ROM_INCLUDE_ALF)
+LayoutInstRedir_uiaccel_qvga1.mmp
 LayoutInstRedir_uiaccel_qhd_touch.mmp
 LayoutInstRedir_uiaccel_nhd4.mmp
 LayoutInstRedir_uiaccel_vga4_touch.mmp

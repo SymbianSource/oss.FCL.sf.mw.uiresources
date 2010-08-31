@@ -34,7 +34,7 @@ NONSHARABLE_CLASS(MAknsSrvFileObserver)
     {
     public:
         virtual void NewSkinPackagesInstalled() = 0;
-        virtual void WallpaperLostL() = 0;
+        virtual void WallpaperLost() = 0;
         virtual void SlideSetModifiedL() = 0;
     };
 

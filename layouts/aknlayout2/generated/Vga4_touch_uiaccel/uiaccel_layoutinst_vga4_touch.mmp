@@ -63,8 +63,8 @@ source           uiaccel_apac_vga4_touch_land_small_pack.cpp
 source           uiaccel_apac_vga4_touch_land_large_pack.cpp
 
 library          euser.lib
-library          AknLayout2Scalable.lib
-library          CdlEngine.lib
+library          aknlayout2scalable.lib
+library          cdlengine.lib
 
 START RESOURCE	 2001cb91.rss
 TARGET       2001cb91.rsc

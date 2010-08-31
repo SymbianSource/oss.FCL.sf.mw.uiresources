@@ -16,8 +16,8 @@
 */
 #ifndef ADAPTATION_LAYER_SKINLAYOUT_HRH
 #define ADAPTATION_LAYER_SKINLAYOUT_HRH
-#include "skinlayout.cdl.common.hrh"
-#include "dllinstances.hrh"
+#include "SkinLayout.cdl.common.hrh"
+#include "DllInstances.hrh"
 
 #define _CDL_Adaptation_Layer_SkinLayout_KCdlInstanceInterfaceUidValue _CDL_SkinLayout_KCdlInterfaceUidValue
 #define _CDL_Adaptation_Layer_SkinLayout_KCdlInstanceId KDllInst_Adaptation_Layer_SkinLayout

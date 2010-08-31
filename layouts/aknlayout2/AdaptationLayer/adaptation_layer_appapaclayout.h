@@ -22,8 +22,8 @@
 
 #ifndef ADAPTATION_LAYER_APPAPACLAYOUT_APAC_H
 #define ADAPTATION_LAYER_APPAPACLAYOUT_APAC_H
-#include "appapaclayout.cdl.custom.h"
-#include "adaptation_layer_appapaclayout.hrh"
+#include "AppApacLayout.cdl.custom.h"
+#include "Adaptation_Layer_AppApacLayout.hrh"
 
 namespace Adaptation_Layer_AppApacLayout
 {

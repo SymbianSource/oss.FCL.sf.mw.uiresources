@@ -36,7 +36,7 @@ EMPTYFILE = ..\..\group\EmptyFile.dat
 
 AKNSDATAGENDIR = $(AKNSGENDIR)\data
 
-AKNSCOMPILER = \epoc32\tools\AknSkinDescCompiler_NR
+AKNSCOMPILER = \epoc32\release\tools\rel\AknSkinDescCompiler_NR
 ERASE = @erase 2>>nul
 UNZIP = @unzip -o -qq
 

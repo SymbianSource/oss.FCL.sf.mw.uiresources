@@ -27,7 +27,7 @@
 
 namespace CDL_Font
 {
-#include "cdlfont.cdl.common.hrh"
+#include "CdlFont.cdl.common.hrh"
 
 // These constants are defined by the CDL interface: CDL Font
 _LIT(KCdlName, "CDL Font");

@@ -25,8 +25,8 @@
 #include <stiftestmodule.h>
 #include <testclassassert.h>
 #include <aknfontid.h>
-#include <AknFontProvider.h>
-#include <AknFontProviderSuppliedMetrics.h>
+#include <aknfontprovider.h>
+#include <aknfontprovidersuppliedmetrics.h>
 
 // MACROS
 #define TEST_CLASS_VERSION_MAJOR 0
@@ -88,20 +88,6 @@ private:
      * Method used to log version of test class
      */
     void SendTestClassVersion();
-    
-    /**
-     * Turn off ScreenSaver
-     * @since S60 5.0
-     * @return Symbian OS error code.
-     */
-    void TurnOffScreenSaver();
-
-    /**
-     * Restore ScreenSaver
-     * @since S60 5.0
-     * @return Symbian OS error code.
-     */
-    void RestoreScreenSaver();
 
 private: // [TestMethods]
     // For testing the AknFontId.h class TAknFontId

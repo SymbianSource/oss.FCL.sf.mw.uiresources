@@ -68,11 +68,11 @@ SOURCE          testdomcdlengineobserver.cpp
 
 
 LIBRARY         euser.lib
-LIBRARY         StifTestInterface.lib
+LIBRARY         stiftestinterface.lib
 LIBRARY         stiftestengine.lib
 LIBRARY         cone.lib
-LIBRARY         CdlEngine.lib
-LIBRARY         CommonEngine.lib
+LIBRARY         cdlengine.lib
+LIBRARY         commonengine.lib
 
 
 LANG            SC

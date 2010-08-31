@@ -70,14 +70,7 @@ TPtrC8 AknIconSrvUtils::InitIconDataAndHandlerLC(
     if ( !aHandler )
         {
         aHandler = AknIconFormatHandlerFactory::NewIconFormatHandlerL( type );
-        TInt error = aHandlerList.Append( aHandler );
-        if (error != KErrNone)
-            {
-            delete aHandler;
-            aHandler = 0;
-            User::Leave(error);
-            }
-        
+        aHandlerList.Append( aHandler );
         aHandler->SetAnimated( aAnimated );
         }
 

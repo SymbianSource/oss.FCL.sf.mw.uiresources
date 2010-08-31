@@ -8,7 +8,7 @@ Flag: KCdlFlagRomOnly
 
 %% C++
 
-#include <AknLayout2Def.h>
+#include <aknlayout2def.h>
 
 %% Translation
 

@@ -94,12 +94,12 @@ LIBRARY         efsrv.lib
 LIBRARY         gdi.lib
 LIBRARY         bafl.lib
 #ifdef __SVGT
-LIBRARY         svgengine.lib
+LIBRARY         SvgEngine.lib
 #endif // __SVGT
 #ifdef __NVG
 LIBRARY         NVGDecoder.lib
 #endif // __NVG
-LIBRARY         aknskinsrv.lib
+LIBRARY         AknSkinSrv.lib
 LIBRARY         bitgdi.lib
 LIBRARY         CdlEngine.lib
 LIBRARY         centralrepository.lib

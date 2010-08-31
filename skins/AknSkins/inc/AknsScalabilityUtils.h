@@ -50,7 +50,7 @@ NONSHARABLE_CLASS(AknsScalabilityUtils)
         * @internal
         * @since 2.8
         */
-        static TBool DrawPartialCachedImageL(
+        static TBool DrawPartialCachedImage(
             MAknsSkinInstance* aSkin, CBitmapContext& aGc,
             const TRect& aTrgLayoutRect, const TRect& aTrgDrawRect,
             CAknsImageItemData* aImgData, const TAknsItemID& aIID,
@@ -122,7 +122,7 @@ NONSHARABLE_CLASS(AknsScalabilityUtils)
             CAknsRlMasterLayout& aLayoutMaster,
             const TSize& aLayoutSize, TRect& aRectOut, TBool& aMorphingOut,
             TBool& aEmpty );
-        static CFbsBitmap *LoadBitmapFromSkinIdL(
+        static CFbsBitmap *LoadBitmapFromSkinId(
             MAknsSkinInstance* aInstance,
             const TAknsItemID &aID,
             const TSize &size);

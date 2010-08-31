@@ -192,6 +192,7 @@ const CAknIconDataItem* CAknIconDataPreserver::UnpreserveIconData(
             {
             iHandler->UnprepareIcon( item->iHandle );
             delete item;
+            item = 0;
             iItems.Remove( index );
             }
         }

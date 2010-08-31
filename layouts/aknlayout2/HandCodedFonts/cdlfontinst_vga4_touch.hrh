@@ -21,7 +21,7 @@
 
 #ifndef CDLFONTINST_VGA4_TOUCH_HRH
 #define CDLFONTINST_VGA4_TOUCH_HRH
-#include "CdlFont.cdl.common.hrh"
+#include "cdlfont.cdl.common.hrh"
 #include "dllinstances.hrh"
 
 #define _CDL_CdlFontInst_vga4_touch_KCdlInstanceInterfaceUidValue _CDL_CDL_Font_KCdlInterfaceUidValue

@@ -11,17 +11,19 @@
 #
 # Contributors:
 #
-# Description:  Copies zoom factor configuration file to ../generated directory.
+# Description:  Copies zoom factor configuration file to ..\generated directory.
 #               Zoom levels specified in LayoutZoomFactorConfig.txt are added 
 #               to the layout dll
 #
 
-include LayoutConfig.mk
+include layoutConfig.mk
 
 do_nothing :
+	@rem do_nothing
 
 MAKMAKE : make_gen_dir
-	@python -c "import shutil; shutil.copy2('LayoutZoomFactorConfig.txt', '$(gen_dir)/LayoutZoomFactorConfig.txt')"
+	@call perl -S ecopyfile.pl LayoutZoomFactorConfig.txt $(gen_dir)\LayoutZoomFactorConfig.txt
+
 BLD : do_nothing
 
 CLEAN :

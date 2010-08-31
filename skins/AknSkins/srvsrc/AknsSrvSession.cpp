@@ -136,7 +136,7 @@ TInt CAknsSrvSession::DispatchMessageL( const RMessage2& aMessage )
             DecodeWallpaperImageL( aMessage );
             break;
         case EAknSkinSrvFreeDecodedWallpaper:
-            FreeDecodedWallpaperL( aMessage );
+            FreeDecodedWallpaper( aMessage );
             break;
         case EAknSkinSrvCacheWallpaperImage:
             CacheWallpaperImageL( aMessage );
@@ -566,9 +566,9 @@ void CAknsSrvSession::CacheWallpaperImageL(const RMessage2 aMessage)
 // CAknsSrvSession::FreeDecodedWallpaper
 // -----------------------------------------------------------------------------
 //
-void CAknsSrvSession::FreeDecodedWallpaperL( const RMessage2 aMessage)
+void CAknsSrvSession::FreeDecodedWallpaper( const RMessage2 aMessage)
     {
-    Server()->FreeDecodedWallpaperL( aMessage );
+    Server()->FreeDecodedWallpaper( aMessage );
     }
 
 // -----------------------------------------------------------------------------

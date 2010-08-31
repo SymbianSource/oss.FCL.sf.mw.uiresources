@@ -18,7 +18,7 @@
 // cdlcompiler instance \S60\FontProvider\CdlFont\CdlFont.cdl CdlFontInst_double
 // This customisation implements the interface defined in CdlFont.cdl
 
-#include "cdlfontinst_double.h"
+#include "CdlFontInst_double.h"
 #include <fontids.hrh>
 #include <avkon.hrh>
 #include <gdi.h>

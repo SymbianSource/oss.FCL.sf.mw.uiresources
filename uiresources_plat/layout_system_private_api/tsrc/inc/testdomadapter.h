@@ -18,7 +18,7 @@
 #ifndef C_TESTDOMADAPTER_H
 #define C_TESTDOMADAPTER_H
 // [INCLUDE FILES] 
-#include <AknLayout2Def.h>
+#include <aknlayout2def.h>
 #include <aknlayout2datadef.h>
 
 class CTestDomAdapter: public CBase

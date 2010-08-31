@@ -19,7 +19,7 @@
 #include "SDCPkgOutput.h"
 #include "SDCException.h"
 #include "SDCInput.h"
-#include <aknsconstants.hrh>
+#include "aknsconstants.hrh"
 #include "SDCCompat.h"
 
 //////////////////////////////////////////////////////////////////////
@@ -82,6 +82,8 @@ void CSDCPkgOutput::Output( CSDCData* aData, const char* aSkinName,
         {
         fprintf( file, "#{\"%s\"},(0xA00000EB),1,0,0,TYPE=SP\n", aSkinName );
         }
+    fprintf( file, ";\n; Supports Series 60 v3.x\n; This line indicates that this installation is for the Series 60 platform v3.x\n; This line must appear _exactly_ as shown below in the sis file\n; If this line is missing or incorrect, the sis file will not be able\n; to be installed on Series 60 v3.x platforms\n;\n" );
+    fprintf( file, "[0x101f7961], 0, 0, 0, {\"Series60v3.0\"}\n" );
     fprintf( file, ";\n; Supports Series 60 v5.x\n; This line indicates that this installation is for the Series 60 platform v5.x\n; This line must appear _exactly_ as shown below in the sis file\n; If this line is missing or incorrect, the sis file will not be able\n; to be installed on Series 60 v5.x platforms\n;\n" );
     fprintf( file, "[0x1028315F], 0, 0, 0, {\"Series60v5.0\"}\n" );
     fprintf( file, ";\n; Requires Series 60 Skins Support\n;\n" );

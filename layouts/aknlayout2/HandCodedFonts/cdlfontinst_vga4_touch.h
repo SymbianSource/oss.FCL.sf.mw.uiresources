@@ -21,7 +21,7 @@
 
 #ifndef CDLFONTINST_VGA4_TOUCH_H
 #define CDLFONTINST_VGA4_TOUCH_H
-#include "CdlFont.cdl.custom.h"
+#include "cdlfont.cdl.custom.h"
 #include "cdlfontinst_vga4_touch.hrh"
 
 namespace CdlFontInst_vga4_touch

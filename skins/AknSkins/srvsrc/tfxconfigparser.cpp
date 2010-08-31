@@ -82,7 +82,7 @@ const TDesC& CTFxEffect::Filename()
     return *iFilename;
     }
 
-void CTFxEffect::SetNameL(const TDesC8& aName)
+void CTFxEffect::SetName(const TDesC8& aName)
     {
     if (iName)
         {
@@ -93,7 +93,7 @@ void CTFxEffect::SetNameL(const TDesC8& aName)
     iName->Des().Copy(aName);
     }
 
-void CTFxEffect::SetFilenameL(const TDesC8& aFilename)
+void CTFxEffect::SetFilename(const TDesC8& aFilename)
     {
     if (iFilename)
         {
@@ -118,7 +118,7 @@ TInt CTFxEffect::CachePriority()
     return iCachePriority;
     }
 
-void CTFxEffect::SetWantedTimeL(const TDesC8& aTime)
+void CTFxEffect::SetWantedTime(const TDesC8& aTime)
     {
     if (aTime.Length() > 0)
         {
@@ -131,7 +131,7 @@ void CTFxEffect::SetWantedTimeL(const TDesC8& aTime)
         }
     }
 
-void CTFxEffect::SetMinTimeL(const TDesC8& aTime)
+void CTFxEffect::SetMinTime(const TDesC8& aTime)
     {
     if (aTime.Length() > 0)
         {
@@ -144,7 +144,7 @@ void CTFxEffect::SetMinTimeL(const TDesC8& aTime)
         }
     }
 
-void CTFxEffect::SetCachePriorityL(const TDesC8& aPriority)
+void CTFxEffect::SetCachePriority(const TDesC8& aPriority)
     {
     if (aPriority.Length() > 0)
         {
@@ -211,7 +211,7 @@ TInt CTFxTransition::Type()
     return iType;
     }
 
-void CTFxTransition::SetUidL(const TDesC8& aUid)
+void CTFxTransition::SetUid(const TDesC8& aUid)
     {
     if (aUid.Length())
         {
@@ -233,7 +233,7 @@ TInt CTFxTransition::ContextId()
     }
 
 
-void CTFxTransition::SetContextIdL(const TDesC8& aId)
+void CTFxTransition::SetContextId(const TDesC8& aId)
     {
     if (aId.Length() > 0)
         {
@@ -257,7 +257,7 @@ void CTFxTransition::SetEffectNameL(const TDesC8& aEffect)
     iEffectName->Des().Copy(aEffect);
     }
 
-void CTFxTransition::SetTypeL(const TDesC8& aType)
+void CTFxTransition::SetType(const TDesC8& aType)
     {
     if (aType.Length() > 0)
         {
@@ -706,23 +706,23 @@ void CTFXConfigParser::OnMfStartElementL(const RTagInfo& aElement, const RAttrib
         RTagInfo tag = attribute.Attribute();
         if (!tag.LocalName().DesC().CompareF(KEffectNameTag))
             {
-            iCurrentEffect->SetNameL(attribute.Value().DesC());
+            iCurrentEffect->SetName(attribute.Value().DesC());
             }
         else if (!tag.LocalName().DesC().CompareF(KEffectFileTag))
             {
-            iCurrentEffect->SetFilenameL(attribute.Value().DesC());
+            iCurrentEffect->SetFilename(attribute.Value().DesC());
             }
         else if (!tag.LocalName().DesC().CompareF(KEffectWantedTimeTag))
             {
-            iCurrentEffect->SetWantedTimeL(attribute.Value().DesC());
+            iCurrentEffect->SetWantedTime(attribute.Value().DesC());
             }
         else if (!tag.LocalName().DesC().CompareF(KEffectMinTimeTag))
             {
-            iCurrentEffect->SetMinTimeL(attribute.Value().DesC());
+            iCurrentEffect->SetMinTime(attribute.Value().DesC());
             }
         else if (!tag.LocalName().DesC().CompareF(KEffectCachePriorityTag))
             {
-            iCurrentEffect->SetCachePriorityL(attribute.Value().DesC());
+            iCurrentEffect->SetCachePriority(attribute.Value().DesC());
             }
         }
     }
@@ -773,7 +773,7 @@ void CTFXConfigParser::OnSelStartElementL(const RTagInfo& aElement, const RAttri
                 RTagInfo tag = attribute.Attribute();
                 if (!tag.LocalName().DesC().CompareF(KContextTag))
                     {
-                    iCurrentTransition->SetContextIdL(attribute.Value().DesC());
+                    iCurrentTransition->SetContextId(attribute.Value().DesC());
                     }
                 else if (!tag.LocalName().DesC().CompareF(KEffectTag))
                     {
@@ -781,11 +781,11 @@ void CTFXConfigParser::OnSelStartElementL(const RTagInfo& aElement, const RAttri
                     }
                 else if (!tag.LocalName().DesC().CompareF(KUidTag))
                     {
-                    iCurrentTransition->SetUidL(attribute.Value().DesC());
+                    iCurrentTransition->SetUid(attribute.Value().DesC());
                     }
                 else if( !tag.LocalName().DesC().CompareF(KTypeTag))
                     {
-                    iCurrentTransition->SetTypeL(attribute.Value().DesC());
+                    iCurrentTransition->SetType(attribute.Value().DesC());
                     }
                 }
             }
@@ -989,7 +989,7 @@ void StartSrvAndRegisterTransitionsL(const TDesC& aSkinExtensionFilename,
             {
             CTFxTransition* transition = transitionarray->operator[](count);
             CTFxEffect* effect = transition->Effect();
-            if (transition && effect && effect->PathIndex() >=0)
+            if ( effect && effect->PathIndex() >=0 )
                 {
                 err = aTransSrv->RegisterFullscreenKml(transition->ContextId(),
                     transition->Uid(),
@@ -1014,7 +1014,7 @@ void StartSrvAndRegisterTransitionsL(const TDesC& aSkinExtensionFilename,
             {
             CTFxCtrlTransition* ctrltransition = ctrltransitionarray->operator[](count);
             CTFxEffect* effect = ctrltransition->Effect();
-            if (ctrltransition && effect && effect->PathIndex() >=0)
+            if ( effect && effect->PathIndex() >=0)
                 {
                 if (!ctrltransition->KmlRegistrationStatus())
                     {

@@ -16,24 +16,24 @@
 #  only the instances and packages that it requires.
 #
 
-include LayoutConfig.mk
+include layoutConfig.mk
 
 do_nothing :
-
+	@rem do_nothing
 
 MAKMAKE : make_gen_dir
-
-
-
+	@rem
+	@rem the DLL
+	@rem
 	@CdlCompiler dll \
 		-p$(gen_dir) \
 		\
 		-laknlayout2.lib \
-		-lAknLayout2Scalable.lib \
-		-lAknLayout2Adaptation.lib \
-		-lCdlEngine.lib \
+		-laknlayout2scalable.lib \
+		-laknlayout2adaptation.lib \
+		-lcdlengine.lib \
 		\
-		-s../decodelib/Aknlayout2adaptationdecode.cpp \
+		-s..\decodelib\Aknlayout2adaptationdecode.cpp \
 		\
 		LayoutInst 0x101fe2aa \
 		\

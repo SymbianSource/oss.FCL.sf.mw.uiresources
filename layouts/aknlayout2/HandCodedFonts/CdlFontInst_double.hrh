@@ -21,8 +21,8 @@
 
 #ifndef CDLFONTINST_DOUBLE_HRH
 #define CDLFONTINST_DOUBLE_HRH
-#include "cdlfont.cdl.common.hrh"
-#include "dllinstances.hrh"
+#include "CdlFont.cdl.common.hrh"
+#include "DllInstances.hrh"
 
 #define _CDL_CdlFontInst_double_KCdlInstanceInterfaceUidValue _CDL_CDL_Font_KCdlInterfaceUidValue
 #define _CDL_CdlFontInst_double_KCdlInstanceId KDllInst_CdlFontInst_double

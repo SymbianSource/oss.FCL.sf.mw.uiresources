@@ -24,7 +24,6 @@ do_nothing :
 # Remove any gt files that we do not want
 #
 MAKMAKE :
-	@if exist $(TARGETDIR)\RESOURCE\FONTS\eon14.gdr	 erase /F $(TARGETDIR)\RESOURCE\FONTS\eon14.gdr
 	@if exist $(TARGETDIR)\RESOURCE\FONTS\ncrbiu.ttf	 erase /F $(TARGETDIR)\RESOURCE\FONTS\ncrbiu.ttf
 	@if exist $(TARGETDIR)\RESOURCE\FONTS\ncrbru.ttf	 erase /F $(TARGETDIR)\RESOURCE\FONTS\ncrbru.ttf
 	@if exist $(TARGETDIR)\RESOURCE\FONTS\ncrriu.ttf	 erase /F $(TARGETDIR)\RESOURCE\FONTS\ncrriu.ttf

@@ -1094,7 +1094,7 @@ void CBitmapBuilder::GenerateStaticDefinitionsL(TPtr8& aData)
         // Init indexes for each supported height
         for (TInt k = 0; k < iIniFilesData.Count(); k++)
             {
-            indexArray.AppendL(0);
+            indexArray.Append(0);
             }
 
         for ( TInt i = 0 ; i < iIniFilesData[0]->iIniData.Count() ; i++ )

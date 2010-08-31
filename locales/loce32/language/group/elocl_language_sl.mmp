@@ -1,0 +1,54 @@
+/*
+* Copyright (c) 1997-1999 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description: 
+*
+*/
+
+
+
+#include <platform_paths.hrh>
+
+TARGET          elocl_lan.028
+CAPABILITY      ALL
+TARGETTYPE      dll
+
+VENDORID        VID_DEFAULT
+
+SOURCEPATH	../src
+SOURCE	language.cpp
+SOURCE	language_sl.cpp
+
+// This is a SYSTEMINCLUDE macro containing the middleware
+// layer specific include directories
+MW_LAYER_SYSTEMINCLUDE
+
+SYSTEMINCLUDE   ../../../inc
+SYSTEMINCLUDE   ../../inc
+SYSTEMINCLUDE   ../inc
+SYMBIAN_BASE_SYSTEMINCLUDE(kernel)
+
+#if defined(WINS)
+DEFFILE			../def/language_wins.def
+#elif defined(GCC32) && !defined(X86GCC)
+DEFFILE			\epoc32\release\marm\elocl.def
+#else
+DEFFILE			../def/language_arm.def
+#endif
+
+START WINS
+//BASEADDRESS		0x58000000
+END
+
+UID		0x100039e6 0x100075a0
+VENDORID 0x70000001

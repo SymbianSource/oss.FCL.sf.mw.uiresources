@@ -265,7 +265,7 @@ static TPoint GetParentAbsoluteDelta(
 //
 // -----------------------------------------------------------------------------
 //
-static TBool DrawPartialCachedImageL(
+static TBool DrawPartialCachedImage(
     MAknsSkinInstance* aSkin, CBitmapContext& aGc, const TRect& aTrgLayoutRect,
     const TRect& aTrgDrawRect, CAknsImageItemData* aImgData,
     const TAknsItemID& aIID, const TAknsImageAttributeData* aAttr,
@@ -284,7 +284,7 @@ static TBool DrawPartialCachedImageL(
         trgLayoutRect.iBr += br;
         }
 
-    return AknsScalabilityUtils::DrawPartialCachedImageL( aSkin, aGc, trgLayoutRect,
+    return AknsScalabilityUtils::DrawPartialCachedImage( aSkin, aGc, trgLayoutRect,
         aTrgDrawRect, aImgData, aIID, aAttr, aDrawParam );
     }
 
@@ -374,7 +374,7 @@ static TBool IsBackgroundItem( const TAknsItemID& aIID,CAknsAppSkinInstance* aSk
 //
 // -----------------------------------------------------------------------------
 //
-inline static TBool BlitL(
+inline static TBool Blit(
     MAknsSkinInstance* aSkin, CBitmapContext& aGc, const TRect& aTrgRect,
     CAknsImageItemData* aImgData, const TAknsItemID& aIID,
     const TAknsBackground* aLayout, const TPoint& aPADelta,
@@ -382,10 +382,9 @@ inline static TBool BlitL(
     {
     CAknsAppSkinInstance* appInstance = 
         static_cast<CAknsAppSkinInstance*>(aSkin);
-
+        
     if ( IsBackgroundItem( aIID,appInstance ) && 
-            appInstance && appInstance->AnimBackgroundState() &&
-            !appInstance->AnimationBackgroundDisabled() )
+            appInstance && appInstance->AnimBackgroundState() )
         {
         if( (aDrawParam&KAknsDrawParamPrepareOnly) )
             {
@@ -432,7 +431,7 @@ inline static TBool BlitL(
     TRect drawRect(aTrgRect);
     drawRect.Intersection( layoutRect );
 
-    return DrawPartialCachedImageL( aSkin, aGc, layoutRect, drawRect,
+    return DrawPartialCachedImage( aSkin, aGc, layoutRect, drawRect,
         aImgData, aIID, attr, aDrawParam );
     }
 
@@ -444,7 +443,7 @@ inline static TBool BlitL(
 //
 // -----------------------------------------------------------------------------
 //
-inline static TBool BlitAndClearL(
+inline static TBool BlitAndClear(
     MAknsSkinInstance* aSkin, CBitmapContext& aGc, const TRect& aTrgRect,
     CAknsImageItemData* aImgData, const TAknsItemID& aIID,
     const TAknsBackground* aLayout, const TPoint& aPADelta,
@@ -456,7 +455,7 @@ inline static TBool BlitAndClearL(
     if ( IsBackgroundItem( aIID,appInstance ) && 
             appInstance && appInstance->AnimBackgroundState() )
         {
-        return BlitL( aSkin, aGc, aTrgRect, aImgData, aIID, aLayout, aPADelta, aDrawParam );
+        return Blit( aSkin, aGc, aTrgRect, aImgData, aIID, aLayout, aPADelta, aDrawParam );
         }
     
     if( !(aDrawParam & KAknsDrawParamPrepareOnly) )
@@ -479,15 +478,15 @@ inline static TBool BlitAndClearL(
             aGc.DrawRect( drawRect );
             }
         }
-    return BlitL( aSkin, aGc, aTrgRect, aImgData, aIID, aLayout, aPADelta, aDrawParam );
+    return Blit( aSkin, aGc, aTrgRect, aImgData, aIID, aLayout, aPADelta, aDrawParam );
     }
 
 // -----------------------------------------------------------------------------
-// CheckAndDrawCachedImageL
+// CheckAndDrawCachedImage
 //
 // -----------------------------------------------------------------------------
 //
-static TBool CheckAndDrawCachedImageL( MAknsSkinInstance* aSkin,
+static TBool CheckAndDrawCachedImage( MAknsSkinInstance* aSkin,
     CBitmapContext& aGc, const TRect& aRect, const TAknsItemID& aIID,
     const TInt aDrawParam )
     {
@@ -508,7 +507,7 @@ static TBool CheckAndDrawCachedImageL( MAknsSkinInstance* aSkin,
         return EFalse;
         }
 
-    return DrawPartialCachedImageL( aSkin, aGc, aRect, aRect,
+    return DrawPartialCachedImage( aSkin, aGc, aRect, aRect,
         static_cast<CAknsImageItemData*>(data), aIID,
         NULL, aDrawParam );
     }
@@ -533,7 +532,7 @@ static MAknsControlContext* GetParentContext( MAknsControlContext* aContext )
 //
 // -----------------------------------------------------------------------------
 //
-static TBool CheckAndDrawFrameL( MAknsSkinInstance* aInstance,
+static TBool CheckAndDrawFrame( MAknsSkinInstance* aInstance,
     CBitmapContext& aGc, const TRect& aOuterRect, const TRect& aInnerRect,
     const TAknsItemID& aFrameID, const TAknsItemID& aCenterID,
     const TInt aDrawParam )
@@ -546,7 +545,7 @@ static TBool CheckAndDrawFrameL( MAknsSkinInstance* aInstance,
     if( !(aDrawParam & KAknsDrawParamPrepareOnly) )
         {
         // Prepare before drawing
-        CheckAndDrawFrameL( aInstance, aGc, aOuterRect, aInnerRect,
+        CheckAndDrawFrame( aInstance, aGc, aOuterRect, aInnerRect,
             aFrameID, aCenterID, aDrawParam|KAknsDrawParamPrepareOnly );
         }
 
@@ -575,56 +574,56 @@ static TBool CheckAndDrawFrameL( MAknsSkinInstance* aInstance,
             }
 
         // Corners
-        retVal |= CheckAndDrawCachedImageL( aInstance, aGc,
+        retVal |= CheckAndDrawCachedImage( aInstance, aGc,
             TRect( aOuterRect.iTl, aInnerRect.iTl ),
             data->ImageIID( EAknsFrameIndexTl ), aDrawParam );
-        retVal |= CheckAndDrawCachedImageL( aInstance, aGc,
+        retVal |= CheckAndDrawCachedImage( aInstance, aGc,
             TRect( aInnerRect.iBr.iX, aOuterRect.iTl.iY,
             aOuterRect.iBr.iX, aInnerRect.iTl.iY ),
             data->ImageIID( EAknsFrameIndexTr ), aDrawParam );
-        retVal |= CheckAndDrawCachedImageL( aInstance, aGc,
+        retVal |= CheckAndDrawCachedImage( aInstance, aGc,
             TRect( aOuterRect.iTl.iX, aInnerRect.iBr.iY,
             aInnerRect.iTl.iX, aOuterRect.iBr.iY ),
             data->ImageIID( EAknsFrameIndexBl ), aDrawParam );
-        retVal |= CheckAndDrawCachedImageL( aInstance, aGc,
+        retVal |= CheckAndDrawCachedImage( aInstance, aGc,
             TRect( aInnerRect.iBr, aOuterRect.iBr ),
             data->ImageIID( EAknsFrameIndexBr ), aDrawParam );
 
         // Sides
         TRect sideRect( aInnerRect.iTl.iX, aOuterRect.iTl.iY,
             aInnerRect.iBr.iX, aInnerRect.iTl.iY );
-        retVal |= CheckAndDrawCachedImageL( aInstance, aGc, sideRect,
+        retVal |= CheckAndDrawCachedImage( aInstance, aGc, sideRect,
             data->ImageIID( EAknsFrameIndexT ), aDrawParam );
         sideRect.SetRect( aInnerRect.iTl.iX, aInnerRect.iBr.iY,
             aInnerRect.iBr.iX, aOuterRect.iBr.iY );
-        retVal |= CheckAndDrawCachedImageL( aInstance, aGc, sideRect,
+        retVal |= CheckAndDrawCachedImage( aInstance, aGc, sideRect,
             data->ImageIID( EAknsFrameIndexB ), aDrawParam );
         sideRect.SetRect( aOuterRect.iTl.iX, aInnerRect.iTl.iY,
             aInnerRect.iTl.iX, aInnerRect.iBr.iY );
-        retVal |= CheckAndDrawCachedImageL( aInstance, aGc, sideRect,
+        retVal |= CheckAndDrawCachedImage( aInstance, aGc, sideRect,
             data->ImageIID( EAknsFrameIndexL ), aDrawParam );
         sideRect.SetRect( aInnerRect.iBr.iX, aInnerRect.iTl.iY,
             aOuterRect.iBr.iX, aInnerRect.iBr.iY );
-        retVal |= CheckAndDrawCachedImageL( aInstance, aGc, sideRect,
+        retVal |= CheckAndDrawCachedImage( aInstance, aGc, sideRect,
             data->ImageIID( EAknsFrameIndexR ), aDrawParam );
 
         // Center
         //lint --e{961} Valid logic
         if( aCenterID == KAknsIIDDefault )
             {
-            retVal |= CheckAndDrawCachedImageL( aInstance, aGc, aInnerRect,
+            retVal |= CheckAndDrawCachedImage( aInstance, aGc, aInnerRect,
                 data->ImageIID( EAknsFrameIndexCenter ), aDrawParam );
             }
         else if( aCenterID != KAknsIIDNone )
             {
-            retVal |= CheckAndDrawCachedImageL( aInstance, aGc, aInnerRect,
+            retVal |= CheckAndDrawCachedImage( aInstance, aGc, aInnerRect,
                 aCenterID, aDrawParam );
             }
         }
     else if( AknsUtils::IsDerivedType( EAknsITBitmap, rawData->Type() ) )
         {
         // Center only
-        retVal |= CheckAndDrawCachedImageL( aInstance, aGc, aOuterRect,
+        retVal |= CheckAndDrawCachedImage( aInstance, aGc, aOuterRect,
             aFrameID, aDrawParam );
         }
 
@@ -804,12 +803,12 @@ EXPORT_C TBool AknsDrawUtils::DrawBackground( MAknsSkinInstance* aInstance,
             blitAttempted = ETrue;
             if( (drawParam&KAknsDrawParamNoClearUnderImage)==0 )
                 {
-                blit = BlitAndClearL( aInstance, aGc, drawRect,
+                blit = BlitAndClear( aInstance, aGc, drawRect,
                     imgData, imgIID, bgLayout, paDelta, drawParam );
                 }
             else
                 {
-                blit = BlitL( aInstance, aGc, drawRect,
+                blit = Blit( aInstance, aGc, drawRect,
                     imgData, imgIID, bgLayout, paDelta, drawParam );
                 }
             if ( !blit )
@@ -847,7 +846,7 @@ EXPORT_C TBool AknsDrawUtils::DrawBackground( MAknsSkinInstance* aInstance,
                 TAknsBackground* childLayout = bgLayout->iNext;
 
                 blitAttempted = ETrue;
-                blit = BlitL( aInstance, aGc, drawRect, maskedImgData,
+                blit = Blit( aInstance, aGc, drawRect, maskedImgData,
                     KAknsIIDNone, childLayout, paDelta, drawParam );
                 if ( !blit )
                     {
@@ -899,7 +898,7 @@ EXPORT_C TBool AknsDrawUtils::DrawBackground( MAknsSkinInstance* aInstance,
             if( imgData )
                 {
                 blitAttempted = ETrue;
-                blit = BlitAndClearL( aInstance, aGc, drawRect, imgData,
+                blit = BlitAndClear( aInstance, aGc, drawRect, imgData,
                     nextLayout->iImageID, nextLayout, paDelta, drawParam );
                 if ( !blit )
                     {
@@ -1048,12 +1047,12 @@ EXPORT_C TBool AknsDrawUtils::BackgroundBetweenRects(
             {
             if( (drawParam & KAknsDrawParamNoClearUnderImage) == 0 )
                 {            
-                blit = BlitAndClearL( aInstance, aGc, rlist[i],
+                blit = BlitAndClear( aInstance, aGc, rlist[i],
                         imgData, imgIID, bgLayout, paDelta, drawParam );
                 }
             else
                 {
-                blit = BlitL( aInstance, aGc, rlist[i],
+                blit = Blit( aInstance, aGc, rlist[i],
                         imgData, imgIID, bgLayout, paDelta, drawParam );
                 }
             if ( !blit )
@@ -1105,7 +1104,7 @@ EXPORT_C TBool AknsDrawUtils::BackgroundBetweenRects(
                 blitAttempted = ETrue;
                 for ( TInt i=0; i < 4; i++ )
                     {
-                    blit = BlitL( aInstance, aGc, rlist[i], imgData,
+                    blit = Blit( aInstance, aGc, rlist[i], imgData,
                             nextLayout->iImageID, nextLayout, paDelta, drawParam );
                     if ( !blit )
                         {
@@ -1158,7 +1157,7 @@ EXPORT_C void AknsDrawUtils::DrawCachedImage( MAknsSkinInstance* aInstance,
     CWindowGc& aGc, const TRect& aRect, const TAknsItemID& aID )
     {
     // Ignore return value
-    CheckAndDrawCachedImageL( aInstance, aGc, aRect, aID, KAknsDrawParamDefault );
+    CheckAndDrawCachedImage( aInstance, aGc, aRect, aID, KAknsDrawParamDefault );
     }
 
 // -----------------------------------------------------------------------------
@@ -1171,7 +1170,7 @@ EXPORT_C void AknsDrawUtils::DrawCachedImage( MAknsSkinInstance* aInstance,
     CFbsBitGc& aGc, const TRect& aRect, const TAknsItemID& aID )
     {
     // Ignore return value
-    CheckAndDrawCachedImageL( aInstance, aGc, aRect, aID, KAknsDrawParamDefault );
+    CheckAndDrawCachedImage( aInstance, aGc, aRect, aID, KAknsDrawParamDefault );
     }
 
 // -----------------------------------------------------------------------------
@@ -1186,7 +1185,7 @@ EXPORT_C TBool AknsDrawUtils::PrepareFrame( MAknsSkinInstance* aInstance,
     {
     CBitmapContext* gc = NULL;
     // coverity[var_deref_model]
-    return CheckAndDrawFrameL( aInstance, *gc, aOuterRect, aInnerRect,
+    return CheckAndDrawFrame( aInstance, *gc, aOuterRect, aInnerRect,
         aFrameID, aCenterID, KAknsDrawParamPrepareOnly );
     }
 
@@ -1200,7 +1199,7 @@ EXPORT_C TBool AknsDrawUtils::DrawFrame( MAknsSkinInstance* aInstance,
     CWindowGc& aGc, const TRect& aOuterRect, const TRect& aInnerRect,
     const TAknsItemID& aFrameID, const TAknsItemID& aCenterID )
     {
-    return CheckAndDrawFrameL( aInstance, aGc, aOuterRect, aInnerRect,
+    return CheckAndDrawFrame( aInstance, aGc, aOuterRect, aInnerRect,
         aFrameID, aCenterID, KAknsDrawParamDefault );
     }
 
@@ -1215,7 +1214,7 @@ EXPORT_C TBool AknsDrawUtils::DrawFrame( MAknsSkinInstance* aInstance,
     const TAknsItemID& aFrameID, const TAknsItemID& aCenterID,
     const TInt aDrawParam )
     {
-    return CheckAndDrawFrameL( aInstance, aGc, aOuterRect, aInnerRect,
+    return CheckAndDrawFrame( aInstance, aGc, aOuterRect, aInnerRect,
         aFrameID, aCenterID, aDrawParam );
     }
 
@@ -1229,7 +1228,7 @@ EXPORT_C TBool AknsDrawUtils::DrawFrame( MAknsSkinInstance* aInstance,
     CFbsBitGc& aGc, const TRect& aOuterRect, const TRect& aInnerRect,
     const TAknsItemID& aFrameID, const TAknsItemID& aCenterID )
     {
-    return CheckAndDrawFrameL( aInstance, aGc, aOuterRect, aInnerRect,
+    return CheckAndDrawFrame( aInstance, aGc, aOuterRect, aInnerRect,
         aFrameID, aCenterID, KAknsDrawParamDefault );
     }
 
@@ -1255,7 +1254,7 @@ EXPORT_C TBool AknsDrawUtils::DrawFramePart( MAknsSkinInstance* aInstance,
         aGc.SetPenStyle(CGraphicsContext::ENullPen);
         aGc.SetBrushStyle(CGraphicsContext::ESolidBrush);
 
-        TBool retVal = CheckAndDrawCachedImageL( aInstance, aGc, aRect,
+        TBool retVal = CheckAndDrawCachedImage( aInstance, aGc, aRect,
             data->ImageIID( aFrameElement ), KAknsDrawParamDefault );
 
         aGc.SetPenStyle(CGraphicsContext::ESolidPen);

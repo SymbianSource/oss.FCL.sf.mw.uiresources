@@ -79,8 +79,8 @@ source           apac_vga_touch_land_small_pack.cpp
 source           apac_vga_touch_land_large_pack.cpp
 
 library          euser.lib
-library          AknLayout2Scalable.lib
-library          CdlEngine.lib
+library          aknlayout2scalable.lib
+library          cdlengine.lib
 
 START RESOURCE	 2001cb5c.rss
 TARGET       2001cb5c.rsc

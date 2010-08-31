@@ -188,6 +188,4 @@ EXPORTS
 	_ZN40CAknsMaskedLayerBackgroundControlContext13SetLayerImageEiRK11TAknsItemID @ 187 NONAME
 	_ZN40CAknsMaskedLayerBackgroundControlContext20SetLayerMaskAndSizeLERK11TAknsItemIDRK5TRect @ 188 NONAME
 	_ZN40CAknsMaskedLayerBackgroundControlContext4NewLERK11TAknsItemIDRK5TRectii @ 189 NONAME
-	_ZN9AknsUtils27AnimationBackgroundDisabledEv @ 190 NONAME
-	_ZN9AknsUtils31SetAnimationBackgroundDisabledLEi @ 191 NONAME
 

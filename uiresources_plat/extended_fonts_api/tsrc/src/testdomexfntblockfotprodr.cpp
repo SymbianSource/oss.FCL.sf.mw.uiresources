@@ -23,7 +23,7 @@
 #include <aknfontid.h>
 #include <w32std.h> 
 #include <coemain.h> 
-#include <AknFontProviderSuppliedMetrics.h>
+#include <aknfontprovidersuppliedmetrics.h>
 
 #include "testdomexfntcontainer.h"
 #include "testdomextedfonts.h"

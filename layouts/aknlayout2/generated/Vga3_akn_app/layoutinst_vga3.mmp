@@ -79,8 +79,8 @@ source           apac_vga3_land_small_pack.cpp
 source           apac_vga3_land_large_pack.cpp
 
 library          euser.lib
-library          AknLayout2Scalable.lib
-library          CdlEngine.lib
+library          aknlayout2scalable.lib
+library          cdlengine.lib
 
 START RESOURCE	 2001959a.rss
 TARGET       2001959a.rsc

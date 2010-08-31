@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 1999-2001 Nokia Corporation and/or its subsidiary(-ies).
+* Copyright (c) 1999-2010 Nokia Corporation and/or its subsidiary(-ies).
 * All rights reserved.
 * This component and the accompanying materials are made available
 * under the terms of "Eclipse Public License v1.0"
@@ -21,92 +21,163 @@
 
 PRJ_EXPORTS
 
-// IBY-files
-rom/Elocl.iby LANGUAGE_MW_LAYER_IBY_EXPORT_PATH(elocl.iby)
-
+// languages.confml export
+rom/languages.confml    /epoc32/rom/config/global/confml/languages.confml
 
 PRJ_MMPFILES    // List of MMP files 
 
 #    if defined(MARM_ARMI) || defined(MARM_ARMV5) || defined(MARM_ARM4)|| defined(WINS) 
-MmpFiles/elocl                                    // elocl.dll    uk english
 
-MmpFiles/elocluk                         // elocl.01     UK
-MmpFiles/eloclfr                                  // elocl.02     France
-MmpFiles/eloclde                                  // elocl.03     Germany
-MmpFiles/eloclit                                  // elocl.05     Italy
-MmpFiles/elocles                                  // elocl.04     Spain
-MmpFiles/eloclse                                  // elocl.06     Sweden
-MmpFiles/elocldk                                  // elocl.07     Denmark
-MmpFiles/eloclno                                  // elocl.08     Norway
-MmpFiles/eloclfi                                  // elocl.09     Finland
-MmpFiles/eloclus                                  // elocl.10     American english
-MmpFiles/eloclpt                                  // elocl.13     Portugal
-MmpFiles/elocltr                                  // elocl.14     Turkey
-MmpFiles/eloclis                                  // elocl.15     Iceland
-MmpFiles/eloclru                                  // elocl.16     Russia
-MmpFiles/eloclhu                                  // elocl.17     Hungary
-MmpFiles/eloclnl.mmp                                  // elocl.18     Netherlands
-MmpFiles/eloclcz                                  // elocl.25     Czech
-MmpFiles/eloclsk                                  // elocl.26     Slovakia
-MmpFiles/eloclpl                                  // elocl.27     Poland
-MmpFiles/eloclsl                                  // elocl.28     Slovenia
-MmpFiles/elocl_template_chinese_traditional_tw    // elocl.29     chinese_traditional_taiwan
-MmpFiles/elocl_template_chinese_traditional_hk    // elocl.30     chinese_traditional_hongkong
-MmpFiles/elocl_template_chinese_simplified        // elocl.31     chinese_simplified
-MmpFiles/elocl_japanese.mmp                       // elocl.32     Japanese
-MmpFiles/elocl_thai                               // elocl.33     thai
-MmpFiles/elocl_arabic                             // elocl.37     arabic
-MmpFiles/eloclph                                  // elocl.39     Philippines (Tagalog)
-MmpFiles/eloclbg                                  // elocl.42     Bulgaria
-MmpFiles/elocl_ca_ES                                  // elocl.44 Catalan/Valencian
-MmpFiles/eloclhr                                  // elocl.45     Croatia
-MmpFiles/eloclee                                  // elocl.49     Estonia
-MmpFiles/elocl_farsi                              // elocl.50     Farsi
-MmpFiles/eloclca                                  // elocl.51     Canadian french
-MmpFiles/eloclgr                                  // elocl.54     Creek
-MmpFiles/elocl_hebrew                             // elocl.57     Hebrew
-MmpFiles/elocl_hindi.mmp                          // elocl.58     Hindi
-MmpFiles/eloclid                                  // elocl.59     Indonesia
+language/group/elocl_language_en_gb.mmp
+language/group/elocl_language_fr.mmp
+language/group/elocl_language_de.mmp
+language/group/elocl_language_es.mmp
+language/group/elocl_language_it.mmp
+language/group/elocl_language_sv.mmp
+language/group/elocl_language_da.mmp
+language/group/elocl_language_no.mmp
+language/group/elocl_language_fi.mmp
+language/group/elocl_language_en_us.mmp
+language/group/elocl_language_pt.mmp
+language/group/elocl_language_tr.mmp
+language/group/elocl_language_is.mmp
+language/group/elocl_language_ru.mmp
+language/group/elocl_language_hu.mmp
+language/group/elocl_language_nl.mmp
+language/group/elocl_language_cs.mmp
+language/group/elocl_language_sk.mmp
+language/group/elocl_language_pl.mmp
+language/group/elocl_language_sl.mmp
+language/group/elocl_language_zh_TW.mmp
+language/group/elocl_language_zh_hk.mmp
+language/group/elocl_language_zh_cn.mmp
+language/group/elocl_language_ja.mmp
+language/group/elocl_language_th.mmp
+language/group/elocl_language_ar.mmp
+language/group/elocl_language_tl.mmp
+language/group/elocl_language_bg.mmp
+language/group/elocl_language_ca.mmp
+language/group/elocl_language_hr.mmp
+language/group/elocl_language_et.mmp
+language/group/elocl_language_fa.mmp
+language/group/elocl_language_fr_ca.mmp
+language/group/elocl_language_el.mmp
+language/group/elocl_language_he.mmp
+language/group/elocl_language_hi.mmp
+language/group/elocl_language_id.mmp
+language/group/elocl_language_ko.mmp
+language/group/elocl_language_lv.mmp
+language/group/elocl_language_lt.mmp
+language/group/elocl_language_ms.mmp
+language/group/elocl_language_pt_br.mmp
+language/group/elocl_language_ro.mmp
+language/group/elocl_language_sr.mmp
+language/group/elocl_language_es_419.mmp
+language/group/elocl_language_uk.mmp
+language/group/elocl_language_ur.mmp
+language/group/elocl_language_vi.mmp
+language/group/elocl_language_eu.mmp
+language/group/elocl_language_gl.mmp
 
-#ifdef RD_KANNADA_FONTS
-MmpFiles/elocl_kannada.mmp                        // elocl.62     Kannada
-#endif
+region/group/elocl_region_bg.mmp		//Bulgaria
+region/group/elocl_region_br.mmp		//Brazil
+region/group/elocl_region_ca.mmp		//Canada
+region/group/elocl_region_cn.mmp		//China
+region/group/elocl_region_cz.mmp		//Czech
+region/group/elocl_region_de.mmp		//Germany
+region/group/elocl_region_dk.mmp		//Denmark
+region/group/elocl_region_ee.mmp		//Estonia
+region/group/elocl_region_es.mmp		//Spain
+region/group/elocl_region_fi.mmp			//Finland
+region/group/elocl_region_fr.mmp		//France
+region/group/elocl_region_gb.mmp		//United Kingdom
+region/group/elocl_region_gr.mmp		//Greece
+region/group/elocl_region_hk.mmp		//Hong Kong
+region/group/elocl_region_hr.mmp		//Croatia
+region/group/elocl_region_hu.mmp		//Hungary
+region/group/elocl_region_id.mmp		//Indonesia
+region/group/elocl_region_il.mmp			//Israel
+region/group/elocl_region_in.mmp		//India
+region/group/elocl_region_ir.mmp			//Iran
+region/group/elocl_region_is.mmp		//Iceland
+region/group/elocl_region_it.mmp			//Italy
+region/group/elocl_region_jp.mmp		//Japan
+region/group/elocl_region_kr.mmp		//Korea
+region/group/elocl_region_lt.mmp			//Lithuania
+region/group/elocl_region_lv.mmp		//Latvia
+region/group/elocl_region_mx.mmp		//Mexico
+region/group/elocl_region_my.mmp		//Malaysia
+region/group/elocl_region_nl.mmp		//Netherlands
+region/group/elocl_region_no.mmp		//Norway
+region/group/elocl_region_ph.mmp		//Philippines
+region/group/elocl_region_pk.mmp		//Pakistan
+region/group/elocl_region_pl.mmp		//Poland
+region/group/elocl_region_pt.mmp		//Portugal
+region/group/elocl_region_ro.mmp		//Romania
+region/group/elocl_region_rs.mmp		//Serbia
+region/group/elocl_region_ru.mmp		//Russia
+region/group/elocl_region_sa.mmp		//Saudi Arabia
+region/group/elocl_region_se.mmp		//Sweden
+region/group/elocl_region_si.mmp		//Slovenia
+region/group/elocl_region_sk.mmp		//Slovakia
+region/group/elocl_region_th.mmp		//Thailand
+region/group/elocl_region_tr.mmp		//Turkey
+region/group/elocl_region_tw.mmp		//Taiwan
+region/group/elocl_region_ua.mmp		//Ukraine
+region/group/elocl_region_us.mmp		//United States of America
+region/group/elocl_region_vi.mmp		//Vietnam
 
-MmpFiles/eloclko.mmp                              // elocl.65     Korean
 
-MmpFiles/elocllv                                  // elocl.67     Latvia
-MmpFiles/elocllt                                  // elocl.68     Lithunania
-MmpFiles/eloclmy                                  // elocl.70     Malay
-
-#ifdef RD_MARATHI
-MmpFiles/elocl_marathi.mmp                        // elocl.72     Marathi
-#endif //RD_MARATHI
-
-MmpFiles/eloclbr                                  // elocl.76     Brazilian Portuguese
-MmpFiles/eloclro                                  // elocl.78     Romania
-MmpFiles/eloclyu                                  // elocl.79     Serbia (Yogoslavia)
-MmpFiles/eloclea                                  // elocl.83     American Spanish
-MmpFiles/eloclur                                  // elocl.93     Ukrainia
-MmpFiles/elocl_urdu                               // elocl.94     Urdu
-MmpFiles/elocl_vietnamese                         // elocl.96     Vietnamese
-MmpFiles/eloclor                                  // elocl.99     Orange english
-MmpFiles/elocl_uk_apac.mmp                        // elocl.129    Normal English in Apac enviroment
-MmpFiles/elocl_chinese_simplified_english         // elocl.159    Apac-English version of chinese_simplified
-MmpFiles/elocl_chinese_trad_hk_english            // elocl.158    Apac-English version of chinese_traditional_hongkong
-MmpFiles/elocl_chinese_trad_tw_english            // elocl.157    Apac-English version of chinese_traditional_taiwan
-MmpFiles/elocl_japanese_english                   // elocl.160    Apac-English version of Japanese
-MmpFiles/elocl_thai_english                       // elocl.161    Apac-English version of thai
-MmpFiles/elocl_my_apac.mmp                        // elocl.326    Malay in Apac enviroment
-MmpFiles/elocl_eu_ES.mmp                        // elocl.102    Basque
-MmpFiles/elocl_gl_ES.mmp                        // elocl.103    Galcian
-MmpFiles/elocl_id_apac.mmp                      // elocl.327    Indonesian (APAC) (Bahasa)
-MmpFiles/elocl_indic_english.mmp                // elocl.230    Indic English
-
-PRJ_EXTENSIONS
-START EXTENSION base/copy_default
-OPTION SOURCES ELOCL.DLL
-OPTION TARGET ELOCL.LOC
-END
+collation/group/elocl_collation_ar.mmp // Arabic
+collation/group/elocl_collation_bg.mmp // Bulgarian
+collation/group/elocl_collation_ca.mmp // Catalan
+collation/group/elocl_collation_cs.mmp // Czech
+collation/group/elocl_collation_da.mmp // Danish 
+collation/group/elocl_collation_de.mmp // German
+collation/group/elocl_collation_ea.mmp // Latin American spanish
+collation/group/elocl_collation_ee.mmp // Estonian
+collation/group/elocl_collation_el.mmp // Greek
+collation/group/elocl_collation_en.mmp // UK English
+collation/group/elocl_collation_es.mmp // Spanish
+collation/group/elocl_collation_eu.mmp // Basque
+collation/group/elocl_collation_fa.mmp // Farsi
+collation/group/elocl_collation_fi.mmp // Finnish
+collation/group/elocl_collation_fr.mmp // French
+collation/group/elocl_collation_fr_ca.mmp // Canadian French
+collation/group/elocl_collation_gl.mmp // Galician
+collation/group/elocl_collation_hi.mmp // Hindi
+collation/group/elocl_collation_he.mmp // Hebrew
+collation/group/elocl_collation_hr.mmp // Croatian
+collation/group/elocl_collation_hu.mmp // Hungarian
+collation/group/elocl_collation_id.mmp // Indonesian
+collation/group/elocl_collation_is.mmp // Icelandic
+collation/group/elocl_collation_it.mmp // Italian
+collation/group/elocl_collation_ja.mmp // Japanese
+collation/group/elocl_collation_ko.mmp // Korean
+collation/group/elocl_collation_lt.mmp // Lithuanian
+collation/group/elocl_collation_lv.mmp // Latvian
+collation/group/elocl_collation_ms.mmp // Malay
+collation/group/elocl_collation_nl.mmp // Dutch
+collation/group/elocl_collation_no.mmp // Norwegian
+collation/group/elocl_collation_pl.mmp // Polish
+collation/group/elocl_collation_pt.mmp // Portuguese
+collation/group/elocl_collation_pt_br.mmp // Brazilian Portuguese
+collation/group/elocl_collation_ro.mmp // Romanian
+collation/group/elocl_collation_ru.mmp // Russian
+collation/group/elocl_collation_sk.mmp // Slovak
+collation/group/elocl_collation_sl.mmp // Slovenian
+collation/group/elocl_collation_sr.mmp // serbian
+collation/group/elocl_collation_sv.mmp // Swedish
+collation/group/elocl_collation_th.mmp // Thai
+collation/group/elocl_collation_tl.mmp // Tagalog
+collation/group/elocl_collation_tr.mmp // Turkish
+collation/group/elocl_collation_uk.mmp // Ukrainian
+collation/group/elocl_collation_ur.mmp // Urdu
+collation/group/elocl_collation_en_us.mmp // US English
+collation/group/elocl_collation_vi.mmp // Vietnamese
+collation/group/elocl_collation_zh_cn.mmp // PRC Chinese
+collation/group/elocl_collation_zh_hk.mmp // Hong Kong Chinese
+collation/group/elocl_collation_zh_tw.mmp // Taiwan Chinese
 
 #endif
 

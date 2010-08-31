@@ -14,40 +14,40 @@
 # Description:
 #
 
-include LayoutConfig.mk
+include layoutConfig.mk
 
-layout_gen_dir = $(gen_dir)/$(name)$(delivery)_akn_app
+layout_gen_dir = $(gen_dir)\$(name)$(delivery)_akn_app
 common_dll = -x .. 101fe2aa.dll
 
 Elaf_Portrait_Pack_Contents=\
         EAknLayoutIdELAF \
-        AknLayoutScalable_Elaf_p$(prt_code)_av_$(short)_prt$(touch)$(delivery)_ZOOM \
-        AknLayoutScalable_Elaf_p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)_ZOOM \
+        AknLayoutScalable_Elaf_p$(prt_code)_av_$(short)_prt$(touch)$(delivery)_$$ZOOM \
+        AknLayoutScalable_Elaf_p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)_$$ZOOM \
         
 Abrw_Portrait_Pack_Contents=\
         EAknLayoutIdABRW \
-        AknLayoutScalable_Abrw_p$(prt_code)_av_$(short)_prt$(touch)$(delivery)_ZOOM \
-        AknLayoutScalable_Abrw_p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)_ZOOM
+        AknLayoutScalable_Abrw_p$(prt_code)_av_$(short)_prt$(touch)$(delivery)_$$ZOOM \
+        AknLayoutScalable_Abrw_p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)_$$ZOOM
 
 Apac_Portrait_Pack_Contents=\
         EAknLayoutIdAPAC \
-        AknLayoutScalable_Elaf_p$(prt_code)_av_$(short)_prt$(touch)$(delivery)_ZOOM \
-        AknLayoutScalable_Elaf_p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)_ZOOM
+        AknLayoutScalable_Elaf_p$(prt_code)_av_$(short)_prt$(touch)$(delivery)_$$ZOOM \
+        AknLayoutScalable_Elaf_p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)_$$ZOOM
         
 Elaf_Landscape_Pack_Contents=\
         EAknLayoutIdELAF \
-        AknLayoutScalable_Elaf_p$(land_code)_av_$(short)_lsc$(touch)$(delivery)_ZOOM \
-        AknLayoutScalable_Elaf_p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)_ZOOM
+        AknLayoutScalable_Elaf_p$(land_code)_av_$(short)_lsc$(touch)$(delivery)_$$ZOOM \
+        AknLayoutScalable_Elaf_p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)_$$ZOOM
         
 Abrw_Landscape_Pack_Contents=\
 	EAknLayoutIdABRW \
-        AknLayoutScalable_Abrw_p$(land_code)_av_$(short)_lsc$(touch)$(delivery)_ZOOM \
-        AknLayoutScalable_Abrw_p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)_ZOOM
+        AknLayoutScalable_Abrw_p$(land_code)_av_$(short)_lsc$(touch)$(delivery)_$$ZOOM \
+        AknLayoutScalable_Abrw_p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)_$$ZOOM
         
 Apac_Landscape_Pack_Contents=\
         EAknLayoutIdAPAC \
-        AknLayoutScalable_Elaf_p$(land_code)_av_$(short)_lsc$(touch)$(delivery)_ZOOM \
-        AknLayoutScalable_Elaf_p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)_ZOOM
+        AknLayoutScalable_Elaf_p$(land_code)_av_$(short)_lsc$(touch)$(delivery)_$$ZOOM \
+        AknLayoutScalable_Elaf_p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)_$$ZOOM
         
 ifndef delivery
 Elaf_Portrait_Pack_Contents := $(Elaf_Portrait_Pack_Contents) \
@@ -153,28 +153,28 @@ endif
 
 endif
 
-pkg = @AknLayoutCompiler -p$(layout_gen_dir) LayPkg -z../generated/LayoutZoomFactorConfig.txt -d$(delivery) -p$(priority) -a$(appUid)
+pkg = @AknLayoutCompiler -p$(layout_gen_dir) LayPkg -z..\generated\LayoutZoomFactorConfig.txt -d$(delivery) -p$(priority) -a$(appUid)
 
 Elaf_portrait :
-	$(pkg) Elaf_$(name)_ZOOM$(delivery)_Pack $(dim1) $(dim2) -s$(style_name) $(Elaf_Portrait_Pack_Contents) >> $(layout_gen_dir)/instances.txt
+	$(pkg) Elaf_$(name)_$$ZOOM$(delivery)_Pack $(dim1) $(dim2) -s$(style_name) $(Elaf_Portrait_Pack_Contents) >> $(layout_gen_dir)\instances.txt
 
 Abrw_portrait :
-	$(pkg) Abrw_$(name)_ZOOM$(delivery)_Pack $(dim1) $(dim2) -s$(style_name) $(Abrw_Portrait_Pack_Contents) >> $(layout_gen_dir)/instances.txt
+	$(pkg) Abrw_$(name)_$$ZOOM$(delivery)_Pack $(dim1) $(dim2) -s$(style_name) $(Abrw_Portrait_Pack_Contents) >> $(layout_gen_dir)\instances.txt
 
 Apac_portrait :
-	$(pkg) Apac_$(name)_ZOOM$(delivery)_Pack $(dim1) $(dim2) -s$(style_name) $(Apac_Portrait_Pack_Contents) >> $(layout_gen_dir)/instances.txt
+	$(pkg) Apac_$(name)_$$ZOOM$(delivery)_Pack $(dim1) $(dim2) -s$(style_name) $(Apac_Portrait_Pack_Contents) >> $(layout_gen_dir)\instances.txt
 
 Elaf_landscape :
-	$(pkg) Elaf_$(name)_land_ZOOM$(delivery)_Pack $(dim2) $(dim1) -s$(style_name) $(Elaf_Landscape_Pack_Contents) >> $(layout_gen_dir)/instances.txt
+	$(pkg) Elaf_$(name)_land_$$ZOOM$(delivery)_Pack $(dim2) $(dim1) -s$(style_name) $(Elaf_Landscape_Pack_Contents) >> $(layout_gen_dir)\instances.txt
 
 Abrw_landscape :
-	$(pkg) Abrw_$(name)_land_ZOOM$(delivery)_Pack $(dim2) $(dim1) -s$(style_name) $(Abrw_Landscape_Pack_Contents) >> $(layout_gen_dir)/instances.txt
+	$(pkg) Abrw_$(name)_land_$$ZOOM$(delivery)_Pack $(dim2) $(dim1) -s$(style_name) $(Abrw_Landscape_Pack_Contents) >> $(layout_gen_dir)\instances.txt
 
 Apac_landscape :
-	$(pkg) Apac_$(name)_land_ZOOM$(delivery)_Pack $(dim2) $(dim1) -s$(style_name) $(Apac_Landscape_Pack_Contents) >> $(layout_gen_dir)/instances.txt
+	$(pkg) Apac_$(name)_land_$$ZOOM$(delivery)_Pack $(dim2) $(dim1) -s$(style_name) $(Apac_Landscape_Pack_Contents) >> $(layout_gen_dir)\instances.txt
 
 clean_inst_list : 
-	@python -c "import os,os.path; os.path.exists('$(layout_gen_dir)/instances.txt') and os.remove('$(layout_gen_dir)/instances.txt')"
+	@-del /q $(layout_gen_dir)\instances.txt > nul 2>&1
 
 layout_packages : \
 	clean_inst_list \
@@ -186,23 +186,23 @@ layout_packages : \
 	Apac_landscape
 
 do_nothing :
+	@rem do_nothing
 
-
-standard_flags = -p$(layout_gen_dir) MLCompCdl2InstO -i$(layout_gen_dir)/instances.txt -z../generated/LayoutZoomFactorConfig.txt -allparams -d$(delivery)
+standard_flags = -p$(layout_gen_dir) MLCompCdl2InstO -i$(layout_gen_dir)\instances.txt -z..\generated\LayoutZoomFactorConfig.txt -allparams -d$(delivery)
 
 make_layout_gen_dir : make_gen_dir
-	@python -c "import os,os.path; os.path.exists('$(layout_gen_dir)') or os.mkdir('$(layout_gen_dir)')"
+	@-md $(layout_gen_dir) > nul 2>&1
 
 
-
-
+# Note: AknLayoutScalable_Elaf_p$(prt_code)_av_$(short)_prt$(touch)$(delivery)_normal.cpp
+# acts as a proxy for all avkon scalable instance source code
 avkon_scalable_instances_cpp=\
-    $(layout_gen_dir)/aknlayoutscalable_elaf_p$(prt_code)_av_$(short)_prt$(touch)$(delivery)_normal.cpp
+    $(layout_gen_dir)\AknLayoutScalable_Elaf_p$(prt_code)_av_$(short)_prt$(touch)$(delivery)_normal.cpp
 
-
-
+# Note: AknLayoutScalable_Elaf_p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)_normal.cpp
+# acts as a proxy for all app scalable instance source code
 app_scalable_instances_cpp=\
-    $(layout_gen_dir)/aknlayoutscalable_elaf_p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)_normal.cpp
+    $(layout_gen_dir)\AknLayoutScalable_Elaf_p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)_normal.cpp
 
 ifndef delivery
 delivery_dir=_all
@@ -212,83 +212,88 @@ delivery_dir=$(delivery)
 endif
 
 avkon_scalable_instances_dep=\
-    ../generated/LayoutZoomFactorConfig.txt \
-    ../cdl/AknLayoutScalable_Avkon.cdl \
-    ../xml/av/$(delivery_dir)/p$(prt_code)_av_$(short)_prt$(touch)$(delivery)/display_eur_compdata.xml \
-    ../xml/av/$(delivery_dir)/p$(prt_code)_av_$(short)_prt$(touch)$(delivery)/display_arabic_hebrew_compdata.xml \
-    ../xml/av/$(delivery_dir)/p$(land_code)_av_$(short)_lsc$(touch)$(delivery)/display_eur_compdata.xml \
-    ../xml/av/$(delivery_dir)/p$(land_code)_av_$(short)_lsc$(touch)$(delivery)/display_arabic_hebrew_compdata.xml \
-    ../xml/av/$(delivery_dir)/p$(prt_code)_av_$(short)_prt$(touch)$(delivery)/display_eur_attributes.xml \
-    ../xml/av/$(delivery_dir)/p$(prt_code)_av_$(short)_prt$(touch)$(delivery)/display_arabic_hebrew_attributes.xml \
-    ../xml/av/$(delivery_dir)/p$(land_code)_av_$(short)_lsc$(touch)$(delivery)/display_eur_attributes.xml \
-    ../xml/av/$(delivery_dir)/p$(land_code)_av_$(short)_lsc$(touch)$(delivery)/display_arabic_hebrew_attributes.xml
+    ..\generated\LayoutZoomFactorConfig.txt \
+    ..\cdl\AknLayoutScalable_Avkon.cdl \
+    ..\xml\av\$(delivery_dir)\p$(prt_code)_av_$(short)_prt$(touch)$(delivery)\display_eur_compData.xml \
+    ..\xml\av\$(delivery_dir)\p$(prt_code)_av_$(short)_prt$(touch)$(delivery)\display_arabic_hebrew_compData.xml \
+    ..\xml\av\$(delivery_dir)\p$(land_code)_av_$(short)_lsc$(touch)$(delivery)\display_eur_compData.xml \
+    ..\xml\av\$(delivery_dir)\p$(land_code)_av_$(short)_lsc$(touch)$(delivery)\display_arabic_hebrew_compData.xml \
+    ..\xml\av\$(delivery_dir)\p$(prt_code)_av_$(short)_prt$(touch)$(delivery)\display_eur_attributes.xml \
+    ..\xml\av\$(delivery_dir)\p$(prt_code)_av_$(short)_prt$(touch)$(delivery)\display_arabic_hebrew_attributes.xml \
+    ..\xml\av\$(delivery_dir)\p$(land_code)_av_$(short)_lsc$(touch)$(delivery)\display_eur_attributes.xml \
+    ..\xml\av\$(delivery_dir)\p$(land_code)_av_$(short)_lsc$(touch)$(delivery)\display_arabic_hebrew_attributes.xml
 
 app_scalable_instances_dep=\
-    ../generated/LayoutZoomFactorConfig.txt \
-    ../cdl/AknLayoutScalable_Apps.cdl \
-    ../xml/apps/$(delivery_dir)/p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)/display_eur_compdata.xml \
-    ../xml/apps/$(delivery_dir)/p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)/display_arabic_hebrew_compdata.xml \
-    ../xml/apps/$(delivery_dir)/p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)/display_eur_compdata.xml \
-    ../xml/apps/$(delivery_dir)/p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)/display_arabic_hebrew_compdata.xml \
-    ../xml/apps/$(delivery_dir)/p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)/display_eur_attributes.xml \
-    ../xml/apps/$(delivery_dir)/p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)/display_arabic_hebrew_attributes.xml \
-    ../xml/apps/$(delivery_dir)/p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)/display_eur_attributes.xml \
-    ../xml/apps/$(delivery_dir)/p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)/display_arabic_hebrew_attributes.xml
+    ..\generated\LayoutZoomFactorConfig.txt \
+    ..\cdl\AknLayoutScalable_Apps.cdl \
+    ..\xml\apps\$(delivery_dir)\p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)\display_eur_compData.xml \
+    ..\xml\apps\$(delivery_dir)\p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)\display_arabic_hebrew_compData.xml \
+    ..\xml\apps\$(delivery_dir)\p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)\display_eur_compData.xml \
+    ..\xml\apps\$(delivery_dir)\p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)\display_arabic_hebrew_compData.xml \
+    ..\xml\apps\$(delivery_dir)\p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)\display_eur_attributes.xml \
+    ..\xml\apps\$(delivery_dir)\p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)\display_arabic_hebrew_attributes.xml \
+    ..\xml\apps\$(delivery_dir)\p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)\display_eur_attributes.xml \
+    ..\xml\apps\$(delivery_dir)\p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)\display_arabic_hebrew_attributes.xml
 
 $(avkon_scalable_instances_cpp): $(avkon_scalable_instances_dep)
+	@rem
+	@rem instance source for avkon scalable layout APIs
+	@rem
+	@rem force rebuild of target cpp file
+	@-del /q $(avkon_scalable_instances_cpp) > nul 2>&1
+	@AknLayoutCompiler $(standard_flags) ..\cdl\AknLayoutScalable_Avkon.cdl \
+            -a \
+            ..\xml\av\$(delivery_dir)\p$(prt_code)_av_$(short)_prt$(touch)$(delivery)\display_eur_compData.xml AknLayoutScalable_Elaf_p$(prt_code)_av_$(short)_prt$(touch)$(delivery) \
+            -m..\xml\av\$(delivery_dir)\p$(prt_code)_av_$(short)_prt$(touch)$(delivery)\display_arabic_hebrew_compData.xml AknLayoutScalable_Abrw_p$(prt_code)_av_$(short)_prt$(touch)$(delivery) \
+            ..\xml\av\$(delivery_dir)\p$(land_code)_av_$(short)_lsc$(touch)$(delivery)\display_eur_compData.xml AknLayoutScalable_Elaf_p$(land_code)_av_$(short)_lsc$(touch)$(delivery) \
+            -m..\xml\av\$(delivery_dir)\p$(land_code)_av_$(short)_lsc$(touch)$(delivery)\display_arabic_hebrew_compData.xml AknLayoutScalable_Abrw_p$(land_code)_av_$(short)_lsc$(touch)$(delivery)
 
-	@python -c "import os,os.path; os.path.exists('$(avkon_scalable_instances_cpp)') and os.remove('$(avkon_scalable_instances_cpp)')"
-	@AknLayoutCompiler $(standard_flags) ../cdl/AknLayoutScalable_Avkon.cdl \
-            -a \
-            ../xml/av/$(delivery_dir)/p$(prt_code)_av_$(short)_prt$(touch)$(delivery)/display_eur_compdata.xml AknLayoutScalable_Elaf_p$(prt_code)_av_$(short)_prt$(touch)$(delivery) \
-            -m../xml/av/$(delivery_dir)/p$(prt_code)_av_$(short)_prt$(touch)$(delivery)/display_arabic_hebrew_compdata.xml AknLayoutScalable_Abrw_p$(prt_code)_av_$(short)_prt$(touch)$(delivery) \
-            ../xml/av/$(delivery_dir)/p$(land_code)_av_$(short)_lsc$(touch)$(delivery)/display_eur_compdata.xml AknLayoutScalable_Elaf_p$(land_code)_av_$(short)_lsc$(touch)$(delivery) \
-            -m../xml/av/$(delivery_dir)/p$(land_code)_av_$(short)_lsc$(touch)$(delivery)/display_arabic_hebrew_compdata.xml AknLayoutScalable_Abrw_p$(land_code)_av_$(short)_lsc$(touch)$(delivery)
 $(app_scalable_instances_cpp): $(app_scalable_instances_dep)
-	@python -c "import os,os.path; os.path.exists('$(app_scalable_instances_cpp)') and os.remove('$(app_scalable_instances_cpp)')"
-	@AknLayoutCompiler $(standard_flags) ../cdl/AknLayoutScalable_Apps.cdl \
+	@rem
+	@rem instance source for app scalable layout APIs
+	@rem
+	@rem force rebuild of target cpp file
+	@-del /q $(app_scalable_instances_cpp) > nul 2>&1
+	@AknLayoutCompiler $(standard_flags) ..\cdl\AknLayoutScalable_Apps.cdl \
             -a \
-            ../xml/apps/$(delivery_dir)/p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)/display_eur_compdata.xml AknLayoutScalable_Elaf_p$(prt_code)_apps_$(short)_prt$(touch)$(delivery) \
-            -m../xml/apps/$(delivery_dir)/p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)/display_arabic_hebrew_compdata.xml AknLayoutScalable_Abrw_p$(prt_code)_apps_$(short)_prt$(touch)$(delivery) \
-            ../xml/apps/$(delivery_dir)/p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)/display_eur_compdata.xml AknLayoutScalable_Elaf_p$(land_code)_apps_$(short)_lsc$(touch)$(delivery) \
-            -m../xml/apps/$(delivery_dir)/p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)/display_arabic_hebrew_compdata.xml AknLayoutScalable_Abrw_p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)
+            ..\xml\apps\$(delivery_dir)\p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)\display_eur_compData.xml AknLayoutScalable_Elaf_p$(prt_code)_apps_$(short)_prt$(touch)$(delivery) \
+            -m..\xml\apps\$(delivery_dir)\p$(prt_code)_apps_$(short)_prt$(touch)$(delivery)\display_arabic_hebrew_compData.xml AknLayoutScalable_Abrw_p$(prt_code)_apps_$(short)_prt$(touch)$(delivery) \
+            ..\xml\apps\$(delivery_dir)\p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)\display_eur_compData.xml AknLayoutScalable_Elaf_p$(land_code)_apps_$(short)_lsc$(touch)$(delivery) \
+            -m..\xml\apps\$(delivery_dir)\p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)\display_arabic_hebrew_compData.xml AknLayoutScalable_Abrw_p$(land_code)_apps_$(short)_lsc$(touch)$(delivery)
 
 
 INSTANCES: \
     $(avkon_scalable_instances_cpp) \
     $(app_scalable_instances_cpp)
+	
 COPY:
-	@python -c "import glob,shutil; filelist=glob.glob('../HandCodedFonts/cdlfont.*');\
-	map((lambda f: shutil.copy(f, '$(layout_gen_dir)')), filelist)"
-
-	@python -c "import glob,shutil; fontname='$(font_name)'; filelist=glob.glob('../HandCodedFonts/cdlfontinst_'+fontname.lower()+'.*');\
-	map((lambda f: shutil.copy(f, '$(layout_gen_dir)')), filelist)"
-
-	@python -c "import glob,shutil; filelist=glob.glob('../displaylayoutmetrics/displaylayoutmetrics.*');\
-	map((lambda f: shutil.copy(f, '$(layout_gen_dir)')), filelist)"
-
-	@python -c "import glob,shutil; filelist=glob.glob('../displaylayoutmetrics/displaylayoutmetricsinst_$(name).*');\
-	map((lambda f: shutil.copy(f, '$(layout_gen_dir)')), filelist)"
+	@rem
+	@rem copy
+	@rem
+	@call copy ..\HandCodedFonts\CdlFont.* $(layout_gen_dir) > nul 2>&1
+	@call copy ..\HandCodedFonts\CdlFontInst_$(font_name).* $(layout_gen_dir) > nul 2>&1
+	@call copy ..\displaylayoutmetrics\displaylayoutmetrics.* $(layout_gen_dir) > nul 2>&1
+	@call copy ..\displaylayoutmetrics\displaylayoutmetricsinst_$(name).* $(layout_gen_dir) > nul 2>&1
 
 DLL:
-
-
-
+	@rem
+	@rem the DLL
+	@rem
 	@CdlCompiler dll \
 		-n$(dllversion) \
 		\
 		-p$(layout_gen_dir) \
 		\
-		-lAknLayout2Scalable.lib \
-		-lCdlEngine.lib \
+		-laknlayout2scalable.lib \
+		-lcdlengine.lib \
 		\
-		-s../../Decodelib/AknLayout2ScalableDecode.cpp \
+		-s..\..\decodelib\Aknlayout2scalabledecode.cpp \
 		\
 		"-esysteminclude .."\
 		\
 		LayoutInst_$(name)$(delivery) $(uid) \
 		\
-		@$(layout_gen_dir)/instances.txt
+		@$(layout_gen_dir)\instances.txt
 
 MAKMAKE : \
 	make_layout_gen_dir \
@@ -296,6 +301,7 @@ MAKMAKE : \
 	INSTANCES \
 	COPY \
 	DLL
+	
 BLD : do_nothing
 
 CLEAN :

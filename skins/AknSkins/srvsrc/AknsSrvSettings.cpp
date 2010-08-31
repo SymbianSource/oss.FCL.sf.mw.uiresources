@@ -35,7 +35,6 @@
 #include <pslninternalcrkeys.h>                 // KThemesWallpaperSlideSetType
 
 //PubSub keys.
-#include <ScreensaverInternalPSKeys.h>
 #include <UsbWatcherInternalPSKeys.h>           // KPSUidUsbWatcher
 #include <usbpersonalityids.h>                  // KUsbPersonalityIdMS
 
@@ -447,12 +446,12 @@ CAknsSrvSettings* CAknsSrvSettings::NewL(
 // Callback - USB status change.
 // -----------------------------------------------------------------------------
 //
-TInt CAknsSrvSettings::USBCallBackL(TAny* aPtr)
+TInt CAknsSrvSettings::USBCallBack(TAny* aPtr)
     {
     CAknsSrvSettings* self = static_cast<CAknsSrvSettings*>(aPtr);
     if (self)
         {
-        self->HandlePropertyChangeL(EAknsSrvSPUSBAttached);
+        self->HandlePropertyChange(EAknsSrvSPUSBAttached);
         }
     return KErrNone;
     }
@@ -461,12 +460,12 @@ TInt CAknsSrvSettings::USBCallBackL(TAny* aPtr)
 // Callback - when screensaver state changes.
 // -----------------------------------------------------------------------------
 //
-TInt CAknsSrvSettings::SSCallBackL(TAny* aPtr)
+TInt CAknsSrvSettings::SSCallBack(TAny* aPtr)
     {
     CAknsSrvSettings* self = static_cast<CAknsSrvSettings*>(aPtr);
     if (self)
         {
-        self->HandlePropertyChangeL( EAknsSrvSPScreensaverActivation );
+        self->HandlePropertyChange( EAknsSrvSPScreensaverActivation );
         }
     return KErrNone;
     }
@@ -475,12 +474,12 @@ TInt CAknsSrvSettings::SSCallBackL(TAny* aPtr)
 // Callback - layout changed.
 // -----------------------------------------------------------------------------
 //
-TInt CAknsSrvSettings::LayoutCallBackL(TAny* aPtr)
+TInt CAknsSrvSettings::LayoutCallBack(TAny* aPtr)
     {
     CAknsSrvSettings* self = static_cast<CAknsSrvSettings*>(aPtr);
     if (self)
         {
-        self->HandlePropertyChangeL( EAknsSrvSPLayoutId );
+        self->HandlePropertyChange( EAknsSrvSPLayoutId );
         }
     return KErrNone;
     }
@@ -489,7 +488,7 @@ TInt CAknsSrvSettings::LayoutCallBackL(TAny* aPtr)
 // Callback - skins repository.
 // -----------------------------------------------------------------------------
 //
-TInt CAknsSrvSettings::SkinsRepositoryCallBackL(TAny* aPtr)
+TInt CAknsSrvSettings::SkinsRepositoryCallBack(TAny* aPtr)
     {
     CAknsSrvSettings* self = static_cast<CAknsSrvSettings*>(aPtr);
     if (self)
@@ -499,7 +498,7 @@ TInt CAknsSrvSettings::SkinsRepositoryCallBackL(TAny* aPtr)
             case KPslnActiveSkinUid:
                 break;
             case KPslnWallpaperType:
-                self->HandlePropertyChangeL( EAknsSrvSPWallpaperType );
+                self->HandlePropertyChange( EAknsSrvSPWallpaperType );
                 break;
             };
         }
@@ -510,7 +509,7 @@ TInt CAknsSrvSettings::SkinsRepositoryCallBackL(TAny* aPtr)
 // Callback - Themes repository.
 // -----------------------------------------------------------------------------
 //
-TInt CAknsSrvSettings::ThemesRepositoryCallBackL(TAny* aPtr)
+TInt CAknsSrvSettings::ThemesRepositoryCallBack(TAny* aPtr)
     {
     CAknsSrvSettings* self = static_cast<CAknsSrvSettings*>(aPtr);
     if (self)
@@ -518,16 +517,16 @@ TInt CAknsSrvSettings::ThemesRepositoryCallBackL(TAny* aPtr)
         switch( self->iThemesRepositoryWatcher->ChangedKey() )
             {
             case KThemesWallpaperSlideSetInterval:
-                self->HandlePropertyChangeL( EAknsSrvSPSlidesetWPTimeout );
+                self->HandlePropertyChange( EAknsSrvSPSlidesetWPTimeout );
                 break;
             case KThemesWallpaperSlideSetType:
-                self->HandlePropertyChangeL( EAknsSrvSPSlidesetWPType );
+                self->HandlePropertyChange( EAknsSrvSPSlidesetWPType );
                 break;
             case KThemesTransitionEffects:
-                self->HandlePropertyChangeL( EAknsSrvSPTransitionFx );
+                self->HandlePropertyChange( EAknsSrvSPTransitionFx );
                 break;
             case KThemesAnimBackgroundSupport:
-                self->HandlePropertyChangeL( EAknsSrvSPAnimBackground );
+                self->HandlePropertyChange( EAknsSrvSPAnimBackground );
                 break;
             default:
                 break;
@@ -540,7 +539,7 @@ TInt CAknsSrvSettings::ThemesRepositoryCallBackL(TAny* aPtr)
 // Callback - DRM repository.
 // -----------------------------------------------------------------------------
 //
-TInt CAknsSrvSettings::DRMRepositoryCallBackL(TAny* aPtr)
+TInt CAknsSrvSettings::DRMRepositoryCallBack(TAny* aPtr)
     {
     CAknsSrvSettings* self = static_cast<CAknsSrvSettings*>(aPtr);
     if (self)
@@ -548,7 +547,7 @@ TInt CAknsSrvSettings::DRMRepositoryCallBackL(TAny* aPtr)
         if( self->iDRMRepositoryWatcher->ChangedKey() ==
             KDRMHelperServerNotification )
             {
-            self->HandlePropertyChangeL( EAknsSrvSPDRMHelperNotification );
+            self->HandlePropertyChange( EAknsSrvSPDRMHelperNotification );
             }
         }
     return KErrNone;
@@ -572,7 +571,7 @@ void CAknsSrvSettings::HandleBackupOperationEventL(
         {
         AKNS_TRACE_INFO("CAknsSrvSettings::HandleBackupOperationEventL Operation END/ABORT");
         iBackupOperationInProgress = EFalse;
-        iObserver->NotifyBackupOperationEndL();
+        iObserver->NotifyBackupOperationEnd();
         }
     }
 
@@ -596,12 +595,12 @@ void CAknsSrvSettings::InstallAdditionalWatchersL()
         KCRUidAvkon,
         KAknLayoutId,
         CCenRepNotifyHandler::EIntKey,
-        TCallBack(LayoutCallBackL, this),
+        TCallBack(LayoutCallBack, this),
         iAvkonRepository );
 
     iSkinsRepositoryWatcher = CAknsRepositoryWatcher::NewL(
         KCRUidPersonalisation,
-        TCallBack(SkinsRepositoryCallBackL, this),
+        TCallBack(SkinsRepositoryCallBack, this),
         iSkinsRepository );
 
     iDRMRepository = CRepository::NewL(KCRUidDRMHelperServer);
@@ -609,23 +608,21 @@ void CAknsSrvSettings::InstallAdditionalWatchersL()
         KCRUidDRMHelperServer,
         KDRMHelperServerNotification,
         CCenRepNotifyHandler::EStringKey,
-        TCallBack(DRMRepositoryCallBackL, this),
+        TCallBack(DRMRepositoryCallBack, this),
         iDRMRepository );
 
     iThemesRepositoryWatcher = CAknsRepositoryWatcher::NewL(
         KCRUidThemes,
-        TCallBack(ThemesRepositoryCallBackL, this),
+        TCallBack(ThemesRepositoryCallBack, this),
         iThemesRepository);
 
-    User::LeaveIfError(
-        iScreensaverActivationProperty.Attach( KPSUidScreenSaver, KScreenSaverOn ) );
     iScreensaverActivationSubscriber = new (ELeave) CAknsPropertySubscriber(
-        TCallBack(SSCallBackL, this), iScreensaverActivationProperty );
+        TCallBack(SSCallBack, this), iScreensaverActivationProperty );
 
     User::LeaveIfError( iEnableUSBWatchProperty.Attach(
           KPSUidUsbWatcher, KUsbWatcherSelectedPersonality) );
     iUSBWatchSubscriber = new (ELeave) CAknsPropertySubscriber(
-        TCallBack(USBCallBackL, this), iEnableUSBWatchProperty );
+        TCallBack(USBCallBack, this), iEnableUSBWatchProperty );
     iUSBWatchSubscriber->SubscribeL();
     }
 
@@ -743,15 +740,7 @@ void CAknsSrvSettings::StopScreenSaverListen()
 //
 TInt CAknsSrvSettings::ScreensaverState() const
     {
-    TInt retValue = KErrNotFound;
-    if ( iScreensaverActivationSubscriber )
-        {
-        iScreensaverActivationProperty.Get(
-            KPSUidScreenSaver,
-            KScreenSaverOn,
-            retValue );
-        }
-    return retValue;
+    return KErrNotFound;
     }
 
 // -----------------------------------------------------------------------------
@@ -1001,7 +990,7 @@ TAknsPkgID CAknsSrvSettings::DefaultSkinPID()
 // Some PS property has changed.
 // -----------------------------------------------------------------------------
 //
-void CAknsSrvSettings::HandlePropertyChangeL(
+void CAknsSrvSettings::HandlePropertyChange(
     const TAknsSrvSettingsProperty aProperty )
     {
     switch( aProperty )
@@ -1016,7 +1005,7 @@ void CAknsSrvSettings::HandlePropertyChangeL(
                 }
             else
                 {
-                iObserver->NotifyUSBRemovalL();
+                iObserver->NotifyUSBRemoval();
                 }
             }
             break;
@@ -1047,7 +1036,7 @@ void CAknsSrvSettings::HandlePropertyChangeL(
             iObserver->NotifyDRMChange();
             break;
         case EAknsSrvSPWallpaperType:
-            iObserver->NotifyWallpaperTypeChangeL();
+            iObserver->NotifyWallpaperTypeChange();
             break;
         case EAknsSrvSPSlidesetWPTimeout:
             iObserver->NotifySlideSetTimeoutChange();
@@ -1187,24 +1176,6 @@ void CAknsSrvSettings::HandleIdleTime()
         iObserver->NotifyScreenSaverChange();
         }
     iDelayedNotification = EFalse;
-    }
-
-// -----------------------------------------------------------------------------
-// Write Wallpaper Type.
-// -----------------------------------------------------------------------------
-//
-void CAknsSrvSettings::WriteWallpaperType(TInt aType)
-    {
-    iSkinsRepository->Set( KPslnWallpaperType, aType );
-    }
-
-// -----------------------------------------------------------------------------
-// Write Wallpaper Path.
-// -----------------------------------------------------------------------------
-//
-void CAknsSrvSettings::WriteWallpaperPath(const TDesC& aPath)
-    {
-    iSkinsRepository->Set( KPslnIdleBackgroundImagePath, aPath );
     }
 
 // End of File

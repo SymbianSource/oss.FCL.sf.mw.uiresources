@@ -62,7 +62,7 @@ void CAknIconOomMonitorPlugin::MemoryGood()
 	}
 
 
-TAny* CreatePluginL()
+TAny* CreatePlugin()
 	{
 	CAknIconOomMonitorPlugin* plugin = new(ELeave) CAknIconOomMonitorPlugin;
 	CleanupStack::PushL(plugin);
@@ -73,7 +73,7 @@ TAny* CreatePluginL()
 
 const TImplementationProxy ImplementationTable[] =
 	{
-	{{0x10281fe6}, ::CreatePluginL}
+	{{0x10281fe6}, ::CreatePlugin}
 	};
 
 EXPORT_C const TImplementationProxy* ImplementationGroupProxy(TInt& aTableCount)

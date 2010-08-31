@@ -119,6 +119,16 @@ private:
     * Wallpaper cache size
     */
     TInt iCacheSize;
+    
+    /**
+    * Portait wallpaper size
+    */
+    TSize iPrtSize;
+    
+    /**
+    * Landscape wallpaper size
+    */
+    TSize iLscSize;
     };
 
 #endif

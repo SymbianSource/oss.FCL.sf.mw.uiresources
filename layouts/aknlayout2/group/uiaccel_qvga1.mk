@@ -17,4 +17,4 @@
 uid = 0x10285D7C
 
 include configure_qvga1.mk
-include LayoutDllUiAccel.mk
+include layoutDllUiAccel.mk

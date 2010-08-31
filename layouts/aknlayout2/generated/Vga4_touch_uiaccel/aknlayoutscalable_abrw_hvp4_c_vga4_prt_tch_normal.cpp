@@ -1173,9 +1173,9 @@ const TUint16 KDataLookup[AknLayoutScalable_UiAccel::E_TApiId_TableSize] =
 
 0x0f72,	// (0x00000f72) aaslider_bg_pane_g2_copy1
 
-0x1ec6,	// (0x00001ec6) aaslider_pane_ParamLimits
+0x1eaa,	// (0x00001eaa) aaslider_pane_ParamLimits
 
-0x1ec6,	// (0x00001ec6) aaslider_pane
+0x1eaa,	// (0x00001eaa) aaslider_pane
 
 0x0fa1,	// (0x00000fa1) aaslider_bg_pane_cp001_ParamLimits
 

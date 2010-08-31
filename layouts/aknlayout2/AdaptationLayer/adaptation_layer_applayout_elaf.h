@@ -22,8 +22,8 @@
 
 #ifndef ADAPTATION_LAYER_APPLAYOUT_ELAF_H
 #define ADAPTATION_LAYER_APPLAYOUT_ELAF_H
-#include "applayout.cdl.custom.h"
-#include "adaptation_layer_applayout_elaf.hrh"
+#include "AppLayout.cdl.custom.h"
+#include "Adaptation_Layer_AppLayout_Elaf.hrh"
 
 namespace Adaptation_Layer_AppLayout_Elaf
 {

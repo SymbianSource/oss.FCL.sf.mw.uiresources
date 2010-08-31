@@ -8,7 +8,7 @@ UID: 0x101feb1b
 %% C++
 
 #include <aknlayoutdef.h>
-#include <AknDef.hrh>
+#include <akndef.hrh>
 
 %% API
 

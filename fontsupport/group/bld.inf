@@ -15,6 +15,7 @@
 *
 */
 
-
+#ifndef FF_PRODUCT_FONTS
 #include "../fontprovider/Group/bld.inf"
+#endif
 #include "../fontutils/group/bld.inf"

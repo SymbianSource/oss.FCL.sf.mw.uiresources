@@ -48,9 +48,9 @@ source           layoutmetadata_touchpane.cpp
 
 library          euser.lib
 library          aknlayout2.lib
-library          AknLayout2Scalable.lib
-library          AknLayout2Adaptation.lib
-library          CdlEngine.lib
+library          aknlayout2scalable.lib
+library          aknlayout2adaptation.lib
+library          cdlengine.lib
 
 START RESOURCE	 101fe2aa.rss
 TARGET       101fe2aa.rsc

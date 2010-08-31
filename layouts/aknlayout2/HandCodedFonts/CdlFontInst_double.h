@@ -21,8 +21,8 @@
 
 #ifndef CDLFONTINST_DOUBLE_H
 #define CDLFONTINST_DOUBLE_H
-#include "cdlfont.cdl.custom.h"
-#include "cdlfontinst_double.hrh"
+#include "CdlFont.cdl.custom.h"
+#include "CdlFontInst_double.hrh"
 
 namespace CdlFontInst_double
 {

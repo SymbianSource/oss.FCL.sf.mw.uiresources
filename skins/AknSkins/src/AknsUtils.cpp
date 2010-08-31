@@ -902,39 +902,4 @@ EXPORT_C TInt AknsUtils::Reserved()
     return 0;
     }
 
-// -----------------------------------------------------------------------------
-// AknsUtils::SetAnimationBackgroundDisabledL
-// -----------------------------------------------------------------------------
-//
-AKNS_EXPORTED_METHOD(AknsUtils::SetAnimationBackgroundDisabledL)
-EXPORT_C void AknsUtils::SetAnimationBackgroundDisabledL( TBool aDisabled )
-    {
-    
-    CAknsAppSkinInstance* skin = static_cast<CAknsAppSkinInstance*> 
-                ( CCoeEnv::Static( KAknsSkinInstanceTls ) );
-    if( skin )
-        {
-        skin->SetAnimationBackgroundDisabledL( aDisabled);
-        }
-    }
-
-
-// -----------------------------------------------------------------------------
-// AknsUtils::AnimationBackgroundDisabled
-// -----------------------------------------------------------------------------
-//
-AKNS_EXPORTED_METHOD(AknsUtils::AnimationBackgroundDisabled)
-EXPORT_C TBool AknsUtils::AnimationBackgroundDisabled()
-    {
-    CAknsAppSkinInstance* skin = static_cast<CAknsAppSkinInstance*> 
-            ( CCoeEnv::Static( KAknsSkinInstanceTls ) );
-    if (skin)
-        {
-        return skin->AnimationBackgroundDisabled();
-        }
-    
-    // animation background is ON by default.
-    return EFalse;
-    }
-
 //  End of File

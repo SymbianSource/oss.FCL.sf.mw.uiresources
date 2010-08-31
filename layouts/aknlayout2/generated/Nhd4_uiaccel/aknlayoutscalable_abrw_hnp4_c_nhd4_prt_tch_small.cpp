@@ -813,63 +813,63 @@ const TUint16 KDataLookup[AknLayoutScalable_UiAccel::E_TApiId_TableSize] =
 
 0x080a,	// (0x0000080a) aalist_single_pane
 
-0x1b91,	// (0x00001b91) aalist_single_pane_g1_ParamLimits
+0x1b88,	// (0x00001b88) aalist_single_pane_g1_ParamLimits
 
-0x1b91,	// (0x00001b91) aalist_single_pane_g1
+0x1b88,	// (0x00001b88) aalist_single_pane_g1
 
-0x1b9d,	// (0x00001b9d) aalist_single_pane_g2_ParamLimits
+0x1b94,	// (0x00001b94) aalist_single_pane_g2_ParamLimits
 
-0x1b9d,	// (0x00001b9d) aalist_single_pane_g2
+0x1b94,	// (0x00001b94) aalist_single_pane_g2
 
 0x0004,
 
-0x1eaa,	// (0x00001eaa) aalist_single_pane_g_ParamLimits
+0x1ea1,	// (0x00001ea1) aalist_single_pane_g_ParamLimits
 
-0x1eaa,	// (0x00001eaa) aalist_single_pane_g
+0x1ea1,	// (0x00001ea1) aalist_single_pane_g
 
-0x1bb5,	// (0x00001bb5) aalist_single_pane_t1_ParamLimits
+0x1bac,	// (0x00001bac) aalist_single_pane_t1_ParamLimits
 
-0x1bb5,	// (0x00001bb5) aalist_single_pane_t1
+0x1bac,	// (0x00001bac) aalist_single_pane_t1
 
-0x1bd3,	// (0x00001bd3) aalist_double_pane_g1_ParamLimits
+0x1bca,	// (0x00001bca) aalist_double_pane_g1_ParamLimits
 
-0x1bd3,	// (0x00001bd3) aalist_double_pane_g1
+0x1bca,	// (0x00001bca) aalist_double_pane_g1
 
-0x1bdf,	// (0x00001bdf) aalist_double_pane_g2_ParamLimits
+0x1bd6,	// (0x00001bd6) aalist_double_pane_g2_ParamLimits
 
-0x1bdf,	// (0x00001bdf) aalist_double_pane_g2
-
-0x0001,
-
-0x1eb5,	// (0x00001eb5) aalist_double_pane_g_ParamLimits
-
-0x1eb5,	// (0x00001eb5) aalist_double_pane_g
-
-0x1bf3,	// (0x00001bf3) aalist_double_pane_t1_ParamLimits
-
-0x1bf3,	// (0x00001bf3) aalist_double_pane_t1
-
-0x1c09,	// (0x00001c09) aalist_double_pane_t2_ParamLimits
-
-0x1c09,	// (0x00001c09) aalist_double_pane_t2
+0x1bd6,	// (0x00001bd6) aalist_double_pane_g2
 
 0x0001,
 
-0x1eba,	// (0x00001eba) aalist_double_pane_t_ParamLimits
+0x1eac,	// (0x00001eac) aalist_double_pane_g_ParamLimits
 
-0x1eba,	// (0x00001eba) aalist_double_pane_t
+0x1eac,	// (0x00001eac) aalist_double_pane_g
+
+0x1bea,	// (0x00001bea) aalist_double_pane_t1_ParamLimits
+
+0x1bea,	// (0x00001bea) aalist_double_pane_t1
+
+0x1c00,	// (0x00001c00) aalist_double_pane_t2_ParamLimits
+
+0x1c00,	// (0x00001c00) aalist_double_pane_t2
+
+0x0001,
+
+0x1eb1,	// (0x00001eb1) aalist_double_pane_t_ParamLimits
+
+0x1eb1,	// (0x00001eb1) aalist_double_pane_t
 
 0x08ef,	// (0x000008ef) aalist_double_graphic_pane_g1_ParamLimits
 
 0x08ef,	// (0x000008ef) aalist_double_graphic_pane_g1
 
-0x1c1b,	// (0x00001c1b) aalist_double_graphic_pane_g2_ParamLimits
+0x1c12,	// (0x00001c12) aalist_double_graphic_pane_g2_ParamLimits
 
-0x1c1b,	// (0x00001c1b) aalist_double_graphic_pane_g2
+0x1c12,	// (0x00001c12) aalist_double_graphic_pane_g2
 
-0x1c3b,	// (0x00001c3b) aalist_double_graphic_pane_g3_ParamLimits
+0x1c32,	// (0x00001c32) aalist_double_graphic_pane_g3_ParamLimits
 
-0x1c3b,	// (0x00001c3b) aalist_double_graphic_pane_g3
+0x1c32,	// (0x00001c32) aalist_double_graphic_pane_g3
 
 0x0940,	// (0x00000940) aalist_double_graphic_pane_g4_ParamLimits
 
@@ -905,29 +905,29 @@ const TUint16 KDataLookup[AknLayoutScalable_UiAccel::E_TApiId_TableSize] =
 
 0x000a,
 
-0x1ebf,	// (0x00001ebf) aalist_double_graphic_pane_g_ParamLimits
+0x1eb6,	// (0x00001eb6) aalist_double_graphic_pane_g_ParamLimits
 
-0x1ebf,	// (0x00001ebf) aalist_double_graphic_pane_g
+0x1eb6,	// (0x00001eb6) aalist_double_graphic_pane_g
 
-0x1c57,	// (0x00001c57) aalist_double_graphic_pane_t1_ParamLimits
+0x1c4e,	// (0x00001c4e) aalist_double_graphic_pane_t1_ParamLimits
 
-0x1c57,	// (0x00001c57) aalist_double_graphic_pane_t1
+0x1c4e,	// (0x00001c4e) aalist_double_graphic_pane_t1
 
-0x1c71,	// (0x00001c71) aalist_double_graphic_pane_t2_ParamLimits
+0x1c68,	// (0x00001c68) aalist_double_graphic_pane_t2_ParamLimits
 
-0x1c71,	// (0x00001c71) aalist_double_graphic_pane_t2
+0x1c68,	// (0x00001c68) aalist_double_graphic_pane_t2
 
 0x0001,
 
-0x1ed6,	// (0x00001ed6) aalist_double_graphic_pane_t_ParamLimits
+0x1ecd,	// (0x00001ecd) aalist_double_graphic_pane_t_ParamLimits
 
-0x1ed6,	// (0x00001ed6) aalist_double_graphic_pane_t
+0x1ecd,	// (0x00001ecd) aalist_double_graphic_pane_t
 
-0x1cb1,	// (0x00001cb1) aalist_double_entry_pane_t1
+0x1ca8,	// (0x00001ca8) aalist_double_entry_pane_t1
 
-0x1cbf,	// (0x00001cbf) aalist_entry_pane
+0x1cb6,	// (0x00001cb6) aalist_entry_pane
 
-0x1cc7,	// (0x00001cc7) aalist_entry_pane_t1
+0x1cbe,	// (0x00001cbe) aalist_entry_pane_t1
 
 0x000c,	// (0x0000000c) input_focus_pane_cp001
 
@@ -935,41 +935,41 @@ const TUint16 KDataLookup[AknLayoutScalable_UiAccel::E_TApiId_TableSize] =
 
 0x0ac2,	// (0x00000ac2) aalist_double_progress_pane_g1
 
-0x1cd5,	// (0x00001cd5) aalist_double_progress_pane_g2_ParamLimits
+0x1ccc,	// (0x00001ccc) aalist_double_progress_pane_g2_ParamLimits
 
-0x1cd5,	// (0x00001cd5) aalist_double_progress_pane_g2
+0x1ccc,	// (0x00001ccc) aalist_double_progress_pane_g2
 
-0x1d05,	// (0x00001d05) aalist_double_progress_pane_g3_ParamLimits
+0x1cfc,	// (0x00001cfc) aalist_double_progress_pane_g3_ParamLimits
 
-0x1d05,	// (0x00001d05) aalist_double_progress_pane_g3
-
-0x0002,
-
-0x1edb,	// (0x00001edb) aalist_double_progress_pane_g_ParamLimits
-
-0x1edb,	// (0x00001edb) aalist_double_progress_pane_g
-
-0x1d35,	// (0x00001d35) aalist_double_progress_pane_t1_ParamLimits
-
-0x1d35,	// (0x00001d35) aalist_double_progress_pane_t1
-
-0x1d59,	// (0x00001d59) aalist_double_progress_pane_t2_ParamLimits
-
-0x1d59,	// (0x00001d59) aalist_double_progress_pane_t2
-
-0x1d6b,	// (0x00001d6b) aalist_double_progress_pane_t3_ParamLimits
-
-0x1d6b,	// (0x00001d6b) aalist_double_progress_pane_t3
+0x1cfc,	// (0x00001cfc) aalist_double_progress_pane_g3
 
 0x0002,
 
-0x1ee2,	// (0x00001ee2) aalist_double_progress_pane_t_ParamLimits
+0x1ed2,	// (0x00001ed2) aalist_double_progress_pane_g_ParamLimits
 
-0x1ee2,	// (0x00001ee2) aalist_double_progress_pane_t
+0x1ed2,	// (0x00001ed2) aalist_double_progress_pane_g
 
-0x1d7d,	// (0x00001d7d) aalist_progress_pane_ParamLimits
+0x1d2c,	// (0x00001d2c) aalist_double_progress_pane_t1_ParamLimits
 
-0x1d7d,	// (0x00001d7d) aalist_progress_pane
+0x1d2c,	// (0x00001d2c) aalist_double_progress_pane_t1
+
+0x1d50,	// (0x00001d50) aalist_double_progress_pane_t2_ParamLimits
+
+0x1d50,	// (0x00001d50) aalist_double_progress_pane_t2
+
+0x1d62,	// (0x00001d62) aalist_double_progress_pane_t3_ParamLimits
+
+0x1d62,	// (0x00001d62) aalist_double_progress_pane_t3
+
+0x0002,
+
+0x1ed9,	// (0x00001ed9) aalist_double_progress_pane_t_ParamLimits
+
+0x1ed9,	// (0x00001ed9) aalist_double_progress_pane_t
+
+0x1d74,	// (0x00001d74) aalist_progress_pane_ParamLimits
+
+0x1d74,	// (0x00001d74) aalist_progress_pane
 
 0x0bbe,	// (0x00000bbe) aalist_progress_pane_g1
 
@@ -1173,9 +1173,9 @@ const TUint16 KDataLookup[AknLayoutScalable_UiAccel::E_TApiId_TableSize] =
 
 0x0f90,	// (0x00000f90) aaslider_bg_pane_g2_copy1
 
-0x1b48,	// (0x00001b48) aaslider_pane_ParamLimits
+0x1b3f,	// (0x00001b3f) aaslider_pane_ParamLimits
 
-0x1b48,	// (0x00001b48) aaslider_pane
+0x1b3f,	// (0x00001b3f) aaslider_pane
 
 0x0fbf,	// (0x00000fbf) aaslider_bg_pane_cp001_ParamLimits
 
@@ -1247,37 +1247,37 @@ const TUint16 KDataLookup[AknLayoutScalable_UiAccel::E_TApiId_TableSize] =
 
 0x112a,	// (0x0000112a) aalist_list_sub_pane_g3
 
-0x1da5,	// (0x00001da5) aalist_list_sub_pane_g4_ParamLimits
+0x1d9c,	// (0x00001d9c) aalist_list_sub_pane_g4_ParamLimits
 
-0x1da5,	// (0x00001da5) aalist_list_sub_pane_g4
+0x1d9c,	// (0x00001d9c) aalist_list_sub_pane_g4
 
-0x1db1,	// (0x00001db1) aalist_list_sub_pane_g5_ParamLimits
+0x1da8,	// (0x00001da8) aalist_list_sub_pane_g5_ParamLimits
 
-0x1db1,	// (0x00001db1) aalist_list_sub_pane_g5
+0x1da8,	// (0x00001da8) aalist_list_sub_pane_g5
 
-0x1de1,	// (0x00001de1) aalist_list_sub_pane_g7_ParamLimits
+0x1dd8,	// (0x00001dd8) aalist_list_sub_pane_g7_ParamLimits
 
-0x1de1,	// (0x00001de1) aalist_list_sub_pane_g7
+0x1dd8,	// (0x00001dd8) aalist_list_sub_pane_g7
 
 0x0005,
 
-0x1ee9,	// (0x00001ee9) aalist_list_sub_pane_g_ParamLimits
+0x1ee0,	// (0x00001ee0) aalist_list_sub_pane_g_ParamLimits
 
-0x1ee9,	// (0x00001ee9) aalist_list_sub_pane_g
+0x1ee0,	// (0x00001ee0) aalist_list_sub_pane_g
 
-0x1e19,	// (0x00001e19) aalist_list_sub_pane_t1_ParamLimits
+0x1e10,	// (0x00001e10) aalist_list_sub_pane_t1_ParamLimits
 
-0x1e19,	// (0x00001e19) aalist_list_sub_pane_t1
+0x1e10,	// (0x00001e10) aalist_list_sub_pane_t1
 
-0x1e2e,	// (0x00001e2e) aalist_list_sub_pane_t2_ParamLimits
+0x1e25,	// (0x00001e25) aalist_list_sub_pane_t2_ParamLimits
 
-0x1e2e,	// (0x00001e2e) aalist_list_sub_pane_t2
+0x1e25,	// (0x00001e25) aalist_list_sub_pane_t2
 
 0x0001,
 
-0x1ef6,	// (0x00001ef6) aalist_list_sub_pane_t_ParamLimits
+0x1eed,	// (0x00001eed) aalist_list_sub_pane_t_ParamLimits
 
-0x1ef6,	// (0x00001ef6) aalist_list_sub_pane_t
+0x1eed,	// (0x00001eed) aalist_list_sub_pane_t
 
 0x00a5,	// (0x000000a5) main_aa_coverflow_pane_ParamLimits
 

@@ -21,8 +21,8 @@
 
 #ifndef CDLFONTINST_LEGACY_HRH
 #define CDLFONTINST_LEGACY_HRH
-#include "cdlfont.cdl.common.hrh"
-#include "dllinstances.hrh"
+#include "CdlFont.cdl.common.hrh"
+#include "DllInstances.hrh"
 
 #define _CDL_CdlFontInst_legacy_KCdlInstanceInterfaceUidValue _CDL_CDL_Font_KCdlInterfaceUidValue
 #define _CDL_CdlFontInst_legacy_KCdlInstanceId KDllInst_CdlFontInst_legacy

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns="http://www.s60.com/xml/confml/2" xmlns:xi="http://www.w3.org/2001/XInclude" name="languages">
+  <feature ref="SystemLanguages" name="System Languages">
+    <setting ref="Language" mapKey="LanguageName" mapValue="LanguageName" name="Language" type="sequence">
+      <setting ref="LanguageName" name="Language Name" type="string"/>
+      <setting ref="LanguageCode" name="Language Code" type="int"/>
+    </setting>
+    <setting ref="Region" mapKey="RegionName" mapValue="RegionName" name="Region" type="sequence">
+      <setting ref="RegionName" name="Region Name" type="string"/>
+      <setting ref="RegionCode" name="Region Code" type="int"/>
+    </setting>
+    <setting ref="Collation" mapKey="CollationName" mapValue="CollationName" name="Collation" type="sequence">
+      <setting ref="CollationName" name="Collation Name" type="string"/>
+      <setting ref="CollationCode" name="Collation Code" type="int"/>
+    </setting>
+    <setting ref="VariantSelection" name="Variant selection" type="sequence">
+      <desc>When the default language / region is changed in the phone UI it will select a certain 
+      the language, region and collation.</desc>
+      <setting ref="SelectedLanguage" name="Selected Language" type="selection">
+        <desc>The input language/region which is selected by user</desc>
+        <option map="SystemLanguages/Language"/>
+      </setting>
+      <setting ref="Language" name="Language" type="selection">
+        <option map="SystemLanguages/Language"/>
+      </setting>
+      <setting ref="Region" name="Region" type="selection">
+        <option map="SystemLanguages/Region"/>
+      </setting>
+      <setting ref="Collation" name="Collation" type="selection">
+        <option map="SystemLanguages/Collation"/>
+      </setting>
+    </setting>
+  </feature>
+</configuration>
