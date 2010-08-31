@@ -11,7 +11,7 @@
 *
 * Contributors:
 *
-* Description:   elocl_reg.682 for Saudi Arabia region
+* Description:   elocl_reg.784 for United Arab Emirates
 *
 */
 
@@ -49,7 +49,7 @@ const TClockFormat RegionAspect::ClockFormat = EClockAnalog;
 const TUnitsFormat RegionAspect::UnitsGeneral = EUnitsMetric;
 const TUnitsFormat RegionAspect::UnitsDistanceShort = EUnitsMetric;
 const TUnitsFormat RegionAspect::UnitsDistanceLong = EUnitsMetric;
-const TUint16 RegionAspect::RegionCode = 682;
+const TUint16 RegionAspect::RegionCode = 784;
 const TUint RegionAspect::ExtraNegativeCurrencyFormatFlags = 0;
 
 //  End of File

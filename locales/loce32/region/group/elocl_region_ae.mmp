@@ -17,7 +17,7 @@
 
 
 
-TARGET			elocl_reg.682
+TARGET			elocl_reg.784
 TARGETTYPE		dll
 
 CAPABILITY		All
@@ -25,7 +25,7 @@ VENDORID        VID_DEFAULT
 
 SOURCEPATH      ../src
 SOURCE		region.cpp
-SOURCE		region_sa.cpp
+SOURCE		region_ae.cpp
 
 // This is a SYSTEMINCLUDE macro containing the middleware
 // layer specific include directories

@@ -79,6 +79,7 @@ language/group/elocl_language_vi.mmp
 language/group/elocl_language_eu.mmp
 language/group/elocl_language_gl.mmp
 
+region/group/elocl_region_ae.mmp		//United Arab Emirates
 region/group/elocl_region_bg.mmp		//Bulgaria
 region/group/elocl_region_br.mmp		//Brazil
 region/group/elocl_region_ca.mmp		//Canada
@@ -116,7 +117,6 @@ region/group/elocl_region_pt.mmp		//Portugal
 region/group/elocl_region_ro.mmp		//Romania
 region/group/elocl_region_rs.mmp		//Serbia
 region/group/elocl_region_ru.mmp		//Russia
-region/group/elocl_region_sa.mmp		//Saudi Arabia
 region/group/elocl_region_se.mmp		//Sweden
 region/group/elocl_region_si.mmp		//Slovenia
 region/group/elocl_region_sk.mmp		//Slovakia
