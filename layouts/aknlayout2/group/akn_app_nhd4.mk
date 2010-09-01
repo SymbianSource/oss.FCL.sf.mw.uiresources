@@ -17,4 +17,4 @@
 uid = 0x2001CB93
 
 include configure_nhd4.mk
-include layoutDllCommon.mk
+include LayoutDllCommon.mk

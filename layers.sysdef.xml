@@ -7,6 +7,9 @@
   <systemModel>
     <layer name="mw_layer">
       <module name="uiresources">
+        <unit unitID="abs.fontsupport" mrp="" bldFile="&layer_real_source_path;/fontsupport/group" filter="!dfs_build" name="fontsupport" />
+        <unit unitID="abs.fontutils" mrp="" bldFile="&layer_real_source_path;/fontsupport/fontutils/group" filter="dfs_build" name="fontutils" />
+        <unit unitID="abs.NokiaFontprovider" mrp="" bldFile="&layer_real_source_path;/fontsupport/NokiaFontprovider/group" filter="dfs_build" name="NokiaFontprovider" />
         <unit unitID="abs.uiresources" mrp="" bldFile="&layer_real_source_path;/group" name="uiresources" />
         <unit unitID="abs.OemNokia" mrp="" bldFile="&layer_real_source_path;/uigraphics/Icons/data/OemNokia/group" filter="dfs_build" name="OemNokia" />
       </module>

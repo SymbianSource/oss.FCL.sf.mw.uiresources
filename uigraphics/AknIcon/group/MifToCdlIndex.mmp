@@ -37,12 +37,11 @@ USERINCLUDE  ../MifToCdlIndex ../inc
 SYSTEMINCLUDE ../MifToCdlIndex ../inc
 MW_LAYER_SYSTEMINCLUDE
 
-STATICLIBRARY CdlCompilerToolkit.lib
-//START TOOLS
-//  #if defined(CW32)
-//    win32_library /epoc32/release/cwtools/rel/CdlCompilerToolkit.lib
-//  #elif defined(VC32)
-//    win32_library /epoc32/release/tools/rel/CdlCompilerToolkit.lib
-//  #endif
-//END
+START TOOLS
+  #if defined(CW32)
+    win32_library /epoc32/release/cwtools/rel/CdlCompilerToolkit.lib
+  #elif defined(VC32)
+    win32_library /epoc32/release/tools/rel/CdlCompilerToolkit.lib
+  #endif
+END
 

@@ -22,7 +22,7 @@
 #define AKNLAYOUTSCALABLE_APPS_CDL_COMMON_H
 
 
-#include <aknlayout2scalabledef.h>
+#include <AknLayout2ScalableDef.h>
 
 
 namespace AknLayoutScalable_Apps

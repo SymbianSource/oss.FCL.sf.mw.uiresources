@@ -58,7 +58,8 @@
 //
 CAknsAppSkinInstance::CAknsAppSkinInstance() :
     CCoeStatic( KAknsSkinInstanceTls, EThread ), iChangeEventsEnabled( ETrue ),
-    iChangeEventPending( EFalse ), iAppConfigurationCenrepNotUsed( EFalse )
+    iChangeEventPending( EFalse ), iAppConfigurationCenrepNotUsed( EFalse ),
+    iAnimationBackgroundDisabled( EFalse ), iAppUid( TUid::Null() )
     // CBase initializes: iChunkLookup(0), iRenderer(0), iMasterLayout(0),
     //                    iVariantHlAnimStatus(0)
     {
@@ -507,7 +508,27 @@ void CAknsAppSkinInstance::SkinConfigurationChanged(
         iLayoutBmpArray.ResetAndDestroy();
         iUpdateInProgress = EFalse;
         iLastChangeReason = EWallpaperChange;
-        //NotifyItemDefChange(EFalse);
+
+        // Get App Uid if have not done
+        if ( iAppUid.iUid == NULL )
+            {
+            CEikAppUi* appui = CEikonEnv::Static()->EikAppUi();
+            if ( appui )
+                {
+                CEikApplication* app = appui->Application();
+                if ( app )
+                    {
+                    iAppUid = app->AppDllUid();
+                    }
+                }
+            }
+        
+        // Send wallpaper changed event only to Phone App
+        const TUid KPhoneAppUid = {0x100058B3};
+        if ( iAppUid == KPhoneAppUid )
+            {
+            NotifyItemDefChange( EFalse );
+            }
         }
     else if ( aReason == EAknsSkinStatusAnimBackgroundChanged )
         {
@@ -758,6 +779,7 @@ CAknsAppSkinInstanceCacheEntry* CAknsAppSkinInstance::LookupCreateAndCacheL(
             {
             // Do not create an entry for typed miss, otherwise we might hide
             // a real item
+            delete itemData;
             return NULL;
             }
         }
@@ -1317,6 +1339,24 @@ TBool CAknsAppSkinInstance::IsIconConfiguredL( TUid aAppUid )
         return ETrue;
         }
     return EFalse;
+    }
+
+// -----------------------------------------------------------------------------
+// CAknsAppSkinInstance::SetAnimationBackgroundDisabledL
+// -----------------------------------------------------------------------------
+//
+void CAknsAppSkinInstance::SetAnimationBackgroundDisabledL( TBool aDisabled )
+    {
+    iAnimationBackgroundDisabled = aDisabled;
+    }
+
+// -----------------------------------------------------------------------------
+// CAknsAppSkinInstance::AnimationBackgroundDisabled
+// -----------------------------------------------------------------------------
+//   
+TBool CAknsAppSkinInstance::AnimationBackgroundDisabled() const
+    {
+    return iAnimationBackgroundDisabled;
     }
 
 //  End of File

@@ -23,7 +23,7 @@
 #include <coecntrl.h>
 #include <eiklbo.h>
 #include <eiktxlbx.h>
-#include <CdlEngine.h>
+#include <cdlengine.h>
 #include <cdlrefs.h>
 
 // FORWARD DECLARATIONS

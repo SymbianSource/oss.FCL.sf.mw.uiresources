@@ -44,7 +44,7 @@ void CSDCMBMOutput::Output( CSDCData* aData, const char* aBaseName, const char* 
 
     if( aData->IsScalable() )
         {
-        fprintf( file, "-E\n" );
+        fprintf( file, "/E\n" );
         }
     else
         {
@@ -63,16 +63,16 @@ void CSDCMBMOutput::Output( CSDCData* aData, const char* aBaseName, const char* 
             {
             switch( entry->iColorDepth )
                 {
-                case ESDCColorDepth1:   fprintf( file, "-1"   ); break;
-                case ESDCColorDepth2:   fprintf( file, "-2"   ); break;
-                case ESDCColorDepth4:   fprintf( file, "-4"   ); break;
-                case ESDCColorDepth8:   fprintf( file, "-8"   ); break;
-                case ESDCColorDepthC4:  fprintf( file, "-c4"  ); break;
-                case ESDCColorDepthC8:  fprintf( file, "-c8"  ); break;
-                case ESDCColorDepthC12: fprintf( file, "-c12" ); break;
-                case ESDCColorDepthC16: fprintf( file, "-c16" ); break;
-                case ESDCColorDepthC24: fprintf( file, "-c24" ); break;
-                case ESDCColorDepthC32: fprintf( file, "-c32" ); break;
+                case ESDCColorDepth1: fprintf( file, "/1" ); break;
+                case ESDCColorDepth2: fprintf( file, "/2" ); break;
+                case ESDCColorDepth4: fprintf( file, "/4" ); break;
+                case ESDCColorDepth8: fprintf( file, "/8" ); break;
+                case ESDCColorDepthC4: fprintf( file, "/c4" ); break;
+                case ESDCColorDepthC8: fprintf( file, "/c8" ); break;
+                case ESDCColorDepthC12: fprintf( file, "/c12" ); break;
+                case ESDCColorDepthC16: fprintf( file, "/c16" ); break;
+                case ESDCColorDepthC24: fprintf( file, "/c24" ); break;
+                case ESDCColorDepthC32: fprintf( file, "/c32" ); break;
                 default:
                     throw CSDCException( ESDCUnknownError, "Unknown color depth value used internally" );
                 }
@@ -89,7 +89,7 @@ void CSDCMBMOutput::Output( CSDCData* aData, const char* aBaseName, const char* 
             fprintf( file, " " );
             if ( entry->iSvgAnim )
                 {
-                fprintf( file, "-A " );
+                 fprintf( file, "/A " );
                 }
             char pathBuf[512];
             gInput.ConvertToAscii( pathBuf, entry->iSourcePath );
@@ -101,16 +101,16 @@ void CSDCMBMOutput::Output( CSDCData* aData, const char* aBaseName, const char* 
             {
             switch( entry->iColorDepth )
                 {
-                case ESDCColorDepth1:   fprintf( file, "-1"   ); break;
-                case ESDCColorDepth2:   fprintf( file, "-2"   ); break;
-                case ESDCColorDepth4:   fprintf( file, "-4"   ); break;
-                case ESDCColorDepth8:   fprintf( file, "-8"   ); break;
-                case ESDCColorDepthC4:  fprintf( file, "-c4"  ); break;
-                case ESDCColorDepthC8:  fprintf( file, "-c8"  ); break;
-                case ESDCColorDepthC12: fprintf( file, "-c12" ); break;
-                case ESDCColorDepthC16: fprintf( file, "-c16" ); break;
-                case ESDCColorDepthC24: fprintf( file, "-c24" ); break;
-                case ESDCColorDepthC32: fprintf( file, "-c32" ); break;
+                case ESDCColorDepth1: fprintf( file, "/1" ); break;
+                case ESDCColorDepth2: fprintf( file, "/2" ); break;
+                case ESDCColorDepth4: fprintf( file, "/4" ); break;
+                case ESDCColorDepth8: fprintf( file, "/8" ); break;
+                case ESDCColorDepthC4: fprintf( file, "/c4" ); break;
+                case ESDCColorDepthC8: fprintf( file, "/c8" ); break;
+                case ESDCColorDepthC12: fprintf( file, "/c12" ); break;
+                case ESDCColorDepthC16: fprintf( file, "/c16" ); break;
+                case ESDCColorDepthC24: fprintf( file, "/c24" ); break;
+                case ESDCColorDepthC32: fprintf( file, "/c32" ); break;
                 default:
                     throw CSDCException( ESDCUnknownError, "Unknown color depth value used internally" );
                 }
@@ -123,10 +123,10 @@ void CSDCMBMOutput::Output( CSDCData* aData, const char* aBaseName, const char* 
             switch( entry->iMaskColorDepth )
                 {
                 case ESDCColorDepthNone: continue;
-                case ESDCColorDepth1: fprintf( file, "-1" ); break;
-                case ESDCColorDepth2: fprintf( file, "-2" ); break;
-                case ESDCColorDepth4: fprintf( file, "-4" ); break;
-                case ESDCColorDepth8: fprintf( file, "-8" ); break;
+                case ESDCColorDepth1: fprintf( file, "/1" ); break;
+                case ESDCColorDepth2: fprintf( file, "/2" ); break;
+                case ESDCColorDepth4: fprintf( file, "/4" ); break;
+                case ESDCColorDepth8: fprintf( file, "/8" ); break;
                 default:
                     throw CSDCException( ESDCUnknownError, "Unknown color depth value used internally" );
                 }

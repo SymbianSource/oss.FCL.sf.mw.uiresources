@@ -77,8 +77,8 @@ source           apac_nhd4_land_small_pack.cpp
 source           apac_nhd4_land_large_pack.cpp
 
 library          euser.lib
-library          aknlayout2scalable.lib
-library          cdlengine.lib
+library          AknLayout2Scalable.lib
+library          CdlEngine.lib
 
 START RESOURCE	 2001cb93.rss
 TARGET       2001cb93.rsc

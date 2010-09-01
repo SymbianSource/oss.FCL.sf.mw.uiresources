@@ -25,8 +25,8 @@
 #include <CdlCompilerToolkit/CdlTkProcess.h>
 #include <sstream>
 
-DllCreator::DllCreator( const std::string& aFileName )
-:	iInterface(*CCdlTkCdlFileParser(aFileName).LoadAndParse(true)),
+DllCreator::DllCreator()
+:	iInterface(*CCdlTkCdlFileParser("\\epoc32\\include\\platform\\mw\\MifHeader.cdl").LoadAndParse(true)),
 	iInstance(iInterface)
 	{
 	iInstance.TemplateAllImplementations();

@@ -59,15 +59,15 @@ SOURCE          testsdkpictographcontrol.cpp
 SOURCE          akniconutilsext.cpp
 
 LIBRARY         euser.lib
-LIBRARY         stiftestinterface.lib
+LIBRARY         StifTestInterface.lib
 LIBRARY         stiftestengine.lib
 LIBRARY         cone.lib
 LIBRARY         aknpictograph.lib
 LIBRARY         aknicon.lib
 LIBRARY         eikcore.lib
 LIBRARY         efsrv.lib
-LIBRARY         aknskins.lib 
-LIBRARY         aknskinsrv.lib 
+LIBRARY         aknskins.lib
+LIBRARY         aknskinsrv.lib
 LIBRARY         aknswallpaperutils.lib
 LIBRARY         fbscli.lib
 LIBRARY     	featmgr.lib

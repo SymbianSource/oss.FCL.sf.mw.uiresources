@@ -40,8 +40,8 @@ sourcepath	..
 
 source src/aknlayout2hierarchy.cpp
 
-library EUSER.LIB
-library CdlEngine.LIB
+library euser.lib
+library CdlEngine.lib
 library AknLayout2Scalable.lib
 
 START WINS

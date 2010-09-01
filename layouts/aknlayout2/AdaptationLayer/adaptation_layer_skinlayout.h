@@ -22,8 +22,8 @@
 
 #ifndef ADAPTATION_LAYER_SKINLAYOUT_H
 #define ADAPTATION_LAYER_SKINLAYOUT_H
-#include "SkinLayout.cdl.custom.h"
-#include "Adaptation_Layer_SkinLayout.hrh"
+#include "skinlayout.cdl.custom.h"
+#include "adaptation_layer_skinlayout.hrh"
 
 namespace Adaptation_Layer_SkinLayout
 {

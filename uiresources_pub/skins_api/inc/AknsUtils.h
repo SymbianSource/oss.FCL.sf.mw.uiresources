@@ -902,6 +902,27 @@ class AknsUtils
         *         otherwise. The default value is ETrue.
         */
         IMPORT_C static TBool AvkonHighlightAnimationEnabled();
+        
+        /**
+         * Sets the flag indicating whether animation background should be used
+         * in the scope of the current AppUi.
+         * 
+         * @since 5.2
+         * 
+         * @param Value of the flag as TBool.
+         */
+        IMPORT_C static void SetAnimationBackgroundDisabledL( TBool aDisabled );
+        
+        /**
+         * Queries whether animation background should be used for newly created
+         * current AppUi.
+         *
+         * @since 5.2
+         *
+         * @return ETrue if animation background is disabled, EFalse
+         *         otherwise. The default value is EFalse.
+         */        
+        IMPORT_C static TBool AnimationBackgroundDisabled();
 
     public: // New functions - Control position list
 

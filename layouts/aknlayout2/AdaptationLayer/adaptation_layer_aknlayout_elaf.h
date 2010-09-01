@@ -20,8 +20,8 @@
 
 #ifndef ADAPTATION_LAYER_AKNLAYOUT_ELAF_H
 #define ADAPTATION_LAYER_AKNLAYOUT_ELAF_H
-#include "AknLayout.cdl.custom.h"
-#include "Adaptation_Layer_AknLayout_Elaf.hrh"
+#include "aknlayout.cdl.custom.h"
+#include "adaptation_layer_aknlayout_elaf.hrh"
 
 namespace Adaptation_Layer_AknLayout_Elaf
 {

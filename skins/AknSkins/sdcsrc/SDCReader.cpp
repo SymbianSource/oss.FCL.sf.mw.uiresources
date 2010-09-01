@@ -988,30 +988,9 @@ void CSDCReader::ParseBitmapPath()
         {
         bool changed( true );
         if( sd_wcscasecmp( gInput.iToken, iData->iBmpPath ) == 0 ) changed = false;
+        iData->SetBmpPath( gInput.iToken );
         char buf[512];
         CSDCInput::ConvertToAscii( buf, gInput.iToken );
-
-        /* prepend EPOCROOT on linux */
-        if(buf[0] == '/')
-            {
-#if (defined(__MSVCRT__) || defined(_MSC_VER))
-            /* FIXME: We have to use \\ for referencing root path on Windows? */
-            buf[0] = '\\';
-            
-            CSDCInput::ConvertToWchar(gInput.iToken, buf);
-#else
-            char b[512];
-
-            sprintf(b, "%s%s", getenv("EPOCROOT"), buf);
-
-            strcpy(buf, b);
-
-            CSDCInput::ConvertToWchar(gInput.iToken, b);
-#endif
-            }
-
-        iData->SetBmpPath( gInput.iToken );
-        
         if( changed )
             printf("NOTE: Bitmap source path set to %s\n", buf );
         }

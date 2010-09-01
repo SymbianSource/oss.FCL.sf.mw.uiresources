@@ -17,4 +17,4 @@
 uid = 0x10281fc6
 
 include configure_qvga1.mk
-include layoutDllCommon.mk
+include LayoutDllCommon.mk

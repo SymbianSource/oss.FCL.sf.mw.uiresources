@@ -17,4 +17,4 @@
 uid = 0x10285D7B
 
 include configure_qhd_touch.mk
-include layoutDllUiAccel.mk
+include LayoutDllUiAccel.mk

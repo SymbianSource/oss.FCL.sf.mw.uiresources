@@ -38,7 +38,7 @@ MW_LAYER_SYSTEMINCLUDE
 
 
 LIBRARY         euser.lib
-LIBRARY         AknIcon.lib
+LIBRARY         aknicon.lib
 
 EPOCPROCESSPRIORITY high
 #ifdef WINS

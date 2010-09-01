@@ -232,7 +232,7 @@ CAknLocalSkinInstance::CAknLocalSkinInstance(
     const RFs& aFileSystem, const RAknsSrvSession& aSkinSrv)
     : iFs(aFileSystem), iSkinSrv(aSkinSrv)
     {
-    RetrieveAHMirroringState();
+    RetrieveAHMirroringStateL();
     }
 
 // -----------------------------------------------------------------------------
@@ -1012,7 +1012,7 @@ TInt CAknLocalSkinInstance::GetRightsDetailsL(RFile &aFile)
 // Read arabic/hebrew mirroring state.
 // -----------------------------------------------------------------------------
 //
-void CAknLocalSkinInstance::RetrieveAHMirroringState()
+void CAknLocalSkinInstance::RetrieveAHMirroringStateL()
     {
     CRepository *avkonRepository = NULL;
     TRAPD( cenrepErr,avkonRepository = CRepository::NewL(KCRUidAvkon) );

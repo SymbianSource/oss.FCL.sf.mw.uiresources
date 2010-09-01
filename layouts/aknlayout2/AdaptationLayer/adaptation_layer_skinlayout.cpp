@@ -33,12 +33,12 @@
 // - ensure that the instances are in the packs in the correct order in packages.mk (with adaptation layer after LAY file instances)
 
 
-#include "Adaptation_Layer_SkinLayout.h"
+#include "adaptation_layer_skinlayout.h"
 #include "AknLayout2AdaptationDecode.h"
-#include "AknLayoutScalable_Avkon.cdl.h"
-#include "AknLayoutScalable_Apps.cdl.h"
-#include "LayoutMetaData.cdl.h"
-#include "AknLayout.cdl.h"
+#include "aknlayoutscalable_avkon.cdl.h"
+#include "aknlayoutscalable_apps.cdl.h"
+#include "layoutmetadata.cdl.h"
+#include "aknlayout.cdl.h"
 
 //
 // panic

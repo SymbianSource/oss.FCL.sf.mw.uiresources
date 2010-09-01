@@ -1,0 +1,83 @@
+/*
+* Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+#include <CdlEcom.rh>
+#include <CdlEcom.hrh>
+
+#include "uiaccel_elaf_nhd4_normal_pack.hrh"
+#include "aknlayoutscalable_elaf_hnp4_c_nhd4_prt_tch_normal.hrh"
+#include "uiaccel_elaf_nhd4_small_pack.hrh"
+#include "aknlayoutscalable_elaf_hnp4_c_nhd4_prt_tch_small.hrh"
+#include "uiaccel_elaf_nhd4_large_pack.hrh"
+#include "aknlayoutscalable_elaf_hnp4_c_nhd4_prt_tch_large.hrh"
+#include "uiaccel_abrw_nhd4_normal_pack.hrh"
+#include "aknlayoutscalable_abrw_hnp4_c_nhd4_prt_tch_normal.hrh"
+#include "uiaccel_abrw_nhd4_small_pack.hrh"
+#include "aknlayoutscalable_abrw_hnp4_c_nhd4_prt_tch_small.hrh"
+#include "uiaccel_abrw_nhd4_large_pack.hrh"
+#include "aknlayoutscalable_abrw_hnp4_c_nhd4_prt_tch_large.hrh"
+#include "uiaccel_apac_nhd4_normal_pack.hrh"
+#include "uiaccel_apac_nhd4_small_pack.hrh"
+#include "uiaccel_apac_nhd4_large_pack.hrh"
+#include "uiaccel_elaf_nhd4_land_normal_pack.hrh"
+#include "aknlayoutscalable_elaf_hnl4_c_nhd4_lsc_tch_normal.hrh"
+#include "uiaccel_elaf_nhd4_land_small_pack.hrh"
+#include "aknlayoutscalable_elaf_hnl4_c_nhd4_lsc_tch_small.hrh"
+#include "uiaccel_elaf_nhd4_land_large_pack.hrh"
+#include "aknlayoutscalable_elaf_hnl4_c_nhd4_lsc_tch_large.hrh"
+#include "uiaccel_abrw_nhd4_land_normal_pack.hrh"
+#include "aknlayoutscalable_abrw_hnl4_c_nhd4_lsc_tch_normal.hrh"
+#include "uiaccel_abrw_nhd4_land_small_pack.hrh"
+#include "aknlayoutscalable_abrw_hnl4_c_nhd4_lsc_tch_small.hrh"
+#include "uiaccel_abrw_nhd4_land_large_pack.hrh"
+#include "aknlayoutscalable_abrw_hnl4_c_nhd4_lsc_tch_large.hrh"
+#include "uiaccel_apac_nhd4_land_normal_pack.hrh"
+#include "uiaccel_apac_nhd4_land_small_pack.hrh"
+#include "uiaccel_apac_nhd4_land_large_pack.hrh"
+
+CDL_ECOM_REG_DETAIL_START
+	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Nhd4_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hnp4_c_nhd4_prt_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Nhd4_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hnp4_c_nhd4_prt_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Nhd4_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hnp4_c_nhd4_prt_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Nhd4_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hnp4_c_nhd4_prt_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Nhd4_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hnp4_c_nhd4_prt_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Nhd4_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hnp4_c_nhd4_prt_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Nhd4_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Nhd4_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Nhd4_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Nhd4_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hnl4_c_nhd4_lsc_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Nhd4_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hnl4_c_nhd4_lsc_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Elaf_Nhd4_land_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Elaf_hnl4_c_nhd4_lsc_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Nhd4_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hnl4_c_nhd4_lsc_tch_Normal)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Nhd4_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hnl4_c_nhd4_lsc_tch_Small)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Abrw_Nhd4_land_Large_Pack)
+,	CDL_ECOM_DETAIL_IMPL(AknLayoutScalable_Abrw_hnl4_c_nhd4_lsc_tch_Large)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Nhd4_land_Normal_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Nhd4_land_Small_Pack)
+,	CDL_ECOM_DETAIL_IMPL(UiAccel_Apac_Nhd4_land_Large_Pack)
+CDL_ECOM_REG_DETAIL_END

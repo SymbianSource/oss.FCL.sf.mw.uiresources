@@ -23,7 +23,7 @@
 
 #include "SDCGlobals.h"
 #include "SDCBinOutput.h"
-#include "aknsconstants.hrh"
+#include <aknsconstants.hrh>
 #include "SDCException.h"
 #include "SDCCompat.h"
 

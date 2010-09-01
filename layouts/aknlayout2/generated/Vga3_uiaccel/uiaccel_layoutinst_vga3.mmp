@@ -65,8 +65,8 @@ source           uiaccel_apac_vga3_land_small_pack.cpp
 source           uiaccel_apac_vga3_land_large_pack.cpp
 
 library          euser.lib
-library          aknlayout2scalable.lib
-library          cdlengine.lib
+library          AknLayout2Scalable.lib
+library          CdlEngine.lib
 
 START RESOURCE	 10285d80.rss
 TARGET       10285d80.rsc

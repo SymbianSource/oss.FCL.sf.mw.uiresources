@@ -61,104 +61,69 @@ CAknsSrvWallpaperCache::~CAknsSrvWallpaperCache( )
 TAknsSrvWallpaper* CAknsSrvWallpaperCache::AddL( RFs& aRFs, const TDesC& aFileName, 
         const TSize aTrgSize, const TSize aMaxSize )
     {
+    if ( aFileName.Length() == 0 )
+        {
+        return NULL;
+        }
+    	
     if ( aTrgSize ==  TSize(-1, -1) )
         {
         TryDecodeImageL( aRFs,aFileName );
         return NULL;
         }
     
-    TBool cached = EFalse;
     TAknsSrvWallpaper* wp = NULL;
-    
     wp = CachedImage( aFileName );
-    if ( !wp )
+    if ( wp )
         {
-        wp = new TAknsSrvWallpaper;
-        ZeroItem ( *wp );
+        return wp;
         }
-    else
-        {
-        cached = ETrue;
-        }
+
+    wp = new ( ELeave ) TAknsSrvWallpaper;
+    ZeroItem ( *wp );
+    CleanupStack::PushL( wp );
 
     
     _LIT( KSvgFileExt, ".svg" );
     TBool isSvgFormat = aFileName.Right(4).CompareF( KSvgFileExt ) == 0;
     
-    TBool needDecodePortrait = EFalse;
-    TBool needDecodeLandscape = EFalse;    
+    TSize prtSize, lscSize;
 
     if( aTrgSize.iHeight >= aTrgSize.iWidth ) //Portait
         {
-        if ( aTrgSize != iPrtSize || ( !wp->iPortrait && !wp->iPortraitMask) )
-            {
-            needDecodePortrait = ETrue;
-            iPrtSize = aTrgSize;
-            }
+        prtSize = aTrgSize;
+        lscSize = TSize( aTrgSize.iHeight, aTrgSize.iWidth );
         }
     else //Landscape
         {
-        if ( aTrgSize != iLscSize || ( !wp->iLandscape && !wp->iLandscapeMask ) )
-            {
-            needDecodeLandscape = ETrue;
-            iLscSize = aTrgSize;
-            }
+        prtSize = TSize( aTrgSize.iHeight, aTrgSize.iWidth );
+        lscSize = aTrgSize;
         }
     
     if( isSvgFormat )   
         {
-        if( needDecodePortrait )
-            {
-            CAknsSrvSVGImageDecoder* svgdecoder = CAknsSrvSVGImageDecoder::NewL();
-            CleanupStack::PushL( svgdecoder );
-            svgdecoder->DecodeImageL(
-                aFileName,
-                aTrgSize,
-                wp->iPortrait,
-                wp->iPortraitMask );
-            CleanupStack::PopAndDestroy( svgdecoder );
-            }
-        if( needDecodeLandscape )
-            {
-            CAknsSrvSVGImageDecoder* svgdecoder = CAknsSrvSVGImageDecoder::NewL();
-            CleanupStack::PushL( svgdecoder );
-            svgdecoder->DecodeImageL(
-                aFileName,
-                aTrgSize,
-                wp->iLandscape,
-                wp->iLandscapeMask );
-            CleanupStack::PopAndDestroy( svgdecoder );
-            }
+        CAknsSrvSVGImageDecoder* svgdecoder = CAknsSrvSVGImageDecoder::NewL();
+        CleanupStack::PushL( svgdecoder );
+        svgdecoder->DecodeImageL( aFileName, prtSize, wp->iPortrait,
+            wp->iPortraitMask );
+        svgdecoder->DecodeImageL( aFileName, lscSize, wp->iLandscape,
+            wp->iLandscapeMask );
+        CleanupStack::PopAndDestroy( svgdecoder );
         }
     else
         {
-        if( needDecodePortrait )
-            {
-            CAknsSrvImageConverter::DecodeImageL(
-                aRFs,
-                aFileName,
-                aTrgSize,
-                wp->iPortrait,
-                wp->iPortraitMask,
-                aMaxSize );
-            }
-        if( needDecodeLandscape )
-            {
-            CAknsSrvImageConverter::DecodeImageL(
-                aRFs,
-                aFileName,
-                aTrgSize,
-                wp->iLandscape,
-                wp->iLandscapeMask,
-                aMaxSize );
-            }
+        CAknsSrvImageConverter::DecodeImageL( aRFs, aFileName, prtSize,
+            wp->iPortrait, wp->iPortraitMask, aMaxSize );
+        CAknsSrvImageConverter::DecodeImageL( aRFs, aFileName, lscSize,
+            wp->iLandscape, wp->iLandscapeMask, aMaxSize );
         }
+
     wp->iName.Copy( aFileName );
-    if ( !cached )
-        {
-        RemoveOldestItem();        
-        iCache.Append( wp );
-        }
+
+    RemoveOldestItem();
+    iCache.Append( wp );
+    CleanupStack::Pop( wp ); 
+
     return wp;
     }
 

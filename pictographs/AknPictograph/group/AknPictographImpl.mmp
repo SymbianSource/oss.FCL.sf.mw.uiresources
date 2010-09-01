@@ -46,9 +46,9 @@ SOURCE      AknStaticPictographDefKey.cpp
 SOURCE      AknAnimatedPictographDefKey.cpp
 SOURCE      AknPictographExport.cpp
 
-LIBRARY     FBSCLI.LIB
-LIBRARY     CONE.LIB
-LIBRARY     ACTIVITYMANAGER.LIB
-LIBRARY     EUSER.LIB
-LIBRARY     GDI.LIB
-LIBRARY     BITGDI.LIB                  
+LIBRARY     fbscli.lib
+LIBRARY     cone.lib
+LIBRARY     activitymanager.lib
+LIBRARY     euser.lib
+LIBRARY     gdi.lib
+LIBRARY     bitgdi.lib

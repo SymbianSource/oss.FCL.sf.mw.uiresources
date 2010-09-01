@@ -44,15 +44,15 @@ LIBRARY         euser.lib
 LIBRARY         gdi.lib
 LIBRARY         fbscli.lib 
 LIBRARY         bitgdi.lib
-LIBRARY         AknIcon.lib
+LIBRARY         aknicon.lib
 LIBRARY         CdlEngine.lib
-LIBRARY         Avkon.lib
+LIBRARY         avkon.lib
 LIBRARY         eikcore.lib
 LIBRARY         AknLayout2Scalable.lib
-LIBRARY         AknSkinSrv.lib
+LIBRARY         aknskinsrv.lib
 LIBRARY         efsrv.lib
-LIBRARY         CentralRepository.lib
-LIBRARY         AknLayout2.lib
+LIBRARY         centralrepository.lib
+LIBRARY         aknlayout2.lib
 
 SOURCEPATH      ../rlsrc
 SOURCE          AknSkinRenderLibDll.cpp
@@ -114,7 +114,7 @@ SOURCE          AknsFsHandleProvider.cpp
 // Target-specific DEF files
 // ============================================================================
 
-#if defined(EABI)
+#if defined(ARMCC)
 deffile ../EABI/ 
 #elif defined(WINSCW)
 deffile ../BWINSCW/ 

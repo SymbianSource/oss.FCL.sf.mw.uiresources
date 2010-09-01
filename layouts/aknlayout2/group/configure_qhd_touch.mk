@@ -25,3 +25,4 @@ style_name = QHDTOUCH
 touch = _tch
 msk = no
 touchpane = no
+liststretching = yes

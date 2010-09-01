@@ -49,4 +49,4 @@ SOURCE          CdlChangeObserver.cpp
 LIBRARY         euser.lib
 LIBRARY         efsrv.lib
 LIBRARY         bafl.lib
-LIBRARY         ECom.lib
+LIBRARY         ecom.lib

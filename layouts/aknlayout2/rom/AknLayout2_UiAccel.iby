@@ -69,7 +69,7 @@ REM AKNLAYOUT2_UIACCEL
 #include "AknLayout2_UiAccel_nhd.iby"
 #endif
 
-#if defined(FF_LAYOUT_360_640_TOUCH_LARGE_SCREEN) || defined(FF_LAYOUT_640_360_TOUCH_LARGE_SCREEN)
+#if defined(FF_LAYOUT_360_640_TOUCH_NHD4) || defined(FF_LAYOUT_640_360_TOUCH_NHD4)
 #include "AknLayout2_UiAccel_nhd4_touch.iby"
 #endif
 

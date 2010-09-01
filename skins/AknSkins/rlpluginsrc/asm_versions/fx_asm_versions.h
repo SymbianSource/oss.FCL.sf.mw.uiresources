@@ -23,7 +23,7 @@
 #define FX_ASM_VERSIONS_H
 
 
-#if defined(__ARMCC__)
+#if defined(__MARM_ARMV4__) || defined(__MARM_ARMI__) || defined(__MARM_ARMV5__)
     #define ARM_VERSION
 	//#define __NAKED__ __declspec( naked )
 #endif

@@ -46,6 +46,8 @@ TAknLayoutId const id = EAknLayoutIdELAF;
 #include "../layoutmetadata_land.h"
 #include "../dllinstances.hrh"
 #include "../layoutmetadata_pensupport.h"
+#include "../dllinstances.hrh"
+#include "../layoutmetadata_liststretching.h"
 _LIT(_content_DLL__101fe2aa_dll, "101fe2aa.dll");
 
 CDL_ARRAY_START(TCdlRef, contents)
@@ -61,6 +63,7 @@ CDL_ARRAY_START(TCdlRef, contents)
 	{LayoutMetaData_scrollbar::KCdlInstanceId, LayoutMetaData_scrollbar::KCdlInterfaceUidValue, LIT_AS_DESC_PTR(_content_DLL__101fe2aa_dll)},
 	{LayoutMetaData_land::KCdlInstanceId, LayoutMetaData_land::KCdlInterfaceUidValue, LIT_AS_DESC_PTR(_content_DLL__101fe2aa_dll)},
 	{LayoutMetaData_pensupport::KCdlInstanceId, LayoutMetaData_pensupport::KCdlInterfaceUidValue, LIT_AS_DESC_PTR(_content_DLL__101fe2aa_dll)},
+	{LayoutMetaData_liststretching::KCdlInstanceId, LayoutMetaData_liststretching::KCdlInterfaceUidValue, LIT_AS_DESC_PTR(_content_DLL__101fe2aa_dll)},
 	}
 CDL_ARRAY_END(TCdlRef, contents);
 

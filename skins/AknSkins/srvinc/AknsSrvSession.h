@@ -140,7 +140,7 @@ NONSHARABLE_CLASS(CAknsSrvSession) : public CSession2
         void EnumeratePackages( const RMessage2 aMessage );
         void ReceivePackages(const RMessage2 aMessage);
         void DecodeWallpaperImageL(const RMessage2 aMessage);
-        void FreeDecodedWallpaper( const RMessage2 aMessage);
+        void FreeDecodedWallpaperL( const RMessage2 aMessage);
         void CacheWallpaperImageL(const RMessage2 aMessage);
 
         /**

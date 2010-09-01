@@ -22,8 +22,8 @@
 
 #ifndef ADAPTATION_LAYER_AKNAPACLAYOUT_H
 #define ADAPTATION_LAYER_AKNAPACLAYOUT_H
-#include "AknApacLayout.cdl.custom.h"
-#include "Adaptation_Layer_AknApacLayout.hrh"
+#include "aknapaclayout.cdl.custom.h"
+#include "adaptation_layer_aknapaclayout.hrh"
 
 namespace Adaptation_Layer_AknApacLayout
 {

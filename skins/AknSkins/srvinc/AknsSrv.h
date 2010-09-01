@@ -200,17 +200,17 @@ NONSHARABLE_CLASS(CAknsSrv) : public CServer2,
 
     public: // From MAknsSrvSettingObserver
 
-        void NotifyBackupOperationEnd();
+        void NotifyBackupOperationEndL();
         void NotifyLayoutChange(TBool aClearScalable);
         void NofifySkinChange();
         void NotifyIdleBackgroundChange();
         void NotifyDRMChange();
         void NotifyDRMChangeL();
         void NotifyUSBAttach();
-        void NotifyUSBRemoval();
+        void NotifyUSBRemovalL();
         void NotifySlideSetTimeoutChange();
         void NotifySlideSetTypeChange();
-        void NotifyWallpaperTypeChange();
+        void NotifyWallpaperTypeChangeL();
         // Notify screensaver state change.
         void NotifyScreenSaverChange();
 
@@ -224,7 +224,7 @@ NONSHARABLE_CLASS(CAknsSrv) : public CServer2,
     public:
         void MorhphingEventTimeout();
         void NewSkinPackagesInstalled();
-        void WallpaperLost();
+        void WallpaperLostL();
         // Observer interface - slide set ini-file has been changed.
         void SlideSetModifiedL();
     public: // New functions
@@ -330,7 +330,7 @@ NONSHARABLE_CLASS(CAknsSrv) : public CServer2,
         void EnumeratePackagesL( const RMessage2 aMessage );
         void ReceivePackages( const RMessage2 aMessage );
         void DecodeWallpaperImageL( const RMessage2 aMessage);
-        void FreeDecodedWallpaper( const RMessage2 aMessage );
+        void FreeDecodedWallpaperL( const RMessage2 aMessage );
         void CacheWallpaperImageL( const RMessage2 aMessage);
 
         /**
@@ -438,7 +438,7 @@ NONSHARABLE_CLASS(CAknsSrv) : public CServer2,
         /**
         * Reactive backup skin.
         */
-        void RestoreOldSkin();
+        void RestoreOldSkinL();
 
         /**
         * Check if the slideset wallpaper can change.
@@ -588,6 +588,8 @@ NONSHARABLE_CLASS(CAknsSrv) : public CServer2,
         CAknsSrvWallpaperCache* iWallpaperCache;
         
         TBool iSetSlideSet;
+        
+        TBool iAnimBgToBeRestored;
         
     };
 

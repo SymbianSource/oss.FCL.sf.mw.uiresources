@@ -31,6 +31,7 @@ NAME    AKWP  // aknswallpaperplugin AIW Provider
 #include <avkon.rsg>
 
 // Localized texts.
+#include <psln.loc>
 #include <drmcommon.loc>
 #include <aknswallpaperplugin.loc>
 

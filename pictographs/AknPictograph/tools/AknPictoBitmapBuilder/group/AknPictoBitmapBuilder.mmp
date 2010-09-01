@@ -35,10 +35,10 @@ SYSTEMINCLUDE   /epoc32/include/mmf/common
 SOURCE      Main.cpp
 SOURCE      BitmapBuilder.cpp
 
-LIBRARY     EUSER.LIB
-LIBRARY     FBSCLI.LIB
-LIBRARY     BITGDI.LIB
-LIBRARY     EFSRV.LIB
-LIBRARY     BAFL.LIB
+LIBRARY     euser.lib
+LIBRARY     fbscli.lib
+LIBRARY     bitgdi.lib
+LIBRARY     efsrv.lib
+LIBRARY     bafl.lib
 
 EPOCHEAPSIZE    0x1000 0x1000000

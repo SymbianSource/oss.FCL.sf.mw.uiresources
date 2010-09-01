@@ -21,8 +21,8 @@
 #include <e32svr.h>
 #include <stifparser.h>
 #include <stiftestinterface.h>
-#include <aknlayout2def.h>
-#include <aknlayout2scalabledef.h>
+#include <AknLayout2Def.h>
+#include <AknLayout2ScalableDef.h>
 
 #include "testdomlayoutdata.h"
 

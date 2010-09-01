@@ -36,8 +36,8 @@ DEFFILE         testdomextedfonts.def
 USERINCLUDE     ../inc 
 
 MW_LAYER_SYSTEMINCLUDE
-APP_LAYER_SYSTEMINCLUDE
 
+SOURCEPATH      ../src
 #else // SBSV2 not defined
 USERINCLUDE     ../inc 
 
@@ -54,11 +54,11 @@ SOURCE          testdomexfntcontainer.cpp
 SOURCE          testdomexfntblockfotprosplmts.cpp
 
 LIBRARY         euser.lib
-LIBRARY         stiftestinterface.lib
+LIBRARY         StifTestInterface.lib
 LIBRARY         stiftestengine.lib
 LIBRARY         avkon.lib
 LIBRARY         fontutils.lib
-LIBRARY         fontprovider.lib
+LIBRARY         FontProvider.lib
 LIBRARY         eikcore.lib
 LIBRARY         ws32.lib
 LIBRARY         cone.lib

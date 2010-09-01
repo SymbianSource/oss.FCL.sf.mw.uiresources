@@ -16,8 +16,8 @@
 */
 #ifndef ADAPTATION_LAYER_APPAPACLAYOUT_APAC_HRH
 #define ADAPTATION_LAYER_APPAPACLAYOUT_APAC_HRH
-#include "AppApacLayout.cdl.common.hrh"
-#include "DllInstances.hrh"
+#include "appapaclayout.cdl.common.hrh"
+#include "dllinstances.hrh"
 
 #define _CDL_Adaptation_Layer_AppApacLayout_KCdlInstanceInterfaceUidValue _CDL_AppApacLayout_KCdlInterfaceUidValue
 #define _CDL_Adaptation_Layer_AppApacLayout_KCdlInstanceId KDllInst_Adaptation_Layer_AppApacLayout

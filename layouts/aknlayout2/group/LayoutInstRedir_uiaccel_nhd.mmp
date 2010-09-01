@@ -18,4 +18,4 @@
 */
 
 
-#include "../generated/nhd_uiaccel/uiaccel_LayoutInst_nhd.mmp"
+#include "../generated/Nhd_uiaccel/uiaccel_layoutInst_nhd.mmp"

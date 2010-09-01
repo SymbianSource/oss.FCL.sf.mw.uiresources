@@ -43,8 +43,8 @@ source  AknFontId.cpp
 source  AknFontSpecification.cpp
 source  AknFontProviderSuppliedMetrics.cpp
 
-library EUSER.LIB
-library GDI.LIB
+library euser.lib
+library gdi.lib
 library CdlEngine.lib
 library cone.lib
 

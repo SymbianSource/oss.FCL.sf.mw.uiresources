@@ -119,7 +119,7 @@ void CAknSkinsOomMonitorPlugin::MemoryGood()
 // Creates plugin.
 // -----------------------------------------------------------------------------
 //
-TAny* CreatePlugin()
+TAny* CreatePluginL()
     {
     CAknSkinsOomMonitorPlugin* plugin = new(ELeave) CAknSkinsOomMonitorPlugin;
     CleanupStack::PushL(plugin);
@@ -134,7 +134,7 @@ TAny* CreatePlugin()
 //
 const TImplementationProxy ImplementationTable[] =
     {
-    {{0x10207140}, ::CreatePlugin}
+    {{0x10207140}, ::CreatePluginL}
     };
 
 // -----------------------------------------------------------------------------
