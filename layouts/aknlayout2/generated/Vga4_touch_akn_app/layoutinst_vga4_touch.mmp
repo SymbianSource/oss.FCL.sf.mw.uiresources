@@ -34,7 +34,7 @@ source           layoutinst_vga4_touch.cpp
 source           elaf_vga4_touch_normal_pack.cpp
 source           aknlayoutscalable_elaf_pvp4_av_vga4_prt_tch_normal.cpp
 source           aknlayoutscalable_elaf_pvp4_apps_vga4_prt_tch_normal.cpp
-source           Cdlfontinst_vga4_touch.cpp
+source           cdlfontinst_vga4_touch.cpp
 source           displaylayoutmetricsinst_vga4_touch.cpp
 source           elaf_vga4_touch_small_pack.cpp
 source           aknlayoutscalable_elaf_pvp4_av_vga4_prt_tch_small.cpp

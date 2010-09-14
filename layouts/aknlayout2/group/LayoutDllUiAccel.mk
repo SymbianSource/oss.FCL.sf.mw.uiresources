@@ -132,7 +132,7 @@ DLL:
 		-lAknLayout2Scalable.lib \
 		-lCdlEngine.lib \
 		\
-		-s../../Decodelib/AknLayout2ScalableDecode.cpp \
+		-s../../DecodeLib/AknLayout2ScalableDecode.cpp \
 		\
 		"-esysteminclude .."\
 		\

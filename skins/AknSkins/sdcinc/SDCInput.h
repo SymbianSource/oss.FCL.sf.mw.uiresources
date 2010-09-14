@@ -47,6 +47,7 @@ public:
 public:
     static int ConvertToNumber( const wchar_t* aToken );
     static void ConvertToAscii( char* aTarget, const wchar_t* aSource );
+    static void ConvertToWchar( wchar_t* aTarget, const char* aSource );
     static void ConvertToAsciiWithCPPEscapes( char* aTarget, const wchar_t* aSource );
     static TSDCColorDepth ConvertToColorDepth( const wchar_t* aToken );
     static int ConvertToLayer( const wchar_t* aToken );

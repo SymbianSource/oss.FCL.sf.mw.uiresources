@@ -34,7 +34,7 @@ source           layoutinst_nhd4.cpp
 source           elaf_nhd4_normal_pack.cpp
 source           aknlayoutscalable_elaf_pnp4_av_nhd4_prt_tch_normal.cpp
 source           aknlayoutscalable_elaf_pnp4_apps_nhd4_prt_tch_normal.cpp
-source           Cdlfontinst_nhd4.cpp
+source           cdlfontinst_nhd4.cpp
 source           displaylayoutmetricsinst_nhd4.cpp
 source           elaf_nhd4_small_pack.cpp
 source           aknlayoutscalable_elaf_pnp4_av_nhd4_prt_tch_small.cpp

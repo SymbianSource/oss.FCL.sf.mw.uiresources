@@ -21,7 +21,7 @@
 
 #ifndef CDLFONTINST_NHD4_H
 #define CDLFONTINST_NHD4_H
-#include "CdlFont.cdl.custom.h"
+#include "cdlfont.cdl.custom.h"
 #include "cdlfontinst_nhd4.hrh"
 
 namespace CdlFontInst_nhd4

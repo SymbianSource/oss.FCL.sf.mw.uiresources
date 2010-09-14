@@ -33,7 +33,7 @@ MAKMAKE : make_gen_dir
 		-lAknLayout2Adaptation.lib \
 		-lCdlEngine.lib \
 		\
-		-s../decodelib/Aknlayout2adaptationdecode.cpp \
+		-s../DecodeLib/AknLayout2AdaptationDecode.cpp \
 		\
 		LayoutInst 0x101fe2aa \
 		\

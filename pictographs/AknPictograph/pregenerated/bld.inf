@@ -17,39 +17,39 @@
 */
 
 
-../generated/AknPictograph12.mbm        /epoc32/data/Z/resource/AknPictograph12.mbm
-../generated/AknPictograph12.mbm        /epoc32/release/winscw/udeb/Z/resource/AknPictograph12.mbm
-../generated/AknPictograph12.mbm        /epoc32/release/winscw/urel/Z/resource/AknPictograph12.mbm
-../generated/AknPictographMask12.mbm    /epoc32/data/Z/resource/AknPictographMask12.mbm
-../generated/AknPictographMask12.mbm    /epoc32/release/winscw/udeb/Z/resource/AknPictographMask12.mbm
-../generated/AknPictographMask12.mbm    /epoc32/release/winscw/urel/Z/resource/AknPictographMask12.mbm
+../generated/AknPictograph12.mbm        /epoc32/data/z/resource/AknPictograph12.mbm
+../generated/AknPictograph12.mbm        /epoc32/release/winscw/udeb/z/resource/AknPictograph12.mbm
+../generated/AknPictograph12.mbm        /epoc32/release/winscw/urel/z/resource/AknPictograph12.mbm
+../generated/AknPictographMask12.mbm    /epoc32/data/z/resource/AknPictographMask12.mbm
+../generated/AknPictographMask12.mbm    /epoc32/release/winscw/udeb/z/resource/AknPictographMask12.mbm
+../generated/AknPictographMask12.mbm    /epoc32/release/winscw/urel/z/resource/AknPictographMask12.mbm
 
-../generated/AknPictograph16.mbm        /epoc32/data/Z/resource/AknPictograph16.mbm
-../generated/AknPictograph16.mbm        /epoc32/release/winscw/udeb/Z/resource/AknPictograph16.mbm
-../generated/AknPictograph16.mbm        /epoc32/release/winscw/urel/Z/resource/AknPictograph16.mbm
-../generated/AknPictographMask16.mbm    /epoc32/data/Z/resource/AknPictographMask16.mbm
-../generated/AknPictographMask16.mbm    /epoc32/release/winscw/udeb/Z/resource/AknPictographMask16.mbm
-../generated/AknPictographMask16.mbm    /epoc32/release/winscw/urel/Z/resource/AknPictographMask16.mbm
+../generated/AknPictograph16.mbm        /epoc32/data/z/resource/AknPictograph16.mbm
+../generated/AknPictograph16.mbm        /epoc32/release/winscw/udeb/z/resource/AknPictograph16.mbm
+../generated/AknPictograph16.mbm        /epoc32/release/winscw/urel/z/resource/AknPictograph16.mbm
+../generated/AknPictographMask16.mbm    /epoc32/data/z/resource/AknPictographMask16.mbm
+../generated/AknPictographMask16.mbm    /epoc32/release/winscw/udeb/z/resource/AknPictographMask16.mbm
+../generated/AknPictographMask16.mbm    /epoc32/release/winscw/urel/z/resource/AknPictographMask16.mbm
 
-../generated/AknPictograph18.mbm        /epoc32/data/Z/resource/AknPictograph18.mbm
-../generated/AknPictograph18.mbm        /epoc32/release/winscw/udeb/Z/resource/AknPictograph18.mbm
-../generated/AknPictograph18.mbm        /epoc32/release/winscw/urel/Z/resource/AknPictograph18.mbm
-../generated/AknPictographMask18.mbm    /epoc32/data/Z/resource/AknPictographMask18.mbm
-../generated/AknPictographMask18.mbm    /epoc32/release/winscw/udeb/Z/resource/AknPictographMask18.mbm
-../generated/AknPictographMask18.mbm    /epoc32/release/winscw/urel/Z/resource/AknPictographMask18.mbm
+../generated/AknPictograph18.mbm        /epoc32/data/z/resource/AknPictograph18.mbm
+../generated/AknPictograph18.mbm        /epoc32/release/winscw/udeb/z/resource/AknPictograph18.mbm
+../generated/AknPictograph18.mbm        /epoc32/release/winscw/urel/z/resource/AknPictograph18.mbm
+../generated/AknPictographMask18.mbm    /epoc32/data/z/resource/AknPictographMask18.mbm
+../generated/AknPictographMask18.mbm    /epoc32/release/winscw/udeb/z/resource/AknPictographMask18.mbm
+../generated/AknPictographMask18.mbm    /epoc32/release/winscw/urel/z/resource/AknPictographMask18.mbm
 
-../generated/AknPictograph24.mbm        /epoc32/data/Z/resource/AknPictograph24.mbm
-../generated/AknPictograph24.mbm        /epoc32/release/winscw/udeb/Z/resource/AknPictograph24.mbm
-../generated/AknPictograph24.mbm        /epoc32/release/winscw/urel/Z/resource/AknPictograph24.mbm
-../generated/AknPictographMask24.mbm    /epoc32/data/Z/resource/AknPictographMask24.mbm
-../generated/AknPictographMask24.mbm    /epoc32/release/winscw/udeb/Z/resource/AknPictographMask24.mbm
-../generated/AknPictographMask24.mbm    /epoc32/release/winscw/urel/Z/resource/AknPictographMask24.mbm
+../generated/AknPictograph24.mbm        /epoc32/data/z/resource/AknPictograph24.mbm
+../generated/AknPictograph24.mbm        /epoc32/release/winscw/udeb/z/resource/AknPictograph24.mbm
+../generated/AknPictograph24.mbm        /epoc32/release/winscw/urel/z/resource/AknPictograph24.mbm
+../generated/AknPictographMask24.mbm    /epoc32/data/z/resource/AknPictographMask24.mbm
+../generated/AknPictographMask24.mbm    /epoc32/release/winscw/udeb/z/resource/AknPictographMask24.mbm
+../generated/AknPictographMask24.mbm    /epoc32/release/winscw/urel/z/resource/AknPictographMask24.mbm
 
-../generated/AknPictograph30.mbm        /epoc32/data/Z/resource/AknPictograph30.mbm
-../generated/AknPictograph30.mbm        /epoc32/release/winscw/udeb/Z/resource/AknPictograph30.mbm
-../generated/AknPictograph30.mbm        /epoc32/release/winscw/urel/Z/resource/AknPictograph30.mbm
-../generated/AknPictographMask30.mbm    /epoc32/data/Z/resource/AknPictographMask30.mbm
-../generated/AknPictographMask30.mbm    /epoc32/release/winscw/udeb/Z/resource/AknPictographMask30.mbm
-../generated/AknPictographMask30.mbm    /epoc32/release/winscw/urel/Z/resource/AknPictographMask30.mbm
+../generated/AknPictograph30.mbm        /epoc32/data/z/resource/AknPictograph30.mbm
+../generated/AknPictograph30.mbm        /epoc32/release/winscw/udeb/z/resource/AknPictograph30.mbm
+../generated/AknPictograph30.mbm        /epoc32/release/winscw/urel/z/resource/AknPictograph30.mbm
+../generated/AknPictographMask30.mbm    /epoc32/data/z/resource/AknPictographMask30.mbm
+../generated/AknPictographMask30.mbm    /epoc32/release/winscw/udeb/z/resource/AknPictographMask30.mbm
+../generated/AknPictographMask30.mbm    /epoc32/release/winscw/urel/z/resource/AknPictographMask30.mbm
 
 

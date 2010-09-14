@@ -22340,6 +22340,33 @@ static const TAknsItemID KAknsIIDQgnPropCmccSync =
 static const TAknsItemID KAknsIIDQgnPropCmccUnsync =
     { EAknsMajorGeneric, EAknsMinorGenericQgnPropCmccUnsync };
 
+static const TAknsItemID KAknsIIDQgnIndiBrowserTbAddBookmark =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiBrowserTbAddBookmark };
+
+static const TAknsItemID KAknsIIDQgnIndiBrowserTbAddRss =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiBrowserTbAddRss };
+
+static const TAknsItemID KAknsIIDQgnIndiBrowserTbBookmarks =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiBrowserTbBookmarks };
+
+static const TAknsItemID KAknsIIDQgnIndiBrowserTbHistoryBackDimmed =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiBrowserTbHistoryBackDimmed };
+
+static const TAknsItemID KAknsIIDQgnIndiTbHideMenu =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbHideMenu };
+
+static const TAknsItemID KAknsIIDQgnIndiTbShowMenu =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbShowMenu };
+
+static const TAknsItemID KAknsIIDQgnPropFtuOvi =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropFtuOvi };
+
+static const TAknsItemID KAknsIIDQsnBigclockAnaloguePointerHoursScreensaverLandscape =
+    { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockAnaloguePointerHoursScreensaverLandscape };
+
+static const TAknsItemID KAknsIIDQsnBigclockAnaloguePointerMinutesScreensaverLandscape =
+    { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockAnaloguePointerMinutesScreensaverLandscape };
+
 // SCMMARKER_INSERTIONPOINT
 
 // SCCMARKER_END

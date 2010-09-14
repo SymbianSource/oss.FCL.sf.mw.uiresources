@@ -7789,8 +7789,17 @@ enum TAknsMinorGenericValue
     EAknsMinorGenericQsnBigclockAnalogueFaceScreensaverStrokeLandscape = 0x2646,
     EAknsMinorGenericQgnPropCmccSync = 0x2647,
     EAknsMinorGenericQgnPropCmccUnsync = 0x2648,
-    // SCMMARKER_INSERTIONPOINT [9801]
-    EAknsMinorGenericInternalCurrentLastItem = 0x2649
+    EAknsMinorGenericQgnIndiBrowserTbAddBookmark = 0x2649,
+    EAknsMinorGenericQgnIndiBrowserTbAddRss = 0x264a,
+    EAknsMinorGenericQgnIndiBrowserTbBookmarks = 0x264b,
+    EAknsMinorGenericQgnIndiBrowserTbHistoryBackDimmed = 0x264c,
+    EAknsMinorGenericQgnIndiTbHideMenu = 0x264d,
+    EAknsMinorGenericQgnIndiTbShowMenu = 0x264e,
+    EAknsMinorGenericQgnPropFtuOvi = 0x264f,
+    EAknsMinorGenericQsnBigclockAnaloguePointerHoursScreensaverLandscape = 0x2650,
+    EAknsMinorGenericQsnBigclockAnaloguePointerMinutesScreensaverLandscape = 0x2651,
+    // SCMMARKER_INSERTIONPOINT [9810]
+    EAknsMinorGenericInternalCurrentLastItem = 0x2652
     };
 
 // ----------------------------------------------------------------------------

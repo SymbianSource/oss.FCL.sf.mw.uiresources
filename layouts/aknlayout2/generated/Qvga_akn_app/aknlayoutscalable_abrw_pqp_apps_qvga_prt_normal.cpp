@@ -13362,6 +13362,206 @@ const TUint16 KDataLookup[AknLayoutScalable_Apps::E_TApiId_TableSize] =
 0x0000,	// Layout not defined, this API must not be called for this instance
 
 0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
+
+0x0000,	// Layout not defined, this API must not be called for this instance
 };
 
 
@@ -20024,6 +20224,106 @@ const AknLayoutScalable_Apps::SCdlImpl KCdlImpl =
 	0, // AknLayoutScalable_Apps::Tpopup_welc_pane_t4_sig*,
 	0, // AknLayoutScalable_Apps::Tpopup_welc_pane_t5_sig*,
 	0, // AknLayoutScalable_Apps::Tpopup_welc_pane_t6_sig*,
+	0, // AknLayoutScalable_Apps::Tmain_acti_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tmain_sso_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_body_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_body_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_logo_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_logo_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_sk_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_sk_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tmain_sso_logo_pane_g1_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_sk_pane_t1_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_sk_pane_t1_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_sk_pane_t2_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_sk_pane_t2_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_sk_pane_t_Limits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_sk_pane_t_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_sk_pane_t_sig*,
+	0, // AknLayoutScalable_Apps::Taid_sso_gap_sig*,
+	0, // AknLayoutScalable_Apps::Taid_sso_txt1_sig*,
+	0, // AknLayoutScalable_Apps::Taid_sso_txt2_sig*,
+	0, // AknLayoutScalable_Apps::Taid_sso_txt3_sig*,
+	0, // AknLayoutScalable_Apps::Taid_sso_txt_Limits_sig*,
+	0, // AknLayoutScalable_Apps::Taid_sso_txt_sig*,
+	0, // AknLayoutScalable_Apps::Taid_sso_widget_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_btn_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_btn_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_option_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_option_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_query_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_query_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_query_pane_cp01_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_query_pane_cp01_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_t_hdr_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_t_hdr_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_t_nml_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_t_nml_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_t_sub_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_window_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_window_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_apps_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_apps_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_body_pane_g1_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_body_pane_t1_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_body_pane_t2_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_body_pane_t_Limits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_body_pane_t_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_btn_pane_cp01_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_btn_pane_cp01_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_prog_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_prog_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_t_hdr_pane_t1_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_t_hdr_pane_t1_sig*,
+	0, // AknLayoutScalable_Apps::Tinput_focus_pane_cp10_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tinput_focus_pane_cp10_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_query_pane_t1_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_query_pane_t1_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_query_pane_t2_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_query_pane_t2_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_query_pane_t3_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_query_pane_t3_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_query_pane_t4_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_query_pane_t4_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_query_pane_t_Limits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_query_pane_t_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_query_pane_t_sig*,
+	0, // AknLayoutScalable_Apps::Tbg_button_pane_cp22_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_btn_pane_t1_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_t_nml_pane_t1_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_t_nml_pane_t1_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_option_row_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_option_row_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_t_sub_pane_t1_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_t_sub_pane_t1_sig*,
+	0, // AknLayoutScalable_Apps::Tbg_popup_window_pane_cp11_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tbg_popup_window_pane_cp11_sig*,
+	0, // AknLayoutScalable_Apps::Tpopup_sk_window_cp01_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tpopup_sk_window_cp01_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_body_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_body_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tscroll_pane_cp21_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tscroll_pane_cp21_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_body_t_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_body_t_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_body_t_hdr_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_body_t_hdr_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_body_t_nml_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_body_t_nml_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_body_t_sub_pane_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_body_t_sub_pane_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_body_t_hdr_pane_t1_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_body_t_nml_pane_t1_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_body_t_nml_pane_t1_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_body_t_sub_pane_t1_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_popup_body_t_sub_pane_t1_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_prog_pane_g1_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_apps_pane_comp1_ParamLimits_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_apps_pane_comp1_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_apps_pane_comp1_g1_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_apps_pane_comp1_t1_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_option_row_pane_g1_sig*,
+	0, // AknLayoutScalable_Apps::Tsso_option_row_pane_t1_sig*,
 	};
 
 } // end of namespace AknLayoutScalable_Abrw_pqp_apps_qvga_prt_Normal
