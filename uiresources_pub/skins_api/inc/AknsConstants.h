@@ -1489,7 +1489,9 @@ enum TAknsQsnTextColorsIndex
     //Text#84  AVKON Buttons, AVKON button pressed state default texts. #445a72
     EAknsCIQsnTextColorsCG84   = 83,
     //Text#85  Calendar, Today number with underline. #334876
-    EAknsCIQsnTextColorsCG85   = 84
+    EAknsCIQsnTextColorsCG85   = 84,
+    //Text#86  Email, Groupbox text. #6D93AD
+    EAknsCIQsnTextColorsCG86   = 85
     };
 
 /**
@@ -1603,7 +1605,9 @@ enum TAknsQsnOtherColorsIndex
     // Other #24 Calendar, Background colour of today number #8a94ae
     EAknsCIQsnOtherColorsCG24   = 23,
     // Other #25 Navipane / tabs, Pressed tab indication #9c3958
-    EAknsCIQsnOtherColorsCG25   = 24
+    EAknsCIQsnOtherColorsCG25   = 24,
+    // Other #26 Email, Groupbox background. #CAD6DD
+    EAknsCIQsnOtherColorsCG26   = 25
     };
 
 /**
@@ -22366,6 +22370,45 @@ static const TAknsItemID KAknsIIDQsnBigclockAnaloguePointerHoursScreensaverLands
 
 static const TAknsItemID KAknsIIDQsnBigclockAnaloguePointerMinutesScreensaverLandscape =
     { EAknsMajorGeneric, EAknsMinorGenericQsnBigclockAnaloguePointerMinutesScreensaverLandscape };
+
+static const TAknsItemID KAknsIIDQgnIndiGalleryTbAll =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiGalleryTbAll };
+
+static const TAknsItemID KAknsIIDQgnIndiGalleryTbExtension =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiGalleryTbExtension };
+
+static const TAknsItemID KAknsIIDQgnIndiTbAlbum =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbAlbum };
+
+static const TAknsItemID KAknsIIDQgnIndiTbNewTag =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbNewTag };
+
+static const TAknsItemID KAknsIIDQgnIndiTbTags =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiTbTags };
+
+static const TAknsItemID KAknsIIDQgnPropGalleryBirthday =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropGalleryBirthday };
+
+static const TAknsItemID KAknsIIDQgnPropGalleryFavourites =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropGalleryFavourites };
+
+static const TAknsItemID KAknsIIDQgnPropGalleryPersonal =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropGalleryPersonal };
+
+static const TAknsItemID KAknsIIDQgnPropGalleryTags =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropGalleryTags };
+
+static const TAknsItemID KAknsIIDQgnStatAudiorecVidcal =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnStatAudiorecVidcal };
+
+static const TAknsItemID KAknsIIDQgnStatAudiorecVidcalBlink =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnStatAudiorecVidcalBlink };
+
+static const TAknsItemID KAknsIIDQgnIndiCdrSolarlunar =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnIndiCdrSolarlunar };
+
+static const TAknsItemID KAknsIIDQgnPropPslnFontSub =
+    { EAknsMajorGeneric, EAknsMinorGenericQgnPropPslnFontSub };
 
 // SCMMARKER_INSERTIONPOINT
 

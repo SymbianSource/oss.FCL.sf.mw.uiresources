@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LayoutAttributes createdOn="2010-08-10 17:16:39.602" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.22372991921917196">
+<LayoutAttributes createdOn="2010-09-03 18:07:59.77" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.22372991921917196">
   <attributeset compId="1" name="D">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -8718,7 +8718,7 @@
       <calc value="true"/>
     </attribute>
     <attribute id="48" name="Number of rows">
-      <calc value="10"/>
+      <calc value="9"/>
     </attribute>
     <attribute id="1059" name="Concatenated rows">
       <calc value="true"/>

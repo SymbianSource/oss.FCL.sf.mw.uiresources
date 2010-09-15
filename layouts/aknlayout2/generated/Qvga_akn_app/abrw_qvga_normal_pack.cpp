@@ -30,7 +30,7 @@ TAknLayoutId const id = EAknLayoutIdABRW;
 
 #include "aknlayoutscalable_abrw_pqp_av_qvga_prt_normal.h"
 #include "aknlayoutscalable_abrw_pqp_apps_qvga_prt_normal.h"
-#include "CdlFontInst_QVGA.h"
+#include "cdlfontinst_qvga.h"
 #include "displaylayoutmetricsinst_qvga.h"
 #include "../dllinstances.hrh"
 #include "../adaptation_layer_aknlayout_elaf.h"

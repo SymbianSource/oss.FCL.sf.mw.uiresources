@@ -34,7 +34,7 @@ source           layoutinst_qvga.cpp
 source           elaf_qvga_normal_pack.cpp
 source           aknlayoutscalable_elaf_pqp_av_qvga_prt_normal.cpp
 source           aknlayoutscalable_elaf_pqp_apps_qvga_prt_normal.cpp
-source           CdlFontInst_QVGA.cpp
+source           cdlfontinst_qvga.cpp
 source           displaylayoutmetricsinst_qvga.cpp
 source           elaf_qvga_small_pack.cpp
 source           aknlayoutscalable_elaf_pqp_av_qvga_prt_small.cpp

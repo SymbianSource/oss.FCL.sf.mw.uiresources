@@ -1546,7 +1546,7 @@ EXPORT_C CFbsFont* AknFontProvider::CreateFontFromMetrics (
     DoGetFontSpecFromMetrics(aDevice, aFontId, aMetrics, fontSpec, foundIndex, needsExactMatch, fallbackNeeded);
 
     CFbsFont* font;
-    User::LeaveIfError(aDevice.GetNearestFontInPixels((CFont*&)font,fontSpec));
+    aDevice.GetNearestFontInPixels((CFont*&)font,fontSpec);
 
     // Fill in other Font metrics
     SetFontProviderSuppliedMetrics( font, &(productFontTable[foundIndex]), aInfo );

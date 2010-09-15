@@ -74,14 +74,17 @@ static const TCollationDataSet TheCollationDataSet =
 
 static const TUnicodeData TheUnicodeTurkishData[] =	// property table
 	{
-	{ 0, 0, 0, 0, 232, 1 }	// character properties. See the definition of TUnicodeData in /include/unicode.h.
+	{ 0, 0, 0, 0, 232, 1 },	// Character properties. See the definition of TUnicodeData in /include/unicode.h. Turkish LowerCase fix.
+	{ 1, 0, 0, 0, -199, 2 }	// Turkish UpperCase fix.
 	};
 static const TUnicodeDataRange TheUnicodeTurkishDataRange[] =	// character range table
 	{
-// This table defines only one character 0x49.
+// This table defines characters 0x49 and 0x69
 	{ 0x0, -1 },	// characters 0x0-0x48 has index=-1 into above property table (-1 means not defined)
 	{ 0x49, 0 },	// characters 0x49-0x49 has index=0 into above property table, that is, 0x49 has property {0,0,0,0,232,1}
-	{ 0x4A, -1 }	// characters 0x4A-0x10FFFF has index=-1 into above property table (-1 means not defined)
+	{ 0x4A, -1 },	// characters 0x4A-0x68 has index=-1
+	{ 0x69, 1 },	// character 0x69 has index=1 into above property table, 0x69 has property { 1, 0, 0, 0, -199, 2 }
+	{ 0x6A, -1 }	// characters 0x6A-0x10FFFF has index=-1
 	};
 const TUnicodeDataSet TheUnicodeTurkishDataSet =	
 	{
