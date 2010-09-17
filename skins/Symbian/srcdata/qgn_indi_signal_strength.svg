@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="19.057px" preserveAspectRatio="xMidYMid meet" viewBox="-3.6 0.917 19.057 28.871" height="28.871px" x="0px" y="0px">
+    <g>
+        <rect x="-0.9" width="13.8" fill="none" height="29"/>
+        <g>
+            <g>
+                <rect x="0.595" width="10.925" fill="#f0f0f0" y="1.7" height="2.9"/>
+            </g>
+            <g>
+                <rect x="0.595" width="10.925" fill="#f0f0f0" y="5.7" height="2.9"/>
+            </g>
+            <g>
+                <rect x="0.595" width="10.925" fill="#f0f0f0" y="9.7" height="2.9"/>
+            </g>
+            <g>
+                <rect x="0.595" width="10.925" fill="#f0f0f0" y="13.7" height="2.899"/>
+            </g>
+            <g>
+                <rect x="0.595" width="10.925" fill="#f0f0f0" y="17.7" height="2.899"/>
+            </g>
+            <g>
+                <rect x="0.595" width="10.925" fill="#f0f0f0" y="21.7" height="2.899"/>
+            </g>
+            <g>
+                <rect x="0.595" width="10.925" fill="#f0f0f0" y="26" height="2.898"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="40px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 2.6" height="2.6px" x="0px" y="0px">
+    <g>
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <linearGradient x1="0.1997" gradientTransform="matrix(1 0 0 -1 0 2.6001)" y1="-5.1902" x2="0.1997" gradientUnits="userSpaceOnUse" y2="-5.8774" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+                                    <stop stop-color="#cddd54" offset="0"/>
+                                    <stop stop-color="#a5b344" offset="1"/>
+                                </linearGradient>
+                                <path fill="url(#SVGID_1_)" d="M 0.1 7.8 L 0.1 8.3 C 0.1 8.400001 0.2 8.5 0.3 8.5 "/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <linearGradient x1="19.9507" y1="2.5999" x2="19.9507" gradientUnits="userSpaceOnUse" y2="7.324219e-004" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_2_" xlink:show="other">
+        <stop stop-color="#a5b344" offset="0"/>
+        <stop stop-color="#cddd54" offset="1"/>
+    </linearGradient>
+    <path fill="url(#SVGID_2_)" d="M 39.6 0.0 L 0.3 0.0 C 0.1 0.0 0.0 0.1 0.0 0.3 L 0.0 2.3 C 0.0 2.5 0.1 2.6 0.3 2.6 L 39.6 2.6 C 39.8 2.6 39.900997 2.5 39.900997 2.3 L 39.900997 0.29999995 C 39.9 0.1 39.8 0.0 39.6 0.0 z "/>
+    <g stroke-opacity="0.25" fill-opacity="0.25">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <path d="M 3.4 2.5 L 5.8 0.099999905 L 3.9 0.099999905 L 1.6 2.5 L 3.4 2.5 z M 7.1 2.5 L 9.4 0.099999905 L 7.6 0.099999905 L 5.2 2.5 L 7.1 2.5 z M 10.7 2.5 L 13.1 0.099999905 L 11.200001 0.099999905 L 8.9 2.5 L 10.7 2.5 z M 14.4 2.5 L 16.699999 0.099999905 L 14.899999 0.099999905 L 12.499998 2.5 L 14.4 2.5 z M 18.0 2.5 L 20.4 0.099999905 L 18.6 0.099999905 L 16.2 2.5 L 18.0 2.5 z M 21.7 2.5 L 24.1 0.1 L 22.2 0.1 L 19.900002 2.5 L 21.7 2.5 z M 25.4 2.5 L 27.699999 0.099999905 L 25.9 0.099999905 L 23.5 2.5 L 25.4 2.5 z M 29.0 2.5 L 31.4 0.099999905 L 29.5 0.099999905 L 27.2 2.5 L 29.0 2.5 z M 32.7 2.5 L 35.0 0.1 L 33.2 0.1 L 30.800001 2.5 L 32.7 2.5 z M 36.3 2.5 L 38.7 0.099999905 L 36.9 0.099999905 L 34.5 2.5 L 36.3 2.5 z M 0.1 2.1 L 2.1 0.099999905 L 0.3 0.099999905 C 0.2 0.1 0.1 0.2 0.1 0.3 L 0.1 2.1 z M 39.9 2.3 L 39.9 0.8 L 38.2 2.5 L 39.7 2.5 C 39.8 2.5 39.9 2.4 39.9 2.3 z "/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="12" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 12 32" height="32" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <g>
+        <g>
+            <g>
+                <linearGradient x1="6.5" y1="27.0488" x2="6.5" gradientUnits="userSpaceOnUse" y2="15.0005" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_3_" xlink:show="other">
+                    <stop stop-color="#ffffff" offset="0"/>
+                    <stop stop-color="#e1e1e1" offset="0.8202"/>
+                    <stop stop-color="#e1e1e1" offset="1"/>
+                </linearGradient>
+                <path fill="url(#XMLID_3_)" d="M 6.5 27.049 C 4.016 27.049 2.0 25.049 2.0 22.587 L 2.0 19.461 C 2.0 16.998 4.016 15.0 6.5 15.0 L 6.5 15.0 C 8.986 15.0 11.0 16.998 11.0 19.461 L 11.0 22.587 C 11.0 25.049 8.986 27.049 6.5 27.049 L 6.5 27.049 z "/>
+                <g>
+                    <linearGradient x1="6.5" y1="15" x2="6.5" gradientUnits="userSpaceOnUse" y2="21.3472" xlink:type="simple" xlink:actuate="onLoad" id="XMLID_4_" xlink:show="other">
+                        <stop stop-color="#ffffff" offset="0"/>
+                        <stop stop-color="#f5f5f5" offset="0.105"/>
+                        <stop stop-color="#ebebeb" offset="1"/>
+                    </linearGradient>
+                    <path fill="url(#XMLID_4_)" d="M 6.5 15.0 C 4.016 15.0 2.0 16.998 2.0 19.461 L 2.0 21.347 L 3.0 21.347 L 3.0 19.875 C 3.0 17.959 4.566 16.453 6.5 16.453 C 8.434 16.453 10.0 17.959 10.0 19.875 L 10.0 21.347 L 11.0 21.347 L 11.0 19.461 C 11.0 16.998 8.986 15.0 6.5 15.0 z "/>
+                </g>
+                <path fill="#a0a0a0" d="M 1.0 19.461 L 1.0 22.587 C 1.0 25.598 3.467 28.0 6.5 28.0 C 9.531 28.0 12.0 25.598 12.0 22.587 L 12.0 19.461 C 12.0 16.45 9.531 14.0 6.5 14.0 C 3.467 14.0 1.0 16.45 1.0 19.461 z M 2.0 22.587 L 2.0 19.461 C 2.0 17.002 4.018 15.0 6.5 15.0 C 8.98 15.0 11.0 17.002 11.0 19.461 L 11.0 22.587 C 11.0 25.047 8.98 27.049 6.5 27.049 C 4.018 27.049 2.0 25.047 2.0 22.587 z " fill-opacity="0.7" stroke-opacity="0.7"/>
+            </g>
+            <path fill="#e1e1e1" d="M 10.0 22.578 C 10.0 24.494 8.434 26.049 6.5 26.049 C 4.566 26.049 3.0 24.494 3.0 22.578 L 3.0 21.299 L 2.0 21.299 L 2.0 22.587 C 2.0 25.049 4.016 27.049 6.5 27.049 C 8.986 27.049 11.0 25.049 11.0 22.587 L 11.0 21.299 L 10.0 21.299 L 10.0 22.578 z " fill-opacity="0.8" stroke-opacity="0.8"/>
+        </g>
+        <rect width="12" fill="none" height="32"/>
+    </g>
+</svg>

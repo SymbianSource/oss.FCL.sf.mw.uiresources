@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE design SYSTEM "design.dtd">
+<design name="Tool design for Series 60 Themes Creation Application">
+<task name="ICONS">
+<toolbox bitmapblocked="false" colourize="true" createanother="true" designaids="false" intensity="true" mask="true" mirror="false" move="true" multiplecomponents="false" multipleelements="true" rotate="true" samecomponent="false" scale="false" split="false" tile="false"/>
+<componentgroup name="Application Icons">
+<component name="Context Pane Icons" picture="comp_pb_names_list.bmp">
+</component>
+</componentgroup>
+</task>
+</design>

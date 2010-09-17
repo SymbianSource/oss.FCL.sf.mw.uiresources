@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="60" viewBox="-0.5 0.5 44 60">
+<g>
+<polygon fill="#656B6B" fill-opacity="0.01" points="-0.5,31.5 -0.5,60.5 43.5,60.5 43.5,0.5 36.848,0.5 1.846,31.5 "/>
+<polygon fill="#656B6B" fill-opacity="0.02" points="43.5,60.5 43.5,1.5 37.227,1.5 2.225,32.5 -0.5,32.5 -0.5,60.5 "/>
+<polygon fill="#656B6B" fill-opacity="0.03" points="43.5,60.5 43.5,2.5 37.605,2.5 2.604,33.5 -0.5,33.5 -0.5,60.5 "/>
+<polygon fill="#656B6B" fill-opacity="0.05" points="43.5,60.5 43.5,3.5 37.984,3.5 2.982,34.5 -0.5,34.5 -0.5,60.5 "/>
+<path fill="#656B6B" fill-opacity="0.06" d="M43.5,60.5v-56h-5.137c0,0-34.443,30.506-35.002,31c-0.077,0-1.465,0-3.861,0v25H43.5z "/>
+<path fill="#656B6B" fill-opacity="0.1" d="M43.5,60.5v-55h-4.758c0,0-34.442,30.506-35.001,31c-0.081,0-1.603,0-4.241,0v24H43.5z"/>
+<path fill="#656B6B" fill-opacity="0.1" d="M43.5,60.5v-54h-4.379c0,0-34.441,30.506-35,31c-0.085,0-1.751,0-4.621,0v23H43.5z"/>
+<path fill="#656B6B" fill-opacity="0.1" d="M43.5,60.5v-53c-2.559,0-4,0-4,0l-35,31c-0.702,0-2.443,0-5,0v22H43.5z"/>
+<polygon fill="#FFFFFF" fill-opacity="0.8" points="43.5,60.5 43.5,4.5 38.361,4.5 3.361,35.5 -0.5,35.5 -0.5,60.5 "/>
+<rect x="-0.5" y="0.5" fill="none" width="44" height="60"/>
+</g>
+</svg>
