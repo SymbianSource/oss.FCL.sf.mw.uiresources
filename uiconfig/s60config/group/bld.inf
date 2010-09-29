@@ -33,6 +33,7 @@ PRJ_EXPORTS
 
 ../src/epoc_640x360_touch_qwerty.ini    /epoc32/data/epoc_640x360_touch_qwerty.ini
 ../src/epoc_360x640_touch.ini           /epoc32/data/epoc_360x640_touch.ini
+../src/epoc_360x640_touch_rotated.ini   /epoc32/data/epoc_360x640_touch_rotated.ini
 ../src/epoc_640x360_nhd4_qwerty.ini    /epoc32/data/epoc_640x360_nhd4_qwerty.ini
 ../src/epoc_360x640_nhd4.ini           /epoc32/data/epoc_360x640_nhd4.ini
 ../src/epoc_640x480_touch_qwerty.ini   /epoc32/data/epoc_640x480_touch_qwerty.ini
