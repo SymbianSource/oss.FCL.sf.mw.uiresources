@@ -43,10 +43,8 @@ CSvgtRasterizerOOMPropertyMonitor::CSvgtRasterizerOOMPropertyMonitor()
 
 CSvgtRasterizerOOMPropertyMonitor::~CSvgtRasterizerOOMPropertyMonitor()
     {
-    if (CActiveScheduler::Current())
-        {    
-        Cancel();
-        }
+    //if (CActiveScheduler::Current())//In a scenario where mpxserver deletes Active scheduler and Disconnects RFbsSession,this code was causing User::Panic    
+    Cancel();
     iOomWatcher.Close();
     } 
 
