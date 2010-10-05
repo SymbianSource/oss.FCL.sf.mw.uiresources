@@ -7,7 +7,7 @@
 ;
 ; Package header
 ;
-#{"fresh_beta_2-11"},(0xA00000EB),1,0,0,TYPE=SP
+#{"Fresh"},(0x200259e6),1,0,0
 ;
 ; Supports Series 60 v5.x
 ; This line indicates that this installation is for the Series 60 platform v5.x
@@ -35,11 +35,11 @@
 ;
 ; Files to install
 ;
-"themepackage.mbm" - "!:\resource\skins\011fe14e87d4f21f\themepackage.mbm"
-"themepackage.mif" - "!:\resource\skins\011fe14e87d4f21f\themepackage.mif"
-"themepackage.skn" - "!:\private\10207114\import\011fe14e87d4f21f\themepackage.skn"
+"themepackage.mbm" - "!:\resource\skins\200259e6\themepackage.mbm"
+"themepackage.mif" - "!:\resource\skins\200259e6\themepackage.mif"
+"themepackage.skn" - "!:\private\10207114\import\200259e6\themepackage.skn"
 ;Dummy entry for the possible skin .ini file,so that it gets removed on uninstall
-"" - "!:\private\10207114\import\011fe14e87d4f21f\011fe14e87d4f21f.ini",FN
+"" - "!:\private\10207114\import\200259e6\200259e6.ini",FN
 ;
 ; End of file
 ;
