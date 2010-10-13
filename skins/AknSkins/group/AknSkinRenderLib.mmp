@@ -44,15 +44,15 @@ LIBRARY         euser.lib
 LIBRARY         gdi.lib
 LIBRARY         fbscli.lib 
 LIBRARY         bitgdi.lib
-LIBRARY         aknicon.lib
+LIBRARY         AknIcon.lib
 LIBRARY         CdlEngine.lib
-LIBRARY         avkon.lib
+LIBRARY         Avkon.lib
 LIBRARY         eikcore.lib
 LIBRARY         AknLayout2Scalable.lib
-LIBRARY         aknskinsrv.lib
+LIBRARY         AknSkinSrv.lib
 LIBRARY         efsrv.lib
-LIBRARY         centralrepository.lib
-LIBRARY         aknlayout2.lib
+LIBRARY         CentralRepository.lib
+LIBRARY         AknLayout2.lib
 
 SOURCEPATH      ../rlsrc
 SOURCE          AknSkinRenderLibDll.cpp

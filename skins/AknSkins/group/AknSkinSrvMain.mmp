@@ -44,7 +44,7 @@ SOURCEPATH      ../srvsrc
 SOURCE          AknsSrvMain.cpp
 
 LIBRARY         euser.lib
-LIBRARY         aknskinsrv.lib
+LIBRARY         AknSkinSrv.lib
 
 EPOCPROCESSPRIORITY high
 

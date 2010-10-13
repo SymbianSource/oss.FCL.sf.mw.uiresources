@@ -7786,33 +7786,8 @@ enum TAknsMinorGenericValue
     EAknsMinorGenericQgnIndiInputPage1 = 0x2643,
     EAknsMinorGenericQgnIndiInputPage2 = 0x2644,
     EAknsMinorGenericQtgGrafTaskswitcherVideoPlayer = 0x2645,
-    EAknsMinorGenericQsnBigclockAnalogueFaceScreensaverStrokeLandscape = 0x2646,
-    EAknsMinorGenericQgnPropCmccSync = 0x2647,
-    EAknsMinorGenericQgnPropCmccUnsync = 0x2648,
-    EAknsMinorGenericQgnIndiBrowserTbAddBookmark = 0x2649,
-    EAknsMinorGenericQgnIndiBrowserTbAddRss = 0x264a,
-    EAknsMinorGenericQgnIndiBrowserTbBookmarks = 0x264b,
-    EAknsMinorGenericQgnIndiBrowserTbHistoryBackDimmed = 0x264c,
-    EAknsMinorGenericQgnIndiTbHideMenu = 0x264d,
-    EAknsMinorGenericQgnIndiTbShowMenu = 0x264e,
-    EAknsMinorGenericQgnPropFtuOvi = 0x264f,
-    EAknsMinorGenericQsnBigclockAnaloguePointerHoursScreensaverLandscape = 0x2650,
-    EAknsMinorGenericQsnBigclockAnaloguePointerMinutesScreensaverLandscape = 0x2651,
-    EAknsMinorGenericQgnIndiGalleryTbAll = 0x2652,
-    EAknsMinorGenericQgnIndiGalleryTbExtension = 0x2653,
-    EAknsMinorGenericQgnIndiTbAlbum = 0x2654,
-    EAknsMinorGenericQgnIndiTbNewTag = 0x2655,
-    EAknsMinorGenericQgnIndiTbTags = 0x2656,
-    EAknsMinorGenericQgnPropGalleryBirthday = 0x2657,
-    EAknsMinorGenericQgnPropGalleryFavourites = 0x2658,
-    EAknsMinorGenericQgnPropGalleryPersonal = 0x2659,
-    EAknsMinorGenericQgnPropGalleryTags = 0x265a,
-    EAknsMinorGenericQgnStatAudiorecVidcal = 0x265b,
-    EAknsMinorGenericQgnStatAudiorecVidcalBlink = 0x265c,
-    EAknsMinorGenericQgnIndiCdrSolarlunar = 0x265d,
-    EAknsMinorGenericQgnPropPslnFontSub = 0x265e,
-    // SCMMARKER_INSERTIONPOINT [9823]
-    EAknsMinorGenericInternalCurrentLastItem = 0x265f
+    // SCMMARKER_INSERTIONPOINT [9798]
+    EAknsMinorGenericInternalCurrentLastItem = 0x2646
     };
 
 // ----------------------------------------------------------------------------

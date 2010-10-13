@@ -40,17 +40,17 @@ SYSTEMINCLUDE   ../../../inc
 
 source  FontProvider.cpp
 
-library euser.lib
-library gdi.lib
-library cone.lib
-library fontutils.lib
-library featmgr.lib
-library fbscli.lib
-library fntstr.lib
-library eikcore.lib
-library egul.lib
-library bafl.lib
-library centralrepository.lib
-library efsrv.lib
+library EUSER.LIB
+library GDI.LIB
+library CONE.LIB
+library FONTUTILS.LIB
+library FEATMGR.LIB
+library FBSCLI.LIB
+library FNTSTR.LIB
+library EIKCORE.LIB
+library EGUL.LIB
+library BAFL.LIB
+library CENTRALREPOSITORY.LIB
+library EFSRV.LIB
 
 deffile FONTPROVIDER.DEF

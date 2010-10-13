@@ -538,8 +538,8 @@ void CAknsSrv::NotifyDRMChangeL()
                 {
                 AKNS_TRACE_INFO("CAknsSrv::NotifyDRMChange: RemoveAutomated called for skin");
                 iDrmHelper->SetAutomatedType(CDRMHelper::EAutomatedTypeTheme);
-                iDrmHelper->CheckRightsAmountL( *iSkinContentUri2);
-                User::LeaveIfError(iDrmHelper->RemoveAutomated( *iSkinContentUri2 ));
+                iDrmHelper->CheckRightsAmountL(curi);
+                User::LeaveIfError(iDrmHelper->RemoveAutomated(curi));
                 delete iSkinContentUri2;
                 iSkinContentUri2 = NULL;
                 }
@@ -547,8 +547,8 @@ void CAknsSrv::NotifyDRMChangeL()
                 {
                 AKNS_TRACE_INFO("CAknsSrv::NotifyDRMChange: RemoveAutomated called for idlewp");
                 iDrmHelper->SetAutomatedType(CDRMHelper::EAutomatedTypeWallpaper);
-                iDrmHelper->CheckRightsAmountL( *iIdleWPContentUri2);
-                User::LeaveIfError(iDrmHelper->RemoveAutomated( *iIdleWPContentUri2 ));
+                iDrmHelper->CheckRightsAmountL(curi);
+                User::LeaveIfError(iDrmHelper->RemoveAutomated(curi));
                 delete iIdleWPContentUri2;
                 iIdleWPContentUri2 = NULL;
                 }
@@ -2793,11 +2793,9 @@ void CAknsSrv::RestoreOldSkinL()
             }
             
         SetActiveSkinContent( iOldSkin  );
-        if ( MergeAndBroadcast() == KErrNone )
-            {
-            iSettings->WriteSkinSettings(iOldSkin, ETrue);
-            }
+        iSettings->WriteSkinSettings(iOldSkin, ETrue);
         iOldSkin = KAknsNullPkgID;
+        MergeAndBroadcast();
         return; // if skin was on mmc, the wallpaper is handled aswell
         }
     // skin was not on mmc, but wp was

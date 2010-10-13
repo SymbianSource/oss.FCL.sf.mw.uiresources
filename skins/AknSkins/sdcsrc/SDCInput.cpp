@@ -241,12 +241,13 @@ int CSDCInput::ConvertToNumber( const wchar_t* aToken )
 
 void CSDCInput::ConvertToAscii( char* aTarget, const wchar_t* aSource )
     {
-    while( *aTarget++ = (char)*aSource++);
-    }
-
-void CSDCInput::ConvertToWchar( wchar_t* aTarget, const char* aSource )
-    {
-    while( *aTarget++ = (wchar_t)*aSource++);
+    int i = 0;
+    while( true )
+        {
+        aTarget[i] = (char)aSource[i];
+        if( !aSource[i] ) break;
+        i++;
+        }
     }
 
 void CSDCInput::ConvertToAsciiWithCPPEscapes( char* aTarget, const wchar_t* aSource )
@@ -342,7 +343,7 @@ void CSDCInput::RawRead()
 #if (defined(__MSVCRT__) || defined(_MSC_VER))
         iNextChar = fgetwc( iFile );
 #else
-        /* Workaround for linux */
+        /* to make it work under linux */
         char c1 = fgetc(iFile);
         char c2 = fgetc(iFile);
         

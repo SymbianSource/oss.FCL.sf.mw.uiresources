@@ -14840,6 +14840,12 @@ inline TAknWindowComponentLayout sso_option_row_pane_g1(TInt aVariety = 0, TInt 
 
 inline TAknTextComponentLayout sso_option_row_pane_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tsso_option_row_pane_t1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_sso_option_row_pane_t1)))(aVariety, aCol, aRow); }
 
+// LAF Table : listscroll_cmail_pane
+inline TAknLayoutScalableParameterLimits list_cmail_pane_ParamLimits(TInt aVariety)		{ return (*(Tlist_cmail_pane_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_list_cmail_pane_ParamLimits)))(aVariety); }
+
+// LAF Table : main_callh_pane
+inline TAknWindowComponentLayout main_call7_pane(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tmain_call7_pane_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_call7_pane)))(aVariety, aCol, aRow); }
+
 // LAF Table : main_welc_pane
 inline TAknLayoutScalableParameterLimits bg_welc_area_ParamLimits(TInt aVariety)		{ return (*(Tbg_welc_area_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_bg_welc_area_ParamLimits)))(aVariety); }
 
@@ -14857,6 +14863,10 @@ inline TAknLayoutScalableParameterLimits sso_t_sub_pane_a_t1_ParamLimits(TInt aV
 
 inline TAknTextComponentLayout sso_t_sub_pane_a_t1(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tsso_t_sub_pane_a_t1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_sso_t_sub_pane_a_t1)))(aVariety, aCol, aRow); }
 
+inline TAknLayoutScalableParameterLimits welc_button_pane_cp01_ParamLimits(TInt aVariety)		{ return (*(Twelc_button_pane_cp01_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_welc_button_pane_cp01_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout welc_button_pane_cp01(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Twelc_button_pane_cp01_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_welc_button_pane_cp01)))(aVariety, aCol, aRow); }
+
 // LAF Table : welc_button_pane_2
 inline TAknTextComponentLayout sso_btn_pane_t1_copy1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tsso_btn_pane_t1_copy1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_sso_btn_pane_t1_copy1)))(aVariety, aCol, aRow); }
 
@@ -14869,16 +14879,13 @@ inline TAknTextComponentLayout sso_t_nml_pane_p_t1(TInt aVariety = 0, TInt aCol 
 
 inline TAknTextComponentLayout sso_t_sub_pane_p_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tsso_t_sub_pane_p_t1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_sso_t_sub_pane_p_t1)))(aVariety, aCol, aRow); }
 
-// LAF Table : listscroll_cmail_pane
-inline TAknLayoutScalableParameterLimits list_cmail_pane_ParamLimits(TInt aVariety)		{ return (*(Tlist_cmail_pane_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_list_cmail_pane_ParamLimits)))(aVariety); }
-
-// LAF Table : main_welc_pane
-inline TAknLayoutScalableParameterLimits welc_button_pane_cp01_ParamLimits(TInt aVariety)		{ return (*(Twelc_button_pane_cp01_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_welc_button_pane_cp01_ParamLimits)))(aVariety); }
-
-inline TAknWindowComponentLayout welc_button_pane_cp01(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Twelc_button_pane_cp01_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_welc_button_pane_cp01)))(aVariety, aCol, aRow); }
-
 // LAF Table : main_acti_pane
 inline TAknWindowComponentLayout main_att_pane(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tmain_att_pane_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_att_pane)))(aVariety, aCol, aRow); }
+
+inline TAknWindowComponentLayout main_vod_pane(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tmain_vod_pane_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_vod_pane)))(aVariety, aCol, aRow); }
+
+// LAF Table : sso_body_pane
+inline TAknLayoutScalableParameterLimits sso_t_sub_pane_ParamLimits(TInt aVariety)		{ return (*(Tsso_t_sub_pane_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_sso_t_sub_pane_ParamLimits)))(aVariety); }
 
 // LAF Table : input_focus_pane_cp10
 inline TAknTextComponentLayout input_focus_pane_cp10_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tinput_focus_pane_cp10_t1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_input_focus_pane_cp10_t1)))(aVariety, aCol, aRow); }
@@ -14892,6 +14899,10 @@ inline TAknLayoutScalableParameterLimits main_att_body_pane_ParamLimits(TInt aVa
 inline TAknWindowComponentLayout main_att_body_pane(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tmain_att_body_pane_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_att_body_pane)))(aVariety, aCol, aRow); }
 
 // LAF Table : main_att_body_pane
+inline TAknLayoutScalableParameterLimits att_btn_emg_pane_ParamLimits(TInt aVariety)		{ return (*(Tatt_btn_emg_pane_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_btn_emg_pane_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout att_btn_emg_pane(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tatt_btn_emg_pane_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_btn_emg_pane)))(aVariety, aCol, aRow); }
+
 inline TAknLayoutScalableParameterLimits att_btn_pane_ParamLimits(TInt aVariety)		{ return (*(Tatt_btn_pane_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_btn_pane_ParamLimits)))(aVariety); }
 
 inline TAknWindowComponentLayout att_btn_pane(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tatt_btn_pane_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_btn_pane)))(aVariety, aCol, aRow); }
@@ -14996,34 +15007,19 @@ inline TAknTextComponentLayout att_opt_row_pane_t1(TInt aVariety = 0, TInt aCol 
 // LAF Table : att_li_srv_row_pane
 inline TAknWindowComponentLayout att_li_srv_row_pane_g1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tatt_li_srv_row_pane_g1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_li_srv_row_pane_g1)))(aVariety, aCol, aRow); }
 
+inline TAknLayoutScalableParameterLimits att_li_srv_row_pane_t1_ParamLimits(TInt aVariety = 0)		{ return (*(Tatt_li_srv_row_pane_t1_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_li_srv_row_pane_t1_ParamLimits)))(aVariety); }
+
 inline TAknTextComponentLayout att_li_srv_row_pane_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tatt_li_srv_row_pane_t1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_li_srv_row_pane_t1)))(aVariety, aCol, aRow); }
+
+inline TAknLayoutScalableParameterLimits att_li_srv_row_pane_t2_ParamLimits(TInt aVariety = 0)		{ return (*(Tatt_li_srv_row_pane_t2_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_li_srv_row_pane_t2_ParamLimits)))(aVariety); }
 
 inline TAknTextComponentLayout att_li_srv_row_pane_t2(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tatt_li_srv_row_pane_t2_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_li_srv_row_pane_t2)))(aVariety, aCol, aRow); }
 
 inline TAknLayoutScalableTableLimits att_li_srv_row_pane_t_Limits()		{ return (*(Tatt_li_srv_row_pane_t_Limits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_li_srv_row_pane_t_Limits)))(); }
 
-inline TAknTextComponentLayout att_li_srv_row_pane_t(TInt aLineIndex, TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tatt_li_srv_row_pane_t_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_li_srv_row_pane_t)))(aLineIndex, aVariety, aCol, aRow); }
-
-// LAF Table : main_callh_pane
-inline TAknWindowComponentLayout main_call7_pane(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tmain_call7_pane_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_call7_pane)))(aVariety, aCol, aRow); }
-
-// LAF Table : main_acti_pane
-inline TAknWindowComponentLayout main_vod_pane(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tmain_vod_pane_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_main_vod_pane)))(aVariety, aCol, aRow); }
-
-// LAF Table : sso_body_pane
-inline TAknLayoutScalableParameterLimits sso_t_sub_pane_ParamLimits(TInt aVariety)		{ return (*(Tsso_t_sub_pane_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_sso_t_sub_pane_ParamLimits)))(aVariety); }
-
-// LAF Table : main_att_body_pane
-inline TAknLayoutScalableParameterLimits att_btn_emg_pane_ParamLimits(TInt aVariety)		{ return (*(Tatt_btn_emg_pane_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_btn_emg_pane_ParamLimits)))(aVariety); }
-
-inline TAknWindowComponentLayout att_btn_emg_pane(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tatt_btn_emg_pane_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_btn_emg_pane)))(aVariety, aCol, aRow); }
-
-// LAF Table : att_li_srv_row_pane
-inline TAknLayoutScalableParameterLimits att_li_srv_row_pane_t1_ParamLimits(TInt aVariety = 0)		{ return (*(Tatt_li_srv_row_pane_t1_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_li_srv_row_pane_t1_ParamLimits)))(aVariety); }
-
-inline TAknLayoutScalableParameterLimits att_li_srv_row_pane_t2_ParamLimits(TInt aVariety = 0)		{ return (*(Tatt_li_srv_row_pane_t2_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_li_srv_row_pane_t2_ParamLimits)))(aVariety); }
-
 inline TAknLayoutScalableParameterLimits att_li_srv_row_pane_t_ParamLimits(TInt aLineIndex, TInt aVariety = 0)		{ return (*(Tatt_li_srv_row_pane_t_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_li_srv_row_pane_t_ParamLimits)))(aLineIndex, aVariety); }
+
+inline TAknTextComponentLayout att_li_srv_row_pane_t(TInt aLineIndex, TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tatt_li_srv_row_pane_t_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_li_srv_row_pane_t)))(aLineIndex, aVariety, aCol, aRow); }
 
 // LAF Table : att_btn_emg_pane
 inline TAknWindowComponentLayout att_btn_close_pane_g1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tatt_btn_close_pane_g1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_att_btn_close_pane_g1)))(aVariety, aCol, aRow); }
@@ -15246,6 +15242,33 @@ inline TAknWindowComponentLayout call7_list_conf_row_pane_g(TInt aLineIndex, TIn
 inline TAknTextComponentLayout call7_list_conf_row_pane_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tcall7_list_conf_row_pane_t1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_call7_list_conf_row_pane_t1)))(aVariety, aCol, aRow); }
 
 inline TAknWindowComponentLayout list_highlight_pane_cp22(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tlist_highlight_pane_cp22_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_list_highlight_pane_cp22)))(aVariety, aCol, aRow); }
+
+// LAF Table : sso_body_pane
+inline TAknLayoutScalableParameterLimits sso_option_pane_cp01_ParamLimits(TInt aVariety)		{ return (*(Tsso_option_pane_cp01_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_sso_option_pane_cp01_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout sso_option_pane_cp01(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tsso_option_pane_cp01_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_sso_option_pane_cp01)))(aVariety, aCol, aRow); }
+
+// LAF Table : msg_text_pane
+inline TAknLayoutScalableParameterLimits msg_header_pane_ParamLimits(TInt aVariety)		{ return (*(Tmsg_header_pane_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_msg_header_pane_ParamLimits)))(aVariety); }
+
+// LAF Table : msg_header_pane
+inline TAknLayoutScalableParameterLimits bg_button_pane_cp01_ParamLimits(TInt aVariety)		{ return (*(Tbg_button_pane_cp01_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_bg_button_pane_cp01_ParamLimits)))(aVariety); }
+
+inline TAknLayoutScalableParameterLimits input_focus_pane_cp07_ParamLimits(TInt aVariety)		{ return (*(Tinput_focus_pane_cp07_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_input_focus_pane_cp07_ParamLimits)))(aVariety); }
+
+// LAF Table : main_sp_fs_email_pane
+inline TAknWindowComponentLayout popup_email_progress_window(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tpopup_email_progress_window_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_popup_email_progress_window)))(aVariety, aCol, aRow); }
+
+// LAF Table : popup_email_progress_window
+inline TAknWindowComponentLayout popup_email_progress_window_g1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tpopup_email_progress_window_g1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_popup_email_progress_window_g1)))(aVariety, aCol, aRow); }
+
+inline TAknWindowComponentLayout popup_email_progress_window_g2(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tpopup_email_progress_window_g2_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_popup_email_progress_window_g2)))(aVariety, aCol, aRow); }
+
+inline TAknLayoutScalableTableLimits popup_email_progress_window_g_Limits()		{ return (*(Tpopup_email_progress_window_g_Limits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_popup_email_progress_window_g_Limits)))(); }
+
+inline TAknWindowComponentLayout popup_email_progress_window_g(TInt aLineIndex, TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tpopup_email_progress_window_g_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_popup_email_progress_window_g)))(aLineIndex, aVariety, aCol, aRow); }
+
+inline TAknTextComponentLayout popup_email_progress_window_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tpopup_email_progress_window_t1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_popup_email_progress_window_t1)))(aVariety, aCol, aRow); }
 
 #ifdef __VC32__
 #pragma component(mintypeinfo, on)
@@ -30063,6 +30086,12 @@ public:
 
 	inline TAknTextComponentLayout sso_option_row_pane_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tsso_option_row_pane_t1_sig*)(GetFunction(EApiId_sso_option_row_pane_t1)))(aVariety, aCol, aRow); }
 
+	// LAF Table : listscroll_cmail_pane
+	inline TAknLayoutScalableParameterLimits list_cmail_pane_ParamLimits(TInt aVariety) const		{ return (*(Tlist_cmail_pane_ParamLimits_sig*)(GetFunction(EApiId_list_cmail_pane_ParamLimits)))(aVariety); }
+
+	// LAF Table : main_callh_pane
+	inline TAknWindowComponentLayout main_call7_pane(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tmain_call7_pane_sig*)(GetFunction(EApiId_main_call7_pane)))(aVariety, aCol, aRow); }
+
 	// LAF Table : main_welc_pane
 	inline TAknLayoutScalableParameterLimits bg_welc_area_ParamLimits(TInt aVariety) const		{ return (*(Tbg_welc_area_ParamLimits_sig*)(GetFunction(EApiId_bg_welc_area_ParamLimits)))(aVariety); }
 
@@ -30080,6 +30109,10 @@ public:
 
 	inline TAknTextComponentLayout sso_t_sub_pane_a_t1(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tsso_t_sub_pane_a_t1_sig*)(GetFunction(EApiId_sso_t_sub_pane_a_t1)))(aVariety, aCol, aRow); }
 
+	inline TAknLayoutScalableParameterLimits welc_button_pane_cp01_ParamLimits(TInt aVariety) const		{ return (*(Twelc_button_pane_cp01_ParamLimits_sig*)(GetFunction(EApiId_welc_button_pane_cp01_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout welc_button_pane_cp01(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Twelc_button_pane_cp01_sig*)(GetFunction(EApiId_welc_button_pane_cp01)))(aVariety, aCol, aRow); }
+
 	// LAF Table : welc_button_pane_2
 	inline TAknTextComponentLayout sso_btn_pane_t1_copy1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tsso_btn_pane_t1_copy1_sig*)(GetFunction(EApiId_sso_btn_pane_t1_copy1)))(aVariety, aCol, aRow); }
 
@@ -30092,16 +30125,13 @@ public:
 
 	inline TAknTextComponentLayout sso_t_sub_pane_p_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tsso_t_sub_pane_p_t1_sig*)(GetFunction(EApiId_sso_t_sub_pane_p_t1)))(aVariety, aCol, aRow); }
 
-	// LAF Table : listscroll_cmail_pane
-	inline TAknLayoutScalableParameterLimits list_cmail_pane_ParamLimits(TInt aVariety) const		{ return (*(Tlist_cmail_pane_ParamLimits_sig*)(GetFunction(EApiId_list_cmail_pane_ParamLimits)))(aVariety); }
-
-	// LAF Table : main_welc_pane
-	inline TAknLayoutScalableParameterLimits welc_button_pane_cp01_ParamLimits(TInt aVariety) const		{ return (*(Twelc_button_pane_cp01_ParamLimits_sig*)(GetFunction(EApiId_welc_button_pane_cp01_ParamLimits)))(aVariety); }
-
-	inline TAknWindowComponentLayout welc_button_pane_cp01(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Twelc_button_pane_cp01_sig*)(GetFunction(EApiId_welc_button_pane_cp01)))(aVariety, aCol, aRow); }
-
 	// LAF Table : main_acti_pane
 	inline TAknWindowComponentLayout main_att_pane(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tmain_att_pane_sig*)(GetFunction(EApiId_main_att_pane)))(aVariety, aCol, aRow); }
+
+	inline TAknWindowComponentLayout main_vod_pane(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tmain_vod_pane_sig*)(GetFunction(EApiId_main_vod_pane)))(aVariety, aCol, aRow); }
+
+	// LAF Table : sso_body_pane
+	inline TAknLayoutScalableParameterLimits sso_t_sub_pane_ParamLimits(TInt aVariety) const		{ return (*(Tsso_t_sub_pane_ParamLimits_sig*)(GetFunction(EApiId_sso_t_sub_pane_ParamLimits)))(aVariety); }
 
 	// LAF Table : input_focus_pane_cp10
 	inline TAknTextComponentLayout input_focus_pane_cp10_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tinput_focus_pane_cp10_t1_sig*)(GetFunction(EApiId_input_focus_pane_cp10_t1)))(aVariety, aCol, aRow); }
@@ -30115,6 +30145,10 @@ public:
 	inline TAknWindowComponentLayout main_att_body_pane(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tmain_att_body_pane_sig*)(GetFunction(EApiId_main_att_body_pane)))(aVariety, aCol, aRow); }
 
 	// LAF Table : main_att_body_pane
+	inline TAknLayoutScalableParameterLimits att_btn_emg_pane_ParamLimits(TInt aVariety) const		{ return (*(Tatt_btn_emg_pane_ParamLimits_sig*)(GetFunction(EApiId_att_btn_emg_pane_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout att_btn_emg_pane(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tatt_btn_emg_pane_sig*)(GetFunction(EApiId_att_btn_emg_pane)))(aVariety, aCol, aRow); }
+
 	inline TAknLayoutScalableParameterLimits att_btn_pane_ParamLimits(TInt aVariety) const		{ return (*(Tatt_btn_pane_ParamLimits_sig*)(GetFunction(EApiId_att_btn_pane_ParamLimits)))(aVariety); }
 
 	inline TAknWindowComponentLayout att_btn_pane(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tatt_btn_pane_sig*)(GetFunction(EApiId_att_btn_pane)))(aVariety, aCol, aRow); }
@@ -30219,34 +30253,19 @@ public:
 	// LAF Table : att_li_srv_row_pane
 	inline TAknWindowComponentLayout att_li_srv_row_pane_g1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tatt_li_srv_row_pane_g1_sig*)(GetFunction(EApiId_att_li_srv_row_pane_g1)))(aVariety, aCol, aRow); }
 
+	inline TAknLayoutScalableParameterLimits att_li_srv_row_pane_t1_ParamLimits(TInt aVariety = 0) const		{ return (*(Tatt_li_srv_row_pane_t1_ParamLimits_sig*)(GetFunction(EApiId_att_li_srv_row_pane_t1_ParamLimits)))(aVariety); }
+
 	inline TAknTextComponentLayout att_li_srv_row_pane_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tatt_li_srv_row_pane_t1_sig*)(GetFunction(EApiId_att_li_srv_row_pane_t1)))(aVariety, aCol, aRow); }
+
+	inline TAknLayoutScalableParameterLimits att_li_srv_row_pane_t2_ParamLimits(TInt aVariety = 0) const		{ return (*(Tatt_li_srv_row_pane_t2_ParamLimits_sig*)(GetFunction(EApiId_att_li_srv_row_pane_t2_ParamLimits)))(aVariety); }
 
 	inline TAknTextComponentLayout att_li_srv_row_pane_t2(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tatt_li_srv_row_pane_t2_sig*)(GetFunction(EApiId_att_li_srv_row_pane_t2)))(aVariety, aCol, aRow); }
 
 	inline TAknLayoutScalableTableLimits att_li_srv_row_pane_t_Limits() const		{ return (*(Tatt_li_srv_row_pane_t_Limits_sig*)(GetFunction(EApiId_att_li_srv_row_pane_t_Limits)))(); }
 
-	inline TAknTextComponentLayout att_li_srv_row_pane_t(TInt aLineIndex, TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tatt_li_srv_row_pane_t_sig*)(GetFunction(EApiId_att_li_srv_row_pane_t)))(aLineIndex, aVariety, aCol, aRow); }
-
-	// LAF Table : main_callh_pane
-	inline TAknWindowComponentLayout main_call7_pane(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tmain_call7_pane_sig*)(GetFunction(EApiId_main_call7_pane)))(aVariety, aCol, aRow); }
-
-	// LAF Table : main_acti_pane
-	inline TAknWindowComponentLayout main_vod_pane(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tmain_vod_pane_sig*)(GetFunction(EApiId_main_vod_pane)))(aVariety, aCol, aRow); }
-
-	// LAF Table : sso_body_pane
-	inline TAknLayoutScalableParameterLimits sso_t_sub_pane_ParamLimits(TInt aVariety) const		{ return (*(Tsso_t_sub_pane_ParamLimits_sig*)(GetFunction(EApiId_sso_t_sub_pane_ParamLimits)))(aVariety); }
-
-	// LAF Table : main_att_body_pane
-	inline TAknLayoutScalableParameterLimits att_btn_emg_pane_ParamLimits(TInt aVariety) const		{ return (*(Tatt_btn_emg_pane_ParamLimits_sig*)(GetFunction(EApiId_att_btn_emg_pane_ParamLimits)))(aVariety); }
-
-	inline TAknWindowComponentLayout att_btn_emg_pane(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tatt_btn_emg_pane_sig*)(GetFunction(EApiId_att_btn_emg_pane)))(aVariety, aCol, aRow); }
-
-	// LAF Table : att_li_srv_row_pane
-	inline TAknLayoutScalableParameterLimits att_li_srv_row_pane_t1_ParamLimits(TInt aVariety = 0) const		{ return (*(Tatt_li_srv_row_pane_t1_ParamLimits_sig*)(GetFunction(EApiId_att_li_srv_row_pane_t1_ParamLimits)))(aVariety); }
-
-	inline TAknLayoutScalableParameterLimits att_li_srv_row_pane_t2_ParamLimits(TInt aVariety = 0) const		{ return (*(Tatt_li_srv_row_pane_t2_ParamLimits_sig*)(GetFunction(EApiId_att_li_srv_row_pane_t2_ParamLimits)))(aVariety); }
-
 	inline TAknLayoutScalableParameterLimits att_li_srv_row_pane_t_ParamLimits(TInt aLineIndex, TInt aVariety = 0) const		{ return (*(Tatt_li_srv_row_pane_t_ParamLimits_sig*)(GetFunction(EApiId_att_li_srv_row_pane_t_ParamLimits)))(aLineIndex, aVariety); }
+
+	inline TAknTextComponentLayout att_li_srv_row_pane_t(TInt aLineIndex, TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tatt_li_srv_row_pane_t_sig*)(GetFunction(EApiId_att_li_srv_row_pane_t)))(aLineIndex, aVariety, aCol, aRow); }
 
 	// LAF Table : att_btn_emg_pane
 	inline TAknWindowComponentLayout att_btn_close_pane_g1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tatt_btn_close_pane_g1_sig*)(GetFunction(EApiId_att_btn_close_pane_g1)))(aVariety, aCol, aRow); }
@@ -30469,6 +30488,33 @@ public:
 	inline TAknTextComponentLayout call7_list_conf_row_pane_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tcall7_list_conf_row_pane_t1_sig*)(GetFunction(EApiId_call7_list_conf_row_pane_t1)))(aVariety, aCol, aRow); }
 
 	inline TAknWindowComponentLayout list_highlight_pane_cp22(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tlist_highlight_pane_cp22_sig*)(GetFunction(EApiId_list_highlight_pane_cp22)))(aVariety, aCol, aRow); }
+
+	// LAF Table : sso_body_pane
+	inline TAknLayoutScalableParameterLimits sso_option_pane_cp01_ParamLimits(TInt aVariety) const		{ return (*(Tsso_option_pane_cp01_ParamLimits_sig*)(GetFunction(EApiId_sso_option_pane_cp01_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout sso_option_pane_cp01(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tsso_option_pane_cp01_sig*)(GetFunction(EApiId_sso_option_pane_cp01)))(aVariety, aCol, aRow); }
+
+	// LAF Table : msg_text_pane
+	inline TAknLayoutScalableParameterLimits msg_header_pane_ParamLimits(TInt aVariety) const		{ return (*(Tmsg_header_pane_ParamLimits_sig*)(GetFunction(EApiId_msg_header_pane_ParamLimits)))(aVariety); }
+
+	// LAF Table : msg_header_pane
+	inline TAknLayoutScalableParameterLimits bg_button_pane_cp01_ParamLimits(TInt aVariety) const		{ return (*(Tbg_button_pane_cp01_ParamLimits_sig*)(GetFunction(EApiId_bg_button_pane_cp01_ParamLimits)))(aVariety); }
+
+	inline TAknLayoutScalableParameterLimits input_focus_pane_cp07_ParamLimits(TInt aVariety) const		{ return (*(Tinput_focus_pane_cp07_ParamLimits_sig*)(GetFunction(EApiId_input_focus_pane_cp07_ParamLimits)))(aVariety); }
+
+	// LAF Table : main_sp_fs_email_pane
+	inline TAknWindowComponentLayout popup_email_progress_window(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tpopup_email_progress_window_sig*)(GetFunction(EApiId_popup_email_progress_window)))(aVariety, aCol, aRow); }
+
+	// LAF Table : popup_email_progress_window
+	inline TAknWindowComponentLayout popup_email_progress_window_g1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tpopup_email_progress_window_g1_sig*)(GetFunction(EApiId_popup_email_progress_window_g1)))(aVariety, aCol, aRow); }
+
+	inline TAknWindowComponentLayout popup_email_progress_window_g2(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tpopup_email_progress_window_g2_sig*)(GetFunction(EApiId_popup_email_progress_window_g2)))(aVariety, aCol, aRow); }
+
+	inline TAknLayoutScalableTableLimits popup_email_progress_window_g_Limits() const		{ return (*(Tpopup_email_progress_window_g_Limits_sig*)(GetFunction(EApiId_popup_email_progress_window_g_Limits)))(); }
+
+	inline TAknWindowComponentLayout popup_email_progress_window_g(TInt aLineIndex, TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tpopup_email_progress_window_g_sig*)(GetFunction(EApiId_popup_email_progress_window_g)))(aLineIndex, aVariety, aCol, aRow); }
+
+	inline TAknTextComponentLayout popup_email_progress_window_t1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tpopup_email_progress_window_t1_sig*)(GetFunction(EApiId_popup_email_progress_window_t1)))(aVariety, aCol, aRow); }
 
 private:
 	CInstance();

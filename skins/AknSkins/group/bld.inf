@@ -38,10 +38,10 @@ backup_registration.xml z:/private/10207114/backup_registration.xml
 ../data/Series60SkinsSupport.SIS /epoc32/release/winscw/udeb/z/system/Install/Series60SkinsSupport.SIS
 ../data/Series60SkinsSupport.SIS /epoc32/release/winscw/urel/z/system/Install/Series60SkinsSupport.SIS
 ../data/Series60SkinsSupport.SIS /epoc32/data/z/system/Install/Series60SkinsSupport.SIS
-/* ../data/AknSkinDescCompiler_NR.EXE  /epoc32/tools/AknSkinDescCompiler.EXE */
-/* ../data/AknSkinDescCompiler_NR.EXE  /epoc32/tools/AknSkinDescCompiler_NR.EXE */
-/* ../data/AknSkinDescCompiler_NR.EXE  /epoc32/release/tools/rel/AknSkinDescCompiler.EXE */
-/* ../data/AknSkinDescCompiler_NR.EXE  /epoc32/release/tools/rel/AknSkinDescCompiler_NR.EXE */
+../data/AknSkinDescCompiler_NR.EXE  /epoc32/tools/AknSkinDescCompiler.EXE
+../data/AknSkinDescCompiler_NR.EXE  /epoc32/tools/AknSkinDescCompiler_NR.EXE
+../data/AknSkinDescCompiler_NR.EXE  /epoc32/release/tools/rel/AknSkinDescCompiler.EXE
+../data/AknSkinDescCompiler_NR.EXE  /epoc32/release/tools/rel/AknSkinDescCompiler_NR.EXE
 
 //
 // Scalable skins support stub SIS from AknSkins/data
@@ -91,7 +91,16 @@ backup_registration.xml z:/private/10207114/backup_registration.xml
 PRJ_MMPFILES
 
 #if defined(TOOLS) || defined(CWTOOLS) || defined(TOOLS2)
-// Skin descriptor compiler
+// Skin descriptor compiler (TOOLS target only)
+//
+/*
+ * NOTE! AknSkinDescCompiler is not compiled any more during usual build.
+ * It is just exported from ../data directory.
+ * If want to compile AknSkinDescCompiler from sources, you need to 
+ * uncomment below line, run build tools. New Compiler will be in /epoc32/tools/
+ *
+ */
+
 #if defined(TOOLS2)
 AknSkinDescCompiler.mmp
 AknSkinDescCompiler_NR.mmp

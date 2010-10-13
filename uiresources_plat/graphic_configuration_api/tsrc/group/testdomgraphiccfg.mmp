@@ -49,7 +49,7 @@ SOURCE          testdomgraphiccfg.cpp
 SOURCE          testdomgraphiccfgblocks.cpp
 
 LIBRARY         euser.lib
-LIBRARY         StifTestInterface.lib
+LIBRARY         stiftestinterface.lib
 LIBRARY         stiftestengine.lib
 LIBRARY         fbscli.lib
 LIBRARY         aknicon.lib

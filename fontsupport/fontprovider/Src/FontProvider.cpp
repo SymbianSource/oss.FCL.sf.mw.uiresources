@@ -1546,7 +1546,7 @@ EXPORT_C CFbsFont* AknFontProvider::CreateFontFromMetrics (
     DoGetFontSpecFromMetrics(aDevice, aFontId, aMetrics, fontSpec, foundIndex, needsExactMatch, fallbackNeeded);
 
     CFbsFont* font;
-    aDevice.GetNearestFontInPixels((CFont*&)font,fontSpec);
+    User::LeaveIfError(aDevice.GetNearestFontInPixels((CFont*&)font,fontSpec));
 
     // Fill in other Font metrics
     SetFontProviderSuppliedMetrics( font, &(productFontTable[foundIndex]), aInfo );
@@ -1881,7 +1881,7 @@ EXPORT_C void AknFontProvider::InitializeSystemL ( const CEikonEnv& aEnv )
             }
  
         }
-    store->SetFontNameAliasL(_L("Series 60 Sans"),_L("Nokia Sans S60"));     
+        
     CleanupStack::PopAndDestroy( store );   
     
     return;

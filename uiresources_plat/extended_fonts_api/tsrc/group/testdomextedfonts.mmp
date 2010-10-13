@@ -54,11 +54,11 @@ SOURCE          testdomexfntcontainer.cpp
 SOURCE          testdomexfntblockfotprosplmts.cpp
 
 LIBRARY         euser.lib
-LIBRARY         StifTestInterface.lib
+LIBRARY         stiftestinterface.lib
 LIBRARY         stiftestengine.lib
 LIBRARY         avkon.lib
 LIBRARY         fontutils.lib
-LIBRARY         FontProvider.lib
+LIBRARY         fontprovider.lib
 LIBRARY         eikcore.lib
 LIBRARY         ws32.lib
 LIBRARY         cone.lib

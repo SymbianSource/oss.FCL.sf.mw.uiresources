@@ -22,7 +22,7 @@
 
 PRJ_EXPORTS
 ../data/link.ini                       /epoc32/data/z/private/1020509C/link.ini
-../data/link.ini                       /epoc32/release/winscw/udeb/z/private/1020509C/link.ini
+../data/link.ini                       /epoc32/RELEASE/WINSCW/udeb/Z/private/1020509C/link.ini
 
 // IBY-files
 ../rom/FontProvider.iby CORE_MW_LAYER_IBY_EXPORT_PATH(fontprovider.iby)

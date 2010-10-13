@@ -21,7 +21,7 @@
 #include "elaf_qvga_normal_pack.h"
 #include "aknlayoutscalable_elaf_pqp_av_qvga_prt_normal.h"
 #include "aknlayoutscalable_elaf_pqp_apps_qvga_prt_normal.h"
-#include "cdlfontinst_qvga.h"
+#include "CdlFontInst_QVGA.h"
 #include "displaylayoutmetricsinst_qvga.h"
 #include "elaf_qvga_small_pack.h"
 #include "aknlayoutscalable_elaf_pqp_av_qvga_prt_small.h"

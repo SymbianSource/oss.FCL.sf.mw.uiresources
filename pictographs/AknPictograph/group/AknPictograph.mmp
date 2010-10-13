@@ -39,5 +39,5 @@ SYSTEMINCLUDE   ../../inc
 
 SOURCE      AknPictographInterface.cpp
 
-LIBRARY     euser.lib
-LIBRARY     featmgr.lib
+LIBRARY     EUSER.LIB
+LIBRARY     FEATMGR.LIB

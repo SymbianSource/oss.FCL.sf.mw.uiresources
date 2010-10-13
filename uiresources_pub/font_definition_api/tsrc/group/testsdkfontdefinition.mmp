@@ -51,7 +51,7 @@ SOURCE          testsdkfontdefinitionblocks.cpp
 SOURCE          testsdkfontdefinitionmclass.cpp
 
 LIBRARY         euser.lib
-LIBRARY         StifTestInterface.lib
+LIBRARY         stiftestinterface.lib
 LIBRARY         stiftestengine.lib
 LIBRARY         fontutils.lib
 LIBRARY         gdi.lib

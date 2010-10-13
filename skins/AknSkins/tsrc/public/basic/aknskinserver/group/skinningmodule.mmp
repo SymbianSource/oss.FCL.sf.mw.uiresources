@@ -41,7 +41,7 @@ USERINCLUDE     ../../../../../srvinc
 MW_LAYER_SYSTEMINCLUDE
 
 LIBRARY         euser.lib
-LIBRARY         StifTestInterface.lib
+LIBRARY         stiftestinterface.lib
 LIBRARY         fbscli.lib
 LIBRARY         efsrv.lib
 LIBRARY         bafl.lib
@@ -52,10 +52,10 @@ LIBRARY         eikdlg.lib
 LIBRARY         eikcoctl.lib
 
 // Tested libraries.
-LIBRARY         aknswallpaperutils.lib
-LIBRARY         AKNSKINRENDERLIB.lib
-LIBRARY         aknskins.lib
-LIBRARY         aknskinsrv.lib
+LIBRARY         AKNSWALLPAPERUTILS.lib
+LIBRARY         AknSkinRenderLib.lib
+LIBRARY         AknSkins.lib
+LIBRARY         AknSkinSrv.lib
 
 
 LANG            SC

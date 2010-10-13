@@ -56,12 +56,12 @@ SOURCE          testdomadapter.cpp
 
 
 LIBRARY         euser.lib
-LIBRARY         StifTestInterface.lib
+LIBRARY         stiftestinterface.lib
 LIBRARY         stiftestengine.lib
-LIBRARY         AknLayout2Adaptation.lib
+LIBRARY         aknlayout2adaptation.lib
 LIBRARY         aknlayout2.lib
 LIBRARY         aknLayout2hierarchy.lib
-LIBRARY         AknLayout2Scalable.lib
+LIBRARY         aknlayout2scalable.lib
 
 
 LANG            SC

@@ -41,7 +41,7 @@ END
 
 SOURCE 			aknskinsoomplugin.cpp
 
-LIBRARY 		ecom.lib
+LIBRARY 		ECOM.LIB
 LIBRARY         euser.lib
 LIBRARY         oommonitor.lib
 LIBRARY         ws32.lib

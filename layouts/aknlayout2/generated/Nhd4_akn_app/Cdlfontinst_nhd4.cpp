@@ -80,12 +80,12 @@ CDL_ARRAY_START(SIdMetricsPair, metricsArray)
         { EApacPlain16+EScalableFontIdOffset,  EAknFontCategoryPrimary,    40, 0, 0, 1 },
 
         // Pseudo-generated font ids. These will be the ones really generated from toolchain
-        { KAknLowestGeneratedFontId + KAknFontCategoryUndefined, EAknFontCategoryUndefined, 16, 0, 0, 0 },
-        { KAknLowestGeneratedFontId + KAknFontCategoryPrimary, EAknFontCategoryPrimary,     22, 1, 0, 0 },
-        { KAknLowestGeneratedFontId + KAknFontCategorySecondary, EAknFontCategorySecondary, 19, 0, 0, 0 },
-        { KAknLowestGeneratedFontId + KAknFontCategoryTitle, EAknFontCategoryTitle,         24, 1, 0, 0 },
-        { KAknLowestGeneratedFontId + KAknFontCategoryPrimarySmall, EAknFontCategoryPrimarySmall, 16, 1, 0, 0 },
-        { KAknLowestGeneratedFontId + KAknFontCategoryDigital, EAknFontCategoryDigital,     22, 1, 0, 0 }
+        { KAknLowestGeneratedFontId + KAknFontCategoryUndefined, EAknFontCategoryUndefined, 21, 0, 0, 0 },
+        { KAknLowestGeneratedFontId + KAknFontCategoryPrimary, EAknFontCategoryPrimary,     29, 1, 0, 0 },
+        { KAknLowestGeneratedFontId + KAknFontCategorySecondary, EAknFontCategorySecondary, 24, 0, 0, 0 },
+        { KAknLowestGeneratedFontId + KAknFontCategoryTitle, EAknFontCategoryTitle,         30, 1, 0, 0 },
+        { KAknLowestGeneratedFontId + KAknFontCategoryPrimarySmall, EAknFontCategoryPrimarySmall, 21, 1, 0, 0 },
+        { KAknLowestGeneratedFontId + KAknFontCategoryDigital, EAknFontCategoryDigital,     27, 1, 0, 0 }
         
 	}
     CDL_ARRAY_END(SIdMetricsPair, metricsArray);

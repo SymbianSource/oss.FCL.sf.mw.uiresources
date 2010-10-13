@@ -47,15 +47,15 @@ LIBRARY         eikcore.lib
 LIBRARY         egul.lib
 LIBRARY         apparc.lib 
 LIBRARY         bitgdi.lib
-LIBRARY         aknicon.lib
+LIBRARY         AknIcon.lib
 LIBRARY         hal.lib
-LIBRARY         aknskinsrv.lib
-LIBRARY         AKNSKINRENDERLIB.lib
+LIBRARY         AknSkinSrv.lib
+LIBRARY         AknSkinRenderLib.lib
 LIBRARY         efsrv.lib
 LIBRARY         CdlEngine.lib
-LIBRARY         avkon.lib
-LIBRARY         centralrepository.lib
-LIBRARY         hwrmlightclient.lib
+LIBRARY         Avkon.lib
+LIBRARY         CentralRepository.lib
+LIBRARY         HWRMLightClient.lib
 LIBRARY         gdi.lib 
 
 SOURCEPATH      ../src

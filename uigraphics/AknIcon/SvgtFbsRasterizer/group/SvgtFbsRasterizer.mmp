@@ -61,13 +61,13 @@ LIBRARY bitgdi.lib
 
 #ifdef _EGL_SUPPORT_ENABLED_
 LIBRARY  libEGL.lib
-LIBRARY  libOpenVG.lib
-LIBRARY  libOpenVGU.lib
+LIBRARY  libopenvg.lib
+LIBRARY  libopenvgu.lib
 LIBRARY  NVGDecoder.lib  
 #else
 LIBRARY  libvgi.lib
-LIBRARY  libopenvg_sw.lib
-LIBRARY  libopenvgu_sw.lib
+LIBRARY  libopenvg_SW.lib
+LIBRARY  libopenvgu_SW.lib
 LIBRARY  NVGDecoder_SW.lib  
 #endif
 

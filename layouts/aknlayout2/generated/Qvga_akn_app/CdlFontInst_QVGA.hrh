@@ -21,7 +21,7 @@
 
 #ifndef CDLFONTINST_QVGA_HRH
 #define CDLFONTINST_QVGA_HRH
-#include "cdlfont.cdl.common.hrh"
+#include "CdlFont.cdl.common.hrh"
 #include "dllinstances.hrh"
 
 #define _CDL_CdlFontInst_QVGA_KCdlInstanceInterfaceUidValue _CDL_CDL_Font_KCdlInterfaceUidValue
