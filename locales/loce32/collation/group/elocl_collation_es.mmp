@@ -26,7 +26,7 @@ VENDORID        VID_DEFAULT
 SOURCEPATH      ../src
 SOURCE collation.cpp
 SOURCE latin.cpp
-SOURCE unic.cpp 
+SOURCE collation_es.cpp 
 
 // This is a SYSTEMINCLUDE macro containing the middleware
 // layer specific include directories
