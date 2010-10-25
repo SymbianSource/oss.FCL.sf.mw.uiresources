@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="60" height="16" viewBox="0 0 60 16">
+<polygon fill-opacity="0.15" fill="#6C8EB7" points="0.5,11 0.5,14 59.5,14 59.5,2 "/>
+<rect fill-opacity="0.9" x="0.5" y="13" fill="#FFFFFF" width="59" height="0.5"/>
+<rect fill-opacity="0.7" x="0.5" y="13.5" fill="#496DA2" width="59" height="0.5"/>
+<polygon fill-opacity="0.6" fill="#6C8EB7" points="0.5,11.5 0.5,12 59.5,3 59.5,2.5 "/>
+</svg>

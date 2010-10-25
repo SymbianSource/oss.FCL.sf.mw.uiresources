@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="100" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 100 100" height="100" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <switch>
+        <foreignObject x="0" y="0" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" content="structured text" height="1"/>
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <rect width="100" fill="none" height="100"/>
+                            <g>
+                                <radialGradient gradientTransform="matrix(10.0691 0 0 8.3337 9004.2061 -3910.9951)" id="XMLID_16_" gradientUnits="userSpaceOnUse" xlink:show="other" xlink:type="simple" r="0.7314" cx="-892.5098" fx="-892.5098" cy="470.333" fy="470.333" xlink:actuate="onLoad">
+                                    <stop stop-color="#f0f0f0" offset="0"/>
+                                    <stop stop-color="#f0f0f0" offset="1"/>
+                                </radialGradient>
+                                <path fill="url(#XMLID_16_)" d="M 25.834 8.619 C 25.834 11.475 23.031 13.794001 19.578 13.794001 L 15.421999 13.794001 C 11.971999 13.794001 9.165998 11.475 9.165998 8.619 L 9.165998 8.619 C 9.165998 5.7630005 11.968998 3.451 15.421999 3.451 L 19.578 3.451 C 23.031 3.45 25.834 5.769 25.834 8.619 L 25.834 8.619 z "/>
+                                <radialGradient gradientTransform="matrix(10.0691 0 0 8.3337 9004.2061 -3910.9951)" id="XMLID_17_" gradientUnits="userSpaceOnUse" xlink:show="other" xlink:type="simple" r="0.8534" cx="-892.3027" fx="-892.3027" cy="471.9883" fy="471.9883" xlink:actuate="onLoad">
+                                    <stop stop-color="#f0f0f0" offset="0"/>
+                                    <stop stop-color="#f0f0f0" offset="1"/>
+                                </radialGradient>
+                                <path fill="url(#XMLID_17_)" d="M 30.0 22.413 C 30.0 25.269 27.203 27.588 23.753 27.588 L 15.422 27.588 C 11.972 27.588 9.174999 25.269 9.174999 22.413002 L 9.174999 22.413002 C 9.174999 19.557005 11.971999 17.238005 15.421999 17.238005 L 23.752998 17.238005 C 27.2 17.244 30.0 19.556 30.0 22.413 L 30.0 22.413 z "/>
+                                <radialGradient gradientTransform="matrix(10.0691 0 0 8.3337 9004.2061 -3910.9951)" id="XMLID_18_" gradientUnits="userSpaceOnUse" xlink:show="other" xlink:type="simple" r="0.9802" cx="-892.0938" fx="-892.0938" cy="473.6436" fy="473.6436" xlink:actuate="onLoad">
+                                    <stop stop-color="#f0f0f0" offset="0"/>
+                                    <stop stop-color="#f0f0f0" offset="1"/>
+                                </radialGradient>
+                                <path fill="url(#XMLID_18_)" d="M 34.166 36.206 C 34.166 39.062 31.365 41.375 27.922 41.375 L 15.422001 41.375 C 11.972001 41.375 9.166 39.056 9.166 36.206 L 9.166 36.206 C 9.166 33.350002 11.969 31.031002 15.422001 31.031002 L 27.922 31.031002 C 31.365 31.038 34.166 33.35 34.166 36.206 L 34.166 36.206 z "/>
+                                <radialGradient gradientTransform="matrix(10.0691 0 0 8.3337 9004.2061 -3910.9951)" id="XMLID_19_" gradientUnits="userSpaceOnUse" xlink:show="other" xlink:type="simple" r="1.1138" cx="-891.8867" fx="-891.8867" cy="475.2979" fy="475.2979" xlink:actuate="onLoad">
+                                    <stop stop-color="#f0f0f0" offset="0"/>
+                                    <stop stop-color="#f0f0f0" offset="1"/>
+                                </radialGradient>
+                                <path fill="url(#XMLID_19_)" d="M 38.334 50.0 C 38.334 52.856 35.537 55.175 32.088 55.175 L 15.422 55.175 C 11.969 55.175 9.166 52.857 9.166 50.0 L 9.166 50.0 C 9.166 47.144 11.969 44.831 15.422001 44.831 L 32.088 44.831 C 35.537 44.831 38.334 47.144 38.334 50.0 L 38.334 50.0 z "/>
+                                <radialGradient gradientTransform="matrix(10.0691 0 0 8.3337 9004.2061 -3910.9951)" id="XMLID_20_" gradientUnits="userSpaceOnUse" xlink:show="other" xlink:type="simple" r="1.2492" cx="-891.6797" fx="-891.6797" cy="476.9531" fy="476.9531" xlink:actuate="onLoad">
+                                    <stop stop-color="#f0f0f0" offset="0"/>
+                                    <stop stop-color="#f0f0f0" offset="1"/>
+                                </radialGradient>
+                                <path fill="url(#XMLID_20_)" d="M 42.5 63.794 C 42.5 66.65 39.7 68.963 36.247 68.963 L 15.422 68.963 C 11.972 68.963 9.166 66.649994 9.166 63.794 L 9.166 63.794 C 9.166 60.938 11.969 58.625 15.422001 58.625 L 36.247 58.625 C 39.7 58.625 42.5 60.938 42.5 63.794 L 42.5 63.794 z "/>
+                                <radialGradient gradientTransform="matrix(10.0691 0 0 8.3337 9004.2061 -3910.9951)" id="XMLID_21_" gradientUnits="userSpaceOnUse" xlink:show="other" xlink:type="simple" r="1.3867" cx="-891.4727" fx="-891.4727" cy="478.6094" fy="478.6094" xlink:actuate="onLoad">
+                                    <stop stop-color="#f0f0f0" offset="0"/>
+                                    <stop stop-color="#f0f0f0" offset="1"/>
+                                </radialGradient>
+                                <path fill="url(#XMLID_21_)" d="M 46.666 77.588 C 46.666 80.438 43.869 82.756 40.422 82.756 L 15.422001 82.756 C 11.972001 82.756 9.175001 80.438 9.175001 77.588 L 9.175001 77.588 C 9.175001 74.732 11.972001 72.419 15.422001 72.419 L 40.422 72.419 C 43.865 72.419 46.666 74.731 46.666 77.588 L 46.666 77.588 z "/>
+                                <radialGradient gradientTransform="matrix(10.0691 0 0 8.3337 9004.2061 -3910.9951)" id="XMLID_22_" gradientUnits="userSpaceOnUse" xlink:show="other" xlink:type="simple" r="1.5266" cx="-891.2656" fx="-891.2656" cy="480.2637" fy="480.2637" xlink:actuate="onLoad">
+                                    <stop stop-color="#f0f0f0" offset="0"/>
+                                    <stop stop-color="#f0f0f0" offset="1"/>
+                                </radialGradient>
+                                <path fill="url(#XMLID_22_)" d="M 50.834 91.381 C 50.834 94.232 48.031 96.55 44.578 96.55 L 15.422 96.55 C 11.972 96.55 9.166 94.232 9.166 91.381 L 9.166 91.381 C 9.166 88.52599 11.969 86.20599 15.422001 86.20599 L 44.578003 86.20599 C 48.031 86.206 50.834 88.525 50.834 91.381 L 50.834 91.381 z "/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </switch>
+</svg>

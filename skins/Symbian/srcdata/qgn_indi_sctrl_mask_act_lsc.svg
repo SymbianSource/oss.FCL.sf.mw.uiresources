@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="40px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" height="40px" x="0px" y="0px">
+    <rect width="40" height="40"/>
+    <g>
+        <path fill="#ffffff" d="M 1.0 36.25 C 1.0 37.354 1.896 38.25 3.0 38.25 L 37.0 38.25 C 38.104 38.25 39.0 37.354 39.0 36.25 L 39.0 2.25 C 39.0 1.146 38.104 0.25 37.0 0.25 L 3.0 0.25 C 1.896 0.25 1.0 1.146 1.0 2.25 L 1.0 36.25 z "/>
+    </g>
+</svg>

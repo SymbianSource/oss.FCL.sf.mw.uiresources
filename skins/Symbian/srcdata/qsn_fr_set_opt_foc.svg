@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" zoomAndPan="magnify" baseProfile="tiny" contentStyleType="text/css" version="1.1" width="230px" preserveAspectRatio="xMidYMid meet" viewBox="0 1.114 230 46.275" height="46.275px" x="0px" y="0px">
+    <g stroke-opacity="0.8" fill-opacity="0.8">
+        <linearGradient x1="94.5" gradientTransform="matrix(-1.808943e-006 -41.3838 41.3838 -1.808943e-006 -1649.5034 3954.1704)" y1="42.6375" x2="95.5" gradientUnits="userSpaceOnUse" y2="42.6375" xlink:type="simple" xlink:actuate="onLoad" id="SVGID_1_" xlink:show="other">
+            <stop stop-color="#000000" offset="0"/>
+            <stop stop-color="#000000" offset="1"/>
+        </linearGradient>
+        <path fill="url(#SVGID_1_)" d="M 225.054 2.02 L 4.968 2.02 C 3.411 2.02 2.1599998 3.262 2.1599998 4.8009996 L 2.1599998 40.612 L 2.151 40.612 C 2.151 42.151 3.411 43.402 4.968 43.402 L 225.054 43.402 C 226.602 43.402 227.863 42.151 227.863 40.612 L 227.863 4.802 C 227.862 3.262 226.602 2.02 225.054 2.02 "/>
+    </g>
+</svg>
