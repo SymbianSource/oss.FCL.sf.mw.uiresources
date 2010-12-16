@@ -5811,6 +5811,13 @@ struct SCdlImpl5
 	Tcell_hyb_candi_scroll_pane_g2_aid_sig* cell_hyb_candi_scroll_pane_g2_aid;
 	Tcell_hyb_candi_scroll_pane_g3_sig* cell_hyb_candi_scroll_pane_g3;
 	Tcell_hyb_candi_scroll_pane_g4_sig* cell_hyb_candi_scroll_pane_g4;
+	Tai5_page_g1_sig* ai5_page_g1;
+	Tcell_ituss_key_t6_ParamLimits_sig* cell_ituss_key_t6_ParamLimits;
+	Tcell_ituss_key_t6_sig* cell_ituss_key_t6;
+	Ticf_edit_indi_pane_cp02_ParamLimits_sig* icf_edit_indi_pane_cp02_ParamLimits;
+	Ticf_edit_indi_pane_cp02_sig* icf_edit_indi_pane_cp02;
+	Ticf_edit_indi_pane_cp03_ParamLimits_sig* icf_edit_indi_pane_cp03_ParamLimits;
+	Ticf_edit_indi_pane_cp03_sig* icf_edit_indi_pane_cp03;
 	};
 #ifdef __WINS__
 struct SCdlImpl

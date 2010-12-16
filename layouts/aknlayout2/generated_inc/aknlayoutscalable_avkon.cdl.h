@@ -12695,6 +12695,24 @@ inline TAknWindowComponentLayout cell_hyb_candi_scroll_pane_g3(TInt aVariety = 0
 
 inline TAknWindowComponentLayout cell_hyb_candi_scroll_pane_g4(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tcell_hyb_candi_scroll_pane_g4_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_cell_hyb_candi_scroll_pane_g4)))(aVariety, aCol, aRow); }
 
+// LAF Table : main_ai5_pane
+inline TAknWindowComponentLayout ai5_page_g1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tai5_page_g1_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_ai5_page_g1)))(aVariety, aCol, aRow); }
+
+// LAF Table : cell_ituss_key_pane
+inline TAknLayoutScalableParameterLimits cell_ituss_key_t6_ParamLimits(TInt aVariety)		{ return (*(Tcell_ituss_key_t6_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_cell_ituss_key_t6_ParamLimits)))(aVariety); }
+
+inline TAknTextComponentLayout cell_ituss_key_t6(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Tcell_ituss_key_t6_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_cell_ituss_key_t6)))(aVariety, aCol, aRow); }
+
+// LAF Table : popup_fep_vkbss_window
+inline TAknLayoutScalableParameterLimits icf_edit_indi_pane_cp02_ParamLimits(TInt aVariety)		{ return (*(Ticf_edit_indi_pane_cp02_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_icf_edit_indi_pane_cp02_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout icf_edit_indi_pane_cp02(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Ticf_edit_indi_pane_cp02_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_icf_edit_indi_pane_cp02)))(aVariety, aCol, aRow); }
+
+// LAF Table : popup_fep_ituss_window
+inline TAknLayoutScalableParameterLimits icf_edit_indi_pane_cp03_ParamLimits(TInt aVariety)		{ return (*(Ticf_edit_indi_pane_cp03_ParamLimits_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_icf_edit_indi_pane_cp03_ParamLimits)))(aVariety); }
+
+inline TAknWindowComponentLayout icf_edit_indi_pane_cp03(TInt aVariety, TInt aCol = 0, TInt aRow = 0)		{ return (*(Ticf_edit_indi_pane_cp03_sig*)(CdlEngine::GetFunction(KCdlInterfaceUid, EApiId_icf_edit_indi_pane_cp03)))(aVariety, aCol, aRow); }
+
 #ifdef __VC32__
 #pragma component(mintypeinfo, on)
 #endif
@@ -25365,6 +25383,24 @@ public:
 	inline TAknWindowComponentLayout cell_hyb_candi_scroll_pane_g3(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tcell_hyb_candi_scroll_pane_g3_sig*)(GetFunction(EApiId_cell_hyb_candi_scroll_pane_g3)))(aVariety, aCol, aRow); }
 
 	inline TAknWindowComponentLayout cell_hyb_candi_scroll_pane_g4(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tcell_hyb_candi_scroll_pane_g4_sig*)(GetFunction(EApiId_cell_hyb_candi_scroll_pane_g4)))(aVariety, aCol, aRow); }
+
+	// LAF Table : main_ai5_pane
+	inline TAknWindowComponentLayout ai5_page_g1(TInt aVariety = 0, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tai5_page_g1_sig*)(GetFunction(EApiId_ai5_page_g1)))(aVariety, aCol, aRow); }
+
+	// LAF Table : cell_ituss_key_pane
+	inline TAknLayoutScalableParameterLimits cell_ituss_key_t6_ParamLimits(TInt aVariety) const		{ return (*(Tcell_ituss_key_t6_ParamLimits_sig*)(GetFunction(EApiId_cell_ituss_key_t6_ParamLimits)))(aVariety); }
+
+	inline TAknTextComponentLayout cell_ituss_key_t6(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Tcell_ituss_key_t6_sig*)(GetFunction(EApiId_cell_ituss_key_t6)))(aVariety, aCol, aRow); }
+
+	// LAF Table : popup_fep_vkbss_window
+	inline TAknLayoutScalableParameterLimits icf_edit_indi_pane_cp02_ParamLimits(TInt aVariety) const		{ return (*(Ticf_edit_indi_pane_cp02_ParamLimits_sig*)(GetFunction(EApiId_icf_edit_indi_pane_cp02_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout icf_edit_indi_pane_cp02(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Ticf_edit_indi_pane_cp02_sig*)(GetFunction(EApiId_icf_edit_indi_pane_cp02)))(aVariety, aCol, aRow); }
+
+	// LAF Table : popup_fep_ituss_window
+	inline TAknLayoutScalableParameterLimits icf_edit_indi_pane_cp03_ParamLimits(TInt aVariety) const		{ return (*(Ticf_edit_indi_pane_cp03_ParamLimits_sig*)(GetFunction(EApiId_icf_edit_indi_pane_cp03_ParamLimits)))(aVariety); }
+
+	inline TAknWindowComponentLayout icf_edit_indi_pane_cp03(TInt aVariety, TInt aCol = 0, TInt aRow = 0) const		{ return (*(Ticf_edit_indi_pane_cp03_sig*)(GetFunction(EApiId_icf_edit_indi_pane_cp03)))(aVariety, aCol, aRow); }
 
 private:
 	CInstance();

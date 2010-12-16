@@ -6988,6 +6988,58 @@ enum TApiId
 	EApiId_popup_email_progress_window_g_Limits,
 	EApiId_popup_email_progress_window_g,
 	EApiId_popup_email_progress_window_t1,
+	EApiId_cmail_conv_pane,
+	EApiId_list_single_dyc_row_pane_g5_ParamLimits,
+	EApiId_list_single_dyc_row_pane_g5,
+	EApiId_list_single_dyc_row_pane_g6_ParamLimits,
+	EApiId_list_single_dyc_row_pane_g6,
+	EApiId_list_single_dyc_row_pane_g7_ParamLimits,
+	EApiId_list_single_dyc_row_pane_g7,
+	EApiId_main_button_pane_5_ParamLimits,
+	EApiId_main_button_pane_5,
+	EApiId_sso_emg_call_btn_pane_ParamLimits,
+	EApiId_sso_emg_call_btn_pane,
+	EApiId_sso_t_sub_pane_cp01_ParamLimits,
+	EApiId_sso_t_sub_pane_cp01,
+	EApiId_sso_option_row_pane_g1_ParamLimits,
+	EApiId_sso_option_row_pane_g2_ParamLimits,
+	EApiId_sso_option_row_pane_g2,
+	EApiId_sso_option_row_pane_g_Limits,
+	EApiId_sso_option_row_pane_g_ParamLimits,
+	EApiId_sso_option_row_pane_g,
+	EApiId_att_btn_pane_cp02_ParamLimits,
+	EApiId_att_btn_pane_cp02,
+	EApiId_cmail_conv_hdr_pane,
+	EApiId_list_cmail_conv_pane,
+	EApiId_scroll_pane_cp31,
+	EApiId_cmail_conv_hdr_pane_t1,
+	EApiId_cmail_conv_hdr_pane_t2,
+	EApiId_cmail_conv_hdr_pane_t_Limits,
+	EApiId_cmail_conv_hdr_pane_t,
+	EApiId_bubble_cmail_conv_pane_ParamLimits,
+	EApiId_bubble_cmail_conv_pane,
+	EApiId_aid_size_colorization_pane,
+	EApiId_bg_bubble_cmail_conv_pane,
+	EApiId_body_bubble_cmail_conv_pane,
+	EApiId_bubble_cmail_conv_pane_g1,
+	EApiId_bubble_cmail_conv_pane_g2,
+	EApiId_bubble_cmail_conv_pane_g3,
+	EApiId_bubble_cmail_conv_pane_g_Limits,
+	EApiId_bubble_cmail_conv_pane_g,
+	EApiId_bubble_cmail_conv_pane_t1,
+	EApiId_bg_bubble_cmail_conv_pane_g1,
+	EApiId_bg_bubble_cmail_conv_pane_g2,
+	EApiId_bg_bubble_cmail_conv_pane_g3,
+	EApiId_bg_bubble_cmail_conv_pane_g_Limits,
+	EApiId_bg_bubble_cmail_conv_pane_g,
+	EApiId_body_bubble_cmail_conv_pane_t1_ParamLimits,
+	EApiId_body_bubble_cmail_conv_pane_t1,
+	EApiId_body_bubble_cmail_conv_pane_t2_ParamLimits,
+	EApiId_body_bubble_cmail_conv_pane_t2,
+	EApiId_body_bubble_cmail_conv_pane_t_Limits,
+	EApiId_body_bubble_cmail_conv_pane_t_ParamLimits,
+	EApiId_body_bubble_cmail_conv_pane_t,
+	EApiId_list_highlight_pane_cp024_ParamLimits,
 	E_TApiId_TableSize
 	};
 
@@ -13953,6 +14005,58 @@ typedef TAknWindowComponentLayout (Tpopup_email_progress_window_g2_sig)(TInt, TI
 typedef TAknLayoutScalableTableLimits (Tpopup_email_progress_window_g_Limits_sig)();
 typedef TAknWindowComponentLayout (Tpopup_email_progress_window_g_sig)(TInt, TInt, TInt, TInt);
 typedef TAknTextComponentLayout (Tpopup_email_progress_window_t1_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcmail_conv_pane_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tlist_single_dyc_row_pane_g5_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tlist_single_dyc_row_pane_g5_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tlist_single_dyc_row_pane_g6_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tlist_single_dyc_row_pane_g6_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tlist_single_dyc_row_pane_g7_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tlist_single_dyc_row_pane_g7_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tmain_button_pane_5_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tmain_button_pane_5_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tsso_emg_call_btn_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tsso_emg_call_btn_pane_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tsso_t_sub_pane_cp01_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tsso_t_sub_pane_cp01_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tsso_option_row_pane_g1_ParamLimits_sig)(TInt);
+typedef TAknLayoutScalableParameterLimits (Tsso_option_row_pane_g2_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tsso_option_row_pane_g2_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableTableLimits (Tsso_option_row_pane_g_Limits_sig)();
+typedef TAknLayoutScalableParameterLimits (Tsso_option_row_pane_g_ParamLimits_sig)(TInt, TInt);
+typedef TAknWindowComponentLayout (Tsso_option_row_pane_g_sig)(TInt, TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tatt_btn_pane_cp02_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tatt_btn_pane_cp02_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tcmail_conv_hdr_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tlist_cmail_conv_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tscroll_pane_cp31_sig)(TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tcmail_conv_hdr_pane_t1_sig)(TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tcmail_conv_hdr_pane_t2_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableTableLimits (Tcmail_conv_hdr_pane_t_Limits_sig)();
+typedef TAknTextComponentLayout (Tcmail_conv_hdr_pane_t_sig)(TInt, TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tbubble_cmail_conv_pane_ParamLimits_sig)(TInt);
+typedef TAknWindowComponentLayout (Tbubble_cmail_conv_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Taid_size_colorization_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbg_bubble_cmail_conv_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbody_bubble_cmail_conv_pane_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbubble_cmail_conv_pane_g1_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbubble_cmail_conv_pane_g2_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbubble_cmail_conv_pane_g3_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableTableLimits (Tbubble_cmail_conv_pane_g_Limits_sig)();
+typedef TAknWindowComponentLayout (Tbubble_cmail_conv_pane_g_sig)(TInt, TInt, TInt, TInt);
+typedef TAknTextComponentLayout (Tbubble_cmail_conv_pane_t1_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbg_bubble_cmail_conv_pane_g1_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbg_bubble_cmail_conv_pane_g2_sig)(TInt, TInt, TInt);
+typedef TAknWindowComponentLayout (Tbg_bubble_cmail_conv_pane_g3_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableTableLimits (Tbg_bubble_cmail_conv_pane_g_Limits_sig)();
+typedef TAknWindowComponentLayout (Tbg_bubble_cmail_conv_pane_g_sig)(TInt, TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tbody_bubble_cmail_conv_pane_t1_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tbody_bubble_cmail_conv_pane_t1_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tbody_bubble_cmail_conv_pane_t2_ParamLimits_sig)(TInt);
+typedef TAknTextComponentLayout (Tbody_bubble_cmail_conv_pane_t2_sig)(TInt, TInt, TInt);
+typedef TAknLayoutScalableTableLimits (Tbody_bubble_cmail_conv_pane_t_Limits_sig)();
+typedef TAknLayoutScalableParameterLimits (Tbody_bubble_cmail_conv_pane_t_ParamLimits_sig)(TInt, TInt);
+typedef TAknTextComponentLayout (Tbody_bubble_cmail_conv_pane_t_sig)(TInt, TInt, TInt, TInt);
+typedef TAknLayoutScalableParameterLimits (Tlist_highlight_pane_cp024_ParamLimits_sig)(TInt);
 
 } // end of namespace AknLayoutScalable_Apps
 

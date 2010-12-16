@@ -7021,6 +7021,64 @@ struct SCdlImpl6
 	Tpopup_email_progress_window_g_Limits_sig* popup_email_progress_window_g_Limits;
 	Tpopup_email_progress_window_g_sig* popup_email_progress_window_g;
 	Tpopup_email_progress_window_t1_sig* popup_email_progress_window_t1;
+	Tcmail_conv_pane_sig* cmail_conv_pane;
+	Tlist_single_dyc_row_pane_g5_ParamLimits_sig* list_single_dyc_row_pane_g5_ParamLimits;
+	Tlist_single_dyc_row_pane_g5_sig* list_single_dyc_row_pane_g5;
+	Tlist_single_dyc_row_pane_g6_ParamLimits_sig* list_single_dyc_row_pane_g6_ParamLimits;
+	Tlist_single_dyc_row_pane_g6_sig* list_single_dyc_row_pane_g6;
+	Tlist_single_dyc_row_pane_g7_ParamLimits_sig* list_single_dyc_row_pane_g7_ParamLimits;
+	Tlist_single_dyc_row_pane_g7_sig* list_single_dyc_row_pane_g7;
+	Tmain_button_pane_5_ParamLimits_sig* main_button_pane_5_ParamLimits;
+	Tmain_button_pane_5_sig* main_button_pane_5;
+	Tsso_emg_call_btn_pane_ParamLimits_sig* sso_emg_call_btn_pane_ParamLimits;
+	Tsso_emg_call_btn_pane_sig* sso_emg_call_btn_pane;
+	Tsso_t_sub_pane_cp01_ParamLimits_sig* sso_t_sub_pane_cp01_ParamLimits;
+	Tsso_t_sub_pane_cp01_sig* sso_t_sub_pane_cp01;
+	Tsso_option_row_pane_g1_ParamLimits_sig* sso_option_row_pane_g1_ParamLimits;
+	Tsso_option_row_pane_g2_ParamLimits_sig* sso_option_row_pane_g2_ParamLimits;
+	Tsso_option_row_pane_g2_sig* sso_option_row_pane_g2;
+	Tsso_option_row_pane_g_Limits_sig* sso_option_row_pane_g_Limits;
+	Tsso_option_row_pane_g_ParamLimits_sig* sso_option_row_pane_g_ParamLimits;
+	Tsso_option_row_pane_g_sig* sso_option_row_pane_g;
+	Tatt_btn_pane_cp02_ParamLimits_sig* att_btn_pane_cp02_ParamLimits;
+	Tatt_btn_pane_cp02_sig* att_btn_pane_cp02;
+	Tcmail_conv_hdr_pane_sig* cmail_conv_hdr_pane;
+	Tlist_cmail_conv_pane_sig* list_cmail_conv_pane;
+	Tscroll_pane_cp31_sig* scroll_pane_cp31;
+	Tcmail_conv_hdr_pane_t1_sig* cmail_conv_hdr_pane_t1;
+	Tcmail_conv_hdr_pane_t2_sig* cmail_conv_hdr_pane_t2;
+	Tcmail_conv_hdr_pane_t_Limits_sig* cmail_conv_hdr_pane_t_Limits;
+	Tcmail_conv_hdr_pane_t_sig* cmail_conv_hdr_pane_t;
+	Tbubble_cmail_conv_pane_ParamLimits_sig* bubble_cmail_conv_pane_ParamLimits;
+	Tbubble_cmail_conv_pane_sig* bubble_cmail_conv_pane;
+	Taid_size_colorization_pane_sig* aid_size_colorization_pane;
+	Tbg_bubble_cmail_conv_pane_sig* bg_bubble_cmail_conv_pane;
+	Tbody_bubble_cmail_conv_pane_sig* body_bubble_cmail_conv_pane;
+	Tbubble_cmail_conv_pane_g1_sig* bubble_cmail_conv_pane_g1;
+	Tbubble_cmail_conv_pane_g2_sig* bubble_cmail_conv_pane_g2;
+	Tbubble_cmail_conv_pane_g3_sig* bubble_cmail_conv_pane_g3;
+	Tbubble_cmail_conv_pane_g_Limits_sig* bubble_cmail_conv_pane_g_Limits;
+	Tbubble_cmail_conv_pane_g_sig* bubble_cmail_conv_pane_g;
+	Tbubble_cmail_conv_pane_t1_sig* bubble_cmail_conv_pane_t1;
+	Tbg_bubble_cmail_conv_pane_g1_sig* bg_bubble_cmail_conv_pane_g1;
+	Tbg_bubble_cmail_conv_pane_g2_sig* bg_bubble_cmail_conv_pane_g2;
+	Tbg_bubble_cmail_conv_pane_g3_sig* bg_bubble_cmail_conv_pane_g3;
+	Tbg_bubble_cmail_conv_pane_g_Limits_sig* bg_bubble_cmail_conv_pane_g_Limits;
+	Tbg_bubble_cmail_conv_pane_g_sig* bg_bubble_cmail_conv_pane_g;
+	Tbody_bubble_cmail_conv_pane_t1_ParamLimits_sig* body_bubble_cmail_conv_pane_t1_ParamLimits;
+	Tbody_bubble_cmail_conv_pane_t1_sig* body_bubble_cmail_conv_pane_t1;
+	Tbody_bubble_cmail_conv_pane_t2_ParamLimits_sig* body_bubble_cmail_conv_pane_t2_ParamLimits;
+	Tbody_bubble_cmail_conv_pane_t2_sig* body_bubble_cmail_conv_pane_t2;
+	Tbody_bubble_cmail_conv_pane_t_Limits_sig* body_bubble_cmail_conv_pane_t_Limits;
+	Tbody_bubble_cmail_conv_pane_t_ParamLimits_sig* body_bubble_cmail_conv_pane_t_ParamLimits;
+	Tbody_bubble_cmail_conv_pane_t_sig* body_bubble_cmail_conv_pane_t;
+	Tlist_highlight_pane_cp024_ParamLimits_sig* list_highlight_pane_cp024_ParamLimits;
+#ifdef __WINS__
+	};
+
+struct SCdlImpl7
+	{
+#endif
 	};
 #ifdef __WINS__
 struct SCdlImpl
@@ -7032,6 +7090,7 @@ struct SCdlImpl
 	SCdlImpl4 i4;
 	SCdlImpl5 i5;
 	SCdlImpl6 i6;
+	SCdlImpl7 i7;
 	};
 #endif
 

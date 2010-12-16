@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Layout createdOn="2010-09-19 07:28:07.041" LayoutName="pvl4_apps_vga4_lsc_tch" LayoutSetId="291" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.9457593300398335" MasterName="m_app_tch_92v" ppi="300.0" ppiUnit="Inches" resolutionHeight="480" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
+<Layout createdOn="2010-10-27 18:12:38.161" LayoutName="pvl4_apps_vga4_lsc_tch" LayoutSetId="291" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.9457593300398335" MasterName="m_app_tch_92v" ppi="300.0" ppiUnit="Inches" resolutionHeight="480" resolutionWidth="640" VariantId="3195" variant_abbreviation="ah" variant_name="Arabic_Hebrew">
     <Component drawingorder="0" id="1" mirror="true" name="Screen" type="Screen"/>
     <Component drawingorder="0" id="2" maxVariety="0" mirror="true" name="application_window" type="Container"/>
     <Component drawingorder="16" id="11" maxVariety="3" mirror="true" name="navi_pane_mv_g2" type="Graphic"/>
@@ -137,7 +137,7 @@
     <Component drawingorder="0" id="169" maxVariety="1" mirror="true" name="popup_sp_fs_calendar_preview_list_single_pane_t1" type="Text"/>
     <Component drawingorder="1" id="170" maxVariety="0" mirror="true" name="popup_sp_fs_calendar_preview_list_single_pane_g1" type="Graphic"/>
     <Component drawingorder="2" id="171" maxVariety="0" mirror="true" name="popup_sp_fs_calendar_preview_list_single_pane_g2" type="Graphic"/>
-    <Component drawingorder="0" id="196" maxVariety="2" mirror="true" name="listscroll_cale_week_pane" type="Pane"/>
+    <Component drawingorder="0" id="196" maxVariety="2" mirror="false" name="listscroll_cale_week_pane" type="Pane"/>
     <Component drawingorder="0" id="197" maxVariety="5" mirror="true" name="scroll_pane_cp08" type="Pane"/>
     <Component drawingorder="1" id="198" maxVariety="5" mirror="true" name="bg_cale_pane_cp01" type="Pane"/>
     <Component drawingorder="2" id="199" maxVariety="5" mirror="true" name="grid_cale_week_pane" type="Pane"/>
@@ -1216,7 +1216,7 @@
     <Component drawingorder="3" id="3925" maxVariety="2" mirror="true" name="field_cale_ev_pane_g2" type="Graphic"/>
     <Component drawingorder="4" id="3926" maxVariety="2" mirror="true" name="field_cale_ev_pane_g3" type="Graphic"/>
     <Component drawingorder="4" id="3927" maxVariety="1" mirror="true" name="bg_button_pane_cp01" type="Pane"/>
-    <Component drawingorder="1" id="3928" maxVariety="0" mirror="true" name="popup_toolbar_window_cp01" type="Pane"/>
+    <Component drawingorder="1" id="3928" maxVariety="0" mirror="false" name="popup_toolbar_window_cp01" type="Pane"/>
     <Component drawingorder="1" id="3929" maxVariety="0" mirror="true" name="popup_toolbar_window_cp02" type="Pane"/>
     <Component drawingorder="64" id="3930" maxVariety="1" mirror="false" name="popup_toolbar_window_cp03" type="Pane"/>
     <Component drawingorder="65" id="3931" maxVariety="0" mirror="false" name="popup_image_focus_window" type="Pane"/>
@@ -1634,10 +1634,10 @@
     <Component drawingorder="0" id="4414" maxVariety="4" mirror="false" name="bg_button_pane_cp09" type="Pane"/>
     <Component drawingorder="1" id="4415" maxVariety="4" mirror="false" name="cell_call4_button_pane_g1" type="Graphic"/>
     <Component drawingorder="2" id="4416" maxVariety="4" mirror="false" name="cell_call4_button_pane_t1" type="Text"/>
-    <Component drawingorder="0" id="4417" maxVariety="4" mirror="true" name="popup_call4_audio_first_window" type="Pane"/>
-    <Component drawingorder="1" id="4418" maxVariety="1" mirror="true" name="popup_call4_audio_second_window" type="Pane"/>
-    <Component drawingorder="2" id="4420" maxVariety="1" mirror="true" name="popup_call4_audio_wait_window" type="Pane"/>
-    <Component drawingorder="3" id="4421" maxVariety="3" mirror="true" name="call4_windows_conf_pane" type="Pane"/>
+    <Component drawingorder="0" id="4417" maxVariety="4" mirror="false" name="popup_call4_audio_first_window" type="Pane"/>
+    <Component drawingorder="1" id="4418" maxVariety="1" mirror="false" name="popup_call4_audio_second_window" type="Pane"/>
+    <Component drawingorder="2" id="4420" maxVariety="1" mirror="false" name="popup_call4_audio_wait_window" type="Pane"/>
+    <Component drawingorder="3" id="4421" maxVariety="3" mirror="false" name="call4_windows_conf_pane" type="Pane"/>
     <Component drawingorder="0" id="4422" maxVariety="0" mirror="true" name="popup_call4_audio_conf_window" type="Pane"/>
     <Component drawingorder="4" id="4423" maxVariety="0" mirror="true" name="mup3_control_keys_pane_g4_copy1" type="Graphic"/>
     <Component drawingorder="11" id="4424" maxVariety="2" mirror="false" name="mp4_rocker2_pane" type="Pane"/>
@@ -1811,7 +1811,7 @@
     <Component drawingorder="0" id="4602" maxVariety="0" mirror="false" name="cam4_zoom_cont_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="4603" maxVariety="0" mirror="false" name="cam4_zoom_cont_pane_g2" type="Graphic"/>
     <Component drawingorder="2" id="4604" maxVariety="0" mirror="false" name="cam4_zoom_cont_pane_g3" type="Graphic"/>
-    <Component drawingorder="4" id="4605" maxVariety="4" mirror="true" name="popup_call4_audio_in_window" type="Pane"/>
+    <Component drawingorder="4" id="4605" maxVariety="4" mirror="false" name="popup_call4_audio_in_window" type="Pane"/>
     <Component drawingorder="3" id="4606" maxVariety="1" mirror="false" name="call4_image_pane" type="Pane"/>
     <Component drawingorder="0" id="4607" maxVariety="0" mirror="true" name="call4_image_pane_g1" type="Graphic"/>
     <Component drawingorder="1" id="4608" maxVariety="0" mirror="true" name="call4_image_pane_g2" type="Graphic"/>
@@ -2644,11 +2644,11 @@
     <Component drawingorder="1" id="5876" maxVariety="26" mirror="true" name="list_single_dyc_row_text_pane_t2" type="Text"/>
     <Component drawingorder="33" id="5879" maxVariety="0" mirror="true" name="aid_sp_fs_list_icon_d" type="Pane"/>
     <Component drawingorder="0" id="5890" maxVariety="35" mirror="true" name="list_single_dyc_row_text_pane_t1" type="Text"/>
-    <Component drawingorder="2" id="5891" maxVariety="8" mirror="true" name="list_single_dyc_row_text_pane" type="Pane"/>
+    <Component drawingorder="2" id="5891" maxVariety="11" mirror="true" name="list_single_dyc_row_text_pane" type="Pane"/>
     <Component drawingorder="38" id="5892" maxVariety="0" mirror="true" name="aid_sp_fs_text_secondary" type="Pane"/>
     <Component drawingorder="37" id="5893" maxVariety="0" mirror="true" name="aid_sp_fs_text_primary" type="Pane"/>
-    <Component drawingorder="4" id="5894" maxVariety="5" mirror="true" name="list_single_dyc_row_pane_g4" type="Graphic"/>
-    <Component drawingorder="3" id="5895" maxVariety="2" mirror="true" name="list_single_dyc_row_pane_g3" type="Graphic"/>
+    <Component drawingorder="4" id="5894" maxVariety="8" mirror="true" name="list_single_dyc_row_pane_g4" type="Graphic"/>
+    <Component drawingorder="3" id="5895" maxVariety="5" mirror="true" name="list_single_dyc_row_pane_g3" type="Graphic"/>
     <Component drawingorder="1" id="5905" maxVariety="2" mirror="true" name="list_single_dyc_row_pane_g2" type="Graphic"/>
     <Component drawingorder="0" id="5906" maxVariety="5" mirror="true" name="list_single_dyc_row_pane_g1" type="Graphic"/>
     <Component drawingorder="0" id="5907" maxVariety="3" mirror="true" name="list_single_dyc_row_pane" type="Pane"/>
@@ -3254,12 +3254,12 @@
     <Component drawingorder="1" id="7998" maxVariety="0" mirror="true" name="phob2_contact_card_pane" type="Pane"/>
     <Component drawingorder="0" id="7999" maxVariety="0" mirror="true" name="phob2_list_pane" type="Pane"/>
     <Component drawingorder="1" id="8000" maxVariety="0" mirror="true" name="scroll_pane_cp034" type="Pane"/>
-    <Component drawingorder="0" id="8001" maxVariety="0" mirror="true" name="list_double_large_graphic_phob2_pane" type="Pane"/>
-    <Component drawingorder="0" id="8002" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_pane_g1" type="Graphic"/>
-    <Component drawingorder="1" id="8003" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_pane_t1" type="Text"/>
-    <Component drawingorder="2" id="8004" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_pane_t2" type="Text"/>
-    <Component drawingorder="3" id="8005" maxVariety="0" mirror="true" name="list_double_large_graphic_phob2_pane_g2" type="Graphic"/>
-    <Component drawingorder="4" id="8006" maxVariety="0" mirror="true" name="list_highlight_pane_cp024" type="Pane"/>
+    <Component drawingorder="0" id="8001" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_pane" type="Pane"/>
+    <Component drawingorder="0" id="8002" maxVariety="3" mirror="true" name="list_double_large_graphic_phob2_pane_g1" type="Graphic"/>
+    <Component drawingorder="1" id="8003" maxVariety="3" mirror="true" name="list_double_large_graphic_phob2_pane_t1" type="Text"/>
+    <Component drawingorder="2" id="8004" maxVariety="3" mirror="true" name="list_double_large_graphic_phob2_pane_t2" type="Text"/>
+    <Component drawingorder="3" id="8005" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_pane_g2" type="Graphic"/>
+    <Component drawingorder="4" id="8006" maxVariety="1" mirror="true" name="list_highlight_pane_cp024" type="Pane"/>
     <Component drawingorder="0" id="8007" maxVariety="3" mirror="true" name="phob2_cc_data_pane" type="Pane"/>
     <Component drawingorder="1" id="8008" maxVariety="3" mirror="true" name="phob2_cc_listscroll_pane" type="Pane"/>
     <Component drawingorder="0" id="8009" maxVariety="2" mirror="true" name="phob2_cc_data_pane_g1" type="Graphic"/>
@@ -3366,7 +3366,7 @@
     <Component drawingorder="2" id="8118" maxVariety="0" mirror="false" name="vorec_t5" type="Text"/>
     <Component drawingorder="20" id="8122" maxVariety="3" mirror="true" name="main_mup3_lyrics_pane" type="Pane"/>
     <Component drawingorder="0" id="8123" maxVariety="1" mirror="true" name="main_mup3_lyrics_pane_t1" type="Text"/>
-    <Component drawingorder="5" id="8125" maxVariety="0" mirror="true" name="aid_call6_pane_g1_size" type="Pane"/>
+    <Component drawingorder="5" id="8125" maxVariety="0" mirror="false" name="aid_call6_pane_g1_size" type="Pane"/>
     <Component drawingorder="15" id="8126" maxVariety="0" mirror="false" name="main_mp4_pane_g7" type="Graphic"/>
     <Component drawingorder="16" id="8127" maxVariety="0" mirror="false" name="main_mp4_pane_g8" type="Graphic"/>
     <Component drawingorder="17" id="8128" maxVariety="0" mirror="false" name="aid_main_mp4_pane_t1_area" type="Pane"/>
@@ -3411,8 +3411,8 @@
     <Component drawingorder="13" id="8168" maxVariety="1" mirror="true" name="input_focus_pane_cp14" type="Pane"/>
     <Component drawingorder="14" id="8169" maxVariety="0" mirror="true" name="main_int_radio1_pane_t4" type="Text"/>
     <Component drawingorder="15" id="8170" maxVariety="0" mirror="true" name="main_int_radio1_pane_t12" type="Text"/>
-    <Component drawingorder="5" id="8181" maxVariety="0" mirror="true" name="list_double_large_graphic_phob2_pane_g3" type="Graphic"/>
-    <Component drawingorder="6" id="8182" maxVariety="0" mirror="true" name="list_double_large_graphic_phob2_pane_g4" type="Graphic"/>
+    <Component drawingorder="5" id="8181" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_pane_g3" type="Graphic"/>
+    <Component drawingorder="6" id="8182" maxVariety="1" mirror="true" name="list_double_large_graphic_phob2_pane_g4" type="Graphic"/>
     <Component drawingorder="1" id="8184" maxVariety="0" mirror="true" name="list_single_fs_dyc_pane_g1" type="Graphic"/>
     <Component drawingorder="11" id="8185" maxVariety="5" mirror="true" name="main_welc_pane_g4" type="Graphic"/>
     <Component drawingorder="12" id="8186" maxVariety="1" mirror="true" name="main_welc_pane_t4" type="Text"/>
@@ -3468,7 +3468,7 @@
     <Component drawingorder="0" id="8251" maxVariety="1" mirror="true" name="sso_popup_body_t_sub_pane_t1" type="Text"/>
     <Component drawingorder="0" id="8253" maxVariety="1" mirror="true" name="sso_t_hdr_pane_t1" type="Text"/>
     <Component drawingorder="0" id="8254" maxVariety="3" mirror="true" name="sso_t_nml_pane_t1" type="Text"/>
-    <Component drawingorder="14" id="8257" maxVariety="8" mirror="true" name="sso_btn_pane_cp01" type="Pane"/>
+    <Component drawingorder="14" id="8257" maxVariety="10" mirror="true" name="sso_btn_pane_cp01" type="Pane"/>
     <Component drawingorder="0" id="8258" maxVariety="3" mirror="true" name="sso_t_sub_pane_t1" type="Text"/>
     <Component drawingorder="0" id="8259" maxVariety="2" mirror="true" name="sso_query_pane_t1" type="Text"/>
     <Component drawingorder="1" id="8260" maxVariety="2" mirror="true" name="input_focus_pane_cp10" type="Pane"/>
@@ -3478,8 +3478,8 @@
     <Component drawingorder="0" id="8265" maxVariety="0" mirror="true" name="sso_apps_pane_comp1_g1" type="Graphic"/>
     <Component drawingorder="1" id="8266" maxVariety="0" mirror="true" name="sso_apps_pane_comp1_t1" type="Text"/>
     <Component drawingorder="0" id="8267" maxVariety="1" mirror="true" name="sso_option_row_pane" type="Pane"/>
-    <Component drawingorder="0" id="8268" maxVariety="0" mirror="true" name="sso_option_row_pane_g1" type="Graphic"/>
-    <Component drawingorder="1" id="8269" maxVariety="1" mirror="true" name="sso_option_row_pane_t1" type="Text"/>
+    <Component drawingorder="0" id="8268" maxVariety="1" mirror="true" name="sso_option_row_pane_g1" type="Graphic"/>
+    <Component drawingorder="1" id="8269" maxVariety="2" mirror="true" name="sso_option_row_pane_t1" type="Text"/>
     <Component drawingorder="0" id="8271" maxVariety="0" mirror="true" name="bg_button_pane_cp22" type="Pane"/>
     <Component drawingorder="1" id="8272" maxVariety="0" mirror="true" name="sso_btn_pane_t1" type="Text"/>
     <Component drawingorder="15" id="8273" maxVariety="0" mirror="true" name="sso_body_pane_t1" type="Text"/>
@@ -3598,4 +3598,31 @@
     <Component drawingorder="0" id="8411" maxVariety="0" mirror="true" name="popup_email_progress_window_g1" type="Graphic"/>
     <Component drawingorder="1" id="8412" maxVariety="0" mirror="true" name="popup_email_progress_window_g2" type="Graphic"/>
     <Component drawingorder="2" id="8413" maxVariety="0" mirror="true" name="popup_email_progress_window_t1" type="Text"/>
+    <Component drawingorder="7" id="8424" maxVariety="0" mirror="true" name="cmail_conv_pane" type="Pane"/>
+    <Component drawingorder="0" id="8425" maxVariety="0" mirror="true" name="cmail_conv_hdr_pane" type="Pane"/>
+    <Component drawingorder="1" id="8426" maxVariety="0" mirror="true" name="scroll_pane_cp31" type="Pane"/>
+    <Component drawingorder="2" id="8427" maxVariety="0" mirror="true" name="list_cmail_conv_pane" type="Pane"/>
+    <Component drawingorder="0" id="8428" maxVariety="0" mirror="true" name="cmail_conv_hdr_pane_t1" type="Text"/>
+    <Component drawingorder="1" id="8429" maxVariety="0" mirror="true" name="cmail_conv_hdr_pane_t2" type="Text"/>
+    <Component drawingorder="0" id="8430" maxVariety="7" mirror="true" name="bubble_cmail_conv_pane" type="Pane"/>
+    <Component drawingorder="0" id="8431" maxVariety="0" mirror="true" name="bg_bubble_cmail_conv_pane" type="Pane"/>
+    <Component drawingorder="0" id="8432" maxVariety="0" mirror="true" name="bg_bubble_cmail_conv_pane_g1" type="Graphic"/>
+    <Component drawingorder="1" id="8433" maxVariety="0" mirror="true" name="bg_bubble_cmail_conv_pane_g2" type="Graphic"/>
+    <Component drawingorder="2" id="8434" maxVariety="0" mirror="true" name="bg_bubble_cmail_conv_pane_g3" type="Graphic"/>
+    <Component drawingorder="1" id="8435" maxVariety="0" mirror="true" name="bubble_cmail_conv_pane_t1" type="Text"/>
+    <Component drawingorder="2" id="8436" maxVariety="0" mirror="true" name="bubble_cmail_conv_pane_g1" type="Graphic"/>
+    <Component drawingorder="3" id="8437" maxVariety="0" mirror="true" name="bubble_cmail_conv_pane_g2" type="Graphic"/>
+    <Component drawingorder="4" id="8438" maxVariety="0" mirror="true" name="bubble_cmail_conv_pane_g3" type="Graphic"/>
+    <Component drawingorder="5" id="8439" maxVariety="0" mirror="true" name="body_bubble_cmail_conv_pane" type="Pane"/>
+    <Component drawingorder="0" id="8440" maxVariety="1" mirror="true" name="body_bubble_cmail_conv_pane_t1" type="Text"/>
+    <Component drawingorder="1" id="8441" maxVariety="0" mirror="true" name="body_bubble_cmail_conv_pane_t2" type="Text"/>
+    <Component drawingorder="6" id="8442" maxVariety="0" mirror="true" name="aid_size_colorization_pane" type="Pane"/>
+    <Component drawingorder="25" id="8443" maxVariety="1" mirror="true" name="main_button_pane_5" type="Pane"/>
+    <Component drawingorder="4" id="8444" maxVariety="1" mirror="true" name="sso_emg_call_btn_pane" type="Pane"/>
+    <Component drawingorder="13" id="8445" maxVariety="3" mirror="true" name="att_btn_pane_cp02" type="Pane"/>
+    <Component drawingorder="5" id="8447" maxVariety="2" mirror="true" name="list_single_dyc_row_pane_g5" type="Graphic"/>
+    <Component drawingorder="6" id="8448" maxVariety="2" mirror="true" name="list_single_dyc_row_pane_g6" type="Graphic"/>
+    <Component drawingorder="7" id="8449" maxVariety="2" mirror="true" name="list_single_dyc_row_pane_g7" type="Graphic"/>
+    <Component drawingorder="2" id="8450" maxVariety="0" mirror="true" name="sso_option_row_pane_g2" type="Graphic"/>
+    <Component drawingorder="20" id="8451" maxVariety="1" mirror="true" name="sso_t_sub_pane_cp01" type="Pane"/>
 </Layout>

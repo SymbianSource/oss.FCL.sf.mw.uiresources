@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LayoutAttributes createdOn="2010-09-07 16:42:19.041" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.09312171444836848">
+<LayoutAttributes createdOn="2010-10-27 17:51:03.846" LayoutToolVer="2009-05-04 11:08 AM" MasterId="0.09312171444836848">
   <attributeset compId="1" name="D">
     <attribute id="24" name="list type">
       <calc value="Forced"/>
@@ -71,7 +71,7 @@
       <calc value="69"/>
     </attribute>
     <attribute id="219" name="Height window heading">
-      <calc value="39"/>
+      <calc value="36"/>
     </attribute>
     <attribute id="220" name="Height window find">
       <calc value="48"/>
@@ -9228,13 +9228,36 @@
       <calc value="true"/>
     </attribute>
     <attribute id="49" name="Number of columns">
-      <calc value="4"/>
+      <calc value="5"/>
     </attribute>
     <attribute id="50" name="Hz Align">
       <calc value="left"/>
     </attribute>
     <attribute id="51" name="Vt Align">
       <calc value="top"/>
+    </attribute>
+  </attributeset>
+  <attributeset compId="5862" name="a1">
+    <attribute id="24" name="list type">
+      <calc value="Forced"/>
+    </attribute>
+    <attribute id="25" name="gap">
+      <calc value="3"/>
+    </attribute>
+    <attribute id="46" name="Multi Row">
+      <calc value="false"/>
+    </attribute>
+    <attribute id="47" name="Multi Column">
+      <calc value="true"/>
+    </attribute>
+    <attribute id="49" name="Number of columns">
+      <calc value="4"/>
+    </attribute>
+    <attribute id="50" name="Hz Align">
+      <calc value="centered"/>
+    </attribute>
+    <attribute id="51" name="Vt Align">
+      <calc value="centered"/>
     </attribute>
   </attributeset>
   <attributeset compId="5879" name="a0">
